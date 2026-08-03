@@ -4,7 +4,7 @@
 - [x] 設計ドキュメントの作成 (`docs/00_overview.md` ～ `docs/05_design_system.md`)
 - [x] 開発規約 `CLAUDE.md` の作成
 - [x] ToDoリスト `TODO.md` の作成
-- [ ] 初期設計コミットの記録 (`git commit`)
+- [x] 初期設計コミットの記録 (`git commit`)
 
 ## Phase 2: Flutter プロジェクト初期化 & パッケージ依存関係の設定
 - [ ] Flutter プロジェクトの生成 (`flutter create --org com.encello encello`)
