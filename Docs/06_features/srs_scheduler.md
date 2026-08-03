@@ -48,6 +48,14 @@ SM-2 の grade（0〜5）を、モードごとに次の表で決める。判定�
 | flashcard | 「覚えた」 | 4 |
 | flashcard | 「あやしい」 | 2 |
 | flashcard | 何も押さずに送った | 更新しない |
+| speed | 時間内に正解 | 4 |
+| speed | **時間切れ** | 更新しない（「知らない」ではなく「遅い」） |
+| speed | 時間内に誤答 | 1 |
+| parts | 正解 / 不正解 | 4 / 1（`part_reviews` を更新する） |
+| parts（推測問題） | 正解 / 不正解 | 更新しない（[word_parts.md] §6） |
+| family | スペルモードと同じ | 答えた語の `word_reviews` だけを更新する |
+| confusion | 正解 | 出題した語のみ 4 |
+| confusion | 不正解 | **両方の語**を 1（[confusion_drill.md] §5） |
 
 - **4択で 5 を出さない**。4択は 25% が当てずっぽうで当たるため、綴りモードと同じ強さで
   間隔を伸ばすと定着していない語がマスター判定に入り込む。
@@ -127,8 +135,18 @@ final dueAt = base.add(Duration(days: interval.round()));
 
 ### 6.1 候補プール
 
-選択中の単語帳に属する単語のうち、`isExcluded = false` のもの。
-同じ単語が複数の単語帳に属していても **1度しか入らない**（`wordId` で一意化する）。
+現在の学習者が選んでいる単語帳に属する単語のうち、次をすべて満たすもの。
+
+```sql
+(words.ownerProfileId IS NULL OR words.ownerProfileId = :profileId)
+AND words.isExcluded = false
+AND words.isDraft   = false
+```
+
+- 他の学習者のマイ単語は入らない（[my_words.md] §2）。
+- 訳の無い下書きは入らない。答え合わせができないため。
+- 同じ単語が複数の単語帳に属していても **1度しか入らない**（`wordId` で一意化する）。
+- 語のつくりモードだけはプールが `word_parts` になる（[word_parts.md] §5.3）。
 
 ### 6.2 出題方針ごとの取り方
 
@@ -158,8 +176,12 @@ final dueAt = base.add(Duration(days: interval.round()));
 ## 7. 「今日の復習 N語」の数え方
 
 ホームと FAB のバッジに出す件数は、
-**選択中の単語帳に属し、除外されておらず、`dueAt <= now` の語の数**。
+**現在の学習者の候補プール（§6.1）のうち `dueAt <= now` の語の数**。
 上限を設けず実数を出す（「99+」で丸めない。何語残っているかが学習計画の材料になる）。
+
+語の部品（`part_reviews`）の期限到来分はこの件数に含めない。
+単語と部品を足すと「何語覚え直すのか」が分からなくなるため、
+語のつくりモードのカードに別途「復習 8個」と出す。
 
 ## 8. テスト観点
 

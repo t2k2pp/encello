@@ -34,11 +34,13 @@ stateDiagram-v2
 ```
 
 - `silentAuto` は `Ticker` で残り時間バーを描き、満了で送る。
-- `speakEn` / `speakJa` は `TtsService.speak()` の完了を待って送る。
-  **固定秒のタイマーで代用しない**。語の長さで読み上げ時間が変わるため、
+- `speakEn` / `speakJa` は `PronunciationService.speakWord()` の完了を待って送る。
+  音声ファイルで鳴るか合成音声で鳴るかは `PronunciationService` が決めるので、
+  この画面は音源を意識しない（[pronunciation.md] §6）。
+  **固定秒のタイマーで代用しない**。語の長さで再生時間が変わるため、
   タイマーだと長い語が途中で切れ、短い語で無駄に待つ。
-- 読み上げが失敗したら送りを止め（`Halted`）、理由を SnackBar で示してセッションを終える。
-  無音のまま自動送りを続けない。
+- 再生が失敗したら送りを止め（`Halted`）、理由を SnackBar で示してセッションを終える。
+  無音のまま自動送りを続けない。**別の音源に切り替えて続行もしない**（[pronunciation.md] §2.2）。
 - 「戻る ◀」「進む ▶」で手動移動できる。手動移動すると自動送りは一時停止する
   （ユーザーが操作した以上、勝手に流し始めない）。
 - 学習中は `wakelock_plus` で画面を点けたままにする（NFR-10）。画面を離れたら必ず解除する。
@@ -81,8 +83,9 @@ stateDiagram-v2
 
 ## 6. テスト観点
 
-- `speakEn` で `speak` の完了 Future が解決するまで次のカードへ進まない。
-- `speak` が例外を投げたら送りが止まり、セッションが `Halted` になる。
+- `speakEn` で `speakWord` の完了 Future が解決するまで次のカードへ進まない
+  （音声ファイル・合成音声のどちらでも同じ）。
+- `speakWord` が例外を投げたら送りが止まり、セッションが `Halted` になる。
 - `silentAuto` で設定秒数どおりに送られる（`FakeAsync` で検証）。
 - 手動で「進む」を押すと自動送りが一時停止する。
 - 自己評価を押さずに流したカードが `learning_logs` にも `daily_stats` にも入らない。

@@ -127,8 +127,9 @@ class Wrong extends SpellVerdict {}
 | `NearMiss` | `nearMissFill` | ⚠ 「惜しい」 ＋ `SpellDiffText` ＋ 例文 ＋ 「次へ」 |
 | `Wrong` | `wrong` | ✕ ＋ 正解の綴りと発音記号 ＋ 例文 ＋ 「次へ」 |
 
-- 正解時は英単語を自動で読み上げる（FR-20）。読み上げが失敗しても帯は出したままにし、
-  SnackBar で失敗を示す（無音のまま成功したように見せない）。
+- 正解時は英単語を自動で読み上げる（FR-20）。`PronunciationService.speakWord()` を使うので、
+  音声ファイルがあればそれで、無ければ合成音声で鳴る（[pronunciation.md] §2）。
+  再生が失敗しても帯は出したままにし、SnackBar で失敗を示す（無音のまま成功したように見せない）。
 - 「次へ」は自動では進まない。設定「正解したら自動で次へ」（既定 OFF）が ON のときだけ、
   `Correct` に限り 1.2 秒後に進む。`NearMiss` / `Wrong` は設定に関わらず必ずタップで進む
   （間違えた語ほど見る時間が要る）。

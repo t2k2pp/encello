@@ -23,9 +23,15 @@
 
 ### 2.1 パーミッション
 
-**追加のパーミッションを必要としない**。
-カメラ・位置情報・マイク・ネットワークのいずれも使わない。
-`AndroidManifest.xml` に `INTERNET` も書かない（フォントを同梱し、TTS も端末内で完結するため）。
+| パーミッション | 用途 |
+|---|---|
+| `POST_NOTIFICATIONS` | 学習リマインダー（Android 13+）。実行時に求める |
+
+これ以外は必要としない。カメラ・位置情報・マイク・ネットワークのいずれも使わない。
+`AndroidManifest.xml` に `INTERNET` も書かない（フォントを同梱し、TTS も音声再生も端末内で完結するため）。
+
+`SCHEDULE_EXACT_ALARM` / `USE_EXACT_ALARM` は**宣言しない**。
+リマインダーは inexact スケジュールで予約する（[06_features/reminders.md] §3）。
 
 ### 2.2 TTS
 
@@ -44,11 +50,22 @@ Android の TTS は `TextToSpeech` エンジン（多くは Google 音声サー�
 </queries>
 ```
 
-### 2.3 画面のスリープ
+### 2.3 共有シートの受信
+
+`receive_sharing_intent` のため、`AndroidManifest.xml` の `MainActivity` に
+`text/plain` の `ACTION_SEND` / `ACTION_SEND_MULTIPLE` の intent-filter を宣言する。
+受け取ったテキストの扱いは [06_features/my_words.md] §4.2。
+
+### 2.4 音声ファイルの再生
+
+`audioplayers` はパーミッションを必要としない（ローカルファイルとアセットのみを再生する）。
+音声パックの展開先はアプリ文書ディレクトリで、外部ストレージを使わない。
+
+### 2.5 画面のスリープ
 
 `wakelock_plus` はパーミッションを必要としない（`FLAG_KEEP_SCREEN_ON` を使う）。
 
-### 2.4 署名
+### 2.6 署名
 
 リリース署名は `android/key.properties`（**リポジトリに含めない**）から読む。
 `android/app/build.gradle.kts` に `signingConfigs` を定義する。
@@ -60,15 +77,26 @@ Android の TTS は `TextToSpeech` エンジン（多くは Google 音声サー�
 | Deployment Target | 13.0 |
 | Bundle Identifier | `com.encello.encello` |
 
-### 3.1 Info.plist
+### 3.1 Info.plist と AVAudioSession
 
 - 追加の usage description は不要（カメラ・マイク・位置情報を使わない）。
-- **サイレントスイッチが ON でも読み上げを鳴らす**ため、`AVAudioSession` のカテゴリを
-  `playback` にする。`flutter_tts` の `setIosAudioCategory` を起動時に1度呼ぶ。
-  学習中に「音が鳴らない」原因の大半がこれになる。
+- **サイレントスイッチが ON でも音を鳴らす**ため、`AVAudioSession` のカテゴリを
+  `playback` にする。学習中に「音が鳴らない」原因の大半がこれになる。
 - 他アプリの音楽を止めないよう `mixWithOthers` を併用する。
+- **設定するのは1か所にする**。`flutter_tts` の `setIosAudioCategory` と
+  `audioplayers` の `AudioContextIOS` が同じ `AVAudioSession` を触るため、
+  両方から別々の設定を投げると後勝ちで挙動が変わる。
+  起動時に `audioplayers` の `AudioPlayer.global.setAudioContext` で
+  `playback` + `mixWithOthers` を1度だけ設定し、`flutter_tts` 側では変更しない。
+- 通知は `flutter_local_notifications` の `requestPermissions` で許可を求める
+  （リマインダーを ON にしようとしたときのみ。[06_features/reminders.md] §4）。
 
-### 3.2 TTS
+### 3.2 共有シートの受信
+
+`receive_sharing_intent` のため Share Extension を追加し、App Group を設定する。
+テキスト（`public.plain-text`）だけを受け取り、それ以外の種別は宣言しない。
+
+### 3.3 TTS
 
 iOS は OS 標準の音声が常に入っているため、voice が0件になることは通常ない。
 ただし「拡張」音声が未ダウンロードの場合があるので、能力取得の扱いは Android と同じにする。
