@@ -11,6 +11,7 @@ import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../widgets/soft_card.dart';
 import 'profiles_screen.dart';
+import 'wordbooks_screen.dart';
 
 /// SCR-11 設定（[Docs/04_screens_and_flows.md] §4.10、[STYLE_GUIDE §5]）。
 ///
@@ -51,7 +52,7 @@ class SettingsScreen extends StatelessWidget {
             child: TabBarView(
               children: [
                 _DisplayTab(profile: profile),
-                const _MasterTab(),
+                _MasterTab(profile: profile),
                 const _InfoTab(),
               ],
             ),
@@ -259,10 +260,11 @@ class _DensityCard extends ConsumerWidget {
   }
 }
 
-/// マスタタブ。単語帳・マイ単語・音声パック・実績のタイルは、それぞれの機能が
-/// 入った時点で足す。
+/// マスタタブ。マイ単語・音声パック・実績のタイルは、それぞれの機能が入った時点で足す。
 class _MasterTab extends StatelessWidget {
-  const _MasterTab();
+  final Profile profile;
+
+  const _MasterTab({required this.profile});
 
   @override
   Widget build(BuildContext context) {
@@ -275,6 +277,16 @@ class _MasterTab extends StatelessWidget {
           label: '学習者管理',
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute<void>(builder: (_) => const ProfilesScreen()),
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.library_books_outlined,
+          label: '単語帳管理',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => WordbooksScreen(profile: profile),
+            ),
           ),
         ),
       ],

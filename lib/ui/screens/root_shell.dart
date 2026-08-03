@@ -57,7 +57,7 @@ class RootShell extends ConsumerWidget {
           index: index,
           children: [
             HomeScreen(profile: profile),
-            const DictionaryScreen(),
+            DictionaryScreen(profile: profile),
             const StatsScreen(),
             SettingsScreen(profile: profile),
           ],

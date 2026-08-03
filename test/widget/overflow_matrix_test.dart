@@ -1,4 +1,7 @@
+import 'package:drift/drift.dart' hide isNull, isNotNull;
+import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
+import 'package:encello/data/repositories/wordbook_repository.dart';
 import 'package:encello/ui/screens/dictionary_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
 import 'package:encello/ui/screens/profile_gate_screen.dart';
@@ -6,6 +9,9 @@ import 'package:encello/ui/screens/profiles_screen.dart';
 import 'package:encello/ui/screens/root_shell.dart';
 import 'package:encello/ui/screens/settings_screen.dart';
 import 'package:encello/ui/screens/stats_screen.dart';
+import 'package:encello/ui/screens/word_detail_screen.dart';
+import 'package:encello/ui/screens/wordbook_detail_screen.dart';
+import 'package:encello/ui/screens/wordbooks_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -16,7 +22,7 @@ import '../helpers/test_database.dart';
 ///
 /// **幅 320 / 390 / 768 dp × textScaler 1.0 / 1.3 / 1.6** の9通りを主要画面に回し、
 /// `tester.takeException()` が null であることを確認する。
-/// 学習者名には上限いっぱいの20文字を使う。
+/// 長い値（20文字の学習者名・単語帳名、`internationalization`、長い和訳）を使う。
 void main() {
   const widths = <double>[320, 390, 768];
   const scales = <double>[1.0, 1.3, 1.6];
@@ -24,12 +30,59 @@ void main() {
   /// 20文字の学習者名（`profiles.name` の上限）。
   const longName = 'あいうえおかきくけこさしすせそたちつてと';
   const longName2 = 'なにぬねのはひふへほまみむめもやゆよわ';
+  const longBookName = 'とてもながいなまえのたんごちょうです';
+  const longHeadword = 'internationalization';
+  const longMeaning = '〜を国際化する；〜に国際的な性格を与える；国際管理下に置く';
 
   late AppDatabase db;
 
   setUp(() {
     db = newTestDatabase();
   });
+
+  /// 単語帳と長い単語を用意し、単語帳 id と単語 id を返す。
+  Future<({int wordbookId, int wordId})> seedWords(Profile profile) async {
+    final repo = WordbookRepository(db);
+    final wordbookId = await repo.create(
+      name: longBookName,
+      emoji: '📗',
+      colorSeed: 2,
+      note: 'とてもながい説明文がここに入ります。折り返しが効いていることを確かめます。',
+    );
+    final wordId = await db
+        .into(db.words)
+        .insert(
+          WordsCompanion.insert(
+            headword: longHeadword,
+            partOfSpeech: PartOfSpeech.verb.value,
+            meaning: longMeaning,
+            phonetic: const Value('/ˌɪntərˌnæʃənələˈzeɪʃən/'),
+            exampleEn: const Value(
+              'The internationalization of the company took several years.',
+            ),
+            exampleJa: const Value('その会社の国際化には数年かかりました。'),
+            presetId: const Value('jhs_v1:internationalization:verb'),
+            isEdited: const Value(true),
+            isExcluded: const Value(true),
+          ),
+        );
+    await repo.addWord(wordbookId, wordId);
+    await db
+        .into(db.wordReviews)
+        .insert(
+          WordReviewsCompanion.insert(
+            profileId: profile.id,
+            wordId: wordId,
+            dueAt: DateTime(2026, 8, 4, 4),
+            masteryLevel: const Value(2),
+            totalCorrect: const Value(12),
+            totalIncorrect: const Value(3),
+            correctStreak: const Value(4),
+          ),
+        );
+    await repo.setStudyTarget(profile, wordbookId, selected: true);
+    return (wordbookId: wordbookId, wordId: wordId);
+  }
 
   /// 主要画面を1つ描画して、レイアウト例外が出ないことを確認する。
   Future<void> checkMatrix(
@@ -62,7 +115,7 @@ void main() {
     }
   }
 
-  group('主要画面が 幅×文字拡大 のマトリクスで溢れない', () {
+  group('学習者まわりの画面', () {
     testWidgets('プロファイルゲート（学習者2人）', (tester) async {
       await createTestProfile(db, name: longName, colorSeed: 0);
       await createTestProfile(db, name: longName2, colorSeed: 1);
@@ -83,22 +136,52 @@ void main() {
       );
     });
 
-    testWidgets('ホーム', (tester) async {
+    testWidgets('学習者管理', (tester) async {
+      await createTestProfile(db, name: longName, colorSeed: 0);
+      await createTestProfile(db, name: longName2, colorSeed: 1);
+      await checkMatrix(tester, '学習者管理', (_) => const ProfilesScreen());
+    });
+  });
+
+  group('シェルとタブ', () {
+    testWidgets('ホーム（単語帳未選択）', (tester) async {
       await createTestProfile(db, name: longName);
       await checkMatrix(
         tester,
-        'ホーム',
+        'ホーム（未選択）',
         (profile) => HomeScreen(profile: profile!),
         wrapInScaffold: true,
       );
     });
 
-    testWidgets('辞書', (tester) async {
+    testWidgets('ホーム（単語帳を選択済み）', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await checkMatrix(
+        tester,
+        'ホーム（選択済み）',
+        (p) => HomeScreen(profile: p!),
+        wrapInScaffold: true,
+      );
+    });
+
+    testWidgets('辞書（単語なし）', (tester) async {
       await createTestProfile(db, name: longName);
       await checkMatrix(
         tester,
+        '辞書（空）',
+        (profile) => DictionaryScreen(profile: profile!),
+        wrapInScaffold: true,
+      );
+    });
+
+    testWidgets('辞書（長い語あり）', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await checkMatrix(
+        tester,
         '辞書',
-        (_) => const DictionaryScreen(),
+        (p) => DictionaryScreen(profile: p!),
         wrapInScaffold: true,
       );
     });
@@ -121,11 +204,40 @@ void main() {
         (profile) => RootShell(profile: profile!),
       );
     });
+  });
 
-    testWidgets('学習者管理', (tester) async {
-      await createTestProfile(db, name: longName, colorSeed: 0);
-      await createTestProfile(db, name: longName2, colorSeed: 1);
-      await checkMatrix(tester, '学習者管理', (_) => const ProfilesScreen());
+  group('単語帳と単語', () {
+    testWidgets('単語帳管理', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await checkMatrix(
+        tester,
+        '単語帳管理',
+        (p) => WordbooksScreen(profile: p!),
+      );
+    });
+
+    testWidgets('単語帳の中身', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      final seeded = await seedWords(profile);
+      await checkMatrix(
+        tester,
+        '単語帳の中身',
+        (p) => WordbookDetailScreen(
+          wordbookId: seeded.wordbookId,
+          profile: p!,
+        ),
+      );
+    });
+
+    testWidgets('単語詳細', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      final seeded = await seedWords(profile);
+      await checkMatrix(
+        tester,
+        '単語詳細',
+        (p) => WordDetailScreen(wordId: seeded.wordId, profile: p!),
+      );
     });
   });
 

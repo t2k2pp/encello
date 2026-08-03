@@ -7,38 +7,37 @@ import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../widgets/color_dot.dart';
 import '../widgets/emoji_picker_sheet.dart';
-import '../widgets/profile_avatar.dart';
 
-/// 学習者の追加/編集シート（[STYLE_GUIDE §4.2]）。
+/// 単語帳の追加/編集シート（[STYLE_GUIDE §4.2]、[Docs/06_features/wordbooks.md] §4）。
 ///
-/// 追加した場合は作成した [Profile] を、編集した場合は `null` を返す
-/// （追加直後にその学習者で開始できるようにするため）。
-Future<Profile?> showUpsertProfileSheet(
+/// ユーザー単語帳は全学習者で共有する（マイ単語帳だけが個人のもの）。
+Future<void> showUpsertWordbookSheet(
   BuildContext context, {
-  Profile? editing,
+  Wordbook? editing,
 }) {
-  return showModalBottomSheet<Profile>(
+  return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
     shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
     ),
-    builder: (_) => _UpsertProfileSheet(editing: editing),
+    builder: (_) => _UpsertWordbookSheet(editing: editing),
   );
 }
 
-class _UpsertProfileSheet extends ConsumerStatefulWidget {
-  final Profile? editing;
+class _UpsertWordbookSheet extends ConsumerStatefulWidget {
+  final Wordbook? editing;
 
-  const _UpsertProfileSheet({required this.editing});
+  const _UpsertWordbookSheet({required this.editing});
 
   @override
-  ConsumerState<_UpsertProfileSheet> createState() =>
-      _UpsertProfileSheetState();
+  ConsumerState<_UpsertWordbookSheet> createState() =>
+      _UpsertWordbookSheetState();
 }
 
-class _UpsertProfileSheetState extends ConsumerState<_UpsertProfileSheet> {
+class _UpsertWordbookSheetState extends ConsumerState<_UpsertWordbookSheet> {
   late final TextEditingController _nameCtrl;
+  late final TextEditingController _noteCtrl;
   late String _emoji;
   late int _colorSeed;
   bool _saving = false;
@@ -48,13 +47,15 @@ class _UpsertProfileSheetState extends ConsumerState<_UpsertProfileSheet> {
     super.initState();
     final e = widget.editing;
     _nameCtrl = TextEditingController(text: e?.name ?? '');
-    _emoji = e?.emoji ?? '🙂';
+    _noteCtrl = TextEditingController(text: e?.note ?? '');
+    _emoji = e?.emoji ?? '📗';
     _colorSeed = e?.colorSeed ?? 0;
   }
 
   @override
   void dispose() {
     _nameCtrl.dispose();
+    _noteCtrl.dispose();
     super.dispose();
   }
 
@@ -67,31 +68,27 @@ class _UpsertProfileSheetState extends ConsumerState<_UpsertProfileSheet> {
     final name = _nameCtrl.text.trim();
     if (name.isEmpty || _saving) return;
     setState(() => _saving = true);
-    final repo = ref.read(profileRepositoryProvider);
+    final note = _noteCtrl.text.trim();
+    final repo = ref.read(wordbookRepositoryProvider);
     try {
       final editing = widget.editing;
       if (editing == null) {
-        final created = await repo.create(
+        await repo.create(
           name: name,
           emoji: _emoji,
           colorSeed: _colorSeed,
-          // 新しい学習者はアプリの既定配色から始める。
-          paletteId: pinkPalette.id,
+          note: note.isEmpty ? null : note,
         );
-        if (mounted) Navigator.pop(context, created);
       } else {
-        await repo.updateIdentity(
+        await repo.update(
           editing.id,
           name: name,
           emoji: _emoji,
           colorSeed: _colorSeed,
+          note: note.isEmpty ? null : note,
         );
-        // 編集したのが現在の学習者なら、画面に出ている値を読み直す。
-        if (ref.read(activeProfileProvider)?.id == editing.id) {
-          await ref.read(activeProfileProvider.notifier).reload();
-        }
-        if (mounted) Navigator.pop(context);
       }
+      if (mounted) Navigator.pop(context);
     } catch (e) {
       if (!mounted) return;
       setState(() => _saving = false);
@@ -116,26 +113,40 @@ class _UpsertProfileSheetState extends ConsumerState<_UpsertProfileSheet> {
           mainAxisSize: MainAxisSize.min,
           children: [
             Text(
-              widget.editing == null ? '学習者を追加' : '学習者を編集',
+              widget.editing == null ? '単語帳を追加' : '単語帳を編集',
               style: AppText.sectionTitle(),
             ),
             const SizedBox(height: 12),
             Row(
               children: [
-                ProfileAvatar(
-                  emoji: _emoji,
-                  colorSeed: _colorSeed,
-                  size: 56,
-                  selected: true,
+                InkWell(
+                  customBorder: const CircleBorder(),
+                  onTap: _pickEmoji,
+                  child: Container(
+                    width: 56,
+                    height: 56,
+                    alignment: Alignment.center,
+                    decoration: BoxDecoration(
+                      color: AppColors.seedColor(
+                        _colorSeed,
+                      ).withValues(alpha: 0.18),
+                      borderRadius: BorderRadius.circular(14),
+                    ),
+                    child: Text(
+                      _emoji,
+                      textScaler: TextScaler.noScaling,
+                      style: const TextStyle(fontSize: 28),
+                    ),
+                  ),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
                   child: TextField(
                     controller: _nameCtrl,
                     autofocus: widget.editing == null,
-                    maxLength: 20,
+                    maxLength: 40,
                     decoration: const InputDecoration(
-                      labelText: '名前',
+                      labelText: '単語帳の名前',
                       counterText: '',
                     ),
                     onSubmitted: (_) => _save(),
@@ -143,8 +154,6 @@ class _UpsertProfileSheetState extends ConsumerState<_UpsertProfileSheet> {
                 ),
               ],
             ),
-            const SizedBox(height: 16),
-            Text('アバター', style: AppText.caption()),
             const SizedBox(height: 8),
             OutlinedButton.icon(
               onPressed: _pickEmoji,
@@ -157,6 +166,12 @@ class _UpsertProfileSheetState extends ConsumerState<_UpsertProfileSheet> {
             ColorDotPicker(
               selectedSeed: _colorSeed,
               onChanged: (seed) => setState(() => _colorSeed = seed),
+            ),
+            const SizedBox(height: 12),
+            TextField(
+              controller: _noteCtrl,
+              maxLines: 2,
+              decoration: const InputDecoration(labelText: '説明（任意）'),
             ),
             const SizedBox(height: 20),
             FilledButton(

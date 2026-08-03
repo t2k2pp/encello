@@ -10,6 +10,8 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'app.dart';
 import 'core/theme/app_colors.dart';
 import 'core/theme/app_text.dart';
+import 'data/database/app_database.dart';
+import 'data/seeds/seed_importer.dart';
 import 'providers/providers.dart';
 
 Future<void> main() async {
@@ -50,8 +52,9 @@ Future<void> main() async {
 /// 起動時の非同期初期化の結果。[ProviderScope] の override にまとめて渡す。
 class _BootstrapData {
   final SharedPreferences prefs;
+  final AppDatabase db;
 
-  const _BootstrapData(this.prefs);
+  const _BootstrapData(this.prefs, this.db);
 }
 
 /// 起動ゲート（[Docs/02_architecture.md] §4）。
@@ -96,9 +99,21 @@ class _BootstrapGateState extends State<BootstrapGate> {
     }
   }
 
+  /// DB は再試行で作り直さない（同じファイルを二重に開かないため）。
+  AppDatabase? _db;
+
   Future<_BootstrapData> _load() async {
     final prefs = await SharedPreferences.getInstance();
-    return _BootstrapData(prefs);
+    final db = _db ??= AppDatabase(null);
+    // プリセット単語帳の投入。アセットの seedVersion が DB の値より新しいときだけ
+    // 差分を適用する（[Docs/06_features/wordbooks.md] §3.1）。
+    final result = await SeedImporter(db, rootBundle).importIfNeeded(
+      installedVersion: prefs.getInt(kSeedInstalledVersionKey) ?? 0,
+    );
+    if (result.applied) {
+      await prefs.setInt(kSeedInstalledVersionKey, result.installedVersion);
+    }
+    return _BootstrapData(prefs, db);
   }
 
   void _retry() {
@@ -110,11 +125,20 @@ class _BootstrapGateState extends State<BootstrapGate> {
   }
 
   @override
+  void dispose() {
+    _db?.close();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     final data = _data;
     if (data != null) {
       return ProviderScope(
-        overrides: [sharedPrefsProvider.overrideWithValue(data.prefs)],
+        overrides: [
+          sharedPrefsProvider.overrideWithValue(data.prefs),
+          databaseProvider.overrideWithValue(data.db),
+        ],
         child: const EncelloApp(),
       );
     }

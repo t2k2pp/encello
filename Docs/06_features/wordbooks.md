@@ -52,14 +52,17 @@ TOEIC 基本語は難易度が学年順に並ばないため、帯には使わ�
   "name": "中学英単語",
   "emoji": "🏫",
   "category": "juniorHigh",
+  "colorSeed": 1,
   "seedVersion": 1,
+  "bandSize": 1600,
+  "sortOrder": 10,
   "note": "中学校で学ぶ基本語彙",
   "words": [
     {
       "presetId": "jhs_v1:apple:noun",
       "headword": "apple",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈæpl/",
+      "phonetic": "/ˈæpəl/",
       "meaning": "りんご",
       "exampleEn": "I ate an apple for breakfast.",
       "exampleJa": "朝食にりんごを食べました。",
@@ -68,6 +71,16 @@ TOEIC 基本語は難易度が学年順に並ばないため、帯には使わ�
   ]
 }
 ```
+
+| 項目 | 意味 |
+|---|---|
+| `colorSeed` | 識別色の割当シード（`AppColors.seedColor`）。一覧サムネと単語帳チップに使う |
+| `bandSize` | 語彙力測定で帯として使うときの語数。帯に使わない単語帳は `null` |
+| `sortOrder` | 単語帳一覧の並び。帯として使う単語帳は易→難の順に並べる |
+| `phonetic` / `exampleEn` / `exampleJa` | 空文字は「値なし」として `null` で取り込む（空文字と null を DB で混在させない） |
+
+読み込むアセットは `SeedImporter.assetPaths` に**明示列挙する**。アセット一覧の走査にしない
+（列挙漏れは投入されないことですぐ気付けるが、走査だと意図しないファイルが混ざっても気付けない）。
 
 ### 3.1 投入の手順（`SeedImporter`）
 
@@ -84,7 +97,11 @@ TOEIC 基本語は難易度が学年順に並ばないため、帯には使わ�
 4. 全部成功したら `seed.installedVersion` を更新する。
 
 - 失敗したらトランザクションを巻き戻し、起動ゲートにエラーと再試行を出す。
-  空の単語帳でアプリを起動させない。
+  空の単語帳でアプリを起動させない。**全単語帳を1つのトランザクションで適用する**
+  （半分だけ入った状態を残さない）。
+- 判定は**アセット側の最大 `seedVersion`** と `seed.installedVersion` の比較だけで行う。
+  よって**単語帳を1冊追加するときも `seedVersion` を上げる**。上げないと、
+  すでに投入済みの端末に新しい単語帳が入らない。
 - 初回は全単語帳を投入するが、**学習対象としては選択しない**。
   ホームの初回表示で「学習する単語帳を選びましょう」を出し、
   語彙力測定でレベルに合う1冊を提案するか、自分で選ばせる（[04_screens_and_flows.md] §4.1）。

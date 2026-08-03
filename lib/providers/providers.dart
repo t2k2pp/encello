@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 // StateProvider は Riverpod 3 で legacy 扱い（rootTabIndexProvider で使用）。
 import 'package:flutter_riverpod/legacy.dart';
@@ -6,10 +7,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../core/theme/app_colors.dart';
 import '../data/database/app_database.dart';
 import '../data/repositories/profile_repository.dart';
+import '../data/repositories/word_repository.dart';
+import '../data/repositories/wordbook_repository.dart';
+import '../data/seeds/seed_importer.dart';
 
-/// 前回使った学習者（[Docs/03_data_model.md] §8）。
-/// 学習者ごとの設定は `profiles` の列に持つため、prefs には端末レベルの値だけを置く。
+/// 端末レベルの設定キー（[Docs/03_data_model.md] §8）。
+/// 学習者ごとの設定は `profiles` の列に持つため、prefs にはこれだけを置く。
 const kLastActiveProfileKey = 'profile.lastActiveId';
+const kSeedInstalledVersionKey = 'seed.installedVersion';
 
 /// 起動時に読み込んだ SharedPreferences。[BootstrapGate] で override する。
 final sharedPrefsProvider = Provider<SharedPreferences>(
@@ -30,6 +35,26 @@ final clockProvider = Provider<DateTime Function()>((ref) => DateTime.now);
 final profileRepositoryProvider = Provider<ProfileRepository>(
   (ref) => ProfileRepository(ref.watch(databaseProvider)),
 );
+
+final wordRepositoryProvider = Provider<WordRepository>(
+  (ref) => WordRepository(ref.watch(databaseProvider)),
+);
+
+final wordbookRepositoryProvider = Provider<WordbookRepository>(
+  (ref) => WordbookRepository(ref.watch(databaseProvider)),
+);
+
+/// プリセット投入（起動ゲート）と、プリセット語の「元に戻す」で使う。
+final seedImporterProvider = Provider<SeedImporter>(
+  (ref) => SeedImporter(ref.watch(databaseProvider), rootBundle),
+);
+
+/// 現在の学習者から見える単語帳（共有＋自分のマイ単語帳）。
+final wordbooksProvider =
+    StreamProvider.family<List<WordbookWithCount>, int>(
+      (ref, profileId) =>
+          ref.watch(wordbookRepositoryProvider).watchVisible(profileId),
+    );
 
 /// 登録されている学習者の一覧（プロファイルゲート・学習者管理が見る）。
 final profilesProvider = StreamProvider<List<Profile>>(

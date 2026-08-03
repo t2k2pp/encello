@@ -50,6 +50,8 @@
 
 ### 1.4 表示
 
+- `WordThumb` の「単語帳色」は、その語が属する単語帳のうち `sortOrder` が最小の1冊の
+  `colorSeed` を使う。どの単語帳にも属さない語は `chipBg` の無彩色にする。
 - リスト行 = `SoftCard`: `WordThumb`（見出し語の先頭1文字＋単語帳色＋習熟度リング）｜
   見出し語（15/w700, ellipsis）＋ caption（品詞・発音記号を `・` で結合）｜
   右カラム（`maxWidth: 110`）に和訳（`maxLines: 2`, ellipsis）と `MasteryBadge`。
