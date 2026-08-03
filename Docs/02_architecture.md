@@ -75,9 +75,13 @@ UI と学習セッションは `PronunciationService` だけを呼び、音声�
 「現在のプロファイル」をリポジトリ内部で参照すると、テストや一括処理で
 意図しないプロファイルのデータを触る事故が起きる。
 
-現在のプロファイルは `activeProfileProvider`（`Notifier<Profile>`）が持ち、
-UI から明示的に渡す。切り替え時にはルートを
-`KeyedSubtree(key: ValueKey('${profile.id}:${palette.id}'))` で作り直す。
+現在のプロファイルは `activeProfileProvider`（`Notifier<Profile?>`。null = 未選択）が持つ。
+切り替え時にはルートを `KeyedSubtree(key: ValueKey('${profile.id}:${palette.id}'))` で作り直す。
+
+プロファイルが選ばれている前提の画面（`RootShell` 以下）へは、この値をルート（`app.dart`）から
+**コンストラクタで明示的に渡す**。「現在のプロファイルは非 null」を派生 Provider で表すと、
+切り替え・削除の瞬間にその Provider が null を読んで落ちる経路ができるため、そこは Provider にしない。
+リポジトリのメソッドにも、この値から取り出した `profileId` を引数で渡す。
 
 ### 1.3 Drift 生成クラスの扱い
 
@@ -112,14 +116,14 @@ Flutter 3.44 / Dart 3.12（`environment: sdk: ^3.12.0`）を前提とする。
 | 用途 | パッケージ | 版 | 備考 |
 |---|---|---|---|
 | 状態管理 / DI | `flutter_riverpod` | ^3.3.2 | 姉妹アプリ共通 |
-| DB | `drift` / `drift_dev` | ^2.34.2 | 型安全 ORM・マイグレーションテスト |
+| DB | `drift` / `drift_dev` | ^2.34.0 | 型安全 ORM・マイグレーションテスト。`drift_dev` は 2.34.0 が上限（[08_platform_setup.md] §8） |
 | SQLite 本体 | `sqlite3` | ^3.5.0 | v3+ は build hooks で本体を同梱する。`sqlite3_flutter_libs` は EOL のため使わない |
 | パス | `path_provider` / `path` | ^2.1.6 / ^1.9.0 | DB ファイルの配置先 |
 | 読み上げ | `flutter_tts` | ^4.2.5 | 端末内 TTS。ネットワーク不要 |
 | 音声ファイル再生 | `audioplayers` | ^6.8.1 | 音声パックの単語音声。`onPlayerComplete` を `Completer` に橋渡しして、TTS と同じ「完了まで待つ Future」にする。`just_audio` は 0.10.x で 1.0 前のため採用しない |
 | ZIP 展開 | `archive` | ^4.0.9 | 音声パックの取り込み |
 | 通知 | `flutter_local_notifications` | ^22.2.0 | 学習リマインダー。**inexact スケジュール**で使い、exact alarm 権限を要求しない（[06_features/reminders.md] §3） |
-| タイムゾーン | `timezone` | ^0.10.0 | `zonedSchedule` に必要。`flutter_local_notifications` の依存 |
+| タイムゾーン | `timezone` | ^0.11.0 | `zonedSchedule` に必要。`flutter_local_notifications` 22 が要求する版 |
 | 共有受信 | `receive_sharing_intent` | ^1.9.0 | 他アプリからのテキストでマイ単語を登録（[06_features/my_words.md] §4.2） |
 | 画面スリープ抑止 | `wakelock_plus` | ^1.7.0 | フラッシュカード自動送り中（NFR-10） |
 | フォント | `google_fonts` | ^8.2.0 | Noto Sans JP を**アセット同梱**。ランタイム取得は禁止 |

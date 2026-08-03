@@ -1,0 +1,106 @@
+name: encello
+description: "綴る・聴く・見分けるの3方向で英単語を反復し、忘却曲線に沿って再出題する英単語学習アプリ。"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 状態管理 / DI
+  flutter_riverpod: ^3.3.2
+
+  # 永続化 (Drift / SQLite)
+  # sqlite3 v3+ は build hooks で SQLite 本体を自動同梱する（sqlite3_flutter_libs は EOL のため不使用）。
+  drift: ^2.34.0
+  sqlite3: ^3.5.0
+  path_provider: ^2.1.6
+  path: ^1.9.0
+
+  # 読み上げ（端末内 TTS・ネットワーク不要）
+  flutter_tts: ^4.2.5
+
+  # 音声パックの単語音声再生
+  audioplayers: ^6.8.1
+
+  # 音声パック（ZIP）の展開
+  archive: ^4.0.9
+
+  # 学習リマインダー（inexact スケジュール。exact alarm 権限は要求しない）
+  flutter_local_notifications: ^22.2.0
+  timezone: ^0.11.0
+
+  # 他アプリからの共有テキストでマイ単語を登録
+  receive_sharing_intent: ^1.9.0
+
+  # フラッシュカード自動送り中の画面スリープ抑止（NFR-10）
+  wakelock_plus: ^1.7.0
+
+  # UI 補助
+  google_fonts: ^8.2.0
+  emoji_picker_flutter: ^4.5.3
+  intl: ^0.20.2
+
+  # 単語帳の CSV 入出力
+  csv: ^8.0.0
+
+  # 入出力 / 共有
+  # ファイル選択は Flutter 公式の file_selector を使う。file_picker は安定版が
+  # win32 ^5.9 を固定しており share_plus 13+ と共存できない（[Docs/02_architecture.md] §3）。
+  share_plus: ^13.3.0
+  file_selector: ^1.1.0
+
+  # 端末レベルの設定の永続化（学習者ごとの設定は profiles の列に持つ）
+  shared_preferences: ^2.3.2
+
+  # セッションIDなど
+  uuid: ^4.6.0
+
+  # domain 層は Flutter に依存しないため @immutable 等を meta から直接使う
+  # （[Docs/02_architecture.md] §6）。
+  meta: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  # 2.34.1+1 以降は analyzer の下限が上がり、riverpod 3 が通常依存に持つ test の
+  # analyzer 上限と衝突して解決できない（[Docs/08_platform_setup.md] §8）。
+  drift_dev: ^2.34.0
+  build_runner: ^2.4.13
+  mocktail: ^1.0.4
+
+  # アプリアイコン生成（assets/icon/app_icon.png → Android/iOS のランチャーアイコン）
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+  # Noto Sans JP を同梱し、google_fonts のランタイム取得（ネットワーク依存）を無くす。
+  # ファイル名は google_fonts の規約（<Family>-<Weight>.ttf）に合わせること。
+  # ライセンスは同フォルダの OFL.txt（SIL Open Font License 1.1）。
+  assets:
+    - assets/google_fonts/
+
+# アプリアイコン設定。`dart run flutter_launcher_icons` で各解像度を生成する。
+# 背景色は pink パレットの bg（[Docs/08_platform_setup.md] §5）。
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#FDF5F8"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+  adaptive_icon_foreground_inset: 18
+  remove_alpha_ios: true
+  background_color_ios: "#FDF5F8"

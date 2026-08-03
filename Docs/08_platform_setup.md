@@ -4,8 +4,8 @@
 
 | 項目 | 値 |
 |---|---|
-| Flutter | 安定版 3.44 系 |
-| Dart | 3.12（`environment: sdk: ^3.12.0`） |
+| Flutter | 安定版 3.44 系（実装時点 3.44.8） |
+| Dart | 3.12（`environment: sdk: ^3.12.0`。実装時点 3.12.2） |
 | アプリID | `com.encello.encello` |
 | プロジェクト生成 | `flutter create --org com.encello --platforms=android,ios encello` |
 
@@ -17,9 +17,25 @@
 | 項目 | 値 | 理由 |
 |---|---|---|
 | `minSdkVersion` | 26（Android 8.0） | `flutter_tts` の voice 選択 API と、対象端末の想定に合わせる |
-| `targetSdkVersion` / `compileSdk` | 最新安定 | ストア要件 |
+| `targetSdkVersion` | Flutter 既定（36） | ストア要件 |
+| `compileSdk` | **37 に固定** | `receive_sharing_intent` 1.9.0 の AAR メタデータが `compileSdk >= 37` を要求する。API 37 はマイナーバージョン方式（`android-37.0`）配布のため AGP 9.1.1 以上が前提 |
 | `namespace` | `com.encello.encello` | |
-| Kotlin / AGP | Flutter 同梱の既定 | |
+| AGP | 9.2.1（`android/settings.gradle.kts`） | `compileSdk 37` の前提。Kotlin は **AGP 9 の built-in Kotlin** でコンパイルし、KGP（`org.jetbrains.kotlin.android`）は適用しない |
+| Gradle | 9.4.1（wrapper） | AGP 9.2.1 の前提 |
+
+ビルド時に `emoji_picker_flutter` と `flutter_tts` が KGP を適用している旨の警告が出る
+（Kotlin 2.2.10）。AGP 9 の built-in Kotlin と併存してビルドは通る。
+上流が built-in Kotlin へ移行したら警告は消えるため、こちらでの対応は要らない。
+
+### 2.0 Core library desugaring
+
+`flutter_local_notifications` v22 は `java.time` 等の desugaring を要求する。
+`android/app/build.gradle.kts` に次を置く。
+
+```kotlin
+compileOptions { isCoreLibraryDesugaringEnabled = true }
+dependencies { coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.1.4") }
+```
 
 ### 2.1 パーミッション
 
@@ -139,4 +155,11 @@ flutter_launcher_icons:
 
 ## 8. バージョンを固定している依存
 
-（現時点ではなし）
+| 依存 | 採用版 | 最新 | 理由 | 解除条件 |
+|---|---|---|---|---|
+| `drift_dev` | ^2.34.0 | 2.34.5 | 2.34.1+1 以降は `analyzer` の下限が上がり、`flutter_riverpod` 3 が**通常依存**に持つ `test` パッケージの analyzer 上限と衝突して解決できない（姉妹アプリ4本でも同じ上限を実測） | riverpod が `test` を dev 依存へ移すか、Flutter SDK の analyzer が上がったとき |
+| `build_runner` | ^2.4.13（解決 2.15.1） | 2.16.0 | Flutter SDK が `meta 1.18.0` を pin しているため 2.15.1 が上限 | Flutter SDK の `meta` が 1.19 以上になったとき |
+| `intl` | ^0.20.2 | 0.20.3 | `flutter_localizations` が `intl 0.20.2` を pin している | Flutter SDK 側の pin が上がったとき |
+| `timezone` | ^0.11.0 | 0.11.x | `flutter_local_notifications` 22 が `timezone ^0.11.0` を要求する（設計当初の 0.10 系では解決できない） | — （最新に追従済み） |
+
+上記以外の直接依存は、実装時点（2026-08-04）で最新安定版に揃っている。

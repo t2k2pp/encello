@@ -1,0 +1,357 @@
+import 'package:drift/drift.dart' show Value;
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+import '../../core/theme/app_colors.dart';
+import '../../core/theme/app_spacing.dart';
+import '../../core/theme/app_text.dart';
+import '../../core/utils/app_version.dart';
+import '../../core/utils/enums.dart';
+import '../../data/database/app_database.dart';
+import '../../providers/providers.dart';
+import '../widgets/soft_card.dart';
+import 'profiles_screen.dart';
+
+/// SCR-11 設定（[Docs/04_screens_and_flows.md] §4.10、[STYLE_GUIDE §5]）。
+///
+/// タブは 表示 / 学習 / マスタ / データ / 情報 の5つが最終形。中身がまだ無いタブは
+/// 出さない（空のタブを置かない。[STYLE_GUIDE §0-4]）。学習・データは、それぞれの
+/// 設定が実際に効く機能が入った時点で足す。
+///
+/// 表示タブの設定はすべて**現在の学習者のもの**。切り替えると別の値になる。
+class SettingsScreen extends StatelessWidget {
+  /// 現在の学習者。表示タブの各設定はこの人のものを読み書きする。
+  final Profile profile;
+
+  const SettingsScreen({super.key, required this.profile});
+
+  @override
+  Widget build(BuildContext context) {
+    final spacing = AppSpacing.of(context);
+    return DefaultTabController(
+      length: 3,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Padding(
+            padding: spacing.screenPadding.copyWith(bottom: 0),
+            child: Text('設定', style: AppText.title()),
+          ),
+          TabBar(
+            labelColor: AppColors.ink,
+            unselectedLabelColor: AppColors.ink3,
+            indicatorColor: AppColors.accent,
+            tabs: const [
+              Tab(text: '表示'),
+              Tab(text: 'マスタ'),
+              Tab(text: '情報'),
+            ],
+          ),
+          Expanded(
+            child: TabBarView(
+              children: [
+                _DisplayTab(profile: profile),
+                const _MasterTab(),
+                const _InfoTab(),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// 表示タブ。値は現在の学習者の `profiles` の列に保存する。
+class _DisplayTab extends StatelessWidget {
+  final Profile profile;
+
+  const _DisplayTab({required this.profile});
+
+  @override
+  Widget build(BuildContext context) {
+    final spacing = AppSpacing.of(context);
+    return ListView(
+      padding: spacing.screenPadding,
+      children: [
+        _ThemeColorCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _TextSizeCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _DensityCard(profile: profile),
+      ],
+    );
+  }
+}
+
+/// 学習者の設定を1項目書き換え、画面に出ている値を読み直す。
+Future<void> _patchProfile(
+  WidgetRef ref,
+  int profileId,
+  ProfilesCompanion patch,
+) async {
+  await ref.read(profileRepositoryProvider).updateSettings(profileId, patch);
+  await ref.read(activeProfileProvider.notifier).reload();
+}
+
+/// テーマの色（[STYLE_GUIDE §1.2]）。マスタ編集シートの色選択と同じ 36px 色玉
+/// （選択中 = ink 枠3px＋白チェック）＋配色名で選ぶ。
+/// SegmentedButton は色玉付き CJK ラベルで見切れるため使わない。
+class _ThemeColorCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _ThemeColorCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final current = profile.palette;
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('テーマの色', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text('アプリ全体の配色を変えられます。学習者ごとに選べます。', style: AppText.caption()),
+          const SizedBox(height: 12),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              for (final p in appPalettes)
+                _PaletteChoice(
+                  palette: p,
+                  selected: p.id == current,
+                  onTap: () => _patchProfile(
+                    ref,
+                    profile.id,
+                    ProfilesCompanion(palette: Value(p.id)),
+                  ),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _PaletteChoice extends StatelessWidget {
+  final AppPalette palette;
+  final bool selected;
+  final VoidCallback onTap;
+
+  const _PaletteChoice({
+    required this.palette,
+    required this.selected,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Semantics(
+      selected: selected,
+      button: true,
+      child: InkWell(
+        borderRadius: BorderRadius.circular(12),
+        onTap: onTap,
+        child: Padding(
+          padding: const EdgeInsets.all(4),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                width: 36,
+                height: 36,
+                decoration: BoxDecoration(
+                  color: palette.accent,
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: selected ? AppColors.ink : Colors.transparent,
+                    width: 3,
+                  ),
+                ),
+                child: selected
+                    ? const Icon(Icons.check, color: Colors.white, size: 18)
+                    : null,
+              ),
+              const SizedBox(height: 4),
+              Text(
+                palette.label,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: AppText.caption(),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _TextSizeCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _TextSizeCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final current = TextSizeOption.fromValue(profile.textScale);
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('文字サイズ', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text('端末の文字サイズ設定に、この倍率をかけて表示します。', style: AppText.caption()),
+          const SizedBox(height: 12),
+          SegmentedButton<TextSizeOption>(
+            showSelectedIcon: false,
+            segments: [
+              for (final o in TextSizeOption.values)
+                ButtonSegment(value: o, label: Text(o.label)),
+            ],
+            selected: {current},
+            onSelectionChanged: (s) => _patchProfile(
+              ref,
+              profile.id,
+              ProfilesCompanion(textScale: Value(s.first.value)),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _DensityCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _DensityCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final current = UiDensity.fromValue(profile.density);
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('余白', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text('コンパクトにすると余白が詰まり、一画面に入る情報が増えます。', style: AppText.caption()),
+          const SizedBox(height: 12),
+          SegmentedButton<UiDensity>(
+            showSelectedIcon: false,
+            segments: [
+              for (final o in UiDensity.values)
+                ButtonSegment(value: o, label: Text(o.label)),
+            ],
+            selected: {current},
+            onSelectionChanged: (s) => _patchProfile(
+              ref,
+              profile.id,
+              ProfilesCompanion(density: Value(s.first.value)),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// マスタタブ。単語帳・マイ単語・音声パック・実績のタイルは、それぞれの機能が
+/// 入った時点で足す。
+class _MasterTab extends StatelessWidget {
+  const _MasterTab();
+
+  @override
+  Widget build(BuildContext context) {
+    final spacing = AppSpacing.of(context);
+    return ListView(
+      padding: spacing.screenPadding,
+      children: [
+        _NavTile(
+          icon: Icons.group_outlined,
+          label: '学習者管理',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(builder: (_) => const ProfilesScreen()),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// 遷移タイル（[STYLE_GUIDE §5]）。
+class _NavTile extends StatelessWidget {
+  final IconData icon;
+  final String label;
+  final VoidCallback onTap;
+
+  const _NavTile({
+    required this.icon,
+    required this.label,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return SoftCard(
+      onTap: onTap,
+      child: Row(
+        children: [
+          Icon(icon, color: AppColors.accent),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: AppText.body(),
+            ),
+          ),
+          Icon(Icons.chevron_right, color: AppColors.ink3),
+        ],
+      ),
+    );
+  }
+}
+
+class _InfoTab extends StatelessWidget {
+  const _InfoTab();
+
+  @override
+  Widget build(BuildContext context) {
+    final spacing = AppSpacing.of(context);
+    return ListView(
+      padding: spacing.screenPadding,
+      children: [
+        SoftCard(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('encello', style: AppText.sectionTitle()),
+              const SizedBox(height: 4),
+              Text('バージョン $kAppVersion', style: AppText.caption()),
+              const SizedBox(height: 8),
+              Text(
+                '綴る・聴く・見分けるの3方向で英単語を反復し、忘却曲線に沿って再出題する英単語学習アプリです。',
+                style: AppText.body(),
+              ),
+            ],
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.description_outlined,
+          label: 'オープンソースライセンス',
+          onTap: () => showLicensePage(
+            context: context,
+            applicationName: 'encello',
+            applicationVersion: kAppVersion,
+          ),
+        ),
+      ],
+    );
+  }
+}
