@@ -2,15 +2,18 @@ import 'package:encello/core/theme/app_colors.dart';
 import 'package:encello/core/theme/app_theme.dart';
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
+import 'package:encello/data/seeds/pseudoword_assets.dart';
 import 'package:encello/domain/services/tts_service.dart';
 import 'package:encello/providers/audio.dart';
 import 'package:encello/providers/providers.dart';
+import 'package:encello/providers/stats.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:io';
 
+import '../fakes/fake_reminder_service.dart';
 import '../fakes/fake_tts_service.dart';
 
 /// ウィジェットテスト用の [ProviderScope] を用意して [child] を描画する。
@@ -30,8 +33,20 @@ Future<ProviderContainer> pumpWithProviders(
   /// 端末の読み上げ。既定は英日どちらも使えるフェイク（実機の音を鳴らさない）。
   TtsCapability? ttsCapability,
 
+  /// 学習リマインダー。既定は許可済みのフェイク（実機の通知を予約しない）。
+  /// 予約内容を検証したいテストは、自分でフェイクを作って渡す。
+  FakeReminderService? reminder,
+
   /// [child] 自身が `Scaffold` を持たない画面（シェルのタブ）では true にする。
   bool wrapInScaffold = false,
+
+  /// 通知タップで起動したときの学習者 id（`launchProfileIdProvider`）。
+  int? launchProfileId,
+
+  /// 擬似語アセット。渡すと `pseudowordAssetsProvider` を差し替える
+  /// （riverpod 3 は `Override` 型を公開していないため、override のリストを
+  /// 引数で受け取れない。差し替えたい provider ごとに引数を足す）。
+  PseudowordAssets? pseudowords,
 }) async {
   SharedPreferences.setMockInitialValues(prefs);
   final sharedPrefs = await SharedPreferences.getInstance();
@@ -48,6 +63,12 @@ Future<ProviderContainer> pumpWithProviders(
       ttsServiceProvider.overrideWithValue(
         FakeTtsService(capability: ttsCapability),
       ),
+      // 本物の NotificationService はプラットフォームチャネルに依存し、
+      // ウィジェットテストでは解決せず pumpAndSettle が止まる
+      // （[Docs/07_testing_strategy.md] §4）。
+      reminderServiceProvider.overrideWithValue(
+        reminder ?? FakeReminderService(),
+      ),
       // path_provider を使わずに済ませる（ウィジェットテストでは解決しない）。
       documentsPathProvider.overrideWith((ref) async {
         final dir = Directory.systemTemp.createTempSync('encello_docs');
@@ -57,6 +78,10 @@ Future<ProviderContainer> pumpWithProviders(
         return dir.path;
       }),
       if (clock != null) clockProvider.overrideWithValue(clock),
+      if (launchProfileId != null)
+        launchProfileIdProvider.overrideWithValue(launchProfileId),
+      if (pseudowords != null)
+        pseudowordAssetsProvider.overrideWithValue(pseudowords),
     ],
   );
   // 依存の逆順に片付ける（DB を閉じる前にコンテナを破棄する）。

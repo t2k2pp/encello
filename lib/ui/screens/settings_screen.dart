@@ -10,9 +10,12 @@ import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../widgets/audio_settings_card.dart';
+import '../widgets/reminder_settings_card.dart';
 import '../widgets/soft_card.dart';
+import 'achievements_screen.dart';
 import 'audio_packs_screen.dart';
 import 'profiles_screen.dart';
+import 'vocab_test_screen.dart';
 import 'wordbooks_screen.dart';
 
 /// SCR-11 設定（[Docs/04_screens_and_flows.md] §4.10、[STYLE_GUIDE §5]）。
@@ -99,15 +102,15 @@ Future<void> _patchProfile(
   await ref.read(activeProfileProvider.notifier).reload();
 }
 
-/// 学習タブ。フラッシュカード・4択・スピード・音声・リマインダーの設定は、
-/// それぞれの機能が入った時点で足す。
-class _StudyTab extends StatelessWidget {
+/// 学習タブ。フラッシュカード・4択・スピードの出題設定は、モード選択シートから
+/// その場で変えられるためここには重ねて置かない。
+class _StudyTab extends ConsumerWidget {
   final Profile profile;
 
   const _StudyTab({required this.profile});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final spacing = AppSpacing.of(context);
     return ListView(
       padding: spacing.screenPadding,
@@ -119,6 +122,14 @@ class _StudyTab extends StatelessWidget {
         _KeyboardLayoutCard(profile: profile),
         SizedBox(height: spacing.gap),
         _AutoNextCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        ReminderSettingsCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.straighten,
+          label: '語彙力を測る',
+          onTap: () => openVocabTest(context, ref, profile: profile),
+        ),
         SizedBox(height: spacing.gap),
         AudioSettingsCard(profile: profile),
       ],
@@ -481,6 +492,16 @@ class _MasterTab extends StatelessWidget {
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute<void>(
               builder: (_) => AudioPacksScreen(profile: profile),
+            ),
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.emoji_events_outlined,
+          label: '実績',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => AchievementsScreen(profile: profile),
             ),
           ),
         ),

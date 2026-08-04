@@ -223,6 +223,31 @@ void main() {
       expect((await db.select(db.dailyStats).getSingle()).goalMet, isTrue);
     });
 
+    test('目標を達成した解答に +50 のボーナスが付く（その日1回だけ）', () async {
+      await db.profileDao.updateProfile(
+        me.id,
+        const ProfilesCompanion(dailyGoal: Value(2)),
+      );
+      final profile = (await db.profileDao.findById(me.id))!;
+
+      Future<AnswerOutcome> answer() => service.submit(
+        profile: profile,
+        sessionId: sessionId,
+        record: recordOf(),
+        answeredAt: answeredAt,
+        sessionCorrectStreak: 1,
+      );
+
+      // spell の正解は 15 XP。達成した問だけ +50 になる。
+      expect((await answer()).xpEarned, 15);
+      expect((await answer()).xpEarned, 65);
+      expect((await answer()).xpEarned, 15);
+
+      // 日次集計とセッションにもボーナス込みで積まれる。
+      expect((await db.select(db.dailyStats).getSingle()).xp, 95);
+      expect((await db.select(db.studySessions).getSingle()).xpEarned, 95);
+    });
+
     test('その日の目標は最初の解答時点の値を使い続ける', () async {
       await submit();
       await db.profileDao.updateProfile(

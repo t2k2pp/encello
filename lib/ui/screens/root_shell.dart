@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_colors.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
+import '../../providers/stats.dart';
 import '../dialogs/start_study_sheet.dart';
 import '../widgets/centered_content.dart';
 import 'dictionary_screen.dart';
@@ -18,11 +19,41 @@ import 'stats_screen.dart';
 ///
 /// 現在の学習者はルート（`app.dart`）から受け取り、各タブへ明示的に渡す
 /// （[Docs/02_architecture.md] §1.2）。
-class RootShell extends ConsumerWidget {
+class RootShell extends ConsumerStatefulWidget {
   /// 現在の学習者。
   final Profile profile;
 
   const RootShell({super.key, required this.profile});
+
+  @override
+  ConsumerState<RootShell> createState() => _RootShellState();
+}
+
+class _RootShellState extends ConsumerState<RootShell> {
+  Profile get profile => widget.profile;
+
+  @override
+  void initState() {
+    super.initState();
+    // アプリを開いたとき（学習者の切り替えを含む）にリマインダーを作り直す。
+    // 通知本文には件数が入るため、内容は予約時点の見込みになる
+    // （[Docs/06_features/reminders.md] §3.1）。
+    WidgetsBinding.instance.addPostFrameCallback((_) => _rescheduleReminders());
+  }
+
+  Future<void> _rescheduleReminders() async {
+    try {
+      await ref
+          .read(reminderSchedulerProvider)
+          .reschedule(profile, now: ref.read(clockProvider)());
+    } catch (e) {
+      // 予約に失敗したことは伏せない（鳴らないまま ON に見せかけない）。
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('学習リマインダーの予約に失敗しました: $e')),
+      );
+    }
+  }
 
   static const _destinations = <_ShellDestination>[
     _ShellDestination(
@@ -48,7 +79,7 @@ class RootShell extends ConsumerWidget {
   ];
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  Widget build(BuildContext context) {
     final index = ref.watch(rootTabIndexProvider);
     final wide = MediaQuery.sizeOf(context).width >= 840;
     // 出題できる語が1語も無いうちは学習を始められないため、FAB を出さない
@@ -65,7 +96,7 @@ class RootShell extends ConsumerWidget {
           children: [
             HomeScreen(profile: profile),
             DictionaryScreen(profile: profile),
-            const StatsScreen(),
+            StatsScreen(profile: profile),
             SettingsScreen(profile: profile),
           ],
         ),

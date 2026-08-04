@@ -1,8 +1,10 @@
 # 語彙力測定とレベル判定（Vocabulary Size Test）
 
 対応要件: FR-65〜FR-70
-実装: `domain/usecases/vocab_size_estimator.dart`, `ui/screens/vocab_test_screen.dart`,
-`assets/pseudowords.json`
+実装: `domain/usecases/vocab_size_estimator.dart`（補正と推定）,
+`domain/usecases/vocab_test_builder.dart`（出題の組み立て）,
+`data/repositories/vocab_test_repository.dart`, `data/seeds/pseudoword_assets.dart`,
+`ui/screens/vocab_test_screen.dart`, `assets/pseudowords.json`
 
 ## 1. 狙い
 
@@ -58,6 +60,14 @@ corrected = f < 1 ? clamp((h - f) / (1 - f), 0, 1) : 0
 
 - 出題する語は帯からランダムに選ぶ。同じ帯の中では均等に散らす。
 - 直近の測定で出した語は、次回の測定では優先度を下げる（同じ語ばかり出ないように）。
+- **帯は `wordbooks.bandSize` を持つ単語帳から動的に作る**（`sortOrder` の昇順＝易しい順）。
+  帯の語は共有の語（`ownerProfileId IS NULL`）で、除外・下書きでないものに限る。
+  マイ単語は人によって中身が違うため、帯の到達率の基準にしない。
+- 帯に8語も無ければ、その帯はある分だけ出す。**他の帯の語で埋めない**
+  （帯ごとの到達率が別の帯の語で汚れるため）。
+- 実在語が合計8問に満たないときは測定を始めず、「まだ語彙力を測れません」と出す。
+  それらしい数字を出さない。上表の50問はプリセット6冊が揃った状態（M8）の姿で、
+  単語帳が1冊しか入っていない段階では 8＋擬似語10 = 18問になる。
 - **測定の結果は `word_reviews` に一切書かない**。測定は学習ではない。
   「わかる」と答えただけの語を既習にすると、学習状態が実態から離れる。
 
@@ -71,6 +81,8 @@ corrected = f < 1 ? clamp((h - f) / (1 - f), 0, 1) : 0
 - **実在語でないことを作成時に確認する**。同梱の全単語帳、および英語の一般語彙リストと突き合わせる。
   確認の取れていない語はリストに入れない。
 - 擬似語には訳も例文も持たせない。`words` テーブルには入れず、アセットのまま扱う。
+- 現在の同梱リストは同梱単語帳の見出し語との突合だけを済ませてある（テストで検証）。
+  一般語彙リストとの突合は M8 で行う（[09_roadmap.md] M8）。
 
 ## 5. 結果画面
 

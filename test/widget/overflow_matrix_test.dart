@@ -2,14 +2,17 @@ import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/repositories/wordbook_repository.dart';
+import 'package:encello/ui/screens/achievements_screen.dart';
 import 'package:encello/ui/screens/audio_packs_screen.dart';
 import 'package:encello/ui/screens/dictionary_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
 import 'package:encello/ui/screens/profile_gate_screen.dart';
 import 'package:encello/ui/screens/profiles_screen.dart';
 import 'package:encello/ui/screens/root_shell.dart';
+import 'package:encello/ui/screens/session_history_screen.dart';
 import 'package:encello/ui/screens/settings_screen.dart';
 import 'package:encello/ui/screens/stats_screen.dart';
+import 'package:encello/ui/screens/vocab_test_screen.dart';
 import 'package:encello/ui/screens/word_detail_screen.dart';
 import 'package:encello/ui/screens/wordbook_detail_screen.dart';
 import 'package:encello/ui/screens/wordbooks_screen.dart';
@@ -192,9 +195,90 @@ void main() {
       await checkMatrix(
         tester,
         '統計',
-        (_) => const StatsScreen(),
+        (p) => StatsScreen(profile: p!),
         wrapInScaffold: true,
       );
+    });
+
+    testWidgets('統計（測定・学習の記録あり）', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await db
+          .into(db.dailyStats)
+          .insert(
+            DailyStatsCompanion.insert(
+              profileId: profile.id,
+              studyDate: '2026-08-04',
+              goalCount: 20,
+              answeredCount: const Value(24),
+              correctCount: const Value(18),
+              xp: const Value(320),
+              goalMet: const Value(true),
+            ),
+          );
+      await db
+          .into(db.vocabSizeTests)
+          .insert(
+            VocabSizeTestsCompanion.insert(
+              profileId: profile.id,
+              takenAt: DateTime(2026, 8, 1),
+              estimatedSize: 2180,
+              falseAlarmRate: 0.2,
+              bandResults: Value(
+                '[{"wordbookId":1,"name":"$longBookName",'
+                '"bandSize":1600,"asked":8,"known":6,"corrected":0.55}]',
+              ),
+            ),
+          );
+      await checkMatrix(
+        tester,
+        '統計（記録あり）',
+        (p) => StatsScreen(profile: p!),
+        wrapInScaffold: true,
+      );
+    });
+
+    testWidgets('実績一覧', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await db
+          .into(db.achievements)
+          .insert(
+            AchievementsCompanion.insert(
+              profileId: profile.id,
+              code: 'first_session',
+              unlockedAt: DateTime(2026, 8, 1),
+            ),
+          );
+      await checkMatrix(tester, '実績一覧', (p) => AchievementsScreen(profile: p!));
+    });
+
+    testWidgets('学習履歴', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await db
+          .into(db.studySessions)
+          .insert(
+            StudySessionsCompanion.insert(
+              id: 'session-1',
+              profileId: profile.id,
+              mode: StudyMode.spell.value,
+              startedAt: DateTime(2026, 8, 4, 20),
+              finishedAt: Value(DateTime(2026, 8, 4, 20, 12)),
+              answeredCount: const Value(20),
+              correctCount: const Value(16),
+              xpEarned: const Value(180),
+            ),
+          );
+      await checkMatrix(
+        tester,
+        '学習履歴',
+        (p) => SessionHistoryScreen(profile: p!),
+      );
+    });
+
+    testWidgets('語彙力測定', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await checkMatrix(tester, '語彙力測定', (p) => VocabTestScreen(profile: p!));
     });
 
     testWidgets('シェル（4タブ）', (tester) async {

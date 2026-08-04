@@ -106,6 +106,9 @@ Android の TTS は `TextToSpeech` エンジン（多くは Google 音声サー�
   `playback` + `mixWithOthers` を1度だけ設定し、`flutter_tts` 側では変更しない。
 - 通知は `flutter_local_notifications` の `requestPermissions` で許可を求める
   （リマインダーを ON にしようとしたときのみ。[06_features/reminders.md] §4）。
+- 予約は `zonedSchedule` を使うため、端末のタイムゾーン名（IANA）が要る。
+  `flutter_timezone` で OS から取り、`tz.setLocalLocation` に渡す。
+  iOS/Android のどちらもプラグイン側で解決するので追加の設定は要らない。
 
 ### 3.2 共有シートの受信
 

@@ -63,7 +63,7 @@
 
 - 擬似語アセットと `VocabSizeEstimator`、語彙力測定（SCR-18）と推奨単語帳
 - `XpCalculator` / `StreakCalculator` / `AchievementEvaluator`
-- ホーム（SCR-01）の各カード
+- ホーム（SCR-01）の各カード（下書きカードは遷移先の SCR-17 と一緒に M7 で足す）
 - 学習リマインダー（`NotificationService`・権限・予約し直し・通知タップでの学習者切替）
 - 統計（SCR-10）: `DonutChart` / `BarChart` / `StreakCalendar` / 苦手 / 取り違え / 反応時間 / 語彙力推移
 - 学習履歴（SCR-15）・実績一覧（SCR-14）
@@ -74,6 +74,7 @@
 ## M7: マイ単語とデータ管理
 
 - マイ単語（クイック登録・下書き・SCR-17・訳を書くモード）
+- ホームの下書きカード（M6 から繰り延べ。遷移先が SCR-17 のため）
 - 他アプリからの共有受信（`receive_sharing_intent`）
 - 設定の5タブ完成
 - JSON エクスポート/インポート（学習者ごとの記録・音声パック以外すべて）

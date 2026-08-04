@@ -63,7 +63,11 @@ UI と学習セッションは `PronunciationService` だけを呼び、音声�
 
 1問の解答は「学習ログの追加」「学習状態の更新」「日次集計の更新」「XP 加算」の4つを同時に満たす必要がある。
 これを画面に分散させず、`application/answer_submission_service.dart` の単一メソッドに集約し `db.transaction` で不可分にする。
-セッション終了時の「セッション記録の確定」「実績の解除判定」「リマインダーの予約し直し」も同様に1つのユースケースにまとめる。
+セッション終了時の「セッション記録の確定」「スピードの全問時間内ボーナス」「実績の解除判定」は
+`application/session_finalizer.dart` にまとめる。
+**リマインダーの予約し直しだけはここに入れない**。通知の権限というプラットフォーム側の状態に
+触れるため、DB だけを扱う `SessionFinalizer` から切り離し、
+`application/reminder_scheduler.dart` を結果画面から呼ぶ（[06_features/reminders.md] §3.1）。
 
 取り違えドリルの誤答は**2語の学習状態を同時に下げる**（[06_features/confusion_drill.md] §5）。
 語のつくりモードは `word_reviews` ではなく `part_reviews` を更新する。
@@ -124,6 +128,7 @@ Flutter 3.44 / Dart 3.12（`environment: sdk: ^3.12.0`）を前提とする。
 | ZIP 展開 | `archive` | ^4.0.9 | 音声パックの取り込み |
 | 通知 | `flutter_local_notifications` | ^22.2.0 | 学習リマインダー。**inexact スケジュール**で使い、exact alarm 権限を要求しない（[06_features/reminders.md] §3） |
 | タイムゾーン | `timezone` | ^0.11.0 | `zonedSchedule` に必要。`flutter_local_notifications` 22 が要求する版 |
+| 端末のタイムゾーン名 | `flutter_timezone` | ^5.1.0 | `tz.setLocalLocation` に渡す IANA 名を OS から取る。UTC オフセットからの推測は夏時間で破綻するため（[06_features/reminders.md] §3） |
 | 共有受信 | `receive_sharing_intent` | ^1.9.0 | 他アプリからのテキストでマイ単語を登録（[06_features/my_words.md] §4.2） |
 | 画面スリープ抑止 | `wakelock_plus` | ^1.7.0 | フラッシュカード自動送り中（NFR-10） |
 | フォント | `google_fonts` | ^8.2.0 | Noto Sans JP を**アセット同梱**。ランタイム取得は禁止 |
@@ -217,7 +222,8 @@ lib/
 │                                 #   / session_finalizer / achievement_evaluator
 │                                 #   / shared_text_receiver / reminder_scheduler
 ├── providers/                    # Riverpod provider 定義＋境界の純粋集計関数
-│                                 #   （active_profile / stats_aggregates / reaction_time_stats）
+│                                 #   （providers / audio / stats / dictionary_listing
+│                                 #   / stats_aggregates / reaction_time_stats）
 └── ui/
     ├── screens/                  # profile_gate / home / study(8モード) / dictionary
     │                             #   / word_detail / word_part_detail / my_words

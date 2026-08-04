@@ -12,7 +12,9 @@ import 'core/theme/app_colors.dart';
 import 'core/theme/app_text.dart';
 import 'data/database/app_database.dart';
 import 'data/seeds/seed_importer.dart';
+import 'data/services/notification_service.dart';
 import 'providers/providers.dart';
+import 'providers/stats.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -54,7 +56,18 @@ class _BootstrapData {
   final SharedPreferences prefs;
   final AppDatabase db;
 
-  const _BootstrapData(this.prefs, this.db);
+  /// 通知（学習リマインダー）。起動時に権限は求めず、予約もしない。
+  final NotificationService reminders;
+
+  /// 通知タップで起動したときの学習者 id（[Docs/06_features/reminders.md] §6）。
+  final int? launchProfileId;
+
+  const _BootstrapData(
+    this.prefs,
+    this.db,
+    this.reminders,
+    this.launchProfileId,
+  );
 }
 
 /// 起動ゲート（[Docs/02_architecture.md] §4）。
@@ -102,6 +115,9 @@ class _BootstrapGateState extends State<BootstrapGate> {
   /// DB は再試行で作り直さない（同じファイルを二重に開かないため）。
   AppDatabase? _db;
 
+  /// 通知プラグインも再試行で作り直さない（予約済みの通知 id を二重に持たない）。
+  NotificationService? _reminders;
+
   Future<_BootstrapData> _load() async {
     final prefs = await SharedPreferences.getInstance();
     final db = _db ??= AppDatabase(null);
@@ -113,7 +129,12 @@ class _BootstrapGateState extends State<BootstrapGate> {
     if (result.applied) {
       await prefs.setInt(kSeedInstalledVersionKey, result.installedVersion);
     }
-    return _BootstrapData(prefs, db);
+    // 通知の**権限は求めない**（設定で ON にしようとしたときに初めて求める）。
+    // ここで読むのは「通知タップで起動したか」だけ。プロファイルゲートより前に
+    // 分かっている必要があるため、起動処理の中で読む。
+    final reminders = _reminders ??= NotificationService();
+    final launchProfileId = await reminders.launchProfileId();
+    return _BootstrapData(prefs, db, reminders, launchProfileId);
   }
 
   void _retry() {
@@ -138,6 +159,8 @@ class _BootstrapGateState extends State<BootstrapGate> {
         overrides: [
           sharedPrefsProvider.overrideWithValue(data.prefs),
           databaseProvider.overrideWithValue(data.db),
+          reminderServiceProvider.overrideWithValue(data.reminders),
+          launchProfileIdProvider.overrideWithValue(data.launchProfileId),
         ],
         child: const EncelloApp(),
       );

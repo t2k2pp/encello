@@ -37,6 +37,9 @@ dependencies:
   # 学習リマインダー（inexact スケジュール。exact alarm 権限は要求しない）
   flutter_local_notifications: ^22.2.0
   timezone: ^0.11.0
+  # zonedSchedule に渡す端末のタイムゾーン名（IANA）を得る。UTC オフセットからの
+  # 推測は夏時間で破綻するため、OS から名前を取る（[Docs/02_architecture.md] §3）。
+  flutter_timezone: ^5.1.0
 
   # 他アプリからの共有テキストでマイ単語を登録
   receive_sharing_intent: ^1.9.0
@@ -94,6 +97,8 @@ flutter:
     - assets/google_fonts/
     # プリセット単語帳（[Docs/06_features/wordbooks.md] §3）。
     - assets/wordbooks/
+    # 語彙力測定の擬似語（[Docs/06_features/vocab_size_test.md] §4）。
+    - assets/pseudowords.json
 
 # アプリアイコン設定。`dart run flutter_launcher_icons` で各解像度を生成する。
 # 背景色は pink パレットの bg（[Docs/08_platform_setup.md] §5）。

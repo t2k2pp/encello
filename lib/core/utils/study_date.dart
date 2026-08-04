@@ -32,3 +32,25 @@ DateTime studyDayStartOfDate(String studyDate) {
   final d = _studyDateFormat.parseStrict(studyDate);
   return DateTime(d.year, d.month, d.day, studyDayStartHour);
 }
+
+/// 学習日 [studyDate] の [days] 日後（負なら前）の学習日。
+///
+/// **日付の足し引きは UTC で行う**。ローカル時刻で計算すると、夏時間のある地域で
+/// 1日が 23/25 時間になり日数がずれるため。
+String addStudyDays(String studyDate, int days) =>
+    formatStudyDate(parseStudyDateUtc(studyDate).add(Duration(days: days)));
+
+/// 学習日どうしの日数差（[from] から [to] まで）。
+int studyDayDifference(String from, String to) =>
+    parseStudyDateUtc(to).difference(parseStudyDateUtc(from)).inDays;
+
+/// `YYYY-MM-DD` を UTC の DateTime として読む（日付計算用）。
+DateTime parseStudyDateUtc(String studyDate) =>
+    DateTime.parse('${studyDate}T00:00:00Z');
+
+/// DateTime を `YYYY-MM-DD` にする（年月日だけを見る。時刻とタイムゾーンは無視）。
+String formatStudyDate(DateTime date) {
+  final mm = date.month.toString().padLeft(2, '0');
+  final dd = date.day.toString().padLeft(2, '0');
+  return '${date.year.toString().padLeft(4, '0')}-$mm-$dd';
+}

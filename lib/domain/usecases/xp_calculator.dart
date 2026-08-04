@@ -23,6 +23,9 @@ abstract final class XpCalculator {
   /// デイリー目標の達成ボーナス（その日1回だけ）。
   static const goalBonusXp = 50;
 
+  /// スピードモードで全問を時間内に正解したときのボーナス（セッション終了時に1回）。
+  static const speedPerfectXp = 50;
+
   static double modeFactor(StudyMode mode) => switch (mode) {
     StudyMode.spell || StudyMode.listening || StudyMode.family => 1.5,
     StudyMode.speed => 1.2,

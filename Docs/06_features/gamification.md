@@ -2,7 +2,9 @@
 
 対応要件: FR-40〜FR-43, FR-46
 実装: `domain/usecases/xp_calculator.dart`, `domain/usecases/streak_calculator.dart`,
-`application/achievement_evaluator.dart`
+`application/achievement_evaluator.dart`（定義と判定）,
+`domain/entities/achievement_stats.dart`（判定に渡す集計値）,
+`data/repositories/stats_repository.dart`（集計の取得と解除の記録）
 
 ## 1. デイリー目標
 
@@ -51,11 +53,20 @@
 - レベルは累計 XP から算出する。`level = floor(sqrt(totalXp / 100)) + 1`
   （1→2 に 100XP、9→10 に 1,900XP。序盤は速く、後半は緩やかになる）。
 - 累計 XP は `daily_stats.xp` の総和として求める。別テーブルに持たない。
+- **目標達成ボーナスは達成した解答と同じトランザクションで足す**（`AnswerSubmissionService`）。
+  判定だけ先に済ませて後から足すと、達成した問とは別の問に付いてしまう。
+- **スピードの全問時間内ボーナスはセッション確定時**に足す（`SessionFinalizer`）。
+  50問すべてを解き終えるまで成立しないため。セッションと `daily_stats` の両方に加算する。
 
 ## 4. 実績
 
-`AchievementEvaluator` が、セッション終了時と日付切り替え時に未解除の条件を判定する。
+`AchievementEvaluator` が未解除の条件を判定する。
 `achievements` テーブルには解除済みだけを残し、条件そのものはコードに置く。
+
+判定は**セッションを終えたとき**（`SessionFinalizer` が解除まで記録する）と、
+**実績一覧・ホームの実績カードを開いたとき**（表示のための再計算）に走らせる。
+日付が変わっただけで解除される実績は無いため、日付切り替えのフックは持たない
+（ストリークは「達成した日」に伸びるので、その日のセッション終了時に判定できる）。
 
 | code | 名称 | 条件 |
 |---|---|---|
@@ -76,6 +87,9 @@
 - 解除は結果画面でカード1枚として示す（全画面の演出は挟まない）。
   同時に複数解除した場合は縦に並べる。
 - 未解除の実績も SCR-14 で条件と進捗（`7 / 30日`）を見せる。隠さない。
+- ストリーク系の進捗には**最長ストリーク**を使う。到達したあとに連続が途切れても、
+  一度得た実績を取り消さないため。
+- 「瞬間反応」だけは速いほど良い指標なので、進捗を 0 / 1 で持つ（平均1.0秒を切ったか）。
 - 実績の追加でコードを増やしても、既存の `achievements` 行には影響しない。
 
 ## 5. 数え方の一貫性

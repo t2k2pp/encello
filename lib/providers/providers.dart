@@ -143,6 +143,13 @@ final profileOverviewsProvider = FutureProvider<List<ProfileOverview>>((
       .overviews(profiles, now: ref.watch(clockProvider)());
 });
 
+/// 通知タップで起動したときの学習者 id（[BootstrapGate] で override する）。
+///
+/// **その通知のプロファイルに切り替えてから**ホームを開く。別の人のプロファイルが
+/// 開いたままだと、そのまま学習して記録が混ざる（[Docs/06_features/reminders.md] §6）。
+/// 通知以外での起動、または該当プロファイルが削除済みなら null 扱いになる。
+final launchProfileIdProvider = Provider<int?>((ref) => null);
+
 /// 前回使った学習者の id（無ければ null）。ゲートで先頭に置く。
 final lastActiveProfileIdProvider = Provider<int?>(
   (ref) => ref.watch(sharedPrefsProvider).getInt(kLastActiveProfileKey),

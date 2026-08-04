@@ -2,7 +2,11 @@
 
 対応要件: FR-44, FR-45
 実装: `ui/screens/stats_screen.dart`, `ui/screens/session_history_screen.dart`,
-`providers/stats_aggregates.dart`, `ui/widgets/donut_chart.dart`, `ui/widgets/bar_chart.dart`
+`ui/screens/achievements_screen.dart`, `data/repositories/stats_repository.dart`,
+`providers/stats.dart`（Provider 定義）, `providers/stats_aggregates.dart`,
+`providers/reaction_time_stats.dart`, `ui/widgets/donut_chart.dart`,
+`ui/widgets/bar_chart.dart`（`BarChart` と `LineChart`）, `ui/widgets/streak_calendar.dart`,
+`ui/widgets/band_progress_bar.dart`
 
 ## 1. カード構成（SCR-10）
 
@@ -77,7 +81,7 @@
 - 行 = 見出し語 ＋ 和訳 ＋ 「12回中4正解（33%）」＋ `MasteryBadge`。行タップで単語詳細。
 - カード下部に `FilledButton`「苦手だけ復習（N語）」。押すとモード選択シートが
   「苦手のみ」を選んだ状態で開く。
-- 条件を満たす語が無いときは `EmptyState`「苦手な単語はありません」。
+- 条件を満たす語が無いときは、カードの中に「苦手な単語はありません」＋条件の説明を1行出す。
   条件を緩めて無理に20語埋めない。
 
 ## 9. よく取り違える組

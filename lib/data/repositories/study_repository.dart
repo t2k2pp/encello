@@ -110,6 +110,40 @@ SELECT COUNT(DISTINCT w.id) AS c
         .map((rows) => rows.single.read<int>('c'));
   }
 
+  /// [until] までに期限が来る復習の `dueAt`（リマインダーの件数見込みに使う）。
+  ///
+  /// 日ごとの件数は Dart 側で数える。7日分を7回クエリしない。
+  Future<List<DateTime>> dueDatesUntil(Profile profile, DateTime until) async {
+    final wordbookIds = decodeIdList(profile.selectedWordbookIds);
+    if (wordbookIds.isEmpty) return const [];
+
+    final placeholders = List.filled(wordbookIds.length, '?').join(', ');
+    final rows = await _db
+        .customSelect(
+          '''
+SELECT r.due_at AS due_at
+  FROM words w
+  JOIN wordbook_entries we ON we.word_id = w.id
+  JOIN word_reviews r ON r.word_id = w.id AND r.profile_id = ?
+ WHERE we.wordbook_id IN ($placeholders)
+   AND (w.owner_profile_id IS NULL OR w.owner_profile_id = ?)
+   AND w.is_excluded = 0
+   AND w.is_draft = 0
+   AND r.due_at <= ?
+ GROUP BY w.id
+''',
+          variables: [
+            Variable<int>(profile.id),
+            ...wordbookIds.map(Variable<int>.new),
+            Variable<int>(profile.id),
+            Variable<DateTime>(until),
+          ],
+          readsFrom: {_db.words, _db.wordbookEntries, _db.wordReviews},
+        )
+        .get();
+    return [for (final row in rows) row.read<DateTime>('due_at')];
+  }
+
   /// キューに並んだ語を id → 単語で引く（出題のたびに DB を叩かない）。
   Future<Map<int, Word>> loadWords(Iterable<int> wordIds) async {
     final ids = wordIds.toList();

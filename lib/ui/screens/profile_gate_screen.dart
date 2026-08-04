@@ -66,6 +66,21 @@ class _ProfileGateScreenState extends ConsumerState<ProfileGateScreen> {
             data: (all) {
               if (all.isEmpty) return _buildFirstRun(context);
 
+              // 通知タップで起動したときは、その通知のプロファイルに切り替えてから
+              // ホームを開く（[Docs/06_features/reminders.md] §6）。該当する人が
+              // 削除済みなら切り替えず、通常どおり選ばせる。
+              final launchId = ref.watch(launchProfileIdProvider);
+              final fromNotification = launchId == null
+                  ? null
+                  : all.where((o) => o.profile.id == launchId).firstOrNull;
+              if (fromNotification != null && !_autoSelected) {
+                _autoSelected = true;
+                WidgetsBinding.instance.addPostFrameCallback((_) {
+                  if (mounted) _select(fromNotification);
+                });
+                return const Center(child: CircularProgressIndicator());
+              }
+
               if (all.length == 1) {
                 // 1人なら選択画面を出さずそのまま開始する。build 中に状態を
                 // 変えないよう、フレーム後に選ぶ。

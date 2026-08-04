@@ -30,21 +30,29 @@
 - 1日1回の学習リマインダーに秒単位の正確さは要らない。
   `SCHEDULE_EXACT_ALARM` / `USE_EXACT_ALARM` を要求すると、
   Android 14 以降で追加の権限確認やストア審査の説明が必要になる。数分のずれと引き換えに避ける。
-- `matchDateTimeComponents: DateTimeComponents.time` で毎日繰り返す。
-- 通知IDはプロファイルごとに固定（`1000 + profileId`）。
-  プロファイルを増やしても互いの通知を上書きしない。
+- 7日分を**日付ごとに個別予約**するため、`matchDateTimeComponents` は使わない
+  （件数入りの本文を日ごとに変えるため、繰り返し予約にできない）。
+- 通知IDはプロファイルごとに**連番のブロック**を割り当てる: `1000 + profileId × 10 + 日オフセット`。
+  プロファイルを増やしても互いの通知を上書きしない。ブロックの最後（オフセット9）は
+  「テスト通知を送る」に使い、本来の予約を潰さない。
+- `zonedSchedule` に渡すタイムゾーンは `flutter_timezone` で OS から IANA 名を取って解決する。
+  UTC オフセットからの推測は夏時間のある地域で1年の半分ずれるため行わない。
 
 ### 3.1 予約し直す契機
 
 通知本文には件数が入るため、内容は**予約時点の見込み**になる。
 次のタイミングで予約し直し、実際とのずれを最小にする。
 
-| 契機 | 挙動 |
-|---|---|
-| アプリを開いたとき | 現在のプロファイルの明日以降の通知を作り直す |
-| セッションを終えたとき | 同上 |
-| 設定で時刻・ON/OFF を変えたとき | 該当プロファイルの通知を取り消して作り直す |
-| プロファイルを削除したとき | そのプロファイルの通知を取り消す |
+| 契機 | 実装場所 | 挙動 |
+|---|---|---|
+| アプリを開いたとき | `RootShell` の初期化 | 現在のプロファイルの通知を作り直す（学習者の切り替えも同じ経路） |
+| セッションを終えたとき | 結果画面（SCR-07） | 同上。解いた分だけ件数が減る |
+| 設定で時刻・ON/OFF を変えたとき | `ReminderSettingsCard` | 該当プロファイルの通知を取り消して作り直す |
+| プロファイルを削除したとき | 学習者管理（SCR-22） | そのプロファイルの通知を取り消す |
+
+予約の組み立ては `application/reminder_scheduler.dart`（DB から件数・ストリークを集める）と
+`domain/usecases/reminder_plan_builder.dart`（本文と時刻を決める純粋関数）に分ける。
+実績判定と違い**通知の権限に触れる**ため、`SessionFinalizer`（DB だけを触る）には入れない。
 
 アプリを長期間開かないと件数が古くなる。
 **7日先までしか予約しない**（7件を個別に予約する）。それ以降は次回起動時に作り直す。
@@ -99,9 +107,15 @@ abstract class ReminderService {
   /// profileId の通知を7日分予約し直す。既存は取り消してから。
   Future<void> reschedule(int profileId, ReminderPlan plan);
   Future<void> cancel(int profileId);
-  Future<void> sendTest(int profileId, String body);
+  Future<void> sendTest(int profileId, String title, String body);
+  /// 通知タップで起動したときの payload（プロファイル id）。それ以外は null。
+  Future<int?> launchProfileId();
 }
 ```
+
+通知のタイトルはアプリ名（`encello`）にし、誰宛かは本文の呼びかけで示す。
+`launchProfileId()` は起動ゲートより前に要るため `BootstrapGate` で読み、
+`launchProfileIdProvider` に流す（権限の確認と予約は起動をブロックしない）。
 
 テストではフェイクを注入し、予約された内容（時刻・本文・件数）を検証する。
 実機の通知に依存したテストを書かない。

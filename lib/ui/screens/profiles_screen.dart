@@ -7,6 +7,7 @@ import '../../core/theme/app_text.dart';
 import '../../data/database/app_database.dart';
 import '../../data/repositories/profile_repository.dart';
 import '../../providers/providers.dart';
+import '../../providers/stats.dart';
 import '../dialogs/confirm_dialog.dart';
 import '../dialogs/upsert_profile_sheet.dart';
 import '../widgets/centered_content.dart';
@@ -153,6 +154,8 @@ class _ProfileRow extends ConsumerWidget {
 
     try {
       await repo.delete(profile.id);
+      // その人あての通知も取り消す（[Docs/06_features/reminders.md] §3.1）。
+      await ref.read(reminderSchedulerProvider).cancel(profile.id);
       // 削除したのが現在の学習者なら、選び直させる。
       if (ref.read(activeProfileProvider)?.id == profile.id) {
         ref.read(activeProfileProvider.notifier).clear();

@@ -137,7 +137,7 @@ class AnswerSubmissionService {
         );
       }
 
-      final xp = XpCalculator.forAnswer(
+      final baseXp = XpCalculator.forAnswer(
         mode: record.mode,
         isCorrect: record.isCorrect,
         isNearMiss: record.isNearMiss,
@@ -145,18 +145,20 @@ class AnswerSubmissionService {
         sessionCorrectStreak: sessionCorrectStreak,
       );
 
-      final goalJustMet = await _applyDailyStats(
+      // デイリー目標を達成した瞬間のボーナス（その日1回だけ）は、達成判定と同じ
+      // 場所で足す。判定を先にして XP を後から足すと、達成した問と別の問に付く。
+      final daily = await _applyDailyStats(
         profile,
         record,
         answeredAt,
-        xp,
+        baseXp,
       );
-      await _applySessionTotals(sessionId, record, xp);
+      await _applySessionTotals(sessionId, record, daily.xp);
 
       return AnswerOutcome(
-        xpEarned: xp,
+        xpEarned: daily.xp,
         review: review,
-        goalJustMet: goalJustMet,
+        goalJustMet: daily.goalJustMet,
       );
     });
   }
@@ -280,11 +282,13 @@ class AnswerSubmissionService {
 
   /// 日次集計を積み上げる。`learning_logs` から毎回集計し直さない
   /// （[Docs/03_data_model.md] §2.9）。
-  Future<bool> _applyDailyStats(
+  ///
+  /// 戻り値の `xp` は、デイリー目標の達成ボーナスを含めたこの解答ぶんの XP。
+  Future<({bool goalJustMet, int xp})> _applyDailyStats(
     Profile profile,
     AnswerRecord record,
     DateTime answeredAt,
-    int xp,
+    int baseXp,
   ) async {
     final studyDate = studyDateOf(answeredAt);
     final existing =
@@ -302,6 +306,8 @@ class AnswerSubmissionService {
     final wasMet = existing?.goalMet ?? false;
     // 達成した時点で true。以後 false に戻さない。
     final nowMet = wasMet || answered >= goal;
+    // 達成ボーナスはその日1回だけ（[Docs/06_features/gamification.md] §3）。
+    final xp = nowMet && !wasMet ? baseXp + XpCalculator.goalBonusXp : baseXp;
 
     await _db
         .into(_db.dailyStats)
@@ -319,7 +325,7 @@ class AnswerSubmissionService {
             goalMet: Value(nowMet),
           ),
         );
-    return nowMet && !wasMet;
+    return (goalJustMet: nowMet && !wasMet, xp: xp);
   }
 
   Future<void> _applySessionTotals(

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+// StateProvider は Riverpod 3 で legacy 扱い（語彙力カードの「閉じる」で使用）。
+import 'package:flutter_riverpod/legacy.dart';
 
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
@@ -7,16 +9,32 @@ import '../../core/theme/app_text.dart';
 import '../../core/utils/enums.dart';
 import '../../core/utils/study_date.dart';
 import '../../data/database/app_database.dart';
+import '../../data/repositories/vocab_test_repository.dart';
 import '../../data/repositories/wordbook_repository.dart';
 import '../../domain/usecases/study_queue_builder.dart';
+import '../../domain/usecases/vocab_size_estimator.dart';
 import '../../providers/audio.dart';
 import '../../providers/providers.dart';
+import '../../providers/stats.dart';
+import '../../providers/stats_aggregates.dart';
 import '../dialogs/start_study_sheet.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/profile_avatar.dart';
 import '../widgets/progress_ring.dart';
 import '../widgets/soft_card.dart';
+import '../widgets/streak_flame.dart';
+import 'achievements_screen.dart';
+import 'vocab_test_screen.dart';
 import 'wordbooks_screen.dart';
+
+/// 語彙力カードを閉じた学習者（起動中だけ覚える）。
+///
+/// 「測りませんか」の案内は断れる（[Docs/06_features/vocab_size_test.md] §6）。
+/// 次に起動したときはまた出す。永続化するほどの設定ではない。
+final dismissedVocabPromptProvider = StateProvider<Set<int>>((ref) => {});
+
+/// 前回の測定からこの日数が経つと、ホームに測り直しの案内を出す。
+const kVocabRemeasureDays = 30;
 
 /// SCR-01 ホーム（[Docs/04_screens_and_flows.md] §4.1）。
 ///
@@ -51,13 +69,7 @@ class HomeScreen extends ConsumerWidget {
           child: studying == null
               ? const Center(child: CircularProgressIndicator())
               : studying.isEmpty
-              ? EmptyState(
-                  emoji: '📚',
-                  message: '学習する単語帳を選びましょう',
-                  subMessage: '選んだ単語帳の語が、辞書と学習の対象になります。あとから何度でも変えられます。',
-                  actionLabel: '自分で単語帳を選ぶ',
-                  onAction: () => _openWordbooks(context, current),
-                )
+              ? _FirstRunBody(profile: current)
               : ListView(
                   padding: spacing.screenPadding.copyWith(bottom: 96),
                   children: [
@@ -65,6 +77,10 @@ class HomeScreen extends ConsumerWidget {
                     SizedBox(height: spacing.gap),
                     _ModeCards(profile: current),
                     SizedBox(height: spacing.gap),
+                    _RecentScoreCard(profile: current),
+                    SizedBox(height: spacing.gap),
+                    _VocabPromptCard(profile: current),
+                    _NextAchievementCard(profile: current),
                     _StudyTargetCard(
                       books: studying,
                       onEdit: () => _openWordbooks(context, current),
@@ -81,6 +97,53 @@ class HomeScreen extends ConsumerWidget {
       MaterialPageRoute<void>(
         builder: (_) => WordbooksScreen(profile: profile),
       ),
+    );
+  }
+}
+
+/// 初回起動（学習対象の単語帳が未選択）。
+///
+/// 勝手にどれかを選んだことにせず、測ってから選ぶ導線と、自分で選ぶ導線を並べる
+/// （[Docs/04_screens_and_flows.md] §4.1）。
+class _FirstRunBody extends ConsumerWidget {
+  final Profile profile;
+
+  const _FirstRunBody({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final spacing = AppSpacing.of(context);
+    return ListView(
+      padding: spacing.screenPadding.copyWith(bottom: 96),
+      children: [
+        const SizedBox(height: 24),
+        const EmptyState(
+          emoji: '📚',
+          message: '学習する単語帳を選びましょう',
+          subMessage: '選んだ単語帳の語が、辞書と学習の対象になります。あとから何度でも変えられます。',
+        ),
+        const SizedBox(height: 8),
+        FilledButton(
+          style: FilledButton.styleFrom(
+            backgroundColor: AppColors.accent,
+            minimumSize: const Size.fromHeight(48),
+          ),
+          onPressed: () => openVocabTest(context, ref, profile: profile),
+          child: const Text('語彙力を測ってレベルに合う単語帳を選ぶ'),
+        ),
+        SizedBox(height: spacing.gap),
+        OutlinedButton(
+          style: OutlinedButton.styleFrom(
+            minimumSize: const Size.fromHeight(48),
+          ),
+          onPressed: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => WordbooksScreen(profile: profile),
+            ),
+          ),
+          child: const Text('自分で単語帳を選ぶ'),
+        ),
+      ],
     );
   }
 }
@@ -116,7 +179,25 @@ class _TodayCard extends ConsumerWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('今日の学習', style: AppText.sectionTitle()),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            '今日の学習',
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: AppText.sectionTitle(),
+                          ),
+                        ),
+                        const SizedBox(width: 8),
+                        // ストリークが 0 のときは炎を出さない。
+                        Flexible(
+                          child: StreakFlame(
+                            days: ref.watch(streakProvider(profile.id)).current,
+                          ),
+                        ),
+                      ],
+                    ),
                     const SizedBox(height: 4),
                     Text(
                       due > 0 ? '復習の期限が来ている語が $due 語あります。' : '期限が来ている復習はありません。',
@@ -230,6 +311,217 @@ class _ModeChip extends StatelessWidget {
                 style: AppText.body(),
               ),
             ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 直近の成績カード（[Docs/04_screens_and_flows.md] §4.1）。
+/// 直近7日の正解率と学習量。タップで統計タブへ。
+class _RecentScoreCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _RecentScoreCard({required this.profile});
+
+  /// 集計する日数。
+  static const days = 7;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final stats = ref.watch(dailyStatsHistoryProvider(profile.id)).value;
+    // 判明するまでは出さない（あとから値が変わるカードを見せない）。
+    if (stats == null) return const SizedBox.shrink();
+
+    final today = studyDateOf(ref.watch(clockProvider)());
+    final answered = StatsAggregates.recentAnswered(
+      stats,
+      today: today,
+      days: days,
+    );
+    final accuracy = StatsAggregates.recentAccuracy(
+      stats,
+      today: today,
+      days: days,
+    );
+
+    return Padding(
+      padding: EdgeInsets.only(bottom: AppSpacing.of(context).gap),
+      child: SoftCard(
+        // 統計タブへ移す（画面を積まない）。
+        onTap: () => ref.read(rootTabIndexProvider.notifier).state = 2,
+        child: Row(
+          children: [
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('直近$days日の成績', style: AppText.sectionTitle()),
+                  const SizedBox(height: 4),
+                  Text(
+                    answered == 0
+                        ? 'この$days日はまだ解いていません。'
+                        : '$answered問 ・ 正解率 ${((accuracy ?? 0) * 100).round()}%',
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppText.caption(),
+                  ),
+                ],
+              ),
+            ),
+            Icon(Icons.chevron_right, color: AppColors.ink3),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 語彙力カード（[Docs/04_screens_and_flows.md] §4.1）。
+///
+/// 一度も測っていない人には案内を、30日以上測っていない人には測り直しを出す。
+/// どちらも**閉じられる**。測定済みで日が浅いときは、結果と次の単語帳だけを見せる。
+class _VocabPromptCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _VocabPromptCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final history = ref.watch(vocabHistoryProvider(profile.id)).value;
+    if (history == null) return const SizedBox.shrink();
+    final dismissed = ref
+        .watch(dismissedVocabPromptProvider)
+        .contains(profile.id);
+
+    final latest = history.isEmpty ? null : history.first;
+    final elapsedDays = latest == null
+        ? null
+        : ref.watch(clockProvider)().difference(latest.takenAt).inDays;
+    final promptsRemeasure =
+        latest == null || elapsedDays! >= kVocabRemeasureDays;
+    if (promptsRemeasure && dismissed) return const SizedBox.shrink();
+
+    final recommended = latest == null
+        ? null
+        : VocabSizeEstimate(
+            bands: VocabTestRepository.decodeBands(latest.bandResults),
+            falseAlarmRate: latest.falseAlarmRate,
+            pseudoAsked: 0,
+            pseudoKnown: 0,
+          ).recommendedBand;
+
+    return Padding(
+      padding: EdgeInsets.only(bottom: AppSpacing.of(context).gap),
+      child: SoftCard(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    latest == null
+                        ? '語彙力を測りませんか'
+                        : promptsRemeasure
+                        ? '語彙力を測り直しませんか'
+                        : '語彙力',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppText.sectionTitle(),
+                  ),
+                ),
+                if (promptsRemeasure)
+                  IconButton(
+                    tooltip: '閉じる',
+                    icon: const Icon(Icons.close, size: 18),
+                    onPressed: () =>
+                        ref.read(dismissedVocabPromptProvider.notifier).state = {
+                          ...ref.read(dismissedVocabPromptProvider),
+                          profile.id,
+                        },
+                  ),
+              ],
+            ),
+            const SizedBox(height: 4),
+            Text(
+              latest == null
+                  ? '3分ほどの測定で、いまの語彙力とレベルに合う単語帳が分かります。'
+                  : '推定 ${latest.estimatedSize} 語'
+                        '${recommended == null ? '' : ' ・ 次は「${recommended.name}」'}'
+                        '${promptsRemeasure ? '（前回の測定から$elapsedDays日）' : ''}',
+              maxLines: 3,
+              overflow: TextOverflow.ellipsis,
+              style: AppText.caption(),
+            ),
+            if (promptsRemeasure) ...[
+              const SizedBox(height: 12),
+              FilledButton(
+                style: FilledButton.styleFrom(
+                  backgroundColor: AppColors.accent,
+                  minimumSize: const Size.fromHeight(48),
+                ),
+                onPressed: () => openVocabTest(context, ref, profile: profile),
+                child: Text(latest == null ? '語彙力を測る' : '測り直す'),
+              ),
+            ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 未達の実績カード（[Docs/04_screens_and_flows.md] §4.1）。
+/// 次に解除できる実績を1つだけ出す。タップで SCR-14。
+class _NextAchievementCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _NextAchievementCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final next = ref.watch(nextAchievementProvider(profile.id)).value;
+    if (next == null) return const SizedBox.shrink();
+
+    return Padding(
+      padding: EdgeInsets.only(bottom: AppSpacing.of(context).gap),
+      child: SoftCard(
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute<void>(
+            builder: (_) => AchievementsScreen(profile: profile),
+          ),
+        ),
+        child: Row(
+          children: [
+            Text(
+              next.def.emoji,
+              textScaler: TextScaler.noScaling,
+              style: const TextStyle(fontSize: 22),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '次の実績: ${next.def.name}',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppText.sectionTitle(),
+                  ),
+                  Text(
+                    '${next.def.description}（${next.current} / '
+                    '${next.def.target}${next.def.unit}）',
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppText.caption(),
+                  ),
+                ],
+              ),
+            ),
+            Icon(Icons.chevron_right, color: AppColors.ink3),
           ],
         ),
       ),

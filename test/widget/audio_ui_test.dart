@@ -5,6 +5,7 @@ import 'package:encello/domain/services/tts_service.dart';
 import 'package:encello/providers/audio.dart';
 import 'package:encello/ui/screens/settings_screen.dart';
 import 'package:encello/ui/screens/word_detail_screen.dart';
+import 'package:encello/ui/widgets/audio_settings_card.dart';
 import 'package:encello/ui/widgets/speak_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -66,7 +67,10 @@ void main() {
       await pumpWithProviders(
         tester,
         db: db,
-        child: WordDetailScreen(wordId: word.id, profile: await reloadProfile()),
+        child: WordDetailScreen(
+          wordId: word.id,
+          profile: await reloadProfile(),
+        ),
         activeProfile: await reloadProfile(),
       );
       await tester.pumpAndSettle();
@@ -193,6 +197,19 @@ void main() {
   });
 
   group('設定の音声カード', () {
+    /// 設定 > 学習タブを開き、音声カードが見えるところまでスクロールする。
+    /// リマインダー・語彙力のカードが上に増えたため、初期表示では画面外にある。
+    Future<void> openAudioCard(WidgetTester tester) async {
+      await tester.tap(find.byType(Tab).at(1));
+      await tester.pumpAndSettle();
+      await tester.scrollUntilVisible(
+        find.byType(AudioSettingsCard),
+        200,
+        scrollable: find.byType(Scrollable).last,
+      );
+      await tester.pumpAndSettle();
+    }
+
     testWidgets('音声が1つも無い端末ではカードを1行に置き換える', (tester) async {
       await pumpWithProviders(
         tester,
@@ -203,8 +220,7 @@ void main() {
         ttsCapability: TtsCapability.none,
       );
       await tester.pumpAndSettle();
-      await tester.tap(find.byType(Tab).at(1));
-      await tester.pumpAndSettle();
+      await openAudioCard(tester);
 
       expect(find.textContaining('この端末では音声を再生できません'), findsOneWidget);
       // 選ぶ意味のない設定を並べない。
@@ -220,8 +236,7 @@ void main() {
         wrapInScaffold: true,
       );
       await tester.pumpAndSettle();
-      await tester.tap(find.byType(Tab).at(1));
-      await tester.pumpAndSettle();
+      await openAudioCard(tester);
 
       expect(find.textContaining('音声パックを追加すると'), findsOneWidget);
       expect(find.text('合成音声'), findsOneWidget);
@@ -241,8 +256,7 @@ void main() {
         wrapInScaffold: true,
       );
       await tester.pumpAndSettle();
-      await tester.tap(find.byType(Tab).at(1));
-      await tester.pumpAndSettle();
+      await openAudioCard(tester);
 
       // 勝手に別の voice へ切り替えず、選び直させる。
       expect(find.textContaining('選択中の音声が見つかりません'), findsOneWidget);

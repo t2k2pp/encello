@@ -19,11 +19,13 @@
 test/
 ├── domain/          # sm2_scheduler / study_queue_builder / spell_judge / grade_resolver
 │                    #   / choice_distractors / xp_calculator / streak_calculator
-│                    #   / mastery / study_date / vocab_size_estimator
-│                    #   / confusion_pair_finder / family_quiz_builder
+│                    #   / mastery / study_date / vocab_size_estimator / vocab_test_builder
+│                    #   / reminder_plan_builder / confusion_pair_finder / family_quiz_builder
 ├── data/            # dao / migration / seed_importer / audio_pack_importer / export_import
+│                    #   / vocab_test_repository / pseudowords（アセットの検証）
 ├── application/     # answer_submission / session_finalizer / achievement_evaluator
 │                    #   / reminder_scheduler / shared_text_receiver
+├── providers/       # stats_aggregates / reaction_time_stats（境界の純粋関数）
 ├── widget/          # 画面ごと + overflow_matrix_test.dart
 ├── fakes/           # fake_pronunciation_service / fake_tts_service
 │                    #   / fake_reminder_service / fake_clock
@@ -45,7 +47,7 @@ integration_test/
 対象画面: プロファイルゲート / ホーム / スペル学習 / リスニング / フラッシュカード / 4択 /
 スピード / 語のつくり / 取り違え / 結果 / 語彙力測定と結果 / 辞書（リスト・グリッド）/
 単語詳細（語のつくり・語族・取り違えの各カードあり）/ 語の部品の詳細 / マイ単語 / 統計 /
-設定（5タブすべて）/ 単語帳管理 / 学習者管理 / 音声パック管理。
+実績一覧 / 学習履歴 / 設定（5タブすべて）/ 単語帳管理 / 学習者管理 / 音声パック管理。
 
 長い値を使う: 見出し語 `internationalization`、和訳
 `〜を国際化する；〜に国際的な性格を与える；国際管理下に置く`、単語帳名・学習者名・音声パック名は20文字、
@@ -97,6 +99,9 @@ integration_test/
 | `dart:io` の非同期処理 | ファイル I/O を伴うテストは `IOOverrides` か一時ディレクトリを使い、`addTearDown` で確実に消す |
 | `unawaited` の漏れ | 起動処理の非同期を投げっぱなしにしない。`await tester.pumpAndSettle()` で回収できる形にする |
 | `compute`（別 isolate） | ウィジェットテストでは isolate を起こさない。エクスポートの JSON 生成は Provider 越しに差し替える |
+| 通知プラグイン | `reminderServiceProvider` を `FakeReminderService` に差し替える（`pumpWithProviders` の既定）。本物は `flutter_local_notifications` / `flutter_timezone` のチャネルに依存し、テストでは解決しない |
+| `CachingAssetBundle` の使い回し | フェイクのアセットバンドルは**テストごとに作り直す**。読み込んだ Future をキャッシュするため、2件目以降で解決しない Future を待ち続ける |
+| 読み込み中の表示が残る画面 | プロファイルゲートのように切り替え後もインジケータが回る画面では `pumpAndSettle` を使わず `pump()` でフレームを進める |
 
 加えて、アニメーションを持つ画面（フィードバック帯・フラッシュカードの自動送り）では
 `pumpAndSettle()` が終わらないことがある。**繰り返すアニメーションを持つ画面では
