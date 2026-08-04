@@ -14,7 +14,15 @@ import '../domain/usecases/xp_calculator.dart';
 /// 1問ぶんの解答（画面から渡す値）。
 @immutable
 class AnswerRecord {
-  final int wordId;
+  /// 語のつくりモードでは null（代わりに [partId] が入る）。
+  final int? wordId;
+
+  /// 語の部品の学習（`mode = parts`）でのみ非 null。
+  final int? partId;
+
+  /// 取り違えドリルで不正解のとき、**一緒に下げる相手の語**
+  /// （[Docs/06_features/confusion_drill.md] §5）。取り違えている以上、両方あやふや。
+  final int? alsoLowerWordId;
   final StudyMode mode;
   final StudyDirection direction;
   final bool isCorrect;
@@ -34,17 +42,22 @@ class AnswerRecord {
   final int elapsedMs;
 
   const AnswerRecord({
-    required this.wordId,
     required this.mode,
     required this.direction,
     required this.isCorrect,
     required this.grade,
     required this.elapsedMs,
+    this.wordId,
+    this.partId,
+    this.alsoLowerWordId,
     this.isNearMiss = false,
     this.answeredText,
     this.hintUsed = 0,
     this.replayCount = 0,
-  });
+  })  : assert(
+          (wordId == null) != (partId == null),
+          'wordId と partId はどちらか一方だけが非 null',
+        );
 
   /// 学習状態を更新するか（時間切れ・自己評価なしは更新しない）。
   bool get updatesReview => grade != GradeResolver.noUpdate;
@@ -95,6 +108,7 @@ class AnswerSubmissionService {
               profileId: profile.id,
               sessionId: sessionId,
               wordId: Value(record.wordId),
+              partId: Value(record.partId),
               mode: record.mode.value,
               direction: record.direction.value,
               isCorrect: record.isCorrect,
@@ -110,6 +124,18 @@ class AnswerSubmissionService {
       final review = record.updatesReview
           ? await _applyReview(profile, record, answeredAt)
           : null;
+
+      // 取り違えの誤答は**両方の語**の学習状態を下げる。
+      final partner = record.alsoLowerWordId;
+      if (partner != null && record.updatesReview) {
+        await _applyWordReview(
+          profile: profile,
+          wordId: partner,
+          grade: record.grade,
+          isCorrect: false,
+          answeredAt: answeredAt,
+        );
+      }
 
       final xp = XpCalculator.forAnswer(
         mode: record.mode,
@@ -142,11 +168,39 @@ class AnswerSubmissionService {
     AnswerRecord record,
     DateTime answeredAt,
   ) async {
-    final existing = await _study.findReview(record.wordId, profile.id);
-    final next = Sm2Scheduler.apply(
-      existing?.toReviewState() ?? ReviewState.initial,
+    final partId = record.partId;
+    if (partId != null) {
+      // 語の部品は `words` ではないので `part_reviews` を更新する。
+      // 形が同じなので**同じ [Sm2Scheduler] と [Mastery]** をそのまま使う。
+      return _applyPartReview(
+        profile: profile,
+        partId: partId,
+        grade: record.grade,
+        isCorrect: record.isCorrect,
+        answeredAt: answeredAt,
+      );
+    }
+    return _applyWordReview(
+      profile: profile,
+      wordId: record.wordId!,
       grade: record.grade,
       isCorrect: record.isCorrect,
+      answeredAt: answeredAt,
+    );
+  }
+
+  Future<ReviewState> _applyWordReview({
+    required Profile profile,
+    required int wordId,
+    required int grade,
+    required bool isCorrect,
+    required DateTime answeredAt,
+  }) async {
+    final existing = await _study.findReview(wordId, profile.id);
+    final next = Sm2Scheduler.apply(
+      existing?.toReviewState() ?? ReviewState.initial,
+      grade: grade,
+      isCorrect: isCorrect,
       answeredAt: answeredAt,
     );
     await _db
@@ -154,7 +208,60 @@ class AnswerSubmissionService {
         .insertOnConflictUpdate(
           WordReviewsCompanion.insert(
             profileId: profile.id,
-            wordId: record.wordId,
+            wordId: wordId,
+            dueAt: next.dueAt!,
+            repetition: Value(next.repetition),
+            intervalDays: Value(next.intervalDays),
+            easeFactor: Value(next.easeFactor),
+            lastReviewedAt: Value(next.lastReviewedAt),
+            firstLearnedAt: Value(next.firstLearnedAt),
+            lapses: Value(next.lapses),
+            correctStreak: Value(next.correctStreak),
+            totalCorrect: Value(next.totalCorrect),
+            totalIncorrect: Value(next.totalIncorrect),
+            masteryLevel: Value(Mastery.from(next).level),
+          ),
+        );
+    return next;
+  }
+
+  Future<ReviewState> _applyPartReview({
+    required Profile profile,
+    required int partId,
+    required int grade,
+    required bool isCorrect,
+    required DateTime answeredAt,
+  }) async {
+    final existing =
+        await (_db.select(_db.partReviews)..where(
+              (t) => t.partId.equals(partId) & t.profileId.equals(profile.id),
+            ))
+            .getSingleOrNull();
+    final next = Sm2Scheduler.apply(
+      existing == null
+          ? ReviewState.initial
+          : ReviewState(
+              repetition: existing.repetition,
+              intervalDays: existing.intervalDays,
+              easeFactor: existing.easeFactor,
+              dueAt: existing.dueAt,
+              lapses: existing.lapses,
+              correctStreak: existing.correctStreak,
+              totalCorrect: existing.totalCorrect,
+              totalIncorrect: existing.totalIncorrect,
+              firstLearnedAt: existing.firstLearnedAt,
+              lastReviewedAt: existing.lastReviewedAt,
+            ),
+      grade: grade,
+      isCorrect: isCorrect,
+      answeredAt: answeredAt,
+    );
+    await _db
+        .into(_db.partReviews)
+        .insertOnConflictUpdate(
+          PartReviewsCompanion.insert(
+            profileId: profile.id,
+            partId: partId,
             dueAt: next.dueAt!,
             repetition: Value(next.repetition),
             intervalDays: Value(next.intervalDays),

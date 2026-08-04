@@ -6,11 +6,13 @@ import 'package:flutter_riverpod/legacy.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../application/answer_submission_service.dart';
+import '../application/choice_session_controller.dart';
 import '../application/flashcard_controller.dart';
 import '../application/session_finalizer.dart';
 import '../application/study_session_controller.dart';
 import '../core/theme/app_colors.dart';
 import '../data/database/app_database.dart';
+import '../data/repositories/mode_repository.dart';
 import '../data/repositories/profile_repository.dart';
 import '../data/repositories/study_repository.dart';
 import '../data/repositories/word_repository.dart';
@@ -67,6 +69,16 @@ final sessionFinalizerProvider = Provider<SessionFinalizer>(
 final studySessionProvider =
     NotifierProvider<StudySessionController, StudySessionState?>(
       StudySessionController.new,
+    );
+
+final modeRepositoryProvider = Provider<ModeRepository>(
+  (ref) => ModeRepository(ref.watch(databaseProvider)),
+);
+
+/// 進行中の選択式セッション（4択・スピード・語のつくり・取り違え）。
+final choiceSessionProvider =
+    NotifierProvider<ChoiceSessionController, ChoiceSessionState?>(
+      ChoiceSessionController.new,
     );
 
 /// 進行中のフラッシュカード。null = セッション外。

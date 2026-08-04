@@ -9,7 +9,9 @@ import '../data/services/audio_pronunciation_service.dart';
 import '../data/repositories/wordbook_repository.dart' show decodeIdList;
 import '../data/services/flutter_tts_service.dart';
 import '../domain/services/pronunciation_service.dart';
+import '../application/study_launcher.dart';
 import '../domain/services/tts_service.dart';
+import '../domain/usecases/choice_distractors.dart';
 import 'providers.dart';
 
 /// 端末の読み上げ。テストではフェイクへ差し替える。
@@ -126,5 +128,23 @@ final availableModesProvider = FutureProvider.family<List<StudyMode>, Profile>((
   if (canSpeakEn) modes.add(StudyMode.listening);
   // フラッシュカードは無音の送り方があるので、音が無くても選べる。
   modes.add(StudyMode.flashcard);
+
+  final repo = ref.watch(modeRepositoryProvider);
+  // 4択は選択肢が4つ揃わないと出さない（ダミーで埋めない。FR-29）。
+  final pool = await repo.loadChoiceCandidates(profile);
+  if (pool.length >= ChoiceDistractors.optionCount) {
+    modes.add(StudyMode.choice);
+  }
+  // スピードは学習済みが20語以上のときだけ。
+  final learned = await repo.loadChoiceCandidates(profile, learnedOnly: true);
+  if (learned.length >= kSpeedMinWords) modes.add(StudyMode.speed);
+
+  // 取り違えは組が1件以上あるときだけ。0件なら空のカードを置かない。
+  final pairs = await repo.findConfusionPairs(
+    profile.id,
+    now: ref.watch(clockProvider)(),
+  );
+  if (pairs.isNotEmpty) modes.add(StudyMode.confusion);
+
   return modes;
 });

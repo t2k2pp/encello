@@ -44,6 +44,31 @@ abstract final class GradeResolver {
     return meaningRevealed && grade > 3 ? 3 : grade;
   }
 
+  /// 4択（`choice` / `parts` / `confusion`）の grade。
+  ///
+  /// **4択で 5 を出さない。** 25% が当てずっぽうで当たるため、綴りモードと同じ強さで
+  /// 間隔を伸ばすと、定着していない語がマスター判定に入り込む
+  /// （[Docs/06_features/srs_scheduler.md] §2）。
+  static int forChoice({required bool isCorrect}) => isCorrect ? 4 : 1;
+
+  /// スピードモードの grade。
+  ///
+  /// **時間切れは学習状態を更新しない**（[noUpdate]）。「知らない」ではなく「遅い」ので、
+  /// 間隔の判断材料にしない。誤答扱いにすると、知っている語の間隔が不当に縮み、
+  /// 復習キューが「知っているが遅い語」で埋まってしまう
+  /// （[Docs/06_features/speed_mode.md] §4）。
+  static int forSpeed({required bool timedOut, required bool isCorrect}) {
+    if (timedOut) return noUpdate;
+    return isCorrect ? 4 : 1;
+  }
+
+  /// フラッシュカードの自己評価。押さなければ更新しない（FR-26）。
+  static int forFlashcard({required bool? remembered}) => switch (remembered) {
+    null => noUpdate,
+    true => 4,
+    false => 2,
+  };
+
   static int _fastThreshold(StudyMode mode) => switch (mode) {
     StudyMode.listening => listeningFastMs,
     _ => spellFastMs,

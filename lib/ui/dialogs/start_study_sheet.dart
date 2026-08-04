@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../application/study_launcher.dart';
 import '../../application/study_session_controller.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_text.dart';
@@ -10,6 +11,7 @@ import '../../data/repositories/wordbook_repository.dart';
 import '../../domain/usecases/study_queue_builder.dart';
 import '../../providers/audio.dart';
 import '../../providers/providers.dart';
+import '../screens/choice_study_screen.dart';
 import '../screens/flashcard_screen.dart';
 import '../screens/spell_study_screen.dart';
 import '../widgets/soft_dropdown.dart';
@@ -65,6 +67,13 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
   /// 開始できなかった理由。シートを閉じずにここへ1行で出す。
   String? _error;
 
+  /// 選択式の画面で扱うモード。
+  static const _choiceModes = {
+    StudyMode.choice,
+    StudyMode.speed,
+    StudyMode.confusion,
+  };
+
   /// 問題数の選択肢（FR-10）。`null` = 期限到来分すべて。
   static const _limits = <int?>[10, 20, 50, null];
 
@@ -88,6 +97,22 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
         Navigator.of(context).pop();
         await Navigator.of(context).push(
           MaterialPageRoute<void>(builder: (_) => const FlashcardScreen()),
+        );
+        return;
+      }
+      if (_choiceModes.contains(_mode)) {
+        await ref
+            .read(studyLauncherProvider)
+            .start(
+              profile: widget.profile,
+              mode: _mode,
+              policy: _policy,
+              limit: _limit,
+            );
+        if (!mounted) return;
+        Navigator.of(context).pop();
+        await Navigator.of(context).push(
+          MaterialPageRoute<void>(builder: (_) => const ChoiceStudyScreen()),
         );
         return;
       }
@@ -188,7 +213,9 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
               ),
             ),
             const SizedBox(height: 12),
-            Text('問題数', style: AppText.caption()),
+            // スピードは50問固定、取り違えは自分の組の数で決まる。
+            if (_mode != StudyMode.speed) ...[
+              Text('問題数', style: AppText.caption()),
             const SizedBox(height: 6),
             SegmentedButton<int>(
               showSelectedIcon: false,
@@ -204,22 +231,26 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
               ],
               selected: {_limit},
               onSelectionChanged: (s) => setState(() => _limit = s.first),
-            ),
-            const SizedBox(height: 12),
-            Text('出題', style: AppText.caption()),
-            const SizedBox(height: 6),
-            SegmentedButton<QueuePolicy>(
-              showSelectedIcon: false,
-              style: SegmentedButton.styleFrom(
-                visualDensity: VisualDensity.compact,
               ),
-              segments: [
-                for (final p in QueuePolicy.values)
-                  ButtonSegment(value: p, label: Text(p.label)),
-              ],
-              selected: {_policy},
-              onSelectionChanged: (s) => setState(() => _policy = s.first),
-            ),
+            ],
+            // 取り違えは対象が自分の組に限られるので、出題方針の行を出さない。
+            if (_mode != StudyMode.confusion && _mode != StudyMode.speed) ...[
+              const SizedBox(height: 12),
+              Text('出題', style: AppText.caption()),
+              const SizedBox(height: 6),
+              SegmentedButton<QueuePolicy>(
+                showSelectedIcon: false,
+                style: SegmentedButton.styleFrom(
+                  visualDensity: VisualDensity.compact,
+                ),
+                segments: [
+                  for (final p in QueuePolicy.values)
+                    ButtonSegment(value: p, label: Text(p.label)),
+                ],
+                selected: {_policy},
+                onSelectionChanged: (s) => setState(() => _policy = s.first),
+              ),
+            ],
             if (_error != null) ...[
               const SizedBox(height: 12),
               Text(
