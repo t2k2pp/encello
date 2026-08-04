@@ -1,0 +1,76 @@
+英単語の単語帳を作って、アプリに取り込める形式（下の仕様）の JSON だけで出力してください。
+説明文は不要です。
+
+【テーマ】{{theme}}
+【語数】{{count}}語（1回につき最大50語）
+【レベル】{{level}}
+
+【単語の選び方】
+- そのテーマで実際によく使われる語を選ぶ。珍しい語で数を埋めない
+- 同じ綴りで品詞が違う語は、別の項目として分ける
+- 同じ語を2回入れない
+
+【訳の書き方】
+- その品詞で最もよく使う語義から最大3つを「；」で区切る
+- 語義の説明ではなく、辞書の見出しのように短く書く
+
+【例文の書き方】
+- その語のレベルで読める語彙だけを使い、10語以内にする
+- 例文を書いたら、和訳も必ず付ける
+- 自然な文が作れない語は、例文を省いてよい
+
+【発音記号】
+- IPA（米音）で書く
+- 自信がある語だけに書く。自信が無ければ書かない（推測で書かない）
+
+【出力の形式】
+{
+  "encelloWordbook": "1",
+  "name": "単語帳の名前（40文字以内）",
+  "emoji": "絵文字1文字",
+  "note": "説明（200文字以内・省略可）",
+  "words": [
+    {
+      "headword": "英単語（英字・スペース・ハイフン・アポストロフィのみ）",
+      "partOfSpeech": "noun / verb / adjective / adverb / preposition / conjunction / pronoun / interjection / phrase / unknown のいずれか",
+      "phonetic": "発音記号（省略可）",
+      "meaning": "日本語訳（200文字以内・必須）",
+      "exampleEn": "英語の例文（省略可）",
+      "exampleJa": "例文の和訳（exampleEn を書いたら必須）",
+      "level": 1〜5の数字（省略時は1）
+    }
+  ]
+}
+
+【出力例】
+{
+  "encelloWordbook": "1",
+  "name": "空港と飛行機の英単語",
+  "emoji": "✈️",
+  "note": "旅行で使う基本語",
+  "words": [
+    {
+      "headword": "boarding pass",
+      "partOfSpeech": "noun",
+      "meaning": "搭乗券",
+      "exampleEn": "Please show me your boarding pass.",
+      "exampleJa": "搭乗券を見せてください。",
+      "level": 2
+    },
+    {
+      "headword": "delay",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈleɪ/",
+      "meaning": "〜を遅らせる；延期する",
+      "exampleEn": "The storm delayed our flight.",
+      "exampleJa": "嵐が私たちの便を遅らせました。",
+      "level": 3
+    },
+    {
+      "headword": "check in",
+      "partOfSpeech": "phrase",
+      "meaning": "搭乗手続きをする",
+      "level": 2
+    }
+  ]
+}

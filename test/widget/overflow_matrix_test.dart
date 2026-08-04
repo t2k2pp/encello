@@ -1,11 +1,13 @@
 import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
+import 'package:encello/data/repositories/word_repository.dart';
 import 'package:encello/data/repositories/wordbook_repository.dart';
 import 'package:encello/ui/screens/achievements_screen.dart';
 import 'package:encello/ui/screens/audio_packs_screen.dart';
 import 'package:encello/ui/screens/dictionary_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
+import 'package:encello/ui/screens/my_words_screen.dart';
 import 'package:encello/ui/screens/profile_gate_screen.dart';
 import 'package:encello/ui/screens/profiles_screen.dart';
 import 'package:encello/ui/screens/root_shell.dart';
@@ -16,6 +18,7 @@ import 'package:encello/ui/screens/vocab_test_screen.dart';
 import 'package:encello/ui/screens/word_detail_screen.dart';
 import 'package:encello/ui/screens/wordbook_detail_screen.dart';
 import 'package:encello/ui/screens/wordbooks_screen.dart';
+import 'package:encello/ui/screens/write_meaning_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -343,6 +346,45 @@ void main() {
         tester,
         '単語詳細',
         (p) => WordDetailScreen(wordId: seeded.wordId, profile: p!),
+      );
+    });
+
+    testWidgets('マイ単語', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      final words = WordRepository(db);
+      await words.createOwned(
+        ownerProfileId: profile.id,
+        headword: longHeadword,
+        partOfSpeech: PartOfSpeech.verb,
+        meaning: longMeaning,
+      );
+      // 下書きも1件（下書きバッジ・下書きフィルタ・「訳を書く」ボタンを溢れさせる）。
+      await words.createOwned(
+        ownerProfileId: profile.id,
+        headword: 'draftword',
+        partOfSpeech: PartOfSpeech.noun,
+      );
+      await checkMatrix(
+        tester,
+        'マイ単語',
+        (p) => MyWordsScreen(profile: p!),
+      );
+    });
+
+    testWidgets('訳を書く', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      final words = WordRepository(db);
+      await words.createOwned(
+        ownerProfileId: profile.id,
+        headword: longHeadword,
+        partOfSpeech: PartOfSpeech.verb,
+        exampleEn:
+            'The internationalization of the company took several years.',
+      );
+      await checkMatrix(
+        tester,
+        '訳を書く',
+        (p) => WriteMeaningScreen(profile: p!),
       );
     });
   });

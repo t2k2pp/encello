@@ -8,6 +8,15 @@ void main() {
   StudyCandidate fresh(int id, {int sortOrder = 0}) =>
       StudyCandidate(wordId: id, review: null, sortOrder: sortOrder);
 
+  StudyCandidate ownedFresh(int id, {required DateTime createdAt}) =>
+      StudyCandidate(
+        wordId: id,
+        review: null,
+        sortOrder: 0,
+        isOwned: true,
+        createdAt: createdAt,
+      );
+
   StudyCandidate reviewed(
     int id, {
     required DateTime dueAt,
@@ -140,6 +149,48 @@ void main() {
         policy: QueuePolicy.newOnly,
       );
       expect(queue, isEmpty);
+    });
+  });
+
+  group('マイ単語の新規出題順（[Docs/06_features/my_words.md] §6）', () {
+    // build() は最後に結果をシード付きシャッフルするため、最終順序では検証できない。
+    // 代わりに limit を選択数より少なくし、「どの語が選ばれるか」（toSet）で
+    // 内部の並べ替えを検証する（他の既存テストと同じ手法）。
+    final pool = [
+      // マイ単語は登録が新しい順（sortOrder は無視される）。
+      ownedFresh(20, createdAt: DateTime(2026, 8, 1)),
+      ownedFresh(21, createdAt: DateTime(2026, 8, 3)),
+      ownedFresh(22, createdAt: DateTime(2026, 8, 2)),
+      // 共有語は掲載順（sortOrder）のまま。
+      fresh(10, sortOrder: 5),
+      fresh(11, sortOrder: 1),
+      fresh(12, sortOrder: 3),
+    ];
+
+    test('マイ単語の中では登録が新しい順に選ばれる', () {
+      final queue = build(pool, policy: QueuePolicy.newOnly, limit: 1);
+      expect(queue.map((e) => e.wordId).toSet(), {21});
+    });
+
+    test('マイ単語がすべて選ばれたあとは共有語が掲載順に選ばれる', () {
+      final queue = build(pool, policy: QueuePolicy.newOnly, limit: 4);
+      // マイ単語3語（20, 21, 22）＋ 掲載順が最小の共有語（11）。
+      expect(queue.map((e) => e.wordId).toSet(), {20, 21, 22, 11});
+    });
+
+    test('復習優先の新規語補充でもマイ単語は登録が新しい順になる', () {
+      final queue = build(
+        [
+          reviewed(1, dueAt: DateTime(2026, 8, 3)),
+          ownedFresh(20, createdAt: DateTime(2026, 8, 1)),
+          ownedFresh(21, createdAt: DateTime(2026, 8, 5)),
+          fresh(10, sortOrder: 0),
+        ],
+        policy: QueuePolicy.reviewFirst,
+        limit: 2,
+      );
+      // 期限到来の 1 に加え、新規語補充では最も新しいマイ単語 21 が選ばれる。
+      expect(queue.map((e) => e.wordId).toSet(), {1, 21});
     });
   });
 

@@ -66,6 +66,22 @@ class WordbookRepository {
       (_db.select(_db.wordbooks)..where((t) => t.id.equals(id)))
           .getSingleOrNull();
 
+  /// [profileId] のマイ単語帳（`category = myWords`）を返す。
+  /// プロファイル作成時に必ず1冊作られる（[Docs/06_features/my_words.md] §2）ため、
+  /// 見つからない場合はデータ不整合として例外にする。
+  Future<Wordbook> myWordsBookOf(int profileId) async {
+    final book = await (_db.select(_db.wordbooks)..where(
+          (t) =>
+              t.ownerProfileId.equals(profileId) &
+              t.category.equals(WordbookCategory.myWords.value),
+        ))
+        .getSingleOrNull();
+    if (book == null) {
+      throw StateError('マイ単語帳が見つかりません（profileId=$profileId）');
+    }
+    return book;
+  }
+
   /// ユーザー単語帳を作る。全学習者で共有する（`ownerProfileId` は null）。
   Future<int> create({
     required String name,

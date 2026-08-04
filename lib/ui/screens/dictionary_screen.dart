@@ -13,7 +13,7 @@ import '../../data/repositories/word_repository.dart';
 import '../../data/repositories/wordbook_repository.dart';
 import '../../providers/dictionary_listing.dart';
 import '../../providers/providers.dart';
-import '../dialogs/upsert_word_sheet.dart';
+import '../dialogs/quick_add_word_sheet.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/search_field.dart';
 import '../widgets/soft_dropdown.dart';
@@ -237,8 +237,10 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
               backgroundColor: AppColors.accent,
               padding: const EdgeInsets.symmetric(horizontal: 12),
             ),
+            // 辞書ヘッダーからはクイック登録（マイ単語）を開く
+            // （[Docs/06_features/my_words.md] §4.1）。
             onPressed: () =>
-                showUpsertWordSheet(context, profile: widget.profile),
+                showQuickAddWordSheet(context, profile: widget.profile),
             icon: const Icon(Icons.add, size: 18),
             label: const Text('単語'),
           ),

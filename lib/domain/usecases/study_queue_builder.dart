@@ -48,13 +48,23 @@ class StudyCandidate {
   /// 学習状態。null = 未学習（`word_reviews` に行が無い）。
   final ReviewState? review;
 
-  /// 単語帳の掲載順（新規語をこの順で取る）。
+  /// 単語帳の掲載順（共有語の新規出題をこの順で取る）。
   final int sortOrder;
+
+  /// マイ単語（`words.ownerProfileId` が非 null）か。
+  /// マイ単語の新規出題は掲載順ではなく登録が新しい順にする
+  /// （[Docs/06_features/my_words.md] §6）。
+  final bool isOwned;
+
+  /// 語の登録日時。[isOwned] のときだけ出題順に使う。
+  final DateTime? createdAt;
 
   const StudyCandidate({
     required this.wordId,
     required this.review,
     required this.sortOrder,
+    this.isOwned = false,
+    this.createdAt,
   });
 
   bool get isNew => review == null;
@@ -139,9 +149,8 @@ abstract final class StudyQueueBuilder {
       result.add(QueuedItem(wordId: c.wordId, source: QueueSource.due));
     }
 
-    // ② 不足分を未学習語で（単語帳の掲載順）。
-    final fresh = pool.where((c) => c.isNew).toList()
-      ..sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
+    // ② 不足分を未学習語で（マイ単語は登録が新しい順、それ以外は単語帳の掲載順）。
+    final fresh = _sortFresh(pool.where((c) => c.isNew).toList());
     for (final c in fresh) {
       if (result.length >= limit) return result;
       result.add(QueuedItem(wordId: c.wordId, source: QueueSource.newWord));
@@ -161,12 +170,25 @@ abstract final class StudyQueueBuilder {
   }
 
   static List<QueuedItem> _newOnly(List<StudyCandidate> pool, int limit) {
-    final fresh = pool.where((c) => c.isNew).toList()
-      ..sort((a, b) => a.sortOrder.compareTo(b.sortOrder));
+    final fresh = _sortFresh(pool.where((c) => c.isNew).toList());
     return [
       for (final c in fresh.take(limit))
         QueuedItem(wordId: c.wordId, source: QueueSource.newWord),
     ];
+  }
+
+  /// 新規語の並び替え（[Docs/06_features/my_words.md] §6）。
+  ///
+  /// マイ単語は**登録が新しい順**、共有の語は**単語帳の掲載順**のまま。
+  /// マイ単語を先に置く（出会った直後の復習が最も効くため）。
+  static List<StudyCandidate> _sortFresh(List<StudyCandidate> fresh) {
+    final list = [...fresh];
+    list.sort((a, b) {
+      if (a.isOwned != b.isOwned) return a.isOwned ? -1 : 1;
+      if (a.isOwned) return b.createdAt!.compareTo(a.createdAt!);
+      return a.sortOrder.compareTo(b.sortOrder);
+    });
+    return list;
   }
 
   static List<QueuedItem> _weakOnly(List<StudyCandidate> pool, int limit) {

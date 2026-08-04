@@ -24,6 +24,7 @@ import '../widgets/progress_ring.dart';
 import '../widgets/soft_card.dart';
 import '../widgets/streak_flame.dart';
 import 'achievements_screen.dart';
+import 'my_words_screen.dart';
 import 'vocab_test_screen.dart';
 import 'wordbooks_screen.dart';
 
@@ -80,6 +81,7 @@ class HomeScreen extends ConsumerWidget {
                     _RecentScoreCard(profile: current),
                     SizedBox(height: spacing.gap),
                     _VocabPromptCard(profile: current),
+                    _DraftCard(profile: current),
                     _NextAchievementCard(profile: current),
                     _StudyTargetCard(
                       books: studying,
@@ -466,6 +468,63 @@ class _VocabPromptCard extends ConsumerWidget {
                 child: Text(latest == null ? '語彙力を測る' : '測り直す'),
               ),
             ],
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 下書きカード（[Docs/04_screens_and_flows.md] §4.1、
+/// [Docs/06_features/my_words.md] §3）。
+///
+/// マイ単語の下書き（訳が未入力の語）が**3語以上**たまったら出す。0〜2語では
+/// 出さない（実績カード等と同じく、判明するまでは出さない）。
+class _DraftCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _DraftCard({required this.profile});
+
+  /// この件数未満では出さない。
+  static const kMinCount = 3;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final count = ref.watch(myWordsDraftCountProvider(profile.id)).value;
+    if (count == null || count < kMinCount) return const SizedBox.shrink();
+
+    return Padding(
+      padding: EdgeInsets.only(bottom: AppSpacing.of(context).gap),
+      child: SoftCard(
+        onTap: () => Navigator.of(context).push(
+          MaterialPageRoute<void>(
+            builder: (_) =>
+                MyWordsScreen(profile: profile, initialDraftOnly: true),
+          ),
+        ),
+        child: Row(
+          children: [
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'マイ単語の下書き',
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppText.sectionTitle(),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    '訳が空の単語が$count語あります。',
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: AppText.caption(),
+                  ),
+                ],
+              ),
+            ),
+            Icon(Icons.chevron_right, color: AppColors.ink3),
           ],
         ),
       ),

@@ -496,11 +496,81 @@ ORDER BY ${order.text}
         exampleJa: Value(_nullIfBlank(exampleJa)),
         level: Value(level),
         // 訳が入ったら下書きではなくなる（[Docs/06_features/my_words.md] §3）。
-        isDraft: Value(meaning.trim().isEmpty),
+        // 下書きは**マイ単語だけ**の状態。共有の語は訳が空でも下書きにしない
+        // （[Docs/03_data_model.md] §2.3）。
+        isDraft: Value(
+          word.ownerProfileId != null && meaning.trim().isEmpty,
+        ),
         isEdited: Value(word.presetId != null),
         updatedAt: Value(DateTime.now()),
       ),
     );
+  }
+
+  /// マイ単語を作る（[Docs/06_features/my_words.md] §2〜§3）。
+  ///
+  /// `meaning` が空なら `isDraft = true` で保存する（見出し語だけで登録できる）。
+  /// 保存先は [ownerProfileId] のマイ単語帳（`wordbooks.category = myWords`）へ
+  /// 自動で所属させる。`(headword, partOfSpeech, ownerProfileId)` が既存と衝突する
+  /// 場合は例外になる（[createShared] と同じ作法。呼び出し側が事前に
+  /// [findByHeadword] で確認する）。
+  Future<int> createOwned({
+    required int ownerProfileId,
+    required String headword,
+    required PartOfSpeech partOfSpeech,
+    String meaning = '',
+    String? phonetic,
+    String? exampleEn,
+    String? exampleJa,
+    int level = 1,
+  }) async {
+    final wordbooks = WordbookRepository(_db);
+    return _db.transaction(() async {
+      final myWordsBook = await wordbooks.myWordsBookOf(ownerProfileId);
+      final wordId = await _db
+          .into(_db.words)
+          .insert(
+            WordsCompanion.insert(
+              headword: headword.trim().toLowerCase(),
+              partOfSpeech: partOfSpeech.value,
+              meaning: meaning,
+              phonetic: Value(_nullIfBlank(phonetic)),
+              exampleEn: Value(_nullIfBlank(exampleEn)),
+              exampleJa: Value(_nullIfBlank(exampleJa)),
+              level: Value(level),
+              ownerProfileId: Value(ownerProfileId),
+              isDraft: Value(meaning.trim().isEmpty),
+            ),
+          );
+      await wordbooks.addWord(myWordsBook.id, wordId);
+      return wordId;
+    });
+  }
+
+  /// 自分の下書きの語（「訳を書く」モードが1語ずつ埋めていく対象）。
+  ///
+  /// 登録が新しい順に並べる。出会った直後の語ほど記憶が残っていて訳を書きやすい
+  /// （[Docs/06_features/my_words.md] §5）。
+  Future<List<Word>> draftWords(int profileId) =>
+      (_db.select(_db.words)
+            ..where(
+              (t) =>
+                  t.ownerProfileId.equals(profileId) & t.isDraft.equals(true),
+            )
+            ..orderBy([(t) => OrderingTerm.desc(t.createdAt)]))
+          .get();
+
+  /// 自分の下書き（[Docs/06_features/my_words.md] §3）の語数。
+  /// ホームの下書きカードとマイ単語画面の「訳を書く」ボタンが見る。
+  Stream<int> watchDraftCount(int profileId) {
+    final count = _db.words.id.count();
+    final query = _db.selectOnly(_db.words)
+      ..addColumns([count])
+      ..where(
+        _db.words.ownerProfileId.equals(profileId) &
+            _db.words.isDraft.equals(true),
+      );
+    return query.map((row) => row.read(count) ?? 0).watchSingle();
   }
 
   /// プリセット語を編集前の値へ戻す（FR-06）。`isEdited = false` にする。

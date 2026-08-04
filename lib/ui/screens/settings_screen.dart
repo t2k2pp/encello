@@ -14,6 +14,7 @@ import '../widgets/reminder_settings_card.dart';
 import '../widgets/soft_card.dart';
 import 'achievements_screen.dart';
 import 'audio_packs_screen.dart';
+import 'my_words_screen.dart';
 import 'profiles_screen.dart';
 import 'vocab_test_screen.dart';
 import 'wordbooks_screen.dart';
@@ -456,7 +457,7 @@ class _DensityCard extends ConsumerWidget {
   }
 }
 
-/// マスタタブ。マイ単語・音声パック・実績のタイルは、それぞれの機能が入った時点で足す。
+/// マスタタブ。
 class _MasterTab extends StatelessWidget {
   final Profile profile;
 
@@ -482,6 +483,16 @@ class _MasterTab extends StatelessWidget {
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute<void>(
               builder: (_) => WordbooksScreen(profile: profile),
+            ),
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.edit_note,
+          label: 'マイ単語',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => MyWordsScreen(profile: profile),
             ),
           ),
         ),

@@ -27,6 +27,8 @@ class StudyRepository {
           '''
 SELECT w.id AS word_id,
        MIN(we.sort_order) AS sort_order,
+       w.owner_profile_id AS owner_profile_id,
+       w.created_at AS created_at,
        r.repetition AS repetition,
        r.interval_days AS interval_days,
        r.ease_factor AS ease_factor,
@@ -60,6 +62,8 @@ SELECT w.id AS word_id,
         StudyCandidate(
           wordId: row.read<int>('word_id'),
           sortOrder: row.read<int>('sort_order'),
+          isOwned: row.read<int?>('owner_profile_id') != null,
+          createdAt: row.read<DateTime>('created_at'),
           review: row.read<DateTime?>('due_at') == null
               ? null
               : ReviewState(

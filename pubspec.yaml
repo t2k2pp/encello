@@ -99,6 +99,8 @@ flutter:
     - assets/wordbooks/
     # 語彙力測定の擬似語（[Docs/06_features/vocab_size_test.md] §4）。
     - assets/pseudowords.json
+    # AI に単語帳を作ってもらうための定型文（[Docs/06_features/ai_import.md] §4）。
+    - assets/prompts/
 
 # アプリアイコン設定。`dart run flutter_launcher_icons` で各解像度を生成する。
 # 背景色は pink パレットの bg（[Docs/08_platform_setup.md] §5）。

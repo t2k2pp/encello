@@ -100,6 +100,13 @@ final studyableWordCountProvider = FutureProvider.family<int, Profile>(
   (ref, profile) => ref.watch(wordRepositoryProvider).countStudyable(profile),
 );
 
+/// 自分のマイ単語の下書き数（[Docs/06_features/my_words.md] §3）。
+/// ホームの下書きカードとマイ単語画面（SCR-17）の「訳を書く」ボタンが見る。
+final myWordsDraftCountProvider = StreamProvider.family<int, int>(
+  (ref, profileId) =>
+      ref.watch(wordRepositoryProvider).watchDraftCount(profileId),
+);
+
 /// ある学習日の集計。行が無ければ null（その日はまだ解いていない）。
 final dailyStatsProvider =
     StreamProvider.family<DailyStat?, ({Profile profile, String studyDate})>((

@@ -5,6 +5,7 @@ import '../../core/theme/app_colors.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../../providers/stats.dart';
+import '../dialogs/quick_add_word_sheet.dart';
 import '../dialogs/start_study_sheet.dart';
 import '../widgets/centered_content.dart';
 import 'dictionary_screen.dart';
@@ -126,22 +127,27 @@ class _RootShellState extends ConsumerState<RootShell> {
               ],
             )
           : body,
+      // 長押しでクイック登録（マイ単語）を開く（[Docs/06_features/my_words.md] §4.1）。
       floatingActionButton: studyable == 0
           ? null
-          : FloatingActionButton.extended(
-              backgroundColor: AppColors.accent,
-              foregroundColor: Colors.white,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(18),
+          : GestureDetector(
+              onLongPress: () =>
+                  showQuickAddWordSheet(context, profile: profile),
+              child: FloatingActionButton.extended(
+                backgroundColor: AppColors.accent,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(18),
+                ),
+                onPressed: () =>
+                    showStartStudySheet(context, profile: profile),
+                icon: Badge(
+                  isLabelVisible: due > 0,
+                  label: Text('$due'),
+                  child: const Icon(Icons.play_arrow),
+                ),
+                label: const Text('学習をはじめる'),
               ),
-              onPressed: () =>
-                  showStartStudySheet(context, profile: profile),
-              icon: Badge(
-                isLabelVisible: due > 0,
-                label: Text('$due'),
-                child: const Icon(Icons.play_arrow),
-              ),
-              label: const Text('学習をはじめる'),
             ),
       bottomNavigationBar: wide
           ? null
