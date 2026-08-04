@@ -2,6 +2,7 @@ import 'package:encello/core/theme/app_colors.dart';
 import 'package:encello/core/theme/app_theme.dart';
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
+import 'package:encello/data/services/export_import_service.dart';
 import 'package:encello/data/seeds/prompt_assets.dart';
 import 'package:encello/data/seeds/pseudoword_assets.dart';
 import 'package:encello/domain/services/tts_service.dart';
@@ -14,6 +15,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:io';
 
+import '../fakes/fake_file_exchange_service.dart';
 import '../fakes/fake_reminder_service.dart';
 import '../fakes/fake_tts_service.dart';
 
@@ -51,6 +53,9 @@ Future<ProviderContainer> pumpWithProviders(
 
   /// AI 単語帳取り込みの定型文アセット。渡すと `promptAssetsProvider` を差し替える。
   PromptAssets? promptAssets,
+
+  /// ファイルの書き出し・読み込み。既定でフェイクにし、実機のダイアログを出さない。
+  FakeFileExchangeService? fileExchange,
 }) async {
   SharedPreferences.setMockInitialValues(prefs);
   final sharedPrefs = await SharedPreferences.getInstance();
@@ -88,6 +93,14 @@ Future<ProviderContainer> pumpWithProviders(
         pseudowordAssetsProvider.overrideWithValue(pseudowords),
       if (promptAssets != null)
         promptAssetsProvider.overrideWithValue(promptAssets),
+      fileExchangeServiceProvider.overrideWithValue(
+        fileExchange ?? FakeFileExchangeService(),
+      ),
+      // JSON への変換は別 isolate を起こさずその場で行う
+      // （ウィジェットテストでは isolate を起こさない。§4）。
+      backupEncoderProvider.overrideWithValue(
+        (payload) async => encodeBackupJson(payload),
+      ),
     ],
   );
   // 依存の逆順に片付ける（DB を閉じる前にコンテナを破棄する）。

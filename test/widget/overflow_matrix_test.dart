@@ -5,6 +5,7 @@ import 'package:encello/data/repositories/word_repository.dart';
 import 'package:encello/data/repositories/wordbook_repository.dart';
 import 'package:encello/ui/screens/achievements_screen.dart';
 import 'package:encello/ui/screens/audio_packs_screen.dart';
+import 'package:encello/ui/screens/csv_import_screen.dart';
 import 'package:encello/ui/screens/dictionary_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
 import 'package:encello/ui/screens/my_words_screen.dart';
@@ -284,6 +285,16 @@ void main() {
       final profile = await createTestProfile(db, name: longName);
       await seedWords(profile);
       await checkMatrix(tester, '語彙力測定', (p) => VocabTestScreen(profile: p!));
+    });
+
+    testWidgets('CSV 取り込み', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      final seeded = await seedWords(profile);
+      final book =
+          await (db.select(db.wordbooks)
+                ..where((t) => t.id.equals(seeded.wordbookId)))
+              .getSingle();
+      await checkMatrix(tester, 'CSV 取り込み', (_) => CsvImportScreen(wordbook: book));
     });
 
     testWidgets('シェル（4タブ）', (tester) async {

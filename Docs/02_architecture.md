@@ -136,6 +136,7 @@ Flutter 3.44 / Dart 3.12（`environment: sdk: ^3.12.0`）を前提とする。
 | 整形 | `intl` | ^0.20.2 | 日付・数値 |
 | 多言語 | `flutter_localizations` | sdk | ARB |
 | CSV | `csv` | ^8.0.0 | 単語帳の CSV 入出力 |
+| 文字コード | `charset` | ^2.0.1 | CSV の Shift_JIS 読み取り。純粋 Dart・依存ゼロでプラットフォームチャネルに触れないため、テストでもそのまま使える |
 | 共有 / 書き出し | `share_plus` / `file_selector` | ^13.3.0 / ^1.1.0 | `file_picker` は win32 の制約で `share_plus` 13+ と共存できないため使わない |
 | 設定の永続化 | `shared_preferences` | ^2.3.2 | 端末レベルの値のみ。学習者ごとの設定は `profiles` の列（[03_data_model.md] §8） |
 | ID | `uuid` | ^4.6.0 | セッションIDなど |

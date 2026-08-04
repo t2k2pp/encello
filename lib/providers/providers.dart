@@ -1,4 +1,5 @@
 import 'package:drift/drift.dart' show BooleanExpressionOperators;
+import 'package:flutter/foundation.dart' show compute;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 // StateProvider は Riverpod 3 で legacy 扱い（rootTabIndexProvider で使用）。
@@ -6,6 +7,9 @@ import 'package:flutter_riverpod/legacy.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../application/ai_import_service.dart';
+import '../data/services/export_import_service.dart';
+import '../data/services/file_exchange_service_impl.dart';
+import '../domain/services/file_exchange_service.dart';
 import '../application/answer_submission_service.dart';
 import '../application/choice_session_controller.dart';
 import '../application/flashcard_controller.dart';
@@ -137,6 +141,24 @@ final promptAssetsProvider = Provider<PromptAssets>(
 /// AI に作ってもらった単語帳の取り込み（[Docs/06_features/ai_import.md]）。
 final aiImportServiceProvider = Provider<AiImportService>(
   (ref) => AiImportService(ref.watch(databaseProvider)),
+);
+
+/// バックアップの書き出しと取り込み（[Docs/06_features/export_import.md]）。
+final exportImportServiceProvider = Provider<ExportImportService>(
+  (ref) => ExportImportService(ref.watch(databaseProvider)),
+);
+
+/// ファイルの書き出し・読み込み・共有。テストではフェイクへ差し替える。
+final fileExchangeServiceProvider = Provider<FileExchangeService>(
+  (ref) => const FileExchangeServiceImpl(),
+);
+
+/// バックアップを JSON 文字列にする。**別 isolate で回す**
+/// （語数が多くても UI を止めない。[Docs/06_features/export_import.md] §1）。
+/// ウィジェットテストでは isolate を起こさない実装に差し替える
+/// （[Docs/07_testing_strategy.md] §4）。
+final backupEncoderProvider = Provider<Future<String> Function(BackupPayload)>(
+  (ref) => (payload) => compute(encodeBackupJson, payload),
 );
 
 /// 現在の学習者から見える単語帳（共有＋自分のマイ単語帳）。

@@ -10,6 +10,7 @@ import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../widgets/audio_settings_card.dart';
+import '../widgets/data_exchange_cards.dart';
 import '../widgets/reminder_settings_card.dart';
 import '../widgets/soft_card.dart';
 import 'achievements_screen.dart';
@@ -527,8 +528,8 @@ class _MasterTab extends StatelessWidget {
 
 /// データタブ（[Docs/06_features/ai_import.md] §4）。
 ///
-/// 今回置くのは AI 単語帳取り込みの2タイルだけ。エクスポート/インポート・
-/// サンプルデータ・整理・リセットは別マイルストーンで足す。
+/// AI 単語帳取り込みの導線と、バックアップ・CSV の入出力を置く。
+/// サンプルデータ・未所属の整理・学習状態のリセットは別マイルストーンで足す。
 class _DataTab extends StatelessWidget {
   final Profile profile;
 
@@ -559,6 +560,10 @@ class _DataTab extends StatelessWidget {
             ),
           ),
         ),
+        SizedBox(height: spacing.gap),
+        const BackupCard(),
+        SizedBox(height: spacing.gap),
+        CsvCard(profile: profile),
       ],
     );
   }

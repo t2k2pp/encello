@@ -1,7 +1,13 @@
 # エクスポート / インポート
 
 対応要件: FR-51〜FR-53, FR-56, FR-57
-実装: `data/services/export_import_service.dart`, `ui/screens/settings_screen.dart`（データタブ）
+実装: `data/services/export_import_service.dart`,
+`domain/usecases/wordbook_csv_codec.dart`（CSV の検証）,
+`data/services/text_charset.dart`（文字コード判定）,
+`domain/services/file_exchange_service.dart`（抽象）＋
+`data/services/file_exchange_service_impl.dart`,
+`ui/widgets/data_exchange_cards.dart`, `ui/dialogs/backup_preview_sheet.dart`,
+`ui/screens/csv_import_screen.dart`
 
 ## 1. エクスポート
 
@@ -15,10 +21,19 @@
   音声パックは元の ZIP を保管して取り込み直す。エクスポート時にその旨を1行示す
   （「音声パックは含まれません。ZIP を別に保管してください」）。
 - ファイル名: `encello_backup_YYYYMMDD_HHmm.json` / `encello_<単語帳名>_YYYYMMDD.csv`。
-- 書き出しは `file_selector` で保存先を選ばせ、`share_plus` で共有もできるようにする。
-- 単語数が多い場合でも UI をブロックしないよう、JSON の組み立てとエンコードは
-  `compute`（別 isolate）で行う。Drift の読み出しはルート isolate で先に済ませ、
-  プレーンな Dart のリストを isolate へ渡す。
+- 書き出しの作法は**プラットフォームで分ける**。`file_selector` の保存ダイアログ
+  （`getSaveLocation`）はデスクトップだけの機能で、Android / iOS には実装が無い。
+  - デスクトップ: 保存ダイアログで場所を選ばせてそこへ書く
+  - Android / iOS: アプリのデータ領域へ書いてから**共有シート**（`share_plus`）に渡し、
+    保存先はシート側で選んでもらう
+  例外を握って別の方法へ落とす書き方はしない（分岐を明示する）。
+- 単語数が多い場合でも UI をブロックしないよう、JSON のエンコードは
+  `compute`（別 isolate）で行う。Drift の読み出しはルート isolate で先に済ませ
+  （`collectBackup`）、プレーンな `Map` を isolate へ渡す（`encodeBackupJson`）。
+  isolate を起こすのは `backupEncoderProvider` の役目にし、ウィジェットテストでは
+  その場で変換する実装に差し替える（[07_testing_strategy.md] §4）。
+- **マイ単語帳（`category = myWords`）は単語帳の一覧に書き出さない**。持ち主に紐づく
+  ため、取り込み側は学習者を作るときに1冊作り、その人のマイ単語をそこへ所属させる。
 
 ## 2. インポート
 
