@@ -17,6 +17,7 @@ import '../widgets/empty_state.dart';
 import '../widgets/mastery_badge.dart';
 import '../widgets/soft_card.dart';
 import '../widgets/speak_button.dart';
+import 'word_part_detail_screen.dart';
 import 'wordbook_detail_screen.dart';
 
 /// SCR-09 単語詳細（[Docs/04_screens_and_flows.md] §4.8、
@@ -81,6 +82,10 @@ class _WordDetailBody extends ConsumerWidget {
           SizedBox(height: spacing.gap),
           _ExampleCard(word: word, profile: profile),
         ],
+        // 部品の紐付けが無い語ではカードごと出さない。
+        _WordPartsCard(word: word, profile: profile, gap: spacing.gap),
+        // 語族に自分しかいない語ではカードごと出さない。
+        _WordFamilyCard(word: word, profile: profile, gap: spacing.gap),
         SizedBox(height: spacing.gap),
         _ReviewCard(review: review),
         SizedBox(height: spacing.gap),
@@ -430,6 +435,168 @@ class _ActionsCard extends ConsumerWidget {
       return;
     }
     if (context.mounted) Navigator.of(context).pop();
+  }
+}
+
+/// 語のつくりカード（[Docs/06_features/word_parts.md] §3）。
+/// 紐付けが1つも無い語では、このカードを出さない。
+class _WordPartsCard extends ConsumerWidget {
+  final Word word;
+  final Profile profile;
+  final double gap;
+
+  const _WordPartsCard({
+    required this.word,
+    required this.profile,
+    required this.gap,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final parts = ref.watch(wordPartsProvider(word.id)).value;
+    if (parts == null || parts.isEmpty) return const SizedBox.shrink();
+    final breakdown = ref.watch(wordBreakdownProvider(word.id)).value;
+
+    return Padding(
+      padding: EdgeInsets.only(top: gap),
+      child: SoftCard(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('語のつくり', style: AppText.sectionTitle()),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: [
+                for (final part in parts)
+                  InkWell(
+                    borderRadius: BorderRadius.circular(999),
+                    onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => WordPartDetailScreen(
+                          part: part,
+                          profile: profile,
+                        ),
+                      ),
+                    ),
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 10,
+                        vertical: 4,
+                      ),
+                      decoration: BoxDecoration(
+                        color: AppColors.accentSoft,
+                        borderRadius: BorderRadius.circular(999),
+                      ),
+                      child: Text(
+                        '${part.form}（${part.meaning}）',
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: AppText.caption(color: AppColors.ink2),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            // 説明文は書かれている語にだけ出す。**機械生成しない**。
+            Text(
+              word.partsNote ?? breakdown ?? '',
+              style: AppText.body(),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 語族カード（[Docs/06_features/word_families.md] §3）。
+/// 語族に自分しかいない場合はカードを出さない。
+class _WordFamilyCard extends ConsumerWidget {
+  final Word word;
+  final Profile profile;
+  final double gap;
+
+  const _WordFamilyCard({
+    required this.word,
+    required this.profile,
+    required this.gap,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final members = ref
+        .watch(
+          wordFamilyProvider((wordId: word.id, profileId: profile.id)),
+        )
+        .value;
+    if (members == null || members.length < 2) return const SizedBox.shrink();
+
+    return Padding(
+      padding: EdgeInsets.only(top: gap),
+      child: SoftCard(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('語族', style: AppText.sectionTitle()),
+            const SizedBox(height: 8),
+            for (final m in members)
+              Container(
+                // 現在の語を淡いアクセントで示す。
+                color: m.wordId == word.id ? AppColors.accentSoft : null,
+                padding: const EdgeInsets.symmetric(vertical: 4),
+                child: InkWell(
+                  onTap: m.wordId == word.id
+                      ? null
+                      : () => Navigator.of(context).push(
+                          MaterialPageRoute<void>(
+                            builder: (_) => WordDetailScreen(
+                              wordId: m.wordId,
+                              profile: profile,
+                            ),
+                          ),
+                        ),
+                  child: Row(
+                    children: [
+                      SizedBox(
+                        width: 52,
+                        child: Text(
+                          m.partOfSpeech.label,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: AppText.caption(),
+                        ),
+                      ),
+                      Expanded(
+                        child: Text(
+                          m.headword,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: AppText.body(),
+                        ),
+                      ),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          m.meaning,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          textAlign: TextAlign.right,
+                          style: AppText.caption(),
+                        ),
+                      ),
+                      const SizedBox(width: 6),
+                      MasteryBadge(mastery: m.mastery),
+                    ],
+                  ),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
   }
 }
 

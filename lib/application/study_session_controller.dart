@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meta/meta.dart';
 import 'package:uuid/uuid.dart';
@@ -6,6 +8,7 @@ import '../core/utils/enums.dart';
 import '../data/database/app_database.dart';
 import '../data/repositories/wordbook_repository.dart' show decodeIdList;
 import '../domain/entities/spell_verdict.dart';
+import '../domain/usecases/family_quiz_builder.dart';
 import '../domain/usecases/grade_resolver.dart';
 import '../domain/usecases/spell_judge.dart';
 import '../domain/usecases/spell_slots.dart';
@@ -73,6 +76,10 @@ class StudySessionState {
   /// 誤答で末尾へ戻した語。戻すのは1回までにして、セッションが終わらなくなるのを防ぐ。
   final Set<int> requeued;
 
+  /// 出題文の差し替え（語形変化: `decide（動詞：決める）` → 名詞形にしなさい）。
+  /// 空なら語の和訳をそのまま出す。
+  final Map<int, ({String prompt, String instruction})> promptOverrides;
+
   const StudySessionState({
     required this.sessionId,
     required this.mode,
@@ -95,6 +102,7 @@ class StudySessionState {
     required this.correctStreak,
     required this.presentedAt,
     required this.requeued,
+    this.promptOverrides = const {},
   });
 
   /// いま出題している語。`finished` では null。
@@ -160,6 +168,7 @@ class StudySessionState {
       correctStreak: correctStreak ?? this.correctStreak,
       presentedAt: presentedAt ?? this.presentedAt,
       requeued: requeued ?? this.requeued,
+      promptOverrides: promptOverrides,
     );
   }
 }
@@ -244,6 +253,71 @@ class StudySessionController extends Notifier<StudySessionState?> {
       correctStreak: 0,
       presentedAt: now,
       requeued: const {},
+    );
+  }
+
+  /// 語形変化クイズを開始する（[Docs/06_features/word_families.md] §4）。
+  ///
+  /// スペルモードの出題形式の1つとして扱い、入力・判定・記録は同じ実装を使う。
+  /// 更新するのは**答えた語**の学習状態だけで、提示した語は変えない。
+  Future<void> startFamily({
+    required Profile profile,
+    required List<FamilyQuestion> questions,
+    required int limit,
+  }) async {
+    if (questions.isEmpty) {
+      throw const StudyStartFailure('語形変化の問題を作れる語族がありません。');
+    }
+    final study = ref.read(studyRepositoryProvider);
+    final now = ref.read(clockProvider)();
+    final sessionId = const Uuid().v4();
+
+    final picked = ([...questions]..shuffle(Random(sessionId.hashCode)))
+        .take(limit)
+        .toList();
+    final words = await study.loadWords(picked.map((q) => q.answer.wordId));
+    await study.startSession(
+      sessionId: sessionId,
+      profile: profile,
+      mode: StudyMode.family.value,
+      wordbookIds: decodeIdList(profile.selectedWordbookIds),
+      plannedCount: picked.length,
+      startedAt: now,
+    );
+
+    state = StudySessionState(
+      sessionId: sessionId,
+      mode: StudyMode.family,
+      profile: profile,
+      queue: [
+        for (final q in picked)
+          QueuedItem(wordId: q.answer.wordId, source: QueueSource.due),
+      ],
+      words: words,
+      index: 0,
+      typed: '',
+      hintUsed: 0,
+      replayCount: 0,
+      meaningRevealed: false,
+      gaveUp: false,
+      phase: StudyPhase.presenting,
+      verdict: null,
+      submittedText: '',
+      busy: false,
+      answeredCount: 0,
+      correctCount: 0,
+      xpEarned: 0,
+      correctStreak: 0,
+      presentedAt: now,
+      requeued: const {},
+      promptOverrides: {
+        for (final q in picked)
+          q.answer.wordId: (
+            prompt:
+                '${q.prompt.headword}（${q.prompt.partOfSpeech.label}：${q.prompt.meaning}）',
+            instruction: '${q.answer.partOfSpeech.label}形にしなさい',
+          ),
+      },
     );
   }
 

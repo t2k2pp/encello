@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../core/utils/enums.dart';
 import '../data/database/app_database.dart';
 import '../domain/usecases/choice_distractors.dart';
+import '../domain/usecases/parts_question_builder.dart';
 import '../domain/usecases/study_queue_builder.dart';
 import '../providers/providers.dart';
 import 'choice_session_controller.dart';
@@ -28,6 +29,7 @@ class StudyLauncher {
       StudyMode.choice => await _buildChoice(profile, policy, limit),
       StudyMode.speed => await _buildSpeed(profile, limit),
       StudyMode.confusion => await _buildConfusion(profile, limit),
+      StudyMode.parts => await _buildParts(profile, limit),
       _ => throw StateError('選択式で扱わないモード: $mode'),
     };
     await _ref
@@ -101,6 +103,46 @@ class StudyLauncher {
       preference: ChoiceDirection.fromValue(profile.choiceDirection),
       random: random,
     );
+  }
+
+  /// 語のつくり（[Docs/06_features/word_parts.md] §5）。
+  ///
+  /// 出題対象は**紐付いた単語が3語以上ある部品**だけ。1語しか繋がっていない部品を
+  /// 覚えても応用が利かない。3問に1問は推測問題を混ぜるが、条件を満たす語が無ければ
+  /// 無理に作らない。
+  Future<List<ChoiceQuestion>> _buildParts(Profile profile, int limit) async {
+    final repo = _ref.read(modeRepositoryProvider);
+    final parts = await repo.loadPartCandidates(profile.id);
+    if (parts.length < PartsQuestionBuilder.optionCount) {
+      throw const StudyStartFailure(
+        '語のつくりを出すには、単語に紐付いた部品がもう少し必要です。',
+      );
+    }
+    final guesses = await repo.loadGuessCandidates(profile);
+    final built = PartsQuestionBuilder.build(
+      parts: parts,
+      guesses: guesses,
+      limit: limit,
+      random: Random(DateTime.now().microsecondsSinceEpoch),
+    );
+    if (built.isEmpty) {
+      throw const StudyStartFailure('語のつくりの問題を作れませんでした。');
+    }
+    return [
+      for (final q in built)
+        ChoiceQuestion(
+          prompt: q.prompt,
+          hint: q.hint,
+          options: q.options,
+          answerIndex: q.answerIndex,
+          direction: StudyDirection.enToJa,
+          explanation: q.explanation,
+          partId: q.partId,
+          // 推測問題は正解しても学習状態を作らない。
+          wordId: q.isGuess ? q.guessWordId : null,
+          guessOnly: q.isGuess,
+        ),
+    ];
   }
 
   Future<List<ChoiceQuestion>> _buildConfusion(

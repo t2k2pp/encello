@@ -282,6 +282,7 @@ class _Question extends ConsumerWidget {
     final notifier = ref.read(studySessionProvider.notifier);
     final answering = session.phase == StudyPhase.presenting;
     final listening = session.mode == StudyMode.listening;
+    final override = session.promptOverrides[word.id];
     // リスニングは和訳を伏せる。「訳を見る」を押したときだけ出す。
     final showMeaning = !listening || session.meaningRevealed;
 
@@ -322,11 +323,20 @@ class _Question extends ConsumerWidget {
           FittedBox(
             fit: BoxFit.scaleDown,
             child: Text(
-              word.meaning,
+              override?.prompt ?? word.meaning,
               textAlign: TextAlign.center,
               style: AppText.prompt(),
             ),
           ),
+          // 語形変化では「名詞形にしなさい」を添える。
+          if (override != null) ...[
+            const SizedBox(height: 6),
+            Text(
+              override.instruction,
+              textAlign: TextAlign.center,
+              style: AppText.body(color: AppColors.ink2),
+            ),
+          ],
         ],
         const SizedBox(height: 24),
         LetterTiles(

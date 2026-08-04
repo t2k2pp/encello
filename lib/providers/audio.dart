@@ -12,6 +12,8 @@ import '../domain/services/pronunciation_service.dart';
 import '../application/study_launcher.dart';
 import '../domain/services/tts_service.dart';
 import '../domain/usecases/choice_distractors.dart';
+import '../domain/usecases/family_quiz_builder.dart';
+import '../domain/usecases/parts_question_builder.dart';
 import 'providers.dart';
 
 /// 端末の読み上げ。テストではフェイクへ差し替える。
@@ -145,6 +147,19 @@ final availableModesProvider = FutureProvider.family<List<StudyMode>, Profile>((
     now: ref.watch(clockProvider)(),
   );
   if (pairs.isNotEmpty) modes.add(StudyMode.confusion);
+
+  // 語のつくりは、紐付いた語が3語以上ある部品が4つ以上あるときだけ
+  // （4択の選択肢を同じ種別で埋められる必要がある）。
+  final parts = await repo.loadPartCandidates(profile.id);
+  if (parts.length >= PartsQuestionBuilder.optionCount) {
+    modes.add(StudyMode.parts);
+  }
+
+  // 語形変化は、答えが一意に定まる語族が1つ以上あるときだけ。
+  final family = FamilyQuizBuilder.build(
+    await repo.loadFamilyMembers(profile.id),
+  );
+  if (family.isNotEmpty) modes.add(StudyMode.family);
 
   return modes;
 });

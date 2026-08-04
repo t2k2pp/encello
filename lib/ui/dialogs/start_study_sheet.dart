@@ -8,6 +8,7 @@ import '../../core/theme/app_text.dart';
 import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../data/repositories/wordbook_repository.dart';
+import '../../domain/usecases/family_quiz_builder.dart';
 import '../../domain/usecases/study_queue_builder.dart';
 import '../../providers/audio.dart';
 import '../../providers/providers.dart';
@@ -72,6 +73,7 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
     StudyMode.choice,
     StudyMode.speed,
     StudyMode.confusion,
+    StudyMode.parts,
   };
 
   /// 問題数の選択肢（FR-10）。`null` = 期限到来分すべて。
@@ -116,14 +118,27 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
         );
         return;
       }
-      await ref
-          .read(studySessionProvider.notifier)
-          .start(
-            profile: widget.profile,
-            mode: _mode,
-            policy: _policy,
-            limit: _limit,
-          );
+      if (_mode == StudyMode.family) {
+        final members = await ref
+            .read(modeRepositoryProvider)
+            .loadFamilyMembers(widget.profile.id);
+        await ref
+            .read(studySessionProvider.notifier)
+            .startFamily(
+              profile: widget.profile,
+              questions: FamilyQuizBuilder.build(members),
+              limit: _limit,
+            );
+      } else {
+        await ref
+            .read(studySessionProvider.notifier)
+            .start(
+              profile: widget.profile,
+              mode: _mode,
+              policy: _policy,
+              limit: _limit,
+            );
+      }
       if (!mounted) return;
       Navigator.of(context).pop();
       await Navigator.of(context).push(
