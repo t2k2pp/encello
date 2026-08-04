@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../application/ai_import_service.dart';
 import '../application/answer_submission_service.dart';
 import '../application/choice_session_controller.dart';
 import '../application/flashcard_controller.dart';
@@ -17,6 +18,7 @@ import '../data/repositories/profile_repository.dart';
 import '../data/repositories/study_repository.dart';
 import '../data/repositories/word_repository.dart';
 import '../data/repositories/wordbook_repository.dart';
+import '../data/seeds/prompt_assets.dart';
 import '../data/seeds/seed_importer.dart';
 
 /// 端末レベルの設定キー（[Docs/03_data_model.md] §8）。
@@ -125,6 +127,16 @@ final dailyStatsProvider =
 /// プリセット投入（起動ゲート）と、プリセット語の「元に戻す」で使う。
 final seedImporterProvider = Provider<SeedImporter>(
   (ref) => SeedImporter(ref.watch(databaseProvider), rootBundle),
+);
+
+/// AI に単語帳を作ってもらうための定型文（[Docs/06_features/ai_import.md] §4）。
+final promptAssetsProvider = Provider<PromptAssets>(
+  (ref) => PromptAssets(rootBundle),
+);
+
+/// AI に作ってもらった単語帳の取り込み（[Docs/06_features/ai_import.md]）。
+final aiImportServiceProvider = Provider<AiImportService>(
+  (ref) => AiImportService(ref.watch(databaseProvider)),
 );
 
 /// 現在の学習者から見える単語帳（共有＋自分のマイ単語帳）。

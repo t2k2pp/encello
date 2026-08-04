@@ -1,0 +1,44 @@
+```json
+{
+  "encelloWordbook": "1",
+  "name": "看護実習の英単語",
+  "emoji": "🩺",
+  "note": "実習で出てくる基本語",
+  "words": [
+    {
+      "headword": "patient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪʃənt/",
+      "meaning": "患者",
+      "exampleEn": "The patient is resting in the next room.",
+      "exampleJa": "その患者は隣の部屋で休んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "Patient!",
+      "partOfSpeech": "noun",
+      "meaning": "患者（誤記）",
+      "level": 2
+    },
+    {
+      "headword": "monitor",
+      "partOfSpeech": "verbs",
+      "meaning": "〜を監視する",
+      "level": 3
+    },
+    {
+      "headword": "bandage",
+      "partOfSpeech": "noun",
+      "meaning": "",
+      "level": 2
+    },
+    {
+      "headword": "recover",
+      "partOfSpeech": "verb",
+      "meaning": "回復する",
+      "exampleEn": "She recovered quickly after the surgery.",
+      "level": 3
+    }
+  ]
+}
+```

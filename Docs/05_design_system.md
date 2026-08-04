@@ -156,6 +156,15 @@ encello の**既定は `pink`**（[STYLE_GUIDE §1.2] の既定表に追加済�
 | 4択の選択肢 | `SoftCard` 内で `maxLines: 3` + ellipsis。選択肢の高さを固定しない |
 | 単語帳名が長い | チップは `Flexible` + ellipsis |
 | キーボード | 幅 320dp でも 10 列が収まる（キー幅の下限を設けず、幅から等分する） |
+| 設定の5タブ | `TabBar` を `isScrollable: true` ＋ `tabAlignment: start` にする（下記の逸脱） |
+
+### 6.1 設定タブのスクロール（[STYLE_GUIDE §5] からの逸脱）
+
+設定は 表示 / 学習 / マスタ / データ / 情報 の5タブ。等幅で並べると
+**幅 320dp × textScaler 1.6** で「マスタ」「データ」のラベルが溢れる。
+文字を縮めると端末の文字拡大を尊重する原則（[STYLE_GUIDE §8]）に反するため、
+`TabBar` をスクロール可能にして幅に収まらない分を横スクロールで見せる。
+タブ数が5で固定されている画面に限った逸脱で、他のタブバーには広げない。
 
 検証は `test/widget/overflow_matrix_test.dart` で「幅 320/390/768 × textScaler 1.0/1.3/1.6」の
 マトリクスを回し、`tester.takeException()` が null であることを確認する。

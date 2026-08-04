@@ -1,0 +1,35 @@
+かしこまりました。ご希望のテーマで単語帳を作成しました。以下の内容をアプリに貼り付けてください。
+
+{
+  "encelloWordbook": "1",
+  "name": "空港と飛行機の英単語",
+  "emoji": "✈️",
+  "note": "旅行で使う基本語",
+  "words": [
+    {
+      "headword": "boarding pass",
+      "partOfSpeech": "noun",
+      "meaning": "搭乗券",
+      "exampleEn": "Please show me your boarding pass.",
+      "exampleJa": "搭乗券を見せてください。",
+      "level": 2
+    },
+    {
+      "headword": "delay",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈleɪ/",
+      "meaning": "〜を遅らせる；延期する",
+      "exampleEn": "The storm delayed our flight.",
+      "exampleJa": "嵐が私たちの便を遅らせました。",
+      "level": 3
+    },
+    {
+      "headword": "check in",
+      "partOfSpeech": "phrase",
+      "meaning": "搭乗手続きをする",
+      "level": 2
+    }
+  ]
+}
+
+ほかにご要望があればお知らせください。

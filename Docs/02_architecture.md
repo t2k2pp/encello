@@ -139,6 +139,7 @@ Flutter 3.44 / Dart 3.12（`environment: sdk: ^3.12.0`）を前提とする。
 | 共有 / 書き出し | `share_plus` / `file_selector` | ^13.3.0 / ^1.1.0 | `file_picker` は win32 の制約で `share_plus` 13+ と共存できないため使わない |
 | 設定の永続化 | `shared_preferences` | ^2.3.2 | 端末レベルの値のみ。学習者ごとの設定は `profiles` の列（[03_data_model.md] §8） |
 | ID | `uuid` | ^4.6.0 | セッションIDなど |
+| 書記素クラスタ | `characters` | ^1.4.1 | AI 取り込みの絵文字「1文字」判定（🩺 のようなサロゲートペアを1文字と数える）。純粋 Dart なので domain 層から使える |
 | テスト | `flutter_test` / `mocktail` / `integration_test` | sdk / ^1.0.4 | |
 
 ### 3.1 グラフを外部パッケージにしない理由

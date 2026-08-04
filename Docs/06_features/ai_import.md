@@ -1,7 +1,8 @@
 # AI に作ってもらった単語帳の取り込み（AI Import）
 
 対応要件: FR-105〜FR-112
-実装: `domain/usecases/wordbook_json_codec.dart`, `application/ai_import_service.dart`,
+実装: `domain/usecases/wordbook_json_codec.dart`, `data/seeds/prompt_assets.dart`,
+`application/ai_import_service.dart`,
 `ui/screens/paste_import_screen.dart`, `ui/screens/prompt_guide_screen.dart`,
 `assets/prompts/*.txt`
 
@@ -118,6 +119,14 @@
 弾いた行がある場合、**「正しい語だけ取り込む」か「やめる」**を選ばせる。
 推測で補完して取り込むことはしない。
 
+実装メモ（`WordbookJsonCodec.decode`）: 単語帳そのものが作れない致命的な問題
+（版違い・`name` なし・`words` が配列でない・201件以上）のときだけ結果全体を
+`null` にする。個々の語の問題（見出し語の文字種・品詞不正・訳なし等）は、
+その語だけを弾いたうえで**残りの語だけを持つ単語帳**を返し、`issues` に理由を
+全件添える。呼び出し側（SCR-24）はこの結果を見て「正しい語だけ取り込む」か
+「やめる」を出す。1語も残らなかった場合は「取り込める語が1つもありませんでした」
+を `issues` に足し、部分取り込みの選択肢自体を出さない（直してもらう文のみ）。
+
 ### 3.4 トランザクション
 
 単語帳・単語・所属を1トランザクションで書く。途中で失敗したら1件も残さない。
@@ -153,6 +162,11 @@
   （取り込み先に「新しく作る / 既存の単語帳に足す」を選ばせる）。
 - スキーマ側の上限も 200件にして、それを超える入力は「一度に取り込める語数を超えています。
   50語ずつに分けて作ってもらってください」と示す。
+- 「既存の単語帳に足す」で選べる単語帳は、プリセット単語帳とマイ単語帳を除いた
+  共有のユーザー単語帳（`source != preset` かつ `category != myWords`）に絞る
+  （[wordbooks.md] §4 の「削除できる単語帳」と同じ範囲）。プリセットは同梱内容を
+  固定し、マイ単語帳は個人の語だけを持つ場所のため、AI 取り込みの共有語を
+  混ぜる先にしない。
 
 ### 4.2 ③ 統合プロンプト（要旨）
 

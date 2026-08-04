@@ -71,6 +71,10 @@ dependencies:
   # （[Docs/02_architecture.md] §6）。
   meta: ^1.18.0
 
+  # AI 単語帳取り込みの絵文字1文字判定（surrogate pair を正しく1文字と数える）。
+  # 純粋 Dart パッケージ（Flutter 非依存）で domain 層から使える。
+  characters: ^1.4.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

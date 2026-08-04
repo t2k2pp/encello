@@ -8,8 +8,10 @@ import 'package:encello/ui/screens/audio_packs_screen.dart';
 import 'package:encello/ui/screens/dictionary_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
 import 'package:encello/ui/screens/my_words_screen.dart';
+import 'package:encello/ui/screens/paste_import_screen.dart';
 import 'package:encello/ui/screens/profile_gate_screen.dart';
 import 'package:encello/ui/screens/profiles_screen.dart';
+import 'package:encello/ui/screens/prompt_guide_screen.dart';
 import 'package:encello/ui/screens/root_shell.dart';
 import 'package:encello/ui/screens/session_history_screen.dart';
 import 'package:encello/ui/screens/settings_screen.dart';
@@ -389,8 +391,29 @@ void main() {
     });
   });
 
+  group('AI 単語帳取り込み', () {
+    testWidgets('貼り付け取込', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await checkMatrix(
+        tester,
+        '貼り付け取込',
+        (p) => PasteImportScreen(profile: p!),
+      );
+    });
+
+    testWidgets('AI への頼み方', (tester) async {
+      await createTestProfile(db, name: longName);
+      await checkMatrix(
+        tester,
+        'AI への頼み方',
+        (p) => PromptGuideScreen(profile: p!),
+      );
+    });
+  });
+
   group('設定の各タブが溢れない', () {
-    for (final tabIndex in [0, 1, 2, 3]) {
+    for (final tabIndex in [0, 1, 2, 3, 4]) {
       testWidgets('設定タブ $tabIndex', (tester) async {
         await createTestProfile(db, name: longName);
         for (final width in widths) {
@@ -407,7 +430,12 @@ void main() {
             );
             await tester.pumpAndSettle();
             if (tabIndex > 0) {
-              await tester.tap(find.byType(Tab).at(tabIndex));
+              // isScrollable な TabBar は狭い幅だと末尾のタブが画面外に出るため、
+              // タップ前にスクロールして表示範囲へ入れる。
+              final tab = find.byType(Tab).at(tabIndex);
+              await tester.ensureVisible(tab);
+              await tester.pumpAndSettle();
+              await tester.tap(tab);
               await tester.pumpAndSettle();
             }
             expect(

@@ -1,0 +1,31 @@
+```json
+{
+  "encelloWordbook": "1",
+  "name": "キャンプ用語",
+  "emoji": "🏕️",
+  "note": "アウトドアの基本語",
+  "words": [
+    {
+      "headword": "tent",
+      "partOfSpeech": "noun",
+      "phonetic": "/tɛnt/",
+      "meaning": "テント",
+      "exampleEn": "We pitched the tent near the river.",
+      "exampleJa": "私たちは川の近くにテントを張りました。",
+      "level": 2
+    },
+    {
+      "headword": "campfire",
+      "partOfSpeech": "noun",
+      "meaning": "キャンプファイヤー",
+      "level": 2
+    },
+    {
+      "headword": "set up",
+      "partOfSpeech": "phrase",
+      "meaning": "〜を設営する",
+      "level": 2
+    }
+  ]
+}
+```

@@ -15,15 +15,15 @@ import '../widgets/soft_card.dart';
 import 'achievements_screen.dart';
 import 'audio_packs_screen.dart';
 import 'my_words_screen.dart';
+import 'paste_import_screen.dart';
 import 'profiles_screen.dart';
+import 'prompt_guide_screen.dart';
 import 'vocab_test_screen.dart';
 import 'wordbooks_screen.dart';
 
 /// SCR-11 設定（[Docs/04_screens_and_flows.md] §4.10、[STYLE_GUIDE §5]）。
 ///
-/// タブは 表示 / 学習 / マスタ / データ / 情報 の5つが最終形。中身がまだ無いタブは
-/// 出さない（空のタブを置かない。[STYLE_GUIDE §0-4]）。学習・データは、それぞれの
-/// 設定が実際に効く機能が入った時点で足す。
+/// タブは 表示 / 学習 / マスタ / データ / 情報 の5つ。
 ///
 /// 表示タブの設定はすべて**現在の学習者のもの**。切り替えると別の値になる。
 class SettingsScreen extends StatelessWidget {
@@ -36,7 +36,7 @@ class SettingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final spacing = AppSpacing.of(context);
     return DefaultTabController(
-      length: 4,
+      length: 5,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -45,6 +45,8 @@ class SettingsScreen extends StatelessWidget {
             child: Text('設定', style: AppText.title()),
           ),
           TabBar(
+            isScrollable: true,
+            tabAlignment: TabAlignment.start,
             labelColor: AppColors.ink,
             unselectedLabelColor: AppColors.ink3,
             indicatorColor: AppColors.accent,
@@ -52,6 +54,7 @@ class SettingsScreen extends StatelessWidget {
               Tab(text: '表示'),
               Tab(text: '学習'),
               Tab(text: 'マスタ'),
+              Tab(text: 'データ'),
               Tab(text: '情報'),
             ],
           ),
@@ -61,6 +64,7 @@ class SettingsScreen extends StatelessWidget {
                 _DisplayTab(profile: profile),
                 _StudyTab(profile: profile),
                 _MasterTab(profile: profile),
+                _DataTab(profile: profile),
                 const _InfoTab(),
               ],
             ),
@@ -513,6 +517,45 @@ class _MasterTab extends StatelessWidget {
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute<void>(
               builder: (_) => AchievementsScreen(profile: profile),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// データタブ（[Docs/06_features/ai_import.md] §4）。
+///
+/// 今回置くのは AI 単語帳取り込みの2タイルだけ。エクスポート/インポート・
+/// サンプルデータ・整理・リセットは別マイルストーンで足す。
+class _DataTab extends StatelessWidget {
+  final Profile profile;
+
+  const _DataTab({required this.profile});
+
+  @override
+  Widget build(BuildContext context) {
+    final spacing = AppSpacing.of(context);
+    return ListView(
+      padding: spacing.screenPadding,
+      children: [
+        _NavTile(
+          icon: Icons.auto_awesome,
+          label: 'AI に単語帳を作ってもらう',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => PromptGuideScreen(profile: profile),
+            ),
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.content_paste,
+          label: '貼り付けて取り込む',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => PasteImportScreen(profile: profile),
             ),
           ),
         ),

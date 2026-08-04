@@ -2,6 +2,7 @@ import 'package:encello/core/theme/app_colors.dart';
 import 'package:encello/core/theme/app_theme.dart';
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
+import 'package:encello/data/seeds/prompt_assets.dart';
 import 'package:encello/data/seeds/pseudoword_assets.dart';
 import 'package:encello/domain/services/tts_service.dart';
 import 'package:encello/providers/audio.dart';
@@ -47,6 +48,9 @@ Future<ProviderContainer> pumpWithProviders(
   /// （riverpod 3 は `Override` 型を公開していないため、override のリストを
   /// 引数で受け取れない。差し替えたい provider ごとに引数を足す）。
   PseudowordAssets? pseudowords,
+
+  /// AI 単語帳取り込みの定型文アセット。渡すと `promptAssetsProvider` を差し替える。
+  PromptAssets? promptAssets,
 }) async {
   SharedPreferences.setMockInitialValues(prefs);
   final sharedPrefs = await SharedPreferences.getInstance();
@@ -82,6 +86,8 @@ Future<ProviderContainer> pumpWithProviders(
         launchProfileIdProvider.overrideWithValue(launchProfileId),
       if (pseudowords != null)
         pseudowordAssetsProvider.overrideWithValue(pseudowords),
+      if (promptAssets != null)
+        promptAssetsProvider.overrideWithValue(promptAssets),
     ],
   );
   // 依存の逆順に片付ける（DB を閉じる前にコンテナを破棄する）。
