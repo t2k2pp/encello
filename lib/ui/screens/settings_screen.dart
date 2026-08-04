@@ -30,7 +30,7 @@ class SettingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final spacing = AppSpacing.of(context);
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
@@ -44,6 +44,7 @@ class SettingsScreen extends StatelessWidget {
             indicatorColor: AppColors.accent,
             tabs: const [
               Tab(text: '表示'),
+              Tab(text: '学習'),
               Tab(text: 'マスタ'),
               Tab(text: '情報'),
             ],
@@ -52,6 +53,7 @@ class SettingsScreen extends StatelessWidget {
             child: TabBarView(
               children: [
                 _DisplayTab(profile: profile),
+                _StudyTab(profile: profile),
                 _MasterTab(profile: profile),
                 const _InfoTab(),
               ],
@@ -93,6 +95,185 @@ Future<void> _patchProfile(
 ) async {
   await ref.read(profileRepositoryProvider).updateSettings(profileId, patch);
   await ref.read(activeProfileProvider.notifier).reload();
+}
+
+/// 学習タブ。フラッシュカード・4択・スピード・音声・リマインダーの設定は、
+/// それぞれの機能が入った時点で足す。
+class _StudyTab extends StatelessWidget {
+  final Profile profile;
+
+  const _StudyTab({required this.profile});
+
+  @override
+  Widget build(BuildContext context) {
+    final spacing = AppSpacing.of(context);
+    return ListView(
+      padding: spacing.screenPadding,
+      children: [
+        _DailyGoalCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _SessionSizeCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _KeyboardLayoutCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _AutoNextCard(profile: profile),
+      ],
+    );
+  }
+}
+
+/// 1日に解く問題数の目標（FR-40）。
+class _DailyGoalCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _DailyGoalCard({required this.profile});
+
+  static const _choices = [10, 20, 30, 50, 100];
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('デイリー目標', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text('1日にこの問数を解くと、その日を達成にして連続日数が伸びます。', style: AppText.caption()),
+          const SizedBox(height: 12),
+          Wrap(
+            spacing: 8,
+            children: [
+              for (final n in _choices)
+                ChoiceChip(
+                  label: Text('$n問'),
+                  selected: profile.dailyGoal == n,
+                  onSelected: (_) => _patchProfile(
+                    ref,
+                    profile.id,
+                    ProfilesCompanion(dailyGoal: Value(n)),
+                  ),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// 1セッションの問題数（FR-10）。モード選択シートの初期値になる。
+class _SessionSizeCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _SessionSizeCard({required this.profile});
+
+  static const _choices = [10, 20, 50];
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('1セッションの問題数', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text('学習をはじめるときの初期値です。開始前に変えられます。', style: AppText.caption()),
+          const SizedBox(height: 12),
+          SegmentedButton<int>(
+            showSelectedIcon: false,
+            segments: [
+              for (final n in _choices)
+                ButtonSegment(value: n, label: Text('$n問')),
+            ],
+            selected: {
+              _choices.contains(profile.sessionSize) ? profile.sessionSize : 20,
+            },
+            onSelectionChanged: (s) => _patchProfile(
+              ref,
+              profile.id,
+              ProfilesCompanion(sessionSize: Value(s.first)),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// アプリ内英字キーボードの配列（FR-17）。
+class _KeyboardLayoutCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _KeyboardLayoutCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final current = KeyboardLayout.fromValue(profile.keyboardLayout);
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('キーボードの配列', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text('綴りを入力するときのキーの並びです。ABC順はキーボードに慣れていないうちに向きます。', style: AppText.caption()),
+          const SizedBox(height: 12),
+          SegmentedButton<KeyboardLayout>(
+            showSelectedIcon: false,
+            segments: [
+              for (final o in KeyboardLayout.values)
+                ButtonSegment(value: o, label: Text(o.label)),
+            ],
+            selected: {current},
+            onSelectionChanged: (s) => _patchProfile(
+              ref,
+              profile.id,
+              ProfilesCompanion(keyboardLayout: Value(s.first.value)),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// 正解したら自動で次へ（既定 OFF）。
+class _AutoNextCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _AutoNextCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Text('正解したら自動で次へ', style: AppText.sectionTitle()),
+              ),
+              Switch(
+                value: profile.autoNextOnCorrect,
+                activeThumbColor: AppColors.accent,
+                onChanged: (v) => _patchProfile(
+                  ref,
+                  profile.id,
+                  ProfilesCompanion(autoNextOnCorrect: Value(v)),
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Text(
+            '正解のときだけ 1.2 秒後に次の問題へ進みます。'
+            '間違えたときは、この設定に関わらず必ずタップで進みます。',
+            style: AppText.caption(),
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 /// テーマの色（[STYLE_GUIDE §1.2]）。マスタ編集シートの色選択と同じ 36px 色玉

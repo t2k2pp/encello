@@ -1,12 +1,17 @@
+import 'package:drift/drift.dart' show BooleanExpressionOperators;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 // StateProvider は Riverpod 3 で legacy 扱い（rootTabIndexProvider で使用）。
 import 'package:flutter_riverpod/legacy.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../application/answer_submission_service.dart';
+import '../application/session_finalizer.dart';
+import '../application/study_session_controller.dart';
 import '../core/theme/app_colors.dart';
 import '../data/database/app_database.dart';
 import '../data/repositories/profile_repository.dart';
+import '../data/repositories/study_repository.dart';
 import '../data/repositories/word_repository.dart';
 import '../data/repositories/wordbook_repository.dart';
 import '../data/seeds/seed_importer.dart';
@@ -43,6 +48,53 @@ final wordRepositoryProvider = Provider<WordRepository>(
 final wordbookRepositoryProvider = Provider<WordbookRepository>(
   (ref) => WordbookRepository(ref.watch(databaseProvider)),
 );
+
+final studyRepositoryProvider = Provider<StudyRepository>(
+  (ref) => StudyRepository(ref.watch(databaseProvider)),
+);
+
+/// 1問の解答を1トランザクションで確定する（[Docs/02_architecture.md] §1.1）。
+final answerSubmissionServiceProvider = Provider<AnswerSubmissionService>(
+  (ref) => AnswerSubmissionService(ref.watch(databaseProvider)),
+);
+
+final sessionFinalizerProvider = Provider<SessionFinalizer>(
+  (ref) => SessionFinalizer(ref.watch(databaseProvider)),
+);
+
+/// 進行中の学習セッション。null = セッション外。
+final studySessionProvider =
+    NotifierProvider<StudySessionController, StudySessionState?>(
+      StudySessionController.new,
+    );
+
+/// 「今日の復習 N語」（[Docs/06_features/srs_scheduler.md] §7）。
+final dueCountProvider = StreamProvider.family<int, Profile>(
+  (ref, profile) => ref
+      .watch(studyRepositoryProvider)
+      .watchDueCount(profile, ref.watch(clockProvider)),
+);
+
+/// 現在の学習者が選んでいる単語帳にある「出題できる語」の数。
+/// 0 のときは学習を始められないため、シェルの FAB を出さない。
+final studyableWordCountProvider = FutureProvider.family<int, Profile>(
+  (ref, profile) => ref.watch(wordRepositoryProvider).countStudyable(profile),
+);
+
+/// ある学習日の集計。行が無ければ null（その日はまだ解いていない）。
+final dailyStatsProvider =
+    StreamProvider.family<DailyStat?, ({Profile profile, String studyDate})>((
+      ref,
+      key,
+    ) {
+      final db = ref.watch(databaseProvider);
+      return (db.select(db.dailyStats)..where(
+            (t) =>
+                t.profileId.equals(key.profile.id) &
+                t.studyDate.equals(key.studyDate),
+          ))
+          .watchSingleOrNull();
+    });
 
 /// プリセット投入（起動ゲート）と、プリセット語の「元に戻す」で使う。
 final seedImporterProvider = Provider<SeedImporter>(

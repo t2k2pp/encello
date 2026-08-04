@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_text.dart';
+import '../../core/utils/study_date.dart';
 import '../../data/database/app_database.dart';
 import '../../data/repositories/wordbook_repository.dart';
+import '../../domain/usecases/study_queue_builder.dart';
 import '../../providers/providers.dart';
+import '../dialogs/start_study_sheet.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/profile_avatar.dart';
+import '../widgets/progress_ring.dart';
 import '../widgets/soft_card.dart';
 import 'wordbooks_screen.dart';
 
@@ -52,8 +57,10 @@ class HomeScreen extends ConsumerWidget {
                   onAction: () => _openWordbooks(context, current),
                 )
               : ListView(
-                  padding: spacing.screenPadding.copyWith(bottom: 32),
+                  padding: spacing.screenPadding.copyWith(bottom: 96),
                   children: [
+                    _TodayCard(profile: current),
+                    SizedBox(height: spacing.gap),
                     _StudyTargetCard(
                       books: studying,
                       onEdit: () => _openWordbooks(context, current),
@@ -69,6 +76,73 @@ class HomeScreen extends ConsumerWidget {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
         builder: (_) => WordbooksScreen(profile: profile),
+      ),
+    );
+  }
+}
+
+/// 今日のカード（[Docs/04_screens_and_flows.md] §4.1）。
+/// 今日の進捗と、期限到来の復習件数から始められる導線を出す。
+class _TodayCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _TodayCard({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final today = studyDateOf(ref.watch(clockProvider)());
+    final stats = ref.watch(dailyStatsProvider((profile: profile, studyDate: today))).value;
+    final due = ref.watch(dueCountProvider(profile)).value ?? 0;
+    final answered = stats?.answeredCount ?? 0;
+    final goal = stats?.goalCount ?? profile.dailyGoal;
+
+    return SoftCard(
+      child: Column(
+        children: [
+          Row(
+            children: [
+              ProgressRing(
+                value: goal == 0 ? 0 : answered / goal,
+                size: 84,
+                strokeWidth: 8,
+                child: RingLabel(value: '$answered', caption: '/ $goal 問'),
+              ),
+              const SizedBox(width: 16),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('今日の学習', style: AppText.sectionTitle()),
+                    const SizedBox(height: 4),
+                    Text(
+                      due > 0 ? '復習の期限が来ている語が $due 語あります。' : '期限が来ている復習はありません。',
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
+                      style: AppText.caption(),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 12),
+          FilledButton(
+            style: FilledButton.styleFrom(
+              backgroundColor: AppColors.accent,
+              minimumSize: const Size.fromHeight(48),
+            ),
+            onPressed: () => showStartStudySheet(
+              context,
+              profile: profile,
+              // 復習が無いときは新規語から始める方が自然。
+              initialPolicy: due > 0
+                  ? QueuePolicy.reviewFirst
+                  : QueuePolicy.newOnly,
+            ),
+            // 復習が 0 件でもボタンは消さず、文言を変える。
+            child: Text(due > 0 ? '今日の復習 $due語をはじめる' : '新しい単語を学ぶ'),
+          ),
+        ],
       ),
     );
   }

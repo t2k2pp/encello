@@ -213,8 +213,8 @@ lib/
 │                                 #   / grade_resolver / choice_distractors / xp_calculator
 │                                 #   / streak_calculator / vocab_size_estimator
 │                                 #   / confusion_pair_finder / family_quiz_builder
-├── application/                  # answer_submission_service / session_finalizer
-│                                 #   / seed_importer / achievement_evaluator
+├── application/                  # study_session_controller / answer_submission_service
+│                                 #   / session_finalizer / achievement_evaluator
 │                                 #   / shared_text_receiver / reminder_scheduler
 ├── providers/                    # Riverpod provider 定義＋境界の純粋集計関数
 │                                 #   （active_profile / stats_aggregates / reaction_time_stats）

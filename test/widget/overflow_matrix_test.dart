@@ -242,7 +242,7 @@ void main() {
   });
 
   group('設定の各タブが溢れない', () {
-    for (final tabIndex in [0, 1, 2]) {
+    for (final tabIndex in [0, 1, 2, 3]) {
       testWidgets('設定タブ $tabIndex', (tester) async {
         await createTestProfile(db, name: longName);
         for (final width in widths) {

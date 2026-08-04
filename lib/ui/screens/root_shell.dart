@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_colors.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
+import '../dialogs/start_study_sheet.dart';
 import '../widgets/centered_content.dart';
 import 'dictionary_screen.dart';
 import 'home_screen.dart';
@@ -50,6 +51,12 @@ class RootShell extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final index = ref.watch(rootTabIndexProvider);
     final wide = MediaQuery.sizeOf(context).width >= 840;
+    // 出題できる語が1語も無いうちは学習を始められないため、FAB を出さない
+    // （押せるのに始まらないボタンを置かない。[STYLE_GUIDE §0-4]）。
+    final studyable =
+        ref.watch(studyableWordCountProvider(profile)).value ?? 0;
+    // 期限到来の復習がある間は件数をバッジで出す（[Docs/04_screens_and_flows.md] §1）。
+    final due = ref.watch(dueCountProvider(profile)).value ?? 0;
 
     final body = SafeArea(
       child: CenteredContent(
@@ -88,8 +95,23 @@ class RootShell extends ConsumerWidget {
               ],
             )
           : body,
-      // 共通 FAB「学習をはじめる」はモード選択シート（SCR-02）と対で入れる。
-      // 押しても何も始まらないボタンは置かない（[STYLE_GUIDE §0-4]）。
+      floatingActionButton: studyable == 0
+          ? null
+          : FloatingActionButton.extended(
+              backgroundColor: AppColors.accent,
+              foregroundColor: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(18),
+              ),
+              onPressed: () =>
+                  showStartStudySheet(context, profile: profile),
+              icon: Badge(
+                isLabelVisible: due > 0,
+                label: Text('$due'),
+                child: const Icon(Icons.play_arrow),
+              ),
+              label: const Text('学習をはじめる'),
+            ),
       bottomNavigationBar: wide
           ? null
           : NavigationBar(

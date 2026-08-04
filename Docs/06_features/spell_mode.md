@@ -117,6 +117,15 @@ class Wrong extends SpellVerdict {}
              ^
 ```
 
+`diffIndexes` は**正解側**の位置を指す。
+
+| 誤りの型 | 指す位置 |
+|---|---|
+| 置換（`applr` / `apple`） | 食い違った1文字（`4`） |
+| 削除（`aple` / `apple`） | 抜けている正解の位置（`2`） |
+| 挿入（`appple` / `apple`） | 余分な文字に押し出された位置（`3`） |
+| 末尾に余分（`apples` / `apple`） | 指す位置が無いため空 |
+
 ## 4. 解答後のフィードバック
 
 `VerdictBanner` が下からスライドインする。画面は遷移しない。

@@ -30,6 +30,12 @@ class ReviewState {
 `Sm2Scheduler` は `ReviewState` と grade と解答時刻を受け取り、新しい `ReviewState` を返す純粋関数。
 Drift にも Flutter にも依存しない。
 
+grade とは別に `isCorrect` も受け取る。SM-2 の grade は「思い出せたか」、`isCorrect` は
+「利用者の解答が正解だったか」で、一致しない組み合わせがあるため
+（ヒントを使った正解は grade 3 かつ正解、「惜しい」は grade 2 かつ不正解）。
+`totalCorrect` / `totalIncorrect` は `isCorrect` で数え、`repetition` / `intervalDays` /
+`correctStreak` は grade で決める。
+
 ## 2. grade の決め方
 
 SM-2 の grade（0〜5）を、モードごとに次の表で決める。判定は `domain/usecases/grade_resolver.dart`。
@@ -158,6 +164,7 @@ AND words.isDraft   = false
 
 - ③の前借りは、復習も新規も尽きた場合の措置。前借りした語には結果画面で
   「先取り復習」と表示し、通常の復習と区別する。
+- キューの各要素は、選ばれた理由（`due` / `newWord` / `borrowed` / `weak`）を持つ。
 - どの方針でも候補が 0 件ならセッションを開始せず、モード選択シートに理由を出す
   （[04_screens_and_flows.md] §4.2）。
 
