@@ -100,6 +100,7 @@ integration_test/
 | `unawaited` の漏れ | 起動処理の非同期を投げっぱなしにしない。`await tester.pumpAndSettle()` で回収できる形にする |
 | `compute`（別 isolate） | ウィジェットテストでは isolate を起こさない。エクスポートの JSON 生成は Provider 越しに差し替える |
 | 通知プラグイン | `reminderServiceProvider` を `FakeReminderService` に差し替える（`pumpWithProviders` の既定）。本物は `flutter_local_notifications` / `flutter_timezone` のチャネルに依存し、テストでは解決しない |
+| 共有シートの受信 | `sharedTextSourceProvider` を `FakeSharedTextSource` に差し替える（`pumpWithProviders` の既定）。本物は `receive_sharing_intent` のプラットフォームチャネルに依存し、テストでは解決しない。`emit(text)` でストリームへ流して `SharedTextListener` の反応を検証する |
 | `CachingAssetBundle` の使い回し | フェイクのアセットバンドルは**テストごとに作り直す**。読み込んだ Future をキャッシュするため、2件目以降で解決しない Future を待ち続ける |
 | 読み込み中の表示が残る画面 | プロファイルゲートのように切り替え後もインジケータが回る画面では `pumpAndSettle` を使わず `pump()` でフレームを進める |
 

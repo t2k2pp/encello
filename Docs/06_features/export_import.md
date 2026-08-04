@@ -7,7 +7,12 @@
 `domain/services/file_exchange_service.dart`（抽象）＋
 `data/services/file_exchange_service_impl.dart`,
 `ui/widgets/data_exchange_cards.dart`, `ui/dialogs/backup_preview_sheet.dart`,
-`ui/screens/csv_import_screen.dart`
+`ui/screens/csv_import_screen.dart`。
+サンプルデータ（§4）: `data/seeds/sample_data.dart`, `ui/widgets/sample_data_card.dart`。
+未所属の単語・未使用音声ファイルの整理（§5.1・§5.2）: `data/services/cleanup_service.dart`,
+`ui/widgets/cleanup_cards.dart`。
+学習状態のリセット（§5）: `data/services/reset_progress_service.dart`,
+`ui/widgets/reset_progress_card.dart`。
 
 ## 1. エクスポート
 
@@ -143,6 +148,10 @@
 どの単語帳にも属さなくなった単語（単語帳を削除した後に残った語）を、
 設定 > データの「未所属の単語を整理」で手動削除する（[wordbooks.md] §4）。
 自動では消さない。学習状態が付いている語は件数を示して確認する。
+
+この整理は**端末全体**が対象で、学習者ごとではない（単語は全員で共有するため）。
+未所属の語に誰かのマイ単語が含まれる場合は、その件数と
+「ほかの学習者の語も消える」ことを確認の文面に出す。
 
 ## 5.2 使われていない音声ファイルの整理
 

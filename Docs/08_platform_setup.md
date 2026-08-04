@@ -115,6 +115,15 @@ Android の TTS は `TextToSpeech` エンジン（多くは Google 音声サー�
 `receive_sharing_intent` のため Share Extension を追加し、App Group を設定する。
 テキスト（`public.plain-text`）だけを受け取り、それ以外の種別は宣言しない。
 
+**未実施。リリース前に必要（M7-D 時点）。** Share Extension の追加・App Group の設定は
+Xcode（`ios/Runner.xcodeproj`）が要る作業で、コード生成だけでは行えないため
+このマイルストーンでは対応していない。Android 側（§2.3、`AndroidManifest.xml` の
+intent-filter）と Dart 側の受信ロジック（[06_features/my_words.md] §4.2、
+`shared_text_receiver.dart` / `shared_text_source_impl.dart`）は実装済みだが、
+iOS では Xcode 側の設定が無いため他アプリからの共有を受け取れない。
+iOS 版をリリースする前に、Xcode で Share Extension ターゲットを追加し、
+本体アプリと Extension の両方に同じ App Group を設定すること。
+
 ### 3.3 TTS
 
 iOS は OS 標準の音声が常に入っているため、voice が0件になることは通常ない。

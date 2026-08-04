@@ -3,8 +3,10 @@ import 'package:encello/core/theme/app_theme.dart';
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/services/export_import_service.dart';
+import 'package:encello/application/shared_text_receiver.dart';
 import 'package:encello/data/seeds/prompt_assets.dart';
 import 'package:encello/data/seeds/pseudoword_assets.dart';
+import 'package:encello/domain/services/shared_text_source.dart';
 import 'package:encello/domain/services/tts_service.dart';
 import 'package:encello/providers/audio.dart';
 import 'package:encello/providers/providers.dart';
@@ -17,6 +19,7 @@ import 'dart:io';
 
 import '../fakes/fake_file_exchange_service.dart';
 import '../fakes/fake_reminder_service.dart';
+import '../fakes/fake_shared_text_source.dart';
 import '../fakes/fake_tts_service.dart';
 
 /// ウィジェットテスト用の [ProviderScope] を用意して [child] を描画する。
@@ -56,6 +59,10 @@ Future<ProviderContainer> pumpWithProviders(
 
   /// ファイルの書き出し・読み込み。既定でフェイクにし、実機のダイアログを出さない。
   FakeFileExchangeService? fileExchange,
+
+  /// 他アプリからの共有テキスト。既定でフェイク（何も共有しない）にし、実機の
+  /// 共有シートに依存させない（[Docs/06_features/my_words.md] §4.2）。
+  SharedTextSource? sharedTextSource,
 }) async {
   SharedPreferences.setMockInitialValues(prefs);
   final sharedPrefs = await SharedPreferences.getInstance();
@@ -95,6 +102,9 @@ Future<ProviderContainer> pumpWithProviders(
         promptAssetsProvider.overrideWithValue(promptAssets),
       fileExchangeServiceProvider.overrideWithValue(
         fileExchange ?? FakeFileExchangeService(),
+      ),
+      sharedTextSourceProvider.overrideWithValue(
+        sharedTextSource ?? FakeSharedTextSource(),
       ),
       // JSON への変換は別 isolate を起こさずその場で行う
       // （ウィジェットテストでは isolate を起こさない。§4）。

@@ -13,6 +13,14 @@ import '../screens/csv_import_screen.dart';
 import 'soft_card.dart';
 import 'soft_dropdown.dart';
 
+/// バックアップのファイル名（[Docs/06_features/export_import.md] §1）。
+/// [ResetProgressCard] の「先にバックアップを書き出す」でも使う。
+String backupFileName(DateTime now) {
+  String two(int v) => v.toString().padLeft(2, '0');
+  return 'encello_backup_${now.year}${two(now.month)}${two(now.day)}'
+      '_${two(now.hour)}${two(now.minute)}.json';
+}
+
 /// バックアップの書き出しと復元（[Docs/06_features/export_import.md] §1・§2）。
 class BackupCard extends ConsumerStatefulWidget {
   const BackupCard({super.key});
@@ -36,7 +44,7 @@ class _BackupCardState extends ConsumerState<BackupCard> {
       final json = await ref.read(backupEncoderProvider)(payload);
       final path = await ref
           .read(fileExchangeServiceProvider)
-          .save(suggestedName: _backupFileName(now), contents: json);
+          .save(suggestedName: backupFileName(now), contents: json);
       if (!mounted) return;
       if (path == null) return;
       ScaffoldMessenger.of(
@@ -115,12 +123,6 @@ class _BackupCardState extends ConsumerState<BackupCard> {
     } finally {
       if (mounted) setState(() => _busy = false);
     }
-  }
-
-  static String _backupFileName(DateTime now) {
-    String two(int v) => v.toString().padLeft(2, '0');
-    return 'encello_backup_${now.year}${two(now.month)}${two(now.day)}'
-        '_${two(now.hour)}${two(now.minute)}.json';
   }
 
   @override

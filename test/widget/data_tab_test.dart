@@ -4,6 +4,7 @@ import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/repositories/wordbook_repository.dart';
 import 'package:encello/data/services/export_import_service.dart';
 import 'package:encello/ui/widgets/data_exchange_cards.dart';
+import 'package:encello/ui/widgets/reset_progress_card.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../fakes/fake_file_exchange_service.dart';
@@ -206,6 +207,105 @@ void main() {
       expect(exchange.saved.single.contents, contains('apple,noun'));
       // 学習状態は CSV に含めない。
       expect(exchange.saved.single.contents, isNot(contains('masteryLevel')));
+    });
+  });
+
+  group('学習状態のリセット', () {
+    Future<void> seedProgress(Profile profile) async {
+      final wordId = await db
+          .into(db.words)
+          .insert(
+            WordsCompanion.insert(
+              headword: 'apple',
+              partOfSpeech: PartOfSpeech.noun.value,
+              meaning: 'りんご',
+            ),
+          );
+      await db
+          .into(db.wordReviews)
+          .insert(
+            WordReviewsCompanion.insert(
+              profileId: profile.id,
+              wordId: wordId,
+              dueAt: now(),
+            ),
+          );
+    }
+
+    testWidgets('二段確認で、途中でやめれば何も消えない', (tester) async {
+      await seedProgress(me);
+      await pumpWithProviders(
+        tester,
+        db: db,
+        child: ResetProgressCard(profile: me),
+        activeProfile: me,
+        clock: now,
+        wrapInScaffold: true,
+      );
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('学習状態をリセットする'));
+      await tester.pumpAndSettle();
+
+      // 1段目。件数の列挙とタイトルに学習者名が入る。
+      expect(find.text('${me.name}さんの学習状態をリセット'), findsOneWidget);
+      expect(find.textContaining('単語の学習状態 1件'), findsOneWidget);
+      await tester.tap(find.text('次へ'));
+      await tester.pumpAndSettle();
+
+      // 2段目。ここでやめる。
+      expect(find.text('本当にリセットしますか'), findsOneWidget);
+      await tester.tap(find.text('キャンセル'));
+      await tester.pumpAndSettle();
+
+      final reviews = await db.select(db.wordReviews).get();
+      expect(reviews, hasLength(1), reason: '確認を取り下げたら何も消えない');
+    });
+
+    testWidgets('1段目のキャンセルでも何も消えない', (tester) async {
+      await seedProgress(me);
+      await pumpWithProviders(
+        tester,
+        db: db,
+        child: ResetProgressCard(profile: me),
+        activeProfile: me,
+        clock: now,
+        wrapInScaffold: true,
+      );
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('学習状態をリセットする'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('キャンセル'));
+      await tester.pumpAndSettle();
+
+      final reviews = await db.select(db.wordReviews).get();
+      expect(reviews, hasLength(1));
+    });
+
+    testWidgets('二段目まで確認するとリセットされる', (tester) async {
+      await seedProgress(me);
+      await pumpWithProviders(
+        tester,
+        db: db,
+        child: ResetProgressCard(profile: me),
+        activeProfile: me,
+        clock: now,
+        wrapInScaffold: true,
+      );
+      await tester.pumpAndSettle();
+
+      await tester.tap(find.text('学習状態をリセットする'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('次へ'));
+      await tester.pumpAndSettle();
+      await tester.tap(find.text('本当にリセットする'));
+      await tester.pumpAndSettle();
+
+      final reviews = await db.select(db.wordReviews).get();
+      expect(reviews, isEmpty);
+      final words = await db.select(db.words).get();
+      expect(words, hasLength(1), reason: '単語は残る');
     });
   });
 }

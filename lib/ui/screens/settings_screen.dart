@@ -10,8 +10,11 @@ import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../widgets/audio_settings_card.dart';
+import '../widgets/cleanup_cards.dart';
 import '../widgets/data_exchange_cards.dart';
 import '../widgets/reminder_settings_card.dart';
+import '../widgets/reset_progress_card.dart';
+import '../widgets/sample_data_card.dart';
 import '../widgets/soft_card.dart';
 import 'achievements_screen.dart';
 import 'audio_packs_screen.dart';
@@ -526,10 +529,12 @@ class _MasterTab extends StatelessWidget {
   }
 }
 
-/// データタブ（[Docs/06_features/ai_import.md] §4）。
+/// データタブ（[Docs/06_features/ai_import.md] §4、
+/// [Docs/06_features/export_import.md] §4・§5・§5.1・§5.2、
+/// [Docs/04_screens_and_flows.md] §4.10）。
 ///
-/// AI 単語帳取り込みの導線と、バックアップ・CSV の入出力を置く。
-/// サンプルデータ・未所属の整理・学習状態のリセットは別マイルストーンで足す。
+/// 並びは AI 単語帳取り込み → 貼り付け取り込み → バックアップ → 単語帳 CSV →
+/// サンプルデータ → 未所属の単語の整理 → 未使用音声ファイルの整理 → 学習状態のリセット。
 class _DataTab extends StatelessWidget {
   final Profile profile;
 
@@ -564,6 +569,14 @@ class _DataTab extends StatelessWidget {
         const BackupCard(),
         SizedBox(height: spacing.gap),
         CsvCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        SampleDataCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        const OrphanWordsCleanupCard(),
+        SizedBox(height: spacing.gap),
+        const UnusedAudioCleanupCard(),
+        SizedBox(height: spacing.gap),
+        ResetProgressCard(profile: profile),
       ],
     );
   }

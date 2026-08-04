@@ -7,6 +7,7 @@ import 'core/utils/enums.dart';
 import 'providers/providers.dart';
 import 'ui/screens/profile_gate_screen.dart';
 import 'ui/screens/root_shell.dart';
+import 'ui/widgets/shared_text_listener.dart';
 
 /// アプリのルート。日本語を主言語とし、Material のローカライズも日本語/英語に対応。
 ///
@@ -51,15 +52,21 @@ class EncelloApp extends ConsumerWidget {
       ],
       supportedLocales: const [Locale('ja'), Locale('en')],
       locale: const Locale('ja'),
-      home: profile == null
-          ? const ProfileGateScreen()
-          // 配色 id だけでなく学習者 id もキーに含める。同じ配色の別人へ
-          // 切り替えたときに古い状態が残らないようにするため
-          // （[Docs/06_features/profiles.md] §5）。
-          : KeyedSubtree(
-              key: ValueKey('${profile.id}:${profile.palette}'),
-              child: RootShell(profile: profile),
-            ),
+      // 他アプリからの共有テキストはプロファイルゲートを経由せず届く
+      // （[Docs/06_features/my_words.md] §4.2）。ゲートの手前・後ろどちらでも
+      // クイック登録シートを開けるよう、ルート直下に一度だけ差し込む。
+      home: SharedTextListener(
+        profile: profile,
+        child: profile == null
+            ? const ProfileGateScreen()
+            // 配色 id だけでなく学習者 id もキーに含める。同じ配色の別人へ
+            // 切り替えたときに古い状態が残らないようにするため
+            // （[Docs/06_features/profiles.md] §5）。
+            : KeyedSubtree(
+                key: ValueKey('${profile.id}:${profile.palette}'),
+                child: RootShell(profile: profile),
+              ),
+      ),
     );
   }
 }

@@ -9,8 +9,14 @@
 `data/repositories/wordbook_repository.dart`（`myWordsBookOf`）,
 `domain/usecases/study_queue_builder.dart`（`StudyCandidate.isOwned` / `createdAt`）
 
-他アプリからの共有受信（`application/shared_text_receiver.dart`、§4.2）は
-**M7-A のスコープ外。実装は M7-D。**
+他アプリからの共有受信（M7-D で追加）:
+`domain/usecases/shared_text_parser.dart`（解釈の純粋関数）,
+`domain/services/shared_text_source.dart`（受信元の抽象）＋
+`data/services/shared_text_source_impl.dart`（`receive_sharing_intent`）,
+`application/shared_text_receiver.dart`（起動時共有とストリームを1本にまとめる）,
+`ui/widgets/shared_text_listener.dart`（`app.dart` に1度だけ差し込み、
+クイック登録シートを開く）。
+iOS の Share Extension / App Group は未実施（[Docs/08_platform_setup.md] §3.2）。
 
 ## 1. 狙い
 

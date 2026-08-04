@@ -8,36 +8,68 @@ import '../../data/database/app_database.dart';
 import '../../providers/dictionary_listing.dart';
 import '../../providers/providers.dart';
 import '../widgets/english_keyboard.dart';
+import '../widgets/profile_avatar.dart';
 import '../widgets/soft_card.dart';
 import '../widgets/soft_dropdown.dart';
 
-/// マイ単語のクイック登録シート（[Docs/06_features/my_words.md] §4.1）。
+/// マイ単語のクイック登録シート（[Docs/06_features/my_words.md] §4.1・§4.2）。
 ///
 /// 見出し語の入力には**アプリ内英字キーボード（[EnglishKeyboard]）**だけを使う。
 /// `TextField`（`EditableText`）を見出し語に使うと OS の IME が予測変換で綴りを
 /// 見せてしまうため、ここだけは絶対に使わない（[Docs/06_features/spell_mode.md] §2.1）。
 /// 訳・見つけた文は日本語入力が要るため通常の `TextField` でよい。
 ///
-/// 呼び出し口: 辞書画面ヘッダーの「＋単語」、シェル FAB の長押し
-/// （[Docs/06_features/my_words.md] §4.1）。
+/// 呼び出し口: 辞書画面ヘッダーの「＋単語」、シェル FAB の長押し、他アプリからの共有
+/// （[SharedTextListener]。[Docs/06_features/my_words.md] §4.1・§4.2）。
+///
+/// [profile] を渡せばそのまま登録先が決まる。共有からの起動でまだ学習者が決まって
+/// いない場合は [profileChoices] を渡し、シートの先頭で「だれのマイ単語にしますか」を
+/// 選ばせる（[profile] と [profileChoices] のどちらかは必須）。
+/// [initialHeadword] / [initialSentence] / [candidateWords] は共有テキストの解釈結果
+/// （[SharedTextParser]）をシートの初期値へ流し込むための引数で、アプリ内からの通常の
+/// クイック登録では使わない。
 Future<void> showQuickAddWordSheet(
   BuildContext context, {
-  required Profile profile,
+  Profile? profile,
+  List<Profile>? profileChoices,
+  String? initialHeadword,
+  String? initialSentence,
+  List<String> candidateWords = const [],
 }) {
+  assert(
+    profile != null || (profileChoices != null && profileChoices.isNotEmpty),
+    'profile か profileChoices のどちらかが必要です',
+  );
   return showModalBottomSheet<void>(
     context: context,
     isScrollControlled: true,
     shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
     ),
-    builder: (_) => _QuickAddWordSheet(profile: profile),
+    builder: (_) => _QuickAddWordSheet(
+      profile: profile,
+      profileChoices: profileChoices,
+      initialHeadword: initialHeadword,
+      initialSentence: initialSentence,
+      candidateWords: candidateWords,
+    ),
   );
 }
 
 class _QuickAddWordSheet extends ConsumerStatefulWidget {
-  final Profile profile;
+  final Profile? profile;
+  final List<Profile>? profileChoices;
+  final String? initialHeadword;
+  final String? initialSentence;
+  final List<String> candidateWords;
 
-  const _QuickAddWordSheet({required this.profile});
+  const _QuickAddWordSheet({
+    this.profile,
+    this.profileChoices,
+    this.initialHeadword,
+    this.initialSentence,
+    this.candidateWords = const [],
+  });
 
   @override
   ConsumerState<_QuickAddWordSheet> createState() =>
@@ -45,14 +77,26 @@ class _QuickAddWordSheet extends ConsumerStatefulWidget {
 }
 
 class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
-  String _typed = '';
+  /// 登録先の学習者。[widget.profileChoices] から選ぶまでは null
+  /// （シートの先頭に選択 UI を出す。[Docs/06_features/my_words.md] §4.2）。
+  Profile? _profile;
+  late String _typed;
   PartOfSpeech _partOfSpeech = PartOfSpeech.noun;
   final _meaningCtrl = TextEditingController();
-  final _exampleCtrl = TextEditingController();
+  late final TextEditingController _exampleCtrl;
   bool _saving = false;
 
   /// 見出し語＋品詞が一致する**共有の**既存語（推測で登録先を決めないための分岐）。
   Word? _existing;
+
+  @override
+  void initState() {
+    super.initState();
+    _profile = widget.profile;
+    _typed = widget.initialHeadword ?? '';
+    _exampleCtrl = TextEditingController(text: widget.initialSentence ?? '');
+    if (_typed.isNotEmpty && _profile != null) _checkExisting();
+  }
 
   @override
   void dispose() {
@@ -79,21 +123,29 @@ class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
     _checkExisting();
   }
 
+  /// 共有テキストの候補チップから語を選ぶ（[Docs/06_features/my_words.md] §4.2）。
+  void _pickCandidate(String word) {
+    setState(() => _typed = word);
+    _checkExisting();
+  }
+
+  void _selectProfile(Profile profile) {
+    setState(() => _profile = profile);
+    _checkExisting();
+  }
+
   /// 入力中の見出し語＋品詞が既存の**共有**語と一致するか確認する。
   /// 自分のマイ単語との重複はここでは示さない（保存時に一意制約で弾かれる）。
   Future<void> _checkExisting() async {
+    final profile = _profile;
     final headword = _typed.trim();
-    if (headword.isEmpty) {
+    if (headword.isEmpty || profile == null) {
       if (_existing != null && mounted) setState(() => _existing = null);
       return;
     }
     final found = await ref
         .read(wordRepositoryProvider)
-        .findByHeadword(
-          headword,
-          _partOfSpeech,
-          profileId: widget.profile.id,
-        );
+        .findByHeadword(headword, _partOfSpeech, profileId: profile.id);
     if (!mounted) return;
     final shared = (found != null && found.ownerProfileId == null)
         ? found
@@ -102,14 +154,15 @@ class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
   }
 
   Future<void> _save({bool keepOpen = false}) async {
+    final profile = _profile;
     final headword = _typed.trim();
-    if (headword.isEmpty || _saving) return;
+    if (headword.isEmpty || _saving || profile == null) return;
     setState(() => _saving = true);
     try {
       await ref
           .read(wordRepositoryProvider)
           .createOwned(
-            ownerProfileId: widget.profile.id,
+            ownerProfileId: profile.id,
             headword: headword,
             partOfSpeech: _partOfSpeech,
             meaning: _meaningCtrl.text.trim(),
@@ -141,12 +194,13 @@ class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
   /// 既存の共有語を、新規作成せずに自分のマイ単語帳へ所属させる
   /// （その語が自分のマイ単語帳に選ばれていれば出題対象に入る）。
   Future<void> _useExisting() async {
+    final profile = _profile;
     final existing = _existing;
-    if (existing == null || _saving) return;
+    if (existing == null || _saving || profile == null) return;
     setState(() => _saving = true);
     try {
       final wordbooks = ref.read(wordbookRepositoryProvider);
-      final myBook = await wordbooks.myWordsBookOf(widget.profile.id);
+      final myBook = await wordbooks.myWordsBookOf(profile.id);
       await wordbooks.addWord(myBook.id, existing.id);
       if (!mounted) return;
       Navigator.pop(context);
@@ -161,6 +215,14 @@ class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
 
   @override
   Widget build(BuildContext context) {
+    final profile = _profile;
+    if (profile == null) {
+      return _ProfileChooser(
+        profiles: widget.profileChoices!,
+        onSelect: _selectProfile,
+      );
+    }
+
     final canSave = _typed.trim().isNotEmpty && !_saving && !_hasConflict;
     return Padding(
       padding: EdgeInsets.only(
@@ -175,9 +237,17 @@ class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
             Text('単語を追加', style: AppText.sectionTitle()),
             const SizedBox(height: 12),
             _HeadwordDisplay(typed: _typed),
+            if (widget.candidateWords.isNotEmpty) ...[
+              const SizedBox(height: 8),
+              _CandidateChips(
+                words: widget.candidateWords,
+                selected: _typed,
+                onSelect: _pickCandidate,
+              ),
+            ],
             const SizedBox(height: 8),
             EnglishKeyboard(
-              layout: KeyboardLayout.fromValue(widget.profile.keyboardLayout),
+              layout: KeyboardLayout.fromValue(profile.keyboardLayout),
               onKey: _onKey,
               onBackspace: _onBackspace,
               onSubmit: canSave ? () => _save() : null,
@@ -187,7 +257,7 @@ class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
               const SizedBox(height: 4),
               _ExistingWordCard(
                 existing: _existing!,
-                profile: widget.profile,
+                profile: profile,
                 busy: _saving,
                 onRegisterMine: () => _save(),
                 onUseExisting: _useExisting,
@@ -275,6 +345,88 @@ class _HeadwordDisplay extends StatelessWidget {
         style: typed.isEmpty
             ? AppText.body(color: AppColors.ink3)
             : AppText.style(size: 24, weight: FontWeight.w700),
+      ),
+    );
+  }
+}
+
+/// 共有された文に含まれる語のチップ（[Docs/06_features/my_words.md] §4.2）。
+/// タップすると見出し語欄へ入る。推測でどれかを自動選択はしない。
+class _CandidateChips extends StatelessWidget {
+  final List<String> words;
+  final String selected;
+  final ValueChanged<String> onSelect;
+
+  const _CandidateChips({
+    required this.words,
+    required this.selected,
+    required this.onSelect,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text('文中の語から選ぶ', style: AppText.caption()),
+        const SizedBox(height: 6),
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          children: [
+            for (final w in words)
+              ChoiceChip(
+                label: Text(w, maxLines: 1, overflow: TextOverflow.ellipsis),
+                selected: w == selected,
+                onSelected: (_) => onSelect(w),
+              ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+/// 共有からの起動で学習者が2人以上のときの先頭ステップ
+/// （[Docs/06_features/my_words.md] §4.2）。
+class _ProfileChooser extends StatelessWidget {
+  final List<Profile> profiles;
+  final ValueChanged<Profile> onSelect;
+
+  const _ProfileChooser({required this.profiles, required this.onSelect});
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(16, 16, 16, 24),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('だれのマイ単語にしますか', style: AppText.sectionTitle()),
+          const SizedBox(height: 12),
+          for (final p in profiles) ...[
+            SoftCard(
+              onTap: () => onSelect(p),
+              child: Row(
+                children: [
+                  ProfileAvatar(emoji: p.emoji, colorSeed: p.colorSeed, size: 40),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      p.name,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: AppText.body(),
+                    ),
+                  ),
+                  Icon(Icons.chevron_right, color: AppColors.ink3),
+                ],
+              ),
+            ),
+            const SizedBox(height: 8),
+          ],
+        ],
       ),
     );
   }
