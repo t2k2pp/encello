@@ -15,9 +15,10 @@ UI からは `PronunciationService` だけを呼び、`TtsService` を直接呼�
 
 ## 1. 抽象インターフェース
 
-```dart
-enum TtsLang { en, ja }
+言語の区別は `PronunciationService` と共通の `SpeechLang`（en / ja）を使う。
+TTS 用に別の列挙（`TtsLang`）を作らない。
 
+```dart
 class TtsVoice {
   final String name;    // 端末が返す voice 名
   final String locale;  // en-US / en-GB / ja-JP
@@ -34,11 +35,11 @@ abstract class TtsService {
   Future<TtsCapability> capability();
   /// 読み上げ完了まで待つ。voice が無い言語では TtsUnavailableException を投げる。
   /// 再生中に別の speak が来たら、前の再生を止めてから新しい再生を始める。
-  Future<void> speak(String text, TtsLang lang);
+  Future<void> speak(String text, SpeechLang lang);
   Future<void> stop();
   Future<void> setRate(double rate);
   Future<void> setPitch(double pitch);
-  Future<void> setVoice(TtsLang lang, String voiceName);
+  Future<void> setVoice(SpeechLang lang, String voiceName);
 }
 ```
 

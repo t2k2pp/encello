@@ -40,6 +40,12 @@ class StudySessionState {
   /// ヒントで開示した文字数。
   final int hintUsed;
 
+  /// 音声を聞き直した回数（リスニングのみ）。
+  final int replayCount;
+
+  /// 「訳を見る」を押したか（リスニングのみ）。押した回は grade の上限を 3 にする。
+  final bool meaningRevealed;
+
   /// 「わからない」を押したか。
   final bool gaveUp;
 
@@ -76,6 +82,8 @@ class StudySessionState {
     required this.index,
     required this.typed,
     required this.hintUsed,
+    required this.replayCount,
+    required this.meaningRevealed,
     required this.gaveUp,
     required this.phase,
     required this.verdict,
@@ -115,6 +123,8 @@ class StudySessionState {
     int? index,
     String? typed,
     int? hintUsed,
+    int? replayCount,
+    bool? meaningRevealed,
     bool? gaveUp,
     StudyPhase? phase,
     SpellVerdict? verdict,
@@ -137,6 +147,8 @@ class StudySessionState {
       index: index ?? this.index,
       typed: typed ?? this.typed,
       hintUsed: hintUsed ?? this.hintUsed,
+      replayCount: replayCount ?? this.replayCount,
+      meaningRevealed: meaningRevealed ?? this.meaningRevealed,
       gaveUp: gaveUp ?? this.gaveUp,
       phase: phase ?? this.phase,
       verdict: clearVerdict ? null : (verdict ?? this.verdict),
@@ -219,6 +231,8 @@ class StudySessionController extends Notifier<StudySessionState?> {
       index: 0,
       typed: '',
       hintUsed: 0,
+      replayCount: 0,
+      meaningRevealed: false,
       gaveUp: false,
       phase: StudyPhase.presenting,
       verdict: null,
@@ -261,6 +275,21 @@ class StudySessionController extends Notifier<StudySessionState?> {
     );
   }
 
+  /// 音声を聞き直した（リスニング）。回数を記録に残す。
+  void countReplay() {
+    final s = state;
+    if (s == null || s.phase != StudyPhase.presenting) return;
+    state = s.copyWith(replayCount: s.replayCount + 1);
+  }
+
+  /// 「訳を見る」（リスニング）。音だけでは思い出せなかったため、
+  /// この回の grade は 3 を超えない（[Docs/06_features/listening_mode.md] §2）。
+  void revealMeaning() {
+    final s = state;
+    if (s == null || s.phase != StudyPhase.presenting) return;
+    state = s.copyWith(meaningRevealed: true);
+  }
+
   /// 「わからない」。即座に grade 0 で確定し、正解を表示する。
   Future<void> giveUp() async {
     final s = state;
@@ -289,6 +318,7 @@ class StudySessionController extends Notifier<StudySessionState?> {
       elapsedMs: now.difference(s.presentedAt).inMilliseconds,
       hintUsed: s.hintUsed,
       gaveUp: s.gaveUp,
+      meaningRevealed: s.meaningRevealed,
     );
     final isCorrect = verdict.isCorrect && !s.gaveUp;
     final nextStreak = isCorrect ? s.correctStreak + 1 : 0;
@@ -302,12 +332,16 @@ class StudySessionController extends Notifier<StudySessionState?> {
             record: AnswerRecord(
               wordId: word.id,
               mode: s.mode,
-              direction: StudyDirection.jaToEn,
+              // リスニングは音（英語）が問い、それ以外は和訳が問い。
+              direction: s.mode == StudyMode.listening
+                  ? StudyDirection.enToJa
+                  : StudyDirection.jaToEn,
               isCorrect: isCorrect,
               isNearMiss: verdict is SpellNearMiss,
               grade: grade,
               answeredText: composed,
               hintUsed: s.hintUsed,
+              replayCount: s.replayCount,
               elapsedMs: now.difference(s.presentedAt).inMilliseconds,
             ),
             answeredAt: now,
@@ -354,6 +388,8 @@ class StudySessionController extends Notifier<StudySessionState?> {
       index: nextIndex,
       typed: '',
       hintUsed: 0,
+      replayCount: 0,
+      meaningRevealed: false,
       gaveUp: false,
       phase: StudyPhase.presenting,
       clearVerdict: true,

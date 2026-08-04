@@ -2,11 +2,16 @@ import 'package:encello/core/theme/app_colors.dart';
 import 'package:encello/core/theme/app_theme.dart';
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
+import 'package:encello/domain/services/tts_service.dart';
+import 'package:encello/providers/audio.dart';
 import 'package:encello/providers/providers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'dart:io';
+
+import '../fakes/fake_tts_service.dart';
 
 /// ウィジェットテスト用の [ProviderScope] を用意して [child] を描画する。
 ///
@@ -22,6 +27,9 @@ Future<ProviderContainer> pumpWithProviders(
   Map<String, Object> prefs = const {},
   DateTime Function()? clock,
 
+  /// 端末の読み上げ。既定は英日どちらも使えるフェイク（実機の音を鳴らさない）。
+  TtsCapability? ttsCapability,
+
   /// [child] 自身が `Scaffold` を持たない画面（シェルのタブ）では true にする。
   bool wrapInScaffold = false,
 }) async {
@@ -36,6 +44,18 @@ Future<ProviderContainer> pumpWithProviders(
     overrides: [
       databaseProvider.overrideWithValue(db),
       sharedPrefsProvider.overrideWithValue(sharedPrefs),
+      // 実機の TTS を呼ばない（[Docs/07_testing_strategy.md] §5）。
+      ttsServiceProvider.overrideWithValue(
+        FakeTtsService(capability: ttsCapability),
+      ),
+      // path_provider を使わずに済ませる（ウィジェットテストでは解決しない）。
+      documentsPathProvider.overrideWith((ref) async {
+        final dir = Directory.systemTemp.createTempSync('encello_docs');
+        addTearDown(() {
+          if (dir.existsSync()) dir.deleteSync(recursive: true);
+        });
+        return dir.path;
+      }),
       if (clock != null) clockProvider.overrideWithValue(clock),
     ],
   );

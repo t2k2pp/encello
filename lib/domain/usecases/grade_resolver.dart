@@ -23,20 +23,25 @@ abstract final class GradeResolver {
   /// | 惜しい（編集距離1） | 2 |
   /// | 不正解 | 1 |
   /// | 「わからない」を押した | 0 |
+  ///
+  /// [meaningRevealed] はリスニングで「訳を見る」を押した回。音だけでは思い出せて
+  /// いないため、grade の上限を 3 にする（[Docs/06_features/listening_mode.md] §2）。
   static int forSpell({
     required StudyMode mode,
     required SpellVerdict verdict,
     required int elapsedMs,
     required int hintUsed,
     required bool gaveUp,
+    bool meaningRevealed = false,
   }) {
     if (gaveUp) return 0;
-    return switch (verdict) {
+    final grade = switch (verdict) {
       SpellCorrect() when hintUsed > 0 => 3,
       SpellCorrect() => elapsedMs <= _fastThreshold(mode) ? 5 : 4,
       SpellNearMiss() => 2,
       SpellWrong() => 1,
     };
+    return meaningRevealed && grade > 3 ? 3 : grade;
   }
 
   static int _fastThreshold(StudyMode mode) => switch (mode) {

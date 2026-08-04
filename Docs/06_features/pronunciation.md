@@ -160,6 +160,11 @@ jhs_en_us_v1.zip
 （「1,600件中 1,540件を取り込みました。60件は該当する単語がありませんでした」）。
 音声のためだけに単語を作らない。
 
+### 4.2.1 展開先の安全確認
+
+ZIP 内の相対パスに `..` や絶対パスが混ざっていた場合は取り込まない。
+展開先ディレクトリの外へファイルを書き出させないため。
+
 ### 4.3 進捗と中断
 
 数千ファイルの展開は時間がかかる。進捗ダイアログ（件数と割合）を出し、中断できるようにする。
@@ -196,7 +201,13 @@ abstract class PronunciationService {
   /// 単語を鳴らす。完了 or 中断まで待つ。
   /// 鳴らせない場合は PronunciationUnavailableException。
   /// 再生に失敗した場合は PronunciationFailedException（別音源へ切り替えない）。
-  Future<SpokenResult> speakWord(int wordId, SpeechLang lang);
+  /// headword は呼び出し側が渡す（合成音声には見出し語をそのまま渡すため、
+  /// かつ再生のたびに DB を引き直さないため）。
+  Future<SpokenResult> speakWord({
+    required int wordId,
+    required String headword,
+    required SpeechLang lang,
+  });
 
   /// 例文などの任意テキスト。常に TTS。
   Future<SpokenResult> speakText(String text, SpeechLang lang);
@@ -252,6 +263,12 @@ abstract class PronunciationService {
 - FAB = 「音声パックを取り込む」（ZIP を選ぶ）。
 - 同梱パック（`source = bundled`）は削除できない。使用の ON/OFF だけできる。
 - 削除は `confirmDestructive`。展開済みファイルも消えることと、解放される容量を明記する。
+
+## 8.1 索引の作り方
+
+再生のたびに DB を引かないよう、学習者が使うパックだけを `AudioLibrary` へ畳んでおく
+（`(wordId, lang)` → ファイル）。`profiles.audioPackIds` の**並び順に**入れ、
+先に来たパックを勝たせる。パックの ON/OFF・優先順位・取り込み・削除で作り直す。
 
 ## 9. v1 で同梱する音声パック
 

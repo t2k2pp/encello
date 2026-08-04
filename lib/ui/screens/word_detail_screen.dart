@@ -16,6 +16,7 @@ import '../widgets/centered_content.dart';
 import '../widgets/empty_state.dart';
 import '../widgets/mastery_badge.dart';
 import '../widgets/soft_card.dart';
+import '../widgets/speak_button.dart';
 import 'wordbook_detail_screen.dart';
 
 /// SCR-09 単語詳細（[Docs/04_screens_and_flows.md] §4.8、
@@ -74,11 +75,11 @@ class _WordDetailBody extends ConsumerWidget {
       children: [
         _HeadwordCard(word: word, profile: profile),
         SizedBox(height: spacing.gap),
-        _MeaningCard(word: word),
+        _MeaningCard(word: word, profile: profile),
         // 例文が無い語では例文カードごと出さない。
         if (word.exampleEn != null) ...[
           SizedBox(height: spacing.gap),
-          _ExampleCard(word: word),
+          _ExampleCard(word: word, profile: profile),
         ],
         SizedBox(height: spacing.gap),
         _ReviewCard(review: review),
@@ -109,11 +110,28 @@ class _HeadwordCard extends ConsumerWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // 長い見出し語（internationalization 等）でも1行に収める。
-          FittedBox(
-            fit: BoxFit.scaleDown,
-            alignment: Alignment.centerLeft,
-            child: Text(word.headword, maxLines: 1, style: AppText.headword()),
+          Row(
+            children: [
+              Expanded(
+                // 長い見出し語（internationalization 等）でも1行に収める。
+                child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  alignment: Alignment.centerLeft,
+                  child: Text(
+                    word.headword,
+                    maxLines: 1,
+                    style: AppText.headword(),
+                  ),
+                ),
+              ),
+              // 鳴らせない語ではボタンごと出ない。
+              SpeakWordButton(
+                profile: profile,
+                word: word,
+                lang: SpeechLang.en,
+                size: 44,
+              ),
+            ],
           ),
           if (word.phonetic != null)
             Text(
@@ -171,8 +189,9 @@ class _HeadwordCard extends ConsumerWidget {
 
 class _MeaningCard extends StatelessWidget {
   final Word word;
+  final Profile profile;
 
-  const _MeaningCard({required this.word});
+  const _MeaningCard({required this.word, required this.profile});
 
   @override
   Widget build(BuildContext context) {
@@ -180,7 +199,17 @@ class _MeaningCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('意味', style: AppText.sectionTitle()),
+          Row(
+            children: [
+              Expanded(child: Text('意味', style: AppText.sectionTitle())),
+              if (word.meaning.isNotEmpty)
+                SpeakTextButton(
+                  profile: profile,
+                  text: word.meaning,
+                  lang: SpeechLang.ja,
+                ),
+            ],
+          ),
           const SizedBox(height: 6),
           Text(
             word.meaning.isEmpty ? '訳がまだ入力されていません。' : word.meaning,
@@ -196,8 +225,9 @@ class _MeaningCard extends StatelessWidget {
 
 class _ExampleCard extends StatelessWidget {
   final Word word;
+  final Profile profile;
 
-  const _ExampleCard({required this.word});
+  const _ExampleCard({required this.word, required this.profile});
 
   @override
   Widget build(BuildContext context) {
@@ -205,7 +235,17 @@ class _ExampleCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('例文', style: AppText.sectionTitle()),
+          Row(
+            children: [
+              Expanded(child: Text('例文', style: AppText.sectionTitle())),
+              // 例文は常に合成音声で読む（音声ファイルを持たせない）。
+              SpeakTextButton(
+                profile: profile,
+                text: word.exampleEn!,
+                lang: SpeechLang.en,
+              ),
+            ],
+          ),
           const SizedBox(height: 6),
           Text(word.exampleEn!, style: AppText.body()),
           if (word.exampleJa != null) ...[

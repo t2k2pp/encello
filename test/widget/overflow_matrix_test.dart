@@ -2,6 +2,7 @@ import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/repositories/wordbook_repository.dart';
+import 'package:encello/ui/screens/audio_packs_screen.dart';
 import 'package:encello/ui/screens/dictionary_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
 import 'package:encello/ui/screens/profile_gate_screen.dart';
@@ -227,6 +228,27 @@ void main() {
           wordbookId: seeded.wordbookId,
           profile: p!,
         ),
+      );
+    });
+
+    testWidgets('音声パック管理', (tester) async {
+      final profile = await createTestProfile(db, name: longName);
+      await seedWords(profile);
+      await db
+          .into(db.audioPacks)
+          .insert(
+            AudioPacksCompanion.insert(
+              packId: 'jhs_en_us_v1',
+              name: 'とてもながいなまえのおんせいぱっくです',
+              source: AudioPackSource.imported.value,
+              lang: SpeechLang.en.value,
+              entryCount: const Value(1540),
+            ),
+          );
+      await checkMatrix(
+        tester,
+        '音声パック管理',
+        (p) => AudioPacksScreen(profile: p!),
       );
     });
 

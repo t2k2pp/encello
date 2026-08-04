@@ -6,6 +6,7 @@ import 'package:flutter_riverpod/legacy.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../application/answer_submission_service.dart';
+import '../application/flashcard_controller.dart';
 import '../application/session_finalizer.dart';
 import '../application/study_session_controller.dart';
 import '../core/theme/app_colors.dart';
@@ -66,6 +67,12 @@ final sessionFinalizerProvider = Provider<SessionFinalizer>(
 final studySessionProvider =
     NotifierProvider<StudySessionController, StudySessionState?>(
       StudySessionController.new,
+    );
+
+/// 進行中のフラッシュカード。null = セッション外。
+final flashcardProvider =
+    NotifierProvider<FlashcardController, FlashcardState?>(
+      FlashcardController.new,
     );
 
 /// 「今日の復習 N語」（[Docs/06_features/srs_scheduler.md] §7）。

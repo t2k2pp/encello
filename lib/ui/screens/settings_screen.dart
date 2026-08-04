@@ -9,7 +9,9 @@ import '../../core/utils/app_version.dart';
 import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
+import '../widgets/audio_settings_card.dart';
 import '../widgets/soft_card.dart';
+import 'audio_packs_screen.dart';
 import 'profiles_screen.dart';
 import 'wordbooks_screen.dart';
 
@@ -117,6 +119,8 @@ class _StudyTab extends StatelessWidget {
         _KeyboardLayoutCard(profile: profile),
         SizedBox(height: spacing.gap),
         _AutoNextCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        AudioSettingsCard(profile: profile),
       ],
     );
   }
@@ -467,6 +471,16 @@ class _MasterTab extends StatelessWidget {
           onTap: () => Navigator.of(context).push(
             MaterialPageRoute<void>(
               builder: (_) => WordbooksScreen(profile: profile),
+            ),
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.graphic_eq,
+          label: '音声パック',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => AudioPacksScreen(profile: profile),
             ),
           ),
         ),

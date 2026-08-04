@@ -9,6 +9,7 @@ import '../../core/theme/app_text.dart';
 import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../domain/entities/spell_verdict.dart';
+import '../../providers/audio.dart';
 import '../../providers/providers.dart';
 import '../dialogs/confirm_dialog.dart';
 import '../widgets/english_keyboard.dart';
@@ -16,7 +17,11 @@ import '../widgets/letter_tiles.dart';
 import '../widgets/verdict_banner.dart';
 import 'session_result_screen.dart';
 
-/// SCR-03 スペル学習（[Docs/04_screens_and_flows.md] §4.3）。
+/// SCR-03 スペル学習 / SCR-04 リスニング・スペル
+/// （[Docs/04_screens_and_flows.md] §4.3、[Docs/06_features/listening_mode.md]）。
+///
+/// リスニングは**提示部分だけを差し替えたモード**で、入力・判定・記録はスペルと
+/// まったく同じ実装を使う。差分は出題の見せ方（和訳を伏せて音を鳴らす）だけ。
 ///
 /// **この画面に `EditableText`（= `TextField`）を1つも置かない。**
 /// 入力は [EnglishKeyboard] と `StudySessionController.typed` だけで完結する
@@ -38,6 +43,32 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
   void dispose() {
     _autoNext?.cancel();
     super.dispose();
+  }
+
+  /// リスニングでは出題が描画された直後に自動で1回読み上げる。
+  int? _spokenIndex;
+
+  /// フィードバック帯で読み上げ済みの問題（同じ問題で二重に鳴らさない）。
+  int? _spokenFeedbackIndex;
+
+  Future<void> _speakCurrent(StudySessionState session, {bool count = false}) async {
+    final service = ref.read(pronunciationProvider(session.profile)).value;
+    final word = session.currentWord;
+    if (service == null || word == null) return;
+    if (count) ref.read(studySessionProvider.notifier).countReplay();
+    try {
+      await service.speakWord(
+        wordId: word.id,
+        headword: word.headword,
+        lang: SpeechLang.en,
+      );
+    } catch (e) {
+      if (!mounted) return;
+      // 音が鳴らないまま綴りを問い続けない。理由を示してセッションを終える。
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('読み上げに失敗しました: $e')));
+    }
   }
 
   /// 正解のときだけ、設定「正解したら自動で次へ」に従って 1.2 秒後に進む。
@@ -102,7 +133,31 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
       return const Scaffold(body: SizedBox.shrink());
     }
 
-    if (session.phase == StudyPhase.feedback) _scheduleAutoNext(session);
+    if (session.phase == StudyPhase.feedback) {
+      _scheduleAutoNext(session);
+      // 正解時は英単語を自動で読み上げる（FR-20）。リスニングでは、正しい音と綴りを
+      // 結び付けるため判定に関わらず鳴らす（[listening_mode.md] §3）。
+      if (_spokenFeedbackIndex != session.index &&
+          (session.verdict is SpellCorrect ||
+              session.mode == StudyMode.listening)) {
+        _spokenFeedbackIndex = session.index;
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (mounted) _speakCurrent(session);
+        });
+      }
+    } else {
+      _spokenFeedbackIndex = null;
+    }
+
+    // リスニングは出題が出た直後に1回だけ自動で鳴らす。
+    if (session.mode == StudyMode.listening &&
+        session.phase == StudyPhase.presenting &&
+        _spokenIndex != session.index) {
+      _spokenIndex = session.index;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _speakCurrent(session);
+      });
+    }
 
     final word = session.currentWord!;
     return PopScope(
@@ -128,7 +183,11 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
                         horizontal: 16,
                         vertical: 12,
                       ),
-                      child: _Question(session: session, word: word),
+                      child: _Question(
+                      session: session,
+                      word: word,
+                      onReplay: () => _speakCurrent(session, count: true),
+                    ),
                     ),
                   ),
                   if (session.phase == StudyPhase.feedback)
@@ -210,40 +269,65 @@ class _ProgressBar extends StatelessWidget {
 class _Question extends ConsumerWidget {
   final StudySessionState session;
   final Word word;
+  final VoidCallback onReplay;
 
-  const _Question({required this.session, required this.word});
+  const _Question({
+    required this.session,
+    required this.word,
+    required this.onReplay,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final notifier = ref.read(studySessionProvider.notifier);
     final answering = session.phase == StudyPhase.presenting;
+    final listening = session.mode == StudyMode.listening;
+    // リスニングは和訳を伏せる。「訳を見る」を押したときだけ出す。
+    final showMeaning = !listening || session.meaningRevealed;
 
     return Column(
       children: [
         const SizedBox(height: 8),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
-          decoration: BoxDecoration(
-            color: AppColors.chipBg,
-            borderRadius: BorderRadius.circular(999),
+        // リスニングでは品詞も伏せる（音から綴りを起こす練習にする）。
+        if (!listening)
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
+            decoration: BoxDecoration(
+              color: AppColors.chipBg,
+              borderRadius: BorderRadius.circular(999),
+            ),
+            child: Text(
+              PartOfSpeech.fromValue(word.partOfSpeech).label,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: AppText.caption(color: AppColors.ink2),
+            ),
           ),
-          child: Text(
-            PartOfSpeech.fromValue(word.partOfSpeech).label,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: AppText.caption(color: AppColors.ink2),
+        if (listening) ...[
+          const SizedBox(height: 8),
+          // 聞き直しは何度でも。押した回数を記録する。
+          IconButton.filled(
+            iconSize: 40,
+            constraints: const BoxConstraints.tightFor(width: 72, height: 72),
+            style: IconButton.styleFrom(backgroundColor: AppColors.accent),
+            tooltip: 'もう一度聞く',
+            onPressed: answering ? onReplay : null,
+            icon: const Icon(Icons.volume_up, color: Colors.white),
           ),
-        ),
-        const SizedBox(height: 12),
-        // 長い和訳でも1行に収める。
-        FittedBox(
-          fit: BoxFit.scaleDown,
-          child: Text(
-            word.meaning,
-            textAlign: TextAlign.center,
-            style: AppText.prompt(),
+          const SizedBox(height: 8),
+        ],
+        if (showMeaning) ...[
+          const SizedBox(height: 12),
+          // 長い和訳でも1行に収める。
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: Text(
+              word.meaning,
+              textAlign: TextAlign.center,
+              style: AppText.prompt(),
+            ),
           ),
-        ),
+        ],
         const SizedBox(height: 24),
         LetterTiles(
           answer: word.headword,
@@ -262,6 +346,12 @@ class _Question extends ConsumerWidget {
                   session.hintUsed == 0 ? 'ヒント' : 'ヒント (${session.hintUsed})',
                 ),
               ),
+              if (listening && !session.meaningRevealed)
+                TextButton.icon(
+                  onPressed: notifier.revealMeaning,
+                  icon: const Icon(Icons.translate, size: 18),
+                  label: const Text('訳を見る'),
+                ),
               TextButton(
                 onPressed: session.busy ? null : notifier.giveUp,
                 child: const Text('わからない'),

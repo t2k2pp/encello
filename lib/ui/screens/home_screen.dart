@@ -4,10 +4,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_text.dart';
+import '../../core/utils/enums.dart';
 import '../../core/utils/study_date.dart';
 import '../../data/database/app_database.dart';
 import '../../data/repositories/wordbook_repository.dart';
 import '../../domain/usecases/study_queue_builder.dart';
+import '../../providers/audio.dart';
 import '../../providers/providers.dart';
 import '../dialogs/start_study_sheet.dart';
 import '../widgets/empty_state.dart';
@@ -60,6 +62,8 @@ class HomeScreen extends ConsumerWidget {
                   padding: spacing.screenPadding.copyWith(bottom: 96),
                   children: [
                     _TodayCard(profile: current),
+                    SizedBox(height: spacing.gap),
+                    _ModeCards(profile: current),
                     SizedBox(height: spacing.gap),
                     _StudyTargetCard(
                       books: studying,
@@ -143,6 +147,91 @@ class _TodayCard extends ConsumerWidget {
             child: Text(due > 0 ? '今日の復習 $due語をはじめる' : '新しい単語を学ぶ'),
           ),
         ],
+      ),
+    );
+  }
+}
+
+/// モードカード（[Docs/04_screens_and_flows.md] §4.1）。
+///
+/// **利用できないモードはカードごと非表示**にする（[STYLE_GUIDE §0-4]）。
+/// 学習を始めたばかりの人には少ししか出ず、進むにつれて増える。
+/// 使えないモードを先に見せて期待させない。
+class _ModeCards extends ConsumerWidget {
+  final Profile profile;
+
+  const _ModeCards({required this.profile});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final modes = ref.watch(availableModesProvider(profile)).value;
+    // 判明するまでは出さない（あとから消えるカードを見せない）。
+    if (modes == null || modes.isEmpty) return const SizedBox.shrink();
+
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('学習モード', style: AppText.sectionTitle()),
+          const SizedBox(height: 10),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              for (final mode in modes)
+                _ModeChip(
+                  mode: mode,
+                  onTap: () => showStartStudySheet(
+                    context,
+                    profile: profile,
+                    initialMode: mode,
+                  ),
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _ModeChip extends StatelessWidget {
+  final StudyMode mode;
+  final VoidCallback onTap;
+
+  const _ModeChip({required this.mode, required this.onTap});
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(12),
+      onTap: onTap,
+      child: Container(
+        constraints: const BoxConstraints(minWidth: 96, maxWidth: 160),
+        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+        decoration: BoxDecoration(
+          color: AppColors.chipBg,
+          borderRadius: BorderRadius.circular(12),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(
+              mode.emoji,
+              textScaler: TextScaler.noScaling,
+              style: const TextStyle(fontSize: 18),
+            ),
+            const SizedBox(width: 6),
+            Flexible(
+              child: Text(
+                mode.label,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: AppText.body(),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

@@ -8,8 +8,11 @@ import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../data/repositories/wordbook_repository.dart';
 import '../../domain/usecases/study_queue_builder.dart';
+import '../../providers/audio.dart';
 import '../../providers/providers.dart';
+import '../screens/flashcard_screen.dart';
 import '../screens/spell_study_screen.dart';
+import '../widgets/soft_dropdown.dart';
 
 /// SCR-02 モード選択シート（[Docs/04_screens_and_flows.md] §4.2）。
 ///
@@ -19,6 +22,7 @@ Future<void> showStartStudySheet(
   BuildContext context, {
   required Profile profile,
   QueuePolicy initialPolicy = QueuePolicy.reviewFirst,
+  StudyMode? initialMode,
 }) {
   return showModalBottomSheet<void>(
     context: context,
@@ -26,16 +30,24 @@ Future<void> showStartStudySheet(
     shape: const RoundedRectangleBorder(
       borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
     ),
-    builder: (_) =>
-        _StartStudySheet(profile: profile, initialPolicy: initialPolicy),
+    builder: (_) => _StartStudySheet(
+      profile: profile,
+      initialPolicy: initialPolicy,
+      initialMode: initialMode,
+    ),
   );
 }
 
 class _StartStudySheet extends ConsumerStatefulWidget {
   final Profile profile;
   final QueuePolicy initialPolicy;
+  final StudyMode? initialMode;
 
-  const _StartStudySheet({required this.profile, required this.initialPolicy});
+  const _StartStudySheet({
+    required this.profile,
+    required this.initialPolicy,
+    required this.initialMode,
+  });
 
   @override
   ConsumerState<_StartStudySheet> createState() => _StartStudySheetState();
@@ -44,6 +56,10 @@ class _StartStudySheet extends ConsumerStatefulWidget {
 class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
   late QueuePolicy _policy = widget.initialPolicy;
   late int _limit = widget.profile.sessionSize;
+  late StudyMode _mode = widget.initialMode ?? StudyMode.spell;
+  late FlashcardMode _flashcardMode = FlashcardMode.fromValue(
+    widget.profile.flashcardMode,
+  );
   bool _starting = false;
 
   /// 開始できなかった理由。シートを閉じずにここへ1行で出す。
@@ -59,11 +75,27 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
       _error = null;
     });
     try {
+      if (_mode == StudyMode.flashcard) {
+        await ref
+            .read(flashcardProvider.notifier)
+            .start(
+              profile: widget.profile,
+              mode: _flashcardMode,
+              policy: _policy,
+              limit: _limit,
+            );
+        if (!mounted) return;
+        Navigator.of(context).pop();
+        await Navigator.of(context).push(
+          MaterialPageRoute<void>(builder: (_) => const FlashcardScreen()),
+        );
+        return;
+      }
       await ref
           .read(studySessionProvider.notifier)
           .start(
             profile: widget.profile,
-            mode: StudyMode.spell,
+            mode: _mode,
             policy: _policy,
             limit: _limit,
           );
@@ -93,6 +125,9 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
   @override
   Widget build(BuildContext context) {
     final books = ref.watch(wordbooksProvider(widget.profile.id)).value ?? const [];
+    final modes =
+        ref.watch(availableModesProvider(widget.profile)).value ??
+        const [StudyMode.spell];
     final selected = decodeIdList(widget.profile.selectedWordbookIds).toSet();
     final studying = books
         .where((b) => selected.contains(b.wordbook.id))
@@ -112,16 +147,33 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
           children: [
             Text('学習をはじめる', style: AppText.sectionTitle()),
             const SizedBox(height: 12),
-            // モードはスペルだけが実装済み。他のモードは実装した時点で並べる。
+            // **そのとき使えるモードだけ**を並べる。まだ実装していないモードや、
+            // 音が鳴らせない端末のリスニングは選択肢に出さない。
             _Row(
               label: 'モード',
-              child: Text(
-                '${StudyMode.spell.emoji} ${StudyMode.spell.label}',
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: AppText.body(),
+              child: SoftDropdown<StudyMode>(
+                value: modes.contains(_mode) ? _mode : modes.first,
+                hint: 'モード',
+                items: [
+                  for (final m in modes)
+                    (value: m, label: '${m.emoji} ${m.label}'),
+                ],
+                onChanged: (m) => setState(() => _mode = m),
               ),
             ),
+            if (_mode == StudyMode.flashcard)
+              _Row(
+                label: '送り方',
+                child: SoftDropdown<FlashcardMode>(
+                  value: _flashcardMode,
+                  hint: '送り方',
+                  items: [
+                    for (final m in FlashcardMode.values)
+                      (value: m, label: m.label),
+                  ],
+                  onChanged: (m) => setState(() => _flashcardMode = m),
+                ),
+              ),
             _Row(
               label: '単語帳',
               child: Text(

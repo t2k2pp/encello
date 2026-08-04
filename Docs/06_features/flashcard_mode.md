@@ -81,6 +81,13 @@ stateDiagram-v2
 `study_sessions.plannedCount` は表示予定枚数、`answeredCount` は評価した枚数になる。
 この2つが一致しないのはこのモードだけなので、結果画面の文言で明示する。
 
+## 5.1 進行と再生の分担
+
+`FlashcardController`（`application/`）は**進行だけ**を持ち、再生そのものは画面が
+`PronunciationService` を通じて行う。`speakWord` の完了を待ってから
+`advance()` を呼ぶ形にすることで、再生の実装（音声ファイル / 合成音声）が
+進行のロジックに漏れない。読み上げに失敗したら画面が `halt(理由)` を呼ぶ。
+
 ## 6. テスト観点
 
 - `speakEn` で `speakWord` の完了 Future が解決するまで次のカードへ進まない
