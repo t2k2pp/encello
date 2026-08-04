@@ -35,6 +35,7 @@
 | [vocab_size_test.md](06_features/vocab_size_test.md) | 語彙力測定・レベル判定・単語帳の推奨 |
 | [dictionary.md](06_features/dictionary.md) | 辞書の検索・一覧・単語詳細 |
 | [wordbooks.md](06_features/wordbooks.md) | 単語帳・プリセットデータ・CSV 取り込み |
+| [ai_import.md](06_features/ai_import.md) | 生成AI に作ってもらった単語帳の貼り付け取込とプロンプト |
 | [my_words.md](06_features/my_words.md) | 出会った語の登録・下書き・共有シート受信 |
 | [pronunciation.md](06_features/pronunciation.md) | 音声ファイルと合成音声の使い分け・音声パック |
 | [tts.md](06_features/tts.md) | 合成音声の詳細と、使えないときの扱い |
