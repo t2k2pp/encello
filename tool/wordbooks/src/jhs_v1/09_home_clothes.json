@@ -1,0 +1,861 @@
+{
+  "chunk": "09_home_clothes",
+  "note": "家・部屋・生活用品・衣服",
+  "words": [
+    {
+      "headword": "house",
+      "partOfSpeech": "noun",
+      "phonetic": "/haʊs/",
+      "meaning": "家",
+      "exampleEn": "I clean my house every weekend.",
+      "exampleJa": "私は毎週末、家を掃除します。",
+      "level": 1
+    },
+    {
+      "headword": "home",
+      "partOfSpeech": "noun",
+      "phonetic": "/hoʊm/",
+      "meaning": "家；家庭",
+      "exampleEn": "This is my home.",
+      "exampleJa": "ここが私の家です。",
+      "level": 1
+    },
+    {
+      "headword": "room",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːm/",
+      "meaning": "部屋",
+      "exampleEn": "My room is small but comfortable.",
+      "exampleJa": "私の部屋は小さいですが快適です。",
+      "level": 1
+    },
+    {
+      "headword": "kitchen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɪtʃɪn/",
+      "meaning": "台所",
+      "exampleEn": "My mother is cooking in the kitchen.",
+      "exampleJa": "母は台所で料理をしています。",
+      "level": 1
+    },
+    {
+      "headword": "bathroom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæθruːm/",
+      "meaning": "浴室；トイレ",
+      "exampleEn": "Please clean the bathroom today.",
+      "exampleJa": "今日は浴室を掃除してください。",
+      "level": 1
+    },
+    {
+      "headword": "bedroom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbedruːm/",
+      "meaning": "寝室",
+      "exampleEn": "I share a bedroom with my sister.",
+      "exampleJa": "私は姉と寝室を共有しています。",
+      "level": 2
+    },
+    {
+      "headword": "living room",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "居間",
+      "exampleEn": "We watch TV in the living room.",
+      "exampleJa": "私たちは居間でテレビを見ます。",
+      "level": 1
+    },
+    {
+      "headword": "garage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡəˈrɑːʒ/",
+      "meaning": "車庫",
+      "exampleEn": "My father parks the car in the garage.",
+      "exampleJa": "父は車庫に車を止めます。",
+      "level": 2
+    },
+    {
+      "headword": "roof",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːf/",
+      "meaning": "屋根",
+      "exampleEn": "Snow covered the roof this morning.",
+      "exampleJa": "今朝、屋根は雪で覆われていました。",
+      "level": 2
+    },
+    {
+      "headword": "wall",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɔːl/",
+      "meaning": "壁",
+      "exampleEn": "She hung a picture on the wall.",
+      "exampleJa": "彼女は壁に写真をかけました。",
+      "level": 1
+    },
+    {
+      "headword": "floor",
+      "partOfSpeech": "noun",
+      "phonetic": "/flɔːr/",
+      "meaning": "床；階",
+      "exampleEn": "Please sit on the floor here.",
+      "exampleJa": "ここでは床に座ってください。",
+      "level": 1
+    },
+    {
+      "headword": "ceiling",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsiːlɪŋ/",
+      "meaning": "天井",
+      "exampleEn": "The ceiling in this room is high.",
+      "exampleJa": "この部屋の天井は高いです。",
+      "level": 3
+    },
+    {
+      "headword": "door",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɔːr/",
+      "meaning": "ドア",
+      "exampleEn": "Someone is knocking on the door.",
+      "exampleJa": "誰かがドアをノックしています。",
+      "level": 1
+    },
+    {
+      "headword": "window",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪndoʊ/",
+      "meaning": "窓",
+      "exampleEn": "Open the window for fresh air.",
+      "exampleJa": "新鮮な空気のために窓を開けてください。",
+      "level": 1
+    },
+    {
+      "headword": "yard",
+      "partOfSpeech": "noun",
+      "phonetic": "/jɑːrd/",
+      "meaning": "庭",
+      "exampleEn": "The children are playing in the yard.",
+      "exampleJa": "子どもたちは庭で遊んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "fence",
+      "partOfSpeech": "noun",
+      "phonetic": "/fens/",
+      "meaning": "へい；さく",
+      "exampleEn": "A white fence is around our yard.",
+      "exampleJa": "白いへいが私たちの庭の周りにあります。",
+      "level": 3
+    },
+    {
+      "headword": "balcony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbælkəni/",
+      "meaning": "バルコニー",
+      "exampleEn": "We can see the sea from the balcony.",
+      "exampleJa": "バルコニーから海が見えます。",
+      "level": 3
+    },
+    {
+      "headword": "basement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪsmənt/",
+      "meaning": "地下室",
+      "exampleEn": "Old boxes are kept in the basement.",
+      "exampleJa": "古い箱は地下室に保管されています。",
+      "level": 3
+    },
+    {
+      "headword": "toilet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɔɪlət/",
+      "meaning": "トイレ",
+      "exampleEn": "Please clean the toilet every day.",
+      "exampleJa": "毎日トイレを掃除してください。",
+      "level": 1
+    },
+    {
+      "headword": "shower",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃaʊər/",
+      "meaning": "シャワー",
+      "exampleEn": "I take a shower every morning.",
+      "exampleJa": "私は毎朝シャワーを浴びます。",
+      "level": 2
+    },
+    {
+      "headword": "table",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈteɪbl/",
+      "meaning": "テーブル",
+      "exampleEn": "Put the plates on the table.",
+      "exampleJa": "皿をテーブルに置いてください。",
+      "level": 1
+    },
+    {
+      "headword": "bed",
+      "partOfSpeech": "noun",
+      "phonetic": "/bed/",
+      "meaning": "ベッド",
+      "exampleEn": "He jumped out of bed quickly.",
+      "exampleJa": "彼はすばやくベッドから飛び起きました。",
+      "level": 1
+    },
+    {
+      "headword": "sofa",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsoʊfə/",
+      "meaning": "ソファー",
+      "exampleEn": "My cat is sleeping on the sofa.",
+      "exampleJa": "私のねこはソファーで眠っています。",
+      "level": 2
+    },
+    {
+      "headword": "shelf",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃelf/",
+      "meaning": "棚",
+      "exampleEn": "Put these books back on the shelf.",
+      "exampleJa": "これらの本を棚に戻してください。",
+      "level": 2
+    },
+    {
+      "headword": "closet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklɑːzət/",
+      "meaning": "クローゼット；押し入れ",
+      "exampleEn": "I keep my clothes in the closet.",
+      "exampleJa": "私はクローゼットに服をしまっています。",
+      "level": 2
+    },
+    {
+      "headword": "mirror",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪrər/",
+      "meaning": "鏡",
+      "exampleEn": "She looked at herself in the mirror.",
+      "exampleJa": "彼女は鏡で自分を見ました。",
+      "level": 2
+    },
+    {
+      "headword": "lamp",
+      "partOfSpeech": "noun",
+      "phonetic": "/læmp/",
+      "meaning": "ランプ；電気スタンド",
+      "exampleEn": "Turn off the lamp before you sleep.",
+      "exampleJa": "寝る前にランプを消してください。",
+      "level": 2
+    },
+    {
+      "headword": "curtain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrtn/",
+      "meaning": "カーテン",
+      "exampleEn": "Please open the curtain in the morning.",
+      "exampleJa": "朝になったらカーテンを開けてください。",
+      "level": 2
+    },
+    {
+      "headword": "carpet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrpət/",
+      "meaning": "じゅうたん",
+      "exampleEn": "The carpet in this room is blue.",
+      "exampleJa": "この部屋のじゅうたんは青いです。",
+      "level": 2
+    },
+    {
+      "headword": "hanger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæŋər/",
+      "meaning": "ハンガー",
+      "exampleEn": "Hang your coat on the hanger.",
+      "exampleJa": "コートをハンガーにかけてください。",
+      "level": 3
+    },
+    {
+      "headword": "washing machine",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "洗濯機",
+      "exampleEn": "The washing machine is very noisy.",
+      "exampleJa": "その洗濯機はとてもうるさいです。",
+      "level": 2
+    },
+    {
+      "headword": "vacuum cleaner",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "掃除機",
+      "exampleEn": "My brother is using the vacuum cleaner.",
+      "exampleJa": "弟は掃除機を使っています。",
+      "level": 3
+    },
+    {
+      "headword": "air conditioner",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "エアコン",
+      "exampleEn": "Turn on the air conditioner, please.",
+      "exampleJa": "エアコンをつけてください。",
+      "level": 2
+    },
+    {
+      "headword": "bathtub",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæθtʌb/",
+      "meaning": "浴槽",
+      "exampleEn": "The bathtub is full of hot water.",
+      "exampleJa": "浴槽はお湯でいっぱいです。",
+      "level": 3
+    },
+    {
+      "headword": "sink",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɪŋk/",
+      "meaning": "流し台",
+      "exampleEn": "Wash your hands at the sink.",
+      "exampleJa": "流し台で手を洗ってください。",
+      "level": 2
+    },
+    {
+      "headword": "drawer",
+      "partOfSpeech": "noun",
+      "phonetic": "/drɔːr/",
+      "meaning": "引き出し",
+      "exampleEn": "She keeps her socks in the drawer.",
+      "exampleJa": "彼女は引き出しにくつ下をしまっています。",
+      "level": 3
+    },
+    {
+      "headword": "furniture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrnɪtʃər/",
+      "meaning": "家具",
+      "exampleEn": "This shop sells beautiful furniture.",
+      "exampleJa": "この店は美しい家具を売っています。",
+      "level": 3
+    },
+    {
+      "headword": "mailbox",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeɪlbɑːks/",
+      "meaning": "郵便受け",
+      "exampleEn": "There is a letter in the mailbox.",
+      "exampleJa": "郵便受けに手紙が入っています。",
+      "level": 2
+    },
+    {
+      "headword": "alarm clock",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "目覚まし時計",
+      "exampleEn": "My alarm clock rings at six.",
+      "exampleJa": "私の目覚まし時計は6時に鳴ります。",
+      "level": 2
+    },
+    {
+      "headword": "flashlight",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈflæʃlaɪt/",
+      "meaning": "懐中電灯",
+      "exampleEn": "Bring a flashlight for the camping trip.",
+      "exampleJa": "キャンプ旅行に懐中電灯を持ってきてください。",
+      "level": 2
+    },
+    {
+      "headword": "iron",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaɪərn/",
+      "meaning": "アイロン",
+      "exampleEn": "Be careful, the iron is hot.",
+      "exampleJa": "アイロンは熱いので気をつけてください。",
+      "level": 2
+    },
+    {
+      "headword": "trash can",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ごみ箱",
+      "exampleEn": "Put the paper in the trash can.",
+      "exampleJa": "紙をごみ箱に入れてください。",
+      "level": 2
+    },
+    {
+      "headword": "garbage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡɑːrbɪdʒ/",
+      "meaning": "ごみ",
+      "exampleEn": "Please take out the garbage tonight.",
+      "exampleJa": "今夜、ごみを出してください。",
+      "level": 2
+    },
+    {
+      "headword": "broom",
+      "partOfSpeech": "noun",
+      "phonetic": "/bruːm/",
+      "meaning": "ほうき",
+      "exampleEn": "He is sweeping the floor with a broom.",
+      "exampleJa": "彼はほうきで床をはいています。",
+      "level": 3
+    },
+    {
+      "headword": "towel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtaʊəl/",
+      "meaning": "タオル",
+      "exampleEn": "Dry your hands with this towel.",
+      "exampleJa": "このタオルで手をふいてください。",
+      "level": 1
+    },
+    {
+      "headword": "soap",
+      "partOfSpeech": "noun",
+      "phonetic": "/soʊp/",
+      "meaning": "せっけん",
+      "exampleEn": "Wash your hands with soap.",
+      "exampleJa": "せっけんで手を洗ってください。",
+      "level": 2
+    },
+    {
+      "headword": "brush",
+      "partOfSpeech": "noun",
+      "phonetic": "/brʌʃ/",
+      "meaning": "ブラシ",
+      "exampleEn": "She uses a brush for her hair.",
+      "exampleJa": "彼女は髪にブラシを使います。",
+      "level": 2
+    },
+    {
+      "headword": "comb",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊm/",
+      "meaning": "くし",
+      "exampleEn": "Where is my comb?",
+      "exampleJa": "私のくしはどこですか。",
+      "level": 3
+    },
+    {
+      "headword": "handkerchief",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæŋkərtʃɪf/",
+      "meaning": "ハンカチ",
+      "exampleEn": "I always carry a handkerchief in my bag.",
+      "exampleJa": "私はいつもかばんにハンカチを入れています。",
+      "level": 2
+    },
+    {
+      "headword": "key",
+      "partOfSpeech": "noun",
+      "phonetic": "/kiː/",
+      "meaning": "かぎ",
+      "exampleEn": "I lost the key to my house.",
+      "exampleJa": "私は家のかぎをなくしました。",
+      "level": 1
+    },
+    {
+      "headword": "lock",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɑːk/",
+      "meaning": "錠；かぎ",
+      "exampleEn": "This door has a strong lock.",
+      "exampleJa": "このドアには丈夫な錠がついています。",
+      "level": 2
+    },
+    {
+      "headword": "clock",
+      "partOfSpeech": "noun",
+      "phonetic": "/klɑːk/",
+      "meaning": "時計",
+      "exampleEn": "The clock on the wall stopped.",
+      "exampleJa": "壁の時計が止まりました。",
+      "level": 1
+    },
+    {
+      "headword": "watch",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɑːtʃ/",
+      "meaning": "腕時計",
+      "exampleEn": "He got a new watch for his birthday.",
+      "exampleJa": "彼は誕生日に新しい腕時計をもらいました。",
+      "level": 1
+    },
+    {
+      "headword": "phone",
+      "partOfSpeech": "noun",
+      "phonetic": "/foʊn/",
+      "meaning": "電話",
+      "exampleEn": "My phone is in my pocket.",
+      "exampleJa": "私の電話はポケットの中にあります。",
+      "level": 1
+    },
+    {
+      "headword": "camera",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæmərə/",
+      "meaning": "カメラ",
+      "exampleEn": "She took a picture with her camera.",
+      "exampleJa": "彼女はカメラで写真を撮りました。",
+      "level": 2
+    },
+    {
+      "headword": "umbrella",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʌmˈbrelə/",
+      "meaning": "傘",
+      "exampleEn": "Take your umbrella because it may rain.",
+      "exampleJa": "雨が降るかもしれないので傘を持って行ってください。",
+      "level": 1
+    },
+    {
+      "headword": "box",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɑːks/",
+      "meaning": "箱",
+      "exampleEn": "He put the toys in a box.",
+      "exampleJa": "彼はおもちゃを箱に入れました。",
+      "level": 1
+    },
+    {
+      "headword": "bottle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɑːtl/",
+      "meaning": "びん；ボトル",
+      "exampleEn": "Fill this bottle with water.",
+      "exampleJa": "このボトルに水を入れてください。",
+      "level": 2
+    },
+    {
+      "headword": "basket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæskɪt/",
+      "meaning": "かご",
+      "exampleEn": "She carried fruit in a basket.",
+      "exampleJa": "彼女はかごに果物を入れて運びました。",
+      "level": 2
+    },
+    {
+      "headword": "candle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkændl/",
+      "meaning": "ろうそく",
+      "exampleEn": "We lit a candle for the birthday cake.",
+      "exampleJa": "誕生日ケーキにろうそくをともしました。",
+      "level": 3
+    },
+    {
+      "headword": "blanket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈblæŋkɪt/",
+      "meaning": "毛布",
+      "exampleEn": "I sleep under a warm blanket.",
+      "exampleJa": "私は暖かい毛布の下で眠ります。",
+      "level": 2
+    },
+    {
+      "headword": "pillow",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɪloʊ/",
+      "meaning": "まくら",
+      "exampleEn": "This pillow is very soft.",
+      "exampleJa": "このまくらはとても柔らかいです。",
+      "level": 2
+    },
+    {
+      "headword": "calendar",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæləndər/",
+      "meaning": "カレンダー",
+      "exampleEn": "Check the calendar for today's date.",
+      "exampleJa": "今日の日付をカレンダーで確かめてください。",
+      "level": 2
+    },
+    {
+      "headword": "album",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælbəm/",
+      "meaning": "アルバム",
+      "exampleEn": "We looked at an old photo album.",
+      "exampleJa": "私たちは古い写真のアルバムを見ました。",
+      "level": 3
+    },
+    {
+      "headword": "wallet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɑːlət/",
+      "meaning": "財布",
+      "exampleEn": "He left his wallet at home.",
+      "exampleJa": "彼は財布を家に忘れました。",
+      "level": 2
+    },
+    {
+      "headword": "clothes",
+      "partOfSpeech": "noun",
+      "phonetic": "/kloʊz/",
+      "meaning": "服",
+      "exampleEn": "Put your clothes in the closet.",
+      "exampleJa": "服をクローゼットにしまってください。",
+      "level": 1
+    },
+    {
+      "headword": "shirt",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃɜːrt/",
+      "meaning": "シャツ",
+      "exampleEn": "He is wearing a white shirt.",
+      "exampleJa": "彼は白いシャツを着ています。",
+      "level": 1
+    },
+    {
+      "headword": "t-shirt",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtiːʃɜːrt/",
+      "meaning": "Tシャツ",
+      "exampleEn": "I bought a new t-shirt yesterday.",
+      "exampleJa": "私は昨日新しいTシャツを買いました。",
+      "level": 1
+    },
+    {
+      "headword": "pants",
+      "partOfSpeech": "noun",
+      "phonetic": "/pænts/",
+      "meaning": "ズボン",
+      "exampleEn": "These pants are too long for me.",
+      "exampleJa": "このズボンは私には長すぎます。",
+      "level": 2
+    },
+    {
+      "headword": "skirt",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɜːrt/",
+      "meaning": "スカート",
+      "exampleEn": "She wore a blue skirt today.",
+      "exampleJa": "彼女は今日青いスカートを着ていました。",
+      "level": 2
+    },
+    {
+      "headword": "dress",
+      "partOfSpeech": "noun",
+      "phonetic": "/dres/",
+      "meaning": "ドレス；ワンピース",
+      "exampleEn": "That dress looks beautiful on you.",
+      "exampleJa": "そのドレスはあなたに似合っています。",
+      "level": 1
+    },
+    {
+      "headword": "coat",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊt/",
+      "meaning": "コート",
+      "exampleEn": "Wear a coat because it's cold outside.",
+      "exampleJa": "外は寒いのでコートを着なさい。",
+      "level": 2
+    },
+    {
+      "headword": "jacket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒækɪt/",
+      "meaning": "上着；ジャケット",
+      "exampleEn": "He took off his jacket inside.",
+      "exampleJa": "彼は中で上着を脱ぎました。",
+      "level": 2
+    },
+    {
+      "headword": "sweater",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈswetər/",
+      "meaning": "セーター",
+      "exampleEn": "This sweater keeps me warm in winter.",
+      "exampleJa": "このセーターは冬、私を暖かくしてくれます。",
+      "level": 2
+    },
+    {
+      "headword": "socks",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɑːks/",
+      "meaning": "くつ下",
+      "exampleEn": "Put on your socks before school.",
+      "exampleJa": "学校に行く前にくつ下をはきなさい。",
+      "level": 1
+    },
+    {
+      "headword": "shoes",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃuːz/",
+      "meaning": "くつ",
+      "exampleEn": "Take off your shoes at the door.",
+      "exampleJa": "ドアのところでくつを脱いでください。",
+      "level": 1
+    },
+    {
+      "headword": "hat",
+      "partOfSpeech": "noun",
+      "phonetic": "/hæt/",
+      "meaning": "帽子",
+      "exampleEn": "She wore a big hat in the sun.",
+      "exampleJa": "彼女は日差しの中で大きな帽子をかぶっていました。",
+      "level": 1
+    },
+    {
+      "headword": "cap",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæp/",
+      "meaning": "帽子（縁なし）",
+      "exampleEn": "He always wears a baseball cap.",
+      "exampleJa": "彼はいつも野球帽をかぶっています。",
+      "level": 2
+    },
+    {
+      "headword": "gloves",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡlʌvz/",
+      "meaning": "手袋",
+      "exampleEn": "Wear gloves because your hands will get cold.",
+      "exampleJa": "手が冷たくなるので手袋をはめなさい。",
+      "level": 2
+    },
+    {
+      "headword": "scarf",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɑːrf/",
+      "meaning": "マフラー；スカーフ",
+      "exampleEn": "She wrapped a scarf around her neck.",
+      "exampleJa": "彼女は首にマフラーを巻きました。",
+      "level": 3
+    },
+    {
+      "headword": "button",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌtn/",
+      "meaning": "ボタン",
+      "exampleEn": "A button on my shirt came off.",
+      "exampleJa": "シャツのボタンが取れました。",
+      "level": 2
+    },
+    {
+      "headword": "pocket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːkɪt/",
+      "meaning": "ポケット",
+      "exampleEn": "He put his hands in his pockets.",
+      "exampleJa": "彼はポケットに手を入れました。",
+      "level": 2
+    },
+    {
+      "headword": "size",
+      "partOfSpeech": "noun",
+      "phonetic": "/saɪz/",
+      "meaning": "サイズ",
+      "exampleEn": "What size do you need?",
+      "exampleJa": "どのサイズが必要ですか。",
+      "level": 1
+    },
+    {
+      "headword": "jeans",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒiːnz/",
+      "meaning": "ジーンズ",
+      "exampleEn": "These jeans fit me well.",
+      "exampleJa": "このジーンズは私によく合います。",
+      "level": 2
+    },
+    {
+      "headword": "boots",
+      "partOfSpeech": "noun",
+      "phonetic": "/buːts/",
+      "meaning": "ブーツ",
+      "exampleEn": "She wears boots in winter.",
+      "exampleJa": "彼女は冬にブーツをはきます。",
+      "level": 2
+    },
+    {
+      "headword": "tie",
+      "partOfSpeech": "noun",
+      "phonetic": "/taɪ/",
+      "meaning": "ネクタイ",
+      "exampleEn": "My father wears a tie to work.",
+      "exampleJa": "父は仕事にネクタイをつけていきます。",
+      "level": 2
+    },
+    {
+      "headword": "pajamas",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈdʒɑːməz/",
+      "meaning": "パジャマ",
+      "exampleEn": "I put on my pajamas before bed.",
+      "exampleJa": "私は寝る前にパジャマを着ます。",
+      "level": 2
+    },
+    {
+      "headword": "swimsuit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈswɪmsuːt/",
+      "meaning": "水着",
+      "exampleEn": "Don't forget your swimsuit for the trip.",
+      "exampleJa": "旅行に水着を忘れないでください。",
+      "level": 3
+    },
+    {
+      "headword": "ring",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪŋ/",
+      "meaning": "指輪",
+      "exampleEn": "She wears a silver ring.",
+      "exampleJa": "彼女は銀の指輪をつけています。",
+      "level": 2
+    },
+    {
+      "headword": "glasses",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡlæsɪz/",
+      "meaning": "めがね",
+      "exampleEn": "He needs glasses to read books.",
+      "exampleJa": "彼は本を読むのにめがねが必要です。",
+      "level": 2
+    },
+    {
+      "headword": "sunglasses",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌnɡlæsɪz/",
+      "meaning": "サングラス",
+      "exampleEn": "I wear sunglasses on sunny days.",
+      "exampleJa": "私は晴れた日にサングラスをかけます。",
+      "level": 2
+    },
+    {
+      "headword": "bracelet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbreɪslət/",
+      "meaning": "ブレスレット",
+      "exampleEn": "She got a bracelet from her friend.",
+      "exampleJa": "彼女は友達からブレスレットをもらいました。",
+      "level": 3
+    },
+    {
+      "headword": "necklace",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnekləs/",
+      "meaning": "ネックレス",
+      "exampleEn": "This necklace was a birthday present.",
+      "exampleJa": "このネックレスは誕生日プレゼントでした。",
+      "level": 3
+    },
+    {
+      "headword": "dirty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdɜːrti/",
+      "meaning": "汚い",
+      "exampleEn": "Your shoes are very dirty.",
+      "exampleJa": "あなたのくつはとても汚いです。",
+      "level": 1
+    },
+    {
+      "headword": "comfortable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkʌmftərbl/",
+      "meaning": "心地よい；快適な",
+      "exampleEn": "This bed is really comfortable.",
+      "exampleJa": "このベッドは本当に快適です。",
+      "level": 2
+    }
+  ]
+}

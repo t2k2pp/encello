@@ -1,0 +1,861 @@
+{
+  "chunk": "07_body_health",
+  "note": "体・健康・病気・気持ちを表す名詞",
+  "words": [
+    {
+      "headword": "head",
+      "partOfSpeech": "noun",
+      "phonetic": "/hed/",
+      "meaning": "頭",
+      "exampleEn": "I hit my head on the door.",
+      "exampleJa": "頭をドアにぶつけました。",
+      "level": 1
+    },
+    {
+      "headword": "face",
+      "partOfSpeech": "noun",
+      "phonetic": "/feɪs/",
+      "meaning": "顔",
+      "exampleEn": "Wash your face before breakfast.",
+      "exampleJa": "朝食の前に顔を洗いなさい。",
+      "level": 1
+    },
+    {
+      "headword": "eye",
+      "partOfSpeech": "noun",
+      "phonetic": "/aɪ/",
+      "meaning": "目",
+      "exampleEn": "She has beautiful blue eyes.",
+      "exampleJa": "彼女は美しい青い目をしています。",
+      "level": 1
+    },
+    {
+      "headword": "ear",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪr/",
+      "meaning": "耳",
+      "exampleEn": "My ear hurts a little today.",
+      "exampleJa": "今日は耳が少し痛いです。",
+      "level": 1
+    },
+    {
+      "headword": "nose",
+      "partOfSpeech": "noun",
+      "phonetic": "/noʊz/",
+      "meaning": "鼻",
+      "exampleEn": "The dog has a wet nose.",
+      "exampleJa": "その犬は濡れた鼻をしています。",
+      "level": 1
+    },
+    {
+      "headword": "mouth",
+      "partOfSpeech": "noun",
+      "phonetic": "/maʊθ/",
+      "meaning": "口",
+      "exampleEn": "Open your mouth and say ah.",
+      "exampleJa": "口を開けて「あー」と言ってください。",
+      "level": 1
+    },
+    {
+      "headword": "tooth",
+      "partOfSpeech": "noun",
+      "phonetic": "/tuːθ/",
+      "meaning": "歯",
+      "exampleEn": "I lost a tooth last night.",
+      "exampleJa": "昨夜、歯が一本抜けました。",
+      "level": 1
+    },
+    {
+      "headword": "hair",
+      "partOfSpeech": "noun",
+      "phonetic": "/her/",
+      "meaning": "髪",
+      "exampleEn": "Her hair is long and black.",
+      "exampleJa": "彼女の髪は長くて黒いです。",
+      "level": 1
+    },
+    {
+      "headword": "neck",
+      "partOfSpeech": "noun",
+      "phonetic": "/nek/",
+      "meaning": "首",
+      "exampleEn": "The scarf keeps my neck warm.",
+      "exampleJa": "そのマフラーは私の首を暖かく保ちます。",
+      "level": 2
+    },
+    {
+      "headword": "shoulder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃoʊldər/",
+      "meaning": "肩",
+      "exampleEn": "He put a bag on his shoulder.",
+      "exampleJa": "彼は肩にかばんをかけました。",
+      "level": 2
+    },
+    {
+      "headword": "arm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɑːrm/",
+      "meaning": "腕",
+      "exampleEn": "She broke her arm last week.",
+      "exampleJa": "彼女は先週、腕を骨折しました。",
+      "level": 1
+    },
+    {
+      "headword": "hand",
+      "partOfSpeech": "noun",
+      "phonetic": "/hænd/",
+      "meaning": "手",
+      "exampleEn": "Raise your hand if you know.",
+      "exampleJa": "分かる人は手を挙げてください。",
+      "level": 1
+    },
+    {
+      "headword": "finger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɪŋɡər/",
+      "meaning": "指",
+      "exampleEn": "I cut my finger while cooking.",
+      "exampleJa": "料理中に指を切ってしまいました。",
+      "level": 2
+    },
+    {
+      "headword": "leg",
+      "partOfSpeech": "noun",
+      "phonetic": "/leɡ/",
+      "meaning": "脚",
+      "exampleEn": "My leg hurts after the race.",
+      "exampleJa": "レースの後、脚が痛みます。",
+      "level": 1
+    },
+    {
+      "headword": "foot",
+      "partOfSpeech": "noun",
+      "phonetic": "/fʊt/",
+      "meaning": "足",
+      "exampleEn": "He hurt his foot playing soccer.",
+      "exampleJa": "彼はサッカーをしていて足をけがしました。",
+      "level": 1
+    },
+    {
+      "headword": "knee",
+      "partOfSpeech": "noun",
+      "phonetic": "/niː/",
+      "meaning": "ひざ",
+      "exampleEn": "I fell and hurt my knee.",
+      "exampleJa": "転んでひざをけがしました。",
+      "level": 1
+    },
+    {
+      "headword": "back",
+      "partOfSpeech": "noun",
+      "phonetic": "/bæk/",
+      "meaning": "背中",
+      "exampleEn": "My back hurts from sitting long.",
+      "exampleJa": "長く座っていたので背中が痛いです。",
+      "level": 2
+    },
+    {
+      "headword": "stomach",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstʌmək/",
+      "meaning": "胃；おなか",
+      "exampleEn": "I have a pain in my stomach.",
+      "exampleJa": "おなかに痛みがあります。",
+      "level": 2
+    },
+    {
+      "headword": "heart",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɑːrt/",
+      "meaning": "心臓",
+      "exampleEn": "Exercise is good for your heart.",
+      "exampleJa": "運動は心臓に良いです。",
+      "level": 1
+    },
+    {
+      "headword": "skin",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɪn/",
+      "meaning": "肌；皮膚",
+      "exampleEn": "Take care of your skin every day.",
+      "exampleJa": "毎日肌の手入れをしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "body",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɑːdi/",
+      "meaning": "体；身体",
+      "exampleEn": "Sleep is important for your body.",
+      "exampleJa": "睡眠はあなたの体にとって大切です。",
+      "level": 1
+    },
+    {
+      "headword": "voice",
+      "partOfSpeech": "noun",
+      "phonetic": "/vɔɪs/",
+      "meaning": "声",
+      "exampleEn": "She has a soft and gentle voice.",
+      "exampleJa": "彼女は柔らかく優しい声をしています。",
+      "level": 1
+    },
+    {
+      "headword": "chest",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃest/",
+      "meaning": "胸",
+      "exampleEn": "He felt pain in his chest.",
+      "exampleJa": "彼は胸に痛みを感じました。",
+      "level": 2
+    },
+    {
+      "headword": "throat",
+      "partOfSpeech": "noun",
+      "phonetic": "/θroʊt/",
+      "meaning": "のど",
+      "exampleEn": "My throat hurts when I swallow.",
+      "exampleJa": "飲み込むとのどが痛みます。",
+      "level": 2
+    },
+    {
+      "headword": "elbow",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈelboʊ/",
+      "meaning": "ひじ",
+      "exampleEn": "Don't put your elbow on the table.",
+      "exampleJa": "テーブルにひじをつかないでください。",
+      "level": 3
+    },
+    {
+      "headword": "brain",
+      "partOfSpeech": "noun",
+      "phonetic": "/breɪn/",
+      "meaning": "脳",
+      "exampleEn": "Reading books is good for the brain.",
+      "exampleJa": "読書は脳に良いです。",
+      "level": 2
+    },
+    {
+      "headword": "blood",
+      "partOfSpeech": "noun",
+      "phonetic": "/blʌd/",
+      "meaning": "血；血液",
+      "exampleEn": "You need blood to stay alive.",
+      "exampleJa": "人は生きるために血液が必要です。",
+      "level": 2
+    },
+    {
+      "headword": "bone",
+      "partOfSpeech": "noun",
+      "phonetic": "/boʊn/",
+      "meaning": "骨",
+      "exampleEn": "Milk helps make your bones strong.",
+      "exampleJa": "牛乳は骨を強くするのに役立ちます。",
+      "level": 2
+    },
+    {
+      "headword": "muscle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌsl/",
+      "meaning": "筋肉",
+      "exampleEn": "Swimming builds strong muscles in the body.",
+      "exampleJa": "水泳は体の筋肉を強くします。",
+      "level": 2
+    },
+    {
+      "headword": "fever",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfiːvər/",
+      "meaning": "熱",
+      "exampleEn": "I have a high fever today.",
+      "exampleJa": "今日は高熱があります。",
+      "level": 2
+    },
+    {
+      "headword": "headache",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhedeɪk/",
+      "meaning": "頭痛",
+      "exampleEn": "I have a bad headache today.",
+      "exampleJa": "今日はひどい頭痛がします。",
+      "level": 1
+    },
+    {
+      "headword": "pain",
+      "partOfSpeech": "noun",
+      "phonetic": "/peɪn/",
+      "meaning": "痛み",
+      "exampleEn": "She felt a sharp pain in her leg.",
+      "exampleJa": "彼女は脚に鋭い痛みを感じました。",
+      "level": 2
+    },
+    {
+      "headword": "injury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪndʒəri/",
+      "meaning": "けが",
+      "exampleEn": "He is recovering from a knee injury.",
+      "exampleJa": "彼はひざのけがから回復しています。",
+      "level": 3
+    },
+    {
+      "headword": "medicine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmedsn/",
+      "meaning": "薬；医学",
+      "exampleEn": "Take this medicine after every meal.",
+      "exampleJa": "毎食後にこの薬を飲んでください。",
+      "level": 1
+    },
+    {
+      "headword": "hospital",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːspɪtl/",
+      "meaning": "病院",
+      "exampleEn": "The hospital is near the station.",
+      "exampleJa": "その病院は駅の近くにあります。",
+      "level": 1
+    },
+    {
+      "headword": "patient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪʃnt/",
+      "meaning": "患者",
+      "exampleEn": "The nurse checked on every patient.",
+      "exampleJa": "看護師はすべての患者の様子を見ました。",
+      "level": 2
+    },
+    {
+      "headword": "treatment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtriːtmənt/",
+      "meaning": "治療",
+      "exampleEn": "The doctor explained the treatment carefully.",
+      "exampleJa": "医者は治療について丁寧に説明しました。",
+      "level": 3
+    },
+    {
+      "headword": "illness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪlnəs/",
+      "meaning": "病気",
+      "exampleEn": "He was absent because of illness.",
+      "exampleJa": "彼は病気のため欠席しました。",
+      "level": 2
+    },
+    {
+      "headword": "cough",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːf/",
+      "meaning": "せき",
+      "exampleEn": "A bad cough kept me awake.",
+      "exampleJa": "ひどいせきで眠れませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "toothache",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtuːθeɪk/",
+      "meaning": "歯痛",
+      "exampleEn": "I went to the dentist with a toothache.",
+      "exampleJa": "歯痛で歯医者に行きました。",
+      "level": 2
+    },
+    {
+      "headword": "stomachache",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstʌməkeɪk/",
+      "meaning": "腹痛",
+      "exampleEn": "I stayed home with a stomachache.",
+      "exampleJa": "腹痛で家にいました。",
+      "level": 2
+    },
+    {
+      "headword": "temperature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtemprətʃər/",
+      "meaning": "体温；気温",
+      "exampleEn": "The nurse checked my temperature first.",
+      "exampleJa": "看護師はまず私の体温を測りました。",
+      "level": 2
+    },
+    {
+      "headword": "allergy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælərdʒi/",
+      "meaning": "アレルギー",
+      "exampleEn": "My friend has a bad allergy.",
+      "exampleJa": "私の友達はひどいアレルギーがあります。",
+      "level": 3
+    },
+    {
+      "headword": "flu",
+      "partOfSpeech": "noun",
+      "phonetic": "/fluː/",
+      "meaning": "インフルエンザ",
+      "exampleEn": "Many students caught the flu this winter.",
+      "exampleJa": "この冬、多くの生徒がインフルエンザにかかりました。",
+      "level": 2
+    },
+    {
+      "headword": "disease",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈziːz/",
+      "meaning": "病気；疾病",
+      "exampleEn": "Doctors are studying this new disease.",
+      "exampleJa": "医者たちはこの新しい病気を研究しています。",
+      "level": 3
+    },
+    {
+      "headword": "cold",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊld/",
+      "meaning": "風邪",
+      "exampleEn": "I caught a cold last weekend.",
+      "exampleJa": "先週末、風邪をひきました。",
+      "level": 1
+    },
+    {
+      "headword": "sleep",
+      "partOfSpeech": "noun",
+      "phonetic": "/sliːp/",
+      "meaning": "睡眠",
+      "exampleEn": "Good sleep keeps you healthy and happy.",
+      "exampleJa": "十分な睡眠は健康と幸せを保ちます。",
+      "level": 2
+    },
+    {
+      "headword": "rest",
+      "partOfSpeech": "noun",
+      "phonetic": "/rest/",
+      "meaning": "休息",
+      "exampleEn": "You need rest after a long day.",
+      "exampleJa": "長い一日の後は休息が必要です。",
+      "level": 2
+    },
+    {
+      "headword": "breath",
+      "partOfSpeech": "noun",
+      "phonetic": "/breθ/",
+      "meaning": "息",
+      "exampleEn": "Take a deep breath and relax.",
+      "exampleJa": "深呼吸をしてリラックスしてください。",
+      "level": 2
+    },
+    {
+      "headword": "energy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenərdʒi/",
+      "meaning": "元気；エネルギー",
+      "exampleEn": "Fruit gives you energy in the morning.",
+      "exampleJa": "果物は朝にエネルギーを与えてくれます。",
+      "level": 2
+    },
+    {
+      "headword": "strength",
+      "partOfSpeech": "noun",
+      "phonetic": "/streŋθ/",
+      "meaning": "力；強さ",
+      "exampleEn": "Training every day builds your strength.",
+      "exampleJa": "毎日の練習は力をつけます。",
+      "level": 3
+    },
+    {
+      "headword": "exercise",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeksərsaɪz/",
+      "meaning": "運動",
+      "exampleEn": "Daily exercise is good for your health.",
+      "exampleJa": "毎日の運動は健康に良いです。",
+      "level": 1
+    },
+    {
+      "headword": "diet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪət/",
+      "meaning": "食事；ダイエット",
+      "exampleEn": "A healthy diet includes vegetables and fruit.",
+      "exampleJa": "健康的な食事には野菜と果物が含まれます。",
+      "level": 2
+    },
+    {
+      "headword": "weight",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪt/",
+      "meaning": "体重；重さ",
+      "exampleEn": "He checks his weight every morning.",
+      "exampleJa": "彼は毎朝体重を量ります。",
+      "level": 2
+    },
+    {
+      "headword": "height",
+      "partOfSpeech": "noun",
+      "phonetic": "/haɪt/",
+      "meaning": "身長；高さ",
+      "exampleEn": "What is your height and weight?",
+      "exampleJa": "あなたの身長と体重はどれくらいですか。",
+      "level": 2
+    },
+    {
+      "headword": "feeling",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfiːlɪŋ/",
+      "meaning": "気持ち；感情",
+      "exampleEn": "Tell me about your feelings today.",
+      "exampleJa": "今日の気持ちを話してください。",
+      "level": 1
+    },
+    {
+      "headword": "emotion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmoʊʃn/",
+      "meaning": "感情",
+      "exampleEn": "Music can express many different emotions.",
+      "exampleJa": "音楽はさまざまな感情を表現できます。",
+      "level": 3
+    },
+    {
+      "headword": "happiness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæpinəs/",
+      "meaning": "幸せ",
+      "exampleEn": "Family gives me a lot of happiness.",
+      "exampleJa": "家族は私にたくさんの幸せをくれます。",
+      "level": 2
+    },
+    {
+      "headword": "sadness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsædnəs/",
+      "meaning": "悲しみ",
+      "exampleEn": "I felt deep sadness after the news.",
+      "exampleJa": "その知らせを聞いて深い悲しみを感じました。",
+      "level": 2
+    },
+    {
+      "headword": "anger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæŋɡər/",
+      "meaning": "怒り",
+      "exampleEn": "He could not hide his anger.",
+      "exampleJa": "彼は怒りを隠せませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "fear",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɪr/",
+      "meaning": "恐れ",
+      "exampleEn": "She spoke without any fear.",
+      "exampleJa": "彼女は何も恐れずに話しました。",
+      "level": 2
+    },
+    {
+      "headword": "surprise",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈpraɪz/",
+      "meaning": "驚き",
+      "exampleEn": "The party was a big surprise.",
+      "exampleJa": "そのパーティーは大きな驚きでした。",
+      "level": 2
+    },
+    {
+      "headword": "stress",
+      "partOfSpeech": "noun",
+      "phonetic": "/stres/",
+      "meaning": "ストレス",
+      "exampleEn": "Too much stress is bad for you.",
+      "exampleJa": "ストレスが多すぎるのは体に悪いです。",
+      "level": 2
+    },
+    {
+      "headword": "smile",
+      "partOfSpeech": "noun",
+      "phonetic": "/smaɪl/",
+      "meaning": "ほほえみ",
+      "exampleEn": "She greeted us with a warm smile.",
+      "exampleJa": "彼女は温かいほほえみで私たちを迎えました。",
+      "level": 1
+    },
+    {
+      "headword": "tear",
+      "partOfSpeech": "noun",
+      "phonetic": "/tɪr/",
+      "meaning": "涙",
+      "exampleEn": "A tear rolled down his face slowly.",
+      "exampleJa": "彼の顔を涙がゆっくりと伝いました。",
+      "level": 2
+    },
+    {
+      "headword": "worry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːri/",
+      "meaning": "心配",
+      "exampleEn": "Don't show your worry in front of them.",
+      "exampleJa": "彼らの前で心配な様子を見せないでください。",
+      "level": 2
+    },
+    {
+      "headword": "joy",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɔɪ/",
+      "meaning": "喜び",
+      "exampleEn": "Their win brought great joy to the team.",
+      "exampleJa": "彼らの勝利はチームに大きな喜びをもたらしました。",
+      "level": 2
+    },
+    {
+      "headword": "excitement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈsaɪtmənt/",
+      "meaning": "興奮",
+      "exampleEn": "The children shouted with excitement.",
+      "exampleJa": "子どもたちは興奮して叫びました。",
+      "level": 2
+    },
+    {
+      "headword": "relief",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈliːf/",
+      "meaning": "安心；ほっとすること",
+      "exampleEn": "She sighed with relief after the test.",
+      "exampleJa": "テストの後、彼女はほっとしてため息をつきました。",
+      "level": 3
+    },
+    {
+      "headword": "courage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrɪdʒ/",
+      "meaning": "勇気",
+      "exampleEn": "It took courage to speak in public.",
+      "exampleJa": "人前で話すには勇気が必要でした。",
+      "level": 2
+    },
+    {
+      "headword": "sick",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪk/",
+      "meaning": "病気の",
+      "exampleEn": "I feel sick and want to rest.",
+      "exampleJa": "気分が悪くて休みたいです。",
+      "level": 1
+    },
+    {
+      "headword": "ill",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪl/",
+      "meaning": "病気の",
+      "exampleEn": "She has been ill since Monday.",
+      "exampleJa": "彼女は月曜日からずっと病気です。",
+      "level": 2
+    },
+    {
+      "headword": "healthy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhelθi/",
+      "meaning": "健康な",
+      "exampleEn": "Eating vegetables keeps you healthy.",
+      "exampleJa": "野菜を食べると健康でいられます。",
+      "level": 1
+    },
+    {
+      "headword": "tired",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtaɪərd/",
+      "meaning": "疲れた",
+      "exampleEn": "I was too tired to walk home.",
+      "exampleJa": "疲れすぎて家まで歩けませんでした。",
+      "level": 1
+    },
+    {
+      "headword": "hungry",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhʌŋɡri/",
+      "meaning": "空腹の",
+      "exampleEn": "We were hungry after the long hike.",
+      "exampleJa": "長いハイキングの後、私たちは空腹でした。",
+      "level": 1
+    },
+    {
+      "headword": "thirsty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈθɜːrsti/",
+      "meaning": "のどが渇いた",
+      "exampleEn": "Running made me really thirsty.",
+      "exampleJa": "走ったのでとてものどが渇きました。",
+      "level": 2
+    },
+    {
+      "headword": "sleepy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsliːpi/",
+      "meaning": "眠い",
+      "exampleEn": "I always feel sleepy after lunch.",
+      "exampleJa": "昼食の後はいつも眠くなります。",
+      "level": 1
+    },
+    {
+      "headword": "hurt",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hɜːrt/",
+      "meaning": "けがをした",
+      "exampleEn": "The hurt player left the field.",
+      "exampleJa": "けがをした選手はフィールドを離れました。",
+      "level": 2
+    },
+    {
+      "headword": "weak",
+      "partOfSpeech": "adjective",
+      "phonetic": "/wiːk/",
+      "meaning": "弱い",
+      "exampleEn": "He felt weak after the long illness.",
+      "exampleJa": "長い病気の後、彼は体が弱っていました。",
+      "level": 2
+    },
+    {
+      "headword": "dizzy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdɪzi/",
+      "meaning": "めまいがする",
+      "exampleEn": "I stood up too fast and felt dizzy.",
+      "exampleJa": "急に立ち上がってめまいがしました。",
+      "level": 3
+    },
+    {
+      "headword": "sore",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɔːr/",
+      "meaning": "痛い",
+      "exampleEn": "My legs were sore after the marathon.",
+      "exampleJa": "マラソンの後、脚が痛かったです。",
+      "level": 3
+    },
+    {
+      "headword": "painful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpeɪnfl/",
+      "meaning": "痛い",
+      "exampleEn": "The injury was painful for a week.",
+      "exampleJa": "そのけがは1週間痛みました。",
+      "level": 3
+    },
+    {
+      "headword": "nail",
+      "partOfSpeech": "noun",
+      "phonetic": "/neɪl/",
+      "meaning": "爪",
+      "exampleEn": "She painted her nails bright pink.",
+      "exampleJa": "彼女は爪を明るいピンクに塗りました。",
+      "level": 2
+    },
+    {
+      "headword": "sweat",
+      "partOfSpeech": "noun",
+      "phonetic": "/swet/",
+      "meaning": "汗",
+      "exampleEn": "Sweat dripped down his face after practice.",
+      "exampleJa": "練習の後、彼の顔から汗が流れ落ちました。",
+      "level": 3
+    },
+    {
+      "headword": "confidence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnfɪdəns/",
+      "meaning": "自信",
+      "exampleEn": "Winning the game gave her confidence.",
+      "exampleJa": "試合に勝って彼女は自信を持ちました。",
+      "level": 3
+    },
+    {
+      "headword": "pride",
+      "partOfSpeech": "noun",
+      "phonetic": "/praɪd/",
+      "meaning": "誇り",
+      "exampleEn": "He spoke about his school with pride.",
+      "exampleJa": "彼は誇りを持って自分の学校について話しました。",
+      "level": 3
+    },
+    {
+      "headword": "loneliness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈloʊnlinəs/",
+      "meaning": "孤独感",
+      "exampleEn": "She felt loneliness in the new city.",
+      "exampleJa": "彼女は新しい街で孤独感を感じました。",
+      "level": 3
+    },
+    {
+      "headword": "comfort",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌmfərt/",
+      "meaning": "安心；快適さ",
+      "exampleEn": "Her words gave me great comfort.",
+      "exampleJa": "彼女の言葉は私に大きな安心を与えてくれました。",
+      "level": 3
+    },
+    {
+      "headword": "earache",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪreɪk/",
+      "meaning": "耳の痛み",
+      "exampleEn": "The earache kept him up all night.",
+      "exampleJa": "耳の痛みで彼は一晩中眠れませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "health checkup",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "健康診断",
+      "exampleEn": "We have a health checkup every year.",
+      "exampleJa": "私たちは毎年健康診断を受けます。",
+      "level": 3
+    },
+    {
+      "headword": "first aid",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "応急手当",
+      "exampleEn": "The teacher knows basic first aid.",
+      "exampleJa": "先生は基本的な応急手当を知っています。",
+      "level": 3
+    },
+    {
+      "headword": "runny nose",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "鼻水（が出ること）",
+      "exampleEn": "A runny nose is a sign of a cold.",
+      "exampleJa": "鼻水は風邪のサインです。",
+      "level": 3
+    },
+    {
+      "headword": "eyesight",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaɪsaɪt/",
+      "meaning": "視力",
+      "exampleEn": "Carrots are said to improve eyesight.",
+      "exampleJa": "にんじんは視力を良くすると言われています。",
+      "level": 3
+    },
+    {
+      "headword": "appetite",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæpɪtaɪt/",
+      "meaning": "食欲",
+      "exampleEn": "I lost my appetite because of the heat.",
+      "exampleJa": "暑さで食欲がなくなりました。",
+      "level": 3
+    },
+    {
+      "headword": "backache",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbækeɪk/",
+      "meaning": "腰痛",
+      "exampleEn": "Sitting all day gave me a backache.",
+      "exampleJa": "一日中座っていたら腰痛になりました。",
+      "level": 2
+    }
+  ]
+}

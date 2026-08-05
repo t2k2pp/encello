@@ -106,8 +106,9 @@ final _phoneticPattern = RegExp(r'^/[^/]+/$');
 /// 日本語（ひらがな・カタカナ・漢字・全角記号）を含むか。
 final _japanesePattern = RegExp(r'[぀-ヿ㐀-鿿＀-ﾟ]');
 
-/// 例文の語の切り出し。アポストロフィは語の一部として残す（`don't`）。
-final _wordTokenPattern = RegExp(r"[A-Za-z][A-Za-z']*");
+/// 例文の語の切り出し。アポストロフィとハイフンは語の一部として残す
+/// （`don't` / `t-shirt` を1語として数える）。
+final _wordTokenPattern = RegExp(r"[A-Za-z][A-Za-z'\-]*");
 
 /// 例文の語数の上限（`>` で警告 / `_maxExampleWords` 超で不合格）。
 const _softExampleWords = 10;
@@ -333,9 +334,14 @@ List<ValidationIssue> validateWords(
         warn(w, '例文に見出し語が見当たりません');
       }
 
+      // 所有格の `'s` は落として照合するが、落とす前の形も見る
+      // （`let's` を `let` にしてしまうと、あるはずの語を無いことにする）。
       final outside = tokens
-          .map(_stripPossessive)
-          .where((t) => !vocabulary.contains(t))
+          .where(
+            (t) =>
+                !vocabulary.contains(t) &&
+                !vocabulary.contains(_stripPossessive(t)),
+          )
           .toSet();
       if (outside.isNotEmpty) {
         warn(w, '例文に単語帳の外の語があります: ${outside.join(" ")}');

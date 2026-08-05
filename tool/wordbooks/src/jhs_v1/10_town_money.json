@@ -1,0 +1,861 @@
+{
+  "chunk": "10_town_money",
+  "note": "街・建物・交通・買い物・お金",
+  "words": [
+    {
+      "headword": "town",
+      "partOfSpeech": "noun",
+      "phonetic": "/taʊn/",
+      "meaning": "町",
+      "exampleEn": "I live in a quiet town.",
+      "exampleJa": "私は静かな町に住んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "village",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪlɪdʒ/",
+      "meaning": "村",
+      "exampleEn": "My grandmother lives in a village.",
+      "exampleJa": "祖母は村に住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "street",
+      "partOfSpeech": "noun",
+      "phonetic": "/striːt/",
+      "meaning": "通り；街路",
+      "exampleEn": "Many shops are on this street.",
+      "exampleJa": "この通りにはたくさんの店があります。",
+      "level": 1
+    },
+    {
+      "headword": "road",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊd/",
+      "meaning": "道路",
+      "exampleEn": "This road goes to the station.",
+      "exampleJa": "この道路は駅に通じています。",
+      "level": 1
+    },
+    {
+      "headword": "corner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɔːrnər/",
+      "meaning": "角；曲がり角",
+      "exampleEn": "Turn left at this corner.",
+      "exampleJa": "この角を左に曲がってください。",
+      "level": 2
+    },
+    {
+      "headword": "bridge",
+      "partOfSpeech": "noun",
+      "phonetic": "/brɪdʒ/",
+      "meaning": "橋",
+      "exampleEn": "We walked across the old bridge.",
+      "exampleJa": "私たちは古い橋を渡って歩きました。",
+      "level": 2
+    },
+    {
+      "headword": "park",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːrk/",
+      "meaning": "公園",
+      "exampleEn": "Children are playing in the park.",
+      "exampleJa": "子どもたちが公園で遊んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "area",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeriə/",
+      "meaning": "地域；地区",
+      "exampleEn": "This area has many old temples.",
+      "exampleJa": "この地域には古い寺がたくさんあります。",
+      "level": 2
+    },
+    {
+      "headword": "place",
+      "partOfSpeech": "noun",
+      "phonetic": "/pleɪs/",
+      "meaning": "場所",
+      "exampleEn": "This is a quiet place to study.",
+      "exampleJa": "ここは勉強するのに静かな場所です。",
+      "level": 1
+    },
+    {
+      "headword": "map",
+      "partOfSpeech": "noun",
+      "phonetic": "/mæp/",
+      "meaning": "地図",
+      "exampleEn": "Use this map to find the station.",
+      "exampleJa": "この地図を使って駅を見つけてください。",
+      "level": 1
+    },
+    {
+      "headword": "capital",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæpɪtl/",
+      "meaning": "首都",
+      "exampleEn": "Tokyo is the capital of Japan.",
+      "exampleJa": "東京は日本の首都です。",
+      "level": 2
+    },
+    {
+      "headword": "sign",
+      "partOfSpeech": "noun",
+      "phonetic": "/saɪn/",
+      "meaning": "標識；看板",
+      "exampleEn": "This sign is at the corner.",
+      "exampleJa": "この標識は角にあります。",
+      "level": 2
+    },
+    {
+      "headword": "crossing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkrɔːsɪŋ/",
+      "meaning": "横断歩道",
+      "exampleEn": "Cars must stop at this crossing.",
+      "exampleJa": "車はこの横断歩道で止まらなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "neighborhood",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪbərhʊd/",
+      "meaning": "近所；地域",
+      "exampleEn": "We know everyone in our neighborhood.",
+      "exampleJa": "私たちは近所の人をみんな知っています。",
+      "level": 3
+    },
+    {
+      "headword": "sidewalk",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪdwɔːk/",
+      "meaning": "歩道",
+      "exampleEn": "Don't ride your bike on the sidewalk.",
+      "exampleJa": "歩道で自転車に乗ってはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "square",
+      "partOfSpeech": "noun",
+      "phonetic": "/skwer/",
+      "meaning": "広場",
+      "exampleEn": "Many people are in the town square.",
+      "exampleJa": "たくさんの人が町の広場にいます。",
+      "level": 3
+    },
+    {
+      "headword": "block",
+      "partOfSpeech": "noun",
+      "phonetic": "/blɑːk/",
+      "meaning": "ブロック；区画",
+      "exampleEn": "Our house is on this block.",
+      "exampleJa": "私たちの家はこの区画にあります。",
+      "level": 2
+    },
+    {
+      "headword": "building",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɪldɪŋ/",
+      "meaning": "建物",
+      "exampleEn": "This building is very beautiful.",
+      "exampleJa": "この建物はとても美しいです。",
+      "level": 1
+    },
+    {
+      "headword": "station",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪʃn/",
+      "meaning": "駅",
+      "exampleEn": "We will meet at the station.",
+      "exampleJa": "私たちは駅で会います。",
+      "level": 1
+    },
+    {
+      "headword": "airport",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeərpɔːrt/",
+      "meaning": "空港",
+      "exampleEn": "We arrived at the airport early.",
+      "exampleJa": "私たちは早く空港に着きました。",
+      "level": 2
+    },
+    {
+      "headword": "hotel",
+      "partOfSpeech": "noun",
+      "phonetic": "/hoʊˈtel/",
+      "meaning": "ホテル",
+      "exampleEn": "We stayed at a clean hotel.",
+      "exampleJa": "私たちは清潔なホテルに泊まりました。",
+      "level": 1
+    },
+    {
+      "headword": "bank",
+      "partOfSpeech": "noun",
+      "phonetic": "/bæŋk/",
+      "meaning": "銀行",
+      "exampleEn": "I need to go to the bank.",
+      "exampleJa": "私は銀行に行く必要があります。",
+      "level": 2
+    },
+    {
+      "headword": "post office",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "郵便局",
+      "exampleEn": "Is the post office open today?",
+      "exampleJa": "郵便局は今日開いていますか。",
+      "level": 1
+    },
+    {
+      "headword": "museum",
+      "partOfSpeech": "noun",
+      "phonetic": "/mjuˈziːəm/",
+      "meaning": "博物館；美術館",
+      "exampleEn": "We visited an art museum yesterday.",
+      "exampleJa": "私たちは昨日美術館を訪れました。",
+      "level": 2
+    },
+    {
+      "headword": "theater",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːətər/",
+      "meaning": "劇場；映画館",
+      "exampleEn": "We can watch a play at the theater.",
+      "exampleJa": "劇場で劇を見ましょう。",
+      "level": 2
+    },
+    {
+      "headword": "stadium",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪdiəm/",
+      "meaning": "競技場；スタジアム",
+      "exampleEn": "Many people were at the stadium.",
+      "exampleJa": "たくさんの人がスタジアムにいました。",
+      "level": 2
+    },
+    {
+      "headword": "factory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæktri/",
+      "meaning": "工場",
+      "exampleEn": "My father works at a factory.",
+      "exampleJa": "父は工場で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "shop",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃɑːp/",
+      "meaning": "店",
+      "exampleEn": "There is a shop close to my house.",
+      "exampleJa": "私の家の近くに店があります。",
+      "level": 1
+    },
+    {
+      "headword": "store",
+      "partOfSpeech": "noun",
+      "phonetic": "/stɔːr/",
+      "meaning": "店",
+      "exampleEn": "This store sells fresh vegetables.",
+      "exampleJa": "この店は新鮮な野菜を売っています。",
+      "level": 1
+    },
+    {
+      "headword": "supermarket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsuːpərmɑːrkɪt/",
+      "meaning": "スーパーマーケット",
+      "exampleEn": "My mother shops at the supermarket.",
+      "exampleJa": "母はスーパーマーケットで買い物をします。",
+      "level": 1
+    },
+    {
+      "headword": "market",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːrkɪt/",
+      "meaning": "市場",
+      "exampleEn": "We bought fish at the market.",
+      "exampleJa": "私たちは市場で魚を買いました。",
+      "level": 2
+    },
+    {
+      "headword": "temple",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtempl/",
+      "meaning": "寺",
+      "exampleEn": "This temple is very old.",
+      "exampleJa": "この寺はとても古いです。",
+      "level": 2
+    },
+    {
+      "headword": "shrine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃraɪn/",
+      "meaning": "神社",
+      "exampleEn": "We visited a beautiful shrine yesterday.",
+      "exampleJa": "私たちは昨日美しい神社を訪れました。",
+      "level": 2
+    },
+    {
+      "headword": "church",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃɜːrtʃ/",
+      "meaning": "教会",
+      "exampleEn": "We often go to this church.",
+      "exampleJa": "私たちはよくこの教会に行きます。",
+      "level": 2
+    },
+    {
+      "headword": "castle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæsl/",
+      "meaning": "城",
+      "exampleEn": "This old castle is very beautiful.",
+      "exampleJa": "この古い城はとても美しいです。",
+      "level": 2
+    },
+    {
+      "headword": "tower",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtaʊər/",
+      "meaning": "塔；タワー",
+      "exampleEn": "You can see the city from the tower.",
+      "exampleJa": "そのタワーから街が見えます。",
+      "level": 2
+    },
+    {
+      "headword": "zoo",
+      "partOfSpeech": "noun",
+      "phonetic": "/zuː/",
+      "meaning": "動物園",
+      "exampleEn": "We saw many animals at the zoo.",
+      "exampleJa": "私たちは動物園でたくさんの動物を見ました。",
+      "level": 1
+    },
+    {
+      "headword": "aquarium",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkweriəm/",
+      "meaning": "水族館",
+      "exampleEn": "I want to visit the aquarium soon.",
+      "exampleJa": "私はもうすぐ水族館を訪れたいです。",
+      "level": 2
+    },
+    {
+      "headword": "amusement park",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "遊園地",
+      "exampleEn": "We really enjoyed the amusement park.",
+      "exampleJa": "私たちは遊園地をとても楽しみました。",
+      "level": 1
+    },
+    {
+      "headword": "bookstore",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʊkstɔːr/",
+      "meaning": "書店；本屋",
+      "exampleEn": "This bookstore is close to the station.",
+      "exampleJa": "この書店は駅の近くにあります。",
+      "level": 2
+    },
+    {
+      "headword": "bakery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪkəri/",
+      "meaning": "パン屋",
+      "exampleEn": "The bakery smells like fresh bread.",
+      "exampleJa": "そのパン屋は焼きたてのパンのような匂いがします。",
+      "level": 2
+    },
+    {
+      "headword": "police station",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "警察署",
+      "exampleEn": "He found his bag at the police station.",
+      "exampleJa": "彼は警察署で自分のかばんを見つけました。",
+      "level": 1
+    },
+    {
+      "headword": "fire station",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "消防署",
+      "exampleEn": "My uncle works at the fire station.",
+      "exampleJa": "おじは消防署で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "gas station",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ガソリンスタンド",
+      "exampleEn": "We should stop at the gas station.",
+      "exampleJa": "ガソリンスタンドに寄りましょう。",
+      "level": 2
+    },
+    {
+      "headword": "parking lot",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "駐車場",
+      "exampleEn": "Our car is in the parking lot.",
+      "exampleJa": "私たちの車は駐車場にあります。",
+      "level": 2
+    },
+    {
+      "headword": "office",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːfɪs/",
+      "meaning": "事務所；会社",
+      "exampleEn": "My father goes to the office by train.",
+      "exampleJa": "父は電車で会社に行きます。",
+      "level": 2
+    },
+    {
+      "headword": "apartment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɑːrtmənt/",
+      "meaning": "アパート；マンション",
+      "exampleEn": "They live in an apartment close to the station.",
+      "exampleJa": "彼らは駅の近くのアパートに住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "elevator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈelɪveɪtər/",
+      "meaning": "エレベーター",
+      "exampleEn": "We can take the elevator here.",
+      "exampleJa": "私たちはここでエレベーターに乗れます。",
+      "level": 2
+    },
+    {
+      "headword": "escalator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeskəleɪtər/",
+      "meaning": "エスカレーター",
+      "exampleEn": "The escalator was very crowded today.",
+      "exampleJa": "今日はエスカレーターがとても混雑していました。",
+      "level": 2
+    },
+    {
+      "headword": "train",
+      "partOfSpeech": "noun",
+      "phonetic": "/treɪn/",
+      "meaning": "電車",
+      "exampleEn": "I go to work by train.",
+      "exampleJa": "私は電車で仕事に行きます。",
+      "level": 1
+    },
+    {
+      "headword": "bus",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʌs/",
+      "meaning": "バス",
+      "exampleEn": "We took a bus to the museum.",
+      "exampleJa": "私たちはバスで博物館に行きました。",
+      "level": 1
+    },
+    {
+      "headword": "car",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɑːr/",
+      "meaning": "車",
+      "exampleEn": "My father owns a car.",
+      "exampleJa": "父は車を持っています。",
+      "level": 1
+    },
+    {
+      "headword": "taxi",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtæksi/",
+      "meaning": "タクシー",
+      "exampleEn": "We should take a taxi to the hotel.",
+      "exampleJa": "ホテルまでタクシーに乗りましょう。",
+      "level": 2
+    },
+    {
+      "headword": "bike",
+      "partOfSpeech": "noun",
+      "phonetic": "/baɪk/",
+      "meaning": "自転車",
+      "exampleEn": "I ride my bike around town.",
+      "exampleJa": "私は町の中を自転車で走ります。",
+      "level": 1
+    },
+    {
+      "headword": "bicycle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaɪsɪkl/",
+      "meaning": "自転車",
+      "exampleEn": "She bought a bicycle at the store.",
+      "exampleJa": "彼女はその店で自転車を買いました。",
+      "level": 1
+    },
+    {
+      "headword": "plane",
+      "partOfSpeech": "noun",
+      "phonetic": "/pleɪn/",
+      "meaning": "飛行機",
+      "exampleEn": "We flew to Okinawa by plane.",
+      "exampleJa": "私たちは飛行機で沖縄に行きました。",
+      "level": 2
+    },
+    {
+      "headword": "airplane",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeərpleɪn/",
+      "meaning": "飛行機",
+      "exampleEn": "The airplane landed at the airport.",
+      "exampleJa": "飛行機は空港に着陸しました。",
+      "level": 2
+    },
+    {
+      "headword": "ship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃɪp/",
+      "meaning": "船",
+      "exampleEn": "This ship goes to the port.",
+      "exampleJa": "この船は港へ行きます。",
+      "level": 2
+    },
+    {
+      "headword": "boat",
+      "partOfSpeech": "noun",
+      "phonetic": "/boʊt/",
+      "meaning": "ボート；小型船",
+      "exampleEn": "We rode a boat with our family.",
+      "exampleJa": "私たちは家族でボートに乗りました。",
+      "level": 2
+    },
+    {
+      "headword": "subway",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbweɪ/",
+      "meaning": "地下鉄",
+      "exampleEn": "Many people use the subway today.",
+      "exampleJa": "今日は多くの人が地下鉄を使います。",
+      "level": 2
+    },
+    {
+      "headword": "ticket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "切符；チケット",
+      "exampleEn": "I bought a ticket at the station.",
+      "exampleJa": "私は駅で切符を買いました。",
+      "level": 1
+    },
+    {
+      "headword": "passenger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæsɪndʒər/",
+      "meaning": "乗客",
+      "exampleEn": "Many passengers were waiting for the train.",
+      "exampleJa": "多くの乗客が電車を待っていました。",
+      "level": 3
+    },
+    {
+      "headword": "traffic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtræfɪk/",
+      "meaning": "交通；交通量",
+      "exampleEn": "This road is busy with traffic.",
+      "exampleJa": "この道路は交通量が多いです。",
+      "level": 2
+    },
+    {
+      "headword": "signal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪɡnəl/",
+      "meaning": "信号",
+      "exampleEn": "Stop your bike at the signal.",
+      "exampleJa": "信号のところで自転車を止めなさい。",
+      "level": 1
+    },
+    {
+      "headword": "accident",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæksɪdənt/",
+      "meaning": "事故",
+      "exampleEn": "There was a car accident by the station.",
+      "exampleJa": "駅のそばで自動車事故がありました。",
+      "level": 2
+    },
+    {
+      "headword": "platform",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplætfɔːrm/",
+      "meaning": "（駅の）ホーム",
+      "exampleEn": "The train left from this platform.",
+      "exampleJa": "電車はこのホームから出発しました。",
+      "level": 3
+    },
+    {
+      "headword": "vehicle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈviːɪkl/",
+      "meaning": "乗り物；車両",
+      "exampleEn": "This road is closed to vehicles.",
+      "exampleJa": "この道路は車両通行止めです。",
+      "level": 3
+    },
+    {
+      "headword": "fare",
+      "partOfSpeech": "noun",
+      "phonetic": "/fer/",
+      "meaning": "運賃",
+      "exampleEn": "How much is the train fare?",
+      "exampleJa": "電車の運賃はいくらですか。",
+      "level": 3
+    },
+    {
+      "headword": "traffic jam",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "交通渋滞",
+      "exampleEn": "We were stuck in a traffic jam.",
+      "exampleJa": "私たちは交通渋滞にはまりました。",
+      "level": 2
+    },
+    {
+      "headword": "port",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɔːrt/",
+      "meaning": "港",
+      "exampleEn": "Many ships come to this port.",
+      "exampleJa": "たくさんの船がこの港に来ます。",
+      "level": 2
+    },
+    {
+      "headword": "shopping",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɑːpɪŋ/",
+      "meaning": "買い物",
+      "exampleEn": "We went shopping with our mother.",
+      "exampleJa": "私たちは母と買い物に行きました。",
+      "level": 1
+    },
+    {
+      "headword": "price",
+      "partOfSpeech": "noun",
+      "phonetic": "/praɪs/",
+      "meaning": "値段；価格",
+      "exampleEn": "I don't know the price of this bag.",
+      "exampleJa": "私はこのかばんの値段を知りません。",
+      "level": 1
+    },
+    {
+      "headword": "sale",
+      "partOfSpeech": "noun",
+      "phonetic": "/seɪl/",
+      "meaning": "セール；安売り",
+      "exampleEn": "This shirt is on sale today.",
+      "exampleJa": "このシャツは今日セール中です。",
+      "level": 2
+    },
+    {
+      "headword": "discount",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "meaning": "割引",
+      "exampleEn": "Students get a discount at this shop.",
+      "exampleJa": "学生はこの店で割引を受けられます。",
+      "level": 3
+    },
+    {
+      "headword": "receipt",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsiːt/",
+      "meaning": "レシート；領収書",
+      "exampleEn": "Please keep your receipt after paying.",
+      "exampleJa": "支払い後はレシートを保管してください。",
+      "level": 3
+    },
+    {
+      "headword": "product",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːdʌkt/",
+      "meaning": "製品；商品",
+      "exampleEn": "This shop sells only Japanese products.",
+      "exampleJa": "この店は日本製品だけを売っています。",
+      "level": 2
+    },
+    {
+      "headword": "goods",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡʊdz/",
+      "meaning": "商品",
+      "exampleEn": "This shop sells cheap goods.",
+      "exampleJa": "この店は安い商品を売っています。",
+      "level": 2
+    },
+    {
+      "headword": "convenience store",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "コンビニ",
+      "exampleEn": "I bought lunch at a convenience store.",
+      "exampleJa": "私はコンビニで昼食を買いました。",
+      "level": 1
+    },
+    {
+      "headword": "gift shop",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "土産物店",
+      "exampleEn": "We found a gift shop by the station.",
+      "exampleJa": "私たちは駅のそばで土産物店を見つけました。",
+      "level": 1
+    },
+    {
+      "headword": "souvenir",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsuːvəˈnɪr/",
+      "meaning": "お土産",
+      "exampleEn": "I bought a souvenir for my family.",
+      "exampleJa": "私は家族にお土産を買いました。",
+      "level": 2
+    },
+    {
+      "headword": "money",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌni/",
+      "meaning": "お金",
+      "exampleEn": "I don't have much money today.",
+      "exampleJa": "今日はあまりお金を持っていません。",
+      "level": 1
+    },
+    {
+      "headword": "yen",
+      "partOfSpeech": "noun",
+      "phonetic": "/jen/",
+      "meaning": "円（日本のお金）",
+      "exampleEn": "I paid in yen at the shop.",
+      "exampleJa": "私はその店で円で支払いました。",
+      "level": 1
+    },
+    {
+      "headword": "dollar",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɑːlər/",
+      "meaning": "ドル",
+      "exampleEn": "I have only a few dollars.",
+      "exampleJa": "私は数ドルしか持っていません。",
+      "level": 2
+    },
+    {
+      "headword": "cent",
+      "partOfSpeech": "noun",
+      "phonetic": "/sent/",
+      "meaning": "セント",
+      "exampleEn": "I don't have any cents left.",
+      "exampleJa": "私にはセントが1枚も残っていません。",
+      "level": 2
+    },
+    {
+      "headword": "coin",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔɪn/",
+      "meaning": "硬貨；コイン",
+      "exampleEn": "I found a coin on the road.",
+      "exampleJa": "私は道でコインを見つけました。",
+      "level": 2
+    },
+    {
+      "headword": "bill",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪl/",
+      "meaning": "勘定書き；紙幣",
+      "exampleEn": "He paid the bill at the restaurant.",
+      "exampleJa": "彼はレストランで勘定を払いました。",
+      "level": 3
+    },
+    {
+      "headword": "cash",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæʃ/",
+      "meaning": "現金",
+      "exampleEn": "Do you have any cash with you?",
+      "exampleJa": "現金を持っていますか。",
+      "level": 2
+    },
+    {
+      "headword": "card",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɑːrd/",
+      "meaning": "カード",
+      "exampleEn": "My mother paid by card.",
+      "exampleJa": "母はカードで支払いました。",
+      "level": 1
+    },
+    {
+      "headword": "change",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃeɪndʒ/",
+      "meaning": "おつり",
+      "exampleEn": "Please keep the change.",
+      "exampleJa": "おつりは取っておいてください。",
+      "level": 2
+    },
+    {
+      "headword": "crowded",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkraʊdɪd/",
+      "meaning": "混雑した",
+      "exampleEn": "The train was very crowded today.",
+      "exampleJa": "今日は電車がとても混雑していました。",
+      "level": 2
+    },
+    {
+      "headword": "convenient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈviːniənt/",
+      "meaning": "便利な",
+      "exampleEn": "This station is very convenient for shopping.",
+      "exampleJa": "この駅は買い物にとても便利です。",
+      "level": 2
+    },
+    {
+      "headword": "public",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpʌblɪk/",
+      "meaning": "公共の",
+      "exampleEn": "This is a public library in our town.",
+      "exampleJa": "これは私たちの町の公共図書館です。",
+      "level": 2
+    },
+    {
+      "headword": "cheap",
+      "partOfSpeech": "adjective",
+      "phonetic": "/tʃiːp/",
+      "meaning": "安い",
+      "exampleEn": "This market sells cheap vegetables.",
+      "exampleJa": "この市場は安い野菜を売っています。",
+      "level": 1
+    },
+    {
+      "headword": "free",
+      "partOfSpeech": "adjective",
+      "phonetic": "/friː/",
+      "meaning": "無料の",
+      "exampleEn": "This museum is free for students.",
+      "exampleJa": "この博物館は学生には無料です。",
+      "level": 2
+    },
+    {
+      "headword": "local",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈloʊkl/",
+      "meaning": "地元の",
+      "exampleEn": "We ate at a local restaurant.",
+      "exampleJa": "私たちは地元のレストランで食事をしました。",
+      "level": 2
+    }
+  ]
+}

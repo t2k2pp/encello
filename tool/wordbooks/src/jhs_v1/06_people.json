@@ -1,0 +1,861 @@
+{
+  "chunk": "06_people",
+  "note": "家族・人・職業・人間関係",
+  "words": [
+    {
+      "headword": "family",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæməli/",
+      "meaning": "家族",
+      "exampleEn": "I have a large family.",
+      "exampleJa": "私は大家族です。",
+      "level": 1
+    },
+    {
+      "headword": "father",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːðər/",
+      "meaning": "父；父親",
+      "exampleEn": "My father works at a bank.",
+      "exampleJa": "父は銀行で働いています。",
+      "level": 1
+    },
+    {
+      "headword": "mother",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌðər/",
+      "meaning": "母；母親",
+      "exampleEn": "My mother makes great curry.",
+      "exampleJa": "母はおいしいカレーを作ります。",
+      "level": 1
+    },
+    {
+      "headword": "brother",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbrʌðər/",
+      "meaning": "兄；弟",
+      "exampleEn": "I have an older brother.",
+      "exampleJa": "私には兄がいます。",
+      "level": 1
+    },
+    {
+      "headword": "sister",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪstər/",
+      "meaning": "姉；妹",
+      "exampleEn": "My sister plays the piano well.",
+      "exampleJa": "姉はピアノが上手です。",
+      "level": 1
+    },
+    {
+      "headword": "parent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈperənt/",
+      "meaning": "親",
+      "exampleEn": "Each parent signed the letter.",
+      "exampleJa": "それぞれの親がその手紙にサインしました。",
+      "level": 2
+    },
+    {
+      "headword": "grandmother",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrænmʌðər/",
+      "meaning": "祖母",
+      "exampleEn": "My grandmother lives in Kyoto.",
+      "exampleJa": "祖母は京都に住んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "grandfather",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrænfɑːðər/",
+      "meaning": "祖父",
+      "exampleEn": "My grandfather tells funny stories.",
+      "exampleJa": "祖父はおもしろい話をしてくれます。",
+      "level": 1
+    },
+    {
+      "headword": "grandparent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrænperənt/",
+      "meaning": "祖父母",
+      "exampleEn": "I visit my grandparents every summer.",
+      "exampleJa": "私は毎年夏に祖父母を訪ねます。",
+      "level": 2
+    },
+    {
+      "headword": "uncle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʌŋkl/",
+      "meaning": "おじ",
+      "exampleEn": "My uncle gave me a watch.",
+      "exampleJa": "おじが私に時計をくれました。",
+      "level": 1
+    },
+    {
+      "headword": "aunt",
+      "partOfSpeech": "noun",
+      "phonetic": "/ænt/",
+      "meaning": "おば",
+      "exampleEn": "My aunt sent me a letter.",
+      "exampleJa": "おばが私に手紙を送ってくれました。",
+      "level": 1
+    },
+    {
+      "headword": "cousin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌzn/",
+      "meaning": "いとこ",
+      "exampleEn": "My cousin is the same age.",
+      "exampleJa": "いとこは私と同い年です。",
+      "level": 2
+    },
+    {
+      "headword": "child",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃaɪld/",
+      "meaning": "子ども",
+      "exampleEn": "Every child needs love and care.",
+      "exampleJa": "すべての子どもに愛情と世話が必要です。",
+      "level": 1
+    },
+    {
+      "headword": "baby",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪbi/",
+      "meaning": "赤ちゃん",
+      "exampleEn": "The baby is sleeping now.",
+      "exampleJa": "赤ちゃんは今眠っています。",
+      "level": 1
+    },
+    {
+      "headword": "husband",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhʌzbənd/",
+      "meaning": "夫",
+      "exampleEn": "Her husband cooks dinner every night.",
+      "exampleJa": "彼女の夫は毎晩夕食を作ります。",
+      "level": 2
+    },
+    {
+      "headword": "wife",
+      "partOfSpeech": "noun",
+      "phonetic": "/waɪf/",
+      "meaning": "妻",
+      "exampleEn": "His wife works as a doctor.",
+      "exampleJa": "彼の妻は医者として働いています。",
+      "level": 2
+    },
+    {
+      "headword": "son",
+      "partOfSpeech": "noun",
+      "phonetic": "/sʌn/",
+      "meaning": "息子",
+      "exampleEn": "Their son wants to be a pilot.",
+      "exampleJa": "彼らの息子はパイロットになりたがっています。",
+      "level": 1
+    },
+    {
+      "headword": "daughter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɔːtər/",
+      "meaning": "娘",
+      "exampleEn": "Their daughter studies art at college.",
+      "exampleJa": "彼らの娘は大学で美術を学んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "relative",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrelətɪv/",
+      "meaning": "親戚",
+      "exampleEn": "Many relatives visited us last month.",
+      "exampleJa": "先月多くの親戚が私たちを訪ねてきました。",
+      "level": 3
+    },
+    {
+      "headword": "twin",
+      "partOfSpeech": "noun",
+      "phonetic": "/twɪn/",
+      "meaning": "双子",
+      "exampleEn": "My twin brother looks just like me.",
+      "exampleJa": "双子の弟は私にそっくりです。",
+      "level": 2
+    },
+    {
+      "headword": "niece",
+      "partOfSpeech": "noun",
+      "phonetic": "/niːs/",
+      "meaning": "めい",
+      "exampleEn": "My niece started elementary school this year.",
+      "exampleJa": "めいは今年小学校に入学しました。",
+      "level": 3
+    },
+    {
+      "headword": "nephew",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnefjuː/",
+      "meaning": "おい",
+      "exampleEn": "My nephew is learning to swim.",
+      "exampleJa": "おいは泳ぎ方を習っています。",
+      "level": 3
+    },
+    {
+      "headword": "only child",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "一人っ子",
+      "exampleEn": "I am an only child.",
+      "exampleJa": "私は一人っ子です。",
+      "level": 2
+    },
+    {
+      "headword": "generation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "meaning": "世代",
+      "exampleEn": "Three generations live in this house.",
+      "exampleJa": "この家には3世代が住んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "man",
+      "partOfSpeech": "noun",
+      "phonetic": "/mæn/",
+      "meaning": "男の人；男性",
+      "exampleEn": "That man is my math teacher.",
+      "exampleJa": "あの男の人は私の数学の先生です。",
+      "level": 1
+    },
+    {
+      "headword": "woman",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwʊmən/",
+      "meaning": "女の人；女性",
+      "exampleEn": "The woman next to me is kind.",
+      "exampleJa": "私の隣の女の人は親切です。",
+      "level": 1
+    },
+    {
+      "headword": "boy",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɔɪ/",
+      "meaning": "男の子",
+      "exampleEn": "The boy is reading a comic book.",
+      "exampleJa": "その男の子は漫画を読んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "girl",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡɜːrl/",
+      "meaning": "女の子",
+      "exampleEn": "The girl next door is my classmate.",
+      "exampleJa": "隣の女の子は私のクラスメートです。",
+      "level": 1
+    },
+    {
+      "headword": "people",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpiːpl/",
+      "meaning": "人々",
+      "exampleEn": "Many people visit this park.",
+      "exampleJa": "多くの人がこの公園を訪れます。",
+      "level": 1
+    },
+    {
+      "headword": "person",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɜːrsn/",
+      "meaning": "人",
+      "exampleEn": "She is an important person to me.",
+      "exampleJa": "彼女は私にとって大切な人です。",
+      "level": 2
+    },
+    {
+      "headword": "adult",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈdʌlt/",
+      "meaning": "大人",
+      "exampleEn": "This movie is only for adults.",
+      "exampleJa": "この映画は大人だけのものです。",
+      "level": 2
+    },
+    {
+      "headword": "teenager",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtiːneɪdʒər/",
+      "meaning": "十代の若者",
+      "exampleEn": "Many teenagers use this app.",
+      "exampleJa": "多くの十代の若者がこのアプリを使います。",
+      "level": 2
+    },
+    {
+      "headword": "kid",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɪd/",
+      "meaning": "子ども",
+      "exampleEn": "The kids played in the park all day.",
+      "exampleJa": "子どもたちは一日中公園で遊びました。",
+      "level": 1
+    },
+    {
+      "headword": "neighbor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪbər/",
+      "meaning": "近所の人；隣人",
+      "exampleEn": "Our neighbor is a friendly person.",
+      "exampleJa": "私たちの隣人は親しみやすい人です。",
+      "level": 2
+    },
+    {
+      "headword": "stranger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstreɪndʒər/",
+      "meaning": "見知らぬ人",
+      "exampleEn": "Don't talk to strangers on the street.",
+      "exampleJa": "道で見知らぬ人と話してはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "guest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡest/",
+      "meaning": "客",
+      "exampleEn": "We welcomed many guests today.",
+      "exampleJa": "私たちは今日多くのお客さんを迎えました。",
+      "level": 2
+    },
+    {
+      "headword": "owner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊnər/",
+      "meaning": "持ち主；オーナー",
+      "exampleEn": "The dog's owner called its name.",
+      "exampleJa": "犬の飼い主がその名前を呼びました。",
+      "level": 2
+    },
+    {
+      "headword": "visitor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪzɪtər/",
+      "meaning": "訪問者；観光客",
+      "exampleEn": "This temple gets many visitors every year.",
+      "exampleJa": "このお寺は毎年多くの訪問者を迎えます。",
+      "level": 2
+    },
+    {
+      "headword": "citizen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪtəzn/",
+      "meaning": "市民",
+      "exampleEn": "We should act as good citizens.",
+      "exampleJa": "私たちは良き市民として行動すべきです。",
+      "level": 3
+    },
+    {
+      "headword": "foreigner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrənər/",
+      "meaning": "外国人",
+      "exampleEn": "Many foreigners enjoy Japanese food.",
+      "exampleJa": "多くの外国人が和食を楽しみます。",
+      "level": 2
+    },
+    {
+      "headword": "customer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌstəmər/",
+      "meaning": "客；顧客",
+      "exampleEn": "The shop was full of customers today.",
+      "exampleJa": "その店は今日お客さんでいっぱいでした。",
+      "level": 2
+    },
+    {
+      "headword": "audience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːdiəns/",
+      "meaning": "聴衆；観客",
+      "exampleEn": "The audience clapped after the speech.",
+      "exampleJa": "聴衆はスピーチの後拍手しました。",
+      "level": 3
+    },
+    {
+      "headword": "crowd",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraʊd/",
+      "meaning": "群衆；人ごみ",
+      "exampleEn": "A large crowd gathered at the station.",
+      "exampleJa": "大勢の人が駅に集まりました。",
+      "level": 3
+    },
+    {
+      "headword": "leader",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈliːdər/",
+      "meaning": "リーダー；指導者",
+      "exampleEn": "She is a good leader of our class.",
+      "exampleJa": "彼女は私たちのクラスの良いリーダーです。",
+      "level": 2
+    },
+    {
+      "headword": "doctor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɑːktər/",
+      "meaning": "医者",
+      "exampleEn": "The doctor checked my throat carefully.",
+      "exampleJa": "医者は私ののどを注意深く診てくれました。",
+      "level": 1
+    },
+    {
+      "headword": "nurse",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɜːrs/",
+      "meaning": "看護師",
+      "exampleEn": "The nurse took care of the patient.",
+      "exampleJa": "看護師はその患者の世話をしました。",
+      "level": 1
+    },
+    {
+      "headword": "farmer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːrmər/",
+      "meaning": "農家；農場主",
+      "exampleEn": "The farmer grows rice in this field.",
+      "exampleJa": "その農家はこの田んぼで米を育てています。",
+      "level": 1
+    },
+    {
+      "headword": "police officer",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "警察官",
+      "exampleEn": "The police officer helped us find the way.",
+      "exampleJa": "警察官が道を見つけるのを手伝ってくれました。",
+      "level": 1
+    },
+    {
+      "headword": "driver",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdraɪvər/",
+      "meaning": "運転手",
+      "exampleEn": "The bus driver stopped at every station.",
+      "exampleJa": "バスの運転手は各駅で止まりました。",
+      "level": 2
+    },
+    {
+      "headword": "singer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪŋər/",
+      "meaning": "歌手",
+      "exampleEn": "My favorite singer wrote a new song.",
+      "exampleJa": "私の好きな歌手が新しい曲を作りました。",
+      "level": 1
+    },
+    {
+      "headword": "writer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈraɪtər/",
+      "meaning": "作家",
+      "exampleEn": "This writer is famous around the world.",
+      "exampleJa": "この作家は世界中で有名です。",
+      "level": 2
+    },
+    {
+      "headword": "artist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrtɪst/",
+      "meaning": "芸術家；アーティスト",
+      "exampleEn": "The artist painted a beautiful picture.",
+      "exampleJa": "その芸術家は美しい絵を描きました。",
+      "level": 2
+    },
+    {
+      "headword": "engineer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌendʒɪˈnɪr/",
+      "meaning": "技師；エンジニア",
+      "exampleEn": "My father works as an engineer.",
+      "exampleJa": "父は技師として働いています。",
+      "level": 2
+    },
+    {
+      "headword": "pilot",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpaɪlət/",
+      "meaning": "パイロット",
+      "exampleEn": "The pilot landed the plane safely.",
+      "exampleJa": "パイロットは飛行機を無事に着陸させました。",
+      "level": 2
+    },
+    {
+      "headword": "cook",
+      "partOfSpeech": "noun",
+      "phonetic": "/kʊk/",
+      "meaning": "コック；料理人",
+      "exampleEn": "The cook made a delicious soup.",
+      "exampleJa": "そのコックはおいしいスープを作りました。",
+      "level": 1
+    },
+    {
+      "headword": "clerk",
+      "partOfSpeech": "noun",
+      "phonetic": "/klɜːrk/",
+      "meaning": "店員；事務員",
+      "exampleEn": "The clerk helped me find the shoes.",
+      "exampleJa": "店員が私の靴探しを手伝ってくれました。",
+      "level": 2
+    },
+    {
+      "headword": "scientist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪəntɪst/",
+      "meaning": "科学者",
+      "exampleEn": "The scientist studies stars and space.",
+      "exampleJa": "その科学者は星や宇宙を研究しています。",
+      "level": 2
+    },
+    {
+      "headword": "dentist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdentɪst/",
+      "meaning": "歯医者",
+      "exampleEn": "I visited the dentist last Monday.",
+      "exampleJa": "先週の月曜日に歯医者に行きました。",
+      "level": 2
+    },
+    {
+      "headword": "vet",
+      "partOfSpeech": "noun",
+      "phonetic": "/vet/",
+      "meaning": "獣医",
+      "exampleEn": "The vet took care of my sick cat.",
+      "exampleJa": "獣医が病気の私の猫を診てくれました。",
+      "level": 2
+    },
+    {
+      "headword": "astronaut",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæstrənɔːt/",
+      "meaning": "宇宙飛行士",
+      "exampleEn": "She dreams of becoming an astronaut.",
+      "exampleJa": "彼女は宇宙飛行士になることを夢見ています。",
+      "level": 2
+    },
+    {
+      "headword": "firefighter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfaɪərfaɪtər/",
+      "meaning": "消防士",
+      "exampleEn": "The firefighter saved the cat from the fire.",
+      "exampleJa": "消防士は火事から猫を救い出しました。",
+      "level": 2
+    },
+    {
+      "headword": "fisherman",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɪʃərmən/",
+      "meaning": "漁師",
+      "exampleEn": "The fisherman caught many fish today.",
+      "exampleJa": "その漁師は今日たくさんの魚を釣りました。",
+      "level": 2
+    },
+    {
+      "headword": "baker",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪkər/",
+      "meaning": "パン職人",
+      "exampleEn": "The baker makes fresh bread every morning.",
+      "exampleJa": "そのパン職人は毎朝新鮮なパンを作ります。",
+      "level": 2
+    },
+    {
+      "headword": "chef",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃef/",
+      "meaning": "シェフ；料理長",
+      "exampleEn": "The chef made a new dish for us.",
+      "exampleJa": "シェフは私たちに新しい料理を作ってくれました。",
+      "level": 2
+    },
+    {
+      "headword": "actor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæktər/",
+      "meaning": "俳優",
+      "exampleEn": "The actor practiced his speech every day.",
+      "exampleJa": "その俳優は毎日せりふを練習しました。",
+      "level": 2
+    },
+    {
+      "headword": "musician",
+      "partOfSpeech": "noun",
+      "phonetic": "/mjuˈzɪʃn/",
+      "meaning": "音楽家；ミュージシャン",
+      "exampleEn": "The musician played the guitar well.",
+      "exampleJa": "その音楽家は上手にギターを演奏しました。",
+      "level": 2
+    },
+    {
+      "headword": "athlete",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæθliːt/",
+      "meaning": "運動選手；アスリート",
+      "exampleEn": "Every athlete trains hard for the games.",
+      "exampleJa": "すべての選手が大会に向けて猛練習します。",
+      "level": 2
+    },
+    {
+      "headword": "worker",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːrkər/",
+      "meaning": "労働者；働く人",
+      "exampleEn": "Many workers left the factory at five.",
+      "exampleJa": "多くの労働者が5時に工場を出ました。",
+      "level": 2
+    },
+    {
+      "headword": "staff",
+      "partOfSpeech": "noun",
+      "phonetic": "/stæf/",
+      "meaning": "職員；スタッフ",
+      "exampleEn": "The staff welcomed us with a smile.",
+      "exampleJa": "スタッフは笑顔で私たちを迎えてくれました。",
+      "level": 2
+    },
+    {
+      "headword": "lawyer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɔɪər/",
+      "meaning": "弁護士",
+      "exampleEn": "She wants to become a lawyer.",
+      "exampleJa": "彼女は弁護士になりたいと思っています。",
+      "level": 2
+    },
+    {
+      "headword": "programmer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊɡræmər/",
+      "meaning": "プログラマー",
+      "exampleEn": "My brother works as a programmer.",
+      "exampleJa": "兄はプログラマーとして働いています。",
+      "level": 3
+    },
+    {
+      "headword": "designer",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈzaɪnər/",
+      "meaning": "デザイナー",
+      "exampleEn": "The designer made a new bag.",
+      "exampleJa": "そのデザイナーは新しいかばんを作りました。",
+      "level": 3
+    },
+    {
+      "headword": "interpreter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈtɜːrprətər/",
+      "meaning": "通訳者",
+      "exampleEn": "The interpreter helped the two leaders talk.",
+      "exampleJa": "通訳者は2人の指導者の対話を助けました。",
+      "level": 3
+    },
+    {
+      "headword": "assistant",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsɪstənt/",
+      "meaning": "助手；アシスタント",
+      "exampleEn": "The teacher's assistant helped us with the test.",
+      "exampleJa": "先生の助手はテストを手伝ってくれました。",
+      "level": 3
+    },
+    {
+      "headword": "manager",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænɪdʒər/",
+      "meaning": "マネージャー；店長",
+      "exampleEn": "The store manager checked all the shelves.",
+      "exampleJa": "店長はすべての棚を確認しました。",
+      "level": 2
+    },
+    {
+      "headword": "president",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprezɪdənt/",
+      "meaning": "大統領；社長",
+      "exampleEn": "The president spoke to the students.",
+      "exampleJa": "大統領は生徒たちに話しかけました。",
+      "level": 3
+    },
+    {
+      "headword": "boss",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɔːs/",
+      "meaning": "上司；ボス",
+      "exampleEn": "My boss praised our team's work.",
+      "exampleJa": "上司は私たちのチームの仕事をほめてくれました。",
+      "level": 2
+    },
+    {
+      "headword": "friend",
+      "partOfSpeech": "noun",
+      "phonetic": "/frend/",
+      "meaning": "友達",
+      "exampleEn": "She is my best friend at school.",
+      "exampleJa": "彼女は学校での親友です。",
+      "level": 1
+    },
+    {
+      "headword": "friendship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfrendʃɪp/",
+      "meaning": "友情",
+      "exampleEn": "Our friendship has continued for ten years.",
+      "exampleJa": "私たちの友情は10年続いています。",
+      "level": 2
+    },
+    {
+      "headword": "partner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrtnər/",
+      "meaning": "相手；パートナー",
+      "exampleEn": "Choose a partner for this activity.",
+      "exampleJa": "この活動の相手を選んでください。",
+      "level": 2
+    },
+    {
+      "headword": "couple",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌpl/",
+      "meaning": "夫婦；カップル",
+      "exampleEn": "That couple got married last spring.",
+      "exampleJa": "あの夫婦は去年の春結婚しました。",
+      "level": 2
+    },
+    {
+      "headword": "relationship",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈleɪʃnʃɪp/",
+      "meaning": "関係",
+      "exampleEn": "We have a good relationship with our neighbors.",
+      "exampleJa": "私たちは近所の人たちと良い関係にあります。",
+      "level": 3
+    },
+    {
+      "headword": "teammate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtiːmmeɪt/",
+      "meaning": "チームメート",
+      "exampleEn": "My teammate passed me the ball.",
+      "exampleJa": "チームメートが私にボールをパスしました。",
+      "level": 2
+    },
+    {
+      "headword": "pen pal",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ペンフレンド",
+      "exampleEn": "I write letters to my pen pal.",
+      "exampleJa": "私はペンフレンドに手紙を書きます。",
+      "level": 2
+    },
+    {
+      "headword": "host family",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ホストファミリー",
+      "exampleEn": "I stayed with a host family in America.",
+      "exampleJa": "私はアメリカでホストファミリーの家に滞在しました。",
+      "level": 3
+    },
+    {
+      "headword": "exchange student",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "交換留学生",
+      "exampleEn": "An exchange student joined our class this year.",
+      "exampleJa": "今年、交換留学生が私たちのクラスに加わりました。",
+      "level": 3
+    },
+    {
+      "headword": "name",
+      "partOfSpeech": "noun",
+      "phonetic": "/neɪm/",
+      "meaning": "名前",
+      "exampleEn": "Please write your name here.",
+      "exampleJa": "ここに名前を書いてください。",
+      "level": 1
+    },
+    {
+      "headword": "age",
+      "partOfSpeech": "noun",
+      "phonetic": "/eɪdʒ/",
+      "meaning": "年齢",
+      "exampleEn": "May I ask your age?",
+      "exampleJa": "年齢を聞いてもいいですか。",
+      "level": 1
+    },
+    {
+      "headword": "birthday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɜːrθdeɪ/",
+      "meaning": "誕生日",
+      "exampleEn": "My birthday is in April.",
+      "exampleJa": "私の誕生日は4月です。",
+      "level": 1
+    },
+    {
+      "headword": "gender",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒendər/",
+      "meaning": "性別",
+      "exampleEn": "This form does not ask about gender.",
+      "exampleJa": "この用紙は性別を尋ねません。",
+      "level": 3
+    },
+    {
+      "headword": "nickname",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnɪkneɪm/",
+      "meaning": "あだ名；ニックネーム",
+      "exampleEn": "His nickname is Ken among friends.",
+      "exampleJa": "友達の間で彼のあだ名はケンです。",
+      "level": 2
+    },
+    {
+      "headword": "young",
+      "partOfSpeech": "adjective",
+      "phonetic": "/jʌŋ/",
+      "meaning": "若い",
+      "exampleEn": "My uncle looks very young.",
+      "exampleJa": "私のおじはとても若く見えます。",
+      "level": 1
+    },
+    {
+      "headword": "old",
+      "partOfSpeech": "adjective",
+      "phonetic": "/oʊld/",
+      "meaning": "年をとった；高齢の",
+      "exampleEn": "My grandmother is eighty years old.",
+      "exampleJa": "祖母は80歳です。",
+      "level": 1
+    },
+    {
+      "headword": "alone",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈloʊn/",
+      "meaning": "ひとりで",
+      "exampleEn": "I don't like staying home alone.",
+      "exampleJa": "私は一人で家にいるのが好きではありません。",
+      "level": 2
+    },
+    {
+      "headword": "married",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmærid/",
+      "meaning": "結婚している",
+      "exampleEn": "My sister got married last month.",
+      "exampleJa": "姉は先月結婚しました。",
+      "level": 2
+    }
+  ]
+}

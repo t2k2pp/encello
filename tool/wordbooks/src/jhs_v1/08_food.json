@@ -1,0 +1,861 @@
+{
+  "chunk": "08_food",
+  "note": "食べ物・料理・飲み物",
+  "words": [
+    {
+      "headword": "meal",
+      "partOfSpeech": "noun",
+      "phonetic": "/miːl/",
+      "meaning": "食事",
+      "exampleEn": "This meal is very delicious today.",
+      "exampleJa": "この食事は今日とてもおいしいです。",
+      "level": 1
+    },
+    {
+      "headword": "breakfast",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbrekfəst/",
+      "meaning": "朝食",
+      "exampleEn": "I always eat breakfast at seven.",
+      "exampleJa": "私はいつも7時に朝食を食べます。",
+      "level": 1
+    },
+    {
+      "headword": "lunch",
+      "partOfSpeech": "noun",
+      "phonetic": "/lʌntʃ/",
+      "meaning": "昼食",
+      "exampleEn": "We have lunch together at school.",
+      "exampleJa": "私たちは学校で一緒に昼食を食べます。",
+      "level": 1
+    },
+    {
+      "headword": "dinner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪnər/",
+      "meaning": "夕食",
+      "exampleEn": "My family eats dinner at seven.",
+      "exampleJa": "私の家族は7時に夕食を食べます。",
+      "level": 1
+    },
+    {
+      "headword": "snack",
+      "partOfSpeech": "noun",
+      "phonetic": "/snæk/",
+      "meaning": "軽食；おやつ",
+      "exampleEn": "I had a snack after school.",
+      "exampleJa": "放課後におやつを食べました。",
+      "level": 2
+    },
+    {
+      "headword": "dessert",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈzɜːrt/",
+      "meaning": "デザート",
+      "exampleEn": "What do you want for dessert?",
+      "exampleJa": "デザートに何がほしいですか。",
+      "level": 2
+    },
+    {
+      "headword": "menu",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmenjuː/",
+      "meaning": "メニュー",
+      "exampleEn": "Can I see the menu, please?",
+      "exampleJa": "メニューを見せてもらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "restaurant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrestərɑːnt/",
+      "meaning": "レストラン",
+      "exampleEn": "We ate dinner at a nice restaurant.",
+      "exampleJa": "私たちは素敵なレストランで夕食を食べました。",
+      "level": 1
+    },
+    {
+      "headword": "dish",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪʃ/",
+      "meaning": "料理；皿",
+      "exampleEn": "This dish is popular in Japan.",
+      "exampleJa": "この料理は日本で人気があります。",
+      "level": 2
+    },
+    {
+      "headword": "recipe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈresəpi/",
+      "meaning": "レシピ",
+      "exampleEn": "She found a new cake recipe.",
+      "exampleJa": "彼女は新しいケーキのレシピを見つけました。",
+      "level": 2
+    },
+    {
+      "headword": "rice",
+      "partOfSpeech": "noun",
+      "phonetic": "/raɪs/",
+      "meaning": "ご飯；米",
+      "exampleEn": "We eat rice with almost every meal.",
+      "exampleJa": "私たちはほとんど毎食ご飯を食べます。",
+      "level": 1
+    },
+    {
+      "headword": "bread",
+      "partOfSpeech": "noun",
+      "phonetic": "/bred/",
+      "meaning": "パン",
+      "exampleEn": "I bought fresh bread at the store.",
+      "exampleJa": "私は店で焼きたてのパンを買いました。",
+      "level": 1
+    },
+    {
+      "headword": "noodles",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnuːdlz/",
+      "meaning": "めん類",
+      "exampleEn": "He likes to eat cup noodles.",
+      "exampleJa": "彼はカップめんを食べるのが好きです。",
+      "level": 2
+    },
+    {
+      "headword": "soup",
+      "partOfSpeech": "noun",
+      "phonetic": "/suːp/",
+      "meaning": "スープ",
+      "exampleEn": "My mother makes delicious vegetable soup.",
+      "exampleJa": "母はおいしい野菜スープを作ります。",
+      "level": 1
+    },
+    {
+      "headword": "salad",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsæləd/",
+      "meaning": "サラダ",
+      "exampleEn": "I add tomatoes to my salad.",
+      "exampleJa": "私はサラダにトマトを加えます。",
+      "level": 1
+    },
+    {
+      "headword": "sandwich",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsænwɪtʃ/",
+      "meaning": "サンドイッチ",
+      "exampleEn": "He made a sandwich for lunch.",
+      "exampleJa": "彼は昼食にサンドイッチを作りました。",
+      "level": 1
+    },
+    {
+      "headword": "curry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːri/",
+      "meaning": "カレー",
+      "exampleEn": "We often eat curry on Fridays.",
+      "exampleJa": "私たちはよく金曜日にカレーを食べます。",
+      "level": 1
+    },
+    {
+      "headword": "pizza",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpiːtsə/",
+      "meaning": "ピザ",
+      "exampleEn": "Let's order a pizza tonight.",
+      "exampleJa": "今夜ピザを注文しましょう。",
+      "level": 1
+    },
+    {
+      "headword": "hamburger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæmbɜːrɡər/",
+      "meaning": "ハンバーガー",
+      "exampleEn": "I want a hamburger and juice.",
+      "exampleJa": "ハンバーガーとジュースがほしいです。",
+      "level": 1
+    },
+    {
+      "headword": "spaghetti",
+      "partOfSpeech": "noun",
+      "phonetic": "/spəˈɡeti/",
+      "meaning": "スパゲッティ",
+      "exampleEn": "She cooked spaghetti for the party.",
+      "exampleJa": "彼女はパーティーのためにスパゲッティを作りました。",
+      "level": 2
+    },
+    {
+      "headword": "egg",
+      "partOfSpeech": "noun",
+      "phonetic": "/eɡ/",
+      "meaning": "卵",
+      "exampleEn": "I eat an egg every morning.",
+      "exampleJa": "私は毎朝卵を1つ食べます。",
+      "level": 1
+    },
+    {
+      "headword": "meat",
+      "partOfSpeech": "noun",
+      "phonetic": "/miːt/",
+      "meaning": "肉",
+      "exampleEn": "He doesn't eat meat at all.",
+      "exampleJa": "彼は肉を全く食べません。",
+      "level": 1
+    },
+    {
+      "headword": "beef",
+      "partOfSpeech": "noun",
+      "phonetic": "/biːf/",
+      "meaning": "牛肉",
+      "exampleEn": "This beef tastes very good today.",
+      "exampleJa": "この牛肉は今日とてもおいしいです。",
+      "level": 2
+    },
+    {
+      "headword": "pork",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɔːrk/",
+      "meaning": "豚肉",
+      "exampleEn": "We had pork for dinner tonight.",
+      "exampleJa": "今夜の夕食は豚肉でした。",
+      "level": 2
+    },
+    {
+      "headword": "chicken",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃɪkɪn/",
+      "meaning": "鶏肉；ニワトリ",
+      "exampleEn": "My father is cooking chicken now.",
+      "exampleJa": "父は今、鶏肉を料理しています。",
+      "level": 1
+    },
+    {
+      "headword": "fish",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɪʃ/",
+      "meaning": "魚",
+      "exampleEn": "We caught fish and cooked them.",
+      "exampleJa": "私たちは魚を釣って料理しました。",
+      "level": 1
+    },
+    {
+      "headword": "sushi",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsuːʃi/",
+      "meaning": "すし",
+      "exampleEn": "My family enjoys eating sushi together.",
+      "exampleJa": "私の家族は一緒にすしを食べるのが好きです。",
+      "level": 1
+    },
+    {
+      "headword": "rice ball",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "おにぎり",
+      "exampleEn": "She made a rice ball for lunch.",
+      "exampleJa": "彼女は昼食におにぎりを作りました。",
+      "level": 2
+    },
+    {
+      "headword": "vegetable",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvedʒtəbl/",
+      "meaning": "野菜",
+      "exampleEn": "Eat more vegetables for good health.",
+      "exampleJa": "健康のためにもっと野菜を食べなさい。",
+      "level": 1
+    },
+    {
+      "headword": "fruit",
+      "partOfSpeech": "noun",
+      "phonetic": "/fruːt/",
+      "meaning": "果物",
+      "exampleEn": "Fresh fruit is good for you.",
+      "exampleJa": "新鮮な果物は体に良いです。",
+      "level": 1
+    },
+    {
+      "headword": "tomato",
+      "partOfSpeech": "noun",
+      "phonetic": "/təˈmeɪtoʊ/",
+      "meaning": "トマト",
+      "exampleEn": "I put a tomato in the salad.",
+      "exampleJa": "サラダにトマトを入れました。",
+      "level": 1
+    },
+    {
+      "headword": "potato",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈteɪtoʊ/",
+      "meaning": "じゃがいも",
+      "exampleEn": "We baked a potato for dinner.",
+      "exampleJa": "夕食にじゃがいもを焼きました。",
+      "level": 1
+    },
+    {
+      "headword": "carrot",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkærət/",
+      "meaning": "にんじん",
+      "exampleEn": "A rabbit is eating a carrot.",
+      "exampleJa": "うさぎがにんじんを食べています。",
+      "level": 1
+    },
+    {
+      "headword": "onion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʌnjən/",
+      "meaning": "たまねぎ",
+      "exampleEn": "Cut the onion into small pieces.",
+      "exampleJa": "たまねぎを小さく切ってください。",
+      "level": 2
+    },
+    {
+      "headword": "cabbage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæbɪdʒ/",
+      "meaning": "キャベツ",
+      "exampleEn": "She chopped cabbage for the salad.",
+      "exampleJa": "彼女はサラダ用にキャベツを刻みました。",
+      "level": 2
+    },
+    {
+      "headword": "corn",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːrn/",
+      "meaning": "とうもろこし",
+      "exampleEn": "We grilled corn at the picnic.",
+      "exampleJa": "ピクニックでとうもろこしを焼きました。",
+      "level": 2
+    },
+    {
+      "headword": "cucumber",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkjuːkʌmbər/",
+      "meaning": "きゅうり",
+      "exampleEn": "I sliced a cucumber for lunch.",
+      "exampleJa": "昼食用にきゅうりを切りました。",
+      "level": 2
+    },
+    {
+      "headword": "pumpkin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpʌmpkɪn/",
+      "meaning": "かぼちゃ",
+      "exampleEn": "We carved a pumpkin for Halloween.",
+      "exampleJa": "ハロウィーンのためにかぼちゃを彫りました。",
+      "level": 2
+    },
+    {
+      "headword": "mushroom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌʃruːm/",
+      "meaning": "きのこ",
+      "exampleEn": "This soup has mushroom in it.",
+      "exampleJa": "このスープにはきのこが入っています。",
+      "level": 2
+    },
+    {
+      "headword": "orange",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɪndʒ/",
+      "meaning": "オレンジ",
+      "exampleEn": "Would you like an orange or apple?",
+      "exampleJa": "オレンジとりんご、どちらがいいですか。",
+      "level": 1
+    },
+    {
+      "headword": "banana",
+      "partOfSpeech": "noun",
+      "phonetic": "/bəˈnænə/",
+      "meaning": "バナナ",
+      "exampleEn": "I eat a banana every morning.",
+      "exampleJa": "私は毎朝バナナを1本食べます。",
+      "level": 1
+    },
+    {
+      "headword": "strawberry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstrɔːberi/",
+      "meaning": "いちご",
+      "exampleEn": "This cake has a fresh strawberry on top.",
+      "exampleJa": "このケーキには新鮮ないちごがのっています。",
+      "level": 1
+    },
+    {
+      "headword": "grape",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡreɪp/",
+      "meaning": "ぶどう",
+      "exampleEn": "This purple grape tastes very sweet.",
+      "exampleJa": "この紫色のぶどうはとても甘いです。",
+      "level": 2
+    },
+    {
+      "headword": "melon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmelən/",
+      "meaning": "メロン",
+      "exampleEn": "The melon was sweet and juicy.",
+      "exampleJa": "そのメロンは甘くてみずみずしかったです。",
+      "level": 2
+    },
+    {
+      "headword": "lemon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlemən/",
+      "meaning": "レモン",
+      "exampleEn": "She added lemon to her tea.",
+      "exampleJa": "彼女は紅茶にレモンを加えました。",
+      "level": 2
+    },
+    {
+      "headword": "peach",
+      "partOfSpeech": "noun",
+      "phonetic": "/piːtʃ/",
+      "meaning": "もも",
+      "exampleEn": "This peach is soft and sweet.",
+      "exampleJa": "この桃は柔らかくて甘いです。",
+      "level": 2
+    },
+    {
+      "headword": "cherry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃeri/",
+      "meaning": "さくらんぼ",
+      "exampleEn": "A cherry fell from the tree.",
+      "exampleJa": "さくらんぼが木から落ちました。",
+      "level": 2
+    },
+    {
+      "headword": "pineapple",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpaɪnæpl/",
+      "meaning": "パイナップル",
+      "exampleEn": "The pineapple was too sour for me.",
+      "exampleJa": "そのパイナップルは私には酸っぱすぎました。",
+      "level": 2
+    },
+    {
+      "headword": "watermelon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɔːtərmelən/",
+      "meaning": "すいか",
+      "exampleEn": "We ate watermelon on the hot day.",
+      "exampleJa": "暑い日にすいかを食べました。",
+      "level": 2
+    },
+    {
+      "headword": "milk",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɪlk/",
+      "meaning": "牛乳",
+      "exampleEn": "I drink a glass of milk daily.",
+      "exampleJa": "私は毎日コップ1杯の牛乳を飲みます。",
+      "level": 1
+    },
+    {
+      "headword": "tea",
+      "partOfSpeech": "noun",
+      "phonetic": "/tiː/",
+      "meaning": "紅茶；お茶",
+      "exampleEn": "Would you like a cup of tea?",
+      "exampleJa": "お茶を一杯いかがですか。",
+      "level": 1
+    },
+    {
+      "headword": "coffee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɔːfi/",
+      "meaning": "コーヒー",
+      "exampleEn": "My father drinks coffee every morning.",
+      "exampleJa": "父は毎朝コーヒーを飲みます。",
+      "level": 1
+    },
+    {
+      "headword": "juice",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒuːs/",
+      "meaning": "ジュース",
+      "exampleEn": "I bought orange juice at the store.",
+      "exampleJa": "店でオレンジジュースを買いました。",
+      "level": 1
+    },
+    {
+      "headword": "green tea",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "緑茶",
+      "exampleEn": "Japanese people often drink green tea.",
+      "exampleJa": "日本人はよく緑茶を飲みます。",
+      "level": 2
+    },
+    {
+      "headword": "soda",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsoʊdə/",
+      "meaning": "炭酸飲料",
+      "exampleEn": "He drank a cold soda after school.",
+      "exampleJa": "彼は放課後に冷たい炭酸飲料を飲みました。",
+      "level": 2
+    },
+    {
+      "headword": "cake",
+      "partOfSpeech": "noun",
+      "phonetic": "/keɪk/",
+      "meaning": "ケーキ",
+      "exampleEn": "We made a birthday cake together.",
+      "exampleJa": "私たちは一緒に誕生日ケーキを作りました。",
+      "level": 1
+    },
+    {
+      "headword": "cookie",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʊki/",
+      "meaning": "クッキー",
+      "exampleEn": "I ate a chocolate cookie after lunch.",
+      "exampleJa": "昼食後にチョコレートクッキーを食べました。",
+      "level": 1
+    },
+    {
+      "headword": "candy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkændi/",
+      "meaning": "キャンディー",
+      "exampleEn": "The children shared candy at the party.",
+      "exampleJa": "子どもたちはパーティーでキャンディーを分けました。",
+      "level": 2
+    },
+    {
+      "headword": "chocolate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃɔːklət/",
+      "meaning": "チョコレート",
+      "exampleEn": "I gave her chocolate for her birthday.",
+      "exampleJa": "彼女の誕生日にチョコレートをあげました。",
+      "level": 1
+    },
+    {
+      "headword": "ice cream",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "アイスクリーム",
+      "exampleEn": "We ate ice cream in the park.",
+      "exampleJa": "公園でアイスクリームを食べました。",
+      "level": 1
+    },
+    {
+      "headword": "yogurt",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjoʊɡərt/",
+      "meaning": "ヨーグルト",
+      "exampleEn": "I eat yogurt with fruit every morning.",
+      "exampleJa": "私は毎朝果物と一緒にヨーグルトを食べます。",
+      "level": 2
+    },
+    {
+      "headword": "toast",
+      "partOfSpeech": "noun",
+      "phonetic": "/toʊst/",
+      "meaning": "トースト",
+      "exampleEn": "She had toast and coffee today.",
+      "exampleJa": "彼女は今日トーストとコーヒーを食べました。",
+      "level": 2
+    },
+    {
+      "headword": "jam",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒæm/",
+      "meaning": "ジャム",
+      "exampleEn": "I put jam on my toast.",
+      "exampleJa": "トーストにジャムをぬりました。",
+      "level": 2
+    },
+    {
+      "headword": "honey",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhʌni/",
+      "meaning": "はちみつ",
+      "exampleEn": "He puts honey in his tea.",
+      "exampleJa": "彼は紅茶にはちみつを入れます。",
+      "level": 2
+    },
+    {
+      "headword": "salt",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɔːlt/",
+      "meaning": "塩",
+      "exampleEn": "Please pass me the salt.",
+      "exampleJa": "塩を取ってください。",
+      "level": 1
+    },
+    {
+      "headword": "sugar",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃʊɡər/",
+      "meaning": "砂糖",
+      "exampleEn": "Do you take sugar in your coffee?",
+      "exampleJa": "コーヒーに砂糖を入れますか。",
+      "level": 1
+    },
+    {
+      "headword": "oil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɔɪl/",
+      "meaning": "油",
+      "exampleEn": "Cook the egg with a little oil.",
+      "exampleJa": "少量の油で卵を調理してください。",
+      "level": 2
+    },
+    {
+      "headword": "butter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌtər/",
+      "meaning": "バター",
+      "exampleEn": "She spread butter on the bread.",
+      "exampleJa": "彼女はパンにバターを塗りました。",
+      "level": 2
+    },
+    {
+      "headword": "cheese",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃiːz/",
+      "meaning": "チーズ",
+      "exampleEn": "I like cheese on my pizza.",
+      "exampleJa": "私はピザにチーズがのっているのが好きです。",
+      "level": 1
+    },
+    {
+      "headword": "sauce",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɔːs/",
+      "meaning": "ソース",
+      "exampleEn": "Add some sauce to the pasta.",
+      "exampleJa": "パスタにソースを加えてください。",
+      "level": 2
+    },
+    {
+      "headword": "flour",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈflaʊər/",
+      "meaning": "小麦粉",
+      "exampleEn": "We need flour to make bread.",
+      "exampleJa": "パンを作るには小麦粉が必要です。",
+      "level": 3
+    },
+    {
+      "headword": "ingredient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "meaning": "材料",
+      "exampleEn": "Eggs are an important ingredient here.",
+      "exampleJa": "卵はここで重要な材料です。",
+      "level": 3
+    },
+    {
+      "headword": "plate",
+      "partOfSpeech": "noun",
+      "phonetic": "/pleɪt/",
+      "meaning": "皿",
+      "exampleEn": "Put the food on this plate.",
+      "exampleJa": "この皿に食べ物をのせてください。",
+      "level": 1
+    },
+    {
+      "headword": "cup",
+      "partOfSpeech": "noun",
+      "phonetic": "/kʌp/",
+      "meaning": "カップ",
+      "exampleEn": "He filled the cup with juice.",
+      "exampleJa": "彼はカップにジュースを入れました。",
+      "level": 1
+    },
+    {
+      "headword": "glass",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡlæs/",
+      "meaning": "グラス；コップ",
+      "exampleEn": "She poured water into the glass.",
+      "exampleJa": "彼女はグラスに水を注ぎました。",
+      "level": 1
+    },
+    {
+      "headword": "bowl",
+      "partOfSpeech": "noun",
+      "phonetic": "/boʊl/",
+      "meaning": "どんぶり；ボウル",
+      "exampleEn": "Serve the soup in a bowl.",
+      "exampleJa": "スープをどんぶりに入れて出してください。",
+      "level": 2
+    },
+    {
+      "headword": "spoon",
+      "partOfSpeech": "noun",
+      "phonetic": "/spuːn/",
+      "meaning": "スプーン",
+      "exampleEn": "Use a spoon to eat the soup.",
+      "exampleJa": "スプーンを使ってスープを食べてください。",
+      "level": 1
+    },
+    {
+      "headword": "fork",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɔːrk/",
+      "meaning": "フォーク",
+      "exampleEn": "He ate the salad with a fork.",
+      "exampleJa": "彼はフォークでサラダを食べました。",
+      "level": 1
+    },
+    {
+      "headword": "knife",
+      "partOfSpeech": "noun",
+      "phonetic": "/naɪf/",
+      "meaning": "ナイフ",
+      "exampleEn": "Be careful with that sharp knife.",
+      "exampleJa": "その鋭いナイフに気をつけて。",
+      "level": 1
+    },
+    {
+      "headword": "chopsticks",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃɑːpstɪks/",
+      "meaning": "はし",
+      "exampleEn": "I can use chopsticks very well.",
+      "exampleJa": "私は上手にはしを使えます。",
+      "level": 2
+    },
+    {
+      "headword": "pan",
+      "partOfSpeech": "noun",
+      "phonetic": "/pæn/",
+      "meaning": "フライパン",
+      "exampleEn": "She heated the pan for the egg.",
+      "exampleJa": "彼女は卵のためにフライパンを温めました。",
+      "level": 2
+    },
+    {
+      "headword": "oven",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʌvən/",
+      "meaning": "オーブン",
+      "exampleEn": "The bread is baking in the oven.",
+      "exampleJa": "パンがオーブンで焼けています。",
+      "level": 2
+    },
+    {
+      "headword": "pot",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːt/",
+      "meaning": "なべ",
+      "exampleEn": "He put the soup in a pot.",
+      "exampleJa": "彼はスープをなべに入れました。",
+      "level": 2
+    },
+    {
+      "headword": "kettle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈketl/",
+      "meaning": "やかん",
+      "exampleEn": "The kettle is boiling on the stove.",
+      "exampleJa": "やかんがコンロで沸いています。",
+      "level": 3
+    },
+    {
+      "headword": "napkin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnæpkɪn/",
+      "meaning": "ナプキン",
+      "exampleEn": "Please use a napkin at dinner.",
+      "exampleJa": "夕食のときはナプキンを使ってください。",
+      "level": 3
+    },
+    {
+      "headword": "refrigerator",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈfrɪdʒəreɪtər/",
+      "meaning": "冷蔵庫",
+      "exampleEn": "Put the milk in the refrigerator.",
+      "exampleJa": "牛乳を冷蔵庫に入れてください。",
+      "level": 2
+    },
+    {
+      "headword": "delicious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈlɪʃəs/",
+      "meaning": "とてもおいしい",
+      "exampleEn": "This curry is really delicious tonight.",
+      "exampleJa": "このカレーは今夜本当においしいです。",
+      "level": 1
+    },
+    {
+      "headword": "sweet",
+      "partOfSpeech": "adjective",
+      "phonetic": "/swiːt/",
+      "meaning": "甘い",
+      "exampleEn": "The cake tastes very sweet.",
+      "exampleJa": "そのケーキはとても甘い味がします。",
+      "level": 1
+    },
+    {
+      "headword": "sour",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsaʊər/",
+      "meaning": "酸っぱい",
+      "exampleEn": "This lemon is too sour for me.",
+      "exampleJa": "このレモンは私には酸っぱすぎます。",
+      "level": 2
+    },
+    {
+      "headword": "salty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɔːlti/",
+      "meaning": "塩辛い",
+      "exampleEn": "The soup was a little too salty.",
+      "exampleJa": "そのスープは少し塩辛すぎました。",
+      "level": 2
+    },
+    {
+      "headword": "bitter",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbɪtər/",
+      "meaning": "苦い",
+      "exampleEn": "Coffee can taste bitter without sugar.",
+      "exampleJa": "コーヒーは砂糖なしだと苦く感じることがあります。",
+      "level": 2
+    },
+    {
+      "headword": "spicy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈspaɪsi/",
+      "meaning": "辛い",
+      "exampleEn": "This curry is too spicy for me.",
+      "exampleJa": "このカレーは私には辛すぎます。",
+      "level": 2
+    },
+    {
+      "headword": "fresh",
+      "partOfSpeech": "adjective",
+      "phonetic": "/freʃ/",
+      "meaning": "新鮮な",
+      "exampleEn": "We only use fresh vegetables here.",
+      "exampleJa": "私たちはここでは新鮮な野菜だけを使います。",
+      "level": 1
+    },
+    {
+      "headword": "calorie",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæləri/",
+      "meaning": "カロリー",
+      "exampleEn": "Check the calorie number on this snack.",
+      "exampleJa": "このおやつのカロリーの数字を確認してください。",
+      "level": 3
+    },
+    {
+      "headword": "vitamin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪtəmɪn/",
+      "meaning": "ビタミン",
+      "exampleEn": "Oranges contain a lot of vitamin C.",
+      "exampleJa": "オレンジにはビタミンCがたくさん含まれています。",
+      "level": 3
+    }
+  ]
+}
