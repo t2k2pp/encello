@@ -14468,6 +14468,2406 @@
       "exampleEn": "The winner smiled at the crowd.",
       "exampleJa": "その勝者は観衆に向かって笑いました。",
       "level": 2
+    },
+    {
+      "presetId": "jhs_v1:achieve:verb",
+      "headword": "achieve",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtʃiːv/",
+      "meaning": "達成する",
+      "exampleEn": "She worked hard to achieve her dream.",
+      "exampleJa": "彼女は夢を達成するために一生懸命努力しました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:advertisement:noun",
+      "headword": "advertisement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædvərˈtaɪzmənt/",
+      "meaning": "広告",
+      "exampleEn": "I saw an advertisement for a new phone.",
+      "exampleJa": "新しい電話の広告を見ました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:advice:noun",
+      "headword": "advice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ədˈvaɪs/",
+      "meaning": "助言；アドバイス",
+      "exampleEn": "Can you give me some advice?",
+      "exampleJa": "何かアドバイスをもらえますか。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:announce:verb",
+      "headword": "announce",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈnaʊns/",
+      "meaning": "発表する；知らせる",
+      "exampleEn": "The teacher will announce the results.",
+      "exampleJa": "先生が結果を発表します。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:app:noun",
+      "headword": "app",
+      "partOfSpeech": "noun",
+      "phonetic": "/æp/",
+      "meaning": "アプリ",
+      "exampleEn": "This app is easy to use.",
+      "exampleJa": "このアプリは使いやすいです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:border:noun",
+      "headword": "border",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɔːrdər/",
+      "meaning": "国境",
+      "exampleEn": "The river is the border between two countries.",
+      "exampleJa": "その川は二つの国の国境です。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:business:noun",
+      "headword": "business",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɪznəs/",
+      "meaning": "仕事；商売",
+      "exampleEn": "My uncle started his own business.",
+      "exampleJa": "おじは自分の事業を始めました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:career:noun",
+      "headword": "career",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈrɪr/",
+      "meaning": "経歴；職業",
+      "exampleEn": "She began her career as a nurse.",
+      "exampleJa": "彼女は看護師としてのキャリアを始めました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:channel:noun",
+      "headword": "channel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃænl/",
+      "meaning": "チャンネル",
+      "exampleEn": "Let's change the channel.",
+      "exampleJa": "チャンネルを変えましょう。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:charity:noun",
+      "headword": "charity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃærəti/",
+      "meaning": "慈善（活動）",
+      "exampleEn": "They collected money for charity.",
+      "exampleJa": "彼らは慈善のためにお金を集めました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:choice:noun",
+      "headword": "choice",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃɔɪs/",
+      "meaning": "選択",
+      "exampleEn": "You have to make a choice.",
+      "exampleJa": "あなたは選択をしなければなりません。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:communicate:verb",
+      "headword": "communicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "meaning": "意思を伝える；連絡し合う",
+      "exampleEn": "We communicate with each other by e-mail.",
+      "exampleJa": "私たちはEメールで連絡を取り合います。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:communication:noun",
+      "headword": "communication",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "meaning": "コミュニケーション；伝達",
+      "exampleEn": "Good communication is important for a team.",
+      "exampleJa": "良いコミュニケーションはチームにとって重要です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:community:noun",
+      "headword": "community",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmjuːnəti/",
+      "meaning": "地域社会；コミュニティ",
+      "exampleEn": "He works for his local community.",
+      "exampleJa": "彼は地元の地域社会のために働いています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:company:noun",
+      "headword": "company",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌmpəni/",
+      "meaning": "会社",
+      "exampleEn": "She works for a big company.",
+      "exampleJa": "彼女は大きな会社で働いています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:computer:noun",
+      "headword": "computer",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpjuːtər/",
+      "meaning": "コンピューター",
+      "exampleEn": "He is good at using a computer.",
+      "exampleJa": "彼はコンピューターを使うのが得意です。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:connect:verb",
+      "headword": "connect",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈnekt/",
+      "meaning": "つなぐ；接続する",
+      "exampleEn": "This road will connect the two towns.",
+      "exampleJa": "この道は二つの町をつなぎます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:connection:noun",
+      "headword": "connection",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈnekʃn/",
+      "meaning": "接続；つながり",
+      "exampleEn": "The internet connection is slow today.",
+      "exampleJa": "今日はインターネット接続が遅いです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:contact:noun",
+      "headword": "contact",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntækt/",
+      "meaning": "連絡",
+      "exampleEn": "Please keep in contact with me.",
+      "exampleJa": "私と連絡を取り続けてください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:continent:noun",
+      "headword": "continent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntɪnənt/",
+      "meaning": "大陸",
+      "exampleEn": "Africa is a large continent.",
+      "exampleJa": "アフリカは大きな大陸です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:cooperate:verb",
+      "headword": "cooperate",
+      "partOfSpeech": "verb",
+      "phonetic": "/koʊˈɑːpəreɪt/",
+      "meaning": "協力する",
+      "exampleEn": "Let's cooperate to finish this work.",
+      "exampleJa": "この仕事を終わらせるために協力しましょう。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:cooperation:noun",
+      "headword": "cooperation",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊˌɑːpəˈreɪʃn/",
+      "meaning": "協力",
+      "exampleEn": "This project needs everyone's cooperation.",
+      "exampleJa": "このプロジェクトはみんなの協力が必要です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:crime:noun",
+      "headword": "crime",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraɪm/",
+      "meaning": "犯罪",
+      "exampleEn": "Crime is a big problem in this city.",
+      "exampleJa": "犯罪はこの都市で大きな問題です。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:danger:noun",
+      "headword": "danger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdeɪndʒər/",
+      "meaning": "危険",
+      "exampleEn": "The sign warns us of danger.",
+      "exampleJa": "その標識は私たちに危険を知らせています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:data:noun",
+      "headword": "data",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdeɪtə/",
+      "meaning": "データ",
+      "exampleEn": "We collected a lot of data.",
+      "exampleJa": "私たちはたくさんのデータを集めました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:decision:noun",
+      "headword": "decision",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsɪʒn/",
+      "meaning": "決定",
+      "exampleEn": "It was a difficult decision.",
+      "exampleJa": "それは難しい決定でした。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:develop:verb",
+      "headword": "develop",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈveləp/",
+      "meaning": "発展させる；開発する",
+      "exampleEn": "The company will develop a new app.",
+      "exampleJa": "その会社は新しいアプリを開発します。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:development:noun",
+      "headword": "development",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈveləpmənt/",
+      "meaning": "発展；開発",
+      "exampleEn": "This town needs more development.",
+      "exampleJa": "この町にはもっと発展が必要です。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:difficulty:noun",
+      "headword": "difficulty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪfɪkəlti/",
+      "meaning": "困難",
+      "exampleEn": "She solved the problem with difficulty.",
+      "exampleJa": "彼女は苦労してその問題を解決しました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:e-mail:noun",
+      "headword": "e-mail",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈiːmeɪl/",
+      "meaning": "Eメール",
+      "exampleEn": "Please send me an e-mail.",
+      "exampleJa": "私にEメールを送ってください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:earn:verb",
+      "headword": "earn",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɜːrn/",
+      "meaning": "稼ぐ",
+      "exampleEn": "He earns money by working part-time.",
+      "exampleJa": "彼はアルバイトでお金を稼ぎます。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:elderly:adjective",
+      "headword": "elderly",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeldərli/",
+      "meaning": "年配の；高齢の",
+      "exampleEn": "We should help elderly people.",
+      "exampleJa": "私たちは高齢者を助けるべきです。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:equal:adjective",
+      "headword": "equal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈiːkwəl/",
+      "meaning": "平等な；等しい",
+      "exampleEn": "All people should be equal.",
+      "exampleJa": "すべての人は平等であるべきです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:fail:verb",
+      "headword": "fail",
+      "partOfSpeech": "verb",
+      "phonetic": "/feɪl/",
+      "meaning": "失敗する",
+      "exampleEn": "Don't be afraid to fail.",
+      "exampleJa": "失敗することを恐れないでください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:failure:noun",
+      "headword": "failure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfeɪljər/",
+      "meaning": "失敗",
+      "exampleEn": "Failure can teach us a lot.",
+      "exampleJa": "失敗は私たちに多くのことを教えてくれます。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:flag:noun",
+      "headword": "flag",
+      "partOfSpeech": "noun",
+      "phonetic": "/flæɡ/",
+      "meaning": "旗",
+      "exampleEn": "They waved their national flag.",
+      "exampleJa": "彼らは自国の国旗を振りました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:freedom:noun",
+      "headword": "freedom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfriːdəm/",
+      "meaning": "自由",
+      "exampleEn": "Everyone wants freedom and peace.",
+      "exampleJa": "誰もが自由と平和を求めています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:global:adjective",
+      "headword": "global",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡloʊbl/",
+      "meaning": "地球規模の；世界的な",
+      "exampleEn": "This is a global problem.",
+      "exampleJa": "これは世界的な問題です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:government:noun",
+      "headword": "government",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡʌvərnmənt/",
+      "meaning": "政府",
+      "exampleEn": "The government made a new law.",
+      "exampleJa": "政府は新しい法律を作りました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:helpful:adjective",
+      "headword": "helpful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhelpfl/",
+      "meaning": "役に立つ",
+      "exampleEn": "My classmate was very helpful today.",
+      "exampleJa": "今日、クラスメートはとても親切にしてくれました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:human:adjective",
+      "headword": "human",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhjuːmən/",
+      "meaning": "人間の",
+      "exampleEn": "Every human life is important.",
+      "exampleJa": "すべての人間の命は大切です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:industry:noun",
+      "headword": "industry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪndəstri/",
+      "meaning": "産業",
+      "exampleEn": "This city has a strong car industry.",
+      "exampleJa": "この都市は自動車産業が盛んです。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:information:noun",
+      "headword": "information",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnfərˈmeɪʃn/",
+      "meaning": "情報",
+      "exampleEn": "This book has useful information.",
+      "exampleJa": "この本には役に立つ情報があります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:international:adjective",
+      "headword": "international",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪntərˈnæʃənl/",
+      "meaning": "国際的な",
+      "exampleEn": "She wants an international job.",
+      "exampleJa": "彼女は国際的な仕事に就きたいと思っています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:internet:noun",
+      "headword": "internet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntərnet/",
+      "meaning": "インターネット",
+      "exampleEn": "I use the internet every day.",
+      "exampleJa": "私は毎日インターネットを使います。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:interview:noun",
+      "headword": "interview",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntərvjuː/",
+      "meaning": "面接；インタビュー",
+      "exampleEn": "She did well at the job interview.",
+      "exampleJa": "彼女は就職面接でうまくいきました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:invention:noun",
+      "headword": "invention",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvenʃn/",
+      "meaning": "発明",
+      "exampleEn": "The internet is a great invention.",
+      "exampleJa": "インターネットはすばらしい発明です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:job:noun",
+      "headword": "job",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɑːb/",
+      "meaning": "仕事；職",
+      "exampleEn": "My father has a good job.",
+      "exampleJa": "父はよい仕事に就いています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:kindness:noun",
+      "headword": "kindness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkaɪndnəs/",
+      "meaning": "親切",
+      "exampleEn": "Thank you for your kindness.",
+      "exampleJa": "ご親切にありがとうございます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:law:noun",
+      "headword": "law",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɔː/",
+      "meaning": "法律",
+      "exampleEn": "It is against the law to steal.",
+      "exampleJa": "盗みは法律違反です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:matter:verb",
+      "headword": "matter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmætər/",
+      "meaning": "重要である",
+      "exampleEn": "Your opinion matters to us.",
+      "exampleJa": "あなたの意見は私たちにとって重要です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:media:noun",
+      "headword": "media",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːdiə/",
+      "meaning": "メディア",
+      "exampleEn": "The media reported the news quickly.",
+      "exampleJa": "メディアはすぐにそのニュースを報道しました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:meeting:noun",
+      "headword": "meeting",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːtɪŋ/",
+      "meaning": "会議",
+      "exampleEn": "We have a meeting at noon.",
+      "exampleJa": "私たちは正午に会議があります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:nation:noun",
+      "headword": "nation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪʃn/",
+      "meaning": "国家；国民",
+      "exampleEn": "Many nations joined the meeting.",
+      "exampleJa": "多くの国がその会議に参加しました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:network:noun",
+      "headword": "network",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnetwɜːrk/",
+      "meaning": "ネットワーク",
+      "exampleEn": "Our school has a computer network.",
+      "exampleJa": "私たちの学校にはコンピューターネットワークがあります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:news:noun",
+      "headword": "news",
+      "partOfSpeech": "noun",
+      "phonetic": "/njuːz/",
+      "meaning": "ニュース；知らせ",
+      "exampleEn": "I heard good news today.",
+      "exampleJa": "今日いいニュースを聞きました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:noise:noun",
+      "headword": "noise",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɔɪz/",
+      "meaning": "騒音；物音",
+      "exampleEn": "Please don't make so much noise.",
+      "exampleJa": "そんなに大きな音を立てないでください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:number:noun",
+      "headword": "number",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnʌmbər/",
+      "meaning": "数；番号",
+      "exampleEn": "Can you tell me your phone number?",
+      "exampleJa": "電話番号を教えてもらえますか。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:online:adjective",
+      "headword": "online",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːnlaɪn/",
+      "meaning": "オンラインの",
+      "exampleEn": "We took an online class last week.",
+      "exampleJa": "私たちは先週オンライン授業を受けました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:organization:noun",
+      "headword": "organization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːrɡənaɪˈzeɪʃn/",
+      "meaning": "組織；団体",
+      "exampleEn": "She works for a large organization.",
+      "exampleJa": "彼女は大きな組織で働いています。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:paper:noun",
+      "headword": "paper",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪpər/",
+      "meaning": "紙；新聞",
+      "exampleEn": "Please write your name on the paper.",
+      "exampleJa": "紙に名前を書いてください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:part-time job:phrase",
+      "headword": "part-time job",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "アルバイト",
+      "exampleEn": "I started a part-time job last week.",
+      "exampleJa": "私は先週アルバイトを始めました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:password:noun",
+      "headword": "password",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæswɜːrd/",
+      "meaning": "パスワード",
+      "exampleEn": "Don't forget your password.",
+      "exampleJa": "パスワードを忘れないでください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:peaceful:adjective",
+      "headword": "peaceful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpiːsfl/",
+      "meaning": "平和な",
+      "exampleEn": "It was a peaceful morning in the village.",
+      "exampleJa": "村では平和な朝でした。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:population:noun",
+      "headword": "population",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɑːpjuˈleɪʃn/",
+      "meaning": "人口",
+      "exampleEn": "The population of this city is large.",
+      "exampleJa": "この都市の人口は多いです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:poverty:noun",
+      "headword": "poverty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːvərti/",
+      "meaning": "貧困",
+      "exampleEn": "Many people are trying to end poverty.",
+      "exampleJa": "多くの人が貧困をなくそうとしています。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:program:noun",
+      "headword": "program",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊɡræm/",
+      "meaning": "番組；プログラム",
+      "exampleEn": "This is my favorite TV program.",
+      "exampleJa": "これは私のお気に入りのテレビ番組です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:radio:noun",
+      "headword": "radio",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈreɪdioʊ/",
+      "meaning": "ラジオ",
+      "exampleEn": "I listen to the radio every morning.",
+      "exampleJa": "私は毎朝ラジオを聞きます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:region:noun",
+      "headword": "region",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːdʒən/",
+      "meaning": "地域",
+      "exampleEn": "This region is famous for rice.",
+      "exampleJa": "この地域は米で有名です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:rescue:verb",
+      "headword": "rescue",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈreskjuː/",
+      "meaning": "救助する",
+      "exampleEn": "Firefighters rescued the cat from the tree.",
+      "exampleJa": "消防士たちが木から猫を救助しました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:responsibility:noun",
+      "headword": "responsibility",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌspɑːnsəˈbɪləti/",
+      "meaning": "責任",
+      "exampleEn": "Taking care of pets is a big responsibility.",
+      "exampleJa": "ペットの世話は大きな責任です。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:responsible:adjective",
+      "headword": "responsible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈspɑːnsəbl/",
+      "meaning": "責任がある",
+      "exampleEn": "He is responsible for the project.",
+      "exampleJa": "彼はそのプロジェクトの責任者です。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:robot:noun",
+      "headword": "robot",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈroʊbɑːt/",
+      "meaning": "ロボット",
+      "exampleEn": "This robot can clean the room.",
+      "exampleJa": "このロボットは部屋を掃除できます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:rule:noun",
+      "headword": "rule",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːl/",
+      "meaning": "規則；ルール",
+      "exampleEn": "You must follow the school rules.",
+      "exampleJa": "あなたは校則を守らなければなりません。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:safety:noun",
+      "headword": "safety",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈseɪfti/",
+      "meaning": "安全",
+      "exampleEn": "Please think about your own safety.",
+      "exampleJa": "自分の安全について考えてください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:screen:noun",
+      "headword": "screen",
+      "partOfSpeech": "noun",
+      "phonetic": "/skriːn/",
+      "meaning": "画面",
+      "exampleEn": "The screen of my phone is small.",
+      "exampleJa": "私の携帯電話の画面は小さいです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:search:verb",
+      "headword": "search",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɜːrtʃ/",
+      "meaning": "探す；検索する",
+      "exampleEn": "I searched the internet for information.",
+      "exampleJa": "私は情報をインターネットで検索しました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:skill:noun",
+      "headword": "skill",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɪl/",
+      "meaning": "技能；技術",
+      "exampleEn": "Cooking is a useful skill.",
+      "exampleJa": "料理は役に立つ技術です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:smartphone:noun",
+      "headword": "smartphone",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsmɑːrtfoʊn/",
+      "meaning": "スマートフォン",
+      "exampleEn": "Most students have a smartphone.",
+      "exampleJa": "ほとんどの生徒がスマートフォンを持っています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:social media:phrase",
+      "headword": "social media",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "SNS；ソーシャルメディア",
+      "exampleEn": "She often checks social media.",
+      "exampleJa": "彼女はよくSNSをチェックします。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:society:noun",
+      "headword": "society",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈsaɪəti/",
+      "meaning": "社会",
+      "exampleEn": "We live in a modern society.",
+      "exampleJa": "私たちは現代社会に生きています。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:success:noun",
+      "headword": "success",
+      "partOfSpeech": "noun",
+      "phonetic": "/səkˈses/",
+      "meaning": "成功",
+      "exampleEn": "Hard work leads to success.",
+      "exampleJa": "努力は成功につながります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:successful:adjective",
+      "headword": "successful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/səkˈsesfl/",
+      "meaning": "成功した",
+      "exampleEn": "He became a successful artist.",
+      "exampleJa": "彼は成功した芸術家になりました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:suggestion:noun",
+      "headword": "suggestion",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈdʒestʃən/",
+      "meaning": "提案",
+      "exampleEn": "Thank you for your suggestion.",
+      "exampleJa": "提案してくれてありがとう。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:technology:noun",
+      "headword": "technology",
+      "partOfSpeech": "noun",
+      "phonetic": "/tekˈnɑːlədʒi/",
+      "meaning": "科学技術",
+      "exampleEn": "New technology changes our lives.",
+      "exampleJa": "新しい科学技術は私たちの生活を変えます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:text:noun",
+      "headword": "text",
+      "partOfSpeech": "noun",
+      "phonetic": "/tekst/",
+      "meaning": "文章；本文",
+      "exampleEn": "Read the text carefully.",
+      "exampleJa": "その文章を注意深く読みなさい。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:trouble:noun",
+      "headword": "trouble",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrʌbl/",
+      "meaning": "困難；トラブル",
+      "exampleEn": "He got into trouble at school.",
+      "exampleJa": "彼は学校でトラブルに巻き込まれました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:truth:noun",
+      "headword": "truth",
+      "partOfSpeech": "noun",
+      "phonetic": "/truːθ/",
+      "meaning": "真実",
+      "exampleEn": "Please tell me the truth.",
+      "exampleJa": "本当のことを話してください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:value:noun",
+      "headword": "value",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvæljuː/",
+      "meaning": "価値",
+      "exampleEn": "This old book has great value.",
+      "exampleJa": "この古い本には大きな価値があります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:vote:verb",
+      "headword": "vote",
+      "partOfSpeech": "verb",
+      "phonetic": "/voʊt/",
+      "meaning": "投票する",
+      "exampleEn": "We will vote for a new leader.",
+      "exampleJa": "私たちは新しいリーダーに投票します。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:war:noun",
+      "headword": "war",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɔːr/",
+      "meaning": "戦争",
+      "exampleEn": "Many people died in the war.",
+      "exampleJa": "戦争で多くの人が亡くなりました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:warning:noun",
+      "headword": "warning",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɔːrnɪŋ/",
+      "meaning": "警告",
+      "exampleEn": "The sign gave us a warning.",
+      "exampleJa": "その標識は私たちに警告していました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:way:noun",
+      "headword": "way",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪ/",
+      "meaning": "方法；道",
+      "exampleEn": "This is a good way to learn English.",
+      "exampleJa": "これは英語を学ぶよい方法です。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:website:noun",
+      "headword": "website",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwebsaɪt/",
+      "meaning": "ウェブサイト",
+      "exampleEn": "You can find it on our website.",
+      "exampleJa": "それは私たちのウェブサイトで見つかります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:world:noun",
+      "headword": "world",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɜːrld/",
+      "meaning": "世界",
+      "exampleEn": "People all over the world love music.",
+      "exampleJa": "世界中の人々が音楽を愛しています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:a few:phrase",
+      "headword": "a few",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "少しの（数）",
+      "exampleEn": "I have a few questions for you.",
+      "exampleJa": "あなたに少し質問があります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:a little:phrase",
+      "headword": "a little",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "少しの（量）",
+      "exampleEn": "There is a little milk left.",
+      "exampleJa": "牛乳が少し残っています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:a lot:phrase",
+      "headword": "a lot",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "たくさん",
+      "exampleEn": "I have a lot to do today.",
+      "exampleJa": "私は今日やることがたくさんあります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:able:adjective",
+      "headword": "able",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeɪbəl/",
+      "meaning": "できる",
+      "exampleEn": "She is able to swim very fast.",
+      "exampleJa": "彼女はとても速く泳ぐことができます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:after school:phrase",
+      "headword": "after school",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "放課後",
+      "exampleEn": "Let's play tennis after school.",
+      "exampleJa": "放課後テニスをしましょう。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:again:adverb",
+      "headword": "again",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈɡen/",
+      "meaning": "再び",
+      "exampleEn": "Please say that again.",
+      "exampleJa": "もう一度それを言ってください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:all day:phrase",
+      "headword": "all day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "一日中",
+      "exampleEn": "It rained all day yesterday.",
+      "exampleJa": "昨日は一日中雨が降りました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:arrive at:phrase",
+      "headword": "arrive at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～に到着する",
+      "exampleEn": "We will arrive at the airport soon.",
+      "exampleJa": "私たちはもうすぐ空港に到着します。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:as soon as:phrase",
+      "headword": "as soon as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～するとすぐに",
+      "exampleEn": "Call me as soon as you arrive.",
+      "exampleJa": "到着したらすぐに電話してください。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:as well as:phrase",
+      "headword": "as well as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～だけでなく～も",
+      "exampleEn": "She plays tennis as well as soccer.",
+      "exampleJa": "彼女はサッカーだけでなくテニスもします。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:at first:phrase",
+      "headword": "at first",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "最初は",
+      "exampleEn": "At first, I was very nervous.",
+      "exampleJa": "最初、私はとても緊張していました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:at home:phrase",
+      "headword": "at home",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "家で",
+      "exampleEn": "I stayed at home all weekend.",
+      "exampleJa": "私は週末ずっと家にいました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:at last:phrase",
+      "headword": "at last",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ついに",
+      "exampleEn": "At last, the rain stopped.",
+      "exampleJa": "ついに雨がやみました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be afraid of:phrase",
+      "headword": "be afraid of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を恐れる",
+      "exampleEn": "Everyone can be afraid of the dark.",
+      "exampleJa": "誰でも暗闇を怖がることがあります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be born:phrase",
+      "headword": "be born",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "生まれる",
+      "exampleEn": "My baby sister will be born in May.",
+      "exampleJa": "私の赤ちゃんの妹は5月に生まれる予定です。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:be covered with:phrase",
+      "headword": "be covered with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～で覆われている",
+      "exampleEn": "The mountain will be covered with snow soon.",
+      "exampleJa": "その山はもうすぐ雪で覆われるでしょう。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be different from:phrase",
+      "headword": "be different from",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～と違う",
+      "exampleEn": "This plan will be different from that one.",
+      "exampleJa": "この計画はあの計画とは違うでしょう。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be famous for:phrase",
+      "headword": "be famous for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～で有名である",
+      "exampleEn": "This town will be famous for its temple.",
+      "exampleJa": "この町はお寺で有名になるでしょう。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be full of:phrase",
+      "headword": "be full of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～でいっぱいである",
+      "exampleEn": "This box will be full of toys soon.",
+      "exampleJa": "この箱はもうすぐおもちゃでいっぱいになるでしょう。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be good at:phrase",
+      "headword": "be good at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～が得意である",
+      "exampleEn": "You will be good at cooking soon.",
+      "exampleJa": "あなたはもうすぐ料理が上手になるでしょう。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:be interested in:phrase",
+      "headword": "be interested in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～に興味がある",
+      "exampleEn": "You should be interested in Japanese history.",
+      "exampleJa": "あなたは日本の歴史に興味を持つべきです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:be proud of:phrase",
+      "headword": "be proud of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を誇りに思う",
+      "exampleEn": "You should be proud of your effort.",
+      "exampleJa": "あなたは自分の努力を誇りに思うべきです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:because of:phrase",
+      "headword": "because of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～のために（理由）",
+      "exampleEn": "The game was stopped because of rain.",
+      "exampleJa": "雨のためその試合は中止されました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:best:adjective",
+      "headword": "best",
+      "partOfSpeech": "adjective",
+      "phonetic": "/best/",
+      "meaning": "最も良い（goodの最上級）",
+      "exampleEn": "This is the best pizza in town.",
+      "exampleJa": "これは町で一番おいしいピザです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:better:adjective",
+      "headword": "better",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbetər/",
+      "meaning": "より良い（goodの比較級）",
+      "exampleEn": "My English got better this year.",
+      "exampleJa": "私の英語は今年上達しました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:book:noun",
+      "headword": "book",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʊk/",
+      "meaning": "本",
+      "exampleEn": "She is reading a book now.",
+      "exampleJa": "彼女は今、本を読んでいます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:by bus:phrase",
+      "headword": "by bus",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "バスで",
+      "exampleEn": "We came here by bus.",
+      "exampleJa": "私たちはバスでここに来ました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:chair:noun",
+      "headword": "chair",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃer/",
+      "meaning": "いす",
+      "exampleEn": "Please sit on this chair.",
+      "exampleJa": "このいすに座ってください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:come back:phrase",
+      "headword": "come back",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "戻ってくる",
+      "exampleEn": "Please come back home before dark.",
+      "exampleJa": "暗くなる前に家に戻ってきてください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:come true:phrase",
+      "headword": "come true",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "実現する",
+      "exampleEn": "I hope your dream will come true.",
+      "exampleJa": "あなたの夢が実現しますように。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:do one's best:phrase",
+      "headword": "do one's best",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "全力を尽くす",
+      "exampleEn": "I will do my best on the test.",
+      "exampleJa": "私はテストで全力を尽くします。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:don't have to:phrase",
+      "headword": "don't have to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～する必要はない",
+      "exampleEn": "You don't have to hurry.",
+      "exampleJa": "急ぐ必要はありません。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:each:adjective",
+      "headword": "each",
+      "partOfSpeech": "adjective",
+      "phonetic": "/iːtʃ/",
+      "meaning": "それぞれの",
+      "exampleEn": "Each student has an umbrella today.",
+      "exampleJa": "生徒はそれぞれ今日、傘を持っています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:end:verb",
+      "headword": "end",
+      "partOfSpeech": "verb",
+      "phonetic": "/end/",
+      "meaning": "終わる；終える",
+      "exampleEn": "The movie will end soon.",
+      "exampleJa": "その映画はもうすぐ終わります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:even:adverb",
+      "headword": "even",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːvən/",
+      "meaning": "～でさえ",
+      "exampleEn": "Even my sister can swim.",
+      "exampleJa": "妹でさえ泳ぐことができます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:every day:phrase",
+      "headword": "every day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "毎日",
+      "exampleEn": "I walk my dog every day.",
+      "exampleJa": "私は毎日犬の散歩をします。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:for example:phrase",
+      "headword": "for example",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "例えば",
+      "exampleEn": "I like sports, for example, soccer.",
+      "exampleJa": "私はスポーツ、例えばサッカーが好きです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:for the first time:phrase",
+      "headword": "for the first time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "初めて",
+      "exampleEn": "I visited Kyoto for the first time.",
+      "exampleJa": "私は初めて京都を訪れました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:get off:phrase",
+      "headword": "get off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（乗り物を）降りる",
+      "exampleEn": "You should get off at the next stop.",
+      "exampleJa": "あなたは次の停留所で降りるべきです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:get on:phrase",
+      "headword": "get on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（乗り物に）乗る",
+      "exampleEn": "I get on the bus every morning.",
+      "exampleJa": "私は毎朝バスに乗ります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:get up:phrase",
+      "headword": "get up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "起きる",
+      "exampleEn": "I get up at seven every morning.",
+      "exampleJa": "私は毎朝7時に起きます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:give up:phrase",
+      "headword": "give up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "あきらめる",
+      "exampleEn": "Never give up on your dream.",
+      "exampleJa": "自分の夢をあきらめないで。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:go on:phrase",
+      "headword": "go on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "続く；進む",
+      "exampleEn": "The festival will go on until night.",
+      "exampleJa": "祭りは夜まで続きます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:grow up:phrase",
+      "headword": "grow up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "成長する；大きくなる",
+      "exampleEn": "I want to be a doctor when I grow up.",
+      "exampleJa": "大人になったら医者になりたいです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:had better:phrase",
+      "headword": "had better",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～した方がよい",
+      "exampleEn": "You had better go home now.",
+      "exampleJa": "あなたは今すぐ家に帰った方がよいです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:have a good time:phrase",
+      "headword": "have a good time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "楽しく過ごす",
+      "exampleEn": "I hope you have a good time.",
+      "exampleJa": "楽しい時間を過ごせますように。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:how about:phrase",
+      "headword": "how about",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～はどうですか",
+      "exampleEn": "How about going to the beach?",
+      "exampleJa": "海に行くのはどうですか。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:how many:phrase",
+      "headword": "how many",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "いくつの",
+      "exampleEn": "How many books do you have?",
+      "exampleJa": "あなたは本を何冊持っていますか。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:how much:phrase",
+      "headword": "how much",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "いくらの；どれくらいの",
+      "exampleEn": "How much is this bag?",
+      "exampleJa": "このかばんはいくらですか。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:in front of:phrase",
+      "headword": "in front of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～の前で",
+      "exampleEn": "Let's meet in front of the station.",
+      "exampleJa": "駅の前で会いましょう。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:in the future:phrase",
+      "headword": "in the future",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "将来は",
+      "exampleEn": "What do you want to be in the future?",
+      "exampleJa": "将来何になりたいですか。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:just:adverb",
+      "headword": "just",
+      "partOfSpeech": "adverb",
+      "phonetic": "/dʒʌst/",
+      "meaning": "ちょうど；ただ～だけ",
+      "exampleEn": "I just finished my homework.",
+      "exampleJa": "私はちょうど宿題を終えました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:late:adjective",
+      "headword": "late",
+      "partOfSpeech": "adjective",
+      "phonetic": "/leɪt/",
+      "meaning": "遅れた；遅い",
+      "exampleEn": "I was late for school today.",
+      "exampleJa": "私は今日学校に遅刻しました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:less:adverb",
+      "headword": "less",
+      "partOfSpeech": "adverb",
+      "phonetic": "/les/",
+      "meaning": "より少なく（littleの比較級）",
+      "exampleEn": "I eat less than my brother.",
+      "exampleJa": "私は兄より食べる量が少ないです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:listen to:phrase",
+      "headword": "listen to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を聞く",
+      "exampleEn": "I like to listen to music.",
+      "exampleJa": "私は音楽を聞くのが好きです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:look at:phrase",
+      "headword": "look at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を見る",
+      "exampleEn": "Look at that beautiful moon tonight.",
+      "exampleJa": "今夜のあの美しい月を見てください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:look for:phrase",
+      "headword": "look for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を探す",
+      "exampleEn": "I am looking for my key.",
+      "exampleJa": "私は鍵を探しています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:look like:phrase",
+      "headword": "look like",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～のように見える",
+      "exampleEn": "That cloud looks like a rabbit.",
+      "exampleJa": "あの雲はうさぎのように見えます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:make a mistake:phrase",
+      "headword": "make a mistake",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "間違いをする",
+      "exampleEn": "Everyone can make a mistake.",
+      "exampleJa": "誰でも間違いをすることがあります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:more:adverb",
+      "headword": "more",
+      "partOfSpeech": "adverb",
+      "phonetic": "/mɔːr/",
+      "meaning": "もっと（manyまたはmuchの比較級）",
+      "exampleEn": "This book is more interesting than that one.",
+      "exampleJa": "この本はあの本より面白いです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:never:adverb",
+      "headword": "never",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnevər/",
+      "meaning": "決して～ない",
+      "exampleEn": "I have never seen snow.",
+      "exampleJa": "私は雪を見たことが一度もありません。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:next:adjective",
+      "headword": "next",
+      "partOfSpeech": "adjective",
+      "phonetic": "/nekst/",
+      "meaning": "次の",
+      "exampleEn": "See you next week.",
+      "exampleJa": "また来週会いましょう。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:next to:phrase",
+      "headword": "next to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～の隣に",
+      "exampleEn": "The bank is next to the library.",
+      "exampleJa": "銀行は図書館の隣にあります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:not:adverb",
+      "headword": "not",
+      "partOfSpeech": "adverb",
+      "phonetic": "/nɑːt/",
+      "meaning": "～ではない",
+      "exampleEn": "This question is not easy.",
+      "exampleJa": "この問題は簡単ではありません。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:not only:phrase",
+      "headword": "not only",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～だけでなく",
+      "exampleEn": "Not only Tom but Anna came too.",
+      "exampleJa": "トムだけでなくアンナも来ました。",
+      "level": 3
+    },
+    {
+      "presetId": "jhs_v1:of course:phrase",
+      "headword": "of course",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "もちろん",
+      "exampleEn": "Of course, you can join us.",
+      "exampleJa": "もちろん、あなたも参加できます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:often:adverb",
+      "headword": "often",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɔːfən/",
+      "meaning": "しばしば",
+      "exampleEn": "We often play soccer after school.",
+      "exampleJa": "私たちは放課後よくサッカーをします。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:on foot:phrase",
+      "headword": "on foot",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "徒歩で",
+      "exampleEn": "I go to school on foot.",
+      "exampleJa": "私は徒歩で学校へ行きます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:on time:phrase",
+      "headword": "on time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "時間通りに",
+      "exampleEn": "The bus always arrives on time.",
+      "exampleJa": "そのバスはいつも時間通りに到着します。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:one day:phrase",
+      "headword": "one day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ある日；いつか",
+      "exampleEn": "One day, I want to visit Canada.",
+      "exampleJa": "いつかカナダを訪れたいです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:only:adverb",
+      "headword": "only",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈoʊnli/",
+      "meaning": "ただ～だけ",
+      "exampleEn": "I only have one brother.",
+      "exampleJa": "私には兄弟が一人だけいます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:other:adjective",
+      "headword": "other",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈʌðər/",
+      "meaning": "他の",
+      "exampleEn": "I have some other homework today.",
+      "exampleJa": "私には今日、他にも宿題があります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:pick up:phrase",
+      "headword": "pick up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "拾う；車で迎えに行く",
+      "exampleEn": "My mother will pick me up at six.",
+      "exampleJa": "母が6時に私を迎えに来ます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:put on:phrase",
+      "headword": "put on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（服など）を着る",
+      "exampleEn": "Put on your jacket, it's cold.",
+      "exampleJa": "寒いのでジャケットを着なさい。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:really:adverb",
+      "headword": "really",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈriːəli/",
+      "meaning": "本当に",
+      "exampleEn": "This movie is really exciting.",
+      "exampleJa": "この映画は本当にわくわくします。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:right now:phrase",
+      "headword": "right now",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "今すぐ",
+      "exampleEn": "I need your help right now.",
+      "exampleJa": "今すぐあなたの助けが必要です。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:school:noun",
+      "headword": "school",
+      "partOfSpeech": "noun",
+      "phonetic": "/skuːl/",
+      "meaning": "学校",
+      "exampleEn": "I go to school by bike.",
+      "exampleJa": "私は自転車で学校へ行きます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:show:verb",
+      "headword": "show",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʃoʊ/",
+      "meaning": "見せる；示す",
+      "exampleEn": "Can you show me your notebook?",
+      "exampleJa": "あなたのノートを見せてくれますか。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:sit down:phrase",
+      "headword": "sit down",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "座る",
+      "exampleEn": "Please sit down and relax.",
+      "exampleJa": "どうぞ座ってくつろいでください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:so:adverb",
+      "headword": "so",
+      "partOfSpeech": "adverb",
+      "phonetic": "/soʊ/",
+      "meaning": "とても；そのように",
+      "exampleEn": "I was so happy today.",
+      "exampleJa": "私は今日とても幸せでした。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:stand up:phrase",
+      "headword": "stand up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "立ち上がる",
+      "exampleEn": "Please stand up when I call your name.",
+      "exampleJa": "名前を呼ばれたら立ち上がってください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:such:adjective",
+      "headword": "such",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sʌtʃ/",
+      "meaning": "そのような",
+      "exampleEn": "I have never eaten such delicious cake.",
+      "exampleJa": "こんなにおいしいケーキを食べたことがありません。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:take a bath:phrase",
+      "headword": "take a bath",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "風呂に入る",
+      "exampleEn": "I always take a bath at night.",
+      "exampleJa": "私はいつも夜にお風呂に入ります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:take a picture:phrase",
+      "headword": "take a picture",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "写真を撮る",
+      "exampleEn": "Let's take a picture together.",
+      "exampleJa": "一緒に写真を撮りましょう。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:take off:phrase",
+      "headword": "take off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（服など）を脱ぐ；離陸する",
+      "exampleEn": "Please take off your shoes here.",
+      "exampleJa": "ここで靴を脱いでください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:these days:phrase",
+      "headword": "these days",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "このごろ",
+      "exampleEn": "These days, I get up early.",
+      "exampleJa": "このごろ私は早起きします。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:top:noun",
+      "headword": "top",
+      "partOfSpeech": "noun",
+      "phonetic": "/tɑːp/",
+      "meaning": "頂上；一番上",
+      "exampleEn": "We reached the top of the hill.",
+      "exampleJa": "私たちは丘の頂上に着きました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:try:verb",
+      "headword": "try",
+      "partOfSpeech": "verb",
+      "phonetic": "/traɪ/",
+      "meaning": "試す；やってみる",
+      "exampleEn": "Let's try this new game.",
+      "exampleJa": "この新しいゲームをやってみましょう。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:turn off:phrase",
+      "headword": "turn off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（電源など）を消す",
+      "exampleEn": "Please turn off the radio before bed.",
+      "exampleJa": "寝る前にラジオを消してください。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:turn on:phrase",
+      "headword": "turn on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（電源など）をつける",
+      "exampleEn": "Can you turn on the light?",
+      "exampleJa": "明かりをつけてもらえますか。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:usually:adverb",
+      "headword": "usually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈjuːʒuəli/",
+      "meaning": "たいてい",
+      "exampleEn": "I usually get up at six.",
+      "exampleJa": "私はたいてい6時に起きます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:very:adverb",
+      "headword": "very",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈveri/",
+      "meaning": "とても",
+      "exampleEn": "This soup is very delicious.",
+      "exampleJa": "このスープはとてもおいしいです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:wait for:phrase",
+      "headword": "wait for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を待つ",
+      "exampleEn": "I will wait for you at the station.",
+      "exampleJa": "駅であなたを待っています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:worse:adjective",
+      "headword": "worse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/wɜːrs/",
+      "meaning": "より悪い（badの比較級）",
+      "exampleEn": "The weather got worse in the afternoon.",
+      "exampleJa": "午後、天気はさらに悪くなりました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:would like:phrase",
+      "headword": "would like",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～が欲しい（丁寧な言い方）",
+      "exampleEn": "I would like some water, please.",
+      "exampleJa": "水をいただきたいのですが。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:above:preposition",
+      "headword": "above",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈbʌv/",
+      "meaning": "〜の上に（離れて）",
+      "exampleEn": "Birds are flying above the mountain.",
+      "exampleJa": "鳥が山の上を飛んでいます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:across:preposition",
+      "headword": "across",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈkrɔːs/",
+      "meaning": "〜を横切って",
+      "exampleEn": "There is a bridge across the river.",
+      "exampleJa": "川を横切る橋があります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:along:preposition",
+      "headword": "along",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈlɔːŋ/",
+      "meaning": "〜に沿って",
+      "exampleEn": "We walked along the river.",
+      "exampleJa": "私たちは川に沿って歩きました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:behind:preposition",
+      "headword": "behind",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈhaɪnd/",
+      "meaning": "〜の後ろに",
+      "exampleEn": "The park is behind my house.",
+      "exampleJa": "公園は私の家の後ろにあります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:below:preposition",
+      "headword": "below",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈloʊ/",
+      "meaning": "〜より下に",
+      "exampleEn": "The fish swim below the boat.",
+      "exampleJa": "魚がボートの下を泳いでいます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:beside:preposition",
+      "headword": "beside",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈsaɪd/",
+      "meaning": "〜のそばに",
+      "exampleEn": "Sit beside me, please.",
+      "exampleJa": "私のそばに座ってください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:bottom:noun",
+      "headword": "bottom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɑːtəm/",
+      "meaning": "底；一番下",
+      "exampleEn": "There is a key at the bottom of the box.",
+      "exampleJa": "箱の底に鍵があります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:chance:noun",
+      "headword": "chance",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃæns/",
+      "meaning": "機会；チャンス",
+      "exampleEn": "This is a good chance to practice English.",
+      "exampleJa": "これは英語を練習するよい機会です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:daily:adjective",
+      "headword": "daily",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdeɪli/",
+      "meaning": "毎日の；日常の",
+      "exampleEn": "Reading is part of my daily life.",
+      "exampleJa": "読書は私の毎日の生活の一部です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:downstairs:adverb",
+      "headword": "downstairs",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌdaʊnˈsterz/",
+      "meaning": "階下へ；階下で",
+      "exampleEn": "My little brother is playing downstairs.",
+      "exampleJa": "私の弟は階下で遊んでいます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:east:noun",
+      "headword": "east",
+      "partOfSpeech": "noun",
+      "phonetic": "/iːst/",
+      "meaning": "東",
+      "exampleEn": "My house faces east.",
+      "exampleJa": "私の家は東向きです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:fact:noun",
+      "headword": "fact",
+      "partOfSpeech": "noun",
+      "phonetic": "/fækt/",
+      "meaning": "事実",
+      "exampleEn": "It is a fact that the earth is round.",
+      "exampleJa": "地球が丸いのは事実です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:food:noun",
+      "headword": "food",
+      "partOfSpeech": "noun",
+      "phonetic": "/fuːd/",
+      "meaning": "食べ物；食料",
+      "exampleEn": "I like Japanese food.",
+      "exampleJa": "私は日本食が好きです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:half:noun",
+      "headword": "half",
+      "partOfSpeech": "noun",
+      "phonetic": "/hæf/",
+      "meaning": "半分",
+      "exampleEn": "I ate half of the pizza.",
+      "exampleJa": "私はピザを半分食べました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:hot:adjective",
+      "headword": "hot",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hɑːt/",
+      "meaning": "熱い；暑い",
+      "exampleEn": "This soup is very hot.",
+      "exampleJa": "このスープはとても熱いです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:left:adjective",
+      "headword": "left",
+      "partOfSpeech": "adjective",
+      "phonetic": "/left/",
+      "meaning": "左の",
+      "exampleEn": "I write with my left hand.",
+      "exampleJa": "私は左手で字を書きます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:life:noun",
+      "headword": "life",
+      "partOfSpeech": "noun",
+      "phonetic": "/laɪf/",
+      "meaning": "生活；人生；命",
+      "exampleEn": "I enjoy my school life.",
+      "exampleJa": "私は学校生活を楽しんでいます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:list:noun",
+      "headword": "list",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪst/",
+      "meaning": "リスト；一覧表",
+      "exampleEn": "Make a list of things to buy.",
+      "exampleJa": "買うものリストを作ってください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:luck:noun",
+      "headword": "luck",
+      "partOfSpeech": "noun",
+      "phonetic": "/lʌk/",
+      "meaning": "運；幸運",
+      "exampleEn": "I wish you good luck.",
+      "exampleJa": "幸運をお祈りします。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:middle:noun",
+      "headword": "middle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪdl/",
+      "meaning": "真ん中；中央",
+      "exampleEn": "She stood in the middle of the room.",
+      "exampleJa": "彼女は部屋の真ん中に立っていました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:north:noun",
+      "headword": "north",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɔːrθ/",
+      "meaning": "北",
+      "exampleEn": "Hokkaido is north of Tokyo.",
+      "exampleJa": "北海道は東京の北にあります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:over:preposition",
+      "headword": "over",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ˈoʊvər/",
+      "meaning": "〜の上を；〜を越えて",
+      "exampleEn": "The plane flew over the ocean.",
+      "exampleJa": "飛行機は海の上を飛んで行きました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:painting:noun",
+      "headword": "painting",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪntɪŋ/",
+      "meaning": "絵画；絵",
+      "exampleEn": "This painting is very famous.",
+      "exampleJa": "この絵はとても有名です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:pair:noun",
+      "headword": "pair",
+      "partOfSpeech": "noun",
+      "phonetic": "/per/",
+      "meaning": "一組；一足",
+      "exampleEn": "I bought a new pair of shoes.",
+      "exampleJa": "私は新しい靴を一足買いました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:part:noun",
+      "headword": "part",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːrt/",
+      "meaning": "部分；一部",
+      "exampleEn": "This is the best part of the movie.",
+      "exampleJa": "これはその映画の一番良い部分です。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:piece:noun",
+      "headword": "piece",
+      "partOfSpeech": "noun",
+      "phonetic": "/piːs/",
+      "meaning": "一片；一つ",
+      "exampleEn": "I ate a piece of cake.",
+      "exampleJa": "私はケーキを一切れ食べました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:pond:noun",
+      "headword": "pond",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːnd/",
+      "meaning": "池",
+      "exampleEn": "There are many frogs in the pond.",
+      "exampleJa": "池にはカエルがたくさんいます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:recently:adverb",
+      "headword": "recently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈriːsntli/",
+      "meaning": "最近",
+      "exampleEn": "I moved to Tokyo recently.",
+      "exampleJa": "私は最近東京に引っ越しました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:recover:verb",
+      "headword": "recover",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkʌvər/",
+      "meaning": "回復する；治る",
+      "exampleEn": "I hope you recover soon.",
+      "exampleJa": "早く回復するといいですね。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:rich:adjective",
+      "headword": "rich",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪtʃ/",
+      "meaning": "裕福な；豊かな",
+      "exampleEn": "His family is very rich.",
+      "exampleJa": "彼の家族はとても裕福です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:rope:noun",
+      "headword": "rope",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊp/",
+      "meaning": "ロープ；縄",
+      "exampleEn": "The boy climbed up the rope.",
+      "exampleJa": "その男の子はロープを登りました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:scary:adjective",
+      "headword": "scary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈskeri/",
+      "meaning": "怖い",
+      "exampleEn": "That movie was really scary.",
+      "exampleJa": "あの映画は本当に怖かったです。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:sharp:adjective",
+      "headword": "sharp",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʃɑːrp/",
+      "meaning": "鋭い；よく切れる",
+      "exampleEn": "This knife is very sharp.",
+      "exampleJa": "このナイフはとてもよく切れます。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:soft:adjective",
+      "headword": "soft",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɔːft/",
+      "meaning": "柔らかい",
+      "exampleEn": "The blanket feels very soft.",
+      "exampleJa": "その毛布はとても柔らかく感じます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:solve:verb",
+      "headword": "solve",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɑːlv/",
+      "meaning": "解く；解決する",
+      "exampleEn": "Can you solve this problem?",
+      "exampleJa": "この問題を解けますか。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:someday:adverb",
+      "headword": "someday",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌmdeɪ/",
+      "meaning": "いつか",
+      "exampleEn": "I want to visit Canada someday.",
+      "exampleJa": "私はいつかカナダを訪れたいです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:south:noun",
+      "headword": "south",
+      "partOfSpeech": "noun",
+      "phonetic": "/saʊθ/",
+      "meaning": "南",
+      "exampleEn": "Okinawa is in the south of Japan.",
+      "exampleJa": "沖縄は日本の南にあります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:space:noun",
+      "headword": "space",
+      "partOfSpeech": "noun",
+      "phonetic": "/speɪs/",
+      "meaning": "宇宙；空間",
+      "exampleEn": "I want to travel in space.",
+      "exampleJa": "私は宇宙を旅行したいです。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:sunset:noun",
+      "headword": "sunset",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌnset/",
+      "meaning": "日没；夕焼け",
+      "exampleEn": "We watched the sunset at the beach.",
+      "exampleJa": "私たちは浜辺で夕焼けを見ました。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:symbol:noun",
+      "headword": "symbol",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmbəl/",
+      "meaning": "記号；象徴",
+      "exampleEn": "A heart is a symbol of love.",
+      "exampleJa": "ハートは愛の象徴です。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:thing:noun",
+      "headword": "thing",
+      "partOfSpeech": "noun",
+      "phonetic": "/θɪŋ/",
+      "meaning": "もの；こと",
+      "exampleEn": "I have many things to do.",
+      "exampleJa": "私にはやるべきことがたくさんあります。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:through:preposition",
+      "headword": "through",
+      "partOfSpeech": "preposition",
+      "phonetic": "/θruː/",
+      "meaning": "〜を通って",
+      "exampleEn": "We walked through the forest.",
+      "exampleJa": "私たちは森を通って歩きました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:toward:preposition",
+      "headword": "toward",
+      "partOfSpeech": "preposition",
+      "phonetic": "/tɔːrd/",
+      "meaning": "〜の方へ",
+      "exampleEn": "The dog ran toward the door.",
+      "exampleJa": "犬はドアの方へ走って行きました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:tv:noun",
+      "headword": "tv",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌtiːˈviː/",
+      "meaning": "テレビ",
+      "exampleEn": "I watch tv every night.",
+      "exampleJa": "私は毎晩テレビを見ます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:twice:adverb",
+      "headword": "twice",
+      "partOfSpeech": "adverb",
+      "phonetic": "/twaɪs/",
+      "meaning": "二度；2回",
+      "exampleEn": "I visit my grandmother twice a month.",
+      "exampleJa": "私は月に2回祖母を訪ねます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:under:preposition",
+      "headword": "under",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ˈʌndər/",
+      "meaning": "〜の下に",
+      "exampleEn": "The cat is sleeping under the table.",
+      "exampleJa": "猫はテーブルの下で眠っています。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:web:noun",
+      "headword": "web",
+      "partOfSpeech": "noun",
+      "phonetic": "/web/",
+      "meaning": "クモの巣；ウェブ",
+      "exampleEn": "The spider made a web in the corner.",
+      "exampleJa": "クモが隅にクモの巣を作りました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:welcome:interjection",
+      "headword": "welcome",
+      "partOfSpeech": "interjection",
+      "phonetic": "/ˈwelkəm/",
+      "meaning": "ようこそ",
+      "exampleEn": "Welcome to our school.",
+      "exampleJa": "私たちの学校へようこそ。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:west:noun",
+      "headword": "west",
+      "partOfSpeech": "noun",
+      "phonetic": "/west/",
+      "meaning": "西",
+      "exampleEn": "The sun sets in the west.",
+      "exampleJa": "太陽は西に沈みます。",
+      "level": 1
+    },
+    {
+      "presetId": "jhs_v1:zero:noun",
+      "headword": "zero",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈzɪroʊ/",
+      "meaning": "ゼロ；零",
+      "exampleEn": "The temperature is zero today.",
+      "exampleJa": "今日の気温はゼロです。",
+      "level": 1
     }
   ]
 }

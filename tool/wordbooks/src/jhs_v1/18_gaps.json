@@ -1,0 +1,456 @@
+{
+  "chunk": "18_gaps",
+  "note": "分野の隙間に落ちた基本語",
+  "words": [
+    {
+      "headword": "hot",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hɑːt/",
+      "meaning": "熱い；暑い",
+      "exampleEn": "This soup is very hot.",
+      "exampleJa": "このスープはとても熱いです。",
+      "level": 1
+    },
+    {
+      "headword": "food",
+      "partOfSpeech": "noun",
+      "phonetic": "/fuːd/",
+      "meaning": "食べ物；食料",
+      "exampleEn": "I like Japanese food.",
+      "exampleJa": "私は日本食が好きです。",
+      "level": 1
+    },
+    {
+      "headword": "life",
+      "partOfSpeech": "noun",
+      "phonetic": "/laɪf/",
+      "meaning": "生活；人生；命",
+      "exampleEn": "I enjoy my school life.",
+      "exampleJa": "私は学校生活を楽しんでいます。",
+      "level": 1
+    },
+    {
+      "headword": "thing",
+      "partOfSpeech": "noun",
+      "phonetic": "/θɪŋ/",
+      "meaning": "もの；こと",
+      "exampleEn": "I have many things to do.",
+      "exampleJa": "私にはやるべきことがたくさんあります。",
+      "level": 1
+    },
+    {
+      "headword": "welcome",
+      "partOfSpeech": "interjection",
+      "phonetic": "/ˈwelkəm/",
+      "meaning": "ようこそ",
+      "exampleEn": "Welcome to our school.",
+      "exampleJa": "私たちの学校へようこそ。",
+      "level": 1
+    },
+    {
+      "headword": "solve",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɑːlv/",
+      "meaning": "解く；解決する",
+      "exampleEn": "Can you solve this problem?",
+      "exampleJa": "この問題を解けますか。",
+      "level": 2
+    },
+    {
+      "headword": "piece",
+      "partOfSpeech": "noun",
+      "phonetic": "/piːs/",
+      "meaning": "一片；一つ",
+      "exampleEn": "I ate a piece of cake.",
+      "exampleJa": "私はケーキを一切れ食べました。",
+      "level": 1
+    },
+    {
+      "headword": "soft",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɔːft/",
+      "meaning": "柔らかい",
+      "exampleEn": "The blanket feels very soft.",
+      "exampleJa": "その毛布はとても柔らかく感じます。",
+      "level": 1
+    },
+    {
+      "headword": "rich",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪtʃ/",
+      "meaning": "裕福な；豊かな",
+      "exampleEn": "His family is very rich.",
+      "exampleJa": "彼の家族はとても裕福です。",
+      "level": 2
+    },
+    {
+      "headword": "north",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɔːrθ/",
+      "meaning": "北",
+      "exampleEn": "Hokkaido is north of Tokyo.",
+      "exampleJa": "北海道は東京の北にあります。",
+      "level": 1
+    },
+    {
+      "headword": "south",
+      "partOfSpeech": "noun",
+      "phonetic": "/saʊθ/",
+      "meaning": "南",
+      "exampleEn": "Okinawa is in the south of Japan.",
+      "exampleJa": "沖縄は日本の南にあります。",
+      "level": 1
+    },
+    {
+      "headword": "east",
+      "partOfSpeech": "noun",
+      "phonetic": "/iːst/",
+      "meaning": "東",
+      "exampleEn": "My house faces east.",
+      "exampleJa": "私の家は東向きです。",
+      "level": 1
+    },
+    {
+      "headword": "west",
+      "partOfSpeech": "noun",
+      "phonetic": "/west/",
+      "meaning": "西",
+      "exampleEn": "The sun sets in the west.",
+      "exampleJa": "太陽は西に沈みます。",
+      "level": 1
+    },
+    {
+      "headword": "space",
+      "partOfSpeech": "noun",
+      "phonetic": "/speɪs/",
+      "meaning": "宇宙；空間",
+      "exampleEn": "I want to travel in space.",
+      "exampleJa": "私は宇宙を旅行したいです。",
+      "level": 2
+    },
+    {
+      "headword": "zero",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈzɪroʊ/",
+      "meaning": "ゼロ；零",
+      "exampleEn": "The temperature is zero today.",
+      "exampleJa": "今日の気温はゼロです。",
+      "level": 1
+    },
+    {
+      "headword": "along",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈlɔːŋ/",
+      "meaning": "〜に沿って",
+      "exampleEn": "We walked along the river.",
+      "exampleJa": "私たちは川に沿って歩きました。",
+      "level": 2
+    },
+    {
+      "headword": "daily",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdeɪli/",
+      "meaning": "毎日の；日常の",
+      "exampleEn": "Reading is part of my daily life.",
+      "exampleJa": "読書は私の毎日の生活の一部です。",
+      "level": 2
+    },
+    {
+      "headword": "left",
+      "partOfSpeech": "adjective",
+      "phonetic": "/left/",
+      "meaning": "左の",
+      "exampleEn": "I write with my left hand.",
+      "exampleJa": "私は左手で字を書きます。",
+      "level": 1
+    },
+    {
+      "headword": "middle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪdl/",
+      "meaning": "真ん中；中央",
+      "exampleEn": "She stood in the middle of the room.",
+      "exampleJa": "彼女は部屋の真ん中に立っていました。",
+      "level": 2
+    },
+    {
+      "headword": "bottom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɑːtəm/",
+      "meaning": "底；一番下",
+      "exampleEn": "There is a key at the bottom of the box.",
+      "exampleJa": "箱の底に鍵があります。",
+      "level": 2
+    },
+    {
+      "headword": "behind",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈhaɪnd/",
+      "meaning": "〜の後ろに",
+      "exampleEn": "The park is behind my house.",
+      "exampleJa": "公園は私の家の後ろにあります。",
+      "level": 1
+    },
+    {
+      "headword": "beside",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈsaɪd/",
+      "meaning": "〜のそばに",
+      "exampleEn": "Sit beside me, please.",
+      "exampleJa": "私のそばに座ってください。",
+      "level": 2
+    },
+    {
+      "headword": "above",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈbʌv/",
+      "meaning": "〜の上に（離れて）",
+      "exampleEn": "Birds are flying above the mountain.",
+      "exampleJa": "鳥が山の上を飛んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "below",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈloʊ/",
+      "meaning": "〜より下に",
+      "exampleEn": "The fish swim below the boat.",
+      "exampleJa": "魚がボートの下を泳いでいます。",
+      "level": 2
+    },
+    {
+      "headword": "under",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ˈʌndər/",
+      "meaning": "〜の下に",
+      "exampleEn": "The cat is sleeping under the table.",
+      "exampleJa": "猫はテーブルの下で眠っています。",
+      "level": 1
+    },
+    {
+      "headword": "over",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ˈoʊvər/",
+      "meaning": "〜の上を；〜を越えて",
+      "exampleEn": "The plane flew over the ocean.",
+      "exampleJa": "飛行機は海の上を飛んで行きました。",
+      "level": 2
+    },
+    {
+      "headword": "through",
+      "partOfSpeech": "preposition",
+      "phonetic": "/θruː/",
+      "meaning": "〜を通って",
+      "exampleEn": "We walked through the forest.",
+      "exampleJa": "私たちは森を通って歩きました。",
+      "level": 2
+    },
+    {
+      "headword": "across",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈkrɔːs/",
+      "meaning": "〜を横切って",
+      "exampleEn": "There is a bridge across the river.",
+      "exampleJa": "川を横切る橋があります。",
+      "level": 2
+    },
+    {
+      "headword": "toward",
+      "partOfSpeech": "preposition",
+      "phonetic": "/tɔːrd/",
+      "meaning": "〜の方へ",
+      "exampleEn": "The dog ran toward the door.",
+      "exampleJa": "犬はドアの方へ走って行きました。",
+      "level": 2
+    },
+    {
+      "headword": "twice",
+      "partOfSpeech": "adverb",
+      "phonetic": "/twaɪs/",
+      "meaning": "二度；2回",
+      "exampleEn": "I visit my grandmother twice a month.",
+      "exampleJa": "私は月に2回祖母を訪ねます。",
+      "level": 1
+    },
+    {
+      "headword": "recently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈriːsntli/",
+      "meaning": "最近",
+      "exampleEn": "I moved to Tokyo recently.",
+      "exampleJa": "私は最近東京に引っ越しました。",
+      "level": 2
+    },
+    {
+      "headword": "half",
+      "partOfSpeech": "noun",
+      "phonetic": "/hæf/",
+      "meaning": "半分",
+      "exampleEn": "I ate half of the pizza.",
+      "exampleJa": "私はピザを半分食べました。",
+      "level": 1
+    },
+    {
+      "headword": "tv",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌtiːˈviː/",
+      "meaning": "テレビ",
+      "exampleEn": "I watch tv every night.",
+      "exampleJa": "私は毎晩テレビを見ます。",
+      "level": 1
+    },
+    {
+      "headword": "web",
+      "partOfSpeech": "noun",
+      "phonetic": "/web/",
+      "meaning": "クモの巣；ウェブ",
+      "exampleEn": "The spider made a web in the corner.",
+      "exampleJa": "クモが隅にクモの巣を作りました。",
+      "level": 2
+    },
+    {
+      "headword": "symbol",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmbəl/",
+      "meaning": "記号；象徴",
+      "exampleEn": "A heart is a symbol of love.",
+      "exampleJa": "ハートは愛の象徴です。",
+      "level": 2
+    },
+    {
+      "headword": "sunset",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌnset/",
+      "meaning": "日没；夕焼け",
+      "exampleEn": "We watched the sunset at the beach.",
+      "exampleJa": "私たちは浜辺で夕焼けを見ました。",
+      "level": 1
+    },
+    {
+      "headword": "pond",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːnd/",
+      "meaning": "池",
+      "exampleEn": "There are many frogs in the pond.",
+      "exampleJa": "池にはカエルがたくさんいます。",
+      "level": 1
+    },
+    {
+      "headword": "rope",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊp/",
+      "meaning": "ロープ；縄",
+      "exampleEn": "The boy climbed up the rope.",
+      "exampleJa": "その男の子はロープを登りました。",
+      "level": 1
+    },
+    {
+      "headword": "scary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈskeri/",
+      "meaning": "怖い",
+      "exampleEn": "That movie was really scary.",
+      "exampleJa": "あの映画は本当に怖かったです。",
+      "level": 1
+    },
+    {
+      "headword": "someday",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌmdeɪ/",
+      "meaning": "いつか",
+      "exampleEn": "I want to visit Canada someday.",
+      "exampleJa": "私はいつかカナダを訪れたいです。",
+      "level": 2
+    },
+    {
+      "headword": "recover",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkʌvər/",
+      "meaning": "回復する；治る",
+      "exampleEn": "I hope you recover soon.",
+      "exampleJa": "早く回復するといいですね。",
+      "level": 2
+    },
+    {
+      "headword": "painting",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪntɪŋ/",
+      "meaning": "絵画；絵",
+      "exampleEn": "This painting is very famous.",
+      "exampleJa": "この絵はとても有名です。",
+      "level": 2
+    },
+    {
+      "headword": "chance",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃæns/",
+      "meaning": "機会；チャンス",
+      "exampleEn": "This is a good chance to practice English.",
+      "exampleJa": "これは英語を練習するよい機会です。",
+      "level": 2
+    },
+    {
+      "headword": "luck",
+      "partOfSpeech": "noun",
+      "phonetic": "/lʌk/",
+      "meaning": "運；幸運",
+      "exampleEn": "I wish you good luck.",
+      "exampleJa": "幸運をお祈りします。",
+      "level": 1
+    },
+    {
+      "headword": "fact",
+      "partOfSpeech": "noun",
+      "phonetic": "/fækt/",
+      "meaning": "事実",
+      "exampleEn": "It is a fact that the earth is round.",
+      "exampleJa": "地球が丸いのは事実です。",
+      "level": 2
+    },
+    {
+      "headword": "part",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːrt/",
+      "meaning": "部分；一部",
+      "exampleEn": "This is the best part of the movie.",
+      "exampleJa": "これはその映画の一番良い部分です。",
+      "level": 1
+    },
+    {
+      "headword": "pair",
+      "partOfSpeech": "noun",
+      "phonetic": "/per/",
+      "meaning": "一組；一足",
+      "exampleEn": "I bought a new pair of shoes.",
+      "exampleJa": "私は新しい靴を一足買いました。",
+      "level": 1
+    },
+    {
+      "headword": "list",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪst/",
+      "meaning": "リスト；一覧表",
+      "exampleEn": "Make a list of things to buy.",
+      "exampleJa": "買うものリストを作ってください。",
+      "level": 2
+    },
+    {
+      "headword": "sharp",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʃɑːrp/",
+      "meaning": "鋭い；よく切れる",
+      "exampleEn": "This knife is very sharp.",
+      "exampleJa": "このナイフはとてもよく切れます。",
+      "level": 2
+    },
+    {
+      "headword": "downstairs",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌdaʊnˈsterz/",
+      "meaning": "階下へ；階下で",
+      "exampleEn": "My little brother is playing downstairs.",
+      "exampleJa": "私の弟は階下で遊んでいます。",
+      "level": 2
+    }
+  ]
+}

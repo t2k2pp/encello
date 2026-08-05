@@ -1,0 +1,861 @@
+{
+  "chunk": "17_basics_phrases",
+  "note": "基本語の補完と熟語・句動詞",
+  "words": [
+    {
+      "headword": "school",
+      "partOfSpeech": "noun",
+      "phonetic": "/skuːl/",
+      "meaning": "学校",
+      "exampleEn": "I go to school by bike.",
+      "exampleJa": "私は自転車で学校へ行きます。",
+      "level": 1
+    },
+    {
+      "headword": "book",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʊk/",
+      "meaning": "本",
+      "exampleEn": "She is reading a book now.",
+      "exampleJa": "彼女は今、本を読んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "chair",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃer/",
+      "meaning": "いす",
+      "exampleEn": "Please sit on this chair.",
+      "exampleJa": "このいすに座ってください。",
+      "level": 1
+    },
+    {
+      "headword": "not",
+      "partOfSpeech": "adverb",
+      "phonetic": "/nɑːt/",
+      "meaning": "～ではない",
+      "exampleEn": "This question is not easy.",
+      "exampleJa": "この問題は簡単ではありません。",
+      "level": 1
+    },
+    {
+      "headword": "so",
+      "partOfSpeech": "adverb",
+      "phonetic": "/soʊ/",
+      "meaning": "とても；そのように",
+      "exampleEn": "I was so happy today.",
+      "exampleJa": "私は今日とても幸せでした。",
+      "level": 1
+    },
+    {
+      "headword": "just",
+      "partOfSpeech": "adverb",
+      "phonetic": "/dʒʌst/",
+      "meaning": "ちょうど；ただ～だけ",
+      "exampleEn": "I just finished my homework.",
+      "exampleJa": "私はちょうど宿題を終えました。",
+      "level": 2
+    },
+    {
+      "headword": "only",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈoʊnli/",
+      "meaning": "ただ～だけ",
+      "exampleEn": "I only have one brother.",
+      "exampleJa": "私には兄弟が一人だけいます。",
+      "level": 1
+    },
+    {
+      "headword": "even",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːvən/",
+      "meaning": "～でさえ",
+      "exampleEn": "Even my sister can swim.",
+      "exampleJa": "妹でさえ泳ぐことができます。",
+      "level": 2
+    },
+    {
+      "headword": "again",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈɡen/",
+      "meaning": "再び",
+      "exampleEn": "Please say that again.",
+      "exampleJa": "もう一度それを言ってください。",
+      "level": 1
+    },
+    {
+      "headword": "often",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɔːfən/",
+      "meaning": "しばしば",
+      "exampleEn": "We often play soccer after school.",
+      "exampleJa": "私たちは放課後よくサッカーをします。",
+      "level": 1
+    },
+    {
+      "headword": "usually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈjuːʒuəli/",
+      "meaning": "たいてい",
+      "exampleEn": "I usually get up at six.",
+      "exampleJa": "私はたいてい6時に起きます。",
+      "level": 1
+    },
+    {
+      "headword": "really",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈriːəli/",
+      "meaning": "本当に",
+      "exampleEn": "This movie is really exciting.",
+      "exampleJa": "この映画は本当にわくわくします。",
+      "level": 1
+    },
+    {
+      "headword": "late",
+      "partOfSpeech": "adjective",
+      "phonetic": "/leɪt/",
+      "meaning": "遅れた；遅い",
+      "exampleEn": "I was late for school today.",
+      "exampleJa": "私は今日学校に遅刻しました。",
+      "level": 1
+    },
+    {
+      "headword": "top",
+      "partOfSpeech": "noun",
+      "phonetic": "/tɑːp/",
+      "meaning": "頂上；一番上",
+      "exampleEn": "We reached the top of the hill.",
+      "exampleJa": "私たちは丘の頂上に着きました。",
+      "level": 2
+    },
+    {
+      "headword": "try",
+      "partOfSpeech": "verb",
+      "phonetic": "/traɪ/",
+      "meaning": "試す；やってみる",
+      "exampleEn": "Let's try this new game.",
+      "exampleJa": "この新しいゲームをやってみましょう。",
+      "level": 1
+    },
+    {
+      "headword": "never",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnevər/",
+      "meaning": "決して～ない",
+      "exampleEn": "I have never seen snow.",
+      "exampleJa": "私は雪を見たことが一度もありません。",
+      "level": 1
+    },
+    {
+      "headword": "very",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈveri/",
+      "meaning": "とても",
+      "exampleEn": "This soup is very delicious.",
+      "exampleJa": "このスープはとてもおいしいです。",
+      "level": 1
+    },
+    {
+      "headword": "more",
+      "partOfSpeech": "adverb",
+      "phonetic": "/mɔːr/",
+      "meaning": "もっと（manyまたはmuchの比較級）",
+      "exampleEn": "This book is more interesting than that one.",
+      "exampleJa": "この本はあの本より面白いです。",
+      "level": 1
+    },
+    {
+      "headword": "less",
+      "partOfSpeech": "adverb",
+      "phonetic": "/les/",
+      "meaning": "より少なく（littleの比較級）",
+      "exampleEn": "I eat less than my brother.",
+      "exampleJa": "私は兄より食べる量が少ないです。",
+      "level": 2
+    },
+    {
+      "headword": "best",
+      "partOfSpeech": "adjective",
+      "phonetic": "/best/",
+      "meaning": "最も良い（goodの最上級）",
+      "exampleEn": "This is the best pizza in town.",
+      "exampleJa": "これは町で一番おいしいピザです。",
+      "level": 1
+    },
+    {
+      "headword": "better",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbetər/",
+      "meaning": "より良い（goodの比較級）",
+      "exampleEn": "My English got better this year.",
+      "exampleJa": "私の英語は今年上達しました。",
+      "level": 1
+    },
+    {
+      "headword": "worse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/wɜːrs/",
+      "meaning": "より悪い（badの比較級）",
+      "exampleEn": "The weather got worse in the afternoon.",
+      "exampleJa": "午後、天気はさらに悪くなりました。",
+      "level": 2
+    },
+    {
+      "headword": "next",
+      "partOfSpeech": "adjective",
+      "phonetic": "/nekst/",
+      "meaning": "次の",
+      "exampleEn": "See you next week.",
+      "exampleJa": "また来週会いましょう。",
+      "level": 1
+    },
+    {
+      "headword": "other",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈʌðər/",
+      "meaning": "他の",
+      "exampleEn": "I have some other homework today.",
+      "exampleJa": "私には今日、他にも宿題があります。",
+      "level": 1
+    },
+    {
+      "headword": "such",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sʌtʃ/",
+      "meaning": "そのような",
+      "exampleEn": "I have never eaten such delicious cake.",
+      "exampleJa": "こんなにおいしいケーキを食べたことがありません。",
+      "level": 2
+    },
+    {
+      "headword": "able",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeɪbəl/",
+      "meaning": "できる",
+      "exampleEn": "She is able to swim very fast.",
+      "exampleJa": "彼女はとても速く泳ぐことができます。",
+      "level": 2
+    },
+    {
+      "headword": "each",
+      "partOfSpeech": "adjective",
+      "phonetic": "/iːtʃ/",
+      "meaning": "それぞれの",
+      "exampleEn": "Each student has an umbrella today.",
+      "exampleJa": "生徒はそれぞれ今日、傘を持っています。",
+      "level": 1
+    },
+    {
+      "headword": "end",
+      "partOfSpeech": "verb",
+      "phonetic": "/end/",
+      "meaning": "終わる；終える",
+      "exampleEn": "The movie will end soon.",
+      "exampleJa": "その映画はもうすぐ終わります。",
+      "level": 2
+    },
+    {
+      "headword": "show",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʃoʊ/",
+      "meaning": "見せる；示す",
+      "exampleEn": "Can you show me your notebook?",
+      "exampleJa": "あなたのノートを見せてくれますか。",
+      "level": 1
+    },
+    {
+      "headword": "get up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "起きる",
+      "exampleEn": "I get up at seven every morning.",
+      "exampleJa": "私は毎朝7時に起きます。",
+      "level": 1
+    },
+    {
+      "headword": "stand up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "立ち上がる",
+      "exampleEn": "Please stand up when I call your name.",
+      "exampleJa": "名前を呼ばれたら立ち上がってください。",
+      "level": 1
+    },
+    {
+      "headword": "sit down",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "座る",
+      "exampleEn": "Please sit down and relax.",
+      "exampleJa": "どうぞ座ってくつろいでください。",
+      "level": 1
+    },
+    {
+      "headword": "look for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を探す",
+      "exampleEn": "I am looking for my key.",
+      "exampleJa": "私は鍵を探しています。",
+      "level": 1
+    },
+    {
+      "headword": "look at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を見る",
+      "exampleEn": "Look at that beautiful moon tonight.",
+      "exampleJa": "今夜のあの美しい月を見てください。",
+      "level": 1
+    },
+    {
+      "headword": "listen to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を聞く",
+      "exampleEn": "I like to listen to music.",
+      "exampleJa": "私は音楽を聞くのが好きです。",
+      "level": 1
+    },
+    {
+      "headword": "get on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（乗り物に）乗る",
+      "exampleEn": "I get on the bus every morning.",
+      "exampleJa": "私は毎朝バスに乗ります。",
+      "level": 1
+    },
+    {
+      "headword": "get off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（乗り物を）降りる",
+      "exampleEn": "You should get off at the next stop.",
+      "exampleJa": "あなたは次の停留所で降りるべきです。",
+      "level": 2
+    },
+    {
+      "headword": "put on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（服など）を着る",
+      "exampleEn": "Put on your jacket, it's cold.",
+      "exampleJa": "寒いのでジャケットを着なさい。",
+      "level": 1
+    },
+    {
+      "headword": "take off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（服など）を脱ぐ；離陸する",
+      "exampleEn": "Please take off your shoes here.",
+      "exampleJa": "ここで靴を脱いでください。",
+      "level": 1
+    },
+    {
+      "headword": "turn on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（電源など）をつける",
+      "exampleEn": "Can you turn on the light?",
+      "exampleJa": "明かりをつけてもらえますか。",
+      "level": 1
+    },
+    {
+      "headword": "turn off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "（電源など）を消す",
+      "exampleEn": "Please turn off the radio before bed.",
+      "exampleJa": "寝る前にラジオを消してください。",
+      "level": 1
+    },
+    {
+      "headword": "wait for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を待つ",
+      "exampleEn": "I will wait for you at the station.",
+      "exampleJa": "駅であなたを待っています。",
+      "level": 1
+    },
+    {
+      "headword": "arrive at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～に到着する",
+      "exampleEn": "We will arrive at the airport soon.",
+      "exampleJa": "私たちはもうすぐ空港に到着します。",
+      "level": 2
+    },
+    {
+      "headword": "be interested in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～に興味がある",
+      "exampleEn": "You should be interested in Japanese history.",
+      "exampleJa": "あなたは日本の歴史に興味を持つべきです。",
+      "level": 2
+    },
+    {
+      "headword": "be good at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～が得意である",
+      "exampleEn": "You will be good at cooking soon.",
+      "exampleJa": "あなたはもうすぐ料理が上手になるでしょう。",
+      "level": 1
+    },
+    {
+      "headword": "be full of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～でいっぱいである",
+      "exampleEn": "This box will be full of toys soon.",
+      "exampleJa": "この箱はもうすぐおもちゃでいっぱいになるでしょう。",
+      "level": 2
+    },
+    {
+      "headword": "be famous for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～で有名である",
+      "exampleEn": "This town will be famous for its temple.",
+      "exampleJa": "この町はお寺で有名になるでしょう。",
+      "level": 2
+    },
+    {
+      "headword": "be covered with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～で覆われている",
+      "exampleEn": "The mountain will be covered with snow soon.",
+      "exampleJa": "その山はもうすぐ雪で覆われるでしょう。",
+      "level": 2
+    },
+    {
+      "headword": "a lot",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "たくさん",
+      "exampleEn": "I have a lot to do today.",
+      "exampleJa": "私は今日やることがたくさんあります。",
+      "level": 1
+    },
+    {
+      "headword": "a few",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "少しの（数）",
+      "exampleEn": "I have a few questions for you.",
+      "exampleJa": "あなたに少し質問があります。",
+      "level": 1
+    },
+    {
+      "headword": "a little",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "少しの（量）",
+      "exampleEn": "There is a little milk left.",
+      "exampleJa": "牛乳が少し残っています。",
+      "level": 1
+    },
+    {
+      "headword": "of course",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "もちろん",
+      "exampleEn": "Of course, you can join us.",
+      "exampleJa": "もちろん、あなたも参加できます。",
+      "level": 1
+    },
+    {
+      "headword": "for example",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "例えば",
+      "exampleEn": "I like sports, for example, soccer.",
+      "exampleJa": "私はスポーツ、例えばサッカーが好きです。",
+      "level": 2
+    },
+    {
+      "headword": "at first",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "最初は",
+      "exampleEn": "At first, I was very nervous.",
+      "exampleJa": "最初、私はとても緊張していました。",
+      "level": 2
+    },
+    {
+      "headword": "at last",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ついに",
+      "exampleEn": "At last, the rain stopped.",
+      "exampleJa": "ついに雨がやみました。",
+      "level": 2
+    },
+    {
+      "headword": "right now",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "今すぐ",
+      "exampleEn": "I need your help right now.",
+      "exampleJa": "今すぐあなたの助けが必要です。",
+      "level": 1
+    },
+    {
+      "headword": "all day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "一日中",
+      "exampleEn": "It rained all day yesterday.",
+      "exampleJa": "昨日は一日中雨が降りました。",
+      "level": 1
+    },
+    {
+      "headword": "every day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "毎日",
+      "exampleEn": "I walk my dog every day.",
+      "exampleJa": "私は毎日犬の散歩をします。",
+      "level": 1
+    },
+    {
+      "headword": "on foot",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "徒歩で",
+      "exampleEn": "I go to school on foot.",
+      "exampleJa": "私は徒歩で学校へ行きます。",
+      "level": 1
+    },
+    {
+      "headword": "by bus",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "バスで",
+      "exampleEn": "We came here by bus.",
+      "exampleJa": "私たちはバスでここに来ました。",
+      "level": 1
+    },
+    {
+      "headword": "at home",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "家で",
+      "exampleEn": "I stayed at home all weekend.",
+      "exampleJa": "私は週末ずっと家にいました。",
+      "level": 1
+    },
+    {
+      "headword": "after school",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "放課後",
+      "exampleEn": "Let's play tennis after school.",
+      "exampleJa": "放課後テニスをしましょう。",
+      "level": 1
+    },
+    {
+      "headword": "how many",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "いくつの",
+      "exampleEn": "How many books do you have?",
+      "exampleJa": "あなたは本を何冊持っていますか。",
+      "level": 1
+    },
+    {
+      "headword": "how much",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "いくらの；どれくらいの",
+      "exampleEn": "How much is this bag?",
+      "exampleJa": "このかばんはいくらですか。",
+      "level": 1
+    },
+    {
+      "headword": "would like",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～が欲しい（丁寧な言い方）",
+      "exampleEn": "I would like some water, please.",
+      "exampleJa": "水をいただきたいのですが。",
+      "level": 2
+    },
+    {
+      "headword": "had better",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～した方がよい",
+      "exampleEn": "You had better go home now.",
+      "exampleJa": "あなたは今すぐ家に帰った方がよいです。",
+      "level": 2
+    },
+    {
+      "headword": "don't have to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～する必要はない",
+      "exampleEn": "You don't have to hurry.",
+      "exampleJa": "急ぐ必要はありません。",
+      "level": 2
+    },
+    {
+      "headword": "not only",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～だけでなく",
+      "exampleEn": "Not only Tom but Anna came too.",
+      "exampleJa": "トムだけでなくアンナも来ました。",
+      "level": 3
+    },
+    {
+      "headword": "as soon as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～するとすぐに",
+      "exampleEn": "Call me as soon as you arrive.",
+      "exampleJa": "到着したらすぐに電話してください。",
+      "level": 3
+    },
+    {
+      "headword": "as well as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～だけでなく～も",
+      "exampleEn": "She plays tennis as well as soccer.",
+      "exampleJa": "彼女はサッカーだけでなくテニスもします。",
+      "level": 3
+    },
+    {
+      "headword": "in front of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～の前で",
+      "exampleEn": "Let's meet in front of the station.",
+      "exampleJa": "駅の前で会いましょう。",
+      "level": 2
+    },
+    {
+      "headword": "next to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～の隣に",
+      "exampleEn": "The bank is next to the library.",
+      "exampleJa": "銀行は図書館の隣にあります。",
+      "level": 1
+    },
+    {
+      "headword": "because of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～のために（理由）",
+      "exampleEn": "The game was stopped because of rain.",
+      "exampleJa": "雨のためその試合は中止されました。",
+      "level": 2
+    },
+    {
+      "headword": "on time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "時間通りに",
+      "exampleEn": "The bus always arrives on time.",
+      "exampleJa": "そのバスはいつも時間通りに到着します。",
+      "level": 2
+    },
+    {
+      "headword": "for the first time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "初めて",
+      "exampleEn": "I visited Kyoto for the first time.",
+      "exampleJa": "私は初めて京都を訪れました。",
+      "level": 2
+    },
+    {
+      "headword": "have a good time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "楽しく過ごす",
+      "exampleEn": "I hope you have a good time.",
+      "exampleJa": "楽しい時間を過ごせますように。",
+      "level": 1
+    },
+    {
+      "headword": "take a picture",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "写真を撮る",
+      "exampleEn": "Let's take a picture together.",
+      "exampleJa": "一緒に写真を撮りましょう。",
+      "level": 1
+    },
+    {
+      "headword": "take a bath",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "風呂に入る",
+      "exampleEn": "I always take a bath at night.",
+      "exampleJa": "私はいつも夜にお風呂に入ります。",
+      "level": 1
+    },
+    {
+      "headword": "make a mistake",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "間違いをする",
+      "exampleEn": "Everyone can make a mistake.",
+      "exampleJa": "誰でも間違いをすることがあります。",
+      "level": 2
+    },
+    {
+      "headword": "do one's best",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "全力を尽くす",
+      "exampleEn": "I will do my best on the test.",
+      "exampleJa": "私はテストで全力を尽くします。",
+      "level": 2
+    },
+    {
+      "headword": "be proud of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を誇りに思う",
+      "exampleEn": "You should be proud of your effort.",
+      "exampleJa": "あなたは自分の努力を誇りに思うべきです。",
+      "level": 2
+    },
+    {
+      "headword": "be afraid of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～を恐れる",
+      "exampleEn": "Everyone can be afraid of the dark.",
+      "exampleJa": "誰でも暗闇を怖がることがあります。",
+      "level": 2
+    },
+    {
+      "headword": "be different from",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～と違う",
+      "exampleEn": "This plan will be different from that one.",
+      "exampleJa": "この計画はあの計画とは違うでしょう。",
+      "level": 2
+    },
+    {
+      "headword": "look like",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～のように見える",
+      "exampleEn": "That cloud looks like a rabbit.",
+      "exampleJa": "あの雲はうさぎのように見えます。",
+      "level": 2
+    },
+    {
+      "headword": "grow up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "成長する；大きくなる",
+      "exampleEn": "I want to be a doctor when I grow up.",
+      "exampleJa": "大人になったら医者になりたいです。",
+      "level": 2
+    },
+    {
+      "headword": "come true",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "実現する",
+      "exampleEn": "I hope your dream will come true.",
+      "exampleJa": "あなたの夢が実現しますように。",
+      "level": 2
+    },
+    {
+      "headword": "come back",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "戻ってくる",
+      "exampleEn": "Please come back home before dark.",
+      "exampleJa": "暗くなる前に家に戻ってきてください。",
+      "level": 1
+    },
+    {
+      "headword": "go on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "続く；進む",
+      "exampleEn": "The festival will go on until night.",
+      "exampleJa": "祭りは夜まで続きます。",
+      "level": 2
+    },
+    {
+      "headword": "give up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "あきらめる",
+      "exampleEn": "Never give up on your dream.",
+      "exampleJa": "自分の夢をあきらめないで。",
+      "level": 2
+    },
+    {
+      "headword": "pick up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "拾う；車で迎えに行く",
+      "exampleEn": "My mother will pick me up at six.",
+      "exampleJa": "母が6時に私を迎えに来ます。",
+      "level": 2
+    },
+    {
+      "headword": "be born",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "生まれる",
+      "exampleEn": "My baby sister will be born in May.",
+      "exampleJa": "私の赤ちゃんの妹は5月に生まれる予定です。",
+      "level": 1
+    },
+    {
+      "headword": "one day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ある日；いつか",
+      "exampleEn": "One day, I want to visit Canada.",
+      "exampleJa": "いつかカナダを訪れたいです。",
+      "level": 1
+    },
+    {
+      "headword": "these days",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "このごろ",
+      "exampleEn": "These days, I get up early.",
+      "exampleJa": "このごろ私は早起きします。",
+      "level": 2
+    },
+    {
+      "headword": "in the future",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "将来は",
+      "exampleEn": "What do you want to be in the future?",
+      "exampleJa": "将来何になりたいですか。",
+      "level": 2
+    },
+    {
+      "headword": "how about",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "～はどうですか",
+      "exampleEn": "How about going to the beach?",
+      "exampleJa": "海に行くのはどうですか。",
+      "level": 1
+    }
+  ]
+}
