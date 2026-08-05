@@ -1,0 +1,708 @@
+{
+  "chunk": "04_verbs_action",
+  "note": "基本動詞III（動作・操作・変化・生産）",
+  "words": [
+    {
+      "headword": "play",
+      "partOfSpeech": "verb",
+      "phonetic": "/pleɪ/",
+      "meaning": "する；遊ぶ；演奏する",
+      "exampleEn": "My brother plays soccer every Sunday.",
+      "exampleJa": "弟は毎週日曜日にサッカーをします。",
+      "level": 1
+    },
+    {
+      "headword": "work",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɜːrk/",
+      "meaning": "働く",
+      "exampleEn": "My mother works at a hospital.",
+      "exampleJa": "母は病院で働いています。",
+      "level": 1
+    },
+    {
+      "headword": "sleep",
+      "partOfSpeech": "verb",
+      "phonetic": "/sliːp/",
+      "meaning": "眠る",
+      "exampleEn": "I sleep eight hours every night.",
+      "exampleJa": "私は毎晩8時間眠ります。",
+      "level": 1
+    },
+    {
+      "headword": "wake",
+      "partOfSpeech": "verb",
+      "phonetic": "/weɪk/",
+      "meaning": "目を覚ます；起こす",
+      "exampleEn": "I usually wake up at six.",
+      "exampleJa": "私はたいてい6時に目を覚まします。",
+      "level": 2
+    },
+    {
+      "headword": "eat",
+      "partOfSpeech": "verb",
+      "phonetic": "/iːt/",
+      "meaning": "食べる",
+      "exampleEn": "We eat breakfast together every morning.",
+      "exampleJa": "私たちは毎朝いっしょに朝食を食べます。",
+      "level": 1
+    },
+    {
+      "headword": "drink",
+      "partOfSpeech": "verb",
+      "phonetic": "/drɪŋk/",
+      "meaning": "飲む",
+      "exampleEn": "Please drink a lot of water.",
+      "exampleJa": "たくさんの水を飲んでください。",
+      "level": 1
+    },
+    {
+      "headword": "wash",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɑːʃ/",
+      "meaning": "洗う",
+      "exampleEn": "Wash your hands before dinner.",
+      "exampleJa": "夕食の前に手を洗いなさい。",
+      "level": 1
+    },
+    {
+      "headword": "cook",
+      "partOfSpeech": "verb",
+      "phonetic": "/kʊk/",
+      "meaning": "料理する",
+      "exampleEn": "My father cooks dinner on Sundays.",
+      "exampleJa": "父は日曜日に夕食を作ります。",
+      "level": 1
+    },
+    {
+      "headword": "wear",
+      "partOfSpeech": "verb",
+      "phonetic": "/wer/",
+      "meaning": "着ている；身につけている",
+      "exampleEn": "She always wears a red hat.",
+      "exampleJa": "彼女はいつも赤い帽子をかぶっています。",
+      "level": 1
+    },
+    {
+      "headword": "hit",
+      "partOfSpeech": "verb",
+      "phonetic": "/hɪt/",
+      "meaning": "打つ；ぶつかる",
+      "exampleEn": "The ball hit the window hard.",
+      "exampleJa": "ボールが窓に激しく当たりました。",
+      "level": 2
+    },
+    {
+      "headword": "kick",
+      "partOfSpeech": "verb",
+      "phonetic": "/kɪk/",
+      "meaning": "蹴る",
+      "exampleEn": "He kicked the ball into the goal.",
+      "exampleJa": "彼はボールをゴールに向けて蹴りました。",
+      "level": 2
+    },
+    {
+      "headword": "push",
+      "partOfSpeech": "verb",
+      "phonetic": "/pʊʃ/",
+      "meaning": "押す",
+      "exampleEn": "Push the door to open it.",
+      "exampleJa": "開けるにはドアを押してください。",
+      "level": 2
+    },
+    {
+      "headword": "pull",
+      "partOfSpeech": "verb",
+      "phonetic": "/pʊl/",
+      "meaning": "引く",
+      "exampleEn": "Pull the rope with both hands.",
+      "exampleJa": "両手でロープを引いてください。",
+      "level": 2
+    },
+    {
+      "headword": "throw",
+      "partOfSpeech": "verb",
+      "phonetic": "/θroʊ/",
+      "meaning": "投げる",
+      "exampleEn": "Don't throw stones at the birds.",
+      "exampleJa": "鳥に石を投げてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "hide",
+      "partOfSpeech": "verb",
+      "phonetic": "/haɪd/",
+      "meaning": "隠れる；隠す",
+      "exampleEn": "The cat hid under the bed.",
+      "exampleJa": "その猫はベッドの下に隠れました。",
+      "level": 2
+    },
+    {
+      "headword": "dig",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪɡ/",
+      "meaning": "掘る",
+      "exampleEn": "The dog dug a hole in the garden.",
+      "exampleJa": "その犬は庭に穴を掘りました。",
+      "level": 2
+    },
+    {
+      "headword": "sing",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɪŋ/",
+      "meaning": "歌う",
+      "exampleEn": "We sang songs at the party.",
+      "exampleJa": "私たちはパーティーで歌を歌いました。",
+      "level": 1
+    },
+    {
+      "headword": "dance",
+      "partOfSpeech": "verb",
+      "phonetic": "/dæns/",
+      "meaning": "踊る",
+      "exampleEn": "They danced together at the festival.",
+      "exampleJa": "彼らは祭りでいっしょに踊りました。",
+      "level": 1
+    },
+    {
+      "headword": "drop",
+      "partOfSpeech": "verb",
+      "phonetic": "/drɑːp/",
+      "meaning": "落とす；落ちる",
+      "exampleEn": "Be careful not to drop the plate.",
+      "exampleJa": "お皿を落とさないよう気をつけて。",
+      "level": 2
+    },
+    {
+      "headword": "shake",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʃeɪk/",
+      "meaning": "振る；揺れる",
+      "exampleEn": "We shook hands after the game.",
+      "exampleJa": "試合の後、私たちは握手をしました。",
+      "level": 2
+    },
+    {
+      "headword": "ring",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪŋ/",
+      "meaning": "鳴る；鳴らす",
+      "exampleEn": "The phone rang three times last night.",
+      "exampleJa": "昨夜、電話が3回鳴りました。",
+      "level": 2
+    },
+    {
+      "headword": "knock",
+      "partOfSpeech": "verb",
+      "phonetic": "/nɑːk/",
+      "meaning": "ノックする",
+      "exampleEn": "Someone knocked on the door quietly.",
+      "exampleJa": "だれかが静かにドアをノックしました。",
+      "level": 2
+    },
+    {
+      "headword": "wave",
+      "partOfSpeech": "verb",
+      "phonetic": "/weɪv/",
+      "meaning": "手を振る",
+      "exampleEn": "She waved her hand at us.",
+      "exampleJa": "彼女は私たちに手を振りました。",
+      "level": 2
+    },
+    {
+      "headword": "clean",
+      "partOfSpeech": "verb",
+      "phonetic": "/kliːn/",
+      "meaning": "掃除する；きれいにする",
+      "exampleEn": "Let's clean the classroom together.",
+      "exampleJa": "教室をいっしょに掃除しましょう。",
+      "level": 1
+    },
+    {
+      "headword": "brush",
+      "partOfSpeech": "verb",
+      "phonetic": "/brʌʃ/",
+      "meaning": "ブラシをかける；みがく",
+      "exampleEn": "I brush my teeth twice a day.",
+      "exampleJa": "私は1日に2回歯をみがきます。",
+      "level": 2
+    },
+    {
+      "headword": "study",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈstʌdi/",
+      "meaning": "勉強する",
+      "exampleEn": "She studies English every evening.",
+      "exampleJa": "彼女は毎晩英語を勉強します。",
+      "level": 1
+    },
+    {
+      "headword": "make",
+      "partOfSpeech": "verb",
+      "phonetic": "/meɪk/",
+      "meaning": "作る",
+      "exampleEn": "My grandmother makes cookies for us.",
+      "exampleJa": "祖母は私たちのためにクッキーを作ります。",
+      "level": 1
+    },
+    {
+      "headword": "do",
+      "partOfSpeech": "verb",
+      "phonetic": "/duː/",
+      "meaning": "する；行う",
+      "exampleEn": "What do you do on weekends?",
+      "exampleJa": "週末は何をしますか。",
+      "level": 1
+    },
+    {
+      "headword": "use",
+      "partOfSpeech": "verb",
+      "phonetic": "/juːz/",
+      "meaning": "使う",
+      "exampleEn": "Can I use your dictionary?",
+      "exampleJa": "あなたの辞書を使ってもいいですか。",
+      "level": 1
+    },
+    {
+      "headword": "open",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈoʊpən/",
+      "meaning": "開ける；開く",
+      "exampleEn": "Please open your books to page ten.",
+      "exampleJa": "10ページを開いてください。",
+      "level": 1
+    },
+    {
+      "headword": "cut",
+      "partOfSpeech": "verb",
+      "phonetic": "/kʌt/",
+      "meaning": "切る",
+      "exampleEn": "She cut the paper into pieces.",
+      "exampleJa": "彼女は紙を切り分けました。",
+      "level": 1
+    },
+    {
+      "headword": "fix",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪks/",
+      "meaning": "直す",
+      "exampleEn": "My uncle fixed my broken bike.",
+      "exampleJa": "おじが私の壊れた自転車を直してくれました。",
+      "level": 2
+    },
+    {
+      "headword": "fill",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪl/",
+      "meaning": "いっぱいにする",
+      "exampleEn": "Please fill the glass with water.",
+      "exampleJa": "グラスに水を満たしてください。",
+      "level": 2
+    },
+    {
+      "headword": "add",
+      "partOfSpeech": "verb",
+      "phonetic": "/æd/",
+      "meaning": "加える；足す",
+      "exampleEn": "Add some sugar to the tea.",
+      "exampleJa": "紅茶に砂糖を少し加えてください。",
+      "level": 2
+    },
+    {
+      "headword": "cover",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkʌvər/",
+      "meaning": "覆う",
+      "exampleEn": "She covered the table with a cloth.",
+      "exampleJa": "彼女は布でテーブルを覆いました。",
+      "level": 2
+    },
+    {
+      "headword": "mix",
+      "partOfSpeech": "verb",
+      "phonetic": "/mɪks/",
+      "meaning": "混ぜる",
+      "exampleEn": "Mix the eggs and the sugar.",
+      "exampleJa": "卵と砂糖を混ぜてください。",
+      "level": 2
+    },
+    {
+      "headword": "print",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪnt/",
+      "meaning": "印刷する",
+      "exampleEn": "Can you print this document for me?",
+      "exampleJa": "この書類を印刷してもらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "copy",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːpi/",
+      "meaning": "コピーする；書き写す",
+      "exampleEn": "Please copy the words in your notebook.",
+      "exampleJa": "その単語をノートに書き写してください。",
+      "level": 2
+    },
+    {
+      "headword": "count",
+      "partOfSpeech": "verb",
+      "phonetic": "/kaʊnt/",
+      "meaning": "数える",
+      "exampleEn": "Let's count the stars in the sky.",
+      "exampleJa": "空の星を数えましょう。",
+      "level": 1
+    },
+    {
+      "headword": "order",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːrdər/",
+      "meaning": "注文する；命じる",
+      "exampleEn": "We ordered pizza for dinner.",
+      "exampleJa": "私たちは夕食にピザを注文しました。",
+      "level": 2
+    },
+    {
+      "headword": "plant",
+      "partOfSpeech": "verb",
+      "phonetic": "/plænt/",
+      "meaning": "植える",
+      "exampleEn": "We planted trees in the park.",
+      "exampleJa": "私たちは公園に木を植えました。",
+      "level": 2
+    },
+    {
+      "headword": "water",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwɔːtər/",
+      "meaning": "水をやる",
+      "exampleEn": "I water the flowers every morning.",
+      "exampleJa": "私は毎朝花に水をやります。",
+      "level": 2
+    },
+    {
+      "headword": "tie",
+      "partOfSpeech": "verb",
+      "phonetic": "/taɪ/",
+      "meaning": "結ぶ",
+      "exampleEn": "He tied his shoes quickly.",
+      "exampleJa": "彼はすばやくくつひもを結びました。",
+      "level": 2
+    },
+    {
+      "headword": "fold",
+      "partOfSpeech": "verb",
+      "phonetic": "/foʊld/",
+      "meaning": "折る；たたむ",
+      "exampleEn": "Please fold the paper in half.",
+      "exampleJa": "紙を半分に折ってください。",
+      "level": 2
+    },
+    {
+      "headword": "lock",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɑːk/",
+      "meaning": "かぎをかける",
+      "exampleEn": "Don't forget to lock the door.",
+      "exampleJa": "ドアにかぎをかけるのを忘れないで。",
+      "level": 2
+    },
+    {
+      "headword": "press",
+      "partOfSpeech": "verb",
+      "phonetic": "/pres/",
+      "meaning": "押す",
+      "exampleEn": "Press this button to start the machine.",
+      "exampleJa": "機械を始めるにはこのボタンを押してください。",
+      "level": 2
+    },
+    {
+      "headword": "lift",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɪft/",
+      "meaning": "持ち上げる",
+      "exampleEn": "He lifted the heavy box alone.",
+      "exampleJa": "彼は重い箱を一人で持ち上げました。",
+      "level": 2
+    },
+    {
+      "headword": "roll",
+      "partOfSpeech": "verb",
+      "phonetic": "/roʊl/",
+      "meaning": "転がる；転がす",
+      "exampleEn": "The ball rolled under the car.",
+      "exampleJa": "ボールは車の下に転がっていきました。",
+      "level": 2
+    },
+    {
+      "headword": "pack",
+      "partOfSpeech": "verb",
+      "phonetic": "/pæk/",
+      "meaning": "荷造りする；詰める",
+      "exampleEn": "I packed my bag for the trip.",
+      "exampleJa": "私は旅行のためにかばんに荷物を詰めました。",
+      "level": 2
+    },
+    {
+      "headword": "wipe",
+      "partOfSpeech": "verb",
+      "phonetic": "/waɪp/",
+      "meaning": "ふく",
+      "exampleEn": "Please wipe the table after lunch.",
+      "exampleJa": "昼食の後にテーブルをふいてください。",
+      "level": 2
+    },
+    {
+      "headword": "pour",
+      "partOfSpeech": "verb",
+      "phonetic": "/pɔːr/",
+      "meaning": "注ぐ",
+      "exampleEn": "She poured milk into my cup.",
+      "exampleJa": "彼女は私のカップに牛乳を注ぎました。",
+      "level": 2
+    },
+    {
+      "headword": "increase",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkriːs/",
+      "meaning": "増える；増やす",
+      "exampleEn": "The number of students increased this year.",
+      "exampleJa": "今年、生徒の数が増えました。",
+      "level": 3
+    },
+    {
+      "headword": "reduce",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈduːs/",
+      "meaning": "減らす",
+      "exampleEn": "We should reduce plastic waste.",
+      "exampleJa": "私たちはプラスチックごみを減らすべきです。",
+      "level": 3
+    },
+    {
+      "headword": "melt",
+      "partOfSpeech": "verb",
+      "phonetic": "/melt/",
+      "meaning": "溶ける；溶かす",
+      "exampleEn": "The snow melted in the sun.",
+      "exampleJa": "雪が日ざしで溶けました。",
+      "level": 2
+    },
+    {
+      "headword": "burn",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɜːrn/",
+      "meaning": "燃える；燃やす",
+      "exampleEn": "The candle burned for two hours.",
+      "exampleJa": "そのろうそくは2時間燃えました。",
+      "level": 2
+    },
+    {
+      "headword": "freeze",
+      "partOfSpeech": "verb",
+      "phonetic": "/friːz/",
+      "meaning": "凍る；凍らせる",
+      "exampleEn": "Water freezes at zero degrees.",
+      "exampleJa": "水はゼロ度で凍ります。",
+      "level": 2
+    },
+    {
+      "headword": "hurt",
+      "partOfSpeech": "verb",
+      "phonetic": "/hɜːrt/",
+      "meaning": "傷つける；痛む",
+      "exampleEn": "I hurt my leg during practice.",
+      "exampleJa": "練習中に足をけがしました。",
+      "level": 2
+    },
+    {
+      "headword": "kill",
+      "partOfSpeech": "verb",
+      "phonetic": "/kɪl/",
+      "meaning": "殺す",
+      "exampleEn": "This medicine kills harmful bacteria.",
+      "exampleJa": "この薬は有害な細菌を殺します。",
+      "level": 2
+    },
+    {
+      "headword": "win",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɪn/",
+      "meaning": "勝つ",
+      "exampleEn": "Our team won the last game.",
+      "exampleJa": "私たちのチームは前回の試合に勝ちました。",
+      "level": 1
+    },
+    {
+      "headword": "create",
+      "partOfSpeech": "verb",
+      "phonetic": "/kriˈeɪt/",
+      "meaning": "創造する；作り出す",
+      "exampleEn": "The artist created a wonderful picture.",
+      "exampleJa": "その芸術家はすばらしい絵を作り出しました。",
+      "level": 3
+    },
+    {
+      "headword": "produce",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈduːs/",
+      "meaning": "生産する",
+      "exampleEn": "This factory produces electric cars.",
+      "exampleJa": "この工場は電気自動車を生産しています。",
+      "level": 3
+    },
+    {
+      "headword": "design",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈzaɪn/",
+      "meaning": "デザインする；設計する",
+      "exampleEn": "She designed a poster for the festival.",
+      "exampleJa": "彼女は祭りのポスターをデザインしました。",
+      "level": 2
+    },
+    {
+      "headword": "invent",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvent/",
+      "meaning": "発明する",
+      "exampleEn": "Who invented this useful machine?",
+      "exampleJa": "だれがこの便利な機械を発明したのですか。",
+      "level": 2
+    },
+    {
+      "headword": "discover",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskʌvər/",
+      "meaning": "発見する",
+      "exampleEn": "Scientists discovered a new star.",
+      "exampleJa": "科学者たちは新しい星を発見しました。",
+      "level": 3
+    },
+    {
+      "headword": "draw",
+      "partOfSpeech": "verb",
+      "phonetic": "/drɔː/",
+      "meaning": "描く",
+      "exampleEn": "My sister draws pictures every day.",
+      "exampleJa": "姉は毎日絵を描きます。",
+      "level": 1
+    },
+    {
+      "headword": "paint",
+      "partOfSpeech": "verb",
+      "phonetic": "/peɪnt/",
+      "meaning": "描く；ペンキを塗る",
+      "exampleEn": "He painted the fence white.",
+      "exampleJa": "彼はさくを白く塗りました。",
+      "level": 1
+    },
+    {
+      "headword": "read",
+      "partOfSpeech": "verb",
+      "phonetic": "/riːd/",
+      "meaning": "読む",
+      "exampleEn": "I read a book before bed.",
+      "exampleJa": "私は寝る前に本を読みます。",
+      "level": 1
+    },
+    {
+      "headword": "repair",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈper/",
+      "meaning": "修理する",
+      "exampleEn": "The workers repaired the old bridge.",
+      "exampleJa": "作業員たちは古い橋を修理しました。",
+      "level": 3
+    },
+    {
+      "headword": "sweep",
+      "partOfSpeech": "verb",
+      "phonetic": "/swiːp/",
+      "meaning": "掃く",
+      "exampleEn": "She swept the floor this morning.",
+      "exampleJa": "彼女は今朝床を掃きました。",
+      "level": 2
+    },
+    {
+      "headword": "dry",
+      "partOfSpeech": "verb",
+      "phonetic": "/draɪ/",
+      "meaning": "乾く；乾かす",
+      "exampleEn": "Hang your towel to dry outside.",
+      "exampleJa": "タオルを外に干して乾かしてください。",
+      "level": 2
+    },
+    {
+      "headword": "exercise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈeksərsaɪz/",
+      "meaning": "運動する",
+      "exampleEn": "I exercise for thirty minutes daily.",
+      "exampleJa": "私は毎日30分運動します。",
+      "level": 1
+    },
+    {
+      "headword": "race",
+      "partOfSpeech": "verb",
+      "phonetic": "/reɪs/",
+      "meaning": "競争する",
+      "exampleEn": "The two runners raced to the goal.",
+      "exampleJa": "二人の走者はゴールまで競争しました。",
+      "level": 2
+    },
+    {
+      "headword": "score",
+      "partOfSpeech": "verb",
+      "phonetic": "/skɔːr/",
+      "meaning": "得点する",
+      "exampleEn": "He scored two goals in the game.",
+      "exampleJa": "彼はその試合で2得点しました。",
+      "level": 2
+    },
+    {
+      "headword": "shine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʃaɪn/",
+      "meaning": "輝く",
+      "exampleEn": "The sun shines brightly today.",
+      "exampleJa": "今日は太陽が明るく輝いています。",
+      "level": 2
+    },
+    {
+      "headword": "spread",
+      "partOfSpeech": "verb",
+      "phonetic": "/spred/",
+      "meaning": "広げる；広がる",
+      "exampleEn": "Please spread the butter on the bread.",
+      "exampleJa": "パンにバターを広げてください。",
+      "level": 3
+    },
+    {
+      "headword": "fit",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪt/",
+      "meaning": "合う",
+      "exampleEn": "These shoes fit me perfectly.",
+      "exampleJa": "このくつは私にぴったり合います。",
+      "level": 2
+    },
+    {
+      "headword": "boil",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɔɪl/",
+      "meaning": "沸かす；沸騰する",
+      "exampleEn": "Boil the water for the tea.",
+      "exampleJa": "お茶のために水を沸かしてください。",
+      "level": 2
+    },
+    {
+      "headword": "bake",
+      "partOfSpeech": "verb",
+      "phonetic": "/beɪk/",
+      "meaning": "焼く",
+      "exampleEn": "My mother bakes bread on weekends.",
+      "exampleJa": "母は週末にパンを焼きます。",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,564 @@
+{
+  "chunk": "02_verbs_basic",
+  "note": "基本動詞I（存在・移動・位置・授受・所有）",
+  "words": [
+    {
+      "headword": "stay",
+      "partOfSpeech": "verb",
+      "phonetic": "/steɪ/",
+      "meaning": "滞在する；そのままでいる",
+      "exampleEn": "Let's stay here until the rain stops.",
+      "exampleJa": "雨がやむまでここにいましょう。",
+      "level": 1
+    },
+    {
+      "headword": "live",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɪv/",
+      "meaning": "住む；生きる",
+      "exampleEn": "Some fish live in very cold water.",
+      "exampleJa": "とても冷たい水の中で生きる魚もいます。",
+      "level": 1
+    },
+    {
+      "headword": "seem",
+      "partOfSpeech": "verb",
+      "phonetic": "/siːm/",
+      "meaning": "〜のように見える",
+      "exampleEn": "This math problem seems difficult to me.",
+      "exampleJa": "この数学の問題は私には難しく見えます。",
+      "level": 2
+    },
+    {
+      "headword": "appear",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɪr/",
+      "meaning": "現れる；〜のように見える",
+      "exampleEn": "Stars appear in the sky at night.",
+      "exampleJa": "星は夜、空に現れます。",
+      "level": 2
+    },
+    {
+      "headword": "disappear",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈpɪr/",
+      "meaning": "消える",
+      "exampleEn": "The magician made the coin disappear.",
+      "exampleJa": "その手品師はコインを消してみせました。",
+      "level": 2
+    },
+    {
+      "headword": "die",
+      "partOfSpeech": "verb",
+      "phonetic": "/daɪ/",
+      "meaning": "死ぬ",
+      "exampleEn": "The plant died because of the cold.",
+      "exampleJa": "寒さのためにその植物は枯れてしまいました。",
+      "level": 2
+    },
+    {
+      "headword": "lie",
+      "partOfSpeech": "verb",
+      "phonetic": "/laɪ/",
+      "meaning": "横になる",
+      "exampleEn": "The cat likes to lie in the sun.",
+      "exampleJa": "その猫は日なたに横になるのが好きです。",
+      "level": 2
+    },
+    {
+      "headword": "wait",
+      "partOfSpeech": "verb",
+      "phonetic": "/weɪt/",
+      "meaning": "待つ",
+      "exampleEn": "We waited for the bus in the rain.",
+      "exampleJa": "私たちは雨の中バスを待ちました。",
+      "level": 1
+    },
+    {
+      "headword": "rest",
+      "partOfSpeech": "verb",
+      "phonetic": "/rest/",
+      "meaning": "休む",
+      "exampleEn": "You should rest before the game starts.",
+      "exampleJa": "試合が始まる前に休んだほうがいいですよ。",
+      "level": 2
+    },
+    {
+      "headword": "continue",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈtɪnjuː/",
+      "meaning": "続く；続ける",
+      "exampleEn": "The rain continued all through the night.",
+      "exampleJa": "雨は一晩中降り続きました。",
+      "level": 2
+    },
+    {
+      "headword": "stop",
+      "partOfSpeech": "verb",
+      "phonetic": "/stɑːp/",
+      "meaning": "止まる；止める",
+      "exampleEn": "The music stopped, and everyone became quiet.",
+      "exampleJa": "音楽が止まり、みんな静かになりました。",
+      "level": 1
+    },
+    {
+      "headword": "start",
+      "partOfSpeech": "verb",
+      "phonetic": "/stɑːrt/",
+      "meaning": "始まる；始める",
+      "exampleEn": "The game will start soon.",
+      "exampleJa": "試合はまもなく始まります。",
+      "level": 1
+    },
+    {
+      "headword": "last",
+      "partOfSpeech": "verb",
+      "phonetic": "/læst/",
+      "meaning": "続く",
+      "exampleEn": "The summer festival usually lasts three days.",
+      "exampleJa": "夏祭りはたいてい3日間続きます。",
+      "level": 2
+    },
+    {
+      "headword": "go",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡoʊ/",
+      "meaning": "行く",
+      "exampleEn": "I go to school by bike every day.",
+      "exampleJa": "私は毎日自転車で学校へ行きます。",
+      "level": 1
+    },
+    {
+      "headword": "come",
+      "partOfSpeech": "verb",
+      "phonetic": "/kʌm/",
+      "meaning": "来る",
+      "exampleEn": "Can you come to my house tomorrow?",
+      "exampleJa": "明日私の家に来られますか。",
+      "level": 1
+    },
+    {
+      "headword": "walk",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɔːk/",
+      "meaning": "歩く",
+      "exampleEn": "We walked around the park for an hour.",
+      "exampleJa": "私たちは1時間公園の周りを歩きました。",
+      "level": 1
+    },
+    {
+      "headword": "run",
+      "partOfSpeech": "verb",
+      "phonetic": "/rʌn/",
+      "meaning": "走る",
+      "exampleEn": "She runs five kilometers every morning.",
+      "exampleJa": "彼女は毎朝5キロ走ります。",
+      "level": 1
+    },
+    {
+      "headword": "fly",
+      "partOfSpeech": "verb",
+      "phonetic": "/flaɪ/",
+      "meaning": "飛ぶ",
+      "exampleEn": "Birds fly south before the winter comes.",
+      "exampleJa": "鳥は冬が来る前に南へ飛びます。",
+      "level": 2
+    },
+    {
+      "headword": "ride",
+      "partOfSpeech": "verb",
+      "phonetic": "/raɪd/",
+      "meaning": "（乗り物に）乗る",
+      "exampleEn": "My brother rides his bike to work.",
+      "exampleJa": "兄は自転車に乗って仕事に行きます。",
+      "level": 1
+    },
+    {
+      "headword": "drive",
+      "partOfSpeech": "verb",
+      "phonetic": "/draɪv/",
+      "meaning": "運転する",
+      "exampleEn": "My father drives me to school every day.",
+      "exampleJa": "父は毎日私を車で学校まで送ってくれます。",
+      "level": 2
+    },
+    {
+      "headword": "swim",
+      "partOfSpeech": "verb",
+      "phonetic": "/swɪm/",
+      "meaning": "泳ぐ",
+      "exampleEn": "We swim in the sea every summer.",
+      "exampleJa": "私たちは毎年夏に海で泳ぎます。",
+      "level": 1
+    },
+    {
+      "headword": "climb",
+      "partOfSpeech": "verb",
+      "phonetic": "/klaɪm/",
+      "meaning": "登る",
+      "exampleEn": "They climbed the mountain in five hours.",
+      "exampleJa": "彼らは5時間でその山に登りました。",
+      "level": 2
+    },
+    {
+      "headword": "enter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈentər/",
+      "meaning": "入る",
+      "exampleEn": "Please enter the room quietly.",
+      "exampleJa": "静かに部屋に入ってください。",
+      "level": 2
+    },
+    {
+      "headword": "pass",
+      "partOfSpeech": "verb",
+      "phonetic": "/pæs/",
+      "meaning": "通り過ぎる；手渡す",
+      "exampleEn": "Could you pass me the salt, please?",
+      "exampleJa": "塩を取ってもらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "cross",
+      "partOfSpeech": "verb",
+      "phonetic": "/krɔːs/",
+      "meaning": "渡る；横切る",
+      "exampleEn": "Look both ways before you cross the street.",
+      "exampleJa": "道路を渡る前に両方向を見なさい。",
+      "level": 2
+    },
+    {
+      "headword": "follow",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfɑːloʊ/",
+      "meaning": "ついて行く；従う",
+      "exampleEn": "Please follow me to the library.",
+      "exampleJa": "私について図書館まで来てください。",
+      "level": 2
+    },
+    {
+      "headword": "reach",
+      "partOfSpeech": "verb",
+      "phonetic": "/riːtʃ/",
+      "meaning": "着く；達する",
+      "exampleEn": "We reached the top of the mountain at noon.",
+      "exampleJa": "私たちは正午に山の頂上に着きました。",
+      "level": 2
+    },
+    {
+      "headword": "escape",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈskeɪp/",
+      "meaning": "逃げる",
+      "exampleEn": "The bird escaped from its cage.",
+      "exampleJa": "その鳥はかごから逃げました。",
+      "level": 3
+    },
+    {
+      "headword": "jump",
+      "partOfSpeech": "verb",
+      "phonetic": "/dʒʌmp/",
+      "meaning": "跳ぶ",
+      "exampleEn": "The dog jumped over the fence.",
+      "exampleJa": "その犬はさくを飛び越えました。",
+      "level": 1
+    },
+    {
+      "headword": "fall",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɔːl/",
+      "meaning": "落ちる；転ぶ",
+      "exampleEn": "Leaves fall from the trees in autumn.",
+      "exampleJa": "秋には木の葉が落ちます。",
+      "level": 2
+    },
+    {
+      "headword": "rise",
+      "partOfSpeech": "verb",
+      "phonetic": "/raɪz/",
+      "meaning": "昇る；上がる",
+      "exampleEn": "The sun rises early in the summer.",
+      "exampleJa": "夏には太陽が早く昇ります。",
+      "level": 2
+    },
+    {
+      "headword": "turn",
+      "partOfSpeech": "verb",
+      "phonetic": "/tɜːrn/",
+      "meaning": "曲がる；向きを変える",
+      "exampleEn": "Turn left at the next corner.",
+      "exampleJa": "次の角を左に曲がってください。",
+      "level": 1
+    },
+    {
+      "headword": "hurry",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhɜːri/",
+      "meaning": "急ぐ",
+      "exampleEn": "We must hurry, or we will miss the train.",
+      "exampleJa": "急がないと電車に乗り遅れますよ。",
+      "level": 2
+    },
+    {
+      "headword": "ski",
+      "partOfSpeech": "verb",
+      "phonetic": "/skiː/",
+      "meaning": "スキーをする",
+      "exampleEn": "My family skis in Hokkaido every winter.",
+      "exampleJa": "私の家族は毎年冬に北海道でスキーをします。",
+      "level": 1
+    },
+    {
+      "headword": "skate",
+      "partOfSpeech": "verb",
+      "phonetic": "/skeɪt/",
+      "meaning": "スケートをする",
+      "exampleEn": "We skate on the pond every January.",
+      "exampleJa": "私たちは毎年1月に池でスケートをします。",
+      "level": 1
+    },
+    {
+      "headword": "float",
+      "partOfSpeech": "verb",
+      "phonetic": "/floʊt/",
+      "meaning": "浮く",
+      "exampleEn": "Wood floats on water easily.",
+      "exampleJa": "木は水に簡単に浮きます。",
+      "level": 3
+    },
+    {
+      "headword": "sink",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɪŋk/",
+      "meaning": "沈む",
+      "exampleEn": "The old boat slowly sank into the sea.",
+      "exampleJa": "その古い船はゆっくりと海に沈みました。",
+      "level": 3
+    },
+    {
+      "headword": "land",
+      "partOfSpeech": "verb",
+      "phonetic": "/lænd/",
+      "meaning": "着陸する",
+      "exampleEn": "The plane landed safely in Tokyo.",
+      "exampleJa": "その飛行機は無事に東京に着陸しました。",
+      "level": 2
+    },
+    {
+      "headword": "put",
+      "partOfSpeech": "verb",
+      "phonetic": "/pʊt/",
+      "meaning": "置く",
+      "exampleEn": "Put your books on the desk, please.",
+      "exampleJa": "本を机の上に置いてください。",
+      "level": 1
+    },
+    {
+      "headword": "set",
+      "partOfSpeech": "verb",
+      "phonetic": "/set/",
+      "meaning": "置く；設定する",
+      "exampleEn": "She set the clock for six thirty.",
+      "exampleJa": "彼女は時計を6時30分にセットしました。",
+      "level": 2
+    },
+    {
+      "headword": "stand",
+      "partOfSpeech": "verb",
+      "phonetic": "/stænd/",
+      "meaning": "立つ",
+      "exampleEn": "Please stand up when your name is called.",
+      "exampleJa": "名前を呼ばれたら立ち上がってください。",
+      "level": 1
+    },
+    {
+      "headword": "sit",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɪt/",
+      "meaning": "座る",
+      "exampleEn": "We sat together at the front of the class.",
+      "exampleJa": "私たちはクラスの前の方に一緒に座りました。",
+      "level": 1
+    },
+    {
+      "headword": "hold",
+      "partOfSpeech": "verb",
+      "phonetic": "/hoʊld/",
+      "meaning": "持つ；つかむ",
+      "exampleEn": "Please hold my bag for a minute.",
+      "exampleJa": "少しの間、私のかばんを持っていてください。",
+      "level": 2
+    },
+    {
+      "headword": "hang",
+      "partOfSpeech": "verb",
+      "phonetic": "/hæŋ/",
+      "meaning": "かける；ぶら下がる",
+      "exampleEn": "She hung the picture on the wall.",
+      "exampleJa": "彼女は壁に絵をかけました。",
+      "level": 2
+    },
+    {
+      "headword": "place",
+      "partOfSpeech": "verb",
+      "phonetic": "/pleɪs/",
+      "meaning": "置く",
+      "exampleEn": "She placed the flowers in a vase.",
+      "exampleJa": "彼女は花をびんに生けました。",
+      "level": 3
+    },
+    {
+      "headword": "give",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡɪv/",
+      "meaning": "与える",
+      "exampleEn": "I will give you my old bike.",
+      "exampleJa": "私の古い自転車をあなたにあげます。",
+      "level": 1
+    },
+    {
+      "headword": "take",
+      "partOfSpeech": "verb",
+      "phonetic": "/teɪk/",
+      "meaning": "取る；連れて行く",
+      "exampleEn": "My mother will take us to the zoo.",
+      "exampleJa": "母は私たちを動物園に連れて行ってくれます。",
+      "level": 1
+    },
+    {
+      "headword": "send",
+      "partOfSpeech": "verb",
+      "phonetic": "/send/",
+      "meaning": "送る",
+      "exampleEn": "I will send you an email tonight.",
+      "exampleJa": "今夜あなたにメールを送ります。",
+      "level": 2
+    },
+    {
+      "headword": "receive",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈsiːv/",
+      "meaning": "受け取る",
+      "exampleEn": "She received a letter from her friend.",
+      "exampleJa": "彼女は友達から手紙を受け取りました。",
+      "level": 2
+    },
+    {
+      "headword": "get",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡet/",
+      "meaning": "手に入れる；着く",
+      "exampleEn": "We got home before it got dark.",
+      "exampleJa": "暗くなる前に私たちは家に着きました。",
+      "level": 1
+    },
+    {
+      "headword": "pay",
+      "partOfSpeech": "verb",
+      "phonetic": "/peɪ/",
+      "meaning": "払う",
+      "exampleEn": "How much did you pay for that bag?",
+      "exampleJa": "そのかばんにいくら払いましたか。",
+      "level": 2
+    },
+    {
+      "headword": "offer",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːfər/",
+      "meaning": "申し出る；提供する",
+      "exampleEn": "He offered to carry my heavy bag.",
+      "exampleJa": "彼は私の重いかばんを運ぶと申し出ました。",
+      "level": 3
+    },
+    {
+      "headword": "hand",
+      "partOfSpeech": "verb",
+      "phonetic": "/hænd/",
+      "meaning": "手渡す",
+      "exampleEn": "Please hand this paper to the teacher.",
+      "exampleJa": "この紙を先生に渡してください。",
+      "level": 3
+    },
+    {
+      "headword": "accept",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈsept/",
+      "meaning": "受け入れる",
+      "exampleEn": "She happily accepted our invitation.",
+      "exampleJa": "彼女は私たちの招待を喜んで受け入れました。",
+      "level": 3
+    },
+    {
+      "headword": "post",
+      "partOfSpeech": "verb",
+      "phonetic": "/poʊst/",
+      "meaning": "掲示する；郵送する",
+      "exampleEn": "She posted a photo on the wall.",
+      "exampleJa": "彼女は壁に写真をはりました。",
+      "level": 2
+    },
+    {
+      "headword": "mail",
+      "partOfSpeech": "verb",
+      "phonetic": "/meɪl/",
+      "meaning": "メールを送る；郵送する",
+      "exampleEn": "Could you mail me the report today?",
+      "exampleJa": "今日その報告書をメールで送ってもらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "serve",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɜːrv/",
+      "meaning": "（食事などを）出す；仕える",
+      "exampleEn": "The restaurant serves lunch until two.",
+      "exampleJa": "そのレストランは2時まで昼食を出しています。",
+      "level": 3
+    },
+    {
+      "headword": "present",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈzent/",
+      "meaning": "贈る；提示する",
+      "exampleEn": "They presented her with a beautiful watch.",
+      "exampleJa": "彼らは彼女に美しい腕時計を贈りました。",
+      "level": 3
+    },
+    {
+      "headword": "have",
+      "partOfSpeech": "verb",
+      "phonetic": "/hæv/",
+      "meaning": "持っている",
+      "exampleEn": "I have two sisters and one brother.",
+      "exampleJa": "私には姉妹が2人と兄弟が1人います。",
+      "level": 1
+    },
+    {
+      "headword": "own",
+      "partOfSpeech": "verb",
+      "phonetic": "/oʊn/",
+      "meaning": "所有する",
+      "exampleEn": "My uncle owns a small restaurant.",
+      "exampleJa": "おじは小さなレストランを所有しています。",
+      "level": 2
+    },
+    {
+      "headword": "belong",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈlɔːŋ/",
+      "meaning": "属する",
+      "exampleEn": "This bike belongs to my sister.",
+      "exampleJa": "この自転車は私の姉のものです。",
+      "level": 2
+    },
+    {
+      "headword": "save",
+      "partOfSpeech": "verb",
+      "phonetic": "/seɪv/",
+      "meaning": "貯める；取っておく",
+      "exampleEn": "I am saving money for a new bike.",
+      "exampleJa": "私は新しい自転車のためにお金を貯めています。",
+      "level": 2
+    }
+  ]
+}

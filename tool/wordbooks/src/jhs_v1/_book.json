@@ -1,0 +1,20 @@
+{
+  "presetId": "jhs_v1",
+  "name": "中学英単語",
+  "emoji": "🏫",
+  "category": "juniorHigh",
+  "colorSeed": 1,
+  "seedVersion": 2,
+  "bandSize": 1600,
+  "sortOrder": 10,
+  "note": "中学校で学ぶ基本語彙",
+  "levelRange": [1, 3],
+  "chunks": [
+    "00_core",
+    "01_function_words",
+    "02_verbs_basic",
+    "03_verbs_mind",
+    "04_verbs_action",
+    "05_school"
+  ]
+}

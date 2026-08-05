@@ -1,0 +1,861 @@
+{
+  "chunk": "05_school",
+  "note": "学校と勉強",
+  "words": [
+    {
+      "headword": "classroom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklæsruːm/",
+      "meaning": "教室",
+      "exampleEn": "We clean our classroom after school.",
+      "exampleJa": "私たちは放課後に教室を掃除します。",
+      "level": 1
+    },
+    {
+      "headword": "library",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlaɪbreri/",
+      "meaning": "図書館；図書室",
+      "exampleEn": "I read books in the library.",
+      "exampleJa": "私は図書館で本を読みます。",
+      "level": 1
+    },
+    {
+      "headword": "gym",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɪm/",
+      "meaning": "体育館",
+      "exampleEn": "We play basketball in the gym.",
+      "exampleJa": "私たちは体育館でバスケットボールをします。",
+      "level": 1
+    },
+    {
+      "headword": "playground",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpleɪɡraʊnd/",
+      "meaning": "校庭；遊び場",
+      "exampleEn": "The children run on the playground.",
+      "exampleJa": "子どもたちは校庭で走ります。",
+      "level": 1
+    },
+    {
+      "headword": "blackboard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈblækbɔːrd/",
+      "meaning": "黒板",
+      "exampleEn": "The teacher wrote on the blackboard.",
+      "exampleJa": "先生は黒板に書きました。",
+      "level": 1
+    },
+    {
+      "headword": "desk",
+      "partOfSpeech": "noun",
+      "phonetic": "/desk/",
+      "meaning": "机",
+      "exampleEn": "Put your bag under the desk.",
+      "exampleJa": "かばんを机の下に置きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "gate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡeɪt/",
+      "meaning": "門",
+      "exampleEn": "Close the school gate at four.",
+      "exampleJa": "4時に校門を閉めてください。",
+      "level": 2
+    },
+    {
+      "headword": "hall",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɔːl/",
+      "meaning": "講堂；廊下",
+      "exampleEn": "We had the ceremony in the hall.",
+      "exampleJa": "私たちは講堂で式を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "stairs",
+      "partOfSpeech": "noun",
+      "phonetic": "/sterz/",
+      "meaning": "階段",
+      "exampleEn": "Be careful on the stairs.",
+      "exampleJa": "階段では気をつけて。",
+      "level": 2
+    },
+    {
+      "headword": "pool",
+      "partOfSpeech": "noun",
+      "phonetic": "/puːl/",
+      "meaning": "プール",
+      "exampleEn": "We swim in the pool every July.",
+      "exampleJa": "私たちは毎年7月にプールで泳ぎます。",
+      "level": 1
+    },
+    {
+      "headword": "hallway",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɔːlweɪ/",
+      "meaning": "廊下",
+      "exampleEn": "Please walk quietly in the hallway.",
+      "exampleJa": "廊下では静かに歩いてください。",
+      "level": 2
+    },
+    {
+      "headword": "cafeteria",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkæfəˈtɪriə/",
+      "meaning": "食堂",
+      "exampleEn": "Students eat lunch in the cafeteria.",
+      "exampleJa": "生徒たちは食堂で昼食を食べます。",
+      "level": 2
+    },
+    {
+      "headword": "student",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstuːdnt/",
+      "meaning": "生徒；学生",
+      "exampleEn": "Every student needs a school bag.",
+      "exampleJa": "すべての生徒に通学かばんが必要です。",
+      "level": 1
+    },
+    {
+      "headword": "teacher",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtiːtʃər/",
+      "meaning": "先生；教師",
+      "exampleEn": "Our English teacher is very kind.",
+      "exampleJa": "私たちの英語の先生はとても親切です。",
+      "level": 1
+    },
+    {
+      "headword": "classmate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklæsmeɪt/",
+      "meaning": "クラスメート；同級生",
+      "exampleEn": "She is my classmate in this class.",
+      "exampleJa": "彼女はこのクラスの私のクラスメートです。",
+      "level": 1
+    },
+    {
+      "headword": "principal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɪnsəpl/",
+      "meaning": "校長",
+      "exampleEn": "The principal spoke at the ceremony.",
+      "exampleJa": "校長先生は式で話をしました。",
+      "level": 2
+    },
+    {
+      "headword": "club",
+      "partOfSpeech": "noun",
+      "phonetic": "/klʌb/",
+      "meaning": "部活動；クラブ",
+      "exampleEn": "I joined the art club last month.",
+      "exampleJa": "私は先月美術部に入りました。",
+      "level": 1
+    },
+    {
+      "headword": "team",
+      "partOfSpeech": "noun",
+      "phonetic": "/tiːm/",
+      "meaning": "チーム",
+      "exampleEn": "Our team practices every Tuesday.",
+      "exampleJa": "私たちのチームは毎週火曜日に練習します。",
+      "level": 1
+    },
+    {
+      "headword": "member",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmembər/",
+      "meaning": "部員；メンバー",
+      "exampleEn": "How many members are in your club?",
+      "exampleJa": "あなたのクラブには何人の部員がいますか。",
+      "level": 2
+    },
+    {
+      "headword": "captain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæptən/",
+      "meaning": "キャプテン；主将",
+      "exampleEn": "He is the captain of our team.",
+      "exampleJa": "彼はうちのチームのキャプテンです。",
+      "level": 2
+    },
+    {
+      "headword": "group",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡruːp/",
+      "meaning": "班；グループ",
+      "exampleEn": "We worked in groups of four.",
+      "exampleJa": "私たちは4人ずつの班で作業しました。",
+      "level": 1
+    },
+    {
+      "headword": "grade",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡreɪd/",
+      "meaning": "学年；成績",
+      "exampleEn": "My brother is in the second grade.",
+      "exampleJa": "私の弟は2年生です。",
+      "level": 1
+    },
+    {
+      "headword": "coach",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊtʃ/",
+      "meaning": "コーチ；監督",
+      "exampleEn": "Our coach teaches us every weekend.",
+      "exampleJa": "私たちのコーチは毎週末教えてくれます。",
+      "level": 2
+    },
+    {
+      "headword": "math",
+      "partOfSpeech": "noun",
+      "phonetic": "/mæθ/",
+      "meaning": "数学",
+      "exampleEn": "Math is my favorite subject.",
+      "exampleJa": "数学は私の一番好きな教科です。",
+      "level": 1
+    },
+    {
+      "headword": "science",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪəns/",
+      "meaning": "理科；科学",
+      "exampleEn": "We did an experiment in science class.",
+      "exampleJa": "私たちは理科の授業で実験をしました。",
+      "level": 1
+    },
+    {
+      "headword": "geography",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒiˈɑːɡrəfi/",
+      "meaning": "地理",
+      "exampleEn": "We study geography in social studies.",
+      "exampleJa": "私たちは社会科で地理を学びます。",
+      "level": 2
+    },
+    {
+      "headword": "art",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɑːrt/",
+      "meaning": "美術；芸術",
+      "exampleEn": "I drew a picture in art class.",
+      "exampleJa": "私は美術の授業で絵を描きました。",
+      "level": 1
+    },
+    {
+      "headword": "music",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmjuːzɪk/",
+      "meaning": "音楽",
+      "exampleEn": "We sang a song in music class.",
+      "exampleJa": "私たちは音楽の授業で歌を歌いました。",
+      "level": 1
+    },
+    {
+      "headword": "subject",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbdʒɪkt/",
+      "meaning": "教科；科目",
+      "exampleEn": "English is a difficult subject for me.",
+      "exampleJa": "英語は私には難しい教科です。",
+      "level": 2
+    },
+    {
+      "headword": "physical education",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "体育",
+      "exampleEn": "We play soccer in physical education.",
+      "exampleJa": "私たちは体育でサッカーをします。",
+      "level": 2
+    },
+    {
+      "headword": "social studies",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "社会科",
+      "exampleEn": "We have social studies on Monday.",
+      "exampleJa": "私たちは月曜日に社会科があります。",
+      "level": 2
+    },
+    {
+      "headword": "japanese",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒæpəˈniːz/",
+      "meaning": "日本語；国語",
+      "exampleEn": "I have Japanese class first period.",
+      "exampleJa": "1時間目は国語です。",
+      "level": 1
+    },
+    {
+      "headword": "english",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪŋɡlɪʃ/",
+      "meaning": "英語",
+      "exampleEn": "We study English every day at school.",
+      "exampleJa": "私たちは毎日学校で英語を勉強します。",
+      "level": 1
+    },
+    {
+      "headword": "home economics",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "家庭科",
+      "exampleEn": "We cook lunch in home economics.",
+      "exampleJa": "家庭科で昼食を作ります。",
+      "level": 3
+    },
+    {
+      "headword": "textbook",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtekstbʊk/",
+      "meaning": "教科書",
+      "exampleEn": "Open your textbook to page ten.",
+      "exampleJa": "教科書の10ページを開きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "notebook",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnoʊtbʊk/",
+      "meaning": "ノート",
+      "exampleEn": "Write the answer in your notebook.",
+      "exampleJa": "答えをノートに書きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "pencil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpensl/",
+      "meaning": "鉛筆",
+      "exampleEn": "May I borrow your pencil?",
+      "exampleJa": "鉛筆を貸してもらえますか。",
+      "level": 1
+    },
+    {
+      "headword": "eraser",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈreɪsər/",
+      "meaning": "消しゴム",
+      "exampleEn": "I dropped my eraser under the desk.",
+      "exampleJa": "消しゴムを机の下に落としました。",
+      "level": 1
+    },
+    {
+      "headword": "ruler",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈruːlər/",
+      "meaning": "定規",
+      "exampleEn": "Use a ruler to draw the line.",
+      "exampleJa": "定規を使って線を引きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "dictionary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪkʃəneri/",
+      "meaning": "辞書",
+      "exampleEn": "Look up the word in a dictionary.",
+      "exampleJa": "辞書でその単語を調べなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pen",
+      "partOfSpeech": "noun",
+      "phonetic": "/pen/",
+      "meaning": "ペン",
+      "exampleEn": "Please write your name in pen.",
+      "exampleJa": "ペンで名前を書いてください。",
+      "level": 1
+    },
+    {
+      "headword": "bag",
+      "partOfSpeech": "noun",
+      "phonetic": "/bæɡ/",
+      "meaning": "かばん",
+      "exampleEn": "Put your textbook back in your bag.",
+      "exampleJa": "教科書をかばんに戻しなさい。",
+      "level": 1
+    },
+    {
+      "headword": "calculator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkælkjuleɪtər/",
+      "meaning": "電卓",
+      "exampleEn": "We cannot use a calculator in math class.",
+      "exampleJa": "数学の授業では電卓を使えません。",
+      "level": 2
+    },
+    {
+      "headword": "chalk",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃɔːk/",
+      "meaning": "チョーク",
+      "exampleEn": "The teacher used chalk on the blackboard.",
+      "exampleJa": "先生は黒板でチョークを使いました。",
+      "level": 2
+    },
+    {
+      "headword": "pencil case",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "筆箱",
+      "exampleEn": "My pencil case is full of pens.",
+      "exampleJa": "私の筆箱はペンでいっぱいです。",
+      "level": 1
+    },
+    {
+      "headword": "backpack",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbækpæk/",
+      "meaning": "リュック；通学かばん",
+      "exampleEn": "He carries his textbooks in a backpack.",
+      "exampleJa": "彼はリュックに教科書を入れて運びます。",
+      "level": 2
+    },
+    {
+      "headword": "scissors",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪzərz/",
+      "meaning": "はさみ",
+      "exampleEn": "Be careful when you use the scissors.",
+      "exampleJa": "はさみを使うときは気をつけて。",
+      "level": 2
+    },
+    {
+      "headword": "homework",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhoʊmwɜːrk/",
+      "meaning": "宿題",
+      "exampleEn": "I finished my homework before dinner.",
+      "exampleJa": "夕食の前に宿題を終えました。",
+      "level": 1
+    },
+    {
+      "headword": "test",
+      "partOfSpeech": "noun",
+      "phonetic": "/test/",
+      "meaning": "テスト；試験",
+      "exampleEn": "We have a math test tomorrow.",
+      "exampleJa": "明日数学のテストがあります。",
+      "level": 1
+    },
+    {
+      "headword": "test",
+      "partOfSpeech": "verb",
+      "phonetic": "/test/",
+      "meaning": "試す；テストする",
+      "exampleEn": "The teacher will test us next week.",
+      "exampleJa": "先生は来週私たちをテストします。",
+      "level": 2
+    },
+    {
+      "headword": "lesson",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlesn/",
+      "meaning": "授業；レッスン",
+      "exampleEn": "Today's lesson is about world history.",
+      "exampleJa": "今日の授業は世界の歴史についてです。",
+      "level": 1
+    },
+    {
+      "headword": "question",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkwestʃən/",
+      "meaning": "質問；問題",
+      "exampleEn": "Please answer this question carefully.",
+      "exampleJa": "この質問に注意深く答えてください。",
+      "level": 1
+    },
+    {
+      "headword": "example",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪɡˈzæmpl/",
+      "meaning": "例",
+      "exampleEn": "Can you give me an example?",
+      "exampleJa": "例を挙げてもらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "mistake",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɪˈsteɪk/",
+      "meaning": "間違い",
+      "exampleEn": "Everyone makes mistakes sometimes.",
+      "exampleJa": "誰でも時には間違えるものです。",
+      "level": 2
+    },
+    {
+      "headword": "score",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɔːr/",
+      "meaning": "点数；得点",
+      "exampleEn": "I got a perfect score on the test.",
+      "exampleJa": "私はそのテストで満点を取りました。",
+      "level": 2
+    },
+    {
+      "headword": "report",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈpɔːrt/",
+      "meaning": "レポート；報告書",
+      "exampleEn": "I have to write a book report.",
+      "exampleJa": "私は読書感想文を書かなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "speech",
+      "partOfSpeech": "noun",
+      "phonetic": "/spiːtʃ/",
+      "meaning": "スピーチ；演説",
+      "exampleEn": "She gave a great speech in English class.",
+      "exampleJa": "彼女は英語の授業ですばらしいスピーチをしました。",
+      "level": 2
+    },
+    {
+      "headword": "exam",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪɡˈzæm/",
+      "meaning": "試験",
+      "exampleEn": "The exam covers three chapters.",
+      "exampleJa": "その試験は3つの章から出ます。",
+      "level": 2
+    },
+    {
+      "headword": "quiz",
+      "partOfSpeech": "noun",
+      "phonetic": "/kwɪz/",
+      "meaning": "小テスト；クイズ",
+      "exampleEn": "We had a science quiz this morning.",
+      "exampleJa": "今朝理科の小テストがありました。",
+      "level": 2
+    },
+    {
+      "headword": "essay",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeseɪ/",
+      "meaning": "作文；小論文",
+      "exampleEn": "Write an essay about your dream.",
+      "exampleJa": "あなたの夢について作文を書きなさい。",
+      "level": 3
+    },
+    {
+      "headword": "presentation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpriːzenˈteɪʃn/",
+      "meaning": "発表；プレゼンテーション",
+      "exampleEn": "Our group gave a presentation in class.",
+      "exampleJa": "私たちの班はクラスで発表をしました。",
+      "level": 3
+    },
+    {
+      "headword": "project",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːdʒekt/",
+      "meaning": "研究課題；プロジェクト",
+      "exampleEn": "We are working on a science project.",
+      "exampleJa": "私たちは理科の課題に取り組んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "point",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɔɪnt/",
+      "meaning": "点；得点",
+      "exampleEn": "You get one point for each answer.",
+      "exampleJa": "答え一つにつき1点もらえます。",
+      "level": 2
+    },
+    {
+      "headword": "result",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzʌlt/",
+      "meaning": "結果",
+      "exampleEn": "I am happy with my test results.",
+      "exampleJa": "テストの結果に満足しています。",
+      "level": 2
+    },
+    {
+      "headword": "effort",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈefərt/",
+      "meaning": "努力",
+      "exampleEn": "Your effort made a big difference.",
+      "exampleJa": "あなたの努力が大きな違いを生みました。",
+      "level": 3
+    },
+    {
+      "headword": "review",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvjuː/",
+      "meaning": "復習する；見直す",
+      "exampleEn": "Let's review the lesson before the test.",
+      "exampleJa": "テストの前に授業を復習しましょう。",
+      "level": 2
+    },
+    {
+      "headword": "correct",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəˈrekt/",
+      "meaning": "正しい",
+      "exampleEn": "Is my answer correct?",
+      "exampleJa": "私の答えは正しいですか。",
+      "level": 2
+    },
+    {
+      "headword": "festival",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfestɪvl/",
+      "meaning": "祭り；文化祭",
+      "exampleEn": "Our school festival is in October.",
+      "exampleJa": "文化祭は10月にあります。",
+      "level": 1
+    },
+    {
+      "headword": "trip",
+      "partOfSpeech": "noun",
+      "phonetic": "/trɪp/",
+      "meaning": "旅行；遠足",
+      "exampleEn": "We went on a school trip to Kyoto.",
+      "exampleJa": "私たちは京都へ修学旅行に行きました。",
+      "level": 1
+    },
+    {
+      "headword": "uniform",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːnɪfɔːrm/",
+      "meaning": "制服",
+      "exampleEn": "Students must wear a school uniform.",
+      "exampleJa": "生徒は制服を着なければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "vacation",
+      "partOfSpeech": "noun",
+      "phonetic": "/veɪˈkeɪʃn/",
+      "meaning": "休暇；休み",
+      "exampleEn": "I visited my grandmother during summer vacation.",
+      "exampleJa": "夏休みに祖母を訪ねました。",
+      "level": 1
+    },
+    {
+      "headword": "graduation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɡrædʒuˈeɪʃn/",
+      "meaning": "卒業；卒業式",
+      "exampleEn": "Graduation is coming very soon.",
+      "exampleJa": "卒業が間もなくやってきます。",
+      "level": 2
+    },
+    {
+      "headword": "ceremony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈserəmoʊni/",
+      "meaning": "式；式典",
+      "exampleEn": "The entrance ceremony starts at nine.",
+      "exampleJa": "入学式は9時に始まります。",
+      "level": 2
+    },
+    {
+      "headword": "camp",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæmp/",
+      "meaning": "キャンプ；合宿",
+      "exampleEn": "Our club has a summer training camp.",
+      "exampleJa": "私たちの部は夏に合宿があります。",
+      "level": 1
+    },
+    {
+      "headword": "assembly",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsembli/",
+      "meaning": "集会",
+      "exampleEn": "All students meet at the morning assembly.",
+      "exampleJa": "全生徒が朝の集会に集まります。",
+      "level": 3
+    },
+    {
+      "headword": "entrance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈentrəns/",
+      "meaning": "入り口；入学",
+      "exampleEn": "Meet me at the school entrance.",
+      "exampleJa": "校門の入り口で会いましょう。",
+      "level": 2
+    },
+    {
+      "headword": "farewell",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌferˈwel/",
+      "meaning": "別れ；送別",
+      "exampleEn": "We had a farewell party for our teacher.",
+      "exampleJa": "私たちは先生のためにお別れ会を開きました。",
+      "level": 3
+    },
+    {
+      "headword": "absent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæbsənt/",
+      "meaning": "欠席して",
+      "exampleEn": "He was absent from school yesterday.",
+      "exampleJa": "彼は昨日学校を欠席しました。",
+      "level": 2
+    },
+    {
+      "headword": "present",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpreznt/",
+      "meaning": "出席して",
+      "exampleEn": "Every student was present today.",
+      "exampleJa": "すべての生徒が今日出席していました。",
+      "level": 2
+    },
+    {
+      "headword": "graduate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɡrædʒueɪt/",
+      "meaning": "卒業する",
+      "exampleEn": "I will graduate from junior high next year.",
+      "exampleJa": "私は来年中学校を卒業します。",
+      "level": 2
+    },
+    {
+      "headword": "field trip",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "遠足；社会科見学",
+      "exampleEn": "Our field trip is to the museum.",
+      "exampleJa": "私たちの遠足は博物館です。",
+      "level": 2
+    },
+    {
+      "headword": "word",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɜːrd/",
+      "meaning": "単語；言葉",
+      "exampleEn": "I learned a new word today.",
+      "exampleJa": "今日新しい単語を1つ覚えました。",
+      "level": 1
+    },
+    {
+      "headword": "sentence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsentəns/",
+      "meaning": "文",
+      "exampleEn": "Make a sentence using this word.",
+      "exampleJa": "この単語を使って文を作りなさい。",
+      "level": 1
+    },
+    {
+      "headword": "page",
+      "partOfSpeech": "noun",
+      "phonetic": "/peɪdʒ/",
+      "meaning": "ページ",
+      "exampleEn": "Turn to page fifty in your textbook.",
+      "exampleJa": "教科書の50ページを開いてください。",
+      "level": 1
+    },
+    {
+      "headword": "story",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstɔːri/",
+      "meaning": "物語；話",
+      "exampleEn": "This story has a happy ending.",
+      "exampleJa": "この物語はハッピーエンドです。",
+      "level": 1
+    },
+    {
+      "headword": "letter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈletər/",
+      "meaning": "文字；手紙",
+      "exampleEn": "Write your name in capital letters.",
+      "exampleJa": "名前を大文字で書きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "paragraph",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpærəɡræf/",
+      "meaning": "段落",
+      "exampleEn": "Read the first paragraph carefully.",
+      "exampleJa": "最初の段落を注意深く読みなさい。",
+      "level": 3
+    },
+    {
+      "headword": "chapter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃæptər/",
+      "meaning": "章",
+      "exampleEn": "We finished chapter two of the textbook.",
+      "exampleJa": "私たちは教科書の2章を終えました。",
+      "level": 2
+    },
+    {
+      "headword": "title",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtaɪtl/",
+      "meaning": "題名；タイトル",
+      "exampleEn": "What is the title of this book?",
+      "exampleJa": "この本の題名は何ですか。",
+      "level": 2
+    },
+    {
+      "headword": "line",
+      "partOfSpeech": "noun",
+      "phonetic": "/laɪn/",
+      "meaning": "行；線",
+      "exampleEn": "Read the next line, please.",
+      "exampleJa": "次の行を読んでください。",
+      "level": 2
+    },
+    {
+      "headword": "class",
+      "partOfSpeech": "noun",
+      "phonetic": "/klæs/",
+      "meaning": "授業；クラス",
+      "exampleEn": "Our English class starts at nine.",
+      "exampleJa": "英語の授業は9時に始まります。",
+      "level": 1
+    },
+    {
+      "headword": "sports day",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "体育祭",
+      "exampleEn": "We practice hard for sports day.",
+      "exampleJa": "私たちは体育祭に向けて一生懸命練習します。",
+      "level": 2
+    },
+    {
+      "headword": "chorus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɔːrəs/",
+      "meaning": "合唱",
+      "exampleEn": "Our class won the chorus contest.",
+      "exampleJa": "私たちのクラスは合唱コンクールで優勝しました。",
+      "level": 2
+    },
+    {
+      "headword": "contest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntest/",
+      "meaning": "コンテスト；コンクール",
+      "exampleEn": "She won first prize in the speech contest.",
+      "exampleJa": "彼女はスピーチコンテストで優勝しました。",
+      "level": 2
+    },
+    {
+      "headword": "seat",
+      "partOfSpeech": "noun",
+      "phonetic": "/siːt/",
+      "meaning": "席",
+      "exampleEn": "Please take your seat quickly.",
+      "exampleJa": "早く席に着いてください。",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "chunk": "01_function_words",
+  "note": "機能語（代名詞・冠詞・前置詞・接続詞・疑問詞・数量表現・間投詞）",
+  "words": [
+    {
+      "headword": "i",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/aɪ/",
+      "meaning": "私は",
+      "exampleEn": "I like this song.",
+      "exampleJa": "私はこの歌が好きです。",
+      "level": 1
+    },
+    {
+      "headword": "my",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/maɪ/",
+      "meaning": "私の",
+      "exampleEn": "This is my bag.",
+      "exampleJa": "これは私のかばんです。",
+      "level": 1
+    },
+    {
+      "headword": "me",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/miː/",
+      "meaning": "私を；私に",
+      "exampleEn": "Please call me tonight.",
+      "exampleJa": "今夜私に電話してください。",
+      "level": 1
+    },
+    {
+      "headword": "mine",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/maɪn/",
+      "meaning": "私のもの",
+      "exampleEn": "This pen is mine.",
+      "exampleJa": "このペンは私のものです。",
+      "level": 2
+    },
+    {
+      "headword": "myself",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/maɪˈself/",
+      "meaning": "私自身",
+      "exampleEn": "I made this cake myself.",
+      "exampleJa": "私はこのケーキを自分で作りました。",
+      "level": 2
+    },
+    {
+      "headword": "you",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/juː/",
+      "meaning": "あなたは；あなたを",
+      "exampleEn": "I need you now.",
+      "exampleJa": "今あなたが必要です。",
+      "level": 1
+    },
+    {
+      "headword": "your",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/jɔːr/",
+      "meaning": "あなたの",
+      "exampleEn": "Is this your umbrella?",
+      "exampleJa": "これはあなたのかさですか。",
+      "level": 1
+    },
+    {
+      "headword": "yours",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/jɔːrz/",
+      "meaning": "あなたのもの",
+      "exampleEn": "Is this bike yours?",
+      "exampleJa": "この自転車はあなたのものですか。",
+      "level": 2
+    },
+    {
+      "headword": "yourself",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/jɔːrˈself/",
+      "meaning": "あなた自身",
+      "exampleEn": "Take care of yourself.",
+      "exampleJa": "お体を大事にしてください。",
+      "level": 2
+    },
+    {
+      "headword": "he",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hiː/",
+      "meaning": "彼は",
+      "exampleEn": "He plays soccer well.",
+      "exampleJa": "彼はサッカーが上手です。",
+      "level": 1
+    },
+    {
+      "headword": "his",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hɪz/",
+      "meaning": "彼の；彼のもの",
+      "exampleEn": "This is his bike.",
+      "exampleJa": "これは彼の自転車です。",
+      "level": 1
+    },
+    {
+      "headword": "him",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hɪm/",
+      "meaning": "彼を；彼に",
+      "exampleEn": "I gave him a present.",
+      "exampleJa": "私は彼にプレゼントをあげました。",
+      "level": 1
+    },
+    {
+      "headword": "himself",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hɪmˈself/",
+      "meaning": "彼自身",
+      "exampleEn": "He hurt himself yesterday.",
+      "exampleJa": "彼は昨日けがをしました。",
+      "level": 2
+    },
+    {
+      "headword": "she",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ʃiː/",
+      "meaning": "彼女は",
+      "exampleEn": "She sings very well.",
+      "exampleJa": "彼女はとても上手に歌います。",
+      "level": 1
+    },
+    {
+      "headword": "her",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hɜːr/",
+      "meaning": "彼女の；彼女を［に］",
+      "exampleEn": "I called her this morning.",
+      "exampleJa": "今朝彼女に電話しました。",
+      "level": 1
+    },
+    {
+      "headword": "hers",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hɜːrz/",
+      "meaning": "彼女のもの",
+      "exampleEn": "That red coat is hers.",
+      "exampleJa": "あの赤いコートは彼女のものです。",
+      "level": 2
+    },
+    {
+      "headword": "herself",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/hɜːrˈself/",
+      "meaning": "彼女自身",
+      "exampleEn": "She introduced herself to us.",
+      "exampleJa": "彼女は私たちに自己紹介しました。",
+      "level": 2
+    },
+    {
+      "headword": "it",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ɪt/",
+      "meaning": "それは；それを",
+      "exampleEn": "It is very hot today.",
+      "exampleJa": "今日はとても暑いです。",
+      "level": 1
+    },
+    {
+      "headword": "its",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ɪts/",
+      "meaning": "それの",
+      "exampleEn": "The cat washed its face.",
+      "exampleJa": "その猫は顔を洗いました。",
+      "level": 1
+    },
+    {
+      "headword": "itself",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ɪtˈself/",
+      "meaning": "それ自身",
+      "exampleEn": "The door closed by itself.",
+      "exampleJa": "ドアはひとりでに閉まりました。",
+      "level": 2
+    },
+    {
+      "headword": "we",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/wiː/",
+      "meaning": "私たちは",
+      "exampleEn": "We live near the park.",
+      "exampleJa": "私たちは公園の近くに住んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "our",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈaʊər/",
+      "meaning": "私たちの",
+      "exampleEn": "This is our classroom.",
+      "exampleJa": "これは私たちの教室です。",
+      "level": 1
+    },
+    {
+      "headword": "us",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ʌs/",
+      "meaning": "私たちを［に］",
+      "exampleEn": "Please join us for lunch.",
+      "exampleJa": "私たちと昼食をご一緒にどうぞ。",
+      "level": 1
+    },
+    {
+      "headword": "ours",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈaʊərz/",
+      "meaning": "私たちのもの",
+      "exampleEn": "That table over there is ours.",
+      "exampleJa": "あそこのテーブルは私たちのものです。",
+      "level": 2
+    },
+    {
+      "headword": "ourselves",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˌaʊərˈselvz/",
+      "meaning": "私たち自身",
+      "exampleEn": "We enjoyed ourselves at the beach.",
+      "exampleJa": "私たちは浜辺で楽しく過ごしました。",
+      "level": 2
+    },
+    {
+      "headword": "they",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðeɪ/",
+      "meaning": "彼らは；それらは",
+      "exampleEn": "They live in Osaka.",
+      "exampleJa": "彼らは大阪に住んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "their",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðer/",
+      "meaning": "彼らの；それらの",
+      "exampleEn": "Their house is very big.",
+      "exampleJa": "彼らの家はとても大きいです。",
+      "level": 1
+    },
+    {
+      "headword": "them",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðem/",
+      "meaning": "彼らを［に］；それらを［に］",
+      "exampleEn": "I will call them later.",
+      "exampleJa": "後で彼らに電話します。",
+      "level": 1
+    },
+    {
+      "headword": "theirs",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðerz/",
+      "meaning": "彼らのもの",
+      "exampleEn": "This idea was theirs first.",
+      "exampleJa": "この考えはもともと彼らのものでした。",
+      "level": 2
+    },
+    {
+      "headword": "themselves",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðəmˈselvz/",
+      "meaning": "彼ら自身",
+      "exampleEn": "The kids cleaned the room themselves.",
+      "exampleJa": "子どもたちは自分たちで部屋を掃除しました。",
+      "level": 2
+    },
+    {
+      "headword": "this",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðɪs/",
+      "meaning": "これは；この",
+      "exampleEn": "This is my favorite book.",
+      "exampleJa": "これは私のいちばん好きな本です。",
+      "level": 1
+    },
+    {
+      "headword": "that",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðæt/",
+      "meaning": "あれは；あの",
+      "exampleEn": "That is a beautiful picture.",
+      "exampleJa": "あれは美しい絵です。",
+      "level": 1
+    },
+    {
+      "headword": "these",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðiːz/",
+      "meaning": "これらは；これらの",
+      "exampleEn": "These shoes are too small.",
+      "exampleJa": "これらの靴は小さすぎます。",
+      "level": 1
+    },
+    {
+      "headword": "those",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ðoʊz/",
+      "meaning": "あれらは；あれらの",
+      "exampleEn": "Those boxes are very heavy.",
+      "exampleJa": "あの箱はとても重いです。",
+      "level": 1
+    },
+    {
+      "headword": "something",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈsʌmθɪŋ/",
+      "meaning": "何か",
+      "exampleEn": "I want to eat something sweet.",
+      "exampleJa": "何か甘いものが食べたいです。",
+      "level": 2
+    },
+    {
+      "headword": "anything",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈeniθɪŋ/",
+      "meaning": "何か；（否定文で）何も",
+      "exampleEn": "Did you buy anything at the store?",
+      "exampleJa": "その店で何か買いましたか。",
+      "level": 2
+    },
+    {
+      "headword": "nothing",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈnʌθɪŋ/",
+      "meaning": "何も〜ない",
+      "exampleEn": "There is nothing in the box.",
+      "exampleJa": "箱の中には何もありません。",
+      "level": 2
+    },
+    {
+      "headword": "everything",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈevriθɪŋ/",
+      "meaning": "すべてのこと；すべてのもの",
+      "exampleEn": "Everything looks fine to me.",
+      "exampleJa": "私にはすべて順調に見えます。",
+      "level": 2
+    },
+    {
+      "headword": "anyone",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈeniwʌn/",
+      "meaning": "だれか；（否定文で）だれも",
+      "exampleEn": "Is anyone home right now?",
+      "exampleJa": "今だれか家にいますか。",
+      "level": 2
+    },
+    {
+      "headword": "everyone",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/ˈevriwʌn/",
+      "meaning": "みんな；だれもが",
+      "exampleEn": "Everyone enjoyed the school festival.",
+      "exampleJa": "みんなが学園祭を楽しみました。",
+      "level": 2
+    },
+    {
+      "headword": "no one",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "だれも〜ない",
+      "exampleEn": "No one answered the phone.",
+      "exampleJa": "だれも電話に出ませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "each other",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "お互い",
+      "exampleEn": "They help each other every day.",
+      "exampleJa": "彼らは毎日お互いを助け合っています。",
+      "level": 2
+    },
+    {
+      "headword": "a",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ə/",
+      "meaning": "ひとつの（数えられる名詞の単数形につける）",
+      "exampleEn": "I saw a cat in the garden.",
+      "exampleJa": "庭で猫を1匹見ました。",
+      "level": 1
+    },
+    {
+      "headword": "the",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ðə/",
+      "meaning": "その（すでに話題になったものにつける）",
+      "exampleEn": "Please open the window.",
+      "exampleJa": "窓を開けてください。",
+      "level": 1
+    },
+    {
+      "headword": "some",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sʌm/",
+      "meaning": "いくつかの；いくらかの",
+      "exampleEn": "There is some milk in the fridge.",
+      "exampleJa": "冷蔵庫に牛乳が少しあります。",
+      "level": 1
+    },
+    {
+      "headword": "any",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeni/",
+      "meaning": "いくつかの；どんな〜も（疑問・否定文で）",
+      "exampleEn": "Do you have any questions?",
+      "exampleJa": "何か質問はありますか。",
+      "level": 1
+    },
+    {
+      "headword": "every",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈevri/",
+      "meaning": "すべての；〜ごとに",
+      "exampleEn": "I brush my teeth every morning.",
+      "exampleJa": "私は毎朝歯をみがきます。",
+      "level": 1
+    },
+    {
+      "headword": "both",
+      "partOfSpeech": "adjective",
+      "phonetic": "/boʊθ/",
+      "meaning": "両方の；両方とも",
+      "exampleEn": "Both books are interesting.",
+      "exampleJa": "両方の本ともおもしろいです。",
+      "level": 1
+    },
+    {
+      "headword": "all",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɔːl/",
+      "meaning": "すべての；みんな",
+      "exampleEn": "All students must wear a hat.",
+      "exampleJa": "すべての生徒は帽子をかぶらなければなりません。",
+      "level": 1
+    },
+    {
+      "headword": "another",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈnʌðər/",
+      "meaning": "もうひとつの；別の",
+      "exampleEn": "Can I have another cup of tea?",
+      "exampleJa": "お茶をもう一杯もらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "in",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ɪn/",
+      "meaning": "〜の中に；〜（年・月など）に",
+      "exampleEn": "There are many fish in the lake.",
+      "exampleJa": "湖にはたくさんの魚がいます。",
+      "level": 1
+    },
+    {
+      "headword": "on",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ɑːn/",
+      "meaning": "〜の上に；〜（曜日・日付）に",
+      "exampleEn": "Put the book on the desk.",
+      "exampleJa": "机の上に本を置いてください。",
+      "level": 1
+    },
+    {
+      "headword": "at",
+      "partOfSpeech": "preposition",
+      "phonetic": "/æt/",
+      "meaning": "〜（時刻・場所）に",
+      "exampleEn": "We arrived at the airport at noon.",
+      "exampleJa": "私たちは正午に空港に着きました。",
+      "level": 1
+    },
+    {
+      "headword": "to",
+      "partOfSpeech": "preposition",
+      "phonetic": "/tuː/",
+      "meaning": "〜へ；〜に",
+      "exampleEn": "She walked to the station alone.",
+      "exampleJa": "彼女は一人で駅まで歩きました。",
+      "level": 1
+    },
+    {
+      "headword": "for",
+      "partOfSpeech": "preposition",
+      "phonetic": "/fɔːr/",
+      "meaning": "〜のために；〜の間",
+      "exampleEn": "This gift is for you.",
+      "exampleJa": "このプレゼントはあなたのためのものです。",
+      "level": 1
+    },
+    {
+      "headword": "with",
+      "partOfSpeech": "preposition",
+      "phonetic": "/wɪð/",
+      "meaning": "〜といっしょに；〜を使って",
+      "exampleEn": "I went to the zoo with my sister.",
+      "exampleJa": "妹といっしょに動物園へ行きました。",
+      "level": 1
+    },
+    {
+      "headword": "from",
+      "partOfSpeech": "preposition",
+      "phonetic": "/frʌm/",
+      "meaning": "〜から",
+      "exampleEn": "This letter is from my grandmother.",
+      "exampleJa": "この手紙は祖母からです。",
+      "level": 1
+    },
+    {
+      "headword": "by",
+      "partOfSpeech": "preposition",
+      "phonetic": "/baɪ/",
+      "meaning": "〜のそばに；〜によって",
+      "exampleEn": "She sat by the window quietly.",
+      "exampleJa": "彼女は静かに窓のそばに座りました。",
+      "level": 1
+    },
+    {
+      "headword": "about",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈbaʊt/",
+      "meaning": "〜について；およそ",
+      "exampleEn": "Let's talk about our summer plans.",
+      "exampleJa": "夏の計画について話しましょう。",
+      "level": 1
+    },
+    {
+      "headword": "without",
+      "partOfSpeech": "preposition",
+      "phonetic": "/wɪˈðaʊt/",
+      "meaning": "〜なしで",
+      "exampleEn": "Don't go out without your coat.",
+      "exampleJa": "コートなしで外出しないで。",
+      "level": 2
+    },
+    {
+      "headword": "and",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ænd/",
+      "meaning": "〜と；そして",
+      "exampleEn": "I bought bread and milk.",
+      "exampleJa": "パンと牛乳を買いました。",
+      "level": 1
+    },
+    {
+      "headword": "but",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/bʌt/",
+      "meaning": "しかし；でも",
+      "exampleEn": "The bag is small but heavy.",
+      "exampleJa": "そのかばんは小さいけれど重いです。",
+      "level": 1
+    },
+    {
+      "headword": "if",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ɪf/",
+      "meaning": "もし〜なら",
+      "exampleEn": "If it rains, we will stay home.",
+      "exampleJa": "もし雨が降ったら家にいます。",
+      "level": 1
+    },
+    {
+      "headword": "when",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/wen/",
+      "meaning": "〜するとき",
+      "exampleEn": "Wash your hands when you get home.",
+      "exampleJa": "帰宅したら手を洗いなさい。",
+      "level": 1
+    },
+    {
+      "headword": "while",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/waɪl/",
+      "meaning": "〜している間に",
+      "exampleEn": "She called me while I was cooking.",
+      "exampleJa": "料理をしている間に彼女から電話がありました。",
+      "level": 2
+    },
+    {
+      "headword": "though",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ðoʊ/",
+      "meaning": "〜だけれども",
+      "exampleEn": "Though he was tired, he kept running.",
+      "exampleJa": "疲れていたけれど、彼は走り続けました。",
+      "level": 3
+    },
+    {
+      "headword": "until",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ənˈtɪl/",
+      "meaning": "〜まで（ずっと）",
+      "exampleEn": "We waited until the rain stopped.",
+      "exampleJa": "雨がやむまで待ちました。",
+      "level": 2
+    },
+    {
+      "headword": "since",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/sɪns/",
+      "meaning": "〜以来；〜なので",
+      "exampleEn": "I have lived here since last spring.",
+      "exampleJa": "去年の春からここに住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "than",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ðæn/",
+      "meaning": "〜より（比較して）",
+      "exampleEn": "This bag is heavier than that one.",
+      "exampleJa": "このかばんはあれより重いです。",
+      "level": 2
+    },
+    {
+      "headword": "who",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/huː/",
+      "meaning": "だれが；だれを",
+      "exampleEn": "Who is that man over there?",
+      "exampleJa": "あそこにいるあの男の人はだれですか。",
+      "level": 1
+    },
+    {
+      "headword": "what",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/wʌt/",
+      "meaning": "何が；何を",
+      "exampleEn": "What do you want for lunch?",
+      "exampleJa": "昼食に何が食べたいですか。",
+      "level": 1
+    },
+    {
+      "headword": "which",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/wɪtʃ/",
+      "meaning": "どちらが；どの",
+      "exampleEn": "Which bag is yours, this or that?",
+      "exampleJa": "どちらのかばんがあなたのですか。",
+      "level": 1
+    },
+    {
+      "headword": "whose",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/huːz/",
+      "meaning": "だれの",
+      "exampleEn": "Whose notebook is this on the desk?",
+      "exampleJa": "机の上のこのノートはだれのですか。",
+      "level": 2
+    },
+    {
+      "headword": "how",
+      "partOfSpeech": "adverb",
+      "phonetic": "/haʊ/",
+      "meaning": "どのように；どれくらい",
+      "exampleEn": "How did you solve this problem?",
+      "exampleJa": "どうやってこの問題を解いたのですか。",
+      "level": 1
+    },
+    {
+      "headword": "why",
+      "partOfSpeech": "adverb",
+      "phonetic": "/waɪ/",
+      "meaning": "なぜ",
+      "exampleEn": "Why were you late for school?",
+      "exampleJa": "なぜ学校に遅刻したのですか。",
+      "level": 1
+    },
+    {
+      "headword": "where",
+      "partOfSpeech": "adverb",
+      "phonetic": "/wer/",
+      "meaning": "どこに；どこで",
+      "exampleEn": "Where did you leave your key?",
+      "exampleJa": "かぎをどこに置き忘れましたか。",
+      "level": 1
+    },
+    {
+      "headword": "many",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmeni/",
+      "meaning": "多くの（数えられる名詞に）",
+      "exampleEn": "Many students joined the club.",
+      "exampleJa": "多くの生徒がその部活に入りました。",
+      "level": 1
+    },
+    {
+      "headword": "much",
+      "partOfSpeech": "adjective",
+      "phonetic": "/mʌtʃ/",
+      "meaning": "多くの（数えられない名詞に）",
+      "exampleEn": "I don't have much time today.",
+      "exampleJa": "今日はあまり時間がありません。",
+      "level": 1
+    },
+    {
+      "headword": "few",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fjuː/",
+      "meaning": "ほとんど〜ない（数えられる名詞に）",
+      "exampleEn": "Few people were at the park.",
+      "exampleJa": "公園にはほとんど人がいませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "several",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsevrəl/",
+      "meaning": "いくつかの",
+      "exampleEn": "She has visited several countries.",
+      "exampleJa": "彼女はいくつかの国を訪れたことがあります。",
+      "level": 2
+    },
+    {
+      "headword": "most",
+      "partOfSpeech": "adjective",
+      "phonetic": "/moʊst/",
+      "meaning": "ほとんどの；いちばん多くの",
+      "exampleEn": "Most students walk to school.",
+      "exampleJa": "ほとんどの生徒は歩いて学校に行きます。",
+      "level": 2
+    },
+    {
+      "headword": "can",
+      "partOfSpeech": "verb",
+      "phonetic": "/kæn/",
+      "meaning": "〜できる",
+      "exampleEn": "I can swim very fast.",
+      "exampleJa": "私はとても速く泳げます。",
+      "level": 1
+    },
+    {
+      "headword": "will",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɪl/",
+      "meaning": "〜するつもりだ；〜だろう",
+      "exampleEn": "I will call you tomorrow.",
+      "exampleJa": "明日あなたに電話するつもりです。",
+      "level": 1
+    },
+    {
+      "headword": "must",
+      "partOfSpeech": "verb",
+      "phonetic": "/mʌst/",
+      "meaning": "〜しなければならない",
+      "exampleEn": "You must finish your homework.",
+      "exampleJa": "宿題を終えなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "yes",
+      "partOfSpeech": "interjection",
+      "phonetic": "/jes/",
+      "meaning": "はい",
+      "exampleEn": "Yes, I really like this song.",
+      "exampleJa": "はい、私はこの歌が本当に好きです。",
+      "level": 1
+    },
+    {
+      "headword": "no",
+      "partOfSpeech": "interjection",
+      "phonetic": "/noʊ/",
+      "meaning": "いいえ",
+      "exampleEn": "No, I have not seen that movie.",
+      "exampleJa": "いいえ、その映画は見ていません。",
+      "level": 1
+    },
+    {
+      "headword": "well",
+      "partOfSpeech": "interjection",
+      "phonetic": "/wel/",
+      "meaning": "ええと；まあ",
+      "exampleEn": "Well, let's start the meeting now.",
+      "exampleJa": "ええと、では会議を始めましょう。",
+      "level": 1
+    },
+    {
+      "headword": "oh",
+      "partOfSpeech": "interjection",
+      "phonetic": "/oʊ/",
+      "meaning": "ああ；おや",
+      "exampleEn": "Oh, I forgot my umbrella again!",
+      "exampleJa": "ああ、またかさを忘れました。",
+      "level": 1
+    },
+    {
+      "headword": "please",
+      "partOfSpeech": "interjection",
+      "phonetic": "/pliːz/",
+      "meaning": "どうぞ；お願いします",
+      "exampleEn": "Please close the door quietly.",
+      "exampleJa": "どうぞ静かにドアを閉めてください。",
+      "level": 1
+    },
+    {
+      "headword": "thank you",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ありがとう",
+      "exampleEn": "Thank you for your kind help.",
+      "exampleJa": "親切な助けをありがとうございます。",
+      "level": 1
+    }
+  ]
+}

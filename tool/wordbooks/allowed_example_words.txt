@@ -1,0 +1,90 @@
+# 例文に出てよい語（[Docs/06_features/wordbooks.md] §3.2）。
+#
+# 例文は「その語のレベルで読める語彙だけで構成する」ので、ビルドツールは
+# 例文の語が「単語帳の見出し語（＋機械で広げた活用形）」に収まっているかを見る。
+# ここには、その機械的な展開では拾えないものだけを置く。
+#
+#   - 不規則な活用形（went / bought / children）
+#   - 例文に使う固有名詞（人名・地名・言語名）
+#   - 綴りが変わる派生形（happiness / really）
+#
+# ここに語を足すのは「見出し語に入れない」と決めたときだけにする。
+# 単語帳に入れるべき語を、警告を消す目的でここに逃がさない。
+
+# --- be動詞・助動詞の変化形 ---
+am is are was were been being
+do does did done doing
+have has had having
+will would shall should can could may might must
+don't doesn't didn't isn't aren't wasn't weren't
+can't couldn't won't wouldn't shouldn't mustn't
+i'm you're he's she's it's we're they're
+i've you've we've they've
+i'll you'll he'll she'll we'll they'll
+i'd you'd he'd she'd we'd they'd
+let's
+
+# --- 代名詞・限定詞 ---
+i me my mine myself
+you your yours yourself yourselves
+he him his himself
+she her hers herself
+it its itself
+we us our ours ourselves
+they them their theirs themselves
+this that these those
+who whom whose which what
+a an the
+some any no every each other another both all
+one ones something anything nothing everything
+someone anyone everyone nobody
+somewhere anywhere everywhere
+
+# --- 不規則な過去形・過去分詞 ---
+went gone came become became
+ate eaten drank drunk
+bought brought caught taught thought
+said told found got gotten
+made met paid put read run ran
+saw seen sat stood spoke spoken
+took taken gave given knew known
+wrote written spent sent sold slept
+began begun broke broken chose chosen
+drove driven fell fallen felt flew flown
+forgot forgotten grew grown heard held kept
+left lent lost meant rode ridden rose risen
+sang sung swam swum threw thrown understood
+wore worn won woke woken built lay lain led
+kept sought shone shot slid spread stuck struck
+swept swung tore torn wound
+
+# --- 不規則な複数形 ---
+children men women feet teeth mice geese people
+
+# --- 綴りが変わる派生形・よく使う副詞 ---
+really truly easily happily busily angrily luckily
+happiness kindness business
+better best worse worst more most less least
+much many little few
+very too so just only even still already yet
+again once twice
+here there now then today tomorrow yesterday tonight
+always usually often sometimes never
+please thank thanks yes yeah ok okay hi hello bye
+sorry excuse
+of to in on at by for with from into about after before
+during through over under between among around across
+up down out off away back
+and but or if because when while until since though
+than as that whether
+
+# --- 例文に使う固有名詞 ---
+ken yuki emi taro hana aki mika sora riku yuta
+tom mary john lisa bob anna sam kate
+japan japanese english america american
+tokyo osaka kyoto okinawa hokkaido
+china chinese korea korean france french canada australia
+mr ms mrs
+monday tuesday wednesday thursday friday saturday sunday
+january february march april may june
+july august september october november december
