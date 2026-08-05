@@ -1,0 +1,861 @@
+{
+  "chunk": "12_time_weather",
+  "note": "時間・天気・季節・数・単位",
+  "words": [
+    {
+      "headword": "time",
+      "partOfSpeech": "noun",
+      "phonetic": "/taɪm/",
+      "meaning": "時間；時刻",
+      "exampleEn": "I don't have much time now.",
+      "exampleJa": "私は今あまり時間がありません。",
+      "level": 1
+    },
+    {
+      "headword": "hour",
+      "partOfSpeech": "noun",
+      "phonetic": "/aʊər/",
+      "meaning": "時間（1時間）",
+      "exampleEn": "The trip takes about one hour.",
+      "exampleJa": "その旅行は約1時間かかります。",
+      "level": 1
+    },
+    {
+      "headword": "minute",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪnɪt/",
+      "meaning": "分（時間の単位）",
+      "exampleEn": "Please wait for five minutes.",
+      "exampleJa": "5分待ってください。",
+      "level": 1
+    },
+    {
+      "headword": "second",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsekənd/",
+      "meaning": "秒",
+      "exampleEn": "Please wait for just ten seconds.",
+      "exampleJa": "10秒だけ待ってください。",
+      "level": 2
+    },
+    {
+      "headword": "day",
+      "partOfSpeech": "noun",
+      "phonetic": "/deɪ/",
+      "meaning": "日；1日",
+      "exampleEn": "I brush my teeth every day.",
+      "exampleJa": "私は毎日歯を磨きます。",
+      "level": 1
+    },
+    {
+      "headword": "week",
+      "partOfSpeech": "noun",
+      "phonetic": "/wiːk/",
+      "meaning": "週；1週間",
+      "exampleEn": "I clean my room once a week.",
+      "exampleJa": "私は週に1度、自分の部屋を掃除します。",
+      "level": 1
+    },
+    {
+      "headword": "month",
+      "partOfSpeech": "noun",
+      "phonetic": "/mʌnθ/",
+      "meaning": "月（1か月）",
+      "exampleEn": "We have a test every month.",
+      "exampleJa": "私たちは毎月テストがあります。",
+      "level": 1
+    },
+    {
+      "headword": "year",
+      "partOfSpeech": "noun",
+      "phonetic": "/jɪr/",
+      "meaning": "年；1年",
+      "exampleEn": "I study English every year.",
+      "exampleJa": "私は毎年英語を勉強します。",
+      "level": 1
+    },
+    {
+      "headword": "morning",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɔːrnɪŋ/",
+      "meaning": "朝；午前",
+      "exampleEn": "I get up early in the morning.",
+      "exampleJa": "私は朝早く起きます。",
+      "level": 1
+    },
+    {
+      "headword": "afternoon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæftərˈnuːn/",
+      "meaning": "午後",
+      "exampleEn": "I do my homework in the afternoon.",
+      "exampleJa": "私は午後に宿題をします。",
+      "level": 1
+    },
+    {
+      "headword": "evening",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈiːvnɪŋ/",
+      "meaning": "夕方；晩",
+      "exampleEn": "We eat dinner in the evening.",
+      "exampleJa": "私たちは夕方に夕食を食べます。",
+      "level": 1
+    },
+    {
+      "headword": "night",
+      "partOfSpeech": "noun",
+      "phonetic": "/naɪt/",
+      "meaning": "夜",
+      "exampleEn": "The stars are beautiful at night.",
+      "exampleJa": "夜は星が美しいです。",
+      "level": 1
+    },
+    {
+      "headword": "noon",
+      "partOfSpeech": "noun",
+      "phonetic": "/nuːn/",
+      "meaning": "正午",
+      "exampleEn": "We ate lunch at noon.",
+      "exampleJa": "私たちは正午に昼食を食べました。",
+      "level": 2
+    },
+    {
+      "headword": "midnight",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪdnaɪt/",
+      "meaning": "真夜中；午前0時",
+      "exampleEn": "She came home after midnight.",
+      "exampleJa": "彼女は真夜中過ぎに帰宅しました。",
+      "level": 2
+    },
+    {
+      "headword": "date",
+      "partOfSpeech": "noun",
+      "phonetic": "/deɪt/",
+      "meaning": "日付",
+      "exampleEn": "What is the date today?",
+      "exampleJa": "今日は何日ですか。",
+      "level": 1
+    },
+    {
+      "headword": "century",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsentʃəri/",
+      "meaning": "世紀",
+      "exampleEn": "This building has stood for a century.",
+      "exampleJa": "この建物は1世紀もの間建っています。",
+      "level": 3
+    },
+    {
+      "headword": "moment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmoʊmənt/",
+      "meaning": "瞬間；ちょっとの間",
+      "exampleEn": "Please wait for a moment.",
+      "exampleJa": "少々お待ちください。",
+      "level": 2
+    },
+    {
+      "headword": "monday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌndeɪ/",
+      "meaning": "月曜日",
+      "exampleEn": "We have math class on Monday.",
+      "exampleJa": "月曜日に数学の授業があります。",
+      "level": 1
+    },
+    {
+      "headword": "tuesday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtuːzdeɪ/",
+      "meaning": "火曜日",
+      "exampleEn": "The museum is closed on Tuesday.",
+      "exampleJa": "その美術館は火曜日は休みです。",
+      "level": 1
+    },
+    {
+      "headword": "wednesday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwenzdeɪ/",
+      "meaning": "水曜日",
+      "exampleEn": "We clean our classroom on Wednesday.",
+      "exampleJa": "私たちは水曜日に教室を掃除します。",
+      "level": 1
+    },
+    {
+      "headword": "thursday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθɜːrzdeɪ/",
+      "meaning": "木曜日",
+      "exampleEn": "We have art class on Thursday.",
+      "exampleJa": "私たちは木曜日に美術の授業があります。",
+      "level": 1
+    },
+    {
+      "headword": "friday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfraɪdeɪ/",
+      "meaning": "金曜日",
+      "exampleEn": "We go home early on Friday.",
+      "exampleJa": "私たちは金曜日は早く帰宅します。",
+      "level": 1
+    },
+    {
+      "headword": "saturday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsætərdeɪ/",
+      "meaning": "土曜日",
+      "exampleEn": "I clean my room on Saturday morning.",
+      "exampleJa": "私は土曜日の朝に部屋を掃除します。",
+      "level": 1
+    },
+    {
+      "headword": "sunday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌndeɪ/",
+      "meaning": "日曜日",
+      "exampleEn": "We visit our grandparents on Sunday.",
+      "exampleJa": "私たちは日曜日に祖父母を訪ねます。",
+      "level": 1
+    },
+    {
+      "headword": "january",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒænjueri/",
+      "meaning": "1月",
+      "exampleEn": "My birthday is in January.",
+      "exampleJa": "私の誕生日は1月です。",
+      "level": 1
+    },
+    {
+      "headword": "february",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfebrueri/",
+      "meaning": "2月",
+      "exampleEn": "It is very cold in February.",
+      "exampleJa": "2月はとても寒いです。",
+      "level": 1
+    },
+    {
+      "headword": "march",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɑːrtʃ/",
+      "meaning": "3月",
+      "exampleEn": "We have a ceremony in March.",
+      "exampleJa": "3月には式典があります。",
+      "level": 1
+    },
+    {
+      "headword": "april",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeɪprəl/",
+      "meaning": "4月",
+      "exampleEn": "Cherry blossoms are beautiful in April.",
+      "exampleJa": "4月は桜の花が美しいです。",
+      "level": 1
+    },
+    {
+      "headword": "may",
+      "partOfSpeech": "noun",
+      "phonetic": "/meɪ/",
+      "meaning": "5月",
+      "exampleEn": "Sports day is in May in Japan.",
+      "exampleJa": "運動会は日本では5月にあります。",
+      "level": 1
+    },
+    {
+      "headword": "june",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒuːn/",
+      "meaning": "6月",
+      "exampleEn": "It often rains in June in Japan.",
+      "exampleJa": "6月は日本でよく雨が降ります。",
+      "level": 1
+    },
+    {
+      "headword": "july",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒʊˈlaɪ/",
+      "meaning": "7月",
+      "exampleEn": "Summer vacation starts in July.",
+      "exampleJa": "7月に夏休みが始まります。",
+      "level": 1
+    },
+    {
+      "headword": "august",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːɡəst/",
+      "meaning": "8月",
+      "exampleEn": "We enjoy summer vacation in August.",
+      "exampleJa": "私たちは8月に夏休みを楽しみます。",
+      "level": 1
+    },
+    {
+      "headword": "september",
+      "partOfSpeech": "noun",
+      "phonetic": "/sepˈtembər/",
+      "meaning": "9月",
+      "exampleEn": "Classes begin again in September.",
+      "exampleJa": "9月に授業がまた始まります。",
+      "level": 1
+    },
+    {
+      "headword": "october",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɑːkˈtoʊbər/",
+      "meaning": "10月",
+      "exampleEn": "The weather gets cool in October.",
+      "exampleJa": "10月には天気が涼しくなります。",
+      "level": 1
+    },
+    {
+      "headword": "november",
+      "partOfSpeech": "noun",
+      "phonetic": "/noʊˈvembər/",
+      "meaning": "11月",
+      "exampleEn": "It gets cold in November.",
+      "exampleJa": "11月は寒くなります。",
+      "level": 1
+    },
+    {
+      "headword": "december",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsembər/",
+      "meaning": "12月",
+      "exampleEn": "We have winter vacation in December.",
+      "exampleJa": "12月に冬休みがあります。",
+      "level": 1
+    },
+    {
+      "headword": "today",
+      "partOfSpeech": "adverb",
+      "phonetic": "/təˈdeɪ/",
+      "meaning": "今日；今日は",
+      "exampleEn": "What time is it today?",
+      "exampleJa": "今日は何時ですか。",
+      "level": 1
+    },
+    {
+      "headword": "tomorrow",
+      "partOfSpeech": "adverb",
+      "phonetic": "/təˈmɔːroʊ/",
+      "meaning": "明日；明日は",
+      "exampleEn": "See you again tomorrow.",
+      "exampleJa": "また明日会いましょう。",
+      "level": 1
+    },
+    {
+      "headword": "yesterday",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈjestərdeɪ/",
+      "meaning": "昨日；昨日は",
+      "exampleEn": "It rained a lot yesterday.",
+      "exampleJa": "昨日はたくさん雨が降りました。",
+      "level": 1
+    },
+    {
+      "headword": "tonight",
+      "partOfSpeech": "adverb",
+      "phonetic": "/təˈnaɪt/",
+      "meaning": "今夜；今夜は",
+      "exampleEn": "We will eat pizza tonight.",
+      "exampleJa": "今夜はピザを食べます。",
+      "level": 1
+    },
+    {
+      "headword": "weekend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwiːkend/",
+      "meaning": "週末",
+      "exampleEn": "I enjoy sports on the weekend.",
+      "exampleJa": "私は週末にスポーツを楽しみます。",
+      "level": 1
+    },
+    {
+      "headword": "holiday",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːlədeɪ/",
+      "meaning": "祝日；休日",
+      "exampleEn": "We don't work on a holiday.",
+      "exampleJa": "祝日には仕事をしません。",
+      "level": 2
+    },
+    {
+      "headword": "past",
+      "partOfSpeech": "noun",
+      "phonetic": "/pæst/",
+      "meaning": "過去",
+      "exampleEn": "People traveled by ship in the past.",
+      "exampleJa": "昔、人々は船で旅をしました。",
+      "level": 3
+    },
+    {
+      "headword": "season",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsiːzn/",
+      "meaning": "季節",
+      "exampleEn": "Which season do you like best?",
+      "exampleJa": "あなたはどの季節が一番好きですか。",
+      "level": 1
+    },
+    {
+      "headword": "spring",
+      "partOfSpeech": "noun",
+      "phonetic": "/sprɪŋ/",
+      "meaning": "春",
+      "exampleEn": "We enjoy cherry blossoms in spring.",
+      "exampleJa": "春には桜を楽しみます。",
+      "level": 1
+    },
+    {
+      "headword": "summer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌmər/",
+      "meaning": "夏",
+      "exampleEn": "Summer is my favorite season of the year.",
+      "exampleJa": "夏は私が一年で一番好きな季節です。",
+      "level": 1
+    },
+    {
+      "headword": "fall",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɔːl/",
+      "meaning": "秋",
+      "exampleEn": "A leaf falls to the ground in fall.",
+      "exampleJa": "秋には木の葉が地面に落ちます。",
+      "level": 1
+    },
+    {
+      "headword": "autumn",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːtəm/",
+      "meaning": "秋",
+      "exampleEn": "Autumn is my favorite season.",
+      "exampleJa": "秋は私の一番好きな季節です。",
+      "level": 2
+    },
+    {
+      "headword": "winter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪntər/",
+      "meaning": "冬",
+      "exampleEn": "It snows a lot in winter.",
+      "exampleJa": "冬にはたくさん雪が降ります。",
+      "level": 1
+    },
+    {
+      "headword": "storm",
+      "partOfSpeech": "noun",
+      "phonetic": "/stɔːrm/",
+      "meaning": "嵐",
+      "exampleEn": "A storm is coming tonight.",
+      "exampleJa": "今夜、嵐が来ます。",
+      "level": 2
+    },
+    {
+      "headword": "typhoon",
+      "partOfSpeech": "noun",
+      "phonetic": "/taɪˈfuːn/",
+      "meaning": "台風",
+      "exampleEn": "A typhoon is coming to Japan.",
+      "exampleJa": "台風が日本に近づいています。",
+      "level": 2
+    },
+    {
+      "headword": "degree",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈɡriː/",
+      "meaning": "度（温度の単位）",
+      "exampleEn": "The temperature is thirty degrees today.",
+      "exampleJa": "今日の気温は30度です。",
+      "level": 2
+    },
+    {
+      "headword": "sunny",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsʌni/",
+      "meaning": "晴れた",
+      "exampleEn": "It is sunny today.",
+      "exampleJa": "今日は晴れです。",
+      "level": 1
+    },
+    {
+      "headword": "cloudy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈklaʊdi/",
+      "meaning": "曇りの",
+      "exampleEn": "It was cloudy this morning.",
+      "exampleJa": "今朝は曇りでした。",
+      "level": 1
+    },
+    {
+      "headword": "rainy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈreɪni/",
+      "meaning": "雨降りの",
+      "exampleEn": "I like rainy days.",
+      "exampleJa": "私は雨の日が好きです。",
+      "level": 1
+    },
+    {
+      "headword": "snowy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsnoʊi/",
+      "meaning": "雪の降る",
+      "exampleEn": "It is snowy in winter here.",
+      "exampleJa": "冬はここでは雪が降ります。",
+      "level": 1
+    },
+    {
+      "headword": "windy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈwɪndi/",
+      "meaning": "風の強い",
+      "exampleEn": "It is very windy today.",
+      "exampleJa": "今日はとても風が強いです。",
+      "level": 1
+    },
+    {
+      "headword": "warm",
+      "partOfSpeech": "adjective",
+      "phonetic": "/wɔːrm/",
+      "meaning": "暖かい",
+      "exampleEn": "This soup is warm and delicious.",
+      "exampleJa": "このスープは温かくておいしいです。",
+      "level": 1
+    },
+    {
+      "headword": "cool",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kuːl/",
+      "meaning": "涼しい",
+      "exampleEn": "The wind feels cool in fall.",
+      "exampleJa": "秋は風が涼しく感じます。",
+      "level": 2
+    },
+    {
+      "headword": "one",
+      "partOfSpeech": "adjective",
+      "phonetic": "/wʌn/",
+      "meaning": "1の；1つの",
+      "exampleEn": "I have one brother and one sister.",
+      "exampleJa": "私には兄弟が1人、姉妹が1人います。",
+      "level": 1
+    },
+    {
+      "headword": "two",
+      "partOfSpeech": "adjective",
+      "phonetic": "/tuː/",
+      "meaning": "2の；2つの",
+      "exampleEn": "I have two dogs at home.",
+      "exampleJa": "私は家に犬を2匹飼っています。",
+      "level": 1
+    },
+    {
+      "headword": "three",
+      "partOfSpeech": "adjective",
+      "phonetic": "/θriː/",
+      "meaning": "3の；3つの",
+      "exampleEn": "There are three apples on the table.",
+      "exampleJa": "テーブルの上にリンゴが3個あります。",
+      "level": 1
+    },
+    {
+      "headword": "four",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɔːr/",
+      "meaning": "4の；4つの",
+      "exampleEn": "My family has four members.",
+      "exampleJa": "私の家族は4人家族です。",
+      "level": 1
+    },
+    {
+      "headword": "five",
+      "partOfSpeech": "adjective",
+      "phonetic": "/faɪv/",
+      "meaning": "5の；5つの",
+      "exampleEn": "I get up at five thirty.",
+      "exampleJa": "私は5時30分に起きます。",
+      "level": 1
+    },
+    {
+      "headword": "six",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪks/",
+      "meaning": "6の；6つの",
+      "exampleEn": "We have six classes today.",
+      "exampleJa": "私たちは今日、授業が6コマあります。",
+      "level": 1
+    },
+    {
+      "headword": "seven",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsevn/",
+      "meaning": "7の；7つの",
+      "exampleEn": "I sleep for seven hours every night.",
+      "exampleJa": "私は毎晩7時間眠ります。",
+      "level": 1
+    },
+    {
+      "headword": "eight",
+      "partOfSpeech": "adjective",
+      "phonetic": "/eɪt/",
+      "meaning": "8の；8つの",
+      "exampleEn": "Our class has eight girls.",
+      "exampleJa": "私たちのクラスには女子が8人います。",
+      "level": 1
+    },
+    {
+      "headword": "nine",
+      "partOfSpeech": "adjective",
+      "phonetic": "/naɪn/",
+      "meaning": "9の；9つの",
+      "exampleEn": "The store opens at nine.",
+      "exampleJa": "その店は9時に開きます。",
+      "level": 1
+    },
+    {
+      "headword": "ten",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ten/",
+      "meaning": "10の；10個の",
+      "exampleEn": "I have ten fingers on my hands.",
+      "exampleJa": "私には両手に10本の指があります。",
+      "level": 1
+    },
+    {
+      "headword": "eleven",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈlevn/",
+      "meaning": "11の；11個の",
+      "exampleEn": "Eleven students joined the club.",
+      "exampleJa": "11人の生徒がクラブに入りました。",
+      "level": 2
+    },
+    {
+      "headword": "twelve",
+      "partOfSpeech": "adjective",
+      "phonetic": "/twelv/",
+      "meaning": "12の；12個の",
+      "exampleEn": "There are twelve months in a year.",
+      "exampleJa": "1年には12か月あります。",
+      "level": 1
+    },
+    {
+      "headword": "twenty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtwenti/",
+      "meaning": "20の；20個の",
+      "exampleEn": "There are twenty students in my class.",
+      "exampleJa": "私のクラスには20人の生徒がいます。",
+      "level": 1
+    },
+    {
+      "headword": "thirty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈθɜːrti/",
+      "meaning": "30の；30個の",
+      "exampleEn": "The bus comes every thirty minutes.",
+      "exampleJa": "バスは30分おきに来ます。",
+      "level": 1
+    },
+    {
+      "headword": "hundred",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhʌndrəd/",
+      "meaning": "100の；100個の",
+      "exampleEn": "A hundred people came to the festival.",
+      "exampleJa": "100人がその祭りに来ました。",
+      "level": 2
+    },
+    {
+      "headword": "thousand",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈθaʊzənd/",
+      "meaning": "1000の；1000個の",
+      "exampleEn": "More than a thousand people visited the zoo.",
+      "exampleJa": "1000人以上がその動物園を訪れました。",
+      "level": 2
+    },
+    {
+      "headword": "million",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɪljən/",
+      "meaning": "100万の",
+      "exampleEn": "This city has about one million people.",
+      "exampleJa": "この市には約100万人が住んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "first",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɜːrst/",
+      "meaning": "最初の；1番目の",
+      "exampleEn": "This is my first trip to Japan.",
+      "exampleJa": "これは私の初めての日本旅行です。",
+      "level": 1
+    },
+    {
+      "headword": "second",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsekənd/",
+      "meaning": "2番目の；第二の",
+      "exampleEn": "This is my second time here.",
+      "exampleJa": "これは私にとって2度目です。",
+      "level": 1
+    },
+    {
+      "headword": "third",
+      "partOfSpeech": "adjective",
+      "phonetic": "/θɜːrd/",
+      "meaning": "3番目の；第三の",
+      "exampleEn": "He is the third son in his family.",
+      "exampleJa": "彼はその家族の三男です。",
+      "level": 1
+    },
+    {
+      "headword": "fourth",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɔːrθ/",
+      "meaning": "4番目の；第四の",
+      "exampleEn": "July fourth is a holiday in America.",
+      "exampleJa": "7月4日はアメリカの祝日です。",
+      "level": 2
+    },
+    {
+      "headword": "fifth",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɪfθ/",
+      "meaning": "5番目の；第五の",
+      "exampleEn": "Today is the fifth day of our trip.",
+      "exampleJa": "今日は私たちの旅行の5日目です。",
+      "level": 2
+    },
+    {
+      "headword": "sixth",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪksθ/",
+      "meaning": "6番目の；第六の",
+      "exampleEn": "My brother is in the sixth grade.",
+      "exampleJa": "私の弟は6年生です。",
+      "level": 2
+    },
+    {
+      "headword": "seventh",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsevnθ/",
+      "meaning": "7番目の；第七の",
+      "exampleEn": "This is the seventh chapter of the story.",
+      "exampleJa": "これはその物語の第7章です。",
+      "level": 2
+    },
+    {
+      "headword": "eighth",
+      "partOfSpeech": "adjective",
+      "phonetic": "/eɪtθ/",
+      "meaning": "8番目の；第八の",
+      "exampleEn": "This is the eighth question on the test.",
+      "exampleJa": "これはそのテストの8番目の問題です。",
+      "level": 2
+    },
+    {
+      "headword": "ninth",
+      "partOfSpeech": "adjective",
+      "phonetic": "/naɪnθ/",
+      "meaning": "9番目の；第九の",
+      "exampleEn": "My sister is in the ninth grade this year.",
+      "exampleJa": "私の姉は今年9年生です。",
+      "level": 2
+    },
+    {
+      "headword": "tenth",
+      "partOfSpeech": "adjective",
+      "phonetic": "/tenθ/",
+      "meaning": "10番目の；第十の",
+      "exampleEn": "Today is the tenth day of summer vacation.",
+      "exampleJa": "今日は夏休み10日目です。",
+      "level": 2
+    },
+    {
+      "headword": "meter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːtər/",
+      "meaning": "メートル",
+      "exampleEn": "This lake is ten meters deep.",
+      "exampleJa": "この湖は水深10メートルです。",
+      "level": 2
+    },
+    {
+      "headword": "kilometer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɪləˌmiːtər/",
+      "meaning": "キロメートル",
+      "exampleEn": "The lake is five kilometers from here.",
+      "exampleJa": "その湖はここから5キロメートルです。",
+      "level": 2
+    },
+    {
+      "headword": "centimeter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsentəˌmiːtər/",
+      "meaning": "センチメートル",
+      "exampleEn": "It rained five centimeters last night.",
+      "exampleJa": "昨夜は5センチの雨が降りました。",
+      "level": 2
+    },
+    {
+      "headword": "gram",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡræm/",
+      "meaning": "グラム",
+      "exampleEn": "I need two hundred grams of sugar.",
+      "exampleJa": "私は砂糖200グラムが必要です。",
+      "level": 2
+    },
+    {
+      "headword": "kilogram",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɪləˌɡræm/",
+      "meaning": "キログラム",
+      "exampleEn": "My dog is about ten kilograms.",
+      "exampleJa": "私の犬は体重が約10キログラムです。",
+      "level": 2
+    },
+    {
+      "headword": "liter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈliːtər/",
+      "meaning": "リットル",
+      "exampleEn": "We bought two liters of milk.",
+      "exampleJa": "私たちは牛乳を2リットル買いました。",
+      "level": 2
+    },
+    {
+      "headword": "mile",
+      "partOfSpeech": "noun",
+      "phonetic": "/maɪl/",
+      "meaning": "マイル",
+      "exampleEn": "The airport is ten miles from the city.",
+      "exampleJa": "空港はその市から10マイルです。",
+      "level": 3
+    },
+    {
+      "headword": "pound",
+      "partOfSpeech": "noun",
+      "phonetic": "/paʊnd/",
+      "meaning": "ポンド（重さの単位）",
+      "exampleEn": "This fish is about five pounds.",
+      "exampleJa": "この魚は約5ポンドです。",
+      "level": 3
+    },
+    {
+      "headword": "inch",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪntʃ/",
+      "meaning": "インチ（長さの単位）",
+      "exampleEn": "The snow was six inches deep.",
+      "exampleJa": "雪は6インチの深さでした。",
+      "level": 3
+    }
+  ]
+}

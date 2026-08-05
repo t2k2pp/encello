@@ -1,0 +1,861 @@
+{
+  "chunk": "11_nature",
+  "note": "自然・動物・植物・環境",
+  "words": [
+    {
+      "headword": "sea",
+      "partOfSpeech": "noun",
+      "phonetic": "/siː/",
+      "meaning": "海",
+      "exampleEn": "We swam in the sea today.",
+      "exampleJa": "私たちは今日、海で泳ぎました。",
+      "level": 1
+    },
+    {
+      "headword": "ocean",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊʃn/",
+      "meaning": "海洋；大洋",
+      "exampleEn": "The Pacific Ocean is very large.",
+      "exampleJa": "太平洋はとても広いです。",
+      "level": 2
+    },
+    {
+      "headword": "river",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrɪvər/",
+      "meaning": "川",
+      "exampleEn": "This river flows into the sea.",
+      "exampleJa": "この川は海に流れ込んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "lake",
+      "partOfSpeech": "noun",
+      "phonetic": "/leɪk/",
+      "meaning": "湖",
+      "exampleEn": "We had a picnic by the lake.",
+      "exampleJa": "私たちは湖のそばでピクニックをしました。",
+      "level": 1
+    },
+    {
+      "headword": "beach",
+      "partOfSpeech": "noun",
+      "phonetic": "/biːtʃ/",
+      "meaning": "浜辺；ビーチ",
+      "exampleEn": "We played volleyball on the beach.",
+      "exampleJa": "私たちはビーチでバレーボールをしました。",
+      "level": 1
+    },
+    {
+      "headword": "island",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaɪlənd/",
+      "meaning": "島",
+      "exampleEn": "Okinawa is a beautiful island.",
+      "exampleJa": "沖縄は美しい島です。",
+      "level": 1
+    },
+    {
+      "headword": "forest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrɪst/",
+      "meaning": "森",
+      "exampleEn": "Many animals live in this forest.",
+      "exampleJa": "この森には多くの動物が住んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "field",
+      "partOfSpeech": "noun",
+      "phonetic": "/fiːld/",
+      "meaning": "野原；畑",
+      "exampleEn": "The farmer works in the field.",
+      "exampleJa": "その農家は畑で働いています。",
+      "level": 1
+    },
+    {
+      "headword": "hill",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɪl/",
+      "meaning": "丘",
+      "exampleEn": "We climbed the hill before lunch.",
+      "exampleJa": "私たちは昼食前に丘に登りました。",
+      "level": 2
+    },
+    {
+      "headword": "valley",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvæli/",
+      "meaning": "谷",
+      "exampleEn": "A small village is in the valley.",
+      "exampleJa": "小さな村がその谷にあります。",
+      "level": 3
+    },
+    {
+      "headword": "desert",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdezərt/",
+      "meaning": "砂漠",
+      "exampleEn": "It rarely rains in the desert.",
+      "exampleJa": "砂漠ではめったに雨が降りません。",
+      "level": 2
+    },
+    {
+      "headword": "sky",
+      "partOfSpeech": "noun",
+      "phonetic": "/skaɪ/",
+      "meaning": "空",
+      "exampleEn": "The sky was clear and blue.",
+      "exampleJa": "空は晴れて青かったです。",
+      "level": 1
+    },
+    {
+      "headword": "star",
+      "partOfSpeech": "noun",
+      "phonetic": "/stɑːr/",
+      "meaning": "星",
+      "exampleEn": "We watched the stars at night.",
+      "exampleJa": "私たちは夜に星を眺めました。",
+      "level": 1
+    },
+    {
+      "headword": "moon",
+      "partOfSpeech": "noun",
+      "phonetic": "/muːn/",
+      "meaning": "月",
+      "exampleEn": "The moon was very bright tonight.",
+      "exampleJa": "今夜の月はとても明るかったです。",
+      "level": 1
+    },
+    {
+      "headword": "sun",
+      "partOfSpeech": "noun",
+      "phonetic": "/sʌn/",
+      "meaning": "太陽",
+      "exampleEn": "The sun rises in the east.",
+      "exampleJa": "太陽は東から昇ります。",
+      "level": 1
+    },
+    {
+      "headword": "earth",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɜːrθ/",
+      "meaning": "地球",
+      "exampleEn": "We should take care of the earth.",
+      "exampleJa": "私たちは地球を大切にするべきです。",
+      "level": 1
+    },
+    {
+      "headword": "ground",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡraʊnd/",
+      "meaning": "地面",
+      "exampleEn": "Snow covered the ground this morning.",
+      "exampleJa": "今朝は地面が雪で覆われていました。",
+      "level": 1
+    },
+    {
+      "headword": "stone",
+      "partOfSpeech": "noun",
+      "phonetic": "/stoʊn/",
+      "meaning": "石",
+      "exampleEn": "He threw a stone into the river.",
+      "exampleJa": "彼は川に石を投げました。",
+      "level": 2
+    },
+    {
+      "headword": "rock",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɑːk/",
+      "meaning": "岩",
+      "exampleEn": "We sat on a big rock.",
+      "exampleJa": "私たちは大きな岩に座りました。",
+      "level": 2
+    },
+    {
+      "headword": "sand",
+      "partOfSpeech": "noun",
+      "phonetic": "/sænd/",
+      "meaning": "砂",
+      "exampleEn": "The children played in the sand.",
+      "exampleJa": "子どもたちは砂の中で遊びました。",
+      "level": 2
+    },
+    {
+      "headword": "fire",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfaɪər/",
+      "meaning": "火",
+      "exampleEn": "We made a fire at the camp.",
+      "exampleJa": "私たちはキャンプで火をおこしました。",
+      "level": 1
+    },
+    {
+      "headword": "ice",
+      "partOfSpeech": "noun",
+      "phonetic": "/aɪs/",
+      "meaning": "氷",
+      "exampleEn": "The lake was covered with ice.",
+      "exampleJa": "湖は氷で覆われていました。",
+      "level": 1
+    },
+    {
+      "headword": "wind",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɪnd/",
+      "meaning": "風",
+      "exampleEn": "A strong wind blew all day.",
+      "exampleJa": "強い風が一日中吹きました。",
+      "level": 1
+    },
+    {
+      "headword": "rain",
+      "partOfSpeech": "noun",
+      "phonetic": "/reɪn/",
+      "meaning": "雨",
+      "exampleEn": "The rain stopped in the afternoon.",
+      "exampleJa": "午後には雨がやみました。",
+      "level": 1
+    },
+    {
+      "headword": "snow",
+      "partOfSpeech": "noun",
+      "phonetic": "/snoʊ/",
+      "meaning": "雪",
+      "exampleEn": "The snow was very deep this year.",
+      "exampleJa": "今年は雪がとても深かったです。",
+      "level": 1
+    },
+    {
+      "headword": "cloud",
+      "partOfSpeech": "noun",
+      "phonetic": "/klaʊd/",
+      "meaning": "雲",
+      "exampleEn": "A big cloud covered the sun.",
+      "exampleJa": "大きな雲が太陽を覆いました。",
+      "level": 1
+    },
+    {
+      "headword": "dog",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɔːɡ/",
+      "meaning": "犬",
+      "exampleEn": "My dog runs very fast.",
+      "exampleJa": "私の犬はとても速く走ります。",
+      "level": 1
+    },
+    {
+      "headword": "cat",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæt/",
+      "meaning": "猫",
+      "exampleEn": "The cat is sleeping on the sofa.",
+      "exampleJa": "猫はソファーで眠っています。",
+      "level": 1
+    },
+    {
+      "headword": "bird",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɜːrd/",
+      "meaning": "鳥",
+      "exampleEn": "A small bird sang in the tree.",
+      "exampleJa": "小さな鳥が木で鳴いていました。",
+      "level": 1
+    },
+    {
+      "headword": "horse",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɔːrs/",
+      "meaning": "馬",
+      "exampleEn": "He can ride a horse well.",
+      "exampleJa": "彼は馬に上手に乗れます。",
+      "level": 1
+    },
+    {
+      "headword": "cow",
+      "partOfSpeech": "noun",
+      "phonetic": "/kaʊ/",
+      "meaning": "牛（雌牛）",
+      "exampleEn": "The cow gives us fresh milk.",
+      "exampleJa": "その牛は新鮮な牛乳をくれます。",
+      "level": 2
+    },
+    {
+      "headword": "pig",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɪɡ/",
+      "meaning": "豚",
+      "exampleEn": "The pig is eating in the yard.",
+      "exampleJa": "豚は庭で食事をしています。",
+      "level": 2
+    },
+    {
+      "headword": "sheep",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃiːp/",
+      "meaning": "羊",
+      "exampleEn": "Many sheep were on the hill.",
+      "exampleJa": "多くの羊が丘にいました。",
+      "level": 2
+    },
+    {
+      "headword": "rabbit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈræbɪt/",
+      "meaning": "うさぎ",
+      "exampleEn": "The rabbit hid behind the tree.",
+      "exampleJa": "うさぎは木の後ろに隠れました。",
+      "level": 1
+    },
+    {
+      "headword": "mouse",
+      "partOfSpeech": "noun",
+      "phonetic": "/maʊs/",
+      "meaning": "ねずみ",
+      "exampleEn": "A small mouse ran under the desk.",
+      "exampleJa": "小さなねずみが机の下を走りました。",
+      "level": 2
+    },
+    {
+      "headword": "lion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlaɪən/",
+      "meaning": "ライオン",
+      "exampleEn": "The lion slept under the tree.",
+      "exampleJa": "ライオンは木の下で眠りました。",
+      "level": 1
+    },
+    {
+      "headword": "tiger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtaɪɡər/",
+      "meaning": "虎",
+      "exampleEn": "The tiger walked slowly in the zoo.",
+      "exampleJa": "その虎は動物園をゆっくり歩きました。",
+      "level": 2
+    },
+    {
+      "headword": "elephant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈelɪfənt/",
+      "meaning": "象",
+      "exampleEn": "An elephant is a very large animal.",
+      "exampleJa": "象はとても大きな動物です。",
+      "level": 1
+    },
+    {
+      "headword": "monkey",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌŋki/",
+      "meaning": "サル",
+      "exampleEn": "The monkey climbed up the tree fast.",
+      "exampleJa": "サルは素早く木に登りました。",
+      "level": 1
+    },
+    {
+      "headword": "bear",
+      "partOfSpeech": "noun",
+      "phonetic": "/ber/",
+      "meaning": "クマ",
+      "exampleEn": "A bear appeared near the village.",
+      "exampleJa": "クマが村の近くに現れました。",
+      "level": 2
+    },
+    {
+      "headword": "whale",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪl/",
+      "meaning": "クジラ",
+      "exampleEn": "We saw a whale from the boat.",
+      "exampleJa": "私たちはボートからクジラを見ました。",
+      "level": 2
+    },
+    {
+      "headword": "dolphin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɑːlfɪn/",
+      "meaning": "イルカ",
+      "exampleEn": "Dolphins are very clever animals.",
+      "exampleJa": "イルカはとても賢い動物です。",
+      "level": 2
+    },
+    {
+      "headword": "insect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnsekt/",
+      "meaning": "昆虫",
+      "exampleEn": "This insect is very small.",
+      "exampleJa": "この昆虫はとても小さいです。",
+      "level": 2
+    },
+    {
+      "headword": "bee",
+      "partOfSpeech": "noun",
+      "phonetic": "/biː/",
+      "meaning": "ハチ",
+      "exampleEn": "A bee flew around the flowers.",
+      "exampleJa": "ハチが花の周りを飛んでいました。",
+      "level": 2
+    },
+    {
+      "headword": "butterfly",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌtərflaɪ/",
+      "meaning": "チョウ",
+      "exampleEn": "A beautiful butterfly landed on the flower.",
+      "exampleJa": "美しいチョウが花にとまりました。",
+      "level": 1
+    },
+    {
+      "headword": "snake",
+      "partOfSpeech": "noun",
+      "phonetic": "/sneɪk/",
+      "meaning": "ヘビ",
+      "exampleEn": "We found a snake in the grass.",
+      "exampleJa": "私たちは草むらでヘビを見つけました。",
+      "level": 2
+    },
+    {
+      "headword": "frog",
+      "partOfSpeech": "noun",
+      "phonetic": "/frɑːɡ/",
+      "meaning": "カエル",
+      "exampleEn": "A frog jumped into the pond.",
+      "exampleJa": "カエルが池に飛び込みました。",
+      "level": 2
+    },
+    {
+      "headword": "ant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ænt/",
+      "meaning": "アリ",
+      "exampleEn": "Ants were carrying food to their nest.",
+      "exampleJa": "アリたちは巣へ食べ物を運んでいました。",
+      "level": 2
+    },
+    {
+      "headword": "spider",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspaɪdər/",
+      "meaning": "クモ",
+      "exampleEn": "A spider made a web in the corner.",
+      "exampleJa": "クモが隅に巣を作りました。",
+      "level": 2
+    },
+    {
+      "headword": "fox",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɑːks/",
+      "meaning": "キツネ",
+      "exampleEn": "A fox ran across the field.",
+      "exampleJa": "キツネが野原を横切って走りました。",
+      "level": 3
+    },
+    {
+      "headword": "deer",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪr/",
+      "meaning": "シカ",
+      "exampleEn": "We saw wild deer in the forest.",
+      "exampleJa": "私たちは森で野生のシカを見ました。",
+      "level": 3
+    },
+    {
+      "headword": "duck",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʌk/",
+      "meaning": "アヒル；カモ",
+      "exampleEn": "Ducks were swimming on the lake.",
+      "exampleJa": "アヒルたちが湖で泳いでいました。",
+      "level": 2
+    },
+    {
+      "headword": "goat",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡoʊt/",
+      "meaning": "ヤギ",
+      "exampleEn": "The goat ate grass on the hill.",
+      "exampleJa": "ヤギは丘で草を食べました。",
+      "level": 3
+    },
+    {
+      "headword": "turtle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrtl/",
+      "meaning": "カメ",
+      "exampleEn": "The turtle moved very slowly.",
+      "exampleJa": "そのカメはとてもゆっくり動きました。",
+      "level": 2
+    },
+    {
+      "headword": "owl",
+      "partOfSpeech": "noun",
+      "phonetic": "/aʊl/",
+      "meaning": "フクロウ",
+      "exampleEn": "An owl called in the forest at night.",
+      "exampleJa": "フクロウは夜に森で鳴きました。",
+      "level": 3
+    },
+    {
+      "headword": "eagle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈiːɡl/",
+      "meaning": "ワシ",
+      "exampleEn": "The eagle flew high above the mountain.",
+      "exampleJa": "ワシは山の上高くを飛びました。",
+      "level": 3
+    },
+    {
+      "headword": "tree",
+      "partOfSpeech": "noun",
+      "phonetic": "/triː/",
+      "meaning": "木",
+      "exampleEn": "We planted a tree in the garden.",
+      "exampleJa": "私たちは庭に木を植えました。",
+      "level": 1
+    },
+    {
+      "headword": "flower",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈflaʊər/",
+      "meaning": "花",
+      "exampleEn": "She gave me a beautiful flower.",
+      "exampleJa": "彼女は私に美しい花をくれました。",
+      "level": 1
+    },
+    {
+      "headword": "grass",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡræs/",
+      "meaning": "草",
+      "exampleEn": "The dog is lying on the grass.",
+      "exampleJa": "犬は草の上で横になっています。",
+      "level": 2
+    },
+    {
+      "headword": "leaf",
+      "partOfSpeech": "noun",
+      "phonetic": "/liːf/",
+      "meaning": "葉",
+      "exampleEn": "A leaf fell from the tall tree.",
+      "exampleJa": "葉が高い木から落ちました。",
+      "level": 2
+    },
+    {
+      "headword": "seed",
+      "partOfSpeech": "noun",
+      "phonetic": "/siːd/",
+      "meaning": "種",
+      "exampleEn": "We put seeds in the ground.",
+      "exampleJa": "私たちは地面に種をまきました。",
+      "level": 2
+    },
+    {
+      "headword": "root",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːt/",
+      "meaning": "根",
+      "exampleEn": "The tree has very deep roots.",
+      "exampleJa": "その木はとても深い根を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "branch",
+      "partOfSpeech": "noun",
+      "phonetic": "/bræntʃ/",
+      "meaning": "枝",
+      "exampleEn": "A bird sat on the branch.",
+      "exampleJa": "鳥が枝に止まりました。",
+      "level": 2
+    },
+    {
+      "headword": "wood",
+      "partOfSpeech": "noun",
+      "phonetic": "/wʊd/",
+      "meaning": "木材；森",
+      "exampleEn": "This chair is made of wood.",
+      "exampleJa": "このいすは木材でできています。",
+      "level": 2
+    },
+    {
+      "headword": "rose",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊz/",
+      "meaning": "バラ",
+      "exampleEn": "My mother grows roses in the garden.",
+      "exampleJa": "母は庭でバラを育てています。",
+      "level": 2
+    },
+    {
+      "headword": "blossom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈblɑːsəm/",
+      "meaning": "（果樹の）花",
+      "exampleEn": "The cherry blossom is a symbol of spring.",
+      "exampleJa": "桜の花は春の象徴です。",
+      "level": 3
+    },
+    {
+      "headword": "bamboo",
+      "partOfSpeech": "noun",
+      "phonetic": "/bæmˈbuː/",
+      "meaning": "竹",
+      "exampleEn": "Pandas eat a lot of bamboo.",
+      "exampleJa": "パンダはたくさんの竹を食べます。",
+      "level": 3
+    },
+    {
+      "headword": "plant",
+      "partOfSpeech": "noun",
+      "phonetic": "/plænt/",
+      "meaning": "植物",
+      "exampleEn": "This plant needs a lot of water.",
+      "exampleJa": "この植物はたくさんの水が必要です。",
+      "level": 1
+    },
+    {
+      "headword": "air",
+      "partOfSpeech": "noun",
+      "phonetic": "/er/",
+      "meaning": "空気",
+      "exampleEn": "The air is clean in the mountains.",
+      "exampleJa": "山では空気がきれいです。",
+      "level": 1
+    },
+    {
+      "headword": "environment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "meaning": "環境",
+      "exampleEn": "We must protect the environment.",
+      "exampleJa": "私たちは環境を守らなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "pollution",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈluːʃn/",
+      "meaning": "汚染",
+      "exampleEn": "Air pollution is a big problem.",
+      "exampleJa": "大気汚染は大きな問題です。",
+      "level": 3
+    },
+    {
+      "headword": "recycle",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌriːˈsaɪkl/",
+      "meaning": "リサイクルする",
+      "exampleEn": "We recycle bottles and cans at home.",
+      "exampleJa": "私たちは家で瓶や缶をリサイクルします。",
+      "level": 2
+    },
+    {
+      "headword": "plastic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplæstɪk/",
+      "meaning": "プラスチック",
+      "exampleEn": "This bag is made of plastic.",
+      "exampleJa": "このかばんはプラスチックでできています。",
+      "level": 2
+    },
+    {
+      "headword": "resource",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːsɔːrs/",
+      "meaning": "資源",
+      "exampleEn": "We should not waste natural resources.",
+      "exampleJa": "私たちは天然資源を無駄にすべきではありません。",
+      "level": 3
+    },
+    {
+      "headword": "climate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklaɪmət/",
+      "meaning": "気候",
+      "exampleEn": "The climate is changing around the world.",
+      "exampleJa": "世界中で気候が変化しています。",
+      "level": 3
+    },
+    {
+      "headword": "global warming",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "地球温暖化",
+      "exampleEn": "Global warming affects animals and plants.",
+      "exampleJa": "地球温暖化は動物や植物に影響します。",
+      "level": 3
+    },
+    {
+      "headword": "wildlife",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwaɪldlaɪf/",
+      "meaning": "野生生物",
+      "exampleEn": "This forest is home to rich wildlife.",
+      "exampleJa": "この森は豊かな野生生物のすみかです。",
+      "level": 3
+    },
+    {
+      "headword": "waste",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪst/",
+      "meaning": "ごみ；廃棄物",
+      "exampleEn": "We should reduce food waste.",
+      "exampleJa": "私たちは食品廃棄物を減らすべきです。",
+      "level": 2
+    },
+    {
+      "headword": "planet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplænɪt/",
+      "meaning": "惑星",
+      "exampleEn": "The earth is a beautiful planet.",
+      "exampleJa": "地球は美しい惑星です。",
+      "level": 2
+    },
+    {
+      "headword": "solar",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsoʊlər/",
+      "meaning": "太陽の",
+      "exampleEn": "This house uses solar energy.",
+      "exampleJa": "この家は太陽エネルギーを使っています。",
+      "level": 3
+    },
+    {
+      "headword": "endangered",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈdeɪndʒərd/",
+      "meaning": "絶滅の危機にある",
+      "exampleEn": "Endangered animals need our help.",
+      "exampleJa": "絶滅危惧の動物たちには私たちの助けが必要です。",
+      "level": 3
+    },
+    {
+      "headword": "wild",
+      "partOfSpeech": "adjective",
+      "phonetic": "/waɪld/",
+      "meaning": "野生の",
+      "exampleEn": "We saw a wild bear near the lake.",
+      "exampleJa": "私たちは湖の近くで野生のクマを見ました。",
+      "level": 2
+    },
+    {
+      "headword": "natural",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnætʃrəl/",
+      "meaning": "自然の",
+      "exampleEn": "This is a natural lake in the mountains.",
+      "exampleJa": "これは山にある自然の湖です。",
+      "level": 2
+    },
+    {
+      "headword": "deep",
+      "partOfSpeech": "adjective",
+      "phonetic": "/diːp/",
+      "meaning": "深い",
+      "exampleEn": "This river is very deep here.",
+      "exampleJa": "この川はここでとても深いです。",
+      "level": 1
+    },
+    {
+      "headword": "shallow",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈʃæloʊ/",
+      "meaning": "浅い",
+      "exampleEn": "The water is shallow near the beach.",
+      "exampleJa": "浜辺の近くは水が浅いです。",
+      "level": 3
+    },
+    {
+      "headword": "wet",
+      "partOfSpeech": "adjective",
+      "phonetic": "/wet/",
+      "meaning": "ぬれた；湿った",
+      "exampleEn": "My shoes got wet in the rain.",
+      "exampleJa": "私の靴は雨でぬれました。",
+      "level": 1
+    },
+    {
+      "headword": "poisonous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɔɪzənəs/",
+      "meaning": "毒のある",
+      "exampleEn": "Be careful, that snake is poisonous.",
+      "exampleJa": "気をつけて、そのヘビは毒があります。",
+      "level": 3
+    },
+    {
+      "headword": "wave",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪv/",
+      "meaning": "波",
+      "exampleEn": "Big waves hit the beach today.",
+      "exampleJa": "今日は大きな波が浜辺に打ち寄せました。",
+      "level": 2
+    },
+    {
+      "headword": "mud",
+      "partOfSpeech": "noun",
+      "phonetic": "/mʌd/",
+      "meaning": "泥",
+      "exampleEn": "The children got mud on their shoes.",
+      "exampleJa": "子どもたちの靴に泥がつきました。",
+      "level": 2
+    },
+    {
+      "headword": "cave",
+      "partOfSpeech": "noun",
+      "phonetic": "/keɪv/",
+      "meaning": "洞窟",
+      "exampleEn": "This cave is very dark and cold.",
+      "exampleJa": "この洞窟はとても暗くて寒いです。",
+      "level": 2
+    },
+    {
+      "headword": "path",
+      "partOfSpeech": "noun",
+      "phonetic": "/pæθ/",
+      "meaning": "小道",
+      "exampleEn": "We walked along a narrow path.",
+      "exampleJa": "私たちは狭い小道を歩きました。",
+      "level": 2
+    },
+    {
+      "headword": "coast",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊst/",
+      "meaning": "海岸",
+      "exampleEn": "Many towns are along the coast.",
+      "exampleJa": "多くの町が海岸沿いにあります。",
+      "level": 2
+    },
+    {
+      "headword": "wing",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɪŋ/",
+      "meaning": "翼；羽",
+      "exampleEn": "The bird spread its wings and flew.",
+      "exampleJa": "その鳥は翼を広げて飛びました。",
+      "level": 1
+    },
+    {
+      "headword": "nest",
+      "partOfSpeech": "noun",
+      "phonetic": "/nest/",
+      "meaning": "巣",
+      "exampleEn": "The bird built a nest in the tree.",
+      "exampleJa": "その鳥は木に巣を作りました。",
+      "level": 2
+    },
+    {
+      "headword": "fur",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɜːr/",
+      "meaning": "毛皮",
+      "exampleEn": "The cat has soft, white fur.",
+      "exampleJa": "その猫は柔らかくて白い毛皮です。",
+      "level": 2
+    }
+  ]
+}

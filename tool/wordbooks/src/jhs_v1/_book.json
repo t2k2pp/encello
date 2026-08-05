@@ -20,6 +20,10 @@
     "07_body_health",
     "08_food",
     "09_home_clothes",
-    "10_town_money"
+    "10_town_money",
+    "11_nature",
+    "12_time_weather",
+    "13_adjectives",
+    "14_adjectives_adverbs"
   ]
 }

@@ -1,0 +1,861 @@
+{
+  "chunk": "14_adjectives_adverbs",
+  "note": "形容詞II（大きさ・色・感情）・副詞",
+  "words": [
+    {
+      "headword": "happy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhæpi/",
+      "meaning": "幸せな；うれしい",
+      "exampleEn": "I feel happy when I sing.",
+      "exampleJa": "私は歌うと幸せな気持ちになります。",
+      "level": 1
+    },
+    {
+      "headword": "sad",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sæd/",
+      "meaning": "悲しい",
+      "exampleEn": "The sad story made me cry.",
+      "exampleJa": "その悲しい話で私は泣きました。",
+      "level": 1
+    },
+    {
+      "headword": "angry",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæŋɡri/",
+      "meaning": "怒った",
+      "exampleEn": "My mother got angry at me.",
+      "exampleJa": "母は私に対して怒りました。",
+      "level": 1
+    },
+    {
+      "headword": "afraid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈfreɪd/",
+      "meaning": "恐れて；心配して",
+      "exampleEn": "I was afraid of the dark room.",
+      "exampleJa": "私は暗い部屋を恐れていました。",
+      "level": 2
+    },
+    {
+      "headword": "nervous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɜːrvəs/",
+      "meaning": "緊張して",
+      "exampleEn": "I felt nervous about the test.",
+      "exampleJa": "私はテストのことで緊張していました。",
+      "level": 2
+    },
+    {
+      "headword": "proud",
+      "partOfSpeech": "adjective",
+      "phonetic": "/praʊd/",
+      "meaning": "誇りに思って",
+      "exampleEn": "My father is proud of me.",
+      "exampleJa": "父は私を誇りに思っています。",
+      "level": 2
+    },
+    {
+      "headword": "glad",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡlæd/",
+      "meaning": "うれしい",
+      "exampleEn": "I am glad to see you again.",
+      "exampleJa": "あなたに再び会えてうれしいです。",
+      "level": 2
+    },
+    {
+      "headword": "sorry",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɑːri/",
+      "meaning": "すまなく思って；気の毒で",
+      "exampleEn": "I am very sorry about that.",
+      "exampleJa": "それについて、私はとても申し訳なく思っています。",
+      "level": 1
+    },
+    {
+      "headword": "surprised",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sərˈpraɪzd/",
+      "meaning": "驚いた",
+      "exampleEn": "She was surprised to see him there.",
+      "exampleJa": "彼女はそこで彼を見て驚きました。",
+      "level": 2
+    },
+    {
+      "headword": "interested",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪntrəstɪd/",
+      "meaning": "興味を持って",
+      "exampleEn": "He is interested in old music.",
+      "exampleJa": "彼は古い音楽に興味を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "bored",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bɔːrd/",
+      "meaning": "退屈して",
+      "exampleEn": "The students looked bored in class.",
+      "exampleJa": "生徒たちは授業中に退屈そうでした。",
+      "level": 2
+    },
+    {
+      "headword": "worried",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈwɜːrid/",
+      "meaning": "心配して",
+      "exampleEn": "My parents were worried about me.",
+      "exampleJa": "両親は私のことを心配していました。",
+      "level": 2
+    },
+    {
+      "headword": "disappointed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+      "meaning": "がっかりした",
+      "exampleEn": "I was disappointed with the result.",
+      "exampleJa": "私はその結果にがっかりしました。",
+      "level": 3
+    },
+    {
+      "headword": "thankful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈθæŋkfl/",
+      "meaning": "感謝して",
+      "exampleEn": "We are thankful for your help.",
+      "exampleJa": "私たちはあなたの助けに感謝しています。",
+      "level": 3
+    },
+    {
+      "headword": "lonely",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈloʊnli/",
+      "meaning": "寂しい",
+      "exampleEn": "He felt lonely after they left.",
+      "exampleJa": "彼らが去った後、彼は寂しく感じました。",
+      "level": 2
+    },
+    {
+      "headword": "scared",
+      "partOfSpeech": "adjective",
+      "phonetic": "/skerd/",
+      "meaning": "おびえた；怖がって",
+      "exampleEn": "The little boy was scared of dogs.",
+      "exampleJa": "その小さな男の子は犬を怖がっていました。",
+      "level": 2
+    },
+    {
+      "headword": "confused",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈfjuːzd/",
+      "meaning": "混乱した",
+      "exampleEn": "I was confused by his question.",
+      "exampleJa": "私は彼の質問に困惑しました。",
+      "level": 3
+    },
+    {
+      "headword": "relieved",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈliːvd/",
+      "meaning": "ほっとした；安心した",
+      "exampleEn": "I was relieved to hear the news.",
+      "exampleJa": "その知らせを聞いてほっとしました。",
+      "level": 3
+    },
+    {
+      "headword": "embarrassed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈbærəst/",
+      "meaning": "恥ずかしい思いをした",
+      "exampleEn": "I felt embarrassed after my mistake.",
+      "exampleJa": "私は自分のミスの後、恥ずかしい思いをしました。",
+      "level": 3
+    },
+    {
+      "headword": "big",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bɪɡ/",
+      "meaning": "大きい",
+      "exampleEn": "This bag is too big for me.",
+      "exampleJa": "このかばんは私には大きすぎます。",
+      "level": 1
+    },
+    {
+      "headword": "small",
+      "partOfSpeech": "adjective",
+      "phonetic": "/smɔːl/",
+      "meaning": "小さい",
+      "exampleEn": "We live in a small house.",
+      "exampleJa": "私たちは小さな家に住んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "large",
+      "partOfSpeech": "adjective",
+      "phonetic": "/lɑːrdʒ/",
+      "meaning": "大きい；広い",
+      "exampleEn": "The zoo has a large elephant.",
+      "exampleJa": "その動物園には大きな象がいます。",
+      "level": 2
+    },
+    {
+      "headword": "little",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈlɪtl/",
+      "meaning": "小さい；かわいらしい",
+      "exampleEn": "The little cat slept on my bed.",
+      "exampleJa": "その小さな猫は私のベッドで眠りました。",
+      "level": 1
+    },
+    {
+      "headword": "long",
+      "partOfSpeech": "adjective",
+      "phonetic": "/lɔːŋ/",
+      "meaning": "長い",
+      "exampleEn": "She has long black hair.",
+      "exampleJa": "彼女は長い黒髪をしています。",
+      "level": 1
+    },
+    {
+      "headword": "short",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʃɔːrt/",
+      "meaning": "短い",
+      "exampleEn": "My brother has short hair now.",
+      "exampleJa": "私の弟は今短い髪をしています。",
+      "level": 1
+    },
+    {
+      "headword": "tall",
+      "partOfSpeech": "adjective",
+      "phonetic": "/tɔːl/",
+      "meaning": "背が高い；高い",
+      "exampleEn": "My uncle is very tall.",
+      "exampleJa": "私のおじはとても背が高いです。",
+      "level": 1
+    },
+    {
+      "headword": "high",
+      "partOfSpeech": "adjective",
+      "phonetic": "/haɪ/",
+      "meaning": "高い",
+      "exampleEn": "That mountain is very high.",
+      "exampleJa": "あの山はとても高いです。",
+      "level": 2
+    },
+    {
+      "headword": "low",
+      "partOfSpeech": "adjective",
+      "phonetic": "/loʊ/",
+      "meaning": "低い",
+      "exampleEn": "The table is too low for me.",
+      "exampleJa": "そのテーブルは私には低すぎます。",
+      "level": 2
+    },
+    {
+      "headword": "wide",
+      "partOfSpeech": "adjective",
+      "phonetic": "/waɪd/",
+      "meaning": "幅広い",
+      "exampleEn": "This river is very wide here.",
+      "exampleJa": "この川はここでとても幅が広いです。",
+      "level": 2
+    },
+    {
+      "headword": "narrow",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnæroʊ/",
+      "meaning": "狭い",
+      "exampleEn": "The old street was dark and narrow.",
+      "exampleJa": "その古い通りは暗くて狭かったです。",
+      "level": 3
+    },
+    {
+      "headword": "thick",
+      "partOfSpeech": "adjective",
+      "phonetic": "/θɪk/",
+      "meaning": "厚い；太い",
+      "exampleEn": "The ice on the lake was thick.",
+      "exampleJa": "湖の氷は厚かったです。",
+      "level": 2
+    },
+    {
+      "headword": "thin",
+      "partOfSpeech": "adjective",
+      "phonetic": "/θɪn/",
+      "meaning": "薄い；細い",
+      "exampleEn": "She cut the bread very thin.",
+      "exampleJa": "彼女はパンをとても薄く切りました。",
+      "level": 2
+    },
+    {
+      "headword": "heavy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhevi/",
+      "meaning": "重い",
+      "exampleEn": "This box is too heavy to carry.",
+      "exampleJa": "この箱は運ぶには重すぎます。",
+      "level": 2
+    },
+    {
+      "headword": "light",
+      "partOfSpeech": "adjective",
+      "phonetic": "/laɪt/",
+      "meaning": "軽い；明るい",
+      "exampleEn": "My new bag is very light.",
+      "exampleJa": "私の新しいかばんはとても軽いです。",
+      "level": 2
+    },
+    {
+      "headword": "round",
+      "partOfSpeech": "adjective",
+      "phonetic": "/raʊnd/",
+      "meaning": "丸い",
+      "exampleEn": "The table in the kitchen is round.",
+      "exampleJa": "台所のテーブルは丸いです。",
+      "level": 2
+    },
+    {
+      "headword": "square",
+      "partOfSpeech": "adjective",
+      "phonetic": "/skwer/",
+      "meaning": "四角い",
+      "exampleEn": "We sat around a square table.",
+      "exampleJa": "私たちは四角いテーブルを囲んで座りました。",
+      "level": 2
+    },
+    {
+      "headword": "huge",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hjuːdʒ/",
+      "meaning": "巨大な",
+      "exampleEn": "A huge dog ran across the park.",
+      "exampleJa": "巨大な犬が公園を走り抜けました。",
+      "level": 2
+    },
+    {
+      "headword": "tiny",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtaɪni/",
+      "meaning": "とても小さい",
+      "exampleEn": "The cat was tiny and white.",
+      "exampleJa": "その猫はとても小さくて白かったです。",
+      "level": 2
+    },
+    {
+      "headword": "red",
+      "partOfSpeech": "adjective",
+      "phonetic": "/red/",
+      "meaning": "赤い",
+      "exampleEn": "She wore a red dress to the festival.",
+      "exampleJa": "彼女はお祭りに赤いドレスを着ていきました。",
+      "level": 1
+    },
+    {
+      "headword": "blue",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bluː/",
+      "meaning": "青い",
+      "exampleEn": "The sky was blue and clear today.",
+      "exampleJa": "今日の空は青くて澄んでいました。",
+      "level": 1
+    },
+    {
+      "headword": "yellow",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈjeloʊ/",
+      "meaning": "黄色い",
+      "exampleEn": "I like this yellow T-shirt.",
+      "exampleJa": "私はこの黄色いTシャツが好きです。",
+      "level": 1
+    },
+    {
+      "headword": "green",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡriːn/",
+      "meaning": "緑の",
+      "exampleEn": "The leaves turned green in spring.",
+      "exampleJa": "葉は春に緑色になりました。",
+      "level": 1
+    },
+    {
+      "headword": "black",
+      "partOfSpeech": "adjective",
+      "phonetic": "/blæk/",
+      "meaning": "黒い",
+      "exampleEn": "He wore a black jacket yesterday.",
+      "exampleJa": "彼は昨日黒いジャケットを着ていました。",
+      "level": 1
+    },
+    {
+      "headword": "white",
+      "partOfSpeech": "adjective",
+      "phonetic": "/waɪt/",
+      "meaning": "白い",
+      "exampleEn": "Snow covered the white mountains.",
+      "exampleJa": "雪が白い山々を覆っていました。",
+      "level": 1
+    },
+    {
+      "headword": "brown",
+      "partOfSpeech": "adjective",
+      "phonetic": "/braʊn/",
+      "meaning": "茶色の",
+      "exampleEn": "My dog has brown eyes.",
+      "exampleJa": "私の犬は茶色の目をしています。",
+      "level": 2
+    },
+    {
+      "headword": "pink",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pɪŋk/",
+      "meaning": "ピンク色の",
+      "exampleEn": "She painted her room pink.",
+      "exampleJa": "彼女は自分の部屋をピンク色に塗りました。",
+      "level": 1
+    },
+    {
+      "headword": "purple",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɜːrpl/",
+      "meaning": "紫色の",
+      "exampleEn": "The flower in the garden is purple.",
+      "exampleJa": "庭の花は紫色です。",
+      "level": 2
+    },
+    {
+      "headword": "orange",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɔːrɪndʒ/",
+      "meaning": "オレンジ色の",
+      "exampleEn": "The sky turned orange in the evening.",
+      "exampleJa": "夕方、空はオレンジ色になりました。",
+      "level": 1
+    },
+    {
+      "headword": "gray",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡreɪ/",
+      "meaning": "灰色の",
+      "exampleEn": "The sky became gray before the rain.",
+      "exampleJa": "雨の前に空は灰色になりました。",
+      "level": 2
+    },
+    {
+      "headword": "color",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌlər/",
+      "meaning": "色",
+      "exampleEn": "What color do you like best?",
+      "exampleJa": "あなたはどの色が一番好きですか。",
+      "level": 1
+    },
+    {
+      "headword": "colorful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkʌlərfl/",
+      "meaning": "色彩豊かな",
+      "exampleEn": "The festival had colorful lights everywhere.",
+      "exampleJa": "その祭りにはどこも色とりどりの明かりがありました。",
+      "level": 2
+    },
+    {
+      "headword": "bright",
+      "partOfSpeech": "adjective",
+      "phonetic": "/braɪt/",
+      "meaning": "明るい",
+      "exampleEn": "The classroom was bright and clean.",
+      "exampleJa": "教室は明るくて清潔でした。",
+      "level": 2
+    },
+    {
+      "headword": "dark",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɑːrk/",
+      "meaning": "暗い",
+      "exampleEn": "It gets dark early in winter.",
+      "exampleJa": "冬は早く暗くなります。",
+      "level": 1
+    },
+    {
+      "headword": "silver",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪlvər/",
+      "meaning": "銀色の",
+      "exampleEn": "My watch is silver and very light.",
+      "exampleJa": "私の時計は銀色でとても軽いです。",
+      "level": 2
+    },
+    {
+      "headword": "gold",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡoʊld/",
+      "meaning": "金色の",
+      "exampleEn": "He wears a gold ring.",
+      "exampleJa": "彼は金色の指輪をしています。",
+      "level": 2
+    },
+    {
+      "headword": "fast",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fæst/",
+      "meaning": "速い",
+      "exampleEn": "This is a very fast train.",
+      "exampleJa": "これはとても速い電車です。",
+      "level": 1
+    },
+    {
+      "headword": "slow",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sloʊ/",
+      "meaning": "遅い",
+      "exampleEn": "The old bus is very slow.",
+      "exampleJa": "その古いバスはとても遅いです。",
+      "level": 1
+    },
+    {
+      "headword": "quick",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kwɪk/",
+      "meaning": "素早い",
+      "exampleEn": "She gave a quick answer to the question.",
+      "exampleJa": "彼女はその質問に素早く答えました。",
+      "level": 2
+    },
+    {
+      "headword": "loud",
+      "partOfSpeech": "adjective",
+      "phonetic": "/laʊd/",
+      "meaning": "大きな音の；うるさい",
+      "exampleEn": "The music was too loud for me.",
+      "exampleJa": "その音楽は私には大きすぎました。",
+      "level": 1
+    },
+    {
+      "headword": "noisy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɔɪzi/",
+      "meaning": "騒がしい",
+      "exampleEn": "The street was noisy this morning.",
+      "exampleJa": "今朝、通りは騒がしかったです。",
+      "level": 2
+    },
+    {
+      "headword": "silent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsaɪlənt/",
+      "meaning": "静まり返った；無言の",
+      "exampleEn": "The classroom was silent during the test.",
+      "exampleJa": "テストの間、教室は静まり返っていました。",
+      "level": 3
+    },
+    {
+      "headword": "well",
+      "partOfSpeech": "adverb",
+      "phonetic": "/wel/",
+      "meaning": "上手に；よく",
+      "exampleEn": "My sister sings very well.",
+      "exampleJa": "私の姉はとても上手に歌います。",
+      "level": 1
+    },
+    {
+      "headword": "hard",
+      "partOfSpeech": "adverb",
+      "phonetic": "/hɑːrd/",
+      "meaning": "一生懸命に",
+      "exampleEn": "He studies hard every day.",
+      "exampleJa": "彼は毎日一生懸命に勉強します。",
+      "level": 1
+    },
+    {
+      "headword": "fast",
+      "partOfSpeech": "adverb",
+      "phonetic": "/fæst/",
+      "meaning": "速く",
+      "exampleEn": "The rabbit can run very fast.",
+      "exampleJa": "そのウサギはとても速く走ることができます。",
+      "level": 1
+    },
+    {
+      "headword": "slowly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsloʊli/",
+      "meaning": "ゆっくりと",
+      "exampleEn": "Please speak more slowly, teacher.",
+      "exampleJa": "先生、もっとゆっくり話してください。",
+      "level": 2
+    },
+    {
+      "headword": "quickly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkwɪkli/",
+      "meaning": "すぐに；素早く",
+      "exampleEn": "He finished his homework quickly.",
+      "exampleJa": "彼は宿題をすぐに終わらせました。",
+      "level": 2
+    },
+    {
+      "headword": "carefully",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkerfəli/",
+      "meaning": "注意深く",
+      "exampleEn": "Listen carefully to your teacher.",
+      "exampleJa": "先生の話を注意深く聞きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "easily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːzəli/",
+      "meaning": "簡単に",
+      "exampleEn": "She answered the question easily.",
+      "exampleJa": "彼女はその質問に簡単に答えました。",
+      "level": 2
+    },
+    {
+      "headword": "suddenly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌdənli/",
+      "meaning": "突然",
+      "exampleEn": "Suddenly, it began to rain hard.",
+      "exampleJa": "突然、雨が激しく降り始めました。",
+      "level": 2
+    },
+    {
+      "headword": "finally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfaɪnəli/",
+      "meaning": "ついに；最後に",
+      "exampleEn": "We finally finished our homework.",
+      "exampleJa": "私たちはついに宿題を終えました。",
+      "level": 2
+    },
+    {
+      "headword": "almost",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɔːlmoʊst/",
+      "meaning": "ほとんど",
+      "exampleEn": "It is almost time for dinner.",
+      "exampleJa": "もうすぐ夕食の時間です。",
+      "level": 2
+    },
+    {
+      "headword": "together",
+      "partOfSpeech": "adverb",
+      "phonetic": "/təˈɡeðər/",
+      "meaning": "一緒に",
+      "exampleEn": "Let's study together after dinner.",
+      "exampleJa": "夕食の後、一緒に勉強しましょう。",
+      "level": 1
+    },
+    {
+      "headword": "especially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈspeʃəli/",
+      "meaning": "特に",
+      "exampleEn": "I like fruit, especially oranges.",
+      "exampleJa": "私は果物が好きで、特にオレンジが好きです。",
+      "level": 3
+    },
+    {
+      "headword": "maybe",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmeɪbi/",
+      "meaning": "たぶん",
+      "exampleEn": "Maybe he will come to the festival.",
+      "exampleJa": "たぶん彼はお祭りに来るでしょう。",
+      "level": 1
+    },
+    {
+      "headword": "certainly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsɜːrtənli/",
+      "meaning": "確かに；確実に",
+      "exampleEn": "This is certainly a difficult question.",
+      "exampleJa": "これは確かに難しい質問です。",
+      "level": 3
+    },
+    {
+      "headword": "actually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈæktʃuəli/",
+      "meaning": "実は",
+      "exampleEn": "Actually, I don't like coffee.",
+      "exampleJa": "実は、私はコーヒーが好きではありません。",
+      "level": 3
+    },
+    {
+      "headword": "instead",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈsted/",
+      "meaning": "その代わりに",
+      "exampleEn": "I had tea instead of coffee.",
+      "exampleJa": "私はコーヒーの代わりにお茶を飲みました。",
+      "level": 3
+    },
+    {
+      "headword": "anyway",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈeniweɪ/",
+      "meaning": "とにかく",
+      "exampleEn": "It was raining, but we went anyway.",
+      "exampleJa": "雨が降っていましたが、私たちはとにかく出かけました。",
+      "level": 3
+    },
+    {
+      "headword": "however",
+      "partOfSpeech": "adverb",
+      "phonetic": "/haʊˈevər/",
+      "meaning": "しかしながら",
+      "exampleEn": "The test was hard. However, I still passed.",
+      "exampleJa": "テストは難しかったです。しかし、私はそれでも合格しました。",
+      "level": 3
+    },
+    {
+      "headword": "also",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɔːlsoʊ/",
+      "meaning": "また；〜も",
+      "exampleEn": "I like music. I also like art.",
+      "exampleJa": "私は音楽が好きです。美術も好きです。",
+      "level": 1
+    },
+    {
+      "headword": "too",
+      "partOfSpeech": "adverb",
+      "phonetic": "/tuː/",
+      "meaning": "〜もまた",
+      "exampleEn": "I like music, and I dance, too.",
+      "exampleJa": "私は音楽が好きで、ダンスもします。",
+      "level": 1
+    },
+    {
+      "headword": "either",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːðər/",
+      "meaning": "（否定文で）〜もまた",
+      "exampleEn": "I don't like fish, and he doesn't either.",
+      "exampleJa": "私は魚が好きではなく、彼も好きではありません。",
+      "level": 2
+    },
+    {
+      "headword": "neither",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈniːðər/",
+      "meaning": "〜もまた（否定文で）",
+      "exampleEn": "I can't swim, and neither can he.",
+      "exampleJa": "私は泳げませんし、彼も泳げません。",
+      "level": 3
+    },
+    {
+      "headword": "ago",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈɡoʊ/",
+      "meaning": "（今から）〜前に",
+      "exampleEn": "I visited Kyoto three years ago.",
+      "exampleJa": "私は3年前に京都を訪れました。",
+      "level": 1
+    },
+    {
+      "headword": "later",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈleɪtər/",
+      "meaning": "後で",
+      "exampleEn": "I will call you later today.",
+      "exampleJa": "今日後であなたに電話します。",
+      "level": 1
+    },
+    {
+      "headword": "still",
+      "partOfSpeech": "adverb",
+      "phonetic": "/stɪl/",
+      "meaning": "まだ",
+      "exampleEn": "It is still raining outside.",
+      "exampleJa": "外はまだ雨が降っています。",
+      "level": 2
+    },
+    {
+      "headword": "yet",
+      "partOfSpeech": "adverb",
+      "phonetic": "/jet/",
+      "meaning": "まだ（否定文で）；もう（疑問文で）",
+      "exampleEn": "Have you finished your homework yet?",
+      "exampleJa": "もう宿題を終えましたか。",
+      "level": 2
+    },
+    {
+      "headword": "far",
+      "partOfSpeech": "adverb",
+      "phonetic": "/fɑːr/",
+      "meaning": "遠くに",
+      "exampleEn": "The station is very far from here.",
+      "exampleJa": "駅はここからとても遠いです。",
+      "level": 1
+    },
+    {
+      "headword": "near",
+      "partOfSpeech": "adverb",
+      "phonetic": "/nɪr/",
+      "meaning": "近くに",
+      "exampleEn": "Please come and sit near me.",
+      "exampleJa": "こちらに来て私の近くに座ってください。",
+      "level": 1
+    },
+    {
+      "headword": "abroad",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈbrɔːd/",
+      "meaning": "外国へ；海外に",
+      "exampleEn": "My brother wants to study abroad.",
+      "exampleJa": "私の兄は海外で勉強したいと思っています。",
+      "level": 3
+    },
+    {
+      "headword": "everywhere",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈevriwer/",
+      "meaning": "どこでも；至る所に",
+      "exampleEn": "We looked everywhere for the lost key.",
+      "exampleJa": "私たちはなくした鍵をどこでも探しました。",
+      "level": 2
+    },
+    {
+      "headword": "quietly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkwaɪətli/",
+      "meaning": "静かに",
+      "exampleEn": "Please walk quietly in the library.",
+      "exampleJa": "図書館では静かに歩いてください。",
+      "level": 2
+    },
+    {
+      "headword": "loudly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈlaʊdli/",
+      "meaning": "大声で",
+      "exampleEn": "The baby cried loudly all night.",
+      "exampleJa": "その赤ちゃんは一晩中大声で泣きました。",
+      "level": 2
+    },
+    {
+      "headword": "outside",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌaʊtˈsaɪd/",
+      "meaning": "外で；外に",
+      "exampleEn": "The children are playing outside now.",
+      "exampleJa": "子どもたちは今外で遊んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "inside",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌɪnˈsaɪd/",
+      "meaning": "中で；中に",
+      "exampleEn": "Let's go inside because it's cold.",
+      "exampleJa": "寒いので中に入りましょう。",
+      "level": 1
+    }
+  ]
+}

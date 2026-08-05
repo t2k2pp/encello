@@ -1,0 +1,861 @@
+{
+  "chunk": "13_adjectives",
+  "note": "形容詞I（性質・評価・状態）",
+  "words": [
+    {
+      "headword": "kind",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kaɪnd/",
+      "meaning": "親切な",
+      "exampleEn": "My teacher is very kind.",
+      "exampleJa": "私の先生はとても親切です。",
+      "level": 1
+    },
+    {
+      "headword": "friendly",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfrendli/",
+      "meaning": "親しみやすい；友好的な",
+      "exampleEn": "The new student is very friendly.",
+      "exampleJa": "その新しい生徒はとても親しみやすいです。",
+      "level": 1
+    },
+    {
+      "headword": "honest",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːnɪst/",
+      "meaning": "正直な",
+      "exampleEn": "Please be honest with me.",
+      "exampleJa": "私に正直でいてください。",
+      "level": 2
+    },
+    {
+      "headword": "polite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pəˈlaɪt/",
+      "meaning": "礼儀正しい",
+      "exampleEn": "Please give a polite answer.",
+      "exampleJa": "礼儀正しい返事をしてください。",
+      "level": 2
+    },
+    {
+      "headword": "shy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʃaɪ/",
+      "meaning": "内気な；恥ずかしがりの",
+      "exampleEn": "He was too shy to answer.",
+      "exampleJa": "彼は恥ずかしがって答えられませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "brave",
+      "partOfSpeech": "adjective",
+      "phonetic": "/breɪv/",
+      "meaning": "勇敢な",
+      "exampleEn": "The firefighter was very brave.",
+      "exampleJa": "その消防士はとても勇敢でした。",
+      "level": 2
+    },
+    {
+      "headword": "gentle",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒentl/",
+      "meaning": "優しい；穏やかな",
+      "exampleEn": "My grandmother has a gentle voice.",
+      "exampleJa": "私の祖母は優しい声をしています。",
+      "level": 2
+    },
+    {
+      "headword": "serious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪriəs/",
+      "meaning": "まじめな；深刻な",
+      "exampleEn": "This is a serious problem for us.",
+      "exampleJa": "これは私たちにとって深刻な問題です。",
+      "level": 2
+    },
+    {
+      "headword": "funny",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfʌni/",
+      "meaning": "おかしい；滑稽な",
+      "exampleEn": "My brother tells funny stories.",
+      "exampleJa": "私の兄はおかしな話をします。",
+      "level": 1
+    },
+    {
+      "headword": "smart",
+      "partOfSpeech": "adjective",
+      "phonetic": "/smɑːrt/",
+      "meaning": "賢い；利口な",
+      "exampleEn": "My sister is smart and kind.",
+      "exampleJa": "私の姉は賢くて親切です。",
+      "level": 2
+    },
+    {
+      "headword": "clever",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈklevər/",
+      "meaning": "賢い；利口な",
+      "exampleEn": "That was a clever answer.",
+      "exampleJa": "それは賢い答えでした。",
+      "level": 2
+    },
+    {
+      "headword": "lazy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈleɪzi/",
+      "meaning": "怠惰な；なまけた",
+      "exampleEn": "Don't be lazy on weekends.",
+      "exampleJa": "週末になまけてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "selfish",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈselfɪʃ/",
+      "meaning": "自分勝手な",
+      "exampleEn": "Don't be so selfish, please.",
+      "exampleJa": "そんなに自分勝手にならないでください。",
+      "level": 3
+    },
+    {
+      "headword": "curious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkjʊriəs/",
+      "meaning": "好奇心の強い",
+      "exampleEn": "Children are curious about everything.",
+      "exampleJa": "子どもはあらゆることに好奇心を持ちます。",
+      "level": 3
+    },
+    {
+      "headword": "careful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkerfl/",
+      "meaning": "注意深い",
+      "exampleEn": "Please be careful on the stairs.",
+      "exampleJa": "階段では気をつけてください。",
+      "level": 1
+    },
+    {
+      "headword": "careless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkerləs/",
+      "meaning": "不注意な",
+      "exampleEn": "That was a careless mistake.",
+      "exampleJa": "それは不注意なミスでした。",
+      "level": 2
+    },
+    {
+      "headword": "calm",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kɑːm/",
+      "meaning": "穏やかな；冷静な",
+      "exampleEn": "Stay calm during the test.",
+      "exampleJa": "テストの間は落ち着いていてください。",
+      "level": 2
+    },
+    {
+      "headword": "cheerful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtʃɪrfl/",
+      "meaning": "陽気な；元気な",
+      "exampleEn": "She has a cheerful smile.",
+      "exampleJa": "彼女は元気な笑顔をしています。",
+      "level": 2
+    },
+    {
+      "headword": "rude",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ruːd/",
+      "meaning": "失礼な；無礼な",
+      "exampleEn": "It was rude to say that.",
+      "exampleJa": "そう言うのは失礼でした。",
+      "level": 3
+    },
+    {
+      "headword": "active",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæktɪv/",
+      "meaning": "活動的な；積極的な",
+      "exampleEn": "My grandfather is still very active.",
+      "exampleJa": "私の祖父はまだとても活動的です。",
+      "level": 2
+    },
+    {
+      "headword": "patient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpeɪʃnt/",
+      "meaning": "我慢強い",
+      "exampleEn": "A good teacher is patient with students.",
+      "exampleJa": "良い教師は生徒に対して我慢強いです。",
+      "level": 3
+    },
+    {
+      "headword": "strict",
+      "partOfSpeech": "adjective",
+      "phonetic": "/strɪkt/",
+      "meaning": "厳しい",
+      "exampleEn": "Our coach is strict but fair.",
+      "exampleJa": "私たちのコーチは厳しいですが公平です。",
+      "level": 2
+    },
+    {
+      "headword": "talkative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtɔːkətɪv/",
+      "meaning": "おしゃべりな",
+      "exampleEn": "My little sister is very talkative.",
+      "exampleJa": "私の妹はとてもおしゃべりです。",
+      "level": 3
+    },
+    {
+      "headword": "cruel",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkruːəl/",
+      "meaning": "残酷な",
+      "exampleEn": "It is cruel to hurt animals.",
+      "exampleJa": "動物を傷つけるのは残酷です。",
+      "level": 2
+    },
+    {
+      "headword": "wise",
+      "partOfSpeech": "adjective",
+      "phonetic": "/waɪz/",
+      "meaning": "賢い；賢明な",
+      "exampleEn": "My grandmother is very wise.",
+      "exampleJa": "私の祖母はとても賢明です。",
+      "level": 3
+    },
+    {
+      "headword": "generous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒenərəs/",
+      "meaning": "気前の良い",
+      "exampleEn": "My uncle is very generous.",
+      "exampleJa": "私のおじはとても気前が良いです。",
+      "level": 3
+    },
+    {
+      "headword": "confident",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːnfɪdənt/",
+      "meaning": "自信のある",
+      "exampleEn": "She looked confident before the speech.",
+      "exampleJa": "彼女はスピーチの前、自信ありげでした。",
+      "level": 3
+    },
+    {
+      "headword": "silly",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪli/",
+      "meaning": "ばかげた；おろかな",
+      "exampleEn": "That was a silly question.",
+      "exampleJa": "それはばかげた質問でした。",
+      "level": 2
+    },
+    {
+      "headword": "good",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡʊd/",
+      "meaning": "良い",
+      "exampleEn": "This is a good idea.",
+      "exampleJa": "これは良い考えです。",
+      "level": 1
+    },
+    {
+      "headword": "bad",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bæd/",
+      "meaning": "悪い",
+      "exampleEn": "The weather was bad yesterday.",
+      "exampleJa": "昨日は天気が悪かったです。",
+      "level": 1
+    },
+    {
+      "headword": "nice",
+      "partOfSpeech": "adjective",
+      "phonetic": "/naɪs/",
+      "meaning": "すてきな；親切な",
+      "exampleEn": "You have a nice bag.",
+      "exampleJa": "あなたはすてきなバッグを持っていますね。",
+      "level": 1
+    },
+    {
+      "headword": "great",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡreɪt/",
+      "meaning": "すばらしい；偉大な",
+      "exampleEn": "We had a great time yesterday.",
+      "exampleJa": "私たちは昨日すばらしい時間を過ごしました。",
+      "level": 1
+    },
+    {
+      "headword": "wonderful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈwʌndərfl/",
+      "meaning": "すばらしい",
+      "exampleEn": "The festival was wonderful this year.",
+      "exampleJa": "今年のお祭りはすばらしかったです。",
+      "level": 1
+    },
+    {
+      "headword": "terrible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈterəbl/",
+      "meaning": "ひどい",
+      "exampleEn": "I had a terrible headache.",
+      "exampleJa": "私はひどい頭痛がしました。",
+      "level": 2
+    },
+    {
+      "headword": "perfect",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "meaning": "完璧な",
+      "exampleEn": "Your answer was perfect this time.",
+      "exampleJa": "今回、あなたの答えは完璧でした。",
+      "level": 2
+    },
+    {
+      "headword": "excellent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeksələnt/",
+      "meaning": "優秀な；すばらしい",
+      "exampleEn": "She gave an excellent presentation.",
+      "exampleJa": "彼女はすばらしい発表をしました。",
+      "level": 3
+    },
+    {
+      "headword": "poor",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pʊr/",
+      "meaning": "貧しい；かわいそうな",
+      "exampleEn": "The poor dog was very hungry.",
+      "exampleJa": "そのかわいそうな犬はとても空腹でした。",
+      "level": 2
+    },
+    {
+      "headword": "right",
+      "partOfSpeech": "adjective",
+      "phonetic": "/raɪt/",
+      "meaning": "正しい",
+      "exampleEn": "Your answer is right.",
+      "exampleJa": "あなたの答えは正しいです。",
+      "level": 1
+    },
+    {
+      "headword": "wrong",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɔːŋ/",
+      "meaning": "間違った",
+      "exampleEn": "I think this answer is wrong.",
+      "exampleJa": "この答えは間違っていると思います。",
+      "level": 1
+    },
+    {
+      "headword": "true",
+      "partOfSpeech": "adjective",
+      "phonetic": "/truː/",
+      "meaning": "本当の；真実の",
+      "exampleEn": "Is this story true?",
+      "exampleJa": "この話は本当ですか。",
+      "level": 2
+    },
+    {
+      "headword": "false",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɔːls/",
+      "meaning": "誤った；偽の",
+      "exampleEn": "That answer is false.",
+      "exampleJa": "その答えは誤りです。",
+      "level": 2
+    },
+    {
+      "headword": "real",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈriːəl/",
+      "meaning": "本物の；本当の",
+      "exampleEn": "This is a real problem for us.",
+      "exampleJa": "これは私たちにとって本当の問題です。",
+      "level": 2
+    },
+    {
+      "headword": "fair",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fer/",
+      "meaning": "公平な",
+      "exampleEn": "The teacher was fair to everyone.",
+      "exampleJa": "その先生はみんなに公平でした。",
+      "level": 3
+    },
+    {
+      "headword": "awful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɔːfl/",
+      "meaning": "ひどい",
+      "exampleEn": "The weather was awful last week.",
+      "exampleJa": "先週は天気がひどかったです。",
+      "level": 3
+    },
+    {
+      "headword": "fine",
+      "partOfSpeech": "adjective",
+      "phonetic": "/faɪn/",
+      "meaning": "元気な；晴れた；結構な",
+      "exampleEn": "I am fine, thank you.",
+      "exampleJa": "私は元気です、ありがとう。",
+      "level": 1
+    },
+    {
+      "headword": "useless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈjuːsləs/",
+      "meaning": "役に立たない",
+      "exampleEn": "This old map is useless now.",
+      "exampleJa": "この古い地図はもう役に立ちません。",
+      "level": 3
+    },
+    {
+      "headword": "lucky",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈlʌki/",
+      "meaning": "幸運な",
+      "exampleEn": "I felt very lucky that day.",
+      "exampleJa": "その日、私はとても幸運だと感じました。",
+      "level": 2
+    },
+    {
+      "headword": "unlucky",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌnˈlʌki/",
+      "meaning": "不運な",
+      "exampleEn": "It was an unlucky accident.",
+      "exampleJa": "それは不運な事故でした。",
+      "level": 2
+    },
+    {
+      "headword": "valuable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvæljuəbl/",
+      "meaning": "貴重な",
+      "exampleEn": "Time is valuable, so don't waste it.",
+      "exampleJa": "時間は貴重なので、無駄にしないでください。",
+      "level": 3
+    },
+    {
+      "headword": "new",
+      "partOfSpeech": "adjective",
+      "phonetic": "/nuː/",
+      "meaning": "新しい",
+      "exampleEn": "I got a new bike.",
+      "exampleJa": "私は新しい自転車を手に入れました。",
+      "level": 1
+    },
+    {
+      "headword": "ready",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈredi/",
+      "meaning": "準備ができて",
+      "exampleEn": "Are you ready for the test?",
+      "exampleJa": "テストの準備はできていますか。",
+      "level": 1
+    },
+    {
+      "headword": "safe",
+      "partOfSpeech": "adjective",
+      "phonetic": "/seɪf/",
+      "meaning": "安全な",
+      "exampleEn": "This park is safe for children.",
+      "exampleJa": "この公園は子どもにとって安全です。",
+      "level": 2
+    },
+    {
+      "headword": "closed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kloʊzd/",
+      "meaning": "閉まっている",
+      "exampleEn": "The store was closed on Sunday.",
+      "exampleJa": "その店は日曜日は閉まっていました。",
+      "level": 2
+    },
+    {
+      "headword": "open",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈoʊpən/",
+      "meaning": "開いている",
+      "exampleEn": "The library is open until six.",
+      "exampleJa": "図書館は6時まで開いています。",
+      "level": 2
+    },
+    {
+      "headword": "full",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fʊl/",
+      "meaning": "いっぱいの",
+      "exampleEn": "The bus was full this morning.",
+      "exampleJa": "今朝バスは満員でした。",
+      "level": 1
+    },
+    {
+      "headword": "empty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈempti/",
+      "meaning": "空の",
+      "exampleEn": "The box on the desk was empty.",
+      "exampleJa": "机の上の箱は空でした。",
+      "level": 2
+    },
+    {
+      "headword": "alive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈlaɪv/",
+      "meaning": "生きている",
+      "exampleEn": "The old tree is still alive.",
+      "exampleJa": "その古い木はまだ生きています。",
+      "level": 2
+    },
+    {
+      "headword": "dead",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ded/",
+      "meaning": "死んでいる",
+      "exampleEn": "The plant in the garden is dead.",
+      "exampleJa": "庭の植物は枯れています。",
+      "level": 2
+    },
+    {
+      "headword": "awake",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈweɪk/",
+      "meaning": "目が覚めて",
+      "exampleEn": "My sister stayed awake all night.",
+      "exampleJa": "私の姉は一晩中起きていました。",
+      "level": 2
+    },
+    {
+      "headword": "asleep",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈsliːp/",
+      "meaning": "眠って",
+      "exampleEn": "The tired baby fell asleep soon.",
+      "exampleJa": "疲れた赤ちゃんはすぐに眠りに落ちました。",
+      "level": 2
+    },
+    {
+      "headword": "same",
+      "partOfSpeech": "adjective",
+      "phonetic": "/seɪm/",
+      "meaning": "同じ",
+      "exampleEn": "We are in the same class.",
+      "exampleJa": "私たちは同じクラスです。",
+      "level": 1
+    },
+    {
+      "headword": "certain",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɜːrtn/",
+      "meaning": "確信して；ある〜",
+      "exampleEn": "I am certain that she is right.",
+      "exampleJa": "私は彼女が正しいと確信しています。",
+      "level": 3
+    },
+    {
+      "headword": "sure",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʃʊr/",
+      "meaning": "確信して",
+      "exampleEn": "Are you sure about the answer?",
+      "exampleJa": "その答えに確信がありますか。",
+      "level": 2
+    },
+    {
+      "headword": "available",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈveɪləbl/",
+      "meaning": "利用できる",
+      "exampleEn": "This seat is available for us.",
+      "exampleJa": "この席は私たちが利用できます。",
+      "level": 3
+    },
+    {
+      "headword": "private",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpraɪvət/",
+      "meaning": "私的な；個人の",
+      "exampleEn": "This is my private room.",
+      "exampleJa": "これは私の個室です。",
+      "level": 3
+    },
+    {
+      "headword": "whole",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hoʊl/",
+      "meaning": "全体の",
+      "exampleEn": "We cleaned the whole classroom.",
+      "exampleJa": "私たちは教室全体を掃除しました。",
+      "level": 3
+    },
+    {
+      "headword": "modern",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɑːdərn/",
+      "meaning": "現代の；近代的な",
+      "exampleEn": "This is a modern building.",
+      "exampleJa": "これは現代的な建物です。",
+      "level": 2
+    },
+    {
+      "headword": "ancient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeɪnʃənt/",
+      "meaning": "古代の",
+      "exampleEn": "We learned about ancient Japan.",
+      "exampleJa": "私たちは古代の日本について学びました。",
+      "level": 3
+    },
+    {
+      "headword": "extra",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈekstrə/",
+      "meaning": "余分の；追加の",
+      "exampleEn": "Please bring an extra pencil.",
+      "exampleJa": "予備の鉛筆を持ってきてください。",
+      "level": 2
+    },
+    {
+      "headword": "double",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʌbl/",
+      "meaning": "2倍の；二重の",
+      "exampleEn": "This room has a double bed.",
+      "exampleJa": "この部屋にはダブルベッドがあります。",
+      "level": 2
+    },
+    {
+      "headword": "single",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪŋɡl/",
+      "meaning": "ただ一つの；独身の",
+      "exampleEn": "She lives alone in a single room.",
+      "exampleJa": "彼女は一人でシングルの部屋に住んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "hard",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hɑːrd/",
+      "meaning": "難しい；一生懸命な",
+      "exampleEn": "This math question is hard.",
+      "exampleJa": "この数学の問題は難しいです。",
+      "level": 1
+    },
+    {
+      "headword": "simple",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪmpl/",
+      "meaning": "簡単な；単純な",
+      "exampleEn": "This question is very simple.",
+      "exampleJa": "この質問はとても単純です。",
+      "level": 2
+    },
+    {
+      "headword": "main",
+      "partOfSpeech": "adjective",
+      "phonetic": "/meɪn/",
+      "meaning": "主な",
+      "exampleEn": "What is the main idea here?",
+      "exampleJa": "ここでの主な考えは何ですか。",
+      "level": 2
+    },
+    {
+      "headword": "special",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈspeʃl/",
+      "meaning": "特別な",
+      "exampleEn": "Today is a special day for us.",
+      "exampleJa": "今日は私たちにとって特別な日です。",
+      "level": 2
+    },
+    {
+      "headword": "common",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːmən/",
+      "meaning": "一般的な；共通の",
+      "exampleEn": "This mistake is very common.",
+      "exampleJa": "この間違いはとてもよくあります。",
+      "level": 2
+    },
+    {
+      "headword": "usual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈjuːʒuəl/",
+      "meaning": "いつもの",
+      "exampleEn": "This day was different from usual.",
+      "exampleJa": "その日はいつもと違いました。",
+      "level": 2
+    },
+    {
+      "headword": "strange",
+      "partOfSpeech": "adjective",
+      "phonetic": "/streɪndʒ/",
+      "meaning": "奇妙な",
+      "exampleEn": "I heard a strange sound last night.",
+      "exampleJa": "昨夜、奇妙な音が聞こえました。",
+      "level": 2
+    },
+    {
+      "headword": "similar",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪmələr/",
+      "meaning": "似ている",
+      "exampleEn": "Her plan is similar to mine.",
+      "exampleJa": "彼女の計画は私のと似ています。",
+      "level": 3
+    },
+    {
+      "headword": "general",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒenrəl/",
+      "meaning": "一般的な",
+      "exampleEn": "In general, students like summer vacation.",
+      "exampleJa": "一般的に、生徒は夏休みが好きです。",
+      "level": 3
+    },
+    {
+      "headword": "basic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbeɪsɪk/",
+      "meaning": "基本的な",
+      "exampleEn": "We learned some basic words in class.",
+      "exampleJa": "私たちは授業で基本的な単語を学びました。",
+      "level": 2
+    },
+    {
+      "headword": "possible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɑːsəbl/",
+      "meaning": "可能な",
+      "exampleEn": "Is it possible to finish today?",
+      "exampleJa": "今日中に終わらせることは可能ですか。",
+      "level": 2
+    },
+    {
+      "headword": "impossible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpɑːsəbl/",
+      "meaning": "不可能な",
+      "exampleEn": "It is impossible to finish now.",
+      "exampleJa": "今それを終わらせるのは不可能です。",
+      "level": 2
+    },
+    {
+      "headword": "normal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɔːrml/",
+      "meaning": "普通の",
+      "exampleEn": "This is normal for our class.",
+      "exampleJa": "これは私たちのクラスでは普通のことです。",
+      "level": 2
+    },
+    {
+      "headword": "clear",
+      "partOfSpeech": "adjective",
+      "phonetic": "/klɪr/",
+      "meaning": "明らかな；澄んだ",
+      "exampleEn": "The answer was clear to everyone.",
+      "exampleJa": "その答えはみんなにとって明らかでした。",
+      "level": 2
+    },
+    {
+      "headword": "final",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfaɪnl/",
+      "meaning": "最後の",
+      "exampleEn": "This is the final question.",
+      "exampleJa": "これが最後の質問です。",
+      "level": 2
+    },
+    {
+      "headword": "popular",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɑːpjələr/",
+      "meaning": "人気のある",
+      "exampleEn": "This singer is very popular now.",
+      "exampleJa": "この歌手は今とても人気があります。",
+      "level": 2
+    },
+    {
+      "headword": "boring",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbɔːrɪŋ/",
+      "meaning": "退屈な",
+      "exampleEn": "This class was a little boring.",
+      "exampleJa": "この授業は少し退屈でした。",
+      "level": 2
+    },
+    {
+      "headword": "exciting",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪkˈsaɪtɪŋ/",
+      "meaning": "わくわくさせる",
+      "exampleEn": "Our trip to Kyoto was exciting.",
+      "exampleJa": "京都への旅行はわくわくしました。",
+      "level": 2
+    },
+    {
+      "headword": "surprising",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sərˈpraɪzɪŋ/",
+      "meaning": "驚くべき",
+      "exampleEn": "The result was surprising to us.",
+      "exampleJa": "その結果は私たちにとって驚くべきものでした。",
+      "level": 3
+    },
+    {
+      "headword": "amazing",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "meaning": "驚くほどすばらしい",
+      "exampleEn": "Her dance was truly amazing.",
+      "exampleJa": "彼女のダンスは本当にすばらしかったです。",
+      "level": 3
+    },
+    {
+      "headword": "cute",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kjuːt/",
+      "meaning": "かわいい",
+      "exampleEn": "That baby is really cute.",
+      "exampleJa": "あの赤ちゃんは本当にかわいいです。",
+      "level": 1
+    },
+    {
+      "headword": "pretty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈprɪti/",
+      "meaning": "かわいい；きれいな",
+      "exampleEn": "She wore a pretty dress today.",
+      "exampleJa": "彼女は今日かわいいドレスを着ていました。",
+      "level": 2
+    },
+    {
+      "headword": "ugly",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈʌɡli/",
+      "meaning": "醜い",
+      "exampleEn": "The old fence looked ugly.",
+      "exampleJa": "その古いフェンスは醜く見えました。",
+      "level": 2
+    },
+    {
+      "headword": "fantastic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fænˈtæstɪk/",
+      "meaning": "すばらしい",
+      "exampleEn": "We had a fantastic vacation this summer.",
+      "exampleJa": "私たちは今年の夏すばらしい休暇を過ごしました。",
+      "level": 3
+    }
+  ]
+}
