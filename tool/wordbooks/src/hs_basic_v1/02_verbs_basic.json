@@ -1,0 +1,1041 @@
+{
+  "chunk": "02_verbs_basic",
+  "note": "動作・状態・物理的変化を表す高校基本動詞",
+  "words": [
+    {
+      "headword": "absorb",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈzɔːrb/",
+      "meaning": "を吸収する；を夢中にさせる",
+      "exampleEn": "Plants absorb water from soil.",
+      "exampleJa": "植物は土から水を吸収します。",
+      "level": 3
+    },
+    {
+      "headword": "accompany",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkʌmpəni/",
+      "meaning": "に同行する；に添える",
+      "exampleEn": "May I accompany you?",
+      "exampleJa": "同行してもよろしいですか。",
+      "level": 3
+    },
+    {
+      "headword": "admire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmaɪər/",
+      "meaning": "を称賛する；に見とれる",
+      "exampleEn": "I admire your courage.",
+      "exampleJa": "私はあなたの勇気を称賛します。",
+      "level": 2
+    },
+    {
+      "headword": "adopt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdɑːpt/",
+      "meaning": "を採用する；を養子にする",
+      "exampleEn": "They adopted a new method.",
+      "exampleJa": "彼らは新しい方法を採用しました。",
+      "level": 3
+    },
+    {
+      "headword": "advance",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈvæns/",
+      "meaning": "進む；を進める",
+      "exampleEn": "Technology advances every day.",
+      "exampleJa": "技術は日々進歩しています。",
+      "level": 2
+    },
+    {
+      "headword": "alter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːltər/",
+      "meaning": "を変える；変わる",
+      "exampleEn": "Nothing can alter my decision.",
+      "exampleJa": "何ものも私の決意を変えることはできません。",
+      "level": 3
+    },
+    {
+      "headword": "announce",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈnaʊns/",
+      "meaning": "を発表する；を告知する",
+      "exampleEn": "They announced the news.",
+      "exampleJa": "彼らはニュースを発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "approach",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈproʊtʃ/",
+      "meaning": "に近づく；に接近する",
+      "exampleEn": "A train is approaching.",
+      "exampleJa": "電車が近づいています。",
+      "level": 2
+    },
+    {
+      "headword": "arrange",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈreɪndʒ/",
+      "meaning": "を手配する；を配置する",
+      "exampleEn": "I arranged a meeting.",
+      "exampleJa": "私は会議を手配しました。",
+      "level": 2
+    },
+    {
+      "headword": "arrest",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈrest/",
+      "meaning": "を逮捕する",
+      "exampleEn": "The police arrested the man.",
+      "exampleJa": "警察はその男を逮捕しました。",
+      "level": 2
+    },
+    {
+      "headword": "attach",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtætʃ/",
+      "meaning": "を取り付ける；を添付する",
+      "exampleEn": "I attached a photo.",
+      "exampleJa": "写真を添付しました。",
+      "level": 2
+    },
+    {
+      "headword": "attack",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtæk/",
+      "meaning": "を攻撃する；を襲う",
+      "exampleEn": "Lions attack other animals.",
+      "exampleJa": "ライオンは他の動物を攻撃します。",
+      "level": 2
+    },
+    {
+      "headword": "attract",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtrækt/",
+      "meaning": "を引きつける；を魅了する",
+      "exampleEn": "The museum attracts visitors.",
+      "exampleJa": "その博物館は来訪者を引きつけています。",
+      "level": 2
+    },
+    {
+      "headword": "bend",
+      "partOfSpeech": "verb",
+      "phonetic": "/bend/",
+      "meaning": "を曲げる；曲がる",
+      "exampleEn": "He bent his knees.",
+      "exampleJa": "彼はひざを曲げました。",
+      "level": 2
+    },
+    {
+      "headword": "bind",
+      "partOfSpeech": "verb",
+      "phonetic": "/baɪnd/",
+      "meaning": "を縛る；を束縛する",
+      "exampleEn": "Rope was used to bind them.",
+      "exampleJa": "ロープがそれらを縛るために使われました。",
+      "level": 3
+    },
+    {
+      "headword": "bite",
+      "partOfSpeech": "verb",
+      "phonetic": "/baɪt/",
+      "meaning": "にかみつく；を刺す",
+      "exampleEn": "The dog bit my arm.",
+      "exampleJa": "犬が私の腕にかみつきました。",
+      "level": 1
+    },
+    {
+      "headword": "blame",
+      "partOfSpeech": "verb",
+      "phonetic": "/bleɪm/",
+      "meaning": "を責める；のせいにする",
+      "exampleEn": "Don't blame others for your mistake.",
+      "exampleJa": "自分の間違いを他人のせいにしてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "boil",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɔɪl/",
+      "meaning": "を沸かす；沸騰する",
+      "exampleEn": "Boil the water first.",
+      "exampleJa": "まずお湯を沸かしてください。",
+      "level": 1
+    },
+    {
+      "headword": "cast",
+      "partOfSpeech": "verb",
+      "phonetic": "/kæst/",
+      "meaning": "を投げる；を投げかける",
+      "exampleEn": "The tree cast a long shadow.",
+      "exampleJa": "木が長い影を投げかけました。",
+      "level": 3
+    },
+    {
+      "headword": "charge",
+      "partOfSpeech": "verb",
+      "phonetic": "/tʃɑːrdʒ/",
+      "meaning": "を請求する；を充電する",
+      "exampleEn": "I need to charge my phone.",
+      "exampleJa": "スマートフォンを充電する必要があります。",
+      "level": 2
+    },
+    {
+      "headword": "chase",
+      "partOfSpeech": "verb",
+      "phonetic": "/tʃeɪs/",
+      "meaning": "を追いかける",
+      "exampleEn": "The cat chased a mouse.",
+      "exampleJa": "猫がネズミを追いかけました。",
+      "level": 2
+    },
+    {
+      "headword": "cheat",
+      "partOfSpeech": "verb",
+      "phonetic": "/tʃiːt/",
+      "meaning": "をだます；カンニングする",
+      "exampleEn": "He never cheats in exams.",
+      "exampleJa": "彼は試験で絶対に不正をしません。",
+      "level": 2
+    },
+    {
+      "headword": "cheer",
+      "partOfSpeech": "verb",
+      "phonetic": "/tʃɪr/",
+      "meaning": "に声援を送る；を元気づける",
+      "exampleEn": "We cheered for our team.",
+      "exampleJa": "私たちはチームに声援を送りました。",
+      "level": 1
+    },
+    {
+      "headword": "climb",
+      "partOfSpeech": "verb",
+      "phonetic": "/klaɪm/",
+      "meaning": "に登る",
+      "exampleEn": "They climbed the steep mountain.",
+      "exampleJa": "彼らは険しい山に登りました。",
+      "level": 1
+    },
+    {
+      "headword": "command",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmænd/",
+      "meaning": "を命令する；を指揮する",
+      "exampleEn": "The captain commanded the soldiers.",
+      "exampleJa": "船長は兵士たちに命令しました。",
+      "level": 3
+    },
+    {
+      "headword": "compare",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈper/",
+      "meaning": "を比較する；をたとえる",
+      "exampleEn": "Compare these two pictures.",
+      "exampleJa": "これら2枚の絵を比較しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "compete",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpiːt/",
+      "meaning": "競う；競技する",
+      "exampleEn": "Many athletes competed in the race.",
+      "exampleJa": "多くの選手がレースで競い合いました。",
+      "level": 2
+    },
+    {
+      "headword": "complain",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpleɪn/",
+      "meaning": "苦情を言う；不平を言う",
+      "exampleEn": "He complained about the noise.",
+      "exampleJa": "彼は騒音について苦情を言いました。",
+      "level": 2
+    },
+    {
+      "headword": "confirm",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfɜːrm/",
+      "meaning": "を確認する",
+      "exampleEn": "Please confirm your reservation.",
+      "exampleJa": "予約を確認してください。",
+      "level": 2
+    },
+    {
+      "headword": "connect",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈnekt/",
+      "meaning": "をつなぐ；を接続する",
+      "exampleEn": "Connect the printer to your computer.",
+      "exampleJa": "プリンターをコンピューターに接続してください。",
+      "level": 2
+    },
+    {
+      "headword": "contain",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈteɪn/",
+      "meaning": "を含む；を収納する",
+      "exampleEn": "The box contains old letters.",
+      "exampleJa": "箱には古い手紙が入っています。",
+      "level": 2
+    },
+    {
+      "headword": "count",
+      "partOfSpeech": "verb",
+      "phonetic": "/kaʊnt/",
+      "meaning": "を数える；重要である",
+      "exampleEn": "Count from one to ten.",
+      "exampleJa": "1から10まで数えなさい。",
+      "level": 1
+    },
+    {
+      "headword": "cover",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkʌvər/",
+      "meaning": "を覆う；をカバーする",
+      "exampleEn": "Snow covered the field.",
+      "exampleJa": "雪が畑を覆いました。",
+      "level": 1
+    },
+    {
+      "headword": "crash",
+      "partOfSpeech": "verb",
+      "phonetic": "/kræʃ/",
+      "meaning": "衝突する；墜落する",
+      "exampleEn": "The car crashed into a tree.",
+      "exampleJa": "車が木に激突しました。",
+      "level": 2
+    },
+    {
+      "headword": "cross",
+      "partOfSpeech": "verb",
+      "phonetic": "/krɔːs/",
+      "meaning": "を渡る；を横切る",
+      "exampleEn": "Look carefully before crossing the street.",
+      "exampleJa": "通りを渡る前によく確認しなさい。",
+      "level": 1
+    },
+    {
+      "headword": "damage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdæmɪdʒ/",
+      "meaning": "に損害を与える",
+      "exampleEn": "The storm damaged several houses.",
+      "exampleJa": "嵐がいくつかの家に損害を与えました。",
+      "level": 2
+    },
+    {
+      "headword": "defend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfend/",
+      "meaning": "を守る；を弁護する",
+      "exampleEn": "They defended their country.",
+      "exampleJa": "彼らは自国を守りました。",
+      "level": 2
+    },
+    {
+      "headword": "deliver",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈlɪvər/",
+      "meaning": "を配達する；を送る",
+      "exampleEn": "The package was delivered today.",
+      "exampleJa": "小包は今日配達されました。",
+      "level": 2
+    },
+    {
+      "headword": "destroy",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstrɔɪ/",
+      "meaning": "を破壊する；を台無しにする",
+      "exampleEn": "The fire destroyed the building.",
+      "exampleJa": "火災が建物を破壊しました。",
+      "level": 2
+    },
+    {
+      "headword": "disappear",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈpɪr/",
+      "meaning": "消える；見えなくなる",
+      "exampleEn": "The bird disappeared into the forest.",
+      "exampleJa": "鳥は森の中へ消えていきました。",
+      "level": 2
+    },
+    {
+      "headword": "divide",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈvaɪd/",
+      "meaning": "を分割する；を分ける",
+      "exampleEn": "Divide the cake into four pieces.",
+      "exampleJa": "ケーキを4つに分けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "drop",
+      "partOfSpeech": "verb",
+      "phonetic": "/drɑːp/",
+      "meaning": "を落とす；落ちる",
+      "exampleEn": "He dropped his wallet.",
+      "exampleJa": "彼は財布を落としました。",
+      "level": 1
+    },
+    {
+      "headword": "earn",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɜːrn/",
+      "meaning": "を稼ぐ；を得る",
+      "exampleEn": "She earns money by teaching.",
+      "exampleJa": "彼女は教えることでお金を稼いでいます。",
+      "level": 2
+    },
+    {
+      "headword": "escape",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈskeɪp/",
+      "meaning": "逃げる；を免れる",
+      "exampleEn": "The prisoner escaped from jail.",
+      "exampleJa": "囚人は刑務所から脱走しました。",
+      "level": 2
+    },
+    {
+      "headword": "exchange",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "meaning": "を交換する",
+      "exampleEn": "We exchanged phone numbers.",
+      "exampleJa": "私たちは電話番号を交換しました。",
+      "level": 2
+    },
+    {
+      "headword": "expand",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspænd/",
+      "meaning": "を拡大する；広がる",
+      "exampleEn": "The company expanded its business.",
+      "exampleJa": "その会社は事業を拡大しました。",
+      "level": 3
+    },
+    {
+      "headword": "explore",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈsplɔːr/",
+      "meaning": "を探検する；を調査する",
+      "exampleEn": "They explored the dark cave.",
+      "exampleJa": "彼らは暗い洞窟を探検しました。",
+      "level": 2
+    },
+    {
+      "headword": "extend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈstend/",
+      "meaning": "を伸ばす；延長する",
+      "exampleEn": "The deadline was extended.",
+      "exampleJa": "締切が延長されました。",
+      "level": 3
+    },
+    {
+      "headword": "fill",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪl/",
+      "meaning": "を満たす；をいっぱいにする",
+      "exampleEn": "Fill the bottle with water.",
+      "exampleJa": "ボトルを水でいっぱいにしてください。",
+      "level": 1
+    },
+    {
+      "headword": "fit",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪt/",
+      "meaning": "に合う；に適合する",
+      "exampleEn": "These shoes fit me well.",
+      "exampleJa": "この靴は私にぴったり合います。",
+      "level": 2
+    },
+    {
+      "headword": "fix",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪks/",
+      "meaning": "を修理する；を固定する",
+      "exampleEn": "Can you fix my bicycle?",
+      "exampleJa": "私の自転車を修理できますか。",
+      "level": 1
+    },
+    {
+      "headword": "float",
+      "partOfSpeech": "verb",
+      "phonetic": "/floʊt/",
+      "meaning": "浮かぶ；を浮かべる",
+      "exampleEn": "Wood floats on water.",
+      "exampleJa": "木は水に浮かびます。",
+      "level": 2
+    },
+    {
+      "headword": "fold",
+      "partOfSpeech": "verb",
+      "phonetic": "/foʊld/",
+      "meaning": "を折りたたむ",
+      "exampleEn": "Fold your clothes neatly.",
+      "exampleJa": "服をきれいに折りたたみなさい。",
+      "level": 2
+    },
+    {
+      "headword": "forgive",
+      "partOfSpeech": "verb",
+      "phonetic": "/fərˈɡɪv/",
+      "meaning": "を許す",
+      "exampleEn": "Please forgive my rudeness.",
+      "exampleJa": "私の失礼をお許しください。",
+      "level": 2
+    },
+    {
+      "headword": "gain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡeɪn/",
+      "meaning": "を得る；を増やす",
+      "exampleEn": "He gained weight recently.",
+      "exampleJa": "彼は最近体重が増えました。",
+      "level": 2
+    },
+    {
+      "headword": "gather",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɡæðər/",
+      "meaning": "を集める；集まる",
+      "exampleEn": "People gathered in the hall.",
+      "exampleJa": "ホールに人々が集まりました。",
+      "level": 2
+    },
+    {
+      "headword": "glance",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡlæns/",
+      "meaning": "ちらりと見る",
+      "exampleEn": "She glanced at her watch.",
+      "exampleJa": "彼女は時計をちらりと見ました。",
+      "level": 3
+    },
+    {
+      "headword": "grab",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡræb/",
+      "meaning": "をつかむ；をひったくる",
+      "exampleEn": "He grabbed his coat and left.",
+      "exampleJa": "彼はコートをつかんで出ていきました。",
+      "level": 2
+    },
+    {
+      "headword": "greet",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡriːt/",
+      "meaning": "にあいさつする；を迎える",
+      "exampleEn": "She greeted us with a smile.",
+      "exampleJa": "彼女は笑顔で私たちにあいさつしました。",
+      "level": 1
+    },
+    {
+      "headword": "guard",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡɑːrd/",
+      "meaning": "を守る；を監視する",
+      "exampleEn": "Soldiers guard the entrance.",
+      "exampleJa": "兵士たちが入口を守っています。",
+      "level": 2
+    },
+    {
+      "headword": "hang",
+      "partOfSpeech": "verb",
+      "phonetic": "/hæŋ/",
+      "meaning": "を掛ける；ぶら下がる",
+      "exampleEn": "Hang your coat here.",
+      "exampleJa": "ここにコートを掛けてください。",
+      "level": 2
+    },
+    {
+      "headword": "hide",
+      "partOfSpeech": "verb",
+      "phonetic": "/haɪd/",
+      "meaning": "を隠す；隠れる",
+      "exampleEn": "The rabbit hid behind the tree.",
+      "exampleJa": "ウサギは木の背後に隠れました。",
+      "level": 1
+    },
+    {
+      "headword": "hit",
+      "partOfSpeech": "verb",
+      "phonetic": "/hɪt/",
+      "meaning": "を打つ；に当たる",
+      "exampleEn": "He hit the ball hard.",
+      "exampleJa": "彼はボールを強く打ちました。",
+      "level": 1
+    },
+    {
+      "headword": "hunt",
+      "partOfSpeech": "verb",
+      "phonetic": "/hʌnt/",
+      "meaning": "を狩る；を捜す",
+      "exampleEn": "Lions hunt at night.",
+      "exampleJa": "ライオンは夜に狩りをします。",
+      "level": 2
+    },
+    {
+      "headword": "hurt",
+      "partOfSpeech": "verb",
+      "phonetic": "/hɜːrt/",
+      "meaning": "を傷つける；痛む",
+      "exampleEn": "My knee hurts.",
+      "exampleJa": "ひざが痛みます。",
+      "level": 1
+    },
+    {
+      "headword": "inform",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɔːrm/",
+      "meaning": "に知らせる；に通知する",
+      "exampleEn": "Inform us of your arrival time.",
+      "exampleJa": "到着時間を私たちに知らせてください。",
+      "level": 2
+    },
+    {
+      "headword": "insist",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsɪst/",
+      "meaning": "と主張する；を強く求める",
+      "exampleEn": "He insisted on coming along.",
+      "exampleJa": "彼は同行することを主張しました。",
+      "level": 3
+    },
+    {
+      "headword": "introduce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntrəˈduːs/",
+      "meaning": "を紹介する；を導入する",
+      "exampleEn": "Let me introduce my friend.",
+      "exampleJa": "私の友人を紹介させてください。",
+      "level": 1
+    },
+    {
+      "headword": "invent",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvent/",
+      "meaning": "を発明する",
+      "exampleEn": "Edison invented the light bulb.",
+      "exampleJa": "エジソンは電球を発明しました。",
+      "level": 2
+    },
+    {
+      "headword": "kick",
+      "partOfSpeech": "verb",
+      "phonetic": "/kɪk/",
+      "meaning": "を蹴る",
+      "exampleEn": "He kicked the ball high.",
+      "exampleJa": "彼はボールを高く蹴りました。",
+      "level": 1
+    },
+    {
+      "headword": "knock",
+      "partOfSpeech": "verb",
+      "phonetic": "/nɑːk/",
+      "meaning": "ノックする；を打つ",
+      "exampleEn": "Someone knocked on the door.",
+      "exampleJa": "誰かがドアをノックしました。",
+      "level": 1
+    },
+    {
+      "headword": "lift",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɪft/",
+      "meaning": "を持ち上げる",
+      "exampleEn": "Can you lift this heavy box?",
+      "exampleJa": "この重い箱を持ち上げられますか。",
+      "level": 2
+    },
+    {
+      "headword": "lock",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɑːk/",
+      "meaning": "にかぎをかける",
+      "exampleEn": "Don't forget to lock the door.",
+      "exampleJa": "ドアにかぎをかけるのを忘れないで。",
+      "level": 1
+    },
+    {
+      "headword": "maintain",
+      "partOfSpeech": "verb",
+      "phonetic": "/meɪnˈteɪn/",
+      "meaning": "を維持する；を主張する",
+      "exampleEn": "Maintain good health.",
+      "exampleJa": "良好な健康を維持しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "mark",
+      "partOfSpeech": "verb",
+      "phonetic": "/mɑːrk/",
+      "meaning": "に印をつける",
+      "exampleEn": "Mark the correct answer.",
+      "exampleJa": "正しい答えに印をつけなさい。",
+      "level": 1
+    },
+    {
+      "headword": "abroad",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈbrɔːd/",
+      "meaning": "外国へ；海外で",
+      "exampleEn": "He plans to study abroad next year.",
+      "exampleJa": "彼は来年留学する予定です。",
+      "level": 2
+    },
+    {
+      "headword": "accidentally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌæksɪˈdentəli/",
+      "meaning": "偶然に；誤って",
+      "exampleEn": "He accidentally broke the glass.",
+      "exampleJa": "彼は誤ってグラスを割ってしまいました。",
+      "level": 2
+    },
+    {
+      "headword": "acknowledge",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈnɑːlɪdʒ/",
+      "meaning": "を認める；に謝意を表す",
+      "exampleEn": "He acknowledged his mistake openly.",
+      "exampleJa": "彼は自分の間違いを素直に認めました。",
+      "level": 2
+    },
+    {
+      "headword": "adjust",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdʒʌst/",
+      "meaning": "を調整する；順応する",
+      "exampleEn": "Adjust seat height for comfort.",
+      "exampleJa": "快適さのために椅子の高さを調整しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "advertisement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædvərˈtaɪzmənt/",
+      "meaning": "広告；宣伝",
+      "exampleEn": "I saw an advertisement for new cars.",
+      "exampleJa": "私は新車の広告を見ました。",
+      "level": 2
+    },
+    {
+      "headword": "aggressive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈɡresɪv/",
+      "meaning": "攻撃的な；積極的な",
+      "exampleEn": "Avoid aggressive behavior in public.",
+      "exampleJa": "人前で攻撃的な行動をとるのを避けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "alert",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈlɜːrt/",
+      "meaning": "油断のない；警告",
+      "exampleEn": "Stay alert while driving night roads.",
+      "exampleJa": "夜の道を運転する間は油断のない状態を保ちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "alongside",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈlɔːŋsaɪd/",
+      "meaning": "〜のそばに；〜と並んで",
+      "exampleEn": "Work alongside experienced team members.",
+      "exampleJa": "経験豊富なチームメンバーと並んで働きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "amazing",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈmeɪzɪŋ/",
+      "meaning": "驚くべき；素晴らしい",
+      "exampleEn": "You did an amazing job today.",
+      "exampleJa": "あなたは今日素晴らしい仕事をしました。",
+      "level": 2
+    },
+    {
+      "headword": "amusement",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈmjuːzmənt/",
+      "meaning": "娯楽；面白さ",
+      "exampleEn": "Visit the fun city amusement park.",
+      "exampleJa": "楽しい都市の遊園地を訪問しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "angry",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæŋɡri/",
+      "meaning": "腹を立てた；怒っている",
+      "exampleEn": "Why are you so angry today?",
+      "exampleJa": "なぜあなたは今日そんなに怒っているのですか？",
+      "level": 2
+    },
+    {
+      "headword": "another",
+      "partOfSpeech": "pronoun",
+      "phonetic": "/əˈnʌðər/",
+      "meaning": "もう一つの；別の",
+      "exampleEn": "Would you like another cup of tea?",
+      "exampleJa": "もう一杯のお茶はいかがですか？",
+      "level": 2
+    },
+    {
+      "headword": "applicant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæplɪkənt/",
+      "meaning": "応募者；志願者",
+      "exampleEn": "Each job applicant submitted resume paper.",
+      "exampleJa": "各仕事の応募者が履歴書用紙を提出しました。",
+      "level": 2
+    },
+    {
+      "headword": "aptitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæptɪtuːd/",
+      "meaning": "適性；才能",
+      "exampleEn": "Demonstrate language learning skill aptitude.",
+      "exampleJa": "言語学習スキルの適性を証明しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "around",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈraʊnd/",
+      "meaning": "〜のまわりに；およそ",
+      "exampleEn": "Walk around the park garden.",
+      "exampleJa": "公園の庭のまわりを散歩しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "artist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrtɪst/",
+      "meaning": "芸術家；画家",
+      "exampleEn": "The artist painted a beautiful sea view.",
+      "exampleJa": "画家が美しい海の景色を描きました。",
+      "level": 2
+    },
+    {
+      "headword": "assess",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈses/",
+      "meaning": "を評価・査定する",
+      "exampleEn": "Teachers assess student progress quarterly.",
+      "exampleJa": "先生たちが四半期ごとに生徒の進捗を評価します。",
+      "level": 2
+    },
+    {
+      "headword": "astronaut",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæstrənɔːt/",
+      "meaning": "宇宙飛行士",
+      "exampleEn": "The astronaut traveled into space rocket.",
+      "exampleJa": "宇宙飛行士が宇宙ロケットに乗って旅行しました。",
+      "level": 2
+    },
+    {
+      "headword": "attention",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtenʃn/",
+      "meaning": "注意；注目",
+      "exampleEn": "Pay close attention to teacher speech.",
+      "exampleJa": "先生のスピーチに細心の注意を払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "authentic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɔːˈθentɪk/",
+      "meaning": "本物の；真正の",
+      "exampleEn": "Eat authentic traditional Italian food meal.",
+      "exampleJa": "本物の伝統的なイタリア料理を食べなさい。",
+      "level": 2
+    },
+    {
+      "headword": "back",
+      "partOfSpeech": "noun",
+      "phonetic": "/bæk/",
+      "meaning": "背中；後ろ；戻る",
+      "exampleEn": "Sit in back seat row car.",
+      "exampleJa": "車の後ろの座席の列に座りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "balance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæləns/",
+      "meaning": "バランス；均衡；残高",
+      "exampleEn": "Keep physical balance on walking line.",
+      "exampleJa": "歩行線の上で身体のバランスを保ちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "banker",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæŋkər/",
+      "meaning": "銀行家；銀行員",
+      "exampleEn": "A professional banker managed company funds.",
+      "exampleJa": "専門の銀行家が会社の資金を管理しました。",
+      "level": 2
+    },
+    {
+      "headword": "bay",
+      "partOfSpeech": "noun",
+      "phonetic": "/beɪ/",
+      "meaning": "湾；入江",
+      "exampleEn": "Ship entered quiet sea water bay harbor.",
+      "exampleJa": "船が静かな海水湾港に入港しました。",
+      "level": 2
+    },
+    {
+      "headword": "bee",
+      "partOfSpeech": "noun",
+      "phonetic": "/biː/",
+      "meaning": "ハチ；ミツバチ",
+      "exampleEn": "Yellow black insect honey bee flew.",
+      "exampleJa": "黄色と黒の昆虫ミツバチが飛びました。",
+      "level": 2
+    },
+    {
+      "headword": "believe",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈliːv/",
+      "meaning": "を信じる；と思う",
+      "exampleEn": "Believe in yourself and your abilities.",
+      "exampleJa": "自分自身とあなたの能力を信じなさい。",
+      "level": 2
+    },
+    {
+      "headword": "benevolent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bəˈnevələnt/",
+      "meaning": "慈悲深い；親切な",
+      "exampleEn": "A benevolent king ruled nation peacefully.",
+      "exampleJa": "慈悲深い国王が平和に国家を統治しました。",
+      "level": 2
+    },
+    {
+      "headword": "bias",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaɪəs/",
+      "meaning": "偏見；バイアス",
+      "exampleEn": "Avoid personal gender prejudice opinion bias.",
+      "exampleJa": "個人的なジェンダー偏見の意見バイアスを避けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "biologist",
+      "partOfSpeech": "noun",
+      "phonetic": "/baɪˈɑːlədʒɪst/",
+      "meaning": "生物学者",
+      "exampleEn": "A wildlife biologist researched forest animals.",
+      "exampleJa": "野生動物の生物学者が森林の動物を研究しました。",
+      "level": 2
+    },
+    {
+      "headword": "bleed",
+      "partOfSpeech": "verb",
+      "phonetic": "/bliːd/",
+      "meaning": "出血する；血を流す",
+      "exampleEn": "Cut finger started to bleed red blood.",
+      "exampleJa": "切った指が赤い血液の出血をし始めました。",
+      "level": 2
+    },
+    {
+      "headword": "blueprint",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbluːprɪnt/",
+      "meaning": "設計図；青写真",
+      "exampleEn": "Architect drew house building plan blueprint.",
+      "exampleJa": "建築家が住宅建物の設計図を描きました。",
+      "level": 2
+    },
+    {
+      "headword": "book",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʊk/",
+      "meaning": "本；書籍；を予約する",
+      "exampleEn": "Book hotel room online in advance.",
+      "exampleJa": "事前にオンラインでホテルの部屋を予約しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bother",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbɑːðər/",
+      "meaning": "に迷惑をかける；に気にする",
+      "exampleEn": "Sorry to bother you during work time.",
+      "exampleJa": "作業時間中にご迷惑をかけてすみません。",
+      "level": 2
+    },
+    {
+      "headword": "branch",
+      "partOfSpeech": "noun",
+      "phonetic": "/bræntʃ/",
+      "meaning": "枝；支店；部門",
+      "exampleEn": "Bank opened a new city office branch.",
+      "exampleJa": "銀行が新しい都市オフィス支店を開設しました。",
+      "level": 2
+    },
+    {
+      "headword": "breathing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbriːðɪŋ/",
+      "meaning": "呼吸",
+      "exampleEn": "Deep breathing exercises reduce mental stress.",
+      "exampleJa": "深呼吸の練習が精神的ストレスを減らします。",
+      "level": 2
+    },
+    {
+      "headword": "brilliant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbrɪliənt/",
+      "meaning": "燦然と輝く；素晴らしい；見事な",
+      "exampleEn": "He presented a brilliant scientific discovery.",
+      "exampleJa": "彼は見事な科学的発見をプレゼンしました。",
+      "level": 2
+    },
+    {
+      "headword": "brotherhood",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbrʌðərhʊd/",
+      "meaning": "兄弟愛；同胞愛",
+      "exampleEn": "Promote peace and human brotherhood worldwide.",
+      "exampleJa": "世界中で平和と人間の同胞愛を推進しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bulb",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʌlb/",
+      "meaning": "電球；球根",
+      "exampleEn": "Replace broken room light electric bulb.",
+      "exampleJa": "壊れた部屋のライト電気電球を交換しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "burglary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɜːrɡləri/",
+      "meaning": "強盗罪；住居侵入罪",
+      "exampleEn": "Investigate house break crime burglary incident.",
+      "exampleJa": "住宅侵入犯罪強盗罪事件を捜査しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "butterfly",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌtərflaɪ/",
+      "meaning": "チョウ；チョウチョ",
+      "exampleEn": "Colorful wing insect butterfly flew flower.",
+      "exampleJa": "カラフルな羽の昆虫チョウが花へ飛びました。",
+      "level": 2
+    }
+  ]
+}

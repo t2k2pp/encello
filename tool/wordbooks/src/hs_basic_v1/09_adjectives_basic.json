@@ -1,0 +1,897 @@
+{
+  "chunk": "09_adjectives_basic",
+  "note": "性質・状態・規模・客観的特徴を表す高校基本形容詞",
+  "words": [
+    {
+      "headword": "absolute",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæbsəluːt/",
+      "meaning": "絶対的な；完全な",
+      "exampleEn": "I have absolute confidence in him.",
+      "exampleJa": "私は彼に絶対的な信頼を寄せています。",
+      "level": 3
+    },
+    {
+      "headword": "accurate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈækjərət/",
+      "meaning": "正確な；的確な",
+      "exampleEn": "Give me an accurate measurement.",
+      "exampleJa": "正確な測定値をください。",
+      "level": 2
+    },
+    {
+      "headword": "ancient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeɪnʃənt/",
+      "meaning": "古代の；大昔の",
+      "exampleEn": "We visited ancient ruins in Rome.",
+      "exampleJa": "ローマで古代の遺跡を訪れました。",
+      "level": 2
+    },
+    {
+      "headword": "annual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈænjuəl/",
+      "meaning": "年一回の；年間の",
+      "exampleEn": "They held their annual conference.",
+      "exampleJa": "彼らは年次会議を開催しました。",
+      "level": 2
+    },
+    {
+      "headword": "appropriate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈproʊpriət/",
+      "meaning": "適切な；ふさわしい",
+      "exampleEn": "Wear appropriate clothes for the party.",
+      "exampleJa": "パーティーにふさわしい服を着なさい。",
+      "level": 2
+    },
+    {
+      "headword": "brief",
+      "partOfSpeech": "adjective",
+      "phonetic": "/briːf/",
+      "meaning": "短時間の；簡潔な",
+      "exampleEn": "He made a brief speech.",
+      "exampleJa": "彼は短く簡潔な演説を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "chemical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkemɪkəl/",
+      "meaning": "化学の；化学物質の",
+      "exampleEn": "Avoid using harmful chemical products.",
+      "exampleJa": "有害な化学製品の使用は避けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "civil",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪvəl/",
+      "meaning": "市民の；民間の",
+      "exampleEn": "They fought for civil rights.",
+      "exampleJa": "彼らは市民権のために戦いました。",
+      "level": 2
+    },
+    {
+      "headword": "complex",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəmˈpleks/",
+      "meaning": "複雑な；複合の",
+      "exampleEn": "It is a complex problem.",
+      "exampleJa": "それは複雑な問題です。",
+      "level": 2
+    },
+    {
+      "headword": "constant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːnstənt/",
+      "meaning": "絶え間ない；一定の",
+      "exampleEn": "She suffers from constant noise.",
+      "exampleJa": "彼女は絶え間ない騒音に悩まされています。",
+      "level": 2
+    },
+    {
+      "headword": "contemporary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈtempəreri/",
+      "meaning": "現代の；同時代の",
+      "exampleEn": "I prefer contemporary music.",
+      "exampleJa": "私は現代音楽の方が好きです。",
+      "level": 3
+    },
+    {
+      "headword": "critical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkrɪtɪkəl/",
+      "meaning": "批判的な；重大な",
+      "exampleEn": "His advice was critical to success.",
+      "exampleJa": "彼の助言は成功のために重大でした。",
+      "level": 3
+    },
+    {
+      "headword": "crucial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkruːʃəl/",
+      "meaning": "決定的な；きわめて重要な",
+      "exampleEn": "This decision is crucial.",
+      "exampleJa": "この決定はきわめて重要です。",
+      "level": 3
+    },
+    {
+      "headword": "current",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɜːrənt/",
+      "meaning": "現在の；流行の",
+      "exampleEn": "What is your current address?",
+      "exampleJa": "現住所は何処ですか。",
+      "level": 2
+    },
+    {
+      "headword": "definite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdefɪnət/",
+      "meaning": "明確な；確定した",
+      "exampleEn": "We have no definite answer.",
+      "exampleJa": "確実な回答はありません。",
+      "level": 2
+    },
+    {
+      "headword": "delicate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdelɪkət/",
+      "meaning": "繊細な；壊れやすい",
+      "exampleEn": "Glass is delicate and breaks easily.",
+      "exampleJa": "ガラスは繊細で壊れやすいです。",
+      "level": 3
+    },
+    {
+      "headword": "domestic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dəˈmestɪk/",
+      "meaning": "国内の；家庭の",
+      "exampleEn": "Domestic flights leave from Terminal 1.",
+      "exampleJa": "国内線は第1ターミナルから出発します。",
+      "level": 2
+    },
+    {
+      "headword": "efficient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "meaning": "効率的な；有能な",
+      "exampleEn": "She is an efficient worker.",
+      "exampleJa": "彼女は効率的な働き手です。",
+      "level": 2
+    },
+    {
+      "headword": "entire",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈtaɪər/",
+      "meaning": "全体の；すべての",
+      "exampleEn": "The entire village was flooded.",
+      "exampleJa": "村全体が冠水しました。",
+      "level": 2
+    },
+    {
+      "headword": "essential",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈsenʃəl/",
+      "meaning": "不可欠な；本質的な",
+      "exampleEn": "Water is essential for life.",
+      "exampleJa": "水は生命に不可欠です。",
+      "level": 2
+    },
+    {
+      "headword": "exact",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪɡˈzækt/",
+      "meaning": "正確な；きっちりした",
+      "exampleEn": "What is the exact time?",
+      "exampleJa": "正確な時間は何時ですか。",
+      "level": 1
+    },
+    {
+      "headword": "extreme",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪkˈstriːm/",
+      "meaning": "極端な；過激な",
+      "exampleEn": "Avoid extreme cold temperatures.",
+      "exampleJa": "極度な寒さは避けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "false",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɔːls/",
+      "meaning": "誤った；偽の",
+      "exampleEn": "Mark true or false on the test.",
+      "exampleJa": "テストで正誤をつけなさい。",
+      "level": 1
+    },
+    {
+      "headword": "familiar",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fəˈmɪliər/",
+      "meaning": "よく知られている；親しい",
+      "exampleEn": "His face looks familiar to me.",
+      "exampleJa": "彼の顔には見覚えがあります。",
+      "level": 2
+    },
+    {
+      "headword": "fundamental",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌfʌndəˈmentl/",
+      "meaning": "根本的な；基本的な",
+      "exampleEn": "Freedom is a fundamental right.",
+      "exampleJa": "自由は根本的な権利です。",
+      "level": 3
+    },
+    {
+      "headword": "global",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡloʊbəl/",
+      "meaning": "地球規模の；世界的な",
+      "exampleEn": "Global warming is a big problem.",
+      "exampleJa": "地球温暖化は大きな問題です。",
+      "level": 1
+    },
+    {
+      "headword": "gradual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡrædʒuəl/",
+      "meaning": "徐々の；緩やかな",
+      "exampleEn": "There was a gradual increase in sales.",
+      "exampleJa": "売上の緩やかな増加がありました。",
+      "level": 3
+    },
+    {
+      "headword": "human",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhjuːmən/",
+      "meaning": "人間の；人に関する",
+      "exampleEn": "Human rights must be protected.",
+      "exampleJa": "人権は守られなければなりません。",
+      "level": 1
+    },
+    {
+      "headword": "immediate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈmiːdiət/",
+      "meaning": "即座の；直接の",
+      "exampleEn": "We need an immediate answer.",
+      "exampleJa": "即座の回答が必要です。",
+      "level": 2
+    },
+    {
+      "headword": "initial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈnɪʃəl/",
+      "meaning": "初期の；最初の",
+      "exampleEn": "His initial reaction was shock.",
+      "exampleJa": "彼の初期の反応はショックでした。",
+      "level": 3
+    },
+    {
+      "headword": "inner",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪnər/",
+      "meaning": "内部の；内面の",
+      "exampleEn": "Listen to your inner voice.",
+      "exampleJa": "自分の心の声を聞きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "internal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈtɜːrnl/",
+      "meaning": "内部の；体内の",
+      "exampleEn": "The car suffered internal damage.",
+      "exampleJa": "車は内部損傷を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "local",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈloʊkəl/",
+      "meaning": "地元の；局所の",
+      "exampleEn": "Buy fresh local food.",
+      "exampleJa": "地元の新鮮な食べ物を買いなさい。",
+      "level": 1
+    },
+    {
+      "headword": "major",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmeɪdʒər/",
+      "meaning": "主要な；大きな",
+      "exampleEn": "Oil is a major export.",
+      "exampleJa": "石油は主要な輸出品です。",
+      "level": 1
+    },
+    {
+      "headword": "minor",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmaɪnər/",
+      "meaning": "重要でない；小さい",
+      "exampleEn": "It was only a minor injury.",
+      "exampleJa": "それはほんの軽い怪我でした。",
+      "level": 2
+    },
+    {
+      "headword": "native",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈneɪtɪv/",
+      "meaning": "母国の；出生地の",
+      "exampleEn": "English is not my native language.",
+      "exampleJa": "英語は私の母国語ではありません。",
+      "level": 1
+    },
+    {
+      "headword": "normal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɔːrməl/",
+      "meaning": "通常の；標準の",
+      "exampleEn": "His body temperature is normal.",
+      "exampleJa": "彼の体温は正常です。",
+      "level": 1
+    },
+    {
+      "headword": "original",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈrɪdʒənəl/",
+      "meaning": "独創的な；最初の",
+      "exampleEn": "This is the original manuscript.",
+      "exampleJa": "これが原稿の原本です。",
+      "level": 2
+    },
+    {
+      "headword": "physical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɪzɪkəl/",
+      "meaning": "身体の；物理的な",
+      "exampleEn": "Physical exercise keeps you healthy.",
+      "exampleJa": "身体運動はあなたを健康に保ちます。",
+      "level": 2
+    },
+    {
+      "headword": "primary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpraɪmeri/",
+      "meaning": "最も重要な；初等の",
+      "exampleEn": "Safety is our primary concern.",
+      "exampleJa": "安全性が私たちの最大の関心事です。",
+      "level": 2
+    },
+    {
+      "headword": "private",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpraɪvət/",
+      "meaning": "私的な；個人の",
+      "exampleEn": "This is a private road.",
+      "exampleJa": "ここは私道です。",
+      "level": 1
+    },
+    {
+      "headword": "public",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpʌblɪk/",
+      "meaning": "公の；公共の",
+      "exampleEn": "Use public transportation.",
+      "exampleJa": "公共交通機関を利用しなさい。",
+      "level": 1
+    },
+    {
+      "headword": "rare",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rer/",
+      "meaning": "まれな；珍しい",
+      "exampleEn": "Gold is a rare metal.",
+      "exampleJa": "金は珍しい金属です。",
+      "level": 1
+    },
+    {
+      "headword": "regular",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈreɡjələr/",
+      "meaning": "規則的な；通常の",
+      "exampleEn": "Take regular breaks.",
+      "exampleJa": "定期的な休憩を取りなさい。",
+      "level": 1
+    },
+    {
+      "headword": "relevant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈreləvənt/",
+      "meaning": "関連がある；適切な",
+      "exampleEn": "Provide relevant details.",
+      "exampleJa": "関連のある詳細を提示しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "remote",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈmoʊt/",
+      "meaning": "遠く離れた；リモートの",
+      "exampleEn": "He lives in a remote village.",
+      "exampleJa": "彼は遠く離れた村に住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "rough",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rʌf/",
+      "meaning": "ざらざらした；大まかな",
+      "exampleEn": "The sea was rough today.",
+      "exampleJa": "今日海は荒れていました。",
+      "level": 2
+    },
+    {
+      "headword": "secret",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsiːkrət/",
+      "meaning": "秘密の",
+      "exampleEn": "Keep this plan secret.",
+      "exampleJa": "この計画は秘密にしなさい。",
+      "level": 1
+    },
+    {
+      "headword": "severe",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪˈvɪr/",
+      "meaning": "深刻な；厳しい",
+      "exampleEn": "The patient suffered severe pain.",
+      "exampleJa": "患者は激しい痛みに苦しみました。",
+      "level": 3
+    },
+    {
+      "headword": "slight",
+      "partOfSpeech": "adjective",
+      "phonetic": "/slaɪt/",
+      "meaning": "わずかな；少しの",
+      "exampleEn": "There is a slight chance.",
+      "exampleJa": "わずかな可能性があります。",
+      "level": 2
+    },
+    {
+      "headword": "solid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɑːlɪd/",
+      "meaning": "固体の；頑丈な",
+      "exampleEn": "Ice is solid water.",
+      "exampleJa": "氷は固体の水です。",
+      "level": 2
+    },
+    {
+      "headword": "specific",
+      "partOfSpeech": "adjective",
+      "phonetic": "/spəˈsɪfɪk/",
+      "meaning": "具体的な；特定の",
+      "exampleEn": "Can you give me a specific example?",
+      "exampleJa": "具体的な例を挙げてもらえますか。",
+      "level": 2
+    },
+    {
+      "headword": "stable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsteɪbəl/",
+      "meaning": "安定した",
+      "exampleEn": "His condition is stable now.",
+      "exampleJa": "彼の容態は現在安定しています。",
+      "level": 2
+    },
+    {
+      "headword": "standard",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈstændərd/",
+      "meaning": "標準の；通常の",
+      "exampleEn": "This is standard procedure.",
+      "exampleJa": "これは標準的な手続きです。",
+      "level": 2
+    },
+    {
+      "headword": "temporary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtempəreri/",
+      "meaning": "一時的な；仮の",
+      "exampleEn": "This is a temporary job.",
+      "exampleJa": "これは一時的な仕事です。",
+      "level": 3
+    },
+    {
+      "headword": "total",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtoʊtl/",
+      "meaning": "全体の；完全な",
+      "exampleEn": "What is the total cost?",
+      "exampleJa": "総額費用はいくらですか。",
+      "level": 1
+    },
+    {
+      "headword": "traditional",
+      "partOfSpeech": "adjective",
+      "phonetic": "/trəˈdɪʃənəl/",
+      "meaning": "伝統的な",
+      "exampleEn": "Kimono is traditional Japanese clothing.",
+      "exampleJa": "着物は日本の伝統的な衣服です。",
+      "level": 2
+    },
+    {
+      "headword": "typical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtɪpɪkəl/",
+      "meaning": "典型的な；〜らしい",
+      "exampleEn": "This is a typical summer day.",
+      "exampleJa": "これは典型的な夏の日です。",
+      "level": 2
+    },
+    {
+      "headword": "unique",
+      "partOfSpeech": "adjective",
+      "phonetic": "/juːˈniːk/",
+      "meaning": "独特な；唯一無二の",
+      "exampleEn": "Every person has a unique personality.",
+      "exampleJa": "すべての人が独特な個性を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "urgent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɜːrdʒənt/",
+      "meaning": "緊急の；急を要する",
+      "exampleEn": "I received an urgent message.",
+      "exampleJa": "私は緊急のメッセージを受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "valid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvælɪd/",
+      "meaning": "有効な；正当な",
+      "exampleEn": "Your passport is valid for ten years.",
+      "exampleJa": "あなたのパスポートは10年間有効です。",
+      "level": 3
+    },
+    {
+      "headword": "various",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈveriəs/",
+      "meaning": "さまざまな；多様な",
+      "exampleEn": "We discussed various topics.",
+      "exampleJa": "私たちはさまざまな話題について話し合いました。",
+      "level": 2
+    },
+    {
+      "headword": "vast",
+      "partOfSpeech": "adjective",
+      "phonetic": "/væst/",
+      "meaning": "広大な；莫大な",
+      "exampleEn": "A vast desert spread before us.",
+      "exampleJa": "広大な砂漠が私たちの前に広がっていました。",
+      "level": 3
+    },
+    {
+      "headword": "vital",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvaɪtl/",
+      "meaning": "極めて重要な；生命に関する",
+      "exampleEn": "Trust is vital for good teamwork.",
+      "exampleJa": "信頼は良いチームワークに極めて重要です。",
+      "level": 3
+    },
+    {
+      "headword": "accent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæksent/",
+      "meaning": "アクセント；訛り",
+      "exampleEn": "He speaks English with a French accent.",
+      "exampleJa": "彼はフランス語の訛りで英語を話します。",
+      "level": 2
+    },
+    {
+      "headword": "actually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈæktʃuəli/",
+      "meaning": "実は；実際に",
+      "exampleEn": "Actually, I agree with you.",
+      "exampleJa": "実は、私はあなたに同意します。",
+      "level": 2
+    },
+    {
+      "headword": "aid",
+      "partOfSpeech": "noun",
+      "phonetic": "/eɪd/",
+      "meaning": "援助；手助け；を助ける",
+      "exampleEn": "Provide medical aid to disaster victims.",
+      "exampleJa": "災害被害者に医療援助を提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "alliance",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈlaɪəns/",
+      "meaning": "同盟；提携",
+      "exampleEn": "Nations formed a strong military alliance.",
+      "exampleJa": "国家たちが強固な軍事同盟を形成しました。",
+      "level": 2
+    },
+    {
+      "headword": "altitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæltɪtuːd/",
+      "meaning": "標高；高度",
+      "exampleEn": "The plane flies at a high altitude.",
+      "exampleJa": "飛行機は高い高度で飛行します。",
+      "level": 2
+    },
+    {
+      "headword": "amenity",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈmenəti/",
+      "meaning": "快適な設備；アメニティ",
+      "exampleEn": "Hotels offer modern room amenities.",
+      "exampleJa": "ホテルは現代の客室アメニティを提供します。",
+      "level": 2
+    },
+    {
+      "headword": "ancestry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænsestri/",
+      "meaning": "家系；血統",
+      "exampleEn": "Trace your royal family European ancestry.",
+      "exampleJa": "あなたの王室家族のヨーロッパの血統を遡りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "anxious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæŋkʃəs/",
+      "meaning": "心配して；切望して",
+      "exampleEn": "She felt anxious about exam results.",
+      "exampleJa": "彼女は試験結果について心配に感じていました。",
+      "level": 2
+    },
+    {
+      "headword": "appeal",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpiːl/",
+      "meaning": "訴える；惹きつける；懇願",
+      "exampleEn": "The movie appeals to young children.",
+      "exampleJa": "その映画は幼い子供たちを惹きつけます。",
+      "level": 2
+    },
+    {
+      "headword": "argument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrɡjumənt/",
+      "meaning": "議論；主張；口論",
+      "exampleEn": "They had a heated political argument.",
+      "exampleJa": "彼らは白熱した政治的議論を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "arrive",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈraɪv/",
+      "meaning": "到着する；届く",
+      "exampleEn": "Train arrives at station on schedule.",
+      "exampleJa": "列車はスケジュール通り駅に到着します。",
+      "level": 2
+    },
+    {
+      "headword": "asleep",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈsliːp/",
+      "meaning": "眠って；寝ている",
+      "exampleEn": "The baby fell asleep inside bed.",
+      "exampleJa": "赤ちゃんはベッドの中で眠りにつきました。",
+      "level": 2
+    },
+    {
+      "headword": "assistant",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsɪstənt/",
+      "meaning": "助手；アシスタント",
+      "exampleEn": "Research lab assistant typed test data.",
+      "exampleJa": "研究室の助手がテストデータを打ち込みました。",
+      "level": 2
+    },
+    {
+      "headword": "auction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːkʃn/",
+      "meaning": "競売；オークション",
+      "exampleEn": "Buy rare art painting public auction.",
+      "exampleJa": "公共オークションで珍しい美術絵画を購入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "autonomous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɔːˈtɑːnəməs/",
+      "meaning": "自律的な；自治の",
+      "exampleEn": "Self driving autonomous vehicle test drive.",
+      "exampleJa": "自動運転の自律的車両テストドライブ。",
+      "level": 2
+    },
+    {
+      "headword": "away",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈweɪ/",
+      "meaning": "離れて；去って",
+      "exampleEn": "Go away and leave me alone.",
+      "exampleJa": "あっちへ行って私を一人にしておきなさい。",
+      "level": 2
+    },
+    {
+      "headword": "badge",
+      "partOfSpeech": "noun",
+      "phonetic": "/bædʒ/",
+      "meaning": "バッジ；名札；記章",
+      "exampleEn": "Wear work identification name badge pin.",
+      "exampleJa": "作業身分証明名札バッジピンを着用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "ballot",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbælət/",
+      "meaning": "投票；投票用紙",
+      "exampleEn": "Cast secret vote election paper ballot.",
+      "exampleJa": "秘密選挙紙投票用紙を投じなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bare",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ber/",
+      "meaning": "裸の；露出した；最低限の",
+      "exampleEn": "Walk with bare feet on sand.",
+      "exampleJa": "砂の上を裸足で歩きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "basketball",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæskɪtbɔːl/",
+      "meaning": "バスケットボール",
+      "exampleEn": "Play indoor sports team basketball game.",
+      "exampleJa": "屋内のスポーツチームバスケットボールゲームをしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "beginning",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪˈɡɪnɪŋ/",
+      "meaning": "始まり；最初",
+      "exampleEn": "Read story book from beginning end.",
+      "exampleJa": "最初から最後まで物語本を読みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bench",
+      "partOfSpeech": "noun",
+      "phonetic": "/bentʃ/",
+      "meaning": "ベンチ；長椅子",
+      "exampleEn": "Sit on wooden park garden bench.",
+      "exampleJa": "木製の公園庭のベンチに座りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "betray",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈtreɪ/",
+      "meaning": "を裏切る；漏らす",
+      "exampleEn": "Never betray trust close friend.",
+      "exampleJa": "親しい友人の信頼を絶対に裏切ってはならない。",
+      "level": 2
+    },
+    {
+      "headword": "billion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɪljən/",
+      "meaning": "10億",
+      "exampleEn": "World population reached eight billion count.",
+      "exampleJa": "世界人口は80億の数に達しました。",
+      "level": 2
+    },
+    {
+      "headword": "black",
+      "partOfSpeech": "adjective",
+      "phonetic": "/blæk/",
+      "meaning": "黒い；暗い",
+      "exampleEn": "He wore a black leather jacket coat.",
+      "exampleJa": "彼は黒い革のジャケットコートを着ていました。",
+      "level": 2
+    },
+    {
+      "headword": "blond",
+      "partOfSpeech": "adjective",
+      "phonetic": "/blɑːnd/",
+      "meaning": "金髪の",
+      "exampleEn": "She has long shiny blond yellow hair.",
+      "exampleJa": "彼女は長くて光沢のある金髪を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "bold",
+      "partOfSpeech": "adjective",
+      "phonetic": "/boʊld/",
+      "meaning": "大胆な；太字の",
+      "exampleEn": "He made a bold courageous decision move.",
+      "exampleJa": "彼は大胆な決定の行動を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "bore",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɔːr/",
+      "meaning": "を退屈させる；穴をあける",
+      "exampleEn": "Long speech bored class students deeply.",
+      "exampleJa": "長いスピーチが生徒たちを深く退屈させました。",
+      "level": 2
+    },
+    {
+      "headword": "bowl",
+      "partOfSpeech": "noun",
+      "phonetic": "/boʊl/",
+      "meaning": "どんぶり；ボウル；鉢",
+      "exampleEn": "Eat hot soup inside ceramic bowl.",
+      "exampleJa": "陶器のボウルの中で温かいスープを食べなさい。",
+      "level": 2
+    },
+    {
+      "headword": "break",
+      "partOfSpeech": "verb",
+      "phonetic": "/breɪk/",
+      "meaning": "を壊す；壊れる；休憩",
+      "exampleEn": "Take a short coffee break rest.",
+      "exampleJa": "短いコーヒーブレイクを取りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bride",
+      "partOfSpeech": "noun",
+      "phonetic": "/braɪd/",
+      "meaning": "花嫁；新婦",
+      "exampleEn": "The beautiful bride wore white wedding dress.",
+      "exampleJa": "美しい花嫁が白いウェディングドレスを着ていました。",
+      "level": 2
+    },
+    {
+      "headword": "brochure",
+      "partOfSpeech": "noun",
+      "phonetic": "/broʊˈʃʊr/",
+      "meaning": "パンフレット；小冊子",
+      "exampleEn": "Read travel hotel info paper brochure.",
+      "exampleJa": "旅行ホテルの情報紙パンフレットを読みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bubble",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌbl/",
+      "meaning": "泡；バブル",
+      "exampleEn": "Soap water bubble flew into air.",
+      "exampleJa": "石鹸水の泡が空気の中に飛びました。",
+      "level": 2
+    },
+    {
+      "headword": "bunch",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʌntʃ/",
+      "meaning": "束；房；群れ",
+      "exampleEn": "Buy a fresh bunch of red roses.",
+      "exampleJa": "新鮮な赤いバラの束を購入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bystander",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaɪstændər/",
+      "meaning": "傍観者；居合わせた人",
+      "exampleEn": "An innocent bystander witnessed the accident.",
+      "exampleJa": "罪のない傍観者が事故を目撃しました。",
+      "level": 2
+    }
+  ]
+}

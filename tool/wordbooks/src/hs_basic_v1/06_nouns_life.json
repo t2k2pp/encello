@@ -1,0 +1,600 @@
+{
+  "chunk": "06_nouns_life",
+  "note": "日常生活・道具・技術・交通に関する高校名詞",
+  "words": [
+    {
+      "headword": "automobile",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːtəməbiːl/",
+      "meaning": "自動車",
+      "exampleEn": "The automobile industry is growing.",
+      "exampleJa": "自動車産業が成長しています。",
+      "level": 2
+    },
+    {
+      "headword": "baggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæɡɪdʒ/",
+      "meaning": "手荷物",
+      "exampleEn": "Keep an eye on your baggage.",
+      "exampleJa": "手荷物から目を離さないでください。",
+      "level": 2
+    },
+    {
+      "headword": "battery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbætəri/",
+      "meaning": "電池；バッテリー",
+      "exampleEn": "The battery is dead.",
+      "exampleJa": "電池が切れました。",
+      "level": 1
+    },
+    {
+      "headword": "carpet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrpɪt/",
+      "meaning": "じゅうたん；カーペット",
+      "exampleEn": "A red carpet was laid out.",
+      "exampleJa": "赤じゅうたんが敷かれました。",
+      "level": 1
+    },
+    {
+      "headword": "device",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈvaɪs/",
+      "meaning": "装置；デバイス",
+      "exampleEn": "Smartphones are electronic devices.",
+      "exampleJa": "スマートフォンは電子装置です。",
+      "level": 2
+    },
+    {
+      "headword": "electricity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌlekˈtrɪsəti/",
+      "meaning": "電気；電力",
+      "exampleEn": "Turn off lights to save electricity.",
+      "exampleJa": "節電のため照明を消しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "electronics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌlekˈtrɑːnɪks/",
+      "meaning": "電子工学；電子部品",
+      "exampleEn": "He works in consumer electronics.",
+      "exampleJa": "彼は家電・電子分野で働いています。",
+      "level": 3
+    },
+    {
+      "headword": "engine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈendʒɪn/",
+      "meaning": "エンジン；機関",
+      "exampleEn": "Start the engine now.",
+      "exampleJa": "今すぐエンジンをかけなさい。",
+      "level": 1
+    },
+    {
+      "headword": "equipment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈkwɪpmənt/",
+      "meaning": "装備；設備",
+      "exampleEn": "They bought sports equipment.",
+      "exampleJa": "彼らはスポーツ用品を購入しました。",
+      "level": 2
+    },
+    {
+      "headword": "fuel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfjuːəl/",
+      "meaning": "燃料",
+      "exampleEn": "The car ran out of fuel.",
+      "exampleJa": "車が燃料切れになりました。",
+      "level": 2
+    },
+    {
+      "headword": "furniture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrnɪtʃər/",
+      "meaning": "家具",
+      "exampleEn": "We bought wooden furniture.",
+      "exampleJa": "私たちは木製の家具を購入しました。",
+      "level": 2
+    },
+    {
+      "headword": "garbage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡɑːrbɪdʒ/",
+      "meaning": "生ごみ；ごみ",
+      "exampleEn": "Take out the garbage.",
+      "exampleJa": "ごみを外に出しなさい。",
+      "level": 1
+    },
+    {
+      "headword": "gasoline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡæsəliːn/",
+      "meaning": "ガソリン",
+      "exampleEn": "Gasoline prices are rising.",
+      "exampleJa": "ガソリン価格が上昇しています。",
+      "level": 2
+    },
+    {
+      "headword": "instrument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "meaning": "楽器；器具",
+      "exampleEn": "Can you play any instrument?",
+      "exampleJa": "何か楽器を演奏できますか。",
+      "level": 2
+    },
+    {
+      "headword": "luggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlʌɡɪdʒ/",
+      "meaning": "旅行手荷物",
+      "exampleEn": "He carried heavy luggage.",
+      "exampleJa": "彼は重い荷物を運びました。",
+      "level": 2
+    },
+    {
+      "headword": "material",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈtɪriəl/",
+      "meaning": "材料；素材；資料",
+      "exampleEn": "Wood is a common building material.",
+      "exampleJa": "木材は一般的な建築材料です。",
+      "level": 2
+    },
+    {
+      "headword": "network",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnetwɜːrk/",
+      "meaning": "ネットワーク；網",
+      "exampleEn": "We joined the computer network.",
+      "exampleJa": "私たちはコンピューターネットワークに接続しました。",
+      "level": 2
+    },
+    {
+      "headword": "passenger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæsɪndʒər/",
+      "meaning": "乗客",
+      "exampleEn": "All passengers boarded the bus.",
+      "exampleJa": "すべての乗客がバスに乗り込みました。",
+      "level": 2
+    },
+    {
+      "headword": "plastic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplæstɪk/",
+      "meaning": "プラスチック；樹脂",
+      "exampleEn": "Reduce the use of plastic bags.",
+      "exampleJa": "レジ袋の使用を減らしましょう。",
+      "level": 1
+    },
+    {
+      "headword": "software",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɔːftwer/",
+      "meaning": "ソフトウェア",
+      "exampleEn": "Update your computer software.",
+      "exampleJa": "コンピューターのソフトウェアを更新しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "technology",
+      "partOfSpeech": "noun",
+      "phonetic": "/tekˈnɑːlədʒi/",
+      "meaning": "科学技術；テクノロジー",
+      "exampleEn": "Modern technology makes life easier.",
+      "exampleJa": "現代技術は生活をより簡単にします。",
+      "level": 2
+    },
+    {
+      "headword": "tool",
+      "partOfSpeech": "noun",
+      "phonetic": "/tuːl/",
+      "meaning": "道具；工具",
+      "exampleEn": "A hammer is a useful tool.",
+      "exampleJa": "金づちは役に立つ道具です。",
+      "level": 1
+    },
+    {
+      "headword": "vehicle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈviːəkəl/",
+      "meaning": "乗り物；車両",
+      "exampleEn": "Electric vehicles become popular.",
+      "exampleJa": "電気自動車が人気を集めています。",
+      "level": 2
+    },
+    {
+      "headword": "vessel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvesəl/",
+      "meaning": "船；容器；血管",
+      "exampleEn": "A large fishing vessel arrived.",
+      "exampleJa": "大型漁船が到着しました。",
+      "level": 3
+    },
+    {
+      "headword": "weapon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwepən/",
+      "meaning": "兵器；武器",
+      "exampleEn": "They laid down their weapons.",
+      "exampleJa": "彼らは武器を置きました。",
+      "level": 2
+    },
+    {
+      "headword": "wheel",
+      "partOfSpeech": "noun",
+      "phonetic": "/wiːl/",
+      "meaning": "車輪；ハンドル",
+      "exampleEn": "Hold the steering wheel firmly.",
+      "exampleJa": "ハンドルをしっかり握りなさい。",
+      "level": 1
+    },
+    {
+      "headword": "wire",
+      "partOfSpeech": "noun",
+      "phonetic": "/waɪər/",
+      "meaning": "針金；電線",
+      "exampleEn": "The fence is made of wire.",
+      "exampleJa": "フェンスは針金でできています。",
+      "level": 2
+    },
+    {
+      "headword": "abstract",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæbstrækt/",
+      "meaning": "抽象的な",
+      "exampleEn": "Art includes abstract painting ideas.",
+      "exampleJa": "美術には抽象的な絵画の考え方が含まれます。",
+      "level": 2
+    },
+    {
+      "headword": "according",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈkɔːrdɪŋ/",
+      "meaning": "〜に従って（according to）",
+      "exampleEn": "According to news, it will rain.",
+      "exampleJa": "ニュースによると雨が降るそうです。",
+      "level": 2
+    },
+    {
+      "headword": "affair",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈfer/",
+      "meaning": "事柄；情事；問題",
+      "exampleEn": "Manage your private personal affairs.",
+      "exampleJa": "あなたの個人的な私生活の事柄を管理しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "agricultural",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌæɡrɪˈkʌltʃərəl/",
+      "meaning": "農業の",
+      "exampleEn": "Wheat is an important agricultural crop.",
+      "exampleJa": "小麦は重要な農業作物です。",
+      "level": 2
+    },
+    {
+      "headword": "alive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈlaɪv/",
+      "meaning": "生きている；活気のある",
+      "exampleEn": "Plants need water to stay alive.",
+      "exampleJa": "植物が生きていくためには水が必要です。",
+      "level": 2
+    },
+    {
+      "headword": "alteration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːltəˈreɪʃn/",
+      "meaning": "変更；修正",
+      "exampleEn": "Make minor design alterations.",
+      "exampleJa": "デザインに軽微な変更を加えなさい。",
+      "level": 2
+    },
+    {
+      "headword": "ambulance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæmbjələns/",
+      "meaning": "救急車",
+      "exampleEn": "Call an emergency ambulance for help.",
+      "exampleJa": "手助けのために緊急救急車を呼びなさい。",
+      "level": 2
+    },
+    {
+      "headword": "ankle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæŋkl/",
+      "meaning": "足首",
+      "exampleEn": "He twisted his right ankle playing soccer.",
+      "exampleJa": "彼はサッカーをしていて右の足首をひねりました。",
+      "level": 2
+    },
+    {
+      "headword": "anticipate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ænˈtɪsɪpeɪt/",
+      "meaning": "を予期する；を期待する",
+      "exampleEn": "Anticipate market sales growth change.",
+      "exampleJa": "市場売上成長の変化を予期しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "apology",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɑːlədʒi/",
+      "meaning": "謝罪；お詫び",
+      "exampleEn": "Offer a sincere written letter apology.",
+      "exampleJa": "誠実な書面の手紙の謝罪を差し出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "appointment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "meaning": "約束；予約；任命",
+      "exampleEn": "Make a doctor medical health appointment.",
+      "exampleJa": "医師の医療健康予約を行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "archive",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrkaɪv/",
+      "meaning": "記録保管所；アーカイブ",
+      "exampleEn": "Store old document historical file archive.",
+      "exampleJa": "古い文書の歴史的ファイル記録保管所を保存しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "array",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈreɪ/",
+      "meaning": "整列；配列；ずらりと並んだもの",
+      "exampleEn": "Shop offers a vast array of goods.",
+      "exampleJa": "店舗はズラリと並んだ広大な商品を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "ashamed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈʃeɪmd/",
+      "meaning": "恥じて；恐縮して",
+      "exampleEn": "He felt ashamed of his rude behavior.",
+      "exampleJa": "彼は自分の無礼な行動を恥じていました。",
+      "level": 2
+    },
+    {
+      "headword": "assignment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsaɪnmənt/",
+      "meaning": "課題；宿題；割り当て",
+      "exampleEn": "Finish school homework assignment tonight.",
+      "exampleJa": "今夜学校の宿題課題を終わらせなさい。",
+      "level": 2
+    },
+    {
+      "headword": "atmosphere",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætməsfɪr/",
+      "meaning": "大気；雰囲気",
+      "exampleEn": "Restaurant has a friendly warm atmosphere.",
+      "exampleJa": "レストランはフレンドリーで温かい雰囲気を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "attraction",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtrækʃn/",
+      "meaning": "魅力；見どころ；アトラクション",
+      "exampleEn": "Visit famous city tourist travel attraction.",
+      "exampleJa": "有名な都市の観光旅行アトラクションを訪問しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "auto",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːtoʊ/",
+      "meaning": "自動車",
+      "exampleEn": "Visit auto motor car industry show.",
+      "exampleJa": "自動車モータースポーツ産業ショーを訪問しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "award",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈwɔːrd/",
+      "meaning": "賞；授与する",
+      "exampleEn": "He won first prize honor award.",
+      "exampleJa": "彼は1等賞の名誉の賞を獲得しました。",
+      "level": 2
+    },
+    {
+      "headword": "backward",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbækwərd/",
+      "meaning": "後方の；逆の",
+      "exampleEn": "Take a backward step away danger.",
+      "exampleJa": "危険から離れる後方の一歩を踏み出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "ball",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɔːl/",
+      "meaning": "ボール；球；舞踏会",
+      "exampleEn": "Kick soccer leather ball field.",
+      "exampleJa": "グラウンドでサッカー革ボールを蹴りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "banner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbænər/",
+      "meaning": "横断幕；バナー",
+      "exampleEn": "Hang large welcome party web banner.",
+      "exampleJa": "大きな歓迎パーティーウェブ横断幕を掲げなさい。",
+      "level": 2
+    },
+    {
+      "headword": "basically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈbeɪsɪkli/",
+      "meaning": "基本的に；要するに",
+      "exampleEn": "Basically, the project plan is complete.",
+      "exampleJa": "要するに、プロジェクト計画は完了しています。",
+      "level": 2
+    },
+    {
+      "headword": "bear",
+      "partOfSpeech": "verb",
+      "phonetic": "/ber/",
+      "meaning": "に耐える；を産む；クマ",
+      "exampleEn": "He could not bear the severe pain.",
+      "exampleJa": "彼は激しい痛みに耐えることができませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "beloved",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bɪˈlʌvɪd/",
+      "meaning": "愛されている；最愛の",
+      "exampleEn": "Remember our beloved friend family member.",
+      "exampleJa": "私たちの最愛の友人家族構成員を思い出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "best",
+      "partOfSpeech": "adjective",
+      "phonetic": "/best/",
+      "meaning": "最高の；一番良い",
+      "exampleEn": "Do your best in every work.",
+      "exampleJa": "あらゆる作業でベストを尽くしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bid",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪd/",
+      "meaning": "を口にする；入札する；入札",
+      "exampleEn": "Make a cash money auction bid.",
+      "exampleJa": "現金お金のオークション入札を行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bitter",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbɪtər/",
+      "meaning": "苦い；辛辣な；つらい",
+      "exampleEn": "Coffee without sugar tastes dark bitter.",
+      "exampleJa": "砂糖なしのコーヒーは濃く苦い味がします。",
+      "level": 2
+    },
+    {
+      "headword": "blind",
+      "partOfSpeech": "adjective",
+      "phonetic": "/blaɪnd/",
+      "meaning": "盲目の；目の見えない",
+      "exampleEn": "Help blind people cross street safely.",
+      "exampleJa": "目の見えない人々が安全に通りを横切るのを助けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "boat",
+      "partOfSpeech": "noun",
+      "phonetic": "/boʊt/",
+      "meaning": "ボート；小船",
+      "exampleEn": "Ride a small wooden water boat.",
+      "exampleJa": "小さな木造の水上のボートに乗りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "boot",
+      "partOfSpeech": "noun",
+      "phonetic": "/buːt/",
+      "meaning": "ブーツ；長靴；トランク",
+      "exampleEn": "Wear warm leather winter snow boots.",
+      "exampleJa": "温かい革の冬雪ブーツを着用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bound",
+      "partOfSpeech": "adjective",
+      "phonetic": "/baʊnd/",
+      "meaning": "〜行きの；〜に拘束された",
+      "exampleEn": "Train is bound for Tokyo station.",
+      "exampleJa": "列車は東京駅行きです。",
+      "level": 2
+    },
+    {
+      "headword": "bravery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbreɪvəri/",
+      "meaning": "勇敢さ；勇気",
+      "exampleEn": "Reward officer for brave rescue bravery.",
+      "exampleJa": "勇敢な救助の勇敢さについて警官を表彰しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bribe",
+      "partOfSpeech": "verb",
+      "phonetic": "/braɪb/",
+      "meaning": "に賄賂を贈る；賄賂",
+      "exampleEn": "Criminal tried to bribe police officer.",
+      "exampleJa": "犯罪者が警察官に賄賂を贈ろうと試みました。",
+      "level": 2
+    },
+    {
+      "headword": "broadcast",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbrɔːdkæst/",
+      "meaning": "を放送する；放送",
+      "exampleEn": "TV channel broadcasts live news program.",
+      "exampleJa": "テレビチャンネルがライブニュース番組を放送します。",
+      "level": 2
+    },
+    {
+      "headword": "bruise",
+      "partOfSpeech": "noun",
+      "phonetic": "/bruːz/",
+      "meaning": "青アザ；打撲傷",
+      "exampleEn": "He got a purple skin arm bruise.",
+      "exampleJa": "彼は紫色の皮膚の腕の青アザを作りました。",
+      "level": 2
+    },
+    {
+      "headword": "bulletin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʊlətɪn/",
+      "meaning": "掲示；会報；速報",
+      "exampleEn": "Read news bulletin update notice board.",
+      "exampleJa": "掲示板のニュース速報の更新を読みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bury",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈberi/",
+      "meaning": "を埋める；埋葬する",
+      "exampleEn": "Bury secret treasure chest deep ground.",
+      "exampleJa": "地面深く秘密の宝箱を埋めなさい。",
+      "level": 2
+    },
+    {
+      "headword": "buzz",
+      "partOfSpeech": "noun",
+      "phonetic": "/bʌz/",
+      "meaning": "ブーンという音；噂；賑わい",
+      "exampleEn": "Honey bee makes a loud buzz sound.",
+      "exampleJa": "ミツバチが大きなブーンという音を作ります。",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "presetId": "hs_basic_v1",
+  "name": "高校英単語 基礎",
+  "emoji": "🎓",
+  "category": "highSchool",
+  "colorSeed": 2,
+  "seedVersion": 1,
+  "bandSize": 1200,
+  "sortOrder": 20,
+  "note": "高校学習および大学入試の土台となる基本英単語",
+  "levelRange": [1, 3],
+  "chunks": [
+    "00_core",
+    "01_function_words",
+    "02_verbs_basic",
+    "03_verbs_mental",
+    "04_verbs_social",
+    "05_nouns_society",
+    "06_nouns_life",
+    "07_nouns_nature",
+    "08_nouns_abstract",
+    "09_adjectives_basic",
+    "10_adjectives_eval",
+    "11_adverbs_phrases",
+    "12_advanced_verbs",
+    "13_advanced_nouns"
+  ]
+}
