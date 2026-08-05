@@ -466,8 +466,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ænt/",
       "meaning": "アリ（昆虫）",
-      "exampleEn": "Small black insect ant moved on ground.",
-      "exampleJa": "小さな黒い昆虫のアリが地面の上を移動しました。",
+      "exampleEn": "A small black ant moved across the ground.",
+      "exampleJa": "小さな黒いアリが地面を移動しました。",
       "level": 2
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈsend/",
       "meaning": "に登る；上昇する",
-      "exampleEn": "Climbers ascend mountain path trail.",
-      "exampleJa": "登山家たちが山の小道登山道に登ります。",
+      "exampleEn": "Climbers ascend the steep mountain trail.",
+      "exampleJa": "登山者たちは険しい山道を登ります。",
       "level": 2
     },
     {
@@ -511,8 +511,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈæθliːt/",
       "meaning": "運動選手；アスリート",
-      "exampleEn": "Olympic athlete won gold medal record.",
-      "exampleJa": "オリンピック運動選手が金メダル記録を勝ち取りました。",
+      "exampleEn": "An Olympic athlete won the gold medal.",
+      "exampleJa": "オリンピック選手が金メダルを獲得しました。",
       "level": 2
     },
     {
@@ -520,8 +520,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈtɜːrni/",
       "meaning": "弁護士；代理人",
-      "exampleEn": "Consult legal court defense attorney law.",
-      "exampleJa": "法廷弁護の弁護士に相談しなさい。",
+      "exampleEn": "Consult a defense attorney if needed.",
+      "exampleJa": "必要であれば弁護士に相談しなさい。",
       "level": 2
     },
     {
@@ -529,8 +529,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈθɔːrəti/",
       "meaning": "権威；当局；権限",
-      "exampleEn": "Respect police government legal authority.",
-      "exampleJa": "警察政府の法的権限を尊重しなさい。",
+      "exampleEn": "Respect the legal authority of the police.",
+      "exampleJa": "警察の法的権限を尊重しなさい。",
       "level": 2
     },
     {
@@ -547,8 +547,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbækɪŋ/",
       "meaning": "支援；後押し",
-      "exampleEn": "Project received strong government financial backing.",
-      "exampleJa": "プロジェクトは強固な政府金銭的支援を受け取りました。",
+      "exampleEn": "The project received strong government financial backing.",
+      "exampleJa": "そのプロジェクトは政府から強力な財政支援を受けました。",
       "level": 2
     },
     {
@@ -556,8 +556,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbælkəni/",
       "meaning": "バルコニー；ベランダ",
-      "exampleEn": "Stand outside home second floor balcony.",
-      "exampleJa": "住宅の2階のバルコニーの外に立ちなさい。",
+      "exampleEn": "She stood on the second-floor balcony.",
+      "exampleJa": "彼女は2階のバルコニーに立ちました。",
       "level": 2
     },
     {
@@ -574,8 +574,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbeɪsmənt/",
       "meaning": "地下室；地階",
-      "exampleEn": "Park car inside building underground basement.",
-      "exampleJa": "建物の地下室の中に車を駐車しなさい。",
+      "exampleEn": "Park your car in the building's basement.",
+      "exampleJa": "建物の地下駐車場に車を停めなさい。",
       "level": 2
     },
     {
@@ -583,7 +583,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/biːm/",
       "meaning": "光線；梁；微笑む",
-      "exampleEn": "Bright light beam shone from lighthouse.",
+      "exampleEn": "A bright light beam shone from the lighthouse.",
       "exampleJa": "明るい光線が灯台から輝きました。",
       "level": 2
     },
@@ -592,7 +592,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪr/",
       "meaning": "ビール",
-      "exampleEn": "Drink cold glass of golden beer.",
+      "exampleEn": "Drink a cold glass of golden beer.",
       "exampleJa": "冷たいグラスの黄金色のビールを飲みなさい。",
       "level": 2
     },
@@ -601,8 +601,8 @@
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈsaɪd/",
       "meaning": "〜のそばに；〜と並んで",
-      "exampleEn": "Sit beside me on bench seat.",
-      "exampleJa": "ベンチシートで私のそばに座りなさい。",
+      "exampleEn": "Sit beside me on the bench.",
+      "exampleJa": "ベンチで私のそばに座りなさい。",
       "level": 2
     },
     {
@@ -610,8 +610,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪbl/",
       "meaning": "聖書；バイブル",
-      "exampleEn": "Read holy Christian church book bible.",
-      "exampleJa": "神聖なキリスト教教会の本聖書を読みなさい。",
+      "exampleEn": "She reads the Bible every morning.",
+      "exampleJa": "彼女は毎朝聖書を読みます。",
       "level": 2
     },
     {
@@ -619,8 +619,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪskɪt/",
       "meaning": "ビスケット；クッキー",
-      "exampleEn": "Eat sweet baked wheat cookie biscuit tea.",
-      "exampleJa": "甘い焼き小麦クッキービスケットをお茶と一緒に食べなさい。",
+      "exampleEn": "I ate a sweet biscuit with my tea.",
+      "exampleJa": "私はお茶と一緒に甘いビスケットを食べました。",
       "level": 2
     },
     {
@@ -637,8 +637,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɔːrd/",
       "meaning": "板；役員会；に乗る",
-      "exampleEn": "Board plane flight departure time.",
-      "exampleJa": "飛行機のフライト出発時間に搭乗しなさい。",
+      "exampleEn": "Board the plane before the departure time.",
+      "exampleJa": "出発時刻前に飛行機に搭乗しなさい。",
       "level": 2
     },
     {
@@ -673,8 +673,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/briːz/",
       "meaning": "そよ風；微風",
-      "exampleEn": "Feel cool ocean sea breeze wind.",
-      "exampleJa": "涼しい海洋の海のそよ風を感じなさい。",
+      "exampleEn": "Feel the cool ocean breeze on your skin.",
+      "exampleJa": "肌に涼しい海風を感じなさい。",
       "level": 2
     },
     {
@@ -691,7 +691,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/braʊz/",
       "meaning": "を閲覧する；下見する",
-      "exampleEn": "Browse web pages on computer internet.",
+      "exampleEn": "Browse web pages on the internet.",
       "exampleJa": "コンピューターのインターネットでウェブページを閲覧しなさい。",
       "level": 2
     },
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bʊl/",
       "meaning": "雄牛",
-      "exampleEn": "Strong farm animal bull moved field.",
-      "exampleJa": "強固な農場動物の雄牛がグラウンドを移動しました。",
+      "exampleEn": "A strong bull moved across the field.",
+      "exampleJa": "力強い雄牛が畑を移動しました。",
       "level": 2
     },
     {
@@ -709,8 +709,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɜːrn/",
       "meaning": "を燃やす；燃える；火傷",
-      "exampleEn": "Wood burns bright inside fireplace room.",
-      "exampleJa": "部屋の暖炉の中で木が明るく燃えます。",
+      "exampleEn": "Wood burns brightly in the fireplace.",
+      "exampleJa": "暖炉の中で木が明るく燃えます。",
       "level": 2
     },
     {
@@ -718,8 +718,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/baɪ/",
       "meaning": "を買う；購入する",
-      "exampleEn": "Buy fresh food items shop store.",
-      "exampleJa": "店舗のショップで新鮮な食品を購入しなさい。",
+      "exampleEn": "Buy fresh food items at the store.",
+      "exampleJa": "店で新鮮な食品を買いなさい。",
       "level": 2
     }
   ]

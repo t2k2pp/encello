@@ -1,0 +1,28 @@
+{
+  "presetId": "toeic_basic_v1",
+  "name": "TOEIC 基本語",
+  "emoji": "💼",
+  "category": "toeic",
+  "colorSeed": 6,
+  "seedVersion": 1,
+  "bandSize": null,
+  "sortOrder": 60,
+  "note": "TOEIC L&R テストの基礎〜600点目標に必須のビジネス語彙",
+  "levelRange": [
+    2,
+    4
+  ],
+  "chunks": [
+    "00_office_work",
+    "01_business_communication",
+    "02_employment_hiring",
+    "03_finance_accounting",
+    "04_sales_marketing",
+    "05_shipping_logistics",
+    "06_manufacturing_tech",
+    "07_travel_hospitality",
+    "08_business_adjectives",
+    "09_business_adverbs_idioms",
+    "10_toeic_part5_phrases"
+  ]
+}

@@ -114,6 +114,12 @@ final _wordTokenPattern = RegExp(r"[A-Za-z][A-Za-z'\-]*");
 const _softExampleWords = 10;
 const _maxExampleWords = 12;
 
+/// 和訳に語義の写しをねじ込んだ跡（`おもてなし（歓待）` のような形）。
+///
+/// 訳語の候補を丸括弧で並べるのは自然な日本語ではないので不合格にする
+/// （[Docs/06_features/wordbooks.md] §2.1）。丸括弧そのものを禁じている。
+final _parentheticalGloss = RegExp(r'（');
+
 /// 訳の語義の上限（[Docs/06_features/wordbooks.md] §2）。
 const _maxSenses = 3;
 
@@ -316,6 +322,9 @@ List<ValidationIssue> validateWords(
       }
       if (!RegExp(r'[。！？]$').hasMatch(w.exampleJa)) {
         err(w, '例文和訳が 。！？ で終わっていません');
+      }
+      if (_parentheticalGloss.hasMatch(w.exampleJa)) {
+        err(w, '例文和訳に丸括弧があります（訳語の候補を並べない）');
       }
 
       final tokens = _wordTokenPattern

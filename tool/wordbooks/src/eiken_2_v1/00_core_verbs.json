@@ -1,0 +1,1320 @@
+{
+  "chunk": "00_core_verbs",
+  "note": "英検2級最重要・超頻出動詞",
+  "words": [
+    {
+      "headword": "absorb",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈzɔːrb/",
+      "meaning": "を吸収する；を夢中にさせる",
+      "exampleEn": "Plants absorb water through roots.",
+      "exampleJa": "植物は根から水を吸収します。",
+      "level": 3
+    },
+    {
+      "headword": "adapt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdæpt/",
+      "meaning": "を適応させる；適応する",
+      "exampleEn": "Animals adapt to harsh cold climate.",
+      "exampleJa": "動物たちは厳しい寒冷気候に適応します。",
+      "level": 3
+    },
+    {
+      "headword": "adopt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdɑːpt/",
+      "meaning": "を採用する；を養子にする",
+      "exampleEn": "Company adopted new working system.",
+      "exampleJa": "会社は新しい勤務制度を採用しました。",
+      "level": 3
+    },
+    {
+      "headword": "affect",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfekt/",
+      "meaning": "に影響を与える",
+      "exampleEn": "Climate change affects wildlife greatly.",
+      "exampleJa": "気候変動は野生生物に大きく影響を与えます。",
+      "level": 2
+    },
+    {
+      "headword": "anticipate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ænˈtɪsɪpeɪt/",
+      "meaning": "を予想する；を心待ちにする",
+      "exampleEn": "We anticipate a large crowd.",
+      "exampleJa": "私たちは大勢の人出を予想しています。",
+      "level": 3
+    },
+    {
+      "headword": "appeal",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpiːl/",
+      "meaning": "訴える；魅力がある",
+      "exampleEn": "Design appeals to young customers.",
+      "exampleJa": "デザインは若年層の顧客にアピールします（訴えかけます）。",
+      "level": 2
+    },
+    {
+      "headword": "appreciate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpriːʃieɪt/",
+      "meaning": "に感謝する；を正しく評価する",
+      "exampleEn": "I truly appreciate your kind assistance.",
+      "exampleJa": "あなたの親切な援助に心から感謝いたします。",
+      "level": 2
+    },
+    {
+      "headword": "approach",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈproʊtʃ/",
+      "meaning": "に近づく；に取り組む",
+      "exampleEn": "Train is approaching final station.",
+      "exampleJa": "電車は終着駅に近づいています。",
+      "level": 2
+    },
+    {
+      "headword": "assume",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsuːm/",
+      "meaning": "と思い込む；を引き受ける",
+      "exampleEn": "Do not assume everything is true.",
+      "exampleJa": "すべてが真実だと思い込んではいけません。",
+      "level": 3
+    },
+    {
+      "headword": "ban",
+      "partOfSpeech": "verb",
+      "phonetic": "/bæn/",
+      "meaning": "を禁止する",
+      "exampleEn": "City banned smoking in public parks.",
+      "exampleJa": "市は公共の公園での喫煙を禁止しました。",
+      "level": 2
+    },
+    {
+      "headword": "blame",
+      "partOfSpeech": "verb",
+      "phonetic": "/bleɪm/",
+      "meaning": "を非難する；のせいにする",
+      "exampleEn": "Do not blame others for failure.",
+      "exampleJa": "失敗のことで他人を責めてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "commit",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmɪt/",
+      "meaning": "を犯す；をコミット・約定する",
+      "exampleEn": "He committed to improving skills.",
+      "exampleJa": "彼はスキルの向上を約束・コミットしました。",
+      "level": 3
+    },
+    {
+      "headword": "congratulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈɡrætʃuleɪt/",
+      "meaning": "を祝福する；にお祝いを言う",
+      "exampleEn": "We congratulated her on passing test.",
+      "exampleJa": "私たちは彼女のテスト合格を祝福しました。",
+      "level": 2
+    },
+    {
+      "headword": "detect",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtekt/",
+      "meaning": "を検知する；を発見する",
+      "exampleEn": "Sensor detected gas leak instantly.",
+      "exampleJa": "センサーがガス漏れを即座に検知しました。",
+      "level": 3
+    },
+    {
+      "headword": "differ",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdɪfər/",
+      "meaning": "異なる；意見を異にする",
+      "exampleEn": "Opinions differ on economic issue.",
+      "exampleJa": "経済問題について意見が異なります。",
+      "level": 2
+    },
+    {
+      "headword": "disturb",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstɜːrb/",
+      "meaning": "の邪魔をする；を不安にさせる",
+      "exampleEn": "Do not disturb sleeping baby.",
+      "exampleJa": "眠っている赤ん坊の邪魔をしてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "engage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈɡeɪdʒ/",
+      "meaning": "に従事する；を引きつける",
+      "exampleEn": "She engaged in community volunteer activities.",
+      "exampleJa": "彼女は地域のボランティア活動に従事しました。",
+      "level": 3
+    },
+    {
+      "headword": "ensure",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈʃʊr/",
+      "meaning": "を確実にする；を保証する",
+      "exampleEn": "Double check to ensure full safety.",
+      "exampleJa": "完全な安全を確保するために再確認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "evaluate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈvæljueɪt/",
+      "meaning": "を評価する；を査定する",
+      "exampleEn": "Teachers evaluate student essay performance.",
+      "exampleJa": "教師たちは生徒の小論文のパフォーマンスを評価します。",
+      "level": 3
+    },
+    {
+      "headword": "illustrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪləstreɪt/",
+      "meaning": "を挿絵で説明する；を例証する",
+      "exampleEn": "Graphs illustrate clear sales trend.",
+      "exampleJa": "グラフが明瞭な売上傾向を例証しています。",
+      "level": 3
+    },
+    {
+      "headword": "justify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒʌstɪfaɪ/",
+      "meaning": "を正当化する；の正当性を示す",
+      "exampleEn": "He tried to justify his absence.",
+      "exampleJa": "彼は自分の欠席を正当化しようとしました。",
+      "level": 3
+    },
+    {
+      "headword": "launch",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɔːntʃ/",
+      "meaning": "を打ち上げる；を開始する",
+      "exampleEn": "Company launched a new website.",
+      "exampleJa": "会社は新しいウェブサイトを開設・開始しました。",
+      "level": 2
+    },
+    {
+      "headword": "occupy",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːkjupaɪ/",
+      "meaning": "を占める；を占領する",
+      "exampleEn": "Work occupies most of his time.",
+      "exampleJa": "仕事が彼の時間の大部分を占めています。",
+      "level": 3
+    },
+    {
+      "headword": "occur",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkɜːr/",
+      "meaning": "発生する；心に浮かぶ",
+      "exampleEn": "Accidents occur frequently at night.",
+      "exampleJa": "事故は夜間に頻繁に発生します。",
+      "level": 2
+    },
+    {
+      "headword": "oppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpoʊz/",
+      "meaning": "に反対する",
+      "exampleEn": "Residents opposed new highway construction.",
+      "exampleJa": "住民たちは新しい高速道路建設に反対しました。",
+      "level": 2
+    },
+    {
+      "headword": "perceive",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsiːv/",
+      "meaning": "を認識する；を察知する",
+      "exampleEn": "She perceived danger in silence.",
+      "exampleJa": "彼女は沈黙の中に危険を察知・認識しました。",
+      "level": 3
+    },
+    {
+      "headword": "preserve",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈzɜːrv/",
+      "meaning": "を保護・保存する",
+      "exampleEn": "Preserve historical buildings for future.",
+      "exampleJa": "将来のために歴史的建造物を保存しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "promote",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈmoʊt/",
+      "meaning": "を促進する；を昇進させる",
+      "exampleEn": "Campaign promotes healthy eating habits.",
+      "exampleJa": "キャンペーンは健康的な食習慣を促進します。",
+      "level": 2
+    },
+    {
+      "headword": "propose",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈpoʊz/",
+      "meaning": "を提案する；プロポーズする",
+      "exampleEn": "He proposed a new business plan.",
+      "exampleJa": "彼は新しい事業計画を提案しました。",
+      "level": 2
+    },
+    {
+      "headword": "recognize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrekəɡnaɪz/",
+      "meaning": "を認識する；を識別する",
+      "exampleEn": "I recognized her voice immediately.",
+      "exampleJa": "私はすぐに彼女の声だとわかりました（認識しました）。",
+      "level": 2
+    },
+    {
+      "headword": "refer",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfɜːr/",
+      "meaning": "言及する；参照する",
+      "exampleEn": "Refer to dictionary for spellings.",
+      "exampleJa": "綴りについては辞書を参照しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "regard",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈɡɑːrd/",
+      "meaning": "を〜とみなす；を尊重する",
+      "exampleEn": "I regard him as best friend.",
+      "exampleJa": "私は彼のことを最高の友人だとみなしています。",
+      "level": 2
+    },
+    {
+      "headword": "release",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈliːs/",
+      "meaning": "を解放する；を発売する",
+      "exampleEn": "Band released new music album.",
+      "exampleJa": "バンドは新しい音楽アルバムを発売・リリースしました。",
+      "level": 2
+    },
+    {
+      "headword": "require",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkwaɪər/",
+      "meaning": "を必要とする；を要求する",
+      "exampleEn": "Plant requires sunlight to grow.",
+      "exampleJa": "植物は成長するために日光を必要とします。",
+      "level": 2
+    },
+    {
+      "headword": "resist",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzɪst/",
+      "meaning": "に抵抗する；を耐える",
+      "exampleEn": "I could not resist sweet chocolate.",
+      "exampleJa": "私は甘いチョコレートに耐える（我慢する）ことができませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "retain",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈteɪn/",
+      "meaning": "を保持する；を記憶にとどめる",
+      "exampleEn": "Store retains customer service record.",
+      "exampleJa": "店舗は顧客サービス記録を保持しています。",
+      "level": 3
+    },
+    {
+      "headword": "urge",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɜːrdʒ/",
+      "meaning": "に強く促す；を催促する",
+      "exampleEn": "Doctors urge people to exercise.",
+      "exampleJa": "医師たちは人々に運動するよう強く促します。",
+      "level": 3
+    },
+    {
+      "headword": "value",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈvæljuː/",
+      "meaning": "を重んじる；を評価する",
+      "exampleEn": "We value your honest opinion.",
+      "exampleJa": "私たちはあなたの誠実な意見を尊重・重んじます。",
+      "level": 2
+    },
+    {
+      "headword": "vary",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈveri/",
+      "meaning": "異なる；多様である",
+      "exampleEn": "Prices vary depending on store.",
+      "exampleJa": "価格は店舗によって異なります。",
+      "level": 2
+    },
+    {
+      "headword": "abandon",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈbændən/",
+      "meaning": "を捨てる；をあきらめる",
+      "exampleEn": "They had to abandon the burning ship.",
+      "exampleJa": "彼らは炎上する船を捨てなければなりませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "accelerate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈseləreɪt/",
+      "meaning": "を加速させる；促進する",
+      "exampleEn": "The car accelerated smoothly on the highway.",
+      "exampleJa": "車は高速道路で滑らかに加速しました。",
+      "level": 3
+    },
+    {
+      "headword": "activate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈæktɪveɪt/",
+      "meaning": "を起動する；を活性化する",
+      "exampleEn": "Press button to activate security system.",
+      "exampleJa": "セキュリティシステムを起動するためにボタンを押しちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "admit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmɪt/",
+      "meaning": "を認める；の入場を許す",
+      "exampleEn": "He admitted making a serious mistake.",
+      "exampleJa": "彼は重大な間違いを犯したことを認めました。",
+      "level": 2
+    },
+    {
+      "headword": "aggravate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈæɡrəveɪt/",
+      "meaning": "を悪化させる",
+      "exampleEn": "Cold weather aggravated his cough condition.",
+      "exampleJa": "寒い天候が彼の咳の状況を悪化させました。",
+      "level": 4
+    },
+    {
+      "headword": "allure",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈlʊr/",
+      "meaning": "魅力；誘惑",
+      "exampleEn": "The allure of gold drew prospectors.",
+      "exampleJa": "金の魅力が探鉱者たちを引き寄せました。",
+      "level": 4
+    },
+    {
+      "headword": "ambition",
+      "partOfSpeech": "noun",
+      "phonetic": "/æmˈbɪʃn/",
+      "meaning": "野心；大望",
+      "exampleEn": "Her main ambition is becoming a doctor.",
+      "exampleJa": "彼女の主な野心（大望）は医師になることです。",
+      "level": 2
+    },
+    {
+      "headword": "analyze",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈænəlaɪz/",
+      "meaning": "を分析する",
+      "exampleEn": "Scientists analyze chemical blood sample test.",
+      "exampleJa": "科学者たちは化学的な血液サンプル検査を分析します。",
+      "level": 2
+    },
+    {
+      "headword": "annex",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈneks/",
+      "meaning": "を併合する；添える",
+      "exampleEn": "Country annexed neighboring territory land.",
+      "exampleJa": "国家は隣接する領土を併合しました。",
+      "level": 4
+    },
+    {
+      "headword": "apathetic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌæpəˈθetɪk/",
+      "meaning": "無関心な；冷淡な",
+      "exampleEn": "Voters became apathetic toward political party elections.",
+      "exampleJa": "有権者たちは政党選挙に対して無関心になりました。",
+      "level": 4
+    },
+    {
+      "headword": "appoint",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɔɪnt/",
+      "meaning": "を指名する；を任命する",
+      "exampleEn": "Board appointed him new chief executive.",
+      "exampleJa": "取締役会は彼を新しい最高経営者に任命しました。",
+      "level": 2
+    },
+    {
+      "headword": "arbitrary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːrbɪtreri/",
+      "meaning": "任意・独断的な",
+      "exampleEn": "Manager made arbitrary decision without consulting.",
+      "exampleJa": "マネージャーは相談なしに独断的な（任意）決定を下しました。",
+      "level": 4
+    },
+    {
+      "headword": "articulate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɑːrˈtɪkjulət/",
+      "meaning": "話の明瞭な",
+      "exampleEn": "She is an articulate and confident speaker.",
+      "exampleJa": "彼女は話の明瞭で自信に満ちた話者です。",
+      "level": 3
+    },
+    {
+      "headword": "assembly",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsembli/",
+      "meaning": "組み立て；集会",
+      "exampleEn": "Attend morning school student assembly hall.",
+      "exampleJa": "朝の学校全校生徒集会ホールに出席しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "associate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsoʊʃieɪt/",
+      "meaning": "を関連づける；交際する",
+      "exampleEn": "People associate red color with danger signal.",
+      "exampleJa": "人々は赤色を危険信号と関連づけます。",
+      "level": 2
+    },
+    {
+      "headword": "attain",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈteɪn/",
+      "meaning": "を達成する；に到達する",
+      "exampleEn": "She attained high academic position at university.",
+      "exampleJa": "彼女は大学で高い学術的職位を達成しました。",
+      "level": 3
+    },
+    {
+      "headword": "attraction",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtrækʃn/",
+      "meaning": "引きつけるもの；アトラクション",
+      "exampleEn": "Theme park adds new thrill ride attraction.",
+      "exampleJa": "テーマパークが新しいスリル乗り物のアトラクションを追加します。",
+      "level": 2
+    },
+    {
+      "headword": "authority",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈθɔːrəti/",
+      "meaning": "権限；当局",
+      "exampleEn": "Local government health authorities inspected restaurant.",
+      "exampleJa": "地元の政府保健当局がレストランを検査しました。",
+      "level": 2
+    },
+    {
+      "headword": "await",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈweɪt/",
+      "meaning": "を待つ",
+      "exampleEn": "We eagerly await news of test result.",
+      "exampleJa": "私たちはテスト結果の知らせを切望して待っています。",
+      "level": 2
+    },
+    {
+      "headword": "bar",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɑːr/",
+      "meaning": "を立ち入り禁止にする；を妨げる",
+      "exampleEn": "Guards barred entry to unauthorized visitors.",
+      "exampleJa": "警備員は未認可の訪問者の立ち入りを拒みました（禁止しました）。",
+      "level": 2
+    },
+    {
+      "headword": "besiege",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈsiːdʒ/",
+      "meaning": "を包囲する；押し寄せる",
+      "exampleEn": "Reporters besieged company building entry gate.",
+      "exampleJa": "記者たちが会社建物の入口ゲートに押し寄せました。",
+      "level": 4
+    },
+    {
+      "headword": "bizarre",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bɪˈzɑːr/",
+      "meaning": "奇妙な；風変わりな",
+      "exampleEn": "He wore bizarre futuristic costume party clothes.",
+      "exampleJa": "彼は奇妙な未来的な仮装パーティー衣装を着ていました。",
+      "level": 3
+    },
+    {
+      "headword": "blizzard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈblɪzərd/",
+      "meaning": "猛吹雪；ブリザード",
+      "exampleEn": "Winter blizzard stopped regional train traffic.",
+      "exampleJa": "冬の猛吹雪（ブリザード）が地域の列車交通を停止させました。",
+      "level": 3
+    },
+    {
+      "headword": "bold",
+      "partOfSpeech": "adjective",
+      "phonetic": "/boʊld/",
+      "meaning": "大胆な；太字の",
+      "exampleEn": "Take bold innovative action in market.",
+      "exampleJa": "市場で大胆な革新的行動をとりなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bounty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaʊnti/",
+      "meaning": "報奨金；恵み",
+      "exampleEn": "Police offered cash bounty reward for criminal capture.",
+      "exampleJa": "警察は犯罪者逮捕のために現金報奨金（懸賞金）を提供しました。",
+      "level": 4
+    },
+    {
+      "headword": "brittle",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbrɪtl/",
+      "meaning": "脆い；壊れやすい",
+      "exampleEn": "Old dry wood becomes brittle and weak.",
+      "exampleJa": "古い乾燥した木材は脆く（壊れやすく）弱くなります。",
+      "level": 4
+    },
+    {
+      "headword": "bystander",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaɪstændər/",
+      "meaning": "傍観者；居合わせる人",
+      "exampleEn": "Innocent bystander witnessed street car accident.",
+      "exampleJa": "無罪の居合わせる人（傍観者）が通りの自動車事故を目撃しました。",
+      "level": 3
+    },
+    {
+      "headword": "calamity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈlæməti/",
+      "meaning": "大惨事；災難",
+      "exampleEn": "Earthquake was a severe national calamity.",
+      "exampleJa": "地震は深刻な国家的大惨事でした。",
+      "level": 4
+    },
+    {
+      "headword": "capitalist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæpɪtəlɪst/",
+      "meaning": "資本家",
+      "exampleEn": "Venture capitalist invested in startup tech.",
+      "exampleJa": "ベンチャー資本家が技術新興企業に投資しました。",
+      "level": 3
+    },
+    {
+      "headword": "casualty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæʒuəlti/",
+      "meaning": "死傷者；被害者",
+      "exampleEn": "Accident caused five severe casualty victims.",
+      "exampleJa": "事故が5名の深刻な死傷者被害者を引き起こしました。",
+      "level": 3
+    },
+    {
+      "headword": "celebrated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈselɪbreɪtɪd/",
+      "meaning": "著名な；有名な",
+      "exampleEn": "Famous celebrated artist painted oil portrait.",
+      "exampleJa": "著名な（有名な）芸術家が油絵の肖像画を描きました。",
+      "level": 3
+    },
+    {
+      "headword": "characteristic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkærəktəˈrɪstɪk/",
+      "meaning": "特徴；特色",
+      "exampleEn": "Feathers are key characteristic of birds.",
+      "exampleJa": "羽毛は鳥の主要な特徴です。",
+      "level": 2
+    },
+    {
+      "headword": "chronological",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌkrɑːnəˈlɑːdʒɪkl/",
+      "meaning": "年代順の",
+      "exampleEn": "List history events in chronological order.",
+      "exampleJa": "年代順に歴史的出来事をリストしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "classify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈklæsɪfaɪ/",
+      "meaning": "を分類する；格付けする",
+      "exampleEn": "Classify files into confidential public folders.",
+      "exampleJa": "ファイルを機密・公開フォルダーに分類しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "coarse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kɔːrs/",
+      "meaning": "粗い；品のない",
+      "exampleEn": "Sandpaper has coarse rough surface texture.",
+      "exampleJa": "サンドペーパーは粗い（ざらざらした）表面の質感を持ちます。",
+      "level": 3
+    },
+    {
+      "headword": "collective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəˈlektɪv/",
+      "meaning": "集団の；共同の",
+      "exampleEn": "Decision reflects collective wisdom of team.",
+      "exampleJa": "決定はチームの集団の（共同の）知性を反映しています。",
+      "level": 3
+    },
+    {
+      "headword": "commence",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmens/",
+      "meaning": "を開始する；始まる",
+      "exampleEn": "Ceremony will commence at ten AM prompt.",
+      "exampleJa": "式典は午前10時ちょうどに開始します（始まります）。",
+      "level": 3
+    },
+    {
+      "headword": "comparative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəmˈpærətɪv/",
+      "meaning": "比較による；相対的な",
+      "exampleEn": "Conduct comparative study between two systems.",
+      "exampleJa": "2つのシステム間で比較研究を実施しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "competitor",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpetɪtər/",
+      "meaning": "競合他社；ライバル",
+      "exampleEn": "Main market competitor lowered product prices.",
+      "exampleJa": "主要な市場競合他社が製品価格を下げました。",
+      "level": 2
+    },
+    {
+      "headword": "compliment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːmplɪmənt/",
+      "meaning": "お辞儀；お世辞；お祝い",
+      "exampleEn": "Paid chef warm compliment on meal.",
+      "exampleJa": "シェフに料理の温かいお辞儀（お褒めの言葉）を贈りました。",
+      "level": 2
+    },
+    {
+      "headword": "comprehensive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌkɑːmprɪˈhensɪv/",
+      "meaning": "包括的な；総合的な",
+      "exampleEn": "Report provides comprehensive market survey analysis.",
+      "exampleJa": "報告書は包括的な（総合的な）市場調査分析を提供します。",
+      "level": 3
+    },
+    {
+      "headword": "conception",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsepʃn/",
+      "meaning": "概念；着想；妊娠",
+      "exampleEn": "He had no clear conception of task.",
+      "exampleJa": "彼にはタスクの明確な概念（理解）がありませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "concurrent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈkɜːrənt/",
+      "meaning": "同時に起こる",
+      "exampleEn": "Prisoner received concurrent sentence jail terms.",
+      "exampleJa": "囚人は同時に起こる（併科の）刑罰期を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "conference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnfərəns/",
+      "meaning": "会議；協議会",
+      "exampleEn": "Attend annual medical science research conference.",
+      "exampleJa": "年次の医学科学研究会議に出席しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "conform",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfɔːrm/",
+      "meaning": "に従う；適合する",
+      "exampleEn": "Building design must conform with fire safety rules.",
+      "exampleJa": "建築デザインは火災安全規則に従わなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "congregation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːŋɡrɪˈɡeɪʃn/",
+      "meaning": "集会；信者の集まり",
+      "exampleEn": "Church congregation listened to priest prayer.",
+      "exampleJa": "教会の信者の集まりが神父の祈りに耳を傾けました。",
+      "level": 4
+    },
+    {
+      "headword": "consent",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsent/",
+      "meaning": "同意；承諾",
+      "exampleEn": "Obtain parental written legal consent permission.",
+      "exampleJa": "親の書面での法的同意（承諾）許可を入手しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "consistent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈsɪstənt/",
+      "meaning": "一貫した",
+      "exampleEn": "Provide consistent customer service support quality.",
+      "exampleJa": "一貫した顧客サービスサポート品質を提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "constitute",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːnstətuːt/",
+      "meaning": "を構成する；を形成する",
+      "exampleEn": "Twelve months constitute one solar year.",
+      "exampleJa": "12ヶ月が1太陽年を構成します。",
+      "level": 3
+    },
+    {
+      "headword": "consume",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsuːm/",
+      "meaning": "を消費する；を食べる",
+      "exampleEn": "Cars consume large amounts of fuel.",
+      "exampleJa": "自動車は大料の燃料を消費します。",
+      "level": 2
+    },
+    {
+      "headword": "contentious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈtenʃəs/",
+      "meaning": "論争を呼ぶ；争い好きな",
+      "exampleEn": "Tax increase issue is highly contentious topic.",
+      "exampleJa": "増税問題は非常に論争を呼ぶトピックです。",
+      "level": 4
+    },
+    {
+      "headword": "contract",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntrækt/",
+      "meaning": "契約；契約書",
+      "exampleEn": "Sign binding formal business agreement contract.",
+      "exampleJa": "拘束力のある正式なビジネス合意契約書に署名しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "controversial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌkɑːntrəˈvɜːrʃl/",
+      "meaning": "物議を醸す；論争の的となる",
+      "exampleEn": "New law proposal is highly controversial.",
+      "exampleJa": "新しい法案提案は非常に物議を醸しています（論争の的）。",
+      "level": 3
+    },
+    {
+      "headword": "convey",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈveɪ/",
+      "meaning": "を伝える；を運ぶ",
+      "exampleEn": "Words convey deep emotion feelings clearly.",
+      "exampleJa": "言葉が深い感情を明確に伝えます。",
+      "level": 2
+    },
+    {
+      "headword": "cope",
+      "partOfSpeech": "verb",
+      "phonetic": "/koʊp/",
+      "meaning": "に対処する；切り抜ける",
+      "exampleEn": "Learn how to cope with work stress.",
+      "exampleJa": "仕事のストレスに対処する方法（切り抜け方）を学びなさい。",
+      "level": 2
+    },
+    {
+      "headword": "correspondent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɔːrəˈspɑːndənt/",
+      "meaning": "特派員；通信員",
+      "exampleEn": "Foreign news correspondent reported from war.",
+      "exampleJa": "海外ニュース特派員が戦争現場から報告しました。",
+      "level": 3
+    },
+    {
+      "headword": "countenance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkaʊntənəns/",
+      "meaning": "表情；顔つき；賛同",
+      "exampleEn": "His calm countenance reassured worried mother.",
+      "exampleJa": "彼の冷静な表情が心配する母親を安心させました。",
+      "level": 4
+    },
+    {
+      "headword": "craftsman",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkræftsmən/",
+      "meaning": "職人；工芸家",
+      "exampleEn": "Skilled craftsman built wooden furniture table.",
+      "exampleJa": "熟練した職人が木製家具テーブルを組み立てました。",
+      "level": 3
+    },
+    {
+      "headword": "criterion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraɪˈtɪriən/",
+      "meaning": "基準；判定標準",
+      "exampleEn": "Quality is main criterion for selection.",
+      "exampleJa": "品質が選考のための主要な基準です。",
+      "level": 3
+    },
+    {
+      "headword": "crush",
+      "partOfSpeech": "verb",
+      "phonetic": "/krʌʃ/",
+      "meaning": "を押しつぶす；を粉砕する",
+      "exampleEn": "Machine crushed recycling aluminum metal cans.",
+      "exampleJa": "機械がリサイクルアルミ金属缶を押しつぶしました。",
+      "level": 2
+    },
+    {
+      "headword": "cure",
+      "partOfSpeech": "verb",
+      "phonetic": "/kjʊr/",
+      "meaning": "を治療・治癒する",
+      "exampleEn": "Doctor cured patient serious lung disease.",
+      "exampleJa": "医師が患者の深刻な肺の病気を治療・治癒しました。",
+      "level": 2
+    },
+    {
+      "headword": "dazzle",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdæzl/",
+      "meaning": "を眩惑させる；を魅了する",
+      "exampleEn": "Bright stage lights dazzled audience eyes.",
+      "exampleJa": "明るい舞台照明が観客の目を眩惑させました。",
+      "level": 3
+    },
+    {
+      "headword": "deception",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsepʃn/",
+      "meaning": "欺瞞；詐欺",
+      "exampleEn": "Uncovered corporate financial fraud deception scheme.",
+      "exampleJa": "企業の財務詐欺欺瞞スキームを暴きました。",
+      "level": 3
+    },
+    {
+      "headword": "deduct",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈdʌkt/",
+      "meaning": "を控除・差し引く",
+      "exampleEn": "Deduct tax expense from total monthly salary.",
+      "exampleJa": "毎月の総給与から税金費用を控除しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "deficit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdefɪsɪt/",
+      "meaning": "赤字；不足額",
+      "exampleEn": "Government budget deficit reached billion dollars.",
+      "exampleJa": "政府の予算赤字（不足額）は数十億ドルに達しました。",
+      "level": 3
+    },
+    {
+      "headword": "dehydration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdiːhaɪˈdreɪʃn/",
+      "meaning": "脱水症状",
+      "exampleEn": "Drink water to prevent summer heat dehydration.",
+      "exampleJa": "夏の暑さの脱水症状を防ぐために水を飲みちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "delineate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈlɪnieɪt/",
+      "meaning": "を輪郭づける；を記述する",
+      "exampleEn": "Report clearly delineates team responsibilities duties.",
+      "exampleJa": "報告書はチームの責任義務を明確に記述しています（輪郭づけています）。",
+      "level": 4
+    },
+    {
+      "headword": "demolition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdeməˈlɪʃn/",
+      "meaning": "解体；取り壊し",
+      "exampleEn": "Building demolition crew used heavy explosives.",
+      "exampleJa": "建物の解体（取り壊し）クルーが重い爆薬を使用しました。",
+      "level": 3
+    },
+    {
+      "headword": "deny",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈnaɪ/",
+      "meaning": "を否定・拒否する",
+      "exampleEn": "Suspect denied involvement in robbery crime.",
+      "exampleJa": "容疑者は強盗犯罪への関与を否定・拒否しました。",
+      "level": 2
+    },
+    {
+      "headword": "depreciate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈpriːʃieɪt/",
+      "meaning": "の価値が下がる；減価償却する",
+      "exampleEn": "Car value depreciates quickly after purchase.",
+      "exampleJa": "車の価値は購入後急速に下がります（減価償却されます）。",
+      "level": 4
+    },
+    {
+      "headword": "derive",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈraɪv/",
+      "meaning": "を引き出す；に由来する",
+      "exampleEn": "Derive great pleasure happiness from reading.",
+      "exampleJa": "読書から偉大な喜び幸せを引き出しちなさい（得ちなさい）。",
+      "level": 2
+    },
+    {
+      "headword": "desirable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈzaɪərəbl/",
+      "meaning": "望ましい；魅力的な",
+      "exampleEn": "Fluency in foreign languages is highly desirable.",
+      "exampleJa": "外国語の流暢さは非常に望ましいものです。",
+      "level": 2
+    },
+    {
+      "headword": "destiny",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdestəni/",
+      "meaning": "宿命；運命",
+      "exampleEn": "Shape your own future life destiny.",
+      "exampleJa": "自分自身の将来の人生の宿命（運命）を形作りちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "detector",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈtektər/",
+      "meaning": "探知機；検知器",
+      "exampleEn": "Install smoke detector alarm on ceiling.",
+      "exampleJa": "天井に煙探知機（検知器）警報を取り付けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "devastating",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdevəsteɪtɪŋ/",
+      "meaning": "壊滅的な；衝動的な",
+      "exampleEn": "Flood caused devastating loss property destruction.",
+      "exampleJa": "洪水が壊滅的な損失資産破壊を引き起こしました。",
+      "level": 3
+    },
+    {
+      "headword": "dexterity",
+      "partOfSpeech": "noun",
+      "phonetic": "/dekˈsterəti/",
+      "meaning": "器用さ；手際の良さ",
+      "exampleEn": "Craftsman displayed great physical hand dexterity.",
+      "exampleJa": "職人は偉大な身体的手の器用さを示しました。",
+      "level": 4
+    },
+    {
+      "headword": "dictatorship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdɪkˈteɪtərʃɪp/",
+      "meaning": "独裁政権",
+      "exampleEn": "Nation transitioned from dictatorship to democracy.",
+      "exampleJa": "国家は独裁政権から民主主義へと移行しました。",
+      "level": 3
+    },
+    {
+      "headword": "dilate",
+      "partOfSpeech": "verb",
+      "phonetic": "/daɪˈleɪt/",
+      "meaning": "を拡張・開大する",
+      "exampleEn": "Eye pupils dilate in dark room environment.",
+      "exampleJa": "暗い部屋の環境で目の瞳孔が拡大（開大）します。",
+      "level": 4
+    },
+    {
+      "headword": "diplomatic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌdɪpləˈmætɪk/",
+      "meaning": "外交上の；手際のよい",
+      "exampleEn": "Establish formal diplomatic relations between countries.",
+      "exampleJa": "国々の間に正式な外交上の関係を樹立しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "disapprove",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈpruːv/",
+      "meaning": "を承認しない；不満を持つ",
+      "exampleEn": "Board disapproved new financial budget request.",
+      "exampleJa": "取締役会は新しい財務予算申請を承認しませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "disciple",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsaɪpl/",
+      "meaning": "弟子；信奉者",
+      "exampleEn": "Devoted disciple followed teachings of master.",
+      "exampleJa": "献身的な弟子が師の教えに従いました。",
+      "level": 4
+    },
+    {
+      "headword": "discourage",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈkɜːrɪdʒ/",
+      "meaning": "のやる気を失わせる；を思いとどまらせる",
+      "exampleEn": "Failure should not discourage your ambitions.",
+      "exampleJa": "失敗によって自分の野心のやる気を失わせてはなりません。",
+      "level": 2
+    },
+    {
+      "headword": "disease",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈziːz/",
+      "meaning": "病気；疾患",
+      "exampleEn": "Prevent spread of infectious viral disease.",
+      "exampleJa": "伝染性ウイルス病気の拡大を予防しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "dismay",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪsˈmeɪ/",
+      "meaning": "落胆；狼狽",
+      "exampleEn": "News filled audience with shock dismay.",
+      "exampleJa": "ニュースが観客をショックと落胆（狼狽）で満たしました。",
+      "level": 3
+    },
+    {
+      "headword": "disperse",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈspɜːrs/",
+      "meaning": "を分散・散乱させる",
+      "exampleEn": "Police ordered crowd to disperse peacefully.",
+      "exampleJa": "警察は群衆に平和的に分散解散するよう命じました。",
+      "level": 3
+    },
+    {
+      "headword": "disregard",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsrɪˈɡɑːrd/",
+      "meaning": "を無視する；を軽視する",
+      "exampleEn": "Do not disregard safety instruction warnings.",
+      "exampleJa": "安全取扱説明の警告を無視（軽視）してはなりません。",
+      "level": 3
+    },
+    {
+      "headword": "dissolute",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdɪsəluːt/",
+      "meaning": "放蕩な；身持ちの悪い",
+      "exampleEn": "He led a dissolute reckless lifestyle.",
+      "exampleJa": "彼は放蕩な（身持ちの悪い）無謀なライフスタイルを送りました。",
+      "level": 4
+    },
+    {
+      "headword": "pessimistic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌpesɪˈmɪstɪk/",
+      "meaning": "悲観的な",
+      "exampleEn": "Do not take pessimistic view future.",
+      "exampleJa": "将来について悲観的な視点をとってはなりません。",
+      "level": 2
+    },
+    {
+      "headword": "philosophy",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈlɑːsəfi/",
+      "meaning": "哲学；理念",
+      "exampleEn": "Study ancient Greek human life philosophy.",
+      "exampleJa": "古代ギリシャの人間の人生哲学を学びなさい。",
+      "level": 2
+    },
+    {
+      "headword": "polarize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpoʊləraɪz/",
+      "meaning": "を極端に分断する；二極化する",
+      "exampleEn": "Issue polarized public political opinion voters.",
+      "exampleJa": "問題が世間の政治的意見の有権者を極端に分断（二極化）させました。",
+      "level": 4
+    },
+    {
+      "headword": "portray",
+      "partOfSpeech": "verb",
+      "phonetic": "/pɔːrˈtreɪ/",
+      "meaning": "を描写する；演じる",
+      "exampleEn": "Actor portrayed heroic soldier in movie.",
+      "exampleJa": "俳優が映画で英雄的な兵士を描写しました（演じました）。",
+      "level": 3
+    },
+    {
+      "headword": "practical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpræktɪkl/",
+      "meaning": "実用的な；現実的な",
+      "exampleEn": "Gain hands-on practical work skill experience.",
+      "exampleJa": "実践的な（実用的な）作業スキル体験を獲得しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "predecessor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpredəsesər/",
+      "meaning": "前任者；前身",
+      "exampleEn": "New CEO praised hard work predecessor.",
+      "exampleJa": "新しい最高経営責任者は前任者の懸命な仕事を褒め称えました。",
+      "level": 3
+    },
+    {
+      "headword": "premeditated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/priːˈmedɪteɪtɪd/",
+      "meaning": "計画的な；前もって考えた",
+      "exampleEn": "Police proved murder was premeditated crime.",
+      "exampleJa": "警察は殺人が計画的な（前もって考えた）犯罪であることを証明しました。",
+      "level": 4
+    },
+    {
+      "headword": "prescription",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "meaning": "処方箋；規定",
+      "exampleEn": "Take doctor medicine prescription to pharmacy.",
+      "exampleJa": "医師の薬の処方箋を薬局に持参しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pretend",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈtend/",
+      "meaning": "のふりをする",
+      "exampleEn": "Child pretended to be brave superhero.",
+      "exampleJa": "子供は勇敢なスーパーヒーローのふりをしました。",
+      "level": 2
+    },
+    {
+      "headword": "pride",
+      "partOfSpeech": "noun",
+      "phonetic": "/praɪd/",
+      "meaning": "誇り；プライド",
+      "exampleEn": "Take pride in high quality craftsmanship work.",
+      "exampleJa": "高い品質の職人技の作業に誇り（プライド）を持ちちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "private",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpraɪvət/",
+      "meaning": "個人の；民間の；非公開の",
+      "exampleEn": "Hold private meeting behind closed doors.",
+      "exampleJa": "閉ざされたドアの後ろで非公開の（個人の）会議を開催しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "proceeds",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊsiːdz/",
+      "meaning": "収益金；売上金",
+      "exampleEn": "Donate event sale proceeds to charity.",
+      "exampleJa": "イベント売上収益金を慈善事業に寄付しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "production",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈdʌkʃn/",
+      "meaning": "生産；制作",
+      "exampleEn": "Increase monthly car factory production rate.",
+      "exampleJa": "月間の自動車工場生産率を増加させなさい。",
+      "level": 2
+    },
+    {
+      "headword": "profuse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈfjuːs/",
+      "meaning": "豊富な；大料の",
+      "exampleEn": "Offered profuse apologies for late delay.",
+      "exampleJa": "遅延に対して大料の（豊富な）謝罪を行いました。",
+      "level": 4
+    },
+    {
+      "headword": "prolong",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈlɔːŋ/",
+      "meaning": "を延ばす；を延長する",
+      "exampleEn": "Medicine helped to prolong patient life.",
+      "exampleJa": "薬が患者の寿命を延ばす（延長する）のに役立ちました。",
+      "level": 3
+    },
+    {
+      "headword": "propel",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈpel/",
+      "meaning": "を推進する；を進ませる",
+      "exampleEn": "Jet engine propels airplane forward fast.",
+      "exampleJa": "ジェットエンジンが飛行機を前へ高速で推進させます（進ませます）。",
+      "level": 3
+    },
+    {
+      "headword": "protective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈtektɪv/",
+      "meaning": "保護する；庇護的な",
+      "exampleEn": "Wear protective rubber gloves lab work.",
+      "exampleJa": "実験室作業では保護用のゴム手袋を着用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "provider",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈvaɪdər/",
+      "meaning": "提供者；プロバイダ",
+      "exampleEn": "Select reliable internet network service provider.",
+      "exampleJa": "信頼できるインターネットネットワークサービスプロバイダ（提供者）を選択しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "psychiatric",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌsaɪkiˈætrɪk/",
+      "meaning": "精神医学の",
+      "exampleEn": "Patient received hospital psychiatric medical care.",
+      "exampleJa": "患者は病院の精神医学の医療ケアを受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "purchase",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpɜːrtʃəs/",
+      "meaning": "を購入する",
+      "exampleEn": "Purchase store goods online using card.",
+      "exampleJa": "カードを使ってオンラインで店舗商品を購入しなさい。",
+      "level": 2
+    }
+  ]
+}

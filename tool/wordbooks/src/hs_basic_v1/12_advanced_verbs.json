@@ -259,7 +259,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈɪntɪɡreɪt/",
       "meaning": "を統合する；に融和させる",
-      "exampleEn": "Integrate new software into system.",
+      "exampleEn": "Integrate new software into the system.",
       "exampleJa": "新しいソフトウェアをシステムに統合しなさい。",
       "level": 3
     },
@@ -538,7 +538,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈnɔɪəns/",
       "meaning": "苛立ち；迷惑なこと",
-      "exampleEn": "Express mild annoyance at traffic delay.",
+      "exampleEn": "Express mild annoyance at the traffic delay.",
       "exampleJa": "交通の遅れに対して軽度の苛立ちを表現しなさい。",
       "level": 2
     },
@@ -583,8 +583,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈsɔːlt/",
       "meaning": "猛攻撃；暴行",
-      "exampleEn": "Police stopped violent street assault.",
-      "exampleJa": "警察が暴力的な通りの暴行を止めました。",
+      "exampleEn": "Police stopped a violent assault on the street.",
+      "exampleJa": "警察は路上での暴力的な暴行を止めました。",
       "level": 2
     },
     {
@@ -592,8 +592,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈteɪn/",
       "meaning": "を達成する；に到達する",
-      "exampleEn": "Attain high academic work score goal.",
-      "exampleJa": "高い学術作業スコア目標を達成しなさい。",
+      "exampleEn": "Try to attain your academic goals.",
+      "exampleJa": "学業の目標を達成するよう努めなさい。",
       "level": 2
     },
     {
@@ -601,8 +601,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdɪt/",
       "meaning": "会計監査；監査する",
-      "exampleEn": "Conduct annual company tax money audit.",
-      "exampleJa": "毎年の会社税金お金会計監査を実施しなさい。",
+      "exampleEn": "The company conducts an annual tax audit.",
+      "exampleJa": "その会社は毎年税務監査を実施します。",
       "level": 2
     },
     {
@@ -610,8 +610,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˌveɪləˈbɪləti/",
       "meaning": "利用可能性；入手可能性",
-      "exampleEn": "Check hotel room booking availability online.",
-      "exampleJa": "オンラインでホテルの部屋予約利用可能性を確認しなさい。",
+      "exampleEn": "Check room availability online before booking.",
+      "exampleJa": "予約前にオンラインで空室状況を確認しなさい。",
       "level": 2
     },
     {
@@ -628,8 +628,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bæɡ/",
       "meaning": "バッグ；袋；カバン",
-      "exampleEn": "Put books inside school shoulder bag.",
-      "exampleJa": "通学ショルダーバッグの中に本を入れなさい。",
+      "exampleEn": "Put your books inside your shoulder bag.",
+      "exampleJa": "肩掛けバッグの中に本を入れなさい。",
       "level": 2
     },
     {
@@ -637,8 +637,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bəˈnænə/",
       "meaning": "バナナ",
-      "exampleEn": "Eat sweet yellow fruit banana morning.",
-      "exampleJa": "朝甘い黄色の果物バナナを食べなさい。",
+      "exampleEn": "Eat a sweet banana every morning.",
+      "exampleJa": "毎朝甘いバナナを食べなさい。",
       "level": 2
     },
     {
@@ -655,8 +655,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæθruːm/",
       "meaning": "浴室；トイレ",
-      "exampleEn": "Clean home water toilet bathroom space.",
-      "exampleJa": "自宅のトイレ浴室スペースを清掃しなさい。",
+      "exampleEn": "Please clean the bathroom at home.",
+      "exampleJa": "家の浴室を掃除してください。",
       "level": 2
     },
     {
@@ -673,8 +673,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈheɪvjər/",
       "meaning": "行動；振る舞い；行儀",
-      "exampleEn": "Show good polite human behavior daily.",
-      "exampleJa": "毎日常に良い丁寧な人間の振る舞いを示しなさい。",
+      "exampleEn": "Show good behavior every day.",
+      "exampleJa": "毎日良い振る舞いを示しなさい。",
       "level": 2
     },
     {
@@ -700,7 +700,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/bluːm/",
       "meaning": "開花する；花が咲く",
-      "exampleEn": "Cherry blossom flowers bloom spring.",
+      "exampleEn": "Cherry blossom flowers bloom in spring.",
       "exampleJa": "春には桜の花が開花します。",
       "level": 2
     },
@@ -709,8 +709,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɑːm/",
       "meaning": "爆弾；を爆撃する",
-      "exampleEn": "Military dropped explosive war bomb target.",
-      "exampleJa": "軍隊が爆発性の戦争爆弾を標的に投下しました。",
+      "exampleEn": "The military dropped a bomb on the target.",
+      "exampleJa": "軍は標的に爆弾を投下しました。",
       "level": 2
     },
     {
@@ -727,8 +727,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈbɔɪkɑːt/",
       "meaning": "をボイコットする；不買運動",
-      "exampleEn": "Consumers boycott products unfair firm.",
-      "exampleJa": "消費者たちが不公正な企業の製品をボイコットします。",
+      "exampleEn": "Consumers boycotted products from an unfair firm.",
+      "exampleJa": "消費者たちは不公正な企業の製品をボイコットしました。",
       "level": 2
     },
     {
@@ -745,8 +745,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbriːfkeɪs/",
       "meaning": "書類かばん；ブリーフケース",
-      "exampleEn": "Carry work paper inside leather briefcase.",
-      "exampleJa": "革の書類かばんの中に作業用紙を入れなさい。",
+      "exampleEn": "Carry your work papers in a leather briefcase.",
+      "exampleJa": "革の書類かばんに仕事の書類を入れて運びなさい。",
       "level": 2
     },
     {
@@ -754,8 +754,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/brɑːnz/",
       "meaning": "青銅；ブロンズ像",
-      "exampleEn": "Won third place sports bronze medal.",
-      "exampleJa": "スポーツで第3位のブロンズメダルを獲得しました。",
+      "exampleEn": "He won the bronze medal for third place.",
+      "exampleJa": "彼は3位で銅メダルを獲得しました。",
       "level": 2
     },
     {
@@ -763,8 +763,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bʌɡ/",
       "meaning": "虫；バグ；プログラム欠陥",
-      "exampleEn": "Fix software computer code bug error.",
-      "exampleJa": "ソフトウェアコンピューターコードのバグを修正しなさい。",
+      "exampleEn": "Fix the bug in the computer code.",
+      "exampleJa": "コンピューターコードのバグを修正しなさい。",
       "level": 2
     },
     {
@@ -772,8 +772,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbjʊroʊ/",
       "meaning": "局；事務局；タンス",
-      "exampleEn": "Visit federal weather research service bureau.",
-      "exampleJa": "連邦気象研究サービス局を訪問しなさい。",
+      "exampleEn": "Visit the federal weather research bureau.",
+      "exampleJa": "連邦気象研究局を訪問しなさい。",
       "level": 2
     },
     {

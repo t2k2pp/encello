@@ -1,0 +1,816 @@
+{
+  "chunk": "02_employment_hiring",
+  "note": "採用・人事・評価・雇用関係に関する語彙 (90語)",
+  "words": [
+    {
+      "headword": "candidate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkændɪdeɪt/",
+      "meaning": "候補者；求職志望者",
+      "exampleEn": "Company interviewed three qualified candidates.",
+      "exampleJa": "会社は3名の適格な候補者と面接を行いました。",
+      "level": 3
+    },
+    {
+      "headword": "compensation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːmpenˈseɪʃn/",
+      "meaning": "報酬；手当；補償",
+      "exampleEn": "Job offers attractive compensation package.",
+      "exampleJa": "求人は魅力的な報酬パッケージを提供しています。",
+      "level": 4
+    },
+    {
+      "headword": "personnel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɜːrsəˈnel/",
+      "meaning": "人事；全職員",
+      "exampleEn": "Contact personnel department for career inquiry.",
+      "exampleJa": "キャリアに関する問い合わせは人事部にご連絡ください。",
+      "level": 3
+    },
+    {
+      "headword": "qualification",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+      "meaning": "資格；適性",
+      "exampleEn": "Applicant has relevant skill qualification.",
+      "exampleJa": "応募者は関連するスキル資格を所持しています。",
+      "level": 3
+    },
+    {
+      "headword": "recruit",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkruːt/",
+      "meaning": "を募集する；を新採用する",
+      "exampleEn": "Firm recruits talented university graduates.",
+      "exampleJa": "企業は優秀な大学新卒者を募集・新採用しています。",
+      "level": 3
+    },
+    {
+      "headword": "resume",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrezəmeɪ/",
+      "meaning": "履歴書；職務経歴書",
+      "exampleEn": "Send your updated resume by email.",
+      "exampleJa": "更新した履歴書・職歴書をメールで送信しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "vacancy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈveɪkənsi/",
+      "meaning": "欠員；空室",
+      "exampleEn": "There is a job vacancy in sales.",
+      "exampleJa": "営業部門に求人・欠員が1件あります。",
+      "level": 3
+    },
+    {
+      "headword": "applicant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæplɪkənt/",
+      "meaning": "応募者；志願者",
+      "exampleEn": "Over fifty applicants applied for position.",
+      "exampleJa": "50名以上の応募者がそのポジションに応募しました。",
+      "level": 2
+    },
+    {
+      "headword": "application",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "meaning": "応募；申請書",
+      "exampleEn": "Submit job application form online.",
+      "exampleJa": "オンラインで求人応募用紙を提出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "apply",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈplaɪ/",
+      "meaning": "に応募する；を適用する",
+      "exampleEn": "Apply for management position today.",
+      "exampleJa": "今日管理職のポジションに応募しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "benefit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbenɪfɪt/",
+      "meaning": "手当；福利厚生；利益",
+      "exampleEn": "Company provides health insurance benefit.",
+      "exampleJa": "会社は健康保険手当（福利厚生）を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "bonus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈboʊnəs/",
+      "meaning": "特別手当；ボーナス",
+      "exampleEn": "Employees received annual performance bonus.",
+      "exampleJa": "従業員たちは年次の業績ボーナスを受け取りました。",
+      "level": 2
+    },
+    {
+      "headword": "career",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈrɪr/",
+      "meaning": "経歴；キャリア",
+      "exampleEn": "Build successful career in accounting field.",
+      "exampleJa": "会計分野で成功したキャリアを築きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "demote",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈmoʊt/",
+      "meaning": "を降格させる",
+      "exampleEn": "Worker was demoted due to poor attendance.",
+      "exampleJa": "作業員は出席率不良のため降格させられました。",
+      "level": 4
+    },
+    {
+      "headword": "demotion",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈmoʊʃn/",
+      "meaning": "降格；降級",
+      "exampleEn": "Demotion was reported in official memo.",
+      "exampleJa": "降格処分は公式メモで報告されました。",
+      "level": 4
+    },
+    {
+      "headword": "discipline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪsəplɪn/",
+      "meaning": "規律；懲戒",
+      "exampleEn": "Maintain strict workplace safety discipline.",
+      "exampleJa": "厳格な職場の安全規律を維持しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "dismiss",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈmɪs/",
+      "meaning": "を解雇する；を退ける",
+      "exampleEn": "Manager dismissed worker for contract breach.",
+      "exampleJa": "マネージャーは契約違反のため作業員を解雇しました。",
+      "level": 3
+    },
+    {
+      "headword": "dismissal",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪsˈmɪsl/",
+      "meaning": "解雇；却下",
+      "exampleEn": "Unfair dismissal case resolved in court.",
+      "exampleJa": "不当解雇事件は法廷で解決されました。",
+      "level": 3
+    },
+    {
+      "headword": "earnings",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɜːrnɪŋz/",
+      "meaning": "所得；給料",
+      "exampleEn": "Annual earnings rose by five percent.",
+      "exampleJa": "年間所得（給料）は5%上昇しました。",
+      "level": 2
+    },
+    {
+      "headword": "eligible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈelɪdʒəbl/",
+      "meaning": "受給資格がある；適格な",
+      "exampleEn": "Staff eligible for paid vacation after one year.",
+      "exampleJa": "スタッフは1年後に有給休暇の受給資格を得ます。",
+      "level": 3
+    },
+    {
+      "headword": "eligibility",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌelɪdʒəˈbɪləti/",
+      "meaning": "適格性；資格",
+      "exampleEn": "Check eligibility requirement for promotion.",
+      "exampleJa": "昇進のための資格要件を確認しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "employ",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈplɔɪ/",
+      "meaning": "を雇う；を用いる",
+      "exampleEn": "Firm employs over two hundred tech specialists.",
+      "exampleJa": "企業は200名以上の技術専門家を雇っています。",
+      "level": 2
+    },
+    {
+      "headword": "employee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈplɔɪiː/",
+      "meaning": "従業員；社員",
+      "exampleEn": "New employee attended orientation session.",
+      "exampleJa": "新入社員はオリエンテーションに参加しました。",
+      "level": 2
+    },
+    {
+      "headword": "employer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈplɔɪər/",
+      "meaning": "雇用主；事業主",
+      "exampleEn": "Fair employer listens to staff feedback.",
+      "exampleJa": "公正な雇用主はスタッフの意見に耳を傾けます。",
+      "level": 2
+    },
+    {
+      "headword": "employment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈplɔɪmənt/",
+      "meaning": "雇用；職",
+      "exampleEn": "Full time employment offers stable income.",
+      "exampleJa": "フルタイム雇用は安定した収入を提供します。",
+      "level": 2
+    },
+    {
+      "headword": "evaluation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌvæljuˈeɪʃn/",
+      "meaning": "査定；業績評価",
+      "exampleEn": "Annual performance evaluation held in December.",
+      "exampleJa": "年次の業績評価（査定）は12月に実施されます。",
+      "level": 3
+    },
+    {
+      "headword": "fire",
+      "partOfSpeech": "verb",
+      "phonetic": "/faɪər/",
+      "meaning": "を解雇する",
+      "exampleEn": "Company fired employee for misconduct.",
+      "exampleJa": "会社は不都合行為のため従業員を解雇しました。",
+      "level": 2
+    },
+    {
+      "headword": "full-time",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌfʊl ˈtaɪm/",
+      "meaning": "常勤の；フルタイムの",
+      "exampleEn": "Hire ten full-time software developers.",
+      "exampleJa": "10名の常勤（フルタイム）ソフトウェア開発者を雇用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "hire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhaɪər/",
+      "meaning": "を雇う；を賃借りする",
+      "exampleEn": "Store hired extra staff for holiday season.",
+      "exampleJa": "店舗は休日シーズンのために追加のスタッフを雇いました。",
+      "level": 2
+    },
+    {
+      "headword": "human resources",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "人事部；人的資源",
+      "exampleEn": "Submit leave request to human resources.",
+      "exampleJa": "休暇申請を人事部に提出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "incentive",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈsentɪv/",
+      "meaning": "報奨金；動機付け",
+      "exampleEn": "Sales rep received high cash incentive.",
+      "exampleJa": "営業担当者は高い現金報奨金（インセンティブ）を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "intern",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntɜːrn/",
+      "meaning": "実習生；インターン",
+      "exampleEn": "Summer intern assisted marketing team.",
+      "exampleJa": "夏のインターン生がマーケティングチームを補佐しました。",
+      "level": 2
+    },
+    {
+      "headword": "internship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntɜːrnʃɪp/",
+      "meaning": "インターンシップ；実習期間",
+      "exampleEn": "Complete three month university internship program.",
+      "exampleJa": "3ヶ月間の大学インターンシッププログラムを完了しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "interviewer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntərvjuːər/",
+      "meaning": "面接官",
+      "exampleEn": "Interviewer asked challenging technical questions.",
+      "exampleJa": "面接官はやりがいのある技術的質問を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "job",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɑːb/",
+      "meaning": "職；仕事",
+      "exampleEn": "Look for new job on career website.",
+      "exampleJa": "キャリアウェブサイトで新しい仕事を探しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "labor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪbər/",
+      "meaning": "労働；労働者",
+      "exampleEn": "Manual labor required physical strength.",
+      "exampleJa": "肉体労働は身体的体力を必要としました。",
+      "level": 2
+    },
+    {
+      "headword": "layoff",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪɔːf/",
+      "meaning": "一時解雇；レイオフ",
+      "exampleEn": "Company announced major staff layoff.",
+      "exampleJa": "会社は大規模なスタッフの一時解雇（レイオフ）を発表しました。",
+      "level": 3
+    },
+    {
+      "headword": "leave",
+      "partOfSpeech": "noun",
+      "phonetic": "/liːv/",
+      "meaning": "休暇；許可",
+      "exampleEn": "She took maternity leave for six months.",
+      "exampleJa": "彼女は6ヶ月間の産休（産前産後休暇）を取りました。",
+      "level": 2
+    },
+    {
+      "headword": "maternity",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈtɜːrnəti/",
+      "meaning": "母性；産休の",
+      "exampleEn": "Maternity leave policy updated this month.",
+      "exampleJa": "産前産後休暇方針が今月更新されました。",
+      "level": 3
+    },
+    {
+      "headword": "opening",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊpnɪŋ/",
+      "meaning": "求人；空き",
+      "exampleEn": "Firm has immediate job opening for accountant.",
+      "exampleJa": "企業には会計士の即時求人（空き）があります。",
+      "level": 2
+    },
+    {
+      "headword": "overtime",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊvərtaɪm/",
+      "meaning": "残業；残業手当",
+      "exampleEn": "Staff worked overtime to meet project deadline.",
+      "exampleJa": "スタッフはプロジェクトの締め切りに間に合わせるため残業しました。",
+      "level": 2
+    },
+    {
+      "headword": "part-time",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌpɑːrt ˈtaɪm/",
+      "meaning": "非常勤の；パートタイムの",
+      "exampleEn": "Student works part-time at coffee shop.",
+      "exampleJa": "学生はコーヒーショップでパートタイム（アルバイト）で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "payroll",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪroʊl/",
+      "meaning": "給与支払い簿；総給与額",
+      "exampleEn": "Company added twenty new workers to payroll.",
+      "exampleJa": "会社は給与支払い簿に20名の新作業員を追加しました。",
+      "level": 3
+    },
+    {
+      "headword": "pension",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpenʃn/",
+      "meaning": "年金；恩給",
+      "exampleEn": "Retired worker receives monthly state pension.",
+      "exampleJa": "退職した作業員は毎月公的年金を受け取ります。",
+      "level": 3
+    },
+    {
+      "headword": "perform",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈfɔːrm/",
+      "meaning": "を遂行する；を演じる",
+      "exampleEn": "Employee performed daily task perfectly.",
+      "exampleJa": "従業員は毎日のタスクを完璧に遂行しました。",
+      "level": 2
+    },
+    {
+      "headword": "performance",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈfɔːrməns/",
+      "meaning": "業績；成果；演奏",
+      "exampleEn": "High job performance rewarded with bonus.",
+      "exampleJa": "高い仕事の業績（パフォーマンス）はボーナスで報われました。",
+      "level": 2
+    },
+    {
+      "headword": "position",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈzɪʃn/",
+      "meaning": "職；役職；位置",
+      "exampleEn": "Apply for executive management position.",
+      "exampleJa": "上級管理職のポジションに応募しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "probation",
+      "partOfSpeech": "noun",
+      "phonetic": "/proʊˈbeɪʃn/",
+      "meaning": "試用期間；保護観察",
+      "exampleEn": "New hire serves three month probation period.",
+      "exampleJa": "新入社員は3ヶ月の試用期間を務めます。",
+      "level": 4
+    },
+    {
+      "headword": "promote",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈmoʊt/",
+      "meaning": "を昇進させる；を促進する",
+      "exampleEn": "She was promoted to senior manager position.",
+      "exampleJa": "彼女はシニアマネージャー職に昇進しました。",
+      "level": 2
+    },
+    {
+      "headword": "promotion",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈmoʊʃn/",
+      "meaning": "昇進；プロモーション",
+      "exampleEn": "He celebrated his career promotion with colleagues.",
+      "exampleJa": "彼は同僚と自身の昇進を祝いました。",
+      "level": 2
+    },
+    {
+      "headword": "qualified",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkwɑːlɪfaɪd/",
+      "meaning": "適格な；資格のある",
+      "exampleEn": "Hire highly qualified medical professional.",
+      "exampleJa": "非常に適格な医療専門家を雇用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "recruitment",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈkruːtmənt/",
+      "meaning": "採用活動；募集",
+      "exampleEn": "Recruitment drive starts next Monday morning.",
+      "exampleJa": "採用活動（リクルートメント）は来週月曜朝に始まります。",
+      "level": 3
+    },
+    {
+      "headword": "reference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrefrəns/",
+      "meaning": "身元照会先；参照",
+      "exampleEn": "Provide two professional references upon request.",
+      "exampleJa": "要望に応じて2名のプロフェッショナルな身元照会先を提示しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "remuneration",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌmjuːnəˈreɪʃn/",
+      "meaning": "給与；報酬",
+      "exampleEn": "Fair remuneration offered for technical skill.",
+      "exampleJa": "技術的スキルに対して公正な給与（報酬）が提供されました。",
+      "level": 4
+    },
+    {
+      "headword": "retire",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈtaɪər/",
+      "meaning": "退職する；引退する",
+      "exampleEn": "He retired after thirty years of service.",
+      "exampleJa": "彼は30年の勤続の後に定年退職しました。",
+      "level": 2
+    },
+    {
+      "headword": "retirement",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈtaɪərmənt/",
+      "meaning": "退職；引退",
+      "exampleEn": "Enjoy happy retirement party with coworkers.",
+      "exampleJa": "同僚たちと楽しい定年退職パーティーを楽しみなさい。",
+      "level": 2
+    },
+    {
+      "headword": "salary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsæləri/",
+      "meaning": "給料；月給",
+      "exampleEn": "Company pays competitive annual salary.",
+      "exampleJa": "会社は競争力のある年給（給料）を支払います。",
+      "level": 2
+    },
+    {
+      "headword": "severance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsevərəns/",
+      "meaning": "退職金；契約解除",
+      "exampleEn": "Worker received generous severance package pay.",
+      "exampleJa": "作業員は手厚い退職金手当を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "skill",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɪl/",
+      "meaning": "技能；スキル",
+      "exampleEn": "Improve computer typing skill for job.",
+      "exampleJa": "仕事のためにコンピュータータイピング技能を向上させなさい。",
+      "level": 2
+    },
+    {
+      "headword": "skilled",
+      "partOfSpeech": "adjective",
+      "phonetic": "/skɪld/",
+      "meaning": "熟練した；腕の良い",
+      "exampleEn": "Hire skilled technician for equipment repair.",
+      "exampleJa": "機器修理のために熟練した技術者を雇いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "staff",
+      "partOfSpeech": "noun",
+      "phonetic": "/stæf/",
+      "meaning": "職員；スタッフ",
+      "exampleEn": "Office staff attended customer service seminar.",
+      "exampleJa": "オフィス職員がカスタマーサービスセミナーに出席しました。",
+      "level": 2
+    },
+    {
+      "headword": "stipend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstaɪpend/",
+      "meaning": "奨学手当；定額給与",
+      "exampleEn": "Interns receive small monthly travel stipend.",
+      "exampleJa": "インターン生は毎月少額の通勤手当（手当）を受け取ります。",
+      "level": 4
+    },
+    {
+      "headword": "strike",
+      "partOfSpeech": "noun",
+      "phonetic": "/straɪk/",
+      "meaning": "ストライキ；同盟罷業",
+      "exampleEn": "Union went on strike for higher wages.",
+      "exampleJa": "組合は給与引き上げを求めてストライキに入りました。",
+      "level": 2
+    },
+    {
+      "headword": "subordinate",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈbɔːrdɪnət/",
+      "meaning": "部下",
+      "exampleEn": "Manager treats all subordinates fairly.",
+      "exampleJa": "マネージャーはすべての部下を公平に扱います。",
+      "level": 4
+    },
+    {
+      "headword": "talent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtælənt/",
+      "meaning": "才能；有能な人材",
+      "exampleEn": "Recruit top talent from leading universities.",
+      "exampleJa": "一流大学から最高のนี่（人材）を募集しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "temporary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌtempəˈreri/",
+      "meaning": "臨時雇いの；一時的な",
+      "exampleEn": "Hire temporary worker during peak period.",
+      "exampleJa": "繁忙期に臨時雇い作業員を雇いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "tenant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtenənt/",
+      "meaning": "借り手；テナント",
+      "exampleEn": "New office tenant signed lease agreement.",
+      "exampleJa": "新しいオフィステナントが賃貸契約に署名しました。",
+      "level": 3
+    },
+    {
+      "headword": "terminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtɜːrmɪneɪt/",
+      "meaning": "を解雇・終了する",
+      "exampleEn": "Firm terminated worker employment contract.",
+      "exampleJa": "企業は作業員の雇用契約を解除（解雇）しました。",
+      "level": 3
+    },
+    {
+      "headword": "termination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌtɜːrmɪˈneɪʃn/",
+      "meaning": "契約解除；解雇",
+      "exampleEn": "Notice of contract termination was delivered.",
+      "exampleJa": "契約解除通知が配送されました。",
+      "level": 3
+    },
+    {
+      "headword": "train",
+      "partOfSpeech": "verb",
+      "phonetic": "/treɪn/",
+      "meaning": "を訓練する；研修する",
+      "exampleEn": "Train new recruits in safety procedures.",
+      "exampleJa": "安全手順について新入社員を研修しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "trainee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌtreɪˈniː/",
+      "meaning": "研修生",
+      "exampleEn": "Management trainee shadow experienced senior manager.",
+      "exampleJa": "経営研修生は経験豊富なシニアマネージャーに同行します。",
+      "level": 3
+    },
+    {
+      "headword": "trainer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtreɪnər/",
+      "meaning": "指導者；トレーナー",
+      "exampleEn": "Certified corporate trainer led communication workshop.",
+      "exampleJa": "認定企業トレーナーがコミュニケーションワークショップを指導しました。",
+      "level": 2
+    },
+    {
+      "headword": "training",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtreɪnɪŋ/",
+      "meaning": "研修；訓練",
+      "exampleEn": "New employees undergo two week computer training.",
+      "exampleJa": "新入社員は2週間のコンピューター研修を受けます。",
+      "level": 2
+    },
+    {
+      "headword": "turnover",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrnoʊvər/",
+      "meaning": "離職率；売上高",
+      "exampleEn": "Company reduced annual staff turnover rate.",
+      "exampleJa": "会社は年間のスタッフ離職率を削減しました。",
+      "level": 3
+    },
+    {
+      "headword": "unemployed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌʌnɪmˈplɔɪd/",
+      "meaning": "失業中の",
+      "exampleEn": "Government provided support to unemployed workers.",
+      "exampleJa": "政府は失業中の作業員に支援を提供しました。",
+      "level": 2
+    },
+    {
+      "headword": "unemployment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌʌnɪmˈplɔɪmənt/",
+      "meaning": "失業；失業者数",
+      "exampleEn": "National unemployment rate dropped this year.",
+      "exampleJa": "全国の失業率が今年低下しました。",
+      "level": 2
+    },
+    {
+      "headword": "union",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːniən/",
+      "meaning": "労働組合；連合",
+      "exampleEn": "Labor union negotiated better working conditions.",
+      "exampleJa": "労働組合はより良い労働条件を交渉しました。",
+      "level": 2
+    },
+    {
+      "headword": "vacation",
+      "partOfSpeech": "noun",
+      "phonetic": "/veɪˈkeɪʃn/",
+      "meaning": "休暇",
+      "exampleEn": "Staff take paid annual summer vacation.",
+      "exampleJa": "スタッフは有給の年間夏季休暇を取ります。",
+      "level": 2
+    },
+    {
+      "headword": "wage",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪdʒ/",
+      "meaning": "賃金；時給",
+      "exampleEn": "Minimum wage increased by fifty cents.",
+      "exampleJa": "最低賃金（時給）が50セント上昇しました。",
+      "level": 2
+    },
+    {
+      "headword": "workforce",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːrkfɔːrs/",
+      "meaning": "全従業員；労働力",
+      "exampleEn": "Diverse workforce drives company innovation.",
+      "exampleJa": "多様な労働力が会社のイノベーションを推進します。",
+      "level": 3
+    },
+    {
+      "headword": "workplace",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːrkpleɪs/",
+      "meaning": "職場",
+      "exampleEn": "Maintain safe and clean office workplace.",
+      "exampleJa": "安全で清潔なオフィスの職場環境を維持しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "workshop",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːrkʃɑːp/",
+      "meaning": "研修会；ワークショップ",
+      "exampleEn": "Attend leadership workshop next Friday afternoon.",
+      "exampleJa": "来週金曜午後のリーダーシップ研修会（ワークショップ）に参加しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "paperclip",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪpərklɪp/",
+      "meaning": "ゼムクリップ",
+      "exampleEn": "Keep paperclips in desktop container drawer.",
+      "exampleJa": "机の引き出しにゼムクリップを保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "handout",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhændaʊt/",
+      "meaning": "配布資料；プリント",
+      "exampleEn": "Distribute presentation slide handout copies.",
+      "exampleJa": "プレゼンスライドの配布資料コピーを配りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "retiree",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌtaɪəˈriː/",
+      "meaning": "定年退職者",
+      "exampleEn": "Company invited retirees to annual party.",
+      "exampleJa": "会社は定年退職者を年次パーティーに招待しました。",
+      "level": 3
+    },
+    {
+      "headword": "commercials",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmɜːrʃlz/",
+      "meaning": "CM集；広告動画",
+      "exampleEn": "Watch popular sports TV commercials online.",
+      "exampleJa": "オンラインで人気のスポーツテレビCM集を見なさい。",
+      "level": 2
+    },
+    {
+      "headword": "junction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒʌŋkʃn/",
+      "meaning": "ジャンクション；接続点",
+      "exampleEn": "Turn left at main highway traffic junction.",
+      "exampleJa": "主要な高速道路交通ジャンクションで左折しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "motel",
+      "partOfSpeech": "noun",
+      "phonetic": "/moʊˈtel/",
+      "meaning": "モーテル；自動車客向け宿",
+      "exampleEn": "Stay overnight at budget highway motel.",
+      "exampleJa": "格安の高速道路モーテルに一晩滞在しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "stringent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈstrɪndʒənt/",
+      "meaning": "厳格な；厳しい",
+      "exampleEn": "Enforce stringent factory environmental pollution regulations.",
+      "exampleJa": "工場の厳格な環境汚染規制を施行しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "in the event of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "万一〜の場合には",
+      "exampleEn": "Press red button in the event of emergency.",
+      "exampleJa": "万一緊急事態の場合には赤いボタンを押しちなさい。",
+      "level": 3
+    }
+  ]
+}

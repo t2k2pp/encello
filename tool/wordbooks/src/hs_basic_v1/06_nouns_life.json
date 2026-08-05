@@ -259,8 +259,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/əˈkɔːrdɪŋ/",
       "meaning": "〜に従って（according to）",
-      "exampleEn": "According to news, it will rain.",
-      "exampleJa": "ニュースによると雨が降るそうです。",
+      "exampleEn": "According to the forecast, it will rain today.",
+      "exampleJa": "予報によると、今日は雨が降るそうです。",
       "level": 2
     },
     {
@@ -322,8 +322,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ænˈtɪsɪpeɪt/",
       "meaning": "を予期する；を期待する",
-      "exampleEn": "Anticipate market sales growth change.",
-      "exampleJa": "市場売上成長の変化を予期しなさい。",
+      "exampleEn": "We anticipate strong growth in sales.",
+      "exampleJa": "私たちは売上の大きな成長を予期しています。",
       "level": 2
     },
     {
@@ -349,8 +349,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrkaɪv/",
       "meaning": "記録保管所；アーカイブ",
-      "exampleEn": "Store old document historical file archive.",
-      "exampleJa": "古い文書の歴史的ファイル記録保管所を保存しなさい。",
+      "exampleEn": "We store old documents in the archive.",
+      "exampleJa": "私たちは古い文書を記録保管所に保存します。",
       "level": 2
     },
     {
@@ -376,8 +376,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈsaɪnmənt/",
       "meaning": "課題；宿題；割り当て",
-      "exampleEn": "Finish school homework assignment tonight.",
-      "exampleJa": "今夜学校の宿題課題を終わらせなさい。",
+      "exampleEn": "Please finish your assignment tonight.",
+      "exampleJa": "今夜、宿題を終わらせてください。",
       "level": 2
     },
     {
@@ -394,8 +394,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈtrækʃn/",
       "meaning": "魅力；見どころ；アトラクション",
-      "exampleEn": "Visit famous city tourist travel attraction.",
-      "exampleJa": "有名な都市の観光旅行アトラクションを訪問しなさい。",
+      "exampleEn": "We visited a famous tourist attraction.",
+      "exampleJa": "私たちは有名な観光名所を訪れました。",
       "level": 2
     },
     {
@@ -403,8 +403,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːtoʊ/",
       "meaning": "自動車",
-      "exampleEn": "Visit auto motor car industry show.",
-      "exampleJa": "自動車モータースポーツ産業ショーを訪問しなさい。",
+      "exampleEn": "We visited the auto industry show.",
+      "exampleJa": "私たちは自動車産業ショーを訪れました。",
       "level": 2
     },
     {
@@ -412,8 +412,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈwɔːrd/",
       "meaning": "賞；授与する",
-      "exampleEn": "He won first prize honor award.",
-      "exampleJa": "彼は1等賞の名誉の賞を獲得しました。",
+      "exampleEn": "He won the first prize award.",
+      "exampleJa": "彼は1等賞を獲得しました。",
       "level": 2
     },
     {
@@ -430,8 +430,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɔːl/",
       "meaning": "ボール；球；舞踏会",
-      "exampleEn": "Kick soccer leather ball field.",
-      "exampleJa": "グラウンドでサッカー革ボールを蹴りなさい。",
+      "exampleEn": "He kicked the soccer ball across the field.",
+      "exampleJa": "彼はサッカーボールをグラウンドの向こうへ蹴りました。",
       "level": 2
     },
     {
@@ -439,8 +439,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbænər/",
       "meaning": "横断幕；バナー",
-      "exampleEn": "Hang large welcome party web banner.",
-      "exampleJa": "大きな歓迎パーティーウェブ横断幕を掲げなさい。",
+      "exampleEn": "They hung a large welcome banner.",
+      "exampleJa": "彼らは大きな歓迎の横断幕を掲げました。",
       "level": 2
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbɪtər/",
       "meaning": "苦い；辛辣な；つらい",
-      "exampleEn": "Coffee without sugar tastes dark bitter.",
-      "exampleJa": "砂糖なしのコーヒーは濃く苦い味がします。",
+      "exampleEn": "Coffee without sugar tastes very bitter.",
+      "exampleJa": "砂糖なしのコーヒーはとても苦い味がします。",
       "level": 2
     },
     {
@@ -502,7 +502,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/blaɪnd/",
       "meaning": "盲目の；目の見えない",
-      "exampleEn": "Help blind people cross street safely.",
+      "exampleEn": "Help blind people cross the street safely.",
       "exampleJa": "目の見えない人々が安全に通りを横切るのを助けなさい。",
       "level": 2
     },
@@ -520,8 +520,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/buːt/",
       "meaning": "ブーツ；長靴；トランク",
-      "exampleEn": "Wear warm leather winter snow boots.",
-      "exampleJa": "温かい革の冬雪ブーツを着用しなさい。",
+      "exampleEn": "Wear warm leather boots in winter.",
+      "exampleJa": "冬には温かい革のブーツを履きなさい。",
       "level": 2
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbreɪvəri/",
       "meaning": "勇敢さ；勇気",
-      "exampleEn": "Reward officer for brave rescue bravery.",
-      "exampleJa": "勇敢な救助の勇敢さについて警官を表彰しなさい。",
+      "exampleEn": "The officer was rewarded for his bravery.",
+      "exampleJa": "その警官は勇敢さを称えられました。",
       "level": 2
     },
     {
@@ -547,8 +547,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/braɪb/",
       "meaning": "に賄賂を贈る；賄賂",
-      "exampleEn": "Criminal tried to bribe police officer.",
-      "exampleJa": "犯罪者が警察官に賄賂を贈ろうと試みました。",
+      "exampleEn": "The criminal tried to bribe a police officer.",
+      "exampleJa": "その犯罪者は警察官に賄賂を贈ろうとしました。",
       "level": 2
     },
     {
@@ -574,8 +574,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊlətɪn/",
       "meaning": "掲示；会報；速報",
-      "exampleEn": "Read news bulletin update notice board.",
-      "exampleJa": "掲示板のニュース速報の更新を読みなさい。",
+      "exampleEn": "Read the latest bulletin on the notice board.",
+      "exampleJa": "掲示板の最新の会報を読みなさい。",
       "level": 2
     },
     {
@@ -583,8 +583,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈberi/",
       "meaning": "を埋める；埋葬する",
-      "exampleEn": "Bury secret treasure chest deep ground.",
-      "exampleJa": "地面深く秘密の宝箱を埋めなさい。",
+      "exampleEn": "They buried the treasure chest deep in the ground.",
+      "exampleJa": "彼らは宝箱を地面深くに埋めました。",
       "level": 2
     },
     {

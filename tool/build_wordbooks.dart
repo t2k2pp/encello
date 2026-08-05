@@ -18,7 +18,14 @@ import 'wordbook_validator.dart';
 
 /// 同梱する単語帳のソース。ディレクトリ走査にしない
 /// （`SeedImporter.assetPaths` と同じ理由。列挙漏れは投入されないことで気付ける）。
-const _books = <String>['jhs_v1'];
+const _books = <String>[
+  'jhs_v1',
+  'hs_basic_v1',
+  'hs_advanced_v1',
+  'eiken_pre2_v1',
+  'eiken_2_v1',
+  'toeic_basic_v1',
+];
 
 const _srcRoot = 'tool/wordbooks/src';
 const _assetRoot = 'assets/wordbooks';

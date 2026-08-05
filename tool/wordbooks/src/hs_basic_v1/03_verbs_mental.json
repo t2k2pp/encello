@@ -385,8 +385,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪliən/",
       "meaning": "外国人；宇宙人；異質な",
-      "exampleEn": "Story about visitor space alien landing.",
-      "exampleJa": "宇宙人の着陸の訪問者の物語。",
+      "exampleEn": "A space alien landed near the town.",
+      "exampleJa": "宇宙人が町の近くに着陸しました。",
       "level": 2
     },
     {
@@ -421,7 +421,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡwɪʃ/",
       "meaning": "苦悩；苦痛",
-      "exampleEn": "She felt mental anguish after loss.",
+      "exampleEn": "She felt mental anguish after her loss.",
       "exampleJa": "彼女は喪失の後精神的苦悩を感じました。",
       "level": 2
     },
@@ -430,8 +430,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈænsər/",
       "meaning": "答え；返答；に答える",
-      "exampleEn": "Give correct answer to test question.",
-      "exampleJa": "テストの質問に正しい答えを与えなさい。",
+      "exampleEn": "Give the correct answer to this question.",
+      "exampleJa": "この質問に正しい答えを出しなさい。",
       "level": 2
     },
     {
@@ -448,8 +448,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌæplɪˈkeɪʃn/",
       "meaning": "申請；応用；アプリ",
-      "exampleEn": "Fill out job work application form.",
-      "exampleJa": "仕事作業申請用紙に記入しなさい。",
+      "exampleEn": "Please fill out the job application form.",
+      "exampleJa": "求人応募用紙に記入してください。",
       "level": 2
     },
     {
@@ -475,7 +475,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɑːrˈtɪstɪk/",
       "meaning": "芸術的な；美の",
-      "exampleEn": "She showed great artistic skill talent.",
+      "exampleEn": "She showed great artistic talent.",
       "exampleJa": "彼女は素晴らしい芸術的スキル才能を示しました。",
       "level": 2
     },
@@ -484,8 +484,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈsesmənt/",
       "meaning": "評価；査定",
-      "exampleEn": "Conduct annual work performance assessment.",
-      "exampleJa": "年次の作業実績評価を実施しなさい。",
+      "exampleEn": "We conduct an annual performance assessment.",
+      "exampleJa": "私たちは毎年、業務評価を実施します。",
       "level": 2
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈstrɑːnəmi/",
       "meaning": "天文学",
-      "exampleEn": "Study stars planets space astronomy science.",
-      "exampleJa": "星や惑星の宇宙天文学科学を学びなさい。",
+      "exampleEn": "She wants to study astronomy in college.",
+      "exampleJa": "彼女は大学で天文学を学びたいと思っています。",
       "level": 2
     },
     {
@@ -511,8 +511,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈvɔɪdəns/",
       "meaning": "回避；防止",
-      "exampleEn": "Focus on conflict risk avoidance safety.",
-      "exampleJa": "対立リスクの回避安全に集中しなさい。",
+      "exampleEn": "Focus on conflict avoidance for safety.",
+      "exampleJa": "安全のために対立の回避に集中しなさい。",
       "level": 2
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæŋkɪŋ/",
       "meaning": "銀行業務；金融",
-      "exampleEn": "Use online digital mobile phone banking.",
-      "exampleJa": "オンラインデジタル携帯電話の銀行業務を利用しなさい。",
+      "exampleEn": "Many people use mobile phone banking now.",
+      "exampleJa": "多くの人が今、携帯電話での銀行取引を利用しています。",
       "level": 2
     },
     {
@@ -547,8 +547,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbeɪsbɔːl/",
       "meaning": "野球",
-      "exampleEn": "Play sports team game baseball match.",
-      "exampleJa": "スポーツチームゲーム野球試合をしなさい。",
+      "exampleEn": "We played a baseball match after school.",
+      "exampleJa": "私たちは放課後、野球の試合をしました。",
       "level": 2
     },
     {
@@ -556,8 +556,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/biːtʃ/",
       "meaning": "浜辺；ビーチ",
-      "exampleEn": "Walk along sunny ocean sea beach sand.",
-      "exampleJa": "日当たりの良い海洋の海の浜辺の砂を歩きなさい。",
+      "exampleEn": "We walked along the sunny beach.",
+      "exampleJa": "私たちは晴れた浜辺を歩きました。",
       "level": 2
     },
     {
@@ -565,8 +565,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/biːf/",
       "meaning": "牛肉",
-      "exampleEn": "Eat fresh roasted meat food beef.",
-      "exampleJa": "新鮮なロースト肉料理牛肉を食べなさい。",
+      "exampleEn": "We ate fresh roasted beef for dinner.",
+      "exampleJa": "私たちは夕食に新鮮なローストビーフを食べました。",
       "level": 2
     },
     {
@@ -601,8 +601,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/baɪˈɑːlədʒi/",
       "meaning": "生物学",
-      "exampleEn": "Learn natural science environment plant biology.",
-      "exampleJa": "自然科学環境植物の生物学を学びなさい。",
+      "exampleEn": "He is studying plant biology at university.",
+      "exampleJa": "彼は大学で植物生物学を学んでいます。",
       "level": 2
     },
     {
@@ -610,7 +610,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/blend/",
       "meaning": "を混ぜ合わせる；調和する",
-      "exampleEn": "Blend tea leaves for rich taste flavor.",
+      "exampleEn": "Blend the tea leaves for a rich flavor.",
       "exampleJa": "豊かな味わいのために茶葉を混ぜ合わせなさい。",
       "level": 2
     },
@@ -628,8 +628,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊkstɔːr/",
       "meaning": "書店；本屋",
-      "exampleEn": "Buy new English text book local bookstore.",
-      "exampleJa": "地元の書店で新しい英語の教科書を購入しなさい。",
+      "exampleEn": "I bought a new textbook at the bookstore.",
+      "exampleJa": "私は書店で新しい教科書を買いました。",
       "level": 2
     },
     {
@@ -637,7 +637,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːtl/",
       "meaning": "ボトル；瓶",
-      "exampleEn": "Drink clear water from glass bottle.",
+      "exampleEn": "Drink clear water from a glass bottle.",
       "exampleJa": "ガラスの瓶から綺麗なお水を飲みなさい。",
       "level": 2
     },
@@ -646,8 +646,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/brænd/",
       "meaning": "ブランド；銘柄；商標",
-      "exampleEn": "Buy famous fashion clothes brand item.",
-      "exampleJa": "有名なファッション衣服ブランドの商品を購入しなさい。",
+      "exampleEn": "She bought clothes from a famous brand.",
+      "exampleJa": "彼女は有名ブランドの服を買いました。",
       "level": 2
     },
     {
@@ -655,8 +655,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/briːd/",
       "meaning": "を繁殖させる；品種",
-      "exampleEn": "Farmers breed strong farm cattle animals.",
-      "exampleJa": "農民たちが強固な農場牛の動物を繁殖させます。",
+      "exampleEn": "Farmers breed strong cattle on the farm.",
+      "exampleJa": "農家は農場で丈夫な牛を繁殖させます。",
       "level": 2
     },
     {
@@ -682,8 +682,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bʌlk/",
       "meaning": "大部分；大量；かさ",
-      "exampleEn": "Buy food items in cheap bulk quantity.",
-      "exampleJa": "安価な大量数量で食品を購入しなさい。",
+      "exampleEn": "We buy food in bulk to save money.",
+      "exampleJa": "私たちは節約のため食品をまとめ買いします。",
       "level": 2
     },
     {
@@ -691,8 +691,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈberiəl/",
       "meaning": "埋葬；葬式",
-      "exampleEn": "Attend family funeral burial service site.",
-      "exampleJa": "家族の葬儀埋葬サービスサイトに出席しなさい。",
+      "exampleEn": "We attended my grandfather's burial service.",
+      "exampleJa": "私たちは祖父の埋葬式に参列しました。",
       "level": 2
     },
     {
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌtn/",
       "meaning": "ボタン",
-      "exampleEn": "Press red start machine button hand.",
-      "exampleJa": "手で機械の赤いスタートボタンを押しなさい。",
+      "exampleEn": "Press the red button to start the machine.",
+      "exampleJa": "機械を起動するために赤いボタンを押しなさい。",
       "level": 2
     }
   ]

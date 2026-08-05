@@ -1,0 +1,28 @@
+{
+  "presetId": "hs_advanced_v1",
+  "name": "高校英単語 応用",
+  "emoji": "🏛️",
+  "category": "highSchool",
+  "colorSeed": 3,
+  "seedVersion": 1,
+  "bandSize": 1300,
+  "sortOrder": 30,
+  "note": "難関大学入試に対応する高度な語彙",
+  "levelRange": [3, 5],
+  "chunks": [
+    "00_core_advanced",
+    "01_verbs_cognition",
+    "02_verbs_action_change",
+    "03_verbs_social_politics",
+    "04_nouns_society_law",
+    "05_nouns_economy_finance",
+    "06_nouns_science_tech",
+    "07_nouns_culture_arts",
+    "08_nouns_abstract_mind",
+    "09_adjectives_eval_mind",
+    "10_adjectives_state_nature",
+    "11_adverbs_idioms",
+    "12_super_advanced_verbs",
+    "13_super_advanced_nouns"
+  ]
+}

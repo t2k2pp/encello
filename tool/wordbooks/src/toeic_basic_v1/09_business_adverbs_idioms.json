@@ -1,0 +1,870 @@
+{
+  "chunk": "09_business_adverbs_idioms",
+  "note": "ビジネス文章・Part 5/6/7で頻出する副詞・修飾語 (90語)",
+  "words": [
+    {
+      "headword": "approximately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈprɑːksɪmətli/",
+      "meaning": "およそ；約",
+      "exampleEn": "Project will take approximately three months.",
+      "exampleJa": "プロジェクトはおよそ（約）3ヶ月かかります。",
+      "level": 2
+    },
+    {
+      "headword": "currently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɜːrəntli/",
+      "meaning": "現在は；目下",
+      "exampleEn": "Manager currently out of office.",
+      "exampleJa": "マネージャーは目下オフィスを不在にしています。",
+      "level": 2
+    },
+    {
+      "headword": "formerly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfɔːrmərli/",
+      "meaning": "以前は；かつては",
+      "exampleEn": "Building was formerly a bank branch.",
+      "exampleJa": "建物を以前は銀行の支店でした。",
+      "level": 3
+    },
+    {
+      "headword": "promptly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈprɑːmptli/",
+      "meaning": "即座に；速やかに",
+      "exampleEn": "Please respond promptly to email inquiry.",
+      "exampleJa": "メールでの問い合わせには速やかに返答しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "significantly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/sɪɡˈnɪfɪkəntli/",
+      "meaning": "著しく；大幅に",
+      "exampleEn": "Sales grew significantly this quarter.",
+      "exampleJa": "今四半期、売上が大幅に増加しました。",
+      "level": 3
+    },
+    {
+      "headword": "temporarily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌtempəˈrerəli/",
+      "meaning": "一時的に",
+      "exampleEn": "Store closed temporarily for renovation.",
+      "exampleJa": "店舗は改装のため一時的に休業しています。",
+      "level": 2
+    },
+    {
+      "headword": "absolutely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌæbsəˈluːtli/",
+      "meaning": "絶対に；完全に",
+      "exampleEn": "Quality control is absolutely essential.",
+      "exampleJa": "品質管理は絶対に不可欠です。",
+      "level": 2
+    },
+    {
+      "headword": "accordingly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈkɔːrdɪŋli/",
+      "meaning": "それに応じて；したがって",
+      "exampleEn": "Rules changed; adjust behavior accordingly.",
+      "exampleJa": "規則が変更されました。それに応じて行動を調整しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "actively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈæktɪvli/",
+      "meaning": "積極的に；活発に",
+      "exampleEn": "Firm actively recruits talented university graduates.",
+      "exampleJa": "企業は優秀な大学卒業生を積極的に募集しています。",
+      "level": 2
+    },
+    {
+      "headword": "actually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈækʧuəli/",
+      "meaning": "実際は；本当は",
+      "exampleEn": "Cost was actually lower than estimated.",
+      "exampleJa": "費用は実際には見積もりより低かったです。",
+      "level": 2
+    },
+    {
+      "headword": "additionally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈdɪʃənəli/",
+      "meaning": "さらに；加えて",
+      "exampleEn": "Additionally company offers free health coverage.",
+      "exampleJa": "さらに会社は無料の健康保険補償を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "adequately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈædɪkwətli/",
+      "meaning": "十分に適正に",
+      "exampleEn": "Staff prepared adequately for emergency drill.",
+      "exampleJa": "スタッフは緊急避難訓練のために十分に適正に準備しました。",
+      "level": 3
+    },
+    {
+      "headword": "adversely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ædˈvɜːrsli/",
+      "meaning": "不利に；悪影響を及ぼして",
+      "exampleEn": "Weather adversely affected flight schedule.",
+      "exampleJa": "天候がフライトスケジュールに悪影響を及ぼしました（不利に作用しました）。",
+      "level": 4
+    },
+    {
+      "headword": "already",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɔːlˈredi/",
+      "meaning": "すでに；もう",
+      "exampleEn": "Payment already received by accounting desk.",
+      "exampleJa": "支払いは経理デスクにすでに受領されました。",
+      "level": 2
+    },
+    {
+      "headword": "altogether",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌɔːltəˈɡeðər/",
+      "meaning": "全部で；完全に",
+      "exampleEn": "Project cost ten thousand dollars altogether.",
+      "exampleJa": "プロジェクト費用は全部で1万ドルかかりました。",
+      "level": 2
+    },
+    {
+      "headword": "annualy",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈænjuəli/",
+      "meaning": "年一回；毎年",
+      "exampleEn": "Board meets annually to review budget.",
+      "exampleJa": "取締役会は予算を確認するために毎年開催されます。",
+      "level": 2
+    },
+    {
+      "headword": "apparently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈpærəntli/",
+      "meaning": "見たところ；どうやら",
+      "exampleEn": "Apparently project approval delayed until Monday.",
+      "exampleJa": "どうやらプロジェクトの承認は月曜まで遅れたようです。",
+      "level": 2
+    },
+    {
+      "headword": "automatically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌɔːtəˈmætɪkli/",
+      "meaning": "自動的に",
+      "exampleEn": "System renews monthly subscription automatically.",
+      "exampleJa": "システムは毎月のサブスクリプションを自動的に更新します。",
+      "level": 2
+    },
+    {
+      "headword": "briefly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈbriːfli/",
+      "meaning": "手短に；短時間",
+      "exampleEn": "Speaker spoke briefly on current status.",
+      "exampleJa": "発表者は現状について手短に話しました。",
+      "level": 2
+    },
+    {
+      "headword": "broadly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈbrɔːdli/",
+      "meaning": "大まかに；広く",
+      "exampleEn": "Plan broadly accepted by board members.",
+      "exampleJa": "計画は取締役会メンバーによって広く（大まかに）受け入れられました。",
+      "level": 3
+    },
+    {
+      "headword": "carefully",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkerfəli/",
+      "meaning": "注意深く；慎重に",
+      "exampleEn": "Read contract terms carefully before signature.",
+      "exampleJa": "署名前に契約条件を注意深く読みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "clearly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈklɪrli/",
+      "meaning": "明確に；明瞭に",
+      "exampleEn": "State job requirements clearly in ad.",
+      "exampleJa": "求人広告に求人要件を明確に記述しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "closely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkloʊsli/",
+      "meaning": "密接に；綿密に",
+      "exampleEn": "Work closely with regional sales partners.",
+      "exampleJa": "地域の営業パートナーと綿密に協力しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "commonly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɑːmənli/",
+      "meaning": "一般に；普通に",
+      "exampleEn": "Software commonly used in accounting offices.",
+      "exampleJa": "ソフトウェアは会計事務所で一般に使用されています。",
+      "level": 2
+    },
+    {
+      "headword": "comparatively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kəmˈpærətɪvli/",
+      "meaning": "比較的；対比して",
+      "exampleEn": "Price is comparatively cheap for quality.",
+      "exampleJa": "品質に対して価格は比較的安価です。",
+      "level": 3
+    },
+    {
+      "headword": "completely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kəmˈpliːtli/",
+      "meaning": "完全に；すっかり",
+      "exampleEn": "Fill out registration form completely today.",
+      "exampleJa": "今日登録用紙を完全に記入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "consequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɑːnsɪkwentli/",
+      "meaning": "その結果；したがって",
+      "exampleEn": "Cost increased; consequently prices rose.",
+      "exampleJa": "費用が増加しました。その結果価格が上がりました。",
+      "level": 3
+    },
+    {
+      "headword": "consistently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kənˈsɪstəntli/",
+      "meaning": "常に；一貫して",
+      "exampleEn": "Firm delivers consistently high quality product.",
+      "exampleJa": "企業は一貫して高い品質の製品を配送しています。",
+      "level": 3
+    },
+    {
+      "headword": "constantly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɑːnstəntli/",
+      "meaning": "絶えず；常に",
+      "exampleEn": "Market changes constantly every single month.",
+      "exampleJa": "市場は毎月絶えず変化しています。",
+      "level": 2
+    },
+    {
+      "headword": "conveniently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kənˈviːniəntli/",
+      "meaning": "便利に；好都合に",
+      "exampleEn": "Office conveniently located near train station.",
+      "exampleJa": "オフィスは駅の近くに便利に位置しています。",
+      "level": 2
+    },
+    {
+      "headword": "definitely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdefɪnətli/",
+      "meaning": "明確に；確実に",
+      "exampleEn": "We will definitely meet quarterly goal.",
+      "exampleJa": "私たちは確実に四半期目標を達成します。",
+      "level": 2
+    },
+    {
+      "headword": "deliberately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/dɪˈlɪbərətli/",
+      "meaning": "故意に；慎重に",
+      "exampleEn": "Manager chose words deliberately during negotiation.",
+      "exampleJa": "マネージャーは交渉中に言葉を慎重に選びました。",
+      "level": 3
+    },
+    {
+      "headword": "directly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/dəˈrektli/",
+      "meaning": "直接に；直ちに",
+      "exampleEn": "Contact department head directly for permission.",
+      "exampleJa": "許可について部署の長に直接連絡しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "dramatically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/drəˈmætɪkli/",
+      "meaning": "劇的に；飛躍的に",
+      "exampleEn": "Sales grew dramatically after advertising launch.",
+      "exampleJa": "広告発売後、売上が飛躍的に伸びました。",
+      "level": 2
+    },
+    {
+      "headword": "eagerly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːɡərli/",
+      "meaning": "切望して；熱心に",
+      "exampleEn": "Customers eagerly awaited new product release.",
+      "exampleJa": "顧客たちは新製品の発売を切望して待っていました。",
+      "level": 2
+    },
+    {
+      "headword": "easily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːzəli/",
+      "meaning": "容易に；簡単に",
+      "exampleEn": "Users can easily navigate website layout.",
+      "exampleJa": "ユーザーは簡単にウェブサイトレイアウトを閲覧できます。",
+      "level": 2
+    },
+    {
+      "headword": "effectively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈfektɪvli/",
+      "meaning": "効果的に；事実上",
+      "exampleEn": "Use marketing budget effectively for sales.",
+      "exampleJa": "売上のためにマーケティング予算を効果的に使いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "equally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːkwəli/",
+      "meaning": "平等に；同様に",
+      "exampleEn": "Divide profit equally among team members.",
+      "exampleJa": "チームメンバー間で利益を平等に分けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "especially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈspeʃəli/",
+      "meaning": "特に；とりわけ",
+      "exampleEn": "Demand high especially during holiday season.",
+      "exampleJa": "特に休日シーズン中、需要が高くなります。",
+      "level": 2
+    },
+    {
+      "headword": "eventually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈventʃuəli/",
+      "meaning": "最終的には；結局は",
+      "exampleEn": "Firm eventually expanded into foreign market.",
+      "exampleJa": "企業は最終的には海外市場へ進出しました。",
+      "level": 2
+    },
+    {
+      "headword": "exactly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪɡˈzæktli/",
+      "meaning": "正確に；まさに",
+      "exampleEn": "Meeting started at exactly nine AM.",
+      "exampleJa": "会議はちょうど（正確に）午前9時に始まりました。",
+      "level": 2
+    },
+    {
+      "headword": "exclusively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈskluːsɪvli/",
+      "meaning": "独占的に；〜専用に",
+      "exampleEn": "Products sold exclusively online at store.",
+      "exampleJa": "製品は店舗でオンライン専用に（独占的に）販売されています。",
+      "level": 3
+    },
+    {
+      "headword": "explicitly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈsplɪsɪtli/",
+      "meaning": "明白に；はっきりと",
+      "exampleEn": "Contract states rules explicitly in text.",
+      "exampleJa": "契約書はテキストで明確に規則を記述しています。",
+      "level": 3
+    },
+    {
+      "headword": "extensively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈstensɪvli/",
+      "meaning": "広範囲に；大々的に",
+      "exampleEn": "Test software extensively before public launch.",
+      "exampleJa": "公開の前にソフトウェアを大々的に（広範囲に）テストしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "extremely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈstriːmli/",
+      "meaning": "極めて；非常に",
+      "exampleEn": "Product feedback was extremely positive overall.",
+      "exampleJa": "製品フィードバックは全体として極めて良好でした。",
+      "level": 2
+    },
+    {
+      "headword": "favorably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfeɪvərəbli/",
+      "meaning": "好意的に；好条件で",
+      "exampleEn": "Client reacted favorably to new proposal.",
+      "exampleJa": "顧客は新しい提案に好意的に反応しました。",
+      "level": 3
+    },
+    {
+      "headword": "finally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfaɪnəli/",
+      "meaning": "ついに；最後に",
+      "exampleEn": "Board finally reached consensus decision today.",
+      "exampleJa": "取締役会は今日ついに合意の決定に達しました。",
+      "level": 2
+    },
+    {
+      "headword": "financially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/faɪˈnænʃəli/",
+      "meaning": "財政的に；金銭面で",
+      "exampleEn": "Firm is financially stable and strong.",
+      "exampleJa": "企業は金銭面で（財政的に）安定しており強固です。",
+      "level": 2
+    },
+    {
+      "headword": "flexibly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfleksəbli/",
+      "meaning": "柔軟に",
+      "exampleEn": "Respond flexibly to client schedule request.",
+      "exampleJa": "顧客のスケジュール要望に柔軟に対応しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "formally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfɔːrməli/",
+      "meaning": "正式に；公式に",
+      "exampleEn": "Director formally announced resignation this morning.",
+      "exampleJa": "ディレクターは今朝正式に辞任を発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "frequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfriːkwəntli/",
+      "meaning": "頻繁に；しばしば",
+      "exampleEn": "Update system software frequently for security.",
+      "exampleJa": "セキュリティのために頻繁にシステムソフトウェアを更新しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "fully",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfʊli/",
+      "meaning": "完全に；充分に",
+      "exampleEn": "We fully support new green policy.",
+      "exampleJa": "私たちは新しい環境方針を完全に支持します。",
+      "level": 2
+    },
+    {
+      "headword": "furthermore",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌfɜːrdərˈmɔːr/",
+      "meaning": "さらに；その上",
+      "exampleEn": "Price is low; furthermore quality high.",
+      "exampleJa": "価格が低いです。さらに品質が高いです。",
+      "level": 2
+    },
+    {
+      "headword": "gradually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɡrædʒuəli/",
+      "meaning": "徐々に；段階的に",
+      "exampleEn": "Sales increased gradually over six months.",
+      "exampleJa": "売上は6ヶ月にわたって徐々に増加しました。",
+      "level": 2
+    },
+    {
+      "headword": "greatly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɡreɪtli/",
+      "meaning": "大いに；非常に",
+      "exampleEn": "We greatly appreciate your technical support.",
+      "exampleJa": "あなたの技術サポートに大いに感謝いたします。",
+      "level": 2
+    },
+    {
+      "headword": "hardly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈhɑːrdli/",
+      "meaning": "ほとんど〜ない",
+      "exampleEn": "There was hardly any delay during transport.",
+      "exampleJa": "輸送中の遅延はほとんどありませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "highly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈhaɪli/",
+      "meaning": "非常に；大いに",
+      "exampleEn": "Consultant is highly recommended by experts.",
+      "exampleJa": "コンサルタントは専門家から非常に推薦されています。",
+      "level": 2
+    },
+    {
+      "headword": "immediately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈmiːdiətli/",
+      "meaning": "直ちに；即座に",
+      "exampleEn": "Report equipment malfunction immediately to manager.",
+      "exampleJa": "機器の誤作動をマネージャーに直ちに報告しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "increasingly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈkriːsɪŋli/",
+      "meaning": "ますます；いよいよ",
+      "exampleEn": "Online shopping becomes increasingly popular globally.",
+      "exampleJa": "オンラインショッピングは世界的にますます人気になっています。",
+      "level": 2
+    },
+    {
+      "headword": "indefinitely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈdefɪnətli/",
+      "meaning": "無期限に",
+      "exampleEn": "Meeting postponed indefinitely until further notice.",
+      "exampleJa": "追って通知があるまで会議は無期限に延期されました。",
+      "level": 3
+    },
+    {
+      "headword": "indirectly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌɪndəˈrektli/",
+      "meaning": "間接的に",
+      "exampleEn": "Ad campaign indirectly boosted online web traffic.",
+      "exampleJa": "広告キャンペーンは間接的にウェブトラフィックを増加させました。",
+      "level": 2
+    },
+    {
+      "headword": "inevitably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈevɪtəbli/",
+      "meaning": "必然的に；やむを得ず",
+      "exampleEn": "Costs inevitably rise during high inflation.",
+      "exampleJa": "高いインフレ下では費用は必然的に上昇します。",
+      "level": 3
+    },
+    {
+      "headword": "initially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈnɪʃəli/",
+      "meaning": "当初は；はじめに",
+      "exampleEn": "Project was initially budget low cost.",
+      "exampleJa": "プロジェクトは当初は低費用の予算でした。",
+      "level": 2
+    },
+    {
+      "headword": "instantly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɪnstəntli/",
+      "meaning": "即座に；瞬時に",
+      "exampleEn": "System sends email confirmation code instantly.",
+      "exampleJa": "システムは即座に確認コードメールを送信します。",
+      "level": 2
+    },
+    {
+      "headword": "intensely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈtensli/",
+      "meaning": "強烈に；激しく",
+      "exampleEn": "Firms compete intensely for market share.",
+      "exampleJa": "企業は市場シェアを巡って激しく競合しています。",
+      "level": 3
+    },
+    {
+      "headword": "intentionally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈtenʃənəli/",
+      "meaning": "意図的に；わざと",
+      "exampleEn": "Prices set low intentionally to gain market.",
+      "exampleJa": "市場を獲得するために価格が意図的に低く設定されました。",
+      "level": 2
+    },
+    {
+      "headword": "largely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈlɑːrdʒli/",
+      "meaning": "主に；大部分は",
+      "exampleEn": "Success was largely due to teamwork.",
+      "exampleJa": "成功は主にチームワークのおかげでした。",
+      "level": 2
+    },
+    {
+      "headword": "manually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmænjuəli/",
+      "meaning": "手動で；手作業で",
+      "exampleEn": "Enter inventory count data manually today.",
+      "exampleJa": "今日手作業（手動）で在庫数データを入力しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "markedly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmɑːrkɪdli/",
+      "meaning": "著しく；際立って",
+      "exampleEn": "Sales improved markedly after new release.",
+      "exampleJa": "新発売後、売上が著しく向上しました。",
+      "level": 3
+    },
+    {
+      "headword": "merely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmɪrli/",
+      "meaning": "単に；〜にすぎない",
+      "exampleEn": "Report is merely draft for discussion.",
+      "exampleJa": "報告書は議論のための単なる下書きにすぎません。",
+      "level": 2
+    },
+    {
+      "headword": "mostly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmoʊstli/",
+      "meaning": "たいてい；大部分は",
+      "exampleEn": "Clients are mostly local small businesses.",
+      "exampleJa": "顧客はたいてい地元の小規模ビジネスです。",
+      "level": 2
+    },
+    {
+      "headword": "mutually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmjuːtʃuəli/",
+      "meaning": "相互に",
+      "exampleEn": "Reach mutually beneficial business trade agreement.",
+      "exampleJa": "相互に有益なビジネス貿易協定に達しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "naturally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnætʃrəli/",
+      "meaning": "自然に；勿論",
+      "exampleEn": "Quality products naturally attract customer demand.",
+      "exampleJa": "高品質な製品は自然に顧客の需要を引きつけます。",
+      "level": 2
+    },
+    {
+      "headword": "nearly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnɪrli/",
+      "meaning": "ほぼ；危うく",
+      "exampleEn": "Project nearly finished on time today.",
+      "exampleJa": "プロジェクトは今日ほぼ期日通りに終了しました。",
+      "level": 2
+    },
+    {
+      "headword": "necessarily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌnesəˈserəli/",
+      "meaning": "必ずしも；必然的に",
+      "exampleEn": "Higher price not necessarily mean better quality.",
+      "exampleJa": "高い価格が必ずしもより良い品質を意味するわけではありません。",
+      "level": 2
+    },
+    {
+      "headword": "normally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnɔːrməli/",
+      "meaning": "通常は；普通は",
+      "exampleEn": "Deliveries normally take two business days.",
+      "exampleJa": "配達は通常2営業日かかります。",
+      "level": 2
+    },
+    {
+      "headword": "notably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnoʊtəbli/",
+      "meaning": "顕著に；取り分け",
+      "exampleEn": "Sales grew notably in European market.",
+      "exampleJa": "欧州市場で売上が顕著に増加しました。",
+      "level": 3
+    },
+    {
+      "headword": "occasionally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈkeɪʒnəli/",
+      "meaning": "たまに；時々",
+      "exampleEn": "Team meets occasionally for dinner party.",
+      "exampleJa": "チームは時々ディナーパーティーのために集まります。",
+      "level": 2
+    },
+    {
+      "headword": "officially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈfɪʃəli/",
+      "meaning": "公式に；正式に",
+      "exampleEn": "Firm officially launched new website portal.",
+      "exampleJa": "企業は公式に新しいウェブサイトポータルを開設しました。",
+      "level": 2
+    },
+    {
+      "headword": "originally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈrɪdʒənəli/",
+      "meaning": "元々は；最初に",
+      "exampleEn": "Building was originally designed for hospital.",
+      "exampleJa": "建物は元々は病院用に設計されました。",
+      "level": 2
+    },
+    {
+      "headword": "partially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɑːrʃəli/",
+      "meaning": "部分的に",
+      "exampleEn": "Project completed partially due to rain.",
+      "exampleJa": "雨のためプロジェクトは部分的に完了しました。",
+      "level": 2
+    },
+    {
+      "headword": "particularly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pərˈtɪkjələrli/",
+      "meaning": "特に；とりわけ",
+      "exampleEn": "Demand high particularly during summer holiday.",
+      "exampleJa": "特に夏休みの間、需要が高くなります。",
+      "level": 2
+    },
+    {
+      "headword": "perfectly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɜːrfɪktli/",
+      "meaning": "完璧に；すっかり",
+      "exampleEn": "New software works perfectly on desktop.",
+      "exampleJa": "新しいソフトウェアはデスクトップ上で完璧に作動します。",
+      "level": 2
+    },
+    {
+      "headword": "periodically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌpɪriˈɑːdɪkli/",
+      "meaning": "定期的に；周期的に",
+      "exampleEn": "Review computer security policy periodically.",
+      "exampleJa": "定期的にコンピューターセキュリティ方針を見直しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "permanently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɜːrmənəntli/",
+      "meaning": "永久に；恒久的に",
+      "exampleEn": "Store closed permanently last month.",
+      "exampleJa": "店舗は先月恒久的に閉店しました。",
+      "level": 2
+    },
+    {
+      "headword": "personally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɜːrsənəli/",
+      "meaning": "個人的に；自分で",
+      "exampleEn": "Director personally inspected factory floor.",
+      "exampleJa": "取締役は自分で（個人的に）工場フロアを点検しました。",
+      "level": 2
+    },
+    {
+      "headword": "physically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfɪzɪkli/",
+      "meaning": "身体的に；物理的に",
+      "exampleEn": "Check inventory physically in warehouse stock.",
+      "exampleJa": "倉庫在庫の中で物理的に在庫を点検しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "possibly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɑːsəbli/",
+      "meaning": "ことによると；たぶん",
+      "exampleEn": "We could possibly complete work early.",
+      "exampleJa": "ことによると私たちは作業を早めに完了できるかもしれません。",
+      "level": 2
+    },
+    {
+      "headword": "potentially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pəˈtenʃəli/",
+      "meaning": "潜在的に；ひょっとすると",
+      "exampleEn": "New market offers potentially high return.",
+      "exampleJa": "新市場はひょっとすると高いリターンを提供するかもしれません。",
+      "level": 2
+    },
+    {
+      "headword": "keynote",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkiːnoʊt/",
+      "meaning": "基調講演；主調",
+      "exampleEn": "Deliver keynote speech at annual conference.",
+      "exampleJa": "年次大会で基調講演を行いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "orientation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːrienˈteɪʃn/",
+      "meaning": "オリエンテーション；説明会",
+      "exampleEn": "New hires attended morning orientation.",
+      "exampleJa": "新入社員たちは朝のオリエンテーションに参加しました。",
+      "level": 2
+    },
+    {
+      "headword": "liquidity",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪˈkwɪdəti/",
+      "meaning": "流動性；換金性",
+      "exampleEn": "Bank maintains strong capital cash liquidity.",
+      "exampleJa": "銀行は強固な資本現金の流動性を維持しています。",
+      "level": 4
+    },
+    {
+      "headword": "expressway",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspresweɪ/",
+      "meaning": "有料高速道路",
+      "exampleEn": "Pay toll fee at city expressway entrance.",
+      "exampleJa": "都市の有料高速道路入口で通行料金を支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "motherboard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌðərbɔːrd/",
+      "meaning": "マザーボード；メイン基板",
+      "exampleEn": "Connect graphics card to computer motherboard.",
+      "exampleJa": "グラフィックカードをコンピューターのマザーボードに接続しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "traveler check",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "トラベラーズチェック；旅行小切手",
+      "exampleEn": "Exchange traveler check at bank counter.",
+      "exampleJa": "銀行カウンターでトラベラーズチェックを両替しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "unanimously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/juːˈnænɪməsli/",
+      "meaning": "満場一致で",
+      "exampleEn": "Members unanimously approved annual budget proposal.",
+      "exampleJa": "メンバーたちは満場一致で年次予算提案を承認しました。",
+      "level": 4
+    }
+  ]
+}

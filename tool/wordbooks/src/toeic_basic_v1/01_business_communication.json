@@ -1,0 +1,888 @@
+{
+  "chunk": "01_business_communication",
+  "note": "会議・交渉・プレゼン・ビジネス通信に関する語彙 (90語)",
+  "words": [
+    {
+      "headword": "clarify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈklærəfaɪ/",
+      "meaning": "を明確にする；を説明する",
+      "exampleEn": "Please clarify terms of contract.",
+      "exampleJa": "契約条件を明確に説明してください。",
+      "level": 3
+    },
+    {
+      "headword": "compromise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːmprəmaɪz/",
+      "meaning": "妥協する；を損なう",
+      "exampleEn": "Both sides compromised to reach agreement.",
+      "exampleJa": "両者が妥協して合意に達しました。",
+      "level": 3
+    },
+    {
+      "headword": "consult",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsʌlt/",
+      "meaning": "に相談する；に意見を求める",
+      "exampleEn": "Consult expert before making decision.",
+      "exampleJa": "決定を下す前に専門家に相談しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "debate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈbeɪt/",
+      "meaning": "を討論する；議論する",
+      "exampleEn": "Members debated on budget allocation.",
+      "exampleJa": "メンバーたちは予算配分について討論しました。",
+      "level": 2
+    },
+    {
+      "headword": "emphasize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈemfəsaɪz/",
+      "meaning": "を強調する",
+      "exampleEn": "Speaker emphasized importance of quality.",
+      "exampleJa": "発表者は品質の重要性を強調しました。",
+      "level": 2
+    },
+    {
+      "headword": "persuade",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsweɪd/",
+      "meaning": "を説得する",
+      "exampleEn": "She persuaded board to accept proposal.",
+      "exampleJa": "彼女は取締役会を説得して提案を受け入れさせました。",
+      "level": 2
+    },
+    {
+      "headword": "summarize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsʌməraɪz/",
+      "meaning": "を要約する",
+      "exampleEn": "Summarize main points of meeting.",
+      "exampleJa": "会議の主要ポイントを要約しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "acknowledge",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈnɑːlɪdʒ/",
+      "meaning": "を認める；の受領を通知する",
+      "exampleEn": "Please acknowledge receipt of message.",
+      "exampleJa": "メッセージの受領を通知してください。",
+      "level": 3
+    },
+    {
+      "headword": "address",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdres/",
+      "meaning": "問題に取り組む；演説する",
+      "exampleEn": "Meeting addressed customer complaint issue.",
+      "exampleJa": "会議では顧客の苦情問題に取り組みました。",
+      "level": 2
+    },
+    {
+      "headword": "advise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈvaɪz/",
+      "meaning": "に助言する；に通知する",
+      "exampleEn": "Lawyer advised firm on legal matter.",
+      "exampleJa": "弁護士は法律問題について企業に助言しました。",
+      "level": 2
+    },
+    {
+      "headword": "announcement",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈnaʊnsmənt/",
+      "meaning": "発表；告知",
+      "exampleEn": "Make official announcement at press conference.",
+      "exampleJa": "記者会見で公式発表を行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "apologize",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɑːlədʒaɪz/",
+      "meaning": "謝罪する",
+      "exampleEn": "We apologize for train delay inconvenience.",
+      "exampleJa": "電車の遅延によるご不便を謝罪いたします。",
+      "level": 2
+    },
+    {
+      "headword": "apology",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɑːlədʒi/",
+      "meaning": "謝罪；お詫び",
+      "exampleEn": "Send written apology to client.",
+      "exampleJa": "顧客に書面でのお詫び（謝罪）を送信しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "argue",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːrɡjuː/",
+      "meaning": "と主張する；議論する",
+      "exampleEn": "Lawyer argued case in court.",
+      "exampleJa": "弁護士は法廷で事件を主張・議論しました。",
+      "level": 2
+    },
+    {
+      "headword": "argument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrɡjumənt/",
+      "meaning": "議論；主張",
+      "exampleEn": "Strong argument persuaded jury members.",
+      "exampleJa": "説得力のある主張が陪審員を納得させました。",
+      "level": 2
+    },
+    {
+      "headword": "articulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɑːrˈtɪkjuleɪt/",
+      "meaning": "をはっきり述べる",
+      "exampleEn": "She articulated vision for future growth.",
+      "exampleJa": "彼女は将来の成長に関するビジョンを明確に述べました。",
+      "level": 4
+    },
+    {
+      "headword": "brief",
+      "partOfSpeech": "verb",
+      "phonetic": "/briːf/",
+      "meaning": "に要点・状況を説明する",
+      "exampleEn": "Manager briefed team on project plan.",
+      "exampleJa": "マネージャーはプロジェクト計画についてチームに要点を説明しました。",
+      "level": 2
+    },
+    {
+      "headword": "briefing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbriːfɪŋ/",
+      "meaning": "状況説明会；ブリーフィング",
+      "exampleEn": "Attend morning press briefing session.",
+      "exampleJa": "朝の記者ブリーフィング（説明会）に出席しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "broadcast",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbrɔːdkæst/",
+      "meaning": "を放送する",
+      "exampleEn": "TV channel broadcast live news report.",
+      "exampleJa": "テレビチャンネルがニュース報道を生放送しました。",
+      "level": 2
+    },
+    {
+      "headword": "comment",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːment/",
+      "meaning": "意見を述べる；コメントする",
+      "exampleEn": "Spokesperson declined to comment on rumor.",
+      "exampleJa": "報道担当者は噂についてコメントすることを控辞しました。",
+      "level": 2
+    },
+    {
+      "headword": "communicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "meaning": "伝える；意思疎通する",
+      "exampleEn": "Communicate clearly with foreign clients.",
+      "exampleJa": "海外の顧客と明確に意思疎通しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "conclude",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈkluːd/",
+      "meaning": "を締めくくる；と結論づける",
+      "exampleEn": "Speaker concluded presentation with summary.",
+      "exampleJa": "発表者は要約をもってプレゼンテーションを締めくくりました。",
+      "level": 2
+    },
+    {
+      "headword": "conclusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈkluːʒn/",
+      "meaning": "結論；結末",
+      "exampleEn": "Study reached clear scientific conclusion.",
+      "exampleJa": "研究は明確な科学的結論に達しました。",
+      "level": 2
+    },
+    {
+      "headword": "conference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnfərəns/",
+      "meaning": "会議；協議会",
+      "exampleEn": "Annual tech conference held in Tokyo.",
+      "exampleJa": "年次の技術会議（カンファレンス）が東京で開催されました。",
+      "level": 2
+    },
+    {
+      "headword": "confront",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfrʌnt/",
+      "meaning": "に立ち向かう；と対面する",
+      "exampleEn": "Manager confronted difficult negotiation issue.",
+      "exampleJa": "マネージャーは困難な交渉問題に立ち向かいました。",
+      "level": 3
+    },
+    {
+      "headword": "consensus",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsensəs/",
+      "meaning": "合意；意見の一致",
+      "exampleEn": "Board reached consensus on new strategy.",
+      "exampleJa": "取締役会は新しい戦略について意見の一致（合意）に達しました。",
+      "level": 4
+    },
+    {
+      "headword": "convey",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈveɪ/",
+      "meaning": "を伝える；を運ぶ",
+      "exampleEn": "Convey message to sales team quickly.",
+      "exampleJa": "メッセージを営業チームに迅速に伝えなさい。",
+      "level": 3
+    },
+    {
+      "headword": "convince",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈvɪns/",
+      "meaning": "を納得させる；を確信させる",
+      "exampleEn": "Data convinced investors to join project.",
+      "exampleJa": "データが投資家を納得させてプロジェクトに参加させました。",
+      "level": 2
+    },
+    {
+      "headword": "deliberate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈlɪbəreɪt/",
+      "meaning": "熟考する；協議する",
+      "exampleEn": "Jury deliberated for three hours.",
+      "exampleJa": "陪審員は3時間熟考・協議しました。",
+      "level": 3
+    },
+    {
+      "headword": "describe",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskraɪb/",
+      "meaning": "を述べる；を描写する",
+      "exampleEn": "Describe product features to potential customer.",
+      "exampleJa": "見込み客に製品の特徴を説明・描写しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "description",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskrɪpʃn/",
+      "meaning": "説明；記述",
+      "exampleEn": "Read job description carefully before apply.",
+      "exampleJa": "応募する前に求人説明を注意深く読みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "detail",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdiːteɪl/",
+      "meaning": "詳細；細部",
+      "exampleEn": "Email contains full detail of schedule.",
+      "exampleJa": "メールにスケジュールの詳細がすべて記載されています。",
+      "level": 2
+    },
+    {
+      "headword": "detailed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdiːteɪld/",
+      "meaning": "詳細な；細部にわたる",
+      "exampleEn": "Provide detailed report on market research.",
+      "exampleJa": "市場調査に関する詳細な報告書を提出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "discuss",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskʌs/",
+      "meaning": "について議論する；話し合う",
+      "exampleEn": "Team discussed budget plan in meeting.",
+      "exampleJa": "チームは会議で予算計画について話し合いました。",
+      "level": 2
+    },
+    {
+      "headword": "discussion",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskʌʃn/",
+      "meaning": "議論；話し合い",
+      "exampleEn": "Lively discussion took place at workshop.",
+      "exampleJa": "ワークショップで活発な議論が行われました。",
+      "level": 2
+    },
+    {
+      "headword": "dispute",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈspjuːt/",
+      "meaning": "紛争；議論",
+      "exampleEn": "Settle trade dispute through negotiation.",
+      "exampleJa": "交渉を通じて貿易紛争を解決しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "draft",
+      "partOfSpeech": "noun",
+      "phonetic": "/dræft/",
+      "meaning": "下書き；草案",
+      "exampleEn": "Review first draft of contract today.",
+      "exampleJa": "今日契約書の最初の草案（ドラフト）を確認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "elaborate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈlæbəreɪt/",
+      "meaning": "詳しく述べる",
+      "exampleEn": "Please elaborate on your proposal point.",
+      "exampleJa": "あなたの提案の点について詳しく述べてください。",
+      "level": 3
+    },
+    {
+      "headword": "emphasis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈemfəsɪs/",
+      "meaning": "強調；重点",
+      "exampleEn": "Put strong emphasis on product safety.",
+      "exampleJa": "製品の安全性に強い重点を置きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "enlighten",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈlaɪtn/",
+      "meaning": "を啓発する；を教える",
+      "exampleEn": "Lecture enlightened students on business trend.",
+      "exampleJa": "講義はビジネスのトレンドについて学生たちを啓発しました。",
+      "level": 4
+    },
+    {
+      "headword": "explain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspleɪn/",
+      "meaning": "を説明する",
+      "exampleEn": "Manager explained new policy clearly.",
+      "exampleJa": "マネージャーは新方針を明確に説明しました。",
+      "level": 2
+    },
+    {
+      "headword": "explanation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌekspləˈneɪʃn/",
+      "meaning": "説明；解説",
+      "exampleEn": "Teacher gave clear explanation of grammar.",
+      "exampleJa": "先生は文法の明確な解説を与えました。",
+      "level": 2
+    },
+    {
+      "headword": "express",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspres/",
+      "meaning": "を表現する；を述べる",
+      "exampleEn": "Express gratitude to supportive clients.",
+      "exampleJa": "支持してくれる顧客に感謝の意を表現しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "expression",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspreʃn/",
+      "meaning": "表現；表情",
+      "exampleEn": "Use polite facial expression in greeting.",
+      "exampleJa": "挨拶では丁寧な表情を浮かべなさい。",
+      "level": 2
+    },
+    {
+      "headword": "forum",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrəm/",
+      "meaning": "公開討論会；フォーラム",
+      "exampleEn": "Host online forum for global discussion.",
+      "exampleJa": "世界的な議論のためにオンラインフォーラムを主催しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "headline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhedlaɪn/",
+      "meaning": "見出し；ヘッダー",
+      "exampleEn": "Newspaper headline caught public attention.",
+      "exampleJa": "新聞の見出しが世間の注目を集めました。",
+      "level": 2
+    },
+    {
+      "headword": "highlight",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhaɪlaɪt/",
+      "meaning": "を強調する；を際立たせる",
+      "exampleEn": "Report highlighted key achievement of year.",
+      "exampleJa": "報告書は今年の主要な達成事項を際立たせました。",
+      "level": 2
+    },
+    {
+      "headword": "illustrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪləstreɪt/",
+      "meaning": "を例示・図解する",
+      "exampleEn": "Graphs illustrate sales growth trend clearly.",
+      "exampleJa": "グラフが売上成長の傾向を明確に図解・例示しています。",
+      "level": 3
+    },
+    {
+      "headword": "inform",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɔːrm/",
+      "meaning": "に知らせる；に通知する",
+      "exampleEn": "Inform team about schedule change promptly.",
+      "exampleJa": "スケジュールの変更についてチームに速やかに知らせなさい。",
+      "level": 2
+    },
+    {
+      "headword": "information",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnfərˈmeɪʃn/",
+      "meaning": "情報；案内",
+      "exampleEn": "Visit website for detailed product information.",
+      "exampleJa": "詳細な製品情報についてはウェブサイトを訪問しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "informative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈfɔːrmətɪv/",
+      "meaning": "情報に富んだ；有益な",
+      "exampleEn": "Seminar provided highly informative talk.",
+      "exampleJa": "セミナーは非常に有益な講演を提供しました。",
+      "level": 3
+    },
+    {
+      "headword": "insist",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsɪst/",
+      "meaning": "と主張する；言い張る",
+      "exampleEn": "Lawyer insisted on client innocence.",
+      "exampleJa": "弁護士は依頼人の無罪を主張・言い張りました。",
+      "level": 2
+    },
+    {
+      "headword": "interact",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntərˈækt/",
+      "meaning": "交流する；相互作用する",
+      "exampleEn": "Staff interact warmly with store visitors.",
+      "exampleJa": "スタッフは店舗の訪問者と温かく交流します。",
+      "level": 2
+    },
+    {
+      "headword": "interaction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪntərˈækʃn/",
+      "meaning": "交流；相互作用",
+      "exampleEn": "Positive customer interaction builds brand loyalty.",
+      "exampleJa": "前向きな顧客交流がブランドロイヤリティを築きます。",
+      "level": 2
+    },
+    {
+      "headword": "interpret",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtɜːrprət/",
+      "meaning": "を解釈する；通訳する",
+      "exampleEn": "Interpreter interpreted speech for foreign guests.",
+      "exampleJa": "通訳者が外国のゲストのためにスピーチを通訳・解釈しました。",
+      "level": 3
+    },
+    {
+      "headword": "interpretation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˌtɜːrprəˈteɪʃn/",
+      "meaning": "解釈；通訳",
+      "exampleEn": "Different interpretations of contract legal clause.",
+      "exampleJa": "契約の法的条項に関する異なる解釈。",
+      "level": 3
+    },
+    {
+      "headword": "interpreter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈtɜːrprətər/",
+      "meaning": "通訳者",
+      "exampleEn": "Professional interpreter attended international summit.",
+      "exampleJa": "プロの通訳者が国際サミットに出席しました。",
+      "level": 3
+    },
+    {
+      "headword": "interview",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntərvjuː/",
+      "meaning": "面接；インタビュー",
+      "exampleEn": "Candidate performed well in job interview.",
+      "exampleJa": "候補者は採用面接で好成績を収めました。",
+      "level": 2
+    },
+    {
+      "headword": "introduce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntrəˈduːs/",
+      "meaning": "を紹介する；を導入する",
+      "exampleEn": "Manager introduced new team member.",
+      "exampleJa": "マネージャーは新しいチームメンバーを紹介しました。",
+      "level": 2
+    },
+    {
+      "headword": "introduction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪntrəˈdʌkʃn/",
+      "meaning": "紹介；導入；序論",
+      "exampleEn": "Introduction of system boosted work speed.",
+      "exampleJa": "システムの導入が作業スピードを向上させました。",
+      "level": 2
+    },
+    {
+      "headword": "issue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪʃuː/",
+      "meaning": "問題；発行号",
+      "exampleEn": "Address environmental issue at next meeting.",
+      "exampleJa": "次の会議で環境問題に取り組みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "lecture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlektʃər/",
+      "meaning": "講義；講演",
+      "exampleEn": "Professor delivered inspiring economic lecture.",
+      "exampleJa": "教授は刺激的な経済学の講義を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "media",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːdiə/",
+      "meaning": "マスメディア；媒体",
+      "exampleEn": "Media reported corporate merger news widely.",
+      "exampleJa": "メディアは企業の合併ニュースを広く報じました。",
+      "level": 2
+    },
+    {
+      "headword": "mention",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmenʃn/",
+      "meaning": "に言及する；を口にする",
+      "exampleEn": "Director mentioned new market expansion plan.",
+      "exampleJa": "ディレクターは新市場拡大計画に言及しました。",
+      "level": 2
+    },
+    {
+      "headword": "message",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmesɪdʒ/",
+      "meaning": "伝言；メッセージ",
+      "exampleEn": "Leave voicemail message after tone.",
+      "exampleJa": "発信音の後に留守番電話メッセージを残しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "negotiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/nɪˈɡoʊʃieɪt/",
+      "meaning": "を交渉する；折り合う",
+      "exampleEn": "Team negotiated better deal with supplier.",
+      "exampleJa": "チームはサプライヤーとより良い取引を交渉しました。",
+      "level": 3
+    },
+    {
+      "headword": "negotiation",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɪˌɡoʊʃiˈeɪʃn/",
+      "meaning": "交渉；協議",
+      "exampleEn": "Contract negotiation lasted three full days.",
+      "exampleJa": "契約交渉は丸3日間続きました。",
+      "level": 3
+    },
+    {
+      "headword": "newsletter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnuːzletər/",
+      "meaning": "会報；ニュースレター",
+      "exampleEn": "Subscribe to monthly company email newsletter.",
+      "exampleJa": "月刊の社内メールニュースレターを購読しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "note",
+      "partOfSpeech": "verb",
+      "phonetic": "/noʊt/",
+      "meaning": "に注意する；をメモする",
+      "exampleEn": "Please note change in room location.",
+      "exampleJa": "部屋の場所の変更にご注意ください。",
+      "level": 2
+    },
+    {
+      "headword": "objecion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əbˈdʒekʃn/",
+      "meaning": "反対；異議",
+      "exampleEn": "No member raised objection to motion.",
+      "exampleJa": "動議に対して反対（異議）を申し立てたメンバーはいませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "outline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtlaɪn/",
+      "meaning": "概要；輪郭",
+      "exampleEn": "Presenter gave broad outline of project.",
+      "exampleJa": "発表者はプロジェクトの大まかな概要を提示しました。",
+      "level": 2
+    },
+    {
+      "headword": "pamphlet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæmflət/",
+      "meaning": "小冊子；パンフレット",
+      "exampleEn": "Hand out promotional pamphlet to visitors.",
+      "exampleJa": "訪問者に宣伝パンフレットを配布しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "persuasion",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈsweɪʒn/",
+      "meaning": "説得；説得力",
+      "exampleEn": "Power of persuasion convinced stubborn client.",
+      "exampleJa": "説得力が頑固な顧客を納得させました。",
+      "level": 3
+    },
+    {
+      "headword": "point",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɔɪnt/",
+      "meaning": "要点；論点",
+      "exampleEn": "Get straight to main point of meeting.",
+      "exampleJa": "会議の主要な要点に直接入りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "present",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈzent/",
+      "meaning": "を提示する；をプレゼンする",
+      "exampleEn": "Researcher presented findings at conference.",
+      "exampleJa": "研究者は会議で調査結果をプレゼン・発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "presentation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpriːzenˈteɪʃn/",
+      "meaning": "発表；プレゼンテーション",
+      "exampleEn": "Give slide presentation to board members.",
+      "exampleJa": "取締役会のメンバーにスライド発表をしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "propose",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈpoʊz/",
+      "meaning": "を提案する",
+      "exampleEn": "Consultant proposed new business strategy.",
+      "exampleJa": "コンサルタントは新しいビジネス戦略を提案しました。",
+      "level": 2
+    },
+    {
+      "headword": "proposal",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈpoʊzl/",
+      "meaning": "提案；企画書",
+      "exampleEn": "Submit project cost proposal by Friday.",
+      "exampleJa": "金曜までにプロジェクト費用提案書を提出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "publicity",
+      "partOfSpeech": "noun",
+      "phonetic": "/pʌbˈlɪsəti/",
+      "meaning": "広報；宣伝",
+      "exampleEn": "New product received positive media publicity.",
+      "exampleJa": "新製品はメディアから好意的な広報報道を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "publish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpʌblɪʃ/",
+      "meaning": "を出版する；を公表する",
+      "exampleEn": "Firm published annual research study result.",
+      "exampleJa": "企業は年次の研究調査結果を公表しました。",
+      "level": 2
+    },
+    {
+      "headword": "questionnaire",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkwestʃəˈner/",
+      "meaning": "アンケート用紙；質問票",
+      "exampleEn": "Fill out customer satisfaction questionnaire form.",
+      "exampleJa": "顧客満足度アンケート用紙に記入しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "quote",
+      "partOfSpeech": "noun",
+      "phonetic": "/kwoʊt/",
+      "meaning": "見積もり；引用",
+      "exampleEn": "Request price quote from supplier today.",
+      "exampleJa": "今日サプライヤーに価格見積もりを依頼しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌrekəˈmend/",
+      "meaning": "を勧める；を推薦する",
+      "exampleEn": "Doctor recommended regular exercise and sleep.",
+      "exampleJa": "医師は定期的な運動と睡眠を勧めました。",
+      "level": 2
+    },
+    {
+      "headword": "recommendation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrekəmənˈdeɪʃn/",
+      "meaning": "推薦；勧告",
+      "exampleEn": "Follow expert recommendation on safety.",
+      "exampleJa": "安全についての専門家の推薦・勧告に従いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "remark",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈmɑːrk/",
+      "meaning": "発言；意見",
+      "exampleEn": "President made opening remark at ceremony.",
+      "exampleJa": "社長は式典で開会発言を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "reply",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈplaɪ/",
+      "meaning": "返信する；答える",
+      "exampleEn": "Reply to client inquiry within two hours.",
+      "exampleJa": "2時間以内に顧客の問い合わせに返信しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "respond",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈspɑːnd/",
+      "meaning": "に応答する；に反応する",
+      "exampleEn": "Firm responded quickly to market change.",
+      "exampleJa": "企業は市場の変化に迅速に対応・応答しました。",
+      "level": 2
+    },
+    {
+      "headword": "response",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈspɑːns/",
+      "meaning": "返答；反応",
+      "exampleEn": "We received positive customer survey response.",
+      "exampleJa": "私たちは好意的な顧客調査の返答を受け取りました。",
+      "level": 2
+    },
+    {
+      "headword": "speech",
+      "partOfSpeech": "noun",
+      "phonetic": "/spiːtʃ/",
+      "meaning": "演説；スピーチ",
+      "exampleEn": "Director delivered inspiring keynote speech.",
+      "exampleJa": "ディレクターは奮い立たせる基調講演（スピーチ）を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "statement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪtmənt/",
+      "meaning": "声明；明細書",
+      "exampleEn": "Company issued official press statement.",
+      "exampleJa": "会社は公式な報道声明を発行しました。",
+      "level": 2
+    },
+    {
+      "headword": "stapler",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪplər/",
+      "meaning": "ホチキス",
+      "exampleEn": "Use stapler to attach papers together.",
+      "exampleJa": "紙を綴じるためにホチキスを使いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "videoconference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪdioʊkɑːnfərəns/",
+      "meaning": "ビデオ会議",
+      "exampleEn": "Join video conference call at two PM.",
+      "exampleJa": "午後2時にビデオ会議に参加しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pensioner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpenʃənər/",
+      "meaning": "年金受給者",
+      "exampleEn": "Retired pensioner received annual benefit check.",
+      "exampleJa": "退職した年金受給者は年次の給付小切手を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "billboard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɪlbɔːrd/",
+      "meaning": "屋外広告塔；看板",
+      "exampleEn": "Large highway billboard ad promoted product.",
+      "exampleJa": "大型高速道路の看板（ビジュアル）広告が製品を宣伝しました。",
+      "level": 2
+    },
+    {
+      "headword": "detour",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdiːtʊr/",
+      "meaning": "回り道；迂回路",
+      "exampleEn": "Construction forced drivers to take detour route.",
+      "exampleJa": "施工が運転手たちに回り道（迂回路）ルートをとらせました。",
+      "level": 3
+    },
+    {
+      "headword": "encryption",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈkrɪpʃn/",
+      "meaning": "暗号化",
+      "exampleEn": "Use strong data encryption code standard.",
+      "exampleJa": "強力なデータ暗号化コード規格を使用しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "lucrative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈluːkrətɪv/",
+      "meaning": "利益の上がる；儲かる",
+      "exampleEn": "Signed lucrative contract with overseas partner.",
+      "exampleJa": "海外のパートナーと利益の上がる（儲かる）契約に署名しました。",
+      "level": 4
+    },
+    {
+      "headword": "substantially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səbˈstænʃəli/",
+      "meaning": "相当に；大幅に",
+      "exampleEn": "Cost reduced substantially after factory automation.",
+      "exampleJa": "工場の自動化後、費用が相当に（大幅に）削減されました。",
+      "level": 3
+    }
+  ]
+}

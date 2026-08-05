@@ -1,0 +1,798 @@
+{
+  "chunk": "06_manufacturing_tech",
+  "note": "製造・技術・品質管理・設備点検に関する語彙 (90語)",
+  "words": [
+    {
+      "headword": "assembly",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsembli/",
+      "meaning": "組み立て；集会",
+      "exampleEn": "Robot works on factory assembly line.",
+      "exampleJa": "ロボットが工場組み立てラインで稼働しています。",
+      "level": 3
+    },
+    {
+      "headword": "defect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdiːfekt/",
+      "meaning": "欠陥；不具合",
+      "exampleEn": "Inspector found a minor product defect.",
+      "exampleJa": "検査官は製品の軽微な欠陥・不具合を発見しました。",
+      "level": 3
+    },
+    {
+      "headword": "defective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈfektɪv/",
+      "meaning": "欠陥のある；不良の",
+      "exampleEn": "Return defective items for full refund.",
+      "exampleJa": "全額返金のために不良品（欠陥品）を返品しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "manufacturer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmænjuˈfæktʃərər/",
+      "meaning": "製造業者；メーカー",
+      "exampleEn": "Car manufacturer released electric vehicle model.",
+      "exampleJa": "自動車メーカーが電気自動車モデルを発売しました。",
+      "level": 2
+    },
+    {
+      "headword": "specification",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
+      "meaning": "仕様書；明細",
+      "exampleEn": "Product meets engineering technical specifications.",
+      "exampleJa": "製品は工学技術仕様を満たしています。",
+      "level": 3
+    },
+    {
+      "headword": "algorithm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælɡərɪðəm/",
+      "meaning": "アルゴリズム；計算手順",
+      "exampleEn": "Search engine uses complex ranking algorithm.",
+      "exampleJa": "検索エンジンは複雑な順位付けアルゴリズムを使用しています。",
+      "level": 3
+    },
+    {
+      "headword": "automate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːtəmeɪt/",
+      "meaning": "を自動化する",
+      "exampleEn": "Factory automated repetitive assembly line tasks.",
+      "exampleJa": "工場は反復的な組み立てライン作業を自動化しました。",
+      "level": 3
+    },
+    {
+      "headword": "automated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɔːtəmeɪtɪd/",
+      "meaning": "自動化された",
+      "exampleEn": "Automated system reduced human error rates.",
+      "exampleJa": "自動化システムがヒューマンエラー率を削減しました。",
+      "level": 3
+    },
+    {
+      "headword": "automation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːtəˈmeɪʃn/",
+      "meaning": "自動化；オートメーション",
+      "exampleEn": "Factory automation increased daily production output.",
+      "exampleJa": "工場の自動化が毎日の生産高を増加させました。",
+      "level": 3
+    },
+    {
+      "headword": "backup",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbækʌp/",
+      "meaning": "バックアップ；予備",
+      "exampleEn": "Create daily computer file data backup.",
+      "exampleJa": "毎日のコンピューターファイルデータのバックアップを作成しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "blueprint",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbluːprɪnt/",
+      "meaning": "設計図；青写真",
+      "exampleEn": "Architect reviewed building construction blueprint.",
+      "exampleJa": "建築家は建築施工の設計図（青写真）を確認しました。",
+      "level": 3
+    },
+    {
+      "headword": "calibrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkælɪbreɪt/",
+      "meaning": "を校正・調整する",
+      "exampleEn": "Technician calibrated measurement scale device accurately.",
+      "exampleJa": "技術者は測定スケール機器を正確に校正・調整しました。",
+      "level": 4
+    },
+    {
+      "headword": "calibration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkælɪˈbreɪʃn/",
+      "meaning": "校正；調整",
+      "exampleEn": "Device requires annual precision scale calibration.",
+      "exampleJa": "機器は年次の精密目盛の校正を必要とします。",
+      "level": 4
+    },
+    {
+      "headword": "capacity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈpæsəti/",
+      "meaning": "生産能力；収容力",
+      "exampleEn": "Plant operates at full manufacturing capacity.",
+      "exampleJa": "工場はフル製造能力（キャパシティ）で稼働しています。",
+      "level": 2
+    },
+    {
+      "headword": "component",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpoʊnənt/",
+      "meaning": "構成部品；成分",
+      "exampleEn": "Assemble electronic circuit board components carefully.",
+      "exampleJa": "電子回路基板の構成部品を注意深く組み立てなさい。",
+      "level": 3
+    },
+    {
+      "headword": "computer",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpjuːtər/",
+      "meaning": "コンピューター",
+      "exampleEn": "Upgrade desktop computer memory chip today.",
+      "exampleJa": "今日デスクトップコンピューターのメモリーチップをアップグレードしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "craftsmanship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkræftsmənʃɪp/",
+      "meaning": "職人技；名工の技術",
+      "exampleEn": "Watch displays exquisite traditional Swiss craftsmanship.",
+      "exampleJa": "時計は素晴らしい伝統的なスイスの職人技（クラフトマンシップ）を示しています。",
+      "level": 4
+    },
+    {
+      "headword": "database",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdeɪtəbeɪs/",
+      "meaning": "データベース",
+      "exampleEn": "Store customer contacts in secure database.",
+      "exampleJa": "安全なデータベースに顧客連絡先を保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "developer",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈveləpər/",
+      "meaning": "開発者；ディベロッパー",
+      "exampleEn": "Software developer created mobile app version.",
+      "exampleJa": "ソフトウェア開発者がモバイルアプリ版を作成しました。",
+      "level": 2
+    },
+    {
+      "headword": "device",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈvaɪs/",
+      "meaning": "装置；デバイス",
+      "exampleEn": "Connect smart mobile device to Wi-Fi.",
+      "exampleJa": "スマートモバイルデバイスをWi-Fiに接続しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "digital",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdɪdʒɪtl/",
+      "meaning": "デジタルの",
+      "exampleEn": "Company transformed into digital technology leader.",
+      "exampleJa": "会社はデジタル技術のリーダーに変容しました。",
+      "level": 2
+    },
+    {
+      "headword": "downtime",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaʊntaɪm/",
+      "meaning": "稼働停止時間；ダウンタイム",
+      "exampleEn": "Prevent costly factory machine equipment downtime.",
+      "exampleJa": "高コストな工場機械設備の稼働停止時間（ダウンタイム）を防ぎなさい。",
+      "level": 3
+    },
+    {
+      "headword": "durability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʊrəˈbɪləti/",
+      "meaning": "耐久性；耐久力",
+      "exampleEn": "Test material strength and water durability.",
+      "exampleJa": "素材の強度と耐水耐久性をテストしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "durable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʊrəbl/",
+      "meaning": "耐久性のある；丈夫な",
+      "exampleEn": "Boots made of durable waterproof leather.",
+      "exampleJa": "ブーツは耐久性のある防水革で作られています。",
+      "level": 3
+    },
+    {
+      "headword": "engineer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌendʒɪˈnɪr/",
+      "meaning": "技術者；エンジニア",
+      "exampleEn": "Chief engineer designed high speed engine.",
+      "exampleJa": "チーフエンジニア（技術者）が高速エンジンを設計しました。",
+      "level": 2
+    },
+    {
+      "headword": "engineering",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌendʒɪˈnɪrɪŋ/",
+      "meaning": "工学；エンジニアリング",
+      "exampleEn": "She studied mechanical engineering at college.",
+      "exampleJa": "彼女は大学で機械工学を学びました。",
+      "level": 2
+    },
+    {
+      "headword": "fabricate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfæbrɪkeɪt/",
+      "meaning": "を製造する；を組み立てる",
+      "exampleEn": "Plant fabricates steel frames for bridges.",
+      "exampleJa": "工場は橋用の鋼鉄フレームを製造・組み立てています。",
+      "level": 4
+    },
+    {
+      "headword": "fabrication",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌfæbrɪˈkeɪʃn/",
+      "meaning": "製造；加工",
+      "exampleEn": "Metal fabrication process requires high heat.",
+      "exampleJa": "金属加工（製造）プロセスは高熱を必要とします。",
+      "level": 4
+    },
+    {
+      "headword": "factory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæktri/",
+      "meaning": "工場",
+      "exampleEn": "Automobile factory produces hundred cars daily.",
+      "exampleJa": "自動車工場は毎日100台の車を生産しています。",
+      "level": 2
+    },
+    {
+      "headword": "flaw",
+      "partOfSpeech": "noun",
+      "phonetic": "/flɔː/",
+      "meaning": "欠陥；傷",
+      "exampleEn": "Inspector spotted design flaw in prototype.",
+      "exampleJa": "検査官は試作品の中に設計上の欠陥を発見しました。",
+      "level": 3
+    },
+    {
+      "headword": "flawless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈflɔːləs/",
+      "meaning": "傷のない；完璧な",
+      "exampleEn": "Product achieved flawless quality control rating.",
+      "exampleJa": "製品は完璧な（傷のない）品質管理評価を達成しました。",
+      "level": 3
+    },
+    {
+      "headword": "generate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒenəreɪt/",
+      "meaning": "を発生させる；を生み出す",
+      "exampleEn": "Solar panels generate clean electrical energy.",
+      "exampleJa": "ソーラーパネルがクリーンな電気エネルギーを発生させています。",
+      "level": 2
+    },
+    {
+      "headword": "hardware",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːrdwer/",
+      "meaning": "ハードウェア；金物",
+      "exampleEn": "Install new computer server hardware components.",
+      "exampleJa": "新しいコンピューターサーバーハードウェア部品を取り付けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "innovation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "meaning": "革新；イノベーション",
+      "exampleEn": "Technology innovation drives company growth forward.",
+      "exampleJa": "技術革新（イノベーション）が会社の成長を前進させます。",
+      "level": 2
+    },
+    {
+      "headword": "innovative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪnəveɪtɪv/",
+      "meaning": "革新的な",
+      "exampleEn": "Develop innovative software application for users.",
+      "exampleJa": "ユーザー向けに革新的なソフトウェアアプリケーションを開発しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "inspector",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈspektər/",
+      "meaning": "検査官；点検員",
+      "exampleEn": "Safety inspector checked fire alarm system.",
+      "exampleJa": "安全検査官が火災報知器システムを点検しました。",
+      "level": 2
+    },
+    {
+      "headword": "install",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈstɔːl/",
+      "meaning": "を設置する；をインストールする",
+      "exampleEn": "Technician installed solar power panels on roof.",
+      "exampleJa": "技術者は屋根の上に太陽光発電パネルを設置しました。",
+      "level": 2
+    },
+    {
+      "headword": "installation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnstəˈleɪʃn/",
+      "meaning": "設置；取り付け",
+      "exampleEn": "Equipment installation completed ahead of time.",
+      "exampleJa": "機器の設置（取り付け）が予定より前倒しで完了しました。",
+      "level": 2
+    },
+    {
+      "headword": "instrument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "meaning": "器具；測定器；楽器",
+      "exampleEn": "Precision measurement instrument used in lab.",
+      "exampleJa": "実験室で使用される精密測定器具。",
+      "level": 2
+    },
+    {
+      "headword": "integration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪntɪˈɡreɪʃn/",
+      "meaning": "統合；組み込み",
+      "exampleEn": "System integration improved business data flow.",
+      "exampleJa": "システム統合がビジネスデータのフローを向上させました。",
+      "level": 3
+    },
+    {
+      "headword": "invention",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvenʃn/",
+      "meaning": "発明；発明品",
+      "exampleEn": "Patented invention revolutionized manufacturing industry.",
+      "exampleJa": "特許を取得した発明品が製造業界に革命をもたらしました。",
+      "level": 2
+    },
+    {
+      "headword": "inventor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈventər/",
+      "meaning": "発明家",
+      "exampleEn": "Famous inventor created electric light bulb.",
+      "exampleJa": "著名な発明家が白熱電球を作りました。",
+      "level": 2
+    },
+    {
+      "headword": "laboratory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlæbrətɔːri/",
+      "meaning": "実験室；研究所",
+      "exampleEn": "Conduct chemical test in research laboratory.",
+      "exampleJa": "研究実験室で化学テストを実施しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "machinery",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈʃiːnəri/",
+      "meaning": "機械類；装置",
+      "exampleEn": "Heavy industrial machinery operates in factory.",
+      "exampleJa": "重産業機械類が工場内で稼働しています。",
+      "level": 2
+    },
+    {
+      "headword": "maintain",
+      "partOfSpeech": "verb",
+      "phonetic": "/meɪnˈteɪn/",
+      "meaning": "を維持・保守する",
+      "exampleEn": "Maintain engine equipment to prevent breakdown.",
+      "exampleJa": "故障を防ぐためにエンジン設備を保守・維持しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "malfunction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmælˈfʌŋkʃn/",
+      "meaning": "誤作動；故障",
+      "exampleEn": "System malfunction stopped assembly line work.",
+      "exampleJa": "システムの誤作動（故障）が組み立てラインの作業を停止させました。",
+      "level": 3
+    },
+    {
+      "headword": "manufacture",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌmænjuˈfæktʃər/",
+      "meaning": "を製造する",
+      "exampleEn": "Plant manufactures semiconductor chips for computers.",
+      "exampleJa": "工場はコンピューター用の半導体チップを製造しています。",
+      "level": 2
+    },
+    {
+      "headword": "manufacturing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmænjuˈfæktʃərɪŋ/",
+      "meaning": "製造業；製造",
+      "exampleEn": "Advanced manufacturing process cut production costs.",
+      "exampleJa": "高度な製造プロセスが生産コストを削減しました。",
+      "level": 2
+    },
+    {
+      "headword": "mass-produce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌmæs prəˈduːs/",
+      "meaning": "を大量生産する",
+      "exampleEn": "Factory mass-produces plastic consumer bottles.",
+      "exampleJa": "工場はプラスチック製の消費者用ボトルを大量生産しています。",
+      "level": 3
+    },
+    {
+      "headword": "mechanism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmekənɪzəm/",
+      "meaning": "仕組み；メカニズム",
+      "exampleEn": "Clock internal safety mechanism stopped gear.",
+      "exampleJa": "時計の内部安全機構（メカニズム）が歯車を停止させました。",
+      "level": 3
+    },
+    {
+      "headword": "model",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːdl/",
+      "meaning": "型；モデル",
+      "exampleEn": "Release new sports car model next spring.",
+      "exampleJa": "来春新しいスポーツカーのモデルを発売しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "network",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnetwɜːrk/",
+      "meaning": "ネットワーク；網",
+      "exampleEn": "Office computer network system crashed briefly.",
+      "exampleJa": "オフィスのコンピューターネットワークシステムが一時クラッシュしました。",
+      "level": 2
+    },
+    {
+      "headword": "operator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːpəreɪtər/",
+      "meaning": "操作員；オペレーター",
+      "exampleEn": "Certified machine operator monitored control screen.",
+      "exampleJa": "認定機械操作員（オペレーター）が制御画面を監視しました。",
+      "level": 2
+    },
+    {
+      "headword": "optimize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːptɪmaɪz/",
+      "meaning": "を最適化する",
+      "exampleEn": "Software optimizes code execution speed performance.",
+      "exampleJa": "ソフトウェアはコード実行スピードパフォーマンスを最適化します。",
+      "level": 3
+    },
+    {
+      "headword": "outage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtɪdʒ/",
+      "meaning": "停電；停止",
+      "exampleEn": "Power outage stopped factory production line.",
+      "exampleJa": "停電（アウトージ）が工場の生産ラインを停止させました。",
+      "level": 3
+    },
+    {
+      "headword": "output",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtpʊt/",
+      "meaning": "生産高；出力",
+      "exampleEn": "Daily factory solar power energy output.",
+      "exampleJa": "工場の毎日の太陽光パワーエネルギー出力（生産高）。",
+      "level": 2
+    },
+    {
+      "headword": "overhaul",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈoʊvərhɔːl/",
+      "meaning": "を分解修理・全面見直しする",
+      "exampleEn": "Engineers overhauled old aircraft engine system.",
+      "exampleJa": "技術者たちは古い航空機エンジンシステムを分解修理（オーバーホール）しました。",
+      "level": 4
+    },
+    {
+      "headword": "patent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpætnt/",
+      "meaning": "特許；特許権",
+      "exampleEn": "Apply for international technology patent protection.",
+      "exampleJa": "国際技術特許保護を申請しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "plant",
+      "partOfSpeech": "noun",
+      "phonetic": "/plænt/",
+      "meaning": "工場；プラント；植物",
+      "exampleEn": "Automobile assembly plant employs thousand workers.",
+      "exampleJa": "自動車組み立て工場（プラント）は1,000名の作業員を雇用しています。",
+      "level": 2
+    },
+    {
+      "headword": "processing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːsesɪŋ/",
+      "meaning": "加工；データ処理",
+      "exampleEn": "High speed data processing computer chip.",
+      "exampleJa": "高速データ処理コンピューターチップ。",
+      "level": 2
+    },
+    {
+      "headword": "produce",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈduːs/",
+      "meaning": "を生産・製造する",
+      "exampleEn": "Factory produces electric vehicle battery units.",
+      "exampleJa": "工場は電気自動車用バッテリーユニットを生産しています。",
+      "level": 2
+    },
+    {
+      "headword": "production",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈdʌkʃn/",
+      "meaning": "生産；製造高",
+      "exampleEn": "Factory increased monthly car production rate.",
+      "exampleJa": "工場は月間の自動車生産率を増加させました。",
+      "level": 2
+    },
+    {
+      "headword": "prototype",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊtətaɪp/",
+      "meaning": "試作品；プロトタイプ",
+      "exampleEn": "Engineers built working prototype model aircraft.",
+      "exampleJa": "技術者たちは稼働する試作品（プロトタイプ）模型航空機を組み立てました。",
+      "level": 3
+    },
+    {
+      "headword": "quality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkwɑːləti/",
+      "meaning": "品質；質",
+      "exampleEn": "Maintain high product quality control standards.",
+      "exampleJa": "高い製品品質管理基準を維持しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "raw material",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "原料；生資材",
+      "exampleEn": "Import raw materials for steel production.",
+      "exampleJa": "鋼鉄生産のために原料（生資材）を輸入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "refine",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfaɪn/",
+      "meaning": "を精製する；を洗練させる",
+      "exampleEn": "Refinery refines crude oil into gasoline.",
+      "exampleJa": "精油所は原油をガソリンへと精製します。",
+      "level": 3
+    },
+    {
+      "headword": "refinery",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈfaɪnəri/",
+      "meaning": "精製所；精油所",
+      "exampleEn": "Oil refinery operates near ocean harbor.",
+      "exampleJa": "石油精製所は海の港の近くで稼働しています。",
+      "level": 4
+    },
+    {
+      "headword": "reliability",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌlaɪəˈbɪləti/",
+      "meaning": "信頼性；確実性",
+      "exampleEn": "Test product hardware system reliability.",
+      "exampleJa": "製品のハードウェアシステムの信頼性をテストしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "reliable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈlaɪəbl/",
+      "meaning": "信頼できる",
+      "exampleEn": "Japanese cars are famous for being reliable.",
+      "exampleJa": "日本車は信頼できることで有名です。",
+      "level": 2
+    },
+    {
+      "headword": "repair",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈper/",
+      "meaning": "を修理・修繕する",
+      "exampleEn": "Technician repaired broken conveyor belt quickly.",
+      "exampleJa": "技術者は壊れたコンベアベルトを迅速に修理しました。",
+      "level": 2
+    },
+    {
+      "headword": "robotics",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊˈbɑːtɪks/",
+      "meaning": "ロボット工学",
+      "exampleEn": "Factory utilizes advanced robotics technology.",
+      "exampleJa": "工場は高度なロボット工学技術を活用しています。",
+      "level": 3
+    },
+    {
+      "headword": "semiconductor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsemikənˈdʌktər/",
+      "meaning": "半導体",
+      "exampleEn": "Shortage of semiconductor chips affected car production.",
+      "exampleJa": "半導体チップの不足が自動車生産に影響を与えました。",
+      "level": 4
+    },
+    {
+      "headword": "server",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrvər/",
+      "meaning": "サーバー",
+      "exampleEn": "Company database runs on cloud server.",
+      "exampleJa": "会社のデータベースはクラウドサーバー上で稼働しています。",
+      "level": 2
+    },
+    {
+      "headword": "setup",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsetʌp/",
+      "meaning": "セットアップ；設定",
+      "exampleEn": "Complete computer system initial setup process.",
+      "exampleJa": "コンピューターシステムの初期セットアップ（設定）手順を完了しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "software",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɔːftwer/",
+      "meaning": "ソフトウェア",
+      "exampleEn": "Update antivirus software on office computers.",
+      "exampleJa": "オフィスのコンピューターのウイルス対策ソフトウェアを更新しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "standard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstændərd/",
+      "meaning": "標準；規格",
+      "exampleEn": "Product complies with international safety standards.",
+      "exampleJa": "製品は国際安全規格（標準）に適合しています。",
+      "level": 2
+    },
+    {
+      "headword": "standardize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈstændərdaɪz/",
+      "meaning": "を標準化・規格化する",
+      "exampleEn": "Firm standardized assembly manufacturing procedures.",
+      "exampleJa": "企業は組み立て製造手順を標準化しました。",
+      "level": 3
+    },
+    {
+      "headword": "technology",
+      "partOfSpeech": "noun",
+      "phonetic": "/tekˈnɑːlədʒi/",
+      "meaning": "技術；テクノロジー",
+      "exampleEn": "Modern technology improved energy efficiency.",
+      "exampleJa": "現代の技術（テクノロジー）がエネルギー効率を向上させました。",
+      "level": 2
+    },
+    {
+      "headword": "troubleshoot",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtrʌblʃuːt/",
+      "meaning": "の問題を解決する；トラブルシューティングする",
+      "exampleEn": "Technician troubleshot network connection error.",
+      "exampleJa": "技術者がネットワーク接続エラーのトラブルシューティング（原因特定解決）を行いました。",
+      "level": 3
+    },
+    {
+      "headword": "upgrade",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌpˈɡreɪd/",
+      "meaning": "を改良・アップグレードする",
+      "exampleEn": "Upgrade factory machine control software version.",
+      "exampleJa": "工場機械制御ソフトウェアのバージョンをアップグレード（改良）しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "toner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtoʊnər/",
+      "meaning": "トナー；印刷インク",
+      "exampleEn": "Replace empty printer toner cartridge today.",
+      "exampleJa": "今日空のプリンタートナーカートリッジを交換しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "headhunter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhedhʌntər/",
+      "meaning": "ヘッドハンター；人材スカウト",
+      "exampleEn": "Headhunter contacted top executive for job.",
+      "exampleJa": "ヘッドハンターが最高の幹部に仕事で連絡しました。",
+      "level": 3
+    },
+    {
+      "headword": "default",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈfɔːlt/",
+      "meaning": "債務不履行；デフォルト",
+      "exampleEn": "Company avoided loan debt default risk.",
+      "exampleJa": "会社はローン債務不履行（デフォルト）リスクを回避しました。",
+      "level": 3
+    },
+    {
+      "headword": "endorse",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈdɔːrs/",
+      "meaning": "を推薦・宣伝する；裏書する",
+      "exampleEn": "Athlete endorsed popular sports shoe brand.",
+      "exampleJa": "アスリートが人気のスポーツシューズブランドを宣伝（推薦）しました。",
+      "level": 3
+    },
+    {
+      "headword": "microchip",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmaɪkroʊtʃɪp/",
+      "meaning": "マイクロチップ；集積回路",
+      "exampleEn": "Install advanced computer microchip in device.",
+      "exampleJa": "機器に高度なコンピューターマイクロチップを取り付けなさい。",
+      "level": 3
+    },
+    {
+      "headword": "day-trip",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdeɪ trɪp/",
+      "meaning": "日帰り旅行",
+      "exampleEn": "Take fun Sunday day-trip to mountain lake.",
+      "exampleJa": "山奥の湖へ楽しい日曜日日帰り旅行に行きちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "unforeseen",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌʌnfɔːrˈsiːn/",
+      "meaning": "予期せぬ；思いがけない",
+      "exampleEn": "Delay caused by unforeseen weather emergency event.",
+      "exampleJa": "遅延は予期せぬ天候緊急事態が原因で発生しました。",
+      "level": 3
+    },
+    {
+      "headword": "under the supervision of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の監督のもとで",
+      "exampleEn": "Trainees work under the supervision of senior manager.",
+      "exampleJa": "研修生たちはシニアマネージャーの監督のもとで働きます。",
+      "level": 3
+    }
+  ]
+}

@@ -1,0 +1,1059 @@
+{
+  "chunk": "02_verbs_action_change",
+  "note": "変化・変容・作用・干渉に関する発展動詞",
+  "words": [
+    {
+      "headword": "accelerate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈseləreɪt/",
+      "meaning": "を加速させる；速くなる",
+      "exampleEn": "The car accelerated rapidly on highway.",
+      "exampleJa": "車は高速道路で急速に加速しました。",
+      "level": 4
+    },
+    {
+      "headword": "aggravate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈæɡrəveɪt/",
+      "meaning": "をさらに悪化させる；を怒らせる",
+      "exampleEn": "Stress can aggravate skin conditions.",
+      "exampleJa": "ストレスは皮膚疾患をさらに悪化させることがあります。",
+      "level": 5
+    },
+    {
+      "headword": "amplify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈæmplɪfaɪ/",
+      "meaning": "を増幅する；を拡大する",
+      "exampleEn": "Speakers amplify the guitar sound.",
+      "exampleJa": "スピーカーがギターの音を増幅します。",
+      "level": 4
+    },
+    {
+      "headword": "contaminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈtæmɪneɪt/",
+      "meaning": "を汚染する；を汚す",
+      "exampleEn": "Chemicals contaminated the river water.",
+      "exampleJa": "化学物質が川の水を汚染しました。",
+      "level": 4
+    },
+    {
+      "headword": "corrupt",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈrʌpt/",
+      "meaning": "を堕落させる；を破損する",
+      "exampleEn": "Power tends to corrupt leaders.",
+      "exampleJa": "権力は指導者を堕落させる傾向があります。",
+      "level": 4
+    },
+    {
+      "headword": "degrade",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈɡreɪd/",
+      "meaning": "を低減させる；劣解する",
+      "exampleEn": "Plastics degrade slowly in ocean.",
+      "exampleJa": "プラスチックは海中でゆっくり分解・劣化します。",
+      "level": 4
+    },
+    {
+      "headword": "distort",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstɔːrt/",
+      "meaning": "を歪める；歪む",
+      "exampleEn": "Media distorted his original words.",
+      "exampleJa": "メディアは彼の元の発言を歪めました。",
+      "level": 4
+    },
+    {
+      "headword": "divert",
+      "partOfSpeech": "verb",
+      "phonetic": "/daɪˈvɜːrt/",
+      "meaning": "をそらす；を迂回させる",
+      "exampleEn": "Traffic was diverted due to roadwork.",
+      "exampleJa": "工事のため交通は迂回させられました。",
+      "level": 4
+    },
+    {
+      "headword": "elevate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈelɪveɪt/",
+      "meaning": "を高める；を持ち上げる",
+      "exampleEn": "Exercise elevates your heart rate.",
+      "exampleJa": "運動は心拍数を高めます。",
+      "level": 4
+    },
+    {
+      "headword": "enhance",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈhæns/",
+      "meaning": "を高める；を強化する",
+      "exampleEn": "Good lighting enhances room atmosphere.",
+      "exampleJa": "良い照明は部屋の雰囲気を高めます。",
+      "level": 3
+    },
+    {
+      "headword": "enrich",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈrɪtʃ/",
+      "meaning": "を豊かにする",
+      "exampleEn": "Reading enriches your mind.",
+      "exampleJa": "読書は心を豊かにします。",
+      "level": 3
+    },
+    {
+      "headword": "erode",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈroʊd/",
+      "meaning": "を浸食する；蝕む",
+      "exampleEn": "Waves erode the sandy cliff.",
+      "exampleJa": "波が砂の崖を浸食します。",
+      "level": 4
+    },
+    {
+      "headword": "escalate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈeskəleɪt/",
+      "meaning": "を段階的に拡大させる；エスカレートする",
+      "exampleEn": "Tensions escalated into conflict.",
+      "exampleJa": "緊張が衝突へとエスカレートしました。",
+      "level": 5
+    },
+    {
+      "headword": "evolve",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈvɑːlv/",
+      "meaning": "進化する；を発展させる",
+      "exampleEn": "Animals evolved over millions of years.",
+      "exampleJa": "動物は何百万年もの時をかけて進化しました。",
+      "level": 3
+    },
+    {
+      "headword": "fluctuate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈflʌktʃueɪt/",
+      "meaning": "変動する；上下する",
+      "exampleEn": "Prices fluctuate according to season.",
+      "exampleJa": "価格は季節に応じて変動します。",
+      "level": 4
+    },
+    {
+      "headword": "generate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒenəreɪt/",
+      "meaning": "を発生させる；を生み出す",
+      "exampleEn": "Turbines generate green electricity.",
+      "exampleJa": "タービンがクリーン電力を生み出します。",
+      "level": 3
+    },
+    {
+      "headword": "impair",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈper/",
+      "meaning": "を損なう；を減退させる",
+      "exampleEn": "Alcohol impairs judgment capability.",
+      "exampleJa": "アルコールは判断能力を損ないます。",
+      "level": 5
+    },
+    {
+      "headword": "impede",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpiːd/",
+      "meaning": "を妨げる；を遅らせる",
+      "exampleEn": "Storms impeded search efforts.",
+      "exampleJa": "嵐が捜索活動を妨げました。",
+      "level": 5
+    },
+    {
+      "headword": "intensify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtensɪfaɪ/",
+      "meaning": "を激しくする；強まる",
+      "exampleEn": "Competition intensified in the market.",
+      "exampleJa": "市場での競争が激化しました。",
+      "level": 4
+    },
+    {
+      "headword": "interfere",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntərˈfɪr/",
+      "meaning": "干渉する；邪魔をする",
+      "exampleEn": "Don't interfere in private matters.",
+      "exampleJa": "私事に干渉しないでください。",
+      "level": 3
+    },
+    {
+      "headword": "manipulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/məˈnɪpjəleɪt/",
+      "meaning": "を巧みに操る；を改ざんする",
+      "exampleEn": "He manipulated data to win.",
+      "exampleJa": "彼は勝利するためにデータを操作しました。",
+      "level": 4
+    },
+    {
+      "headword": "modify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmɑːdɪfaɪ/",
+      "meaning": "を修正する；を修飾する",
+      "exampleEn": "We modified the original program.",
+      "exampleJa": "私たちは元のプログラムを修正しました。",
+      "level": 3
+    },
+    {
+      "headword": "multiply",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmʌltɪplaɪ/",
+      "meaning": "を掛ける；を増殖させる",
+      "exampleEn": "Rabbits multiply very quickly.",
+      "exampleJa": "ウサギは急速に増殖します。",
+      "level": 3
+    },
+    {
+      "headword": "nurture",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈnɜːrtʃər/",
+      "meaning": "を育む；を養育する",
+      "exampleEn": "Parents nurture talent in children.",
+      "exampleJa": "親は子どもの才能を育みます。",
+      "level": 4
+    },
+    {
+      "headword": "penetrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpenətreɪt/",
+      "meaning": "を貫通する；に浸透する",
+      "exampleEn": "Light cannot penetrate thick wall.",
+      "exampleJa": "光は厚い壁を貫通できません。",
+      "level": 4
+    },
+    {
+      "headword": "pollute",
+      "partOfSpeech": "verb",
+      "phonetic": "/pəˈluːt/",
+      "meaning": "を汚染する",
+      "exampleEn": "Smoke pollutes the urban air.",
+      "exampleJa": "煙が都市の大気を汚染します。",
+      "level": 3
+    },
+    {
+      "headword": "provoke",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈvoʊk/",
+      "meaning": "を挑発する；を誘発する",
+      "exampleEn": "His comment provoked angry reactions.",
+      "exampleJa": "彼のコメントは怒りの反応を誘発しました。",
+      "level": 4
+    },
+    {
+      "headword": "refine",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfaɪn/",
+      "meaning": "を洗練させる；を精製する",
+      "exampleEn": "Refine your essay before publishing.",
+      "exampleJa": "出版前に小論文を推敲・洗練させなさい。",
+      "level": 4
+    },
+    {
+      "headword": "regulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈreɡjəleɪt/",
+      "meaning": "を規制する；を調整する",
+      "exampleEn": "Laws regulate pharmaceutical sales.",
+      "exampleJa": "法律が医薬品の販売を規制しています。",
+      "level": 3
+    },
+    {
+      "headword": "renovate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrenəveɪt/",
+      "meaning": "を改修する；をリノベーションする",
+      "exampleEn": "They renovated the historic building.",
+      "exampleJa": "彼らは歴史的建物を改修しました。",
+      "level": 4
+    },
+    {
+      "headword": "resume",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzuːm/",
+      "meaning": "を再開する；再開する",
+      "exampleEn": "Classes will resume on Monday.",
+      "exampleJa": "授業は月曜日に再開されます。",
+      "level": 3
+    },
+    {
+      "headword": "retard",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈtɑːrd/",
+      "meaning": "を遅らせる；を阻害する",
+      "exampleEn": "Cold weather retarded crop growth.",
+      "exampleJa": "寒冷な天候が作物の成長を遅らせました。",
+      "level": 5
+    },
+    {
+      "headword": "reverse",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvɜːrs/",
+      "meaning": "を逆転させる；を反対にする",
+      "exampleEn": "Court reversed the previous decision.",
+      "exampleJa": "裁判所は以前の決定を翻しました。",
+      "level": 3
+    },
+    {
+      "headword": "revive",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvaɪv/",
+      "meaning": "を復活させる；蘇る",
+      "exampleEn": "Water revived the dry plant.",
+      "exampleJa": "水が枯れた植物を復活させました。",
+      "level": 4
+    },
+    {
+      "headword": "suppress",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈpres/",
+      "meaning": "を抑圧する；を抑制する",
+      "exampleEn": "Police suppressed the violent riot.",
+      "exampleJa": "警察は暴動を抑圧しました。",
+      "level": 4
+    },
+    {
+      "headword": "suspend",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈspend/",
+      "meaning": "を一時停止する；を吊るす",
+      "exampleEn": "Services were suspended due to storm.",
+      "exampleJa": "嵐のため運休・停止になりました。",
+      "level": 3
+    },
+    {
+      "headword": "sustain",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈsteɪn/",
+      "meaning": "を維持する；を支える",
+      "exampleEn": "Hope sustained us through hardship.",
+      "exampleJa": "希望が苦難のあいだ私たちを支えました。",
+      "level": 3
+    },
+    {
+      "headword": "terminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtɜːrmɪneɪt/",
+      "meaning": "を終了させる；終わる",
+      "exampleEn": "Company terminated the contract.",
+      "exampleJa": "会社は契約を終了させました。",
+      "level": 4
+    },
+    {
+      "headword": "thrive",
+      "partOfSpeech": "verb",
+      "phonetic": "/θraɪv/",
+      "meaning": "繁栄する；元気に育つ",
+      "exampleEn": "Cactus thrives in dry climates.",
+      "exampleJa": "サボテンは乾燥した気候でよく育ちます。",
+      "level": 4
+    },
+    {
+      "headword": "trigger",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtrɪɡər/",
+      "meaning": "を引き起こす；の引き金となる",
+      "exampleEn": "Pollen triggers severe allergies.",
+      "exampleJa": "花粉が重いアレルギーを引き起こします。",
+      "level": 3
+    },
+    {
+      "headword": "undermine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌndərˈmaɪn/",
+      "meaning": "を密かに損なう；の土台を崩す",
+      "exampleEn": "Scandal undermined his public trust.",
+      "exampleJa": "スキャンダルが彼の公的信頼を密かに損ないました。",
+      "level": 4
+    },
+    {
+      "headword": "unify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈjuːnɪfaɪ/",
+      "meaning": "を統一する；を統合する",
+      "exampleEn": "Leader unified the fragmented nation.",
+      "exampleJa": "指導者は分裂した国家を統一しました。",
+      "level": 4
+    },
+    {
+      "headword": "violate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈvaɪəleɪt/",
+      "meaning": "に違反する；を侵害する",
+      "exampleEn": "Speeding violates traffic laws.",
+      "exampleJa": "スピード違反は交通法規に違反します。",
+      "level": 3
+    },
+    {
+      "headword": "worsen",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwɜːrsn/",
+      "meaning": "悪化する；を悪化させる",
+      "exampleEn": "Weather worsened later in evening.",
+      "exampleJa": "夕方遅くになって天候が悪化しました。",
+      "level": 3
+    },
+    {
+      "headword": "abbreviation",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˌbriːviˈeɪʃn/",
+      "meaning": "略語；省略形",
+      "exampleEn": "USA is a well-known abbreviation for United States.",
+      "exampleJa": "USA はアメリカ合衆国の有名な略語（省略形）です。",
+      "level": 3
+    },
+    {
+      "headword": "abortion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈbɔːrʃn/",
+      "meaning": "妊娠中絶",
+      "exampleEn": "Debate surrounding legal abortion rights laws.",
+      "exampleJa": "合法的な妊娠中絶の権利の法律を取り巻く討論。",
+      "level": 4
+    },
+    {
+      "headword": "abuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈbjuːz/",
+      "meaning": "を悪用・乱用する；虐待",
+      "exampleEn": "Do not abuse office power position.",
+      "exampleJa": "オフィスの権力の立場を悪用（乱用）してはなりません。",
+      "level": 3
+    },
+    {
+      "headword": "acclimate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈækliːmeɪt/",
+      "meaning": "に順応する；慣れる",
+      "exampleEn": "Take time to acclimate high mountain climate altitude.",
+      "exampleJa": "高い山の気候の標高に順応する（慣れる）ための時間を取りなさい。",
+      "level": 5
+    },
+    {
+      "headword": "accredit",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkredɪt/",
+      "meaning": "を認可・信用する",
+      "exampleEn": "Institution accredited university education degree program.",
+      "exampleJa": "機関が大学の教育学位プログラムを認可（信用）しました。",
+      "level": 5
+    },
+    {
+      "headword": "acorn",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeɪkɔːrn/",
+      "meaning": "ドングリ（木の実）",
+      "exampleEn": "Squirrel collected oak tree nut acorn.",
+      "exampleJa": "リスがオークの樹木の実ドングリを収集しました。",
+      "level": 3
+    },
+    {
+      "headword": "acronym",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈækrənɪm/",
+      "meaning": "頭文字語；アクロニム",
+      "exampleEn": "NATO is an acronym for North Atlantic Treaty Organization.",
+      "exampleJa": "NATO は北大西洋条約機構の頭文字語（アクロニム）です。",
+      "level": 4
+    },
+    {
+      "headword": "addictive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈdɪktɪv/",
+      "meaning": "依存性の高い；病みつきになる",
+      "exampleEn": "Nicotine sugar chemical is highly addictive.",
+      "exampleJa": "ニコチンや砂糖の化学物質は非常に依存性が高いです。",
+      "level": 3
+    },
+    {
+      "headword": "administrative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ədˈmɪnɪstreɪtɪv/",
+      "meaning": "管理の；行政の",
+      "exampleEn": "Handle corporate office administrative work duties.",
+      "exampleJa": "企業のオフィスの管理の（行政の）作業業務を取り扱いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "adroit",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈdrɔɪt/",
+      "meaning": "巧みな；器用な",
+      "exampleEn": "He showed adroit political negotiation skills.",
+      "exampleJa": "彼は巧みな（器用な）政治交渉スキルを示しました。",
+      "level": 5
+    },
+    {
+      "headword": "affiliate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfɪlieɪt/",
+      "meaning": "と提携する；加盟する",
+      "exampleEn": "Local office is affiliated with global network.",
+      "exampleJa": "地元のオフィスはグローバルネットワークと提携（加盟）しています。",
+      "level": 3
+    },
+    {
+      "headword": "agonizing",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæɡənaɪzɪŋ/",
+      "meaning": "苦痛に満ちた；煩悶させる",
+      "exampleEn": "Faced an agonizing long wait for news.",
+      "exampleJa": "ニュースに対する苦痛に満ちた（煩悶させる）長い待ち時間に直面しました。",
+      "level": 4
+    },
+    {
+      "headword": "alienate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈeɪliəneɪt/",
+      "meaning": "を遠ざける；疎外する",
+      "exampleEn": "Arrogant behavior alienates close team friends.",
+      "exampleJa": "傲慢な行動が親しいチームの友人を遠ざけます（疎外します）。",
+      "level": 4
+    },
+    {
+      "headword": "allot",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈlɑːt/",
+      "meaning": "を分配・割り当てる",
+      "exampleEn": "Allot ten minutes for question answer time.",
+      "exampleJa": "質疑応答時間のために10分を分配（割り当て）しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "altruism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæltruɪzəm/",
+      "meaning": "利他主義；愛他心",
+      "exampleEn": "Action driven by pure human altruism.",
+      "exampleJa": "純粋な人間の利他主義（愛他心）によって駆動された行動。",
+      "level": 4
+    },
+    {
+      "headword": "amenable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈmiːnəbl/",
+      "meaning": "従順な；受け入れる",
+      "exampleEn": "Staff were amenable to proposed schedule change.",
+      "exampleJa": "スタッフは提案されたスケジュール変更を受け入れる（従順な）姿勢でした。",
+      "level": 5
+    },
+    {
+      "headword": "amortization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæmɔːrtɪˈzeɪʃn/",
+      "meaning": "償却；割賦返済",
+      "exampleEn": "Calculate bank loan debt amortization schedule.",
+      "exampleJa": "銀行ローンの負債の償却（割賦返済）スケジュールを計算しなさい。",
+      "level": 5
+    },
+    {
+      "headword": "anachronism",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈnækrənɪzəm/",
+      "meaning": "時代錯誤；時代遅れのもの",
+      "exampleEn": "Using paper typewriter today is an anachronism.",
+      "exampleJa": "今日紙のタイプライターを使用することは時代錯誤（時代遅れ）です。",
+      "level": 5
+    },
+    {
+      "headword": "anchorage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæŋkərɪdʒ/",
+      "meaning": "停泊地；アンカレッジ",
+      "exampleEn": "Ship entered safe sea ocean harbor anchorage.",
+      "exampleJa": "船が安全な海の海洋港停泊地に入港しました。",
+      "level": 5
+    },
+    {
+      "headword": "annals",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænlz/",
+      "meaning": "歴史的記録；年代記",
+      "exampleEn": "Recorded in official historical national annals.",
+      "exampleJa": "公式な歴史的国家記録（年代記）に記録されました。",
+      "level": 5
+    },
+    {
+      "headword": "antagonist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ænˈtæɡənɪst/",
+      "meaning": "敵対者；悪役",
+      "exampleEn": "Main antagonist in story opposed hero.",
+      "exampleJa": "物語の中の主要な敵対者（悪役）がヒーローに対抗しました。",
+      "level": 4
+    },
+    {
+      "headword": "antiquated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæntɪkweɪtɪd/",
+      "meaning": "時代遅れの；古臭い",
+      "exampleEn": "Company uses antiquated computer system software.",
+      "exampleJa": "会社は時代遅れの（古臭い）コンピューターシステムソフトウェアを使用しています。",
+      "level": 4
+    },
+    {
+      "headword": "apolitical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌeɪpəˈlɪtɪkl/",
+      "meaning": "政治に関心のない；ノンポリの",
+      "exampleEn": "Organization remains completely neutral apolitical.",
+      "exampleJa": "組織は完全な中立の政治に関心のない状態を維持します。",
+      "level": 5
+    },
+    {
+      "headword": "append",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpend/",
+      "meaning": "を添える；を付加する",
+      "exampleEn": "Append additional note signature end document.",
+      "exampleJa": "文書の末尾に追加のメモ署名を添えちなさい（付加しなさい）。",
+      "level": 4
+    },
+    {
+      "headword": "apprentice",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈprentɪs/",
+      "meaning": "見習い；弟子",
+      "exampleEn": "Work as trade craft builder apprentice.",
+      "exampleJa": "職人建築業者の見習い（弟子）として働きちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "arbiter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrbɪtər/",
+      "meaning": "仲裁人；判定者",
+      "exampleEn": "Court acts as final legal arbiter dispute.",
+      "exampleJa": "裁判所が最終的な法的紛争の仲裁人（判定者）として機能します。",
+      "level": 5
+    },
+    {
+      "headword": "ardor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrdər/",
+      "meaning": "熱情；情熱",
+      "exampleEn": "Spoke with intense personal passion ardor spirit.",
+      "exampleJa": "激しい個人の情熱の精神（熱情）をもって話しました。",
+      "level": 5
+    },
+    {
+      "headword": "arraign",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈreɪn/",
+      "meaning": "を罪状認否に問う；告発する",
+      "exampleEn": "Suspect was arraigned on charges of robbery fraud.",
+      "exampleJa": "容疑者は強盗詐欺の罪状認否に問われました（告発されました）。",
+      "level": 5
+    },
+    {
+      "headword": "artless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːrtləs/",
+      "meaning": "無邪気な；飾りのない",
+      "exampleEn": "Child answered question with artless honesty simple.",
+      "exampleJa": "子供は無邪気な（飾りのない）素直な誠実さで質問に答えました。",
+      "level": 5
+    },
+    {
+      "headword": "assassin",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsæsn/",
+      "meaning": "暗殺者",
+      "exampleEn": "Secret assassin killed political leader president.",
+      "exampleJa": "秘密の暗殺者が政治指導者の大統領を殺害しました。",
+      "level": 3
+    },
+    {
+      "headword": "astringent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈstrɪndʒənt/",
+      "meaning": "収れん性の；辛辣な",
+      "exampleEn": "Green tea has an astringent bitter natural taste.",
+      "exampleJa": "緑茶は収れん性の（辛辣な）苦い自然の味を持っています。",
+      "level": 5
+    },
+    {
+      "headword": "attenuate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtenjueɪt/",
+      "meaning": "を減衰・弱体化させる",
+      "exampleEn": "Wall dampens sound to attenuate noise level.",
+      "exampleJa": "壁が音を湿らせて騒音レベルを減衰・弱体化させます。",
+      "level": 5
+    },
+    {
+      "headword": "augmentation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːɡmenˈteɪʃn/",
+      "meaning": "増大；拡充",
+      "exampleEn": "Capital budget augmentation for tech research.",
+      "exampleJa": "技術研究のための資本予算の増大（拡充）。",
+      "level": 5
+    },
+    {
+      "headword": "authorization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːθərəˈzeɪʃn/",
+      "meaning": "許可；認可；権限",
+      "exampleEn": "Obtain written manager payment budget authorization.",
+      "exampleJa": "マネージャーの書面による支払予算許可（認可）を入手しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "aviation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌeɪviˈeɪʃn/",
+      "meaning": "航空；航空学",
+      "exampleEn": "Commercial air travel airplane aviation industry.",
+      "exampleJa": "商用航空旅行飛行機航空（航空学）産業。",
+      "level": 3
+    },
+    {
+      "headword": "balm",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɑːm/",
+      "meaning": "バーム；気休め；香油",
+      "exampleEn": "Music was a soothing balm to soul.",
+      "exampleJa": "音楽は魂を静める気休め（バーム）でした。",
+      "level": 4
+    },
+    {
+      "headword": "barbarism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɑːrbərɪzəm/",
+      "meaning": "野蛮；未開状態",
+      "exampleEn": "War reduced civilization to violent barbarism.",
+      "exampleJa": "戦争が文明を暴力的な野蛮（未開状態）へと縮小させました。",
+      "level": 4
+    },
+    {
+      "headword": "blackmail",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈblækmeɪl/",
+      "meaning": "恐喝；ゆすり",
+      "exampleEn": "Criminal attempted financial extortion threat blackmail.",
+      "exampleJa": "犯罪者が金銭的恐喝（ゆすり）の脅迫を試みました。",
+      "level": 3
+    },
+    {
+      "headword": "blockade",
+      "partOfSpeech": "noun",
+      "phonetic": "/blɑːˈkeɪd/",
+      "meaning": "封鎖；遮断",
+      "exampleEn": "Naval war fleet established port blockade.",
+      "exampleJa": "海軍の軍艦艦隊が港の封鎖（遮断）を確立しました。",
+      "level": 4
+    },
+    {
+      "headword": "botanical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bəˈtænɪkl/",
+      "meaning": "植物の；植物学の",
+      "exampleEn": "Visit beautiful green city botanical garden.",
+      "exampleJa": "美しい緑の都市の植物（植物学の）庭園を訪問しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "brim",
+      "partOfSpeech": "noun",
+      "phonetic": "/brɪm/",
+      "meaning": "縁；フチ",
+      "exampleEn": "Fill cup water up to brim top.",
+      "exampleJa": "カップのフチ（縁）の頂点まで水を満たしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "buggy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌɡi/",
+      "meaning": "ベビーカー；バギー",
+      "exampleEn": "Push baby inside comfortable wheeled buggy.",
+      "exampleJa": "快適な車輪付きベビーカー（バギー）の中に赤ちゃんを押しちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "cadaver",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈdævər/",
+      "meaning": "死体；遺体（医学解剖用）",
+      "exampleEn": "Medical student dissected human body cadaver.",
+      "exampleJa": "医学生が人体の死体（遺体）を解剖しました。",
+      "level": 5
+    },
+    {
+      "headword": "candor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkændər/",
+      "meaning": "率直さ；誠実さ",
+      "exampleEn": "Appreciate your open honesty and speech candor.",
+      "exampleJa": "あなたのオープンな誠実さとスピーチの率直さを評価しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "capricious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəˈprɪʃəs/",
+      "meaning": "気まぐれな；変わりやすい",
+      "exampleEn": "Weather climate in spring is capricious.",
+      "exampleJa": "春の天候気候は気まぐれ（変わりやすい）です。",
+      "level": 4
+    },
+    {
+      "headword": "caress",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈres/",
+      "meaning": "を愛撫する；を優しく撫でる",
+      "exampleEn": "Mother caressed child cheek soft hand.",
+      "exampleJa": "母親が柔らかい手で子供の頬を優しく撫でました（愛撫しました）。",
+      "level": 4
+    },
+    {
+      "headword": "caste",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæst/",
+      "meaning": "カースト；身分階級",
+      "exampleEn": "Ancient society organized rigid social caste system.",
+      "exampleJa": "古代社会が厳格な社会的カースト制度（身分階級）を組織しました。",
+      "level": 4
+    },
+    {
+      "headword": "catharsis",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈθɑːrsɪs/",
+      "meaning": "カタルシス；精神の浄化",
+      "exampleEn": "Writing poetry was an emotional mental catharsis.",
+      "exampleJa": "詩を書くことは感情の精神的カタルシス（浄化）でした。",
+      "level": 5
+    },
+    {
+      "headword": "celerity",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈlerəti/",
+      "meaning": "敏速；迅速さ",
+      "exampleEn": "Acted with remarkable speed and celerity.",
+      "exampleJa": "注目すべき速度と敏速（迅速さ）をもって行動しました。",
+      "level": 5
+    },
+    {
+      "headword": "cessation",
+      "partOfSpeech": "noun",
+      "phonetic": "/seˈseɪʃn/",
+      "meaning": "停止；中断",
+      "exampleEn": "Call for immediate cessation of war hostilities.",
+      "exampleJa": "戦争の敵対行為の即座の停止（中断）を求めちなさい。",
+      "level": 4
+    },
+    {
+      "headword": "chide",
+      "partOfSpeech": "verb",
+      "phonetic": "/tʃaɪd/",
+      "meaning": "をたしなめる；小言を言う",
+      "exampleEn": "Mother chided child for being late home.",
+      "exampleJa": "母親が帰宅遅刻について子供をたしなめました（小言を言いました）。",
+      "level": 4
+    },
+    {
+      "headword": "coagulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/koʊˈæɡjuleɪt/",
+      "meaning": "を凝固・凝固させる",
+      "exampleEn": "Blood started to coagulate and clot wound.",
+      "exampleJa": "血液が傷口で凝固し（固まり）始めました。",
+      "level": 5
+    },
+    {
+      "headword": "hallmark",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɔːlmɑːrk/",
+      "meaning": "太鼓判；特徴；印",
+      "exampleEn": "Quality is the hallmark of fine product.",
+      "exampleJa": "品質は素晴らしい製品の特徴（太鼓判）です。",
+      "level": 3
+    },
+    {
+      "headword": "hazardous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhæzərdəs/",
+      "meaning": "危険な；有害な",
+      "exampleEn": "Dispose of hazardous toxic chemical waste safe.",
+      "exampleJa": "危険な（有害な）有毒化学廃棄物を安全に処分しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "hoax",
+      "partOfSpeech": "noun",
+      "phonetic": "/hoʊks/",
+      "meaning": "でっち上げ；イタズラ",
+      "exampleEn": "Bomb threat report was a cruel hoax.",
+      "exampleJa": "爆破脅迫通報は残酷なでっち上げ（イタズラ）でした。",
+      "level": 4
+    },
+    {
+      "headword": "humanitarian",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hjuːˌmænɪˈteriən/",
+      "meaning": "人道主義の；人道支援の",
+      "exampleEn": "Provide emergency medical humanitarian aid food.",
+      "exampleJa": "緊急医療人道支援の食料を提供しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "ideological",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌaɪdiəˈlɑːdʒɪkl/",
+      "meaning": "思想上の；イデオロギーの",
+      "exampleEn": "Faced deep political ideological conflict.",
+      "exampleJa": "深い政治的思想上の（イデオロギーの）対立に直面しました。",
+      "level": 4
+    },
+    {
+      "headword": "illusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈluːʒn/",
+      "meaning": "錯覚；幻想",
+      "exampleEn": "Optical mirror illusion tricked eyes visual.",
+      "exampleJa": "光学的な鏡の錯覚（幻想）が視覚の目を欺きました。",
+      "level": 3
+    },
+    {
+      "headword": "immorality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪməˈræləti/",
+      "meaning": "不道徳；背徳",
+      "exampleEn": "Condemn public corruption and financial immorality.",
+      "exampleJa": "世間の汚職と金銭的不道徳（背徳）を非難しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "impeach",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpiːtʃ/",
+      "meaning": "を弾劾する；問責する",
+      "exampleEn": "Congress voted to impeach corrupt president officer.",
+      "exampleJa": "議会が不正な大統領官僚を弾劾する（問責する）ことを採択しました。",
+      "level": 4
+    },
+    {
+      "headword": "impersonate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpɜːrsəneɪt/",
+      "meaning": "の変装・模倣をする",
+      "exampleEn": "Criminal tried to impersonate police officer.",
+      "exampleJa": "犯罪者が警察官の変装・模倣をしようと試みました。",
+      "level": 4
+    },
+    {
+      "headword": "implore",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈplɔːr/",
+      "meaning": "に哀願する；懇願する",
+      "exampleEn": "Victim implored judge for mercy sentence.",
+      "exampleJa": "被害者が裁判官に判決の慈悲を哀願（懇願）しました。",
+      "level": 4
+    },
+    {
+      "headword": "impregnable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpreɡnəbl/",
+      "meaning": "難攻不落の；堅固な",
+      "exampleEn": "Castle is an impregnable military stone fortress.",
+      "exampleJa": "城は難攻不落の（堅固な）軍事石造要塞です。",
+      "level": 4
+    },
+    {
+      "headword": "impulse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmpʌls/",
+      "meaning": "衝動；弾み；心力",
+      "exampleEn": "Buy items on sudden emotional shopping impulse.",
+      "exampleJa": "突然の感情的な買い物の衝動（弾み）で商品を購入しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "inapplicable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnəˈplɪkəbl/",
+      "meaning": "適用できない；当てはまらない",
+      "exampleEn": "Rule is inapplicable to this current situation.",
+      "exampleJa": "規則はこの現在の状況には適用できません（当てはまりません）。",
+      "level": 4
+    },
+    {
+      "headword": "incapacitation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnkəˌpæsɪˈteɪʃn/",
+      "meaning": "無力化；能力喪失",
+      "exampleEn": "Temporary physical incapacitation after accident.",
+      "exampleJa": "事故後の短時間の物理的能力喪失（無力化）。",
+      "level": 5
+    },
+    {
+      "headword": "incipient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈsɪpiənt/",
+      "meaning": "初期の；始まりの",
+      "exampleEn": "Doctor detected incipient health disease signs.",
+      "exampleJa": "医師が初期の（始まりの）健康疾患の兆候を検出しました。",
+      "level": 5
+    },
+    {
+      "headword": "incompatible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnkəmˈpætəbl/",
+      "meaning": "互換性のない；相容れない",
+      "exampleEn": "Software is incompatible with old operating system.",
+      "exampleJa": "ソフトウェアは古いオペレーティングシステムと互換性がありません。",
+      "level": 3
+    },
+    {
+      "headword": "inconspicuous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnkənˈspɪkjuəs/",
+      "meaning": "目立たない；控えめな",
+      "exampleEn": "Stay low profile inconspicuous in crowd.",
+      "exampleJa": "群衆の中で控えめに目立たないように位置しちなさい。",
+      "level": 4
+    },
+    {
+      "headword": "crematorium",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkriːməˈtɔːriəm/",
+      "meaning": "火葬場",
+      "exampleEn": "Body transported to city funeral crematorium.",
+      "exampleJa": "遺体が都市の葬儀火葬場へ輸送されました。",
+      "level": 5
+    },
+    {
+      "headword": "crucible",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkruːsəbl/",
+      "meaning": "るつぼ；試練の場",
+      "exampleEn": "War served as a intense crucible of character testing.",
+      "exampleJa": "戦争は性格テストの激しい試練の場（るつぼ）として機能しました。",
+      "level": 5
+    },
+    {
+      "headword": "culpable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkʌlpəbl/",
+      "meaning": "咎められるべき；罪のある",
+      "exampleEn": "Found legally culpable for fatal accident.",
+      "exampleJa": "致命的な事故について法的に罪のある（咎められるべき）と判定されました。",
+      "level": 5
+    },
+    {
+      "headword": "cynic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪnɪk/",
+      "meaning": "皮肉屋；シニカルな人",
+      "exampleEn": "Cynic questioned sincerity of public charity.",
+      "exampleJa": "皮肉屋（シニカルな人）が公共慈善の誠実さを疑問視しました。",
+      "level": 4
+    }
+  ]
+}

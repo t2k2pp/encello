@@ -1,0 +1,816 @@
+{
+  "chunk": "07_nouns_culture_arts",
+  "note": "文化・芸術・歴史・人文科学・言語に関する発展名詞",
+  "words": [
+    {
+      "headword": "artifact",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrtɪfækt/",
+      "meaning": "人工物；工芸品；歴史的遺物",
+      "exampleEn": "Museum exhibits ancient Roman artifacts.",
+      "exampleJa": "博物館は古代ローマの歴史的遺物を展示しています。",
+      "level": 4
+    },
+    {
+      "headword": "chronicle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkrɑːnɪkəl/",
+      "meaning": "年代記；歴史記録",
+      "exampleEn": "The book is a chronicle of war.",
+      "exampleJa": "その本は戦争の年代記記録です。",
+      "level": 4
+    },
+    {
+      "headword": "dialect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪəlekt/",
+      "meaning": "方言；地方話",
+      "exampleEn": "He speaks with a southern dialect.",
+      "exampleJa": "彼は南部の方言で話します。",
+      "level": 3
+    },
+    {
+      "headword": "ethos",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈiːθɑːs/",
+      "meaning": "気風；倫理的特質",
+      "exampleEn": "Hard work is part of school ethos.",
+      "exampleJa": "ハードワークは学校の気風の一部です。",
+      "level": 5
+    },
+    {
+      "headword": "folklore",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfoʊklɔːr/",
+      "meaning": "民間伝承；伝承文化",
+      "exampleEn": "Scholars study local Japanese folklore.",
+      "exampleJa": "学者たちは地元の日本民間伝承を研究しています。",
+      "level": 4
+    },
+    {
+      "headword": "genre",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʒɑːnrə/",
+      "meaning": "ジャンル；様式",
+      "exampleEn": "Jazz is my favorite music genre.",
+      "exampleJa": "ジャズは私の大好きな音楽ジャンルです。",
+      "level": 3
+    },
+    {
+      "headword": "heritage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "meaning": "遺産；継承物",
+      "exampleEn": "Kyoto has rich cultural heritage.",
+      "exampleJa": "京都には豊かな文化遺産があります。",
+      "level": 3
+    },
+    {
+      "headword": "linguistics",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪŋˈɡwɪstɪks/",
+      "meaning": "言語学",
+      "exampleEn": "She teaches applied linguistics.",
+      "exampleJa": "彼女は応用言語学を教えています。",
+      "level": 4
+    },
+    {
+      "headword": "literature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪtrətʃər/",
+      "meaning": "文学；文献",
+      "exampleEn": "English literature is fascinating.",
+      "exampleJa": "英文学は魅力的な分野です。",
+      "level": 3
+    },
+    {
+      "headword": "manuscript",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænjuskrɪpt/",
+      "meaning": "原稿；手書き写本",
+      "exampleEn": "Author submitted her final manuscript.",
+      "exampleJa": "著者は最終原稿を提出しました。",
+      "level": 4
+    },
+    {
+      "headword": "masterpiece",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmæstərpiːs/",
+      "meaning": "傑作；代表作",
+      "exampleEn": "Mona Lisa is Leonardo's masterpiece.",
+      "exampleJa": "モナリザはレオナルドの代表作です。",
+      "level": 3
+    },
+    {
+      "headword": "mythology",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɪˈθɑːlədʒi/",
+      "meaning": "神話体系；神話学",
+      "exampleEn": "Greek mythology inspires artists.",
+      "exampleJa": "ギリシャ神話は芸術家たちを触発します。",
+      "level": 4
+    },
+    {
+      "headword": "philosophy",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈlɑːsəfi/",
+      "meaning": "哲学；人生観",
+      "exampleEn": "He reads classical Greek philosophy.",
+      "exampleJa": "彼は古典ギリシャ哲学を読んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "prose",
+      "partOfSpeech": "noun",
+      "phonetic": "/proʊz/",
+      "meaning": "散文；散文体",
+      "exampleEn": "His prose style is clear.",
+      "exampleJa": "彼の散文体は明瞭です。",
+      "level": 4
+    },
+    {
+      "headword": "relic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrelɪk/",
+      "meaning": "遺物；面影",
+      "exampleEn": "Castle ruins are a historical relic.",
+      "exampleJa": "城の遺構は歴史的遺物です。",
+      "level": 4
+    },
+    {
+      "headword": "rhetoric",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈretərɪk/",
+      "meaning": "修辞法；レトリック；誇張表現",
+      "exampleEn": "Politician used persuasive rhetoric.",
+      "exampleJa": "政治家は説得力のある修辞法を用いました。",
+      "level": 4
+    },
+    {
+      "headword": "ritual",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrɪtʃuəl/",
+      "meaning": "儀式；習慣的行事",
+      "exampleEn": "Tea ceremony is a traditional ritual.",
+      "exampleJa": "茶道は伝統的な儀式です。",
+      "level": 3
+    },
+    {
+      "headword": "sculpture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskʌlptʃər/",
+      "meaning": "彫刻；彫像",
+      "exampleEn": "Marble sculpture stood in courtyard.",
+      "exampleJa": "大理石の彫刻が中庭に立っていました。",
+      "level": 3
+    },
+    {
+      "headword": "tragedy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrædʒədi/",
+      "meaning": "悲劇；惨事",
+      "exampleEn": "Shakespeare wrote famous tragedies.",
+      "exampleJa": "シェイクスピアは有名な悲劇を執筆しました。",
+      "level": 3
+    },
+    {
+      "headword": "abhor",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈhɔːr/",
+      "meaning": "を強く嫌悪する；憎む",
+      "exampleEn": "Peace lovers abhor all forms of war violence.",
+      "exampleJa": "平和を愛する人々はあらゆる形態の戦争の暴力を強く嫌悪（憎悪）します。",
+      "level": 4
+    },
+    {
+      "headword": "absolutely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌæbsəˈluːtli/",
+      "meaning": "絶対的に；まったく",
+      "exampleEn": "Statement is absolutely true without doubt.",
+      "exampleJa": "声明は疑いなくまったく（絶対的に）正しいです。",
+      "level": 3
+    },
+    {
+      "headword": "academy",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkædəmi/",
+      "meaning": "専門学校；アカデミー",
+      "exampleEn": "Graduated from national military academy school.",
+      "exampleJa": "国立軍事専門学校（アカデミー）を卒業しました。",
+      "level": 3
+    },
+    {
+      "headword": "accomplish",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkɑːmplɪʃ/",
+      "meaning": "を成し遂げる；を達成する",
+      "exampleEn": "Team accomplished difficult project task goal.",
+      "exampleJa": "チームは困難なプロジェクトタスク目標を成し遂げ（達成し）ました。",
+      "level": 3
+    },
+    {
+      "headword": "accurately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈækjərətli/",
+      "meaning": "正確に；精巧に",
+      "exampleEn": "System predicts weather change accurately today.",
+      "exampleJa": "システムが今日天候の変化を正確に予測します。",
+      "level": 3
+    },
+    {
+      "headword": "acquiescence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌækwiˈesns/",
+      "meaning": "黙認；同意",
+      "exampleEn": "Silence was taken as tacit acquiescence agreement.",
+      "exampleJa": "沈黙は暗黙の黙認（同意）として受け取られました。",
+      "level": 5
+    },
+    {
+      "headword": "actuate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈækʧueɪt/",
+      "meaning": "を作動させる；を動かす",
+      "exampleEn": "Switch actuates automatic emergency water pump.",
+      "exampleJa": "スイッチが自動緊急水ポンプを作動させます（動かします）。",
+      "level": 5
+    },
+    {
+      "headword": "adjacent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈdʒeɪsnt/",
+      "meaning": "隣接した；隣の",
+      "exampleEn": "Hotel is adjacent to central train station.",
+      "exampleJa": "ホテルは中央駅に隣接して（隣に）あります。",
+      "level": 3
+    },
+    {
+      "headword": "admittedly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ədˈmɪtɪdli/",
+      "meaning": "自白・公言するとおり；確かに",
+      "exampleEn": "Admittedly test question was very difficult.",
+      "exampleJa": "確かに（自白するとおり）テストの質問は非常に困難でした。",
+      "level": 3
+    },
+    {
+      "headword": "adverse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈædvɜːrs/",
+      "meaning": "逆の；不都合な；有害な",
+      "exampleEn": "Drug caused adverse side health effects.",
+      "exampleJa": "薬が有害な（不都合な）副作用の健康影響を引き起こしました。",
+      "level": 3
+    },
+    {
+      "headword": "affirmative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈfɜːrmətɪv/",
+      "meaning": "肯定的な；賛成の",
+      "exampleEn": "Received affirmative response answer vote.",
+      "exampleJa": "肯定的な（賛成の）応答の回答投票を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "aggressor",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈɡresər/",
+      "meaning": "侵略者；攻撃側",
+      "exampleEn": "Army repelled illegal border foreign aggressor.",
+      "exampleJa": "軍隊が違法な国境の外国の侵略者（攻撃側）を撃退しました。",
+      "level": 4
+    },
+    {
+      "headword": "airtight",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈertaɪt/",
+      "meaning": "気密の；完璧な",
+      "exampleEn": "Store food inside sealed airtight glass container.",
+      "exampleJa": "密閉された気密のガラス容器の中に食品を保管しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "almanac",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːlmənæk/",
+      "meaning": "年鑑；暦",
+      "exampleEn": "Consult annual weather information reference almanac.",
+      "exampleJa": "年次気象情報参照年鑑（暦）を参考にしなさい。",
+      "level": 4
+    },
+    {
+      "headword": "amass",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈmæs/",
+      "meaning": "を蓄積する；をかき集める",
+      "exampleEn": "He amassed great personal wealth fortune.",
+      "exampleJa": "彼は巨額の個人の財産の富を蓄積し（かき集め）ました。",
+      "level": 4
+    },
+    {
+      "headword": "amiss",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈmɪs/",
+      "meaning": "間違って；具合が悪く",
+      "exampleEn": "Sensed something was wrong and amiss.",
+      "exampleJa": "何かが間違って（具合が悪く）なっているのを感じ取りました。",
+      "level": 4
+    },
+    {
+      "headword": "amphibious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/æmˈfɪbiəs/",
+      "meaning": "水陸両用の",
+      "exampleEn": "Army deployed military amphibious vehicle operation.",
+      "exampleJa": "軍隊が軍事水陸両用車両の作戦を展開しました。",
+      "level": 4
+    },
+    {
+      "headword": "analytic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌænəˈlɪtɪk/",
+      "meaning": "分析的な",
+      "exampleEn": "Demonstrate strong logical analytic problem solving skills.",
+      "exampleJa": "強固な論理的分析的問題解決スキルを披露しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "anecdote",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænɪkdoʊt/",
+      "meaning": "逸話；秘話",
+      "exampleEn": "Speaker shared funny personal life anecdote.",
+      "exampleJa": "発表者が面白い個人の人生の逸話（秘話）を共有しました。",
+      "level": 3
+    },
+    {
+      "headword": "annotated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈænəteɪtɪd/",
+      "meaning": "注釈付きの",
+      "exampleEn": "Read annotated edition classical literature book.",
+      "exampleJa": "古典文学本の注釈付きの版を読みなさい。",
+      "level": 4
+    },
+    {
+      "headword": "anthropological",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌænθrəpəˈlɑːdʒɪkl/",
+      "meaning": "人類学の",
+      "exampleEn": "Conduct anthropological study ancient culture.",
+      "exampleJa": "古代文化の人類学の研究を実施しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "anvil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænvɪl/",
+      "meaning": "金敷；アンビル",
+      "exampleEn": "Blacksmith hammered red hot iron on anvil.",
+      "exampleJa": "鍛冶屋が金敷（アンビル）の上で赤く熱した鉄をハンマーで叩きました。",
+      "level": 5
+    },
+    {
+      "headword": "apostrophe",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɑːstrəfi/",
+      "meaning": "アポストロフィ（記号）",
+      "exampleEn": "Punctuation mark apostrophe indicates possession contraction.",
+      "exampleJa": "句読記号アポストロフィは所有や短縮を示します。",
+      "level": 3
+    },
+    {
+      "headword": "applaud",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈplɔːd/",
+      "meaning": "に拍手する；を賞賛する",
+      "exampleEn": "Audience applauded performance warmly end show.",
+      "exampleJa": "観客がショーの終了時にパフォーマンスに温かく拍手（賞賛）しました。",
+      "level": 3
+    },
+    {
+      "headword": "appropriateness",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈproʊpriətnəs/",
+      "meaning": "妥当性；適切さ",
+      "exampleEn": "Question the ethical appropriateness of action.",
+      "exampleJa": "行動の倫理的妥当性（適切さ）を疑問視しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "arc",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɑːrk/",
+      "meaning": "弧；円弧；アーク",
+      "exampleEn": "Rainbow formed colorful sky circle arc.",
+      "exampleJa": "虹がカラフルな空の円弧（アーク）を形成しました。",
+      "level": 3
+    },
+    {
+      "headword": "aridity",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈrɪdəti/",
+      "meaning": "乾燥；不毛",
+      "exampleEn": "The aridity of desert soil prevents plant growth.",
+      "exampleJa": "砂漠の土壌の乾燥（不毛）が植物の成長を妨げます。",
+      "level": 5
+    },
+    {
+      "headword": "arsenal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrsənl/",
+      "meaning": "兵器庫；蓄え",
+      "exampleEn": "Military stored weapons inside secure iron arsenal.",
+      "exampleJa": "軍隊が安全な鉄の兵器庫の中に兵器を保管しました。",
+      "level": 4
+    },
+    {
+      "headword": "ascetic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈsetɪk/",
+      "meaning": "禁欲的な；修行の",
+      "exampleEn": "Monk lived quiet simple ascetic spiritual life.",
+      "exampleJa": "修道士は静かな単純な禁欲的な（修行の）精神的生活を送りました。",
+      "level": 5
+    },
+    {
+      "headword": "assiduous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈsɪdʒuəs/",
+      "meaning": "根気強い；勤勉な",
+      "exampleEn": "Achieved success through assiduous study practice effort.",
+      "exampleJa": "根気強い（勤勉な）勉強の練習の努力を通して成功を達成しました。",
+      "level": 5
+    },
+    {
+      "headword": "asymmetry",
+      "partOfSpeech": "noun",
+      "phonetic": "/eɪˈsɪmətri/",
+      "meaning": "非対称；不均衡",
+      "exampleEn": "Noticeable visual asymmetry in architectural design.",
+      "exampleJa": "建築デザインにおける顕著な視覚的非対称（不均衡）。",
+      "level": 4
+    },
+    {
+      "headword": "attribution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæt rɪˈbjuːʃn/",
+      "meaning": "帰属；属性評価",
+      "exampleEn": "Correct quote attribution to original author book.",
+      "exampleJa": "元の著者本への正しい引用帰属（属性評価）。",
+      "level": 4
+    },
+    {
+      "headword": "auspices",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːspɪsɪz/",
+      "meaning": "保護；主催（under the auspices of）",
+      "exampleEn": "Event held under auspices of United Nations.",
+      "exampleJa": "イベントは国際連合の主催（保護）のもとで開催されました。",
+      "level": 5
+    },
+    {
+      "headword": "autonomous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɔːˈtɑːnəməs/",
+      "meaning": "自律的な；自治の",
+      "exampleEn": "Self driving vehicle uses autonomous AI computer system.",
+      "exampleJa": "自動運転車両は自律的なAIコンピューターシステムを使用しています。",
+      "level": 3
+    },
+    {
+      "headword": "awe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɔː/",
+      "meaning": "畏敬；敬畏の念",
+      "exampleEn": "Stood in silent awe before grand mountain view.",
+      "exampleJa": "壮大な山の景色の前で静かな畏敬の念（敬畏）の中に立ち尽くしました。",
+      "level": 3
+    },
+    {
+      "headword": "banish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbænɪʃ/",
+      "meaning": "を追放する；追い払う",
+      "exampleEn": "King decided to banish traitor from kingdom.",
+      "exampleJa": "国王は王国から裏切り者を追放する決断をしました。",
+      "level": 3
+    },
+    {
+      "headword": "barren",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbærən/",
+      "meaning": "不毛の；作物のできない",
+      "exampleEn": "Desert land is completely dry and barren.",
+      "exampleJa": "砂漠の土地は完全に乾燥して不毛です。",
+      "level": 3
+    },
+    {
+      "headword": "bleak",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bliːk/",
+      "meaning": "暗い；荒涼とした；見通しの暗い",
+      "exampleEn": "Economic future outlook appears cold bleak.",
+      "exampleJa": "経済の将来の見通しは寒く暗い（荒涼とした）ように見えます。",
+      "level": 3
+    },
+    {
+      "headword": "bode",
+      "partOfSpeech": "verb",
+      "phonetic": "/boʊd/",
+      "meaning": "の予兆となる（bode well/ill）",
+      "exampleEn": "High profit sales bode well for future growth.",
+      "exampleJa": "高い利益売上は将来の成長にとって良い予兆となります。",
+      "level": 4
+    },
+    {
+      "headword": "bourgeoisie",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌbʊrʒwɑːˈziː/",
+      "meaning": "ブルジョワジー；中産階級",
+      "exampleEn": "Rise of wealthy merchant industrial bourgeoisie.",
+      "exampleJa": "裕福な商人産業ブルジョワジー（中産階級）の台頭。",
+      "level": 5
+    },
+    {
+      "headword": "brittle",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbrɪtl/",
+      "meaning": "脆い；壊れやすい",
+      "exampleEn": "Old dry bones became hard brittle.",
+      "exampleJa": "古い乾燥した骨が硬く脆く（壊れやすく）なりました。",
+      "level": 3
+    },
+    {
+      "headword": "bureaucratic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌbjʊrəˈkrætɪk/",
+      "meaning": "官僚的な；お役所仕事の",
+      "exampleEn": "Avoid slow complex bureaucratic procedures rules.",
+      "exampleJa": "遅く複雑なお役所仕事の（官僚的な）手続き規則を避けなさい。",
+      "level": 3
+    },
+    {
+      "headword": "calamity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈlæməti/",
+      "meaning": "大災害；惨事",
+      "exampleEn": "Flood disaster was a great national calamity.",
+      "exampleJa": "洪水災害は偉大な国家的大災害（惨事）でした。",
+      "level": 4
+    },
+    {
+      "headword": "canopy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkænəpi/",
+      "meaning": "天蓋；樹冠；カバー",
+      "exampleEn": "Forest tree green canopy blocked sun light.",
+      "exampleJa": "森林の樹木の緑の樹冠（天蓋）が太陽光を遮断しました。",
+      "level": 3
+    },
+    {
+      "headword": "captivity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæpˈtɪvəti/",
+      "meaning": "囚われの身；捕獲状態",
+      "exampleEn": "Wild animals kept inside zoo cage captivity.",
+      "exampleJa": "野生動物たちが動物園のカゴの囚われの身（捕獲状態）の中に保たれました。",
+      "level": 3
+    },
+    {
+      "headword": "carnivore",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrnɪvɔːr/",
+      "meaning": "肉食動物",
+      "exampleEn": "Lion is a wild meat eating carnivore.",
+      "exampleJa": "ライオンは野生の肉を食べる肉食動物です。",
+      "level": 4
+    },
+    {
+      "headword": "catalyst",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkætəlɪst/",
+      "meaning": "触媒；きっかけ",
+      "exampleEn": "Event served as a catalyst for political change reform.",
+      "exampleJa": "出来事が政治的変更改革のきっかけ（触媒）として機能しました。",
+      "level": 3
+    },
+    {
+      "headword": "causation",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːˈzeɪʃn/",
+      "meaning": "因果関係；原因作用",
+      "exampleEn": "Law requires proof of direct physical causation.",
+      "exampleJa": "法律は直接の物理的因果関係（原因作用）の証明を必要とします。",
+      "level": 4
+    },
+    {
+      "headword": "centennial",
+      "partOfSpeech": "noun",
+      "phonetic": "/senˈteniəl/",
+      "meaning": "100周年；百年祭",
+      "exampleEn": "Celebrate hundredth university founding centennial anniversary.",
+      "exampleJa": "第100回大学創立の100周年（百年祭）記念日を祝いちなさい。",
+      "level": 4
+    },
+    {
+      "headword": "charismatic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌkærɪzˈmætɪk/",
+      "meaning": "カリスマ的な",
+      "exampleEn": "He is a charismatic public leader speaker.",
+      "exampleJa": "彼はカリスマ的な世間の指導者スピーカーです。",
+      "level": 3
+    },
+    {
+      "headword": "circumspect",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɜːrkəmspekt/",
+      "meaning": "慎重な；周到な",
+      "exampleEn": "Be circumspect when making financial investments.",
+      "exampleJa": "金銭的投資を行う際は慎重（周到）でありちなさい。",
+      "level": 5
+    },
+    {
+      "headword": "coercive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/koʊˈɜːrsɪv/",
+      "meaning": "強制的な；威圧的な",
+      "exampleEn": "Reject aggressive coercive state authority measures.",
+      "exampleJa": "攻撃的で強制的な（威圧的な）国家権力の措置を拒絶しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "harbinger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːrbɪndʒər/",
+      "meaning": "前兆；先触れ",
+      "exampleEn": "Warm breeze is a harbinger of spring.",
+      "exampleJa": "温かいそよ風は春の前兆（先触れ）です。",
+      "level": 5
+    },
+    {
+      "headword": "hegemony",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɪˈdʒeməni/",
+      "meaning": "覇権；主導権",
+      "exampleEn": "Nation sought global political economic hegemony.",
+      "exampleJa": "国家が世界的な政治経済の覇権（主導権）を求めました。",
+      "level": 4
+    },
+    {
+      "headword": "hooligan",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhuːlɪɡən/",
+      "meaning": "チンピラ；フーリガン",
+      "exampleEn": "Police arrested violent soccer match hooligans.",
+      "exampleJa": "警察が暴力的なサッカー試合のフーリガン（チンピラ）たちを逮捕しました。",
+      "level": 4
+    },
+    {
+      "headword": "hypocrisy",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɪˈpɑːkrəsi/",
+      "meaning": "偽善；見せかけ",
+      "exampleEn": "Expose politician moral legal hypocrisy lie.",
+      "exampleJa": "政治家の道徳的法的偽善（見せかけ）の嘘を暴きちなさい。",
+      "level": 4
+    },
+    {
+      "headword": "idolatry",
+      "partOfSpeech": "noun",
+      "phonetic": "/aɪˈdɑːlətri/",
+      "meaning": "偶像崇拝；盲目的心酔",
+      "exampleEn": "Fans worshiped pop star with pure idolatry.",
+      "exampleJa": "ファンたちが純粋な盲目的心酔（偶像崇拝）をもってポップスターを崇拝しました。",
+      "level": 5
+    },
+    {
+      "headword": "immemorial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪməˈmɔːriəl/",
+      "meaning": "太古の；遠い昔の（from time immemorial）",
+      "exampleEn": "Tradition practiced from time immemorial ancient.",
+      "exampleJa": "太古の昔から（from time immemorial）実践されてきた伝統。",
+      "level": 5
+    },
+    {
+      "headword": "impenetrable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpenɪtrəbl/",
+      "meaning": "穿ち難い；貫通できない；不可解な",
+      "exampleEn": "Forest was an impenetrable thick jungle wall.",
+      "exampleJa": "森林は穿ち難い（貫通できない）分厚いジャングルの壁でした。",
+      "level": 4
+    },
+    {
+      "headword": "impetuous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpetʃuəs/",
+      "meaning": "性急な；衝動的な",
+      "exampleEn": "Regret making an impetuous hasty decision.",
+      "exampleJa": "性急な（衝動的な）早まった決定を行ったことを後悔しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "imposition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪmpəˈzɪʃn/",
+      "meaning": "課税；課すこと；負担",
+      "exampleEn": "Protest against imposition of new high taxes.",
+      "exampleJa": "新しい高い税金の課税（負担）に対して抗議しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "impromptu",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈprɑːmptuː/",
+      "meaning": "即興の；準備なしの",
+      "exampleEn": "Gave an impromptu speech talk party.",
+      "exampleJa": "パーティーで即興の（準備なしの）スピーチトークを行いました。",
+      "level": 4
+    },
+    {
+      "headword": "inaccessible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnækˈsesəbl/",
+      "meaning": "到達できない；入手困難な",
+      "exampleEn": "Mountain village was remote and inaccessible.",
+      "exampleJa": "山の村は遠隔地で到達できない（入手困難な）ものでした。",
+      "level": 4
+    },
+    {
+      "headword": "inaudible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈɔːdəbl/",
+      "meaning": "聞き取れない；聞こえない",
+      "exampleEn": "Whisper was almost inaudible across room.",
+      "exampleJa": "ささやき声は部屋を横切ってほとんど聞き取れない（聞こえない）ものでした。",
+      "level": 4
+    },
+    {
+      "headword": "incendiary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈsendieri/",
+      "meaning": "放火の；煽動的な",
+      "exampleEn": "Politician gave an incendiary protest speech.",
+      "exampleJa": "政治家が煽動的な（放火の）抗議スピーチを行いました。",
+      "level": 5
+    },
+    {
+      "headword": "inclination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnklɪˈneɪʃn/",
+      "meaning": "傾向；傾き；好み",
+      "exampleEn": "Show natural inclination toward study art science.",
+      "exampleJa": "美術科学の勉強への自然な傾向（好み）を示しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "inconceivable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnkənˈsiːvəbl/",
+      "meaning": "想像もつかない；考えられない",
+      "exampleEn": "It is inconceivable that project could fail.",
+      "exampleJa": "プロジェクトが失敗する可能性があるということは想像もつきません（考えられません）。",
+      "level": 4
+    },
+    {
+      "headword": "incorporation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˌkɔːrpəˈreɪʃn/",
+      "meaning": "組み込み；法人設立",
+      "exampleEn": "File corporate business incorporation legal papers.",
+      "exampleJa": "企業のビジネスの法人設立の法的書類を提出しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "crevice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkrevɪs/",
+      "meaning": "割れ目；亀裂",
+      "exampleEn": "Plant grew out of small rock wall crevice.",
+      "exampleJa": "植物が小さな岩壁の割れ目（亀裂）から成長しました。",
+      "level": 3
+    },
+    {
+      "headword": "crusade",
+      "partOfSpeech": "noun",
+      "phonetic": "/kruːˈseɪd/",
+      "meaning": "十字軍；改革運動",
+      "exampleEn": "Lead public health environmental campaign crusade.",
+      "exampleJa": "公衆衛生環境キャンペーン改革運動（十字軍）を主導しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "cumulative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkjuːmjələtɪv/",
+      "meaning": "累積的な；引き重ねた",
+      "exampleEn": "Smoking has a cumulative negative health effect.",
+      "exampleJa": "喫煙は累積的な（引き重ねた）マイナスの健康影響を持っています。",
+      "level": 3
+    }
+  ]
+}

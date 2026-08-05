@@ -1,0 +1,825 @@
+{
+  "chunk": "03_finance_accounting",
+  "note": "財務・会計・経費処理・請求・金融に関する語彙 (90語)",
+  "words": [
+    {
+      "headword": "accounting",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkaʊntɪŋ/",
+      "meaning": "会計；経理",
+      "exampleEn": "Submit receipts to accounting department.",
+      "exampleJa": "領収書を経理・会計部門に提出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "audit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːdɪt/",
+      "meaning": "会計監査；査察",
+      "exampleEn": "Company passed annual financial audit.",
+      "exampleJa": "会社は年次の財務会計監査を通過しました。",
+      "level": 4
+    },
+    {
+      "headword": "expenditure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspendɪtʃər/",
+      "meaning": "支出；経費費消",
+      "exampleEn": "Cut unnecessary office expenditure.",
+      "exampleJa": "不必要なオフィス支出・経費を削減しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "invoice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnvɔɪs/",
+      "meaning": "請求書；送状",
+      "exampleEn": "Send invoice to client after delivery.",
+      "exampleJa": "納品後に顧客へ請求書を送信しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "receipt",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsiːt/",
+      "meaning": "領収書；受領",
+      "exampleEn": "Keep receipt for tax claim.",
+      "exampleJa": "税金申告（経費申請）のために領収書を保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "refund",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːfʌnd/",
+      "meaning": "返金；払戻金",
+      "exampleEn": "Customer requested full purchase refund.",
+      "exampleJa": "顧客は全額の返金を要求しました。",
+      "level": 2
+    },
+    {
+      "headword": "revenue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrevənuː/",
+      "meaning": "歳入；総収益",
+      "exampleEn": "Annual sales revenue increased sharply.",
+      "exampleJa": "年間の売上収益が急速に増加しました。",
+      "level": 3
+    },
+    {
+      "headword": "account",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkaʊnt/",
+      "meaning": "口座；勘定；顧客",
+      "exampleEn": "Open new business savings account today.",
+      "exampleJa": "今日新しいビジネス預金口座を開設しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "accountant",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkaʊntənt/",
+      "meaning": "会計士；経理担当者",
+      "exampleEn": "Certified public accountant checked financial ledger.",
+      "exampleJa": "公認会計士が財務台帳を点検しました。",
+      "level": 2
+    },
+    {
+      "headword": "allocation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæləˈkeɪʃn/",
+      "meaning": "割り当て；配分",
+      "exampleEn": "Budget allocation for research increased.",
+      "exampleJa": "研究のための予算配分が増加しました。",
+      "level": 3
+    },
+    {
+      "headword": "asset",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæset/",
+      "meaning": "資産；価値あるもの",
+      "exampleEn": "Real estate is valuable company asset.",
+      "exampleJa": "不動産は価値ある会社の資産です。",
+      "level": 3
+    },
+    {
+      "headword": "balance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæləns/",
+      "meaning": "残高；バランス",
+      "exampleEn": "Check your bank account balance online.",
+      "exampleJa": "オンラインで銀行口座の残高を確認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "bankrupt",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbæŋkrʌpt/",
+      "meaning": "破産した",
+      "exampleEn": "Firm went bankrupt due to severe debt.",
+      "exampleJa": "企業は深刻な負債のため破産しました。",
+      "level": 3
+    },
+    {
+      "headword": "bankruptcy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæŋkrʌptsi/",
+      "meaning": "倒産；破産",
+      "exampleEn": "Company filed for official bankruptcy protection.",
+      "exampleJa": "会社は公式な破産保護を申請しました。",
+      "level": 3
+    },
+    {
+      "headword": "bond",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɑːnd/",
+      "meaning": "債券；絆",
+      "exampleEn": "Investor purchased ten year government bonds.",
+      "exampleJa": "投資家は10年物の国債（債券）を購入しました。",
+      "level": 3
+    },
+    {
+      "headword": "budget",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "meaning": "予算；経費",
+      "exampleEn": "Approve annual marketing budget for campaign.",
+      "exampleJa": "キャンペーンのための年間のマーケティング予算を承認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "calculate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkælkjuleɪt/",
+      "meaning": "を計算する；を算出する",
+      "exampleEn": "Calculate total cost including sales tax.",
+      "exampleJa": "消費税を含む総費用を計算しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "capital",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæpɪtl/",
+      "meaning": "資本；首都",
+      "exampleEn": "Raise capital for new venture startup.",
+      "exampleJa": "新しいベンチャー創業のために資本を調達しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "cash",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæʃ/",
+      "meaning": "現金",
+      "exampleEn": "Pay by credit card or cash.",
+      "exampleJa": "クレジットカードか現金で支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "check",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃek/",
+      "meaning": "小切手；点検",
+      "exampleEn": "Pay monthly rent by bank check.",
+      "exampleJa": "銀行小切手で毎月の家賃を支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "credit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkredɪt/",
+      "meaning": "信用；クレジット；貸方",
+      "exampleEn": "Apply for business credit card limit.",
+      "exampleJa": "ビジネス用クレジットカード限度額を申請しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "currency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrənsi/",
+      "meaning": "通貨；貨幣",
+      "exampleEn": "Exchange foreign currency at airport desk.",
+      "exampleJa": "空港の窓口で外国通貨を両替しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "debt",
+      "partOfSpeech": "noun",
+      "phonetic": "/det/",
+      "meaning": "負債；借金",
+      "exampleEn": "Company paid off long term debt.",
+      "exampleJa": "会社は長期負債（借金）を全額返済しました。",
+      "level": 2
+    },
+    {
+      "headword": "deficit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdefɪsɪt/",
+      "meaning": "赤字；不足額",
+      "exampleEn": "Trade deficit reduced by five percent.",
+      "exampleJa": "貿易赤字が5%減少しました。",
+      "level": 3
+    },
+    {
+      "headword": "deposit",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpɑːzɪt/",
+      "meaning": "預金；保証金",
+      "exampleEn": "Make cash deposit into bank account.",
+      "exampleJa": "銀行口座に現金預金を行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "depreciation",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˌpriːʃiˈeɪʃn/",
+      "meaning": "減価償却；価値下落",
+      "exampleEn": "Calculate annual equipment depreciation expense.",
+      "exampleJa": "年間の機器減価償却費を計算しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "discount",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "meaning": "割引",
+      "exampleEn": "Offer ten percent cash discount today.",
+      "exampleJa": "今日10%の現金割引を提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "dividend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪvɪdend/",
+      "meaning": "配当金",
+      "exampleEn": "Shareholders received annual stock dividend payment.",
+      "exampleJa": "株主たちは年次の株式配当金支払いを受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "due",
+      "partOfSpeech": "adjective",
+      "phonetic": "/duː/",
+      "meaning": "支払期日の来た；予定されている",
+      "exampleEn": "Payment is due by month end.",
+      "exampleJa": "支払いは月末が期日です。",
+      "level": 2
+    },
+    {
+      "headword": "estimate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈestɪmət/",
+      "meaning": "見積もり；概算",
+      "exampleEn": "Request cost estimate for roof repair.",
+      "exampleJa": "屋根の修理の費用見積もりを依頼しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "expense",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspens/",
+      "meaning": "経費；費用",
+      "exampleEn": "Keep travel expense record for refund.",
+      "exampleJa": "返金のために出張経費の記録を保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "finance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfaɪnæns/",
+      "meaning": "財務；金融",
+      "exampleEn": "She studied corporate finance at university.",
+      "exampleJa": "彼女は大学で企業財務（ファイナンス）を学びました。",
+      "level": 2
+    },
+    {
+      "headword": "financial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/faɪˈnænʃl/",
+      "meaning": "財務の；金融の",
+      "exampleEn": "Publish annual financial statement report.",
+      "exampleJa": "年次財務諸表報告書を公表しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "fiscal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɪskl/",
+      "meaning": "会計の；財政の",
+      "exampleEn": "Company ended fiscal year with profit.",
+      "exampleJa": "会社は黒字で会計年度を終えました。",
+      "level": 3
+    },
+    {
+      "headword": "fund",
+      "partOfSpeech": "noun",
+      "phonetic": "/fʌnd/",
+      "meaning": "資金；基金",
+      "exampleEn": "Raise mutual fund capital from investors.",
+      "exampleJa": "投資家から投資信託資金（ファンド）を調達しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "gain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡeɪn/",
+      "meaning": "利得；増益",
+      "exampleEn": "Financial gain reported in third quarter.",
+      "exampleJa": "第3四半期に財務利得が報告されました。",
+      "level": 2
+    },
+    {
+      "headword": "gross",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɡroʊs/",
+      "meaning": "総額の；額面の",
+      "exampleEn": "Calculate gross revenue before tax deduction.",
+      "exampleJa": "控除前の総収益（グロス）を計算しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "income",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnkʌm/",
+      "meaning": "所得；収入",
+      "exampleEn": "Report total annual household income tax.",
+      "exampleJa": "世帯の年間総所得税を申告しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "inflation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfleɪʃn/",
+      "meaning": "インフレ；物価高騰",
+      "exampleEn": "High rate of inflation affected prices.",
+      "exampleJa": "高いインフレ率が物価に影響を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "installment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈstɔːlmənt/",
+      "meaning": "分割払い金",
+      "exampleEn": "Pay monthly loan installment on time.",
+      "exampleJa": "毎月のローン分割払い金を期日通りに支払いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "insurance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈʃʊrəns/",
+      "meaning": "保険",
+      "exampleEn": "Buy comprehensive business property insurance policy.",
+      "exampleJa": "包括的なビジネス財産保険契約を購入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "interest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntrəst/",
+      "meaning": "利息；金利；関心",
+      "exampleEn": "Bank offers low annual interest rate.",
+      "exampleJa": "銀行は低い年利息率（金利）を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "invest",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvest/",
+      "meaning": "を出資する；投資する",
+      "exampleEn": "Invest capital in clean solar energy.",
+      "exampleJa": "クリーンな太陽光エネルギーに資本を投資しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "investment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvestmənt/",
+      "meaning": "投資；出資金",
+      "exampleEn": "Real estate investment yields high return.",
+      "exampleJa": "不動産投資は高いリターンを生み出します。",
+      "level": 2
+    },
+    {
+      "headword": "investor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvestər/",
+      "meaning": "投資家",
+      "exampleEn": "Angel investor funded innovative tech startup.",
+      "exampleJa": "エンジェル投資家が革新的な技術ベンチャーに資金を提供しました。",
+      "level": 2
+    },
+    {
+      "headword": "ledger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈledʒər/",
+      "meaning": "元帳；台帳",
+      "exampleEn": "Record daily cash sales in ledger.",
+      "exampleJa": "台帳に毎日の現金売上を記録しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "liability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌlaɪəˈbɪləti/",
+      "meaning": "負債；法的責任",
+      "exampleEn": "Company reduced total financial liabilities quickly.",
+      "exampleJa": "会社は総財務負債を迅速に削減しました。",
+      "level": 3
+    },
+    {
+      "headword": "loan",
+      "partOfSpeech": "noun",
+      "phonetic": "/loʊn/",
+      "meaning": "融資；ローン",
+      "exampleEn": "Apply for small business bank loan.",
+      "exampleJa": "中小企業向け銀行融資（ローン）を申請しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "loss",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɔːs/",
+      "meaning": "損失；赤字",
+      "exampleEn": "Firm reported net loss this quarter.",
+      "exampleJa": "企業は今四半期に純損失（赤字）を報告しました。",
+      "level": 2
+    },
+    {
+      "headword": "margin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːrdʒɪn/",
+      "meaning": "利ざや；マージン；余白",
+      "exampleEn": "High profit margin boosts company growth.",
+      "exampleJa": "高い粗利益率（マージン）が会社の成長を押し上げます。",
+      "level": 3
+    },
+    {
+      "headword": "monetary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɑːnɪteri/",
+      "meaning": "貨幣の；金融上の",
+      "exampleEn": "Central bank updated national monetary policy.",
+      "exampleJa": "中央銀行は国家の金融政策を更新しました。",
+      "level": 3
+    },
+    {
+      "headword": "mortgage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɔːrɡɪdʒ/",
+      "meaning": "住宅ローン；担保",
+      "exampleEn": "Pay monthly home mortgage to bank.",
+      "exampleJa": "毎月の住宅ローンを銀行に支払いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "net",
+      "partOfSpeech": "adjective",
+      "phonetic": "/net/",
+      "meaning": "正味の；純額の",
+      "exampleEn": "Calculate net profit after tax deduction.",
+      "exampleJa": "税控除後の純利益（ネット）を計算しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "owe",
+      "partOfSpeech": "verb",
+      "phonetic": "/oʊ/",
+      "meaning": "借金がある；に負うている",
+      "exampleEn": "Firm owes money to supplier company.",
+      "exampleJa": "企業はサプライヤー企業に借金（未払い金）があります。",
+      "level": 2
+    },
+    {
+      "headword": "payee",
+      "partOfSpeech": "noun",
+      "phonetic": "/peɪˈiː/",
+      "meaning": "受取人",
+      "exampleEn": "Write payee name clearly on check.",
+      "exampleJa": "小切手に受取人の名前を明瞭に書きなさい。",
+      "level": 4
+    },
+    {
+      "headword": "payer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪər/",
+      "meaning": "支払人；納税者",
+      "exampleEn": "Tax payer filed annual income report.",
+      "exampleJa": "納税者は年間の所得報告を提出しました。",
+      "level": 4
+    },
+    {
+      "headword": "payment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪmənt/",
+      "meaning": "支払い；返済",
+      "exampleEn": "Make online bill payment before deadline.",
+      "exampleJa": "締め切り前にオンラインで請求書支払いを行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "portfolio",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɔːrtˈfoʊlioʊ/",
+      "meaning": "資産構成；ポートフォリオ",
+      "exampleEn": "Manage balanced investment stock portfolio safely.",
+      "exampleJa": "バランスの取れた株式投資ポートフォリオを安全に管理しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "premium",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpriːmiəm/",
+      "meaning": "保険料；割り増し金",
+      "exampleEn": "Pay monthly health insurance premium fee.",
+      "exampleJa": "毎月の健康保険料を支払いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "profit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːfɪt/",
+      "meaning": "利益；収益",
+      "exampleEn": "Company earned record net profit this year.",
+      "exampleJa": "会社は今年過去最高の純利益を稼ぎ出しました。",
+      "level": 2
+    },
+    {
+      "headword": "profitable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈprɑːfɪtəbl/",
+      "meaning": "利益の上がる；儲かる",
+      "exampleEn": "Investing in technology proved highly profitable.",
+      "exampleJa": "テクノロジーへの投資は非常に利益が上がると判明しました。",
+      "level": 2
+    },
+    {
+      "headword": "profitability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprɑːfɪtəˈbɪləti/",
+      "meaning": "収益性；採算性",
+      "exampleEn": "Improve long term company profitability rate.",
+      "exampleJa": "長期的な会社の収益性（採算性）率を向上させなさい。",
+      "level": 3
+    },
+    {
+      "headword": "reimburse",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌriːɪmˈbɜːrs/",
+      "meaning": "を払い戻す；を補償する",
+      "exampleEn": "Company reimbursed employee travel meal expenses.",
+      "exampleJa": "会社は従業員の出張食事費用を払い戻しました（精算しました）。",
+      "level": 3
+    },
+    {
+      "headword": "reimbursement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌriːɪmˈbɜːrsmənt/",
+      "meaning": "払い戻し；精算",
+      "exampleEn": "Submit expense form for quick reimbursement.",
+      "exampleJa": "迅速な精算（払い戻し）のために経費用紙を提出しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "remit",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmɪt/",
+      "meaning": "を送金する；を免除する",
+      "exampleEn": "Remit payment to bank account specified.",
+      "exampleJa": "指定された銀行口座へ代金を送金しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "remittance",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈmɪtns/",
+      "meaning": "送金；送金額",
+      "exampleEn": "Bank processed international wire remittance fee.",
+      "exampleJa": "銀行は国際電信送金を処理しました。",
+      "level": 4
+    },
+    {
+      "headword": "reserves",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzɜːrvz/",
+      "meaning": "準備金；蓄え",
+      "exampleEn": "Bank holds substantial cash capital reserves.",
+      "exampleJa": "銀行は相当な現金準備金を保有しています。",
+      "level": 3
+    },
+    {
+      "headword": "returns",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈtɜːrnz/",
+      "meaning": "収益；リターン；申告書",
+      "exampleEn": "Stock investment gave ten percent returns.",
+      "exampleJa": "株式投資は10%のリターン（収益）を与えました。",
+      "level": 2
+    },
+    {
+      "headword": "solvency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɑːlvənsi/",
+      "meaning": "支払能力",
+      "exampleEn": "Bank audit confirmed firm financial solvency.",
+      "exampleJa": "銀行監査は企業の財務支払能力を確認しました。",
+      "level": 4
+    },
+    {
+      "headword": "stock",
+      "partOfSpeech": "noun",
+      "phonetic": "/stɑːk/",
+      "meaning": "株式；在庫",
+      "exampleEn": "Company issued new shares of stock.",
+      "exampleJa": "会社は新しい株式を発行しました。",
+      "level": 2
+    },
+    {
+      "headword": "stockholder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstɑːkhoʊldər/",
+      "meaning": "株主",
+      "exampleEn": "Stockholders voted at annual general meeting.",
+      "exampleJa": "株主たちは年次総会で投票しました。",
+      "level": 3
+    },
+    {
+      "headword": "surplus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrplʌs/",
+      "meaning": "黒字；余剰",
+      "exampleEn": "Nation enjoyed large annual trade surplus.",
+      "exampleJa": "国家は大きな年間の貿易黒字（余剰）を享受しました。",
+      "level": 3
+    },
+    {
+      "headword": "tariff",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtærɪf/",
+      "meaning": "関税；料金表",
+      "exampleEn": "Government imposed high tariff on imported steel.",
+      "exampleJa": "政府は輸入鋼鉄に高い関税を課しました。",
+      "level": 3
+    },
+    {
+      "headword": "tax",
+      "partOfSpeech": "noun",
+      "phonetic": "/tæks/",
+      "meaning": "税金",
+      "exampleEn": "Pay local income tax before deadline.",
+      "exampleJa": "締め切り前に地域の所得税を支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "taxation",
+      "partOfSpeech": "noun",
+      "phonetic": "/tækˈseɪʃn/",
+      "meaning": "課税；税制",
+      "exampleEn": "Government introduced new corporate taxation law.",
+      "exampleJa": "政府は新しい法人課税法を導入しました。",
+      "level": 3
+    },
+    {
+      "headword": "teller",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtelər/",
+      "meaning": "銀行窓口係",
+      "exampleEn": "Bank teller deposited cash into account.",
+      "exampleJa": "銀行窓口係は口座に現金を預け入れました。",
+      "level": 2
+    },
+    {
+      "headword": "transaction",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænˈzækʃn/",
+      "meaning": "取引；売買",
+      "exampleEn": "Online financial transaction completed safely.",
+      "exampleJa": "オンラインの財務取引が安全に完了しました。",
+      "level": 3
+    },
+    {
+      "headword": "treasurer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtreʒərər/",
+      "meaning": "会計担当者；財務部長",
+      "exampleEn": "Corporate treasurer managed cash flow strategy.",
+      "exampleJa": "会社の財務部長がキャッシュフロー戦略を管理しました。",
+      "level": 4
+    },
+    {
+      "headword": "treasury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtreʒəri/",
+      "meaning": "財務省；金庫",
+      "exampleEn": "National treasury issued new financial report.",
+      "exampleJa": "国家財務省は新しい財務報告を発行しました。",
+      "level": 3
+    },
+    {
+      "headword": "valuation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌvæljuˈeɪʃn/",
+      "meaning": "評価額；査定",
+      "exampleEn": "Real estate property market valuation rose.",
+      "exampleJa": "不動産物件の市場評価額が上昇しました。",
+      "level": 3
+    },
+    {
+      "headword": "withdraw",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɪðˈdrɔː/",
+      "meaning": "を引き出す；を撤回する",
+      "exampleEn": "Withdraw cash money from bank ATM.",
+      "exampleJa": "銀行のATMから現金のお金を引き出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "withdrawal",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɪðˈdrɔːəl/",
+      "meaning": "引き出し；撤退",
+      "exampleEn": "Make cash withdrawal at counter desk.",
+      "exampleJa": "窓口デスクで現金引き出しを行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "yield",
+      "partOfSpeech": "noun",
+      "phonetic": "/jiːld/",
+      "meaning": "利回り；収穫量",
+      "exampleEn": "Bond investment offered five percent annual yield.",
+      "exampleJa": "債券投資は年5%の利回波数（利回り）を提供しました。",
+      "level": 3
+    },
+    {
+      "headword": "folder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfoʊldər/",
+      "meaning": "フォルダー；折り込みファイル",
+      "exampleEn": "Organize client files in plastic folder.",
+      "exampleJa": "プラスチックフォルダーに顧客ファイルを整理しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "memorandum",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmeməˈrændəm/",
+      "meaning": "連絡覚書；メモリアル",
+      "exampleEn": "Read official policy change memorandum.",
+      "exampleJa": "公式の方針変更の連絡覚書を読みなさい。",
+      "level": 3
+    },
+    {
+      "headword": "bookkeeper",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʊkkiːpər/",
+      "meaning": "簿記係；記帳係",
+      "exampleEn": "Bookkeeper entered daily invoice entries.",
+      "exampleJa": "簿記係が毎日の請求エントリーを入力しました。",
+      "level": 3
+    },
+    {
+      "headword": "infomercial",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnfoʊmɜːrʃl/",
+      "meaning": "テレビ通販番組",
+      "exampleEn": "Late night TV infomercial showed appliance demo.",
+      "exampleJa": "深夜のテレビ通販番組が家電の実演を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "interchange",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntərtʃeɪndʒ/",
+      "meaning": "インターチェンジ",
+      "exampleEn": "Exit highway at next toll interchange ramp.",
+      "exampleJa": "次の料金所インターチェンジランプで高速道路を出なさい。",
+      "level": 3
+    },
+    {
+      "headword": "guesthouse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡesthaʊs/",
+      "meaning": "ゲストハウス；簡素な宿",
+      "exampleEn": "Backpackers stayed at friendly coastal guesthouse.",
+      "exampleJa": "バックパッカーたちはフレンドリーな沿岸のゲストハウスに滞在しました。",
+      "level": 2
+    },
+    {
+      "headword": "subsequent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsʌbsɪkwənt/",
+      "meaning": "その後の；続いて起こる",
+      "exampleEn": "Subsequent report confirmed initial research findings.",
+      "exampleJa": "その後の報告書が初期の研究結果を確認しました。",
+      "level": 3
+    },
+    {
+      "headword": "with the exception of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を除いて",
+      "exampleEn": "All staff attended with the exception of manager.",
+      "exampleJa": "マネージャーを除いて全スタッフが出席しました。",
+      "level": 3
+    }
+  ]
+}

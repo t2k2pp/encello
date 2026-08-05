@@ -673,7 +673,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈraɪv/",
       "meaning": "到着する；届く",
-      "exampleEn": "Train arrives at station on schedule.",
+      "exampleEn": "The train arrives at the station on schedule.",
       "exampleJa": "列車はスケジュール通り駅に到着します。",
       "level": 2
     },
@@ -691,8 +691,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈsɪstənt/",
       "meaning": "助手；アシスタント",
-      "exampleEn": "Research lab assistant typed test data.",
-      "exampleJa": "研究室の助手がテストデータを打ち込みました。",
+      "exampleEn": "The lab assistant typed the test data.",
+      "exampleJa": "研究室の助手がテストデータを入力しました。",
       "level": 2
     },
     {
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːkʃn/",
       "meaning": "競売；オークション",
-      "exampleEn": "Buy rare art painting public auction.",
-      "exampleJa": "公共オークションで珍しい美術絵画を購入しなさい。",
+      "exampleEn": "Buy a rare painting at the public auction.",
+      "exampleJa": "公開オークションで珍しい絵画を購入しなさい。",
       "level": 2
     },
     {
@@ -709,8 +709,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɔːˈtɑːnəməs/",
       "meaning": "自律的な；自治の",
-      "exampleEn": "Self driving autonomous vehicle test drive.",
-      "exampleJa": "自動運転の自律的車両テストドライブ。",
+      "exampleEn": "We took the autonomous vehicle for a test drive.",
+      "exampleJa": "私たちは自動運転車の試乗をしました。",
       "level": 2
     },
     {
@@ -727,8 +727,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bædʒ/",
       "meaning": "バッジ；名札；記章",
-      "exampleEn": "Wear work identification name badge pin.",
-      "exampleJa": "作業身分証明名札バッジピンを着用しなさい。",
+      "exampleEn": "Wear your identification badge at work.",
+      "exampleJa": "職場では身分証明バッジを着用しなさい。",
       "level": 2
     },
     {
@@ -736,8 +736,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbælət/",
       "meaning": "投票；投票用紙",
-      "exampleEn": "Cast secret vote election paper ballot.",
-      "exampleJa": "秘密選挙紙投票用紙を投じなさい。",
+      "exampleEn": "Cast your vote using a secret ballot.",
+      "exampleJa": "秘密投票であなたの一票を投じなさい。",
       "level": 2
     },
     {
@@ -754,8 +754,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæskɪtbɔːl/",
       "meaning": "バスケットボール",
-      "exampleEn": "Play indoor sports team basketball game.",
-      "exampleJa": "屋内のスポーツチームバスケットボールゲームをしなさい。",
+      "exampleEn": "We played an indoor basketball game.",
+      "exampleJa": "私たちは屋内でバスケットボールの試合をしました。",
       "level": 2
     },
     {
@@ -763,8 +763,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈɡɪnɪŋ/",
       "meaning": "始まり；最初",
-      "exampleEn": "Read story book from beginning end.",
-      "exampleJa": "最初から最後まで物語本を読みなさい。",
+      "exampleEn": "Read the story from beginning to end.",
+      "exampleJa": "物語を最初から最後まで読みなさい。",
       "level": 2
     },
     {
@@ -772,8 +772,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bentʃ/",
       "meaning": "ベンチ；長椅子",
-      "exampleEn": "Sit on wooden park garden bench.",
-      "exampleJa": "木製の公園庭のベンチに座りなさい。",
+      "exampleEn": "Sit on the wooden bench in the park.",
+      "exampleJa": "公園の木製のベンチに座りなさい。",
       "level": 2
     },
     {
@@ -781,7 +781,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈtreɪ/",
       "meaning": "を裏切る；漏らす",
-      "exampleEn": "Never betray trust close friend.",
+      "exampleEn": "Never betray the trust of a close friend.",
       "exampleJa": "親しい友人の信頼を絶対に裏切ってはならない。",
       "level": 2
     },
@@ -790,8 +790,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪljən/",
       "meaning": "10億",
-      "exampleEn": "World population reached eight billion count.",
-      "exampleJa": "世界人口は80億の数に達しました。",
+      "exampleEn": "World population reached eight billion this year.",
+      "exampleJa": "世界人口は今年80億人に達しました。",
       "level": 2
     },
     {
@@ -808,8 +808,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/blɑːnd/",
       "meaning": "金髪の",
-      "exampleEn": "She has long shiny blond yellow hair.",
-      "exampleJa": "彼女は長くて光沢のある金髪を持っています。",
+      "exampleEn": "She has long shiny blond hair.",
+      "exampleJa": "彼女は長くて光沢のある金髪をしています。",
       "level": 2
     },
     {
@@ -826,7 +826,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɔːr/",
       "meaning": "を退屈させる；穴をあける",
-      "exampleEn": "Long speech bored class students deeply.",
+      "exampleEn": "The long speech bored the students deeply.",
       "exampleJa": "長いスピーチが生徒たちを深く退屈させました。",
       "level": 2
     },
@@ -835,7 +835,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/boʊl/",
       "meaning": "どんぶり；ボウル；鉢",
-      "exampleEn": "Eat hot soup inside ceramic bowl.",
+      "exampleEn": "Eat hot soup inside a ceramic bowl.",
       "exampleJa": "陶器のボウルの中で温かいスープを食べなさい。",
       "level": 2
     },
@@ -862,8 +862,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/broʊˈʃʊr/",
       "meaning": "パンフレット；小冊子",
-      "exampleEn": "Read travel hotel info paper brochure.",
-      "exampleJa": "旅行ホテルの情報紙パンフレットを読みなさい。",
+      "exampleEn": "Read the hotel's travel brochure.",
+      "exampleJa": "ホテルの旅行パンフレットを読みなさい。",
       "level": 2
     },
     {
@@ -871,8 +871,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌbl/",
       "meaning": "泡；バブル",
-      "exampleEn": "Soap water bubble flew into air.",
-      "exampleJa": "石鹸水の泡が空気の中に飛びました。",
+      "exampleEn": "A soap bubble flew into the air.",
+      "exampleJa": "石鹸の泡が空中に飛んでいきました。",
       "level": 2
     },
     {

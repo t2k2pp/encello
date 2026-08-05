@@ -943,8 +943,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈælkəhɔːl/",
       "meaning": "アルコール；酒類",
-      "exampleEn": "Avoid drinking alcohol before driving car.",
-      "exampleJa": "車の運転前にアルコール飲むのを避けてください。",
+      "exampleEn": "Avoid drinking alcohol before driving a car.",
+      "exampleJa": "車の運転前にお酒を飲むのは避けましょう。",
       "level": 2
     },
     {
@@ -952,7 +952,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/əˈloʊn/",
       "meaning": "一人で；単独の",
-      "exampleEn": "He prefers traveling alone around world.",
+      "exampleEn": "He prefers traveling alone around the world.",
       "exampleJa": "彼は世界中を一人で旅行することを好みます。",
       "level": 2
     },
@@ -988,7 +988,7 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈænjuəli/",
       "meaning": "年に一度；毎年",
-      "exampleEn": "Festival takes place annually in summer.",
+      "exampleEn": "The festival takes place annually in summer.",
       "exampleJa": "お祭りは夏に年に一度開催されます。",
       "level": 2
     },
@@ -1015,7 +1015,7 @@
       "partOfSpeech": "adverb",
       "phonetic": "/əˈprɑːksɪmətli/",
       "meaning": "およそ；約",
-      "exampleEn": "It takes approximately twenty minutes walk.",
+      "exampleEn": "The walk takes approximately twenty minutes.",
       "exampleJa": "歩いておよそ20分かかります。",
       "level": 2
     },
@@ -1042,8 +1042,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈsembli/",
       "meaning": "集会；組み立て",
-      "exampleEn": "Attend morning school hall assembly.",
-      "exampleJa": "朝の学校ホールの集会に出席しなさい。",
+      "exampleEn": "Students attend the assembly every morning.",
+      "exampleJa": "生徒たちは毎朝集会に出席します。",
       "level": 2
     },
     {
@@ -1060,7 +1060,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːɡəst/",
       "meaning": "8月",
-      "exampleEn": "Summer holiday starts in August month.",
+      "exampleEn": "Summer vacation starts in August.",
       "exampleJa": "夏休みは8月に始まります。",
       "level": 2
     },
@@ -1069,8 +1069,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈævənuː/",
       "meaning": "大通り；手段",
-      "exampleEn": "Walk along wide city street avenue.",
-      "exampleJa": "広い都市の通りの大通りを歩きなさい。",
+      "exampleEn": "We walked along a wide avenue.",
+      "exampleJa": "私たちは広い大通りを歩きました。",
       "level": 2
     },
     {
@@ -1087,8 +1087,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/beɪk/",
       "meaning": "を焼く（パン・クッキーなど）",
-      "exampleEn": "Bake fresh bread cake inside oven.",
-      "exampleJa": "オーブンの中で焼きたてのパンケーキを焼きなさい。",
+      "exampleEn": "She baked fresh bread in the oven.",
+      "exampleJa": "彼女はオーブンで焼きたてのパンを焼きました。",
       "level": 2
     },
     {
@@ -1096,8 +1096,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbændɪdʒ/",
       "meaning": "包帯；包帯を巻く",
-      "exampleEn": "Wrap clean cloth medical health bandage.",
-      "exampleJa": "清潔な布の医療健康包帯を巻きなさい。",
+      "exampleEn": "The nurse wrapped a bandage around my arm.",
+      "exampleJa": "看護師が私の腕に包帯を巻きました。",
       "level": 2
     },
     {
@@ -1105,8 +1105,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbærəl/",
       "meaning": "樽；バレル（単位）",
-      "exampleEn": "Store oil liquid inside wooden barrel.",
-      "exampleJa": "木樽の中に石油液体を保管しなさい。",
+      "exampleEn": "They store oil in a wooden barrel.",
+      "exampleJa": "彼らは木の樽に石油を保管します。",
       "level": 2
     },
     {
@@ -1123,8 +1123,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bed/",
       "meaning": "ベッド；寝床",
-      "exampleEn": "Sleep comfortably inside warm bedroom bed.",
-      "exampleJa": "温かい寝室のベッドの中で快適に眠りなさい。",
+      "exampleEn": "She slept comfortably in her warm bed.",
+      "exampleJa": "彼女は温かいベッドで気持ちよく眠りました。",
       "level": 2
     },
     {
@@ -1141,8 +1141,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈwer/",
       "meaning": "に気をつける；用心する",
-      "exampleEn": "Beware of dangerous dog sign wall.",
-      "exampleJa": "壁の危険な犬標識に気をつけなさい。",
+      "exampleEn": "Please beware of the dog near the gate.",
+      "exampleJa": "門の近くの犬に気をつけてください。",
       "level": 2
     },
     {
@@ -1150,8 +1150,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/baɪˈɑːɡrəfi/",
       "meaning": "伝記；経歴",
-      "exampleEn": "Read life story historical hero biography.",
-      "exampleJa": "歴史的英雄の人生の物語の伝記を読みなさい。",
+      "exampleEn": "I read a biography of a famous hero.",
+      "exampleJa": "私は有名な英雄の伝記を読みました。",
       "level": 2
     },
     {
@@ -1159,8 +1159,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈblæŋkɪt/",
       "meaning": "毛布；ブランケット",
-      "exampleEn": "Cover body with warm soft bed blanket.",
-      "exampleJa": "温かい柔らかいベッドの毛布で体を覆いなさい。",
+      "exampleEn": "She covered herself with a warm blanket.",
+      "exampleJa": "彼女は温かい毛布で体を覆いました。",
       "level": 2
     },
     {
@@ -1168,8 +1168,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/bloʊ/",
       "meaning": "風が吹く；を吹き飛ばす；打撃",
-      "exampleEn": "Strong wind blows cold winter air.",
-      "exampleJa": "強い風が冷たい冬の空気を吹き飛ばします。",
+      "exampleEn": "Strong winds blow across the winter sky.",
+      "exampleJa": "強い風が冬の空を吹き抜けます。",
       "level": 2
     },
     {
@@ -1177,8 +1177,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/boʊn/",
       "meaning": "骨",
-      "exampleEn": "Dog chewed hard white animal bone.",
-      "exampleJa": "犬が硬い白い動物の骨を噛みました。",
+      "exampleEn": "The dog chewed on a hard white bone.",
+      "exampleJa": "その犬は硬い白い骨をかじりました。",
       "level": 2
     },
     {
@@ -1186,8 +1186,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɔːs/",
       "meaning": "上司；ボス；経営者",
-      "exampleEn": "Report work status to office boss manager.",
-      "exampleJa": "オフィスのボスマネージャーに作業状況を報告しなさい。",
+      "exampleEn": "I reported the work status to my boss.",
+      "exampleJa": "私は上司に作業状況を報告しました。",
       "level": 2
     },
     {
@@ -1195,8 +1195,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/breɪn/",
       "meaning": "脳；頭脳",
-      "exampleEn": "Human brain controls body thought memory.",
-      "exampleJa": "人間の脳が身体の思考記憶を制御します。",
+      "exampleEn": "The human brain controls thought and memory.",
+      "exampleJa": "人間の脳は思考と記憶を司ります。",
       "level": 2
     },
     {
@@ -1213,8 +1213,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbriːfli/",
       "meaning": "手短に；短時間で",
-      "exampleEn": "Speak briefly about project progress status.",
-      "exampleJa": "プロジェクトの進捗状況について手短に話しなさい。",
+      "exampleEn": "Please speak briefly about the project's progress.",
+      "exampleJa": "プロジェクトの進捗について手短に話してください。",
       "level": 2
     },
     {
@@ -1222,8 +1222,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bruːm/",
       "meaning": "ほうき",
-      "exampleEn": "Sweep floor dirt clean using wooden broom.",
-      "exampleJa": "木製のほうきを使って床の汚れを綺麗に掃き取りなさい。",
+      "exampleEn": "She swept the floor with a wooden broom.",
+      "exampleJa": "彼女は木製のほうきで床を掃きました。",
       "level": 2
     },
     {
@@ -1249,8 +1249,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊtʃər/",
       "meaning": "精肉店；肉屋",
-      "exampleEn": "Buy fresh meat beef pork local butcher.",
-      "exampleJa": "地元の精肉店で新鮮な牛肉豚肉の肉を購入しなさい。",
+      "exampleEn": "I bought fresh beef from the local butcher.",
+      "exampleJa": "私は地元の精肉店で新鮮な牛肉を買いました。",
       "level": 2
     }
   ]

@@ -1,0 +1,879 @@
+{
+  "chunk": "10_toeic_part5_phrases",
+  "note": "TOEIC Part 5/6/7で必出のビジネスイディオム・定型表現 (90語)",
+  "words": [
+    {
+      "headword": "ahead of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜より前方に；〜より優れて",
+      "exampleEn": "Project completed ahead of schedule.",
+      "exampleJa": "プロジェクトは予定（スケジュール）より前倒しで完了しました。",
+      "level": 2
+    },
+    {
+      "headword": "as of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の時点で；〜付けで",
+      "exampleEn": "Prices change as of April first.",
+      "exampleJa": "価格は4月1日の時点で変更となります。",
+      "level": 3
+    },
+    {
+      "headword": "be subject to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の対象となる；〜を受けやすい",
+      "exampleEn": "Prices are subject to change without notice.",
+      "exampleJa": "価格は予告なしに変更となる場合があります（対象となります）。",
+      "level": 3
+    },
+    {
+      "headword": "in advance",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "あらかじめ；事前に",
+      "exampleEn": "Book ticket in advance for lower price.",
+      "exampleJa": "安価な料金のためにあらかじめチケットを予約しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "in compliance with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に従って；〜に遵守して",
+      "exampleEn": "Act in compliance with environmental regulations.",
+      "exampleJa": "環境規制を遵守して（に従って）行動しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "in response to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に応えて；〜に対応して",
+      "exampleEn": "Firm launched product in response to demand.",
+      "exampleJa": "企業は需要に応えて製品を発売しました。",
+      "level": 3
+    },
+    {
+      "headword": "on behalf of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を代表して；〜に代わって",
+      "exampleEn": "He accepted award on behalf of team.",
+      "exampleJa": "彼はチームを代表して賞を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "on short notice",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "急な知らせで；急遽",
+      "exampleEn": "Thank you for attending meeting on short notice.",
+      "exampleJa": "急なお知らせ（通知）にもかかわらず会議に出席いただき感謝します。",
+      "level": 4
+    },
+    {
+      "headword": "accord with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜と一致する；〜に調和する",
+      "exampleEn": "Action accourds with company policy rules.",
+      "exampleJa": "行動は会社の方針規則と一致しています。",
+      "level": 3
+    },
+    {
+      "headword": "account for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の理由を説明する；〜を占める",
+      "exampleEn": "Sales account for fifty percent revenue.",
+      "exampleJa": "売上が収益の50%を占めています。",
+      "level": 2
+    },
+    {
+      "headword": "agree on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜について合意する",
+      "exampleEn": "Both parties agreed on terms of deal.",
+      "exampleJa": "両当事者は取引の条件について合意しました。",
+      "level": 2
+    },
+    {
+      "headword": "aim at",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を狙う；〜を目指す",
+      "exampleEn": "Campaign aims at attracting young buyers.",
+      "exampleJa": "キャンペーンは若い買手を引きつけることを目指しています。",
+      "level": 2
+    },
+    {
+      "headword": "allow for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を考慮に入れる；〜を見込む",
+      "exampleEn": "Allow for extra travel time during traffic.",
+      "exampleJa": "渋滞中は余分な移動時間を考慮に入れなさい。",
+      "level": 3
+    },
+    {
+      "headword": "apply for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に申し込む；〜に応募する",
+      "exampleEn": "Apply for credit card online today.",
+      "exampleJa": "今日オンラインでクレジットカードに応募・申し込みしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "approve of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に賛成する；〜を承認する",
+      "exampleEn": "Board approved of new marketing strategy.",
+      "exampleJa": "取締役会は新しいマーケティング戦略を承認しました。",
+      "level": 2
+    },
+    {
+      "headword": "as a result of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の結果として",
+      "exampleEn": "Revenue rose as a result of campaign.",
+      "exampleJa": "キャンペーンの結果として収益が上昇しました。",
+      "level": 2
+    },
+    {
+      "headword": "as for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に関しては；〜について言えば",
+      "exampleEn": "As for price we offer discount deal.",
+      "exampleJa": "価格に関しては割引取引を提供いたします。",
+      "level": 2
+    },
+    {
+      "headword": "as long as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜である限りは",
+      "exampleEn": "Offer valid as long as supplies last.",
+      "exampleJa": "在庫が続く限りオファーは有効です。",
+      "level": 2
+    },
+    {
+      "headword": "as soon as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜するとすぐに",
+      "exampleEn": "Call client as soon as flight lands.",
+      "exampleJa": "飛行機が着陸するとすぐに顧客に電話しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "as well as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜と同様に；〜だけでなく",
+      "exampleEn": "We offer hotel room as well as meal.",
+      "exampleJa": "私たちは食事だけでなくホテルの客室も提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "at all times",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "常に；四時",
+      "exampleEn": "Wear safety badge at all times in office.",
+      "exampleJa": "オフィスでは常に安全バッジを着用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "at the request of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の要請に応じて",
+      "exampleEn": "Audit held at the request of board.",
+      "exampleJa": "取締役会の要請に応じて監査が開催されました。",
+      "level": 3
+    },
+    {
+      "headword": "attribute to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に帰する；〜のせいにする",
+      "exampleEn": "Success attributed to hard team work.",
+      "exampleJa": "成功は懸命なチームワークに帰せられます。",
+      "level": 3
+    },
+    {
+      "headword": "be capable of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の能力がある",
+      "exampleEn": "Machine is capable of printing thousand sheets.",
+      "exampleJa": "機械には1,000枚印刷する能力があります。",
+      "level": 2
+    },
+    {
+      "headword": "be committed to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に献身・コミットしている",
+      "exampleEn": "Firm is committed to high product quality.",
+      "exampleJa": "企業は高い製品品質にコミット（献身）しています。",
+      "level": 3
+    },
+    {
+      "headword": "be eligible for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の資格がある",
+      "exampleEn": "Staff eligible for paid vacation after year.",
+      "exampleJa": "スタッフは1年後に有給休暇の資格を得ます。",
+      "level": 3
+    },
+    {
+      "headword": "be familiar with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に精通している；〜を熟知している",
+      "exampleEn": "Operator is familiar with computer software.",
+      "exampleJa": "操作員はコンピューターソフトウェアに精通しています。",
+      "level": 2
+    },
+    {
+      "headword": "be held responsible for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に対して責任を問われる",
+      "exampleEn": "Driver held responsible for road accident.",
+      "exampleJa": "運転手は道路事故に対して責任を問われました。",
+      "level": 3
+    },
+    {
+      "headword": "be in charge of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を任されている；〜の担当である",
+      "exampleEn": "Manager is in charge of sales team.",
+      "exampleJa": "マネージャーは営業チームを担当（統括）しています。",
+      "level": 2
+    },
+    {
+      "headword": "be supposed to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜することになっている",
+      "exampleEn": "Meeting is supposed to start at nine.",
+      "exampleJa": "会議は9時に始まることになっています。",
+      "level": 2
+    },
+    {
+      "headword": "belong to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に所属する；〜のものである",
+      "exampleEn": "Laptop belongs to IT support department.",
+      "exampleJa": "ノートパソコンはITサポート部門の所有物です。",
+      "level": 2
+    },
+    {
+      "headword": "by means of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を用いて；〜によって",
+      "exampleEn": "Deliver message by means of email notice.",
+      "exampleJa": "メール通知を用いてメッセージを伝えなさい。",
+      "level": 3
+    },
+    {
+      "headword": "by no means",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "決して〜ない",
+      "exampleEn": "Task is by no means easy work.",
+      "exampleJa": "タスクは決して容易な作業ではありません。",
+      "level": 3
+    },
+    {
+      "headword": "call off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を中止する；を取り消す",
+      "exampleEn": "Manager called off outdoor staff picnic event.",
+      "exampleJa": "マネージャーは屋外のスタッフピクニックイベントを中止しました。",
+      "level": 2
+    },
+    {
+      "headword": "carry out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を実行する；を遂行する",
+      "exampleEn": "Team carried out market survey research.",
+      "exampleJa": "チームは市場調査研究を遂行・実行しました。",
+      "level": 2
+    },
+    {
+      "headword": "charge with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜で責める；〜を委任する",
+      "exampleEn": "Executive charged with managing company merger.",
+      "exampleJa": "幹部は会社の合併管理を委任されました。",
+      "level": 3
+    },
+    {
+      "headword": "come across",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に偶然出くわす",
+      "exampleEn": "I came across useful market report document.",
+      "exampleJa": "私は役立つ市場報告書文書に偶然出くわしました。",
+      "level": 2
+    },
+    {
+      "headword": "come up with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を思いつく；を提案する",
+      "exampleEn": "Engineer came up with creative solution idea.",
+      "exampleJa": "エンジニアは創造的な解決策のアイデアを思いつきました。",
+      "level": 2
+    },
+    {
+      "headword": "comply with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に従う；〜を遵守する",
+      "exampleEn": "Building complies with government safety rules.",
+      "exampleJa": "建物は政府の安全規則を遵守（適合）しています。",
+      "level": 3
+    },
+    {
+      "headword": "concentrate on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に集中する",
+      "exampleEn": "Concentrate on main core business goals.",
+      "exampleJa": "主要な中核ビジネス目標に集中しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "consist of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜から成る；〜で構成される",
+      "exampleEn": "Committee consists of five senior directors.",
+      "exampleJa": "委員会は5名の上級役員で構成されています。",
+      "level": 2
+    },
+    {
+      "headword": "contribute to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に貢献する；〜に寄与する",
+      "exampleEn": "New technology contributed to sales growth.",
+      "exampleJa": "新技術が売上成長に貢献しました。",
+      "level": 2
+    },
+    {
+      "headword": "cope with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に対処する",
+      "exampleEn": "Firm coped with high material price increase.",
+      "exampleJa": "企業は高い資材価格上昇に対処しました。",
+      "level": 3
+    },
+    {
+      "headword": "cut down on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を削減する；〜を減らす",
+      "exampleEn": "Cut down on unnecessary paper print expense.",
+      "exampleJa": "不必要な紙の印刷経費を削減しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "deal with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を処理する；〜を取り扱う",
+      "exampleEn": "Support desk deals with customer inquiries daily.",
+      "exampleJa": "サポートデスクは毎日顧客からの問い合わせを処理しています。",
+      "level": 2
+    },
+    {
+      "headword": "depend on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に依存する；〜次第である",
+      "exampleEn": "Success depends on team member cooperation.",
+      "exampleJa": "成功はチームメンバーの協力次第です。",
+      "level": 2
+    },
+    {
+      "headword": "due to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜が理由で；〜のために",
+      "exampleEn": "Flight delayed due to stormy rain weather.",
+      "exampleJa": "嵐の雨天が理由でフライトが遅れました。",
+      "level": 2
+    },
+    {
+      "headword": "focus on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に焦点を当てる；〜に集中する",
+      "exampleEn": "Focus on improving customer service satisfaction.",
+      "exampleJa": "顧客サービス満足度の向上に焦点を当てなさい。",
+      "level": 2
+    },
+    {
+      "headword": "give up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を諦める；を放棄する",
+      "exampleEn": "Never give up trying project solutions.",
+      "exampleJa": "プロジェクトの解決策を試すことを決して諦めてはなりません。",
+      "level": 2
+    },
+    {
+      "headword": "in accordance with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に従って；〜と一致して",
+      "exampleEn": "Act in accordance with company policy rules.",
+      "exampleJa": "会社の方針規則に従って行動しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "in addition to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に加えて",
+      "exampleEn": "In addition to salary staff gets bonus.",
+      "exampleJa": "給料に加えて、スタッフはボーナスを得ます。",
+      "level": 2
+    },
+    {
+      "headword": "in case of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の場合には",
+      "exampleEn": "Press alarm button in case of fire.",
+      "exampleJa": "火災の場合には警報ボタンを押しちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "in charge of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を担当して",
+      "exampleEn": "She is in charge of marketing campaign.",
+      "exampleJa": "彼女はマーケティングキャンペーンを担当しています。",
+      "level": 2
+    },
+    {
+      "headword": "in honor of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を称えて；〜のために",
+      "exampleEn": "Dinner party held in honor of retired CEO.",
+      "exampleJa": "退職したCEOを称えてディナーパーティーが開催されました。",
+      "level": 3
+    },
+    {
+      "headword": "in light of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を考慮して；〜の観点から",
+      "exampleEn": "Change strategy in light of market trend.",
+      "exampleJa": "市場トレンドを考慮して戦略を変更しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "in place of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の代わりに",
+      "exampleEn": "Use email in place of printed memo paper.",
+      "exampleJa": "印刷されたメモ用紙の代わりにメールを使いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "in regard to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に関して",
+      "exampleEn": "I write in regard to your inquiry letter.",
+      "exampleJa": "お手紙の問い合わせに関して書いております。",
+      "level": 2
+    },
+    {
+      "headword": "in search of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を探して",
+      "exampleEn": "Travel abroad in search of new business opportunity.",
+      "exampleJa": "新しいビジネスの機会を探して海外へ旅行しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "in spite of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜にもかかわらず",
+      "exampleEn": "We arrived early in spite of rain weather.",
+      "exampleJa": "雨天にもかかわらず私たちは早く到着しました。",
+      "level": 2
+    },
+    {
+      "headword": "in terms of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の点から見ると",
+      "exampleEn": "In terms of quality product is best.",
+      "exampleJa": "品質の点から見ると、製品は最高です。",
+      "level": 2
+    },
+    {
+      "headword": "in view of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を考慮して",
+      "exampleEn": "In view of delay cancel evening session.",
+      "exampleJa": "遅延を考慮して夕方のセッションをキャンセルしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "instead of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の代わりに",
+      "exampleEn": "Order salad instead of French fries.",
+      "exampleJa": "フライドポテトの代わりにサラダを注文しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "interfere with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を妨げる；〜に干渉する",
+      "exampleEn": "Noise interferes with concentration work speed.",
+      "exampleJa": "騒音が集中力と作業スピードを妨げます。",
+      "level": 3
+    },
+    {
+      "headword": "keep up with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に遅れずについて行く",
+      "exampleEn": "Keep up with latest technology software trend.",
+      "exampleJa": "最新の技術ソフトウェアトレンドに遅れずについて行きちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "lead to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜につながる；〜を引き起こす",
+      "exampleEn": "Hard team work lead to project success.",
+      "exampleJa": "懸命なチームワークがプロジェクトの成功につながりました。",
+      "level": 2
+    },
+    {
+      "headword": "look forward to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を楽しみに待つ",
+      "exampleEn": "We look forward to working with your team.",
+      "exampleJa": "あなたのチームと一緒に働けることを楽しみに待っています。",
+      "level": 2
+    },
+    {
+      "headword": "look into",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を調査する",
+      "exampleEn": "Manager will look into cause of delay.",
+      "exampleJa": "マネージャーが遅延の原因を調査します。",
+      "level": 2
+    },
+    {
+      "headword": "make up for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を補う；〜の埋め合わせをする",
+      "exampleEn": "Overtime work made up for lost day.",
+      "exampleJa": "残業作業が失われた日数の埋め合わせをしました。",
+      "level": 2
+    },
+    {
+      "headword": "on account of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の理由で；〜のために",
+      "exampleEn": "Game cancelled on account of rain.",
+      "exampleJa": "雨の理由で試合は中止になりました。",
+      "level": 3
+    },
+    {
+      "headword": "on condition that",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜という条件で",
+      "exampleEn": "Offer valid on condition that payment made.",
+      "exampleJa": "支払いがなされるという条件でオファーは有効です。",
+      "level": 3
+    },
+    {
+      "headword": "on the basis of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に基づいて",
+      "exampleEn": "Evaluate staff on the basis of performance.",
+      "exampleJa": "実績に基づいてスタッフを評価しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "on the contrary",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "それどころか；反対に",
+      "exampleEn": "Cost did not rise; on the contrary dropped.",
+      "exampleJa": "費用は上昇しませんでした。それどころか下降しました。",
+      "level": 3
+    },
+    {
+      "headword": "on the other hand",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "他方では；その一方で",
+      "exampleEn": "Price high; on the other hand quality good.",
+      "exampleJa": "価格は高いです。他方では品質が良いです。",
+      "level": 2
+    },
+    {
+      "headword": "opt for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を選択する",
+      "exampleEn": "Firm opted for cloud server system storage.",
+      "exampleJa": "企業はクラウドサーバーシステムストレージを選択しました。",
+      "level": 3
+    },
+    {
+      "headword": "participate in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に参加する",
+      "exampleEn": "Staff participated in safety training course.",
+      "exampleJa": "スタッフは安全講習コースに参加しました。",
+      "level": 2
+    },
+    {
+      "headword": "pay attention to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に注意を払う",
+      "exampleEn": "Pay attention to safety instruction manual.",
+      "exampleJa": "安全取扱説明書に注意を払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pointing out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を指摘すること",
+      "exampleEn": "Speaker was pointing out key error data.",
+      "exampleJa": "発表者は主要なエラーデータを指摘していました。",
+      "level": 2
+    },
+    {
+      "headword": "prevent from",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜が〜するのを防ぐ",
+      "exampleEn": "Rule prevents staff from making error.",
+      "exampleJa": "規則はスタッフがエラーをするのを防ぎます。",
+      "level": 2
+    },
+    {
+      "headword": "prior to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜より前に",
+      "exampleEn": "Arrive at venue prior to event start.",
+      "exampleJa": "イベント開始より前に会場に到着しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "put off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を延期する",
+      "exampleEn": "We put off meeting until next Monday.",
+      "exampleJa": "私たちは来週月曜まで会議を延期しました。",
+      "level": 2
+    },
+    {
+      "headword": "refer to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を参照する；〜に言及する",
+      "exampleEn": "Refer to user manual for technical guidance.",
+      "exampleJa": "技術指導についてはユーザー手引書を参照しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "regardless of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に関係なく",
+      "exampleEn": "Everyone can apply regardless of age.",
+      "exampleJa": "年齢に関係なく誰でも応募できます。",
+      "level": 3
+    },
+    {
+      "headword": "rely on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を頼りにする；〜に依存する",
+      "exampleEn": "Company relies on local supplier network.",
+      "exampleJa": "会社は地元のサプライヤーネットワークを頼りにしています。",
+      "level": 2
+    },
+    {
+      "headword": "result in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜という結果に終わる",
+      "exampleEn": "Neglect resulted in machine failure breakdown.",
+      "exampleJa": "放置が機械の故障という結果をもたらしました。",
+      "level": 2
+    },
+    {
+      "headword": "run out of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を使い果たす；〜が底をつく",
+      "exampleEn": "Printer ran out of paper ink cartridge.",
+      "exampleJa": "プリンターの用紙インクカートリッジが底をつきました。",
+      "level": 2
+    },
+    {
+      "headword": "set up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を設立する；を準備する",
+      "exampleEn": "Set up new office branch in Tokyo.",
+      "exampleJa": "東京に新しいオフィス支店を設立しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "take advantage of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を利用する；〜を活かす",
+      "exampleEn": "Take advantage of special discount sale offer.",
+      "exampleJa": "特別割引セールオファーを利用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "take place",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "行われる；開催される",
+      "exampleEn": "Conference will take place at hotel venue.",
+      "exampleJa": "会議はホテル会場で行われます。",
+      "level": 2
+    },
+    {
+      "headword": "turn down",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を拒絶・断る",
+      "exampleEn": "Firm turned down high cost proposal.",
+      "exampleJa": "企業は高費用の提案を拒絶・断りました。",
+      "level": 2
+    },
+    {
+      "headword": "with regard to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に関して",
+      "exampleEn": "Contact us with regard to order inquiry.",
+      "exampleJa": "注文に関する問い合わせについてご連絡ください。",
+      "level": 3
+    },
+    {
+      "headword": "webinar",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwebɪnɑːr/",
+      "meaning": "ウェビナー；オンラインセミナー",
+      "exampleEn": "Register for live tech product webinar.",
+      "exampleJa": "ライブの技術製品ウェビナーに登録しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "mentor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmentɔːr/",
+      "meaning": "助言者；メンター",
+      "exampleEn": "Senior manager assigned as staff mentor.",
+      "exampleJa": "シニアマネージャーがスタッフのメンターとして割り当てられました。",
+      "level": 2
+    },
+    {
+      "headword": "amortization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæmərtəˈzeɪʃn/",
+      "meaning": "割当償却；ローン償却",
+      "exampleEn": "Calculate monthly home loan amortization rate.",
+      "exampleJa": "毎月の住宅ローン償却率を計算しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "overpass",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊvərpæs/",
+      "meaning": "陸橋；高架道路",
+      "exampleEn": "Truck drove under concrete highway overpass.",
+      "exampleJa": "トラックはコンクリート製の高速道路陸橋の下を運転しました。",
+      "level": 3
+    },
+    {
+      "headword": "firmware",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrmwer/",
+      "meaning": "ファームウェア；内蔵プログラム",
+      "exampleEn": "Update router device internal system firmware.",
+      "exampleJa": "ルーター機器の内部システムファームウェアを更新しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "unprecedented",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌnˈpresɪdentɪd/",
+      "meaning": "前例のない；空前の",
+      "exampleEn": "Firm enjoyed unprecedented annual sales profit growth.",
+      "exampleJa": "企業は空前の（前例のない）年次の売上利益成長を享受しました。",
+      "level": 3
+    },
+    {
+      "headword": "subsequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌbsɪkwəntli/",
+      "meaning": "その後；続いて",
+      "exampleEn": "Firm updated software; subsequently sales rose.",
+      "exampleJa": "企業はソフトウェアを更新しました。その後売上が伸びました。",
+      "level": 3
+    }
+  ]
+}

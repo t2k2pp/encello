@@ -1,0 +1,744 @@
+{
+  "chunk": "07_travel_hospitality",
+  "note": "出張・宿泊・観光・イベント・出張旅行に関する語彙 (90語)",
+  "words": [
+    {
+      "headword": "accommodation",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˌkɑːməˈdeɪʃn/",
+      "meaning": "宿泊施設；収容能力",
+      "exampleEn": "Book hotel accommodation for business trip.",
+      "exampleJa": "出張のためにホテルの宿泊施設を予約しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "baggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæɡɪdʒ/",
+      "meaning": "手荷物；スーツケース",
+      "exampleEn": "Collect checked baggage at carousel.",
+      "exampleJa": "ターンテーブルで預けた手荷物を受け取りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "boarding",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɔːrdɪŋ/",
+      "meaning": "搭乗",
+      "exampleEn": "Boarding pass required at gate entrance.",
+      "exampleJa": "搭乗口入口で搭乗券が必要です。",
+      "level": 2
+    },
+    {
+      "headword": "convention",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈvenʃn/",
+      "meaning": "定期大会；コンベンション；慣習",
+      "exampleEn": "Annual medical convention held in Chicago.",
+      "exampleJa": "年次の医学定期大会（コンベンション）がシカゴで開催されました。",
+      "level": 3
+    },
+    {
+      "headword": "itinerary",
+      "partOfSpeech": "noun",
+      "phonetic": "/aɪˈtɪnəreri/",
+      "meaning": "旅行日程；旅程表",
+      "exampleEn": "Agent emailed final travel itinerary.",
+      "exampleJa": "代理店が最終的な旅行日程表をメールで送信しました。",
+      "level": 3
+    },
+    {
+      "headword": "lodging",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɑːdʒɪŋ/",
+      "meaning": "宿；宿泊所",
+      "exampleEn": "Price includes food and lodging expense.",
+      "exampleJa": "料金には食費と宿泊費（宿代）が含まれています。",
+      "level": 3
+    },
+    {
+      "headword": "reception",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsepʃn/",
+      "meaning": "受付；歓迎パーティー",
+      "exampleEn": "Guests arrived at evening welcome reception.",
+      "exampleJa": "ゲストたちは夕方の歓迎パーティー（レセプション）に到着しました。",
+      "level": 2
+    },
+    {
+      "headword": "shuttle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃʌtl/",
+      "meaning": "シャトルバス；定期往復便",
+      "exampleEn": "Hotel operates free airport shuttle service.",
+      "exampleJa": "ホテルは無料の空港シャトル便サービスを運行しています。",
+      "level": 2
+    },
+    {
+      "headword": "airline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈerlaɪn/",
+      "meaning": "航空会社",
+      "exampleEn": "Book ticket with major international airline.",
+      "exampleJa": "大手国際航空会社でチケットを予約しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "airplane",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈerpleɪn/",
+      "meaning": "飛行機",
+      "exampleEn": "Passenger boarded passenger airplane to London.",
+      "exampleJa": "乗客はロンドン行きの旅客飛行機に搭乗しました。",
+      "level": 2
+    },
+    {
+      "headword": "airport",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈerpɔːrt/",
+      "meaning": "空港",
+      "exampleEn": "Arrive at airport two hours before flight.",
+      "exampleJa": "フライトの2時間前に空港に到着しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "aisle",
+      "partOfSpeech": "noun",
+      "phonetic": "/aɪl/",
+      "meaning": "通路",
+      "exampleEn": "Prefer aisle seat on long flight.",
+      "exampleJa": "長時間のフライトでは通路側の座席を好みます。",
+      "level": 2
+    },
+    {
+      "headword": "attendant",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtendənt/",
+      "meaning": "接客係；乗務員",
+      "exampleEn": "Flight attendant served hot tea beverages.",
+      "exampleJa": "客室乗務員が暖かいお茶の飲み物を提供しました。",
+      "level": 2
+    },
+    {
+      "headword": "banquet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæŋkwɪt/",
+      "meaning": "晩餐会；宴会",
+      "exampleEn": "Hold annual corporate dinner banquet hall.",
+      "exampleJa": "年次の企業ディナー晩餐会を宴会場で開催しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "beverage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbevərɪdʒ/",
+      "meaning": "飲み物；飲料",
+      "exampleEn": "Complimentary cold beverage served on plane.",
+      "exampleJa": "機内で無料の冷たい飲み物が提供されました。",
+      "level": 2
+    },
+    {
+      "headword": "boarding pass",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "搭乗券",
+      "exampleEn": "Show printed boarding pass to agent.",
+      "exampleJa": "印刷した搭乗券を係員に見せなさい。",
+      "level": 2
+    },
+    {
+      "headword": "book",
+      "partOfSpeech": "verb",
+      "phonetic": "/bʊk/",
+      "meaning": "を予約する",
+      "exampleEn": "Book hotel room online in advance.",
+      "exampleJa": "あらかじめオンラインで客室を予約しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "booking",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʊkɪŋ/",
+      "meaning": "予約",
+      "exampleEn": "Confirm flight booking number with agency.",
+      "exampleJa": "代理店に飛行機の予約番号を確認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "buffet",
+      "partOfSpeech": "noun",
+      "phonetic": "/bəˈfeɪ/",
+      "meaning": "ビュッフェ；食べ放題",
+      "exampleEn": "Hotel offers breakfast buffet for guests.",
+      "exampleJa": "ホテルはゲスト向けに朝食ビュッフェを提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "cabin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæbɪn/",
+      "meaning": "客室；キャビン",
+      "exampleEn": "Store carry-on bag in airplane cabin overhead bin.",
+      "exampleJa": "飛行機の客室の頭上荷物棚に機内持ち込みバッグを収納しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "captain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæptɪn/",
+      "meaning": "機長；船長",
+      "exampleEn": "Flight captain announced smooth landing status.",
+      "exampleJa": "飛行機の機長が順調な着陸状況をアナウンスしました。",
+      "level": 2
+    },
+    {
+      "headword": "carousel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkærəˈsel/",
+      "meaning": "荷物用回転コンベア",
+      "exampleEn": "Wait for checked bags at baggage carousel.",
+      "exampleJa": "手荷物回転コンベアで預けたバッグを待ちちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "cater",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkeɪtər/",
+      "meaning": "料理を調達・ケータリングする",
+      "exampleEn": "Restaurant caters large corporate lunch party.",
+      "exampleJa": "レストランが大規模な法人の昼食パーティーに料理を調達（ケータリング）します。",
+      "level": 3
+    },
+    {
+      "headword": "catering",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkeɪtərɪŋ/",
+      "meaning": "ケータリング；出張給食サービス",
+      "exampleEn": "Hire high quality party catering service company.",
+      "exampleJa": "高品質なパーティーケータリング（出張給食）会社を雇いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "check-in",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃek ɪn/",
+      "meaning": "チェックイン；搭乗手続き",
+      "exampleEn": "Complete online flight check-in early.",
+      "exampleJa": "早めにオンライン飛行機搭乗手続き（チェックイン）を完了しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "check-out",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃek aʊt/",
+      "meaning": "チェックアウト；退室",
+      "exampleEn": "Hotel check-out time is eleven AM.",
+      "exampleJa": "ホテルのチェックアウト時間は午前11時です。",
+      "level": 2
+    },
+    {
+      "headword": "chef",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃef/",
+      "meaning": "料理長；シェフ",
+      "exampleEn": "Executive chef prepared special dinner menu.",
+      "exampleJa": "料理長（シェフ）が特別ディナーメニューを準備しました。",
+      "level": 2
+    },
+    {
+      "headword": "concierge",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːnsiˈerʒ/",
+      "meaning": "コンシェルジュ；案内人",
+      "exampleEn": "Hotel concierge booked restaurant table for guests.",
+      "exampleJa": "ホテルのコンシェルジュがゲストのためにレストランのテーブルを予約しました。",
+      "level": 4
+    },
+    {
+      "headword": "cruise",
+      "partOfSpeech": "noun",
+      "phonetic": "/kruːz/",
+      "meaning": "クルーズ；巡航",
+      "exampleEn": "Enjoy Caribbean sea island luxury cruise ship.",
+      "exampleJa": "カリブ海島の豪華クルーズ船を楽しみなさい。",
+      "level": 2
+    },
+    {
+      "headword": "delegation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdelɪˈɡeɪʃn/",
+      "meaning": "代表団；派遣団",
+      "exampleEn": "Trade delegation visited foreign manufacturing plants.",
+      "exampleJa": "貿易代表団が海外の製造工場を訪問しました。",
+      "level": 3
+    },
+    {
+      "headword": "delegate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdelɪɡət/",
+      "meaning": "代表者；使節",
+      "exampleEn": "Conference delegates gathered from thirty countries.",
+      "exampleJa": "30カ国から会議代表者たちが集まりました。",
+      "level": 3
+    },
+    {
+      "headword": "dining",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪnɪŋ/",
+      "meaning": "食事；ダイニング",
+      "exampleEn": "Fine dining restaurant serves local seafood.",
+      "exampleJa": "高級ダイニングレストランが地元のシーフードを提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "event",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈvent/",
+      "meaning": "催し；イベント",
+      "exampleEn": "Corporate anniversary event held in ballroom.",
+      "exampleJa": "企業の創立記念イベントが舞踏会場で開催されました。",
+      "level": 2
+    },
+    {
+      "headword": "excursion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈskɜːrʒn/",
+      "meaning": "日帰り旅行；遠足",
+      "exampleEn": "Join guided boat island excursion trip.",
+      "exampleJa": "ガイド付きボート島巡り（日帰り旅行）に参加しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "fare",
+      "partOfSpeech": "noun",
+      "phonetic": "/fer/",
+      "meaning": "運賃；乗車料金",
+      "exampleEn": "Pay bus fare when entering vehicle.",
+      "exampleJa": "乗車する際にバスの運賃（乗車料金）を支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "flight",
+      "partOfSpeech": "noun",
+      "phonetic": "/flaɪt/",
+      "meaning": "フライト；定期航空便",
+      "exampleEn": "Direct flight to Paris takes ten hours.",
+      "exampleJa": "パリへの直行フライト（航空便）は10時間かかります。",
+      "level": 2
+    },
+    {
+      "headword": "front desk",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "フロント；受付",
+      "exampleEn": "Leave hotel key room at front desk.",
+      "exampleJa": "フロント（受付）にホテルの部屋の鍵を預けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "gate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡeɪt/",
+      "meaning": "搭乗口；ゲート",
+      "exampleEn": "Proceed to departure gate fifteen immediately.",
+      "exampleJa": "即座に15番出発搭乗口（ゲート）へ進みちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "guest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡest/",
+      "meaning": "宿泊客；来客",
+      "exampleEn": "Hotel welcomes international business guests warmly.",
+      "exampleJa": "ホテルは国際ビジネス宿泊客（ゲスト）を温かく歓迎します。",
+      "level": 2
+    },
+    {
+      "headword": "hospitality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌhɑːspɪˈtæləti/",
+      "meaning": "歓待；ホスピタリティ",
+      "exampleEn": "Experience famous traditional Japanese hospitality service.",
+      "exampleJa": "有名な日本の伝統的な歓待（ホスピタリティ）サービスを体験しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "host",
+      "partOfSpeech": "verb",
+      "phonetic": "/hoʊst/",
+      "meaning": "を主催する",
+      "exampleEn": "City hosted international economic summit conference.",
+      "exampleJa": "市は国際経済サミット会議を主催しました。",
+      "level": 2
+    },
+    {
+      "headword": "hotel",
+      "partOfSpeech": "noun",
+      "phonetic": "/hoʊˈtel/",
+      "meaning": "ホテル",
+      "exampleEn": "Five star luxury hotel opened near coast.",
+      "exampleJa": "5つ星の高級ホテルが海岸の近くにオープンしました。",
+      "level": 2
+    },
+    {
+      "headword": "inn",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪn/",
+      "meaning": "小旅館；宿屋",
+      "exampleEn": "Stay at cozy traditional countryside inn.",
+      "exampleJa": "居心地の良い伝統的な田舎の小旅館（宿屋）に滞在しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "land",
+      "partOfSpeech": "verb",
+      "phonetic": "/lænd/",
+      "meaning": "着陸する",
+      "exampleEn": "Airplane landed safely despite heavy rain.",
+      "exampleJa": "激しい雨にもかかわらず飛行機は安全に着陸しました。",
+      "level": 2
+    },
+    {
+      "headword": "landing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlændɪŋ/",
+      "meaning": "着陸",
+      "exampleEn": "Fasten seatbelt during airplane landing process.",
+      "exampleJa": "飛行機の着陸工程中はシートベルトを締めなさい。",
+      "level": 2
+    },
+    {
+      "headword": "layover",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪoʊvər/",
+      "meaning": "乗り継ぎ待ち時間；レイオーバー",
+      "exampleEn": "Three hour airport layover before next flight.",
+      "exampleJa": "次のフライトの前に3時間の空港レイオーバー（乗り継ぎ待ち時間）。",
+      "level": 3
+    },
+    {
+      "headword": "limousine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪməziːn/",
+      "meaning": "リムジン；大型送迎車",
+      "exampleEn": "Airport limousine bus departs every fifteen minutes.",
+      "exampleJa": "空港リムジンバスは15分毎に出発します。",
+      "level": 3
+    },
+    {
+      "headword": "luggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlʌɡɪdʒ/",
+      "meaning": "手荷物；スーツケース",
+      "exampleEn": "Store heavy luggage in hotel holding room.",
+      "exampleJa": "ホテルの預かり室に重い手荷物（スーツケース）を保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "occupancy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːkjəpənsi/",
+      "meaning": "客室利用率；占有",
+      "exampleEn": "Hotel achieved ninety percent occupancy rate.",
+      "exampleJa": "ホテルは90%の客室利用率を達成しました。",
+      "level": 3
+    },
+    {
+      "headword": "overbook",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌoʊvərˈbʊk/",
+      "meaning": "をオーバーブックする",
+      "exampleEn": "Airline overbooked flight by ten seats.",
+      "exampleJa": "航空会社はフライトを10席オーバーブック（超剰予約）しました。",
+      "level": 3
+    },
+    {
+      "headword": "passenger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæsɪndʒər/",
+      "meaning": "乗客",
+      "exampleEn": "All passengers boarded train safely.",
+      "exampleJa": "すべての乗客が安全に列車に搭乗しました。",
+      "level": 2
+    },
+    {
+      "headword": "passport",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæspɔːrt/",
+      "meaning": "パスポート；旅券",
+      "exampleEn": "Show valid passport at border control.",
+      "exampleJa": "入国管理で有効なパスポートを提示しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pilot",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpaɪlət/",
+      "meaning": "パイロット；操縦士",
+      "exampleEn": "Experienced airline pilot landed plane smoothly.",
+      "exampleJa": "経験豊富な航空会社パイロットが飛行機を滑らかに着陸させました。",
+      "level": 2
+    },
+    {
+      "headword": "resort",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzɔːrt/",
+      "meaning": "リゾート；行楽地",
+      "exampleEn": "Stay at beach resort hotel during summer.",
+      "exampleJa": "夏の間ビーチリゾートホテルに滞在しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "seatbelt",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsiːtbelt/",
+      "meaning": "シートベルト",
+      "exampleEn": "Fasten your seatbelt securely during flight.",
+      "exampleJa": "飛行中しっかりとシートベルトを締めなさい。",
+      "level": 2
+    },
+    {
+      "headword": "sightseeing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪtsiːɪŋ/",
+      "meaning": "観光",
+      "exampleEn": "Enjoy bus tour sightseeing around city landmark.",
+      "exampleJa": "市のランドマーク周囲のバスターミナル観光を楽しみなさい。",
+      "level": 2
+    },
+    {
+      "headword": "souvenir",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsuːvəˈnɪr/",
+      "meaning": "お土産；記念品",
+      "exampleEn": "Buy local craft souvenir at gift shop.",
+      "exampleJa": "ギフトショップで地元の工芸お土産を購入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "suite",
+      "partOfSpeech": "noun",
+      "phonetic": "/swiːt/",
+      "meaning": "スイートルーム；特別室",
+      "exampleEn": "Book luxury ocean view suite room hotel.",
+      "exampleJa": "豪華なオーシャンビュースイートルームホテルを予約しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "taxi",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtæksi/",
+      "meaning": "タクシー",
+      "exampleEn": "Take yellow cab taxi to airport terminal.",
+      "exampleJa": "空港ターミナルへ黄色いタクシーに乗りちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "terminal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrmɪnl/",
+      "meaning": "ターミナル；終着駅",
+      "exampleEn": "Flight departs from international terminal two.",
+      "exampleJa": "便は第2国際ターミナルから出発します。",
+      "level": 2
+    },
+    {
+      "headword": "ticket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "チケット；乗車券",
+      "exampleEn": "Purchase round trip train ticket online.",
+      "exampleJa": "オンラインで往復列車チケットを購入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "tour",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʊr/",
+      "meaning": "ツアー；周遊旅行",
+      "exampleEn": "Join guided walking tour of historic district.",
+      "exampleJa": "歴史的地区のガイド付き徒歩ツアーに参加しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "tourism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʊrɪzəm/",
+      "meaning": "観光業；観光",
+      "exampleEn": "Local tourism industry boosted regional economy.",
+      "exampleJa": "地元の観光業が地域経済を押し上げました。",
+      "level": 2
+    },
+    {
+      "headword": "tourist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʊrɪst/",
+      "meaning": "観光客",
+      "exampleEn": "Million tourists visit famous castle every year.",
+      "exampleJa": "毎年何百万もの観光客が有名なお城を訪問します。",
+      "level": 2
+    },
+    {
+      "headword": "traveler",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrævlər/",
+      "meaning": "旅行者",
+      "exampleEn": "Business traveler checked into hotel room.",
+      "exampleJa": "ビジネス旅行者がホテルの客室にチェックインしました。",
+      "level": 2
+    },
+    {
+      "headword": "trip",
+      "partOfSpeech": "noun",
+      "phonetic": "/trɪp/",
+      "meaning": "出張；旅行",
+      "exampleEn": "Go on three day business trip to London.",
+      "exampleJa": "ロンドンへ3日間の出張に行きちなさい。",
+      "level": 2
+    },
+    {
+      "headword": "vacant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈveɪkənt/",
+      "meaning": "空いている；空室の",
+      "exampleEn": "Reserve vacant seat near window on bus.",
+      "exampleJa": "バスの窓近くの空いている座席を予約しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "valet",
+      "partOfSpeech": "noun",
+      "phonetic": "/væˈleɪ/",
+      "meaning": "バレーパーキング係；駐車係",
+      "exampleEn": "Hotel valet parked car in underground garage.",
+      "exampleJa": "ホテルのバレーパーキング係が地下ガレージに車を駐車しました。",
+      "level": 4
+    },
+    {
+      "headword": "venue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvenjuː/",
+      "meaning": "開催地；会場",
+      "exampleEn": "Concert venue accommodates five thousand people.",
+      "exampleJa": "コンサート会場は5,000人を収容できます。",
+      "level": 3
+    },
+    {
+      "headword": "visa",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈviːzə/",
+      "meaning": "査証；ビザ",
+      "exampleEn": "Apply for business entry visa at embassy.",
+      "exampleJa": "大使館でビジネス入国ビザ（査証）を申請しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "visitor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪzɪtər/",
+      "meaning": "訪問者；見学者",
+      "exampleEn": "Museum visitor enjoyed art gallery tour.",
+      "exampleJa": "博物館の見学者が美術館ツアーを楽し居ました。",
+      "level": 2
+    },
+    {
+      "headword": "voyage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɔɪɪdʒ/",
+      "meaning": "航海；長旅",
+      "exampleEn": "Ship completed long ocean crossing voyage.",
+      "exampleJa": "船は長い海洋横断の航海を完了しました。",
+      "level": 3
+    },
+    {
+      "headword": "waiter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈweɪtər/",
+      "meaning": "給仕人；ウェイター",
+      "exampleEn": "Waiter brought fresh water and bread menu.",
+      "exampleJa": "ウェイターが新鮮なお水とパンのメニューを持ってきました。",
+      "level": 2
+    },
+    {
+      "headword": "waitress",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈweɪtrəs/",
+      "meaning": "ウェイトレス",
+      "exampleEn": "Waitress took meal order politely.",
+      "exampleJa": "ウェイトレスが丁寧にい食事の注文を取りました。",
+      "level": 2
+    },
+    {
+      "headword": "scanner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskænər/",
+      "meaning": "スキャナー；読み取り機",
+      "exampleEn": "Scan contract document using office scanner.",
+      "exampleJa": "オフィスのスキャナーを使って契約文書をスキャンしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "scout",
+      "partOfSpeech": "verb",
+      "phonetic": "/skaʊt/",
+      "meaning": "をスカウトする；探す",
+      "exampleEn": "Firm scouts young talented computer programmers.",
+      "exampleJa": "企業は若い優秀なプログラマーをスカウトしています。",
+      "level": 2
+    },
+    {
+      "headword": "collateral",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈlætərəl/",
+      "meaning": "担保；見返り",
+      "exampleEn": "Pledge real estate property as loan collateral.",
+      "exampleJa": "ローンの担保として不動産資産を差し入れなさい。",
+      "level": 4
+    },
+    {
+      "headword": "endorsement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdɔːrsmənt/",
+      "meaning": "有名人起用宣伝；推奨",
+      "exampleEn": "Signed celebrity product endorsement contract deal.",
+      "exampleJa": "有名人の製品起用宣伝（エンドースメント）契約取引に署名しました。",
+      "level": 3
+    },
+    {
+      "headword": "microprocessor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmaɪkroʊˈprɑːsesər/",
+      "meaning": "超小型演算処理装置",
+      "exampleEn": "Fast microprocessor speeds up computer calculations.",
+      "exampleJa": "高速な超小型演算処理装置（プロセッサ）がコンピューターの計算を高速化します。",
+      "level": 3
+    },
+    {
+      "headword": "stopover",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstɑːpoʊvər/",
+      "meaning": "途中の寄港；途中下車",
+      "exampleEn": "Enjoy overnight stopover in Paris airport hotel.",
+      "exampleJa": "パリの空港ホテルで一晩の途中下車（ストップオーバー）を楽しみなさい。",
+      "level": 3
+    },
+    {
+      "headword": "unquestionably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ʌnˈkwestʃənəbli/",
+      "meaning": "疑いなく；紛れもなく",
+      "exampleEn": "He is unquestionably top sales representative person.",
+      "exampleJa": "彼は紛れもなく（疑いなく）最高の営業担当者です。",
+      "level": 3
+    },
+    {
+      "headword": "at your earliest convenience",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ご都合がつき次第早めに",
+      "exampleEn": "Please reply at your earliest convenience.",
+      "exampleJa": "ご都合がつき次第早めにご返信ください。",
+      "level": 3
+    }
+  ]
+}

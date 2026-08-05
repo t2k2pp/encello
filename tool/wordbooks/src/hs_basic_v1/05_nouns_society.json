@@ -475,7 +475,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈænɪmeɪt/",
       "meaning": "に生命を与える；活気づける",
-      "exampleEn": "Draw images to animate digital movie.",
+      "exampleEn": "Draw images to animate a digital movie.",
       "exampleJa": "デジタル映画を活気づけるために絵を描きなさい。",
       "level": 2
     },
@@ -493,8 +493,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈpɔɪnt/",
       "meaning": "を指名・任命する；指定する",
-      "exampleEn": "Appoint new team leader manager.",
-      "exampleJa": "新しいチームリーダーマネージャーを任命しなさい。",
+      "exampleEn": "The company appointed a new team leader.",
+      "exampleJa": "会社は新しいチームリーダーを任命しました。",
       "level": 2
     },
     {
@@ -502,8 +502,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrkɪtektʃər/",
       "meaning": "建築；建築学",
-      "exampleEn": "Study modern city building architecture.",
-      "exampleJa": "現代の都市建物建築を学びなさい。",
+      "exampleEn": "She studies modern city architecture.",
+      "exampleJa": "彼女は現代の都市建築を学んでいます。",
       "level": 2
     },
     {
@@ -511,8 +511,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈreɪndʒmənt/",
       "meaning": "手配；配置；取り決め",
-      "exampleEn": "Make travel hotel room arrangements.",
-      "exampleJa": "旅行のホテルの部屋の手配を行いなさい。",
+      "exampleEn": "Please make the hotel room arrangements.",
+      "exampleJa": "ホテルの部屋の手配をしてください。",
       "level": 2
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/æθˈletɪk/",
       "meaning": "運動の；体育の",
-      "exampleEn": "Join school athletic sports game match.",
-      "exampleJa": "学校の運動スポーツゲーム試合に参加しなさい。",
+      "exampleEn": "Join the school's athletic sports team.",
+      "exampleJa": "学校の運動部に参加しなさい。",
       "level": 2
     },
     {
@@ -547,8 +547,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈɔːθəraɪz/",
       "meaning": "を認可する；に権限を与える",
-      "exampleEn": "Manager authorized project payment budget.",
-      "exampleJa": "マネージャーがプロジェクトの支払予算を認可しました。",
+      "exampleEn": "The manager authorized the project budget.",
+      "exampleJa": "マネージャーがプロジェクトの予算を承認しました。",
       "level": 2
     },
     {
@@ -556,7 +556,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/əˈweɪk/",
       "meaning": "目が覚めて；を覚ます",
-      "exampleEn": "Stay awake late studying for exam.",
+      "exampleEn": "Stay awake late studying for the exam.",
       "exampleJa": "試験のために勉強しながら夜遅くまで目が覚めている状態を保ちなさい。",
       "level": 2
     },
@@ -565,8 +565,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbækʌp/",
       "meaning": "バックアップ；予備",
-      "exampleEn": "Save computer file data backup copy.",
-      "exampleJa": "コンピューターファイルデータのバックアップコピーを保存しなさい。",
+      "exampleEn": "Save a backup copy of your files.",
+      "exampleJa": "ファイルのバックアップコピーを保存しなさい。",
       "level": 2
     },
     {
@@ -583,8 +583,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæŋkrʌptsi/",
       "meaning": "破産；倒産",
-      "exampleEn": "File for official company business bankruptcy.",
-      "exampleJa": "公式な会社のビジネス破産を申請しなさい。",
+      "exampleEn": "The company filed for bankruptcy.",
+      "exampleJa": "その会社は破産を申請しました。",
       "level": 2
     },
     {
@@ -601,8 +601,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/biːn/",
       "meaning": "豆；豆類",
-      "exampleEn": "Eat green coffee soy food beans.",
-      "exampleJa": "緑のコーヒーや大豆の食品の豆を食べなさい。",
+      "exampleEn": "We eat many kinds of beans.",
+      "exampleJa": "私たちはいろいろな種類の豆を食べます。",
       "level": 2
     },
     {
@@ -610,8 +610,8 @@
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈfɔːr/",
       "meaning": "〜の前に；以前に",
-      "exampleEn": "Wash hands before eating food meal.",
-      "exampleJa": "食事を食べる前に手を洗いなさい。",
+      "exampleEn": "Wash your hands before eating a meal.",
+      "exampleJa": "食事の前に手を洗いなさい。",
       "level": 2
     },
     {
@@ -619,8 +619,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈlɔːŋɪŋz/",
       "meaning": "所持品；持ち物",
-      "exampleEn": "Take personal belongings baggage with you.",
-      "exampleJa": "個人的な所持品の手荷物を一緒に持っていきなさい。",
+      "exampleEn": "Take your personal belongings with you.",
+      "exampleJa": "あなたの私物を持っていきなさい。",
       "level": 2
     },
     {
@@ -664,8 +664,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/buːst/",
       "meaning": "を押し上げる；高める；景気付け",
-      "exampleEn": "Measures helped boost company sales revenue.",
-      "exampleJa": "措置が会社の売上収益を押し上げるのを助けました。",
+      "exampleEn": "The new measures helped boost company sales.",
+      "exampleJa": "これらの対策が会社の売上を押し上げるのに役立ちました。",
       "level": 2
     },
     {
@@ -682,7 +682,7 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbreɪvli/",
       "meaning": "勇敢に",
-      "exampleEn": "He fought bravely against disease illness.",
+      "exampleEn": "He fought bravely against his illness.",
       "exampleJa": "彼は病気に対して勇敢に戦いました。",
       "level": 2
     },
@@ -691,8 +691,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbruːəri/",
       "meaning": "ビール醸造所",
-      "exampleEn": "Visit local craft beer brewery tour.",
-      "exampleJa": "地元のクラフトビール醸造所ツアーを訪問しなさい。",
+      "exampleEn": "We visited a local craft beer brewery.",
+      "exampleJa": "私たちは地元のクラフトビール醸造所を訪れました。",
       "level": 2
     },
     {
@@ -709,8 +709,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbraʊzər/",
       "meaning": "ブラウザ（閲覧ソフト）",
-      "exampleEn": "Open internet web browser software program.",
-      "exampleJa": "インターネットウェブブラウザソフトウェアプログラムを開きなさい。",
+      "exampleEn": "Please open your web browser.",
+      "exampleJa": "ウェブブラウザを開いてください。",
       "level": 2
     },
     {
@@ -718,8 +718,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊlɪt/",
       "meaning": "銃弾；弾丸",
-      "exampleEn": "Gun fired fast metal lead bullet.",
-      "exampleJa": "銃が高速の金属鉛銃弾を発射しました。",
+      "exampleEn": "The gun fired a fast lead bullet.",
+      "exampleJa": "銃が高速の鉛の銃弾を発射しました。",
       "level": 2
     },
     {
@@ -727,7 +727,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɜːrst/",
       "meaning": "破裂する；を破裂させる",
-      "exampleEn": "Water pipe burst during cold winter.",
+      "exampleEn": "The water pipe burst during cold winter.",
       "exampleJa": "寒い冬の間に水道管が破裂しました。",
       "level": 2
     },

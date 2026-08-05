@@ -673,7 +673,7 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈæŋɡrəli/",
       "meaning": "怒って；カンカンになって",
-      "exampleEn": "He shouted angrily at broken machine.",
+      "exampleEn": "He shouted angrily at the broken machine.",
       "exampleJa": "彼は壊れた機械にカンカンになって叫びました。",
       "level": 2
     },
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈplaɪəns/",
       "meaning": "電化製品；器具",
-      "exampleEn": "Buy home electric kitchen appliances.",
-      "exampleJa": "家庭用電気キッチン電化製品を購入しなさい。",
+      "exampleEn": "She bought a new kitchen appliance.",
+      "exampleJa": "彼女は新しいキッチン家電を買いました。",
       "level": 2
     },
     {
@@ -754,8 +754,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈtendəns/",
       "meaning": "出席；出席者数",
-      "exampleEn": "Record daily class student attendance count.",
-      "exampleJa": "毎日のクラス生徒出席数を記録しなさい。",
+      "exampleEn": "Please record today's class attendance.",
+      "exampleJa": "今日のクラスの出席を記録してください。",
       "level": 2
     },
     {
@@ -772,8 +772,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈævərɪdʒ/",
       "meaning": "平均；平均の",
-      "exampleEn": "Calculate class average score test result.",
-      "exampleJa": "クラスの平均スコアテスト結果を計算しなさい。",
+      "exampleEn": "Please calculate the class average score.",
+      "exampleJa": "クラスの平均点を計算してください。",
       "level": 2
     },
     {
@@ -781,8 +781,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbætʃələr/",
       "meaning": "独身男性；学士",
-      "exampleEn": "Earn university bachelor degree diploma.",
-      "exampleJa": "大学の学士学位の卒業証書を獲得しなさい。",
+      "exampleEn": "He earned a bachelor's degree from university.",
+      "exampleJa": "彼は大学で学士号を取得しました。",
       "level": 2
     },
     {
@@ -790,8 +790,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbeɪkəri/",
       "meaning": "パン屋；製パン所",
-      "exampleEn": "Buy fresh bread rolls local bakery.",
-      "exampleJa": "地元のパン屋でフレッシュなパンを購入しなさい。",
+      "exampleEn": "I bought fresh bread rolls at the bakery.",
+      "exampleJa": "私はパン屋で焼きたてのロールパンを買いました。",
       "level": 2
     },
     {
@@ -799,8 +799,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bæŋk/",
       "meaning": "銀行；土手；川岸",
-      "exampleEn": "Deposit money inside central city bank.",
-      "exampleJa": "中央都市銀行の中にお金を預け入れなさい。",
+      "exampleEn": "He deposited money in the city bank.",
+      "exampleJa": "彼は市内の銀行にお金を預けました。",
       "level": 2
     },
     {
@@ -817,7 +817,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbætlfiːld/",
       "meaning": "戦場",
-      "exampleEn": "Army met enemy forces on battlefield.",
+      "exampleEn": "The army met enemy forces on the battlefield.",
       "exampleJa": "陸軍が戦場で敵部隊と出遭いました。",
       "level": 2
     },
@@ -835,8 +835,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈliːf/",
       "meaning": "信念；信仰；信頼",
-      "exampleEn": "Hold strong moral religious personal belief.",
-      "exampleJa": "強固な道徳的宗教的個人的信念を持ちなさい。",
+      "exampleEn": "She holds a strong religious belief.",
+      "exampleJa": "彼女は強い信仰心を持っています。",
       "level": 2
     },
     {
@@ -853,8 +853,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌbaɪəˈlɑːdʒɪkl/",
       "meaning": "生物学の；生物の",
-      "exampleEn": "Study human body cell biological structure.",
-      "exampleJa": "人体細胞の生物学の構造を学びなさい。",
+      "exampleEn": "Scientists study the biological structure of cells.",
+      "exampleJa": "科学者たちは細胞の生物学的構造を研究します。",
       "level": 2
     },
     {
@@ -862,8 +862,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/blæst/",
       "meaning": "爆発；突風；を爆破する",
-      "exampleEn": "Huge bomb explosion blast shook ground.",
-      "exampleJa": "巨大な爆弾の爆発の衝撃が地面を揺らしました。",
+      "exampleEn": "A huge blast shook the ground.",
+      "exampleJa": "巨大な爆発が地面を揺らしました。",
       "level": 2
     },
     {
@@ -871,8 +871,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/bluː/",
       "meaning": "青い；憂鬱な",
-      "exampleEn": "Clear bright blue sky summer day.",
-      "exampleJa": "夏の日の澄んだ明るい青い空。",
+      "exampleEn": "The sky was clear and blue that day.",
+      "exampleJa": "その日の空は澄んで青かったです。",
       "level": 2
     },
     {
@@ -880,8 +880,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈboʊnəs/",
       "meaning": "ボーナス；特別手当",
-      "exampleEn": "Receive annual cash work bonus money.",
-      "exampleJa": "毎年の現金作業ボーナスのお金を受け取りなさい。",
+      "exampleEn": "She received a cash bonus this year.",
+      "exampleJa": "彼女は今年ボーナスを受け取りました。",
       "level": 2
     },
     {
@@ -889,8 +889,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/breɪk/",
       "meaning": "ブレーキ；制動装置",
-      "exampleEn": "Press car foot brake to stop.",
-      "exampleJa": "停車するために車の足のブレーキを押しなさい。",
+      "exampleEn": "Press the foot brake to stop the car.",
+      "exampleJa": "車を止めるためにフットブレーキを踏みなさい。",
       "level": 2
     },
     {
@@ -898,8 +898,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/briːð/",
       "meaning": "息をする；呼吸する",
-      "exampleEn": "Breathe deeply clean mountain air.",
-      "exampleJa": "清らかな山の空気を深く呼吸しなさい。",
+      "exampleEn": "Breathe deeply in the clean mountain air.",
+      "exampleJa": "澄んだ山の空気を深く吸い込みなさい。",
       "level": 2
     },
     {
@@ -925,7 +925,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪldɪŋ/",
       "meaning": "建物；ビル",
-      "exampleEn": "Tall office building stands in city.",
+      "exampleEn": "A tall office building stands in the city.",
       "exampleJa": "背の高いオフィスビルが都市に立っています。",
       "level": 2
     },
@@ -934,8 +934,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɜːrɡlər/",
       "meaning": "強盗；泥棒",
-      "exampleEn": "Police caught house night burglar thief.",
-      "exampleJa": "警察が住宅の夜間強盗を捕まえました。",
+      "exampleEn": "Police caught the burglar last night.",
+      "exampleJa": "警察は昨夜、強盗を捕まえました。",
       "level": 2
     },
     {
@@ -943,8 +943,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌtər/",
       "meaning": "バター",
-      "exampleEn": "Spread fresh yellow cream butter toast.",
-      "exampleJa": "トーストに新鮮な黄色のクリームバターを塗りなさい。",
+      "exampleEn": "Spread fresh butter on your toast.",
+      "exampleJa": "トーストに新鮮なバターを塗りなさい。",
       "level": 2
     }
   ]

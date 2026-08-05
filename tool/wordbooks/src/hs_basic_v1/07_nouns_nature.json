@@ -403,8 +403,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɔːtəˈmætɪk/",
       "meaning": "自動の；無意識の",
-      "exampleEn": "Door features automatic open sensor system.",
-      "exampleJa": "ドアは自動オープンセンサーシステムを特徴としています。",
+      "exampleEn": "The door has an automatic sensor system.",
+      "exampleJa": "そのドアには自動センサーシステムが備わっています。",
       "level": 2
     },
     {
@@ -421,8 +421,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bækˈtɪriə/",
       "meaning": "細菌；バクテリア",
-      "exampleEn": "Wash hands to kill harmful germ bacteria.",
-      "exampleJa": "有害な病原体細菌を殺すために手を洗いなさい。",
+      "exampleEn": "Wash your hands to kill harmful bacteria.",
+      "exampleJa": "有害な細菌を殺すために手を洗いなさい。",
       "level": 2
     },
     {
@@ -430,8 +430,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bæˈleɪ/",
       "meaning": "バレエ；バレエ舞踊",
-      "exampleEn": "Watch classical stage theater ballet dance.",
-      "exampleJa": "古典的な舞台劇場のバレエダンスを観賞しなさい。",
+      "exampleEn": "We watched a classical ballet performance.",
+      "exampleJa": "私たちは古典的なバレエの公演を観賞しました。",
       "level": 2
     },
     {
@@ -439,8 +439,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɑːr/",
       "meaning": "バー；棒；障害",
-      "exampleEn": "Grab solid metal exercise bar hand.",
-      "exampleJa": "固い金属の運動棒を手で掴みなさい。",
+      "exampleEn": "Grab the metal exercise bar with your hand.",
+      "exampleJa": "手で金属の運動棒を掴みなさい。",
       "level": 2
     },
     {
@@ -466,7 +466,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈɡɪn/",
       "meaning": "始める；始まる",
-      "exampleEn": "Lesson begins at nine o'clock morning.",
+      "exampleEn": "The lesson begins at nine in the morning.",
       "exampleJa": "授業は朝9時に始まります。",
       "level": 2
     },
@@ -475,8 +475,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈstoʊ/",
       "meaning": "を授ける；を贈る",
-      "exampleEn": "Bestow honor medal award upon hero.",
-      "exampleJa": "英雄に名誉メダル賞を授けなさい。",
+      "exampleEn": "They bestowed a medal upon the hero.",
+      "exampleJa": "彼らは英雄にメダルを授けました。",
       "level": 2
     },
     {
@@ -484,8 +484,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪdɪŋ/",
       "meaning": "入札；命令",
-      "exampleEn": "Win public government project auction bidding.",
-      "exampleJa": "公共政府プロジェクトのオークション入札を行いなさい。",
+      "exampleEn": "The company won the bidding for the project.",
+      "exampleJa": "その会社はそのプロジェクトの入札に勝ちました。",
       "level": 2
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪtərnəs/",
       "meaning": "苦味；怨恨；辛さ",
-      "exampleEn": "Feel emotional pain defeat life bitterness.",
-      "exampleJa": "感情的な痛みの敗北の人生の辛さを感じなさい。",
+      "exampleEn": "She felt bitterness after her defeat.",
+      "exampleJa": "彼女は敗北の後、苦い思いを感じました。",
       "level": 2
     },
     {
@@ -502,8 +502,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈblaɪndnəs/",
       "meaning": "盲目；失明",
-      "exampleEn": "Eye health medical treatment prevents blindness.",
-      "exampleJa": "目の健康の医療治療が失明を防止します。",
+      "exampleEn": "Proper medical treatment can prevent blindness.",
+      "exampleJa": "適切な医療処置は失明を防ぐことができます。",
       "level": 2
     },
     {
@@ -511,7 +511,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːdi/",
       "meaning": "身体；体；主体",
-      "exampleEn": "Exercise daily to keep healthy body.",
+      "exampleEn": "Exercise daily to keep a healthy body.",
       "exampleJa": "健康な身体を保つために毎日運動しなさい。",
       "level": 2
     },
@@ -520,8 +520,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/buːθ/",
       "meaning": "売店；ブース；電話ボックス",
-      "exampleEn": "Visit event trade exhibition booth counter.",
-      "exampleJa": "イベント貿易展示ブースカウンターを訪問しなさい。",
+      "exampleEn": "We visited the trade exhibition booth.",
+      "exampleJa": "私たちは貿易展示会のブースを訪れました。",
       "level": 2
     },
     {
@@ -529,8 +529,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaʊndri/",
       "meaning": "境界；限界",
-      "exampleEn": "River marks natural property land boundary.",
-      "exampleJa": "川が自然な土地の所有権の境界を示します。",
+      "exampleEn": "The river marks the natural land boundary.",
+      "exampleJa": "その川が自然の土地の境界を示します。",
       "level": 2
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bred/",
       "meaning": "パン；食パン",
-      "exampleEn": "Eat fresh toast wheat bread morning.",
-      "exampleJa": "朝フレッシュなトースト小麦パンを食べなさい。",
+      "exampleEn": "I eat fresh bread every morning.",
+      "exampleJa": "私は毎朝焼きたてのパンを食べます。",
       "level": 2
     },
     {
@@ -556,7 +556,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbrɔːdkæstər/",
       "meaning": "放送事業者；アナウンサー",
-      "exampleEn": "Famous radio news broadcaster spoke.",
+      "exampleEn": "A famous radio news broadcaster spoke.",
       "exampleJa": "有名なラジオニュースアナウンサーが話しました。",
       "level": 2
     },
@@ -565,8 +565,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/brʌʃ/",
       "meaning": "ブラシ；絵筆；を磨く",
-      "exampleEn": "Brush teeth clean every morning night.",
-      "exampleJa": "毎朝毎夜歯を綺麗に磨きなさい。",
+      "exampleEn": "Brush your teeth every morning and night.",
+      "exampleJa": "毎朝毎晩歯を磨きなさい。",
       "level": 2
     },
     {
@@ -574,8 +574,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈbʊli/",
       "meaning": "をいじめる；いじめっ子",
-      "exampleEn": "Never bully younger school classmates students.",
-      "exampleJa": "年下の学校のクラスメイト生徒たちをいじめてはならない。",
+      "exampleEn": "Never bully your younger classmates.",
+      "exampleJa": "年下のクラスメイトをいじめてはいけません。",
       "level": 2
     },
     {
@@ -583,8 +583,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bʌs/",
       "meaning": "バス",
-      "exampleEn": "Take city public transport bus school.",
-      "exampleJa": "学校へ行くため都市公共交通バスに乗りなさい。",
+      "exampleEn": "Take the public bus to school.",
+      "exampleJa": "学校へ行くためにバスに乗りなさい。",
       "level": 2
     },
     {
@@ -592,8 +592,8 @@
       "partOfSpeech": "preposition",
       "phonetic": "/baɪ/",
       "meaning": "〜によって；〜のそばに；〜までに",
-      "exampleEn": "Finish work by five o'clock evening.",
-      "exampleJa": "夕方5時までに作業を終了しなさい。",
+      "exampleEn": "Finish your work by five o'clock.",
+      "exampleJa": "夕方5時までに作業を終えなさい。",
       "level": 2
     }
   ]

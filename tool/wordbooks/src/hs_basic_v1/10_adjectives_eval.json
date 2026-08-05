@@ -529,8 +529,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋkər/",
       "meaning": "錨；ニュースキャスター；固定する",
-      "exampleEn": "Drop heavy iron sea boat anchor.",
-      "exampleJa": "重い鉄の海のボートの錨を落としなさい。",
+      "exampleEn": "Drop the heavy iron anchor into the sea.",
+      "exampleJa": "重い鉄の錨を海に降ろしなさい。",
       "level": 2
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈnaʊnsmənt/",
       "meaning": "発表；告知；アナウンス",
-      "exampleEn": "Listen to airport flight arrival announcement.",
-      "exampleJa": "空港のフライト到着アナウンスを聞きなさい。",
+      "exampleEn": "Listen to the flight arrival announcement.",
+      "exampleJa": "フライト到着のアナウンスを聞きなさい。",
       "level": 2
     },
     {
@@ -574,7 +574,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈsoʊʃieɪt/",
       "meaning": "を関連づける；交際する",
-      "exampleEn": "Associate green with nature environment.",
+      "exampleEn": "Associate green with the natural environment.",
       "exampleJa": "緑を自然環境と関連づけなさい。",
       "level": 2
     },
@@ -583,8 +583,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈtætʃmənt/",
       "meaning": "添付ファイル；愛着",
-      "exampleEn": "Open email file attachment document.",
-      "exampleJa": "電子メールファイル添付文書を開きなさい。",
+      "exampleEn": "Open the file attachment in the email.",
+      "exampleJa": "メールの添付ファイルを開きなさい。",
       "level": 2
     },
     {
@@ -592,8 +592,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
       "meaning": "観客；聴衆",
-      "exampleEn": "Audience clapped hands warm performance.",
-      "exampleJa": "観客がパフォーマンスに温かく拍手をしました。",
+      "exampleEn": "The audience clapped for the warm performance.",
+      "exampleJa": "観客が温かいパフォーマンスに拍手をしました。",
       "level": 2
     },
     {
@@ -628,8 +628,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌbæmˈbuː/",
       "meaning": "タケ；竹",
-      "exampleEn": "Panda eats fresh green bamboo plant leaves.",
-      "exampleJa": "パンダは新鮮な緑の竹の植物の葉を食べます。",
+      "exampleEn": "Pandas eat fresh green bamboo leaves.",
+      "exampleJa": "パンダは新鮮な緑の竹の葉を食べます。",
       "level": 2
     },
     {
@@ -673,8 +673,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈtreɪəl/",
       "meaning": "裏切り；密告",
-      "exampleEn": "Felt deep pain over friend betrayal.",
-      "exampleJa": "友人の裏切りについて深い痛みを感じました。",
+      "exampleEn": "She felt deep pain over her friend's betrayal.",
+      "exampleJa": "彼女は友人の裏切りに深い痛みを感じました。",
       "level": 2
     },
     {
@@ -691,7 +691,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈblækbɔːrd/",
       "meaning": "黒板",
-      "exampleEn": "Teacher wrote English lesson on blackboard.",
+      "exampleEn": "The teacher wrote the English lesson on the blackboard.",
       "exampleJa": "先生が黒板に英語の授業を書きました。",
       "level": 2
     },
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/blʌd/",
       "meaning": "血液；血",
-      "exampleEn": "Heart pumps red fluid blood body.",
-      "exampleJa": "心臓が身体に赤い液体の血液を送り出します。",
+      "exampleEn": "The heart pumps blood through the body.",
+      "exampleJa": "心臓は血液を体中に送り出します。",
       "level": 2
     },
     {
@@ -709,8 +709,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈboʊldli/",
       "meaning": "大胆に；勇気をもって",
-      "exampleEn": "Speaker spoke boldly to large audience crowd.",
-      "exampleJa": "発表者が大勢の観客群衆に対して大胆に話しました。",
+      "exampleEn": "The speaker spoke boldly to a large audience.",
+      "exampleJa": "発表者は大勢の観客に対して大胆に話しました。",
       "level": 2
     },
     {
@@ -718,7 +718,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/bɔːrd/",
       "meaning": "退屈した；飽きた",
-      "exampleEn": "I felt bored watching slow movie.",
+      "exampleEn": "I felt bored watching a slow movie.",
       "exampleJa": "私は退屈な映画を見て飽きたように感じました。",
       "level": 2
     },
@@ -727,7 +727,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɑːks/",
       "meaning": "箱；ケース",
-      "exampleEn": "Pack books inside heavy paper card box.",
+      "exampleEn": "Pack the books inside a heavy cardboard box.",
       "exampleJa": "重い段ボール箱の中に本を詰めなさい。",
       "level": 2
     },
@@ -736,8 +736,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbreɪkdaʊn/",
       "meaning": "故障；崩壊；分析",
-      "exampleEn": "Car suffered engine breakdown road.",
-      "exampleJa": "車が路上でエンジン故障を被りました。",
+      "exampleEn": "The car suffered an engine breakdown on the road.",
+      "exampleJa": "車が路上でエンジン故障を起こしました。",
       "level": 2
     },
     {
@@ -763,8 +763,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌdʒɪt/",
       "meaning": "予算；経費",
-      "exampleEn": "Manage annual family home budget money.",
-      "exampleJa": "毎年の家庭自宅予算のお金を管理しなさい。",
+      "exampleEn": "Manage your family's annual budget.",
+      "exampleJa": "家族の年間予算を管理しなさい。",
       "level": 2
     },
     {

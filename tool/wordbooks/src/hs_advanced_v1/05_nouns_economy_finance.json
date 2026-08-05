@@ -1,0 +1,897 @@
+{
+  "chunk": "05_nouns_economy_finance",
+  "note": "経済・金融・財務・ビジネスに関する発展名詞",
+  "words": [
+    {
+      "headword": "asset",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæset/",
+      "meaning": "資産；強み",
+      "exampleEn": "Confidence is a valuable asset.",
+      "exampleJa": "自信は貴重な資産です。",
+      "level": 3
+    },
+    {
+      "headword": "bankruptcy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæŋkrʌptsi/",
+      "meaning": "破産；倒産",
+      "exampleEn": "The company filed for bankruptcy.",
+      "exampleJa": "その会社は破産を申請しました。",
+      "level": 4
+    },
+    {
+      "headword": "bond",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɑːnd/",
+      "meaning": "債券；絆；結合",
+      "exampleEn": "Investors bought government bonds.",
+      "exampleJa": "投資家たちは国債を購入しました。",
+      "level": 3
+    },
+    {
+      "headword": "budget",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "meaning": "予算；経費",
+      "exampleEn": "We must stay within the budget.",
+      "exampleJa": "予算内に収めなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "commerce",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːmɜːrs/",
+      "meaning": "商業；貿易",
+      "exampleEn": "Electronic commerce grew quickly.",
+      "exampleJa": "電子商業（Eコマース）が急速に成長しました。",
+      "level": 3
+    },
+    {
+      "headword": "commodity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmɑːdəti/",
+      "meaning": "商品；日用品；資源物資",
+      "exampleEn": "Oil is an essential commodity.",
+      "exampleJa": "石油は不可欠な商品・資源物資です。",
+      "level": 4
+    },
+    {
+      "headword": "compensation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːmpenˈseɪʃən/",
+      "meaning": "補償；手当；報酬",
+      "exampleEn": "He received financial compensation.",
+      "exampleJa": "彼は金銭的補償を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "currency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrənsi/",
+      "meaning": "通貨；貨幣",
+      "exampleEn": "Yen is the Japanese currency.",
+      "exampleJa": "円は日本の通貨です。",
+      "level": 3
+    },
+    {
+      "headword": "deficit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdefɪsɪt/",
+      "meaning": "赤字；不足額",
+      "exampleEn": "The nation faces a trade deficit.",
+      "exampleJa": "その国は貿易赤字に直面しています。",
+      "level": 4
+    },
+    {
+      "headword": "deflation",
+      "partOfSpeech": "noun",
+      "phonetic": "/diːˈfleɪʃən/",
+      "meaning": "デフレーション；通告収縮",
+      "exampleEn": "Economy suffered prolonged deflation.",
+      "exampleJa": "経済は長引くデフレに苦しみました。",
+      "level": 4
+    },
+    {
+      "headword": "deposit",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpɑːzɪt/",
+      "meaning": "預金；頭金；堆積物",
+      "exampleEn": "Make a bank deposit today.",
+      "exampleJa": "今日銀行預金をしなさい。",
+      "level": 3
+    },
+    {
+      "headword": "dividend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪvɪdend/",
+      "meaning": "配当金；配当",
+      "exampleEn": "Shareholders received annual dividend.",
+      "exampleJa": "株主たちは配当金を受け取りました。",
+      "level": 5
+    },
+    {
+      "headword": "economics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌiːkəˈnɑːmɪks/",
+      "meaning": "経済学",
+      "exampleEn": "She majors in business economics.",
+      "exampleJa": "彼女はビジネス経済学を専攻しています。",
+      "level": 3
+    },
+    {
+      "headword": "entrepreneur",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːntrəprəˈnɜːr/",
+      "meaning": "起業家；実業家",
+      "exampleEn": "Young entrepreneur started a tech firm.",
+      "exampleJa": "若い起業家がIT企業を立ち上げました。",
+      "level": 4
+    },
+    {
+      "headword": "expenditure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspendɪtʃər/",
+      "meaning": "支出；経費",
+      "exampleEn": "Reduce annual military expenditure.",
+      "exampleJa": "年間軍事支出を削減しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "fiscal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɪskl/",
+      "meaning": "財政の；会計の",
+      "exampleEn": "Fiscal year ends in March.",
+      "exampleJa": "会計年度は3月に終了します。",
+      "level": 4
+    },
+    {
+      "headword": "inflation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfleɪʃən/",
+      "meaning": "インフレーション；物価高",
+      "exampleEn": "High inflation reduces purchasing power.",
+      "exampleJa": "高いインフレは購買力を低下させます。",
+      "level": 3
+    },
+    {
+      "headword": "inventory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnvəntɔːri/",
+      "meaning": "在庫；全在庫品目",
+      "exampleEn": "Store holds large product inventory.",
+      "exampleJa": "店舗は大量の製品在庫を抱えています。",
+      "level": 4
+    },
+    {
+      "headword": "investment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvestmənt/",
+      "meaning": "投資；出資",
+      "exampleEn": "Education is a long-term investment.",
+      "exampleJa": "教育は長期的な投資です。",
+      "level": 3
+    },
+    {
+      "headword": "liability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌlaɪəˈbɪləti/",
+      "meaning": "負債；法的責任",
+      "exampleEn": "Company reduced its financial liabilities.",
+      "exampleJa": "会社は財務負債を減少させました。",
+      "level": 5
+    },
+    {
+      "headword": "loan",
+      "partOfSpeech": "noun",
+      "phonetic": "/loʊn/",
+      "meaning": "ローン；貸付金",
+      "exampleEn": "He took out a student loan.",
+      "exampleJa": "彼は奨学金（学生ローン）を組みました。",
+      "level": 3
+    },
+    {
+      "headword": "monopoly",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈnɑːpəli/",
+      "meaning": "独占；独占権",
+      "exampleEn": "The firm holds a market monopoly.",
+      "exampleJa": "その企業は市場の独占権を握っています。",
+      "level": 4
+    },
+    {
+      "headword": "mortgage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɔːrɡɪdʒ/",
+      "meaning": "住宅ローン；担保",
+      "exampleEn": "They paid off their home mortgage.",
+      "exampleJa": "彼らは住宅ローンを完済しました。",
+      "level": 4
+    },
+    {
+      "headword": "transaction",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænˈzækʃən/",
+      "meaning": "取引；売買",
+      "exampleEn": "Online credit card transactions are secure.",
+      "exampleJa": "オンラインのカード取引は安全です。",
+      "level": 3
+    },
+    {
+      "headword": "turnover",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrnoʊvər/",
+      "meaning": "総売上高；離職率",
+      "exampleEn": "Annual corporate turnover increased.",
+      "exampleJa": "年間の企業売上高が増加しました。",
+      "level": 4
+    },
+    {
+      "headword": "yield",
+      "partOfSpeech": "noun",
+      "phonetic": "/jiːld/",
+      "meaning": "収穫量；利回り",
+      "exampleEn": "High crop yield helped farmers.",
+      "exampleJa": "高い作物の収穫量が農家を助けました。",
+      "level": 4
+    },
+    {
+      "headword": "abduction",
+      "partOfSpeech": "noun",
+      "phonetic": "/æbˈdʌkʃn/",
+      "meaning": "拉致；誘拐",
+      "exampleEn": "Police investigated the child abduction case.",
+      "exampleJa": "警察が子供の拉致（誘拐）事件を捜査しました。",
+      "level": 4
+    },
+    {
+      "headword": "abscond",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈskɑːnd/",
+      "meaning": "高飛びする；持ち逃げする",
+      "exampleEn": "Thief absconded with stolen money cash.",
+      "exampleJa": "泥棒は盗んだお金の現金を高飛び（持ち逃げ）しました。",
+      "level": 5
+    },
+    {
+      "headword": "abyss",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈbɪs/",
+      "meaning": "深淵；底なしの穴",
+      "exampleEn": "Stare into dark deep ocean abyss.",
+      "exampleJa": "暗く深い海洋の深淵（底なしの穴）の中をみつめなさい。",
+      "level": 5
+    },
+    {
+      "headword": "accommodation",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˌkɑːməˈdeɪʃn/",
+      "meaning": "宿泊施設；収容",
+      "exampleEn": "Book travel hotel room accommodation online.",
+      "exampleJa": "旅行のホテルの部屋の宿泊施設をオンラインで予約しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "accumulation",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˌkjuːmjəˈleɪʃn/",
+      "meaning": "蓄積；集積",
+      "exampleEn": "The gradual accumulation of wealth takes years.",
+      "exampleJa": "富の段階的な蓄積（集積）には数年がかかります。",
+      "level": 4
+    },
+    {
+      "headword": "acquaint",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkweɪnt/",
+      "meaning": "を知らせる；熟知させる",
+      "exampleEn": "Acquaint yourself with safety regulations rules.",
+      "exampleJa": "自分自身に安全規制の規則を知らせなさい（熟知させなさい）。",
+      "level": 4
+    },
+    {
+      "headword": "activist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæktɪvɪst/",
+      "meaning": "活動家；アクティビスト",
+      "exampleEn": "Human rights activist spoke at international peace conference.",
+      "exampleJa": "人権活動家（アクティビスト）が国際平和会議で話しました。",
+      "level": 3
+    },
+    {
+      "headword": "adherent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ədˈhɪrənt/",
+      "meaning": "支持者；信奉者",
+      "exampleEn": "He is a devoted adherent political movement.",
+      "exampleJa": "彼は献身的な政治運動の支持者（信奉者）です。",
+      "level": 5
+    },
+    {
+      "headword": "admiration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædməˈreɪʃn/",
+      "meaning": "賞賛；感嘆",
+      "exampleEn": "Express deep admiration for hero brave rescue.",
+      "exampleJa": "英雄の勇敢な救助に対して深い賞賛（感嘆）を表現しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "adultery",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈdʌltəri/",
+      "meaning": "姦通；不貞行為",
+      "exampleEn": "Divorce was granted on grounds of adultery.",
+      "exampleJa": "不貞行為（姦通）の理由で離婚が認められました。",
+      "level": 5
+    },
+    {
+      "headword": "affirm",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfɜːrm/",
+      "meaning": "と断言する；を確認する",
+      "exampleEn": "Court affirmed legal validity contract agreement.",
+      "exampleJa": "裁判所が契約合意の法的有効性を確認（断言）しました。",
+      "level": 3
+    },
+    {
+      "headword": "aggregation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæɡrɪˈɡeɪʃn/",
+      "meaning": "集約；集計",
+      "exampleEn": "Data aggregation helps find market trends.",
+      "exampleJa": "データ集約（集計）が市場のトレンドを見つけるのを助けます。",
+      "level": 4
+    },
+    {
+      "headword": "aimless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeɪmləs/",
+      "meaning": "目的のない；あてもない",
+      "exampleEn": "Took aimless walk around city streets.",
+      "exampleJa": "都市の通り周辺を目的のない（あてもない）散歩をしました。",
+      "level": 3
+    },
+    {
+      "headword": "alignment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈlaɪnmənt/",
+      "meaning": "整列；連携；同盟",
+      "exampleEn": "Ensure close strategic alignment between teams.",
+      "exampleJa": "チーム間の緊密な戦略的連携（整列）を確保しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "allure",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈlʊr/",
+      "meaning": "魅力；誘惑",
+      "exampleEn": "Fascinated by exotic charm allure city.",
+      "exampleJa": "エキゾチックな魅力（誘惑）の都市に魅了されなさい。",
+      "level": 4
+    },
+    {
+      "headword": "amalgamate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈmælɡəmeɪt/",
+      "meaning": "を合併・統合する",
+      "exampleEn": "Two firms amalgamated to form big corporation.",
+      "exampleJa": "2つの企業が合併（統合）して大企業を形成しました。",
+      "level": 5
+    },
+    {
+      "headword": "amicable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæmɪkəbl/",
+      "meaning": "平和的な；友好的な",
+      "exampleEn": "Reached an amicable divorce settlement deal.",
+      "exampleJa": "平和的な（友好的な）離婚和解取引に達しました。",
+      "level": 4
+    },
+    {
+      "headword": "ampere",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæmpɪr/",
+      "meaning": "アンペア（電流単位）",
+      "exampleEn": "Current measured ten electric amperes unit.",
+      "exampleJa": "電流が10電気アンペア単位で測定されました。",
+      "level": 4
+    },
+    {
+      "headword": "anagram",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænəɡræm/",
+      "meaning": "アナグラム；綴り替え遊び",
+      "exampleEn": "Listen is a letter anagram of silent.",
+      "exampleJa": "Listen は silent の文字アナグラム（綴り替え）です。",
+      "level": 4
+    },
+    {
+      "headword": "ancillary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈænsəleri/",
+      "meaning": "補助的な；附属の",
+      "exampleEn": "Company provides ancillary customer support services.",
+      "exampleJa": "会社は補助的な顧客サポートサービスを提供しています。",
+      "level": 5
+    },
+    {
+      "headword": "annihilate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈnaɪəleɪt/",
+      "meaning": "を全滅させる；消滅させる",
+      "exampleEn": "Nuclear weapon can annihilate entire enemy city.",
+      "exampleJa": "核兵器は敵の都市全体を全滅させる（消滅させる）ことができます。",
+      "level": 4
+    },
+    {
+      "headword": "antecedent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæntɪˈsiːdnt/",
+      "meaning": "前例；先行詞（文法）",
+      "exampleEn": "Pronoun must agree with its antecedent word.",
+      "exampleJa": "代名詞はその先行詞（前例）の単語と一致しなければなりません。",
+      "level": 5
+    },
+    {
+      "headword": "antithesis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ænˈtɪθəsɪs/",
+      "meaning": "正反対のもの；対照",
+      "exampleEn": "Cruelty is the exact antithesis of kindness.",
+      "exampleJa": "残酷さは親切の正確な正反対のもの（対照）です。",
+      "level": 5
+    },
+    {
+      "headword": "apostatize",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɑːstətaɪz/",
+      "meaning": "背教する；脱党する",
+      "exampleEn": "Member decided to apostatize from party.",
+      "exampleJa": "構成員が党から脱党する（背教する）決断をしました。",
+      "level": 5
+    },
+    {
+      "headword": "appertain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌæpərˈteɪn/",
+      "meaning": "に属する；関連する",
+      "exampleEn": "Rights that appertain to royal status.",
+      "exampleJa": "王室の立場に属する（関連する）権利。",
+      "level": 5
+    },
+    {
+      "headword": "approbatory",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæprəbətɔːri/",
+      "meaning": "承認の；称賛する",
+      "exampleEn": "Received approbatory review nod head.",
+      "exampleJa": "承認の（称賛する）レビューの頭の頷きを受け取りました。",
+      "level": 5
+    },
+    {
+      "headword": "arbitration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːrbɪˈtreɪʃn/",
+      "meaning": "仲裁；調停",
+      "exampleEn": "Settle legal contract conflict by binding arbitration.",
+      "exampleJa": "拘束力のある仲裁（調停）によって法的契約対立を解決しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "arguably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɑːrɡjuəbli/",
+      "meaning": "ほぼ間違いなく；間違いなく言えるのは",
+      "exampleEn": "He is arguably the best player team.",
+      "exampleJa": "彼はほぼ間違いなくチーム最高の選手です。",
+      "level": 3
+    },
+    {
+      "headword": "arrears",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈrɪrz/",
+      "meaning": "滞納金；遅れ",
+      "exampleEn": "Pay rent debt house financial arrears balance.",
+      "exampleJa": "家賃負債住宅の財務滞納金（遅れ）の残高を支払いなさい。",
+      "level": 5
+    },
+    {
+      "headword": "ascent",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsent/",
+      "meaning": "上昇；登頂",
+      "exampleEn": "Began final summit mountain rock ascent morning.",
+      "exampleJa": "朝、最終的な山頂の岩の登頂（上昇）を開始しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "assertive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈsɜːrtɪv/",
+      "meaning": "自信に満ちた；断定的・積極的",
+      "exampleEn": "Be confident and assertive during work meeting negotiation.",
+      "exampleJa": "作業の会議交渉中は自信に満ちて積極的（断定的）でありちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "astute",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈstuːt/",
+      "meaning": "抜け目のない；機敏な",
+      "exampleEn": "He made an astute business investment choice decision.",
+      "exampleJa": "彼は抜け目のない（機敏な）ビジネス投資の選択決定をしました。",
+      "level": 4
+    },
+    {
+      "headword": "attic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætɪk/",
+      "meaning": "屋根裏部屋；アティック",
+      "exampleEn": "Store old furniture boxes inside house attic.",
+      "exampleJa": "住宅の屋根裏部屋（アティック）の中に古い家具箱を保管しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "augury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːɡjəri/",
+      "meaning": "前兆；予兆；占い",
+      "exampleEn": "Event was seen as a good fortune augury.",
+      "exampleJa": "出来事は幸運の前兆（予兆）と見なされました。",
+      "level": 5
+    },
+    {
+      "headword": "autocratic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɔːtəˈkrætɪk/",
+      "meaning": "独裁的な；専制的な",
+      "exampleEn": "Reject arrogant autocratic leadership style.",
+      "exampleJa": "傲慢で独裁的なリーダーシップスタイルを拒絶しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "avow",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈvaʊ/",
+      "meaning": "を公言・自認する",
+      "exampleEn": "Leader avowed his firm support for treaty.",
+      "exampleJa": "指導者は条約に対する自身の固い支持を公言・自認しました。",
+      "level": 5
+    },
+    {
+      "headword": "banality",
+      "partOfSpeech": "noun",
+      "phonetic": "/bəˈnæləti/",
+      "meaning": "陳腐さ；平凡",
+      "exampleEn": "Escape the dull banality of everyday life.",
+      "exampleJa": "退屈な毎日の生活の陳腐さ（平凡）から逃れちなさい。",
+      "level": 5
+    },
+    {
+      "headword": "barricade",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbærɪkeɪd/",
+      "meaning": "バリケード；遮断壁",
+      "exampleEn": "Police built metal street security barricade.",
+      "exampleJa": "警察が金属の通りの安全バリケード（遮断壁）を建設しました。",
+      "level": 3
+    },
+    {
+      "headword": "blatant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbleɪtnt/",
+      "meaning": "あからさまな；厚かましい",
+      "exampleEn": "It was a blatant lie cheating error.",
+      "exampleJa": "それにあからさまな（厚かましい）嘘のカンニングエラーでした。",
+      "level": 4
+    },
+    {
+      "headword": "bluntly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈblʌntli/",
+      "meaning": "ぶっちゃけて；露骨に",
+      "exampleEn": "He stated truth bluntly without hesitation.",
+      "exampleJa": "彼は躊躇なく露骨に（ぶっちゃけて）真実を述べました。",
+      "level": 4
+    },
+    {
+      "headword": "bounty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaʊnti/",
+      "meaning": "報奨金；恵み",
+      "exampleEn": "Offer cash bounty for capturing criminal.",
+      "exampleJa": "犯罪者の捕獲に対して現金の報奨金（恵み）を提示しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "briskly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈbrɪskli/",
+      "meaning": "活発に；キビキビと",
+      "exampleEn": "Walked briskly along city street sidewalk.",
+      "exampleJa": "都市の通りの歩道に沿ってキビキビと（活発に）歩きました。",
+      "level": 3
+    },
+    {
+      "headword": "burgeon",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbɜːrdʒən/",
+      "meaning": "急成長する；芽吹く",
+      "exampleEn": "Tech startup industry began to burgeon rapidly.",
+      "exampleJa": "技術スタートアップ産業が急速に急成長し（芽吹き）始めました。",
+      "level": 5
+    },
+    {
+      "headword": "cajole",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈdʒoʊl/",
+      "meaning": "を言いくるめる；おだてる",
+      "exampleEn": "He managed to cajole friend into helping.",
+      "exampleJa": "彼は友人を言いくるめて（おだてて）手助けさせることができました。",
+      "level": 5
+    },
+    {
+      "headword": "cannibalism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkænɪbəlɪzəm/",
+      "meaning": "共食い；人肉嗜食",
+      "exampleEn": "Study tribal history ritual human cannibalism.",
+      "exampleJa": "部族歴史儀式の人肉嗜食（共食い）を研究しなさい。",
+      "level": 5
+    },
+    {
+      "headword": "captivate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkæptɪveɪt/",
+      "meaning": "を魅了する；心を奪う",
+      "exampleEn": "Her beautiful voice captivated entire auditorium audience.",
+      "exampleJa": "彼女の美しい声が講堂の観客全体を魅了しました（心を奪いました）。",
+      "level": 3
+    },
+    {
+      "headword": "carnal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːrnl/",
+      "meaning": "肉体的な；世俗的な",
+      "exampleEn": "Control physical body carnal desire impulse.",
+      "exampleJa": "身体の肉体的な（世俗的な）欲望の衝動を制御しなさい。",
+      "level": 5
+    },
+    {
+      "headword": "cataclysm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkætəklɪzəm/",
+      "meaning": "大異変；大天災",
+      "exampleEn": "War was an unmitigated social cataclysm.",
+      "exampleJa": "戦争は完全な社会的大異変（大天災）でした。",
+      "level": 5
+    },
+    {
+      "headword": "caucus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɔːkəs/",
+      "meaning": "幹部会；党員集会",
+      "exampleEn": "Political party held urgent election caucus meeting.",
+      "exampleJa": "政党が急ぎの選挙幹部会（党員集会）の会議を開催しました。",
+      "level": 5
+    },
+    {
+      "headword": "celibate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈselɪbət/",
+      "meaning": "独身の；禁欲の",
+      "exampleEn": "Monk lived a strictly celibate life style.",
+      "exampleJa": "修道士は厳格に独身の（禁欲の）ライフスタイルを送りました。",
+      "level": 5
+    },
+    {
+      "headword": "chancery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃænsəri/",
+      "meaning": "公文書保管所；大法官裁判所",
+      "exampleEn": "Legal document stored embassy chancery file.",
+      "exampleJa": "大使館の公文書保管所（チャンセリー）ファイルに保管された法的文書。",
+      "level": 5
+    },
+    {
+      "headword": "circuitous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sərˈkjuːətəs/",
+      "meaning": "遠回りの；回り道の",
+      "exampleEn": "Took a long circuitous route path home.",
+      "exampleJa": "帰宅の長い遠回りの（回り道の）ルート小道を通りました。",
+      "level": 5
+    },
+    {
+      "headword": "codify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkoʊdɪfaɪ/",
+      "meaning": "を法典化する；体系化する",
+      "exampleEn": "Government decided to codify traditional customary laws.",
+      "exampleJa": "政府は伝統的な慣習法を法典化する（体系化する）決定をしました。",
+      "level": 4
+    },
+    {
+      "headword": "haphazard",
+      "partOfSpeech": "adjective",
+      "phonetic": "/hæpˈhæzərd/",
+      "meaning": "行き当たりばったりの；無計画な",
+      "exampleEn": "Organized books in a haphazard random order.",
+      "exampleJa": "行き当たりばったりの（無計画な）ランダムな順序で本を整列させました。",
+      "level": 4
+    },
+    {
+      "headword": "hedonism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhiːdənɪzəm/",
+      "meaning": "快楽主義",
+      "exampleEn": "Lifestyle devoted to pleasure and hedonism.",
+      "exampleJa": "快楽と快楽主義に捧げられたライフスタイル。",
+      "level": 5
+    },
+    {
+      "headword": "homogeneity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌhoʊmədʒəˈneɪəti/",
+      "meaning": "均質性；同質性",
+      "exampleEn": "Cultural homogeneity of traditional island society.",
+      "exampleJa": "伝統的な島の社会の文化的均質性（同質性）。",
+      "level": 5
+    },
+    {
+      "headword": "humiliation",
+      "partOfSpeech": "noun",
+      "phonetic": "/hjuːˌmɪliˈeɪʃn/",
+      "meaning": "屈辱；恥をかくこと",
+      "exampleEn": "Suffered deep public defeat humiliation embarrassment.",
+      "exampleJa": "深い世間の敗北の屈辱（恥）に苦しみちなさい。",
+      "level": 4
+    },
+    {
+      "headword": "idiosyncrasy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪdioʊˈsɪŋkrəsi/",
+      "meaning": "特異性；癖；固有の性質",
+      "exampleEn": "Every person has personal habits idiosyncrasy.",
+      "exampleJa": "すべての人には個人の習慣の特異性（癖）があります。",
+      "level": 4
+    },
+    {
+      "headword": "immaterial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪməˈtɪriəl/",
+      "meaning": "非物質的な；重要でない",
+      "exampleEn": "Point raised is completely immaterial case.",
+      "exampleJa": "提起されたポイントは事件にとって完全に重要でない（非物質的な）ものです。",
+      "level": 4
+    },
+    {
+      "headword": "immutability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌmjuːtəˈbɪləti/",
+      "meaning": "不変性",
+      "exampleEn": "Mathematical law truth immutability rules.",
+      "exampleJa": "数学法則の真実の不変性の規則。",
+      "level": 5
+    },
+    {
+      "headword": "impediment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈpedɪmənt/",
+      "meaning": "障害；邪魔",
+      "exampleEn": "Lack of education is an impediment success.",
+      "exampleJa": "教育の不足は成功の障害（邪魔）です。",
+      "level": 4
+    },
+    {
+      "headword": "imperturbable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪmpərˈtɜːrbəbl/",
+      "meaning": "動じない；落ち着き払った",
+      "exampleEn": "Pilot remained imperturbable calm during emergency.",
+      "exampleJa": "パイロットは緊急時に動じない（落ち着き払った）冷静さを維持しました。",
+      "level": 5
+    },
+    {
+      "headword": "imponderable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpɑːndərəbl/",
+      "meaning": "測り知れない；評価できない",
+      "exampleEn": "Future contains many imponderable risk factors.",
+      "exampleJa": "将来には多くの測り知れない（評価できない）リスク要因が含まれます。",
+      "level": 5
+    },
+    {
+      "headword": "imprisonment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈprɪznmənt/",
+      "meaning": "投獄；禁錮",
+      "exampleEn": "Sentence criminal to life jail imprisonment.",
+      "exampleJa": "犯罪者に無期刑の刑務所投獄（禁錮）を言い渡しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "impure",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpjʊr/",
+      "meaning": "不純な；汚れた",
+      "exampleEn": "Water was impure contaminated dirty fluid.",
+      "exampleJa": "水は不純な（汚れた）汚染された汚い液体でした。",
+      "level": 3
+    },
+    {
+      "headword": "inapt",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈæpt/",
+      "meaning": "不適切な；下手な",
+      "exampleEn": "Made an inapt comment during meeting.",
+      "exampleJa": "会議中に不適切なコメントを行いました。",
+      "level": 5
+    },
+    {
+      "headword": "incarnate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈkɑːrnət/",
+      "meaning": "肉体を持った；権化の",
+      "exampleEn": "Villain was evil incarnate devil.",
+      "exampleJa": "悪役は邪悪の権化（肉体を持った悪魔）でした。",
+      "level": 5
+    },
+    {
+      "headword": "incisive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈsaɪsɪv/",
+      "meaning": "鋭い；明瞭な；適確な",
+      "exampleEn": "Gave an incisive analysis of economic trend.",
+      "exampleJa": "経済トレンドの適確な（鋭い）分析を提示しました。",
+      "level": 4
+    },
+    {
+      "headword": "incomplete",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnkəmˈpliːt/",
+      "meaning": "未完成の；不完全な",
+      "exampleEn": "Report was left in an incomplete state.",
+      "exampleJa": "報告書は未完成の（不完全な）状態に放置されました。",
+      "level": 3
+    },
+    {
+      "headword": "inconvenience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnkənˈviːniəns/",
+      "meaning": "不便；ご迷惑",
+      "exampleEn": "Apologize for temporary service disruption inconvenience.",
+      "exampleJa": "一時的なサービス中断のご迷惑（不便）について謝罪しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "crestfallen",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkrestfɔːlən/",
+      "meaning": "意気消沈した；うなだれた",
+      "exampleEn": "Left field looking disappointed crestfallen after loss.",
+      "exampleJa": "敗北の後、がっかりして意気消沈して（うなだれて）グラウンドを去りました。",
+      "level": 5
+    },
+    {
+      "headword": "crumb",
+      "partOfSpeech": "noun",
+      "phonetic": "/krʌm/",
+      "meaning": "パンくず；少量",
+      "exampleEn": "Sweep food bread crumbs off kitchen table.",
+      "exampleJa": "台所のテーブルから食品のパンくず（少量）を掃き取りなさい。",
+      "level": 3
+    },
+    {
+      "headword": "cultivation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkʌltɪˈveɪʃn/",
+      "meaning": "耕作；栽培；育成",
+      "exampleEn": "Agricultural land rice crop cultivation process.",
+      "exampleJa": "農地の米作物の栽培（耕作）プロセス。",
+      "level": 4
+    }
+  ]
+}

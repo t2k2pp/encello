@@ -1,0 +1,843 @@
+{
+  "chunk": "05_shipping_logistics",
+  "note": "物流・配送・手荷物・輸送・倉庫に関する語彙 (90語)",
+  "words": [
+    {
+      "headword": "cargo",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrɡoʊ/",
+      "meaning": "貨物；積荷",
+      "exampleEn": "Ship delivered heavy machinery cargo.",
+      "exampleJa": "船は重機械の貨物（積荷）を配送しました。",
+      "level": 3
+    },
+    {
+      "headword": "carrier",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæriər/",
+      "meaning": "運送会社；搬送体",
+      "exampleEn": "Package sent by express mail carrier.",
+      "exampleJa": "荷物は速達郵便運送会社によって送信されました。",
+      "level": 3
+    },
+    {
+      "headword": "customs",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌstəmz/",
+      "meaning": "税関；関税手続き",
+      "exampleEn": "Pass through airport customs inspection.",
+      "exampleJa": "空港の税関検査を通過しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "dispatch",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈspætʃ/",
+      "meaning": "を発送する；を急派する",
+      "exampleEn": "Order dispatched within 24 hours.",
+      "exampleJa": "注文品は24時間以内に発送されました。",
+      "level": 3
+    },
+    {
+      "headword": "freight",
+      "partOfSpeech": "noun",
+      "phonetic": "/freɪt/",
+      "meaning": "貨物輸送；貨物運賃",
+      "exampleEn": "Freight charges depend on package weight.",
+      "exampleJa": "貨物運賃は荷物の重量によって決まります。",
+      "level": 3
+    },
+    {
+      "headword": "inventory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnvəntɔːri/",
+      "meaning": "在庫；棚卸し",
+      "exampleEn": "Warehouse manager checks inventory count.",
+      "exampleJa": "倉庫マネージャーは在庫数をチェックします。",
+      "level": 3
+    },
+    {
+      "headword": "parcel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrsl/",
+      "meaning": "小包；荷物",
+      "exampleEn": "Courier delivered urgent document parcel.",
+      "exampleJa": "宅配便が至急の書類小包を配送しました。",
+      "level": 2
+    },
+    {
+      "headword": "shipment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɪpmənt/",
+      "meaning": "発送品；出荷",
+      "exampleEn": "Track your shipment online using code.",
+      "exampleJa": "コードを使用してオンラインで発送品を追跡しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "transit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrænsɪt/",
+      "meaning": "輸送；通過；乗り継ぎ",
+      "exampleEn": "Goods damaged during ocean transit.",
+      "exampleJa": "商品は海上輸送中に損傷を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "warehouse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwerhaʊs/",
+      "meaning": "倉庫；保管場所",
+      "exampleEn": "Store products in temperature controlled warehouse.",
+      "exampleJa": "温度管理された倉庫に製品を保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "arrival",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈraɪvl/",
+      "meaning": "到着",
+      "exampleEn": "Check flight arrival time on monitor.",
+      "exampleJa": "モニターで便の到着時刻を確認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "arrive",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈraɪv/",
+      "meaning": "到着する",
+      "exampleEn": "Shipment arrived at harbor this morning.",
+      "exampleJa": "発送品は今朝港に到着しました。",
+      "level": 2
+    },
+    {
+      "headword": "bar code",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "バーコード",
+      "exampleEn": "Scan bar code to check price.",
+      "exampleJa": "価格を確認するためにバーコードをスキャンしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "box",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɑːks/",
+      "meaning": "箱；ケース",
+      "exampleEn": "Pack books into sturdy cardboard box.",
+      "exampleJa": "頑丈な段ボール箱に本を詰め込みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "cardboard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrdbɔːrd/",
+      "meaning": "段ボール；ボール紙",
+      "exampleEn": "Use thick cardboard box for packing.",
+      "exampleJa": "梱包には分厚い段ボール箱を使用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "consignee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːnsaɪˈniː/",
+      "meaning": "受取人；荷受人",
+      "exampleEn": "Sign name as consignee upon delivery.",
+      "exampleJa": "配達時に荷受人（受取人）として名前を署名しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "consignment",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsaɪnmənt/",
+      "meaning": "託送品；委託販売",
+      "exampleEn": "Goods sent on consignment sale basis.",
+      "exampleJa": "商品は委託販売ベースで発送されました。",
+      "level": 4
+    },
+    {
+      "headword": "container",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈteɪnər/",
+      "meaning": "コンテナ；容器",
+      "exampleEn": "Load cargo onto ocean shipping container.",
+      "exampleJa": "海上輸送コンテナに貨物を積み込みなさい。",
+      "level": 2
+    },
+    {
+      "headword": "conveyor",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈveɪər/",
+      "meaning": "コンベア；運搬装置",
+      "exampleEn": "Luggage placed on airport conveyor belt.",
+      "exampleJa": "手荷物は空港のコンベアベルトの上に置かれました。",
+      "level": 3
+    },
+    {
+      "headword": "courier",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʊriər/",
+      "meaning": "宅配業者；急送便",
+      "exampleEn": "Send urgent contract by courier service.",
+      "exampleJa": "宅配便サービスで至急の契約書を送信しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "crate",
+      "partOfSpeech": "noun",
+      "phonetic": "/kreɪt/",
+      "meaning": "木箱；クレート",
+      "exampleEn": "Pack fragile glass bottles in crate.",
+      "exampleJa": "壊れやすいガラス瓶を木箱（クレート）に梱包しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "damage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdæmɪdʒ/",
+      "meaning": "損害；損傷",
+      "exampleEn": "Report cargo damage to insurance firm.",
+      "exampleJa": "保険会社に貨物の損傷を報告しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "damaged",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdæmɪdʒd/",
+      "meaning": "損傷した",
+      "exampleEn": "Replace damaged goods with new unit.",
+      "exampleJa": "損傷した商品を新しいユニットに取り替えなさい。",
+      "level": 2
+    },
+    {
+      "headword": "delay",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈleɪ/",
+      "meaning": "遅延；遅れ",
+      "exampleEn": "Weather caused two hour flight delay.",
+      "exampleJa": "天候が2時間の飛行機遅延を引き起こしました。",
+      "level": 2
+    },
+    {
+      "headword": "deliver",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈlɪvər/",
+      "meaning": "を配達・配送する",
+      "exampleEn": "Mail carrier delivers letters every morning.",
+      "exampleJa": "郵便配達員は毎朝手紙を配達しています。",
+      "level": 2
+    },
+    {
+      "headword": "delivery",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈlɪvəri/",
+      "meaning": "配達；配送",
+      "exampleEn": "Guaranteed express next day delivery service.",
+      "exampleJa": "翌日スピード配送サービスを保証します。",
+      "level": 2
+    },
+    {
+      "headword": "demurrage",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈmɜːrɪdʒ/",
+      "meaning": "超過滞船料；延着料",
+      "exampleEn": "Pay demurrage charge for delayed port unloading.",
+      "exampleJa": "遅延した港の荷下ろしの超過滞船料を支払いなさい。",
+      "level": 4
+    },
+    {
+      "headword": "departure",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpɑːrtʃər/",
+      "meaning": "出発；出荷",
+      "exampleEn": "Track cargo departure date from port.",
+      "exampleJa": "港からの貨物の出荷（出発）日を追跡しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "destination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdestɪˈneɪʃn/",
+      "meaning": "目的地；配送先",
+      "exampleEn": "Ship reached its final destination harbor.",
+      "exampleJa": "船は最終目的地（配送先）の港に到達しました。",
+      "level": 2
+    },
+    {
+      "headword": "dock",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɑːk/",
+      "meaning": "船渠；ドック；波止場",
+      "exampleEn": "Ship unloaded containers at loading dock.",
+      "exampleJa": "船は積載ドックでコンテナを荷下ろししました。",
+      "level": 3
+    },
+    {
+      "headword": "duty-free",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌduːti ˈfriː/",
+      "meaning": "免税の",
+      "exampleEn": "Buy perfume at airport duty-free shop.",
+      "exampleJa": "空港の免税店で香水を購入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "embark",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈbɑːrk/",
+      "meaning": "乗船する；着手する",
+      "exampleEn": "Passengers embarked on luxury cruise ship.",
+      "exampleJa": "乗客たちは豪華クルーズ船に乗船しました。",
+      "level": 3
+    },
+    {
+      "headword": "envelope",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenvəloʊp/",
+      "meaning": "封筒",
+      "exampleEn": "Seal letter inside paper mail envelope.",
+      "exampleJa": "紙の郵便封筒の中に手紙を封入しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "excess",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈekses/",
+      "meaning": "過剰な；超過の",
+      "exampleEn": "Pay extra fee for excess baggage weight.",
+      "exampleJa": "手荷物の重量超過に対して追加料金を支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "export",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspɔːrt/",
+      "meaning": "を輸出する",
+      "exampleEn": "Japan exports high quality passenger automobiles.",
+      "exampleJa": "日本は高品質な乗用車を輸出しています。",
+      "level": 2
+    },
+    {
+      "headword": "exporter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspɔːrtər/",
+      "meaning": "輸出業者",
+      "exampleEn": "Major tea exporter shipped product overseas.",
+      "exampleJa": "大手茶輸出業者が製品を海外へ発送しました。",
+      "level": 3
+    },
+    {
+      "headword": "fleet",
+      "partOfSpeech": "noun",
+      "phonetic": "/fliːt/",
+      "meaning": "全車両；船団",
+      "exampleEn": "Company operates fleet of delivery trucks.",
+      "exampleJa": "会社は配送トラックの全車両（フリート）を運用しています。",
+      "level": 3
+    },
+    {
+      "headword": "forklift",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrklɪft/",
+      "meaning": "フォークリフト",
+      "exampleEn": "Worker operates electric forklift in warehouse.",
+      "exampleJa": "作業員は倉庫で電動フォークリフトを操作します。",
+      "level": 3
+    },
+    {
+      "headword": "fragile",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfrædʒl/",
+      "meaning": "壊れやすい",
+      "exampleEn": "Handle fragile glass items with care.",
+      "exampleJa": "壊れやすいガラス製品を慎重に取り扱いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "freighter",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfreɪtər/",
+      "meaning": "貨物船；貨物機",
+      "exampleEn": "Ocean freighter loaded container cargo ships.",
+      "exampleJa": "遠洋貨物船（フレイター）がコンテナ貨物を積載しました。",
+      "level": 4
+    },
+    {
+      "headword": "fulfillment",
+      "partOfSpeech": "noun",
+      "phonetic": "/fʊlˈfɪlmənt/",
+      "meaning": "フルフィルメント；発送業務",
+      "exampleEn": "E-commerce order fulfillment center works 24 hours.",
+      "exampleJa": "Eコマースの注文発送業務（フルフィルメント）センターは24時間稼働しています。",
+      "level": 4
+    },
+    {
+      "headword": "haul",
+      "partOfSpeech": "verb",
+      "phonetic": "/hɔːl/",
+      "meaning": "を運搬する；を引きずる",
+      "exampleEn": "Truck hauled heavy steel bars long distance.",
+      "exampleJa": "トラックが重い鉄条を長距離運搬しました。",
+      "level": 3
+    },
+    {
+      "headword": "import",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪmpɔːrt/",
+      "meaning": "を輸入する",
+      "exampleEn": "Nation imports coffee beans from Brazil.",
+      "exampleJa": "国家はブラジルからコーヒー豆を輸入しています。",
+      "level": 2
+    },
+    {
+      "headword": "importer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈpɔːrtər/",
+      "meaning": "輸入業者",
+      "exampleEn": "Wine importer sources finest European bottles.",
+      "exampleJa": "ワイン輸入業者が最高の極上欧州ボトルを仕入れています。",
+      "level": 3
+    },
+    {
+      "headword": "inspection",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈspekʃn/",
+      "meaning": "検査；検品",
+      "exampleEn": "Conduct quality inspection before packing shipment.",
+      "exampleJa": "発送品を梱包する前に品質検品（検査）を実施しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "label",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪbl/",
+      "meaning": "ラベル；荷札",
+      "exampleEn": "Attach shipping address label to package.",
+      "exampleJa": "荷物に配送先住所の荷札（ラベル）を貼り付けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "load",
+      "partOfSpeech": "verb",
+      "phonetic": "/loʊd/",
+      "meaning": "を積み込む",
+      "exampleEn": "Workers loaded wooden boxes onto truck.",
+      "exampleJa": "作業員たちはトラックに木箱を積み込みました。",
+      "level": 2
+    },
+    {
+      "headword": "loading",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈloʊdɪŋ/",
+      "meaning": "積載；荷積み",
+      "exampleEn": "No parking at store loading zone.",
+      "exampleJa": "店舗の荷積みゾーンでは駐車禁止です。",
+      "level": 2
+    },
+    {
+      "headword": "logistics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ləˈdʒɪstɪks/",
+      "meaning": "物流；ロジスティクス",
+      "exampleEn": "Global logistics manager optimized supply chain.",
+      "exampleJa": "グローバル物流（ロジスティクス）マネージャーがサプライチェーンを最適化しました。",
+      "level": 3
+    },
+    {
+      "headword": "manifest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænɪfest/",
+      "meaning": "積荷目録；マニフェスト",
+      "exampleEn": "Check ship cargo manifest record list.",
+      "exampleJa": "船の貨物積荷目録（マニフェスト）記録リストを確認しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "mark",
+      "partOfSpeech": "verb",
+      "phonetic": "/mɑːrk/",
+      "meaning": "に印をつける",
+      "exampleEn": "Mark box fragile handle with care.",
+      "exampleJa": "箱に「壊れもの注意」と印をつけなさい。",
+      "level": 2
+    },
+    {
+      "headword": "order",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrdər/",
+      "meaning": "注文；順序",
+      "exampleEn": "Place online product order before noon.",
+      "exampleJa": "正午前にオンラインで製品注文を行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pack",
+      "partOfSpeech": "verb",
+      "phonetic": "/pæk/",
+      "meaning": "を梱包する；を詰める",
+      "exampleEn": "Pack electronics in protective bubble wrap.",
+      "exampleJa": "保護用プチプチ（気泡シート）の中に電子機器を梱包しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "package",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpækɪdʒ/",
+      "meaning": "小包；パック",
+      "exampleEn": "Delivery person left package at door.",
+      "exampleJa": "配達員がドアの前に小包を残しました。",
+      "level": 2
+    },
+    {
+      "headword": "packer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpækər/",
+      "meaning": "梱包作業員",
+      "exampleEn": "Warehouse packer wrapped items safely.",
+      "exampleJa": "倉庫の梱包作業員が商品を安全に包みました。",
+      "level": 3
+    },
+    {
+      "headword": "packing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpækɪŋ/",
+      "meaning": "梱包；包装",
+      "exampleEn": "Check packing list against received order.",
+      "exampleJa": "受け取った注文品と梱包リストを照合しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "pallet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpælət/",
+      "meaning": "パレット；荷物台",
+      "exampleEn": "Stack wooden boxes neatly on pallet.",
+      "exampleJa": "パレット（荷物台）の上に木箱を整然と積み重ねなさい。",
+      "level": 3
+    },
+    {
+      "headword": "post",
+      "partOfSpeech": "noun",
+      "phonetic": "/poʊst/",
+      "meaning": "郵便；ポスト",
+      "exampleEn": "Send document by registered mail post.",
+      "exampleJa": "書留郵便（ポスト）で書類を送信しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "postage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpoʊstɪdʒ/",
+      "meaning": "郵便料金；切手代",
+      "exampleEn": "Calculate correct airmail postage fee rate.",
+      "exampleJa": "正確な航空郵便の料金（切手代）を計算しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "postal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpoʊstl/",
+      "meaning": "郵便の",
+      "exampleEn": "Check local postal service delivery hours.",
+      "exampleJa": "地元の郵便サービスの配達時間を調べなさい。",
+      "level": 2
+    },
+    {
+      "headword": "recipients",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsɪpiənts/",
+      "meaning": "受取人たち",
+      "exampleEn": "Delivery person verified recipient signature names.",
+      "exampleJa": "配達員は受取人の署名名を確認しました。",
+      "level": 3
+    },
+    {
+      "headword": "route",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːt/",
+      "meaning": "ルート；配送経路",
+      "exampleEn": "Driver mapped efficient delivery truck route.",
+      "exampleJa": "運転手は効率的な配送トラックルートを計画しました。",
+      "level": 2
+    },
+    {
+      "headword": "seal",
+      "partOfSpeech": "verb",
+      "phonetic": "/siːl/",
+      "meaning": "を密閉する；を封印する",
+      "exampleEn": "Seal envelope with adhesive tape securely.",
+      "exampleJa": "粘着テープで封筒をしっかり密閉しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "ship",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʃɪp/",
+      "meaning": "を出荷する；を輸送する",
+      "exampleEn": "Store will ship order tomorrow morning.",
+      "exampleJa": "店舗は明日朝に注文品を出荷・発送します。",
+      "level": 2
+    },
+    {
+      "headword": "shipper",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɪpər/",
+      "meaning": "荷主；荷送り人",
+      "exampleEn": "Shipper packed goods in wooden crate.",
+      "exampleJa": "荷主（荷送り人）は商品を木箱に梱包しました。",
+      "level": 3
+    },
+    {
+      "headword": "shipping",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɪpɪŋ/",
+      "meaning": "発送；送料；海運",
+      "exampleEn": "Free shipping on orders over fifty dollars.",
+      "exampleJa": "50ドル以上の注文で送料無料。",
+      "level": 2
+    },
+    {
+      "headword": "sort",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɔːrt/",
+      "meaning": "を分類する；を選別する",
+      "exampleEn": "Automated machine sorts parcels by zip code.",
+      "exampleJa": "自動化機械が郵便番号別に小包を分類します。",
+      "level": 2
+    },
+    {
+      "headword": "sorting",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɔːrtɪŋ/",
+      "meaning": "仕分け；分類",
+      "exampleEn": "Mail sorting center handles thousands of letters.",
+      "exampleJa": "郵便仕分けセンターは数千通の手紙を取り扱っています。",
+      "level": 2
+    },
+    {
+      "headword": "stack",
+      "partOfSpeech": "verb",
+      "phonetic": "/stæk/",
+      "meaning": "を積み重ねる",
+      "exampleEn": "Stack boxes neatly in storage room.",
+      "exampleJa": "保管室に箱を整然と積み重ねなさい。",
+      "level": 2
+    },
+    {
+      "headword": "storage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstɔːrɪdʒ/",
+      "meaning": "保管；貯蔵庫",
+      "exampleEn": "Keep extra items in rental storage unit.",
+      "exampleJa": "余剰品をレンタル保管倉庫（ストレージ）に保管しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "storehouse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstɔːrhaʊs/",
+      "meaning": "倉庫；納屋",
+      "exampleEn": "Grain stored in large farm storehouse building.",
+      "exampleJa": "穀物が大型農場倉庫（納屋）建物の中に保管されました。",
+      "level": 3
+    },
+    {
+      "headword": "supply chain",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "サプライチェーン；供給網",
+      "exampleEn": "Disruption affected global tech supply chain.",
+      "exampleJa": "混乱が世界の技術サプライチェーン（供給網）に影響を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "tanker",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtæŋkər/",
+      "meaning": "タンカー；油槽船",
+      "exampleEn": "Oil tanker arrived safely at harbor.",
+      "exampleJa": "石油タンカー（油槽船）が安全に港へ到着しました。",
+      "level": 3
+    },
+    {
+      "headword": "tarp",
+      "partOfSpeech": "noun",
+      "phonetic": "/tɑːrp/",
+      "meaning": "防水シート；タープ",
+      "exampleEn": "Cover truck cargo with waterproof tarp.",
+      "exampleJa": "防水シート（タープ）でトラックの貨物を覆いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "toll",
+      "partOfSpeech": "noun",
+      "phonetic": "/toʊl/",
+      "meaning": "通行料；有料道路代",
+      "exampleEn": "Pay highway toll fee at booth.",
+      "exampleJa": "料金所で高速道路の通行料を支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "trace",
+      "partOfSpeech": "verb",
+      "phonetic": "/treɪs/",
+      "meaning": "を追跡する；を突き止める",
+      "exampleEn": "Trace lost parcel location using tracking number.",
+      "exampleJa": "追跡番号を使用して紛失した小包の場所を追跡しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "track",
+      "partOfSpeech": "verb",
+      "phonetic": "/træk/",
+      "meaning": "を追跡する",
+      "exampleEn": "Track shipment status online anytime.",
+      "exampleJa": "いつでもオンラインで発送状態を追跡しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "tracking",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrækɪŋ/",
+      "meaning": "追跡；トラッキング",
+      "exampleEn": "Email contains package tracking number details.",
+      "exampleJa": "メールに荷物の追跡（トラッキング）番号の詳細が記載されています。",
+      "level": 2
+    },
+    {
+      "headword": "traffic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtræfɪk/",
+      "meaning": "交通；交通量",
+      "exampleEn": "Heavy traffic delayed delivery truck route.",
+      "exampleJa": "激しい交通（渋滞）が配送トラックのルートを遅らせました。",
+      "level": 2
+    },
+    {
+      "headword": "trailer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtreɪlər/",
+      "meaning": "トレーラー；被牽引車",
+      "exampleEn": "Attach cargo trailer to large truck.",
+      "exampleJa": "大型トラックに貨物トレーラーを接続しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "transshipment",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænsˈʃɪpmənt/",
+      "meaning": "積替え",
+      "exampleEn": "Port serves as major sea transshipment hub.",
+      "exampleJa": "港は主要な海上積替えハブとして機能しています。",
+      "level": 4
+    },
+    {
+      "headword": "transport",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænˈspɔːrt/",
+      "meaning": "を輸送する",
+      "exampleEn": "Train transports grain across country.",
+      "exampleJa": "列車が国中で穀物を輸送します。",
+      "level": 2
+    },
+    {
+      "headword": "transportation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌtrænspərˈteɪʃn/",
+      "meaning": "輸送機関；交通手段",
+      "exampleEn": "Public transportation service is reliable.",
+      "exampleJa": "公共交通機関サービスは信頼できます。",
+      "level": 2
+    },
+    {
+      "headword": "unload",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌnˈloʊd/",
+      "meaning": "を荷下ろしする",
+      "exampleEn": "Workers unloaded cargo from ship.",
+      "exampleJa": "作業員たちは船から貨物を荷下ろししました。",
+      "level": 2
+    },
+    {
+      "headword": "weight",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪt/",
+      "meaning": "重量；重さ",
+      "exampleEn": "Weigh package on scale before shipping.",
+      "exampleJa": "発送前に秤（はかり）で荷物の重量を測定しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "shredder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃredər/",
+      "meaning": "シュレッダー；裁断機",
+      "exampleEn": "Shred confidential files using paper shredder.",
+      "exampleJa": "シュレッダーを使って機密ファイルを裁断しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "press release",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "プレスリリース；報道発表",
+      "exampleEn": "Company issued official press release.",
+      "exampleJa": "会社は公式プレスリリースを発行しました。",
+      "level": 3
+    },
+    {
+      "headword": "auditor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːdɪtər/",
+      "meaning": "会計監査官；監査役",
+      "exampleEn": "Independent auditor checked financial records.",
+      "exampleJa": "独立した会計監査官が財務記録を検査しました。",
+      "level": 3
+    },
+    {
+      "headword": "showcase",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈʃoʊkeɪs/",
+      "meaning": "を目玉として展示・紹介する",
+      "exampleEn": "Company showcased new phone at fair.",
+      "exampleJa": "会社は展示会で新しい携帯電話を主玉として展示しました。",
+      "level": 3
+    },
+    {
+      "headword": "nanotechnology",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌnænoʊtekˈnɑːlədʒi/",
+      "meaning": "ナノテクノロジー；超微細技術",
+      "exampleEn": "Research clean energy nanotechnology applications.",
+      "exampleJa": "クリーンエネルギーのナノテクノロジー応用を研究しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "sightseer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪtsiːər/",
+      "meaning": "観光客；見学者",
+      "exampleEn": "Sightseers snapped photos of ancient monument.",
+      "exampleJa": "観光客たちは古代の記念碑の写真を撮影しました。",
+      "level": 3
+    },
+    {
+      "headword": "tentative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtentətɪv/",
+      "meaning": "仮の；試験的な",
+      "exampleEn": "Set tentative meeting date for next Friday.",
+      "exampleJa": "来週金曜日に仮の（試験的な）会議日程を設定しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "on a daily basis",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "日常的に；毎日",
+      "exampleEn": "Check email inbox on a daily basis.",
+      "exampleJa": "日常的に（毎日）メール受信箱を確認しなさい。",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,753 @@
+{
+  "chunk": "08_business_adjectives",
+  "note": "ビジネス・文書・オフィス実務に必須の形容詞 (90語)",
+  "words": [
+    {
+      "headword": "acceptable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əkˈseptəbl/",
+      "meaning": "受け入れられる；容認できる",
+      "exampleEn": "The terms are acceptable to client.",
+      "exampleJa": "条件は顧客にとって容認・受け入れられるものです。",
+      "level": 2
+    },
+    {
+      "headword": "accurate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈækjərət/",
+      "meaning": "正確な；狂いのない",
+      "exampleEn": "Provide accurate data in financial report.",
+      "exampleJa": "財務報告書には正確なデータを提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "confidential",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌkɑːnfɪˈdenʃl/",
+      "meaning": "機密の；秘密の",
+      "exampleEn": "This document contains highly confidential information.",
+      "exampleJa": "この書類には極めて機密性の高い情報が含まれています。",
+      "level": 3
+    },
+    {
+      "headword": "corporate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɔːrpərət/",
+      "meaning": "企業の；法人の",
+      "exampleEn": "Company changed its corporate identity logo.",
+      "exampleJa": "会社は企業アイデンティティロゴを変更しました。",
+      "level": 3
+    },
+    {
+      "headword": "efficient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈfɪʃnt/",
+      "meaning": "効率的な；能率的な",
+      "exampleEn": "Automated system is highly efficient.",
+      "exampleJa": "自動化システムは非常に効率的です。",
+      "level": 2
+    },
+    {
+      "headword": "valid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvælɪd/",
+      "meaning": "有効な；正当な",
+      "exampleEn": "Passport must be valid for travel.",
+      "exampleJa": "パスポートは旅行のために有効でなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "adequate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈædɪkwət/",
+      "meaning": "十分な；適切な",
+      "exampleEn": "Ensure adequate budget for project development.",
+      "exampleJa": "プロジェクト開発のために十分な予算を確保しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "annual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈænjuəl/",
+      "meaning": "年一回の；年間の",
+      "exampleEn": "Publish annual corporate sales performance report.",
+      "exampleJa": "年間の企業売上業績報告書を公表しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "appropriate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈproʊpriət/",
+      "meaning": "適切な；ふさわしい",
+      "exampleEn": "Wear appropriate formal dress for interview.",
+      "exampleJa": "面接には適切なフォーマル服装を着用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "available",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈveɪləbl/",
+      "meaning": "利用可能な；手に入る",
+      "exampleEn": "Product is currently available online store.",
+      "exampleJa": "製品は現在オンラインストアで手に入ります（利用可能）。",
+      "level": 2
+    },
+    {
+      "headword": "beneficial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌbenɪˈfɪʃl/",
+      "meaning": "有益な；利益になる",
+      "exampleEn": "Trade agreement proved beneficial to both nations.",
+      "exampleJa": "貿易協定は両国にとって有益であると判明しました。",
+      "level": 2
+    },
+    {
+      "headword": "broad",
+      "partOfSpeech": "adjective",
+      "phonetic": "/brɔːd/",
+      "meaning": "広範な；広い",
+      "exampleEn": "Offer broad range of financial services.",
+      "exampleJa": "広範な金融サービスを提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "committed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəˈmɪtɪd/",
+      "meaning": "熱心な；専念した",
+      "exampleEn": "Team is committed to customer satisfaction.",
+      "exampleJa": "チームは顧客満足度に専念（コミット）しています。",
+      "level": 3
+    },
+    {
+      "headword": "compulsory",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəmˈpʌlsəri/",
+      "meaning": "強制的な；義務的な",
+      "exampleEn": "Attendance at orientation is compulsory for all.",
+      "exampleJa": "オリエンテーションへの参加は全員に必須（強制的）です。",
+      "level": 3
+    },
+    {
+      "headword": "consecutive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈsekjətɪv/",
+      "meaning": "連続した",
+      "exampleEn": "Sales grew for five consecutive quarters.",
+      "exampleJa": "売上は5四半期連続で成長しました。",
+      "level": 3
+    },
+    {
+      "headword": "considerable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈsɪdərəbl/",
+      "meaning": "かなりの；考慮すべき",
+      "exampleEn": "Project generated considerable income profit.",
+      "exampleJa": "プロジェクトはかなりの収入利益を生み出しました。",
+      "level": 2
+    },
+    {
+      "headword": "consistent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈsɪstənt/",
+      "meaning": "一貫した；変わらない",
+      "exampleEn": "Maintain consistent product quality control standards.",
+      "exampleJa": "一貫した製品品質管理基準を維持しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "convenient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈviːniənt/",
+      "meaning": "便利な；都合の良い",
+      "exampleEn": "Location is convenient for office workers.",
+      "exampleJa": "場所はオフィス労働者にとって便利です。",
+      "level": 2
+    },
+    {
+      "headword": "critical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkrɪtɪkl/",
+      "meaning": "重要な；批判的な；難局の",
+      "exampleEn": "Timing is critical for project success.",
+      "exampleJa": "タイミングはプロジェクトの成功において重要です。",
+      "level": 2
+    },
+    {
+      "headword": "crucial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkruːʃl/",
+      "meaning": "非常に重要な；決定的な",
+      "exampleEn": "Customer feedback plays crucial role in development.",
+      "exampleJa": "顧客のフィードバックは開発において極めて重要な役割を果たします。",
+      "level": 3
+    },
+    {
+      "headword": "current",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɜːrənt/",
+      "meaning": "現在の；最新の",
+      "exampleEn": "Review current market price list today.",
+      "exampleJa": "今日最新の（現在の）市場価格表を確認しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "demanding",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈmændɪŋ/",
+      "meaning": "厳しい；要求の多い",
+      "exampleEn": "Client has demanding product design expectations.",
+      "exampleJa": "顧客は厳しい（要求の多い）製品デザインの期待を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "designated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdezɪɡneɪtɪd/",
+      "meaning": "指定された",
+      "exampleEn": "Park in designated staff parking area.",
+      "exampleJa": "指定されたスタッフ駐車場エリアに駐車しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "diverse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/daɪˈvɜːrs/",
+      "meaning": "多様な；さまざまな",
+      "exampleEn": "Company employs diverse international workforce team.",
+      "exampleJa": "会社は多様な国際的労働力チームを雇用しています。",
+      "level": 2
+    },
+    {
+      "headword": "drastic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdræstɪk/",
+      "meaning": "思い切った；抜本的な",
+      "exampleEn": "Take drastic measures to cut spending.",
+      "exampleJa": "支出を削減するために抜本的な（思い切った）措置を講じなさい。",
+      "level": 3
+    },
+    {
+      "headword": "eager",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈiːɡər/",
+      "meaning": "熱心な；〜したがっている",
+      "exampleEn": "Staff is eager to learn new skills.",
+      "exampleJa": "スタッフは新しいスキルを学ぶことに熱心です。",
+      "level": 2
+    },
+    {
+      "headword": "economic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌiːkəˈnɑːmɪk/",
+      "meaning": "経済の；経済上の",
+      "exampleEn": "Report highlighted national economic growth rate.",
+      "exampleJa": "報告書は国家の経済成長率を強調しました。",
+      "level": 2
+    },
+    {
+      "headword": "economical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌiːkəˈnɑːmɪkl/",
+      "meaning": "省エネの；経済的な",
+      "exampleEn": "Hybrid car is very economical fuel.",
+      "exampleJa": "ハイブリッドカーは非常に燃費が経済的（省エネ）です。",
+      "level": 2
+    },
+    {
+      "headword": "effective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈfektɪv/",
+      "meaning": "効果的な；有効な",
+      "exampleEn": "New policy becomes effective next month.",
+      "exampleJa": "新方針は来月有効（効力を発揮）になります。",
+      "level": 2
+    },
+    {
+      "headword": "extensive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪkˈstensɪv/",
+      "meaning": "広範囲にわたる；大規模な",
+      "exampleEn": "Conduct extensive market research before start.",
+      "exampleJa": "開始前に広範囲にわたる市場調査を実施しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "favorable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfeɪvərəbl/",
+      "meaning": "好都合な；好意的な",
+      "exampleEn": "Product received favorable review from experts.",
+      "exampleJa": "製品は専門家から好意的な評価を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "feasible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfiːzəbl/",
+      "meaning": "実現可能な；実行可能な",
+      "exampleEn": "Plan is technically feasible and cheap.",
+      "exampleJa": "計画は技術的に実現可能で安価です。",
+      "level": 3
+    },
+    {
+      "headword": "flexible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfleksəbl/",
+      "meaning": "柔軟な；融通の利く",
+      "exampleEn": "Maintain flexible working hour system for staff.",
+      "exampleJa": "スタッフ向けに柔軟な勤務時間制度を維持しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "formal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɔːrml/",
+      "meaning": "公式の；正式な",
+      "exampleEn": "Send formal invitation letter to speaker.",
+      "exampleJa": "講演者に公式な招待状を送信しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "former",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɔːrmər/",
+      "meaning": "以前の；元の",
+      "exampleEn": "Former president attended corporate ceremony party.",
+      "exampleJa": "元（以前の）社長が会社の式典パーティーに出席しました。",
+      "level": 2
+    },
+    {
+      "headword": "ideal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/aɪˈdiːəl/",
+      "meaning": "理想的な；最高の",
+      "exampleEn": "Location is ideal for retail business store.",
+      "exampleJa": "場所は小売りビジネス店舗にとって理想的です。",
+      "level": 2
+    },
+    {
+      "headword": "immediate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈmiːdiət/",
+      "meaning": "即座の；当面の",
+      "exampleEn": "Issue requires immediate attention and action.",
+      "exampleJa": "問題は即座の注意と行動を必要としています。",
+      "level": 2
+    },
+    {
+      "headword": "impressed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈprest/",
+      "meaning": "感銘を受けた",
+      "exampleEn": "Client was impressed by presentation quality.",
+      "exampleJa": "顧客はプレゼンテーションの品質に感銘を受けました。",
+      "level": 2
+    },
+    {
+      "headword": "impressive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpresɪv/",
+      "meaning": "印象的な；見事な",
+      "exampleEn": "Company posted impressive annual profit growth.",
+      "exampleJa": "会社は見事な年次の利益成長を記録しました。",
+      "level": 2
+    },
+    {
+      "headword": "incidental",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnsɪˈdentl/",
+      "meaning": "付随する；臨時雑費の",
+      "exampleEn": "Cover incidental travel expenses with cash.",
+      "exampleJa": "現金で臨時の出張雑費を補いなさい。",
+      "level": 4
+    },
+    {
+      "headword": "inevitable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈevɪtəbl/",
+      "meaning": "避けられない；必然の",
+      "exampleEn": "Price increase was inevitable due to inflation.",
+      "exampleJa": "インフレのため価格上昇は避けられないことでした。",
+      "level": 3
+    },
+    {
+      "headword": "initial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈnɪʃl/",
+      "meaning": "最初の；初期の",
+      "exampleEn": "Initial sales results met team expectations.",
+      "exampleJa": "初期の売上結果はチームの期待に応えました。",
+      "level": 2
+    },
+    {
+      "headword": "interim",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪntərɪm/",
+      "meaning": "暫定的な；中間の",
+      "exampleEn": "Board appointed interim director officer manager.",
+      "exampleJa": "取締役会は暫定的なディレクター責任者を任命しました。",
+      "level": 4
+    },
+    {
+      "headword": "invalid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈvælɪd/",
+      "meaning": "無効な",
+      "exampleEn": "Ticket is invalid after expiration date.",
+      "exampleJa": "チケットは有効期限が切れた後は無効です。",
+      "level": 2
+    },
+    {
+      "headword": "joint",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dʒɔɪnt/",
+      "meaning": "共同の；合弁の",
+      "exampleEn": "Form joint venture company with local partner.",
+      "exampleJa": "地元のパートナーと共同（合弁）事業会社を設立しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "key",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kiː/",
+      "meaning": "主要な；鍵となる",
+      "exampleEn": "Quality is key factor in customer choice.",
+      "exampleJa": "品質は顧客の選択における主要な要因（鍵）です。",
+      "level": 2
+    },
+    {
+      "headword": "legal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈliːɡl/",
+      "meaning": "法律の；合意上の",
+      "exampleEn": "Consult legal department before signing contract.",
+      "exampleJa": "契約に署名する前に法務部門に相談しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "legitimate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/lɪˈdʒɪtɪmət/",
+      "meaning": "正当な；合法的な",
+      "exampleEn": "Claim is legitimate under business law terms.",
+      "exampleJa": "請求はビジネス法条件のもとで正当なものです。",
+      "level": 3
+    },
+    {
+      "headword": "limited",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈlɪmɪtɪd/",
+      "meaning": "限られた；有限の",
+      "exampleEn": "Offer available for limited time only.",
+      "exampleJa": "オファーは期間限定でのみ利用可能です。",
+      "level": 2
+    },
+    {
+      "headword": "local",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈloʊkl/",
+      "meaning": "地元の；地域の",
+      "exampleEn": "Support local business vendor shops near office.",
+      "exampleJa": "オフィス近くの地元のビジネス販売店舗を支援しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "marginal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɑːrdʒɪnl/",
+      "meaning": "微小な；限界の",
+      "exampleEn": "Change brought marginal increase in profit.",
+      "exampleJa": "変更は利益のわずかな（微小な）増加をもたらしました。",
+      "level": 3
+    },
+    {
+      "headword": "minimal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɪnɪml/",
+      "meaning": "最小限の",
+      "exampleEn": "Keep cost at minimal level possible.",
+      "exampleJa": "費用を可能な限り最小限のレベルに抑えなさい。",
+      "level": 2
+    },
+    {
+      "headword": "mutual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmjuːtʃuəl/",
+      "meaning": "相互の；共通の",
+      "exampleEn": "Agreement built on mutual trust and respect.",
+      "exampleJa": "合意は相互の信頼と尊重の上に築かれました。",
+      "level": 3
+    },
+    {
+      "headword": "necessary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnesəseri/",
+      "meaning": "必要な；不可欠な",
+      "exampleEn": "Obtain necessary permit before construction start.",
+      "exampleJa": "施工開始前に必要な許可証を入手しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "nominal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɑːmɪnl/",
+      "meaning": "名目の；ごくわずかな",
+      "exampleEn": "Charge nominal fee for processing service.",
+      "exampleJa": "処理サービスに対してごくわずかな（名目上の）手数料を請求しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "numerous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnuːmərəs/",
+      "meaning": "多数の；多くの",
+      "exampleEn": "Company received numerous awards for innovation.",
+      "exampleJa": "会社は革新性に対して多数の賞を受け取りました。",
+      "level": 2
+    },
+    {
+      "headword": "objective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əbˈdʒektɪv/",
+      "meaning": "客観的な",
+      "exampleEn": "Provide objective evaluation of candidate performance.",
+      "exampleJa": "候補者の実績について客観的な評価を提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "obligatory",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈblɪɡətɔːri/",
+      "meaning": "義務的な",
+      "exampleEn": "Wearing safety helmet is obligatory on site.",
+      "exampleJa": "現場で安全ヘルメットを着用することは義務的です。",
+      "level": 4
+    },
+    {
+      "headword": "optimum",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːptɪməm/",
+      "meaning": "最適な；最高の",
+      "exampleEn": "Achieve optimum factory machine performance efficiency.",
+      "exampleJa": "最高の（最適な）工場機械パフォーマンス効率を達成しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "outstanding",
+      "partOfSpeech": "adjective",
+      "phonetic": "/aʊtˈstændɪŋ/",
+      "meaning": "未払いの；傑出した",
+      "exampleEn": "Pay outstanding invoice balance bill immediately.",
+      "exampleJa": "未払いの請求書残高請求を即座に支払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "overall",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌoʊvərˈɔːl/",
+      "meaning": "全体の；総体的な",
+      "exampleEn": "Report showed overall increase in revenue.",
+      "exampleJa": "報告書は収益の全体的な増加を示しました。",
+      "level": 2
+    },
+    {
+      "headword": "partial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɑːrʃl/",
+      "meaning": "部分的な；偏愛する",
+      "exampleEn": "Make partial payment on invoice total.",
+      "exampleJa": "請求書合計の部部分的な支払いを行いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "permanent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɜːrmənənt/",
+      "meaning": "永久的な；終身の",
+      "exampleEn": "Offer permanent full time employment contract.",
+      "exampleJa": "終身の（永久的な）フルタイム雇用契約を提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "practical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpræktɪkl/",
+      "meaning": "実用的な；現実的な",
+      "exampleEn": "Offer practical training course for new workers.",
+      "exampleJa": "新作業員向けに実用的な研修コースを提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "precise",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɪˈsaɪs/",
+      "meaning": "正確な；精密な",
+      "exampleEn": "Provide precise measurement calculation data.",
+      "exampleJa": "正確な（精密な）測定計算データを提供しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "preliminary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɪˈlɪmɪneri/",
+      "meaning": "予備の；準備段階の",
+      "exampleEn": "Release preliminary report on research findings.",
+      "exampleJa": "研究結果に関する予備（準備段階の）報告書を公開しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "previous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpriːviəs/",
+      "meaning": "以前の；前の",
+      "exampleEn": "Compare current sales with previous year data.",
+      "exampleJa": "前年のデータと現在の売上を比較しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "primary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpraɪmeri/",
+      "meaning": "主要な；第一の",
+      "exampleEn": "Quality is primary concern for customer choice.",
+      "exampleJa": "品質は顧客の選択における第一の（主要な）関心事です。",
+      "level": 2
+    },
+    {
+      "headword": "principal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈprɪnsəpl/",
+      "meaning": "主要な；元金の",
+      "exampleEn": "He is principal shareholder of corporation.",
+      "exampleJa": "彼は会社の主要な株主です。",
+      "level": 3
+    },
+    {
+      "headword": "prompt",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɑːmpt/",
+      "meaning": "迅速な；すばやい",
+      "exampleEn": "Give prompt reply to customer inquiry.",
+      "exampleJa": "顧客の問い合わせに迅速な返答を与えなさい。",
+      "level": 2
+    },
+    {
+      "headword": "prospective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈspektɪv/",
+      "meaning": "見込みのある；将来の",
+      "exampleEn": "Meet prospective buyers at trade fair.",
+      "exampleJa": "見本市で見込みのある買手（バイヤー）と会いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "punctual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpʌŋktʃuəl/",
+      "meaning": "時間を守る",
+      "exampleEn": "Be punctual for morning staff meeting.",
+      "exampleJa": "朝のスタッフ会議には時間を守りちなさい。",
+      "level": 3
+    },
+    {
+      "headword": "radical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈrædɪkl/",
+      "meaning": "抜本的な；急進的な",
+      "exampleEn": "System requires radical change and update.",
+      "exampleJa": "システムは抜本的な変更と更新を必要としています。",
+      "level": 3
+    },
+    {
+      "headword": "rapid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈræpɪd/",
+      "meaning": "急速な；すばやい",
+      "exampleEn": "Company experienced rapid growth in sales.",
+      "exampleJa": "会社は売上において急速な成長を経験しました。",
+      "level": 2
+    },
+    {
+      "headword": "rational",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈræʃnəl/",
+      "meaning": "合理的・論理的な",
+      "exampleEn": "Make rational business decisions based on data.",
+      "exampleJa": "データに基づいて合理的なビジネス決定を下しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "remarkable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈmɑːrkəbl/",
+      "meaning": "注目すべき；素晴らしい",
+      "exampleEn": "Team achieved remarkable sales success this year.",
+      "exampleJa": "チームは今年注目すべき売上の成功を達成しました。",
+      "level": 2
+    },
+    {
+      "headword": "photocopier",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfoʊtoʊkɑːpiər/",
+      "meaning": "コピー機；複写機",
+      "exampleEn": "Photocopier is located in reception hall.",
+      "exampleJa": "コピー機は受付ホールに設置されています。",
+      "level": 3
+    },
+    {
+      "headword": "onboarding",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːnbɔːrdɪŋ/",
+      "meaning": "オンボーディング；新規採用研修",
+      "exampleEn": "Complete employee onboarding program schedule.",
+      "exampleJa": "社員オンボーディング研修プログラムを完了しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "equity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈekwəti/",
+      "meaning": "株主資本；自己資本",
+      "exampleEn": "Private equity firm invested in startup.",
+      "exampleJa": "プライベート・エクイティ（自己資本）企業がベンチャーに投資しました。",
+      "level": 3
+    },
+    {
+      "headword": "freeway",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfriːweɪ/",
+      "meaning": "高速道路",
+      "exampleEn": "Truck traveled along coastal highway freeway.",
+      "exampleJa": "トラックは沿岸の高速道路に沿って移動しました。",
+      "level": 2
+    },
+    {
+      "headword": "transistor",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænˈzɪstər/",
+      "meaning": "トランジスタ；増幅素子",
+      "exampleEn": "Silicon transistor powers electronic circuit board.",
+      "exampleJa": "シリコントランジスタが電子回路基板の動力源となります。",
+      "level": 3
+    },
+    {
+      "headword": "jetlag",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒetlæɡ/",
+      "meaning": "時差ぼけ",
+      "exampleEn": "Suffer from jetlag after long flight overseas.",
+      "exampleJa": "海外への長時間のフライトの後に時差ぼけに悩まされなさい。",
+      "level": 2
+    },
+    {
+      "headword": "undoubtedly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ʌnˈdaʊtɪdli/",
+      "meaning": "間違いなく；確かに",
+      "exampleEn": "New tech undoubtedly improves work speed.",
+      "exampleJa": "新技術は間違いなく作業スピードを向上させます。",
+      "level": 3
+    }
+  ]
+}
