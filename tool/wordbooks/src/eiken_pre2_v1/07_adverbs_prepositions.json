@@ -25,8 +25,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/əˈkɔːrdɪŋli/",
       "meaning": "それに応じて；したがって",
-      "exampleEn": "Plan changed; adjust your schedule accordingly.",
-      "exampleJa": "計画が変わりました。それに応じてスケジュールを調整しなさい。",
+      "exampleEn": "The plan changed, so we adjusted our schedule accordingly.",
+      "exampleJa": "計画が変わったので、私たちはそれに応じて予定を調整しました。",
       "level": 3
     },
     {
@@ -62,7 +62,7 @@
       "phonetic": "/ɪˈventʃuəli/",
       "meaning": "最終的に；結局は",
       "exampleEn": "Hard work eventually pays off.",
-      "exampleJa": "ハードワークは最終的に報われます。",
+      "exampleJa": "努力は最終的に報われます。",
       "level": 2
     },
     {
@@ -70,8 +70,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ɪkˈstriːmli/",
       "meaning": "極めて；非常に",
-      "exampleEn": "Weather was extremely cold yesterday.",
-      "exampleJa": "昨日は天候が極めて寒かったです。",
+      "exampleEn": "The weather was extremely cold yesterday.",
+      "exampleJa": "昨日はきわめて寒い天気でした。",
       "level": 2
     },
     {
@@ -86,11 +86,11 @@
     {
       "headword": "furthermore",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˌfɜːrdərˈmɔːr/",
+      "phonetic": "/ˈfɜːrðərmɔːr/",
       "meaning": "その上；さらに",
-      "exampleEn": "House is cheap; furthermore, location is good.",
-      "exampleJa": "家は安いです。その上、立地も良いです。",
-      "level": 2
+      "exampleEn": "Furthermore, the price includes breakfast and free parking.",
+      "exampleJa": "さらに、その料金には朝食と無料の駐車場が含まれています。",
+      "level": 3
     },
     {
       "headword": "hardly",
@@ -116,7 +116,7 @@
       "phonetic": "/ɪnˈevɪtəbli/",
       "meaning": "必然的に；不可避的に",
       "exampleEn": "Mistakes will inevitably happen.",
-      "exampleJa": "間違いは不可避的に起こります。",
+      "exampleJa": "失敗は必然的に起こります。",
       "level": 3
     },
     {
@@ -124,8 +124,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/mɔːrˈoʊvər/",
       "meaning": "さらに；その上",
-      "exampleEn": "Book is interesting; moreover, it is educational.",
-      "exampleJa": "その本は面白く、さらに教育的です。",
+      "exampleEn": "Moreover, this method saves both time and money.",
+      "exampleJa": "さらに、この方法は時間とお金の両方を節約します。",
       "level": 2
     },
     {
@@ -133,8 +133,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈɑːbviəsli/",
       "meaning": "明らかに；言うまでもなく",
-      "exampleEn": "She was obviously happy with gift.",
-      "exampleJa": "彼女は贈り物に明らかに喜んでいました。",
+      "exampleEn": "She was obviously happy with the gift.",
+      "exampleJa": "彼女はその贈り物を明らかに喜んでいました。",
       "level": 2
     },
     {
@@ -151,8 +151,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈrelətɪvli/",
       "meaning": "比較的に；相対的に",
-      "exampleEn": "Exam was relatively easy for students.",
-      "exampleJa": "試験は生徒にとって比較的簡単でした。",
+      "exampleEn": "The exam was relatively easy for the students.",
+      "exampleJa": "その試験は生徒にとって比較的簡単でした。",
       "level": 2
     },
     {
@@ -160,8 +160,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈslaɪtli/",
       "meaning": "わずかに；少し",
-      "exampleEn": "Price increased slightly this year.",
-      "exampleJa": "価格は今年わずかに上昇しました。",
+      "exampleEn": "The price increased slightly this year.",
+      "exampleJa": "価格は今年わずかに上がりました。",
       "level": 2
     },
     {
@@ -169,8 +169,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈsʌmwɑːt/",
       "meaning": "いくぶん；多少",
-      "exampleEn": "I felt somewhat surprised by news.",
-      "exampleJa": "私はニュースにいくぶん驚きを感じました。",
+      "exampleEn": "I was somewhat surprised by the news.",
+      "exampleJa": "私はその知らせにいくぶん驚きました。",
       "level": 2
     },
     {
@@ -178,9 +178,9 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ʌnˈfɔːrtʃənətli/",
       "meaning": "あいにく；残念ながら",
-      "exampleEn": "Unfortunately, ticket was sold out.",
+      "exampleEn": "Unfortunately, the tickets were sold out.",
       "exampleJa": "残念ながら、チケットは売り切れでした。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "acceptable",
@@ -196,8 +196,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ækˈtɪvəti/",
       "meaning": "活動",
-      "exampleEn": "Outdoor physical activity is good for health.",
-      "exampleJa": "屋外の身体活動は健康に良いです。",
+      "exampleEn": "Outdoor activity is good for your health.",
+      "exampleJa": "屋外での活動は健康に良いです。",
       "level": 1
     },
     {
@@ -205,8 +205,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈædres/",
       "meaning": "住所；演説",
-      "exampleEn": "Write your home address on form.",
-      "exampleJa": "用紙にあなたの自宅住所を書きなさい。",
+      "exampleEn": "Please write your address on this form.",
+      "exampleJa": "この用紙にあなたの住所を書いてください。",
       "level": 1
     },
     {
@@ -214,17 +214,17 @@
       "partOfSpeech": "verb",
       "phonetic": "/ədˈvæns/",
       "meaning": "前進する；進歩する",
-      "exampleEn": "Science advances rapidly every single year.",
-      "exampleJa": "科学は毎年急速に前進します。",
-      "level": 1
+      "exampleEn": "Science advances rapidly every year.",
+      "exampleJa": "科学は毎年急速に進歩します。",
+      "level": 2
     },
     {
       "headword": "adviser",
       "partOfSpeech": "noun",
       "phonetic": "/ədˈvaɪzər/",
       "meaning": "顧問；アドバイザー",
-      "exampleEn": "Financial adviser helped manage money investment.",
-      "exampleJa": "財務アドバイザーが資金投資の管理を助けました。",
+      "exampleEn": "My adviser helped me choose a university.",
+      "exampleJa": "私のアドバイザーが大学選びを手伝ってくれました。",
       "level": 2
     },
     {
@@ -232,8 +232,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/əˈɡresɪv/",
       "meaning": "攻撃的な；積極的な",
-      "exampleEn": "Company adopted aggressive sales expansion strategy.",
-      "exampleJa": "会社は積極的な売上拡大戦略を採用しました。",
+      "exampleEn": "The dog became aggressive toward strangers.",
+      "exampleJa": "その犬は見知らぬ人に攻撃的になりました。",
       "level": 2
     },
     {
@@ -241,26 +241,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈerkræft/",
       "meaning": "航空機；飛行機",
-      "exampleEn": "Commercial passenger aircraft landed safely airport.",
-      "exampleJa": "商用旅客航空機が空港に安全に着陸しました。",
-      "level": 1
+      "exampleEn": "The aircraft landed safely at the airport.",
+      "exampleJa": "その航空機は空港に無事着陸しました。",
+      "level": 2
     },
     {
       "headword": "alliance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈlaɪəns/",
       "meaning": "同盟；提携",
-      "exampleEn": "Nations formed strong international military alliance.",
-      "exampleJa": "国家たちは強固な国際軍事同盟を形成しました。",
-      "level": 2
+      "exampleEn": "The two countries formed a strong alliance.",
+      "exampleJa": "その2か国は強い同盟を結びました。",
+      "level": 3
     },
     {
       "headword": "alongside",
       "partOfSpeech": "preposition",
       "phonetic": "/əˈlɔːŋsaɪd/",
       "meaning": "〜と並んで；〜のそばに",
-      "exampleEn": "Park car alongside road street side.",
-      "exampleJa": "通り沿いの道のそばに車を駐車しなさい。",
+      "exampleEn": "She walked alongside me to the station.",
+      "exampleJa": "彼女は駅まで私と並んで歩きました。",
       "level": 2
     },
     {
@@ -268,8 +268,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈmeɪzmənt/",
       "meaning": "驚き；感嘆",
-      "exampleEn": "Stared in total amazement at magic.",
-      "exampleJa": "手品に対して完全な驚きの中形で見つめました。",
+      "exampleEn": "We watched the magic show in amazement.",
+      "exampleJa": "私たちは驚きながらその手品ショーを見ました。",
       "level": 2
     },
     {
@@ -277,26 +277,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈmjuːzmənt/",
       "meaning": "娯楽；面白さ",
-      "exampleEn": "Visit family outdoor amusement theme park.",
-      "exampleJa": "家族で屋外の娯楽テーマパークを訪問しなさい。",
-      "level": 1
+      "exampleEn": "We spent the day at an amusement park.",
+      "exampleJa": "私たちは遊園地で一日を過ごしました。",
+      "level": 2
     },
     {
       "headword": "angle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡl/",
       "meaning": "角度；角",
-      "exampleEn": "Draw ninety degree right angle triangle.",
-      "exampleJa": "90度の直角三角形を描きちなさい。",
-      "level": 1
+      "exampleEn": "This triangle has a right angle.",
+      "exampleJa": "この三角形には直角があります。",
+      "level": 2
     },
     {
       "headword": "apple",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæpl/",
       "meaning": "リンゴ",
-      "exampleEn": "Eat sweet red fresh apple daily.",
-      "exampleJa": "毎日の甘い赤い新鮮なリンゴを食べちなさい。",
+      "exampleEn": "I eat an apple every morning.",
+      "exampleJa": "私は毎朝リンゴを食べます。",
       "level": 1
     },
     {
@@ -304,18 +304,18 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈproʊtʃ/",
       "meaning": "に接近する；に取り組む",
-      "exampleEn": "Train is approaching station platform fast.",
-      "exampleJa": "電車が駅のホームに急速に接近しています。",
-      "level": 1
+      "exampleEn": "The train is approaching the platform.",
+      "exampleJa": "電車がホームに近づいています。",
+      "level": 2
     },
     {
       "headword": "arch",
       "partOfSpeech": "noun",
       "phonetic": "/ɑːrtʃ/",
       "meaning": "アーチ；弓形構造",
-      "exampleEn": "Walk under ancient stone building arch.",
-      "exampleJa": "古代の石の建築物のアーチの下を歩きちなさい。",
-      "level": 1
+      "exampleEn": "We walked under a stone arch.",
+      "exampleJa": "私たちは石のアーチの下を歩きました。",
+      "level": 2
     },
     {
       "headword": "arise",
@@ -323,16 +323,16 @@
       "phonetic": "/əˈraɪz/",
       "meaning": "生じる；立ち上がる",
       "exampleEn": "Problems arise when rules are ignored.",
-      "exampleJa": "規則が無視された時に問題が生じます。",
-      "level": 1
+      "exampleJa": "規則が無視されると問題が生じます。",
+      "level": 2
     },
     {
       "headword": "ask",
       "partOfSpeech": "verb",
       "phonetic": "/æsk/",
       "meaning": "に尋ねる；を頼む",
-      "exampleEn": "Ask teacher for question answer help.",
-      "exampleJa": "問題の回答の手助けについて先生に尋ねなさい。",
+      "exampleEn": "I asked my teacher for some help.",
+      "exampleJa": "私は先生に助けを求めました。",
       "level": 1
     },
     {
@@ -340,89 +340,89 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈsesmənt/",
       "meaning": "評価；査定",
-      "exampleEn": "Risk assessment report prepared safety team.",
-      "exampleJa": "リスク評価報告書が安全チームによって準備されました。",
-      "level": 2
+      "exampleEn": "The safety team wrote a risk assessment report.",
+      "exampleJa": "安全チームがリスク評価の報告書を書きました。",
+      "level": 3
     },
     {
       "headword": "assumption",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsʌmpʃn/",
       "meaning": "仮定；思い込み",
-      "exampleEn": "Decision based on false logical assumption.",
-      "exampleJa": "間違った論理的仮定に基づく決定。",
-      "level": 2
+      "exampleEn": "His decision was based on a wrong assumption.",
+      "exampleJa": "彼の決定は誤った思い込みに基づいていました。",
+      "level": 3
     },
     {
       "headword": "atlantic",
       "partOfSpeech": "adjective",
       "phonetic": "/ətˈlæntɪk/",
       "meaning": "大西洋の",
-      "exampleEn": "Ship crossed vast cold Atlantic Ocean water.",
-      "exampleJa": "船が広大な寒い大西洋の水域を横断しました。",
-      "level": 1
+      "exampleEn": "The ship crossed the Atlantic Ocean in June.",
+      "exampleJa": "その船は6月に大西洋を横断しました。",
+      "level": 2
     },
     {
       "headword": "attendance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtendəns/",
       "meaning": "出席；出席者数",
-      "exampleEn": "Check daily student class attendance record.",
-      "exampleJa": "毎日の生徒クラスの出席記録を確認しなさい。",
-      "level": 1
+      "exampleEn": "The teacher checks our attendance every morning.",
+      "exampleJa": "先生は毎朝私たちの出席を確認します。",
+      "level": 2
     },
     {
       "headword": "audience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
       "meaning": "聴衆；観客",
-      "exampleEn": "Audience applauded performance show warmly.",
-      "exampleJa": "観客がパフォーマンスショーに温かく拍手喝采しました。",
-      "level": 1
+      "exampleEn": "The audience clapped warmly after the show.",
+      "exampleJa": "観客は公演の後、温かく拍手しました。",
+      "level": 2
     },
     {
       "headword": "auto",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːtoʊ/",
       "meaning": "自動車",
-      "exampleEn": "Drive modern electric motor auto vehicle.",
-      "exampleJa": "現代の電気モーター自動車車両を運転しなさい。",
-      "level": 1
+      "exampleEn": "My father works at an auto factory.",
+      "exampleJa": "父は自動車工場で働いています。",
+      "level": 2
     },
     {
       "headword": "awesome",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɔːsəm/",
       "meaning": "すばらしい；見事な",
-      "exampleEn": "Concert was an awesome live show.",
-      "exampleJa": "コンサートはすばらしいライブショーでした。",
-      "level": 1
+      "exampleEn": "The concert last night was awesome.",
+      "exampleJa": "昨夜のコンサートはすばらしかったです。",
+      "level": 2
     },
     {
       "headword": "badge",
       "partOfSpeech": "noun",
       "phonetic": "/bædʒ/",
       "meaning": "バッジ；記章",
-      "exampleEn": "Wear official company employee name badge.",
-      "exampleJa": "公式の会社従業員名バッジを着用しなさい。",
-      "level": 1
+      "exampleEn": "All the workers wear a name badge.",
+      "exampleJa": "働く人は全員、名前のバッジを着けています。",
+      "level": 2
     },
     {
       "headword": "ballet",
       "partOfSpeech": "noun",
       "phonetic": "/bæˈleɪ/",
       "meaning": "バレエ",
-      "exampleEn": "Watch elegant classic stage ballet dance.",
-      "exampleJa": "優雅なクラシック舞台バレエダンスを見なさい。",
-      "level": 1
+      "exampleEn": "My sister has studied ballet for six years.",
+      "exampleJa": "姉は6年間バレエを習っています。",
+      "level": 2
     },
     {
       "headword": "bankrupt",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbæŋkrʌpt/",
       "meaning": "破産した",
-      "exampleEn": "Firm went bankrupt after losing money.",
-      "exampleJa": "資金を失った後、企業は破産しました。",
+      "exampleEn": "The company went bankrupt last year.",
+      "exampleJa": "その会社は昨年破産しました。",
       "level": 2
     },
     {
@@ -430,17 +430,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɑːrn/",
       "meaning": "納屋；物置",
-      "exampleEn": "Store dried hay inside farm barn.",
-      "exampleJa": "農場の納屋の中に乾燥した干し草を保管しなさい。",
-      "level": 1
+      "exampleEn": "The farmer keeps his horses in the barn.",
+      "exampleJa": "その農場主は納屋で馬を飼っています。",
+      "level": 2
     },
     {
       "headword": "basket",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæskɪt/",
       "meaning": "かご；バスケット",
-      "exampleEn": "Put fresh fruit inside wicker basket.",
-      "exampleJa": "柳のかごの中に新鮮な果物を入れなさい。",
+      "exampleEn": "She put the fruit into a basket.",
+      "exampleJa": "彼女は果物をかごに入れました。",
       "level": 1
     },
     {
@@ -448,26 +448,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/beɪ/",
       "meaning": "湾；入江",
-      "exampleEn": "Ships anchored inside calm blue bay.",
-      "exampleJa": "船が穏やかな青い湾の中に錨を下ろしました。",
-      "level": 1
+      "exampleEn": "Many boats are resting in the quiet bay.",
+      "exampleJa": "静かな湾にたくさんの船が停まっています。",
+      "level": 2
     },
     {
       "headword": "beast",
       "partOfSpeech": "noun",
       "phonetic": "/biːst/",
       "meaning": "野獣；獣",
-      "exampleEn": "Wild forest animal beast hunted prey.",
-      "exampleJa": "野生の森の動物が獲物を狩りました。",
-      "level": 1
+      "exampleEn": "A wild beast lived deep in the forest.",
+      "exampleJa": "野獣が森の奥に住んでいました。",
+      "level": 2
     },
     {
       "headword": "beef",
       "partOfSpeech": "noun",
       "phonetic": "/biːf/",
       "meaning": "牛肉",
-      "exampleEn": "Cook fresh grilled meat steak beef.",
-      "exampleJa": "新鮮な網焼き肉のステーキの牛肉を料理しなさい。",
+      "exampleEn": "We ate grilled beef for dinner.",
+      "exampleJa": "私たちは夕食に焼いた牛肉を食べました。",
       "level": 1
     },
     {
@@ -475,17 +475,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈhæf/",
       "meaning": "〜のために；代表して",
-      "exampleEn": "Speak on behalf of team members.",
-      "exampleJa": "チームメンバーを代表して話しちなさい。",
-      "level": 1
+      "exampleEn": "I spoke on behalf of my classmates.",
+      "exampleJa": "私はクラスメートを代表して話しました。",
+      "level": 3
     },
     {
       "headword": "belong",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈlɔːŋ/",
       "meaning": "に所属する；のものである",
-      "exampleEn": "Book belongs to school library center.",
-      "exampleJa": "本は学校の図書センターに所属しています。",
+      "exampleEn": "This book belongs to the school library.",
+      "exampleJa": "この本は学校の図書館のものです。",
       "level": 1
     },
     {
@@ -493,35 +493,35 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌbenɪˈfɪʃieri/",
       "meaning": "受取人；受益者",
-      "exampleEn": "She is insurance policy primary beneficiary.",
-      "exampleJa": "彼女は保険の一次受取人です。",
-      "level": 2
+      "exampleEn": "She is the main beneficiary of the insurance.",
+      "exampleJa": "彼女はその保険の主な受取人です。",
+      "level": 3
     },
     {
       "headword": "beverage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbevərɪdʒ/",
       "meaning": "飲み物；飲料",
-      "exampleEn": "Order cold refreshing fruit juice beverage.",
-      "exampleJa": "冷たい爽やかな果汁ジュース飲み物を注文しなさい。",
-      "level": 1
+      "exampleEn": "The shop sells hot and cold beverages.",
+      "exampleJa": "その店は温かい飲み物と冷たい飲み物を売っています。",
+      "level": 2
     },
     {
       "headword": "bill",
       "partOfSpeech": "noun",
       "phonetic": "/bɪl/",
       "meaning": "請求書；紙幣；法案",
-      "exampleEn": "Pay restaurant meal food check bill.",
-      "exampleJa": "レストランの食事料理の会計請求書を支払いなさい。",
-      "level": 1
+      "exampleEn": "We paid the bill at the restaurant.",
+      "exampleJa": "私たちはレストランで請求書を支払いました。",
+      "level": 2
     },
     {
       "headword": "birthday",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɜːrθdeɪ/",
       "meaning": "誕生日",
-      "exampleEn": "Happy tenth birthday party cake present.",
-      "exampleJa": "幸せな第10回誕生日パーティーのケーキのプレゼント。",
+      "exampleEn": "My birthday party starts at three.",
+      "exampleJa": "私の誕生日パーティーは3時に始まります。",
       "level": 1
     },
     {
@@ -529,26 +529,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/blæst/",
       "meaning": "爆発；突風",
-      "exampleEn": "Bomb explosion caused loud blast noise.",
-      "exampleJa": "爆弾の爆発が大声の爆発音を引き起こしました。",
-      "level": 1
+      "exampleEn": "The blast broke several windows nearby.",
+      "exampleJa": "その爆発で近くの窓がいくつも割れました。",
+      "level": 2
     },
     {
       "headword": "blossom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈblɑːsəm/",
       "meaning": "花；開花",
-      "exampleEn": "Pink fruit tree blossom spring flower.",
-      "exampleJa": "ピンクの果樹の開花の春の花。",
-      "level": 1
+      "exampleEn": "The cherry blossoms are beautiful in April.",
+      "exampleJa": "4月の桜の花は美しいです。",
+      "level": 2
     },
     {
       "headword": "board",
       "partOfSpeech": "noun",
       "phonetic": "/bɔːrd/",
       "meaning": "板；取締役会；搭乗",
-      "exampleEn": "Write word on wooden notice board.",
-      "exampleJa": "木製の掲示板の上に単語を書きなさい。",
+      "exampleEn": "Our teacher wrote the answer on the board.",
+      "exampleJa": "先生は黒板に答えを書きました。",
       "level": 1
     },
     {
@@ -556,18 +556,18 @@
       "partOfSpeech": "noun",
       "phonetic": "/boʊn/",
       "meaning": "骨",
-      "exampleEn": "Calcium makes human body bones strong.",
-      "exampleJa": "カルシウムが人体の骨を強固にします。",
-      "level": 1
+      "exampleEn": "Milk makes our bones strong.",
+      "exampleJa": "牛乳は私たちの骨を強くします。",
+      "level": 2
     },
     {
       "headword": "boost",
       "partOfSpeech": "verb",
       "phonetic": "/buːst/",
       "meaning": "を押し上げる；高める",
-      "exampleEn": "Ad campaign boosted store product sales.",
-      "exampleJa": "広告キャンペーンが店舗の製品売上を押し上げました。",
-      "level": 1
+      "exampleEn": "The new ad boosted the store's sales.",
+      "exampleJa": "新しい広告が店の売上を押し上げました。",
+      "level": 2
     },
     {
       "headword": "bother",
@@ -576,15 +576,15 @@
       "meaning": "に迷惑をかける；気にする",
       "exampleEn": "Sorry to bother you during work.",
       "exampleJa": "仕事中に迷惑をかけてすみません。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "box",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːks/",
       "meaning": "箱；ケース",
-      "exampleEn": "Pack clothes inside cardboard shipping box.",
-      "exampleJa": "ダンボールの出荷箱の中に服を荷造りしなさい。",
+      "exampleEn": "I put my old clothes in a box.",
+      "exampleJa": "私は古い服を箱に入れました。",
       "level": 1
     },
     {
@@ -592,35 +592,35 @@
       "partOfSpeech": "noun",
       "phonetic": "/bræs/",
       "meaning": "真鍮；ブラス",
-      "exampleEn": "Play brass metal trumpet music instrument.",
-      "exampleJa": "真鍮金属のトランペット音楽楽器を演奏しなさい。",
-      "level": 1
+      "exampleEn": "The trumpet is made of brass.",
+      "exampleJa": "トランペットは真鍮でできています。",
+      "level": 2
     },
     {
       "headword": "breath",
       "partOfSpeech": "noun",
       "phonetic": "/breθ/",
       "meaning": "息；呼吸",
-      "exampleEn": "Take deep fresh air morning breath.",
-      "exampleJa": "深い新鮮な空気の朝の息を吸いちなさい。",
-      "level": 1
+      "exampleEn": "He took a deep breath and started.",
+      "exampleJa": "彼は深く息を吸ってから始めました。",
+      "level": 2
     },
     {
       "headword": "briefing",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbriːfɪŋ/",
       "meaning": "状況説明；ブリーフィング",
-      "exampleEn": "Attend morning team work project briefing.",
-      "exampleJa": "朝のチーム作業プロジェクトの状況説明に出席しなさい。",
-      "level": 1
+      "exampleEn": "We had a short briefing before the trip.",
+      "exampleJa": "私たちは旅行の前に短い説明を受けました。",
+      "level": 2
     },
     {
       "headword": "broker",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbroʊkər/",
       "meaning": "仲介業者；ブローカー",
-      "exampleEn": "Real estate broker negotiated house sale.",
-      "exampleJa": "不動産仲介業者が家の売却を交渉しました。",
+      "exampleEn": "The broker found a buyer for the house.",
+      "exampleJa": "その仲介業者は家の買手を見つけました。",
       "level": 2
     },
     {
@@ -628,8 +628,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/brʌʃ/",
       "meaning": "ブラシ；筆；磨くこと",
-      "exampleEn": "Brush teeth clean every morning night.",
-      "exampleJa": "毎朝毎晩、歯を綺麗に磨きちなさい。",
+      "exampleEn": "I bought a new brush for painting.",
+      "exampleJa": "私は絵を描くための新しい筆を買いました。",
       "level": 1
     },
     {
@@ -637,26 +637,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪldər/",
       "meaning": "建築業者；大工",
-      "exampleEn": "Master house builder constructed wooden home.",
-      "exampleJa": "棟梁が木造住宅を建設しました。",
-      "level": 1
+      "exampleEn": "The builder finished our new house last month.",
+      "exampleJa": "建築業者は先月、私たちの新しい家を完成させました。",
+      "level": 2
     },
     {
       "headword": "bundle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌndl/",
       "meaning": "包み；束",
-      "exampleEn": "Tie newspaper paper inside tight bundle.",
-      "exampleJa": "きつい束の中に新聞紙を縛りちなさい。",
-      "level": 1
+      "exampleEn": "He carried a bundle of old newspapers.",
+      "exampleJa": "彼は古新聞の束を運びました。",
+      "level": 2
     },
     {
       "headword": "bus",
       "partOfSpeech": "noun",
       "phonetic": "/bʌs/",
       "meaning": "バス；乗合自動車",
-      "exampleEn": "Take city public transport bus stop.",
-      "exampleJa": "都市の公共交通バス停で乗りちなさい。",
+      "exampleEn": "I take the bus to school every day.",
+      "exampleJa": "私は毎日バスで学校へ行きます。",
       "level": 1
     },
     {
@@ -664,35 +664,35 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪər/",
       "meaning": "買手；バイヤー",
-      "exampleEn": "Meet prospective house real estate buyer.",
-      "exampleJa": "見込みのある住宅不動産の買手と会いなさい。",
-      "level": 1
+      "exampleEn": "We finally found a buyer for our car.",
+      "exampleJa": "私たちはついに車の買手を見つけました。",
+      "level": 2
     },
     {
       "headword": "calf",
       "partOfSpeech": "noun",
       "phonetic": "/kæf/",
       "meaning": "子牛；ふくらはぎ",
-      "exampleEn": "Young cow calf walked green field.",
-      "exampleJa": "若いたわし子牛が緑の畑を歩きました。",
-      "level": 1
+      "exampleEn": "A young calf followed its mother.",
+      "exampleJa": "子牛が母牛の後をついていきました。",
+      "level": 2
     },
     {
       "headword": "capable",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkeɪpəbl/",
       "meaning": "能力がある；有能な",
-      "exampleEn": "She is a capable project manager leader.",
-      "exampleJa": "彼女は有能なプロジェクトマネージャーのリーダーです。",
-      "level": 1
+      "exampleEn": "She is a capable and honest leader.",
+      "exampleJa": "彼女は有能で誠実なリーダーです。",
+      "level": 2
     },
     {
       "headword": "car",
       "partOfSpeech": "noun",
       "phonetic": "/kɑːr/",
       "meaning": "自動車；車",
-      "exampleEn": "Drive modern Electric battery sports car.",
-      "exampleJa": "現代の電気バッテリースポーツ自動車を運転しなさい。",
+      "exampleEn": "My uncle bought a new car.",
+      "exampleJa": "おじは新しい車を買いました。",
       "level": 1
     },
     {
@@ -700,143 +700,143 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːrɡoʊ/",
       "meaning": "貨物；積荷",
-      "exampleEn": "Ship transported heavy container ocean cargo.",
-      "exampleJa": "船が重いコンテナ海洋貨物を輸送しました。",
-      "level": 1
+      "exampleEn": "The ship carried cargo to Australia.",
+      "exampleJa": "その船は貨物をオーストラリアへ運びました。",
+      "level": 2
     },
     {
       "headword": "carve",
       "partOfSpeech": "verb",
       "phonetic": "/kɑːrv/",
       "meaning": "を彫る；を切り分ける",
-      "exampleEn": "Artist carved wooden statue figure hand.",
-      "exampleJa": "芸術家が手作業で木製の像の人物を彫りました。",
-      "level": 1
+      "exampleEn": "The artist carved a small wooden bird.",
+      "exampleJa": "その芸術家は小さな木の鳥を彫りました。",
+      "level": 2
     },
     {
       "headword": "catalog",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkætəlɔːɡ/",
       "meaning": "カタログ；目録",
-      "exampleEn": "Browse store mail order product catalog.",
-      "exampleJa": "店舗の通信販売製品カタログを閲覧しなさい。",
-      "level": 1
+      "exampleEn": "I ordered the shoes from a catalog.",
+      "exampleJa": "私はカタログでその靴を注文しました。",
+      "level": 2
     },
     {
       "headword": "cave",
       "partOfSpeech": "noun",
       "phonetic": "/keɪv/",
       "meaning": "洞窟；横穴",
-      "exampleEn": "Explore dark stone mountain underground cave.",
-      "exampleJa": "暗い石の山の地下洞窟を探索しなさい。",
-      "level": 1
+      "exampleEn": "They explored a dark cave in the mountain.",
+      "exampleJa": "彼らは山の暗い洞窟を探検しました。",
+      "level": 2
     },
     {
       "headword": "cemetery",
       "partOfSpeech": "noun",
       "phonetic": "/ˈseməteri/",
       "meaning": "墓地；霊園",
-      "exampleEn": "Visit family grave site city cemetery.",
-      "exampleJa": "都市の墓地の家族の墓サイトを訪問しなさい。",
-      "level": 1
+      "exampleEn": "We visited our family grave at the cemetery.",
+      "exampleJa": "私たちは墓地にある家族の墓を訪れました。",
+      "level": 2
     },
     {
       "headword": "certain",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈsɜːrtn/",
       "meaning": "確実な；特定の",
-      "exampleEn": "I am certain about test results.",
-      "exampleJa": "私はテスト結果について確信しています。",
-      "level": 1
+      "exampleEn": "I am certain that he will come.",
+      "exampleJa": "私は彼が必ず来ると確信しています。",
+      "level": 2
     },
     {
       "headword": "chamber",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃeɪmbər/",
       "meaning": "部屋；会議場；チェンバー",
-      "exampleEn": "Senate chamber held law debate vote.",
-      "exampleJa": "上院会議場が法律討論投票を開催しました。",
-      "level": 1
+      "exampleEn": "The old castle has a secret chamber.",
+      "exampleJa": "その古い城には秘密の部屋があります。",
+      "level": 2
     },
     {
       "headword": "chapel",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃæpl/",
       "meaning": "礼拝堂；チャペル",
-      "exampleEn": "Wedding held inside beautiful stone chapel.",
-      "exampleJa": "美しい石の礼拝堂の中で結婚式が開催されました。",
-      "level": 1
+      "exampleEn": "Their wedding was held in a small chapel.",
+      "exampleJa": "彼らの結婚式は小さな礼拝堂で行われました。",
+      "level": 2
     },
     {
       "headword": "charming",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈtʃɑːrmɪŋ/",
       "meaning": "魅力的な；感じの良い",
-      "exampleEn": "Host greeted guests with charming smile.",
-      "exampleJa": "ホストは魅力的な笑顔でゲストを迎えました。",
-      "level": 1
+      "exampleEn": "She greeted us with a charming smile.",
+      "exampleJa": "彼女は魅力的な笑顔で私たちを迎えました。",
+      "level": 2
     },
     {
       "headword": "cheer",
       "partOfSpeech": "verb",
       "phonetic": "/tʃɪr/",
       "meaning": "に声援を送る；を励ます",
-      "exampleEn": "Crowd cheered loudly for sports team.",
-      "exampleJa": "群衆がスポーツチームに大声で声援を送りました。",
-      "level": 1
+      "exampleEn": "The fans cheered loudly for their team.",
+      "exampleJa": "ファンは自分のチームに大声で声援を送りました。",
+      "level": 2
     },
     {
       "headword": "chest",
       "partOfSpeech": "noun",
       "phonetic": "/tʃest/",
       "meaning": "胸；箱",
-      "exampleEn": "Store clothes inside wooden bedroom chest.",
-      "exampleJa": "寝室の木箱の中に服を保管しなさい。",
-      "level": 1
+      "exampleEn": "He felt a pain in his chest.",
+      "exampleJa": "彼は胸に痛みを感じました。",
+      "level": 2
     },
     {
       "headword": "chin",
       "partOfSpeech": "noun",
       "phonetic": "/tʃɪn/",
       "meaning": "あご",
-      "exampleEn": "Man rested face hand on chin.",
-      "exampleJa": "男があごの上に顔の手を乗せて休めました。",
-      "level": 1
+      "exampleEn": "He rested his chin on his hand.",
+      "exampleJa": "彼はあごを手に乗せました。",
+      "level": 2
     },
     {
       "headword": "chronic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrɑːnɪk/",
       "meaning": "慢性的な；持病の",
-      "exampleEn": "Suffer from chronic back pain condition.",
-      "exampleJa": "慢性的な腰痛の状況に悩まされなさい。",
-      "level": 2
+      "exampleEn": "My grandfather has chronic back pain.",
+      "exampleJa": "祖父は慢性的な腰痛を抱えています。",
+      "level": 3
     },
     {
       "headword": "circuit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɜːrkɪt/",
       "meaning": "回路；周回コース",
-      "exampleEn": "Electric current flows through wire circuit.",
-      "exampleJa": "電流が配線回路を通って流れます。",
-      "level": 1
+      "exampleEn": "Electricity flows through this simple circuit.",
+      "exampleJa": "電気はこの簡単な回路を流れます。",
+      "level": 2
     },
     {
       "headword": "civic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈsɪvɪk/",
       "meaning": "市民の；都市の",
-      "exampleEn": "Perform civic duty voting in election.",
-      "exampleJa": "選挙で投票する市民の義務を果たしなさい。",
-      "level": 1
+      "exampleEn": "Voting is an important civic duty.",
+      "exampleJa": "投票は大切な市民の義務です。",
+      "level": 3
     },
     {
       "headword": "class",
       "partOfSpeech": "noun",
       "phonetic": "/klæs/",
       "meaning": "クラス；授業；階級",
-      "exampleEn": "Attend morning English language school class.",
-      "exampleJa": "朝の語学学校の英語のクラスに出席しなさい。",
+      "exampleEn": "Our English class starts at nine.",
+      "exampleJa": "私たちの英語の授業は9時に始まります。",
       "level": 1
     },
     {
@@ -844,17 +844,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkliːnər/",
       "meaning": "掃除機；洗剤；清掃員",
-      "exampleEn": "Use electric vacuum room floor cleaner.",
-      "exampleJa": "電気の掃除機で部屋の床を掃除しなさい。",
-      "level": 1
+      "exampleEn": "I cleaned the floor with a vacuum cleaner.",
+      "exampleJa": "私は掃除機で床を掃除しました。",
+      "level": 2
     },
     {
       "headword": "climb",
       "partOfSpeech": "verb",
       "phonetic": "/klaɪm/",
       "meaning": "に登る；上昇する",
-      "exampleEn": "Climb high mountain trail peak top.",
-      "exampleJa": "高い山の小道の頂上のてっぺんに登りちなさい。",
+      "exampleEn": "We climbed the mountain last Sunday.",
+      "exampleJa": "私たちは先週の日曜日に山に登りました。",
       "level": 1
     },
     {
@@ -862,197 +862,197 @@
       "partOfSpeech": "adverb",
       "phonetic": "/ˈkloʊsli/",
       "meaning": "密接に；綿密に",
-      "exampleEn": "Work closely with team project members.",
-      "exampleJa": "チームのプロジェクトメンバーと密接に働きちなさい。",
-      "level": 1
+      "exampleEn": "She works closely with her team members.",
+      "exampleJa": "彼女はチームのメンバーと密接に働いています。",
+      "level": 2
     },
     {
       "headword": "clumsy",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈklʌmzi/",
       "meaning": "不器用な；ドジな",
-      "exampleEn": "He made a clumsy mistake and dropped cup.",
-      "exampleJa": "彼は不器用な間違いをしてカップを落としました。",
-      "level": 1
+      "exampleEn": "He is clumsy and often drops things.",
+      "exampleJa": "彼は不器用で、よく物を落とします。",
+      "level": 2
     },
     {
       "headword": "cock",
       "partOfSpeech": "noun",
       "phonetic": "/kɑːk/",
       "meaning": "雄鶏；水栓",
-      "exampleEn": "Rooster cock crowed early morning farm.",
-      "exampleJa": "雄鶏が農場の早朝に鳴きました。",
-      "level": 1
+      "exampleEn": "The cock crows early every morning.",
+      "exampleJa": "その雄鶏は毎朝早く鳴きます。",
+      "level": 2
     },
     {
       "headword": "coincide",
       "partOfSpeech": "verb",
       "phonetic": "/ˌkoʊɪnˈsaɪd/",
       "meaning": "同時に起こる；一致する",
-      "exampleEn": "Vacation coincides with national public holiday.",
-      "exampleJa": "休暇が国家の公衆祝日と同時に起こります。",
-      "level": 2
+      "exampleEn": "My birthday coincides with a national holiday.",
+      "exampleJa": "私の誕生日は祝日と重なります。",
+      "level": 3
     },
     {
       "headword": "collector",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈlektər/",
       "meaning": "収集家；コレクター",
-      "exampleEn": "Art collector bought rare ancient painting.",
-      "exampleJa": "美術収集家が珍しい古代の絵画を購入しました。",
-      "level": 1
+      "exampleEn": "The collector bought an old Japanese painting.",
+      "exampleJa": "その収集家は古い日本画を買いました。",
+      "level": 2
     },
     {
       "headword": "combat",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmbæt/",
       "meaning": "戦闘；闘争",
-      "exampleEn": "Soldiers trained hard armed military combat.",
-      "exampleJa": "兵士たちが武装した軍事戦闘のために懸命に訓練を受けました。",
-      "level": 1
+      "exampleEn": "The soldiers trained hard for combat.",
+      "exampleJa": "兵士たちは戦闘に備えて厳しく訓練しました。",
+      "level": 2
     },
     {
       "headword": "command",
       "partOfSpeech": "verb",
       "phonetic": "/kəˈmænd/",
       "meaning": "を命じる；指揮する；命令",
-      "exampleEn": "Officer commanded soldiers to move forward.",
-      "exampleJa": "将校が兵士たちに前進するよう命じました。",
-      "level": 1
+      "exampleEn": "The officer commanded the soldiers to move forward.",
+      "exampleJa": "将校は兵士たちに前進するよう命じました。",
+      "level": 2
     },
     {
       "headword": "commitment",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɪtmənt/",
       "meaning": "約束；献身；コミットメント",
-      "exampleEn": "Show deep dedication work task commitment.",
-      "exampleJa": "深い作業タスクの献身約束を示しなさい。",
-      "level": 1
+      "exampleEn": "He showed a strong commitment to his job.",
+      "exampleJa": "彼は仕事への強い献身を示しました。",
+      "level": 2
     },
     {
       "headword": "commute",
       "partOfSpeech": "verb",
       "phonetic": "/kəˈmjuːt/",
       "meaning": "通勤・通学する",
-      "exampleEn": "Commute daily by train to office work.",
-      "exampleJa": "オフィスワークへ毎日電車で通勤・通学しなさい。",
-      "level": 1
+      "exampleEn": "I commute to work by train every day.",
+      "exampleJa": "私は毎日電車で通勤しています。",
+      "level": 2
     },
     {
       "headword": "compassion",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpæʃn/",
       "meaning": "思いやり；同情",
-      "exampleEn": "Show deep kindness and human compassion.",
-      "exampleJa": "深い親切と人間の思いやりを示しなさい。",
-      "level": 2
+      "exampleEn": "She treated the sick child with compassion.",
+      "exampleJa": "彼女は思いやりを持って病気の子どもを世話しました。",
+      "level": 3
     },
     {
       "headword": "competitor",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpetɪtər/",
       "meaning": "競合相手；ライバル",
-      "exampleEn": "Main market competitor lowered item price.",
-      "exampleJa": "主要な市場の競合相手がアイテム価格を下げました。",
-      "level": 1
+      "exampleEn": "Our main competitor lowered its prices.",
+      "exampleJa": "私たちの主な競合相手は価格を下げました。",
+      "level": 2
     },
     {
       "headword": "compliance",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈplaɪəns/",
       "meaning": "法令遵守；コンプライアンス",
-      "exampleEn": "Ensure full legal environmental law compliance.",
-      "exampleJa": "完全な法的環境法の法令遵守を確保しなさい。",
-      "level": 2
+      "exampleEn": "The factory must ensure compliance with the law.",
+      "exampleJa": "その工場は法令の遵守を徹底しなければなりません。",
+      "level": 3
     },
     {
       "headword": "comprehension",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːmprɪˈhenʃn/",
       "meaning": "理解力；読解",
-      "exampleEn": "Test English reading comprehension skill level.",
-      "exampleJa": "英語の読解スキルレベルをテストしなさい。",
-      "level": 1
+      "exampleEn": "This test checks your reading comprehension.",
+      "exampleJa": "このテストはあなたの読解力を確かめます。",
+      "level": 2
     },
     {
       "headword": "concentration",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːnsnˈtreɪʃn/",
       "meaning": "集中力；濃度",
-      "exampleEn": "Loud noise disrupts student study concentration.",
-      "exampleJa": "大きな騒音が生徒の勉強集中力を乱します。",
-      "level": 1
+      "exampleEn": "Loud noise breaks my concentration when studying.",
+      "exampleJa": "大きな音は勉強中の私の集中力を乱します。",
+      "level": 2
     },
     {
       "headword": "condemn",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈdem/",
       "meaning": "を非難する；を宣告する",
-      "exampleEn": "Leaders condemned violent terror attack crime.",
-      "exampleJa": "指導者たちが暴力的なテロ攻撃犯罪を非難しました。",
-      "level": 2
+      "exampleEn": "World leaders condemned the violent attack.",
+      "exampleJa": "世界の指導者たちはその暴力的な攻撃を非難しました。",
+      "level": 3
     },
     {
       "headword": "confusing",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈfjuːzɪŋ/",
       "meaning": "紛らわしい；混乱させる",
-      "exampleEn": "Road direction map sign was confusing.",
-      "exampleJa": "道路の方向指示地図の看板は紛らわしいものでした。",
-      "level": 1
+      "exampleEn": "The road sign was very confusing.",
+      "exampleJa": "その道路標識はとても紛らわしかったです。",
+      "level": 2
     },
     {
       "headword": "conscious",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːnʃəs/",
       "meaning": "意識している；自覚して",
-      "exampleEn": "Be health conscious when choosing food.",
-      "exampleJa": "食べ物を選ぶ際は健康を自覚しなさい。",
-      "level": 1
+      "exampleEn": "He was still conscious after the accident.",
+      "exampleJa": "彼は事故の後もまだ意識がありました。",
+      "level": 2
     },
     {
       "headword": "consider",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɪdər/",
       "meaning": "を考慮・検討する",
-      "exampleEn": "Consider all options carefully first.",
-      "exampleJa": "まずすべての選択肢を注意深く検討しなさい。",
-      "level": 1
+      "exampleEn": "We should consider all the choices carefully.",
+      "exampleJa": "私たちはすべての選択肢を慎重に検討すべきです。",
+      "level": 2
     },
     {
       "headword": "conspiracy",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈspɪrəsi/",
       "meaning": "陰謀；共謀",
-      "exampleEn": "Police uncovered secret criminal conspiracy plot.",
-      "exampleJa": "警察が秘密の犯罪陰謀の企てを暴きました。",
-      "level": 2
+      "exampleEn": "The police discovered a secret conspiracy.",
+      "exampleJa": "警察は秘密の陰謀を発見しました。",
+      "level": 3
     },
     {
       "headword": "constructive",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈstrʌktɪv/",
       "meaning": "建設的な",
-      "exampleEn": "Provide constructive feedback input advice.",
-      "exampleJa": "建設的なフィードバックの助言を提供しなさい。",
-      "level": 1
+      "exampleEn": "Her advice was clear and constructive.",
+      "exampleJa": "彼女の助言は明確で建設的でした。",
+      "level": 2
     },
     {
       "headword": "contemplate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːntəmpleɪt/",
       "meaning": "を熟考する",
-      "exampleEn": "She contemplated career change options carefully.",
-      "exampleJa": "彼女はキャリア変更の選択肢を慎重に熟考しました。",
-      "level": 2
+      "exampleEn": "She contemplated changing her job for months.",
+      "exampleJa": "彼女は何か月も転職を熟考しました。",
+      "level": 3
     },
     {
       "headword": "continue",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈtɪnjuː/",
       "meaning": "を続ける；続く",
-      "exampleEn": "Continue working until task is finished.",
-      "exampleJa": "タスクが終了するまで作業を続けちなさい。",
+      "exampleEn": "We continued working until the job was done.",
+      "exampleJa": "私たちは仕事が終わるまで作業を続けました。",
       "level": 1
     },
     {
@@ -1060,71 +1060,71 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌkɑːntrəˈvɜːrʃl/",
       "meaning": "物議を醸す；論争の",
-      "exampleEn": "New tax law proposal is controversial.",
-      "exampleJa": "新しい増税法案の提案は物議を醸しています。",
-      "level": 2
+      "exampleEn": "The new plan is highly controversial.",
+      "exampleJa": "その新しい計画は大いに物議を醸しています。",
+      "level": 3
     },
     {
       "headword": "convict",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈvɪkt/",
       "meaning": "に有罪を言い渡す",
-      "exampleEn": "Jury convicted defendant of robbery.",
-      "exampleJa": "陪審員が被告に強盗の有罪を言い渡しました。",
-      "level": 2
+      "exampleEn": "The court convicted him of stealing money.",
+      "exampleJa": "裁判所は彼に金を盗んだ罪で有罪を言い渡しました。",
+      "level": 3
     },
     {
       "headword": "cooperation",
       "partOfSpeech": "noun",
       "phonetic": "/koʊˌɑːpəˈreɪʃn/",
       "meaning": "協力；協調",
-      "exampleEn": "Project succeeded thanks to team cooperation.",
+      "exampleEn": "The project succeeded thanks to team cooperation.",
       "exampleJa": "チームの協力のおかげでプロジェクトは成功しました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "core",
       "partOfSpeech": "noun",
       "phonetic": "/kɔːr/",
       "meaning": "中核；核心；芯",
-      "exampleEn": "Quality is core value of business firm.",
-      "exampleJa": "品質はビジネス企業の中核の価値です。",
-      "level": 1
+      "exampleEn": "Quality is the core of our business.",
+      "exampleJa": "品質は私たちの事業の中核です。",
+      "level": 2
     },
     {
       "headword": "correspondent",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɔːrəˈspɑːndənt/",
       "meaning": "特派員；通信員",
-      "exampleEn": "Foreign news correspondent reported live.",
-      "exampleJa": "海外ニュース特派員がライブで報告しました。",
-      "level": 2
+      "exampleEn": "The news correspondent reported from Paris.",
+      "exampleJa": "そのニュース特派員はパリから報道しました。",
+      "level": 3
     },
     {
       "headword": "couch",
       "partOfSpeech": "noun",
       "phonetic": "/kaʊtʃ/",
       "meaning": "ソファ；長椅子",
-      "exampleEn": "Sit comfortably on living room soft couch.",
-      "exampleJa": "居間の柔らかいソファに快適に座りちなさい。",
-      "level": 1
+      "exampleEn": "He fell asleep on the soft couch.",
+      "exampleJa": "彼は柔らかいソファで眠ってしまいました。",
+      "level": 2
     },
     {
       "headword": "countryside",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌntrisaɪd/",
       "meaning": "田舎；地方",
-      "exampleEn": "Visit quiet green mountain rural countryside.",
-      "exampleJa": "静かな緑の山の農村の田舎を訪問しなさい。",
-      "level": 1
+      "exampleEn": "My grandparents live in the quiet countryside.",
+      "exampleJa": "祖父母は静かな田舎に住んでいます。",
+      "level": 2
     },
     {
       "headword": "cousin",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌzn/",
       "meaning": "従兄弟；従姉妹",
-      "exampleEn": "My cousin lives in Tokyo city.",
-      "exampleJa": "私の従兄弟は東京都市に住んでいます。",
+      "exampleEn": "My cousin lives in Tokyo.",
+      "exampleJa": "私のいとこは東京に住んでいます。",
       "level": 1
     },
     {
@@ -1132,8 +1132,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkræftsmən/",
       "meaning": "職人；工芸家",
-      "exampleEn": "Skilled craftsman built wooden furniture table.",
-      "exampleJa": "熟練した職人が木製家具テーブルを組み立てました。",
+      "exampleEn": "A skilled craftsman made this wooden table.",
+      "exampleJa": "熟練した職人がこの木のテーブルを作りました。",
       "level": 2
     },
     {
@@ -1141,71 +1141,71 @@
       "partOfSpeech": "noun",
       "phonetic": "/kriˈeɪʃn/",
       "meaning": "創造；創設；作品",
-      "exampleEn": "Universe is a wonderful cosmic creation.",
-      "exampleJa": "宇宙は素晴らしい宇宙の創造です。",
-      "level": 1
+      "exampleEn": "The creation of the park took two years.",
+      "exampleJa": "その公園の創設には2年かかりました。",
+      "level": 2
     },
     {
       "headword": "creek",
       "partOfSpeech": "noun",
       "phonetic": "/kriːk/",
       "meaning": "小川；入江",
-      "exampleEn": "Water flows in clear forest creek.",
-      "exampleJa": "水が澄んだ森の小川の中に流れています。",
-      "level": 1
+      "exampleEn": "A small creek runs behind our house.",
+      "exampleJa": "小さな小川が私たちの家の裏を流れています。",
+      "level": 2
     },
     {
       "headword": "critic",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkrɪtɪk/",
       "meaning": "批評家；批判者",
-      "exampleEn": "Film critic wrote rave review article.",
-      "exampleJa": "映画批評家が大絶賛のレビュー記事を書きました。",
-      "level": 1
+      "exampleEn": "The film critic praised the new movie.",
+      "exampleJa": "その映画批評家は新作映画を称賛しました。",
+      "level": 2
     },
     {
       "headword": "crowd",
       "partOfSpeech": "noun",
       "phonetic": "/kraʊd/",
       "meaning": "群衆；人ごみ",
-      "exampleEn": "Large crowd gathered at concert hall.",
-      "exampleJa": "大きな群衆がコンサートホールに集まりました。",
-      "level": 1
+      "exampleEn": "A large crowd gathered in front of the hall.",
+      "exampleJa": "大勢の群衆がホールの前に集まりました。",
+      "level": 2
     },
     {
       "headword": "crust",
       "partOfSpeech": "noun",
       "phonetic": "/krʌst/",
       "meaning": "地殻；パンの耳",
-      "exampleEn": "Earth outer rock shell crust layer.",
-      "exampleJa": "地球の外側の岩石シェル地殻層。",
-      "level": 1
+      "exampleEn": "The earth's crust is made of rock.",
+      "exampleJa": "地殻は岩石でできています。",
+      "level": 2
     },
     {
       "headword": "cumulative",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkjuːmjəleɪtɪv/",
       "meaning": "累積的な；重ね合わせた",
-      "exampleEn": "Effect was cumulative over several years.",
-      "exampleJa": "効果は数年にわたって累積的でした。",
-      "level": 2
+      "exampleEn": "The effect was cumulative over several years.",
+      "exampleJa": "その効果は数年にわたって累積しました。",
+      "level": 3
     },
     {
       "headword": "current",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɜːrənt/",
       "meaning": "現在の；最新の；流れ",
-      "exampleEn": "Check current market price exchange rate.",
-      "exampleJa": "最新の市場価格為替レートを確認しなさい。",
-      "level": 1
+      "exampleEn": "I checked the current price of the ticket.",
+      "exampleJa": "私はそのチケットの現在の価格を確認しました。",
+      "level": 2
     },
     {
       "headword": "customer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmər/",
       "meaning": "顧客；客",
-      "exampleEn": "Store sales clerk served happy customer.",
-      "exampleJa": "店舗の販売店員が幸せな顧客を接客しました。",
+      "exampleEn": "The clerk helped a customer at the counter.",
+      "exampleJa": "店員はカウンターで客を手伝いました。",
       "level": 1
     }
   ]

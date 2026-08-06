@@ -7,7 +7,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈæŋkʃəs/",
       "meaning": "不安な；心配して",
-      "exampleEn": "She felt anxious before speech.",
+      "exampleEn": "She felt anxious before her speech.",
       "exampleJa": "彼女はスピーチの前に不安を感じました。",
       "level": 2
     },
@@ -25,8 +25,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈfjuːzd/",
       "meaning": "混乱した；困惑した",
-      "exampleEn": "Tourist was confused by map.",
-      "exampleJa": "観光客は地図を見て混乱しました。",
+      "exampleEn": "The tourist was confused by the map.",
+      "exampleJa": "その観光客は地図を見て混乱しました。",
       "level": 2
     },
     {
@@ -34,8 +34,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
       "meaning": "失望した；がっかりした",
-      "exampleEn": "Fans felt disappointed with result.",
-      "exampleJa": "ファンは結果にがっかりしました。",
+      "exampleEn": "The fans were disappointed with the result.",
+      "exampleJa": "ファンはその結果にがっかりしました。",
       "level": 2
     },
     {
@@ -52,7 +52,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɪmˈbærəst/",
       "meaning": "恥ずかしい；照れくさい",
-      "exampleEn": "She felt embarrassed by praise.",
+      "exampleEn": "She felt embarrassed by the praise.",
       "exampleJa": "彼女は褒められて照れくさく思いました。",
       "level": 2
     },
@@ -61,8 +61,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɪnˌθuːziˈæstɪk/",
       "meaning": "熱心な；情熱的な",
-      "exampleEn": "Students gave enthusiastic welcome.",
-      "exampleJa": "生徒たちは熱心な歓迎を行いました。",
+      "exampleEn": "The students gave us an enthusiastic welcome.",
+      "exampleJa": "生徒たちは私たちを熱心に歓迎してくれました。",
       "level": 3
     },
     {
@@ -88,8 +88,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈmɑːdɪst/",
       "meaning": "謙虚な；控えめな",
-      "exampleEn": "She is modest about achievements.",
-      "exampleJa": "彼女は実績に対して謙虚です。",
+      "exampleEn": "She is modest about her achievements.",
+      "exampleJa": "彼女は自分の成果について謙虚です。",
       "level": 2
     },
     {
@@ -106,8 +106,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈsensətɪv/",
       "meaning": "敏感な；繊細な",
-      "exampleEn": "Skin is sensitive to sunlight.",
-      "exampleJa": "皮膚は日光に対して敏感です。",
+      "exampleEn": "My skin is sensitive to sunlight.",
+      "exampleJa": "私の肌は日光に敏感です。",
       "level": 2
     },
     {
@@ -115,8 +115,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈθɔːtfl/",
       "meaning": "思いやりのある；考え深い",
-      "exampleEn": "Thank you for thoughtful gift.",
-      "exampleJa": "心遣いのある贈り物をありがとう。",
+      "exampleEn": "Thank you for the thoughtful gift.",
+      "exampleJa": "心遣いのこもった贈り物をありがとうございます。",
       "level": 2
     },
     {
@@ -125,16 +125,16 @@
       "phonetic": "/ˈæksent/",
       "meaning": "アクセント；訛り",
       "exampleEn": "He speaks English with a British accent.",
-      "exampleJa": "彼はイギリス訛りのアクセントで英語を話します。",
-      "level": 1
+      "exampleJa": "彼はイギリス訛りで英語を話します。",
+      "level": 2
     },
     {
       "headword": "accuracy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈækjərəsi/",
       "meaning": "正確さ；精度",
-      "exampleEn": "Check the calculation with high accuracy.",
-      "exampleJa": "高い正確さをもって計算を確認しなさい。",
+      "exampleEn": "She answered all the questions with great accuracy.",
+      "exampleJa": "彼女はすべての問題に非常に正確に答えました。",
       "level": 2
     },
     {
@@ -142,8 +142,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈækʃn/",
       "meaning": "行動；動作；アクション",
-      "exampleEn": "Take immediate action to solve problem.",
-      "exampleJa": "問題を解決するために即座の行動をとりなさい。",
+      "exampleEn": "We must take action right now.",
+      "exampleJa": "私たちは今すぐ行動を起こさなければなりません。",
       "level": 1
     },
     {
@@ -151,17 +151,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈdɪʃn/",
       "meaning": "足し算；追加",
-      "exampleEn": "In addition we offer free dessert.",
-      "exampleJa": "追加として無料のデザートを提供します。",
-      "level": 1
+      "exampleEn": "In addition, the hotel offers a free breakfast.",
+      "exampleJa": "さらにそのホテルは無料の朝食を提供しています。",
+      "level": 2
     },
     {
       "headword": "adopt",
       "partOfSpeech": "verb",
       "phonetic": "/əˈdɑːpt/",
       "meaning": "を採用する；を養子にする",
-      "exampleEn": "Company adopted new working hour policy.",
-      "exampleJa": "会社は新しい勤務時間方針を採用しました。",
+      "exampleEn": "The company adopted a new working style.",
+      "exampleJa": "その会社は新しい働き方を採用しました。",
       "level": 2
     },
     {
@@ -169,8 +169,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ədˈvaɪs/",
       "meaning": "助言；アドバイス",
-      "exampleEn": "Ask teacher for study career advice.",
-      "exampleJa": "先生に進路勉強の助言を求めなさい。",
+      "exampleEn": "I asked my teacher for advice.",
+      "exampleJa": "私は先生に助言を求めました。",
       "level": 1
     },
     {
@@ -178,35 +178,35 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈdʒendə/",
       "meaning": "議題；協議事項",
-      "exampleEn": "Review meeting agenda items before start.",
-      "exampleJa": "開始前に会議の議題項目を確認しなさい。",
-      "level": 2
+      "exampleEn": "We discussed the last item on the agenda.",
+      "exampleJa": "私たちは議題の最後の項目について話し合いました。",
+      "level": 3
     },
     {
       "headword": "aid",
       "partOfSpeech": "noun",
       "phonetic": "/eɪd/",
       "meaning": "援助；手助け",
-      "exampleEn": "First aid kit medicine box emergency.",
-      "exampleJa": "応急手当の薬の箱の緊急用。",
-      "level": 1
+      "exampleEn": "The village received aid after the flood.",
+      "exampleJa": "その村は洪水の後で援助を受けました。",
+      "level": 2
     },
     {
       "headword": "alike",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈlaɪk/",
       "meaning": "似ている；同様に",
-      "exampleEn": "The twin sisters look very alike.",
-      "exampleJa": "双子の姉妹は非常に非常によく似ています。",
-      "level": 1
+      "exampleEn": "The twin sisters look very much alike.",
+      "exampleJa": "その双子の姉妹はとてもよく似ています。",
+      "level": 2
     },
     {
       "headword": "alone",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈloʊn/",
       "meaning": "一人で；単独で",
-      "exampleEn": "She prefers studying alone in room.",
-      "exampleJa": "彼女は部屋で一人で勉強することを好みます。",
+      "exampleEn": "She prefers to study alone in her room.",
+      "exampleJa": "彼女は自分の部屋で一人で勉強するほうが好きです。",
       "level": 1
     },
     {
@@ -214,89 +214,89 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈlʌmnaɪ/",
       "meaning": "卒業生たち",
-      "exampleEn": "University alumni gathered for reunion party.",
-      "exampleJa": "大学の卒業生たちが同窓会パーティーのために集まりました。",
-      "level": 2
+      "exampleEn": "Many alumni came back to the school.",
+      "exampleJa": "多くの卒業生が学校に戻ってきました。",
+      "level": 3
     },
     {
       "headword": "amount",
       "partOfSpeech": "noun",
       "phonetic": "/əˈmaʊnt/",
       "meaning": "量；金額",
-      "exampleEn": "Pay total money amount balance bill.",
-      "exampleJa": "総額のお金の金額残高請求を支払いなさい。",
-      "level": 1
+      "exampleEn": "He spent a large amount of money.",
+      "exampleJa": "彼は多額のお金を使いました。",
+      "level": 2
     },
     {
       "headword": "angel",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪndʒl/",
       "meaning": "天使",
-      "exampleEn": "Child looked peaceful like an angel sleeping.",
-      "exampleJa": "子供は眠っている天使のように平和そうに見えました。",
-      "level": 1
+      "exampleEn": "The sleeping baby looked like an angel.",
+      "exampleJa": "眠っている赤ちゃんは天使のように見えました。",
+      "level": 2
     },
     {
       "headword": "annoy",
       "partOfSpeech": "verb",
       "phonetic": "/əˈnɔɪ/",
       "meaning": "をいらだたせる",
-      "exampleEn": "Loud noise annoys people trying study.",
-      "exampleJa": "大きな騒音が勉強しようとする人々をいらだたせます。",
-      "level": 1
+      "exampleEn": "Loud noise annoys the students during class.",
+      "exampleJa": "大きな騒音は授業中の生徒をいらだたせます。",
+      "level": 2
     },
     {
       "headword": "antique",
       "partOfSpeech": "noun",
       "phonetic": "/ænˈtiːk/",
       "meaning": "骨董品；アンティーク",
-      "exampleEn": "Buy rare wooden antique clock item.",
-      "exampleJa": "珍しい木製の骨董品の時計を購入しなさい。",
-      "level": 1
+      "exampleEn": "My uncle collects antiques from Europe.",
+      "exampleJa": "叔父はヨーロッパの骨董品を集めています。",
+      "level": 2
     },
     {
       "headword": "apart",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈpɑːrt/",
       "meaning": "離れて；バラバラに",
-      "exampleEn": "Live two miles apart from school.",
-      "exampleJa": "学校から2マイル離れて暮らしちなさい。",
-      "level": 1
+      "exampleEn": "The two houses stand ten meters apart.",
+      "exampleJa": "その2軒の家は10メートル離れて建っています。",
+      "level": 2
     },
     {
       "headword": "appreciate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈpriːʃieɪt/",
       "meaning": "に感謝する；を正しく評価する",
-      "exampleEn": "We greatly appreciate your kind help.",
-      "exampleJa": "あなたの親切な手助けに大いに感謝します。",
-      "level": 1
+      "exampleEn": "We really appreciate your kind help.",
+      "exampleJa": "私たちはあなたの親切な助けに本当に感謝しています。",
+      "level": 2
     },
     {
       "headword": "aptitude",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæptɪtuːd/",
       "meaning": "適性；才能",
-      "exampleEn": "Student demonstrated natural computer skill aptitude.",
-      "exampleJa": "生徒が自然なコンピューター能力の適性を示しました。",
-      "level": 2
+      "exampleEn": "He has an aptitude for languages.",
+      "exampleJa": "彼には語学の才能があります。",
+      "level": 3
     },
     {
       "headword": "argue",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɑːrɡjuː/",
       "meaning": "議論する；主張する",
-      "exampleEn": "Do not argue over petty minor issues.",
-      "exampleJa": "くだらない軽微な問題で議論してはなりません。",
-      "level": 1
+      "exampleEn": "They often argue about small things.",
+      "exampleJa": "彼らはよく小さなことで言い争います。",
+      "level": 2
     },
     {
       "headword": "around",
       "partOfSpeech": "preposition",
       "phonetic": "/əˈraʊnd/",
       "meaning": "〜の周りに；およそ",
-      "exampleEn": "Walk around park garden trail path.",
-      "exampleJa": "公園の庭の小道の周りを歩きちなさい。",
+      "exampleEn": "We walked around the lake this morning.",
+      "exampleJa": "私たちは今朝、湖の周りを歩きました。",
       "level": 1
     },
     {
@@ -304,8 +304,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɑːrt/",
       "meaning": "芸術；美術",
-      "exampleEn": "Visit modern picture art museum gallery.",
-      "exampleJa": "現代の絵画の美術博物館ギャラリーを訪問しなさい。",
+      "exampleEn": "I want to visit the art museum.",
+      "exampleJa": "私は美術館を訪れたいです。",
       "level": 1
     },
     {
@@ -313,71 +313,71 @@
       "partOfSpeech": "adverb",
       "phonetic": "/əˈʃɔːr/",
       "meaning": "岸へ；浜辺に",
-      "exampleEn": "Sailors came ashore after ocean voyage.",
-      "exampleJa": "船乗りたちは海洋の航海の後に浜辺へ上がりました。",
-      "level": 2
+      "exampleEn": "The sailors came ashore after the long voyage.",
+      "exampleJa": "船乗りたちは長い航海の後で岸に上がりました。",
+      "level": 3
     },
     {
       "headword": "assert",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsɜːrt/",
       "meaning": "と主張する；を断言する",
-      "exampleEn": "Lawyer asserted innocence client court trial.",
-      "exampleJa": "弁護士が裁判で依頼人の無罪を主張しました。",
-      "level": 2
+      "exampleEn": "The lawyer asserted that his client was innocent.",
+      "exampleJa": "弁護士は依頼人が無実だと主張しました。",
+      "level": 3
     },
     {
       "headword": "association",
       "partOfSpeech": "noun",
       "phonetic": "/əˌsoʊʃiˈeɪʃn/",
       "meaning": "協会；連想",
-      "exampleEn": "Join international sports athlete football association.",
-      "exampleJa": "国際スポーツアスリートサッカー協会に加入しなさい。",
-      "level": 1
+      "exampleEn": "He joined a local football association.",
+      "exampleJa": "彼は地元のサッカー協会に加入しました。",
+      "level": 2
     },
     {
       "headword": "athlete",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæθliːt/",
       "meaning": "運動選手；アスリート",
-      "exampleEn": "Professional sports athlete trained every day.",
-      "exampleJa": "プロスポーツの運動選手が毎日訓練しました。",
-      "level": 1
+      "exampleEn": "The athlete trains hard every morning.",
+      "exampleJa": "その運動選手は毎朝熱心に練習しています。",
+      "level": 2
     },
     {
       "headword": "attempt",
       "partOfSpeech": "verb",
       "phonetic": "/əˈtempt/",
       "meaning": "を試みる；試み",
-      "exampleEn": "Attempt to solve complex math question.",
-      "exampleJa": "複雑な数学の質問を解決しようと試みちなさい。",
-      "level": 1
+      "exampleEn": "She attempted to solve the difficult problem.",
+      "exampleJa": "彼女はその難しい問題を解こうと試みました。",
+      "level": 2
     },
     {
       "headword": "attribute",
       "partOfSpeech": "verb",
       "phonetic": "/əˈtrɪbjuːt/",
       "meaning": "を〜のせいにする",
-      "exampleEn": "They attribute success to teamwork effort.",
-      "exampleJa": "彼らは成功をチームワークの努力のおかげに帰しています。",
-      "level": 2
+      "exampleEn": "They attribute their success to teamwork.",
+      "exampleJa": "彼らは成功をチームワークのおかげだと考えています。",
+      "level": 3
     },
     {
       "headword": "authority",
       "partOfSpeech": "noun",
       "phonetic": "/əˈθɔːrəti/",
       "meaning": "権限；当局",
-      "exampleEn": "Local health authority checked restaurant clean.",
-      "exampleJa": "地元の保健当局がレストランの清潔さを検査しました。",
-      "level": 1
+      "exampleEn": "The local authority checked the restaurant.",
+      "exampleJa": "地元の当局がそのレストランを検査しました。",
+      "level": 2
     },
     {
       "headword": "autumn",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːtəm/",
       "meaning": "秋",
-      "exampleEn": "Tree leaves turn red yellow autumn.",
-      "exampleJa": "秋には樹木の葉が赤や黄色に変わります。",
+      "exampleEn": "The leaves turn red in autumn.",
+      "exampleJa": "秋には木の葉が赤くなります。",
       "level": 1
     },
     {
@@ -385,35 +385,35 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈwernəs/",
       "meaning": "意識；認識",
-      "exampleEn": "Raise public health safety environment awareness.",
-      "exampleJa": "公衆衛生安全環境の意識を高めなさい。",
-      "level": 1
+      "exampleEn": "The event raised awareness of health problems.",
+      "exampleJa": "そのイベントは健康問題への意識を高めました。",
+      "level": 2
     },
     {
       "headword": "bacteria",
       "partOfSpeech": "noun",
       "phonetic": "/bækˈtɪriə/",
       "meaning": "細菌；バクテリア",
-      "exampleEn": "Soap kills harmful skin surface bacteria.",
-      "exampleJa": "石鹸が有害な皮膚表面の細菌を殺菌します。",
-      "level": 1
+      "exampleEn": "Soap kills the bacteria on your hands.",
+      "exampleJa": "石けんは手についた細菌を殺します。",
+      "level": 2
     },
     {
       "headword": "bald",
       "partOfSpeech": "adjective",
       "phonetic": "/bɔːld/",
       "meaning": "ハゲた；髪のない",
-      "exampleEn": "Man is completely bald head top.",
-      "exampleJa": "男の頭の頂部は完全にハゲています。",
-      "level": 1
+      "exampleEn": "My grandfather is going bald.",
+      "exampleJa": "祖父は髪が薄くなってきています。",
+      "level": 2
     },
     {
       "headword": "bank",
       "partOfSpeech": "noun",
       "phonetic": "/bæŋk/",
       "meaning": "銀行；土手",
-      "exampleEn": "Deposit money inside local city bank.",
-      "exampleJa": "地元の都市銀行の中にお金を預金しなさい。",
+      "exampleEn": "I put my money in the bank.",
+      "exampleJa": "私はお金を銀行に預けました。",
       "level": 1
     },
     {
@@ -421,44 +421,44 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːrɡən/",
       "meaning": "掘り出し物；バーゲン；交渉",
-      "exampleEn": "Buy cheap clothes item sale bargain.",
-      "exampleJa": "安価な服のアイテムセールの掘り出し物を購入しなさい。",
-      "level": 1
+      "exampleEn": "This coat was a real bargain.",
+      "exampleJa": "このコートは本当にお買い得でした。",
+      "level": 2
     },
     {
       "headword": "basin",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbeɪsn/",
       "meaning": "洗面器；盆地",
-      "exampleEn": "Fill bathroom water wash basin sink.",
-      "exampleJa": "浴室の水洗い洗面器を満たしなさい。",
-      "level": 1
+      "exampleEn": "She washed her face in the basin.",
+      "exampleJa": "彼女は洗面器で顔を洗いました。",
+      "level": 3
     },
     {
       "headword": "battle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbætl/",
       "meaning": "戦い；合戦",
-      "exampleEn": "Army won dangerous military war battle.",
-      "exampleJa": "軍隊が危険な軍事戦争の戦いに勝利しました。",
-      "level": 1
+      "exampleEn": "The army won an important battle.",
+      "exampleJa": "その軍隊は重要な戦いに勝ちました。",
+      "level": 2
     },
     {
       "headword": "beard",
       "partOfSpeech": "noun",
       "phonetic": "/bɪrd/",
       "meaning": "あごひげ",
-      "exampleEn": "Man grew long thick facial beard.",
-      "exampleJa": "男が長くて濃い顔のあごひげを伸ばしました。",
-      "level": 1
+      "exampleEn": "He has grown a long beard.",
+      "exampleJa": "彼は長いあごひげを伸ばしました。",
+      "level": 2
     },
     {
       "headword": "bedroom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbedruːm/",
       "meaning": "寝室；ベッドルーム",
-      "exampleEn": "Sleep inside warm quiet home bedroom.",
-      "exampleJa": "温かい静かな自宅の寝室の中で寝ちなさい。",
+      "exampleEn": "My bedroom is on the second floor.",
+      "exampleJa": "私の寝室は2階にあります。",
       "level": 1
     },
     {
@@ -466,17 +466,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈɡɪnər/",
       "meaning": "初心者",
-      "exampleEn": "Course suitable for English language beginner.",
-      "exampleJa": "英語の初心者向けに適したコース。",
-      "level": 1
+      "exampleEn": "This course is perfect for beginners.",
+      "exampleJa": "この講座は初心者にぴったりです。",
+      "level": 2
     },
     {
       "headword": "bell",
       "partOfSpeech": "noun",
       "phonetic": "/bel/",
       "meaning": "鈴；鐘；ベル",
-      "exampleEn": "School ring morning clock lesson bell.",
-      "exampleJa": "学校の朝の時計のレッスンの鐘が鳴ります。",
+      "exampleEn": "The bell rang at nine in the morning.",
+      "exampleJa": "朝9時にベルが鳴りました。",
       "level": 1
     },
     {
@@ -484,17 +484,17 @@
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈniːθ/",
       "meaning": "〜の下に；〜の真下に",
-      "exampleEn": "Sit beneath cool tree shade branch.",
-      "exampleJa": "涼しい木の影の枝の真下に座りちなさい。",
-      "level": 1
+      "exampleEn": "We sat beneath a large tree.",
+      "exampleJa": "私たちは大きな木の下に座りました。",
+      "level": 2
     },
     {
       "headword": "better",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbetər/",
       "meaning": "より良い；改善して",
-      "exampleEn": "Get better health rest after medicine.",
-      "exampleJa": "薬の後に健康をより良く改善させなさい。",
+      "exampleEn": "I feel better after taking the medicine.",
+      "exampleJa": "薬を飲んだ後、気分がよくなりました。",
       "level": 1
     },
     {
@@ -502,8 +502,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/baɪk/",
       "meaning": "自転車；バイク",
-      "exampleEn": "Ride mountain motor road speed bike.",
-      "exampleJa": "マウンテンモーターロードスピード自転車に乗りちなさい。",
+      "exampleEn": "He rides his bike to school.",
+      "exampleJa": "彼は自転車で学校に通っています。",
       "level": 1
     },
     {
@@ -511,8 +511,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɜːrd/",
       "meaning": "鳥",
-      "exampleEn": "Wild bird flew high blue sky.",
-      "exampleJa": "野生の鳥が高い青空を飛びました。",
+      "exampleEn": "A bird flew high into the sky.",
+      "exampleJa": "一羽の鳥が空高く飛んでいきました。",
       "level": 1
     },
     {
@@ -520,17 +520,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/blæŋk/",
       "meaning": "空白の；無記入の",
-      "exampleEn": "Fill out paper form blank line.",
-      "exampleJa": "用紙フォームの空白の行を記入しなさい。",
-      "level": 1
+      "exampleEn": "She left the last answer blank on the test.",
+      "exampleJa": "彼女はテストで最後の答えを空白のままにしました。",
+      "level": 2
     },
     {
       "headword": "blood",
       "partOfSpeech": "noun",
       "phonetic": "/blʌd/",
       "meaning": "血液；血",
-      "exampleEn": "Donate red blood charity hospital center.",
-      "exampleJa": "慈善病院センターで赤い血液を献血しなさい。",
+      "exampleEn": "He gave blood at the hospital.",
+      "exampleJa": "彼は病院で献血しました。",
       "level": 1
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/blɜːr/",
       "meaning": "をぼやけさせる",
-      "exampleEn": "Rain blurred windshield vision driver.",
-      "exampleJa": "雨が運転手のフロントガラスの視界をぼやけさせました。",
+      "exampleEn": "The heavy rain blurred the driver's view.",
+      "exampleJa": "激しい雨が運転手の視界をぼやけさせました。",
       "level": 2
     },
     {
@@ -547,17 +547,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɑːm/",
       "meaning": "爆弾",
-      "exampleEn": "Police disarmed dangerous explosive bomb.",
-      "exampleJa": "警察が危険な爆発性爆弾を解除しました。",
-      "level": 1
+      "exampleEn": "The police found a bomb in the building.",
+      "exampleJa": "警察はその建物の中で爆弾を発見しました。",
+      "level": 2
     },
     {
       "headword": "bookstore",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊkstɔːr/",
       "meaning": "書店；本屋",
-      "exampleEn": "Buy English novel at local bookstore.",
-      "exampleJa": "地元の書店で英語の小説を購入しなさい。",
+      "exampleEn": "I bought a novel at the bookstore.",
+      "exampleJa": "私は書店で小説を買いました。",
       "level": 1
     },
     {
@@ -565,98 +565,98 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːtəni/",
       "meaning": "植物学",
-      "exampleEn": "Study plant life species nature botany.",
-      "exampleJa": "植物の生命種の自然の植物学を学びなさい。",
-      "level": 2
+      "exampleEn": "She studies botany at university.",
+      "exampleJa": "彼女は大学で植物学を学んでいます。",
+      "level": 3
     },
     {
       "headword": "bowl",
       "partOfSpeech": "noun",
       "phonetic": "/boʊl/",
       "meaning": "ボウル；どんぶり",
-      "exampleEn": "Eat hot soup inside ceramic bowl.",
-      "exampleJa": "陶器のボウルの中で温かいスープを食べちなさい。",
-      "level": 1
+      "exampleEn": "He ate a bowl of hot soup.",
+      "exampleJa": "彼は温かいスープを一杯食べました。",
+      "level": 2
     },
     {
       "headword": "brand",
       "partOfSpeech": "noun",
       "phonetic": "/brænd/",
       "meaning": "銘柄；ブランド",
-      "exampleEn": "Buy famous fashion clothes brand item.",
-      "exampleJa": "有名なファッション服のブランドアイテムを購入しなさい。",
-      "level": 1
+      "exampleEn": "This brand of shoes is popular in Japan.",
+      "exampleJa": "この銘柄の靴は日本で人気があります。",
+      "level": 2
     },
     {
       "headword": "breakthrough",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbreɪkθruː/",
       "meaning": "飛躍的進歩；打開策",
-      "exampleEn": "Achieve major scientific research breakthrough advance.",
-      "exampleJa": "主要な科学研究の飛躍的進歩を達成しなさい。",
-      "level": 2
+      "exampleEn": "The team made a great scientific breakthrough.",
+      "exampleJa": "そのチームは科学上の大きな飛躍的進歩を成し遂げました。",
+      "level": 3
     },
     {
       "headword": "brief",
       "partOfSpeech": "adjective",
       "phonetic": "/briːf/",
       "meaning": "短時間の；簡潔な",
-      "exampleEn": "Give brief summary explanation of plan.",
-      "exampleJa": "計画の簡潔な要約説明を提示しなさい。",
-      "level": 1
+      "exampleEn": "He gave a brief explanation of the plan.",
+      "exampleJa": "彼はその計画について簡潔な説明をしました。",
+      "level": 2
     },
     {
       "headword": "brochure",
       "partOfSpeech": "noun",
       "phonetic": "/broʊˈʃʊr/",
       "meaning": "パンフレット；小冊子",
-      "exampleEn": "Read travel agency holiday tour brochure.",
-      "exampleJa": "旅行代理店の休日ツアーパンフレットを読みなさい。",
-      "level": 1
+      "exampleEn": "I picked up a travel brochure at the office.",
+      "exampleJa": "私は事務所で旅行のパンフレットをもらいました。",
+      "level": 2
     },
     {
       "headword": "browser",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbraʊzər/",
       "meaning": "ブラウザ；閲覧ソフト",
-      "exampleEn": "Open internet web site using browser.",
-      "exampleJa": "ブラウザを使ってインターネットウェブサイトを開きちなさい。",
-      "level": 1
+      "exampleEn": "This website works well on any browser.",
+      "exampleJa": "このウェブサイトはどのブラウザでもうまく動きます。",
+      "level": 2
     },
     {
       "headword": "bug",
       "partOfSpeech": "noun",
       "phonetic": "/bʌɡ/",
       "meaning": "虫；欠陥；バグ",
-      "exampleEn": "Fix software program computer system bug.",
-      "exampleJa": "ソフトウェアプログラムコンピューターシステムのバグを修正しなさい。",
-      "level": 1
+      "exampleEn": "The engineer fixed a bug in the program.",
+      "exampleJa": "技術者はプログラムの欠陥を修正しました。",
+      "level": 2
     },
     {
       "headword": "bump",
       "partOfSpeech": "verb",
       "phonetic": "/bʌmp/",
       "meaning": "ぶつかる；たんこぶ",
-      "exampleEn": "Head bumped hard against door frame.",
-      "exampleJa": "頭がドアのフレームに強くぶつかりました。",
-      "level": 1
+      "exampleEn": "I bumped my head against the door.",
+      "exampleJa": "私はドアに頭をぶつけました。",
+      "level": 2
     },
     {
       "headword": "burst",
       "partOfSpeech": "verb",
       "phonetic": "/bɜːrst/",
       "meaning": "破裂する；突然〜し始める",
-      "exampleEn": "Water pipe burst during cold winter.",
-      "exampleJa": "水道管が寒い冬の間に破裂しました。",
-      "level": 1
+      "exampleEn": "The water pipe burst during the cold night.",
+      "exampleJa": "水道管が寒い夜の間に破裂しました。",
+      "level": 2
     },
     {
       "headword": "button",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌtn/",
       "meaning": "ボタン；押しボタン",
-      "exampleEn": "Press red emergency alarm call button.",
-      "exampleJa": "赤の緊急警報呼出ボタンを押しちなさい。",
+      "exampleEn": "Press the red button in an emergency.",
+      "exampleJa": "緊急時には赤いボタンを押してください。",
       "level": 1
     },
     {
@@ -664,17 +664,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkælkjuleɪtər/",
       "meaning": "電卓；計算機",
-      "exampleEn": "Use digital electric desk calculator.",
-      "exampleJa": "デジタル電気卓上電卓を使いなさい。",
-      "level": 1
+      "exampleEn": "May I use your calculator?",
+      "exampleJa": "あなたの電卓を使ってもいいですか。",
+      "level": 2
     },
     {
       "headword": "can",
       "partOfSpeech": "noun",
       "phonetic": "/kæn/",
       "meaning": "缶；缶詰；〜できる",
-      "exampleEn": "Drink cold aluminum soda drink can.",
-      "exampleJa": "冷たいアルミの炭酸飲料の缶を飲みちなさい。",
+      "exampleEn": "He opened a can of orange juice.",
+      "exampleJa": "彼はオレンジジュースの缶を開けました。",
       "level": 1
     },
     {
@@ -682,8 +682,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kæp/",
       "meaning": "帽子；キャップ；蓋",
-      "exampleEn": "Wear sports baseball cotton head cap.",
-      "exampleJa": "スポーツの野球綿の頭の帽子を着用しなさい。",
+      "exampleEn": "He always wears a baseball cap.",
+      "exampleJa": "彼はいつも野球帽をかぶっています。",
       "level": 1
     },
     {
@@ -691,17 +691,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæptɪv/",
       "meaning": "捕虜；囚われの身",
-      "exampleEn": "Soldiers rescued innocent war prisoner captive.",
-      "exampleJa": "兵士たちが無罪の戦争の囚人を救出しました。",
-      "level": 2
+      "exampleEn": "The soldiers set the captives free.",
+      "exampleJa": "兵士たちは捕虜を解放しました。",
+      "level": 3
     },
     {
       "headword": "carefully",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈkerfəli/",
       "meaning": "注意深く；慎重に",
-      "exampleEn": "Read contract terms carefully before signature.",
-      "exampleJa": "署名前に契約条件を注意深く読みなさい。",
+      "exampleEn": "She read the contract carefully before signing it.",
+      "exampleJa": "彼女は署名する前に契約書を注意深く読みました。",
       "level": 1
     },
     {
@@ -709,89 +709,89 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːrtn/",
       "meaning": "紙パック；カートン",
-      "exampleEn": "Buy fresh white liquid milk carton.",
-      "exampleJa": "新鮮な白い液体の牛乳紙パックを購入しなさい。",
-      "level": 1
+      "exampleEn": "I bought a carton of milk.",
+      "exampleJa": "私は牛乳を1パック買いました。",
+      "level": 2
     },
     {
       "headword": "casualty",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæʒuəlti/",
       "meaning": "死傷者；被害者",
-      "exampleEn": "Accident caused three severe casualty victims.",
-      "exampleJa": "事故が3名の深刻な死傷者被害者を引き起こしました。",
-      "level": 2
+      "exampleEn": "The accident caused three casualties.",
+      "exampleJa": "その事故で3名の死傷者が出ました。",
+      "level": 3
     },
     {
       "headword": "caution",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɔːʃn/",
       "meaning": "用心；注意；警告",
-      "exampleEn": "Proceed with extreme safety caution ice.",
-      "exampleJa": "氷の上では極度の安全用心をもって進みちなさい。",
-      "level": 1
+      "exampleEn": "Drivers must proceed with caution on icy roads.",
+      "exampleJa": "運転手は凍った道路では用心して進まなければなりません。",
+      "level": 2
     },
     {
       "headword": "cellar",
       "partOfSpeech": "noun",
       "phonetic": "/ˈselər/",
       "meaning": "地下蔵；ワイン蔵",
-      "exampleEn": "Store wine bottles inside cool cellar.",
-      "exampleJa": "涼しい地下蔵の中にワインボトルを保管しなさい。",
-      "level": 1
+      "exampleEn": "They keep wine in the cool cellar.",
+      "exampleJa": "彼らは涼しい地下蔵にワインを保管しています。",
+      "level": 3
     },
     {
       "headword": "cereal",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɪriəl/",
       "meaning": "シリアル；穀物加工食品",
-      "exampleEn": "Eat milk bowl breakfast grain cereal.",
-      "exampleJa": "牛乳ボウルの朝食の穀物シリアルを食べちなさい。",
-      "level": 1
+      "exampleEn": "I eat cereal with milk every morning.",
+      "exampleJa": "私は毎朝、牛乳をかけてシリアルを食べます。",
+      "level": 2
     },
     {
       "headword": "challenge",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃælɪndʒ/",
       "meaning": "試練；挑戦；課題",
-      "exampleEn": "Face difficult work task project challenge.",
-      "exampleJa": "困難な作業タスクプロジェクトの試練に直面しなさい。",
-      "level": 1
+      "exampleEn": "This project is a big challenge for us.",
+      "exampleJa": "この計画は私たちにとって大きな試練です。",
+      "level": 2
     },
     {
       "headword": "chaos",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkeɪɑːs/",
       "meaning": "大混乱；カオス",
-      "exampleEn": "Traffic scene was in total chaos.",
-      "exampleJa": "交通の現場は完全な大混乱状態でした。",
-      "level": 1
+      "exampleEn": "The station was in complete chaos.",
+      "exampleJa": "駅は完全な大混乱でした。",
+      "level": 2
     },
     {
       "headword": "charity",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃærəti/",
       "meaning": "慈善事業；チャリティ",
-      "exampleEn": "Event raised funds for local charity.",
-      "exampleJa": "イベントは地元の慈善事業のために資金を募りました。",
-      "level": 1
+      "exampleEn": "The concert raised money for charity.",
+      "exampleJa": "そのコンサートは慈善事業のために資金を集めました。",
+      "level": 2
     },
     {
       "headword": "checkout",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃekaʊt/",
       "meaning": "精算所；チェックアウト",
-      "exampleEn": "Pay for goods at store checkout.",
-      "exampleJa": "店舗の精算所で商品の支払いをしなさい。",
-      "level": 1
+      "exampleEn": "There was a long line at the checkout.",
+      "exampleJa": "精算所には長い列ができていました。",
+      "level": 2
     },
     {
       "headword": "cherry",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃeri/",
       "meaning": "サクランボ；桜",
-      "exampleEn": "Spring cherry blossom tree flower bloom.",
-      "exampleJa": "春のサクランボの樹木の花の開花。",
+      "exampleEn": "The cherry trees bloom in early April.",
+      "exampleJa": "桜の木は4月の初めに花を咲かせます。",
       "level": 1
     },
     {
@@ -799,44 +799,44 @@
       "partOfSpeech": "noun",
       "phonetic": "/tʃɪl/",
       "meaning": "冷え；悪寒；冷やす",
-      "exampleEn": "Feel cold winter wind air chill.",
-      "exampleJa": "寒い冬の風の空気の冷えを感じちなさい。",
-      "level": 1
+      "exampleEn": "I felt a chill in the evening air.",
+      "exampleJa": "私は夕方の空気に冷えを感じました。",
+      "level": 2
     },
     {
       "headword": "chop",
       "partOfSpeech": "verb",
       "phonetic": "/tʃɑːp/",
       "meaning": "を切り刻む；チョップ",
-      "exampleEn": "Chop fresh vegetables knife cooking board.",
-      "exampleJa": "調理板のナイフで新鮮な野菜を切り刻みちなさい。",
-      "level": 1
+      "exampleEn": "She chopped the vegetables for dinner.",
+      "exampleJa": "彼女は夕食のために野菜を切り刻みました。",
+      "level": 2
     },
     {
       "headword": "cinnamon",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɪnəmən/",
       "meaning": "シナモン；肉桂",
-      "exampleEn": "Add brown spice powder cinnamon roll.",
-      "exampleJa": "茶色のスパイス粉末のシナモンロールを加えなさい。",
-      "level": 1
+      "exampleEn": "My mother added cinnamon to the apple pie.",
+      "exampleJa": "母はアップルパイにシナモンを加えました。",
+      "level": 2
     },
     {
       "headword": "citizenship",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɪtɪzənʃɪp/",
       "meaning": "市民権；国籍",
-      "exampleEn": "Apply for legal country national citizenship.",
-      "exampleJa": "法的国家の国の市民権を申請しなさい。",
-      "level": 1
+      "exampleEn": "He applied for Japanese citizenship last year.",
+      "exampleJa": "彼は昨年、日本の市民権を申請しました。",
+      "level": 2
     },
     {
       "headword": "clash",
       "partOfSpeech": "noun",
       "phonetic": "/klæʃ/",
       "meaning": "衝突；意見の対立",
-      "exampleEn": "Clash between police and protest crowd.",
-      "exampleJa": "警察と抗議群衆の間の衝突。",
+      "exampleEn": "There was a clash between the two groups.",
+      "exampleJa": "2つの集団の間で衝突が起こりました。",
       "level": 2
     },
     {
@@ -844,26 +844,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/kleɪ/",
       "meaning": "粘土",
-      "exampleEn": "Make ceramic pot vase wet clay.",
-      "exampleJa": "濡れた粘土で陶器の壺花瓶を作りちなさい。",
-      "level": 1
+      "exampleEn": "The artist made a pot out of clay.",
+      "exampleJa": "その芸術家は粘土で壺を作りました。",
+      "level": 2
     },
     {
       "headword": "climate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪmət/",
       "meaning": "気候；風潮",
-      "exampleEn": "Global climate change affects weather pattern.",
-      "exampleJa": "地球の気候変動が天候パターンに影響を与えます。",
-      "level": 1
+      "exampleEn": "Climate change affects the weather everywhere.",
+      "exampleJa": "気候変動は世界中の天候に影響を与えます。",
+      "level": 2
     },
     {
       "headword": "clock",
       "partOfSpeech": "noun",
       "phonetic": "/klɑːk/",
       "meaning": "時計；掛け時計",
-      "exampleEn": "Wall clock shows nine oclock morning.",
-      "exampleJa": "壁掛け時計が朝9時を示しています。",
+      "exampleEn": "The clock on the wall says nine.",
+      "exampleJa": "壁の時計は9時を示しています。",
       "level": 1
     },
     {
@@ -871,8 +871,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/klʌb/",
       "meaning": "クラブ；部活動；棍棒",
-      "exampleEn": "Join school English conversation club group.",
-      "exampleJa": "学校の英会話部活動グループに参加しなさい。",
+      "exampleEn": "She joined the English club at school.",
+      "exampleJa": "彼女は学校の英語部に入りました。",
       "level": 1
     },
     {
@@ -880,116 +880,116 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkoʊstl/",
       "meaning": "沿岸の；海岸の",
-      "exampleEn": "Visit small coastal fishing village town.",
-      "exampleJa": "小さな沿岸の漁村の町を訪問しなさい。",
-      "level": 1
+      "exampleEn": "We visited a small coastal village.",
+      "exampleJa": "私たちは小さな沿岸の村を訪れました。",
+      "level": 2
     },
     {
       "headword": "coherent",
       "partOfSpeech": "adjective",
       "phonetic": "/koʊˈhɪrənt/",
       "meaning": "一貫した；筋の通った",
-      "exampleEn": "Present clear logical coherent essay argument.",
-      "exampleJa": "明確で論理的な一貫した小論文の主張を提示しなさい。",
-      "level": 2
+      "exampleEn": "His essay presents a coherent argument.",
+      "exampleJa": "彼の小論文は筋の通った主張を示しています。",
+      "level": 3
     },
     {
       "headword": "collection",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈlekʃn/",
       "meaning": "収集品；コレクション",
-      "exampleEn": "Museum showcases valuable art picture collection.",
-      "exampleJa": "博物館が価値ある美術絵画の収集品を展示しています。",
-      "level": 1
+      "exampleEn": "The museum has a fine art collection.",
+      "exampleJa": "その博物館はすばらしい美術の収集品を持っています。",
+      "level": 2
     },
     {
       "headword": "columnist",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːləmnɪst/",
       "meaning": "コラムニスト；執筆者",
-      "exampleEn": "Popular newspaper columnist wrote political article.",
-      "exampleJa": "人気の新聞コラムニストが政治記事を書きました。",
-      "level": 1
+      "exampleEn": "The columnist writes about politics every week.",
+      "exampleJa": "そのコラムニストは毎週政治について書いています。",
+      "level": 2
     },
     {
       "headword": "comic",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmɪk/",
       "meaning": "漫画；コメディアン",
-      "exampleEn": "Read Japanese manga story comic book.",
-      "exampleJa": "日本の漫画の物語の漫画本を読みなさい。",
-      "level": 1
+      "exampleEn": "My brother reads comics after school.",
+      "exampleJa": "弟は放課後に漫画を読みます。",
+      "level": 2
     },
     {
       "headword": "commission",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɪʃn/",
       "meaning": "委員会；手数料；委任",
-      "exampleEn": "Pay stock broker trading sales commission.",
-      "exampleJa": "株式ブローカーの取引販売手数料を支払いなさい。",
-      "level": 1
+      "exampleEn": "The agent receives a commission on each sale.",
+      "exampleJa": "その代理人は販売ごとに手数料を受け取ります。",
+      "level": 3
     },
     {
       "headword": "communication",
       "partOfSpeech": "noun",
       "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
       "meaning": "コミュニケーション；伝達",
-      "exampleEn": "Good communication is key teamwork success.",
-      "exampleJa": "良好なコミュニケーションはチームワークの成功の鍵です。",
-      "level": 1
+      "exampleEn": "Good communication is the key to teamwork.",
+      "exampleJa": "良いコミュニケーションはチームワークの鍵です。",
+      "level": 2
     },
     {
       "headword": "comparison",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpærɪsn/",
       "meaning": "比較；対比",
-      "exampleEn": "Make product price quality feature comparison.",
-      "exampleJa": "製品の価格品質機能の比較を行いなさい。",
-      "level": 1
+      "exampleEn": "Let us make a comparison of the two plans.",
+      "exampleJa": "2つの計画の比較をしてみましょう。",
+      "level": 2
     },
     {
       "headword": "complex",
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpleks/",
       "meaning": "複雑な；複合の",
-      "exampleEn": "Algorithm involves complex mathematical calculation.",
-      "exampleJa": "アルゴリズムは複雑な数学的計算を伴います。",
-      "level": 1
+      "exampleEn": "This math problem is too complex for me.",
+      "exampleJa": "この数学の問題は私には複雑すぎます。",
+      "level": 2
     },
     {
       "headword": "compound",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmpaʊnd/",
       "meaning": "化合物；敷地",
-      "exampleEn": "Water is a chemical element compound.",
-      "exampleJa": "水は化学元素の化合物です。",
-      "level": 2
+      "exampleEn": "Water is a simple chemical compound.",
+      "exampleJa": "水は単純な化合物です。",
+      "level": 3
     },
     {
       "headword": "conceive",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsiːv/",
       "meaning": "を思いつく；を想像する",
-      "exampleEn": "Architect conceived innovative building house design.",
-      "exampleJa": "建築家が革新的な建築住宅デザインを思いつきました。",
-      "level": 2
+      "exampleEn": "The architect conceived a new building design.",
+      "exampleJa": "その建築家は新しい建物の設計を思いつきました。",
+      "level": 3
     },
     {
       "headword": "conclusion",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈkluːʒn/",
       "meaning": "結論；結末",
-      "exampleEn": "Reach logical research report analysis conclusion.",
-      "exampleJa": "論理的な研究報告書分析の結論に達しなさい。",
-      "level": 1
+      "exampleEn": "We reached the same conclusion after the debate.",
+      "exampleJa": "私たちは討論の後、同じ結論に達しました。",
+      "level": 2
     },
     {
       "headword": "confession",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈfeʃn/",
       "meaning": "自白；告白",
-      "exampleEn": "Signed written confession statement at station.",
-      "exampleJa": "署で署名での自白声明書を提出しました。",
+      "exampleEn": "The man made a full confession to the police.",
+      "exampleJa": "その男は警察に全面的な自白をしました。",
       "level": 2
     },
     {
@@ -997,80 +997,80 @@
       "partOfSpeech": "verb",
       "phonetic": "/kənˈfjuːz/",
       "meaning": "を混乱させる",
-      "exampleEn": "Vague instructions confused new employee team.",
-      "exampleJa": "曖昧な指示が新しい従業員チームを混乱させました。",
-      "level": 1
+      "exampleEn": "The unclear instructions confused the new workers.",
+      "exampleJa": "分かりにくい指示が新しい作業員たちを混乱させました。",
+      "level": 2
     },
     {
       "headword": "conquer",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːŋkər/",
       "meaning": "を征服する；を克服する",
-      "exampleEn": "Climbers conquered mountain peak top.",
-      "exampleJa": "登山家たちが山の頂上のてっぺんを征服しました。",
-      "level": 1
+      "exampleEn": "The climbers conquered the highest mountain.",
+      "exampleJa": "登山家たちは最も高い山を征服しました。",
+      "level": 2
     },
     {
       "headword": "conservative",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈsɜːrvətɪv/",
       "meaning": "保守的な；控えめな",
-      "exampleEn": "Make conservative sales revenue estimate.",
-      "exampleJa": "控えめな売上収益の見積もりを作成しなさい。",
-      "level": 1
+      "exampleEn": "He gave a conservative estimate of the cost.",
+      "exampleJa": "彼は費用について控えめな見積もりを出しました。",
+      "level": 2
     },
     {
       "headword": "consolidate",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɑːlɪdeɪt/",
       "meaning": "を統合・強化する",
-      "exampleEn": "Merge two office branches to consolidate.",
-      "exampleJa": "統合するために2つのオフィス支店を合併しなさい。",
-      "level": 2
+      "exampleEn": "The company consolidated its two offices.",
+      "exampleJa": "その会社は2つの事務所を統合しました。",
+      "level": 3
     },
     {
       "headword": "construct",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈstrʌkt/",
       "meaning": "を建設する；を構成する",
-      "exampleEn": "Workers construct new steel frame bridge.",
-      "exampleJa": "作業員たちが新しい鋼鉄フレームの橋を建設しています。",
-      "level": 1
+      "exampleEn": "Workers are constructing a new bridge.",
+      "exampleJa": "作業員たちは新しい橋を建設しています。",
+      "level": 2
     },
     {
       "headword": "continental",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌkɑːntɪˈnentl/",
       "meaning": "大陸の",
-      "exampleEn": "Enjoy continental breakfast hotel meal.",
-      "exampleJa": "ホテルの食事でコンチネンタル朝食を楽しみなさい。",
-      "level": 1
+      "exampleEn": "The hotel serves a continental breakfast.",
+      "exampleJa": "そのホテルは大陸風の朝食を出します。",
+      "level": 2
     },
     {
       "headword": "contribution",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːntrɪˈbjuːʃn/",
       "meaning": "貢献；寄付金",
-      "exampleEn": "Make valuable contribution to research.",
-      "exampleJa": "研究に貴重な貢献をしなさい。",
-      "level": 1
+      "exampleEn": "Her research made a great contribution to science.",
+      "exampleJa": "彼女の研究は科学に大きな貢献をしました。",
+      "level": 2
     },
     {
       "headword": "convert",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈvɜːrt/",
       "meaning": "を変換・改造する",
-      "exampleEn": "Convert solar light power into electricity.",
-      "exampleJa": "太陽光パワーを電気へと変換しなさい。",
-      "level": 1
+      "exampleEn": "These panels convert sunlight into electricity.",
+      "exampleJa": "これらのパネルは太陽光を電気に変換します。",
+      "level": 2
     },
     {
       "headword": "cool",
       "partOfSpeech": "adjective",
       "phonetic": "/kuːl/",
       "meaning": "涼しい；かっこいい",
-      "exampleEn": "Feel cool fresh summer mountain breeze.",
-      "exampleJa": "涼しい新鮮な夏の山のそよ風を感じちなさい。",
+      "exampleEn": "A cool breeze came from the mountain.",
+      "exampleJa": "涼しいそよ風が山から吹いてきました。",
       "level": 1
     },
     {
@@ -1078,62 +1078,62 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɔːrəl/",
       "meaning": "サンゴ；コーラル",
-      "exampleEn": "Tropical fish swim near sea coral reef.",
-      "exampleJa": "熱帯魚が海のサンゴ礁の近くで泳いでいます。",
-      "level": 1
+      "exampleEn": "Many fish live around the coral reef.",
+      "exampleJa": "多くの魚がサンゴ礁の周りに生息しています。",
+      "level": 2
     },
     {
       "headword": "correspond",
       "partOfSpeech": "verb",
       "phonetic": "/ˌkɔːrəˈspɑːnd/",
       "meaning": "一致する；文通する",
-      "exampleEn": "Results correspond with initial hypothesis.",
-      "exampleJa": "結果は初期の仮説と一致します。",
-      "level": 1
+      "exampleEn": "The results correspond with our first idea.",
+      "exampleJa": "その結果は私たちの最初の考えと一致します。",
+      "level": 2
     },
     {
       "headword": "cottage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːtɪdʒ/",
       "meaning": "小住宅；コテージ",
-      "exampleEn": "Stay at cozy mountain countryside cottage.",
-      "exampleJa": "居心地の良い山奥の田舎の小住宅に滞在しなさい。",
-      "level": 1
+      "exampleEn": "We stayed at a small cottage in the woods.",
+      "exampleJa": "私たちは森の中の小さなコテージに滞在しました。",
+      "level": 2
     },
     {
       "headword": "counterpart",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkaʊntərpɑːrt/",
       "meaning": "対応する人；同等のもの",
-      "exampleEn": "Minister met foreign counterpart in London.",
-      "exampleJa": "大臣がロンドンで海外の対応する人と会談しました。",
-      "level": 2
+      "exampleEn": "The minister met his counterpart in London.",
+      "exampleJa": "大臣はロンドンで同じ立場の相手と会談しました。",
+      "level": 3
     },
     {
       "headword": "courtesy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɜːrtəsi/",
       "meaning": "礼儀；好意",
-      "exampleEn": "Hotel offers free shuttle bus as courtesy.",
-      "exampleJa": "ホテルは好意として無料シャトルバスを提供しています。",
-      "level": 2
+      "exampleEn": "The hotel offers a free bus as a courtesy.",
+      "exampleJa": "そのホテルは好意として無料のバスを提供しています。",
+      "level": 3
     },
     {
       "headword": "cradle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkreɪdl/",
       "meaning": "ゆりかご；発祥の地",
-      "exampleEn": "Baby slept inside soft wooden cradle.",
-      "exampleJa": "赤ちゃんが柔らかい木製のゆりかごの中で寝ました。",
-      "level": 1
+      "exampleEn": "The baby slept in a wooden cradle.",
+      "exampleJa": "赤ちゃんは木製のゆりかごで眠りました。",
+      "level": 2
     },
     {
       "headword": "cream",
       "partOfSpeech": "noun",
       "phonetic": "/kriːm/",
       "meaning": "クリーム；乳脂",
-      "exampleEn": "Add fresh white milk cream coffee.",
-      "exampleJa": "コーヒーに新鮮な白い牛乳クリームを加えなさい。",
+      "exampleEn": "She put cream in her coffee.",
+      "exampleJa": "彼女はコーヒーにクリームを入れました。",
       "level": 1
     },
     {
@@ -1141,54 +1141,54 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkredɪtər/",
       "meaning": "債権者",
-      "exampleEn": "Firm owed money to bank creditor.",
-      "exampleJa": "企業は銀行の債権者にお金を借りていました。",
-      "level": 2
+      "exampleEn": "The company owed money to its creditors.",
+      "exampleJa": "その会社は債権者にお金を借りていました。",
+      "level": 3
     },
     {
       "headword": "crisp",
       "partOfSpeech": "adjective",
       "phonetic": "/krɪsp/",
       "meaning": "パリパリした；爽やかな",
-      "exampleEn": "Eat crisp fresh apple slice fruit.",
-      "exampleJa": "パリパリした新鮮なリンゴのスライス果物を食べちなさい。",
-      "level": 1
+      "exampleEn": "This apple is fresh and crisp.",
+      "exampleJa": "このリンゴは新鮮でパリパリしています。",
+      "level": 2
     },
     {
       "headword": "crosswalk",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkrɔːswɔːk/",
       "meaning": "横断歩道",
-      "exampleEn": "Pedestrians walk safely across street crosswalk.",
-      "exampleJa": "歩行者たちが通りの横断歩道を安全に渡ります。",
-      "level": 1
+      "exampleEn": "Children cross the street at the crosswalk.",
+      "exampleJa": "子どもたちは横断歩道で通りを渡ります。",
+      "level": 2
     },
     {
       "headword": "crumble",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkrʌmbl/",
       "meaning": "崩れ落ちる；崩壊する",
-      "exampleEn": "Old stone wall crumbled into dust.",
-      "exampleJa": "古い石壁がホコリの中に崩れ落ちました。",
-      "level": 2
+      "exampleEn": "The old stone wall crumbled last winter.",
+      "exampleJa": "古い石壁が昨年の冬に崩れ落ちました。",
+      "level": 3
     },
     {
       "headword": "cultural",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌltʃərəl/",
       "meaning": "文化的な",
-      "exampleEn": "Protect historical city cultural heritage sites.",
-      "exampleJa": "歴史的都市の文化的遺産サイトを保護しなさい。",
-      "level": 1
+      "exampleEn": "The city protects its cultural heritage.",
+      "exampleJa": "その都市は文化的な遺産を保護しています。",
+      "level": 2
     },
     {
       "headword": "curl",
       "partOfSpeech": "verb",
       "phonetic": "/kɜːrl/",
       "meaning": "をカールさせる；巻く",
-      "exampleEn": "She curled her long hair style.",
-      "exampleJa": "彼女は自分の長い髪のスタイルをカールさせました。",
-      "level": 1
+      "exampleEn": "She curled her hair before the party.",
+      "exampleJa": "彼女はパーティーの前に髪をカールさせました。",
+      "level": 2
     }
   ]
 }
