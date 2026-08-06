@@ -80,7 +80,7 @@
       "phonetic": "",
       "meaning": "〜が原因で；〜のために",
       "exampleEn": "Flight was delayed due to heavy fog.",
-      "exampleJa": "濃霧のため（が原因で）便が遅れました。",
+      "exampleJa": "濃霧のため便が遅れました。",
       "level": 2
     },
     {
@@ -260,7 +260,7 @@
       "phonetic": "/əˈstuːt/",
       "meaning": "目ざとい；抜かりのない",
       "exampleEn": "He is an astute business investor choice.",
-      "exampleJa": "彼は抜かりのない（目ざとい）ビジネス投資家の選択者です。",
+      "exampleJa": "彼は抜かりのないビジネス投資家の選択者です。",
       "level": 4
     },
     {
@@ -278,7 +278,7 @@
       "phonetic": "/ɔːˈθentɪkeɪt/",
       "meaning": "を本物と証明する；認証する",
       "exampleEn": "Expert authenticated signature on historic document.",
-      "exampleJa": "専門家が歴史的文書の署名を本物と証明（認証）しました。",
+      "exampleJa": "専門家が歴史的文書の署名を本物と証明しました。",
       "level": 4
     },
     {
@@ -332,7 +332,7 @@
       "phonetic": "/ˈbaʊndri/",
       "meaning": "境界線；限界",
       "exampleEn": "Fence marks land property boundary line.",
-      "exampleJa": "フェンスが土地所有権の境界線（限界）を示しています。",
+      "exampleJa": "フェンスが土地所有権の境界線を示しています。",
       "level": 2
     },
     {
@@ -341,7 +341,7 @@
       "phonetic": "/brɪm/",
       "meaning": "縁；ヘリ",
       "exampleEn": "Fill glass to brim with fresh water.",
-      "exampleJa": "グラスの縁（へり）まで新鮮な水で満たしなさい。",
+      "exampleJa": "グラスの縁まで新鮮な水で満たしなさい。",
       "level": 3
     },
     {
@@ -395,7 +395,7 @@
       "phonetic": "/ˈkrɑːnɪk/",
       "meaning": "持病の；慢性的な",
       "exampleEn": "Suffer from chronic back pain disease.",
-      "exampleJa": "慢性的な（持病の）腰痛の病気に悩まされなさい。",
+      "exampleJa": "慢性的な腰痛の病気に悩まされなさい。",
       "level": 3
     },
     {
@@ -413,7 +413,7 @@
       "phonetic": "/koʊˈæɡjuleɪt/",
       "meaning": "を凝固させる；固まる",
       "exampleEn": "Blood coagulated after wound treatment cut.",
-      "exampleJa": "傷口の処置の後に血液が凝固しました（固まりました）。",
+      "exampleJa": "傷口の処置の後に血液が凝固しました。",
       "level": 4
     },
     {
@@ -422,7 +422,7 @@
       "phonetic": "/kəˈlæps/",
       "meaning": "倒壊する；崩壊する",
       "exampleEn": "Old wooden bridge collapsed into river.",
-      "exampleJa": "古い木造の橋が川の中に倒壊（崩壊）しました。",
+      "exampleJa": "古い木造の橋が川の中に倒壊しました。",
       "level": 2
     },
     {
@@ -431,7 +431,7 @@
       "phonetic": "/kəmˈbʌstəbl/",
       "meaning": "可燃性の；燃えやすい",
       "exampleEn": "Gasoline is a highly combustible liquid chemical.",
-      "exampleJa": "ガソリンは非常に可燃性の（燃えやすい）液体化学物質です。",
+      "exampleJa": "ガソリンは非常に可燃性の液体化学物質です。",
       "level": 4
     },
     {
@@ -440,7 +440,7 @@
       "phonetic": "/kəmˈpæniən/",
       "meaning": "仲間；連れ",
       "exampleEn": "He traveled with loyal dog companion friend.",
-      "exampleJa": "彼は忠実な犬の仲間（連れ）と一緒に旅行しました。",
+      "exampleJa": "彼は忠実な犬の仲間と一緒に旅行しました。",
       "level": 2
     },
     {
@@ -512,7 +512,7 @@
       "phonetic": "/kənˌɡrætʃuˈleɪʃn/",
       "meaning": "おめでとう；祝辞",
       "exampleEn": "Send warm congratulations to wedding couple.",
-      "exampleJa": "結婚カップルに温かいお祝い（祝辞）を送りなさい。",
+      "exampleJa": "結婚カップルに温かいお祝いを送りなさい。",
       "level": 2
     },
     {
@@ -539,7 +539,7 @@
       "phonetic": "/ˌkɑːnstərˈneɪʃn/",
       "meaning": "驚愕；大狼狽",
       "exampleEn": "News caused widespread dismay and consternation.",
-      "exampleJa": "ニュースが広範な動揺と驚愕（大狼狽）を引き起こしました。",
+      "exampleJa": "ニュースが広範な動揺と驚愕を引き起こしました。",
       "level": 4
     },
     {
@@ -566,7 +566,7 @@
       "phonetic": "/ˈkɑːntʊr/",
       "meaning": "輪郭；等高線",
       "exampleEn": "Map shows mountain elevation contour lines.",
-      "exampleJa": "地図は山の標高等高線（輪郭）を示しています。",
+      "exampleJa": "地図は山の標高等高線を示しています。",
       "level": 4
     },
     {
@@ -611,7 +611,7 @@
       "phonetic": "/ˈkaʊnsl/",
       "meaning": "に助言する；カウンセリングする",
       "exampleEn": "Advisor counseled student on career path.",
-      "exampleJa": "助言者が進路について生徒に助言（カウンセリング）しました。",
+      "exampleJa": "助言者が進路について生徒に助言しました。",
       "level": 2
     },
     {
@@ -620,7 +620,7 @@
       "phonetic": "/ˈkʌvət/",
       "meaning": "を切望する；むやみに欲しがる",
       "exampleEn": "Do not covet neighbor wealth status.",
-      "exampleJa": "隣人の財産ステータスをむやみに欲しがって（切望して）はなりません。",
+      "exampleJa": "隣人の財産ステータスをむやみに欲しがってはなりません。",
       "level": 4
     },
     {
@@ -638,7 +638,7 @@
       "phonetic": "/ˈkrʌmbl/",
       "meaning": "を崩壊させる；崩れる",
       "exampleEn": "Old stone wall crumbled into dust.",
-      "exampleJa": "古い石壁がホコリの中に崩れ落ちました（崩壊しました）。",
+      "exampleJa": "古い石壁がホコリの中に崩れ落ちました。",
       "level": 3
     },
     {
@@ -647,7 +647,7 @@
       "phonetic": "/ˈkjʊreɪtər/",
       "meaning": "学芸員；キューレーター",
       "exampleEn": "Museum curator guided gallery art tour.",
-      "exampleJa": "博物館の学芸員（キューレーター）が画廊美術ツアーを案内しました。",
+      "exampleJa": "博物館の学芸員が画廊美術ツアーを案内しました。",
       "level": 3
     },
     {
@@ -656,7 +656,7 @@
       "phonetic": "/ˈsɪnɪkl/",
       "meaning": "皮肉な；冷笑的な",
       "exampleEn": "He made cynical remark about election.",
-      "exampleJa": "彼は選挙について皮肉な（冷笑的な）発言をしました。",
+      "exampleJa": "彼は選挙について皮肉な発言をしました。",
       "level": 3
     },
     {
@@ -665,7 +665,7 @@
       "phonetic": "/ˈdiːsnsi/",
       "meaning": "品位；良識",
       "exampleEn": "Behavior showed lack of common public decency.",
-      "exampleJa": "行動は共通の公衆の品位（良識）の欠如を示していました。",
+      "exampleJa": "行動は共通の公衆の品位の欠如を示していました。",
       "level": 4
     },
     {
@@ -683,7 +683,7 @@
       "phonetic": "/dɪˈfɪʃnsi/",
       "meaning": "不足；欠乏",
       "exampleEn": "Vitamin deficiency causes medical health problems.",
-      "exampleJa": "ビタミン不足（欠乏）が医療上の健康問題を引き起こします。",
+      "exampleJa": "ビタミン不足が医療上の健康問題を引き起こします。",
       "level": 3
     },
     {
@@ -692,7 +692,7 @@
       "phonetic": "/dɪˈdʒenəreɪt/",
       "meaning": "退化する；悪化する",
       "exampleEn": "Protest degenerated into violent street riot.",
-      "exampleJa": "抗議は暴力的な街頭暴動へと悪化しました（退化しました）。",
+      "exampleJa": "抗議は暴力的な街頭暴動へと悪化しました。",
       "level": 4
     },
     {
@@ -737,7 +737,7 @@
       "phonetic": "/ˌderɪˈveɪʃn/",
       "meaning": "派生；由来",
       "exampleEn": "Word has Latin language historical derivation.",
-      "exampleJa": "単語はラテン語の歴史的派生（由来）を持っています。",
+      "exampleJa": "単語はラテン語の歴史的派生を持っています。",
       "level": 4
     },
     {
@@ -764,7 +764,7 @@
       "phonetic": "/dɪˈtekʃn/",
       "meaning": "検知；発覚",
       "exampleEn": "Early cancer detection saves human lives.",
-      "exampleJa": "早期のがん検知（発覚）が人の命を救います。",
+      "exampleJa": "早期のがん検知が人の命を救います。",
       "level": 2
     },
     {
@@ -773,7 +773,7 @@
       "phonetic": "/ˌdetrɪˈmentl/",
       "meaning": "有害な；損害を与える",
       "exampleEn": "Smoking is detrimental to human health.",
-      "exampleJa": "喫煙は人の健康にとって有害（損害を与える）です。",
+      "exampleJa": "喫煙は人の健康にとって有害です。",
       "level": 3
     },
     {
@@ -791,7 +791,7 @@
       "phonetic": "/dɪkˈteɪʃn/",
       "meaning": "口述；書き取り",
       "exampleEn": "Students practiced English word listening dictation.",
-      "exampleJa": "生徒たちは英語の単語リスニング書き取り（ディクテーション）を練習しました。",
+      "exampleJa": "生徒たちは英語の単語リスニング書き取りを練習しました。",
       "level": 3
     },
     {
@@ -800,7 +800,7 @@
       "phonetic": "/daɪˈɡres/",
       "meaning": "脱線する；本筋からそれる",
       "exampleEn": "Speaker digressed from main presentation topic.",
-      "exampleJa": "発表者はメインプレゼンテーションのトピックから脱線しました（本筋からそれました）。",
+      "exampleJa": "発表者はメインプレゼンテーションのトピックから脱線しました。",
       "level": 4
     },
     {
@@ -809,7 +809,7 @@
       "phonetic": "/dɪˈploʊməsi/",
       "meaning": "外交；駆け引き",
       "exampleEn": "Resolve conflict through international peace diplomacy.",
-      "exampleJa": "国際的な平和外交（駆け引き）を通じて紛争を解決しなさい。",
+      "exampleJa": "国際的な平和外交を通じて紛争を解決しなさい。",
       "level": 3
     },
     {
@@ -818,7 +818,7 @@
       "phonetic": "/ˌdɪsəˈpɔɪntmənt/",
       "meaning": "失望；落胆",
       "exampleEn": "Expressed deep sadness disappointment over loss.",
-      "exampleJa": "損失に対して深い悲しみと失望（落胆）を表現しました。",
+      "exampleJa": "損失に対して深い悲しみと失望を表現しました。",
       "level": 2
     },
     {
@@ -827,7 +827,7 @@
       "phonetic": "/dɪˈsɜːrnɪŋ/",
       "meaning": "洞察力のある；目が肥えた",
       "exampleEn": "Discerning buyers choose top quality products.",
-      "exampleJa": "目が肥えた（洞察力のある）買手は最高品質の製品を選びます。",
+      "exampleJa": "目が肥えた買手は最高品質の製品を選びます。",
       "level": 4
     },
     {
@@ -836,7 +836,7 @@
       "phonetic": "/ˈdɪskɔːrd/",
       "meaning": "不和；不協和音",
       "exampleEn": "Marital discord led to family divorce.",
-      "exampleJa": "夫婦の不和（対立）が家族の離婚へと導きました。",
+      "exampleJa": "夫婦の不和が家族の離婚へと導きました。",
       "level": 4
     },
     {
@@ -854,7 +854,7 @@
       "phonetic": "/ˈdɪzməl/",
       "meaning": "陰気な；惨憺たる",
       "exampleEn": "Financial sales results were dismal failure.",
-      "exampleJa": "財務売上結果は惨憺たる失敗（陰気な結果）でした。",
+      "exampleJa": "財務売上結果は惨憺たる失敗でした。",
       "level": 3
     },
     {
@@ -863,7 +863,7 @@
       "phonetic": "/dɪˈspel/",
       "meaning": "を追い払う；を晴らす",
       "exampleEn": "Speech dispelled fear doubt among public.",
-      "exampleJa": "演説が世間の間の恐怖の疑念を追い払いました（晴らしました）。",
+      "exampleJa": "演説が世間の間の恐怖の疑念を追い払いました。",
       "level": 4
     },
     {
@@ -872,7 +872,7 @@
       "phonetic": "/dɪˈspjuːt/",
       "meaning": "紛争；論争",
       "exampleEn": "Settle border territory land dispute peacefully.",
-      "exampleJa": "国境領土の土地紛争（論争）を平和的に解決しなさい。",
+      "exampleJa": "国境領土の土地紛争を平和的に解決しなさい。",
       "level": 2
     },
     {
@@ -881,7 +881,7 @@
       "phonetic": "/dɪˈsɪmɪlər/",
       "meaning": "似ていない；異なる",
       "exampleEn": "Two brothers have completely dissimilar personalities.",
-      "exampleJa": "2人の兄弟は完全に似ていない（異なる）性格を持っています。",
+      "exampleJa": "2人の兄弟は完全に似ていない性格を持っています。",
       "level": 3
     },
     {
@@ -890,7 +890,7 @@
       "phonetic": "/pərˈveɪsɪv/",
       "meaning": "蔓延する；普及している",
       "exampleEn": "Smartphone use is pervasive in modern society.",
-      "exampleJa": "スマートフォンの使用は現代社会に蔓延（普及）しています。",
+      "exampleJa": "スマートフォンの使用は現代社会に蔓延しています。",
       "level": 3
     },
     {
@@ -899,7 +899,7 @@
       "phonetic": "/fəˈlɑːsəfər/",
       "meaning": "哲学者",
       "exampleEn": "Socrates was an ancient Greek philosopher thinker.",
-      "exampleJa": "ソクラテスは古代ギリシャの哲学者（思考家）でした。",
+      "exampleJa": "ソクラテスは古代ギリシャの哲学者でした。",
       "level": 2
     },
     {
@@ -908,7 +908,7 @@
       "phonetic": "/plʌndʒ/",
       "meaning": "に飛び込む；急落する",
       "exampleEn": "Temperatures plunged below freezing zero point.",
-      "exampleJa": "気温が氷点下ゼロポイント以下に急落（飛び込み）しました。",
+      "exampleJa": "気温が氷点下ゼロポイント以下に急落しました。",
       "level": 2
     },
     {
@@ -926,7 +926,7 @@
       "phonetic": "/prɪˈlɪmɪneri/",
       "meaning": "予備の；準備段階の",
       "exampleEn": "Pass initial preliminary test exam round.",
-      "exampleJa": "初期の予備（準備段階の）テスト試験ラウンドを通過しなさい。",
+      "exampleJa": "初期の予備テスト試験ラウンドを通過しなさい。",
       "level": 3
     },
     {
@@ -935,7 +935,7 @@
       "phonetic": "/prɪˈrɑːɡətɪv/",
       "meaning": "特権；大権",
       "exampleEn": "Veto is presidential legal prerogative power.",
-      "exampleJa": "拒否権は大統領の法的特権（大権）の力です。",
+      "exampleJa": "拒否権は大統領の法的特権の力です。",
       "level": 4
     },
     {
@@ -962,7 +962,7 @@
       "phonetic": "/ˈprɪstiːn/",
       "meaning": "損なわれていない；手つかずの",
       "exampleEn": "Explore pristine wild forest mountain nature.",
-      "exampleJa": "手つかずの（損なわれていない）野生の森林の山の自然を探索しなさい。",
+      "exampleJa": "手つかずの野生の森林の山の自然を探索しなさい。",
       "level": 3
     },
     {
@@ -989,7 +989,7 @@
       "phonetic": "/ˈprɑːfɪtəbl/",
       "meaning": "利益の上がる；儲かる",
       "exampleEn": "Invest in profitable real estate project.",
-      "exampleJa": "利益の上がる（儲かる）不動産プロジェクトに投資しなさい。",
+      "exampleJa": "利益の上がる不動産プロジェクトに投資しなさい。",
       "level": 2
     },
     {
@@ -998,7 +998,7 @@
       "phonetic": "/prəˈlɪfɪk/",
       "meaning": "多産の；多作の",
       "exampleEn": "He is a prolific writer author books.",
-      "exampleJa": "彼は多作の（多産の）執筆著者本です。",
+      "exampleJa": "彼は多作の執筆著者本です。",
       "level": 3
     },
     {
@@ -1007,7 +1007,7 @@
       "phonetic": "/ˌprɑːpəˈɡændə/",
       "meaning": "宣伝；プロパガンダ",
       "exampleEn": "State radio broadcast political war propaganda.",
-      "exampleJa": "国営ラジオが政治的戦争プロパガンダ（宣伝）を放送しました。",
+      "exampleJa": "国営ラジオが政治的戦争プロパガンダを放送しました。",
       "level": 3
     },
     {
@@ -1016,7 +1016,7 @@
       "phonetic": "/prəˈpɔːrʃənl/",
       "meaning": "比例した；釣り合った",
       "exampleEn": "Salary is proportional to work performance.",
-      "exampleJa": "給与は作業実績に比例（釣り合い）しています。",
+      "exampleJa": "給与は作業実績に比例しています。",
       "level": 3
     },
     {
@@ -1043,7 +1043,7 @@
       "phonetic": "/ˈpruːdns/",
       "meaning": "慎重さ；思慮深さ",
       "exampleEn": "Exercise financial prudence when investing money.",
-      "exampleJa": "資金を投資する際は財務の慎重さ（思慮深さ）を行使しなさい。",
+      "exampleJa": "資金を投資する際は財務の慎重さを行使しなさい。",
       "level": 3
     },
     {
@@ -1052,7 +1052,7 @@
       "phonetic": "/ˈpjuːnətɪv/",
       "meaning": "罰の；報復的な",
       "exampleEn": "Impose punitive tax damages penalty fine.",
-      "exampleJa": "罰の（報復的な）税金損害罰金手当てを課しちなさい。",
+      "exampleJa": "罰の税金損害罰金手当てを課しちなさい。",
       "level": 4
     },
     {

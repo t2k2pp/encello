@@ -8,7 +8,7 @@
       "phonetic": "/ˈkɑːrɡoʊ/",
       "meaning": "貨物；積荷",
       "exampleEn": "Ship delivered heavy machinery cargo.",
-      "exampleJa": "船は重機械の貨物（積荷）を配送しました。",
+      "exampleJa": "船は重機械の貨物を配送しました。",
       "level": 3
     },
     {
@@ -143,7 +143,7 @@
       "phonetic": "/ˌkɑːnsaɪˈniː/",
       "meaning": "受取人；荷受人",
       "exampleEn": "Sign name as consignee upon delivery.",
-      "exampleJa": "配達時に荷受人（受取人）として名前を署名しなさい。",
+      "exampleJa": "配達時に荷受人として名前を署名しなさい。",
       "level": 4
     },
     {
@@ -188,7 +188,7 @@
       "phonetic": "/kreɪt/",
       "meaning": "木箱；クレート",
       "exampleEn": "Pack fragile glass bottles in crate.",
-      "exampleJa": "壊れやすいガラス瓶を木箱（クレート）に梱包しなさい。",
+      "exampleJa": "壊れやすいガラス瓶を木箱に梱包しなさい。",
       "level": 3
     },
     {
@@ -251,7 +251,7 @@
       "phonetic": "/dɪˈpɑːrtʃər/",
       "meaning": "出発；出荷",
       "exampleEn": "Track cargo departure date from port.",
-      "exampleJa": "港からの貨物の出荷（出発）日を追跡しなさい。",
+      "exampleJa": "港からの貨物の出荷日を追跡しなさい。",
       "level": 2
     },
     {
@@ -260,7 +260,7 @@
       "phonetic": "/ˌdestɪˈneɪʃn/",
       "meaning": "目的地；配送先",
       "exampleEn": "Ship reached its final destination harbor.",
-      "exampleJa": "船は最終目的地（配送先）の港に到達しました。",
+      "exampleJa": "船は最終目的地の港に到達しました。",
       "level": 2
     },
     {
@@ -332,7 +332,7 @@
       "phonetic": "/fliːt/",
       "meaning": "全車両；船団",
       "exampleEn": "Company operates fleet of delivery trucks.",
-      "exampleJa": "会社は配送トラックの全車両（フリート）を運用しています。",
+      "exampleJa": "会社は配送トラックの全車両を運用しています。",
       "level": 3
     },
     {
@@ -359,7 +359,7 @@
       "phonetic": "/ˈfreɪtər/",
       "meaning": "貨物船；貨物機",
       "exampleEn": "Ocean freighter loaded container cargo ships.",
-      "exampleJa": "遠洋貨物船（フレイター）がコンテナ貨物を積載しました。",
+      "exampleJa": "遠洋貨物船がコンテナ貨物を積載しました。",
       "level": 4
     },
     {
@@ -368,7 +368,7 @@
       "phonetic": "/fʊlˈfɪlmənt/",
       "meaning": "フルフィルメント；発送業務",
       "exampleEn": "E-commerce order fulfillment center works 24 hours.",
-      "exampleJa": "Eコマースの注文発送業務（フルフィルメント）センターは24時間稼働しています。",
+      "exampleJa": "Eコマースの注文発送業務センターは24時間稼働しています。",
       "level": 4
     },
     {
@@ -404,7 +404,7 @@
       "phonetic": "/ɪnˈspekʃn/",
       "meaning": "検査；検品",
       "exampleEn": "Conduct quality inspection before packing shipment.",
-      "exampleJa": "発送品を梱包する前に品質検品（検査）を実施しなさい。",
+      "exampleJa": "発送品を梱包する前に品質検品を実施しなさい。",
       "level": 2
     },
     {
@@ -413,7 +413,7 @@
       "phonetic": "/ˈleɪbl/",
       "meaning": "ラベル；荷札",
       "exampleEn": "Attach shipping address label to package.",
-      "exampleJa": "荷物に配送先住所の荷札（ラベル）を貼り付けなさい。",
+      "exampleJa": "荷物に配送先住所の荷札を貼り付けなさい。",
       "level": 2
     },
     {
@@ -440,7 +440,7 @@
       "phonetic": "/ləˈdʒɪstɪks/",
       "meaning": "物流；ロジスティクス",
       "exampleEn": "Global logistics manager optimized supply chain.",
-      "exampleJa": "グローバル物流（ロジスティクス）マネージャーがサプライチェーンを最適化しました。",
+      "exampleJa": "グローバル物流マネージャーがサプライチェーンを最適化しました。",
       "level": 3
     },
     {
@@ -449,7 +449,7 @@
       "phonetic": "/ˈmænɪfest/",
       "meaning": "積荷目録；マニフェスト",
       "exampleEn": "Check ship cargo manifest record list.",
-      "exampleJa": "船の貨物積荷目録（マニフェスト）記録リストを確認しなさい。",
+      "exampleJa": "船の貨物積荷目録記録リストを確認しなさい。",
       "level": 4
     },
     {
@@ -476,7 +476,7 @@
       "phonetic": "/pæk/",
       "meaning": "を梱包する；を詰める",
       "exampleEn": "Pack electronics in protective bubble wrap.",
-      "exampleJa": "保護用プチプチ（気泡シート）の中に電子機器を梱包しなさい。",
+      "exampleJa": "保護用プチプチの中に電子機器を梱包しなさい。",
       "level": 2
     },
     {
@@ -512,7 +512,7 @@
       "phonetic": "/ˈpælət/",
       "meaning": "パレット；荷物台",
       "exampleEn": "Stack wooden boxes neatly on pallet.",
-      "exampleJa": "パレット（荷物台）の上に木箱を整然と積み重ねなさい。",
+      "exampleJa": "パレットの上に木箱を整然と積み重ねなさい。",
       "level": 3
     },
     {
@@ -521,7 +521,7 @@
       "phonetic": "/poʊst/",
       "meaning": "郵便；ポスト",
       "exampleEn": "Send document by registered mail post.",
-      "exampleJa": "書留郵便（ポスト）で書類を送信しなさい。",
+      "exampleJa": "書留郵便で書類を送信しなさい。",
       "level": 2
     },
     {
@@ -530,7 +530,7 @@
       "phonetic": "/ˈpoʊstɪdʒ/",
       "meaning": "郵便料金；切手代",
       "exampleEn": "Calculate correct airmail postage fee rate.",
-      "exampleJa": "正確な航空郵便の料金（切手代）を計算しなさい。",
+      "exampleJa": "正確な航空郵便の料金を計算しなさい。",
       "level": 2
     },
     {
@@ -584,7 +584,7 @@
       "phonetic": "/ˈʃɪpər/",
       "meaning": "荷主；荷送り人",
       "exampleEn": "Shipper packed goods in wooden crate.",
-      "exampleJa": "荷主（荷送り人）は商品を木箱に梱包しました。",
+      "exampleJa": "荷主は商品を木箱に梱包しました。",
       "level": 3
     },
     {
@@ -629,7 +629,7 @@
       "phonetic": "/ˈstɔːrɪdʒ/",
       "meaning": "保管；貯蔵庫",
       "exampleEn": "Keep extra items in rental storage unit.",
-      "exampleJa": "余剰品をレンタル保管倉庫（ストレージ）に保管しなさい。",
+      "exampleJa": "余剰品をレンタル保管倉庫に保管しなさい。",
       "level": 2
     },
     {
@@ -638,7 +638,7 @@
       "phonetic": "/ˈstɔːrhaʊs/",
       "meaning": "倉庫；納屋",
       "exampleEn": "Grain stored in large farm storehouse building.",
-      "exampleJa": "穀物が大型農場倉庫（納屋）建物の中に保管されました。",
+      "exampleJa": "穀物が大型農場倉庫建物の中に保管されました。",
       "level": 3
     },
     {
@@ -647,7 +647,7 @@
       "phonetic": "",
       "meaning": "サプライチェーン；供給網",
       "exampleEn": "Disruption affected global tech supply chain.",
-      "exampleJa": "混乱が世界の技術サプライチェーン（供給網）に影響を与えました。",
+      "exampleJa": "混乱が世界の技術サプライチェーンに影響を与えました。",
       "level": 3
     },
     {
@@ -656,7 +656,7 @@
       "phonetic": "/ˈtæŋkər/",
       "meaning": "タンカー；油槽船",
       "exampleEn": "Oil tanker arrived safely at harbor.",
-      "exampleJa": "石油タンカー（油槽船）が安全に港へ到着しました。",
+      "exampleJa": "石油タンカーが安全に港へ到着しました。",
       "level": 3
     },
     {
@@ -665,7 +665,7 @@
       "phonetic": "/tɑːrp/",
       "meaning": "防水シート；タープ",
       "exampleEn": "Cover truck cargo with waterproof tarp.",
-      "exampleJa": "防水シート（タープ）でトラックの貨物を覆いなさい。",
+      "exampleJa": "防水シートでトラックの貨物を覆いなさい。",
       "level": 3
     },
     {
@@ -701,7 +701,7 @@
       "phonetic": "/ˈtrækɪŋ/",
       "meaning": "追跡；トラッキング",
       "exampleEn": "Email contains package tracking number details.",
-      "exampleJa": "メールに荷物の追跡（トラッキング）番号の詳細が記載されています。",
+      "exampleJa": "メールに荷物の追跡番号の詳細が記載されています。",
       "level": 2
     },
     {
@@ -710,7 +710,7 @@
       "phonetic": "/ˈtræfɪk/",
       "meaning": "交通；交通量",
       "exampleEn": "Heavy traffic delayed delivery truck route.",
-      "exampleJa": "激しい交通（渋滞）が配送トラックのルートを遅らせました。",
+      "exampleJa": "激しい交通が配送トラックのルートを遅らせました。",
       "level": 2
     },
     {
@@ -764,7 +764,7 @@
       "phonetic": "/weɪt/",
       "meaning": "重量；重さ",
       "exampleEn": "Weigh package on scale before shipping.",
-      "exampleJa": "発送前に秤（はかり）で荷物の重量を測定しなさい。",
+      "exampleJa": "発送前に秤で荷物の重量を測定しなさい。",
       "level": 2
     },
     {
@@ -827,7 +827,7 @@
       "phonetic": "/ˈtentətɪv/",
       "meaning": "仮の；試験的な",
       "exampleEn": "Set tentative meeting date for next Friday.",
-      "exampleJa": "来週金曜日に仮の（試験的な）会議日程を設定しなさい。",
+      "exampleJa": "来週金曜日に仮の会議日程を設定しなさい。",
       "level": 3
     },
     {
@@ -836,7 +836,7 @@
       "phonetic": "",
       "meaning": "日常的に；毎日",
       "exampleEn": "Check email inbox on a daily basis.",
-      "exampleJa": "日常的に（毎日）メール受信箱を確認しなさい。",
+      "exampleJa": "日常的にメール受信箱を確認しなさい。",
       "level": 2
     }
   ]

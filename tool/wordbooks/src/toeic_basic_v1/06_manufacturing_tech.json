@@ -26,7 +26,7 @@
       "phonetic": "/dɪˈfektɪv/",
       "meaning": "欠陥のある；不良の",
       "exampleEn": "Return defective items for full refund.",
-      "exampleJa": "全額返金のために不良品（欠陥品）を返品しなさい。",
+      "exampleJa": "全額返金のために不良品を返品しなさい。",
       "level": 3
     },
     {
@@ -98,7 +98,7 @@
       "phonetic": "/ˈbluːprɪnt/",
       "meaning": "設計図；青写真",
       "exampleEn": "Architect reviewed building construction blueprint.",
-      "exampleJa": "建築家は建築施工の設計図（青写真）を確認しました。",
+      "exampleJa": "建築家は建築施工の設計図を確認しました。",
       "level": 3
     },
     {
@@ -125,7 +125,7 @@
       "phonetic": "/kəˈpæsəti/",
       "meaning": "生産能力；収容力",
       "exampleEn": "Plant operates at full manufacturing capacity.",
-      "exampleJa": "工場はフル製造能力（キャパシティ）で稼働しています。",
+      "exampleJa": "工場はフル製造能力で稼働しています。",
       "level": 2
     },
     {
@@ -152,7 +152,7 @@
       "phonetic": "/ˈkræftsmənʃɪp/",
       "meaning": "職人技；名工の技術",
       "exampleEn": "Watch displays exquisite traditional Swiss craftsmanship.",
-      "exampleJa": "時計は素晴らしい伝統的なスイスの職人技（クラフトマンシップ）を示しています。",
+      "exampleJa": "時計は素晴らしい伝統的なスイスの職人技を示しています。",
       "level": 4
     },
     {
@@ -197,7 +197,7 @@
       "phonetic": "/ˈdaʊntaɪm/",
       "meaning": "稼働停止時間；ダウンタイム",
       "exampleEn": "Prevent costly factory machine equipment downtime.",
-      "exampleJa": "高コストな工場機械設備の稼働停止時間（ダウンタイム）を防ぎなさい。",
+      "exampleJa": "高コストな工場機械設備の稼働停止時間を防ぎなさい。",
       "level": 3
     },
     {
@@ -224,7 +224,7 @@
       "phonetic": "/ˌendʒɪˈnɪr/",
       "meaning": "技術者；エンジニア",
       "exampleEn": "Chief engineer designed high speed engine.",
-      "exampleJa": "チーフエンジニア（技術者）が高速エンジンを設計しました。",
+      "exampleJa": "チーフエンジニアが高速エンジンを設計しました。",
       "level": 2
     },
     {
@@ -251,7 +251,7 @@
       "phonetic": "/ˌfæbrɪˈkeɪʃn/",
       "meaning": "製造；加工",
       "exampleEn": "Metal fabrication process requires high heat.",
-      "exampleJa": "金属加工（製造）プロセスは高熱を必要とします。",
+      "exampleJa": "金属加工プロセスは高熱を必要とします。",
       "level": 4
     },
     {
@@ -278,7 +278,7 @@
       "phonetic": "/ˈflɔːləs/",
       "meaning": "傷のない；完璧な",
       "exampleEn": "Product achieved flawless quality control rating.",
-      "exampleJa": "製品は完璧な（傷のない）品質管理評価を達成しました。",
+      "exampleJa": "製品は完璧な品質管理評価を達成しました。",
       "level": 3
     },
     {
@@ -305,7 +305,7 @@
       "phonetic": "/ˌɪnəˈveɪʃn/",
       "meaning": "革新；イノベーション",
       "exampleEn": "Technology innovation drives company growth forward.",
-      "exampleJa": "技術革新（イノベーション）が会社の成長を前進させます。",
+      "exampleJa": "技術革新が会社の成長を前進させます。",
       "level": 2
     },
     {
@@ -341,7 +341,7 @@
       "phonetic": "/ˌɪnstəˈleɪʃn/",
       "meaning": "設置；取り付け",
       "exampleEn": "Equipment installation completed ahead of time.",
-      "exampleJa": "機器の設置（取り付け）が予定より前倒しで完了しました。",
+      "exampleJa": "機器の設置が予定より前倒しで完了しました。",
       "level": 2
     },
     {
@@ -413,7 +413,7 @@
       "phonetic": "/ˌmælˈfʌŋkʃn/",
       "meaning": "誤作動；故障",
       "exampleEn": "System malfunction stopped assembly line work.",
-      "exampleJa": "システムの誤作動（故障）が組み立てラインの作業を停止させました。",
+      "exampleJa": "システムの誤作動が組み立てラインの作業を停止させました。",
       "level": 3
     },
     {
@@ -449,7 +449,7 @@
       "phonetic": "/ˈmekənɪzəm/",
       "meaning": "仕組み；メカニズム",
       "exampleEn": "Clock internal safety mechanism stopped gear.",
-      "exampleJa": "時計の内部安全機構（メカニズム）が歯車を停止させました。",
+      "exampleJa": "時計の内部安全機構が歯車を停止させました。",
       "level": 3
     },
     {
@@ -476,7 +476,7 @@
       "phonetic": "/ˈɑːpəreɪtər/",
       "meaning": "操作員；オペレーター",
       "exampleEn": "Certified machine operator monitored control screen.",
-      "exampleJa": "認定機械操作員（オペレーター）が制御画面を監視しました。",
+      "exampleJa": "認定機械操作員が制御画面を監視しました。",
       "level": 2
     },
     {
@@ -494,7 +494,7 @@
       "phonetic": "/ˈaʊtɪdʒ/",
       "meaning": "停電；停止",
       "exampleEn": "Power outage stopped factory production line.",
-      "exampleJa": "停電（アウトージ）が工場の生産ラインを停止させました。",
+      "exampleJa": "停電が工場の生産ラインを停止させました。",
       "level": 3
     },
     {
@@ -503,7 +503,7 @@
       "phonetic": "/ˈaʊtpʊt/",
       "meaning": "生産高；出力",
       "exampleEn": "Daily factory solar power energy output.",
-      "exampleJa": "工場の毎日の太陽光パワーエネルギー出力（生産高）。",
+      "exampleJa": "工場の毎日の太陽光パワーエネルギー出力。",
       "level": 2
     },
     {
@@ -512,7 +512,7 @@
       "phonetic": "/ˈoʊvərhɔːl/",
       "meaning": "を分解修理・全面見直しする",
       "exampleEn": "Engineers overhauled old aircraft engine system.",
-      "exampleJa": "技術者たちは古い航空機エンジンシステムを分解修理（オーバーホール）しました。",
+      "exampleJa": "技術者たちは古い航空機エンジンシステムを分解修理しました。",
       "level": 4
     },
     {
@@ -530,7 +530,7 @@
       "phonetic": "/plænt/",
       "meaning": "工場；プラント；植物",
       "exampleEn": "Automobile assembly plant employs thousand workers.",
-      "exampleJa": "自動車組み立て工場（プラント）は1,000名の作業員を雇用しています。",
+      "exampleJa": "自動車組み立て工場は1,000名の作業員を雇用しています。",
       "level": 2
     },
     {
@@ -566,7 +566,7 @@
       "phonetic": "/ˈproʊtətaɪp/",
       "meaning": "試作品；プロトタイプ",
       "exampleEn": "Engineers built working prototype model aircraft.",
-      "exampleJa": "技術者たちは稼働する試作品（プロトタイプ）模型航空機を組み立てました。",
+      "exampleJa": "技術者たちは稼働する試作品模型航空機を組み立てました。",
       "level": 3
     },
     {
@@ -584,7 +584,7 @@
       "phonetic": "",
       "meaning": "原料；生資材",
       "exampleEn": "Import raw materials for steel production.",
-      "exampleJa": "鋼鉄生産のために原料（生資材）を輸入しなさい。",
+      "exampleJa": "鋼鉄生産のために原料を輸入しなさい。",
       "level": 2
     },
     {
@@ -665,7 +665,7 @@
       "phonetic": "/ˈsetʌp/",
       "meaning": "セットアップ；設定",
       "exampleEn": "Complete computer system initial setup process.",
-      "exampleJa": "コンピューターシステムの初期セットアップ（設定）手順を完了しなさい。",
+      "exampleJa": "コンピューターシステムの初期セットアップ手順を完了しなさい。",
       "level": 2
     },
     {
@@ -683,7 +683,7 @@
       "phonetic": "/ˈstændərd/",
       "meaning": "標準；規格",
       "exampleEn": "Product complies with international safety standards.",
-      "exampleJa": "製品は国際安全規格（標準）に適合しています。",
+      "exampleJa": "製品は国際安全規格に適合しています。",
       "level": 2
     },
     {
@@ -701,7 +701,7 @@
       "phonetic": "/tekˈnɑːlədʒi/",
       "meaning": "技術；テクノロジー",
       "exampleEn": "Modern technology improved energy efficiency.",
-      "exampleJa": "現代の技術（テクノロジー）がエネルギー効率を向上させました。",
+      "exampleJa": "現代の技術がエネルギー効率を向上させました。",
       "level": 2
     },
     {
@@ -710,7 +710,7 @@
       "phonetic": "/ˈtrʌblʃuːt/",
       "meaning": "の問題を解決する；トラブルシューティングする",
       "exampleEn": "Technician troubleshot network connection error.",
-      "exampleJa": "技術者がネットワーク接続エラーのトラブルシューティング（原因特定解決）を行いました。",
+      "exampleJa": "技術者がネットワーク接続エラーのトラブルシューティングを行いました。",
       "level": 3
     },
     {
@@ -719,7 +719,7 @@
       "phonetic": "/ˌʌpˈɡreɪd/",
       "meaning": "を改良・アップグレードする",
       "exampleEn": "Upgrade factory machine control software version.",
-      "exampleJa": "工場機械制御ソフトウェアのバージョンをアップグレード（改良）しなさい。",
+      "exampleJa": "工場機械制御ソフトウェアのバージョンをアップグレードしなさい。",
       "level": 2
     },
     {
@@ -746,7 +746,7 @@
       "phonetic": "/dɪˈfɔːlt/",
       "meaning": "債務不履行；デフォルト",
       "exampleEn": "Company avoided loan debt default risk.",
-      "exampleJa": "会社はローン債務不履行（デフォルト）リスクを回避しました。",
+      "exampleJa": "会社はローン債務不履行リスクを回避しました。",
       "level": 3
     },
     {
@@ -755,7 +755,7 @@
       "phonetic": "/ɪnˈdɔːrs/",
       "meaning": "を推薦・宣伝する；裏書する",
       "exampleEn": "Athlete endorsed popular sports shoe brand.",
-      "exampleJa": "アスリートが人気のスポーツシューズブランドを宣伝（推薦）しました。",
+      "exampleJa": "アスリートが人気のスポーツシューズブランドを宣伝しました。",
       "level": 3
     },
     {
