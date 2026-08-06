@@ -61,8 +61,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/naɪˈiːv/",
       "meaning": "世間知らずな；単純な",
-      "exampleEn": "Don't be naive about business.",
-      "exampleJa": "ビジネスに対して甘い考え（世間知らず）でいてはいけません。",
+      "exampleEn": "Don't be so naive about business.",
+      "exampleJa": "ビジネスに関して単純に考えすぎないでください。",
       "level": 3
     },
     {
@@ -72,7 +72,7 @@
       "meaning": "悪名高い；〜で有名な",
       "exampleEn": "The pirate was notorious worldwide.",
       "exampleJa": "その海賊は世界中で悪名高かったです。",
-      "level": 4
+      "level": 3
     },
     {
       "headword": "rigid",
@@ -90,7 +90,7 @@
       "meaning": "懐疑的な；疑い深い",
       "exampleEn": "I am skeptical about his claim.",
       "exampleJa": "私は彼の主張に懐疑的です。",
-      "level": 4
+      "level": 3
     },
     {
       "headword": "subtle",
@@ -124,26 +124,26 @@
       "partOfSpeech": "verb",
       "phonetic": "/əbˈzɑːlv/",
       "meaning": "を免除する；罪を許す",
-      "exampleEn": "Jury absolved defendant of all criminal charges.",
-      "exampleJa": "陪審員が被告のすべての刑事告訴の罪を免除（許可）しました。",
-      "level": 5
+      "exampleEn": "The jury absolved him of all charges.",
+      "exampleJa": "陪審は彼のすべての容疑を晴らしました。",
+      "level": 4
     },
     {
       "headword": "acceleration",
       "partOfSpeech": "noun",
       "phonetic": "/əkˌseləˈreɪʃn/",
       "meaning": "加速；促進",
-      "exampleEn": "Car features rapid speed acceleration technology.",
-      "exampleJa": "車は急速な速度の加速技術を特徴としています。",
-      "level": 4
+      "exampleEn": "The car has impressive acceleration.",
+      "exampleJa": "その車は加速性能が優れています。",
+      "level": 3
     },
     {
       "headword": "accord",
       "partOfSpeech": "noun",
       "phonetic": "/əˈkɔːrd/",
       "meaning": "一致；協定；を与える",
-      "exampleEn": "Nations signed international peace treaty accord.",
-      "exampleJa": "国家たちが国際平和条約の協定（一致）に署名しました。",
+      "exampleEn": "The two nations reached a peace accord.",
+      "exampleJa": "両国は平和協定に達しました。",
       "level": 3
     },
     {
@@ -153,15 +153,15 @@
       "meaning": "対格の（文法）",
       "exampleEn": "German grammar uses nominative and accusative case.",
       "exampleJa": "ドイツ語の文法は主格と対格の格を使用します。",
-      "level": 5
+      "level": 4
     },
     {
       "headword": "acquisition",
       "partOfSpeech": "noun",
       "phonetic": "/ˌækwɪˈzɪʃn/",
       "meaning": "買収；取得；獲得",
-      "exampleEn": "Corporate merger and asset acquisition transaction.",
-      "exampleJa": "企業の合併と資産の買収（取得）取引。",
+      "exampleEn": "The company announced a major acquisition.",
+      "exampleJa": "その会社は大規模な買収を発表しました。",
       "level": 3
     },
     {
@@ -169,17 +169,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈækjupaŋktʃər/",
       "meaning": "鍼治療；鍼術",
-      "exampleEn": "Try traditional needle medical health acupuncture.",
-      "exampleJa": "伝統的な針の医療健康の鍼治療（鍼術）を試みちなさい。",
-      "level": 4
+      "exampleEn": "She tried acupuncture to relieve pain.",
+      "exampleJa": "彼女は痛みを和らげるため鍼治療を受けました。",
+      "level": 3
     },
     {
       "headword": "adjourn",
       "partOfSpeech": "verb",
       "phonetic": "/əˈdʒɜːrn/",
       "meaning": "を休会する；延期する",
-      "exampleEn": "Judge decided to adjourn court trial session.",
-      "exampleJa": "裁判官は法廷の開廷セッションを休会（延期）することを決めました。",
+      "exampleEn": "The judge decided to adjourn the trial.",
+      "exampleJa": "裁判官は裁判を延期することにしました。",
       "level": 4
     },
     {
@@ -187,8 +187,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌædməˈnɪʃn/",
       "meaning": "忠告；戒め",
-      "exampleEn": "Listen to parent wise moral admonition.",
-      "exampleJa": "親の賢明な道徳的忠告（戒め）を聞きなさい。",
+      "exampleEn": "He ignored his father's admonition.",
+      "exampleJa": "彼は父の忠告を無視しました。",
       "level": 5
     },
     {
@@ -196,17 +196,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ədˈvɜːrsəti/",
       "meaning": "逆境；苦難",
-      "exampleEn": "Overcome financial economic hardship adversity courage.",
-      "exampleJa": "勇気をもって財務経済の苦難の逆境を克服しなさい。",
-      "level": 4
+      "exampleEn": "She overcame great adversity as a child.",
+      "exampleJa": "彼女は子供の頃大きな逆境を乗り越えました。",
+      "level": 3
     },
     {
       "headword": "affliction",
       "partOfSpeech": "noun",
       "phonetic": "/əˈflɪkʃn/",
       "meaning": "苦難；病気；苦痛",
-      "exampleEn": "Suffer painful physical health affliction.",
-      "exampleJa": "痛ましい身体的健康の苦難（病気）に悩まされなさい。",
+      "exampleEn": "The disease caused him great affliction.",
+      "exampleJa": "その病気は彼に大きな苦痛をもたらしました。",
       "level": 4
     },
     {
@@ -214,8 +214,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/əˈɡæst/",
       "meaning": "仰天して；呆然として",
-      "exampleEn": "Stood aghast at terrible destruction news.",
-      "exampleJa": "恐ろしい破壊のニュースに対して仰天して（呆然として）立ち尽くしました。",
+      "exampleEn": "We stood aghast at the destruction.",
+      "exampleJa": "私たちはその破壊ぶりに仰天しました。",
       "level": 5
     },
     {
@@ -223,9 +223,9 @@
       "partOfSpeech": "adjective",
       "phonetic": "/əˈdʒɑːr/",
       "meaning": "少し開いて；半開きの",
-      "exampleEn": "Left bedroom door slightly ajar night.",
-      "exampleJa": "夜、寝室のドアを少し半開きに（開けて）おきました。",
-      "level": 4
+      "exampleEn": "She left the door ajar.",
+      "exampleJa": "彼女はドアを少し開けたままにしました。",
+      "level": 3
     },
     {
       "headword": "allegedly",
@@ -241,8 +241,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/əˈlaʊd/",
       "meaning": "声を出して；大声で",
-      "exampleEn": "Read text book story aloud class.",
-      "exampleJa": "クラスで教科書の物語を声を出して読みなさい。",
+      "exampleEn": "Please read the passage aloud.",
+      "exampleJa": "その文章を声に出して読んでください。",
       "level": 3
     },
     {
@@ -250,8 +250,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌæmbɪˈɡjuːəti/",
       "meaning": "曖昧さ；多義性",
-      "exampleEn": "Avoid statement wording confusion ambiguity.",
-      "exampleJa": "声明の言葉遣いの混乱の曖昧さを避けなさい。",
+      "exampleEn": "His statement was full of ambiguity.",
+      "exampleJa": "彼の発言は曖昧さに満ちていました。",
       "level": 4
     },
     {
@@ -277,8 +277,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈænərkɪst/",
       "meaning": "無政府主義者；アナキスト",
-      "exampleEn": "Police arrested violent political protest anarchist.",
-      "exampleJa": "警察が暴力的な政治抗議の無政府主義者（アナキスト）を逮捕しました。",
+      "exampleEn": "Police arrested the suspected anarchist.",
+      "exampleJa": "警察はその無政府主義者の容疑者を逮捕しました。",
       "level": 4
     },
     {
@@ -288,15 +288,15 @@
       "meaning": "麻酔科医",
       "exampleEn": "Hospital anesthesiologist monitored patient vital signs.",
       "exampleJa": "病院の麻酔科医が患者のバイタルサインを監視しました。",
-      "level": 5
+      "level": 3
     },
     {
       "headword": "annul",
       "partOfSpeech": "verb",
       "phonetic": "/əˈnʌl/",
       "meaning": "を無効にする；を取り消す",
-      "exampleEn": "Court decided to annul illegal marriage contract.",
-      "exampleJa": "裁判所は違法な結婚契約を無効にする（取り消す）決定をしました。",
+      "exampleEn": "The court decided to annul the marriage.",
+      "exampleJa": "裁判所はその結婚を無効にすることにしました。",
       "level": 5
     },
     {
@@ -304,8 +304,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌænθrəˈpɑːlədʒi/",
       "meaning": "人類学",
-      "exampleEn": "Study human culture evolution origin anthropology.",
-      "exampleJa": "人類の文化進化起源の人類学を学びなさい。",
+      "exampleEn": "She majored in anthropology at college.",
+      "exampleJa": "彼女は大学で人類学を専攻しました。",
       "level": 3
     },
     {
@@ -313,17 +313,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌæpəˈθetɪk/",
       "meaning": "無関心な；冷淡な",
-      "exampleEn": "Voters felt apathetic about political election.",
-      "exampleJa": "有権者たちは政治選挙について無関心（冷淡）に感じていました。",
-      "level": 5
+      "exampleEn": "Many voters seemed apathetic about the election.",
+      "exampleJa": "多くの有権者はその選挙に無関心なようでした。",
+      "level": 4
     },
     {
       "headword": "appall",
       "partOfSpeech": "verb",
       "phonetic": "/əˈpɔːl/",
       "meaning": "をぞっとさせる；呆れさせる",
-      "exampleEn": "Violence news shocked and appalled public.",
-      "exampleJa": "暴力ニュースが世間をショックさせぞっとさせました（呆れさせました）。",
+      "exampleEn": "The violence appalled everyone who watched.",
+      "exampleJa": "その暴力は見た人々をぞっとさせました。",
       "level": 4
     },
     {
@@ -331,8 +331,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈpɔːrʃnmənt/",
       "meaning": "配分；割り当て",
-      "exampleEn": "Equal seat representation apportionment state.",
-      "exampleJa": "州の同等議席代表権配分（割り当て）。",
+      "exampleEn": "States debated the apportionment of seats.",
+      "exampleJa": "各州は議席の配分について議論しました。",
       "level": 5
     },
     {
@@ -340,8 +340,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈprɑːksɪmeɪt/",
       "meaning": "に近似する；見積もる",
-      "exampleEn": "Calculations approximate total final project cost.",
-      "exampleJa": "計算がプロジェクトの最終総費用に近似します（見積もります）。",
+      "exampleEn": "This figure approximates the total cost.",
+      "exampleJa": "この数字は総費用に近似しています。",
       "level": 3
     },
     {
@@ -349,8 +349,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɑːrˈkeɪn/",
       "meaning": "難解な；不可解な；秘密の",
-      "exampleEn": "Understand complex arcane scientific law rules.",
-      "exampleJa": "複雑な難解な（不可解な）科学法則の規則を理解しなさい。",
+      "exampleEn": "The rules seemed arcane and confusing.",
+      "exampleJa": "その規則は難解で分かりにくく思えました。",
       "level": 5
     },
     {
@@ -367,17 +367,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrsənɪst/",
       "meaning": "放火魔；放火犯",
-      "exampleEn": "Arsonist set fire to old abandoned factory building.",
-      "exampleJa": "放火魔（放火犯）が古い見捨てられた工場建物に放火しました。",
-      "level": 5
+      "exampleEn": "The arsonist set fire to the factory.",
+      "exampleJa": "その放火犯は工場に火をつけました。",
+      "level": 4
     },
     {
       "headword": "ascribe",
       "partOfSpeech": "verb",
       "phonetic": "/əˈskraɪb/",
       "meaning": "を〜のせいにする；〜の作と帰する",
-      "exampleEn": "Scholars ascribe painting to famous master artist.",
-      "exampleJa": "学者たちは絵画を有名な巨匠芸術家の作と帰しています（のせいにしています）。",
+      "exampleEn": "Scholars ascribe the painting to a master.",
+      "exampleJa": "学者たちはその絵を巨匠の作としています。",
       "level": 4
     },
     {
@@ -385,8 +385,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˌsɪməˈleɪʃn/",
       "meaning": "同化；吸収；消化",
-      "exampleEn": "Cultural language social assimilation process.",
-      "exampleJa": "文化的な言語社会の同化（吸収）プロセス。",
+      "exampleEn": "Immigrants often face cultural assimilation.",
+      "exampleJa": "移民はしばしば文化的な同化に直面します。",
       "level": 4
     },
     {
@@ -396,24 +396,24 @@
       "meaning": "無神論",
       "exampleEn": "Atheism is belief that God does not exist.",
       "exampleJa": "無神論とは神が存在しないという信念です。",
-      "level": 4
+      "level": 3
     },
     {
       "headword": "atypical",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌeɪˈtɪpɪkl/",
       "meaning": "型にはまらない；変則的な",
-      "exampleEn": "Patient showed atypical symptoms disease.",
-      "exampleJa": "患者は病気の型にはまらない（変則的な）症状を示しました。",
-      "level": 4
+      "exampleEn": "The patient showed atypical symptoms.",
+      "exampleJa": "その患者は変則的な症状を示しました。",
+      "level": 3
     },
     {
       "headword": "austere",
       "partOfSpeech": "adjective",
       "phonetic": "/ɔːˈstɪr/",
       "meaning": "厳格な；質素な；厳しい",
-      "exampleEn": "Monk lived in an austere stone room cell.",
-      "exampleJa": "修道士は質素な（厳格な）石の小部屋の中で暮らしました。",
+      "exampleEn": "The monk lived an austere life.",
+      "exampleJa": "その修道士は質素な生活を送りました。",
       "level": 4
     },
     {
@@ -430,8 +430,8 @@
       "partOfSpeech": "adverb",
       "phonetic": "/əˈraɪ/",
       "meaning": "歪んで；曲がって；うまくいかないで",
-      "exampleEn": "Careful plans went awry unexpectedly.",
-      "exampleJa": "慎重な計画が予期せずうまくいかなく（曲がって）なりました。",
+      "exampleEn": "Our plans went awry unexpectedly.",
+      "exampleJa": "私たちの計画は予期せずうまくいきませんでした。",
       "level": 4
     },
     {
@@ -439,9 +439,9 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈbæŋkroʊl/",
       "meaning": "に資金融通する；資金提供する",
-      "exampleEn": "Billionaire bankrolled new tech research project.",
-      "exampleJa": "億万長者が新しい技術研究プロジェクトに資金融通（資金提供）しました。",
-      "level": 5
+      "exampleEn": "A billionaire bankrolled the research project.",
+      "exampleJa": "ある億万長者がその研究計画に資金提供しました。",
+      "level": 4
     },
     {
       "headword": "barter",
@@ -450,15 +450,15 @@
       "meaning": "物々交換する；物々交換",
       "exampleEn": "Tribes barter grain crops for meat.",
       "exampleJa": "部族たちが肉と穀物作物を物々交換します。",
-      "level": 4
+      "level": 3
     },
     {
       "headword": "blight",
       "partOfSpeech": "noun",
       "phonetic": "/blaɪt/",
       "meaning": "病虫害；荒廃",
-      "exampleEn": "Plant disease blight destroyed wheat crop.",
-      "exampleJa": "植物病害（病虫害）が小麦作物を壊滅させました。",
+      "exampleEn": "Blight destroyed most of the wheat crop.",
+      "exampleJa": "病虫害が小麦の大半を枯らしました。",
       "level": 5
     },
     {
@@ -466,8 +466,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbɔɪstərəs/",
       "meaning": "騒がしい；活気に満ちた",
-      "exampleEn": "Children were boisterous and loud playground.",
-      "exampleJa": "子供たちは運動場で騒がしく（活気に満ちて）いました。",
+      "exampleEn": "The children were boisterous on the playground.",
+      "exampleJa": "子供たちは運動場で騒がしくしていました。",
       "level": 4
     },
     {
@@ -475,8 +475,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈboʊvaɪn/",
       "meaning": "ウシの；ウシに似た",
-      "exampleEn": "Study farm animal bovine health disease.",
-      "exampleJa": "農場動物のウシの健康病気を研究しなさい。",
+      "exampleEn": "The vet studied common bovine diseases.",
+      "exampleJa": "その獣医はウシの一般的な病気を研究しました。",
       "level": 5
     },
     {
@@ -484,8 +484,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/braʊz/",
       "meaning": "閲覧；下見",
-      "exampleEn": "Take quick browse through web catalog store.",
-      "exampleJa": "ウェブのカタログストアを素早く閲覧（下見）しなさい。",
+      "exampleEn": "Take a quick browse through the catalog.",
+      "exampleJa": "そのカタログをざっと閲覧してください。",
       "level": 3
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈbɜːrnɪʃ/",
       "meaning": "を磨く；ツヤを出す",
-      "exampleEn": "Burnish silver metal plate shiny clean.",
-      "exampleJa": "銀の金属皿をピカピカに綺麗に磨きちなさい（ツヤを出しちなさい）。",
+      "exampleEn": "He burnished the silver plate until it shone.",
+      "exampleJa": "彼は銀の皿を光るまで磨きました。",
       "level": 5
     },
     {
@@ -502,8 +502,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkæləs/",
       "meaning": "無感覚な；冷淡な",
-      "exampleEn": "He showed a callous disregard for feelings.",
-      "exampleJa": "彼は感情に対して冷淡な（無感覚な）無視を示しました。",
+      "exampleEn": "He showed a callous disregard for others.",
+      "exampleJa": "彼は他人への冷淡な無関心さを見せました。",
       "level": 4
     },
     {
@@ -513,15 +513,15 @@
       "meaning": "の個別訪問調査をする；投票を依頼する",
       "exampleEn": "Volunteers canvassed neighborhood for election votes.",
       "exampleJa": "ボランティアたちが選挙投票のために近隣地区の個別訪問調査をしました。",
-      "level": 5
+      "level": 4
     },
     {
       "headword": "caravan",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkærəvæn/",
       "meaning": "隊商；キャラバン；キャンピングカー",
-      "exampleEn": "Desert merchant trade travel sand caravan.",
-      "exampleJa": "砂漠の商人貿易旅行砂の隊商（キャラバン）。",
+      "exampleEn": "The caravan crossed the desert slowly.",
+      "exampleJa": "その隊商はゆっくりと砂漠を横断しました。",
       "level": 3
     },
     {
@@ -529,8 +529,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkærəl/",
       "meaning": "賛美歌；キャロル",
-      "exampleEn": "Sing joyful Christmas church music carol.",
-      "exampleJa": "喜びに満ちたクリスマス教会の音楽のキャロル（賛美歌）を歌いちなさい。",
+      "exampleEn": "The choir sang a joyful Christmas carol.",
+      "exampleJa": "聖歌隊は喜びに満ちたクリスマスキャロルを歌いました。",
       "level": 3
     },
     {
@@ -547,17 +547,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkævlri/",
       "meaning": "騎兵隊；装甲部隊",
-      "exampleEn": "Military war army horse riding cavalry unit.",
-      "exampleJa": "軍事戦争の陸軍の馬に乗った騎兵隊（装甲部隊）のユニット。",
-      "level": 4
+      "exampleEn": "The cavalry charged across the open field.",
+      "exampleJa": "騎兵隊は開けた野原を駆け抜けました。",
+      "level": 3
     },
     {
       "headword": "centralize",
       "partOfSpeech": "verb",
       "phonetic": "/ˈsentrəlaɪz/",
       "meaning": "を中央集権化する；集中させる",
-      "exampleEn": "Firm decided to centralize corporate management system.",
-      "exampleJa": "企業は会社経営システムを中央集権化する（集中させる）決定をしました。",
+      "exampleEn": "The firm decided to centralize its management.",
+      "exampleJa": "その会社は経営を中央集権化することにしました。",
       "level": 3
     },
     {
@@ -565,17 +565,17 @@
       "partOfSpeech": "verb",
       "phonetic": "/tʃæˈstaɪz/",
       "meaning": "を厳しく非難する；を罰する",
-      "exampleEn": "Teacher chastised student for breaking school rules.",
-      "exampleJa": "先生が学校の規則を破ったことについて生徒を厳しく非難（罰し）しました。",
-      "level": 5
+      "exampleEn": "The teacher chastised the student for lying.",
+      "exampleJa": "先生は嘘をついた生徒を厳しく叱りました。",
+      "level": 4
     },
     {
       "headword": "circumvent",
       "partOfSpeech": "verb",
       "phonetic": "/ˌsɜːrkəmˈvent/",
       "meaning": "を迂回する；を出し抜く",
-      "exampleEn": "Firm tried to circumvent tax law regulations.",
-      "exampleJa": "企業が脱税法律規制を迂回しよう（出し抜こう）と試みました。",
+      "exampleEn": "The company tried to circumvent the regulations.",
+      "exampleJa": "その会社は規制を迂回しようとしました。",
       "level": 4
     },
     {
@@ -583,17 +583,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkoʊdʒənt/",
       "meaning": "説得力のある；筋の通った",
-      "exampleEn": "Presented a cogent logical legal argument.",
-      "exampleJa": "説得力のある（筋の通った）論理的法的議論を提示しました。",
-      "level": 4
+      "exampleEn": "She presented a cogent legal argument.",
+      "exampleJa": "彼女は説得力のある法的議論を提示しました。",
+      "level": 5
     },
     {
       "headword": "harassment",
       "partOfSpeech": "noun",
       "phonetic": "/həˈræsmənt/",
       "meaning": "嫌がらせ；ハラスメント",
-      "exampleEn": "Prevent workplace sexual power harassment misconduct.",
-      "exampleJa": "職場のセクシャル・パワーハラスメント（嫌がらせ）の不正行為を防止しなさい。",
+      "exampleEn": "The firm has a strict harassment policy.",
+      "exampleJa": "その会社は嫌がらせに関する厳格な方針を持っています。",
       "level": 3
     },
     {
@@ -601,8 +601,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/hɔːˈrendəs/",
       "meaning": "恐ろしい；凄まじい",
-      "exampleEn": "Accident caused horrendous physical injury damage.",
-      "exampleJa": "事故が恐ろしい（凄まじい）身体的負傷損害を引き起こしました。",
+      "exampleEn": "The accident caused horrendous damage.",
+      "exampleJa": "その事故は凄まじい損害を引き起こしました。",
       "level": 4
     },
     {
@@ -610,8 +610,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/haɪˈpɑːθəsɪs/",
       "meaning": "仮説；前提",
-      "exampleEn": "Test scientific research theory hypothesis data.",
-      "exampleJa": "科学研究理論の仮説データをテストしなさい。",
+      "exampleEn": "Scientists tested the new hypothesis.",
+      "exampleJa": "科学者たちはその新しい仮説を検証しました。",
       "level": 3
     },
     {
@@ -619,8 +619,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪɡˈnɪʃn/",
       "meaning": "点火；着火装置",
-      "exampleEn": "Turn key car engine ignition switch.",
-      "exampleJa": "キーを回して車のエンジンの点火（着火装置）スイッチを入れなさい。",
+      "exampleEn": "He turned the key in the ignition.",
+      "exampleJa": "彼は点火装置の鍵を回しました。",
       "level": 3
     },
     {
@@ -628,8 +628,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈmɜːrʒn/",
       "meaning": "没頭；浸漬；イマージョン",
-      "exampleEn": "Language learning through full culture immersion.",
-      "exampleJa": "完全な文化の没頭（イマージョン）を通じた言語学習。",
+      "exampleEn": "She learned French through full immersion.",
+      "exampleJa": "彼女は完全な没頭を通じてフランス語を学びました。",
       "level": 4
     },
     {
@@ -637,8 +637,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɪmˈpælpəbl/",
       "meaning": "触れられない；感知し難い",
-      "exampleEn": "Shadow was an impalpable ghost figure.",
-      "exampleJa": "影は触れられない（感知し難い）幽霊の姿でした。",
+      "exampleEn": "The shadow seemed like an impalpable figure.",
+      "exampleJa": "その影は触れられない姿のように見えました。",
       "level": 5
     },
     {
@@ -646,8 +646,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɪmpərˈseptəbl/",
       "meaning": "感知できない；わずかな",
-      "exampleEn": "Change was almost imperceptible to human eye.",
-      "exampleJa": "変化は人間の目にはほとんど感知できない（わずかな）ものでした。",
+      "exampleEn": "The change was almost imperceptible.",
+      "exampleJa": "その変化はほとんど感知できないものでした。",
       "level": 4
     },
     {
@@ -655,8 +655,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪmˈpaɪəti/",
       "meaning": "不信仰；不敬",
-      "exampleEn": "Accused of religious disrespect impiety action.",
-      "exampleJa": "宗教的無礼の不信仰（不敬）の行動の罪で告発されました。",
+      "exampleEn": "He was accused of impiety.",
+      "exampleJa": "彼は不敬の罪で告発されました。",
       "level": 5
     },
     {
@@ -664,8 +664,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪmpətəns/",
       "meaning": "無力；無能",
-      "exampleEn": "Feel sense of helplessness total power impotence.",
-      "exampleJa": "無力感と完全な権力の無力（無能）を感じちなさい。",
+      "exampleEn": "He felt a sense of impotence.",
+      "exampleJa": "彼は無力感を覚えました。",
       "level": 4
     },
     {
@@ -673,8 +673,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɪmˈprɑːvɪdənt/",
       "meaning": "先見の明のない；不経済な",
-      "exampleEn": "His improvident spending habits led debt.",
-      "exampleJa": "彼の先見の明のない（不経済な）支出習慣が負債へと繋がりました。",
+      "exampleEn": "His improvident spending led to debt.",
+      "exampleJa": "彼の先見の明のない支出は負債につながりました。",
       "level": 5
     },
     {
@@ -682,17 +682,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɪnədˈmɪsəbl/",
       "meaning": "受け容れられない；証拠採用できない",
-      "exampleEn": "Illegal evidence was inadmissible in court.",
-      "exampleJa": "違法な証拠は法廷で証拠採用できない（受け容れられない）ものでした。",
-      "level": 5
+      "exampleEn": "The evidence was ruled inadmissible in court.",
+      "exampleJa": "その証拠は法廷で証拠採用できないとされました。",
+      "level": 4
     },
     {
       "headword": "inaugurate",
       "partOfSpeech": "verb",
       "phonetic": "/ɪˈnɔːɡjəreɪt/",
       "meaning": "を正式に始める；就任させる",
-      "exampleEn": "Mayor inaugurated new public transport line system.",
-      "exampleJa": "市長が新しい公共交通路線システムを正式に始めました（就任させました）。",
+      "exampleEn": "The mayor inaugurated the new subway line.",
+      "exampleJa": "市長は新しい地下鉄路線を正式に開通させました。",
       "level": 4
     },
     {
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈsentɪv/",
       "meaning": "動機；インセンティブ；報奨金",
-      "exampleEn": "Company offered cash bonus work performance incentive.",
-      "exampleJa": "会社が現金ボーナスの作業実績インセンティブ（動機）を提示しました。",
+      "exampleEn": "The company offered a cash incentive.",
+      "exampleJa": "その会社は現金の報奨金を提示しました。",
       "level": 3
     },
     {
@@ -709,8 +709,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɪnkoʊˈhɪrənt/",
       "meaning": "支離滅裂な；筋の通らない",
-      "exampleEn": "Drunk man gave an incoherent speech talk.",
-      "exampleJa": "酔っ払いが支離滅裂な（筋の通らない）スピーチトークを行いました。",
+      "exampleEn": "The drunk man gave an incoherent speech.",
+      "exampleJa": "酔った男は支離滅裂な話をしました。",
       "level": 4
     },
     {
@@ -718,17 +718,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ɪnˈkɑːŋɡruəs/",
       "meaning": "不釣り合いな；不調和な",
-      "exampleEn": "Wearing suit on beach looked incongruous.",
-      "exampleJa": "ビーチでスーツを着ることは不釣り合い（不調和）に見えました。",
-      "level": 4
+      "exampleEn": "His suit looked incongruous on the beach.",
+      "exampleJa": "彼のスーツはビーチで不釣り合いに見えました。",
+      "level": 5
     },
     {
       "headword": "incorrigible",
       "partOfSpeech": "adjective",
       "phonetic": "/ɪnˈkɔːrɪdʒəbl/",
       "meaning": "矯正できない；筋金入りの",
-      "exampleEn": "He is an incorrigible liar criminal.",
-      "exampleJa": "彼は矯正できない（筋金入りの）嘘つきの犯罪者です。",
+      "exampleEn": "He is an incorrigible liar.",
+      "exampleJa": "彼は矯正できない嘘つきです。",
       "level": 5
     },
     {
@@ -736,8 +736,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kraɪˈtɪriən/",
       "meaning": "基準；判断指標",
-      "exampleEn": "Main selection evaluation criterion for job.",
-      "exampleJa": "仕事のための主要な選考評価基準（判断指標）。",
+      "exampleEn": "Experience is the main hiring criterion.",
+      "exampleJa": "経験が主な採用基準です。",
       "level": 3
     },
     {
@@ -745,8 +745,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/krɪpˈtɑːɡrəfi/",
       "meaning": "暗号解読法；暗号技術",
-      "exampleEn": "Study computer security data encryption cryptography.",
-      "exampleJa": "コンピューターセキュリティデータ暗号技術（解読法）を学びなさい。",
+      "exampleEn": "She studies cryptography and data security.",
+      "exampleJa": "彼女は暗号技術とデータセキュリティを研究しています。",
       "level": 4
     },
     {
@@ -754,8 +754,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkjʊreɪtər/",
       "meaning": "学芸員；キュレーター",
-      "exampleEn": "Museum curator preserved ancient art painting exhibit.",
-      "exampleJa": "博物館の学芸員（キュレーター）が古代の美術絵画展示を保存しました。",
+      "exampleEn": "The museum curator preserved ancient paintings.",
+      "exampleJa": "その博物館の学芸員は古代の絵画を保存しました。",
       "level": 3
     }
   ]
