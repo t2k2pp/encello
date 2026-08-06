@@ -7,17 +7,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/broʊˈʃʊr/",
       "meaning": "パンフレット；小冊子",
-      "exampleEn": "Pick up product brochure at counter.",
-      "exampleJa": "カウンターで製品パンフレットを受け取りなさい。",
-      "level": 2
+      "exampleEn": "Our brochure is available at the front desk.",
+      "exampleJa": "当社のパンフレットは受付でお受け取りいただけます。",
+      "level": 3
     },
     {
       "headword": "campaign",
       "partOfSpeech": "noun",
       "phonetic": "/kæmˈpeɪn/",
       "meaning": "キャンペーン；宣伝活動",
-      "exampleEn": "Company launched new advertising campaign.",
-      "exampleJa": "会社は新しい広告宣伝活動を開始しました。",
+      "exampleEn": "The company launched a new advertising campaign.",
+      "exampleJa": "会社は新しい広告キャンペーンを開始しました。",
       "level": 2
     },
     {
@@ -25,8 +25,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpetɪtər/",
       "meaning": "競合他社；ライバル企業",
-      "exampleEn": "Analyze strategy of main competitor.",
-      "exampleJa": "主要な競合他社の戦略を分析しなさい。",
+      "exampleEn": "Our main competitor lowered its prices last month.",
+      "exampleJa": "主要な競合他社が先月価格を引き下げました。",
       "level": 3
     },
     {
@@ -34,17 +34,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈflaɪər/",
       "meaning": "チラシ；ビラ",
-      "exampleEn": "Staff distributed promotional flyers outside station.",
-      "exampleJa": "スタッフが駅の外でプロモーションチラシを配布しました。",
-      "level": 2
+      "exampleEn": "Staff handed out flyers in front of the station.",
+      "exampleJa": "スタッフが駅前でチラシを配りました。",
+      "level": 3
     },
     {
       "headword": "merchandise",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɜːrtʃəndaɪs/",
       "meaning": "商品；製品",
-      "exampleEn": "Store displays seasonal gift merchandise.",
-      "exampleJa": "店舗は季節のギフト商品を陳列しています。",
+      "exampleEn": "The store displays seasonal merchandise near the entrance.",
+      "exampleJa": "その店は入口の近くに季節商品を並べています。",
       "level": 3
     },
     {
@@ -52,8 +52,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈpeɪtrən/",
       "meaning": "常連客；パトロン",
-      "exampleEn": "Restaurant thanks loyal store patrons.",
-      "exampleJa": "レストランは常連の店舗顧客に感謝しています。",
+      "exampleEn": "Regular patrons receive a discount on every visit.",
+      "exampleJa": "常連客は来店のたびに割引を受けられます。",
       "level": 4
     },
     {
@@ -61,8 +61,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːteɪl/",
       "meaning": "小売り",
-      "exampleEn": "He works in retail clothing industry.",
-      "exampleJa": "彼は衣料品小売業界で働いています。",
+      "exampleEn": "She has worked in retail for ten years.",
+      "exampleJa": "彼女は10年間小売業で働いています。",
       "level": 3
     },
     {
@@ -70,8 +70,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈvendər/",
       "meaning": "業者；販売会社",
-      "exampleEn": "We ordered supplies from local vendor.",
-      "exampleJa": "地元の販売業者から用品を発注しました。",
+      "exampleEn": "We ordered the parts from a local vendor.",
+      "exampleJa": "私たちは地元の販売業者に部品を発注しました。",
       "level": 3
     },
     {
@@ -79,8 +79,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈhoʊlseɪl/",
       "meaning": "卸売り",
-      "exampleEn": "Buy goods at lower wholesale price.",
-      "exampleJa": "商品をより安い卸売り価格で購入しなさい。",
+      "exampleEn": "The shop buys its goods at wholesale prices.",
+      "exampleJa": "その店は商品を卸売価格で仕入れています。",
       "level": 3
     },
     {
@@ -88,8 +88,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈædvərtaɪz/",
       "meaning": "を広告する；宣伝する",
-      "exampleEn": "Firm advertises new product on television.",
-      "exampleJa": "企業はテレビで新製品を宣伝しています。",
+      "exampleEn": "The firm advertises its new product on television.",
+      "exampleJa": "その企業は新製品をテレビで宣伝しています。",
       "level": 2
     },
     {
@@ -97,8 +97,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌædvərˈtaɪzmənt/",
       "meaning": "広告；宣伝",
-      "exampleEn": "Place job advertisement in local newspaper.",
-      "exampleJa": "地元の新聞に求人広告を掲載しなさい。",
+      "exampleEn": "I saw their advertisement in the local newspaper.",
+      "exampleJa": "私は地元の新聞で彼らの広告を見ました。",
       "level": 2
     },
     {
@@ -106,8 +106,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈædvərtaɪzɪŋ/",
       "meaning": "広告業；宣伝活動",
-      "exampleEn": "Company increased annual advertising budget.",
-      "exampleJa": "会社は年間の広告予算を増やしました。",
+      "exampleEn": "The company increased its advertising budget this year.",
+      "exampleJa": "会社は今年広告予算を増やしました。",
       "level": 2
     },
     {
@@ -115,8 +115,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪdʒənsi/",
       "meaning": "代理店；エージェンシー",
-      "exampleEn": "Hire top creative advertising agency firm.",
-      "exampleJa": "一流のクリエイティブ広告代理店会社を雇いなさい。",
+      "exampleEn": "We hired a creative advertising agency in Tokyo.",
+      "exampleJa": "私たちは東京のクリエイティブな広告代理店を起用しました。",
       "level": 2
     },
     {
@@ -124,8 +124,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈtrækt/",
       "meaning": "を引きつける；を魅了する",
-      "exampleEn": "New store design attracted many young customers.",
-      "exampleJa": "新しい店舗デザインが多くの若年層の顧客を引きつけました。",
+      "exampleEn": "The new design attracted many young customers.",
+      "exampleJa": "新しいデザインが多くの若い客を引きつけました。",
       "level": 2
     },
     {
@@ -133,8 +133,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈtrækʃn/",
       "meaning": "魅力；集客施設",
-      "exampleEn": "Main tourist attraction of historic town.",
-      "exampleJa": "歴史ある町の主要な観光集客施設。",
+      "exampleEn": "The castle is the main attraction of this town.",
+      "exampleJa": "その城はこの町の主要な観光名所です。",
       "level": 2
     },
     {
@@ -142,8 +142,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/əˈtræktɪv/",
       "meaning": "魅力的な",
-      "exampleEn": "Store offers attractive price discounts.",
-      "exampleJa": "店舗は魅力的な価格割引を提供しています。",
+      "exampleEn": "The store offers attractive discounts every weekend.",
+      "exampleJa": "その店は毎週末に魅力的な割引を実施しています。",
       "level": 2
     },
     {
@@ -151,8 +151,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
       "meaning": "聴衆；ターゲット層",
-      "exampleEn": "Target audience for ad is young parents.",
-      "exampleJa": "広告のターゲット層は若い親たちです。",
+      "exampleEn": "The target audience for this ad is young parents.",
+      "exampleJa": "この広告のターゲット層は若い親たちです。",
       "level": 2
     },
     {
@@ -160,8 +160,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/brænd/",
       "meaning": "ブランド；銘柄",
-      "exampleEn": "Build strong luxury brand image globally.",
-      "exampleJa": "世界的に強い高級ブランドイメージを構築しなさい。",
+      "exampleEn": "This brand is very popular among students.",
+      "exampleJa": "このブランドは学生の間でとても人気があります。",
       "level": 2
     },
     {
@@ -169,8 +169,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪər/",
       "meaning": "買手；バイヤー",
-      "exampleEn": "Retail buyer sourced clothes from Paris.",
-      "exampleJa": "小売バイヤーがパリから衣料品を仕入れました。",
+      "exampleEn": "A buyer from Paris visited our showroom.",
+      "exampleJa": "パリのバイヤーが当社のショールームを訪れました。",
       "level": 2
     },
     {
@@ -178,8 +178,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkætəlɔːɡ/",
       "meaning": "商品カタログ；目録",
-      "exampleEn": "Browse online mail order product catalog.",
-      "exampleJa": "オンライン通信販売の商品カタログを閲覧しなさい。",
+      "exampleEn": "You can order the item from our catalog.",
+      "exampleJa": "その品物は当社のカタログから注文できます。",
       "level": 2
     },
     {
@@ -187,8 +187,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪənt/",
       "meaning": "顧客；クライアント",
-      "exampleEn": "Meet key corporate client for lunch.",
-      "exampleJa": "昼食時に重要な法人顧客と会いなさい。",
+      "exampleEn": "I had lunch with an important client today.",
+      "exampleJa": "私は今日重要な顧客と昼食をとりました。",
       "level": 2
     },
     {
@@ -196,8 +196,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌklaɪənˈtel/",
       "meaning": "全顧客；常連客層",
-      "exampleEn": "Hotel attracts wealthy international clientele.",
-      "exampleJa": "ホテルは富裕な国際的顧客層を引きつけています。",
+      "exampleEn": "The hotel has a wealthy international clientele.",
+      "exampleJa": "そのホテルには裕福な国際的顧客層がついています。",
       "level": 4
     },
     {
@@ -205,8 +205,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɜːrʃl/",
       "meaning": "コマーシャル；CM",
-      "exampleEn": "Watch funny TV commercial during break.",
-      "exampleJa": "休憩中に面白いテレビコマーシャルを見なさい。",
+      "exampleEn": "That television commercial always makes me laugh.",
+      "exampleJa": "あのテレビコマーシャルはいつも私を笑わせます。",
       "level": 2
     },
     {
@@ -214,8 +214,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɪʃn/",
       "meaning": "歩合；手数料；委員会",
-      "exampleEn": "Sales rep earns ten percent sales commission.",
-      "exampleJa": "営業担当者は10%の販売歩合を稼ぎます。",
+      "exampleEn": "Our sales staff earn a ten percent commission.",
+      "exampleJa": "当社の営業スタッフは10パーセントの歩合を得ています。",
       "level": 3
     },
     {
@@ -241,8 +241,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpetətɪv/",
       "meaning": "競争力のある；格安の",
-      "exampleEn": "Store sells products at competitive prices.",
-      "exampleJa": "店舗は競争力のある価格で製品を販売しています。",
+      "exampleEn": "Our prices are competitive in this region.",
+      "exampleJa": "当社の価格はこの地域で競争力があります。",
       "level": 2
     },
     {
@@ -268,8 +268,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkuːpɑːn/",
       "meaning": "割引クーポン券",
-      "exampleEn": "Present discount coupon at checkout counter.",
-      "exampleJa": "レジ会計カウンターで割引クーポン券を提示しなさい。",
+      "exampleEn": "This coupon gives you ten percent off.",
+      "exampleJa": "このクーポン券で10パーセントの割引になります。",
       "level": 2
     },
     {
@@ -277,8 +277,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmər/",
       "meaning": "顧客；お客様",
-      "exampleEn": "Provide excellent customer service always.",
-      "exampleJa": "常に素晴らしい顧客サービスを提供しなさい。",
+      "exampleEn": "Our customers value quick and friendly service.",
+      "exampleJa": "お客様は迅速で親切なサービスを重視しています。",
       "level": 2
     },
     {
@@ -286,8 +286,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/diːl/",
       "meaning": "取引；特売",
-      "exampleEn": "Store offers great deal on laptops.",
-      "exampleJa": "店舗はノートパソコンの素晴らしい特売を提供しています。",
+      "exampleEn": "The store is offering a great deal on laptops.",
+      "exampleJa": "その店はノートパソコンのお得な特売を行っています。",
       "level": 2
     },
     {
@@ -295,8 +295,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdiːlər/",
       "meaning": "販売業者；ディーラー",
-      "exampleEn": "Authorized car dealer repaired engine.",
-      "exampleJa": "正規自動車販売業者がエンジンを修理しました。",
+      "exampleEn": "The car dealer offered us a free check.",
+      "exampleJa": "自動車販売店が無料点検を申し出てくれました。",
       "level": 2
     },
     {
@@ -304,8 +304,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈmænd/",
       "meaning": "需要；要求",
-      "exampleEn": "High demand for fresh organic food.",
-      "exampleJa": "新鮮なオーガニック食品に対する高い需要。",
+      "exampleEn": "There is strong demand for organic food.",
+      "exampleJa": "オーガニック食品には強い需要があります。",
       "level": 2
     },
     {
@@ -313,17 +313,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdemoʊ/",
       "meaning": "実演；デモ",
-      "exampleEn": "Watch live product demo at booth.",
-      "exampleJa": "ブースで生の実演を見なさい。",
-      "level": 2
+      "exampleEn": "The engineer gave a short demo at the booth.",
+      "exampleJa": "技術者がブースで短い実演を行いました。",
+      "level": 3
     },
     {
       "headword": "demonstration",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdemənˈstreɪʃn/",
       "meaning": "実演説明；デモ",
-      "exampleEn": "Staff gave product feature demonstration.",
-      "exampleJa": "スタッフが製品特徴の実演説明を行いました。",
+      "exampleEn": "A staff member gave a cooking demonstration.",
+      "exampleJa": "スタッフが料理の実演説明を行いました。",
       "level": 2
     },
     {
@@ -331,8 +331,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspleɪ/",
       "meaning": "を展示・陳列する",
-      "exampleEn": "Display new shoes in store window.",
-      "exampleJa": "店舗のウィンドウに新しい靴を陳列しなさい。",
+      "exampleEn": "They display new shoes in the front window.",
+      "exampleJa": "彼らは正面のウィンドウに新しい靴を陳列しています。",
       "level": 2
     },
     {
@@ -340,8 +340,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈstrɪbjuːt/",
       "meaning": "を配送する；を配布する",
-      "exampleEn": "Distribute sample products to store visitors.",
-      "exampleJa": "店舗の訪問者にサンプル製品を配布しなさい。",
+      "exampleEn": "We distributed free samples to every visitor.",
+      "exampleJa": "私たちは来場者全員に無料のサンプルを配りました。",
       "level": 2
     },
     {
@@ -349,17 +349,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌdɪstrɪˈbjuːʃn/",
       "meaning": "流通；配送",
-      "exampleEn": "Global distribution network ensures fast delivery.",
-      "exampleJa": "世界的な流通ネットワークが迅速な配送を補償します。",
-      "level": 2
+      "exampleEn": "Our distribution network covers the whole country.",
+      "exampleJa": "当社の流通網は全国をカバーしています。",
+      "level": 3
     },
     {
       "headword": "distributor",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈstrɪbjətər/",
       "meaning": "卸売業者；ディストリビューター",
-      "exampleEn": "Signed agreement with local food distributor.",
-      "exampleJa": "地元の食品卸売業者と契約に署名しました。",
+      "exampleEn": "We signed a contract with a food distributor.",
+      "exampleJa": "私たちは食品卸売業者と契約を結びました。",
       "level": 3
     },
     {
@@ -367,8 +367,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ɪɡˈzɪbɪt/",
       "meaning": "を出品・展示する",
-      "exampleEn": "Company exhibited new inventions at fair.",
-      "exampleJa": "会社は展示会で新しい発明品を出品・展示しました。",
+      "exampleEn": "The company exhibited its new robot at the fair.",
+      "exampleJa": "会社は展示会で新しいロボットを出品しました。",
       "level": 2
     },
     {
@@ -376,8 +376,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌeksɪˈbɪʃn/",
       "meaning": "展示会；展覧会",
-      "exampleEn": "Attend trade exhibition next month.",
-      "exampleJa": "来月見本市に参加しなさい。",
+      "exampleEn": "We will attend a trade exhibition next month.",
+      "exampleJa": "私たちは来月見本市に参加します。",
       "level": 2
     },
     {
@@ -394,8 +394,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ɪkˈspænd/",
       "meaning": "を拡大する；進出する",
-      "exampleEn": "Firm expanded retail store chain rapidly.",
-      "exampleJa": "企業は小売店舗チェーンを急速に拡大しました。",
+      "exampleEn": "The firm expanded its store chain quickly.",
+      "exampleJa": "その企業は店舗チェーンを急速に拡大しました。",
       "level": 2
     },
     {
@@ -403,17 +403,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪkˈspænʃn/",
       "meaning": "拡大；進出",
-      "exampleEn": "Market expansion generated new revenue stream.",
-      "exampleJa": "市場拡大が新しい収益流を生み出しました。",
-      "level": 2
+      "exampleEn": "Overseas expansion brought the company new revenue.",
+      "exampleJa": "海外進出が会社に新しい収益をもたらしました。",
+      "level": 3
     },
     {
       "headword": "feature",
       "partOfSpeech": "noun",
       "phonetic": "/ˈfiːtʃər/",
       "meaning": "特徴；目玉商品",
-      "exampleEn": "Key feature of phone is battery life.",
-      "exampleJa": "携帯電話の主要な特徴はバッテリー持続時間です。",
+      "exampleEn": "The best feature of this phone is its battery.",
+      "exampleJa": "この携帯電話の一番の特徴はバッテリーです。",
       "level": 2
     },
     {
@@ -421,17 +421,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈfiːdbæk/",
       "meaning": "意見；フィードバック",
-      "exampleEn": "Collect customer survey feedback carefully.",
-      "exampleJa": "顧客アンケートの意見を注意深く収集しなさい。",
-      "level": 2
+      "exampleEn": "We read customer feedback every Monday morning.",
+      "exampleJa": "私たちは毎週月曜の朝に顧客の意見を読んでいます。",
+      "level": 3
     },
     {
       "headword": "guarantee",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɡærənˈtiː/",
       "meaning": "保証；保証書",
-      "exampleEn": "Product comes with two year guarantee.",
-      "exampleJa": "製品には2年間の保証が付いています。",
+      "exampleEn": "The product comes with a two year guarantee.",
+      "exampleJa": "その製品には2年間の保証が付いています。",
       "level": 2
     },
     {
@@ -439,8 +439,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪmɪdʒ/",
       "meaning": "イメージ；画像",
-      "exampleEn": "Public relations campaign improved corporate image.",
-      "exampleJa": "広報キャンペーンが企業のイメージを向上させました。",
+      "exampleEn": "The campaign improved the company image.",
+      "exampleJa": "そのキャンペーンは会社のイメージを高めました。",
       "level": 2
     },
     {
@@ -448,8 +448,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/lɔːntʃ/",
       "meaning": "発売；進出",
-      "exampleEn": "Attend product launch party tonight.",
-      "exampleJa": "今夜の新製品発売パーティーに出席しなさい。",
+      "exampleEn": "The product launch is set for next Friday.",
+      "exampleJa": "製品の発売は来週の金曜日に予定されています。",
       "level": 2
     },
     {
@@ -457,8 +457,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈloʊɡoʊ/",
       "meaning": "ロゴマーク",
-      "exampleEn": "Design modern corporate logo symbol.",
-      "exampleJa": "現代的な企業のロゴマーク記号をデザインしなさい。",
+      "exampleEn": "Our new logo appears on every package.",
+      "exampleJa": "当社の新しいロゴマークはすべての包装に入っています。",
       "level": 2
     },
     {
@@ -466,8 +466,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈlɔɪəlti/",
       "meaning": "忠誠；顧客ロイヤリティ",
-      "exampleEn": "Store customer loyalty card program.",
-      "exampleJa": "店舗の顧客ロイヤリティカードプログラム。",
+      "exampleEn": "Good service builds customer loyalty over time.",
+      "exampleJa": "良いサービスは時間をかけて顧客のロイヤリティを高めます。",
       "level": 3
     },
     {
@@ -475,8 +475,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɑːrkɪt/",
       "meaning": "市場；市街",
-      "exampleEn": "Company dominates global smartphone market.",
-      "exampleJa": "会社は世界のスマートフォン市場を独占しています。",
+      "exampleEn": "The company leads the smartphone market in Asia.",
+      "exampleJa": "その会社はアジアのスマートフォン市場を牽引しています。",
       "level": 2
     },
     {
@@ -484,8 +484,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɑːrkətɪŋ/",
       "meaning": "マーケティング；市場調査・宣伝",
-      "exampleEn": "Hire digital marketing specialist team.",
-      "exampleJa": "デジタルマーケティング専門家チームを雇用しなさい。",
+      "exampleEn": "She works on the marketing team in Osaka.",
+      "exampleJa": "彼女は大阪でマーケティングチームに所属しています。",
       "level": 2
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɜːrtʃənt/",
       "meaning": "商人；貿易商",
-      "exampleEn": "Local merchant sells handmade crafts.",
-      "exampleJa": "地元の商人が手作りの工芸品を販売しています。",
+      "exampleEn": "A local merchant sells handmade crafts here.",
+      "exampleJa": "地元の商人がここで手作りの工芸品を売っています。",
       "level": 3
     },
     {
@@ -502,8 +502,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/məˈnɑːpəli/",
       "meaning": "独占；専売",
-      "exampleEn": "Firm holds monopoly on water supply.",
-      "exampleJa": "企業は水道供給の独占権を保有しています。",
+      "exampleEn": "The firm holds a monopoly on water supply.",
+      "exampleJa": "その企業は水道の供給を独占しています。",
       "level": 4
     },
     {
@@ -511,18 +511,18 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈaʊtlet/",
       "meaning": "直営店舗；アウトレット",
-      "exampleEn": "Open new retail outlet in shopping mall.",
-      "exampleJa": "ショッピングモールに新しい直営店舗をオープンしなさい。",
-      "level": 2
+      "exampleEn": "A new outlet opened in the shopping mall.",
+      "exampleJa": "ショッピングモールに新しい直営店がオープンしました。",
+      "level": 3
     },
     {
       "headword": "packaging",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpækɪdʒɪŋ/",
       "meaning": "包装；パッケージ",
-      "exampleEn": "Eco friendly product packaging design.",
-      "exampleJa": "環境に優しい製品包装デザイン。",
-      "level": 2
+      "exampleEn": "Customers like our simple paper packaging.",
+      "exampleJa": "顧客は当社のシンプルな紙の包装を気に入っています。",
+      "level": 3
     },
     {
       "headword": "penetration",
@@ -530,7 +530,7 @@
       "phonetic": "/ˌpenəˈtreɪʃn/",
       "meaning": "浸透；市場参入",
       "exampleEn": "Market penetration rate increased by ten percent.",
-      "exampleJa": "市場浸透率が10%増加しました。",
+      "exampleJa": "市場浸透率が10パーセント増加しました。",
       "level": 4
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈpleɪsmənt/",
       "meaning": "配置；広告掲載",
-      "exampleEn": "Product placement in movie boosted sales.",
-      "exampleJa": "映画への製品配置が売上を押し上げました。",
+      "exampleEn": "Product placement in the movie boosted sales.",
+      "exampleJa": "映画の中への商品の配置が売上を押し上げました。",
       "level": 3
     },
     {
@@ -547,8 +547,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/pəˈzɪʃənɪŋ/",
       "meaning": "位置づけ；ポジショニング",
-      "exampleEn": "Brand positioning strategy target upper class.",
-      "exampleJa": "ブランドポジショニング戦略は上流階級をターゲットにしています。",
+      "exampleEn": "Our brand positioning targets busy young workers.",
+      "exampleJa": "当社のブランドの位置づけは忙しい若手社会人を対象にしています。",
       "level": 4
     },
     {
@@ -556,8 +556,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/pəˈtenʃl/",
       "meaning": "見込みのある；潜在的な",
-      "exampleEn": "Reach out to potential new clients.",
-      "exampleJa": "見込みのある新しい顧客にアプローチしなさい。",
+      "exampleEn": "We called several potential clients this week.",
+      "exampleJa": "私たちは今週いくつかの見込み客に電話しました。",
       "level": 2
     },
     {
@@ -565,17 +565,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈprefrəns/",
       "meaning": "好み；偏好",
-      "exampleEn": "Survey reveals customer product preference.",
-      "exampleJa": "調査は顧客の製品の好みを明らかにします。",
-      "level": 2
+      "exampleEn": "The survey showed a clear preference for blue.",
+      "exampleJa": "調査では青色への明確な好みが示されました。",
+      "level": 3
     },
     {
       "headword": "product",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːdʌkt/",
       "meaning": "製品；商品",
-      "exampleEn": "Develop innovative tech product for consumer.",
-      "exampleJa": "消費者向けに革新的な技術製品を開発しなさい。",
+      "exampleEn": "This product sells well among young families.",
+      "exampleJa": "この製品は若い家族層によく売れています。",
       "level": 2
     },
     {
@@ -583,17 +583,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/prəˈmoʊʃənl/",
       "meaning": "販促の；宣伝の",
-      "exampleEn": "Hand out free promotional gift item.",
-      "exampleJa": "無料の販促ギフト品を配りなさい。",
-      "level": 2
+      "exampleEn": "We gave away promotional pens at the fair.",
+      "exampleJa": "私たちは展示会で販促用のペンを配りました。",
+      "level": 3
     },
     {
       "headword": "prospect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːspekt/",
       "meaning": "見込み顧客；展望",
-      "exampleEn": "Sales rep called potential business prospect.",
-      "exampleJa": "営業担当者は潜在的なビジネスの見込み顧客に電話しました。",
+      "exampleEn": "The sales rep called a promising prospect.",
+      "exampleJa": "営業担当者が有望な見込み顧客に電話しました。",
       "level": 3
     },
     {
@@ -601,8 +601,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈpɜːrtʃəs/",
       "meaning": "を購入する",
-      "exampleEn": "Customer purchased software license online.",
-      "exampleJa": "顧客はオンラインでソフトウェアライセンスを購入しました。",
+      "exampleEn": "She purchased the software license online.",
+      "exampleJa": "彼女はソフトウェアのライセンスをオンラインで購入しました。",
       "level": 2
     },
     {
@@ -610,8 +610,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈpɜːrtʃəsər/",
       "meaning": "購入者",
-      "exampleEn": "First hundred purchasers get free gift.",
-      "exampleJa": "先着100名の購入者に無料のギフトを進呈します。",
+      "exampleEn": "The first hundred purchasers get a free gift.",
+      "exampleJa": "先着100名の購入者に無料の贈り物が届きます。",
       "level": 3
     },
     {
@@ -619,8 +619,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈleɪʃnʃɪp/",
       "meaning": "関係；顧客関係",
-      "exampleEn": "Build long term customer relationship trust.",
-      "exampleJa": "長期的な顧客関係の信頼を構築しなさい。",
+      "exampleEn": "We value a long relationship with each client.",
+      "exampleJa": "私たちは顧客一人ひとりとの長い関係を大切にしています。",
       "level": 2
     },
     {
@@ -628,8 +628,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈliːs/",
       "meaning": "を新発売する；を公開する",
-      "exampleEn": "Publisher released new edition book.",
-      "exampleJa": "出版社は新版の書籍を新発売・公開しました。",
+      "exampleEn": "The publisher released a new edition in May.",
+      "exampleJa": "出版社は5月に新しい版を発売しました。",
       "level": 2
     },
     {
@@ -637,8 +637,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːsɜːrtʃ/",
       "meaning": "調査；研究",
-      "exampleEn": "Conduct thorough market research before launch.",
-      "exampleJa": "発売前に徹底的な市場調査を行いなさい。",
+      "exampleEn": "We did careful market research before the launch.",
+      "exampleJa": "私たちは発売前に入念な市場調査を行いました。",
       "level": 2
     },
     {
@@ -646,8 +646,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːteɪlər/",
       "meaning": "小売業者；小売店",
-      "exampleEn": "Major retailer opened hundred new stores.",
-      "exampleJa": "大手小売業者が100の店舗を新設しました。",
+      "exampleEn": "A major retailer opened a hundred new stores.",
+      "exampleJa": "大手小売業者が100の新しい店舗を開きました。",
       "level": 3
     },
     {
@@ -655,8 +655,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈraɪvl/",
       "meaning": "競合相手；ライバル",
-      "exampleEn": "Beat main business rival in sales.",
-      "exampleJa": "売上で主要なビジネスライバルを負かしなさい。",
+      "exampleEn": "Our sales passed our main rival last quarter.",
+      "exampleJa": "当社の売上は前の四半期に主要なライバルを上回りました。",
       "level": 2
     },
     {
@@ -664,8 +664,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/seɪlz/",
       "meaning": "売上高；営業部門",
-      "exampleEn": "Monthly sales figure reached record high.",
-      "exampleJa": "月間売上高の数値が過去最高に達しました。",
+      "exampleEn": "Monthly sales reached a record high.",
+      "exampleJa": "月間の売上高が過去最高に達しました。",
       "level": 2
     },
     {
@@ -673,8 +673,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈsæmpl/",
       "meaning": "試用品；見本",
-      "exampleEn": "Try free perfume sample at cosmetics counter.",
-      "exampleJa": "化粧品カウンターで無料の香水見本を試しなさい。",
+      "exampleEn": "You can try a free sample at the counter.",
+      "exampleJa": "カウンターで無料の試用品を試すことができます。",
       "level": 2
     },
     {
@@ -682,8 +682,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌsætɪsˈfækʃn/",
       "meaning": "満足度；満足",
-      "exampleEn": "Guarantee customer satisfaction or money back.",
-      "exampleJa": "顧客満足度を保証、さもなければ全額返金します。",
+      "exampleEn": "Customer satisfaction is our highest priority.",
+      "exampleJa": "顧客満足度が当社の最優先事項です。",
       "level": 2
     },
     {
@@ -691,8 +691,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈsætɪsfaɪd/",
       "meaning": "満足した",
-      "exampleEn": "Over ninety percent of users satisfied.",
-      "exampleJa": "ユーザーの90%以上が満足しています。",
+      "exampleEn": "Over ninety percent of users are satisfied.",
+      "exampleJa": "利用者の90パーセント以上が満足しています。",
       "level": 2
     },
     {
@@ -700,8 +700,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ʃer/",
       "meaning": "市場占有率；シェア；株式",
-      "exampleEn": "Increase company market share by five percent.",
-      "exampleJa": "会社の市場占有率を5%増加させなさい。",
+      "exampleEn": "Our market share grew by five percent.",
+      "exampleJa": "当社の市場占有率は5パーセント伸びました。",
       "level": 2
     },
     {
@@ -709,8 +709,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈsloʊɡən/",
       "meaning": "キャッチコピー；スローガン",
-      "exampleEn": "Catchy ad slogan attracted attention.",
-      "exampleJa": "覚えやすい広告のキャッチコピーが注目を集めました。",
+      "exampleEn": "The new slogan is easy to remember.",
+      "exampleJa": "新しいキャッチコピーは覚えやすいです。",
       "level": 3
     },
     {
@@ -718,8 +718,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈspɑːnsər/",
       "meaning": "を後援する；スポンサーになる",
-      "exampleEn": "Company sponsored annual sports event.",
-      "exampleJa": "会社は年次のスポーツイベントを後援しました。",
+      "exampleEn": "The company sponsors a local baseball team.",
+      "exampleJa": "その会社は地元の野球チームを後援しています。",
       "level": 2
     },
     {
@@ -727,8 +727,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈspɑːnsərʃɪp/",
       "meaning": "後援；スポンサー契約",
-      "exampleEn": "Sign corporate athletic team sponsorship deal.",
-      "exampleJa": "企業の運動チームとのスポンサー契約取引に署名しなさい。",
+      "exampleEn": "They signed a three year sponsorship deal.",
+      "exampleJa": "彼らは3年間のスポンサー契約を結びました。",
       "level": 3
     },
     {
@@ -736,8 +736,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈstrætədʒi/",
       "meaning": "戦略；方針",
-      "exampleEn": "Develop effective social media marketing strategy.",
-      "exampleJa": "効果的なSNSマーケティング戦略を開発しなさい。",
+      "exampleEn": "Our new strategy focuses on online sales.",
+      "exampleJa": "当社の新しい戦略はオンライン販売に重点を置いています。",
       "level": 2
     },
     {
@@ -745,8 +745,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈtɑːrɡɪt/",
       "meaning": "目標；対象",
-      "exampleEn": "Set quarterly sales target for team.",
-      "exampleJa": "チームの四半期売上目標を設定しなさい。",
+      "exampleEn": "The team reached its quarterly sales target.",
+      "exampleJa": "チームは四半期の売上目標を達成しました。",
       "level": 2
     },
     {
@@ -754,8 +754,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/teɪst/",
       "meaning": "好み；味覚",
-      "exampleEn": "Product design matches modern consumer taste.",
-      "exampleJa": "製品デザインは現代の消費者の好みにマッチしています。",
+      "exampleEn": "The design matches the taste of young buyers.",
+      "exampleJa": "そのデザインは若い購買層の好みに合っています。",
       "level": 2
     },
     {
@@ -763,26 +763,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪndər/",
       "meaning": "バインダー；リングファイル",
-      "exampleEn": "Put training materials in three ring binder.",
-      "exampleJa": "3穴バインダーに研修資料を入れなさい。",
-      "level": 2
+      "exampleEn": "I keep the training materials in a binder.",
+      "exampleJa": "私は研修資料をバインダーに入れて保管しています。",
+      "level": 3
     },
     {
       "headword": "circular",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɜːrkjələr/",
       "meaning": "回覧板；案内状",
-      "exampleEn": "Circulate office announcement memo circular.",
-      "exampleJa": "オフィス案内状メモの回覧板を回しなさい。",
-      "level": 3
+      "exampleEn": "The manager sent a circular to all departments.",
+      "exampleJa": "部長が全部署に案内状を回しました。",
+      "level": 4
     },
     {
       "headword": "bookkeeping",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊkkiːpɪŋ/",
       "meaning": "簿記；記帳",
-      "exampleEn": "Learn basic double entry bookkeeping skills.",
-      "exampleJa": "基本的な複式簿記スキルを学びなさい。",
+      "exampleEn": "She studies bookkeeping at a night school.",
+      "exampleJa": "彼女は夜間の学校で簿記を学んでいます。",
       "level": 3
     },
     {
@@ -790,17 +790,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɜːrtʃəndaɪzɪŋ/",
       "meaning": "商品化計画；マーチャンダイジング",
-      "exampleEn": "Improve store retail product merchandising visual display.",
-      "exampleJa": "店舗小売り製品の商品化計画ディスプレイを向上させなさい。",
-      "level": 3
+      "exampleEn": "Clever merchandising increased sales at the store.",
+      "exampleJa": "巧みな商品化計画がその店の売上を伸ばしました。",
+      "level": 4
     },
     {
       "headword": "stevedore",
       "partOfSpeech": "noun",
       "phonetic": "/ˈstiːvədɔːr/",
-      "meaning": "港湾労働者；沖仲仲",
-      "exampleEn": "Stevedore crew unloaded container ship cargo.",
-      "exampleJa": "港湾労働者クルーがコンテナ船の貨物を荷下ろししました。",
+      "meaning": "港湾労働者；沖仲仕",
+      "exampleEn": "The stevedores unloaded the cargo before noon.",
+      "exampleJa": "港湾労働者たちは正午前に貨物を降ろしました。",
       "level": 4
     },
     {
@@ -808,8 +808,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈhɑːstl/",
       "meaning": "ユースホステル；安宿",
-      "exampleEn": "Book shared room bed at youth hostel.",
-      "exampleJa": "ユースホステルで相部屋のベッドを予約しなさい。",
+      "exampleEn": "We stayed at a youth hostel in Kyoto.",
+      "exampleJa": "私たちは京都のユースホステルに泊まりました。",
       "level": 2
     },
     {
@@ -817,17 +817,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/səˈsteɪnəbl/",
       "meaning": "持続可能な；サステナブルな",
-      "exampleEn": "Promote sustainable clean green energy policy.",
-      "exampleJa": "持続可能なクリーン環境エネルギー方針を促進しなさい。",
-      "level": 2
+      "exampleEn": "The brand uses sustainable materials in its bags.",
+      "exampleJa": "そのブランドはかばんに持続可能な素材を使っています。",
+      "level": 3
     },
     {
       "headword": "in comparison with",
       "partOfSpeech": "phrase",
       "phonetic": "",
       "meaning": "〜と比較して",
-      "exampleEn": "Sales grew high in comparison with last year.",
-      "exampleJa": "昨年と比較して売上が高く伸びました。",
+      "exampleEn": "Sales rose sharply in comparison with last year.",
+      "exampleJa": "売上は昨年と比べて大きく伸びました。",
       "level": 3
     }
   ]
