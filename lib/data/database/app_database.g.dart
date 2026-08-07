@@ -1945,28 +1945,6 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _exampleEnMeta = const VerificationMeta(
-    'exampleEn',
-  );
-  @override
-  late final GeneratedColumn<String> exampleEn = GeneratedColumn<String>(
-    'example_en',
-    aliasedName,
-    true,
-    type: DriftSqlType.string,
-    requiredDuringInsert: false,
-  );
-  static const VerificationMeta _exampleJaMeta = const VerificationMeta(
-    'exampleJa',
-  );
-  @override
-  late final GeneratedColumn<String> exampleJa = GeneratedColumn<String>(
-    'example_ja',
-    aliasedName,
-    true,
-    type: DriftSqlType.string,
-    requiredDuringInsert: false,
-  );
   static const VerificationMeta _partsNoteMeta = const VerificationMeta(
     'partsNote',
   );
@@ -2125,8 +2103,6 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
     partOfSpeech,
     phonetic,
     meaning,
-    exampleEn,
-    exampleJa,
     partsNote,
     confusionNote,
     familyId,
@@ -2187,18 +2163,6 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
       );
     } else if (isInserting) {
       context.missing(_meaningMeta);
-    }
-    if (data.containsKey('example_en')) {
-      context.handle(
-        _exampleEnMeta,
-        exampleEn.isAcceptableOrUnknown(data['example_en']!, _exampleEnMeta),
-      );
-    }
-    if (data.containsKey('example_ja')) {
-      context.handle(
-        _exampleJaMeta,
-        exampleJa.isAcceptableOrUnknown(data['example_ja']!, _exampleJaMeta),
-      );
     }
     if (data.containsKey('parts_note')) {
       context.handle(
@@ -2310,14 +2274,6 @@ class $WordsTable extends Words with TableInfo<$WordsTable, Word> {
         DriftSqlType.string,
         data['${effectivePrefix}meaning'],
       )!,
-      exampleEn: attachedDatabase.typeMapping.read(
-        DriftSqlType.string,
-        data['${effectivePrefix}example_en'],
-      ),
-      exampleJa: attachedDatabase.typeMapping.read(
-        DriftSqlType.string,
-        data['${effectivePrefix}example_ja'],
-      ),
       partsNote: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}parts_note'],
@@ -2388,10 +2344,6 @@ class Word extends DataClass implements Insertable<Word> {
   /// 日本語訳。`isDraft = true` のときだけ空文字を許す。
   final String meaning;
 
-  /// 英語例文（マイ単語では「見つけた文」）。
-  final String? exampleEn;
-  final String? exampleJa;
-
   /// 語のつくりの説明1行（[Docs/06_features/word_parts.md] §3.1）。
   final String? partsNote;
 
@@ -2429,8 +2381,6 @@ class Word extends DataClass implements Insertable<Word> {
     required this.partOfSpeech,
     this.phonetic,
     required this.meaning,
-    this.exampleEn,
-    this.exampleJa,
     this.partsNote,
     this.confusionNote,
     this.familyId,
@@ -2454,12 +2404,6 @@ class Word extends DataClass implements Insertable<Word> {
       map['phonetic'] = Variable<String>(phonetic);
     }
     map['meaning'] = Variable<String>(meaning);
-    if (!nullToAbsent || exampleEn != null) {
-      map['example_en'] = Variable<String>(exampleEn);
-    }
-    if (!nullToAbsent || exampleJa != null) {
-      map['example_ja'] = Variable<String>(exampleJa);
-    }
     if (!nullToAbsent || partsNote != null) {
       map['parts_note'] = Variable<String>(partsNote);
     }
@@ -2496,12 +2440,6 @@ class Word extends DataClass implements Insertable<Word> {
           ? const Value.absent()
           : Value(phonetic),
       meaning: Value(meaning),
-      exampleEn: exampleEn == null && nullToAbsent
-          ? const Value.absent()
-          : Value(exampleEn),
-      exampleJa: exampleJa == null && nullToAbsent
-          ? const Value.absent()
-          : Value(exampleJa),
       partsNote: partsNote == null && nullToAbsent
           ? const Value.absent()
           : Value(partsNote),
@@ -2540,8 +2478,6 @@ class Word extends DataClass implements Insertable<Word> {
       partOfSpeech: serializer.fromJson<String>(json['partOfSpeech']),
       phonetic: serializer.fromJson<String?>(json['phonetic']),
       meaning: serializer.fromJson<String>(json['meaning']),
-      exampleEn: serializer.fromJson<String?>(json['exampleEn']),
-      exampleJa: serializer.fromJson<String?>(json['exampleJa']),
       partsNote: serializer.fromJson<String?>(json['partsNote']),
       confusionNote: serializer.fromJson<String?>(json['confusionNote']),
       familyId: serializer.fromJson<int?>(json['familyId']),
@@ -2565,8 +2501,6 @@ class Word extends DataClass implements Insertable<Word> {
       'partOfSpeech': serializer.toJson<String>(partOfSpeech),
       'phonetic': serializer.toJson<String?>(phonetic),
       'meaning': serializer.toJson<String>(meaning),
-      'exampleEn': serializer.toJson<String?>(exampleEn),
-      'exampleJa': serializer.toJson<String?>(exampleJa),
       'partsNote': serializer.toJson<String?>(partsNote),
       'confusionNote': serializer.toJson<String?>(confusionNote),
       'familyId': serializer.toJson<int?>(familyId),
@@ -2588,8 +2522,6 @@ class Word extends DataClass implements Insertable<Word> {
     String? partOfSpeech,
     Value<String?> phonetic = const Value.absent(),
     String? meaning,
-    Value<String?> exampleEn = const Value.absent(),
-    Value<String?> exampleJa = const Value.absent(),
     Value<String?> partsNote = const Value.absent(),
     Value<String?> confusionNote = const Value.absent(),
     Value<int?> familyId = const Value.absent(),
@@ -2608,8 +2540,6 @@ class Word extends DataClass implements Insertable<Word> {
     partOfSpeech: partOfSpeech ?? this.partOfSpeech,
     phonetic: phonetic.present ? phonetic.value : this.phonetic,
     meaning: meaning ?? this.meaning,
-    exampleEn: exampleEn.present ? exampleEn.value : this.exampleEn,
-    exampleJa: exampleJa.present ? exampleJa.value : this.exampleJa,
     partsNote: partsNote.present ? partsNote.value : this.partsNote,
     confusionNote: confusionNote.present
         ? confusionNote.value
@@ -2638,8 +2568,6 @@ class Word extends DataClass implements Insertable<Word> {
           : this.partOfSpeech,
       phonetic: data.phonetic.present ? data.phonetic.value : this.phonetic,
       meaning: data.meaning.present ? data.meaning.value : this.meaning,
-      exampleEn: data.exampleEn.present ? data.exampleEn.value : this.exampleEn,
-      exampleJa: data.exampleJa.present ? data.exampleJa.value : this.exampleJa,
       partsNote: data.partsNote.present ? data.partsNote.value : this.partsNote,
       confusionNote: data.confusionNote.present
           ? data.confusionNote.value
@@ -2671,8 +2599,6 @@ class Word extends DataClass implements Insertable<Word> {
           ..write('partOfSpeech: $partOfSpeech, ')
           ..write('phonetic: $phonetic, ')
           ..write('meaning: $meaning, ')
-          ..write('exampleEn: $exampleEn, ')
-          ..write('exampleJa: $exampleJa, ')
           ..write('partsNote: $partsNote, ')
           ..write('confusionNote: $confusionNote, ')
           ..write('familyId: $familyId, ')
@@ -2696,8 +2622,6 @@ class Word extends DataClass implements Insertable<Word> {
     partOfSpeech,
     phonetic,
     meaning,
-    exampleEn,
-    exampleJa,
     partsNote,
     confusionNote,
     familyId,
@@ -2720,8 +2644,6 @@ class Word extends DataClass implements Insertable<Word> {
           other.partOfSpeech == this.partOfSpeech &&
           other.phonetic == this.phonetic &&
           other.meaning == this.meaning &&
-          other.exampleEn == this.exampleEn &&
-          other.exampleJa == this.exampleJa &&
           other.partsNote == this.partsNote &&
           other.confusionNote == this.confusionNote &&
           other.familyId == this.familyId &&
@@ -2742,8 +2664,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
   final Value<String> partOfSpeech;
   final Value<String?> phonetic;
   final Value<String> meaning;
-  final Value<String?> exampleEn;
-  final Value<String?> exampleJa;
   final Value<String?> partsNote;
   final Value<String?> confusionNote;
   final Value<int?> familyId;
@@ -2762,8 +2682,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
     this.partOfSpeech = const Value.absent(),
     this.phonetic = const Value.absent(),
     this.meaning = const Value.absent(),
-    this.exampleEn = const Value.absent(),
-    this.exampleJa = const Value.absent(),
     this.partsNote = const Value.absent(),
     this.confusionNote = const Value.absent(),
     this.familyId = const Value.absent(),
@@ -2783,8 +2701,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
     required String partOfSpeech,
     this.phonetic = const Value.absent(),
     required String meaning,
-    this.exampleEn = const Value.absent(),
-    this.exampleJa = const Value.absent(),
     this.partsNote = const Value.absent(),
     this.confusionNote = const Value.absent(),
     this.familyId = const Value.absent(),
@@ -2806,8 +2722,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
     Expression<String>? partOfSpeech,
     Expression<String>? phonetic,
     Expression<String>? meaning,
-    Expression<String>? exampleEn,
-    Expression<String>? exampleJa,
     Expression<String>? partsNote,
     Expression<String>? confusionNote,
     Expression<int>? familyId,
@@ -2827,8 +2741,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
       if (partOfSpeech != null) 'part_of_speech': partOfSpeech,
       if (phonetic != null) 'phonetic': phonetic,
       if (meaning != null) 'meaning': meaning,
-      if (exampleEn != null) 'example_en': exampleEn,
-      if (exampleJa != null) 'example_ja': exampleJa,
       if (partsNote != null) 'parts_note': partsNote,
       if (confusionNote != null) 'confusion_note': confusionNote,
       if (familyId != null) 'family_id': familyId,
@@ -2850,8 +2762,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
     Value<String>? partOfSpeech,
     Value<String?>? phonetic,
     Value<String>? meaning,
-    Value<String?>? exampleEn,
-    Value<String?>? exampleJa,
     Value<String?>? partsNote,
     Value<String?>? confusionNote,
     Value<int?>? familyId,
@@ -2871,8 +2781,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
       partOfSpeech: partOfSpeech ?? this.partOfSpeech,
       phonetic: phonetic ?? this.phonetic,
       meaning: meaning ?? this.meaning,
-      exampleEn: exampleEn ?? this.exampleEn,
-      exampleJa: exampleJa ?? this.exampleJa,
       partsNote: partsNote ?? this.partsNote,
       confusionNote: confusionNote ?? this.confusionNote,
       familyId: familyId ?? this.familyId,
@@ -2905,12 +2813,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
     }
     if (meaning.present) {
       map['meaning'] = Variable<String>(meaning.value);
-    }
-    if (exampleEn.present) {
-      map['example_en'] = Variable<String>(exampleEn.value);
-    }
-    if (exampleJa.present) {
-      map['example_ja'] = Variable<String>(exampleJa.value);
     }
     if (partsNote.present) {
       map['parts_note'] = Variable<String>(partsNote.value);
@@ -2959,8 +2861,6 @@ class WordsCompanion extends UpdateCompanion<Word> {
           ..write('partOfSpeech: $partOfSpeech, ')
           ..write('phonetic: $phonetic, ')
           ..write('meaning: $meaning, ')
-          ..write('exampleEn: $exampleEn, ')
-          ..write('exampleJa: $exampleJa, ')
           ..write('partsNote: $partsNote, ')
           ..write('confusionNote: $confusionNote, ')
           ..write('familyId: $familyId, ')
@@ -2973,6 +2873,421 @@ class WordsCompanion extends UpdateCompanion<Word> {
           ..write('isExcluded: $isExcluded, ')
           ..write('createdAt: $createdAt, ')
           ..write('updatedAt: $updatedAt')
+          ..write(')'))
+        .toString();
+  }
+}
+
+class $WordExamplesTable extends WordExamples
+    with TableInfo<$WordExamplesTable, WordExample> {
+  @override
+  final GeneratedDatabase attachedDatabase;
+  final String? _alias;
+  $WordExamplesTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _idMeta = const VerificationMeta('id');
+  @override
+  late final GeneratedColumn<int> id = GeneratedColumn<int>(
+    'id',
+    aliasedName,
+    false,
+    hasAutoIncrement: true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'PRIMARY KEY AUTOINCREMENT',
+    ),
+  );
+  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
+  @override
+  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
+    'word_id',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: true,
+    defaultConstraints: GeneratedColumn.constraintIsAlways(
+      'REFERENCES words (id) ON DELETE CASCADE',
+    ),
+  );
+  static const VerificationMeta _exampleEnMeta = const VerificationMeta(
+    'exampleEn',
+  );
+  @override
+  late final GeneratedColumn<String> exampleEn = GeneratedColumn<String>(
+    'example_en',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _exampleJaMeta = const VerificationMeta(
+    'exampleJa',
+  );
+  @override
+  late final GeneratedColumn<String> exampleJa = GeneratedColumn<String>(
+    'example_ja',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _sourcePresetIdMeta = const VerificationMeta(
+    'sourcePresetId',
+  );
+  @override
+  late final GeneratedColumn<String> sourcePresetId = GeneratedColumn<String>(
+    'source_preset_id',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _sortOrderMeta = const VerificationMeta(
+    'sortOrder',
+  );
+  @override
+  late final GeneratedColumn<int> sortOrder = GeneratedColumn<int>(
+    'sort_order',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    wordId,
+    exampleEn,
+    exampleJa,
+    sourcePresetId,
+    sortOrder,
+  ];
+  @override
+  String get aliasedName => _alias ?? actualTableName;
+  @override
+  String get actualTableName => $name;
+  static const String $name = 'word_examples';
+  @override
+  VerificationContext validateIntegrity(
+    Insertable<WordExample> instance, {
+    bool isInserting = false,
+  }) {
+    final context = VerificationContext();
+    final data = instance.toColumns(true);
+    if (data.containsKey('id')) {
+      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
+    }
+    if (data.containsKey('word_id')) {
+      context.handle(
+        _wordIdMeta,
+        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_wordIdMeta);
+    }
+    if (data.containsKey('example_en')) {
+      context.handle(
+        _exampleEnMeta,
+        exampleEn.isAcceptableOrUnknown(data['example_en']!, _exampleEnMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_exampleEnMeta);
+    }
+    if (data.containsKey('example_ja')) {
+      context.handle(
+        _exampleJaMeta,
+        exampleJa.isAcceptableOrUnknown(data['example_ja']!, _exampleJaMeta),
+      );
+    } else if (isInserting) {
+      context.missing(_exampleJaMeta);
+    }
+    if (data.containsKey('source_preset_id')) {
+      context.handle(
+        _sourcePresetIdMeta,
+        sourcePresetId.isAcceptableOrUnknown(
+          data['source_preset_id']!,
+          _sourcePresetIdMeta,
+        ),
+      );
+    }
+    if (data.containsKey('sort_order')) {
+      context.handle(
+        _sortOrderMeta,
+        sortOrder.isAcceptableOrUnknown(data['sort_order']!, _sortOrderMeta),
+      );
+    }
+    return context;
+  }
+
+  @override
+  Set<GeneratedColumn> get $primaryKey => {id};
+  @override
+  WordExample map(Map<String, dynamic> data, {String? tablePrefix}) {
+    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
+    return WordExample(
+      id: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}id'],
+      )!,
+      wordId: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}word_id'],
+      )!,
+      exampleEn: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}example_en'],
+      )!,
+      exampleJa: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}example_ja'],
+      )!,
+      sourcePresetId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}source_preset_id'],
+      ),
+      sortOrder: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}sort_order'],
+      )!,
+    );
+  }
+
+  @override
+  $WordExamplesTable createAlias(String alias) {
+    return $WordExamplesTable(attachedDatabase, alias);
+  }
+}
+
+class WordExample extends DataClass implements Insertable<WordExample> {
+  final int id;
+  final int wordId;
+
+  /// 英語例文（マイ単語では「見つけた文」）。
+  final String exampleEn;
+
+  /// 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ。
+  final String exampleJa;
+
+  /// どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null。
+  final String? sourcePresetId;
+
+  /// 表示順。
+  final int sortOrder;
+  const WordExample({
+    required this.id,
+    required this.wordId,
+    required this.exampleEn,
+    required this.exampleJa,
+    this.sourcePresetId,
+    required this.sortOrder,
+  });
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    map['id'] = Variable<int>(id);
+    map['word_id'] = Variable<int>(wordId);
+    map['example_en'] = Variable<String>(exampleEn);
+    map['example_ja'] = Variable<String>(exampleJa);
+    if (!nullToAbsent || sourcePresetId != null) {
+      map['source_preset_id'] = Variable<String>(sourcePresetId);
+    }
+    map['sort_order'] = Variable<int>(sortOrder);
+    return map;
+  }
+
+  WordExamplesCompanion toCompanion(bool nullToAbsent) {
+    return WordExamplesCompanion(
+      id: Value(id),
+      wordId: Value(wordId),
+      exampleEn: Value(exampleEn),
+      exampleJa: Value(exampleJa),
+      sourcePresetId: sourcePresetId == null && nullToAbsent
+          ? const Value.absent()
+          : Value(sourcePresetId),
+      sortOrder: Value(sortOrder),
+    );
+  }
+
+  factory WordExample.fromJson(
+    Map<String, dynamic> json, {
+    ValueSerializer? serializer,
+  }) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return WordExample(
+      id: serializer.fromJson<int>(json['id']),
+      wordId: serializer.fromJson<int>(json['wordId']),
+      exampleEn: serializer.fromJson<String>(json['exampleEn']),
+      exampleJa: serializer.fromJson<String>(json['exampleJa']),
+      sourcePresetId: serializer.fromJson<String?>(json['sourcePresetId']),
+      sortOrder: serializer.fromJson<int>(json['sortOrder']),
+    );
+  }
+  @override
+  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
+    serializer ??= driftRuntimeOptions.defaultSerializer;
+    return <String, dynamic>{
+      'id': serializer.toJson<int>(id),
+      'wordId': serializer.toJson<int>(wordId),
+      'exampleEn': serializer.toJson<String>(exampleEn),
+      'exampleJa': serializer.toJson<String>(exampleJa),
+      'sourcePresetId': serializer.toJson<String?>(sourcePresetId),
+      'sortOrder': serializer.toJson<int>(sortOrder),
+    };
+  }
+
+  WordExample copyWith({
+    int? id,
+    int? wordId,
+    String? exampleEn,
+    String? exampleJa,
+    Value<String?> sourcePresetId = const Value.absent(),
+    int? sortOrder,
+  }) => WordExample(
+    id: id ?? this.id,
+    wordId: wordId ?? this.wordId,
+    exampleEn: exampleEn ?? this.exampleEn,
+    exampleJa: exampleJa ?? this.exampleJa,
+    sourcePresetId: sourcePresetId.present
+        ? sourcePresetId.value
+        : this.sourcePresetId,
+    sortOrder: sortOrder ?? this.sortOrder,
+  );
+  WordExample copyWithCompanion(WordExamplesCompanion data) {
+    return WordExample(
+      id: data.id.present ? data.id.value : this.id,
+      wordId: data.wordId.present ? data.wordId.value : this.wordId,
+      exampleEn: data.exampleEn.present ? data.exampleEn.value : this.exampleEn,
+      exampleJa: data.exampleJa.present ? data.exampleJa.value : this.exampleJa,
+      sourcePresetId: data.sourcePresetId.present
+          ? data.sourcePresetId.value
+          : this.sourcePresetId,
+      sortOrder: data.sortOrder.present ? data.sortOrder.value : this.sortOrder,
+    );
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('WordExample(')
+          ..write('id: $id, ')
+          ..write('wordId: $wordId, ')
+          ..write('exampleEn: $exampleEn, ')
+          ..write('exampleJa: $exampleJa, ')
+          ..write('sourcePresetId: $sourcePresetId, ')
+          ..write('sortOrder: $sortOrder')
+          ..write(')'))
+        .toString();
+  }
+
+  @override
+  int get hashCode =>
+      Object.hash(id, wordId, exampleEn, exampleJa, sourcePresetId, sortOrder);
+  @override
+  bool operator ==(Object other) =>
+      identical(this, other) ||
+      (other is WordExample &&
+          other.id == this.id &&
+          other.wordId == this.wordId &&
+          other.exampleEn == this.exampleEn &&
+          other.exampleJa == this.exampleJa &&
+          other.sourcePresetId == this.sourcePresetId &&
+          other.sortOrder == this.sortOrder);
+}
+
+class WordExamplesCompanion extends UpdateCompanion<WordExample> {
+  final Value<int> id;
+  final Value<int> wordId;
+  final Value<String> exampleEn;
+  final Value<String> exampleJa;
+  final Value<String?> sourcePresetId;
+  final Value<int> sortOrder;
+  const WordExamplesCompanion({
+    this.id = const Value.absent(),
+    this.wordId = const Value.absent(),
+    this.exampleEn = const Value.absent(),
+    this.exampleJa = const Value.absent(),
+    this.sourcePresetId = const Value.absent(),
+    this.sortOrder = const Value.absent(),
+  });
+  WordExamplesCompanion.insert({
+    this.id = const Value.absent(),
+    required int wordId,
+    required String exampleEn,
+    required String exampleJa,
+    this.sourcePresetId = const Value.absent(),
+    this.sortOrder = const Value.absent(),
+  }) : wordId = Value(wordId),
+       exampleEn = Value(exampleEn),
+       exampleJa = Value(exampleJa);
+  static Insertable<WordExample> custom({
+    Expression<int>? id,
+    Expression<int>? wordId,
+    Expression<String>? exampleEn,
+    Expression<String>? exampleJa,
+    Expression<String>? sourcePresetId,
+    Expression<int>? sortOrder,
+  }) {
+    return RawValuesInsertable({
+      if (id != null) 'id': id,
+      if (wordId != null) 'word_id': wordId,
+      if (exampleEn != null) 'example_en': exampleEn,
+      if (exampleJa != null) 'example_ja': exampleJa,
+      if (sourcePresetId != null) 'source_preset_id': sourcePresetId,
+      if (sortOrder != null) 'sort_order': sortOrder,
+    });
+  }
+
+  WordExamplesCompanion copyWith({
+    Value<int>? id,
+    Value<int>? wordId,
+    Value<String>? exampleEn,
+    Value<String>? exampleJa,
+    Value<String?>? sourcePresetId,
+    Value<int>? sortOrder,
+  }) {
+    return WordExamplesCompanion(
+      id: id ?? this.id,
+      wordId: wordId ?? this.wordId,
+      exampleEn: exampleEn ?? this.exampleEn,
+      exampleJa: exampleJa ?? this.exampleJa,
+      sourcePresetId: sourcePresetId ?? this.sourcePresetId,
+      sortOrder: sortOrder ?? this.sortOrder,
+    );
+  }
+
+  @override
+  Map<String, Expression> toColumns(bool nullToAbsent) {
+    final map = <String, Expression>{};
+    if (id.present) {
+      map['id'] = Variable<int>(id.value);
+    }
+    if (wordId.present) {
+      map['word_id'] = Variable<int>(wordId.value);
+    }
+    if (exampleEn.present) {
+      map['example_en'] = Variable<String>(exampleEn.value);
+    }
+    if (exampleJa.present) {
+      map['example_ja'] = Variable<String>(exampleJa.value);
+    }
+    if (sourcePresetId.present) {
+      map['source_preset_id'] = Variable<String>(sourcePresetId.value);
+    }
+    if (sortOrder.present) {
+      map['sort_order'] = Variable<int>(sortOrder.value);
+    }
+    return map;
+  }
+
+  @override
+  String toString() {
+    return (StringBuffer('WordExamplesCompanion(')
+          ..write('id: $id, ')
+          ..write('wordId: $wordId, ')
+          ..write('exampleEn: $exampleEn, ')
+          ..write('exampleJa: $exampleJa, ')
+          ..write('sourcePresetId: $sourcePresetId, ')
+          ..write('sortOrder: $sortOrder')
           ..write(')'))
         .toString();
   }
@@ -10399,6 +10714,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $ProfilesTable profiles = $ProfilesTable(this);
   late final $WordFamiliesTable wordFamilies = $WordFamiliesTable(this);
   late final $WordsTable words = $WordsTable(this);
+  late final $WordExamplesTable wordExamples = $WordExamplesTable(this);
   late final $WordbooksTable wordbooks = $WordbooksTable(this);
   late final $WordbookEntriesTable wordbookEntries = $WordbookEntriesTable(
     this,
@@ -10443,6 +10759,18 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final Index wordsPresetId = Index(
     'words_preset_id',
     'CREATE INDEX words_preset_id ON words (preset_id)',
+  );
+  late final Index wordExamplesSourceUnique = Index(
+    'word_examples_source_unique',
+    'CREATE UNIQUE INDEX word_examples_source_unique ON word_examples (word_id, source_preset_id) WHERE source_preset_id IS NOT NULL',
+  );
+  late final Index wordExamplesUserUnique = Index(
+    'word_examples_user_unique',
+    'CREATE UNIQUE INDEX word_examples_user_unique ON word_examples (word_id) WHERE source_preset_id IS NULL',
+  );
+  late final Index wordExamplesWordId = Index(
+    'word_examples_word_id',
+    'CREATE INDEX word_examples_word_id ON word_examples (word_id)',
   );
   late final Index wordbooksPresetId = Index(
     'wordbooks_preset_id',
@@ -10513,6 +10841,7 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     profiles,
     wordFamilies,
     words,
+    wordExamples,
     wordbooks,
     wordbookEntries,
     wordParts,
@@ -10534,6 +10863,9 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     wordsOwnerProfileId,
     wordsFamilyId,
     wordsPresetId,
+    wordExamplesSourceUnique,
+    wordExamplesUserUnique,
+    wordExamplesWordId,
     wordbooksPresetId,
     wordbookEntriesWordId,
     wordPartsFormType,
@@ -10558,6 +10890,13 @@ abstract class _$AppDatabase extends GeneratedDatabase {
         limitUpdateKind: UpdateKind.delete,
       ),
       result: [TableUpdate('words', kind: UpdateKind.delete)],
+    ),
+    WritePropagation(
+      on: TableUpdateQuery.onTableName(
+        'words',
+        limitUpdateKind: UpdateKind.delete,
+      ),
+      result: [TableUpdate('word_examples', kind: UpdateKind.delete)],
     ),
     WritePropagation(
       on: TableUpdateQuery.onTableName(
@@ -12637,8 +12976,6 @@ typedef $$WordsTableCreateCompanionBuilder =
       required String partOfSpeech,
       Value<String?> phonetic,
       required String meaning,
-      Value<String?> exampleEn,
-      Value<String?> exampleJa,
       Value<String?> partsNote,
       Value<String?> confusionNote,
       Value<int?> familyId,
@@ -12659,8 +12996,6 @@ typedef $$WordsTableUpdateCompanionBuilder =
       Value<String> partOfSpeech,
       Value<String?> phonetic,
       Value<String> meaning,
-      Value<String?> exampleEn,
-      Value<String?> exampleJa,
       Value<String?> partsNote,
       Value<String?> confusionNote,
       Value<int?> familyId,
@@ -12710,6 +13045,24 @@ final class $$WordsTableReferences
     if (item == null) return manager;
     return ProcessedTableManager(
       manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+
+  static MultiTypedResultKey<$WordExamplesTable, List<WordExample>>
+  _wordExamplesRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
+    db.wordExamples,
+    aliasName: 'words__id__word_examples__word_id',
+  );
+
+  $$WordExamplesTableProcessedTableManager get wordExamplesRefs {
+    final manager = $$WordExamplesTableTableManager(
+      $_db,
+      $_db.wordExamples,
+    ).filter((f) => f.wordId.id.sqlEquals($_itemColumn<int>('id')!));
+
+    final cache = $_typedResult.readTableOrNull(_wordExamplesRefsTable($_db));
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: cache),
     );
   }
 
@@ -12881,16 +13234,6 @@ class $$WordsTableFilterComposer extends Composer<_$AppDatabase, $WordsTable> {
     builder: (column) => ColumnFilters(column),
   );
 
-  ColumnFilters<String> get exampleEn => $composableBuilder(
-    column: $table.exampleEn,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<String> get exampleJa => $composableBuilder(
-    column: $table.exampleJa,
-    builder: (column) => ColumnFilters(column),
-  );
-
   ColumnFilters<String> get partsNote => $composableBuilder(
     column: $table.partsNote,
     builder: (column) => ColumnFilters(column),
@@ -12985,6 +13328,31 @@ class $$WordsTableFilterComposer extends Composer<_$AppDatabase, $WordsTable> {
           ),
     );
     return composer;
+  }
+
+  Expression<bool> wordExamplesRefs(
+    Expression<bool> Function($$WordExamplesTableFilterComposer f) f,
+  ) {
+    final $$WordExamplesTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.wordExamples,
+      getReferencedColumn: (t) => t.wordId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$WordExamplesTableFilterComposer(
+            $db: $db,
+            $table: $db.wordExamples,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return f(composer);
   }
 
   Expression<bool> wordbookEntriesRefs(
@@ -13197,16 +13565,6 @@ class $$WordsTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
-  ColumnOrderings<String> get exampleEn => $composableBuilder(
-    column: $table.exampleEn,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<String> get exampleJa => $composableBuilder(
-    column: $table.exampleJa,
-    builder: (column) => ColumnOrderings(column),
-  );
-
   ColumnOrderings<String> get partsNote => $composableBuilder(
     column: $table.partsNote,
     builder: (column) => ColumnOrderings(column),
@@ -13330,12 +13688,6 @@ class $$WordsTableAnnotationComposer
   GeneratedColumn<String> get meaning =>
       $composableBuilder(column: $table.meaning, builder: (column) => column);
 
-  GeneratedColumn<String> get exampleEn =>
-      $composableBuilder(column: $table.exampleEn, builder: (column) => column);
-
-  GeneratedColumn<String> get exampleJa =>
-      $composableBuilder(column: $table.exampleJa, builder: (column) => column);
-
   GeneratedColumn<String> get partsNote =>
       $composableBuilder(column: $table.partsNote, builder: (column) => column);
 
@@ -13416,6 +13768,31 @@ class $$WordsTableAnnotationComposer
           ),
     );
     return composer;
+  }
+
+  Expression<T> wordExamplesRefs<T extends Object>(
+    Expression<T> Function($$WordExamplesTableAnnotationComposer a) f,
+  ) {
+    final $$WordExamplesTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.wordExamples,
+      getReferencedColumn: (t) => t.wordId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$WordExamplesTableAnnotationComposer(
+            $db: $db,
+            $table: $db.wordExamples,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return f(composer);
   }
 
   Expression<T> wordbookEntriesRefs<T extends Object>(
@@ -13612,6 +13989,7 @@ class $$WordsTableTableManager
           PrefetchHooks Function({
             bool familyId,
             bool ownerProfileId,
+            bool wordExamplesRefs,
             bool wordbookEntriesRefs,
             bool wordPartLinksRefs,
             bool wordReviewsRefs,
@@ -13639,8 +14017,6 @@ class $$WordsTableTableManager
                 Value<String> partOfSpeech = const Value.absent(),
                 Value<String?> phonetic = const Value.absent(),
                 Value<String> meaning = const Value.absent(),
-                Value<String?> exampleEn = const Value.absent(),
-                Value<String?> exampleJa = const Value.absent(),
                 Value<String?> partsNote = const Value.absent(),
                 Value<String?> confusionNote = const Value.absent(),
                 Value<int?> familyId = const Value.absent(),
@@ -13659,8 +14035,6 @@ class $$WordsTableTableManager
                 partOfSpeech: partOfSpeech,
                 phonetic: phonetic,
                 meaning: meaning,
-                exampleEn: exampleEn,
-                exampleJa: exampleJa,
                 partsNote: partsNote,
                 confusionNote: confusionNote,
                 familyId: familyId,
@@ -13681,8 +14055,6 @@ class $$WordsTableTableManager
                 required String partOfSpeech,
                 Value<String?> phonetic = const Value.absent(),
                 required String meaning,
-                Value<String?> exampleEn = const Value.absent(),
-                Value<String?> exampleJa = const Value.absent(),
                 Value<String?> partsNote = const Value.absent(),
                 Value<String?> confusionNote = const Value.absent(),
                 Value<int?> familyId = const Value.absent(),
@@ -13701,8 +14073,6 @@ class $$WordsTableTableManager
                 partOfSpeech: partOfSpeech,
                 phonetic: phonetic,
                 meaning: meaning,
-                exampleEn: exampleEn,
-                exampleJa: exampleJa,
                 partsNote: partsNote,
                 confusionNote: confusionNote,
                 familyId: familyId,
@@ -13726,6 +14096,7 @@ class $$WordsTableTableManager
               ({
                 familyId = false,
                 ownerProfileId = false,
+                wordExamplesRefs = false,
                 wordbookEntriesRefs = false,
                 wordPartLinksRefs = false,
                 wordReviewsRefs = false,
@@ -13737,6 +14108,7 @@ class $$WordsTableTableManager
                 return PrefetchHooks(
                   db: db,
                   explicitlyWatchedTables: [
+                    if (wordExamplesRefs) db.wordExamples,
                     if (wordbookEntriesRefs) db.wordbookEntries,
                     if (wordPartLinksRefs) db.wordPartLinks,
                     if (wordReviewsRefs) db.wordReviews,
@@ -13792,6 +14164,27 @@ class $$WordsTableTableManager
                       },
                   getPrefetchedDataCallback: (items) async {
                     return [
+                      if (wordExamplesRefs)
+                        await $_getPrefetchedData<
+                          Word,
+                          $WordsTable,
+                          WordExample
+                        >(
+                          currentTable: table,
+                          referencedTable: $$WordsTableReferences
+                              ._wordExamplesRefsTable(db),
+                          managerFromTypedResult: (p0) =>
+                              $$WordsTableReferences(
+                                db,
+                                table,
+                                p0,
+                              ).wordExamplesRefs,
+                          referencedItemsForCurrentItem:
+                              (item, referencedItems) => referencedItems.where(
+                                (e) => e.wordId == item.id,
+                              ),
+                          typedResults: items,
+                        ),
                       if (wordbookEntriesRefs)
                         await $_getPrefetchedData<
                           Word,
@@ -13958,6 +14351,7 @@ typedef $$WordsTableProcessedTableManager =
       PrefetchHooks Function({
         bool familyId,
         bool ownerProfileId,
+        bool wordExamplesRefs,
         bool wordbookEntriesRefs,
         bool wordPartLinksRefs,
         bool wordReviewsRefs,
@@ -13966,6 +14360,338 @@ typedef $$WordsTableProcessedTableManager =
         bool learningLogsRefs,
         bool wordAudiosRefs,
       })
+    >;
+typedef $$WordExamplesTableCreateCompanionBuilder =
+    WordExamplesCompanion Function({
+      Value<int> id,
+      required int wordId,
+      required String exampleEn,
+      required String exampleJa,
+      Value<String?> sourcePresetId,
+      Value<int> sortOrder,
+    });
+typedef $$WordExamplesTableUpdateCompanionBuilder =
+    WordExamplesCompanion Function({
+      Value<int> id,
+      Value<int> wordId,
+      Value<String> exampleEn,
+      Value<String> exampleJa,
+      Value<String?> sourcePresetId,
+      Value<int> sortOrder,
+    });
+
+final class $$WordExamplesTableReferences
+    extends BaseReferences<_$AppDatabase, $WordExamplesTable, WordExample> {
+  $$WordExamplesTableReferences(super.$_db, super.$_table, super.$_typedResult);
+
+  static $WordsTable _wordIdTable(_$AppDatabase db) =>
+      db.words.createAlias('word_examples__word_id__words__id');
+
+  $$WordsTableProcessedTableManager get wordId {
+    final $_column = $_itemColumn<int>('word_id')!;
+
+    final manager = $$WordsTableTableManager(
+      $_db,
+      $_db.words,
+    ).filter((f) => f.id.sqlEquals($_column));
+    final item = $_typedResult.readTableOrNull(_wordIdTable($_db));
+    if (item == null) return manager;
+    return ProcessedTableManager(
+      manager.$state.copyWith(prefetchedData: [item]),
+    );
+  }
+}
+
+class $$WordExamplesTableFilterComposer
+    extends Composer<_$AppDatabase, $WordExamplesTable> {
+  $$WordExamplesTableFilterComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnFilters<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get exampleEn => $composableBuilder(
+    column: $table.exampleEn,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get exampleJa => $composableBuilder(
+    column: $table.exampleJa,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get sourcePresetId => $composableBuilder(
+    column: $table.sourcePresetId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get sortOrder => $composableBuilder(
+    column: $table.sortOrder,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$WordsTableFilterComposer get wordId {
+    final $$WordsTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.wordId,
+      referencedTable: $db.words,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$WordsTableFilterComposer(
+            $db: $db,
+            $table: $db.words,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$WordExamplesTableOrderingComposer
+    extends Composer<_$AppDatabase, $WordExamplesTable> {
+  $$WordExamplesTableOrderingComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  ColumnOrderings<int> get id => $composableBuilder(
+    column: $table.id,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get exampleEn => $composableBuilder(
+    column: $table.exampleEn,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get exampleJa => $composableBuilder(
+    column: $table.exampleJa,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get sourcePresetId => $composableBuilder(
+    column: $table.sourcePresetId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get sortOrder => $composableBuilder(
+    column: $table.sortOrder,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$WordsTableOrderingComposer get wordId {
+    final $$WordsTableOrderingComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.wordId,
+      referencedTable: $db.words,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$WordsTableOrderingComposer(
+            $db: $db,
+            $table: $db.words,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$WordExamplesTableAnnotationComposer
+    extends Composer<_$AppDatabase, $WordExamplesTable> {
+  $$WordExamplesTableAnnotationComposer({
+    required super.$db,
+    required super.$table,
+    super.joinBuilder,
+    super.$addJoinBuilderToRootComposer,
+    super.$removeJoinBuilderFromRootComposer,
+  });
+  GeneratedColumn<int> get id =>
+      $composableBuilder(column: $table.id, builder: (column) => column);
+
+  GeneratedColumn<String> get exampleEn =>
+      $composableBuilder(column: $table.exampleEn, builder: (column) => column);
+
+  GeneratedColumn<String> get exampleJa =>
+      $composableBuilder(column: $table.exampleJa, builder: (column) => column);
+
+  GeneratedColumn<String> get sourcePresetId => $composableBuilder(
+    column: $table.sourcePresetId,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get sortOrder =>
+      $composableBuilder(column: $table.sortOrder, builder: (column) => column);
+
+  $$WordsTableAnnotationComposer get wordId {
+    final $$WordsTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.wordId,
+      referencedTable: $db.words,
+      getReferencedColumn: (t) => t.id,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$WordsTableAnnotationComposer(
+            $db: $db,
+            $table: $db.words,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
+                $removeJoinBuilderFromRootComposer,
+          ),
+    );
+    return composer;
+  }
+}
+
+class $$WordExamplesTableTableManager
+    extends
+        RootTableManager<
+          _$AppDatabase,
+          $WordExamplesTable,
+          WordExample,
+          $$WordExamplesTableFilterComposer,
+          $$WordExamplesTableOrderingComposer,
+          $$WordExamplesTableAnnotationComposer,
+          $$WordExamplesTableCreateCompanionBuilder,
+          $$WordExamplesTableUpdateCompanionBuilder,
+          (WordExample, $$WordExamplesTableReferences),
+          WordExample,
+          PrefetchHooks Function({bool wordId})
+        > {
+  $$WordExamplesTableTableManager(_$AppDatabase db, $WordExamplesTable table)
+    : super(
+        TableManagerState(
+          db: db,
+          table: table,
+          createFilteringComposer: () =>
+              $$WordExamplesTableFilterComposer($db: db, $table: table),
+          createOrderingComposer: () =>
+              $$WordExamplesTableOrderingComposer($db: db, $table: table),
+          createComputedFieldComposer: () =>
+              $$WordExamplesTableAnnotationComposer($db: db, $table: table),
+          updateCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                Value<int> wordId = const Value.absent(),
+                Value<String> exampleEn = const Value.absent(),
+                Value<String> exampleJa = const Value.absent(),
+                Value<String?> sourcePresetId = const Value.absent(),
+                Value<int> sortOrder = const Value.absent(),
+              }) => WordExamplesCompanion(
+                id: id,
+                wordId: wordId,
+                exampleEn: exampleEn,
+                exampleJa: exampleJa,
+                sourcePresetId: sourcePresetId,
+                sortOrder: sortOrder,
+              ),
+          createCompanionCallback:
+              ({
+                Value<int> id = const Value.absent(),
+                required int wordId,
+                required String exampleEn,
+                required String exampleJa,
+                Value<String?> sourcePresetId = const Value.absent(),
+                Value<int> sortOrder = const Value.absent(),
+              }) => WordExamplesCompanion.insert(
+                id: id,
+                wordId: wordId,
+                exampleEn: exampleEn,
+                exampleJa: exampleJa,
+                sourcePresetId: sourcePresetId,
+                sortOrder: sortOrder,
+              ),
+          withReferenceMapper: (p0) => p0
+              .map(
+                (e) => (
+                  e.readTable(table),
+                  $$WordExamplesTableReferences(db, table, e),
+                ),
+              )
+              .toList(),
+          prefetchHooksCallback: ({wordId = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [],
+              addJoins:
+                  <
+                    T extends TableManagerState<
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic,
+                      dynamic
+                    >
+                  >(state) {
+                    if (wordId) {
+                      state =
+                          state.withJoin(
+                                currentTable: table,
+                                currentColumn: table.wordId,
+                                referencedTable: $$WordExamplesTableReferences
+                                    ._wordIdTable(db),
+                                referencedColumn: $$WordExamplesTableReferences
+                                    ._wordIdTable(db)
+                                    .id,
+                              )
+                              as T;
+                    }
+
+                    return state;
+                  },
+              getPrefetchedDataCallback: (items) async {
+                return [];
+              },
+            );
+          },
+        ),
+      );
+}
+
+typedef $$WordExamplesTableProcessedTableManager =
+    ProcessedTableManager<
+      _$AppDatabase,
+      $WordExamplesTable,
+      WordExample,
+      $$WordExamplesTableFilterComposer,
+      $$WordExamplesTableOrderingComposer,
+      $$WordExamplesTableAnnotationComposer,
+      $$WordExamplesTableCreateCompanionBuilder,
+      $$WordExamplesTableUpdateCompanionBuilder,
+      (WordExample, $$WordExamplesTableReferences),
+      WordExample,
+      PrefetchHooks Function({bool wordId})
     >;
 typedef $$WordbooksTableCreateCompanionBuilder =
     WordbooksCompanion Function({
@@ -20583,6 +21309,8 @@ class $AppDatabaseManager {
       $$WordFamiliesTableTableManager(_db, _db.wordFamilies);
   $$WordsTableTableManager get words =>
       $$WordsTableTableManager(_db, _db.words);
+  $$WordExamplesTableTableManager get wordExamples =>
+      $$WordExamplesTableTableManager(_db, _db.wordExamples);
   $$WordbooksTableTableManager get wordbooks =>
       $$WordbooksTableTableManager(_db, _db.wordbooks);
   $$WordbookEntriesTableTableManager get wordbookEntries =>

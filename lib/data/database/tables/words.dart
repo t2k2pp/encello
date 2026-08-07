@@ -18,6 +18,9 @@ class WordFamilies extends Table {
 /// 単語は**単語帳に属さない独立したマスタ**にする。同じ語が複数の単語帳に載っていても
 /// 実体は1つで、学習状態も（学習者ごとに）1つになる。
 ///
+/// 例文は `words` に持たない。載っている単語帳によって適切な例文が違うため、
+/// [WordExamples] に1対多で分ける（[Docs/03_data_model.md] §2.4）。
+///
 /// 一意制約は「共有の語は全体で1つ」「マイ単語は人ごとに独立」の2本立て。
 /// SQLite の UNIQUE は NULL 同士を別物として扱うため、1本の
 /// `UNIQUE(headword, partOfSpeech, ownerProfileId)` では共有の語の重複を防げない。
@@ -48,10 +51,6 @@ class Words extends Table {
 
   /// 日本語訳。`isDraft = true` のときだけ空文字を許す。
   TextColumn get meaning => text()();
-
-  /// 英語例文（マイ単語では「見つけた文」）。
-  TextColumn get exampleEn => text().nullable()();
-  TextColumn get exampleJa => text().nullable()();
 
   /// 語のつくりの説明1行（[Docs/06_features/word_parts.md] §3.1）。
   TextColumn get partsNote => text().nullable()();
@@ -89,4 +88,43 @@ class Words extends Table {
 
   DateTimeColumn get createdAt => dateTime().withDefault(currentDateAndTime)();
   DateTimeColumn get updatedAt => dateTime().withDefault(currentDateAndTime)();
+}
+
+/// 例文（[Docs/03_data_model.md] §2.4）。
+///
+/// 同じ語でも、載っている単語帳によって適切な例文は違う（`contract` は TOEIC なら
+/// ビジネスの文、高校英単語なら一般的な文）。一方で語そのものは1行のままにしないと
+/// 学習状態が単語帳ごとに割れる。そこで語は1行、例文だけを1対多にする。
+///
+/// 一意制約は `UNIQUE(wordId, sourcePresetId)`（1つの単語帳が同じ語に2つの例文を
+/// 持つことはない）。ただし SQLite の UNIQUE は NULL 同士を別物として扱うため、
+/// ユーザーが書いた文（`sourcePresetId IS NULL`）は1本の索引では重複を防げない。
+/// [Words] と同じ理由で部分インデックスを2本に分ける。
+@TableIndex.sql('''
+  CREATE UNIQUE INDEX word_examples_source_unique
+    ON word_examples (word_id, source_preset_id)
+    WHERE source_preset_id IS NOT NULL
+''')
+@TableIndex.sql('''
+  CREATE UNIQUE INDEX word_examples_user_unique ON word_examples (word_id)
+    WHERE source_preset_id IS NULL
+''')
+@TableIndex(name: 'word_examples_word_id', columns: {#wordId})
+class WordExamples extends Table {
+  IntColumn get id => integer().autoIncrement()();
+
+  IntColumn get wordId =>
+      integer().references(Words, #id, onDelete: KeyAction.cascade)();
+
+  /// 英語例文（マイ単語では「見つけた文」）。
+  TextColumn get exampleEn => text()();
+
+  /// 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ。
+  TextColumn get exampleJa => text()();
+
+  /// どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null。
+  TextColumn get sourcePresetId => text().nullable()();
+
+  /// 表示順。
+  IntColumn get sortOrder => integer().withDefault(const Constant(0))();
 }

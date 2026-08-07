@@ -158,12 +158,18 @@ erDiagram
 | `exampleEn` | text | not null | 英語例文（マイ単語では「見つけた文」） |
 | `exampleJa` | text | not null | 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ |
 | `sourcePresetId` | text | nullable | どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null |
-| `sortOrder` | int | not null | 表示順 |
+| `sortOrder` | int | not null | 表示順。**ユーザーが書いた文は 0、プリセット由来は `wordbooks.sortOrder`**（易→難） |
 
-- **一意制約**: `UNIQUE(wordId, sourcePresetId)`。
-  1つの単語帳が同じ語に2つの例文を持つことはない。
-  `sourcePresetId = null`（ユーザーの文）は SQLite の UNIQUE が NULL 同士を別物として扱うため、
-  部分インデックスで `UNIQUE(wordId) WHERE source_preset_id IS NULL` を別に張る。
+- **一意制約**: 部分ユニークインデックスを2本張る。
+  `UNIQUE(wordId, sourcePresetId) WHERE source_preset_id IS NOT NULL` と
+  `UNIQUE(wordId) WHERE source_preset_id IS NULL`。
+  1本の `UNIQUE(wordId, sourcePresetId)` にしないのは、SQLite の UNIQUE が NULL 同士を
+  別物として扱い、ユーザーの文が同じ語に何本でも入ってしまうため（`words` と同じ理由）。
+- **`sortOrder` の決め方**: ユーザーが自分で見つけた文を先頭に置き、
+  そのあとをやさしい単語帳の順に並べる。自分で書いた文はその人にとって文脈があり、
+  プリセットの例文より思い出す手がかりになるため。
+  値は単語帳の `sortOrder` をそのまま使う（`jhs_v1` = 10 … `toeic_basic_v1` = 60）ので、
+  単語帳を足しても採番をやり直さなくてよい。
 - **投入**: `SeedImporter` は `(wordId, sourcePresetId)` で upsert する。
   これにより**単語帳をまたいでも例文が互いを上書きしない**
   （この設計にする前は、`words` の単数列を最後に投入した単語帳が上書きしていた）。
@@ -403,7 +409,10 @@ String studyDateOf(DateTime local) {
 
 ## 9. マイグレーション
 
-- `schemaVersion` で管理し、`drift_dev` が生成するスキーマスナップショットに対して各版のテストを書く。
+- `schemaVersion` で管理する。
+  - **未整備**: 「`drift_dev` が生成するスキーマスナップショットに対して各版のテストを書く」と
+    決めてあるが、`drift_schemas/` はまだ無い。`schemaVersion = 2` への移行は
+    v1 相当の DDL を手で組んだ DB に対して確認した。M9 でスナップショットを導入する。
 - 破壊的変更（列の削除・型変更）は行わず、追加と移行で対応する。
   - **例外**: まだ配信していない版に限り、破壊的変更を許す。
     この方針は出荷済みの端末にあるデータを守るためのもので、守る対象が存在しないうちは、
@@ -435,7 +444,7 @@ JSON（`formatVersion: 1`）。詳細は [06_features/export_import.md]。
     }
   ],
   "wordbooks": [ { "presetId": "jhs_v1", "name": "中学英単語", "emoji": "🏫", "category": "juniorHigh", "words": ["apple:noun", "..."] } ],
-  "words": [ { "headword": "apple", "partOfSpeech": "noun", "meaning": "りんご", "phonetic": "/ˈæpl/", "familyBase": null, "parts": [] } ],
+  "words": [ { "headword": "apple", "partOfSpeech": "noun", "meaning": "りんご", "phonetic": "/ˈæpl/", "familyBase": null, "parts": [], "examples": [ { "en": "I ate an apple for breakfast.", "ja": "朝食にりんごを食べました。", "sourcePresetId": "jhs_v1" } ] } ],
   "wordParts": [ { "form": "port", "type": "root", "meaning": "運ぶ" } ],
   "wordFamilies": [ { "baseForm": "decide" } ]
 }
@@ -444,5 +453,8 @@ JSON（`formatVersion: 1`）。詳細は [06_features/export_import.md]。
 - 単語の参照は数値 id ではなく `headword` + `partOfSpeech` で行う。別端末で id が一致しないため。
 - プロファイルは `name` で解決する。同名が無ければインポート時に作る。
 - 語の部品は `(form, type)`、語族は `baseForm` で解決する。
+- 例文は `words[].examples` に全件入れる（§2.4）。`sourcePresetId` はそのまま持ち回る。
 - CSV エクスポートは単語帳単位で
   `headword,partOfSpeech,phonetic,meaning,exampleEn,exampleJa,level` の7列。学習状態は含まない。
+  **1語1行なので例文は1つだけ出す**。出すのは**その単語帳の例文**（無ければ `sortOrder` の先頭）。
+  CSV で取り込んだ例文は `sourcePresetId = null` で入る（取り込み先はユーザー単語帳のため）。
