@@ -133,7 +133,7 @@ final dueAt = base.add(Duration(days: interval.round()));
 | マスター (3) | `intervalDays >= 90` かつ `correctStreak >= 3` |
 
 `word_reviews.masteryLevel` は、学習状態を書き換える同一トランザクション内で必ずこの関数の結果に更新する
-（[03_data_model.md] §2.4）。
+（[03_data_model.md] §2.6）。
 
 ## 6. 出題キューの生成
 

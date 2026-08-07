@@ -1,6 +1,6 @@
 # 03. データモデル（Data Model）
 
-Drift（SQLite）で端末内に保存する。`schemaVersion = 1`。
+Drift（SQLite）で端末内に保存する。`schemaVersion = 2`。
 
 1台の端末を複数人で使うため、**単語そのものは全員で共有し、学習の記録は人ごとに分ける**
 （[06_features/profiles.md]）。学習設定・表示設定も `profiles` の列に持ち、
@@ -22,6 +22,7 @@ erDiagram
 
   wordbooks ||--o{ wordbook_entries : "含む"
   words ||--o{ wordbook_entries : "属する"
+  words ||--o{ word_examples : "例文"
   words ||--o{ word_part_links : "部品"
   word_parts ||--o{ word_part_links : "使われる"
   word_families ||--o{ words : "語族"
@@ -124,8 +125,6 @@ erDiagram
 | `partOfSpeech` | text | not null | `noun` / `verb` / `adjective` / `adverb` / `preposition` / `conjunction` / `pronoun` / `interjection` / `phrase` / `unknown` |
 | `phonetic` | text | nullable | 発音記号 |
 | `meaning` | text | not null | 日本語訳。`isDraft = true` のときだけ空文字を許す |
-| `exampleEn` | text | nullable | 英語例文（マイ単語では「見つけた文」） |
-| `exampleJa` | text | nullable | 例文の和訳 |
 | `partsNote` | text | nullable | 語のつくりの説明1行（[06_features/word_parts.md] §3.1） |
 | `confusionNote` | text | nullable | 取り違えやすい語との区別の覚え方 |
 | `familyId` | int | nullable, FK, index | 派生語ファミリー |
@@ -143,8 +142,40 @@ erDiagram
   マイ単語は人ごとに独立するので、兄と弟が同じ語を登録すれば2行になる
   （[06_features/my_words.md] §2）。
 - **プリセット語の復帰**: 編集前の値を DB に二重に持たず、`presetId` でアセットを引き直して戻す。
+- 例文は `words` に持たない。`word_examples` に分ける（§2.4）。
 
-### 2.4 `wordbook_entries`（所属）
+### 2.4 `word_examples`（例文）
+
+同じ語でも、載っている単語帳によって適切な例文は違う。
+`contract` は TOEIC ならビジネスの文、高校英単語なら一般的な文が読みやすい。
+一方で**語そのものは1行のまま**にしないと、学習状態が単語帳ごとに割れてしまう（§2.3）。
+そこで語は1行、例文だけを1対多にする。
+
+| 列 | 型 | 制約 | 説明 |
+|---|---|---|---|
+| `id` | int | PK, autoIncrement | |
+| `wordId` | int | not null, FK → `words.id`（cascade delete）, index | |
+| `exampleEn` | text | not null | 英語例文（マイ単語では「見つけた文」） |
+| `exampleJa` | text | not null | 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ |
+| `sourcePresetId` | text | nullable | どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null |
+| `sortOrder` | int | not null | 表示順 |
+
+- **一意制約**: `UNIQUE(wordId, sourcePresetId)`。
+  1つの単語帳が同じ語に2つの例文を持つことはない。
+  `sourcePresetId = null`（ユーザーの文）は SQLite の UNIQUE が NULL 同士を別物として扱うため、
+  部分インデックスで `UNIQUE(wordId) WHERE source_preset_id IS NULL` を別に張る。
+- **投入**: `SeedImporter` は `(wordId, sourcePresetId)` で upsert する。
+  これにより**単語帳をまたいでも例文が互いを上書きしない**
+  （この設計にする前は、`words` の単数列を最後に投入した単語帳が上書きしていた）。
+- **表示**:
+  - 単語詳細画面は全件を並べ、どの単語帳の例文かを添える。
+  - 学習画面は**学習中の単語帳の例文**を選ぶ。無ければ `sortOrder` の先頭。
+- `meaning` `phonetic` `level` は語の属性なので `words` に1つだけ持つ。
+  単語帳ごとに違う値を持たせない（同じ語の訳や難易度が単語帳で変わるのはおかしい）。
+  ソースデータ側で単語帳をまたいで一致させ、検証で守る
+  （[06_features/wordbooks.md] §3.3）。
+
+### 2.5 `wordbook_entries`（所属）
 
 | 列 | 型 | 制約 |
 |---|---|---|
@@ -154,7 +185,7 @@ erDiagram
 
 `wordId` に単独インデックスを張る（単語→所属単語帳の逆引き用）。
 
-### 2.5 `word_reviews`（学習状態）
+### 2.6 `word_reviews`（学習状態）
 
 | 列 | 型 | 制約 | 説明 |
 |---|---|---|---|
@@ -175,7 +206,7 @@ erDiagram
   導出は `Mastery.from(ReviewState)` 1か所だけが行い、同一トランザクションで必ず一緒に書き換える。
 - 行は**初めてその単語を解いたときに作る**。未学習語には行が無い。
 
-### 2.6 `part_reviews`（語の部品の学習状態）
+### 2.7 `part_reviews`（語の部品の学習状態）
 
 | 列 | 型 | 制約 |
 |---|---|---|
@@ -185,7 +216,7 @@ erDiagram
 
 `word_reviews` と同じ形にすることで、同一の `Sm2Scheduler` と `Mastery` を使い回す。
 
-### 2.7 `learning_logs`（解答履歴）
+### 2.8 `learning_logs`（解答履歴）
 
 | 列 | 型 | 制約 | 説明 |
 |---|---|---|---|
@@ -207,7 +238,7 @@ erDiagram
 `wordId` と `partId` はどちらか一方だけが非 null になる。
 両方 null、または両方非 null の行は作らない（リポジトリで保証する）。
 
-### 2.8 `study_sessions`（セッション）
+### 2.9 `study_sessions`（セッション）
 
 | 列 | 型 | 制約 | 説明 |
 |---|---|---|---|
@@ -220,7 +251,7 @@ erDiagram
 | `plannedCount` / `answeredCount` / `correctCount` / `xpEarned` | int | not null, default 0 | |
 | `avgReactionMs` | int | nullable | スピードモードでのみ。時間内正解のみの平均 |
 
-### 2.9 `daily_stats`（日次集計）
+### 2.10 `daily_stats`（日次集計）
 
 | 列 | 型 | 制約 | 説明 |
 |---|---|---|---|
@@ -232,7 +263,7 @@ erDiagram
 
 `learning_logs` から毎回集計せず、解答と同一トランザクションで積み上げる。
 
-### 2.10 `vocab_size_tests`（語彙力測定）
+### 2.11 `vocab_size_tests`（語彙力測定）
 
 | 列 | 型 | 説明 |
 |---|---|---|
@@ -244,7 +275,7 @@ erDiagram
 | `bandResults` | text | 帯ごとの補正済み正答率と出題数を JSON で |
 | `askedWordIds` | text | 出題した実在語の id（次回の重複回避用）を JSON で |
 
-### 2.11 `audio_packs` / `word_audios`（音声パック）
+### 2.12 `audio_packs` / `word_audios`（音声パック）
 
 [06_features/pronunciation.md] §3.1 が正本。
 
@@ -257,7 +288,7 @@ erDiagram
 `words` と同じく学習者間で共有する。どのパックを使うかの選択と音源の優先順位だけを
 `profiles` の列（`audioSource` / `audioPackIds`）に持つ。
 
-### 2.12 `word_parts` / `word_part_links`
+### 2.13 `word_parts` / `word_part_links`
 
 [06_features/word_parts.md] §2 が正本。
 
@@ -265,7 +296,7 @@ erDiagram
   `UNIQUE(form, type)`。
 - `word_part_links`: `wordId` / `partId`（複合PK）/ `position`。`partId` に単独インデックス。
 
-### 2.13 `word_families`
+### 2.14 `word_families`
 
 | 列 | 型 | 説明 |
 |---|---|---|
@@ -275,7 +306,7 @@ erDiagram
 
 所属は `words.familyId` で表す。
 
-### 2.14 `resolved_confusions`（解消した取り違え）
+### 2.15 `resolved_confusions`（解消した取り違え）
 
 | 列 | 型 | 説明 |
 |---|---|---|
@@ -283,7 +314,7 @@ erDiagram
 | `wordIdA` / `wordIdB` | int | PK, FK。**必ず `wordIdA < wordIdB` で正規化して保存する**（向きを持たせない） |
 | `resolvedAt` | datetime | |
 
-### 2.15 `achievements`（実績）
+### 2.16 `achievements`（実績）
 
 | 列 | 型 | 制約 |
 |---|---|---|
@@ -374,6 +405,11 @@ String studyDateOf(DateTime local) {
 
 - `schemaVersion` で管理し、`drift_dev` が生成するスキーマスナップショットに対して各版のテストを書く。
 - 破壊的変更（列の削除・型変更）は行わず、追加と移行で対応する。
+  - **例外**: まだ配信していない版に限り、破壊的変更を許す。
+    この方針は出荷済みの端末にあるデータを守るためのもので、守る対象が存在しないうちは、
+    使わない列を残す方が設計を濁す。
+    `schemaVersion = 2` で `words.exampleEn` / `exampleJa` を削除し `word_examples` に移したのが該当
+    （§2.4）。配信後はこの例外を使わない。
 - マイグレーションに失敗したら起動を中断し、エラーとエクスポート手順を表示する。DB を作り直さない。
 
 ## 10. エクスポート形式

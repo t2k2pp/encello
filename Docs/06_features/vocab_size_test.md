@@ -136,7 +136,7 @@ corrected = f < 1 ? clamp((h - f) / (1 - f), 0, 1) : 0
 
 ## 7. 記録
 
-`vocab_size_tests` テーブル（[03_data_model.md] §2.10）に1回1行。
+`vocab_size_tests` テーブル（[03_data_model.md] §2.11）に1回1行。
 
 | 列 | 説明 |
 |---|---|

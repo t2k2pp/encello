@@ -23,7 +23,7 @@
 帯として使う単語帳の順序（易→難）を `sortOrder` で表す。
 TOEIC 基本語は難易度が学年順に並ばないため、帯には使わない（`bandSize` を null にする）。
 
-単語は単語帳をまたいで共有される（[03_data_model.md] §2.2）。
+単語は単語帳をまたいで共有される（[03_data_model.md] §2.3）。
 上記の合計は延べ語数で、実体としての単語数はこれより少ない。
 
 ## 2. データの作り方と品質基準
@@ -172,6 +172,9 @@ TOEIC 基本語は難易度が学年順に並ばないため、帯には使わ�
    - `wordbooks` を `presetId` で upsert（`name` / `emoji` / `note` / `seedVersion` を更新）。
    - `words` を `(headword, partOfSpeech)` で upsert。ただし **`isEdited = true` の語は上書きしない**
      （ユーザーの編集を消さない）。
+   - `word_examples` を `(wordId, sourcePresetId)` で upsert（[03_data_model.md] §2.4）。
+     **`sourcePresetId` は投入中の単語帳の `presetId`**。
+     こうしないと、同じ語を複数の単語帳が持つとき、最後に投入した単語帳の例文で上書きされる。
    - `wordbook_entries` を差し替える。アセットから消えた語は所属だけを外し、
      `words` の行と `word_reviews` は残す（学習履歴を消さない）。
 4. 全部成功したら `seed.installedVersion` を更新する。
@@ -224,6 +227,12 @@ assets/wordbooks/<presetId>.json              出荷するアセット（手で�
 | 発音記号が `/` で囲まれていない / 句に発音記号がある | 例文にこの単語帳の外の語がある |
 | 例文と和訳が対になっていない / 例文が他の語と同一 | |
 | 例文の終止符・和訳の日本語 / `level` が範囲外 | |
+| 同じ `(headword, partOfSpeech)` が単語帳をまたいで `meaning` / `phonetic` / `level` が違う | |
+
+最後の1つは全単語帳をまとめて検査する（`--check-all`）。
+`meaning` `phonetic` `level` は語の属性で `words` に1つしか入らないため、
+単語帳ごとに違う値を書くと、最後に投入した単語帳の値で上書きされる
+（[03_data_model.md] §2.3・§2.4）。例文だけは単語帳ごとに違ってよい。
 
 「例文にこの単語帳の外の語がある」は、見出し語（と機械的に広げた活用形）＋
 `allowed_example_words.txt` に無い語を挙げる。
