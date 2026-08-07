@@ -29,7 +29,7 @@ void main() {
       expect((await reload(id)).headword, 'apple');
     });
 
-    test('空の発音記号・例文は null で入る', () async {
+    test('空の発音記号は null で入り、空の例文は行を作らない', () async {
       final id = await repo.createShared(
         headword: 'apple',
         partOfSpeech: PartOfSpeech.noun,
@@ -39,7 +39,22 @@ void main() {
       );
       final word = await reload(id);
       expect(word.phonetic, isNull);
-      expect(word.exampleEn, isNull);
+      expect(await repo.examplesOf(id), isEmpty);
+    });
+
+    test('書いた例文はユーザーの文（sourcePresetId = null）として入る', () async {
+      final id = await repo.createShared(
+        headword: 'apple',
+        partOfSpeech: PartOfSpeech.noun,
+        meaning: 'りんご',
+        exampleEn: 'I ate an apple.',
+        exampleJa: 'りんごを食べました。',
+      );
+      final example = (await repo.examplesOf(id)).single;
+      expect(example.exampleEn, 'I ate an apple.');
+      expect(example.exampleJa, 'りんごを食べました。');
+      expect(example.sourcePresetId, isNull);
+      expect(example.sortOrder, WordRepository.userExampleSortOrder);
     });
   });
 
@@ -191,20 +206,32 @@ void main() {
               isEdited: const Value(true),
             ),
           );
+      // 単語帳由来の例文は `word_examples` にあり、編集では壊れない。
+      await db
+          .into(db.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: id,
+              exampleEn: 'I ate an apple.',
+              exampleJa: 'りんごを食べました。',
+              sourcePresetId: const Value('jhs_v1'),
+              sortOrder: const Value(10),
+            ),
+          );
       await repo.restorePreset(
         id,
         headword: 'apple',
         partOfSpeech: PartOfSpeech.noun,
         meaning: 'りんご',
         phonetic: '/ˈæpəl/',
-        exampleEn: 'I ate an apple.',
-        exampleJa: 'りんごを食べました。',
         level: 1,
       );
       final word = await reload(id);
       expect(word.meaning, 'りんご');
       expect(word.phonetic, '/ˈæpəl/');
       expect(word.isEdited, isFalse);
+      // 単語帳の例文は消さない。
+      expect((await repo.examplesOf(id)).single.sourcePresetId, 'jhs_v1');
     });
   });
 

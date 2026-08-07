@@ -70,7 +70,7 @@ void main() {
       expect((await db.select(db.words).getSingle()).headword, 'apple');
     });
 
-    test('空の発音記号・例文は null で入る', () async {
+    test('空の発音記号は null で入り、空の例文は行を作らない', () async {
       final importer = importerWith(
         presetJson(
           words: [presetWordJson(headword: 'apple', phonetic: '', exampleEn: '')],
@@ -79,7 +79,41 @@ void main() {
       await importer.importIfNeeded(installedVersion: 0);
       final word = await db.select(db.words).getSingle();
       expect(word.phonetic, isNull);
-      expect(word.exampleEn, isNull);
+      expect(await db.select(db.wordExamples).get(), isEmpty);
+    });
+
+    test('和訳の無い例文は行を作らない（例文と和訳は必ず対で持つ）', () async {
+      final importer = importerWith(
+        presetJson(
+          words: [
+            presetWordJson(headword: 'apple', exampleEn: 'I ate an apple.'),
+          ],
+        ),
+      );
+      await importer.importIfNeeded(installedVersion: 0);
+      expect(await db.select(db.wordExamples).get(), isEmpty);
+    });
+
+    test('例文は投入中の単語帳の presetId と sortOrder で入る', () async {
+      final importer = importerWith(
+        presetJson(
+          words: [
+            presetWordJson(
+              headword: 'apple',
+              exampleEn: 'I ate an apple.',
+              exampleJa: 'りんごを食べました。',
+            ),
+          ],
+        ),
+      );
+      await importer.importIfNeeded(installedVersion: 0);
+
+      final example = await db.select(db.wordExamples).getSingle();
+      expect(example.exampleEn, 'I ate an apple.');
+      expect(example.exampleJa, 'りんごを食べました。');
+      // 語の presetId（`jhs_v1:apple:noun`）ではなく単語帳の presetId。
+      expect(example.sourcePresetId, 'jhs_v1');
+      expect(example.sortOrder, 10);
     });
   });
 
@@ -174,6 +208,77 @@ void main() {
       final entries = await db.select(db.wordbookEntries).get();
       expect(entries, hasLength(1));
       expect(entries.single.wordId, isNot(banana.id));
+    });
+  });
+
+  // 今回の変更の目的そのもの（[Docs/03_data_model.md] §2.4）。
+  group('複数の単語帳が同じ語を持つとき', () {
+    const otherPath = 'assets/wordbooks/toeic_basic_v1.json';
+
+    /// `contract` を2冊が別々の例文で収録している状態を作る。
+    SeedImporter twoBookImporter({int seedVersion = 1}) => SeedImporter(
+      db,
+      FakeAssetBundle({
+        _assetPath: presetJson(
+          seedVersion: seedVersion,
+          words: [
+            presetWordJson(
+              headword: 'contract',
+              meaning: '契約',
+              exampleEn: 'We signed a contract with the school.',
+              exampleJa: '学校と契約を結びました。',
+              presetId: 'jhs_v1:contract:noun',
+            ),
+          ],
+        ),
+        otherPath: presetJson(
+          presetId: 'toeic_basic_v1',
+          name: 'TOEIC 基礎',
+          emoji: '💼',
+          category: 'toeic',
+          colorSeed: 6,
+          seedVersion: seedVersion,
+          bandSize: null,
+          sortOrder: 60,
+          words: [
+            presetWordJson(
+              headword: 'contract',
+              meaning: '契約',
+              exampleEn: 'Please review the contract before Friday.',
+              exampleJa: '金曜までに契約書を確認してください。',
+              presetId: 'toeic_basic_v1:contract:noun',
+            ),
+          ],
+        ),
+      }),
+      paths: const [_assetPath, otherPath],
+    );
+
+    test('2冊を投入してもどちらの例文も残る（互いに上書きしない）', () async {
+      await twoBookImporter().importIfNeeded(installedVersion: 0);
+
+      // 語の行は1つのまま（学習状態を単語帳ごとに割らない）。
+      expect(await db.select(db.words).get(), hasLength(1));
+
+      final examples =
+          await (db.select(db.wordExamples)
+                ..orderBy([(t) => OrderingTerm.asc(t.sortOrder)]))
+              .get();
+      expect(examples, hasLength(2));
+      expect(examples.map((e) => e.sourcePresetId), [
+        'jhs_v1',
+        'toeic_basic_v1',
+      ]);
+      expect(examples.map((e) => e.sortOrder), [10, 60]);
+      expect(examples.first.exampleEn, 'We signed a contract with the school.');
+      expect(examples.last.exampleEn, 'Please review the contract before Friday.');
+    });
+
+    test('版を上げて入れ直しても例文の行が増えない（(wordId, sourcePresetId) で upsert）', () async {
+      await twoBookImporter().importIfNeeded(installedVersion: 0);
+      await twoBookImporter(seedVersion: 2).importIfNeeded(installedVersion: 1);
+
+      expect(await db.select(db.wordExamples).get(), hasLength(2));
     });
   });
 

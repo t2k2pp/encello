@@ -34,6 +34,11 @@ class StudySessionState {
   final List<QueuedItem> queue;
   final Map<int, Word> words;
 
+  /// 出題語に添える例文（語 id → 1件）。**学習中の単語帳の例文**を選び、
+  /// 無ければ `sortOrder` の先頭（[Docs/03_data_model.md] §2.4「表示」）。
+  /// 例文の無い語は入らない。
+  final Map<int, WordExample> examples;
+
   /// いま何問目か（0 始まり）。
   final int index;
 
@@ -86,6 +91,7 @@ class StudySessionState {
     required this.profile,
     required this.queue,
     required this.words,
+    required this.examples,
     required this.index,
     required this.typed,
     required this.hintUsed,
@@ -109,6 +115,10 @@ class StudySessionState {
   Word? get currentWord =>
       index < queue.length ? words[queue[index].wordId] : null;
 
+  /// いま出題している語に添える例文。無ければ null。
+  WordExample? get currentExample =>
+      index < queue.length ? examples[queue[index].wordId] : null;
+
   int get totalCount => queue.length;
 
   /// 「答え合わせ」を押せるか。1文字も入っていなければ押せない。
@@ -128,6 +138,7 @@ class StudySessionState {
   StudySessionState copyWith({
     List<QueuedItem>? queue,
     Map<int, Word>? words,
+    Map<int, WordExample>? examples,
     int? index,
     String? typed,
     int? hintUsed,
@@ -152,6 +163,7 @@ class StudySessionState {
       profile: profile,
       queue: queue ?? this.queue,
       words: words ?? this.words,
+      examples: examples ?? this.examples,
       index: index ?? this.index,
       typed: typed ?? this.typed,
       hintUsed: hintUsed ?? this.hintUsed,
@@ -221,12 +233,20 @@ class StudySessionController extends Notifier<StudySessionState?> {
       });
     }
 
+    final wordbookIds = decodeIdList(profile.selectedWordbookIds);
     final words = await study.loadWords(queue.map((q) => q.wordId));
+    // 例文はセッション開始時に一度だけ選ぶ（出題キューと同じ扱い）。
+    final examples = await ref
+        .read(wordRepositoryProvider)
+        .preferredExamples(
+          queue.map((q) => q.wordId),
+          wordbookIds: wordbookIds,
+        );
     await study.startSession(
       sessionId: sessionId,
       profile: profile,
       mode: mode.value,
-      wordbookIds: decodeIdList(profile.selectedWordbookIds),
+      wordbookIds: wordbookIds,
       plannedCount: queue.length,
       startedAt: now,
     );
@@ -237,6 +257,7 @@ class StudySessionController extends Notifier<StudySessionState?> {
       profile: profile,
       queue: queue,
       words: words,
+      examples: examples,
       index: 0,
       typed: '',
       hintUsed: 0,
@@ -275,12 +296,19 @@ class StudySessionController extends Notifier<StudySessionState?> {
     final picked = ([...questions]..shuffle(Random(sessionId.hashCode)))
         .take(limit)
         .toList();
+    final wordbookIds = decodeIdList(profile.selectedWordbookIds);
     final words = await study.loadWords(picked.map((q) => q.answer.wordId));
+    final examples = await ref
+        .read(wordRepositoryProvider)
+        .preferredExamples(
+          picked.map((q) => q.answer.wordId),
+          wordbookIds: wordbookIds,
+        );
     await study.startSession(
       sessionId: sessionId,
       profile: profile,
       mode: StudyMode.family.value,
-      wordbookIds: decodeIdList(profile.selectedWordbookIds),
+      wordbookIds: wordbookIds,
       plannedCount: picked.length,
       startedAt: now,
     );
@@ -294,6 +322,7 @@ class StudySessionController extends Notifier<StudySessionState?> {
           QueuedItem(wordId: q.answer.wordId, source: QueueSource.due),
       ],
       words: words,
+      examples: examples,
       index: 0,
       typed: '',
       hintUsed: 0,

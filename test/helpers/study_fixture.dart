@@ -12,6 +12,7 @@ Future<({int wordbookId, Profile profile})> seedStudyTarget(
   Map<String, String> headwords = const {'apple': 'りんご'},
   String? phonetic,
   String? exampleEn,
+  String? exampleJa,
 }) async {
   final repo = WordbookRepository(db);
   final wordbookId = await repo.create(
@@ -28,9 +29,20 @@ Future<({int wordbookId, Profile profile})> seedStudyTarget(
             partOfSpeech: PartOfSpeech.noun.value,
             meaning: entry.value,
             phonetic: Value(phonetic),
-            exampleEn: Value(exampleEn),
           ),
         );
+    // 例文は `word_examples` に持つ（[Docs/03_data_model.md] §2.4）。
+    if (exampleEn != null) {
+      await db
+          .into(db.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: id,
+              exampleEn: exampleEn,
+              exampleJa: exampleJa ?? '',
+            ),
+          );
+    }
     await repo.addWord(wordbookId, id);
   }
   await repo.setStudyTarget(profile, wordbookId, selected: true);

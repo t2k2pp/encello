@@ -3,6 +3,7 @@ import 'package:meta/meta.dart';
 
 import '../core/utils/enums.dart';
 import '../data/database/app_database.dart';
+import '../data/repositories/word_repository.dart';
 import '../domain/usecases/wordbook_json_codec.dart';
 
 /// プレビューに出す語1件（[Docs/06_features/ai_import.md] §3.2）。
@@ -143,11 +144,16 @@ class AiImportService {
                   partOfSpeech: w.partOfSpeech.value,
                   meaning: w.meaning,
                   phonetic: Value(w.phonetic),
-                  exampleEn: Value(w.exampleEn),
-                  exampleJa: Value(w.exampleJa),
                   level: Value(w.level),
                 ),
               );
+          // 取り込み先はユーザー単語帳なので、例文は `sourcePresetId = null` で入れる
+          // （[Docs/03_data_model.md] §2.4）。既存語の例文は上書きしない。
+          await WordRepository(_db).setUserExample(
+            wordId,
+            exampleEn: w.exampleEn,
+            exampleJa: w.exampleJa,
+          );
           newWordCount++;
         }
         await _db

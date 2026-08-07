@@ -77,11 +77,8 @@ class _WordDetailBody extends ConsumerWidget {
         _HeadwordCard(word: word, profile: profile),
         SizedBox(height: spacing.gap),
         _MeaningCard(word: word, profile: profile),
-        // 例文が無い語では例文カードごと出さない。
-        if (word.exampleEn != null) ...[
-          SizedBox(height: spacing.gap),
-          _ExampleCard(word: word, profile: profile),
-        ],
+        // 例文が0件の語では例文カードごと出さない。
+        _ExamplesCard(word: word, profile: profile, gap: spacing.gap),
         // 部品の紐付けが無い語ではカードごと出さない。
         _WordPartsCard(word: word, profile: profile, gap: spacing.gap),
         // 語族に自分しかいない語ではカードごと出さない。
@@ -228,34 +225,107 @@ class _MeaningCard extends StatelessWidget {
   }
 }
 
-class _ExampleCard extends StatelessWidget {
+/// 例文カード（[Docs/03_data_model.md] §2.4「表示」）。
+///
+/// 単語詳細は**全件**を表示順に並べ、どの単語帳の例文かを添える。
+/// 例文が0件の語ではカードごと出さない（空のカードを置かない）。
+class _ExamplesCard extends ConsumerWidget {
   final Word word;
   final Profile profile;
+  final double gap;
 
-  const _ExampleCard({required this.word, required this.profile});
+  const _ExamplesCard({
+    required this.word,
+    required this.profile,
+    required this.gap,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final examples = ref.watch(wordExamplesProvider(word.id)).value;
+    if (examples == null || examples.isEmpty) return const SizedBox.shrink();
+    final books = ref.watch(wordbooksByPresetIdProvider).value ?? const {};
+
+    return Padding(
+      padding: EdgeInsets.only(top: gap),
+      child: SoftCard(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('例文', style: AppText.sectionTitle()),
+            for (var i = 0; i < examples.length; i++)
+              _ExampleRow(
+                example: examples[i],
+                profile: profile,
+                // 出どころの単語帳が端末から消えていることもある。
+                // その場合は名前を出さず、無いものを推測で埋めない。
+                sourceLabel: _sourceLabelOf(examples[i], books),
+                topPadding: i == 0 ? 6 : 12,
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  static String? _sourceLabelOf(
+    WordExample example,
+    Map<String, Wordbook> books,
+  ) {
+    final source = example.sourcePresetId;
+    // ユーザーが書いた文は `sourcePresetId` が null。
+    if (source == null) return '自分で書いた文';
+    final book = books[source];
+    return book == null ? null : '${book.emoji} ${book.name}';
+  }
+}
+
+class _ExampleRow extends StatelessWidget {
+  final WordExample example;
+  final Profile profile;
+  final String? sourceLabel;
+  final double topPadding;
+
+  const _ExampleRow({
+    required this.example,
+    required this.profile,
+    required this.sourceLabel,
+    required this.topPadding,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return SoftCard(
+    final label = sourceLabel;
+    return Padding(
+      padding: EdgeInsets.only(top: topPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
-              Expanded(child: Text('例文', style: AppText.sectionTitle())),
+              Expanded(
+                child: label == null
+                    ? const SizedBox.shrink()
+                    : Text(
+                        label,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: AppText.caption(color: AppColors.ink3),
+                      ),
+              ),
               // 例文は常に合成音声で読む（音声ファイルを持たせない）。
               SpeakTextButton(
                 profile: profile,
-                text: word.exampleEn!,
+                text: example.exampleEn,
                 lang: SpeechLang.en,
               ),
             ],
           ),
-          const SizedBox(height: 6),
-          Text(word.exampleEn!, style: AppText.body()),
-          if (word.exampleJa != null) ...[
+          Text(example.exampleEn, style: AppText.body()),
+          // 和訳を書いていない「出会った文」もある（[my_words.md] §4.1）。
+          if (example.exampleJa.isNotEmpty) ...[
             const SizedBox(height: 4),
-            Text(word.exampleJa!, style: AppText.caption()),
+            Text(example.exampleJa, style: AppText.caption()),
           ],
         ],
       ),
@@ -406,8 +476,6 @@ class _ActionsCard extends ConsumerWidget {
           partOfSpeech: preset.partOfSpeech,
           meaning: preset.meaning,
           phonetic: preset.phonetic,
-          exampleEn: preset.exampleEn,
-          exampleJa: preset.exampleJa,
           level: preset.level,
         );
     if (!context.mounted) return;

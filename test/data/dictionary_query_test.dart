@@ -31,10 +31,20 @@ void main() {
             headword: headword,
             partOfSpeech: partOfSpeech,
             meaning: meaning,
-            exampleEn: Value(exampleEn),
-            exampleJa: Value(exampleJa),
           ),
         );
+    // 例文は `word_examples` に持つ（[Docs/03_data_model.md] §2.4）。
+    if (exampleEn != null) {
+      await db
+          .into(db.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: id,
+              exampleEn: exampleEn,
+              exampleJa: exampleJa ?? '',
+            ),
+          );
+    }
     if (inBook) await wordbooks.addWord(bookId, id);
     return id;
   }

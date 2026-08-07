@@ -194,6 +194,7 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
                     VerdictBanner(
                       verdict: session.verdict!,
                       word: word,
+                      example: session.currentExample,
                       typed: session.submittedText,
                       isLast: session.isLastQuestion,
                       onNext: () {

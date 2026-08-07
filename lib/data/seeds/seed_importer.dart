@@ -4,6 +4,7 @@ import 'package:drift/drift.dart';
 import 'package:flutter/services.dart' show AssetBundle;
 
 import '../database/app_database.dart';
+import '../repositories/word_repository.dart';
 import 'preset_wordbook.dart';
 
 /// プリセット投入の結果（起動ゲートのログ・テスト用）。
@@ -118,7 +119,10 @@ class SeedImporter {
 
     final wordIds = <int>[];
     for (final word in book.words) {
-      wordIds.add(await _upsertWord(word));
+      final upserted = await _upsertWord(word);
+      wordIds.add(upserted.id);
+      // ユーザーが編集した語は例文も上書きしない（語と同じ扱い。§3.1）。
+      if (!upserted.isEdited) await _upsertExample(book, word, upserted.id);
     }
 
     // アセットから消えた語は**所属だけ**を外す。`words` の行と `word_reviews` は
@@ -184,10 +188,11 @@ class SeedImporter {
     return existing.id;
   }
 
-  /// 共有の語（`ownerProfileId = null`）を `(headword, partOfSpeech)` で upsert し、id を返す。
+  /// 共有の語（`ownerProfileId = null`）を `(headword, partOfSpeech)` で upsert し、
+  /// id と「ユーザーが編集済みか」を返す。
   ///
   /// **`isEdited = true` の語は上書きしない**（ユーザーの編集を消さない）。
-  Future<int> _upsertWord(PresetWord word) async {
+  Future<({int id, bool isEdited})> _upsertWord(PresetWord word) async {
     final existing =
         await (_db.select(_db.words)..where(
               (t) =>
@@ -198,7 +203,7 @@ class SeedImporter {
             .getSingleOrNull();
 
     if (existing == null) {
-      return _db
+      final id = await _db
           .into(_db.words)
           .insert(
             WordsCompanion.insert(
@@ -206,28 +211,52 @@ class SeedImporter {
               partOfSpeech: word.partOfSpeech.value,
               phonetic: Value(word.phonetic),
               meaning: word.meaning,
-              exampleEn: Value(word.exampleEn),
-              exampleJa: Value(word.exampleJa),
               level: Value(word.level),
               presetId: Value(word.presetId),
             ),
           );
+      return (id: id, isEdited: false);
     }
 
-    if (existing.isEdited) return existing.id;
+    if (existing.isEdited) return (id: existing.id, isEdited: true);
 
     await (_db.update(_db.words)..where((t) => t.id.equals(existing.id))).write(
       WordsCompanion(
         phonetic: Value(word.phonetic),
         meaning: Value(word.meaning),
-        exampleEn: Value(word.exampleEn),
-        exampleJa: Value(word.exampleJa),
         level: Value(word.level),
         presetId: Value(word.presetId),
         updatedAt: Value(DateTime.now()),
       ),
     );
-    return existing.id;
+    return (id: existing.id, isEdited: false);
+  }
+
+  /// 例文を `(wordId, sourcePresetId)` で upsert する
+  /// （[Docs/06_features/wordbooks.md] §3.1、[Docs/03_data_model.md] §2.4）。
+  ///
+  /// `sourcePresetId` は**投入中の単語帳の `presetId`**（`jhs_v1` など）。
+  /// こうしないと、同じ語を複数の単語帳が持つとき、最後に投入した単語帳の例文で
+  /// 上書きされてしまう。`sortOrder` はその単語帳の `sortOrder`（易→難）。
+  ///
+  /// 例文か和訳のどちらかが欠けている語には行を作らない
+  /// （`word_examples` は例文と和訳を必ず対で持つ）。
+  Future<void> _upsertExample(
+    PresetWordbook book,
+    PresetWord word,
+    int wordId,
+  ) async {
+    final en = word.exampleEn;
+    final ja = word.exampleJa;
+    if (en == null || ja == null) return;
+
+    await WordRepository(_db).upsertSourcedExample(
+      wordId: wordId,
+      sourcePresetId: book.presetId,
+      exampleEn: en,
+      exampleJa: ja,
+      sortOrder: book.sortOrder,
+    );
   }
 
   /// `words.presetId` からアセットの語を引き直す（詳細画面の「元に戻す」）。

@@ -37,6 +37,28 @@ void main() {
     return id;
   }
 
+  /// 例文を1件足す（[Docs/03_data_model.md] §2.4）。
+  /// [source] が null ならユーザーが自分で書いた文。
+  Future<void> addExample(
+    int wordId, {
+    required String en,
+    required String ja,
+    required String? source,
+    required int sortOrder,
+  }) async {
+    await db
+        .into(db.wordExamples)
+        .insert(
+          WordExamplesCompanion.insert(
+            wordId: wordId,
+            exampleEn: en,
+            exampleJa: ja,
+            sourcePresetId: Value(source),
+            sortOrder: Value(sortOrder),
+          ),
+        );
+  }
+
   setUp(() async {
     db = newTestDatabase();
     me = await createTestProfile(db, name: 'たろう');
@@ -280,6 +302,72 @@ void main() {
       expect(find.text('例文'), findsNothing);
       // 未学習の語では 0 の羅列を並べない。
       expect(find.text('まだ学習していません。'), findsOneWidget);
+    });
+
+    // 今回の変更の目的そのもの（[Docs/03_data_model.md] §2.4「表示」）。
+    testWidgets('例文は全件並び、どの単語帳の文かが分かる', (tester) async {
+      final id = await addWord(headword: 'contract', meaning: '契約');
+      // 単語帳2冊ぶんの例文＋自分で書いた文。
+      await db.into(db.wordbooks).insert(
+            WordbooksCompanion.insert(
+              name: 'TOEIC 基礎',
+              emoji: '💼',
+              colorSeed: 6,
+              category: WordbookCategory.toeic.value,
+              source: WordbookSource.preset.value,
+              presetId: const Value('toeic_basic_v1'),
+              sortOrder: const Value(60),
+            ),
+          );
+      await (db.update(db.wordbooks)..where((t) => t.id.equals(bookId))).write(
+        const WordbooksCompanion(presetId: Value('jhs_v1')),
+      );
+      await addExample(
+        id,
+        en: 'We signed a contract with the school.',
+        ja: '学校と契約を結びました。',
+        source: 'jhs_v1',
+        sortOrder: 10,
+      );
+      await addExample(
+        id,
+        en: 'Please review the contract before Friday.',
+        ja: '金曜までに契約書を確認してください。',
+        source: 'toeic_basic_v1',
+        sortOrder: 60,
+      );
+      await addExample(
+        id,
+        en: 'The contract was on the desk.',
+        ja: '契約書は机の上にあった。',
+        source: null,
+        sortOrder: 0,
+      );
+
+      await pumpWithProviders(
+        tester,
+        db: db,
+        child: WordDetailScreen(wordId: id, profile: me),
+        activeProfile: me,
+        size: const Size(390, 1400),
+      );
+      await tester.pumpAndSettle();
+
+      expect(find.text('例文'), findsOneWidget);
+      // 3件すべてが並ぶ（1件だけに絞らない）。
+      expect(find.text('The contract was on the desk.'), findsOneWidget);
+      expect(
+        find.text('We signed a contract with the school.'),
+        findsOneWidget,
+      );
+      expect(
+        find.text('Please review the contract before Friday.'),
+        findsOneWidget,
+      );
+      // どの単語帳の文かを添える。自分の文はその旨を出す。
+      expect(find.text('自分で書いた文'), findsOneWidget);
+      expect(find.text('🏫 中学英単語'), findsOneWidget);
+      expect(find.text('💼 TOEIC 基礎'), findsOneWidget);
     });
   });
 }

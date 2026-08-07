@@ -7,6 +7,7 @@ import '../../core/utils/app_version.dart';
 import '../../core/utils/enums.dart';
 import '../../domain/usecases/wordbook_csv_codec.dart';
 import '../database/app_database.dart';
+import '../repositories/word_repository.dart';
 import '../repositories/wordbook_repository.dart' show decodeIdList, encodeIdList;
 
 /// バックアップの中身。**プレーンなデータだけ**で作る（isolate へ渡せる形）。
@@ -109,6 +110,7 @@ class ExportImportService {
   /// JSON 文字列にするのは [encodeBackupJson]。
   Future<BackupPayload> collectBackup({required DateTime exportedAt}) async {
     final words = await _db.select(_db.words).get();
+    final examples = await _examplesByWord();
     final families = await _db.select(_db.wordFamilies).get();
     final parts = await _db.select(_db.wordParts).get();
     final partLinks = await _db.select(_db.wordPartLinks).get();
@@ -133,7 +135,13 @@ class ExportImportService {
       'exportedAt': exportedAt.toIso8601String(),
       'profiles': [
         for (final profile in profiles)
-          await _profileJson(profile, wordById, partById, familyById),
+          await _profileJson(
+            profile,
+            wordById,
+            partById,
+            familyById,
+            examples,
+          ),
       ],
       'wordbooks': [
         for (final book in wordbooks)
@@ -157,7 +165,13 @@ class ExportImportService {
       ],
       'words': [
         for (final w in sharedWords)
-          _wordJson(w, familyById, linksByWord[w.id] ?? const [], partById),
+          _wordJson(
+            w,
+            familyById,
+            linksByWord[w.id] ?? const [],
+            partById,
+            examples[w.id] ?? const [],
+          ),
       ],
       'wordParts': [
         for (final p in parts)
@@ -176,11 +190,28 @@ class ExportImportService {
     };
   }
 
+  /// 語 id → その語の例文（表示順）。エクスポートは**全件**を持ち回る
+  /// （[Docs/03_data_model.md] §10）。
+  Future<Map<int, List<WordExample>>> _examplesByWord() async {
+    final rows =
+        await (_db.select(_db.wordExamples)..orderBy([
+              (t) => OrderingTerm.asc(t.sortOrder),
+              (t) => OrderingTerm.asc(t.id),
+            ]))
+            .get();
+    final result = <int, List<WordExample>>{};
+    for (final e in rows) {
+      result.putIfAbsent(e.wordId, () => []).add(e);
+    }
+    return result;
+  }
+
   Future<Map<String, dynamic>> _profileJson(
     Profile profile,
     Map<int, Word> wordById,
     Map<int, WordPart> partById,
     Map<int, WordFamily> familyById,
+    Map<int, List<WordExample>> examples,
   ) async {
     final reviews =
         await (_db.select(_db.wordReviews)
@@ -354,7 +385,13 @@ class ExportImportService {
       ],
       'myWords': [
         for (final w in myWords)
-          _wordJson(w, familyById, const [], partById),
+          _wordJson(
+            w,
+            familyById,
+            const [],
+            partById,
+            examples[w.id] ?? const [],
+          ),
       ],
     };
   }
@@ -372,14 +409,23 @@ class ExportImportService {
     Map<int, WordFamily> familyById,
     List<WordPartLink> links,
     Map<int, WordPart> partById,
+    List<WordExample> examples,
   ) {
     return {
       'headword': w.headword,
       'partOfSpeech': w.partOfSpeech,
       'phonetic': w.phonetic,
       'meaning': w.meaning,
-      'exampleEn': w.exampleEn,
-      'exampleJa': w.exampleJa,
+      // 例文は全件。`sourcePresetId` はそのまま持ち回る（§10）。
+      'examples': [
+        for (final e in examples)
+          {
+            'en': e.exampleEn,
+            'ja': e.exampleJa,
+            'sourcePresetId': e.sourcePresetId,
+            'sortOrder': e.sortOrder,
+          },
+      ],
       'partsNote': w.partsNote,
       'confusionNote': w.confusionNote,
       'familyBase': w.familyId == null
@@ -412,6 +458,9 @@ class ExportImportService {
   // ------------------------------------------------------------------- CSV
 
   /// 単語帳1冊を CSV にする。**学習状態は含めない**（[Docs/06_features/export_import.md] §1）。
+  ///
+  /// CSV は1語1行なので**例文は1つだけ**出す。出すのは**その単語帳の例文**で、
+  /// 無ければ `sortOrder` の先頭（[Docs/03_data_model.md] §10）。
   Future<String> collectCsv(int wordbookId) async {
     final query = _db.select(_db.words).join([
       innerJoin(
@@ -424,6 +473,11 @@ class ExportImportService {
       ..orderBy([OrderingTerm.asc(_db.wordbookEntries.sortOrder)]);
     final words = await query.map((row) => row.readTable(_db.words)).get();
 
+    final examples = await WordRepository(_db).preferredExamples(
+      words.map((w) => w.id),
+      wordbookIds: [wordbookId],
+    );
+
     return WordbookCsvCodec.encode([
       for (final w in words)
         CsvWord(
@@ -431,8 +485,8 @@ class ExportImportService {
           partOfSpeech: PartOfSpeech.fromValue(w.partOfSpeech),
           phonetic: w.phonetic,
           meaning: w.meaning,
-          exampleEn: w.exampleEn,
-          exampleJa: w.exampleJa,
+          exampleEn: examples[w.id]?.exampleEn,
+          exampleJa: examples[w.id]?.exampleJa,
           level: w.level,
         ),
     ]);
@@ -442,10 +496,14 @@ class ExportImportService {
   ///
   /// 既存の共有語と `(headword, partOfSpeech)` が一致したら**行を増やさず所属だけ足す**
   /// （学習状態を分けない。[Docs/06_features/wordbooks.md] §4）。既存の訳は上書きしない。
+  ///
+  /// 取り込んだ例文は `sourcePresetId = null`（取り込み先はユーザー単語帳のため。
+  /// [Docs/03_data_model.md] §10）。
   Future<({int added, int reused})> importCsv(
     int wordbookId,
     List<CsvWord> words,
   ) {
+    final repo = WordRepository(_db);
     return _db.transaction(() async {
       final maxOrder = _db.wordbookEntries.sortOrder.max();
       final row =
@@ -479,11 +537,15 @@ class ExportImportService {
                   partOfSpeech: w.partOfSpeech.value,
                   meaning: w.meaning,
                   phonetic: Value(w.phonetic),
-                  exampleEn: Value(w.exampleEn),
-                  exampleJa: Value(w.exampleJa),
                   level: Value(w.level),
                 ),
               );
+          // 既存語の例文は上書きしない（既存の訳を上書きしないのと同じ扱い）。
+          await repo.setUserExample(
+            wordId,
+            exampleEn: w.exampleEn,
+            exampleJa: w.exampleJa,
+          );
           added++;
         }
         await _db
@@ -776,9 +838,9 @@ class ExportImportService {
     Map<String, dynamic> json,
     Map<String, int> familyIds, {
     required int? ownerProfileId,
-  }) {
+  }) async {
     final familyBase = json['familyBase'] as String?;
-    return _db
+    final id = await _db
         .into(_db.words)
         .insert(
           WordsCompanion.insert(
@@ -786,8 +848,6 @@ class ExportImportService {
             partOfSpeech: json['partOfSpeech'] as String,
             meaning: json['meaning'] as String? ?? '',
             phonetic: Value(json['phonetic'] as String?),
-            exampleEn: Value(json['exampleEn'] as String?),
-            exampleJa: Value(json['exampleJa'] as String?),
             partsNote: Value(json['partsNote'] as String?),
             confusionNote: Value(json['confusionNote'] as String?),
             familyId: Value(familyBase == null ? null : familyIds[familyBase]),
@@ -799,6 +859,37 @@ class ExportImportService {
             isExcluded: Value(json['isExcluded'] as bool? ?? false),
           ),
         );
+    await _insertExamples(json, id);
+    return id;
+  }
+
+  /// `words[].examples` を全件入れる（[Docs/03_data_model.md] §10）。
+  /// `sourcePresetId` はそのまま持ち回る。
+  ///
+  /// 語を新しく作ったときだけ呼ぶ（既存語は上書きしない。§2.2）。
+  Future<void> _insertExamples(Map<String, dynamic> json, int wordId) async {
+    final seenSources = <String?>{};
+    for (final e
+        in (json['examples'] as List? ?? const []).cast<Map<String, dynamic>>()) {
+      final en = e['en'] as String?;
+      final ja = e['ja'] as String?;
+      // 例文と和訳は必ず対で持つ（`word_examples` は両方 not null）。
+      if (en == null || en.isEmpty || ja == null) continue;
+      final source = e['sourcePresetId'] as String?;
+      // 同じ `sourcePresetId` は語ごとに1件（部分ユニーク索引に合わせる）。
+      if (!seenSources.add(source)) continue;
+      await _db
+          .into(_db.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: wordId,
+              exampleEn: en,
+              exampleJa: ja,
+              sourcePresetId: Value(source),
+              sortOrder: Value(e['sortOrder'] as int? ?? 0),
+            ),
+          );
+    }
   }
 
   Future<void> _linkParts(

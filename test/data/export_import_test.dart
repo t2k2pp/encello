@@ -3,6 +3,7 @@ import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/repositories/wordbook_repository.dart';
 import 'package:encello/data/services/export_import_service.dart';
+import 'package:encello/domain/usecases/wordbook_csv_codec.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../helpers/test_database.dart';
@@ -50,9 +51,18 @@ void main() {
             partOfSpeech: PartOfSpeech.noun.value,
             meaning: 'りんご',
             phonetic: const Value('/ˈæpl/'),
-            exampleEn: const Value('I ate an apple.'),
-            exampleJa: const Value('りんごを食べました。'),
             familyId: Value(familyId),
+          ),
+        );
+    await db
+        .into(db.wordExamples)
+        .insert(
+          WordExamplesCompanion.insert(
+            wordId: appleId,
+            exampleEn: 'I ate an apple.',
+            exampleJa: 'りんごを食べました。',
+            sourcePresetId: const Value('jhs_v1'),
+            sortOrder: const Value(10),
           ),
         );
     final importId = await db
@@ -253,6 +263,27 @@ void main() {
       expect(apple.meaning, 'りんご');
       expect(apple.phonetic, '/ˈæpl/');
       expect(apple.familyId, isNotNull);
+
+      // 例文は `words[].examples` に全件入り、`sourcePresetId` も持ち回る
+      // （[Docs/03_data_model.md] §10）。
+      final exported = (payload['words'] as List)
+          .cast<Map<String, dynamic>>()
+          .firstWhere((w) => w['headword'] == 'apple');
+      expect(exported['examples'], [
+        {
+          'en': 'I ate an apple.',
+          'ja': 'りんごを食べました。',
+          'sourcePresetId': 'jhs_v1',
+          'sortOrder': 10,
+        },
+      ]);
+      final restored =
+          await (target.select(target.wordExamples)
+                ..where((t) => t.wordId.equals(apple.id)))
+              .getSingle();
+      expect(restored.exampleEn, 'I ate an apple.');
+      expect(restored.sourcePresetId, 'jhs_v1');
+      expect(restored.sortOrder, 10);
 
       // 学習対象の単語帳が名前で復元される。
       final taro =
@@ -477,6 +508,58 @@ void main() {
       expect(await countOf(target, target.studySessions), 1);
       expect(await countOf(target, target.learningLogs), 1);
       expect(await countOf(target, target.vocabSizeTests), 1);
+    });
+  });
+
+  // CSV は1語1行なので例文は1つだけ（[Docs/03_data_model.md] §10）。
+  group('CSV', () {
+    test('書き出す例文はその単語帳のもの', () async {
+      final seeded = await seedAll(source);
+      // 単語帳をプリセット扱いにし、別の単語帳の例文も足しておく。
+      await (source.update(source.wordbooks)
+            ..where((t) => t.id.equals(seeded.bookId)))
+          .write(const WordbooksCompanion(presetId: Value('jhs_v1')));
+      await source
+          .into(source.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: seeded.appleId,
+              exampleEn: 'The apple is on sale.',
+              exampleJa: 'そのりんごは特売中です。',
+              sourcePresetId: const Value('toeic_basic_v1'),
+              sortOrder: const Value(60),
+            ),
+          );
+
+      final csv = await ExportImportService(source).collectCsv(seeded.bookId);
+
+      expect(csv, contains('I ate an apple.'));
+      expect(csv, isNot(contains('The apple is on sale.')));
+    });
+
+    test('取り込んだ例文は sourcePresetId = null で入る', () async {
+      final me = await createTestProfile(target, name: 'たろう');
+      final bookId = await WordbookRepository(
+        target,
+      ).create(name: 'わたしの単語帳', emoji: '📗', colorSeed: 1);
+      expect(me.id, isNotNull);
+
+      await ExportImportService(target).importCsv(bookId, const [
+        CsvWord(
+          headword: 'apple',
+          partOfSpeech: PartOfSpeech.noun,
+          phonetic: null,
+          meaning: 'りんご',
+          exampleEn: 'I ate an apple.',
+          exampleJa: 'りんごを食べました。',
+          level: 1,
+        ),
+      ]);
+
+      final example = await target.select(target.wordExamples).getSingle();
+      expect(example.exampleEn, 'I ate an apple.');
+      expect(example.sourcePresetId, isNull);
+      expect(example.sortOrder, 0);
     });
   });
 

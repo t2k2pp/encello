@@ -69,13 +69,24 @@ class _UpsertWordSheetState extends ConsumerState<_UpsertWordSheet> {
     _headwordCtrl = TextEditingController(text: e?.headword ?? '');
     _phoneticCtrl = TextEditingController(text: e?.phonetic ?? '');
     _meaningCtrl = TextEditingController(text: e?.meaning ?? '');
-    _exampleEnCtrl = TextEditingController(text: e?.exampleEn ?? '');
-    _exampleJaCtrl = TextEditingController(text: e?.exampleJa ?? '');
+    // 例文欄が読み書きするのは**ユーザーが書いた文**（`sourcePresetId = null`）だけ。
+    // 単語帳由来の例文はここでは触らない（[Docs/03_data_model.md] §2.4）。
+    _exampleEnCtrl = TextEditingController();
+    _exampleJaCtrl = TextEditingController();
     _partOfSpeech = e == null
         ? PartOfSpeech.noun
         : PartOfSpeech.fromValue(e.partOfSpeech);
     _level = e?.level ?? 1;
     _headwordCtrl.addListener(_checkExisting);
+    if (e != null) _loadUserExample(e.id);
+  }
+
+  /// 編集時に、その語に書き残したユーザーの文を読み込む。
+  Future<void> _loadUserExample(int wordId) async {
+    final example = await ref.read(wordRepositoryProvider).userExampleOf(wordId);
+    if (!mounted || example == null) return;
+    _exampleEnCtrl.text = example.exampleEn;
+    _exampleJaCtrl.text = example.exampleJa;
   }
 
   @override
@@ -256,7 +267,11 @@ class _UpsertWordSheetState extends ConsumerState<_UpsertWordSheet> {
             TextField(
               controller: _exampleEnCtrl,
               maxLines: 2,
-              decoration: const InputDecoration(labelText: '例文（任意）'),
+              decoration: const InputDecoration(
+                labelText: '自分で書く例文（任意）',
+                helperText: '単語帳に載っている例文とは別に残ります',
+                helperMaxLines: 2,
+              ),
             ),
             const SizedBox(height: 12),
             TextField(

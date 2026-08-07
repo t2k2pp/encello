@@ -10,6 +10,10 @@ import '../database/app_database.dart';
 /// （[Docs/06_features/export_import.md] §4）。
 const kSampleWordbookPresetId = 'sample_v1';
 
+/// サンプル単語帳の並び順。例文の `sortOrder` にもこの値を使う
+/// （[Docs/03_data_model.md] §2.4）。
+const _kSampleWordbookSortOrder = 500;
+
 /// 投入結果（SnackBar の報告用）。
 @immutable
 class SampleDataInstallResult {
@@ -99,7 +103,7 @@ class SampleDataService {
               category: WordbookCategory.custom.value,
               source: WordbookSource.preset.value,
               presetId: const Value(kSampleWordbookPresetId),
-              sortOrder: const Value(500),
+              sortOrder: const Value(_kSampleWordbookSortOrder),
             ),
           );
 
@@ -113,7 +117,6 @@ class SampleDataService {
                 headword: w.headword,
                 partOfSpeech: w.partOfSpeech.value,
                 meaning: w.meaning,
-                exampleEn: Value(w.exampleEn),
                 level: const Value(1),
                 presetId: Value(
                   '$kSampleWordbookPresetId:${w.headword}:${w.partOfSpeech.value}',
@@ -121,6 +124,18 @@ class SampleDataService {
               ),
             );
         wordIds.add(wordId);
+        // 例文はこの単語帳由来の1件として入れる（[Docs/03_data_model.md] §2.4）。
+        await _db
+            .into(_db.wordExamples)
+            .insert(
+              WordExamplesCompanion.insert(
+                wordId: wordId,
+                exampleEn: w.exampleEn,
+                exampleJa: w.exampleJa,
+                sourcePresetId: const Value(kSampleWordbookPresetId),
+                sortOrder: const Value(_kSampleWordbookSortOrder),
+              ),
+            );
         await _db
             .into(_db.wordbookEntries)
             .insert(
@@ -379,56 +394,202 @@ class _SampleWord {
   final String headword;
   final PartOfSpeech partOfSpeech;
   final String meaning;
-  final String? exampleEn;
+
+  /// 例文と和訳は必ず対で持つ（`word_examples` は両方 not null）。
+  final String exampleEn;
+  final String exampleJa;
 
   const _SampleWord({
     required this.headword,
     this.partOfSpeech = PartOfSpeech.noun,
     required this.meaning,
-    this.exampleEn,
+    required this.exampleEn,
+    required this.exampleJa,
   });
 }
 
 /// サンプル単語帳の30語。統計の見え方を確認しやすいよう平易な語を選んだ。
 const _kSampleWords = <_SampleWord>[
-  _SampleWord(headword: 'apple', meaning: 'りんご', exampleEn: 'I ate an apple.'),
-  _SampleWord(headword: 'book', meaning: '本', exampleEn: 'This is my book.'),
-  _SampleWord(headword: 'cat', meaning: '猫', exampleEn: 'The cat is sleeping.'),
-  _SampleWord(headword: 'dog', meaning: '犬', exampleEn: 'My dog is friendly.'),
-  _SampleWord(headword: 'egg', meaning: '卵', exampleEn: 'I had an egg for breakfast.'),
-  _SampleWord(headword: 'fish', meaning: '魚', exampleEn: 'We caught a fish.'),
-  _SampleWord(headword: 'garden', meaning: '庭', exampleEn: 'She works in the garden.'),
-  _SampleWord(headword: 'house', meaning: '家', exampleEn: 'They live in a big house.'),
-  _SampleWord(headword: 'ice', meaning: '氷', exampleEn: 'The lake turned to ice.'),
+  _SampleWord(
+    headword: 'apple',
+    meaning: 'りんご',
+    exampleEn: 'I ate an apple.',
+    exampleJa: 'わたしはりんごを食べました。',
+  ),
+  _SampleWord(
+    headword: 'book',
+    meaning: '本',
+    exampleEn: 'This is my book.',
+    exampleJa: 'これはわたしの本です。',
+  ),
+  _SampleWord(
+    headword: 'cat',
+    meaning: '猫',
+    exampleEn: 'The cat is sleeping.',
+    exampleJa: 'その猫は眠っています。',
+  ),
+  _SampleWord(
+    headword: 'dog',
+    meaning: '犬',
+    exampleEn: 'My dog is friendly.',
+    exampleJa: 'わたしの犬は人なつっこいです。',
+  ),
+  _SampleWord(
+    headword: 'egg',
+    meaning: '卵',
+    exampleEn: 'I had an egg for breakfast.',
+    exampleJa: '朝食に卵を食べました。',
+  ),
+  _SampleWord(
+    headword: 'fish',
+    meaning: '魚',
+    exampleEn: 'We caught a fish.',
+    exampleJa: 'わたしたちは魚を1匹つかまえました。',
+  ),
+  _SampleWord(
+    headword: 'garden',
+    meaning: '庭',
+    exampleEn: 'She works in the garden.',
+    exampleJa: '彼女は庭で作業しています。',
+  ),
+  _SampleWord(
+    headword: 'house',
+    meaning: '家',
+    exampleEn: 'They live in a big house.',
+    exampleJa: '彼らは大きな家に住んでいます。',
+  ),
+  _SampleWord(
+    headword: 'ice',
+    meaning: '氷',
+    exampleEn: 'The lake turned to ice.',
+    exampleJa: 'その湖は氷になりました。',
+  ),
   _SampleWord(
     headword: 'jump',
     partOfSpeech: PartOfSpeech.verb,
     meaning: 'とぶ',
     exampleEn: 'The rabbit can jump high.',
+    exampleJa: 'そのウサギは高くとべます。',
   ),
-  _SampleWord(headword: 'kite', meaning: 'たこ', exampleEn: 'We flew a kite.'),
-  _SampleWord(headword: 'lemon', meaning: 'レモン', exampleEn: 'This lemon is sour.'),
-  _SampleWord(headword: 'moon', meaning: '月', exampleEn: 'The moon is bright tonight.'),
-  _SampleWord(headword: 'nest', meaning: '巣', exampleEn: 'A bird built a nest.'),
-  _SampleWord(headword: 'orange', meaning: 'オレンジ', exampleEn: 'I like orange juice.'),
-  _SampleWord(headword: 'pencil', meaning: '鉛筆', exampleEn: 'Use a pencil to write.'),
-  _SampleWord(headword: 'queen', meaning: '女王', exampleEn: 'The queen wore a crown.'),
-  _SampleWord(headword: 'rain', meaning: '雨', exampleEn: 'It began to rain.'),
-  _SampleWord(headword: 'sun', meaning: '太陽', exampleEn: 'The sun rises in the east.'),
-  _SampleWord(headword: 'tree', meaning: '木', exampleEn: 'A tall tree stands here.'),
-  _SampleWord(headword: 'umbrella', meaning: '傘', exampleEn: 'Take an umbrella today.'),
-  _SampleWord(headword: 'van', meaning: 'バン', exampleEn: 'The van is parked outside.'),
-  _SampleWord(headword: 'water', meaning: '水', exampleEn: 'Drink plenty of water.'),
-  _SampleWord(headword: 'box', meaning: '箱', exampleEn: 'Put it in the box.'),
+  _SampleWord(
+    headword: 'kite',
+    meaning: 'たこ',
+    exampleEn: 'We flew a kite.',
+    exampleJa: 'わたしたちはたこをあげました。',
+  ),
+  _SampleWord(
+    headword: 'lemon',
+    meaning: 'レモン',
+    exampleEn: 'This lemon is sour.',
+    exampleJa: 'このレモンはすっぱいです。',
+  ),
+  _SampleWord(
+    headword: 'moon',
+    meaning: '月',
+    exampleEn: 'The moon is bright tonight.',
+    exampleJa: '今夜は月が明るいです。',
+  ),
+  _SampleWord(
+    headword: 'nest',
+    meaning: '巣',
+    exampleEn: 'A bird built a nest.',
+    exampleJa: '鳥が巣を作りました。',
+  ),
+  _SampleWord(
+    headword: 'orange',
+    meaning: 'オレンジ',
+    exampleEn: 'I like orange juice.',
+    exampleJa: 'わたしはオレンジジュースが好きです。',
+  ),
+  _SampleWord(
+    headword: 'pencil',
+    meaning: '鉛筆',
+    exampleEn: 'Use a pencil to write.',
+    exampleJa: '書くときは鉛筆を使ってください。',
+  ),
+  _SampleWord(
+    headword: 'queen',
+    meaning: '女王',
+    exampleEn: 'The queen wore a crown.',
+    exampleJa: 'その女王は王冠をかぶっていました。',
+  ),
+  _SampleWord(
+    headword: 'rain',
+    meaning: '雨',
+    exampleEn: 'It began to rain.',
+    exampleJa: '雨が降り始めました。',
+  ),
+  _SampleWord(
+    headword: 'sun',
+    meaning: '太陽',
+    exampleEn: 'The sun rises in the east.',
+    exampleJa: '太陽は東から昇ります。',
+  ),
+  _SampleWord(
+    headword: 'tree',
+    meaning: '木',
+    exampleEn: 'A tall tree stands here.',
+    exampleJa: 'ここに高い木が立っています。',
+  ),
+  _SampleWord(
+    headword: 'umbrella',
+    meaning: '傘',
+    exampleEn: 'Take an umbrella today.',
+    exampleJa: '今日は傘を持って行きなさい。',
+  ),
+  _SampleWord(
+    headword: 'van',
+    meaning: 'バン',
+    exampleEn: 'The van is parked outside.',
+    exampleJa: 'そのバンは外に停めてあります。',
+  ),
+  _SampleWord(
+    headword: 'water',
+    meaning: '水',
+    exampleEn: 'Drink plenty of water.',
+    exampleJa: '水をたっぷり飲みなさい。',
+  ),
+  _SampleWord(
+    headword: 'box',
+    meaning: '箱',
+    exampleEn: 'Put it in the box.',
+    exampleJa: 'それを箱に入れてください。',
+  ),
   _SampleWord(
     headword: 'yellow',
     partOfSpeech: PartOfSpeech.adjective,
     meaning: '黄色い',
     exampleEn: 'The flower is yellow.',
+    exampleJa: 'その花は黄色いです。',
   ),
-  _SampleWord(headword: 'zoo', meaning: '動物園', exampleEn: 'We went to the zoo.'),
-  _SampleWord(headword: 'bird', meaning: '鳥', exampleEn: 'A bird sang in the tree.'),
-  _SampleWord(headword: 'chair', meaning: '椅子', exampleEn: 'Please sit on the chair.'),
-  _SampleWord(headword: 'door', meaning: 'ドア', exampleEn: 'Close the door quietly.'),
-  _SampleWord(headword: 'elephant', meaning: '象', exampleEn: 'An elephant is very large.'),
+  _SampleWord(
+    headword: 'zoo',
+    meaning: '動物園',
+    exampleEn: 'We went to the zoo.',
+    exampleJa: 'わたしたちは動物園へ行きました。',
+  ),
+  _SampleWord(
+    headword: 'bird',
+    meaning: '鳥',
+    exampleEn: 'A bird sang in the tree.',
+    exampleJa: '鳥が木の中で鳴きました。',
+  ),
+  _SampleWord(
+    headword: 'chair',
+    meaning: '椅子',
+    exampleEn: 'Please sit on the chair.',
+    exampleJa: 'その椅子に座ってください。',
+  ),
+  _SampleWord(
+    headword: 'door',
+    meaning: 'ドア',
+    exampleEn: 'Close the door quietly.',
+    exampleJa: '静かにドアを閉めてください。',
+  ),
+  _SampleWord(
+    headword: 'elephant',
+    meaning: '象',
+    exampleEn: 'An elephant is very large.',
+    exampleJa: '象はとても大きいです。',
+  ),
 ];

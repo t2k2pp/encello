@@ -6,6 +6,7 @@ import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_text.dart';
 import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
+import '../../data/repositories/word_repository.dart';
 import '../../providers/providers.dart';
 import '../widgets/centered_content.dart';
 import '../widgets/empty_state.dart';
@@ -27,14 +28,14 @@ class WriteMeaningScreen extends ConsumerStatefulWidget {
 }
 
 class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {
-  late final Future<List<Word>> _plan = _load();
+  late final Future<List<DraftWord>> _plan = _load();
   final _meaningCtrl = TextEditingController();
   int _index = 0;
   bool _saving = false;
 
   /// 下書きを一度だけ読む。ストリームの `.first` は使わない
   /// （一度も流れないと待ち続けるため。[Docs/07_testing_strategy.md] §4）。
-  Future<List<Word>> _load() =>
+  Future<List<DraftWord>> _load() =>
       ref.read(wordRepositoryProvider).draftWords(widget.profile.id);
 
   @override
@@ -43,10 +44,11 @@ class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {
     super.dispose();
   }
 
-  Future<void> _saveAndNext(List<Word> words) async {
+  Future<void> _saveAndNext(List<DraftWord> drafts) async {
     final meaning = _meaningCtrl.text.trim();
     if (meaning.isEmpty || _saving) return;
-    final word = words[_index];
+    final draft = drafts[_index];
+    final word = draft.word;
     setState(() => _saving = true);
     try {
       await ref
@@ -57,8 +59,9 @@ class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {
             partOfSpeech: PartOfSpeech.fromValue(word.partOfSpeech),
             meaning: meaning,
             phonetic: word.phonetic,
-            exampleEn: word.exampleEn,
-            exampleJa: word.exampleJa,
+            // ここで書き換えるのは訳だけ。書き残した「出会った文」はそのまま渡す。
+            exampleEn: draft.example?.exampleEn,
+            exampleJa: draft.example?.exampleJa,
             level: word.level,
           );
       if (!mounted) return;
@@ -88,7 +91,7 @@ class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {
       appBar: AppBar(title: const Text('訳を書く')),
       body: SafeArea(
         child: CenteredContent(
-          child: FutureBuilder<List<Word>>(
+          child: FutureBuilder<List<DraftWord>>(
             future: _plan,
             builder: (context, snapshot) {
               if (snapshot.hasError) {
@@ -98,20 +101,20 @@ class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {
                   subMessage: '${snapshot.error}',
                 );
               }
-              final words = snapshot.data;
-              if (words == null) {
+              final drafts = snapshot.data;
+              if (drafts == null) {
                 return const Center(child: CircularProgressIndicator());
               }
-              if (words.isEmpty || _index >= words.length) {
-                return _DoneView(total: words.length);
+              if (drafts.isEmpty || _index >= drafts.length) {
+                return _DoneView(total: drafts.length);
               }
               return _QuestionView(
-                word: words[_index],
+                draft: drafts[_index],
                 index: _index,
-                total: words.length,
+                total: drafts.length,
                 controller: _meaningCtrl,
                 busy: _saving,
-                onSave: () => _saveAndNext(words),
+                onSave: () => _saveAndNext(drafts),
                 onSkip: _skip,
               );
             },
@@ -123,7 +126,7 @@ class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {
 }
 
 class _QuestionView extends StatelessWidget {
-  final Word word;
+  final DraftWord draft;
   final int index;
   final int total;
   final TextEditingController controller;
@@ -132,7 +135,7 @@ class _QuestionView extends StatelessWidget {
   final VoidCallback onSkip;
 
   const _QuestionView({
-    required this.word,
+    required this.draft,
     required this.index,
     required this.total,
     required this.controller,
@@ -144,6 +147,9 @@ class _QuestionView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final spacing = AppSpacing.of(context);
+    final word = draft.word;
+    // 下書きはマイ単語なので、出るのは自分で書き残した「出会った文」。
+    final example = draft.example;
     return Padding(
       padding: spacing.screenPadding,
       child: Column(
@@ -170,10 +176,10 @@ class _QuestionView extends StatelessWidget {
                   ),
                 ),
                 // 見つけた文が無い語もある（任意入力のため）。
-                if (word.exampleEn != null) ...[
+                if (example != null) ...[
                   const SizedBox(height: 8),
                   Text(
-                    word.exampleEn!,
+                    example.exampleEn,
                     maxLines: 3,
                     overflow: TextOverflow.ellipsis,
                     style: AppText.body(color: AppColors.ink2),

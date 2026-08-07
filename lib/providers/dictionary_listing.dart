@@ -25,6 +25,17 @@ final wordByIdProvider = StreamProvider.family<Word?, int>(
   (ref, id) => ref.watch(wordRepositoryProvider).watchById(id),
 );
 
+/// 単語詳細が並べる例文（全件、表示順）。0件なら空
+/// （[Docs/03_data_model.md] §2.4「表示」）。
+final wordExamplesProvider = StreamProvider.family<List<WordExample>, int>(
+  (ref, wordId) => ref.watch(wordRepositoryProvider).watchExamples(wordId),
+);
+
+/// `word_examples.sourcePresetId` → 単語帳（例文の出どころを名前で出すため）。
+final wordbooksByPresetIdProvider = StreamProvider<Map<String, Wordbook>>(
+  (ref) => ref.watch(wordbookRepositoryProvider).watchByPresetId(),
+);
+
 /// ある語の、ある学習者の学習状態。行が無ければ null（未学習）。
 final wordReviewProvider =
     StreamProvider.family<WordReview?, ({int wordId, int profileId})>(

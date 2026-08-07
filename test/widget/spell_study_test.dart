@@ -1,7 +1,9 @@
+import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:encello/application/study_session_controller.dart';
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/repositories/study_repository.dart';
+import 'package:encello/data/repositories/wordbook_repository.dart';
 import 'package:encello/domain/usecases/study_queue_builder.dart';
 import 'package:encello/providers/providers.dart';
 import 'package:encello/ui/screens/session_result_screen.dart';
@@ -196,6 +198,112 @@ void main() {
 
       await tester.pump(const Duration(seconds: 3));
       expect(container.read(studySessionProvider)!.phase, StudyPhase.feedback);
+    });
+
+    // 今回の変更の目的そのもの（[Docs/03_data_model.md] §2.4「表示」）。
+    testWidgets('例文は学習中の単語帳のものを出す', (tester) async {
+      // 同じ語を2冊が別々の例文で収録し、学習対象は TOEIC の1冊だけにする。
+      final books = WordbookRepository(db);
+      final jhs = await books.create(name: '中学英単語', emoji: '🏫', colorSeed: 1);
+      final toeic = await books.create(
+        name: 'TOEIC 基礎',
+        emoji: '💼',
+        colorSeed: 6,
+      );
+      await (db.update(db.wordbooks)..where((t) => t.id.equals(jhs))).write(
+        const WordbooksCompanion(presetId: Value('jhs_v1')),
+      );
+      await (db.update(db.wordbooks)..where((t) => t.id.equals(toeic))).write(
+        const WordbooksCompanion(presetId: Value('toeic_basic_v1')),
+      );
+
+      final wordId = await db
+          .into(db.words)
+          .insert(
+            WordsCompanion.insert(
+              headword: 'apple',
+              partOfSpeech: PartOfSpeech.noun.value,
+              meaning: 'りんご',
+            ),
+          );
+      await books.addWord(jhs, wordId);
+      await books.addWord(toeic, wordId);
+      for (final e in const [
+        (source: 'jhs_v1', order: 10, en: 'I ate an apple.'),
+        (source: 'toeic_basic_v1', order: 60, en: 'The apple is on sale.'),
+      ]) {
+        await db
+            .into(db.wordExamples)
+            .insert(
+              WordExamplesCompanion.insert(
+                wordId: wordId,
+                exampleEn: e.en,
+                exampleJa: '和訳',
+                sourcePresetId: Value(e.source),
+                sortOrder: Value(e.order),
+              ),
+            );
+      }
+      await books.setStudyTarget(me, toeic, selected: true);
+      final profile =
+          await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
+              .getSingle();
+
+      final container = await pumpWithProviders(
+        tester,
+        db: db,
+        child: const SpellStudyScreen(),
+        activeProfile: profile,
+        size: const Size(390, 900),
+      );
+      await container
+          .read(studySessionProvider.notifier)
+          .start(
+            profile: profile,
+            mode: StudyMode.spell,
+            policy: QueuePolicy.reviewFirst,
+            limit: 20,
+          );
+      await tester.pumpAndSettle();
+
+      await type(tester, 'apple');
+      await tester.tap(find.text('答え合わせ'));
+      await tester.pumpAndSettle();
+
+      // 学習中の単語帳（TOEIC）の例文だけを出す。`sortOrder` の先頭ではない。
+      expect(find.text('The apple is on sale.'), findsOneWidget);
+      expect(find.text('I ate an apple.'), findsNothing);
+    });
+
+    testWidgets('学習中の単語帳に例文が無ければ sortOrder の先頭を出す', (tester) async {
+      final seeded = await seedStudyTarget(
+        db,
+        me,
+        exampleEn: 'I ate an apple.',
+        exampleJa: 'りんごを食べました。',
+      );
+      final container = await pumpWithProviders(
+        tester,
+        db: db,
+        child: const SpellStudyScreen(),
+        activeProfile: seeded.profile,
+        size: const Size(390, 900),
+      );
+      await container
+          .read(studySessionProvider.notifier)
+          .start(
+            profile: seeded.profile,
+            mode: StudyMode.spell,
+            policy: QueuePolicy.reviewFirst,
+            limit: 20,
+          );
+      await tester.pumpAndSettle();
+
+      await type(tester, 'apple');
+      await tester.tap(find.text('答え合わせ'));
+      await tester.pumpAndSettle();
+
+      expect(find.text('I ate an apple.'), findsOneWidget);
     });
   });
 

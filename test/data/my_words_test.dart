@@ -104,6 +104,37 @@ void main() {
       expect(word.isDraft, isTrue);
     });
 
+    // クイック登録は和訳を聞かない（[Docs/06_features/my_words.md] §4.1）。
+    test('「出会った文」は和訳が無くても自分の文として残り、訳を書いても消えない', () async {
+      final id = await words.createOwned(
+        ownerProfileId: brother.id,
+        headword: 'mystery',
+        partOfSpeech: PartOfSpeech.noun,
+        exampleEn: 'It was a mystery to me.',
+      );
+
+      final drafts = await words.draftWords(brother.id);
+      final draft = drafts.single;
+      expect(draft.example, isNotNull);
+      expect(draft.example!.exampleEn, 'It was a mystery to me.');
+      expect(draft.example!.sourcePresetId, isNull);
+
+      // 「訳を書く」は訳だけを書き換え、書き残した文はそのまま渡す。
+      await words.updateWord(
+        draft.word,
+        headword: 'mystery',
+        partOfSpeech: PartOfSpeech.noun,
+        meaning: 'なぞ',
+        exampleEn: draft.example!.exampleEn,
+        exampleJa: draft.example!.exampleJa,
+        level: 1,
+      );
+
+      final example = (await words.examplesOf(id)).single;
+      expect(example.exampleEn, 'It was a mystery to me.');
+      expect((await words.findById(id))!.isDraft, isFalse);
+    });
+
     test('共有の語は訳が空でも下書きにしない（下書きはマイ単語だけの状態）', () async {
       final id = await createSharedWord(db, headword: 'shared', meaning: 'いみ');
       final word = (await words.findById(id))!;

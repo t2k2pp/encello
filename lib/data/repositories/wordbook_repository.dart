@@ -66,6 +66,14 @@ class WordbookRepository {
       (_db.select(_db.wordbooks)..where((t) => t.id.equals(id)))
           .getSingleOrNull();
 
+  /// `presetId` → 単語帳。例文がどの単語帳のものかを名前で示すために使う
+  /// （`word_examples.sourcePresetId`。[Docs/03_data_model.md] §2.4）。
+  Stream<Map<String, Wordbook>> watchByPresetId() {
+    final query = _db.select(_db.wordbooks)
+      ..where((t) => t.presetId.isNotNull());
+    return query.watch().map((rows) => {for (final b in rows) b.presetId!: b});
+  }
+
   /// [profileId] のマイ単語帳（`category = myWords`）を返す。
   /// プロファイル作成時に必ず1冊作られる（[Docs/06_features/my_words.md] §2）ため、
   /// 見つからない場合はデータ不整合として例外にする。

@@ -231,6 +231,7 @@ WHERE ${where.text}
 
   Set<ResultSetImplementation<dynamic, dynamic>> get _readsFrom => {
     _db.words,
+    _db.wordExamples,
     _db.wordReviews,
     _db.wordbookEntries,
     _db.wordbooks,
@@ -295,9 +296,13 @@ ORDER BY ${order.text}
         ..add(Variable<String>(contains))
         ..add(Variable<String>(contains));
       if (q.searchExamples) {
-        targets
-          ..add("w.example_en LIKE ? ESCAPE '\\'")
-          ..add("w.example_ja LIKE ? ESCAPE '\\'");
+        // 例文は `word_examples` に1対多で持つ（[Docs/03_data_model.md] §2.4）。
+        // 1件でも当たれば語をヒットさせる。
+        targets.add(
+          'EXISTS (SELECT 1 FROM word_examples e WHERE e.word_id = w.id '
+          "AND (e.example_en LIKE ? ESCAPE '\\' "
+          "OR e.example_ja LIKE ? ESCAPE '\\'))",
+        );
         vars
           ..add(Variable<String>(contains))
           ..add(Variable<String>(contains));
@@ -432,6 +437,9 @@ ORDER BY ${order.text}
 
   /// 共有の語を作る。`(headword, partOfSpeech)` が既存と衝突する場合は例外にする
   /// （呼び出し側が先に [findByHeadword] で確認し、既存語を単語帳へ所属させる）。
+  ///
+  /// [exampleEn] / [exampleJa] は**ユーザーが書いた文**として
+  /// `sourcePresetId = null` の1件に入れる（[Docs/03_data_model.md] §2.4）。
   Future<int> createShared({
     required String headword,
     required PartOfSpeech partOfSpeech,
@@ -441,25 +449,31 @@ ORDER BY ${order.text}
     String? exampleJa,
     int level = 1,
   }) {
-    return _db
-        .into(_db.words)
-        .insert(
-          WordsCompanion.insert(
-            headword: headword.trim().toLowerCase(),
-            partOfSpeech: partOfSpeech.value,
-            meaning: meaning,
-            phonetic: Value(_nullIfBlank(phonetic)),
-            exampleEn: Value(_nullIfBlank(exampleEn)),
-            exampleJa: Value(_nullIfBlank(exampleJa)),
-            level: Value(level),
-          ),
-        );
+    return _db.transaction(() async {
+      final id = await _db
+          .into(_db.words)
+          .insert(
+            WordsCompanion.insert(
+              headword: headword.trim().toLowerCase(),
+              partOfSpeech: partOfSpeech.value,
+              meaning: meaning,
+              phonetic: Value(_nullIfBlank(phonetic)),
+              level: Value(level),
+            ),
+          );
+      await setUserExample(id, exampleEn: exampleEn, exampleJa: exampleJa);
+      return id;
+    });
   }
 
   /// 語を編集する。プリセット由来の語なら `isEdited = true` を立てる（FR-05）。
   ///
   /// `(headword, partOfSpeech)` を他の語と衝突する値へ変えようとした場合は保存せず
   /// [StateError] を投げる（[Docs/06_features/dictionary.md] §2.2）。
+  ///
+  /// 例文は**ユーザーが書いた文**（`sourcePresetId = null` の1件）だけを書き換える。
+  /// 単語帳由来の例文はここでは触らない（[Docs/03_data_model.md] §2.4）。
+  /// 呼び出し側は、いま入っているユーザーの文をそのまま渡す（省略＝消す、になる）。
   Future<void> updateWord(
     Word word, {
     required String headword,
@@ -486,25 +500,30 @@ ORDER BY ${order.text}
       throw StateError('同じ見出し語と品詞の単語がすでにあります。');
     }
 
-    await (_db.update(_db.words)..where((t) => t.id.equals(word.id))).write(
-      WordsCompanion(
-        headword: Value(normalized),
-        partOfSpeech: Value(partOfSpeech.value),
-        meaning: Value(meaning),
-        phonetic: Value(_nullIfBlank(phonetic)),
-        exampleEn: Value(_nullIfBlank(exampleEn)),
-        exampleJa: Value(_nullIfBlank(exampleJa)),
-        level: Value(level),
-        // 訳が入ったら下書きではなくなる（[Docs/06_features/my_words.md] §3）。
-        // 下書きは**マイ単語だけ**の状態。共有の語は訳が空でも下書きにしない
-        // （[Docs/03_data_model.md] §2.3）。
-        isDraft: Value(
-          word.ownerProfileId != null && meaning.trim().isEmpty,
+    await _db.transaction(() async {
+      await (_db.update(_db.words)..where((t) => t.id.equals(word.id))).write(
+        WordsCompanion(
+          headword: Value(normalized),
+          partOfSpeech: Value(partOfSpeech.value),
+          meaning: Value(meaning),
+          phonetic: Value(_nullIfBlank(phonetic)),
+          level: Value(level),
+          // 訳が入ったら下書きではなくなる（[Docs/06_features/my_words.md] §3）。
+          // 下書きは**マイ単語だけ**の状態。共有の語は訳が空でも下書きにしない
+          // （[Docs/03_data_model.md] §2.3）。
+          isDraft: Value(
+            word.ownerProfileId != null && meaning.trim().isEmpty,
+          ),
+          isEdited: Value(word.presetId != null),
+          updatedAt: Value(DateTime.now()),
         ),
-        isEdited: Value(word.presetId != null),
-        updatedAt: Value(DateTime.now()),
-      ),
-    );
+      );
+      await setUserExample(
+        word.id,
+        exampleEn: exampleEn,
+        exampleJa: exampleJa,
+      );
+    });
   }
 
   /// マイ単語を作る（[Docs/06_features/my_words.md] §2〜§3）。
@@ -535,30 +554,37 @@ ORDER BY ${order.text}
               partOfSpeech: partOfSpeech.value,
               meaning: meaning,
               phonetic: Value(_nullIfBlank(phonetic)),
-              exampleEn: Value(_nullIfBlank(exampleEn)),
-              exampleJa: Value(_nullIfBlank(exampleJa)),
               level: Value(level),
               ownerProfileId: Value(ownerProfileId),
               isDraft: Value(meaning.trim().isEmpty),
             ),
           );
+      // 「出会った文」はその人が書いた文なので `sourcePresetId = null` で持つ。
+      await setUserExample(wordId, exampleEn: exampleEn, exampleJa: exampleJa);
       await wordbooks.addWord(myWordsBook.id, wordId);
       return wordId;
     });
   }
 
-  /// 自分の下書きの語（「訳を書く」モードが1語ずつ埋めていく対象）。
+  /// 自分の下書きの語（「訳を書く」モードが1語ずつ埋めていく対象）と、
+  /// その語に書き残した「出会った文」。
   ///
   /// 登録が新しい順に並べる。出会った直後の語ほど記憶が残っていて訳を書きやすい
   /// （[Docs/06_features/my_words.md] §5）。
-  Future<List<Word>> draftWords(int profileId) =>
-      (_db.select(_db.words)
-            ..where(
-              (t) =>
-                  t.ownerProfileId.equals(profileId) & t.isDraft.equals(true),
-            )
-            ..orderBy([(t) => OrderingTerm.desc(t.createdAt)]))
-          .get();
+  Future<List<DraftWord>> draftWords(int profileId) async {
+    final words =
+        await (_db.select(_db.words)
+              ..where(
+                (t) =>
+                    t.ownerProfileId.equals(profileId) & t.isDraft.equals(true),
+              )
+              ..orderBy([(t) => OrderingTerm.desc(t.createdAt)]))
+            .get();
+    final examples = await userExamplesOf(words.map((w) => w.id));
+    return [
+      for (final w in words) DraftWord(word: w, example: examples[w.id]),
+    ];
+  }
 
   /// 自分の下書き（[Docs/06_features/my_words.md] §3）の語数。
   /// ホームの下書きカードとマイ単語画面の「訳を書く」ボタンが見る。
@@ -574,12 +600,14 @@ ORDER BY ${order.text}
   }
 
   /// プリセット語を編集前の値へ戻す（FR-06）。`isEdited = false` にする。
+  ///
+  /// 単語帳由来の例文は `word_examples` 側に `(wordId, sourcePresetId)` で入っていて
+  /// 編集で壊れない（編集した文はユーザーの文として別の行になる）。よってここでは
+  /// `words` の列だけを戻し、例文の行には触らない（[Docs/03_data_model.md] §2.4）。
   Future<void> restorePreset(
     int wordId, {
     required String meaning,
     String? phonetic,
-    String? exampleEn,
-    String? exampleJa,
     required int level,
     required String headword,
     required PartOfSpeech partOfSpeech,
@@ -590,8 +618,6 @@ ORDER BY ${order.text}
         partOfSpeech: Value(partOfSpeech.value),
         meaning: Value(meaning),
         phonetic: Value(phonetic),
-        exampleEn: Value(exampleEn),
-        exampleJa: Value(exampleJa),
         level: Value(level),
         isDraft: const Value(false),
         isEdited: const Value(false),
@@ -647,11 +673,199 @@ ORDER BY ${order.text}
     return rows.read<int>('c');
   }
 
+  // --- 例文（[Docs/03_data_model.md] §2.4）---
+
+  /// ユーザーが書いた文の表示順。自分の文を単語帳の例文より先に置く。
+  static const userExampleSortOrder = 0;
+
+  /// ある語の例文を全件、表示順（`sortOrder` → `id`）で返す。
+  Future<List<WordExample>> examplesOf(int wordId) => _orderedExamples(
+    (t) => t.wordId.equals(wordId),
+  ).get();
+
+  /// 単語詳細が見る例文（全件）。編集がすぐ反映されるようストリームで取る。
+  Stream<List<WordExample>> watchExamples(int wordId) => _orderedExamples(
+    (t) => t.wordId.equals(wordId),
+  ).watch();
+
+  /// ユーザーが自分で書いた文（`sourcePresetId` が null）。無ければ null。
+  Future<WordExample?> userExampleOf(int wordId) =>
+      (_db.select(_db.wordExamples)..where(
+            (t) => t.wordId.equals(wordId) & t.sourcePresetId.isNull(),
+          ))
+          .getSingleOrNull();
+
+  /// 複数語のユーザーの文をまとめて引く（語 id → その語の文）。
+  Future<Map<int, WordExample>> userExamplesOf(Iterable<int> wordIds) async {
+    final ids = wordIds.toSet();
+    if (ids.isEmpty) return const {};
+    final rows =
+        await (_db.select(_db.wordExamples)..where(
+              (t) => t.wordId.isIn(ids) & t.sourcePresetId.isNull(),
+            ))
+            .get();
+    return {for (final e in rows) e.wordId: e};
+  }
+
+  /// ユーザーが書いた「出会った文」を1件だけ持たせる
+  /// （`sourcePresetId = null` / `sortOrder = 0`）。文が空なら行を消す。
+  ///
+  /// 和訳は `word_examples.exampleJa` が not null のため空文字で入る。
+  /// クイック登録（[Docs/06_features/my_words.md] §4.1）は和訳を聞かないので、
+  /// ここで行を作らないと利用者が書いた文が消えてしまう。
+  Future<void> setUserExample(
+    int wordId, {
+    String? exampleEn,
+    String? exampleJa,
+  }) async {
+    final en = _nullIfBlank(exampleEn);
+    final ja = _nullIfBlank(exampleJa) ?? '';
+    if (en == null) {
+      await (_db.delete(_db.wordExamples)..where(
+            (t) => t.wordId.equals(wordId) & t.sourcePresetId.isNull(),
+          ))
+          .go();
+      return;
+    }
+    final existing = await userExampleOf(wordId);
+    if (existing == null) {
+      await _db
+          .into(_db.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: wordId,
+              exampleEn: en,
+              exampleJa: ja,
+              sortOrder: const Value(userExampleSortOrder),
+            ),
+          );
+      return;
+    }
+    await (_db.update(_db.wordExamples)
+          ..where((t) => t.id.equals(existing.id)))
+        .write(
+          WordExamplesCompanion(
+            exampleEn: Value(en),
+            exampleJa: Value(ja),
+            sortOrder: const Value(userExampleSortOrder),
+          ),
+        );
+  }
+
+  /// 単語帳由来の例文を `(wordId, sourcePresetId)` で upsert する
+  /// （[Docs/06_features/wordbooks.md] §3.1）。
+  ///
+  /// これにより、同じ語を複数の単語帳が持っていても例文が互いを上書きしない。
+  Future<void> upsertSourcedExample({
+    required int wordId,
+    required String sourcePresetId,
+    required String exampleEn,
+    required String exampleJa,
+    required int sortOrder,
+  }) async {
+    final existing =
+        await (_db.select(_db.wordExamples)..where(
+              (t) =>
+                  t.wordId.equals(wordId) &
+                  t.sourcePresetId.equals(sourcePresetId),
+            ))
+            .getSingleOrNull();
+    if (existing == null) {
+      await _db
+          .into(_db.wordExamples)
+          .insert(
+            WordExamplesCompanion.insert(
+              wordId: wordId,
+              exampleEn: exampleEn,
+              exampleJa: exampleJa,
+              sourcePresetId: Value(sourcePresetId),
+              sortOrder: Value(sortOrder),
+            ),
+          );
+      return;
+    }
+    await (_db.update(_db.wordExamples)
+          ..where((t) => t.id.equals(existing.id)))
+        .write(
+          WordExamplesCompanion(
+            exampleEn: Value(exampleEn),
+            exampleJa: Value(exampleJa),
+            sortOrder: Value(sortOrder),
+          ),
+        );
+  }
+
+  /// 学習画面に出す例文を1語につき1件選ぶ（[Docs/03_data_model.md] §2.4「表示」）。
+  ///
+  /// [wordbookIds]（学習中の単語帳）由来の例文を優先し、無ければ `sortOrder` の先頭。
+  Future<Map<int, WordExample>> preferredExamples(
+    Iterable<int> wordIds, {
+    Iterable<int> wordbookIds = const [],
+  }) async {
+    final ids = wordIds.toSet();
+    if (ids.isEmpty) return const {};
+    final preferred = await _presetIdsOf(wordbookIds);
+    final rows = await _orderedExamples((t) => t.wordId.isIn(ids)).get();
+
+    final result = <int, WordExample>{};
+    for (final row in rows) {
+      final current = result[row.wordId];
+      // 並びは `sortOrder` 昇順なので、同じ優先度なら先に見た方を残せばよい。
+      if (current == null) {
+        result[row.wordId] = row;
+      } else if (preferred.contains(row.sourcePresetId) &&
+          !preferred.contains(current.sourcePresetId)) {
+        result[row.wordId] = row;
+      }
+    }
+    return result;
+  }
+
+  /// 1語ぶんの [preferredExamples]。
+  Future<WordExample?> preferredExampleOf(
+    int wordId, {
+    Iterable<int> wordbookIds = const [],
+  }) async =>
+      (await preferredExamples([wordId], wordbookIds: wordbookIds))[wordId];
+
+  SimpleSelectStatement<$WordExamplesTable, WordExample> _orderedExamples(
+    Expression<bool> Function($WordExamplesTable) filter,
+  ) =>
+      _db.select(_db.wordExamples)
+        ..where(filter)
+        ..orderBy([
+          (t) => OrderingTerm.asc(t.sortOrder),
+          (t) => OrderingTerm.asc(t.id),
+        ]);
+
+  /// 単語帳 id → `wordbooks.presetId`。プリセットでない単語帳は持たない。
+  Future<Set<String>> _presetIdsOf(Iterable<int> wordbookIds) async {
+    final ids = wordbookIds.toSet();
+    if (ids.isEmpty) return const {};
+    final books =
+        await (_db.select(_db.wordbooks)..where((t) => t.id.isIn(ids))).get();
+    return {
+      for (final b in books)
+        if (b.presetId != null) b.presetId!,
+    };
+  }
+
   static String? _nullIfBlank(String? v) {
     if (v == null) return null;
     final trimmed = v.trim();
     return trimmed.isEmpty ? null : trimmed;
   }
+}
+
+/// 「訳を書く」モードが1語ずつ埋めていく下書きの語と、その「出会った文」。
+@immutable
+class DraftWord {
+  final Word word;
+
+  /// その人が書いた文（`sourcePresetId` が null）。書いていなければ null。
+  final WordExample? example;
+
+  const DraftWord({required this.word, required this.example});
 }
 
 /// SQL の断片と、そこに対応する変数。

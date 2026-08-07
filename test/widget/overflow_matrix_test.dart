@@ -67,13 +67,21 @@ void main() {
             partOfSpeech: PartOfSpeech.verb.value,
             meaning: longMeaning,
             phonetic: const Value('/ˌɪntərˌnæʃənələˈzeɪʃən/'),
-            exampleEn: const Value(
-              'The internationalization of the company took several years.',
-            ),
-            exampleJa: const Value('その会社の国際化には数年かかりました。'),
             presetId: const Value('jhs_v1:internationalization:verb'),
             isEdited: const Value(true),
             isExcluded: const Value(true),
+          ),
+        );
+    await db
+        .into(db.wordExamples)
+        .insert(
+          WordExamplesCompanion.insert(
+            wordId: wordId,
+            exampleEn:
+                'The internationalization of the company took several years.',
+            exampleJa: 'その会社の国際化には数年かかりました。',
+            sourcePresetId: const Value('jhs_v1'),
+            sortOrder: const Value(10),
           ),
         );
     await repo.addWord(wordbookId, wordId);

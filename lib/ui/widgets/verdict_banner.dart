@@ -79,6 +79,10 @@ class VerdictBanner extends StatelessWidget {
   final SpellVerdict verdict;
   final Word word;
 
+  /// 添える例文。**学習中の単語帳の例文**を選んである
+  /// （[Docs/03_data_model.md] §2.4「表示」）。無ければ null。
+  final WordExample? example;
+
   /// 利用者が入力した綴り（「惜しい」の差分表示に使う）。
   final String typed;
   final VoidCallback onNext;
@@ -90,6 +94,7 @@ class VerdictBanner extends StatelessWidget {
     super.key,
     required this.verdict,
     required this.word,
+    required this.example,
     required this.typed,
     required this.onNext,
     required this.isLast,
@@ -186,17 +191,17 @@ class VerdictBanner extends StatelessWidget {
                     style: AppText.body(),
                   ),
                   // 例文が無い語では行ごと出さない。
-                  if (word.exampleEn != null) ...[
+                  if (example != null) ...[
                     const SizedBox(height: 6),
                     Text(
-                      word.exampleEn!,
+                      example!.exampleEn,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: AppText.caption(color: AppColors.ink2),
                     ),
-                    if (word.exampleJa != null)
+                    if (example!.exampleJa.isNotEmpty)
                       Text(
-                        word.exampleJa!,
+                        example!.exampleJa,
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: AppText.caption(),
