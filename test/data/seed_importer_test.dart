@@ -18,8 +18,12 @@ void main() {
     db = newTestDatabase();
   });
 
-  SeedImporter importerWith(String json) =>
-      SeedImporter(db, FakeAssetBundle({_assetPath: json}));
+  // 差分適用のふるまいは1冊で確かめる（同梱6冊の内容に左右されないようにするため）。
+  SeedImporter importerWith(String json) => SeedImporter(
+    db,
+    FakeAssetBundle({_assetPath: json}),
+    paths: const [_assetPath],
+  );
 
   group('初回投入', () {
     test('単語帳・単語・所属が作られる', () async {
@@ -202,17 +206,30 @@ void main() {
   });
 
   group('同梱アセット', () {
-    test('assets/wordbooks/jhs_v1.json が読めて投入できる', () async {
+    test('同梱プリセットがすべて読めて投入できる', () async {
       final importer = SeedImporter(db, rootBundle);
       final result = await importer.importIfNeeded(installedVersion: 0);
 
       expect(result.applied, isTrue);
-      expect(result.wordbookCount, 1);
+      expect(result.wordbookCount, SeedImporter.assetPaths.length);
       expect(result.wordCount, greaterThan(100));
 
-      final book = await db.select(db.wordbooks).getSingle();
-      expect(book.presetId, 'jhs_v1');
-      expect(book.category, 'juniorHigh');
+      final books = await db.select(db.wordbooks).get();
+      expect(
+        books.map((b) => b.presetId),
+        containsAll(const [
+          'jhs_v1',
+          'hs_basic_v1',
+          'hs_advanced_v1',
+          'eiken_pre2_v1',
+          'eiken_2_v1',
+          'toeic_basic_v1',
+        ]),
+      );
+      expect(
+        books.firstWhere((b) => b.presetId == 'jhs_v1').category,
+        'juniorHigh',
+      );
 
       // 収録語は訳を必ず持ち、下書きではない。
       final words = await db.select(db.words).get();

@@ -13,7 +13,14 @@ import '../../tool/wordbook_validator.dart';
 void main() {
   final allowed = _readAllowedWords();
 
-  for (final book in const ['jhs_v1']) {
+  for (final book in const [
+    'jhs_v1',
+    'hs_basic_v1',
+    'hs_advanced_v1',
+    'eiken_pre2_v1',
+    'eiken_2_v1',
+    'toeic_basic_v1',
+  ]) {
     group(book, () {
       final asset =
           jsonDecode(File('assets/wordbooks/$book.json').readAsStringSync())

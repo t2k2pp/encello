@@ -37,13 +37,25 @@ class SeedImporter {
   final AppDatabase _db;
   final AssetBundle _bundle;
 
-  /// 同梱するプリセット単語帳のアセットパス。
+  /// このインスタンスが読むアセット。既定は [assetPaths]。
+  final List<String> paths;
+
+  /// 同梱するプリセット単語帳のアセットパス。`sortOrder`（易→難）の順に並べる。
   ///
   /// アセット一覧の走査ではなく明示列挙にする。列挙漏れは投入されないことで
   /// すぐ気付けるが、走査だと意図しないファイルが混ざっても気付けないため。
-  static const assetPaths = <String>['assets/wordbooks/jhs_v1.json'];
+  static const assetPaths = <String>[
+    'assets/wordbooks/jhs_v1.json',
+    'assets/wordbooks/hs_basic_v1.json',
+    'assets/wordbooks/hs_advanced_v1.json',
+    'assets/wordbooks/eiken_pre2_v1.json',
+    'assets/wordbooks/eiken_2_v1.json',
+    'assets/wordbooks/toeic_basic_v1.json',
+  ];
 
-  const SeedImporter(this._db, this._bundle);
+  /// [paths] は差し替え可能にしてある。テストが1冊だけを投入して
+  /// 差分適用のふるまいを確かめられるようにするため。
+  const SeedImporter(this._db, this._bundle, {this.paths = assetPaths});
 
   /// アセット側の版（同梱プリセットの最大 `seedVersion`）。
   Future<int> assetVersion() async {
@@ -54,7 +66,7 @@ class SeedImporter {
   /// 同梱プリセットをすべて読む。壊れていれば例外を投げる（起動ゲートが再試行を出す）。
   Future<List<PresetWordbook>> loadPresets() async {
     final books = <PresetWordbook>[];
-    for (final path in assetPaths) {
+    for (final path in paths) {
       final raw = await _bundle.loadString(path);
       final json = jsonDecode(raw);
       if (json is! Map<String, dynamic>) {
