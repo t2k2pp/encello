@@ -7,8 +7,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈætməsfɪr/",
       "meaning": "大気；雰囲気",
-      "exampleEn": "Carbon gas heats up Earth atmosphere.",
-      "exampleJa": "炭素ガスが地球の大気を温暖化・加熱させています。",
+      "exampleEn": "Carbon dioxide is warming the earth's atmosphere.",
+      "exampleJa": "二酸化炭素が地球の大気を暖めています。",
       "level": 2
     },
     {
@@ -17,7 +17,7 @@
       "phonetic": "/ɪˈmɪʃən/",
       "meaning": "排出；排出量",
       "exampleEn": "Countries aim to cut carbon emissions.",
-      "exampleJa": "国家は炭素排出量の削減を目指しています。",
+      "exampleJa": "各国は炭素の排出量を減らすことを目指しています。",
       "level": 3
     },
     {
@@ -25,8 +25,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪkˈsperɪmənt/",
       "meaning": "実験",
-      "exampleEn": "Students conducted science lab experiment.",
-      "exampleJa": "生徒たちは理科実験室で実験を行いました。",
+      "exampleEn": "The students carried out an experiment in class.",
+      "exampleJa": "生徒たちは授業で実験を行いました。",
       "level": 2
     },
     {
@@ -34,8 +34,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈvenʃən/",
       "meaning": "発明；発明品",
-      "exampleEn": "Telephone is a revolutionary invention.",
-      "exampleJa": "電話は革命的な発明品です。",
+      "exampleEn": "The telephone was a truly great invention.",
+      "exampleJa": "電話は本当に偉大な発明でした。",
       "level": 2
     },
     {
@@ -43,8 +43,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌriːˈsaɪklɪŋ/",
       "meaning": "リサイクル；再生利用",
-      "exampleEn": "Separate paper garbage for recycling.",
-      "exampleJa": "リサイクルのために古紙ごみを分別しなさい。",
+      "exampleEn": "Our town started a new recycling program.",
+      "exampleJa": "私たちの町は新しいリサイクルの取り組みを始めました。",
       "level": 2
     },
     {
@@ -52,8 +52,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːsɜːrtʃ/",
       "meaning": "研究；調査",
-      "exampleEn": "Medical research discovered new cure.",
-      "exampleJa": "医学研究が新しい治療法を発見しました。",
+      "exampleEn": "She is doing research on ocean life.",
+      "exampleJa": "彼女は海の生物について研究をしています。",
       "level": 2
     },
     {
@@ -62,7 +62,7 @@
       "phonetic": "/əˈbrʌpt/",
       "meaning": "突然の；急な",
       "exampleEn": "The train came to an abrupt stop.",
-      "exampleJa": "電車は突然の停車をしました。",
+      "exampleJa": "電車が急に止まりました。",
       "level": 3
     },
     {
@@ -70,8 +70,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈkɔːrd/",
       "meaning": "一致；協定",
-      "exampleEn": "Both nations signed a peace accord treaty.",
-      "exampleJa": "両国は平和協定条約に署名しました。",
+      "exampleEn": "The two countries signed a peace accord.",
+      "exampleJa": "両国は和平協定に署名しました。",
       "level": 3
     },
     {
@@ -80,7 +80,7 @@
       "phonetic": "/əˈdept/",
       "meaning": "熟練した",
       "exampleEn": "She is adept at solving math puzzles.",
-      "exampleJa": "彼女は数学のパズルを解くのに熟練しています。",
+      "exampleJa": "彼女は数学のパズルを解くのが得意です。",
       "level": 4
     },
     {
@@ -88,8 +88,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/esˈθetɪk/",
       "meaning": "美的な；美観の",
-      "exampleEn": "The building has great aesthetic beauty value.",
-      "exampleJa": "その建物は偉大な美的な美しさの価値を持っています。",
+      "exampleEn": "This building has great aesthetic value.",
+      "exampleJa": "この建物は高い美的価値を持っています。",
       "level": 4
     },
     {
@@ -97,8 +97,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈlɑːrm/",
       "meaning": "警報；不安",
-      "exampleEn": "Fire alarm sounded throughout the school.",
-      "exampleJa": "火災報知器が学校中に鳴り響きました。",
+      "exampleEn": "The fire alarm rang through the whole school.",
+      "exampleJa": "火災警報が学校中に鳴り響きました。",
       "level": 2
     },
     {
@@ -106,8 +106,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈæltɪtuːd/",
       "meaning": "高度；標高",
-      "exampleEn": "Plane maintains high cruising altitude flight.",
-      "exampleJa": "飛行機は高い巡航高度の飛行を維持しています。",
+      "exampleEn": "The plane is flying at a high altitude.",
+      "exampleJa": "その飛行機は高い高度を飛んでいます。",
       "level": 3
     },
     {
@@ -115,8 +115,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈmenəti/",
       "meaning": "快適な設備；アメニティ",
-      "exampleEn": "Hotel offers modern room amenities service.",
-      "exampleJa": "ホテルは近代的な客室アメニティを提供しています。",
+      "exampleEn": "This hotel offers many modern amenities.",
+      "exampleJa": "このホテルは近代的な設備を数多くそろえています。",
       "level": 3
     },
     {
@@ -125,16 +125,16 @@
       "phonetic": "/ˈænsestər/",
       "meaning": "祖先；先祖",
       "exampleEn": "Our ancestors built this stone castle.",
-      "exampleJa": "私たちの祖先がこの石城を建てました。",
+      "exampleJa": "私たちの祖先がこの石の城を建てました。",
       "level": 2
     },
     {
       "headword": "anomaly",
       "partOfSpeech": "noun",
       "phonetic": "/əˈnɑːməli/",
-      "meaning": "変異；例外事項",
-      "exampleEn": "Scientists detected weather temperature anomaly pattern.",
-      "exampleJa": "科学者たちは気象温度の変異パターンを検知しました。",
+      "meaning": "異常；例外",
+      "exampleEn": "Scientists found an anomaly in the temperature data.",
+      "exampleJa": "科学者たちは気温のデータに異常な値を見つけました。",
       "level": 4
     },
     {
@@ -142,8 +142,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈraʊz/",
       "meaning": "を喚起する；を目覚めさせる",
-      "exampleEn": "Speech aroused public interest in ecology.",
-      "exampleJa": "演説が生態学に対する世間の関心を喚起しました。",
+      "exampleEn": "The speech aroused public interest in the environment.",
+      "exampleJa": "その演説は環境への世間の関心を呼び起こしました。",
       "level": 3
     },
     {
@@ -151,8 +151,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/əˈskraɪb/",
       "meaning": "に帰する；〜のせいにする",
-      "exampleEn": "He ascribed failure to bad weather luck.",
-      "exampleJa": "彼は失敗を悪天候の運のせいに帰しました。",
+      "exampleEn": "He ascribed his failure to bad weather.",
+      "exampleJa": "彼は自分の失敗を悪天候のせいにしました。",
       "level": 4
     },
     {
@@ -160,35 +160,35 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈæset/",
       "meaning": "資産；強み",
-      "exampleEn": "Bilingual staff member is company asset.",
-      "exampleJa": "バイリンガルスタッフは会社の貴重な資産です。",
-      "level": 2
+      "exampleEn": "Her language skills are a real asset.",
+      "exampleJa": "彼女の語学力は大きな強みです。",
+      "level": 3
     },
     {
       "headword": "assure",
       "partOfSpeech": "verb",
       "phonetic": "/əˈʃʊr/",
       "meaning": "を保証する；を安心させる",
-      "exampleEn": "Manager assured customer about prompt refund.",
-      "exampleJa": "マネージャーは顧客に迅速な返金について安心させました。",
-      "level": 2
+      "exampleEn": "The manager assured us of a quick refund.",
+      "exampleJa": "支配人は私たちに迅速な返金を約束しました。",
+      "level": 3
     },
     {
       "headword": "attendant",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtendənt/",
       "meaning": "係員；アテンダント",
-      "exampleEn": "Parking attendant guided car into garage.",
-      "exampleJa": "駐車場係員が車をガレージへ案内しました。",
-      "level": 2
+      "exampleEn": "A flight attendant brought me some hot tea.",
+      "exampleJa": "客室乗務員が私に温かいお茶を持ってきてくれました。",
+      "level": 3
     },
     {
       "headword": "auditorium",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɔːdɪˈtɔːriəm/",
       "meaning": "講堂；大ホール",
-      "exampleEn": "Students gathered in university auditorium hall.",
-      "exampleJa": "学生たちが大学の講堂ホールに集まりました。",
+      "exampleEn": "The students gathered in the school auditorium.",
+      "exampleJa": "生徒たちは学校の講堂に集まりました。",
       "level": 3
     },
     {
@@ -196,8 +196,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɔːˈtɑːnəmi/",
       "meaning": "自治；自主性",
-      "exampleEn": "Region granted political autonomy government status.",
-      "exampleJa": "地域に政治的自治政府のステータスが授与されました。",
+      "exampleEn": "The region was given greater political autonomy.",
+      "exampleJa": "その地域はより大きな政治的自治を与えられました。",
       "level": 4
     },
     {
@@ -205,8 +205,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɔːsəm/",
       "meaning": "すばらしい；見事な",
-      "exampleEn": "Concert was an awesome musical live experience.",
-      "exampleJa": "コンサートはすばらしい音楽ライブ体験でした。",
+      "exampleEn": "The concert last night was really awesome.",
+      "exampleJa": "昨夜のコンサートは本当にすばらしかったです。",
       "level": 2
     },
     {
@@ -214,8 +214,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbentʃmɑːrk/",
       "meaning": "指標；ベンチマーク",
-      "exampleEn": "Test provides industry benchmark standard quality.",
-      "exampleJa": "テストは業界指標標準品質を提供します。",
+      "exampleEn": "This test is the benchmark for the industry.",
+      "exampleJa": "この試験は業界の指標になっています。",
       "level": 3
     },
     {
@@ -223,8 +223,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bɪd/",
       "meaning": "入札；競り",
-      "exampleEn": "Company submitted lowest building construction bid.",
-      "exampleJa": "会社は最も低い建築施工の入札を提出しました。",
+      "exampleEn": "Our company made the lowest bid.",
+      "exampleJa": "私たちの会社が最も低い入札をしました。",
       "level": 3
     },
     {
@@ -232,8 +232,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/bliːk/",
       "meaning": "暗い；荒涼とした",
-      "exampleEn": "Economic outlook remains bleak for winter.",
-      "exampleJa": "経済の見通しは冬に向けて暗いままです。",
+      "exampleEn": "The economic outlook remains bleak this winter.",
+      "exampleJa": "経済の見通しはこの冬も暗いままです。",
       "level": 3
     },
     {
@@ -241,8 +241,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/blɑːt/",
       "meaning": "汚点；インクのしみ",
-      "exampleEn": "Ink blot ruined written formal document page.",
-      "exampleJa": "インクの汚点が書面の公式文書ページを台無しにしました。",
+      "exampleEn": "An ink blot ruined the important document.",
+      "exampleJa": "インクのしみが大切な書類を台無しにしました。",
       "level": 3
     },
     {
@@ -250,8 +250,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈbreɪkθruː/",
       "meaning": "打開策；飛躍的進歩",
-      "exampleEn": "Scientists achieved major medical research breakthrough.",
-      "exampleJa": "科学者たちは主要な医学研究の飛躍的進歩を達成しました。",
+      "exampleEn": "The team made a major medical breakthrough.",
+      "exampleJa": "そのチームは医学上の大きな飛躍を成し遂げました。",
       "level": 3
     },
     {
@@ -259,8 +259,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/braʊz/",
       "meaning": "を拾い読みする；閲覧する",
-      "exampleEn": "Customer browsed online store catalog items.",
-      "exampleJa": "顧客はオンラインストアのカタログアイテムを閲覧しました。",
+      "exampleEn": "I browsed the online store for an hour.",
+      "exampleJa": "私は1時間オンラインストアを見て回りました。",
       "level": 2
     },
     {
@@ -268,8 +268,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæməflɑːʒ/",
       "meaning": "迷彩；偽装",
-      "exampleEn": "Soldiers wore green forest camouflage uniforms.",
-      "exampleJa": "兵士たちは緑の森林迷彩制服を着ていました。",
+      "exampleEn": "The soldiers wore camouflage in the thick forest.",
+      "exampleJa": "兵士たちは深い森の中で迷彩服を着ていました。",
       "level": 3
     },
     {
@@ -277,8 +277,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kɑːrˈsɪnədʒən/",
       "meaning": "発がん性物質",
-      "exampleEn": "Tobacco smoke contains dangerous toxic carcinogen.",
-      "exampleJa": "タバコの煙には危険な有毒発がん性物質が含まれています。",
+      "exampleEn": "Tobacco smoke contains a dangerous carcinogen.",
+      "exampleJa": "タバコの煙には危険な発がん性物質が含まれています。",
       "level": 4
     },
     {
@@ -295,8 +295,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈsensəs/",
       "meaning": "国勢調査；人口調査",
-      "exampleEn": "Government conducts national population census survey.",
-      "exampleJa": "政府は全国人口国勢調査を実施します。",
+      "exampleEn": "The government takes a census every five years.",
+      "exampleJa": "政府は5年ごとに国勢調査を行います。",
       "level": 3
     },
     {
@@ -304,8 +304,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃɑːrtər/",
       "meaning": "憲章；チャーター便",
-      "exampleEn": "Fly on private corporate charter plane flight.",
-      "exampleJa": "民間の法人チャーター機便で飛びちなさい。",
+      "exampleEn": "The members wrote a new club charter.",
+      "exampleJa": "会員たちは新しいクラブ憲章を作りました。",
       "level": 3
     },
     {
@@ -313,8 +313,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈsɪvl/",
       "meaning": "市民の；民事の；礼儀正しい",
-      "exampleEn": "Protect civil rights of all human citizens.",
-      "exampleJa": "全人間市民の市民権を保護しなさい。",
+      "exampleEn": "The new law protects the civil rights of workers.",
+      "exampleJa": "新しい法律は労働者の市民権を守ります。",
       "level": 2
     },
     {
@@ -322,8 +322,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪmət/",
       "meaning": "気候；風潮",
-      "exampleEn": "Global climate change affects ocean life.",
-      "exampleJa": "地球の気候変動が海洋の生命に影響を与えます。",
+      "exampleEn": "Climate change is affecting life in the ocean.",
+      "exampleJa": "気候変動は海の生き物に影響を与えています。",
       "level": 2
     },
     {
@@ -331,8 +331,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/koʊˈhiːʒn/",
       "meaning": "結合；結束",
-      "exampleEn": "Team unity creates strong social cohesion.",
-      "exampleJa": "チームの団結が強い社会的結束を作り出します。",
+      "exampleEn": "Good teamwork creates strong social cohesion.",
+      "exampleJa": "良いチームワークが強い社会的結束を生み出します。",
       "level": 4
     },
     {
@@ -340,8 +340,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːlənaɪz/",
       "meaning": "を植民地化する",
-      "exampleEn": "Powers colonized overseas foreign lands long ago.",
-      "exampleJa": "強国たちは昔、海外の外国の土地を植民地化しました。",
+      "exampleEn": "European powers colonized much of Africa.",
+      "exampleJa": "ヨーロッパの列強はアフリカの大部分を植民地にしました。",
       "level": 3
     },
     {
@@ -349,8 +349,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɑːdəti/",
       "meaning": "商品；日用品；資源",
-      "exampleEn": "Oil is a vital global trade commodity.",
-      "exampleJa": "石油は極めて重要な世界貿易商品です。",
+      "exampleEn": "Oil is an important commodity in world trade.",
+      "exampleJa": "石油は世界の貿易において重要な商品です。",
       "level": 3
     },
     {
@@ -358,8 +358,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpelɪŋ/",
       "meaning": "説得力のある；強い興味を引く",
-      "exampleEn": "Lawyer presented compelling evidence arguments in court.",
-      "exampleJa": "弁護士は裁判で説得力のある証拠主張を提示しました。",
+      "exampleEn": "The lawyer presented compelling evidence in court.",
+      "exampleJa": "弁護士は法廷で説得力のある証拠を示しました。",
       "level": 3
     },
     {
@@ -367,8 +367,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːmplɪment/",
       "meaning": "を補完する；引き立てる",
-      "exampleEn": "Red wine complements steak meat meal.",
-      "exampleJa": "赤ワインがステーキ肉の料理を補完します。",
+      "exampleEn": "Red wine complements this meat dish well.",
+      "exampleJa": "赤ワインはこの肉料理をよく引き立てます。",
       "level": 3
     },
     {
@@ -376,17 +376,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpɑːzət/",
       "meaning": "合成の；複合の",
-      "exampleEn": "Aircraft built from light composite materials.",
-      "exampleJa": "航空機は軽量な合成素材から組み立てられました。",
-      "level": 4
+      "exampleEn": "The aircraft is made of light composite materials.",
+      "exampleJa": "その航空機は軽い複合素材で作られています。",
+      "level": 3
     },
     {
       "headword": "conceal",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsiːl/",
       "meaning": "を隠す；を秘密にする",
-      "exampleEn": "Criminal tried to conceal stolen goods evidence.",
-      "exampleJa": "犯罪者は盗品証拠を隠そうと試みました。",
+      "exampleEn": "He tried to conceal the truth from us.",
+      "exampleJa": "彼は私たちに真実を隠そうとしました。",
       "level": 3
     },
     {
@@ -394,8 +394,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈsaɪs/",
       "meaning": "簡潔な；明瞭な",
-      "exampleEn": "Write clear concise executive summary report.",
-      "exampleJa": "明確で簡潔な要約報告書を書きなさい。",
+      "exampleEn": "Her report was clear and concise.",
+      "exampleJa": "彼女の報告書は明確で簡潔でした。",
       "level": 3
     },
     {
@@ -403,8 +403,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kənˈdɪʃn/",
       "meaning": "条件；状態",
-      "exampleEn": "Product is in excellent pristine condition.",
-      "exampleJa": "製品は素晴らしい状態にあります。",
+      "exampleEn": "The used car is in excellent condition.",
+      "exampleJa": "その中古車はとても良い状態です。",
       "level": 2
     },
     {
@@ -412,8 +412,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːnfɪdənt/",
       "meaning": "自信がある",
-      "exampleEn": "Candidate felt confident about interview result.",
-      "exampleJa": "候補者は面接結果について自信を感じていました。",
+      "exampleEn": "She felt confident about the job interview.",
+      "exampleJa": "彼女は就職の面接に自信を持っていました。",
       "level": 2
     },
     {
@@ -421,8 +421,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kənˈfjuːʒn/",
       "meaning": "混乱；困惑",
-      "exampleEn": "System crash caused public transit confusion.",
-      "exampleJa": "システムクラッシュが公共交通の混乱を引き起こしました。",
+      "exampleEn": "The sudden change caused confusion among passengers.",
+      "exampleJa": "突然の変更が乗客の間に混乱を引き起こしました。",
       "level": 2
     },
     {
@@ -430,26 +430,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnʃəns/",
       "meaning": "良心；道徳心",
-      "exampleEn": "Follow your moral inner voice conscience.",
-      "exampleJa": "自分の道徳的な内なる声の良心に従いなさい。",
-      "level": 2
+      "exampleEn": "His conscience would not let him lie.",
+      "exampleJa": "彼は良心が許さず、うそをつけませんでした。",
+      "level": 3
     },
     {
       "headword": "conserve",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɜːrv/",
       "meaning": "を保存・節約する",
-      "exampleEn": "Conserve water electricity energy at home.",
-      "exampleJa": "家庭で水と電気エネルギーを節約しなさい。",
-      "level": 2
+      "exampleEn": "We must conserve water during the dry season.",
+      "exampleJa": "乾季には水を節約しなければなりません。",
+      "level": 3
     },
     {
       "headword": "conspicuous",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈspɪkjuəs/",
       "meaning": "目立つ；顕著な",
-      "exampleEn": "Red sign is conspicuous in crowd.",
-      "exampleJa": "赤い看板は人ごみの中で目立ちます。",
+      "exampleEn": "The red sign was conspicuous in the crowd.",
+      "exampleJa": "その赤い看板は人ごみの中で目立っていました。",
       "level": 3
     },
     {
@@ -457,8 +457,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/kənˈstrʌkt/",
       "meaning": "を建設する；を構成する",
-      "exampleEn": "Workers construct steel frame bridge building.",
-      "exampleJa": "作業員たちは鋼鉄フレームの橋の建築物を建設しています。",
+      "exampleEn": "Workers are constructing a new steel bridge.",
+      "exampleJa": "作業員たちは新しい鋼鉄の橋を建設しています。",
       "level": 2
     },
     {
@@ -466,8 +466,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kənˈteɪnər/",
       "meaning": "容器；コンテナ",
-      "exampleEn": "Store food inside sealed plastic container.",
-      "exampleJa": "密閉されたプラスチック容器の中に食品を保管しなさい。",
+      "exampleEn": "She keeps the food in a sealed container.",
+      "exampleJa": "彼女は食べ物を密閉容器に入れて保管しています。",
       "level": 2
     },
     {
@@ -475,8 +475,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈtɪndʒənt/",
       "meaning": "〜条件付きの；依存する",
-      "exampleEn": "Deal is contingent upon approval consent.",
-      "exampleJa": "取引は承認の同意条件付きです。",
+      "exampleEn": "The deal is contingent on final approval.",
+      "exampleJa": "その取引は最終的な承認を条件としています。",
       "level": 4
     },
     {
@@ -484,8 +484,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːntræst/",
       "meaning": "対比；コントラスト",
-      "exampleEn": "Sharp contrast between rich and poor.",
-      "exampleJa": "富裕層と貧困層の間の鮮明な対比。",
+      "exampleEn": "There is a sharp contrast between the two paintings.",
+      "exampleJa": "その2枚の絵の間には鮮やかな対比があります。",
       "level": 2
     },
     {
@@ -493,8 +493,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈviːniənt/",
       "meaning": "便利な",
-      "exampleEn": "Station location is very convenient for commuters.",
-      "exampleJa": "駅の場所は通勤者にとって非常に便利です。",
+      "exampleEn": "This station is very convenient for commuters.",
+      "exampleJa": "この駅は通勤する人にとってとても便利です。",
       "level": 2
     },
     {
@@ -502,8 +502,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnvoɪ/",
       "meaning": "護送隊；車列",
-      "exampleEn": "Military truck convoy moved along highway.",
-      "exampleJa": "軍用トラックの護送隊が高速道路に沿って移動しました。",
+      "exampleEn": "A convoy of trucks moved along the highway.",
+      "exampleJa": "トラックの車列が高速道路を進んでいきました。",
       "level": 4
     },
     {
@@ -511,8 +511,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɔːrəneri/",
       "meaning": "冠状動脈の",
-      "exampleEn": "Suffer from coronary artery heart disease.",
-      "exampleJa": "冠状動脈心臓疾患に悩まされなさい。",
+      "exampleEn": "His father suffers from coronary heart disease.",
+      "exampleJa": "彼の父は冠状動脈の心臓病を患っています。",
       "level": 4
     },
     {
@@ -520,17 +520,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/kəˈrʌpʃn/",
       "meaning": "汚職；腐敗",
-      "exampleEn": "Fight against government political corruption bribe.",
-      "exampleJa": "政府の政治的汚職のわいろと戦いちなさい。",
-      "level": 2
+      "exampleEn": "The new mayor promised to fight corruption.",
+      "exampleJa": "新しい市長は汚職と戦うと約束しました。",
+      "level": 3
     },
     {
       "headword": "court",
       "partOfSpeech": "noun",
       "phonetic": "/kɔːrt/",
       "meaning": "裁判所；コート",
-      "exampleEn": "Case tried in supreme law court.",
-      "exampleJa": "事件が最高裁判所で審理されました。",
+      "exampleEn": "The case was tried in a higher court.",
+      "exampleJa": "その事件は上級の裁判所で審理されました。",
       "level": 2
     },
     {
@@ -538,8 +538,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkredɪt/",
       "meaning": "信用；クレジット；単位",
-      "exampleEn": "Earn university graduation academic study credit.",
-      "exampleJa": "大学卒業の学術勉強単位を取得しなさい。",
+      "exampleEn": "He needs three more credits to graduate.",
+      "exampleJa": "彼は卒業するのにあと3単位必要です。",
       "level": 2
     },
     {
@@ -547,8 +547,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrʊkɪd/",
       "meaning": "曲がった；不正な",
-      "exampleEn": "He wore a crooked smile face.",
-      "exampleJa": "彼は曲がった笑顔の顔をしていました。",
+      "exampleEn": "The picture on the wall was crooked.",
+      "exampleJa": "壁の絵は曲がっていました。",
       "level": 3
     },
     {
@@ -556,26 +556,26 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈkʌltɪveɪt/",
       "meaning": "を耕作する；を育成する",
-      "exampleEn": "Farmers cultivate wheat crop field land.",
-      "exampleJa": "農民たちは小麦作物畑の土地を耕作します。",
-      "level": 2
+      "exampleEn": "Farmers cultivate wheat in this wide field.",
+      "exampleJa": "農家はこの広い畑で小麦を栽培しています。",
+      "level": 3
     },
     {
       "headword": "curriculum",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈrɪkjələm/",
       "meaning": "カリキュラム；教育課程",
-      "exampleEn": "School updated science technology course curriculum.",
-      "exampleJa": "学校が科学技術コースのカリキュラムを更新しました。",
-      "level": 2
+      "exampleEn": "The school changed its science curriculum this year.",
+      "exampleJa": "学校は今年、理科のカリキュラムを変更しました。",
+      "level": 3
     },
     {
       "headword": "decline",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈklaɪn/",
       "meaning": "減少する；を断る",
-      "exampleEn": "Sales declined steeply during economic recession.",
-      "exampleJa": "経済後退中、売上が急激に減少しました。",
+      "exampleEn": "Sales declined sharply during the recession.",
+      "exampleJa": "景気後退の間、売上は急激に減少しました。",
       "level": 2
     },
     {
@@ -583,17 +583,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdiːfekt/",
       "meaning": "欠陥；障害",
-      "exampleEn": "Product inspect found minor factory design defect.",
-      "exampleJa": "製品検査で軽微な工場設計欠陥が見つかりました。",
-      "level": 2
+      "exampleEn": "The inspector found a small defect in the engine.",
+      "exampleJa": "検査員はエンジンに小さな欠陥を見つけました。",
+      "level": 3
     },
     {
       "headword": "deforest",
       "partOfSpeech": "verb",
       "phonetic": "/ˌdiːˈfɔːrɪst/",
       "meaning": "を森林伐採する",
-      "exampleEn": "Farming logging deforested tropical rainforest area.",
-      "exampleJa": "農業伐採が熱帯雨林エリアを森林伐採しました。",
+      "exampleEn": "Farming has deforested large areas of the rainforest.",
+      "exampleJa": "農業が熱帯雨林の広い地域を伐採してきました。",
       "level": 3
     },
     {
@@ -601,8 +601,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈlɪbəreɪt/",
       "meaning": "を熟議する；慎重に検討する",
-      "exampleEn": "Jury deliberated for three days before verdict.",
-      "exampleJa": "陪審員は評決の前に3日間熟議しました。",
+      "exampleEn": "The jury deliberated for three days.",
+      "exampleJa": "陪審員は3日間にわたって審議しました。",
       "level": 3
     },
     {
@@ -610,8 +610,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈluːʒn/",
       "meaning": "妄想；錯覚",
-      "exampleEn": "He suffers from delusion of grandeur power.",
-      "exampleJa": "彼は権力の肥大の妄想に苦しんでいます。",
+      "exampleEn": "He lives under the delusion that everyone likes him.",
+      "exampleJa": "彼はみんなに好かれているという妄想の中で生きています。",
       "level": 4
     },
     {
@@ -619,8 +619,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/dɪˈmjʊr/",
       "meaning": "控えめな；しとやかな",
-      "exampleEn": "She gave a demure quiet smile gesture.",
-      "exampleJa": "彼女は控えめな静かな笑顔の身振りをしました。",
+      "exampleEn": "She gave us a demure smile.",
+      "exampleJa": "彼女は私たちに控えめな笑みを見せました。",
       "level": 4
     },
     {
@@ -628,8 +628,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/dɪˈplɔːrəbl/",
       "meaning": "嘆かわしい；惨状の",
-      "exampleEn": "Slum conditions were in deplorable tragic state.",
-      "exampleJa": "スラム街の状況は嘆かわしい悲劇的状態でした。",
+      "exampleEn": "The workers lived in deplorable conditions.",
+      "exampleJa": "労働者たちは嘆かわしい環境で暮らしていました。",
       "level": 4
     },
     {
@@ -637,8 +637,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdepjəti/",
       "meaning": "副官；代理人",
-      "exampleEn": "Deputy mayor managed city in absence.",
-      "exampleJa": "副市長が不在中に市を管理しました。",
+      "exampleEn": "The deputy mayor ran the city for a month.",
+      "exampleJa": "副市長が1か月間、市を運営しました。",
       "level": 3
     },
     {
@@ -646,8 +646,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈsent/",
       "meaning": "降下；家系",
-      "exampleEn": "Airplane made steep rapid descent landing.",
-      "exampleJa": "飛行機は急激な迅速な降下着陸を行いました。",
+      "exampleEn": "The plane began its descent to the airport.",
+      "exampleJa": "飛行機は空港へ向けて降下を始めました。",
       "level": 3
     },
     {
@@ -655,8 +655,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌdespəˈreɪʃn/",
       "meaning": "自暴自棄；必死さ",
-      "exampleEn": "Acted out of sheer extreme panic desperation.",
-      "exampleJa": "まったくの極度のパニック自暴自棄から行動しました。",
+      "exampleEn": "He sold his car out of desperation.",
+      "exampleJa": "彼は必死のあまり車を売りました。",
       "level": 3
     },
     {
@@ -664,8 +664,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈtætʃ/",
       "meaning": "を取り外す；を切り離す",
-      "exampleEn": "Detach receipt coupon from document page.",
-      "exampleJa": "文書ページから領収書クーポンを取り外しなさい。",
+      "exampleEn": "She detached the coupon from the page.",
+      "exampleJa": "彼女はそのページからクーポンを切り離しました。",
       "level": 3
     },
     {
@@ -673,8 +673,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈtɜːrmɪn/",
       "meaning": "を決定する；を突き止める",
-      "exampleEn": "Scientists determined exact cause of crash.",
-      "exampleJa": "科学者たちは衝突の正確な原因を突き止めました。",
+      "exampleEn": "Scientists determined the cause of the accident.",
+      "exampleJa": "科学者たちは事故の原因を突き止めました。",
       "level": 2
     },
     {
@@ -682,8 +682,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈdiːviəs/",
       "meaning": "曲がりくねった；邪悪な",
-      "exampleEn": "Criminal used devious clever scheme trick.",
-      "exampleJa": "犯罪者は邪悪な賢いスキームの企てを使いました。",
+      "exampleEn": "He used a devious trick to win.",
+      "exampleJa": "彼は勝つために悪質な手口を使いました。",
       "level": 4
     },
     {
@@ -691,8 +691,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdaɪəlɔːɡ/",
       "meaning": "対話；ダイアログ",
-      "exampleEn": "Promote peaceful political dialogue between nations.",
-      "exampleJa": "国家間の平和的な政治対話を促進しなさい。",
+      "exampleEn": "The two leaders continued their dialogue for hours.",
+      "exampleJa": "二人の指導者は何時間も対話を続けました。",
       "level": 2
     },
     {
@@ -700,17 +700,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/daɪˈdʒestʃən/",
       "meaning": "消化；消化作用",
-      "exampleEn": "Chewing food well aids healthy digestion.",
-      "exampleJa": "食物をよく噛むことが健康的な消化を助けます。",
-      "level": 2
+      "exampleEn": "Chewing your food well helps digestion.",
+      "exampleJa": "食べ物をよくかむことは消化を助けます。",
+      "level": 3
     },
     {
       "headword": "dim",
       "partOfSpeech": "adjective",
       "phonetic": "/dɪm/",
       "meaning": "薄暗い；かすかな",
-      "exampleEn": "Read book under dim light lamp glow.",
-      "exampleJa": "薄暗い電球ランプの輝きの下で本を読みなさい。",
+      "exampleEn": "The light in the room was too dim.",
+      "exampleJa": "部屋の明かりは薄暗すぎました。",
       "level": 2
     },
     {
@@ -719,7 +719,7 @@
       "phonetic": "/ˌdɪsəˈɡriː/",
       "meaning": "意見が合わない；反対する",
       "exampleEn": "I respectfully disagree with your opinion.",
-      "exampleJa": "私はあなたの意見に敬意を持って反対します。",
+      "exampleJa": "失礼ですが、私はあなたの意見に反対です。",
       "level": 2
     },
     {
@@ -727,8 +727,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˌdɪsəˈvaʊ/",
       "meaning": "を否認する；を関知しないと言う",
-      "exampleEn": "Official disavowed involvement in illegal scheme.",
-      "exampleJa": "役人は違法スキームへの関与を否認しました。",
+      "exampleEn": "The official disavowed any part in the scandal.",
+      "exampleJa": "その役人は不祥事への関与を否認しました。",
       "level": 4
     },
     {
@@ -736,17 +736,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/dɪsˈkʌmfərt/",
       "meaning": "不快；違和感",
-      "exampleEn": "Medicine relieved patient stomach discomfort pain.",
-      "exampleJa": "薬が患者の胃の不快感の痛みを和らげました。",
-      "level": 2
+      "exampleEn": "The medicine relieved the patient's stomach discomfort.",
+      "exampleJa": "薬が患者の胃の不快感を和らげました。",
+      "level": 3
     },
     {
       "headword": "discreet",
       "partOfSpeech": "adjective",
       "phonetic": "/dɪˈskriːt/",
       "meaning": "慎重な；控えめな",
-      "exampleEn": "Be discreet when discussing confidential information.",
-      "exampleJa": "機密情報を議論する際は慎重でありちなさい。",
+      "exampleEn": "You should be discreet about this information.",
+      "exampleJa": "この情報については慎重にするべきです。",
       "level": 3
     },
     {
@@ -754,8 +754,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˌdɪsɪnˈklaɪn/",
       "meaning": "に気乗りしなくさせる",
-      "exampleEn": "Rain disinclined them to go outside.",
-      "exampleJa": "雨が彼らを外出することに気乗りしなくさせました。",
+      "exampleEn": "The heavy rain disinclined us to go out.",
+      "exampleJa": "激しい雨のせいで私たちは外出する気がなくなりました。",
       "level": 4
     },
     {
@@ -763,26 +763,26 @@
       "partOfSpeech": "noun",
       "phonetic": "/dɪsˈɔːrdər/",
       "meaning": "混乱；疾患；障がい",
-      "exampleEn": "Suffer from mental anxiety brain disorder.",
-      "exampleJa": "精神的不安脳疾患に悩まされなさい。",
-      "level": 2
+      "exampleEn": "The doctor treated a rare blood disorder.",
+      "exampleJa": "医師はまれな血液の疾患を治療しました。",
+      "level": 3
     },
     {
       "headword": "disposal",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈspoʊzl/",
       "meaning": "処分；廃棄",
-      "exampleEn": "Proper toxic chemical waste disposal method.",
-      "exampleJa": "適切な有毒化学廃棄物処分方法。",
-      "level": 2
+      "exampleEn": "The city has strict rules for waste disposal.",
+      "exampleJa": "市には廃棄物の処分について厳しい規則があります。",
+      "level": 3
     },
     {
       "headword": "disseminate",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈsemɪneɪt/",
       "meaning": "を広める；を流布する",
-      "exampleEn": "Media disseminated news information globally online.",
-      "exampleJa": "メディアがオンラインで世界中にニュース情報を広めました。",
+      "exampleEn": "The group disseminated the news through social media.",
+      "exampleJa": "その団体はソーシャルメディアを通じてその知らせを広めました。",
       "level": 4
     },
     {
@@ -790,17 +790,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/pərˈsweɪʒn/",
       "meaning": "説得；説得力",
-      "exampleEn": "Use logical power of persuasion speech.",
-      "exampleJa": "スピーチの論理的な説得力を使いなさい。",
-      "level": 2
+      "exampleEn": "Her powers of persuasion changed our minds.",
+      "exampleJa": "彼女の説得力が私たちの考えを変えました。",
+      "level": 3
     },
     {
       "headword": "pharmaceutical",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌfɑːrməˈsuːtɪkl/",
       "meaning": "製薬の；薬学の",
-      "exampleEn": "Work for global pharmaceutical drug company.",
-      "exampleJa": "グローバルな製薬の薬会社で働きちなさい。",
+      "exampleEn": "He works for a large pharmaceutical company.",
+      "exampleJa": "彼は大きな製薬会社で働いています。",
       "level": 3
     },
     {
@@ -808,8 +808,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/pleɪɡ/",
       "meaning": "疫病；ペスト",
-      "exampleEn": "Bacterial plague epidemic killed many citizens.",
-      "exampleJa": "細菌性疫病の流行が多くの市民を死亡させました。",
+      "exampleEn": "The plague killed many people in the city.",
+      "exampleJa": "疫病がその街の多くの人々の命を奪いました。",
       "level": 3
     },
     {
@@ -817,8 +817,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/pəˈluːʃn/",
       "meaning": "汚染；公害",
-      "exampleEn": "Reduce air environment pollution levels globally.",
-      "exampleJa": "世界的に大気環境の汚染レベルを削減しなさい。",
+      "exampleEn": "Air pollution has become worse in this city.",
+      "exampleJa": "この街では大気汚染がひどくなっています。",
       "level": 2
     },
     {
@@ -826,8 +826,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌpɑːsəˈbɪləti/",
       "meaning": "可能性",
-      "exampleEn": "Consider every potential success choice possibility.",
-      "exampleJa": "あらゆる潜在的な成功の選択の可能性を考慮しなさい。",
+      "exampleEn": "There is a possibility of rain tomorrow.",
+      "exampleJa": "明日は雨が降る可能性があります。",
       "level": 2
     },
     {
@@ -835,17 +835,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈpresɪdənt/",
       "meaning": "先例；前例",
-      "exampleEn": "Court decision set a legal precedent.",
-      "exampleJa": "裁判所の判決が法的先例を設定しました。",
+      "exampleEn": "The court's decision set an important precedent.",
+      "exampleJa": "裁判所の判決は重要な先例となりました。",
       "level": 3
     },
     {
       "headword": "predominate",
       "partOfSpeech": "verb",
       "phonetic": "/prɪˈdɑːmɪneɪt/",
-      "meaning": "主導権を握る；凌駕する",
-      "exampleEn": "Local products predominate in regional market.",
-      "exampleJa": "地元の製品が地域市場で主導権を握っています。",
+      "meaning": "優勢である；大部分を占める",
+      "exampleEn": "Local products predominate in this small market.",
+      "exampleJa": "この小さな市場では地元の製品が優勢です。",
       "level": 4
     },
     {
@@ -853,8 +853,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌprepəˈreɪʃn/",
       "meaning": "準備；下ごしらえ",
-      "exampleEn": "Complete exam study test preparation early.",
-      "exampleJa": "試験勉強のテスト準備を早めに完了しなさい。",
+      "exampleEn": "He finished his preparation for the exam early.",
+      "exampleJa": "彼は試験の準備を早めに終えました。",
       "level": 2
     },
     {
@@ -862,8 +862,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈprezɪdənt/",
       "meaning": "大統領；社長",
-      "exampleEn": "Company elected new chief executive president.",
-      "exampleJa": "会社は新しい最高経営責任者の社長を選出しました。",
+      "exampleEn": "The company elected a new president last month.",
+      "exampleJa": "その会社は先月、新しい社長を選びました。",
       "level": 2
     },
     {
@@ -871,8 +871,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/prɪˈvent/",
       "meaning": "を防止・予防する",
-      "exampleEn": "Vaccine prevents spread of viral disease.",
-      "exampleJa": "ワクチンがウイルス性疾患の拡大を予防・防止します。",
+      "exampleEn": "The vaccine prevents the spread of the disease.",
+      "exampleJa": "そのワクチンは病気の広がりを防ぎます。",
       "level": 2
     },
     {
@@ -880,8 +880,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/praɪˈmɔːrdiəl/",
       "meaning": "原始の；原初の",
-      "exampleEn": "Life began in Earth primordial sea ocean.",
-      "exampleJa": "生命は地球の原初の海の海洋で始まりました。",
+      "exampleEn": "Life began in the primordial ocean.",
+      "exampleJa": "生命は原初の海で始まりました。",
       "level": 4
     },
     {
@@ -889,17 +889,17 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈprɑːbəbl/",
       "meaning": "起こりそうな；確実視される",
-      "exampleEn": "Identify probable cause of system crash.",
-      "exampleJa": "システムクラッシュの起こりそうな原因を特定しなさい。",
-      "level": 2
+      "exampleEn": "It is probable that prices will rise again.",
+      "exampleJa": "物価が再び上がる可能性が高いです。",
+      "level": 3
     },
     {
       "headword": "procure",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈkjʊr/",
       "meaning": "を調達する；を入手する",
-      "exampleEn": "Firm procured high quality raw materials.",
-      "exampleJa": "企業は高品質な生の資材を調達しました。",
+      "exampleEn": "The firm procured materials from another country.",
+      "exampleJa": "その会社は別の国から資材を調達しました。",
       "level": 3
     },
     {
@@ -907,8 +907,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/prəˈfeʃn/",
       "meaning": "職業；専門職",
-      "exampleEn": "Medicine is a noble respected profession.",
-      "exampleJa": "医療は高貴で尊重される専門職です。",
+      "exampleEn": "Teaching is a respected profession in this country.",
+      "exampleJa": "教職はこの国で尊敬される職業です。",
       "level": 2
     },
     {
@@ -916,8 +916,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/prəˈhɪbɪt/",
       "meaning": "を禁止する",
-      "exampleEn": "Law prohibits smoking inside public building.",
-      "exampleJa": "法律は公共建造物内での喫煙を禁止しています。",
+      "exampleEn": "The law prohibits smoking in public buildings.",
+      "exampleJa": "法律は公共の建物での喫煙を禁止しています。",
       "level": 2
     },
     {
@@ -925,8 +925,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/prəˈmoʊʃn/",
       "meaning": "昇進；プロモーション",
-      "exampleEn": "Earn job promotion for high performance.",
-      "exampleJa": "高い実績に対して仕事の昇進を獲得しなさい。",
+      "exampleEn": "He got a promotion for his hard work.",
+      "exampleJa": "彼は懸命に働いて昇進しました。",
       "level": 2
     },
     {
@@ -934,8 +934,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːfəsi/",
       "meaning": "予言；神託",
-      "exampleEn": "Ancient priest oracle gave peace prophecy.",
-      "exampleJa": "古代の神父の託宣が平和の予言を与えました。",
+      "exampleEn": "The old prophecy came true at last.",
+      "exampleJa": "古い予言がついに現実になりました。",
       "level": 3
     },
     {
@@ -943,8 +943,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːsɪkjuːtər/",
       "meaning": "検察官；検事",
-      "exampleEn": "Public prosecutor argued case before jury.",
-      "exampleJa": "公衆の検察官が陪審員の前に事件を主張しました。",
+      "exampleEn": "The prosecutor questioned the witness carefully.",
+      "exampleJa": "検察官は証人に慎重に質問しました。",
       "level": 3
     },
     {
@@ -952,8 +952,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/prəˈtrækt/",
       "meaning": "を長引かせる；を延長する",
-      "exampleEn": "Legal dispute protracted court trial battle.",
-      "exampleJa": "法的紛争が裁判の戦いを長引かせました。",
+      "exampleEn": "The dispute protracted the trial for years.",
+      "exampleJa": "その争いが裁判を何年も長引かせました。",
       "level": 4
     },
     {
@@ -961,17 +961,17 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌprɑːvəˈkeɪʃn/",
       "meaning": "挑発；怒らせること",
-      "exampleEn": "Action was an unprovoked military provocation.",
-      "exampleJa": "行動は仕掛けられていない軍事的挑発でした。",
-      "level": 4
+      "exampleEn": "The attack was a serious military provocation.",
+      "exampleJa": "その攻撃は深刻な軍事的挑発でした。",
+      "level": 3
     },
     {
       "headword": "publish",
       "partOfSpeech": "verb",
       "phonetic": "/ˈpʌblɪʃ/",
       "meaning": "を出版する；を公表する",
-      "exampleEn": "Company published annual financial report summary.",
-      "exampleJa": "会社は年次財務報告要約を出版しました。",
+      "exampleEn": "The company published its annual report yesterday.",
+      "exampleJa": "その会社は昨日、年次報告書を公表しました。",
       "level": 2
     },
     {
@@ -979,8 +979,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈpɜːrpəs/",
       "meaning": "目的；意図",
-      "exampleEn": "Main purpose of project is quality.",
-      "exampleJa": "プロジェクトの主要な目的は品質です。",
+      "exampleEn": "The main purpose of this project is safety.",
+      "exampleJa": "この計画の主な目的は安全です。",
       "level": 2
     }
   ]
