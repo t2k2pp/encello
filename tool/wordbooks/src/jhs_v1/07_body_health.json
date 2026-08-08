@@ -117,7 +117,7 @@
       "meaning": "指",
       "exampleEn": "I cut my finger while cooking.",
       "exampleJa": "料理中に指を切ってしまいました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "leg",
@@ -144,7 +144,7 @@
       "meaning": "ひざ",
       "exampleEn": "I fell and hurt my knee.",
       "exampleJa": "転んでひざをけがしました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "back",
@@ -216,7 +216,7 @@
       "meaning": "のど",
       "exampleEn": "My throat hurts when I swallow.",
       "exampleJa": "飲み込むとのどが痛みます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "elbow",
@@ -279,7 +279,7 @@
       "meaning": "頭痛",
       "exampleEn": "I have a bad headache today.",
       "exampleJa": "今日はひどい頭痛がします。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "pain",
@@ -351,7 +351,7 @@
       "meaning": "せき",
       "exampleEn": "A bad cough kept me awake.",
       "exampleJa": "ひどいせきで眠れませんでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "toothache",
@@ -396,7 +396,7 @@
       "meaning": "インフルエンザ",
       "exampleEn": "Many students caught the flu this winter.",
       "exampleJa": "この冬、多くの生徒がインフルエンザにかかりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "disease",
@@ -423,7 +423,7 @@
       "meaning": "睡眠",
       "exampleEn": "Good sleep keeps you healthy and happy.",
       "exampleJa": "十分な睡眠は健康と幸せを保ちます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "rest",
@@ -468,7 +468,7 @@
       "meaning": "運動",
       "exampleEn": "Daily exercise is good for your health.",
       "exampleJa": "毎日の運動は健康に良いです。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "diet",
@@ -477,7 +477,7 @@
       "meaning": "食事；ダイエット",
       "exampleEn": "A healthy diet includes vegetables and fruit.",
       "exampleJa": "健康的な食事には野菜と果物が含まれます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "weight",
@@ -549,7 +549,7 @@
       "meaning": "恐れ",
       "exampleEn": "She spoke without any fear.",
       "exampleJa": "彼女は何も恐れずに話しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "surprise",
@@ -603,7 +603,7 @@
       "meaning": "喜び",
       "exampleEn": "Their win brought great joy to the team.",
       "exampleJa": "彼らの勝利はチームに大きな喜びをもたらしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "excitement",
@@ -612,7 +612,7 @@
       "meaning": "興奮",
       "exampleEn": "The children shouted with excitement.",
       "exampleJa": "子どもたちは興奮して叫びました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "relief",
@@ -747,7 +747,7 @@
       "meaning": "爪",
       "exampleEn": "She painted her nails bright pink.",
       "exampleJa": "彼女は爪を明るいピンクに塗りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "sweat",
@@ -801,7 +801,7 @@
       "meaning": "耳の痛み",
       "exampleEn": "The earache kept him up all night.",
       "exampleJa": "耳の痛みで彼は一晩中眠れませんでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "health checkup",
@@ -855,7 +855,7 @@
       "meaning": "腰痛",
       "exampleEn": "Sitting all day gave me a backache.",
       "exampleJa": "一日中座っていたら腰痛になりました。",
-      "level": 2
+      "level": 3
     }
   ]
 }

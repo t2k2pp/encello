@@ -36,7 +36,7 @@
       "meaning": "校庭；遊び場",
       "exampleEn": "The children run on the playground.",
       "exampleJa": "子どもたちは校庭で走ります。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "blackboard",
@@ -198,7 +198,7 @@
       "meaning": "学年；成績",
       "exampleEn": "My brother is in the second grade.",
       "exampleJa": "私の弟は2年生です。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "coach",
@@ -360,7 +360,7 @@
       "meaning": "辞書",
       "exampleEn": "Look up the word in a dictionary.",
       "exampleJa": "辞書でその単語を調べなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pen",
@@ -594,7 +594,7 @@
       "meaning": "復習する；見直す",
       "exampleEn": "Let's review the lesson before the test.",
       "exampleJa": "テストの前に授業を復習しましょう。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "correct",
@@ -711,7 +711,7 @@
       "meaning": "出席して",
       "exampleEn": "Every student was present today.",
       "exampleJa": "すべての生徒が今日出席していました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "graduate",
@@ -810,7 +810,7 @@
       "meaning": "行；線",
       "exampleEn": "Read the next line, please.",
       "exampleJa": "次の行を読んでください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "class",
@@ -855,7 +855,7 @@
       "meaning": "席",
       "exampleEn": "Please take your seat quickly.",
       "exampleJa": "早く席に着いてください。",
-      "level": 1
+      "level": 2
     }
   ]
 }

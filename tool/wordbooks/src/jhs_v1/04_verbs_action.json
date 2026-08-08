@@ -117,7 +117,7 @@
       "meaning": "引く",
       "exampleEn": "Pull the rope with both hands.",
       "exampleJa": "両手でロープを引いてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "throw",
@@ -126,7 +126,7 @@
       "meaning": "投げる",
       "exampleEn": "Don't throw stones at the birds.",
       "exampleJa": "鳥に石を投げてはいけません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "hide",
@@ -522,7 +522,7 @@
       "meaning": "殺す",
       "exampleEn": "This medicine kills harmful bacteria.",
       "exampleJa": "この薬は有害な細菌を殺します。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "win",
@@ -639,7 +639,7 @@
       "meaning": "運動する",
       "exampleEn": "I exercise for thirty minutes daily.",
       "exampleJa": "私は毎日30分運動します。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "race",

@@ -45,7 +45,7 @@
       "meaning": "商品；製品",
       "exampleEn": "The store displays seasonal merchandise near the entrance.",
       "exampleJa": "その店は入口の近くに季節商品を並べています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "patron",
@@ -72,7 +72,7 @@
       "meaning": "業者；販売会社",
       "exampleEn": "We ordered the parts from a local vendor.",
       "exampleJa": "私たちは地元の販売業者に部品を発注しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "wholesale",
@@ -81,7 +81,7 @@
       "meaning": "卸売り",
       "exampleEn": "The shop buys its goods at wholesale prices.",
       "exampleJa": "その店は商品を卸売価格で仕入れています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "advertise",
@@ -198,7 +198,7 @@
       "meaning": "全顧客；常連客層",
       "exampleEn": "The hotel has a wealthy international clientele.",
       "exampleJa": "そのホテルには裕福な国際的顧客層がついています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "commercial",
@@ -207,7 +207,7 @@
       "meaning": "コマーシャル；CM",
       "exampleEn": "That television commercial always makes me laugh.",
       "exampleJa": "あのテレビコマーシャルはいつも私を笑わせます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "commission",
@@ -252,7 +252,7 @@
       "meaning": "消費者",
       "exampleEn": "Consumer demand for electric cars rose.",
       "exampleJa": "電気自動車に対する消費者需要が高まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "consumption",
@@ -297,7 +297,7 @@
       "meaning": "販売業者；ディーラー",
       "exampleEn": "The car dealer offered us a free check.",
       "exampleJa": "自動車販売店が無料点検を申し出てくれました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "demand",
@@ -342,7 +342,7 @@
       "meaning": "を配送する；を配布する",
       "exampleEn": "We distributed free samples to every visitor.",
       "exampleJa": "私たちは来場者全員に無料のサンプルを配りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "distribution",
@@ -360,7 +360,7 @@
       "meaning": "卸売業者；ディストリビューター",
       "exampleEn": "We signed a contract with a food distributor.",
       "exampleJa": "私たちは食品卸売業者と契約を結びました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "exhibit",
@@ -369,7 +369,7 @@
       "meaning": "を出品・展示する",
       "exampleEn": "The company exhibited its new robot at the fair.",
       "exampleJa": "会社は展示会で新しいロボットを出品しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "exhibition",
@@ -378,7 +378,7 @@
       "meaning": "展示会；展覧会",
       "exampleEn": "We will attend a trade exhibition next month.",
       "exampleJa": "私たちは来月見本市に参加します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "exhibitor",
@@ -387,7 +387,7 @@
       "meaning": "出展者",
       "exampleEn": "Over two hundred exhibitors displayed goods.",
       "exampleJa": "200以上の出展者が商品を展示しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "expand",
@@ -414,7 +414,7 @@
       "meaning": "特徴；目玉商品",
       "exampleEn": "The best feature of this phone is its battery.",
       "exampleJa": "この携帯電話の一番の特徴はバッテリーです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "feedback",
@@ -432,7 +432,7 @@
       "meaning": "保証；保証書",
       "exampleEn": "The product comes with a two year guarantee.",
       "exampleJa": "その製品には2年間の保証が付いています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "image",
@@ -441,7 +441,7 @@
       "meaning": "イメージ；画像",
       "exampleEn": "The campaign improved the company image.",
       "exampleJa": "そのキャンペーンは会社のイメージを高めました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "launch",
@@ -450,7 +450,7 @@
       "meaning": "発売；進出",
       "exampleEn": "The product launch is set for next Friday.",
       "exampleJa": "製品の発売は来週の金曜日に予定されています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "logo",
@@ -468,7 +468,7 @@
       "meaning": "忠誠；顧客ロイヤリティ",
       "exampleEn": "Good service builds customer loyalty over time.",
       "exampleJa": "良いサービスは時間をかけて顧客のロイヤリティを高めます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "market",
@@ -513,7 +513,7 @@
       "meaning": "直営店舗；アウトレット",
       "exampleEn": "A new outlet opened in the shopping mall.",
       "exampleJa": "ショッピングモールに新しい直営店がオープンしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "packaging",
@@ -540,7 +540,7 @@
       "meaning": "配置；広告掲載",
       "exampleEn": "Product placement in the movie boosted sales.",
       "exampleJa": "映画の中への商品の配置が売上を押し上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "positioning",
@@ -585,7 +585,7 @@
       "meaning": "販促の；宣伝の",
       "exampleEn": "We gave away promotional pens at the fair.",
       "exampleJa": "私たちは展示会で販促用のペンを配りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "prospect",
@@ -603,7 +603,7 @@
       "meaning": "を購入する",
       "exampleEn": "She purchased the software license online.",
       "exampleJa": "彼女はソフトウェアのライセンスをオンラインで購入しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "purchaser",
@@ -684,7 +684,7 @@
       "meaning": "満足度；満足",
       "exampleEn": "Customer satisfaction is our highest priority.",
       "exampleJa": "顧客満足度が当社の最優先事項です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "satisfied",
@@ -720,7 +720,7 @@
       "meaning": "を後援する；スポンサーになる",
       "exampleEn": "The company sponsors a local baseball team.",
       "exampleJa": "その会社は地元の野球チームを後援しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "sponsorship",
@@ -729,7 +729,7 @@
       "meaning": "後援；スポンサー契約",
       "exampleEn": "They signed a three year sponsorship deal.",
       "exampleJa": "彼らは3年間のスポンサー契約を結びました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "strategy",
@@ -738,7 +738,7 @@
       "meaning": "戦略；方針",
       "exampleEn": "Our new strategy focuses on online sales.",
       "exampleJa": "当社の新しい戦略はオンライン販売に重点を置いています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "target",
@@ -756,7 +756,7 @@
       "meaning": "好み；味覚",
       "exampleEn": "The design matches the taste of young buyers.",
       "exampleJa": "そのデザインは若い購買層の好みに合っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "binder",
@@ -783,7 +783,7 @@
       "meaning": "簿記；記帳",
       "exampleEn": "She studies bookkeeping at a night school.",
       "exampleJa": "彼女は夜間の学校で簿記を学んでいます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "merchandising",
@@ -792,7 +792,7 @@
       "meaning": "商品化計画；マーチャンダイジング",
       "exampleEn": "Clever merchandising increased sales at the store.",
       "exampleJa": "巧みな商品化計画がその店の売上を伸ばしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "stevedore",
@@ -801,7 +801,7 @@
       "meaning": "港湾労働者；沖仲仕",
       "exampleEn": "The stevedores unloaded the cargo before noon.",
       "exampleJa": "港湾労働者たちは正午前に貨物を降ろしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "hostel",
@@ -810,7 +810,7 @@
       "meaning": "ユースホステル；安宿",
       "exampleEn": "We stayed at a youth hostel in Kyoto.",
       "exampleJa": "私たちは京都のユースホステルに泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "sustainable",

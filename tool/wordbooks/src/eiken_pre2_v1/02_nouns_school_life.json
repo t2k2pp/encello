@@ -117,7 +117,7 @@
       "meaning": "不在；欠席",
       "exampleEn": "Her absence from school worried the teacher.",
       "exampleJa": "彼女の学校の欠席は先生を心配させました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "according",
@@ -225,7 +225,7 @@
       "meaning": "南極の",
       "exampleEn": "Many penguins live in the Antarctic area.",
       "exampleJa": "多くのペンギンが南極の地域にすんでいます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "anything",
@@ -315,7 +315,7 @@
       "meaning": "援助；支援",
       "exampleEn": "Thank you for your kind assistance.",
       "exampleJa": "ご親切な援助をありがとうございます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "astronaut",
@@ -504,7 +504,7 @@
       "meaning": "まばたきする",
       "exampleEn": "He blinked several times in the bright light.",
       "exampleJa": "彼は明るい光の中で何度もまばたきしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bluff",
@@ -513,7 +513,7 @@
       "meaning": "ハッタリをかける；強がる",
       "exampleEn": "He bluffed his way through the poker game.",
       "exampleJa": "彼はポーカーでハッタリをかけて切り抜けました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "boil",
@@ -531,7 +531,7 @@
       "meaning": "小冊子；パンフレット",
       "exampleEn": "The booklet explains how to use the machine.",
       "exampleJa": "その小冊子は機械の使い方を説明しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "born",
@@ -630,7 +630,7 @@
       "meaning": "精肉店；肉屋",
       "exampleEn": "The butcher sells fresh meat every day.",
       "exampleJa": "その肉屋は毎日新しい肉を売っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cage",
@@ -693,7 +693,7 @@
       "meaning": "棺；宝石箱",
       "exampleEn": "They carried the casket into the church.",
       "exampleJa": "彼らは棺を教会へ運び入れました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cathedral",
@@ -747,7 +747,7 @@
       "meaning": "木炭；チャコール",
       "exampleEn": "We cooked the meat over hot charcoal.",
       "exampleJa": "私たちは熱い木炭で肉を焼きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cheap",
@@ -765,7 +765,7 @@
       "meaning": "化学者；薬局主",
       "exampleEn": "The chemist discovered a new material.",
       "exampleJa": "その化学者は新しい物質を発見しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "child",
@@ -792,7 +792,7 @@
       "meaning": "葉巻タバコ",
       "exampleEn": "The old man smoked a cigar after dinner.",
       "exampleJa": "その老人は夕食の後に葉巻を吸いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "circus",
@@ -837,7 +837,7 @@
       "meaning": "臨床の；客観的な",
       "exampleEn": "The hospital started a clinical trial of the drug.",
       "exampleJa": "病院はその薬の臨床試験を始めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cloud",
@@ -873,7 +873,7 @@
       "meaning": "襟；首輪",
       "exampleEn": "The collar of his shirt was dirty.",
       "exampleJa": "彼のシャツの襟は汚れていました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "color",
@@ -891,7 +891,7 @@
       "meaning": "彗星",
       "exampleEn": "A bright comet appeared in the night sky.",
       "exampleJa": "明るい彗星が夜空に現れました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "comment",
@@ -909,7 +909,7 @@
       "meaning": "ありふれた；平凡な",
       "exampleEn": "Smartphones have become commonplace in daily life.",
       "exampleJa": "スマートフォンは日常生活でありふれたものになりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "comparable",
@@ -918,7 +918,7 @@
       "meaning": "同等の；比較できる",
       "exampleEn": "The two cars have comparable quality.",
       "exampleJa": "その2台の車は同等の品質です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "compete",
@@ -936,7 +936,7 @@
       "meaning": "完全な；を完了する",
       "exampleEn": "The report is not complete yet.",
       "exampleJa": "その報告書はまだ完成していません。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "compose",
@@ -945,7 +945,7 @@
       "meaning": "を構成する；を作曲する",
       "exampleEn": "He composed a beautiful piano piece.",
       "exampleJa": "彼は美しいピアノ曲を作曲しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "computer",
@@ -972,7 +972,7 @@
       "meaning": "相談する；を授与する",
       "exampleEn": "The two leaders conferred for an hour.",
       "exampleJa": "2人の指導者は1時間相談しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "conflict",
@@ -981,7 +981,7 @@
       "meaning": "紛争；対立",
       "exampleEn": "The two countries ended a long conflict.",
       "exampleJa": "2つの国は長い紛争を終わらせました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "conjunction",
@@ -999,7 +999,7 @@
       "meaning": "一貫性；整合性",
       "exampleEn": "Consistency is important in daily practice.",
       "exampleJa": "毎日の練習では一貫性が大切です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "constitutional",
@@ -1008,7 +1008,7 @@
       "meaning": "憲法上の；合憲の",
       "exampleEn": "The court protected our constitutional rights.",
       "exampleJa": "裁判所は私たちの憲法上の権利を守りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consumer",
@@ -1017,7 +1017,7 @@
       "meaning": "消費者",
       "exampleEn": "Consumers want safe and cheap products.",
       "exampleJa": "消費者は安全で安い製品を求めています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "contestant",
@@ -1035,7 +1035,7 @@
       "meaning": "反対の；〜に反して",
       "exampleEn": "On the contrary, prices went down.",
       "exampleJa": "それどころか価格は下がりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "conventional",
@@ -1044,7 +1044,7 @@
       "meaning": "従来の；型にはまった",
       "exampleEn": "Many farmers still use conventional methods.",
       "exampleJa": "多くの農家は今でも従来の方法を使っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cookbook",
@@ -1116,7 +1116,7 @@
       "meaning": "這う；徐行する",
       "exampleEn": "The baby crawled across the floor.",
       "exampleJa": "赤ちゃんは床をはって進みました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "credential",
@@ -1125,7 +1125,7 @@
       "meaning": "資格；経歴",
       "exampleEn": "She showed her teaching credentials at the office.",
       "exampleJa": "彼女は事務室で教員の資格証明書を見せました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "criminal",
@@ -1134,7 +1134,7 @@
       "meaning": "犯人；犯罪者",
       "exampleEn": "The police caught the criminal near the river.",
       "exampleJa": "警察は川の近くで犯人を捕まえました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cross",
@@ -1161,7 +1161,7 @@
       "meaning": "合図；ヒント；キュー",
       "exampleEn": "The actor waited for his cue on stage.",
       "exampleJa": "俳優は舞台で自分の合図を待ちました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "curiosity",
@@ -1170,7 +1170,7 @@
       "meaning": "好奇心",
       "exampleEn": "The child showed great curiosity about science.",
       "exampleJa": "その子供は科学に強い好奇心を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "curve",

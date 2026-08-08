@@ -144,7 +144,7 @@
       "meaning": "広場",
       "exampleEn": "Many people are in the town square.",
       "exampleJa": "たくさんの人が町の広場にいます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "block",
@@ -351,7 +351,7 @@
       "meaning": "遊園地",
       "exampleEn": "We really enjoyed the amusement park.",
       "exampleJa": "私たちは遊園地をとても楽しみました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "bookstore",
@@ -477,7 +477,7 @@
       "meaning": "タクシー",
       "exampleEn": "We should take a taxi to the hotel.",
       "exampleJa": "ホテルまでタクシーに乗りましょう。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bike",
@@ -504,7 +504,7 @@
       "meaning": "飛行機",
       "exampleEn": "We flew to Okinawa by plane.",
       "exampleJa": "私たちは飛行機で沖縄に行きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "airplane",
@@ -576,7 +576,7 @@
       "meaning": "信号",
       "exampleEn": "Stop your bike at the signal.",
       "exampleJa": "信号のところで自転車を止めなさい。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "accident",
@@ -594,7 +594,7 @@
       "meaning": "（駅の）ホーム",
       "exampleEn": "The train left from this platform.",
       "exampleJa": "電車はこのホームから出発しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "vehicle",
@@ -711,7 +711,7 @@
       "meaning": "土産物店",
       "exampleEn": "We found a gift shop by the station.",
       "exampleJa": "私たちは駅のそばで土産物店を見つけました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "souvenir",
@@ -747,7 +747,7 @@
       "meaning": "ドル",
       "exampleEn": "I have only a few dollars.",
       "exampleJa": "私は数ドルしか持っていません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "cent",
@@ -801,7 +801,7 @@
       "meaning": "おつり",
       "exampleEn": "Please keep the change.",
       "exampleJa": "おつりは取っておいてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "crowded",
@@ -846,7 +846,7 @@
       "meaning": "無料の",
       "exampleEn": "This museum is free for students.",
       "exampleJa": "この博物館は学生には無料です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "local",

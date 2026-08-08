@@ -198,7 +198,7 @@
       "meaning": "厳しい",
       "exampleEn": "Our coach is strict but fair.",
       "exampleJa": "私たちのコーチは厳しいですが公平です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "talkative",
@@ -360,7 +360,7 @@
       "meaning": "本当の；真実の",
       "exampleEn": "Is this story true?",
       "exampleJa": "この話は本当ですか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "false",
@@ -378,7 +378,7 @@
       "meaning": "本物の；本当の",
       "exampleEn": "This is a real problem for us.",
       "exampleJa": "これは私たちにとって本当の問題です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "fair",
@@ -477,7 +477,7 @@
       "meaning": "閉まっている",
       "exampleEn": "The store was closed on Sunday.",
       "exampleJa": "その店は日曜日は閉まっていました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "open",
@@ -486,7 +486,7 @@
       "meaning": "開いている",
       "exampleEn": "The library is open until six.",
       "exampleJa": "図書館は6時まで開いています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "full",
@@ -810,7 +810,7 @@
       "meaning": "驚くべき",
       "exampleEn": "The result was surprising to us.",
       "exampleJa": "その結果は私たちにとって驚くべきものでした。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "amazing",
@@ -855,7 +855,7 @@
       "meaning": "すばらしい",
       "exampleEn": "We had a fantastic vacation this summer.",
       "exampleJa": "私たちは今年の夏すばらしい休暇を過ごしました。",
-      "level": 3
+      "level": 2
     }
   ]
 }

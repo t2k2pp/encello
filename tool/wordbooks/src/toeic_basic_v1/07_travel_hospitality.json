@@ -45,7 +45,7 @@
       "meaning": "旅行日程；旅程表",
       "exampleEn": "The agent sent me a detailed itinerary.",
       "exampleJa": "代理店が詳しい旅程表を送ってくれました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "lodging",
@@ -54,7 +54,7 @@
       "meaning": "宿；宿泊所",
       "exampleEn": "The price includes meals and lodging.",
       "exampleJa": "料金には食事代と宿泊費が含まれています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "reception",
@@ -63,7 +63,7 @@
       "meaning": "受付；歓迎パーティー",
       "exampleEn": "The reception desk is on the first floor.",
       "exampleJa": "受付は1階にあります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "shuttle",
@@ -126,7 +126,7 @@
       "meaning": "晩餐会；宴会",
       "exampleEn": "The company held a banquet for its clients.",
       "exampleJa": "会社は取引先のために宴会を開きました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "beverage",
@@ -180,7 +180,7 @@
       "meaning": "客室；キャビン",
       "exampleEn": "The cabin was quiet during the long flight.",
       "exampleJa": "長いフライトの間、客室は静かでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "captain",
@@ -198,7 +198,7 @@
       "meaning": "荷物用回転コンベア",
       "exampleEn": "Our bags appeared on the baggage carousel.",
       "exampleJa": "私たちのバッグが手荷物用のコンベアに出てきました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cater",
@@ -252,7 +252,7 @@
       "meaning": "コンシェルジュ；案内人",
       "exampleEn": "The hotel concierge reserved a table for us.",
       "exampleJa": "ホテルのコンシェルジュが私たちのために席を予約してくれました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cruise",
@@ -279,7 +279,7 @@
       "meaning": "代表者；使節",
       "exampleEn": "Delegates from thirty countries attended the meeting.",
       "exampleJa": "30カ国の代表者が会議に出席しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dining",
@@ -306,7 +306,7 @@
       "meaning": "日帰り旅行；遠足",
       "exampleEn": "We joined a boat excursion to the island.",
       "exampleJa": "私たちは島へ行く日帰りのボート旅行に参加しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "fare",
@@ -324,7 +324,7 @@
       "meaning": "フライト；定期航空便",
       "exampleEn": "The flight to Paris takes about ten hours.",
       "exampleJa": "パリ行きの便は約10時間かかります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "front desk",
@@ -369,7 +369,7 @@
       "meaning": "を主催する",
       "exampleEn": "Our city will host an international conference.",
       "exampleJa": "私たちの市は国際会議を主催します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "hotel",
@@ -387,7 +387,7 @@
       "meaning": "小旅館；宿屋",
       "exampleEn": "We stayed at a small inn in the countryside.",
       "exampleJa": "私たちは田舎の小さな宿に泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "land",
@@ -414,7 +414,7 @@
       "meaning": "乗り継ぎ待ち時間；レイオーバー",
       "exampleEn": "We had a three-hour layover in Seoul.",
       "exampleJa": "私たちはソウルで3時間の乗り継ぎ待ちがありました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "limousine",
@@ -441,7 +441,7 @@
       "meaning": "客室利用率；占有",
       "exampleEn": "The hotel reached ninety percent occupancy last summer.",
       "exampleJa": "そのホテルは昨年の夏に90パーセントの客室利用率に達しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "overbook",
@@ -450,7 +450,7 @@
       "meaning": "をオーバーブックする",
       "exampleEn": "The airline overbooked our flight by ten seats.",
       "exampleJa": "航空会社は私たちの便を10席分多く予約を受け付けていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "passenger",
@@ -486,7 +486,7 @@
       "meaning": "リゾート；行楽地",
       "exampleEn": "They spent a week at a beach resort.",
       "exampleJa": "彼らはビーチリゾートで1週間過ごしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "seatbelt",
@@ -522,7 +522,7 @@
       "meaning": "スイートルーム；特別室",
       "exampleEn": "The manager stayed in a suite on the top floor.",
       "exampleJa": "部長は最上階のスイートルームに泊まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "taxi",
@@ -531,7 +531,7 @@
       "meaning": "タクシー",
       "exampleEn": "We took a taxi to the airport terminal.",
       "exampleJa": "私たちはタクシーで空港ターミナルへ行きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "terminal",
@@ -540,7 +540,7 @@
       "meaning": "ターミナル；終着駅",
       "exampleEn": "Our flight leaves from Terminal Two.",
       "exampleJa": "私たちの便は第2ターミナルから出発します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "ticket",
@@ -603,7 +603,7 @@
       "meaning": "空いている；空室の",
       "exampleEn": "Only two rooms were vacant last night.",
       "exampleJa": "昨夜は2部屋しか空いていませんでした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "valet",
@@ -612,7 +612,7 @@
       "meaning": "バレーパーキング係；駐車係",
       "exampleEn": "A valet parked our car in the garage.",
       "exampleJa": "駐車係が私たちの車をガレージに停めました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "venue",
@@ -621,7 +621,7 @@
       "meaning": "開催地；会場",
       "exampleEn": "The venue can hold five thousand people.",
       "exampleJa": "その会場は5000人を収容できます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "visa",
@@ -630,7 +630,7 @@
       "meaning": "査証；ビザ",
       "exampleEn": "He applied for a business visa last week.",
       "exampleJa": "彼は先週ビジネスビザを申請しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "visitor",
@@ -684,7 +684,7 @@
       "meaning": "をスカウトする；探す",
       "exampleEn": "The firm scouts young engineers at universities.",
       "exampleJa": "その会社は大学で若い技術者を探しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "collateral",
@@ -693,7 +693,7 @@
       "meaning": "担保；見返り",
       "exampleEn": "He offered his house as collateral for the loan.",
       "exampleJa": "彼はローンの担保として自宅を差し出しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "endorsement",
@@ -711,7 +711,7 @@
       "meaning": "超小型演算処理装置",
       "exampleEn": "This computer uses a very fast microprocessor.",
       "exampleJa": "このコンピューターはとても高速な演算処理装置を使っています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "stopover",
@@ -720,7 +720,7 @@
       "meaning": "途中の寄港；途中下車",
       "exampleEn": "We had an overnight stopover in Paris.",
       "exampleJa": "私たちはパリで一晩の途中滞在をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "unquestionably",
@@ -738,7 +738,7 @@
       "meaning": "ご都合がつき次第早めに",
       "exampleEn": "Please reply at your earliest convenience.",
       "exampleJa": "ご都合がつき次第、早めにご返信ください。",
-      "level": 3
+      "level": 4
     }
   ]
 }

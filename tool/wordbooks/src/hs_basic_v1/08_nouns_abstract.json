@@ -90,7 +90,7 @@
       "meaning": "証拠；根拠",
       "exampleEn": "There is no clear evidence.",
       "exampleJa": "明確な証拠はありません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "existence",
@@ -108,7 +108,7 @@
       "meaning": "要因；要素",
       "exampleEn": "Stress is a major factor.",
       "exampleJa": "ストレスが主要な要因です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "feature",
@@ -117,7 +117,7 @@
       "meaning": "特徴；目玉商品",
       "exampleEn": "Safety is the main feature of this car.",
       "exampleJa": "安全性がこの車の主な特徴です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "focus",
@@ -153,7 +153,7 @@
       "meaning": "例；場合",
       "exampleEn": "For instance, look at this table.",
       "exampleJa": "例えば、この表を見てください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "knowledge",
@@ -162,7 +162,7 @@
       "meaning": "知識",
       "exampleEn": "Knowledge is power.",
       "exampleJa": "知識は力なり。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "manner",
@@ -189,7 +189,7 @@
       "meaning": "観念；考え",
       "exampleEn": "Reject the notion that success is easy.",
       "exampleJa": "成功が簡単だという考えを捨てなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "occasion",
@@ -198,7 +198,7 @@
       "meaning": "機会；特別な行事",
       "exampleEn": "A wedding is a joyful occasion.",
       "exampleJa": "結婚式は喜ばしい行事です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "opportunity",
@@ -216,7 +216,7 @@
       "meaning": "起源；生まれ",
       "exampleEn": "The origin of language is unknown.",
       "exampleJa": "言語の起源は不明です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "pattern",
@@ -234,7 +234,7 @@
       "meaning": "期間；時代",
       "exampleEn": "The Edo period lasted long.",
       "exampleJa": "江戸時代は長く続きました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "perspective",
@@ -243,7 +243,7 @@
       "meaning": "視点；見方",
       "exampleEn": "Try to view it from another perspective.",
       "exampleJa": "別の視点からそれを見るようにしなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "phase",
@@ -252,7 +252,7 @@
       "meaning": "段階；局面",
       "exampleEn": "We are entering a new phase.",
       "exampleJa": "私たちは新しい段階に入りつつあります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "possibility",
@@ -297,7 +297,7 @@
       "meaning": "範囲；幅",
       "exampleEn": "Prices range from low to high.",
       "exampleJa": "価格は安価なものから高価なものまで幅広くあります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "reality",
@@ -369,7 +369,7 @@
       "meaning": "表面",
       "exampleEn": "Oil floats on the water surface.",
       "exampleJa": "油は水面に浮かびます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "theory",
@@ -378,7 +378,7 @@
       "meaning": "理論；説",
       "exampleEn": "Einstein proposed the theory of relativity.",
       "exampleJa": "アインシュタインは相対性理論を提唱しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "trend",
@@ -387,7 +387,7 @@
       "meaning": "傾向；流行",
       "exampleEn": "Follow the latest fashion trends.",
       "exampleJa": "最新のファッション傾向を追いかけなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "truth",
@@ -405,7 +405,7 @@
       "meaning": "知恵；賢さ",
       "exampleEn": "Experience brings wisdom.",
       "exampleJa": "経験は知恵をもたらします。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "academic",
@@ -459,7 +459,7 @@
       "meaning": "路地；小道",
       "exampleEn": "Walk down the narrow city street alley.",
       "exampleJa": "狭い都市の通りの路地を歩きなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "amendment",
@@ -540,7 +540,7 @@
       "meaning": "援助；支援",
       "exampleEn": "Ask for financial assistance if needed.",
       "exampleJa": "必要であれば金銭的な支援を求めなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "atomic",
@@ -756,7 +756,7 @@
       "meaning": "バイパス；迂回路",
       "exampleEn": "Drive around the city on the bypass.",
       "exampleJa": "バイパスを使って街の周りを運転しなさい。",
-      "level": 2
+      "level": 4
     }
   ]
 }

@@ -9,7 +9,7 @@
       "meaning": "食事",
       "exampleEn": "This meal is very delicious today.",
       "exampleJa": "この食事は今日とてもおいしいです。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "breakfast",
@@ -252,7 +252,7 @@
       "meaning": "おにぎり",
       "exampleEn": "She made a rice ball for lunch.",
       "exampleJa": "彼女は昼食におにぎりを作りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "vegetable",
@@ -396,7 +396,7 @@
       "meaning": "メロン",
       "exampleEn": "The melon was sweet and juicy.",
       "exampleJa": "そのメロンは甘くてみずみずしかったです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "lemon",
@@ -405,7 +405,7 @@
       "meaning": "レモン",
       "exampleEn": "She added lemon to her tea.",
       "exampleJa": "彼女は紅茶にレモンを加えました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "peach",
@@ -486,7 +486,7 @@
       "meaning": "緑茶",
       "exampleEn": "Japanese people often drink green tea.",
       "exampleJa": "日本人はよく緑茶を飲みます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "soda",
@@ -639,7 +639,7 @@
       "meaning": "小麦粉",
       "exampleEn": "We need flour to make bread.",
       "exampleJa": "パンを作るには小麦粉が必要です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "ingredient",
@@ -765,7 +765,7 @@
       "meaning": "ナプキン",
       "exampleEn": "Please use a napkin at dinner.",
       "exampleJa": "夕食のときはナプキンを使ってください。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "refrigerator",
@@ -846,7 +846,7 @@
       "meaning": "カロリー",
       "exampleEn": "Check the calorie number on this snack.",
       "exampleJa": "このおやつのカロリーの数字を確認してください。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "vitamin",
@@ -855,7 +855,7 @@
       "meaning": "ビタミン",
       "exampleEn": "Oranges contain a lot of vitamin C.",
       "exampleJa": "オレンジにはビタミンCがたくさん含まれています。",
-      "level": 3
+      "level": 2
     }
   ]
 }

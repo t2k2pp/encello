@@ -36,7 +36,7 @@
       "meaning": "恩赦；特赦",
       "exampleEn": "President granted amnesty to rebels.",
       "exampleJa": "大統領は反乱兵に恩赦を与えました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "anarchy",
@@ -117,7 +117,7 @@
       "meaning": "外交；駆け引き",
       "exampleEn": "Conflict was resolved through diplomacy.",
       "exampleJa": "衝突は外交によって解決されました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "doctrine",
@@ -162,7 +162,7 @@
       "meaning": "階級組織；ヒエラルキー",
       "exampleEn": "Respect organizational hierarchy.",
       "exampleJa": "組織の階級秩序を尊重しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "jurisdiction",
@@ -207,7 +207,7 @@
       "meaning": "君主；国王",
       "exampleEn": "The British monarch visited Canada.",
       "exampleJa": "英国君主がカナダを訪問しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "neutrality",
@@ -225,7 +225,7 @@
       "meaning": "特許；特許権",
       "exampleEn": "Inventor applied for a medical patent.",
       "exampleJa": "発明者は医療特許を出願しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "petition",
@@ -279,7 +279,7 @@
       "meaning": "法令；成文法",
       "exampleEn": "The court interpreted legal statute.",
       "exampleJa": "裁判所は法的成文法を解釈しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "subsidy",
@@ -324,7 +324,7 @@
       "meaning": "評決；判定",
       "exampleEn": "Jury delivered a guilty verdict.",
       "exampleJa": "陪審員団は有罪評決を下しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "veto",
@@ -333,7 +333,7 @@
       "meaning": "拒否権",
       "exampleEn": "President used veto against bill.",
       "exampleJa": "大統領は法案に対して拒否権を行使しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "welfare",
@@ -369,7 +369,7 @@
       "meaning": "最悪の；底知れぬ",
       "exampleEn": "The team's performance was simply abysmal.",
       "exampleJa": "そのチームの出来は本当にひどいものでした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "accumulate",
@@ -468,7 +468,7 @@
       "meaning": "についてほのめかす；言及する",
       "exampleEn": "The speaker alluded to a past scandal.",
       "exampleJa": "発表者は過去のスキャンダルについてほのめかしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aluminum",
@@ -522,7 +522,7 @@
       "meaning": "併合；追加",
       "exampleEn": "The nation condemned the illegal annexation.",
       "exampleJa": "その国はその違法な併合を非難しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "antagonize",
@@ -540,7 +540,7 @@
       "meaning": "消毒剤；殺菌済みの",
       "exampleEn": "Clean the wound with antiseptic.",
       "exampleJa": "消毒剤で傷口を消毒しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "apoplexy",
@@ -558,7 +558,7 @@
       "meaning": "付録；虫垂（解剖）",
       "exampleEn": "Check the data table in the appendix.",
       "exampleJa": "付録のデータ表を確認しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "apprise",
@@ -576,7 +576,7 @@
       "meaning": "議論の余地がある；主張できる",
       "exampleEn": "Point raised is highly arguable in debate.",
       "exampleJa": "提起されたポイントは討論において非常に議論の余地があります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "array",
@@ -603,7 +603,7 @@
       "meaning": "暗殺",
       "exampleEn": "The assassination shocked the entire nation.",
       "exampleJa": "その暗殺は国民全体に衝撃を与えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "astronomical",
@@ -639,7 +639,7 @@
       "meaning": "独裁者；専制君主",
       "exampleEn": "The nation was ruled by a ruthless autocrat.",
       "exampleJa": "その国は冷酷な独裁者に統治されていました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "avocation",
@@ -657,7 +657,7 @@
       "meaning": "ありふれた；陳腐な",
       "exampleEn": "The movie had a banal, predictable plot.",
       "exampleJa": "その映画にはありふれた予測可能な筋書きがありました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "bard",
@@ -666,7 +666,7 @@
       "meaning": "吟遊詩人；詩人",
       "exampleEn": "Shakespeare is known as the Bard of Avon.",
       "exampleJa": "シェイクスピアはエイヴォンの吟遊詩人として知られています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "blasphemy",
@@ -711,7 +711,7 @@
       "meaning": "浮力；活気",
       "exampleEn": "Water provides natural buoyancy to the body.",
       "exampleJa": "水は体に自然な浮力を与えます。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cadet",
@@ -828,7 +828,7 @@
       "meaning": "に恥をかかせる；屈辱を与える",
       "exampleEn": "Do not humiliate students in front of the class.",
       "exampleJa": "クラスの前で生徒に恥をかかせてはいけません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "idiocrasy",
@@ -846,7 +846,7 @@
       "meaning": "無傷の；完璧に綺麗な",
       "exampleEn": "She kept her home in immaculate condition.",
       "exampleJa": "彼女は自宅を完璧に清潔な状態に保ちました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "immortality",
@@ -864,7 +864,7 @@
       "meaning": "完璧な；非の打ち所がない",
       "exampleEn": "Her English pronunciation was impeccable.",
       "exampleJa": "彼女の英語の発音は完璧でした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "impertinent",
@@ -873,7 +873,7 @@
       "meaning": "失礼な；生意気な",
       "exampleEn": "The student asked an impertinent question.",
       "exampleJa": "その生徒は失礼な質問をしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "impolite",
@@ -882,7 +882,7 @@
       "meaning": "無礼な；失礼な",
       "exampleEn": "Interrupting a speaker is impolite.",
       "exampleJa": "発表者の話を遮ることは無礼です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "impressively",
@@ -900,7 +900,7 @@
       "meaning": "刑罰を免れること；無罰",
       "exampleEn": "Criminals cannot act with total impunity.",
       "exampleJa": "犯罪者たちが完全に罰を免れて行動することはできません。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "inappropriate",
@@ -918,7 +918,7 @@
       "meaning": "投獄；監禁",
       "exampleEn": "He was sentenced to ten years' incarceration.",
       "exampleJa": "彼は10年間の投獄を言い渡されました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "incision",
@@ -936,7 +936,7 @@
       "meaning": "無能な；不適格な",
       "exampleEn": "He is an incompetent manager.",
       "exampleJa": "彼は無能なマネージャーです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "inconvenient",
@@ -945,7 +945,7 @@
       "meaning": "不便な；都合の悪い",
       "exampleEn": "The meeting time was inconvenient for everyone.",
       "exampleJa": "その会議時間は皆にとって都合が悪いものでした。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "crest",

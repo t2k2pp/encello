@@ -54,7 +54,7 @@
       "meaning": "バレーボール",
       "exampleEn": "Our class won the volleyball match.",
       "exampleJa": "私たちのクラスはバレーボールの試合に勝ちました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "badminton",
@@ -72,7 +72,7 @@
       "meaning": "卓球",
       "exampleEn": "He is the best at table tennis.",
       "exampleJa": "彼は卓球が一番上手です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "swimming",
@@ -90,7 +90,7 @@
       "meaning": "ランニング；ジョギング",
       "exampleEn": "Running every morning keeps me healthy.",
       "exampleJa": "毎朝走ることで私は健康を保っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "game",
@@ -180,7 +180,7 @@
       "meaning": "マラソン",
       "exampleEn": "My uncle ran a full marathon.",
       "exampleJa": "私のおじはフルマラソンを走りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "referee",
@@ -324,7 +324,7 @@
       "meaning": "凧",
       "exampleEn": "The boy flew a kite in the park.",
       "exampleJa": "その男の子は公園で凧を揚げました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "lantern",
@@ -333,7 +333,7 @@
       "meaning": "ちょうちん；ランタン",
       "exampleEn": "We hung a paper lantern outside.",
       "exampleJa": "私たちは外に紙のちょうちんをつるしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "mask",
@@ -351,7 +351,7 @@
       "meaning": "ハロウィーン",
       "exampleEn": "Children wear costumes on Halloween.",
       "exampleJa": "子どもたちはハロウィーンに仮装をします。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "piano",
@@ -378,7 +378,7 @@
       "meaning": "バイオリン",
       "exampleEn": "She started learning the violin last year.",
       "exampleJa": "彼女は去年バイオリンを習い始めました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "drum",
@@ -432,7 +432,7 @@
       "meaning": "メロディー；旋律",
       "exampleEn": "The song has a very sweet melody.",
       "exampleJa": "その歌にはとても甘いメロディーがあります。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "rhythm",
@@ -441,7 +441,7 @@
       "meaning": "リズム",
       "exampleEn": "She dances well to the rhythm.",
       "exampleJa": "彼女はリズムに合わせて上手に踊ります。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "lyrics",
@@ -468,7 +468,7 @@
       "meaning": "マイク",
       "exampleEn": "The singer held the microphone tightly.",
       "exampleJa": "その歌手はマイクをしっかりと握りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "stage",
@@ -504,7 +504,7 @@
       "meaning": "ダンサー；踊り手",
       "exampleEn": "She wants to be a dancer someday.",
       "exampleJa": "彼女はいつかダンサーになりたいと思っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "karaoke",
@@ -513,7 +513,7 @@
       "meaning": "カラオケ",
       "exampleEn": "We sang songs at karaoke together.",
       "exampleJa": "私たちは一緒にカラオケで歌を歌いました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "hobby",
@@ -585,7 +585,7 @@
       "meaning": "小説",
       "exampleEn": "She is reading a long novel now.",
       "exampleJa": "彼女は今長い小説を読んでいます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "magazine",
@@ -603,7 +603,7 @@
       "meaning": "新聞",
       "exampleEn": "My father reads the newspaper every morning.",
       "exampleJa": "父は毎朝新聞を読みます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "toy",
@@ -639,7 +639,7 @@
       "meaning": "釣り",
       "exampleEn": "My grandfather enjoys fishing on weekends.",
       "exampleJa": "祖父は週末に釣りを楽しみます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "camping",
@@ -684,7 +684,7 @@
       "meaning": "アニメ",
       "exampleEn": "He watches Japanese anime after school.",
       "exampleJa": "彼は放課後、日本のアニメを見ます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "manga",
@@ -693,7 +693,7 @@
       "meaning": "漫画",
       "exampleEn": "This manga is famous around the world.",
       "exampleJa": "この漫画は世界中で有名です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "drama",
@@ -774,7 +774,7 @@
       "meaning": "折り紙",
       "exampleEn": "She made a paper crane with origami.",
       "exampleJa": "彼女は折り紙で紙の鶴を作りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "kimono",
@@ -783,7 +783,7 @@
       "meaning": "着物",
       "exampleEn": "My grandmother wore a beautiful kimono.",
       "exampleJa": "祖母は美しい着物を着ていました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "tea ceremony",
@@ -792,7 +792,7 @@
       "meaning": "茶道",
       "exampleEn": "We learned about the tea ceremony in class.",
       "exampleJa": "私たちは授業で茶道について学びました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "statue",
@@ -828,7 +828,7 @@
       "meaning": "ボードゲーム",
       "exampleEn": "We played a board game after dinner.",
       "exampleJa": "私たちは夕食後にボードゲームをしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "video game",

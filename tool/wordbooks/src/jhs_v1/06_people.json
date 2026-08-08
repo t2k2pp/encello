@@ -54,7 +54,7 @@
       "meaning": "親",
       "exampleEn": "Each parent signed the letter.",
       "exampleJa": "それぞれの親がその手紙にサインしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "grandmother",
@@ -162,7 +162,7 @@
       "meaning": "娘",
       "exampleEn": "Their daughter studies art at college.",
       "exampleJa": "彼らの娘は大学で美術を学んでいます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "relative",
@@ -270,7 +270,7 @@
       "meaning": "人",
       "exampleEn": "She is an important person to me.",
       "exampleJa": "彼女は私にとって大切な人です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "adult",
@@ -315,7 +315,7 @@
       "meaning": "見知らぬ人",
       "exampleEn": "Don't talk to strangers on the street.",
       "exampleJa": "道で見知らぬ人と話してはいけません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "guest",
@@ -441,7 +441,7 @@
       "meaning": "運転手",
       "exampleEn": "The bus driver stopped at every station.",
       "exampleJa": "バスの運転手は各駅で止まりました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "singer",
@@ -459,7 +459,7 @@
       "meaning": "作家",
       "exampleEn": "This writer is famous around the world.",
       "exampleJa": "この作家は世界中で有名です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "artist",
@@ -531,7 +531,7 @@
       "meaning": "獣医",
       "exampleEn": "The vet took care of my sick cat.",
       "exampleJa": "獣医が病気の私の猫を診てくれました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "astronaut",
@@ -639,7 +639,7 @@
       "meaning": "プログラマー",
       "exampleEn": "My brother works as a programmer.",
       "exampleJa": "兄はプログラマーとして働いています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "designer",
@@ -648,7 +648,7 @@
       "meaning": "デザイナー",
       "exampleEn": "The designer made a new bag.",
       "exampleJa": "そのデザイナーは新しいかばんを作りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "interpreter",
@@ -765,7 +765,7 @@
       "meaning": "ホストファミリー",
       "exampleEn": "I stayed with a host family in America.",
       "exampleJa": "私はアメリカでホストファミリーの家に滞在しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "exchange student",
@@ -774,7 +774,7 @@
       "meaning": "交換留学生",
       "exampleEn": "An exchange student joined our class this year.",
       "exampleJa": "今年、交換留学生が私たちのクラスに加わりました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "name",

@@ -54,7 +54,7 @@
       "meaning": "短時間の；簡潔な",
       "exampleEn": "He made a brief speech.",
       "exampleJa": "彼は短く簡潔な演説を行いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "chemical",
@@ -81,7 +81,7 @@
       "meaning": "複雑な；複合の",
       "exampleEn": "It is a complex problem.",
       "exampleJa": "それは複雑な問題です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "constant",
@@ -90,7 +90,7 @@
       "meaning": "絶え間ない；一定の",
       "exampleEn": "She suffers from constant noise.",
       "exampleJa": "彼女は絶え間ない騒音に悩まされています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "contemporary",
@@ -99,7 +99,7 @@
       "meaning": "現代の；同時代の",
       "exampleEn": "I prefer contemporary music.",
       "exampleJa": "私は現代音楽の方が好きです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "critical",
@@ -135,7 +135,7 @@
       "meaning": "明確な；確定した",
       "exampleEn": "We have no definite answer.",
       "exampleJa": "確実な回答はありません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "delicate",
@@ -153,7 +153,7 @@
       "meaning": "国内の；家庭の",
       "exampleEn": "Domestic flights leave from Terminal 1.",
       "exampleJa": "国内線は第1ターミナルから出発します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "efficient",
@@ -171,7 +171,7 @@
       "meaning": "全体の；すべての",
       "exampleEn": "The entire village was flooded.",
       "exampleJa": "村全体が冠水しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "essential",
@@ -189,7 +189,7 @@
       "meaning": "正確な；きっちりした",
       "exampleEn": "What is the exact time?",
       "exampleJa": "正確な時間は何時ですか。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "extreme",
@@ -198,7 +198,7 @@
       "meaning": "極端な；過激な",
       "exampleEn": "Avoid extreme cold temperatures.",
       "exampleJa": "極度な寒さは避けなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "false",
@@ -216,7 +216,7 @@
       "meaning": "よく知られている；親しい",
       "exampleEn": "His face looks familiar to me.",
       "exampleJa": "彼の顔には見覚えがあります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "fundamental",
@@ -279,7 +279,7 @@
       "meaning": "内部の；内面の",
       "exampleEn": "Listen to your inner voice.",
       "exampleJa": "自分の心の声を聞きなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "internal",
@@ -306,7 +306,7 @@
       "meaning": "主要な；大きな",
       "exampleEn": "Oil is a major export.",
       "exampleJa": "石油は主要な輸出品です。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "minor",
@@ -315,7 +315,7 @@
       "meaning": "重要でない；小さい",
       "exampleEn": "It was only a minor injury.",
       "exampleJa": "それはほんの軽い怪我でした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "native",
@@ -324,7 +324,7 @@
       "meaning": "母国の；出生地の",
       "exampleEn": "English is not my native language.",
       "exampleJa": "英語は私の母国語ではありません。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "normal",
@@ -351,7 +351,7 @@
       "meaning": "身体の；物理的な",
       "exampleEn": "Physical exercise keeps you healthy.",
       "exampleJa": "身体運動はあなたを健康に保ちます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "primary",
@@ -387,7 +387,7 @@
       "meaning": "まれな；珍しい",
       "exampleEn": "Gold is a rare metal.",
       "exampleJa": "金は珍しい金属です。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "regular",
@@ -396,7 +396,7 @@
       "meaning": "規則的な；通常の",
       "exampleEn": "Take regular breaks.",
       "exampleJa": "定期的な休憩を取りなさい。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "relevant",
@@ -405,7 +405,7 @@
       "meaning": "関連がある；適切な",
       "exampleEn": "Provide relevant details.",
       "exampleJa": "関連のある詳細を提示しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "remote",
@@ -414,7 +414,7 @@
       "meaning": "遠く離れた；リモートの",
       "exampleEn": "He lives in a remote village.",
       "exampleJa": "彼は遠く離れた村に住んでいます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "rough",
@@ -423,7 +423,7 @@
       "meaning": "ざらざらした；大まかな",
       "exampleEn": "The sea was rough today.",
       "exampleJa": "今日海は荒れていました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "secret",
@@ -450,7 +450,7 @@
       "meaning": "わずかな；少しの",
       "exampleEn": "There is a slight chance.",
       "exampleJa": "わずかな可能性があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "solid",
@@ -459,7 +459,7 @@
       "meaning": "固体の；頑丈な",
       "exampleEn": "Ice is solid water.",
       "exampleJa": "氷は固体の水です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "specific",
@@ -468,7 +468,7 @@
       "meaning": "具体的な；特定の",
       "exampleEn": "Can you give me a specific example?",
       "exampleJa": "具体的な例を挙げてもらえますか。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "stable",
@@ -477,7 +477,7 @@
       "meaning": "安定した",
       "exampleEn": "His condition is stable now.",
       "exampleJa": "彼の容態は現在安定しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "standard",
@@ -522,7 +522,7 @@
       "meaning": "典型的な；〜らしい",
       "exampleEn": "This is a typical summer day.",
       "exampleJa": "これは典型的な夏の日です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "unique",
@@ -558,7 +558,7 @@
       "meaning": "さまざまな；多様な",
       "exampleEn": "We discussed various topics.",
       "exampleJa": "私たちはさまざまな話題について話し合いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "vast",
@@ -567,7 +567,7 @@
       "meaning": "広大な；莫大な",
       "exampleEn": "A vast desert spread before us.",
       "exampleJa": "広大な砂漠が私たちの前に広がっていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "vital",
@@ -810,7 +810,7 @@
       "meaning": "金髪の",
       "exampleEn": "She has long shiny blond hair.",
       "exampleJa": "彼女は長くて光沢のある金髪をしています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bold",
@@ -819,7 +819,7 @@
       "meaning": "大胆な；太字の",
       "exampleEn": "He made a bold courageous decision move.",
       "exampleJa": "彼は大胆な決定の行動を行いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bore",
@@ -855,7 +855,7 @@
       "meaning": "花嫁；新婦",
       "exampleEn": "The beautiful bride wore white wedding dress.",
       "exampleJa": "美しい花嫁が白いウェディングドレスを着ていました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "brochure",

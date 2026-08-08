@@ -9,7 +9,7 @@
       "meaning": "短時間の；簡潔な",
       "exampleEn": "She gave a brief speech at the meeting.",
       "exampleJa": "彼女は会議で短いスピーチをしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "dramatic",
@@ -342,7 +342,7 @@
       "meaning": "臨床の；客観的な",
       "exampleEn": "The new drug passed its clinical trials.",
       "exampleJa": "その新薬は臨床試験に合格しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "combination",
@@ -369,7 +369,7 @@
       "meaning": "能力；適性",
       "exampleEn": "He demonstrated his competence in the field.",
       "exampleJa": "彼はその分野での能力を示しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "compliance",
@@ -378,7 +378,7 @@
       "meaning": "法令遵守；コンプライアンス",
       "exampleEn": "The factory is in compliance with environmental law.",
       "exampleJa": "その工場は環境法を遵守しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "composure",
@@ -387,7 +387,7 @@
       "meaning": "落ち着き；平静",
       "exampleEn": "She kept her composure during the crisis.",
       "exampleJa": "彼女は危機の間も落ち着きを保ちました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "conceive",
@@ -396,7 +396,7 @@
       "meaning": "を思いつく；を想像する",
       "exampleEn": "The architect conceived a bold new design.",
       "exampleJa": "その建築家は大胆な新しいデザインを思いつきました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "conclusive",
@@ -414,7 +414,7 @@
       "meaning": "貢献する；資する",
       "exampleEn": "A quiet room is conducive to study.",
       "exampleJa": "静かな部屋は勉強に役立ちます。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "confirm",
@@ -450,7 +450,7 @@
       "meaning": "配慮；考慮事項",
       "exampleEn": "We took user safety into consideration.",
       "exampleJa": "私たちは利用者の安全を考慮に入れました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "constant",
@@ -459,7 +459,7 @@
       "meaning": "絶え間ない；一定の",
       "exampleEn": "The engine needs a constant flow of water.",
       "exampleJa": "そのエンジンは絶え間ない水の流れを必要とします。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "construe",
@@ -468,7 +468,7 @@
       "meaning": "を解釈する；理解する",
       "exampleEn": "His silence was construed as agreement.",
       "exampleJa": "彼の沈黙は同意と解釈されました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "contemporary",
@@ -477,7 +477,7 @@
       "meaning": "現代の；同時代の",
       "exampleEn": "The museum shows contemporary art from Asia.",
       "exampleJa": "その美術館はアジアの現代美術を展示しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "continuity",
@@ -504,7 +504,7 @@
       "meaning": "集結する；収束する",
       "exampleEn": "Crowds converged on the main square.",
       "exampleJa": "群衆が中央広場に集結しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cooperative",
@@ -522,7 +522,7 @@
       "meaning": "を関連づける；相関する",
       "exampleEn": "The study correlates smoking with lung disease.",
       "exampleJa": "その研究は喫煙と肺の病気を関連づけています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "costly",
@@ -531,7 +531,7 @@
       "meaning": "費用のかかる；高価な",
       "exampleEn": "The factory breakdown was a costly mistake.",
       "exampleJa": "工場の故障は費用のかかる失敗でした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "covenant",
@@ -540,7 +540,7 @@
       "meaning": "契約；誓約",
       "exampleEn": "The two nations signed a peace covenant.",
       "exampleJa": "その二つの国は平和の契約に署名しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cremate",
@@ -612,7 +612,7 @@
       "meaning": "消滅した；廃止された",
       "exampleEn": "The old factory belongs to a defunct company.",
       "exampleJa": "その古い工場は消滅した会社のものです。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "delicate",
@@ -639,7 +639,7 @@
       "meaning": "を国外追放する",
       "exampleEn": "The government deported him last month.",
       "exampleJa": "政府は先月、彼を国外追放しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "deride",
@@ -648,7 +648,7 @@
       "meaning": "をあざ笑う；を馬鹿にする",
       "exampleEn": "Critics derided the film as boring.",
       "exampleJa": "批評家たちはその映画をつまらないとあざ笑いました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "desecrate",
@@ -657,7 +657,7 @@
       "meaning": "を冒涜する；汚す",
       "exampleEn": "The thieves desecrated the ancient temple.",
       "exampleJa": "泥棒たちはその古い寺院を冒涜しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "despondent",
@@ -666,7 +666,7 @@
       "meaning": "意気消沈した；失望した",
       "exampleEn": "He felt despondent after failing the exam.",
       "exampleJa": "彼は試験に落ちて意気消沈しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "detain",
@@ -675,7 +675,7 @@
       "meaning": "を留置する；を拘留する",
       "exampleEn": "The police detained the suspect for questioning.",
       "exampleJa": "警察は尋問のために容疑者を拘留しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "detract",
@@ -684,7 +684,7 @@
       "meaning": "損なう；減じる",
       "exampleEn": "The noise detracted from the beauty of the music.",
       "exampleJa": "騒音がその音楽の美しさを損ないました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "devote",
@@ -702,7 +702,7 @@
       "meaning": "酷評；痛烈な非難",
       "exampleEn": "The speaker launched a diatribe against the tax.",
       "exampleJa": "演説者はその税に対する痛烈な非難を始めました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "dignified",
@@ -711,7 +711,7 @@
       "meaning": "気品のある；威厳のある",
       "exampleEn": "The queen gave a dignified wave to the crowd.",
       "exampleJa": "女王は群衆に威厳のある手振りをしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "diminutive",
@@ -720,7 +720,7 @@
       "meaning": "極小の；ちっぽけな",
       "exampleEn": "The diminutive dog barked at the truck.",
       "exampleJa": "そのちっぽけな犬はトラックに向かって吠えました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "disappearance",
@@ -729,7 +729,7 @@
       "meaning": "失踪；消滅",
       "exampleEn": "The police investigated the boy's disappearance.",
       "exampleJa": "警察はその少年の失踪を調査しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "discard",
@@ -747,7 +747,7 @@
       "meaning": "不満；不平",
       "exampleEn": "Social discontent led to a large protest.",
       "exampleJa": "社会の不満が大規模な抗議へとつながりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "discretion",
@@ -756,7 +756,7 @@
       "meaning": "思慮分別；裁量",
       "exampleEn": "You may leave early at your own discretion.",
       "exampleJa": "あなたの裁量で早く帰ってもかまいません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "disinterest",
@@ -765,7 +765,7 @@
       "meaning": "無関心；公平無私",
       "exampleEn": "The judge listened with complete disinterest.",
       "exampleJa": "裁判官は完全に公平無私な態度で耳を傾けました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dispassionate",
@@ -774,7 +774,7 @@
       "meaning": "感情に左右されない；冷静な",
       "exampleEn": "The reporter gave a dispassionate account of the war.",
       "exampleJa": "その記者は戦争について冷静な報告をしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "disproportional",
@@ -783,7 +783,7 @@
       "meaning": "不釣り合いな；不均衡な",
       "exampleEn": "The punishment was disproportional to the crime.",
       "exampleJa": "その罰は犯した罪に対して不釣り合いでした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "disservice",
@@ -792,7 +792,7 @@
       "meaning": "不親切な行為；損害",
       "exampleEn": "Spreading false rumors is a disservice.",
       "exampleJa": "誤った噂を広めることは人に損害を与える行為です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "pertinent",
@@ -801,7 +801,7 @@
       "meaning": "適切な；関連のある",
       "exampleEn": "She asked several pertinent questions at the meeting.",
       "exampleJa": "彼女は会議で適切な質問をいくつかしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "phenomenon",
@@ -810,7 +810,7 @@
       "meaning": "現象",
       "exampleEn": "The aurora is a beautiful natural phenomenon.",
       "exampleJa": "オーロラは美しい自然現象です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "plight",
@@ -819,7 +819,7 @@
       "meaning": "窮状；苦境",
       "exampleEn": "The report describes the plight of refugees.",
       "exampleJa": "その報告書は難民の窮状を伝えています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "popularity",
@@ -846,7 +846,7 @@
       "meaning": "を引き起こす；急落させる",
       "exampleEn": "The scandal precipitated the collapse of the government.",
       "exampleJa": "そのスキャンダルが政権の崩壊を引き起こしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "preference",
@@ -864,7 +864,7 @@
       "meaning": "不条理な；ばかげた",
       "exampleEn": "His demand sounded completely preposterous.",
       "exampleJa": "彼の要求は完全にばかげたものに聞こえました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "prestigious",
@@ -873,7 +873,7 @@
       "meaning": "名誉ある；一流の",
       "exampleEn": "She studies at a prestigious university abroad.",
       "exampleJa": "彼女は海外の一流大学で学んでいます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "previous",
@@ -909,7 +909,7 @@
       "meaning": "莫大な；驚くべき",
       "exampleEn": "The author had a prodigious talent for writing.",
       "exampleJa": "その作家は文章を書く驚くべき才能を持っていました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "proficient",
@@ -936,7 +936,7 @@
       "meaning": "〜しがちな；うつ伏せの",
       "exampleEn": "This area is prone to floods every summer.",
       "exampleJa": "この地域は毎年夏に洪水に見舞われがちです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "proponent",
@@ -945,7 +945,7 @@
       "meaning": "提唱者；支持者",
       "exampleEn": "He is a leading proponent of solar energy.",
       "exampleJa": "彼は太陽エネルギーの主要な提唱者です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "prosperity",
@@ -972,7 +972,7 @@
       "meaning": "優れた技能；勇敢さ",
       "exampleEn": "He showed his athletic prowess in the final game.",
       "exampleJa": "彼は決勝戦で優れた運動の技能を示しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "punish",

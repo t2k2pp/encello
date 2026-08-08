@@ -36,7 +36,7 @@
       "meaning": "請求書；送状",
       "exampleEn": "We sent the invoice to the client yesterday.",
       "exampleJa": "私たちは昨日、顧客に請求書を送りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "receipt",
@@ -54,7 +54,7 @@
       "meaning": "返金；払戻金",
       "exampleEn": "The customer asked for a full refund.",
       "exampleJa": "その客は全額の返金を求めました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "revenue",
@@ -63,7 +63,7 @@
       "meaning": "歳入；総収益",
       "exampleEn": "Our annual revenue rose by ten percent.",
       "exampleJa": "当社の年間収益は10パーセント増えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "account",
@@ -90,7 +90,7 @@
       "meaning": "割り当て；配分",
       "exampleEn": "The budget allocation for research has increased.",
       "exampleJa": "研究への予算配分が増えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "asset",
@@ -234,7 +234,7 @@
       "meaning": "減価償却；価値下落",
       "exampleEn": "We record depreciation on all office equipment.",
       "exampleJa": "当社はすべての事務機器の減価償却を計上しています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "discount",
@@ -270,7 +270,7 @@
       "meaning": "見積もり；概算",
       "exampleEn": "We asked for an estimate of the repair cost.",
       "exampleJa": "私たちは修理費用の見積もりを依頼しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "expense",
@@ -279,7 +279,7 @@
       "meaning": "経費；費用",
       "exampleEn": "Travel expenses are covered by the company.",
       "exampleJa": "出張の費用は会社が負担します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "finance",
@@ -297,7 +297,7 @@
       "meaning": "財務の；金融の",
       "exampleEn": "The firm published its financial statement.",
       "exampleJa": "その会社は財務諸表を公表しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "fiscal",
@@ -333,7 +333,7 @@
       "meaning": "総額の；額面の",
       "exampleEn": "Our gross sales reached one million dollars.",
       "exampleJa": "当社の総売上高は100万ドルに達しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "income",
@@ -360,7 +360,7 @@
       "meaning": "分割払い金",
       "exampleEn": "I pay the loan in monthly installments.",
       "exampleJa": "私はそのローンを毎月の分割払いで返済しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "insurance",
@@ -369,7 +369,7 @@
       "meaning": "保険",
       "exampleEn": "The office bought insurance for its equipment.",
       "exampleJa": "事務所は備品の保険に加入しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "interest",
@@ -387,7 +387,7 @@
       "meaning": "を出資する；投資する",
       "exampleEn": "They invested in solar energy last year.",
       "exampleJa": "彼らは昨年、太陽光エネルギーに投資しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "investment",
@@ -405,7 +405,7 @@
       "meaning": "投資家",
       "exampleEn": "An investor funded the new tech company.",
       "exampleJa": "ある投資家がその新しい技術会社に出資しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "ledger",
@@ -414,7 +414,7 @@
       "meaning": "元帳；台帳",
       "exampleEn": "The clerk recorded daily sales in the ledger.",
       "exampleJa": "事務員は毎日の売上を元帳に記録しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "liability",
@@ -459,7 +459,7 @@
       "meaning": "貨幣の；金融上の",
       "exampleEn": "The central bank changed its monetary policy.",
       "exampleJa": "中央銀行は金融政策を変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "mortgage",
@@ -477,7 +477,7 @@
       "meaning": "正味の；純額の",
       "exampleEn": "Our net profit doubled this year.",
       "exampleJa": "当社の純利益は今年2倍になりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "owe",
@@ -486,7 +486,7 @@
       "meaning": "借金がある；に負うている",
       "exampleEn": "The firm owes money to its supplier.",
       "exampleJa": "その会社は仕入先に借金があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "payee",
@@ -495,7 +495,7 @@
       "meaning": "受取人",
       "exampleEn": "The bank paid the money to the payee.",
       "exampleJa": "銀行はそのお金を受取人に支払いました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "payer",
@@ -531,7 +531,7 @@
       "meaning": "保険料；割り増し金",
       "exampleEn": "I pay my insurance premium every month.",
       "exampleJa": "私は毎月、保険料を支払っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "profit",
@@ -540,7 +540,7 @@
       "meaning": "利益；収益",
       "exampleEn": "The company earned a record profit this year.",
       "exampleJa": "会社は今年、過去最高の利益を上げました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "profitable",
@@ -549,7 +549,7 @@
       "meaning": "利益の上がる；儲かる",
       "exampleEn": "The new store became profitable in six months.",
       "exampleJa": "その新しい店は半年で黒字になりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "profitability",
@@ -558,7 +558,7 @@
       "meaning": "収益性；採算性",
       "exampleEn": "The new plan improved the company's profitability.",
       "exampleJa": "新しい計画は会社の収益性を高めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "reimburse",
@@ -567,7 +567,7 @@
       "meaning": "を払い戻す；を補償する",
       "exampleEn": "The company reimbursed my travel costs.",
       "exampleJa": "会社は私の出張の費用を払い戻しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "reimbursement",
@@ -576,7 +576,7 @@
       "meaning": "払い戻し；精算",
       "exampleEn": "I submitted the form for reimbursement.",
       "exampleJa": "私は精算のために用紙を提出しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "remit",
@@ -585,7 +585,7 @@
       "meaning": "を送金する；を免除する",
       "exampleEn": "The buyer remitted the money to our account.",
       "exampleJa": "買い手は当社の口座に代金を送金しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "remittance",
@@ -594,7 +594,7 @@
       "meaning": "送金；送金額",
       "exampleEn": "The bank charges a fee for each remittance.",
       "exampleJa": "銀行は送金ごとに手数料を取ります。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "reserves",
@@ -621,7 +621,7 @@
       "meaning": "支払能力",
       "exampleEn": "The audit confirmed the firm's solvency.",
       "exampleJa": "監査はその会社の支払能力を確認しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "stock",
@@ -639,7 +639,7 @@
       "meaning": "株主",
       "exampleEn": "Stockholders voted at the annual meeting.",
       "exampleJa": "株主たちは年次総会で投票しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "surplus",
@@ -648,7 +648,7 @@
       "meaning": "黒字；余剰",
       "exampleEn": "The country reported a trade surplus again.",
       "exampleJa": "その国は再び貿易黒字を計上しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "tariff",
@@ -675,7 +675,7 @@
       "meaning": "課税；税制",
       "exampleEn": "The new law changed corporate taxation.",
       "exampleJa": "新しい法律が法人への課税を変えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "teller",
@@ -684,7 +684,7 @@
       "meaning": "銀行窓口係",
       "exampleEn": "The teller counted the money carefully.",
       "exampleJa": "銀行の窓口係はお金を丁寧に数えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "transaction",
@@ -711,7 +711,7 @@
       "meaning": "財務省；金庫",
       "exampleEn": "The treasury published a new report today.",
       "exampleJa": "財務省は今日、新しい報告書を公表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "valuation",
@@ -720,7 +720,7 @@
       "meaning": "評価額；査定",
       "exampleEn": "The valuation of the property rose sharply.",
       "exampleJa": "その物件の評価額は大きく上昇しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "withdraw",
@@ -729,7 +729,7 @@
       "meaning": "を引き出す；を撤回する",
       "exampleEn": "She withdrew some cash at the ATM.",
       "exampleJa": "彼女はATMで現金を引き出しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "withdrawal",
@@ -738,7 +738,7 @@
       "meaning": "引き出し；撤退",
       "exampleEn": "He made a withdrawal at the bank counter.",
       "exampleJa": "彼は銀行の窓口で預金を引き出しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "yield",
@@ -765,7 +765,7 @@
       "meaning": "連絡覚書；メモリアル",
       "exampleEn": "The staff read the memorandum this morning.",
       "exampleJa": "社員は今朝、その連絡覚書を読みました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bookkeeper",
@@ -774,7 +774,7 @@
       "meaning": "簿記係；記帳係",
       "exampleEn": "The bookkeeper enters the invoices every day.",
       "exampleJa": "簿記係は毎日、請求書を入力しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "infomercial",
@@ -783,7 +783,7 @@
       "meaning": "テレビ通販番組",
       "exampleEn": "The infomercial showed a new kitchen tool.",
       "exampleJa": "そのテレビ通販番組は新しい調理器具を紹介しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "interchange",
@@ -792,7 +792,7 @@
       "meaning": "インターチェンジ",
       "exampleEn": "We left the highway at the next interchange.",
       "exampleJa": "私たちは次のインターチェンジで高速道路を降りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "guesthouse",
@@ -801,7 +801,7 @@
       "meaning": "ゲストハウス；簡素な宿",
       "exampleEn": "They stayed at a small guesthouse near the sea.",
       "exampleJa": "彼らは海の近くの小さなゲストハウスに泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "subsequent",
@@ -810,7 +810,7 @@
       "meaning": "その後の；続いて起こる",
       "exampleEn": "The subsequent report confirmed the first findings.",
       "exampleJa": "その後の報告書は最初の調査結果を裏付けました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "with the exception of",

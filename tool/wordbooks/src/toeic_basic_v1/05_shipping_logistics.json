@@ -45,7 +45,7 @@
       "meaning": "貨物輸送；貨物運賃",
       "exampleEn": "Freight costs have risen sharply this year.",
       "exampleJa": "貨物輸送の費用は今年大きく上がりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "inventory",
@@ -81,7 +81,7 @@
       "meaning": "輸送；通過；乗り継ぎ",
       "exampleEn": "The goods were damaged in transit.",
       "exampleJa": "商品は輸送中に傷つきました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "warehouse",
@@ -144,7 +144,7 @@
       "meaning": "受取人；荷受人",
       "exampleEn": "The driver asked the consignee to sign here.",
       "exampleJa": "運転手は荷受人にここへ署名するよう頼みました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "consignment",
@@ -153,7 +153,7 @@
       "meaning": "託送品；委託販売",
       "exampleEn": "The consignment left our factory last week.",
       "exampleJa": "その託送品は先週工場を出ました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "container",
@@ -171,7 +171,7 @@
       "meaning": "コンベア；運搬装置",
       "exampleEn": "Bags move along the conveyor to the exit.",
       "exampleJa": "かばんはコンベアに乗って出口まで運ばれます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "courier",
@@ -180,7 +180,7 @@
       "meaning": "宅配業者；急送便",
       "exampleEn": "A courier will pick up the documents today.",
       "exampleJa": "宅配業者が今日書類を集荷します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "crate",
@@ -189,7 +189,7 @@
       "meaning": "木箱；クレート",
       "exampleEn": "The machine came in a wooden crate.",
       "exampleJa": "その機械は木箱に入って届きました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "damage",
@@ -243,7 +243,7 @@
       "meaning": "超過滞船料；延着料",
       "exampleEn": "The company paid demurrage for the late unloading.",
       "exampleJa": "会社は荷下ろしの遅れに対して超過滞船料を支払いました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "departure",
@@ -270,7 +270,7 @@
       "meaning": "船渠；ドック；波止場",
       "exampleEn": "Trucks were waiting at the loading dock.",
       "exampleJa": "トラックが荷積み用のドックで待っていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "duty-free",
@@ -288,7 +288,7 @@
       "meaning": "乗船する；着手する",
       "exampleEn": "The passengers embarked at nine in the morning.",
       "exampleJa": "乗客たちは朝9時に乗船しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "envelope",
@@ -333,7 +333,7 @@
       "meaning": "全車両；船団",
       "exampleEn": "Our fleet of delivery vans grew last year.",
       "exampleJa": "当社の配送バンの車両数は昨年増えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "forklift",
@@ -342,7 +342,7 @@
       "meaning": "フォークリフト",
       "exampleEn": "A forklift moved the boxes to the shelf.",
       "exampleJa": "フォークリフトが箱を棚まで運びました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "fragile",
@@ -360,7 +360,7 @@
       "meaning": "貨物船；貨物機",
       "exampleEn": "The freighter sails to Singapore twice a month.",
       "exampleJa": "その貨物船は月に2回シンガポールへ向かいます。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "fulfillment",
@@ -378,7 +378,7 @@
       "meaning": "を運搬する；を引きずる",
       "exampleEn": "The truck hauled heavy steel to the site.",
       "exampleJa": "そのトラックは重い鋼材を現場まで運びました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "import",
@@ -441,7 +441,7 @@
       "meaning": "物流；ロジスティクス",
       "exampleEn": "Our logistics team plans every delivery route.",
       "exampleJa": "当社の物流チームがすべての配送経路を計画しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "manifest",
@@ -450,7 +450,7 @@
       "meaning": "積荷目録；マニフェスト",
       "exampleEn": "The officer checked the cargo manifest carefully.",
       "exampleJa": "係官は積荷目録を注意深く確認しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "mark",
@@ -513,7 +513,7 @@
       "meaning": "パレット；荷物台",
       "exampleEn": "The boxes were stacked on a wooden pallet.",
       "exampleJa": "箱は木製のパレットの上に積まれていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "post",
@@ -549,7 +549,7 @@
       "meaning": "受取人たち",
       "exampleEn": "The recipients must sign for these documents.",
       "exampleJa": "受取人はこれらの書類に署名しなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "route",
@@ -567,7 +567,7 @@
       "meaning": "を密閉する；を封印する",
       "exampleEn": "She sealed the box with strong tape.",
       "exampleJa": "彼女は丈夫なテープで箱を密閉しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "ship",
@@ -585,7 +585,7 @@
       "meaning": "荷主；荷送り人",
       "exampleEn": "The shipper covered the cost of insurance.",
       "exampleJa": "荷主が保険の費用を負担しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "shipping",
@@ -621,7 +621,7 @@
       "meaning": "を積み重ねる",
       "exampleEn": "He stacked the empty boxes near the wall.",
       "exampleJa": "彼は空の箱を壁の近くに積み重ねました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "storage",
@@ -630,7 +630,7 @@
       "meaning": "保管；貯蔵庫",
       "exampleEn": "We rent extra storage during the busy season.",
       "exampleJa": "当社は繁忙期に追加の保管場所を借りています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "storehouse",
@@ -657,7 +657,7 @@
       "meaning": "タンカー；油槽船",
       "exampleEn": "The tanker unloaded oil at the port.",
       "exampleJa": "タンカーが港で石油を荷下ろししました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "tarp",
@@ -666,7 +666,7 @@
       "meaning": "防水シート；タープ",
       "exampleEn": "The workers covered the load with a tarp.",
       "exampleJa": "作業員たちは積み荷を防水シートで覆いました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "toll",
@@ -675,7 +675,7 @@
       "meaning": "通行料；有料道路代",
       "exampleEn": "We paid a toll on the highway.",
       "exampleJa": "私たちは高速道路で通行料を支払いました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "trace",
@@ -729,7 +729,7 @@
       "meaning": "積替え",
       "exampleEn": "The port handles transshipment of Asian cargo.",
       "exampleJa": "その港はアジア向け貨物の積替えを扱っています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "transport",
@@ -774,7 +774,7 @@
       "meaning": "シュレッダー；裁断機",
       "exampleEn": "The office bought a new paper shredder.",
       "exampleJa": "事務所は新しいシュレッダーを購入しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "press release",
@@ -792,7 +792,7 @@
       "meaning": "会計監査官；監査役",
       "exampleEn": "The auditor reviewed our accounts last month.",
       "exampleJa": "会計監査官は先月当社の会計を調べました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "showcase",
@@ -801,7 +801,7 @@
       "meaning": "を目玉として展示・紹介する",
       "exampleEn": "The fair showcased our newest office printer.",
       "exampleJa": "展示会は当社の最新の事務用プリンターを目玉として紹介しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "nanotechnology",
@@ -819,7 +819,7 @@
       "meaning": "観光客；見学者",
       "exampleEn": "Many sightseers took photos of the old castle.",
       "exampleJa": "多くの観光客が古い城の写真を撮りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "tentative",
@@ -828,7 +828,7 @@
       "meaning": "仮の；試験的な",
       "exampleEn": "We set a tentative date for the meeting.",
       "exampleJa": "私たちは会議の仮の日程を決めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "on a daily basis",

@@ -54,7 +54,7 @@
       "meaning": "国内の；家庭の",
       "exampleEn": "This airport handles only domestic flights.",
       "exampleJa": "この空港は国内線だけを扱っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "effective",
@@ -117,7 +117,7 @@
       "meaning": "医療の；医学の",
       "exampleEn": "The hospital bought new medical equipment.",
       "exampleJa": "その病院は新しい医療機器を買いました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "ordinary",
@@ -126,7 +126,7 @@
       "meaning": "普通の；ありふれた",
       "exampleEn": "It was an ordinary Monday morning.",
       "exampleJa": "それはありふれた月曜日の朝でした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "permanent",
@@ -144,7 +144,7 @@
       "meaning": "実用的な；現実的な",
       "exampleEn": "Students gain practical experience at the factory.",
       "exampleJa": "生徒たちは工場で実用的な経験を積みます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "previous",
@@ -162,7 +162,7 @@
       "meaning": "地方の；農村の",
       "exampleEn": "Life in rural areas is peaceful.",
       "exampleJa": "農村地域での生活は穏やかです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "severe",
@@ -180,7 +180,7 @@
       "meaning": "重要な；著しい",
       "exampleEn": "The study showed significant progress this year.",
       "exampleJa": "その研究は今年著しい進展を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "specific",
@@ -189,7 +189,7 @@
       "meaning": "具体的な；特定の",
       "exampleEn": "The teacher asked for a specific answer.",
       "exampleJa": "先生は具体的な答えを求めました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "temporary",
@@ -369,7 +369,7 @@
       "meaning": "拍手喝采",
       "exampleEn": "The singer received loud applause from everyone.",
       "exampleJa": "その歌手は全員から大きな拍手喝采を受けました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "appreciation",
@@ -549,7 +549,7 @@
       "meaning": "戦場",
       "exampleEn": "The soldiers fought bravely on the battlefield.",
       "exampleJa": "兵士たちは戦場で勇敢に戦いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bearing",
@@ -558,7 +558,7 @@
       "meaning": "態度；方角；ベアリング",
       "exampleEn": "He is a man of noble bearing.",
       "exampleJa": "彼は気高い態度の持ち主です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bee",
@@ -585,7 +585,7 @@
       "meaning": "腹；お腹",
       "exampleEn": "The baby has a soft round belly.",
       "exampleJa": "その赤ちゃんは柔らかく丸いお腹をしています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "beneficial",
@@ -621,7 +621,7 @@
       "meaning": "誕生；出産",
       "exampleEn": "We celebrated the birth of their first child.",
       "exampleJa": "私たちは彼らの第一子の誕生を祝いました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "blanket",
@@ -684,7 +684,7 @@
       "meaning": "ボウリング",
       "exampleEn": "We went bowling with our classmates yesterday.",
       "exampleJa": "私たちは昨日クラスメートとボウリングに行きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "brandy",
@@ -693,7 +693,7 @@
       "meaning": "ブランデー（酒類）",
       "exampleEn": "My uncle drank a small glass of brandy.",
       "exampleJa": "おじは小さなグラスのブランデーを飲みました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "breast",
@@ -702,7 +702,7 @@
       "meaning": "胸；胸部",
       "exampleEn": "The mother held her baby against her breast.",
       "exampleJa": "母親は赤ちゃんを胸に抱きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "briefcase",
@@ -711,7 +711,7 @@
       "meaning": "書類かばん；ブリーフケース",
       "exampleEn": "He carried the papers in a leather briefcase.",
       "exampleJa": "彼は書類を革の書類かばんに入れて運びました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "broken",
@@ -783,7 +783,7 @@
       "meaning": "運河；水路",
       "exampleEn": "A small boat moved slowly along the canal.",
       "exampleJa": "小さな船が運河をゆっくり進みました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "capability",
@@ -801,7 +801,7 @@
       "meaning": "を捕らえる；を捕獲する",
       "exampleEn": "The police captured the thief near the station.",
       "exampleJa": "警察は駅の近くで泥棒を捕らえました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "careless",
@@ -846,7 +846,7 @@
       "meaning": "セメント；接合剤",
       "exampleEn": "The workers mixed cement with water and sand.",
       "exampleJa": "作業員たちはセメントを水と砂で混ぜました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "ceremony",
@@ -864,7 +864,7 @@
       "meaning": "やりがいのある；困難な",
       "exampleEn": "The math exam was quite challenging.",
       "exampleJa": "数学の試験はかなりやりがいがありました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "chaotic",
@@ -882,7 +882,7 @@
       "meaning": "魅力；お守り",
       "exampleEn": "This old town has a special charm.",
       "exampleJa": "この古い町には特別な魅力があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cheek",
@@ -909,7 +909,7 @@
       "meaning": "煙突",
       "exampleEn": "Smoke rose from the chimney of the house.",
       "exampleJa": "家の煙突から煙が上がりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "chorus",
@@ -945,7 +945,7 @@
       "meaning": "をしっかり握る；を締める",
       "exampleEn": "She clasped her hands and closed her eyes.",
       "exampleJa": "彼女は両手をしっかり握って目を閉じました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "clean",
@@ -981,7 +981,7 @@
       "meaning": "手がかり；ヒント",
       "exampleEn": "The detective found an important clue yesterday.",
       "exampleJa": "刑事は昨日重要な手がかりを見つけました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "coat",
@@ -1008,7 +1008,7 @@
       "meaning": "集団の；共同の",
       "exampleEn": "The plan reflects our collective opinion.",
       "exampleJa": "その計画は私たちの集団の意見を反映しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "comb",
@@ -1044,7 +1044,7 @@
       "meaning": "コンパス；方位磁石",
       "exampleEn": "The hikers used a compass in the forest.",
       "exampleJa": "登山者たちは森の中でコンパスを使いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "competitive",
@@ -1116,7 +1116,7 @@
       "meaning": "目立つ；顕著な",
       "exampleEn": "The red sign was conspicuous in the crowd.",
       "exampleJa": "その赤い看板は人ごみの中で目立ちました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "construction",
@@ -1125,7 +1125,7 @@
       "meaning": "建設；施工",
       "exampleEn": "The construction of the bridge started in May.",
       "exampleJa": "その橋の建設は5月に始まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "container",
@@ -1143,7 +1143,7 @@
       "meaning": "断続的な；度重なる",
       "exampleEn": "Continual phone calls interrupted his work.",
       "exampleJa": "度重なる電話が彼の仕事を中断させました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "control",
@@ -1179,7 +1179,7 @@
       "meaning": "コード；ひも；電線",
       "exampleEn": "He pulled the cord out of the socket.",
       "exampleJa": "彼はコードをコンセントから抜きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "correspondence",
@@ -1215,7 +1215,7 @@
       "meaning": "中庭；コートヤード",
       "exampleEn": "We ate lunch in the quiet courtyard.",
       "exampleJa": "私たちは静かな中庭で昼食を食べました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "craft",
@@ -1269,7 +1269,7 @@
       "meaning": "を押しつぶす；を粉砕する",
       "exampleEn": "The machine crushes empty cans for recycling.",
       "exampleJa": "その機械はリサイクルのために空き缶を押しつぶします。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "culture",

@@ -36,7 +36,7 @@
       "meaning": "秒",
       "exampleEn": "Please wait for just ten seconds.",
       "exampleJa": "10秒だけ待ってください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "day",
@@ -378,7 +378,7 @@
       "meaning": "祝日；休日",
       "exampleEn": "We don't work on a holiday.",
       "exampleJa": "祝日には仕事をしません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "past",
@@ -387,7 +387,7 @@
       "meaning": "過去",
       "exampleEn": "People traveled by ship in the past.",
       "exampleJa": "昔、人々は船で旅をしました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "season",
@@ -630,7 +630,7 @@
       "meaning": "11の；11個の",
       "exampleEn": "Eleven students joined the club.",
       "exampleJa": "11人の生徒がクラブに入りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "twelve",
@@ -666,7 +666,7 @@
       "meaning": "100の；100個の",
       "exampleEn": "A hundred people came to the festival.",
       "exampleJa": "100人がその祭りに来ました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "thousand",
@@ -675,7 +675,7 @@
       "meaning": "1000の；1000個の",
       "exampleEn": "More than a thousand people visited the zoo.",
       "exampleJa": "1000人以上がその動物園を訪れました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "million",
@@ -684,7 +684,7 @@
       "meaning": "100万の",
       "exampleEn": "This city has about one million people.",
       "exampleJa": "この市には約100万人が住んでいます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "first",
@@ -720,7 +720,7 @@
       "meaning": "4番目の；第四の",
       "exampleEn": "July fourth is a holiday in America.",
       "exampleJa": "7月4日はアメリカの祝日です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "fifth",
@@ -729,7 +729,7 @@
       "meaning": "5番目の；第五の",
       "exampleEn": "Today is the fifth day of our trip.",
       "exampleJa": "今日は私たちの旅行の5日目です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "sixth",
@@ -738,7 +738,7 @@
       "meaning": "6番目の；第六の",
       "exampleEn": "My brother is in the sixth grade.",
       "exampleJa": "私の弟は6年生です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "seventh",
@@ -747,7 +747,7 @@
       "meaning": "7番目の；第七の",
       "exampleEn": "This is the seventh chapter of the story.",
       "exampleJa": "これはその物語の第7章です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "eighth",
@@ -756,7 +756,7 @@
       "meaning": "8番目の；第八の",
       "exampleEn": "This is the eighth question on the test.",
       "exampleJa": "これはそのテストの8番目の問題です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "ninth",
@@ -765,7 +765,7 @@
       "meaning": "9番目の；第九の",
       "exampleEn": "My sister is in the ninth grade this year.",
       "exampleJa": "私の姉は今年9年生です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "tenth",
@@ -774,7 +774,7 @@
       "meaning": "10番目の；第十の",
       "exampleEn": "Today is the tenth day of summer vacation.",
       "exampleJa": "今日は夏休み10日目です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "meter",
@@ -783,7 +783,7 @@
       "meaning": "メートル",
       "exampleEn": "This lake is ten meters deep.",
       "exampleJa": "この湖は水深10メートルです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "kilometer",
@@ -792,7 +792,7 @@
       "meaning": "キロメートル",
       "exampleEn": "The lake is five kilometers from here.",
       "exampleJa": "その湖はここから5キロメートルです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "centimeter",
@@ -837,7 +837,7 @@
       "meaning": "マイル",
       "exampleEn": "The airport is ten miles from the city.",
       "exampleJa": "空港はその市から10マイルです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "pound",
@@ -846,7 +846,7 @@
       "meaning": "ポンド（重さの単位）",
       "exampleEn": "This fish is about five pounds.",
       "exampleJa": "この魚は約5ポンドです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "inch",
@@ -855,7 +855,7 @@
       "meaning": "インチ（長さの単位）",
       "exampleEn": "The snow was six inches deep.",
       "exampleJa": "雪は6インチの深さでした。",
-      "level": 3
+      "level": 2
     }
   ]
 }

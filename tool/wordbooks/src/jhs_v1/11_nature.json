@@ -90,7 +90,7 @@
       "meaning": "谷",
       "exampleEn": "A small village is in the valley.",
       "exampleJa": "小さな村がその谷にあります。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "desert",
@@ -162,7 +162,7 @@
       "meaning": "石",
       "exampleEn": "He threw a stone into the river.",
       "exampleJa": "彼は川に石を投げました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "rock",
@@ -171,7 +171,7 @@
       "meaning": "岩",
       "exampleEn": "We sat on a big rock.",
       "exampleJa": "私たちは大きな岩に座りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "sand",
@@ -288,7 +288,7 @@
       "meaning": "豚",
       "exampleEn": "The pig is eating in the yard.",
       "exampleJa": "豚は庭で食事をしています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "sheep",
@@ -315,7 +315,7 @@
       "meaning": "ねずみ",
       "exampleEn": "A small mouse ran under the desk.",
       "exampleJa": "小さなねずみが机の下を走りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "lion",
@@ -333,7 +333,7 @@
       "meaning": "虎",
       "exampleEn": "The tiger walked slowly in the zoo.",
       "exampleJa": "その虎は動物園をゆっくり歩きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "elephant",
@@ -360,7 +360,7 @@
       "meaning": "クマ",
       "exampleEn": "A bear appeared near the village.",
       "exampleJa": "クマが村の近くに現れました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "whale",
@@ -450,7 +450,7 @@
       "meaning": "キツネ",
       "exampleEn": "A fox ran across the field.",
       "exampleJa": "キツネが野原を横切って走りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "deer",
@@ -459,7 +459,7 @@
       "meaning": "シカ",
       "exampleEn": "We saw wild deer in the forest.",
       "exampleJa": "私たちは森で野生のシカを見ました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "duck",
@@ -477,7 +477,7 @@
       "meaning": "ヤギ",
       "exampleEn": "The goat ate grass on the hill.",
       "exampleJa": "ヤギは丘で草を食べました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "turtle",
@@ -504,7 +504,7 @@
       "meaning": "ワシ",
       "exampleEn": "The eagle flew high above the mountain.",
       "exampleJa": "ワシは山の上高くを飛びました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "tree",
@@ -558,7 +558,7 @@
       "meaning": "根",
       "exampleEn": "The tree has very deep roots.",
       "exampleJa": "その木はとても深い根を持っています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "branch",
@@ -585,7 +585,7 @@
       "meaning": "バラ",
       "exampleEn": "My mother grows roses in the garden.",
       "exampleJa": "母は庭でバラを育てています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "blossom",
@@ -765,7 +765,7 @@
       "meaning": "浅い",
       "exampleEn": "The water is shallow near the beach.",
       "exampleJa": "浜辺の近くは水が浅いです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "wet",
@@ -837,7 +837,7 @@
       "meaning": "翼；羽",
       "exampleEn": "The bird spread its wings and flew.",
       "exampleJa": "その鳥は翼を広げて飛びました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "nest",

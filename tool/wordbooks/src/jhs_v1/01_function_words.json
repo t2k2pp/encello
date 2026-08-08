@@ -36,7 +36,7 @@
       "meaning": "私のもの",
       "exampleEn": "This pen is mine.",
       "exampleJa": "このペンは私のものです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "myself",
@@ -45,7 +45,7 @@
       "meaning": "私自身",
       "exampleEn": "I made this cake myself.",
       "exampleJa": "私はこのケーキを自分で作りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "you",
@@ -72,7 +72,7 @@
       "meaning": "あなたのもの",
       "exampleEn": "Is this bike yours?",
       "exampleJa": "この自転車はあなたのものですか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "yourself",
@@ -81,7 +81,7 @@
       "meaning": "あなた自身",
       "exampleEn": "Take care of yourself.",
       "exampleJa": "お体を大事にしてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "he",
@@ -117,7 +117,7 @@
       "meaning": "彼自身",
       "exampleEn": "He hurt himself yesterday.",
       "exampleJa": "彼は昨日けがをしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "she",
@@ -144,7 +144,7 @@
       "meaning": "彼女のもの",
       "exampleEn": "That red coat is hers.",
       "exampleJa": "あの赤いコートは彼女のものです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "herself",
@@ -153,7 +153,7 @@
       "meaning": "彼女自身",
       "exampleEn": "She introduced herself to us.",
       "exampleJa": "彼女は私たちに自己紹介しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "it",
@@ -180,7 +180,7 @@
       "meaning": "それ自身",
       "exampleEn": "The door closed by itself.",
       "exampleJa": "ドアはひとりでに閉まりました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "we",
@@ -216,7 +216,7 @@
       "meaning": "私たちのもの",
       "exampleEn": "That table over there is ours.",
       "exampleJa": "あそこのテーブルは私たちのものです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "ourselves",
@@ -225,7 +225,7 @@
       "meaning": "私たち自身",
       "exampleEn": "We enjoyed ourselves at the beach.",
       "exampleJa": "私たちは浜辺で楽しく過ごしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "they",
@@ -261,7 +261,7 @@
       "meaning": "彼らのもの",
       "exampleEn": "This idea was theirs first.",
       "exampleJa": "この考えはもともと彼らのものでした。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "themselves",
@@ -270,7 +270,7 @@
       "meaning": "彼ら自身",
       "exampleEn": "The kids cleaned the room themselves.",
       "exampleJa": "子どもたちは自分たちで部屋を掃除しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "this",
@@ -315,7 +315,7 @@
       "meaning": "何か",
       "exampleEn": "I want to eat something sweet.",
       "exampleJa": "何か甘いものが食べたいです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "anything",
@@ -333,7 +333,7 @@
       "meaning": "何も〜ない",
       "exampleEn": "There is nothing in the box.",
       "exampleJa": "箱の中には何もありません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "everything",
@@ -342,7 +342,7 @@
       "meaning": "すべてのこと；すべてのもの",
       "exampleEn": "Everything looks fine to me.",
       "exampleJa": "私にはすべて順調に見えます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "anyone",
@@ -360,7 +360,7 @@
       "meaning": "みんな；だれもが",
       "exampleEn": "Everyone enjoyed the school festival.",
       "exampleJa": "みんなが学園祭を楽しみました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "no one",
@@ -369,7 +369,7 @@
       "meaning": "だれも〜ない",
       "exampleEn": "No one answered the phone.",
       "exampleJa": "だれも電話に出ませんでした。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "each other",
@@ -621,7 +621,7 @@
       "meaning": "〜より（比較して）",
       "exampleEn": "This bag is heavier than that one.",
       "exampleJa": "このかばんはあれより重いです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "who",
@@ -657,7 +657,7 @@
       "meaning": "だれの",
       "exampleEn": "Whose notebook is this on the desk?",
       "exampleJa": "机の上のこのノートはだれのですか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "how",
@@ -729,7 +729,7 @@
       "meaning": "ほとんどの；いちばん多くの",
       "exampleEn": "Most students walk to school.",
       "exampleJa": "ほとんどの生徒は歩いて学校に行きます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "can",
@@ -756,7 +756,7 @@
       "meaning": "〜しなければならない",
       "exampleEn": "You must finish your homework.",
       "exampleJa": "宿題を終えなければなりません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "yes",

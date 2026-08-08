@@ -297,7 +297,7 @@
       "meaning": "を許可する；を許す",
       "exampleEn": "The rules do not allow smoking here.",
       "exampleJa": "規則ではここでの喫煙は許されていません。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "alter",
@@ -324,7 +324,7 @@
       "meaning": "分析；解析",
       "exampleEn": "Her analysis showed that sales were growing.",
       "exampleJa": "彼女の分析は売上が伸びていることを示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "animation",
@@ -396,7 +396,7 @@
       "meaning": "を逮捕する",
       "exampleEn": "The police arrested the man near the station.",
       "exampleJa": "警察は駅の近くでその男を逮捕しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "artwork",
@@ -531,7 +531,7 @@
       "meaning": "灯台；信号灯",
       "exampleEn": "The beacon guided the ships to the harbor.",
       "exampleJa": "灯台の光が船を港へ導きました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "beauty",
@@ -657,7 +657,7 @@
       "meaning": "大きな岩；巨石",
       "exampleEn": "A huge boulder rolled down the mountain.",
       "exampleJa": "大きな岩が山を転がり落ちました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "brace",
@@ -666,7 +666,7 @@
       "meaning": "ブレース；支え；歯列矯正器",
       "exampleEn": "My sister wears a brace on her teeth.",
       "exampleJa": "姉は歯に矯正器具をつけています。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "bread",
@@ -684,7 +684,7 @@
       "meaning": "を繁殖させる；品種",
       "exampleEn": "The farmer breeds horses on his farm.",
       "exampleJa": "その農場主は自分の農場で馬を繁殖させています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "brilliant",
@@ -711,7 +711,7 @@
       "meaning": "1ドル（口語）；雄鹿",
       "exampleEn": "The ticket cost only five bucks.",
       "exampleJa": "そのチケットはたった5ドルでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bulk",
@@ -801,7 +801,7 @@
       "meaning": "馬車；客車",
       "exampleEn": "The old horse carriage carried the visitors.",
       "exampleJa": "古い馬車が訪問者たちを運びました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cashier",
@@ -837,7 +837,7 @@
       "meaning": "国勢調査；人口調査",
       "exampleEn": "The government takes a census every five years.",
       "exampleJa": "政府は5年ごとに国勢調査を行います。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "certificate",
@@ -846,7 +846,7 @@
       "meaning": "証明書；修了証",
       "exampleEn": "She received a certificate after the course.",
       "exampleJa": "彼女は講座の後に修了証を受け取りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "championship",
@@ -909,7 +909,7 @@
       "meaning": "大きな塊；チャンク",
       "exampleEn": "He cut the wood into large chunks.",
       "exampleJa": "彼は木材を大きな塊に切りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "circulation",
@@ -936,7 +936,7 @@
       "meaning": "分類；格付け",
       "exampleEn": "Scientists changed the classification of this plant.",
       "exampleJa": "科学者たちはこの植物の分類を変えました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "clerk",
@@ -954,7 +954,7 @@
       "meaning": "にしがみつく；固執する",
       "exampleEn": "The child clung to her mother's sleeve.",
       "exampleJa": "その子は母親の袖にしがみつきました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "clothes",
@@ -1017,7 +1017,7 @@
       "meaning": "を開始する；始まる",
       "exampleEn": "The meeting will commence at ten o'clock.",
       "exampleJa": "会議は10時ちょうどに始まります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "common",
@@ -1107,7 +1107,7 @@
       "meaning": "合意；意見の一致",
       "exampleEn": "The committee reached a consensus at last.",
       "exampleJa": "委員会はついに合意に達しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consideration",
@@ -1116,7 +1116,7 @@
       "meaning": "配慮；考慮事項",
       "exampleEn": "We must take safety into consideration first.",
       "exampleJa": "私たちはまず安全を考慮に入れなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "constitute",
@@ -1179,7 +1179,7 @@
       "meaning": "調整；同調",
       "exampleEn": "A lack of coordination delayed the rescue.",
       "exampleJa": "連携の不足が救助を遅らせました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "corporate",
@@ -1233,7 +1233,7 @@
       "meaning": "衝突；墜落；クラッシュ",
       "exampleEn": "The car crash caused a long traffic delay.",
       "exampleJa": "その自動車事故は長い交通渋滞を引き起こしました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "creator",
@@ -1251,7 +1251,7 @@
       "meaning": "コオロギ；クリケット（球技）",
       "exampleEn": "A cricket chirped in the grass at night.",
       "exampleJa": "コオロギが夜に草むらで鳴きました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "criticize",
@@ -1260,7 +1260,7 @@
       "meaning": "を批判・非難する",
       "exampleEn": "You should not criticize your colleagues in public.",
       "exampleJa": "人前で同僚を批判すべきではありません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "crucial",

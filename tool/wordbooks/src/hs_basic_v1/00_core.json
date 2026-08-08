@@ -27,7 +27,7 @@
       "meaning": "行動する；演じる",
       "exampleEn": "We must act quickly.",
       "exampleJa": "私たちは素早く行動しなければなりません。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "active",
@@ -81,7 +81,7 @@
       "meaning": "に影響を与える",
       "exampleEn": "The weather affected our plans.",
       "exampleJa": "天気が私たちの計画に影響を与えました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "afford",
@@ -108,7 +108,7 @@
       "meaning": "を許可する；を許す",
       "exampleEn": "Pets are not allowed here.",
       "exampleJa": "ここではペットは許可されていません。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "amount",
@@ -198,7 +198,7 @@
       "meaning": "の基礎を置く",
       "exampleEn": "This movie is based on a true story.",
       "exampleJa": "この映画は実話に基づいています。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "beat",
@@ -243,7 +243,7 @@
       "meaning": "を引き起こす",
       "exampleEn": "Heavy rain caused the accident.",
       "exampleJa": "大雨が事故を引き起こしました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "certain",
@@ -315,7 +315,7 @@
       "meaning": "扱う；対処する",
       "exampleEn": "We must deal with this problem.",
       "exampleJa": "私たちはこの問題に対処しなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "decision",
@@ -432,7 +432,7 @@
       "meaning": "効果；影響",
       "exampleEn": "The medicine had a good effect.",
       "exampleJa": "その薬は良い効果がありました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "effort",
@@ -486,7 +486,7 @@
       "meaning": "存在する",
       "exampleEn": "Strange creatures exist deep in the sea.",
       "exampleJa": "深海には奇妙な生物が存在します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "expect",
@@ -702,7 +702,7 @@
       "meaning": "を測る",
       "exampleEn": "He measured the height of the door.",
       "exampleJa": "彼はドアの高さを測りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "method",
@@ -711,7 +711,7 @@
       "meaning": "方法；方式",
       "exampleEn": "This is a new teaching method.",
       "exampleJa": "これは新しい指導方法です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "offer",
@@ -810,7 +810,7 @@
       "meaning": "関係；親戚",
       "exampleEn": "The relation between the two countries improved.",
       "exampleJa": "両国間の関係が改善しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "require",
@@ -1008,7 +1008,7 @@
       "meaning": "拍手喝采",
       "exampleEn": "The actor received warm public applause.",
       "exampleJa": "俳優が温かい世間の拍手喝采を受け取りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "approximately",
@@ -1026,7 +1026,7 @@
       "meaning": "鎧；装甲",
       "exampleEn": "Knights wore heavy metal body armor.",
       "exampleJa": "騎士たちは重い金属の身体の鎧を着用しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "articulate",
@@ -1107,7 +1107,7 @@
       "meaning": "樽；バレル（単位）",
       "exampleEn": "They store oil in a wooden barrel.",
       "exampleJa": "彼らは木の樽に石油を保管します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "battle",
@@ -1251,7 +1251,7 @@
       "meaning": "精肉店；肉屋",
       "exampleEn": "I bought fresh beef from the local butcher.",
       "exampleJa": "私は地元の精肉店で新鮮な牛肉を買いました。",
-      "level": 2
+      "level": 3
     }
   ]
 }

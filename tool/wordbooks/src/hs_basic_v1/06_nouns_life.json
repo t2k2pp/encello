@@ -9,7 +9,7 @@
       "meaning": "自動車",
       "exampleEn": "The automobile industry is growing.",
       "exampleJa": "自動車産業が成長しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "baggage",
@@ -216,7 +216,7 @@
       "meaning": "船；容器；血管",
       "exampleEn": "A large fishing vessel arrived.",
       "exampleJa": "大型漁船が到着しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "weapon",
@@ -225,7 +225,7 @@
       "meaning": "兵器；武器",
       "exampleEn": "They laid down their weapons.",
       "exampleJa": "彼らは武器を置きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "wheel",
@@ -279,7 +279,7 @@
       "meaning": "農業の",
       "exampleEn": "Wheat is an important agricultural crop.",
       "exampleJa": "小麦は重要な農業作物です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "alive",
@@ -387,7 +387,7 @@
       "meaning": "大気；雰囲気",
       "exampleEn": "Restaurant has a friendly warm atmosphere.",
       "exampleJa": "レストランはフレンドリーで温かい雰囲気を持っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "attraction",
@@ -441,7 +441,7 @@
       "meaning": "横断幕；バナー",
       "exampleEn": "They hung a large welcome banner.",
       "exampleJa": "彼らは大きな歓迎の横断幕を掲げました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "basically",
@@ -468,7 +468,7 @@
       "meaning": "愛されている；最愛の",
       "exampleEn": "Remember our beloved friend family member.",
       "exampleJa": "私たちの最愛の友人家族構成員を思い出しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "best",
@@ -486,7 +486,7 @@
       "meaning": "を口にする；入札する；入札",
       "exampleEn": "Make a cash money auction bid.",
       "exampleJa": "現金お金のオークション入札を行いなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "bitter",
@@ -522,7 +522,7 @@
       "meaning": "ブーツ；長靴；トランク",
       "exampleEn": "Wear warm leather boots in winter.",
       "exampleJa": "冬には温かい革のブーツを履きなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bound",
@@ -540,7 +540,7 @@
       "meaning": "勇敢さ；勇気",
       "exampleEn": "The officer was rewarded for his bravery.",
       "exampleJa": "その警官は勇敢さを称えられました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bribe",
@@ -594,7 +594,7 @@
       "meaning": "ブーンという音；噂；賑わい",
       "exampleEn": "Honey bee makes a loud buzz sound.",
       "exampleJa": "ミツバチが大きなブーンという音を作ります。",
-      "level": 2
+      "level": 3
     }
   ]
 }

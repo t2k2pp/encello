@@ -27,7 +27,7 @@
       "meaning": "欠陥のある；不良の",
       "exampleEn": "We will replace any defective parts for free.",
       "exampleJa": "不良品の部品は無料で交換します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "manufacturer",
@@ -45,7 +45,7 @@
       "meaning": "仕様書；明細",
       "exampleEn": "The new machine meets all our specifications.",
       "exampleJa": "新しい機械は当社のすべての仕様を満たしています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "algorithm",
@@ -54,7 +54,7 @@
       "meaning": "アルゴリズム；計算手順",
       "exampleEn": "The search engine uses a new algorithm.",
       "exampleJa": "その検索エンジンは新しいアルゴリズムを使っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "automate",
@@ -108,7 +108,7 @@
       "meaning": "を校正・調整する",
       "exampleEn": "The technician calibrates each machine once a month.",
       "exampleJa": "技術者は月に一度それぞれの機械を調整します。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "calibration",
@@ -117,7 +117,7 @@
       "meaning": "校正；調整",
       "exampleEn": "The scale needs calibration before every test.",
       "exampleJa": "そのはかりは検査のたびに校正が必要です。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "capacity",
@@ -198,7 +198,7 @@
       "meaning": "稼働停止時間；ダウンタイム",
       "exampleEn": "The repair caused two hours of downtime.",
       "exampleJa": "その修理で2時間の稼働停止が生じました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "durability",
@@ -207,7 +207,7 @@
       "meaning": "耐久性；耐久力",
       "exampleEn": "Customers praise the durability of these boots.",
       "exampleJa": "顧客はこのブーツの耐久性を高く評価しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "durable",
@@ -216,7 +216,7 @@
       "meaning": "耐久性のある；丈夫な",
       "exampleEn": "This bag is light but very durable.",
       "exampleJa": "このかばんは軽いのにとても丈夫です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "engineer",
@@ -252,7 +252,7 @@
       "meaning": "製造；加工",
       "exampleEn": "The fabrication of these parts takes three days.",
       "exampleJa": "これらの部品の製造には3日かかります。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "factory",
@@ -270,7 +270,7 @@
       "meaning": "欠陥；傷",
       "exampleEn": "The engineer found a flaw in the design.",
       "exampleJa": "技術者は設計上の欠陥を見つけました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "flawless",
@@ -279,7 +279,7 @@
       "meaning": "傷のない；完璧な",
       "exampleEn": "The final test result was flawless.",
       "exampleJa": "最終検査の結果は完璧でした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "generate",
@@ -324,7 +324,7 @@
       "meaning": "検査官；点検員",
       "exampleEn": "A safety inspector will visit the plant tomorrow.",
       "exampleJa": "明日、安全検査官が工場を訪れます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "install",
@@ -414,7 +414,7 @@
       "meaning": "誤作動；故障",
       "exampleEn": "A malfunction in the system delayed the shipment.",
       "exampleJa": "システムの故障で出荷が遅れました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "manufacture",
@@ -459,7 +459,7 @@
       "meaning": "型；モデル",
       "exampleEn": "The latest model sells better than the old one.",
       "exampleJa": "最新のモデルは旧型よりよく売れています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "network",
@@ -477,7 +477,7 @@
       "meaning": "操作員；オペレーター",
       "exampleEn": "The machine operator watched the control screen.",
       "exampleJa": "機械の操作員は制御画面を見守っていました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "optimize",
@@ -486,7 +486,7 @@
       "meaning": "を最適化する",
       "exampleEn": "We optimized the delivery route to save time.",
       "exampleJa": "私たちは時間を節約するために配送経路を最適化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "outage",
@@ -495,7 +495,7 @@
       "meaning": "停電；停止",
       "exampleEn": "A power outage stopped the production line.",
       "exampleJa": "停電で生産ラインが止まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "output",
@@ -513,7 +513,7 @@
       "meaning": "を分解修理・全面見直しする",
       "exampleEn": "The team overhauled the old engine last month.",
       "exampleJa": "チームは先月、その古いエンジンを分解修理しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "patent",
@@ -522,7 +522,7 @@
       "meaning": "特許；特許権",
       "exampleEn": "The company holds a patent on this design.",
       "exampleJa": "その会社はこの設計の特許を持っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "plant",
@@ -540,7 +540,7 @@
       "meaning": "加工；データ処理",
       "exampleEn": "Order processing takes about three days.",
       "exampleJa": "注文の処理には3日ほどかかります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "produce",
@@ -567,7 +567,7 @@
       "meaning": "試作品；プロトタイプ",
       "exampleEn": "The team built a prototype of the new robot.",
       "exampleJa": "チームは新しいロボットの試作品を作りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "quality",
@@ -603,7 +603,7 @@
       "meaning": "精製所；精油所",
       "exampleEn": "The oil refinery stands near the harbor.",
       "exampleJa": "その石油精製所は港の近くにあります。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "reliability",
@@ -639,7 +639,7 @@
       "meaning": "ロボット工学",
       "exampleEn": "The company is a leader in robotics.",
       "exampleJa": "その会社はロボット工学の分野で先を行っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "semiconductor",
@@ -693,7 +693,7 @@
       "meaning": "を標準化・規格化する",
       "exampleEn": "The company standardized its testing methods.",
       "exampleJa": "その会社は検査の方法を標準化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "technology",
@@ -711,7 +711,7 @@
       "meaning": "の問題を解決する；トラブルシューティングする",
       "exampleEn": "Our staff troubleshoot printer problems every day.",
       "exampleJa": "当社のスタッフは毎日プリンターの不具合に対処しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "upgrade",
@@ -720,7 +720,7 @@
       "meaning": "を改良・アップグレードする",
       "exampleEn": "We upgraded the office computers last month.",
       "exampleJa": "先月、オフィスのコンピューターをアップグレードしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "toner",
@@ -729,7 +729,7 @@
       "meaning": "トナー；印刷インク",
       "exampleEn": "The printer is out of toner again.",
       "exampleJa": "プリンターのトナーがまた切れています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "headhunter",
@@ -738,7 +738,7 @@
       "meaning": "ヘッドハンター；人材スカウト",
       "exampleEn": "A headhunter called her about a new job.",
       "exampleJa": "ヘッドハンターが新しい仕事の件で彼女に電話をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "default",
@@ -756,7 +756,7 @@
       "meaning": "を推薦・宣伝する；裏書する",
       "exampleEn": "A famous athlete endorsed the new sports shoes.",
       "exampleJa": "有名な選手がその新しいスポーツシューズを宣伝しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "microchip",
@@ -765,7 +765,7 @@
       "meaning": "マイクロチップ；集積回路",
       "exampleEn": "A tiny microchip controls the whole machine.",
       "exampleJa": "小さなマイクロチップが機械全体を制御しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "day-trip",
@@ -783,7 +783,7 @@
       "meaning": "予期せぬ；思いがけない",
       "exampleEn": "An unforeseen accident stopped work for two days.",
       "exampleJa": "予期せぬ事故で作業が2日間止まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "under the supervision of",

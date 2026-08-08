@@ -54,7 +54,7 @@
       "meaning": "死ぬ",
       "exampleEn": "The plant died because of the cold.",
       "exampleJa": "寒さのためにその植物は枯れてしまいました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "lie",
@@ -162,7 +162,7 @@
       "meaning": "飛ぶ",
       "exampleEn": "Birds fly south before the winter comes.",
       "exampleJa": "鳥は冬が来る前に南へ飛びます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "ride",
@@ -180,7 +180,7 @@
       "meaning": "運転する",
       "exampleEn": "My father drives me to school every day.",
       "exampleJa": "父は毎日私を車で学校まで送ってくれます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "swim",
@@ -270,7 +270,7 @@
       "meaning": "落ちる；転ぶ",
       "exampleEn": "Leaves fall from the trees in autumn.",
       "exampleJa": "秋には木の葉が落ちます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "rise",
@@ -333,7 +333,7 @@
       "meaning": "沈む",
       "exampleEn": "The old boat slowly sank into the sea.",
       "exampleJa": "その古い船はゆっくりと海に沈みました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "land",
@@ -405,7 +405,7 @@
       "meaning": "置く",
       "exampleEn": "She placed the flowers in a vase.",
       "exampleJa": "彼女は花をびんに生けました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "give",
@@ -432,7 +432,7 @@
       "meaning": "送る",
       "exampleEn": "I will send you an email tonight.",
       "exampleJa": "今夜あなたにメールを送ります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "receive",
@@ -459,7 +459,7 @@
       "meaning": "払う",
       "exampleEn": "How much did you pay for that bag?",
       "exampleJa": "そのかばんにいくら払いましたか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "offer",
@@ -477,7 +477,7 @@
       "meaning": "手渡す",
       "exampleEn": "Please hand this paper to the teacher.",
       "exampleJa": "この紙を先生に渡してください。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "accept",
@@ -504,7 +504,7 @@
       "meaning": "メールを送る；郵送する",
       "exampleEn": "Could you mail me the report today?",
       "exampleJa": "今日その報告書をメールで送ってもらえますか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "serve",
@@ -513,7 +513,7 @@
       "meaning": "（食事などを）出す；仕える",
       "exampleEn": "The restaurant serves lunch until two.",
       "exampleJa": "そのレストランは2時まで昼食を出しています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "present",

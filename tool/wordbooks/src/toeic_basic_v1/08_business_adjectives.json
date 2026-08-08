@@ -27,7 +27,7 @@
       "meaning": "機密の；秘密の",
       "exampleEn": "This document contains highly confidential information.",
       "exampleJa": "この書類には極めて機密性の高い情報が含まれています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "corporate",
@@ -135,7 +135,7 @@
       "meaning": "連続した",
       "exampleEn": "Sales grew for five consecutive quarters.",
       "exampleJa": "売上は5四半期連続で成長しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "considerable",
@@ -207,7 +207,7 @@
       "meaning": "指定された",
       "exampleEn": "Employees park in the designated staff area.",
       "exampleJa": "従業員は指定された職員用の区画に駐車します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "diverse",
@@ -225,7 +225,7 @@
       "meaning": "思い切った；抜本的な",
       "exampleEn": "The board took drastic steps to cut costs.",
       "exampleJa": "取締役会は費用を削減するため思い切った手段をとりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "eager",
@@ -243,7 +243,7 @@
       "meaning": "経済の；経済上の",
       "exampleEn": "The report showed strong economic growth.",
       "exampleJa": "その報告書は力強い経済成長を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "economical",
@@ -288,7 +288,7 @@
       "meaning": "実現可能な；実行可能な",
       "exampleEn": "The plan is feasible within our budget.",
       "exampleJa": "その計画は予算の範囲で実現可能です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "flexible",
@@ -360,7 +360,7 @@
       "meaning": "付随する；臨時雑費の",
       "exampleEn": "The company pays incidental travel expenses.",
       "exampleJa": "会社は出張の雑費を負担します。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "inevitable",
@@ -387,7 +387,7 @@
       "meaning": "暫定的な；中間の",
       "exampleEn": "The board appointed an interim director.",
       "exampleJa": "取締役会は暫定的な取締役を任命しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "invalid",
@@ -396,7 +396,7 @@
       "meaning": "無効な",
       "exampleEn": "The ticket is invalid after the expiration date.",
       "exampleJa": "そのチケットは有効期限を過ぎると無効です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "joint",
@@ -432,7 +432,7 @@
       "meaning": "正当な；合法的な",
       "exampleEn": "His claim is legitimate under the contract.",
       "exampleJa": "彼の請求は契約上正当なものです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "limited",
@@ -495,7 +495,7 @@
       "meaning": "名目の；ごくわずかな",
       "exampleEn": "The bank charges a nominal fee for the service.",
       "exampleJa": "銀行はそのサービスにごくわずかな手数料を課します。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "numerous",
@@ -522,7 +522,7 @@
       "meaning": "義務的な",
       "exampleEn": "Wearing a safety helmet is obligatory on site.",
       "exampleJa": "現場では安全ヘルメットの着用が義務づけられています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "optimum",
@@ -531,7 +531,7 @@
       "meaning": "最適な；最高の",
       "exampleEn": "The machine runs at optimum speed.",
       "exampleJa": "その機械は最適な速度で動いています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "outstanding",
@@ -549,7 +549,7 @@
       "meaning": "全体の；総体的な",
       "exampleEn": "The report showed an overall increase in revenue.",
       "exampleJa": "報告書は収益の全体的な増加を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "partial",
@@ -576,7 +576,7 @@
       "meaning": "実用的な；現実的な",
       "exampleEn": "The course gives practical training to new workers.",
       "exampleJa": "その講座は新人に実践的な研修を行います。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "precise",
@@ -594,7 +594,7 @@
       "meaning": "予備の；準備段階の",
       "exampleEn": "We released a preliminary report on the research.",
       "exampleJa": "私たちは調査の予備報告書を公表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "previous",
@@ -639,7 +639,7 @@
       "meaning": "見込みのある；将来の",
       "exampleEn": "We met prospective buyers at the trade fair.",
       "exampleJa": "私たちは見本市で見込み客と会いました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "punctual",
@@ -711,7 +711,7 @@
       "meaning": "株主資本；自己資本",
       "exampleEn": "The company increased its equity last year.",
       "exampleJa": "その会社は昨年、自己資本を増やしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "freeway",
@@ -720,7 +720,7 @@
       "meaning": "高速道路",
       "exampleEn": "We drove north on the freeway this morning.",
       "exampleJa": "今朝、私たちは高速道路を北へ走りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "transistor",
@@ -729,7 +729,7 @@
       "meaning": "トランジスタ；増幅素子",
       "exampleEn": "This radio uses a small transistor.",
       "exampleJa": "このラジオは小さなトランジスタを使っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "jetlag",
@@ -738,7 +738,7 @@
       "meaning": "時差ぼけ",
       "exampleEn": "I had jetlag after the long flight.",
       "exampleJa": "長時間のフライトの後、時差ぼけになりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "undoubtedly",
