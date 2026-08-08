@@ -1,0 +1,726 @@
+{
+  "chunk": "04_nouns_life_town",
+  "note": "くらし・街・旅行（80語）",
+  "words": [
+    {
+      "headword": "accident",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæksɪdənt/",
+      "meaning": "事故；偶然",
+      "exampleEn": "He was injured in a traffic accident.",
+      "exampleJa": "彼は交通事故でけがをしました。",
+      "level": 2
+    },
+    {
+      "headword": "activity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ækˈtɪvəti/",
+      "meaning": "活動；行動",
+      "exampleEn": "Outdoor activity is good for your health.",
+      "exampleJa": "屋外での活動は健康に良いです。",
+      "level": 2
+    },
+    {
+      "headword": "address",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈædres/",
+      "meaning": "住所；演説",
+      "exampleEn": "Please write your address on this form.",
+      "exampleJa": "この用紙にあなたの住所を書いてください。",
+      "level": 2
+    },
+    {
+      "headword": "arrival",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈraɪvl/",
+      "meaning": "到着",
+      "exampleEn": "We checked the arrival time on the board.",
+      "exampleJa": "私たちは掲示板で到着時刻を確認しました。",
+      "level": 2
+    },
+    {
+      "headword": "avenue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈævənuː/",
+      "meaning": "大通り；手段",
+      "exampleEn": "Many shops stand along this wide avenue.",
+      "exampleJa": "この広い大通りにはたくさんの店が並んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "background",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbækɡraʊnd/",
+      "meaning": "背景；経歴",
+      "exampleEn": "She has a strong background in science.",
+      "exampleJa": "彼女は理科の分野で豊かな経歴を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "baggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæɡɪdʒ/",
+      "meaning": "手荷物",
+      "exampleEn": "We checked our baggage at the airport desk.",
+      "exampleJa": "私たちは空港のカウンターで手荷物を預けました。",
+      "level": 3
+    },
+    {
+      "headword": "bargain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɑːrɡən/",
+      "meaning": "掘り出し物；バーゲン；交渉",
+      "exampleEn": "This coat was a real bargain.",
+      "exampleJa": "このコートは本当にお買い得でした。",
+      "level": 3
+    },
+    {
+      "headword": "basement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪsmənt/",
+      "meaning": "地下室；地階",
+      "exampleEn": "We keep our old bikes in the basement.",
+      "exampleJa": "私たちは古い自転車を地下室に置いています。",
+      "level": 2
+    },
+    {
+      "headword": "brochure",
+      "partOfSpeech": "noun",
+      "phonetic": "/broʊˈʃʊr/",
+      "meaning": "パンフレット；小冊子",
+      "exampleEn": "I picked up a travel brochure at the office.",
+      "exampleJa": "私は事務所で旅行のパンフレットをもらいました。",
+      "level": 3
+    },
+    {
+      "headword": "budget",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbʌdʒɪt/",
+      "meaning": "予算；経費",
+      "exampleEn": "We planned the budget for next year.",
+      "exampleJa": "私たちは来年の予算を立てました。",
+      "level": 3
+    },
+    {
+      "headword": "ceremony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈserəmoʊni/",
+      "meaning": "式典；儀式；式",
+      "exampleEn": "We attended the graduation ceremony last week.",
+      "exampleJa": "私たちは先週卒業式典に出席しました。",
+      "level": 2
+    },
+    {
+      "headword": "closet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklɑːzət/",
+      "meaning": "クローゼット；押し入れ",
+      "exampleEn": "My winter coat is in the closet.",
+      "exampleJa": "私の冬のコートはクローゼットの中にあります。",
+      "level": 2
+    },
+    {
+      "headword": "container",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈteɪnər/",
+      "meaning": "容器；コンテナ",
+      "exampleEn": "She stored the soup in a plastic container.",
+      "exampleJa": "彼女はスープをプラスチックの容器に保存しました。",
+      "level": 2
+    },
+    {
+      "headword": "cost",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːst/",
+      "meaning": "費用；コスト；費用がかかる",
+      "exampleEn": "The cost of the trip was very high.",
+      "exampleJa": "その旅行の費用はとても高かったです。",
+      "level": 1
+    },
+    {
+      "headword": "cottage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːtɪdʒ/",
+      "meaning": "小住宅；コテージ",
+      "exampleEn": "We stayed at a small cottage in the woods.",
+      "exampleJa": "私たちは森の中の小さなコテージに滞在しました。",
+      "level": 3
+    },
+    {
+      "headword": "coupon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkuːpɑːn/",
+      "meaning": "割引クーポン券",
+      "exampleEn": "This coupon gives you ten percent off.",
+      "exampleJa": "このクーポン券で10パーセントの割引になります。",
+      "level": 2
+    },
+    {
+      "headword": "crowd",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraʊd/",
+      "meaning": "群衆；人ごみ",
+      "exampleEn": "A large crowd gathered in front of the hall.",
+      "exampleJa": "大勢の群衆がホールの前に集まりました。",
+      "level": 2
+    },
+    {
+      "headword": "cupboard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌbərd/",
+      "meaning": "食器棚；戸棚",
+      "exampleEn": "The plates are in the kitchen cupboard.",
+      "exampleJa": "お皿は台所の食器棚に入っています。",
+      "level": 2
+    },
+    {
+      "headword": "delay",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈleɪ/",
+      "meaning": "遅延；遅れ",
+      "exampleEn": "Bad weather caused a long delay at the airport.",
+      "exampleJa": "悪天候のため空港で大きな遅れが出ました。",
+      "level": 2
+    },
+    {
+      "headword": "departure",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpɑːrtʃər/",
+      "meaning": "出発；出荷",
+      "exampleEn": "The departure of the cargo train was delayed.",
+      "exampleJa": "貨物列車の出発が遅れました。",
+      "level": 2
+    },
+    {
+      "headword": "dessert",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈzɜːrt/",
+      "meaning": "デザート",
+      "exampleEn": "What do you want for dessert?",
+      "exampleJa": "デザートに何がほしいですか。",
+      "level": 2
+    },
+    {
+      "headword": "destination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdestɪˈneɪʃn/",
+      "meaning": "目的地；行き先；配送先",
+      "exampleEn": "We reached our destination before dark.",
+      "exampleJa": "私たちは暗くなる前に目的地に着きました。",
+      "level": 3
+    },
+    {
+      "headword": "discount",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪskaʊnt/",
+      "meaning": "割引",
+      "exampleEn": "Students get a discount at this shop.",
+      "exampleJa": "学生はこの店で割引を受けられます。",
+      "level": 2
+    },
+    {
+      "headword": "distance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪstəns/",
+      "meaning": "距離",
+      "exampleEn": "The distance was five kilometers.",
+      "exampleJa": "距離は5キロメートルでした。",
+      "level": 2
+    },
+    {
+      "headword": "emergency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmɜːrdʒənsi/",
+      "meaning": "緊急事態；非常時",
+      "exampleEn": "You should call this number in an emergency.",
+      "exampleJa": "緊急のときはこの番号に電話してください。",
+      "level": 2
+    },
+    {
+      "headword": "equipment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈkwɪpmənt/",
+      "meaning": "設備；装備；機器",
+      "exampleEn": "The gym bought new training equipment last month.",
+      "exampleJa": "そのジムは先月新しいトレーニング器具を買いました。",
+      "level": 3
+    },
+    {
+      "headword": "escalator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeskəleɪtər/",
+      "meaning": "エスカレーター",
+      "exampleEn": "The escalator was very crowded today.",
+      "exampleJa": "今日はエスカレーターがとても混雑していました。",
+      "level": 2
+    },
+    {
+      "headword": "event",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈvent/",
+      "meaning": "出来事；行事；イベント",
+      "exampleEn": "The sports event was canceled.",
+      "exampleJa": "スポーツ行事は中止になりました。",
+      "level": 1
+    },
+    {
+      "headword": "exhibition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌeksɪˈbɪʃn/",
+      "meaning": "展示会；展覧会",
+      "exampleEn": "We will attend a trade exhibition next month.",
+      "exampleJa": "私たちは来月見本市に参加します。",
+      "level": 3
+    },
+    {
+      "headword": "expense",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspens/",
+      "meaning": "経費；費用",
+      "exampleEn": "Travel expenses are covered by the company.",
+      "exampleJa": "出張の費用は会社が負担します。",
+      "level": 3
+    },
+    {
+      "headword": "fare",
+      "partOfSpeech": "noun",
+      "phonetic": "/fer/",
+      "meaning": "運賃；料金",
+      "exampleEn": "How much is the train fare?",
+      "exampleJa": "電車の運賃はいくらですか。",
+      "level": 2
+    },
+    {
+      "headword": "flight",
+      "partOfSpeech": "noun",
+      "phonetic": "/flaɪt/",
+      "meaning": "フライト；定期航空便",
+      "exampleEn": "The flight to Paris takes about ten hours.",
+      "exampleJa": "パリ行きの便は約10時間かかります。",
+      "level": 1
+    },
+    {
+      "headword": "furniture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrnɪtʃər/",
+      "meaning": "家具",
+      "exampleEn": "We bought wooden furniture.",
+      "exampleJa": "私たちは木製の家具を購入しました。",
+      "level": 2
+    },
+    {
+      "headword": "garage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡəˈrɑːʒ/",
+      "meaning": "車庫",
+      "exampleEn": "My father parks the car in the garage.",
+      "exampleJa": "父は車庫に車を止めます。",
+      "level": 2
+    },
+    {
+      "headword": "garbage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡɑːrbɪdʒ/",
+      "meaning": "ごみ；生ごみ",
+      "exampleEn": "Take out the garbage.",
+      "exampleJa": "ごみを外に出しなさい。",
+      "level": 1
+    },
+    {
+      "headword": "guide",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡaɪd/",
+      "meaning": "案内人；ガイド",
+      "exampleEn": "The guide showed us around the town.",
+      "exampleJa": "そのガイドは私たちに町を案内してくれました。",
+      "level": 2
+    },
+    {
+      "headword": "hallway",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɔːlweɪ/",
+      "meaning": "廊下",
+      "exampleEn": "Please walk quietly in the hallway.",
+      "exampleJa": "廊下では静かに歩いてください。",
+      "level": 2
+    },
+    {
+      "headword": "inn",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪn/",
+      "meaning": "小旅館；宿屋",
+      "exampleEn": "We stayed at a small inn in the countryside.",
+      "exampleJa": "私たちは田舎の小さな宿に泊まりました。",
+      "level": 3
+    },
+    {
+      "headword": "instrument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "meaning": "楽器；器具；測定器",
+      "exampleEn": "She plays a musical instrument in the school band.",
+      "exampleJa": "彼女は学校のバンドで楽器を演奏しています。",
+      "level": 2
+    },
+    {
+      "headword": "insurance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈʃʊrəns/",
+      "meaning": "保険",
+      "exampleEn": "Do you have health insurance?",
+      "exampleJa": "健康保険に加入していますか。",
+      "level": 3
+    },
+    {
+      "headword": "luggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlʌɡɪdʒ/",
+      "meaning": "手荷物；旅行かばん",
+      "exampleEn": "He carried heavy luggage.",
+      "exampleJa": "彼は重い荷物を運びました。",
+      "level": 3
+    },
+    {
+      "headword": "manner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænər/",
+      "meaning": "方法；マナー；行儀",
+      "exampleEn": "He behaved in a friendly manner.",
+      "exampleJa": "彼は親しみやすい態度で振る舞いました。",
+      "level": 2
+    },
+    {
+      "headword": "membership",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmembərʃɪp/",
+      "meaning": "会員資格；会員数",
+      "exampleEn": "I renewed my gym membership last week.",
+      "exampleJa": "私は先週ジムの会員資格を更新しました。",
+      "level": 2
+    },
+    {
+      "headword": "neighborhood",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪbərhʊd/",
+      "meaning": "近所；地域",
+      "exampleEn": "Our neighborhood has many small parks.",
+      "exampleJa": "私たちの地域には小さな公園がたくさんあります。",
+      "level": 2
+    },
+    {
+      "headword": "occasion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkeɪʒən/",
+      "meaning": "機会；特別な行事",
+      "exampleEn": "A wedding is a joyful occasion.",
+      "exampleJa": "結婚式は喜ばしい行事です。",
+      "level": 3
+    },
+    {
+      "headword": "package",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpækɪdʒ/",
+      "meaning": "小包；パック",
+      "exampleEn": "The package was left at the front door.",
+      "exampleJa": "その小包は玄関の前に置かれていました。",
+      "level": 2
+    },
+    {
+      "headword": "pamphlet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæmflət/",
+      "meaning": "小冊子；パンフレット",
+      "exampleEn": "We handed out a pamphlet to every visitor.",
+      "exampleJa": "私たちは来場者全員にパンフレットを配りました。",
+      "level": 3
+    },
+    {
+      "headword": "passenger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæsɪndʒər/",
+      "meaning": "乗客",
+      "exampleEn": "All passengers boarded the bus.",
+      "exampleJa": "すべての乗客がバスに乗り込みました。",
+      "level": 2
+    },
+    {
+      "headword": "passport",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæspɔːrt/",
+      "meaning": "パスポート；旅券",
+      "exampleEn": "Don't forget your passport.",
+      "exampleJa": "パスポートを忘れないでください。",
+      "level": 2
+    },
+    {
+      "headword": "payment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪmənt/",
+      "meaning": "支払い；返済",
+      "exampleEn": "We received your payment this morning.",
+      "exampleJa": "私たちは今朝、お客様の支払いを受け取りました。",
+      "level": 2
+    },
+    {
+      "headword": "performance",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈfɔːrməns/",
+      "meaning": "業績；公演；演技",
+      "exampleEn": "Her dance performance was amazing.",
+      "exampleJa": "彼女のダンスの公演は素晴らしかったです。",
+      "level": 3
+    },
+    {
+      "headword": "platform",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplætfɔːrm/",
+      "meaning": "（駅の）ホーム",
+      "exampleEn": "The train left from this platform.",
+      "exampleJa": "電車はこのホームから出発しました。",
+      "level": 2
+    },
+    {
+      "headword": "receipt",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsiːt/",
+      "meaning": "領収書；レシート；受領",
+      "exampleEn": "Please keep your receipt after paying.",
+      "exampleJa": "支払い後はレシートを保管してください。",
+      "level": 3
+    },
+    {
+      "headword": "reception",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsepʃn/",
+      "meaning": "受付；歓迎パーティー",
+      "exampleEn": "The reception desk is on the first floor.",
+      "exampleJa": "受付は1階にあります。",
+      "level": 3
+    },
+    {
+      "headword": "refund",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːfʌnd/",
+      "meaning": "返金；払戻金",
+      "exampleEn": "The customer asked for a full refund.",
+      "exampleJa": "その客は全額の返金を求めました。",
+      "level": 3
+    },
+    {
+      "headword": "route",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːt/",
+      "meaning": "ルート；配送経路",
+      "exampleEn": "The driver took a shorter route to town.",
+      "exampleJa": "運転手は町までの近い経路を通りました。",
+      "level": 2
+    },
+    {
+      "headword": "sale",
+      "partOfSpeech": "noun",
+      "phonetic": "/seɪl/",
+      "meaning": "セール；安売り",
+      "exampleEn": "This shirt is on sale today.",
+      "exampleJa": "このシャツは今日セール中です。",
+      "level": 2
+    },
+    {
+      "headword": "sightseeing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪtsiːɪŋ/",
+      "meaning": "観光",
+      "exampleEn": "We went sightseeing in Kyoto last summer.",
+      "exampleJa": "私たちは去年の夏、京都で観光をしました。",
+      "level": 2
+    },
+    {
+      "headword": "signal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪɡnəl/",
+      "meaning": "信号",
+      "exampleEn": "Stop your bike at the signal.",
+      "exampleJa": "信号のところで自転車を止めなさい。",
+      "level": 2
+    },
+    {
+      "headword": "souvenir",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsuːvəˈnɪr/",
+      "meaning": "お土産；記念品",
+      "exampleEn": "I bought a souvenir for my family.",
+      "exampleJa": "私は家族にお土産を買いました。",
+      "level": 3
+    },
+    {
+      "headword": "space",
+      "partOfSpeech": "noun",
+      "phonetic": "/speɪs/",
+      "meaning": "宇宙；空間",
+      "exampleEn": "I want to travel in space.",
+      "exampleJa": "私は宇宙を旅行したいです。",
+      "level": 2
+    },
+    {
+      "headword": "stranger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstreɪndʒər/",
+      "meaning": "見知らぬ人",
+      "exampleEn": "Don't talk to strangers on the street.",
+      "exampleJa": "道で見知らぬ人と話してはいけません。",
+      "level": 3
+    },
+    {
+      "headword": "ticket",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɪkɪt/",
+      "meaning": "切符；チケット；乗車券",
+      "exampleEn": "I bought a ticket at the station.",
+      "exampleJa": "私は駅で切符を買いました。",
+      "level": 1
+    },
+    {
+      "headword": "tour",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʊr/",
+      "meaning": "ツアー；見学；周遊旅行",
+      "exampleEn": "We took a tour of the old castle.",
+      "exampleJa": "私たちはその古い城のツアーに参加しました。",
+      "level": 2
+    },
+    {
+      "headword": "tourist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʊrɪst/",
+      "meaning": "観光客",
+      "exampleEn": "Many tourists visit the castle every year.",
+      "exampleJa": "毎年多くの観光客がその城を訪れます。",
+      "level": 2
+    },
+    {
+      "headword": "traffic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtræfɪk/",
+      "meaning": "交通；交通量",
+      "exampleEn": "This road is busy with traffic.",
+      "exampleJa": "この道路は交通量が多いです。",
+      "level": 2
+    },
+    {
+      "headword": "vehicle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈviːəkl/",
+      "meaning": "乗り物；車両",
+      "exampleEn": "Electric vehicles become popular.",
+      "exampleJa": "電気自動車が人気を集めています。",
+      "level": 3
+    },
+    {
+      "headword": "view",
+      "partOfSpeech": "noun",
+      "phonetic": "/vjuː/",
+      "meaning": "視界；意見；眺め",
+      "exampleEn": "The mountain view was wonderful.",
+      "exampleJa": "山の眺めはすばらしかったです。",
+      "level": 2
+    },
+    {
+      "headword": "visitor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪzɪtər/",
+      "meaning": "訪問者；来客；観光客",
+      "exampleEn": "This temple gets many visitors every year.",
+      "exampleJa": "このお寺は毎年多くの訪問者を迎えます。",
+      "level": 2
+    },
+    {
+      "headword": "wallet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɑːlət/",
+      "meaning": "財布",
+      "exampleEn": "He left his wallet at home.",
+      "exampleJa": "彼は財布を家に忘れました。",
+      "level": 2
+    },
+    {
+      "headword": "charge",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃɑːrdʒ/",
+      "meaning": "料金；請求；責任",
+      "exampleEn": "There is no charge for children under six.",
+      "exampleJa": "6歳未満の子どもは料金がかかりません。",
+      "level": 3
+    },
+    {
+      "headword": "direction",
+      "partOfSpeech": "noun",
+      "phonetic": "/dəˈrekʃn/",
+      "meaning": "方向；指示",
+      "exampleEn": "The wind changed its direction in the evening.",
+      "exampleJa": "夕方に風の向きが変わりました。",
+      "level": 2
+    },
+    {
+      "headword": "fashion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæʃn/",
+      "meaning": "流行；ファッション",
+      "exampleEn": "Short skirts came back into fashion.",
+      "exampleJa": "短いスカートが再び流行しました。",
+      "level": 3
+    },
+    {
+      "headword": "favor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfeɪvər/",
+      "meaning": "親切な行為；好意",
+      "exampleEn": "Could you do me a favor?",
+      "exampleJa": "お願いを聞いてもらえますか。",
+      "level": 3
+    },
+    {
+      "headword": "habit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæbɪt/",
+      "meaning": "習慣；癖",
+      "exampleEn": "Reading before bed is a good habit.",
+      "exampleJa": "寝る前に読書をするのはよい習慣です。",
+      "level": 3
+    },
+    {
+      "headword": "invitation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnvɪˈteɪʃn/",
+      "meaning": "招待；招待状",
+      "exampleEn": "I received an invitation to their wedding.",
+      "exampleJa": "私は彼らの結婚式への招待状を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "journey",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒɜːrni/",
+      "meaning": "旅；旅行",
+      "exampleEn": "Our journey to the north took three days.",
+      "exampleJa": "北への旅は3日かかりました。",
+      "level": 3
+    },
+    {
+      "headword": "laundry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɔːndri/",
+      "meaning": "洗濯物；洗濯",
+      "exampleEn": "My mother does the laundry every morning.",
+      "exampleJa": "母は毎朝洗濯をします。",
+      "level": 3
+    },
+    {
+      "headword": "style",
+      "partOfSpeech": "noun",
+      "phonetic": "/staɪl/",
+      "meaning": "様式；やり方；文体",
+      "exampleEn": "This building has an old European style.",
+      "exampleJa": "この建物は古いヨーロッパ様式です。",
+      "level": 2
+    }
+  ]
+}

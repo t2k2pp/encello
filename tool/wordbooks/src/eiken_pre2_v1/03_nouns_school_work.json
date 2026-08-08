@@ -1,0 +1,726 @@
+{
+  "chunk": "03_nouns_school_work",
+  "note": "学校・仕事・職業（80語）",
+  "words": [
+    {
+      "headword": "ability",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈbɪləti/",
+      "meaning": "能力；才能",
+      "exampleEn": "She has the ability to speak three languages.",
+      "exampleJa": "彼女には3か国語を話す能力があります。",
+      "level": 2
+    },
+    {
+      "headword": "advertisement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædvərˈtaɪzmənt/",
+      "meaning": "広告；宣伝",
+      "exampleEn": "I saw an advertisement for the job online.",
+      "exampleJa": "その仕事の広告をインターネットで見ました。",
+      "level": 3
+    },
+    {
+      "headword": "applicant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæplɪkənt/",
+      "meaning": "応募者；志願者",
+      "exampleEn": "Every applicant must send a resume by Friday.",
+      "exampleJa": "応募者は全員、金曜日までに履歴書を送らなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "application",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæplɪˈkeɪʃn/",
+      "meaning": "申請；申込書；応用",
+      "exampleEn": "Please fill out this application form.",
+      "exampleJa": "この申請書に記入してください。",
+      "level": 3
+    },
+    {
+      "headword": "appointment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɔɪntmənt/",
+      "meaning": "約束；予約；任命",
+      "exampleEn": "I have an appointment with the doctor at ten.",
+      "exampleJa": "私は10時に医者の予約があります。",
+      "level": 3
+    },
+    {
+      "headword": "assignment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsaɪnmənt/",
+      "meaning": "課題；宿題；割り当てられた仕事",
+      "exampleEn": "I finished my math assignment before dinner.",
+      "exampleJa": "私は夕食の前に数学の宿題を終えました。",
+      "level": 3
+    },
+    {
+      "headword": "audience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːdiəns/",
+      "meaning": "聴衆；観客；対象層",
+      "exampleEn": "The audience clapped warmly after the show.",
+      "exampleJa": "観客は公演の後、温かく拍手しました。",
+      "level": 3
+    },
+    {
+      "headword": "author",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːθər/",
+      "meaning": "著者；筆者；作者",
+      "exampleEn": "The author of this book lives in Canada.",
+      "exampleJa": "この本の著者はカナダに住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "benefit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbenɪfɪt/",
+      "meaning": "利益；恩恵；手当",
+      "exampleEn": "Exercise has many benefits for your health.",
+      "exampleJa": "運動は健康に多くの利点があります。",
+      "level": 3
+    },
+    {
+      "headword": "business",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɪznəs/",
+      "meaning": "仕事；事業；商売",
+      "exampleEn": "He started a small business last spring.",
+      "exampleJa": "彼は昨年の春に小さな事業を始めました。",
+      "level": 1
+    },
+    {
+      "headword": "career",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈrɪr/",
+      "meaning": "経歴；職業；キャリア",
+      "exampleEn": "She wants a career in medicine.",
+      "exampleJa": "彼女は医療の分野でキャリアを築きたいと思っています。",
+      "level": 2
+    },
+    {
+      "headword": "certificate",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈtɪfɪkət/",
+      "meaning": "証明書；修了証",
+      "exampleEn": "She received a certificate after the course.",
+      "exampleJa": "彼女は講座の後に修了証を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "challenge",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃælɪndʒ/",
+      "meaning": "試練；挑戦；課題",
+      "exampleEn": "This project is a big challenge for us.",
+      "exampleJa": "この計画は私たちにとって大きな試練です。",
+      "level": 2
+    },
+    {
+      "headword": "colleague",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːliːɡ/",
+      "meaning": "同僚",
+      "exampleEn": "I had lunch with a colleague today.",
+      "exampleJa": "今日は同僚と昼食をとりました。",
+      "level": 3
+    },
+    {
+      "headword": "college",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːlɪdʒ/",
+      "meaning": "大学；単科大学",
+      "exampleEn": "My sister studies music at college.",
+      "exampleJa": "姉は大学で音楽を学んでいます。",
+      "level": 1
+    },
+    {
+      "headword": "communication",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "meaning": "コミュニケーション；伝達",
+      "exampleEn": "Good communication is the key to teamwork.",
+      "exampleJa": "良いコミュニケーションはチームワークの鍵です。",
+      "level": 2
+    },
+    {
+      "headword": "company",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌmpəni/",
+      "meaning": "会社；仲間；同伴",
+      "exampleEn": "He works for a software company.",
+      "exampleJa": "彼はソフトウェア会社で働いています。",
+      "level": 1
+    },
+    {
+      "headword": "competition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːmpəˈtɪʃn/",
+      "meaning": "競争；競技会；コンテスト",
+      "exampleEn": "She won first prize in the speech competition.",
+      "exampleJa": "彼女はスピーチコンテストで一等賞を取りました。",
+      "level": 3
+    },
+    {
+      "headword": "contract",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntrækt/",
+      "meaning": "契約；契約書",
+      "exampleEn": "He signed a contract with the company.",
+      "exampleJa": "彼はその会社と契約を結びました。",
+      "level": 3
+    },
+    {
+      "headword": "course",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːrs/",
+      "meaning": "コース；進路；課程",
+      "exampleEn": "She is taking an English course this year.",
+      "exampleJa": "彼女は今年英語の講座を受けています。",
+      "level": 1
+    },
+    {
+      "headword": "customer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌstəmər/",
+      "meaning": "顧客；客",
+      "exampleEn": "The clerk helped a customer at the counter.",
+      "exampleJa": "店員はカウンターで客を手伝いました。",
+      "level": 2
+    },
+    {
+      "headword": "degree",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈɡriː/",
+      "meaning": "学位；度；程度",
+      "exampleEn": "She obtained a master's degree.",
+      "exampleJa": "彼女は修士号を取得しました。",
+      "level": 2
+    },
+    {
+      "headword": "department",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpɑːrtmənt/",
+      "meaning": "部署；部門",
+      "exampleEn": "He works in the sales department.",
+      "exampleJa": "彼は営業部門で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "detail",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdiːteɪl/",
+      "meaning": "詳細；細部",
+      "exampleEn": "Tell me the details later.",
+      "exampleJa": "詳細は後で教えてください。",
+      "level": 2
+    },
+    {
+      "headword": "difficulty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪfɪkəlti/",
+      "meaning": "困難",
+      "exampleEn": "She solved the problem with difficulty.",
+      "exampleJa": "彼女は苦労してその問題を解決しました。",
+      "level": 2
+    },
+    {
+      "headword": "document",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɑːkjumənt/",
+      "meaning": "書類；文書",
+      "exampleEn": "He signed the document with a black pen.",
+      "exampleJa": "彼は黒いペンでその書類に署名しました。",
+      "level": 2
+    },
+    {
+      "headword": "duty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈduːti/",
+      "meaning": "職務；義務；関税",
+      "exampleEn": "It is my duty to lock the office.",
+      "exampleJa": "事務所の戸締まりをするのは私の職務です。",
+      "level": 2
+    },
+    {
+      "headword": "employee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈplɔɪiː/",
+      "meaning": "従業員；社員",
+      "exampleEn": "The company hired fifty new employees.",
+      "exampleJa": "その会社は50人の新しい従業員を雇いました。",
+      "level": 2
+    },
+    {
+      "headword": "employment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈplɔɪmənt/",
+      "meaning": "雇用；職",
+      "exampleEn": "Full employment is their goal.",
+      "exampleJa": "完全雇用が彼らの目標です。",
+      "level": 3
+    },
+    {
+      "headword": "employer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈplɔɪər/",
+      "meaning": "雇い主；雇用主",
+      "exampleEn": "My employer provides health insurance for us.",
+      "exampleJa": "私の雇い主は私たちに健康保険を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "essay",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeseɪ/",
+      "meaning": "作文；小論文",
+      "exampleEn": "Write an essay about your dream.",
+      "exampleJa": "あなたの夢について作文を書きなさい。",
+      "level": 3
+    },
+    {
+      "headword": "experience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspɪriəns/",
+      "meaning": "経験",
+      "exampleEn": "It was a good experience for me.",
+      "exampleJa": "それは私にとって良い経験でした。",
+      "level": 2
+    },
+    {
+      "headword": "explanation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌekspləˈneɪʃn/",
+      "meaning": "説明；解説",
+      "exampleEn": "His explanation was short and clear.",
+      "exampleJa": "彼の説明は短くて分かりやすかったです。",
+      "level": 2
+    },
+    {
+      "headword": "fee",
+      "partOfSpeech": "noun",
+      "phonetic": "/fiː/",
+      "meaning": "料金；謝礼",
+      "exampleEn": "The entrance fee is ten dollars.",
+      "exampleJa": "入場料は10ドルです。",
+      "level": 3
+    },
+    {
+      "headword": "graduation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɡrædʒuˈeɪʃn/",
+      "meaning": "卒業；卒業式",
+      "exampleEn": "Graduation is coming very soon.",
+      "exampleJa": "卒業が間もなくやってきます。",
+      "level": 2
+    },
+    {
+      "headword": "handout",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhændaʊt/",
+      "meaning": "配布資料；プリント",
+      "exampleEn": "She gave a handout to everyone at the meeting.",
+      "exampleJa": "彼女は会議で全員に配布資料を渡しました。",
+      "level": 3
+    },
+    {
+      "headword": "income",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnkʌm/",
+      "meaning": "収入；所得",
+      "exampleEn": "Her average annual income increased.",
+      "exampleJa": "彼女の平均年収は増加しました。",
+      "level": 3
+    },
+    {
+      "headword": "industry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪndəstri/",
+      "meaning": "産業；工業",
+      "exampleEn": "Tourism is a big industry here.",
+      "exampleJa": "観光業はここでは大きな産業です。",
+      "level": 2
+    },
+    {
+      "headword": "information",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnfərˈmeɪʃən/",
+      "meaning": "情報；案内",
+      "exampleEn": "I got useful information.",
+      "exampleJa": "役に立つ情報を得ました。",
+      "level": 1
+    },
+    {
+      "headword": "instruction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈstrʌkʃn/",
+      "meaning": "指示；取扱説明書",
+      "exampleEn": "Read the instructions before you use the machine.",
+      "exampleJa": "機械を使う前に取扱説明書を読んでください。",
+      "level": 2
+    },
+    {
+      "headword": "interview",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntərvjuː/",
+      "meaning": "面接；インタビュー",
+      "exampleEn": "She did well at the job interview.",
+      "exampleJa": "彼女は就職面接でうまくいきました。",
+      "level": 2
+    },
+    {
+      "headword": "knowledge",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnɑːlɪdʒ/",
+      "meaning": "知識",
+      "exampleEn": "Knowledge is power.",
+      "exampleJa": "知識は力なり。",
+      "level": 2
+    },
+    {
+      "headword": "lawyer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɔːjər/",
+      "meaning": "弁護士",
+      "exampleEn": "He decided to become a lawyer.",
+      "exampleJa": "彼は弁護士になることを決めました。",
+      "level": 2
+    },
+    {
+      "headword": "lecture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlektʃər/",
+      "meaning": "講義；講演",
+      "exampleEn": "The professor gave a lecture on world trade.",
+      "exampleJa": "教授は世界貿易についての講義を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "manager",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænɪdʒər/",
+      "meaning": "支配人；管理者；マネージャー",
+      "exampleEn": "The store manager checked all the shelves.",
+      "exampleJa": "店長はすべての棚を確認しました。",
+      "level": 2
+    },
+    {
+      "headword": "material",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈtɪriəl/",
+      "meaning": "材料；素材；資料",
+      "exampleEn": "Wood is a common building material.",
+      "exampleJa": "木材は一般的な建築材料です。",
+      "level": 2
+    },
+    {
+      "headword": "method",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeθəd/",
+      "meaning": "方法；方式",
+      "exampleEn": "This is a new teaching method.",
+      "exampleJa": "これは新しい指導方法です。",
+      "level": 3
+    },
+    {
+      "headword": "occupation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːkjuˈpeɪʃn/",
+      "meaning": "職業；占有",
+      "exampleEn": "Please write your name and occupation here.",
+      "exampleJa": "ここに名前と職業を書いてください。",
+      "level": 3
+    },
+    {
+      "headword": "opportunity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːpərˈtuːnəti/",
+      "meaning": "機会；好機",
+      "exampleEn": "Take this opportunity to study abroad.",
+      "exampleJa": "この機会を利用して留学しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "organization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːrɡənəˈzeɪʃn/",
+      "meaning": "組織；団体",
+      "exampleEn": "She works for a large organization.",
+      "exampleJa": "彼女は大きな組織で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "permission",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈmɪʃn/",
+      "meaning": "許可；許諾",
+      "exampleEn": "I asked permission to leave early.",
+      "exampleJa": "私は早く帰る許可を求めました。",
+      "level": 2
+    },
+    {
+      "headword": "position",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈzɪʃn/",
+      "meaning": "位置；職；立場",
+      "exampleEn": "She applied for a manager position at the bank.",
+      "exampleJa": "彼女は銀行の管理職に応募しました。",
+      "level": 2
+    },
+    {
+      "headword": "practice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpræktɪs/",
+      "meaning": "練習；実践；慣習",
+      "exampleEn": "Daily practice made him a better pianist.",
+      "exampleJa": "毎日の練習が彼をより優れたピアニストにしました。",
+      "level": 1
+    },
+    {
+      "headword": "presentation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpriːzenˈteɪʃn/",
+      "meaning": "発表；プレゼンテーション",
+      "exampleEn": "Our group gave a presentation in class.",
+      "exampleJa": "私たちの班はクラスで発表をしました。",
+      "level": 3
+    },
+    {
+      "headword": "principal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɪnsəpl/",
+      "meaning": "校長；学長；主要なもの",
+      "exampleEn": "The principal spoke at the ceremony.",
+      "exampleJa": "校長先生は式で話をしました。",
+      "level": 3
+    },
+    {
+      "headword": "product",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːdʌkt/",
+      "meaning": "製品；商品",
+      "exampleEn": "This shop sells only Japanese products.",
+      "exampleJa": "この店は日本製品だけを売っています。",
+      "level": 2
+    },
+    {
+      "headword": "profession",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈfeʃn/",
+      "meaning": "職業；専門職",
+      "exampleEn": "Teaching is a noble profession.",
+      "exampleJa": "教師は立派な職業です。",
+      "level": 3
+    },
+    {
+      "headword": "progress",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːɡres/",
+      "meaning": "進歩；進展",
+      "exampleEn": "The team made rapid progress in its research.",
+      "exampleJa": "そのチームは研究で急速な進歩を遂げました。",
+      "level": 2
+    },
+    {
+      "headword": "project",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːdʒekt/",
+      "meaning": "計画；事業；プロジェクト",
+      "exampleEn": "We are working on a science project.",
+      "exampleJa": "私たちは理科の課題に取り組んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "purpose",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɜːrpəs/",
+      "meaning": "目的；意図",
+      "exampleEn": "What is the purpose of your visit?",
+      "exampleJa": "ご訪問の目的は何ですか。",
+      "level": 2
+    },
+    {
+      "headword": "quality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkwɑːləti/",
+      "meaning": "品質；質；特性",
+      "exampleEn": "This product has high quality.",
+      "exampleJa": "この製品は高品質です。",
+      "level": 2
+    },
+    {
+      "headword": "research",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːsɜːrtʃ/",
+      "meaning": "研究；調査",
+      "exampleEn": "She is doing research on ocean life.",
+      "exampleJa": "彼女は海の生物について研究をしています。",
+      "level": 2
+    },
+    {
+      "headword": "responsibility",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌspɑːnsəˈbɪləti/",
+      "meaning": "責任",
+      "exampleEn": "Taking care of pets is a big responsibility.",
+      "exampleJa": "ペットの世話は大きな責任です。",
+      "level": 3
+    },
+    {
+      "headword": "role",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊl/",
+      "meaning": "役割；役",
+      "exampleEn": "She played a key role.",
+      "exampleJa": "彼女は重要な役割を果たしました。",
+      "level": 2
+    },
+    {
+      "headword": "salary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsæləri/",
+      "meaning": "給料；月給",
+      "exampleEn": "The company pays a good monthly salary.",
+      "exampleJa": "その会社は良い月給を支払っています。",
+      "level": 2
+    },
+    {
+      "headword": "schedule",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskedʒuːl/",
+      "meaning": "予定表；スケジュール",
+      "exampleEn": "The meeting schedule changed to two o'clock.",
+      "exampleJa": "会議の予定は2時に変更されました。",
+      "level": 2
+    },
+    {
+      "headword": "scholarship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskɑːlərʃɪp/",
+      "meaning": "奨学金；学識",
+      "exampleEn": "She won a full scholarship to a famous university.",
+      "exampleJa": "彼女は有名な大学の全額奨学金を勝ち取りました。",
+      "level": 2
+    },
+    {
+      "headword": "skill",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɪl/",
+      "meaning": "技能；技術",
+      "exampleEn": "Cooking is a useful skill.",
+      "exampleJa": "料理は役に立つ技術です。",
+      "level": 2
+    },
+    {
+      "headword": "solution",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈluːʃən/",
+      "meaning": "解決策；解答",
+      "exampleEn": "We found a solution to the issue.",
+      "exampleJa": "問題の解決策を見つけました。",
+      "level": 2
+    },
+    {
+      "headword": "speech",
+      "partOfSpeech": "noun",
+      "phonetic": "/spiːtʃ/",
+      "meaning": "スピーチ；演説",
+      "exampleEn": "She gave a great speech in English class.",
+      "exampleJa": "彼女は英語の授業ですばらしいスピーチをしました。",
+      "level": 1
+    },
+    {
+      "headword": "staff",
+      "partOfSpeech": "noun",
+      "phonetic": "/stæf/",
+      "meaning": "職員；スタッフ",
+      "exampleEn": "The staff welcomed us with a smile.",
+      "exampleJa": "スタッフは笑顔で私たちを迎えてくれました。",
+      "level": 2
+    },
+    {
+      "headword": "task",
+      "partOfSpeech": "noun",
+      "phonetic": "/tæsk/",
+      "meaning": "タスク；作業",
+      "exampleEn": "I finished my last task before six.",
+      "exampleJa": "私は6時前に最後の作業を終えました。",
+      "level": 2
+    },
+    {
+      "headword": "technology",
+      "partOfSpeech": "noun",
+      "phonetic": "/tekˈnɑːlədʒi/",
+      "meaning": "科学技術；技術",
+      "exampleEn": "Modern technology makes life easier.",
+      "exampleJa": "現代技術は生活をより簡単にします。",
+      "level": 2
+    },
+    {
+      "headword": "training",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtreɪnɪŋ/",
+      "meaning": "研修；訓練",
+      "exampleEn": "New employees receive two weeks of training.",
+      "exampleJa": "新入社員は2週間の研修を受けます。",
+      "level": 2
+    },
+    {
+      "headword": "tuition",
+      "partOfSpeech": "noun",
+      "phonetic": "/tuˈɪʃən/",
+      "meaning": "授業料；学費",
+      "exampleEn": "The university raised its tuition again this year.",
+      "exampleJa": "その大学は今年もまた授業料を値上げしました。",
+      "level": 3
+    },
+    {
+      "headword": "education",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌedʒuˈkeɪʃn/",
+      "meaning": "教育；教養",
+      "exampleEn": "Good education helps children build their future.",
+      "exampleJa": "よい教育は子どもたちが将来を築く助けになります。",
+      "level": 2
+    },
+    {
+      "headword": "opinion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpɪnjən/",
+      "meaning": "意見；見解",
+      "exampleEn": "I want to hear your opinion about this plan.",
+      "exampleJa": "この計画についてあなたの意見を聞きたいです。",
+      "level": 2
+    },
+    {
+      "headword": "professor",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈfesər/",
+      "meaning": "教授",
+      "exampleEn": "Our professor teaches history at this university.",
+      "exampleJa": "私たちの教授はこの大学で歴史を教えています。",
+      "level": 3
+    },
+    {
+      "headword": "service",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrvɪs/",
+      "meaning": "サービス；接客；業務",
+      "exampleEn": "The service at that restaurant was excellent.",
+      "exampleJa": "あのレストランのサービスはすばらしかったです。",
+      "level": 2
+    },
+    {
+      "headword": "system",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪstəm/",
+      "meaning": "制度；体系；システム",
+      "exampleEn": "Our school uses a new computer system.",
+      "exampleJa": "私たちの学校は新しいコンピューターシステムを使っています。",
+      "level": 2
+    }
+  ]
+}

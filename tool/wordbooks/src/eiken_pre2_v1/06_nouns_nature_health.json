@@ -1,0 +1,726 @@
+{
+  "chunk": "06_nouns_nature_health",
+  "note": "自然・環境・体と健康（80語）",
+  "words": [
+    {
+      "headword": "allergy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælərdʒi/",
+      "meaning": "アレルギー",
+      "exampleEn": "My friend has a bad allergy.",
+      "exampleJa": "私の友達はひどいアレルギーがあります。",
+      "level": 3
+    },
+    {
+      "headword": "ambulance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæmbjələns/",
+      "meaning": "救急車",
+      "exampleEn": "Someone called an ambulance right away.",
+      "exampleJa": "誰かがすぐに救急車を呼びました。",
+      "level": 2
+    },
+    {
+      "headword": "appetite",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæpɪtaɪt/",
+      "meaning": "食欲；欲求",
+      "exampleEn": "Walking outside always increases my appetite.",
+      "exampleJa": "外を歩くといつも食欲が増します。",
+      "level": 3
+    },
+    {
+      "headword": "atmosphere",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætməsfɪr/",
+      "meaning": "大気；雰囲気",
+      "exampleEn": "The small restaurant has a warm atmosphere.",
+      "exampleJa": "その小さなレストランは温かい雰囲気です。",
+      "level": 3
+    },
+    {
+      "headword": "bacteria",
+      "partOfSpeech": "noun",
+      "phonetic": "/bækˈtɪriə/",
+      "meaning": "細菌；バクテリア",
+      "exampleEn": "Soap kills the bacteria on your hands.",
+      "exampleJa": "石けんは手についた細菌を殺します。",
+      "level": 3
+    },
+    {
+      "headword": "blood",
+      "partOfSpeech": "noun",
+      "phonetic": "/blʌd/",
+      "meaning": "血；血液；血統",
+      "exampleEn": "He gave blood at the hospital.",
+      "exampleJa": "彼は病院で献血しました。",
+      "level": 1
+    },
+    {
+      "headword": "bone",
+      "partOfSpeech": "noun",
+      "phonetic": "/boʊn/",
+      "meaning": "骨",
+      "exampleEn": "Milk makes our bones strong.",
+      "exampleJa": "牛乳は私たちの骨を強くします。",
+      "level": 2
+    },
+    {
+      "headword": "brain",
+      "partOfSpeech": "noun",
+      "phonetic": "/breɪn/",
+      "meaning": "脳；頭脳",
+      "exampleEn": "The human brain controls the whole body.",
+      "exampleJa": "人間の脳は体全体を動かしています。",
+      "level": 2
+    },
+    {
+      "headword": "breath",
+      "partOfSpeech": "noun",
+      "phonetic": "/breθ/",
+      "meaning": "息；呼吸",
+      "exampleEn": "He took a deep breath and started.",
+      "exampleJa": "彼は深く息を吸ってから始めました。",
+      "level": 2
+    },
+    {
+      "headword": "cancer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkænsər/",
+      "meaning": "がん；悪性腫瘍",
+      "exampleEn": "The doctor is treating a patient with cancer.",
+      "exampleJa": "その医師はがんの患者を治療しています。",
+      "level": 3
+    },
+    {
+      "headword": "cavity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkævəti/",
+      "meaning": "虫歯の穴；空洞；くぼみ",
+      "exampleEn": "The dentist found a cavity in my tooth.",
+      "exampleJa": "歯医者は私の歯に虫歯を見つけました。",
+      "level": 4
+    },
+    {
+      "headword": "cell",
+      "partOfSpeech": "noun",
+      "phonetic": "/sel/",
+      "meaning": "細胞；小部屋；電池",
+      "exampleEn": "The human body is made of tiny cells.",
+      "exampleJa": "人の体は小さな細胞からできています。",
+      "level": 2
+    },
+    {
+      "headword": "climate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklaɪmət/",
+      "meaning": "気候；風潮",
+      "exampleEn": "Climate change affects the weather everywhere.",
+      "exampleJa": "気候変動は世界中の天候に影響を与えます。",
+      "level": 2
+    },
+    {
+      "headword": "clinic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklɪnɪk/",
+      "meaning": "診療所；クリニック",
+      "exampleEn": "I visited the clinic near my house.",
+      "exampleJa": "私は家の近くの診療所へ行きました。",
+      "level": 2
+    },
+    {
+      "headword": "coast",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊst/",
+      "meaning": "海岸；沿岸",
+      "exampleEn": "We drove along the beautiful coast.",
+      "exampleJa": "私たちは美しい海岸沿いを車で走りました。",
+      "level": 2
+    },
+    {
+      "headword": "continent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntɪnənt/",
+      "meaning": "大陸",
+      "exampleEn": "Africa is a very large continent.",
+      "exampleJa": "アフリカはとても大きな大陸です。",
+      "level": 2
+    },
+    {
+      "headword": "cough",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːf/",
+      "meaning": "せき",
+      "exampleEn": "A bad cough kept me awake.",
+      "exampleJa": "ひどいせきで眠れませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "creature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkriːtʃər/",
+      "meaning": "生き物；生物",
+      "exampleEn": "Strange creatures live deep in the sea.",
+      "exampleJa": "奇妙な生き物が深い海に住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "crop",
+      "partOfSpeech": "noun",
+      "phonetic": "/krɑːp/",
+      "meaning": "作物；収穫高",
+      "exampleEn": "Farmers harvested the wheat crop in July.",
+      "exampleJa": "農家は7月に小麦の作物を収穫しました。",
+      "level": 2
+    },
+    {
+      "headword": "dentist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdentɪst/",
+      "meaning": "歯医者",
+      "exampleEn": "I visited the dentist last Monday.",
+      "exampleJa": "先週の月曜日に歯医者に行きました。",
+      "level": 2
+    },
+    {
+      "headword": "desert",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdezərt/",
+      "meaning": "砂漠",
+      "exampleEn": "It rarely rains in the desert.",
+      "exampleJa": "砂漠ではめったに雨が降りません。",
+      "level": 2
+    },
+    {
+      "headword": "diet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪət/",
+      "meaning": "食事；ダイエット",
+      "exampleEn": "A healthy diet includes vegetables and fruit.",
+      "exampleJa": "健康的な食事には野菜と果物が含まれます。",
+      "level": 3
+    },
+    {
+      "headword": "disaster",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈzæstər/",
+      "meaning": "災害；大惨事",
+      "exampleEn": "The earthquake was a terrible natural disaster.",
+      "exampleJa": "その地震はひどい自然災害でした。",
+      "level": 3
+    },
+    {
+      "headword": "disease",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈziːz/",
+      "meaning": "病気；疾患",
+      "exampleEn": "This disease spreads very quickly in winter.",
+      "exampleJa": "この病気は冬にとても速く広がります。",
+      "level": 2
+    },
+    {
+      "headword": "ecology",
+      "partOfSpeech": "noun",
+      "phonetic": "/iˈkɑːlədʒi/",
+      "meaning": "生態学；生態系",
+      "exampleEn": "She studies the ecology of forest animals.",
+      "exampleJa": "彼女は森にすむ動物の生態を研究しています。",
+      "level": 4
+    },
+    {
+      "headword": "electricity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌlekˈtrɪsəti/",
+      "meaning": "電気；電力",
+      "exampleEn": "Turn off lights to save electricity.",
+      "exampleJa": "節電のため照明を消しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "energy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenərdʒi/",
+      "meaning": "エネルギー；元気；活力",
+      "exampleEn": "Solar energy is clean.",
+      "exampleJa": "太陽エネルギーはクリーンです。",
+      "level": 1
+    },
+    {
+      "headword": "environment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "meaning": "環境；自然環境",
+      "exampleEn": "We must keep our environment clean.",
+      "exampleJa": "私たちは環境をきれいに保たなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "experiment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈsperɪmənt/",
+      "meaning": "実験",
+      "exampleEn": "The students carried out an experiment in class.",
+      "exampleJa": "生徒たちは授業で実験を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "flood",
+      "partOfSpeech": "noun",
+      "phonetic": "/flʌd/",
+      "meaning": "洪水",
+      "exampleEn": "Heavy rain caused a flood.",
+      "exampleJa": "大雨が洪水を引き起こしました。",
+      "level": 2
+    },
+    {
+      "headword": "fossil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːsəl/",
+      "meaning": "化石",
+      "exampleEn": "Coal and oil are fossil fuels.",
+      "exampleJa": "石炭と石油は化石燃料です。",
+      "level": 3
+    },
+    {
+      "headword": "fuel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfjuːəl/",
+      "meaning": "燃料",
+      "exampleEn": "This car uses less fuel than mine.",
+      "exampleJa": "この車は私の車より燃料の消費が少ないです。",
+      "level": 2
+    },
+    {
+      "headword": "height",
+      "partOfSpeech": "noun",
+      "phonetic": "/haɪt/",
+      "meaning": "身長；高さ",
+      "exampleEn": "What is your height and weight?",
+      "exampleJa": "あなたの身長と体重はどれくらいですか。",
+      "level": 2
+    },
+    {
+      "headword": "illness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪlnəs/",
+      "meaning": "病気；体調不良",
+      "exampleEn": "He recovered from a serious illness last year.",
+      "exampleJa": "彼は昨年重い病気から回復しました。",
+      "level": 2
+    },
+    {
+      "headword": "infection",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfekʃən/",
+      "meaning": "感染；感染症",
+      "exampleEn": "The doctor gave him medicine for the infection.",
+      "exampleJa": "医師は彼に感染症の薬を出しました。",
+      "level": 3
+    },
+    {
+      "headword": "injury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪndʒəri/",
+      "meaning": "けが",
+      "exampleEn": "He is recovering from a knee injury.",
+      "exampleJa": "彼はひざのけがから回復しています。",
+      "level": 3
+    },
+    {
+      "headword": "laboratory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlæbrətɔːri/",
+      "meaning": "実験室；研究所",
+      "exampleEn": "The new material was tested in our laboratory.",
+      "exampleJa": "新しい素材は当社の研究所で試験されました。",
+      "level": 2
+    },
+    {
+      "headword": "muscle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌsl/",
+      "meaning": "筋肉；筋力",
+      "exampleEn": "Exercise builds strong muscles.",
+      "exampleJa": "運動は強い筋肉を作ります。",
+      "level": 2
+    },
+    {
+      "headword": "nutrition",
+      "partOfSpeech": "noun",
+      "phonetic": "/nuːˈtrɪʃən/",
+      "meaning": "栄養；栄養摂取",
+      "exampleEn": "A balanced meal gives us good nutrition.",
+      "exampleJa": "バランスの取れた食事は私たちに良い栄養を与えます。",
+      "level": 3
+    },
+    {
+      "headword": "operation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːpəˈreɪʃn/",
+      "meaning": "事業；操作；手術",
+      "exampleEn": "The factory started operation last April.",
+      "exampleJa": "その工場は昨年の4月に操業を始めました。",
+      "level": 3
+    },
+    {
+      "headword": "patient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪʃnt/",
+      "meaning": "患者",
+      "exampleEn": "The doctor visited every patient in the room.",
+      "exampleJa": "医師は病室のすべての患者を診て回りました。",
+      "level": 2
+    },
+    {
+      "headword": "pharmacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːrməsi/",
+      "meaning": "薬局；ドラッグストア",
+      "exampleEn": "I bought my medicine at the pharmacy nearby.",
+      "exampleJa": "私は近くの薬局で薬を買いました。",
+      "level": 3
+    },
+    {
+      "headword": "planet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplænɪt/",
+      "meaning": "惑星",
+      "exampleEn": "Mars is the fourth planet from the Sun.",
+      "exampleJa": "火星は太陽から4番目の惑星です。",
+      "level": 2
+    },
+    {
+      "headword": "pollution",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈluːʃn/",
+      "meaning": "汚染；公害",
+      "exampleEn": "Air pollution harms health.",
+      "exampleJa": "大気汚染は健康を損ないます。",
+      "level": 2
+    },
+    {
+      "headword": "protein",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊtiːn/",
+      "meaning": "タンパク質",
+      "exampleEn": "Eggs and fish are rich in protein.",
+      "exampleJa": "卵と魚はタンパク質が豊富です。",
+      "level": 2
+    },
+    {
+      "headword": "recycling",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌriːˈsaɪklɪŋ/",
+      "meaning": "リサイクル；再生利用",
+      "exampleEn": "Our town started a new recycling program.",
+      "exampleJa": "私たちの町は新しいリサイクルの取り組みを始めました。",
+      "level": 2
+    },
+    {
+      "headword": "resource",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːsɔːrs/",
+      "meaning": "資源；財源",
+      "exampleEn": "Water is an important natural resource.",
+      "exampleJa": "水は大切な天然資源です。",
+      "level": 3
+    },
+    {
+      "headword": "sample",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsæmpl/",
+      "meaning": "試用品；見本",
+      "exampleEn": "You can try a free sample at the counter.",
+      "exampleJa": "カウンターで無料の試用品を試すことができます。",
+      "level": 2
+    },
+    {
+      "headword": "shortage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɔːrtɪdʒ/",
+      "meaning": "不足；欠乏",
+      "exampleEn": "Water shortage affected crops.",
+      "exampleJa": "水不足が作物に影響を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "skin",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɪn/",
+      "meaning": "肌；皮膚",
+      "exampleEn": "Take care of your skin every day.",
+      "exampleJa": "毎日肌の手入れをしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "species",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspiːʃiːz/",
+      "meaning": "種；生物種",
+      "exampleEn": "Many species face extinction.",
+      "exampleJa": "多くの種が絶滅に直面しています。",
+      "level": 3
+    },
+    {
+      "headword": "stomach",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstʌmək/",
+      "meaning": "胃；おなか",
+      "exampleEn": "I have a pain in my stomach.",
+      "exampleJa": "おなかに痛みがあります。",
+      "level": 2
+    },
+    {
+      "headword": "surface",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrfɪs/",
+      "meaning": "表面",
+      "exampleEn": "Oil floats on the water surface.",
+      "exampleJa": "油は水面に浮かびます。",
+      "level": 3
+    },
+    {
+      "headword": "symptom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmptəm/",
+      "meaning": "症状；兆候",
+      "exampleEn": "A high fever is a common symptom of flu.",
+      "exampleJa": "高い熱はインフルエンザによくある症状です。",
+      "level": 3
+    },
+    {
+      "headword": "temperature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtemprətʃər/",
+      "meaning": "温度；気温；体温",
+      "exampleEn": "The temperature rose quickly.",
+      "exampleJa": "気温が急激に上昇しました。",
+      "level": 2
+    },
+    {
+      "headword": "theory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːəri/",
+      "meaning": "理論；説",
+      "exampleEn": "Einstein proposed the theory of relativity.",
+      "exampleJa": "アインシュタインは相対性理論を提唱しました。",
+      "level": 3
+    },
+    {
+      "headword": "throat",
+      "partOfSpeech": "noun",
+      "phonetic": "/θroʊt/",
+      "meaning": "のど",
+      "exampleEn": "My throat hurts when I swallow.",
+      "exampleJa": "飲み込むとのどが痛みます。",
+      "level": 3
+    },
+    {
+      "headword": "treatment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtriːtmənt/",
+      "meaning": "治療；取り扱い；待遇",
+      "exampleEn": "He received good treatment at the hospital.",
+      "exampleJa": "彼は病院で良い治療を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "universe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːnɪvɜːrs/",
+      "meaning": "宇宙；全世界",
+      "exampleEn": "The origin of the universe remains mysterious.",
+      "exampleJa": "宇宙の起源は謎のままです。",
+      "level": 2
+    },
+    {
+      "headword": "valley",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvæli/",
+      "meaning": "谷",
+      "exampleEn": "A small village is in the valley.",
+      "exampleJa": "小さな村がその谷にあります。",
+      "level": 2
+    },
+    {
+      "headword": "virus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪrəs/",
+      "meaning": "ウイルス",
+      "exampleEn": "The virus causes high fever.",
+      "exampleJa": "そのウイルスは高熱を引き起こします。",
+      "level": 2
+    },
+    {
+      "headword": "vitamin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪtəmɪn/",
+      "meaning": "ビタミン",
+      "exampleEn": "Oranges contain a lot of vitamin C.",
+      "exampleJa": "オレンジにはビタミンCがたくさん含まれています。",
+      "level": 2
+    },
+    {
+      "headword": "waste",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪst/",
+      "meaning": "ごみ；廃棄物",
+      "exampleEn": "We should reduce food waste.",
+      "exampleJa": "私たちは食品廃棄物を減らすべきです。",
+      "level": 2
+    },
+    {
+      "headword": "weight",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪt/",
+      "meaning": "重さ；体重；重量",
+      "exampleEn": "He checks his weight every morning.",
+      "exampleJa": "彼は毎朝体重を量ります。",
+      "level": 2
+    },
+    {
+      "headword": "wildlife",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwaɪldlaɪf/",
+      "meaning": "野生生物",
+      "exampleEn": "The park preserves local wildlife.",
+      "exampleJa": "その公園は地元の野生生物を保護しています。",
+      "level": 3
+    },
+    {
+      "headword": "wound",
+      "partOfSpeech": "noun",
+      "phonetic": "/wuːnd/",
+      "meaning": "傷；負傷",
+      "exampleEn": "The doctor treated his wound.",
+      "exampleJa": "医師は彼の傷を治療しました。",
+      "level": 3
+    },
+    {
+      "headword": "earthquake",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɜːrθkweɪk/",
+      "meaning": "地震",
+      "exampleEn": "A strong earthquake hit the island last night.",
+      "exampleJa": "昨夜強い地震が島を襲いました。",
+      "level": 2
+    },
+    {
+      "headword": "gas",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡæs/",
+      "meaning": "気体；ガス；ガソリン",
+      "exampleEn": "We use gas to cook our meals.",
+      "exampleJa": "私たちは料理をするのにガスを使います。",
+      "level": 2
+    },
+    {
+      "headword": "growth",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡroʊθ/",
+      "meaning": "成長；発展；増加",
+      "exampleEn": "Sunshine is necessary for plant growth.",
+      "exampleJa": "日光は植物の成長に必要です。",
+      "level": 3
+    },
+    {
+      "headword": "harvest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːrvɪst/",
+      "meaning": "収穫；収穫物",
+      "exampleEn": "The rice harvest was good this year.",
+      "exampleJa": "今年は米の収穫がよかったです。",
+      "level": 3
+    },
+    {
+      "headword": "heat",
+      "partOfSpeech": "noun",
+      "phonetic": "/hiːt/",
+      "meaning": "熱；暑さ",
+      "exampleEn": "The heat of the desert was terrible.",
+      "exampleJa": "砂漠の暑さはひどいものでした。",
+      "level": 2
+    },
+    {
+      "headword": "lung",
+      "partOfSpeech": "noun",
+      "phonetic": "/lʌŋ/",
+      "meaning": "肺",
+      "exampleEn": "Smoking damages your lungs.",
+      "exampleJa": "喫煙は肺を傷つけます。",
+      "level": 3
+    },
+    {
+      "headword": "oxygen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːksɪdʒən/",
+      "meaning": "酸素",
+      "exampleEn": "Plants and trees produce oxygen for us.",
+      "exampleJa": "植物や木は私たちのために酸素を作り出します。",
+      "level": 3
+    },
+    {
+      "headword": "recovery",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈkʌvəri/",
+      "meaning": "回復；復旧",
+      "exampleEn": "His recovery from the illness was quick.",
+      "exampleJa": "彼の病気からの回復は早かったです。",
+      "level": 3
+    },
+    {
+      "headword": "shape",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃeɪp/",
+      "meaning": "形；姿；調子",
+      "exampleEn": "The cake was baked in the shape of a heart.",
+      "exampleJa": "そのケーキはハートの形に焼かれました。",
+      "level": 2
+    },
+    {
+      "headword": "sight",
+      "partOfSpeech": "noun",
+      "phonetic": "/saɪt/",
+      "meaning": "視力；光景；名所",
+      "exampleEn": "The old man lost his sight last year.",
+      "exampleJa": "その老人は昨年視力を失いました。",
+      "level": 3
+    },
+    {
+      "headword": "soil",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɔɪl/",
+      "meaning": "土壌；土",
+      "exampleEn": "This soil is rich and good for vegetables.",
+      "exampleJa": "この土壌は肥えていて野菜作りに向いています。",
+      "level": 3
+    },
+    {
+      "headword": "sunlight",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌnlaɪt/",
+      "meaning": "日光；日ざし",
+      "exampleEn": "Bright sunlight came through the window.",
+      "exampleJa": "明るい日光が窓から差し込みました。",
+      "level": 2
+    },
+    {
+      "headword": "surgery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrdʒəri/",
+      "meaning": "手術；外科",
+      "exampleEn": "He had surgery on his knee last month.",
+      "exampleJa": "彼は先月ひざの手術を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "volcano",
+      "partOfSpeech": "noun",
+      "phonetic": "/vɑːlˈkeɪnoʊ/",
+      "meaning": "火山",
+      "exampleEn": "The volcano on this island is still active.",
+      "exampleJa": "この島の火山は今も活動しています。",
+      "level": 3
+    }
+  ]
+}

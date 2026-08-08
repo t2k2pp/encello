@@ -1,0 +1,726 @@
+{
+  "chunk": "01_verbs_mind",
+  "note": "思考・感情・伝達の動詞（80語）",
+  "words": [
+    {
+      "headword": "admire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmaɪər/",
+      "meaning": "を称賛する；に感心する",
+      "exampleEn": "I admire your courage.",
+      "exampleJa": "私はあなたの勇気に感心します。",
+      "level": 3
+    },
+    {
+      "headword": "admit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmɪt/",
+      "meaning": "を認める；の入場を許す",
+      "exampleEn": "He admitted making a mistake.",
+      "exampleJa": "彼は自分が間違えたことを認めました。",
+      "level": 3
+    },
+    {
+      "headword": "advise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈvaɪz/",
+      "meaning": "に助言する；に忠告する；に通知する",
+      "exampleEn": "The doctor advised him to rest at home.",
+      "exampleJa": "医師は彼に家で休むよう助言しました。",
+      "level": 3
+    },
+    {
+      "headword": "agree",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈɡriː/",
+      "meaning": "同意する；賛成する",
+      "exampleEn": "I agree with your opinion.",
+      "exampleJa": "あなたの意見に賛成です。",
+      "level": 1
+    },
+    {
+      "headword": "announce",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈnaʊns/",
+      "meaning": "を発表する；を知らせる；を告知する",
+      "exampleEn": "The school announced the new holiday schedule.",
+      "exampleJa": "学校は新しい休暇の予定を発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "apologize",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɑːlədʒaɪz/",
+      "meaning": "謝る；謝罪する",
+      "exampleEn": "He apologized for being late.",
+      "exampleJa": "彼は遅刻したことを謝りました。",
+      "level": 2
+    },
+    {
+      "headword": "appreciate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpriːʃieɪt/",
+      "meaning": "に感謝する；を正しく評価する",
+      "exampleEn": "We really appreciate your kind help.",
+      "exampleJa": "私たちはあなたの親切な助けに本当に感謝しています。",
+      "level": 3
+    },
+    {
+      "headword": "argue",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːrɡjuː/",
+      "meaning": "と主張する；議論する；口論する",
+      "exampleEn": "They often argue about small things.",
+      "exampleJa": "彼らはよく小さなことで言い争います。",
+      "level": 3
+    },
+    {
+      "headword": "attract",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtrækt/",
+      "meaning": "を引きつける；を魅了する",
+      "exampleEn": "Bright flowers attract butterflies.",
+      "exampleJa": "鮮やかな花が蝶を引きつけます。",
+      "level": 3
+    },
+    {
+      "headword": "believe",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈliːv/",
+      "meaning": "を信じる；と思う",
+      "exampleEn": "I believe you will pass the test.",
+      "exampleJa": "私はあなたが試験に合格すると信じています。",
+      "level": 1
+    },
+    {
+      "headword": "blame",
+      "partOfSpeech": "verb",
+      "phonetic": "/bleɪm/",
+      "meaning": "を責める；を非難する；のせいにする",
+      "exampleEn": "You should not blame others for your mistakes.",
+      "exampleJa": "自分の失敗を他人のせいにするべきではありません。",
+      "level": 3
+    },
+    {
+      "headword": "bother",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbɑːðər/",
+      "meaning": "に迷惑をかける；を悩ます；気にする",
+      "exampleEn": "Sorry to bother you during work.",
+      "exampleJa": "仕事中に迷惑をかけてすみません。",
+      "level": 3
+    },
+    {
+      "headword": "complain",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpleɪn/",
+      "meaning": "不平を言う；苦情を言う",
+      "exampleEn": "The customers complained about the noise.",
+      "exampleJa": "客たちは騒音について苦情を言いました。",
+      "level": 3
+    },
+    {
+      "headword": "concentrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːnsntreɪt/",
+      "meaning": "集中する；を集中させる",
+      "exampleEn": "I need to concentrate on my final exam.",
+      "exampleJa": "私は期末試験に集中する必要があります。",
+      "level": 3
+    },
+    {
+      "headword": "confirm",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfɜːrm/",
+      "meaning": "を確認する；を裏付ける",
+      "exampleEn": "Please confirm your flight reservation.",
+      "exampleJa": "飛行機の予約を確認してください。",
+      "level": 3
+    },
+    {
+      "headword": "confuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfjuːz/",
+      "meaning": "を混乱させる；を混同する",
+      "exampleEn": "The unclear instructions confused the new workers.",
+      "exampleJa": "分かりにくい指示が新しい作業員たちを混乱させました。",
+      "level": 3
+    },
+    {
+      "headword": "consider",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsɪdər/",
+      "meaning": "をよく考える；を検討する；とみなす",
+      "exampleEn": "We should consider all the choices carefully.",
+      "exampleJa": "私たちはすべての選択肢を慎重に検討すべきです。",
+      "level": 2
+    },
+    {
+      "headword": "convince",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈvɪns/",
+      "meaning": "を納得させる；を確信させる；を説得する",
+      "exampleEn": "She convinced me to join the club.",
+      "exampleJa": "彼女は私を説得して部活に入らせました。",
+      "level": 3
+    },
+    {
+      "headword": "decide",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsaɪd/",
+      "meaning": "決める；決心する",
+      "exampleEn": "We decided to go by bus.",
+      "exampleJa": "私たちはバスで行くことに決めました。",
+      "level": 2
+    },
+    {
+      "headword": "deny",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈnaɪ/",
+      "meaning": "を否定する；を拒む",
+      "exampleEn": "He denied breaking the window.",
+      "exampleJa": "彼は窓を割ったことを否定しました。",
+      "level": 3
+    },
+    {
+      "headword": "depend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈpend/",
+      "meaning": "依存する；〜次第である",
+      "exampleEn": "Our plan depends on tomorrow's weather.",
+      "exampleJa": "私たちの計画は明日の天気次第です。",
+      "level": 2
+    },
+    {
+      "headword": "determine",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meaning": "を決定する；を突き止める",
+      "exampleEn": "Scientists determined the cause of the accident.",
+      "exampleJa": "科学者たちは事故の原因を突き止めました。",
+      "level": 3
+    },
+    {
+      "headword": "disagree",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈɡriː/",
+      "meaning": "意見が合わない；反対する",
+      "exampleEn": "I disagree with you about this plan.",
+      "exampleJa": "私はこの計画についてあなたに反対です。",
+      "level": 2
+    },
+    {
+      "headword": "disappoint",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈpɔɪnt/",
+      "meaning": "を失望させる",
+      "exampleEn": "The test result disappointed his parents.",
+      "exampleJa": "試験の結果は彼の両親を失望させました。",
+      "level": 2
+    },
+    {
+      "headword": "discover",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskʌvər/",
+      "meaning": "を発見する",
+      "exampleEn": "They discovered a new island.",
+      "exampleJa": "彼らは新しい島を発見しました。",
+      "level": 2
+    },
+    {
+      "headword": "doubt",
+      "partOfSpeech": "verb",
+      "phonetic": "/daʊt/",
+      "meaning": "を疑う",
+      "exampleEn": "I doubt his story.",
+      "exampleJa": "私は彼の話を疑っています。",
+      "level": 3
+    },
+    {
+      "headword": "embarrass",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈbærəs/",
+      "meaning": "を戸惑わせる；を恥ずかしがらせる",
+      "exampleEn": "Her question embarrassed me.",
+      "exampleJa": "彼女の質問に戸惑いました。",
+      "level": 3
+    },
+    {
+      "headword": "emphasize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈemfəsaɪz/",
+      "meaning": "を強調する",
+      "exampleEn": "The speaker emphasized the importance of reading.",
+      "exampleJa": "講演者は読書の大切さを強調しました。",
+      "level": 3
+    },
+    {
+      "headword": "encourage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meaning": "を励ます；を促す；を促進する",
+      "exampleEn": "Our teacher encourages us to ask questions.",
+      "exampleJa": "先生は私たちに質問するよう促してくれます。",
+      "level": 2
+    },
+    {
+      "headword": "examine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈzæmɪn/",
+      "meaning": "を調査する；を診察する",
+      "exampleEn": "The doctor examined her patient.",
+      "exampleJa": "医師は患者を診察しました。",
+      "level": 2
+    },
+    {
+      "headword": "expect",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspekt/",
+      "meaning": "を予期する；を期待する",
+      "exampleEn": "We expect him to arrive soon.",
+      "exampleJa": "私たちは彼が間もなく着くことを期待しています。",
+      "level": 2
+    },
+    {
+      "headword": "explain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspleɪn/",
+      "meaning": "を説明する",
+      "exampleEn": "Can you explain the reason?",
+      "exampleJa": "理由を説明してもらえますか。",
+      "level": 1
+    },
+    {
+      "headword": "express",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspres/",
+      "meaning": "を表現する；を述べる",
+      "exampleEn": "He expressed his thanks.",
+      "exampleJa": "彼は感謝の気持ちを表現しました。",
+      "level": 2
+    },
+    {
+      "headword": "fear",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɪr/",
+      "meaning": "を恐れる",
+      "exampleEn": "Don't fear failure.",
+      "exampleJa": "失敗を恐れてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "forgive",
+      "partOfSpeech": "verb",
+      "phonetic": "/fərˈɡɪv/",
+      "meaning": "を許す",
+      "exampleEn": "She forgave him for his mistake.",
+      "exampleJa": "彼女は彼の間違いを許しました。",
+      "level": 2
+    },
+    {
+      "headword": "greet",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡriːt/",
+      "meaning": "にあいさつする；を迎える",
+      "exampleEn": "She greeted us with a smile.",
+      "exampleJa": "彼女は笑顔で私たちにあいさつしました。",
+      "level": 2
+    },
+    {
+      "headword": "hesitate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhezɪteɪt/",
+      "meaning": "ためらう；遠慮する",
+      "exampleEn": "Do not hesitate to ask questions.",
+      "exampleJa": "遠慮なく質問してください。",
+      "level": 3
+    },
+    {
+      "headword": "hope",
+      "partOfSpeech": "verb",
+      "phonetic": "/hoʊp/",
+      "meaning": "望む；〜だといいと思う",
+      "exampleEn": "I hope you feel better soon.",
+      "exampleJa": "早く良くなるといいですね。",
+      "level": 1
+    },
+    {
+      "headword": "ignore",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈnɔːr/",
+      "meaning": "を無視する；を見落とす",
+      "exampleEn": "He ignored my advice completely.",
+      "exampleJa": "彼は私の助言を完全に無視しました。",
+      "level": 3
+    },
+    {
+      "headword": "imagine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meaning": "を想像する",
+      "exampleEn": "Imagine living on Mars.",
+      "exampleJa": "火星で暮らすことを想像してみてください。",
+      "level": 2
+    },
+    {
+      "headword": "impress",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpres/",
+      "meaning": "に感銘を与える",
+      "exampleEn": "His performance impressed the judges.",
+      "exampleJa": "彼の演技は審査員に感銘を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "indicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪndɪkeɪt/",
+      "meaning": "を示す；を指し示す",
+      "exampleEn": "This map indicates the location of the hospital.",
+      "exampleJa": "この地図は病院の場所を示しています。",
+      "level": 3
+    },
+    {
+      "headword": "inform",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɔːrm/",
+      "meaning": "に知らせる；に通知する",
+      "exampleEn": "We will inform you of the decision.",
+      "exampleJa": "私たちはその決定をあなたにお知らせします。",
+      "level": 3
+    },
+    {
+      "headword": "insist",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsɪst/",
+      "meaning": "と主張する；を強く求める",
+      "exampleEn": "He insisted on paying for dinner.",
+      "exampleJa": "彼は夕食代を払うと言い張りました。",
+      "level": 3
+    },
+    {
+      "headword": "intend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtend/",
+      "meaning": "を意図する；〜するつもりである",
+      "exampleEn": "I intend to study abroad next year.",
+      "exampleJa": "私は来年留学するつもりです。",
+      "level": 3
+    },
+    {
+      "headword": "judge",
+      "partOfSpeech": "verb",
+      "phonetic": "/dʒʌdʒ/",
+      "meaning": "を判断する",
+      "exampleEn": "Don't judge a book by its cover.",
+      "exampleJa": "外見で本を判断してはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "learn",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɜːrn/",
+      "meaning": "学ぶ；身につける",
+      "exampleEn": "I want to learn how to cook.",
+      "exampleJa": "料理の仕方を学びたいです。",
+      "level": 1
+    },
+    {
+      "headword": "mention",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmenʃən/",
+      "meaning": "に言及する；を口にする",
+      "exampleEn": "She mentioned her plan to her boss.",
+      "exampleJa": "彼女は上司に自分の計画を話しました。",
+      "level": 3
+    },
+    {
+      "headword": "notice",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈnoʊtɪs/",
+      "meaning": "気づく",
+      "exampleEn": "I didn't notice the sign.",
+      "exampleJa": "その標識に気づきませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "observe",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈzɜːrv/",
+      "meaning": "を観察する；を遵守する",
+      "exampleEn": "The students observed the behavior of ants.",
+      "exampleJa": "生徒たちはアリの行動を観察しました。",
+      "level": 3
+    },
+    {
+      "headword": "persuade",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsweɪd/",
+      "meaning": "を説得する",
+      "exampleEn": "I persuaded him to join us.",
+      "exampleJa": "私は彼を説得して仲間に加えました。",
+      "level": 3
+    },
+    {
+      "headword": "praise",
+      "partOfSpeech": "verb",
+      "phonetic": "/preɪz/",
+      "meaning": "をほめる；を称賛する",
+      "exampleEn": "The teacher praised her effort.",
+      "exampleJa": "先生は彼女の努力をほめました。",
+      "level": 3
+    },
+    {
+      "headword": "predict",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈdɪkt/",
+      "meaning": "を予測する；を予言する",
+      "exampleEn": "Experts predict steady economic growth this year.",
+      "exampleJa": "専門家は今年の着実な経済成長を予測しています。",
+      "level": 3
+    },
+    {
+      "headword": "prefer",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈfɜːr/",
+      "meaning": "をより好む",
+      "exampleEn": "I prefer tea to coffee.",
+      "exampleJa": "私はコーヒーより紅茶の方が好きです。",
+      "level": 2
+    },
+    {
+      "headword": "pretend",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈtend/",
+      "meaning": "のふりをする",
+      "exampleEn": "The child pretended to be a brave hero.",
+      "exampleJa": "その子供は勇敢なヒーローのふりをしました。",
+      "level": 2
+    },
+    {
+      "headword": "promise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈprɑːmɪs/",
+      "meaning": "を約束する",
+      "exampleEn": "He promised to help me.",
+      "exampleJa": "彼は私を手伝うと約束しました。",
+      "level": 1
+    },
+    {
+      "headword": "propose",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈpoʊz/",
+      "meaning": "を提案する；に結婚を申し込む",
+      "exampleEn": "He proposed a new schedule.",
+      "exampleJa": "彼は新しい日程を提案しました。",
+      "level": 3
+    },
+    {
+      "headword": "prove",
+      "partOfSpeech": "verb",
+      "phonetic": "/pruːv/",
+      "meaning": "を証明する；とわかる",
+      "exampleEn": "The experiment proved that the theory was correct.",
+      "exampleJa": "その実験は理論が正しいことを証明しました。",
+      "level": 2
+    },
+    {
+      "headword": "realize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈriːəlaɪz/",
+      "meaning": "に気づく；を実現する",
+      "exampleEn": "I realized my mistake.",
+      "exampleJa": "私は自分の間違いを自覚しました。",
+      "level": 3
+    },
+    {
+      "headword": "recall",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkɔːl/",
+      "meaning": "を思い出す",
+      "exampleEn": "I cannot recall his name.",
+      "exampleJa": "彼の名前を思い出せません。",
+      "level": 3
+    },
+    {
+      "headword": "recognize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrekəɡnaɪz/",
+      "meaning": "を認識する；を見分ける；を認める",
+      "exampleEn": "I didn't recognize her at first.",
+      "exampleJa": "最初、彼女だと分かりませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌrekəˈmend/",
+      "meaning": "を勧める；を推薦する",
+      "exampleEn": "The doctor recommended light exercise.",
+      "exampleJa": "医師は軽い運動を勧めました。",
+      "level": 3
+    },
+    {
+      "headword": "refuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfjuːz/",
+      "meaning": "を断る；を拒否する",
+      "exampleEn": "He refused to sign the document.",
+      "exampleJa": "彼はその書類に署名することを拒みました。",
+      "level": 2
+    },
+    {
+      "headword": "regret",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈɡret/",
+      "meaning": "を後悔する；を残念に思う",
+      "exampleEn": "I regret saying those rude words.",
+      "exampleJa": "私はあんな失礼な言葉を言ったことを後悔しています。",
+      "level": 3
+    },
+    {
+      "headword": "remember",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmembər/",
+      "meaning": "覚えている；思い出す",
+      "exampleEn": "I remember his name.",
+      "exampleJa": "彼の名前を覚えています。",
+      "level": 1
+    },
+    {
+      "headword": "remind",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmaɪnd/",
+      "meaning": "に思い出させる；に念を押す",
+      "exampleEn": "This song reminds me of summer.",
+      "exampleJa": "この歌は私に夏を思い出させます。",
+      "level": 3
+    },
+    {
+      "headword": "report",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈpɔːrt/",
+      "meaning": "を報告する；を報道する",
+      "exampleEn": "He reported the incident.",
+      "exampleJa": "彼は出来事を報告しました。",
+      "level": 2
+    },
+    {
+      "headword": "respect",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈspekt/",
+      "meaning": "を尊敬する；を尊重する",
+      "exampleEn": "We respect our elders.",
+      "exampleJa": "私たちは年長者を尊敬します。",
+      "level": 2
+    },
+    {
+      "headword": "respond",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈspɑːnd/",
+      "meaning": "応答する；反応する",
+      "exampleEn": "He responded to my question.",
+      "exampleJa": "彼は私の質問に応答しました。",
+      "level": 3
+    },
+    {
+      "headword": "satisfy",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsætɪsfaɪ/",
+      "meaning": "を満足させる；を満たす",
+      "exampleEn": "The meal satisfied our hunger.",
+      "exampleJa": "その食事は私たちの空腹を満たしました。",
+      "level": 3
+    },
+    {
+      "headword": "seem",
+      "partOfSpeech": "verb",
+      "phonetic": "/siːm/",
+      "meaning": "〜のように見える",
+      "exampleEn": "This math problem seems difficult to me.",
+      "exampleJa": "この数学の問題は私には難しく見えます。",
+      "level": 2
+    },
+    {
+      "headword": "suffer",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsʌfər/",
+      "meaning": "苦しむ；を受ける",
+      "exampleEn": "Many patients suffer from allergies.",
+      "exampleJa": "多くの患者がアレルギーに苦しんでいます。",
+      "level": 2
+    },
+    {
+      "headword": "suggest",
+      "partOfSpeech": "verb",
+      "phonetic": "/səɡˈdʒest/",
+      "meaning": "を提案する；を暗示する",
+      "exampleEn": "She suggested taking a short break.",
+      "exampleJa": "彼女は短い休憩をとることを提案しました。",
+      "level": 2
+    },
+    {
+      "headword": "suppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈpoʊz/",
+      "meaning": "と思う；と考える",
+      "exampleEn": "What do you suppose will happen?",
+      "exampleJa": "何が起きると思いますか。",
+      "level": 3
+    },
+    {
+      "headword": "surprise",
+      "partOfSpeech": "verb",
+      "phonetic": "/sərˈpraɪz/",
+      "meaning": "驚かせる",
+      "exampleEn": "The news surprised everyone in our class.",
+      "exampleJa": "その知らせはクラスの全員を驚かせました。",
+      "level": 2
+    },
+    {
+      "headword": "suspect",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈspekt/",
+      "meaning": "を疑う；ではないかと思う",
+      "exampleEn": "The police suspect him of the crime.",
+      "exampleJa": "警察は彼がその犯罪を犯したのではないかと疑っています。",
+      "level": 3
+    },
+    {
+      "headword": "understand",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌndərˈstænd/",
+      "meaning": "理解する；わかる",
+      "exampleEn": "I don't understand this word.",
+      "exampleJa": "この単語がわかりません。",
+      "level": 1
+    },
+    {
+      "headword": "warn",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɔːrn/",
+      "meaning": "に警告する；に注意する",
+      "exampleEn": "The sign warned visitors of the danger.",
+      "exampleJa": "その標識は訪問者に危険を警告しました。",
+      "level": 2
+    },
+    {
+      "headword": "wonder",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwʌndər/",
+      "meaning": "〜かなと思う；不思議に思う",
+      "exampleEn": "I wonder why he is late.",
+      "exampleJa": "なぜ彼が遅れているのかかしらと思っています。",
+      "level": 2
+    },
+    {
+      "headword": "worry",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwɜːri/",
+      "meaning": "心配する；を心配させる",
+      "exampleEn": "Don't worry about it.",
+      "exampleJa": "それについて心配しないでください。",
+      "level": 1
+    }
+  ]
+}

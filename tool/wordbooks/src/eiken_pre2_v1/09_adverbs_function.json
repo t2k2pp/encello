@@ -1,0 +1,636 @@
+{
+  "chunk": "09_adverbs_function",
+  "note": "副詞・前置詞・接続詞（70語）",
+  "words": [
+    {
+      "headword": "abroad",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈbrɔːd/",
+      "meaning": "外国へ；海外で",
+      "exampleEn": "He decided to study abroad next year.",
+      "exampleJa": "彼は来年海外で勉強することに決めました。",
+      "level": 2
+    },
+    {
+      "headword": "absolutely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌæbsəˈluːtli/",
+      "meaning": "絶対に；まったく；完全に",
+      "exampleEn": "You are absolutely right about this.",
+      "exampleJa": "これに関してあなたは全く正しいです。",
+      "level": 3
+    },
+    {
+      "headword": "actually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈæktʃuəli/",
+      "meaning": "実は；実際に",
+      "exampleEn": "Actually I have never been there.",
+      "exampleJa": "実は、私はそこへ一度も行ったことがありません。",
+      "level": 2
+    },
+    {
+      "headword": "almost",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɔːlmoʊst/",
+      "meaning": "ほとんど；もう少しで",
+      "exampleEn": "The work is almost finished now.",
+      "exampleJa": "その作業はもうほとんど終わっています。",
+      "level": 1
+    },
+    {
+      "headword": "anyway",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈeniweɪ/",
+      "meaning": "とにかく；いずれにせよ",
+      "exampleEn": "It rained, but we enjoyed the trip anyway.",
+      "exampleJa": "雨が降りましたが、それでも私たちは旅行を楽しみました。",
+      "level": 2
+    },
+    {
+      "headword": "apparently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈpærəntli/",
+      "meaning": "どうやら；見たところ",
+      "exampleEn": "Apparently he passed all the tests.",
+      "exampleJa": "どうやら彼はすべての試験に合格したようです。",
+      "level": 4
+    },
+    {
+      "headword": "approximately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈprɑːksɪmətli/",
+      "meaning": "およそ；約",
+      "exampleEn": "The flight takes approximately two hours.",
+      "exampleJa": "その飛行機はおよそ2時間かかります。",
+      "level": 4
+    },
+    {
+      "headword": "badly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈbædli/",
+      "meaning": "ひどく；悪く",
+      "exampleEn": "The car was badly damaged in the accident.",
+      "exampleJa": "その車は事故でひどく壊れました。",
+      "level": 2
+    },
+    {
+      "headword": "barely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈberli/",
+      "meaning": "かろうじて；ほとんど〜ない",
+      "exampleEn": "He barely passed the difficult test.",
+      "exampleJa": "彼はその難しいテストにかろうじて合格しました。",
+      "level": 3
+    },
+    {
+      "headword": "certainly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsɜːrtnli/",
+      "meaning": "確かに；きっと；もちろん",
+      "exampleEn": "I will certainly help you with your work.",
+      "exampleJa": "私は必ずあなたの仕事を手伝います。",
+      "level": 2
+    },
+    {
+      "headword": "clearly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈklɪrli/",
+      "meaning": "明確に；はっきりと",
+      "exampleEn": "Please speak clearly into the microphone.",
+      "exampleJa": "マイクに向かってはっきりと話してください。",
+      "level": 2
+    },
+    {
+      "headword": "completely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kəmˈpliːtli/",
+      "meaning": "完全に；すっかり",
+      "exampleEn": "I completely forgot about the meeting.",
+      "exampleJa": "私は会議のことをすっかり忘れていました。",
+      "level": 2
+    },
+    {
+      "headword": "constantly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɑːnstəntli/",
+      "meaning": "絶えず；常に",
+      "exampleEn": "Technology is constantly changing.",
+      "exampleJa": "テクノロジーは絶えず変化しています。",
+      "level": 3
+    },
+    {
+      "headword": "currently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɜːrəntli/",
+      "meaning": "現在は；目下",
+      "exampleEn": "The manager is currently out of the office.",
+      "exampleJa": "部長は現在外出中です。",
+      "level": 2
+    },
+    {
+      "headword": "definitely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdefɪnətli/",
+      "meaning": "間違いなく；確実に",
+      "exampleEn": "I will definitely visit Japan again.",
+      "exampleJa": "私は間違いなく再び日本を訪れます。",
+      "level": 3
+    },
+    {
+      "headword": "directly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/dəˈrektli/",
+      "meaning": "直接に；直ちに",
+      "exampleEn": "She reports directly to the president.",
+      "exampleJa": "彼女は社長に直接報告しています。",
+      "level": 2
+    },
+    {
+      "headword": "easily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈiːzəli/",
+      "meaning": "簡単に；容易に",
+      "exampleEn": "She answered the question easily.",
+      "exampleJa": "彼女はその質問に簡単に答えました。",
+      "level": 1
+    },
+    {
+      "headword": "especially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈspeʃəli/",
+      "meaning": "特に；とりわけ",
+      "exampleEn": "I like fruit, especially apples.",
+      "exampleJa": "私はくだもの、特にりんごが好きです。",
+      "level": 2
+    },
+    {
+      "headword": "eventually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈventʃuəli/",
+      "meaning": "最終的に；結局は",
+      "exampleEn": "Hard work eventually pays off.",
+      "exampleJa": "努力は最終的に報われます。",
+      "level": 3
+    },
+    {
+      "headword": "exactly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪɡˈzæktli/",
+      "meaning": "正確に；まさに",
+      "exampleEn": "The meeting started at exactly nine o'clock.",
+      "exampleJa": "会議はちょうど9時に始まりました。",
+      "level": 1
+    },
+    {
+      "headword": "extremely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈstriːmli/",
+      "meaning": "極めて；非常に",
+      "exampleEn": "The weather was extremely cold yesterday.",
+      "exampleJa": "昨日はきわめて寒い天気でした。",
+      "level": 2
+    },
+    {
+      "headword": "finally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfaɪnəli/",
+      "meaning": "ついに；最後に",
+      "exampleEn": "We finally finished our homework.",
+      "exampleJa": "私たちはついに宿題を終えました。",
+      "level": 1
+    },
+    {
+      "headword": "fortunately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfɔːrtʃənətli/",
+      "meaning": "幸運にも；幸いなことに",
+      "exampleEn": "Fortunately, nobody was injured.",
+      "exampleJa": "幸いなことに、誰も負傷しませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "frequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfriːkwəntli/",
+      "meaning": "頻繁に；しばしば",
+      "exampleEn": "We update the system software frequently.",
+      "exampleJa": "私たちはシステムのソフトウェアを頻繁に更新します。",
+      "level": 2
+    },
+    {
+      "headword": "gradually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɡrædʒuəli/",
+      "meaning": "徐々に；段階的に",
+      "exampleEn": "Sales increased gradually over six months.",
+      "exampleJa": "売上は6か月かけて徐々に増加しました。",
+      "level": 2
+    },
+    {
+      "headword": "hardly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈhɑːrdli/",
+      "meaning": "ほとんど〜ない",
+      "exampleEn": "I could hardly hear his voice.",
+      "exampleJa": "私は彼の声がほとんど聞こえませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "highly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈhaɪli/",
+      "meaning": "非常に；大いに",
+      "exampleEn": "The consultant is highly recommended by experts.",
+      "exampleJa": "そのコンサルタントは専門家から高く評価されています。",
+      "level": 2
+    },
+    {
+      "headword": "however",
+      "partOfSpeech": "adverb",
+      "phonetic": "/haʊˈevər/",
+      "meaning": "しかしながら；けれども",
+      "exampleEn": "He worked hard; however, he failed.",
+      "exampleJa": "彼は懸命に働きましたが、失敗しました。",
+      "level": 2
+    },
+    {
+      "headword": "immediately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈmiːdiətli/",
+      "meaning": "直ちに；即座に",
+      "exampleEn": "Please report any equipment trouble immediately.",
+      "exampleJa": "機器の不具合はすぐに報告してください。",
+      "level": 2
+    },
+    {
+      "headword": "instead",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈsted/",
+      "meaning": "その代わりに",
+      "exampleEn": "We stayed home instead.",
+      "exampleJa": "私たちは代わりに家にいました。",
+      "level": 2
+    },
+    {
+      "headword": "meanwhile",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmiːnwaɪl/",
+      "meaning": "その間に；一方では",
+      "exampleEn": "I cooked the pasta; meanwhile, she made a salad.",
+      "exampleJa": "私がパスタをゆで、その間に彼女がサラダを作りました。",
+      "level": 2
+    },
+    {
+      "headword": "mostly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmoʊstli/",
+      "meaning": "たいてい；大部分は",
+      "exampleEn": "Our clients are mostly small local businesses.",
+      "exampleJa": "私たちの顧客はたいてい地元の小さな企業です。",
+      "level": 2
+    },
+    {
+      "headword": "nearly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnɪrli/",
+      "meaning": "ほぼ；危うく",
+      "exampleEn": "The project is nearly finished.",
+      "exampleJa": "プロジェクトはほぼ完成しています。",
+      "level": 2
+    },
+    {
+      "headword": "obviously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɑːbviəsli/",
+      "meaning": "明らかに；言うまでもなく",
+      "exampleEn": "She was obviously happy with the gift.",
+      "exampleJa": "彼女はその贈り物を明らかに喜んでいました。",
+      "level": 3
+    },
+    {
+      "headword": "occasionally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈkeɪʒnəli/",
+      "meaning": "たまに；時々",
+      "exampleEn": "The team occasionally goes out for dinner.",
+      "exampleJa": "チームは時々夕食に出かけます。",
+      "level": 2
+    },
+    {
+      "headword": "otherwise",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈʌðərwaɪz/",
+      "meaning": "さもなければ；そうでなければ；その他の点では",
+      "exampleEn": "Hurry up, otherwise you will be late.",
+      "exampleJa": "急ぎなさい、さもないと遅刻しますよ。",
+      "level": 3
+    },
+    {
+      "headword": "particularly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pərˈtɪkjələrli/",
+      "meaning": "特に；とりわけ",
+      "exampleEn": "I like sports, particularly soccer.",
+      "exampleJa": "私はスポーツ、特にサッカーが好きです。",
+      "level": 3
+    },
+    {
+      "headword": "perhaps",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pərˈhæps/",
+      "meaning": "もしかすると；たぶん",
+      "exampleEn": "Perhaps he is still at home.",
+      "exampleJa": "彼はまだ家にいるかもしれません。",
+      "level": 3
+    },
+    {
+      "headword": "possibly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɑːsəbli/",
+      "meaning": "ことによると；たぶん",
+      "exampleEn": "We could possibly finish the work early.",
+      "exampleJa": "ことによると私たちは作業を早めに終えられるかもしれません。",
+      "level": 2
+    },
+    {
+      "headword": "probably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈprɑːbəbli/",
+      "meaning": "おそらく",
+      "exampleEn": "It will probably rain tonight.",
+      "exampleJa": "今夜はおそらく雨でしょう。",
+      "level": 2
+    },
+    {
+      "headword": "rather",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈræðər/",
+      "meaning": "かなり；むしろ",
+      "exampleEn": "It is rather cold today.",
+      "exampleJa": "今日はかなり冷えます。",
+      "level": 3
+    },
+    {
+      "headword": "recently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈriːsntli/",
+      "meaning": "最近；近頃",
+      "exampleEn": "I saw him recently.",
+      "exampleJa": "最近彼に会いました。",
+      "level": 2
+    },
+    {
+      "headword": "relatively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈrelətɪvli/",
+      "meaning": "比較的に；相対的に",
+      "exampleEn": "The exam was relatively easy for the students.",
+      "exampleJa": "その試験は生徒にとって比較的簡単でした。",
+      "level": 3
+    },
+    {
+      "headword": "sincerely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/sɪnˈsɪrli/",
+      "meaning": "心から；誠実に",
+      "exampleEn": "We sincerely apologize for the delay.",
+      "exampleJa": "遅れを心よりお詫び申し上げます。",
+      "level": 2
+    },
+    {
+      "headword": "slightly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈslaɪtli/",
+      "meaning": "わずかに；少し",
+      "exampleEn": "The price increased slightly this year.",
+      "exampleJa": "価格は今年わずかに上がりました。",
+      "level": 3
+    },
+    {
+      "headword": "somehow",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌmhaʊ/",
+      "meaning": "どうにかして；なんとか",
+      "exampleEn": "We somehow managed to win.",
+      "exampleJa": "私たちはどうにか勝利することができました。",
+      "level": 3
+    },
+    {
+      "headword": "somewhat",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌmwʌt/",
+      "meaning": "いくぶん；多少",
+      "exampleEn": "I was somewhat surprised by the news.",
+      "exampleJa": "私はその知らせにいくぶん驚きました。",
+      "level": 3
+    },
+    {
+      "headword": "suddenly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌdənli/",
+      "meaning": "突然",
+      "exampleEn": "Suddenly, it began to rain hard.",
+      "exampleJa": "突然、雨が激しく降り始めました。",
+      "level": 2
+    },
+    {
+      "headword": "therefore",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈðerfɔːr/",
+      "meaning": "それゆえに；したがって",
+      "exampleEn": "He was ill and therefore absent.",
+      "exampleJa": "彼は病気だったので、それゆえ欠席しました。",
+      "level": 3
+    },
+    {
+      "headword": "unfortunately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ʌnˈfɔːrtʃənətli/",
+      "meaning": "あいにく；残念ながら",
+      "exampleEn": "Unfortunately, the tickets were sold out.",
+      "exampleJa": "残念ながら、チケットは売り切れでした。",
+      "level": 2
+    },
+    {
+      "headword": "against",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈɡenst/",
+      "meaning": "〜に反対して；〜に立てかけて",
+      "exampleEn": "She leaned against the wall.",
+      "exampleJa": "彼女は壁に寄りかかりました。",
+      "level": 2
+    },
+    {
+      "headword": "among",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈmʌŋ/",
+      "meaning": "〜の間に；〜の中で",
+      "exampleEn": "The village is among the hills.",
+      "exampleJa": "その村は丘の間にあります。",
+      "level": 2
+    },
+    {
+      "headword": "beyond",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈjɑːnd/",
+      "meaning": "〜を越えて；〜の向こうに",
+      "exampleEn": "The mountain rises beyond the clouds.",
+      "exampleJa": "その山は雲の向こうにそびえています。",
+      "level": 2
+    },
+    {
+      "headword": "despite",
+      "partOfSpeech": "preposition",
+      "phonetic": "/dɪˈspaɪt/",
+      "meaning": "〜にもかかわらず",
+      "exampleEn": "We played outside despite the heat.",
+      "exampleJa": "私たちは暑さにもかかわらず外で遊戯しました。",
+      "level": 3
+    },
+    {
+      "headword": "except",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ɪkˈsept/",
+      "meaning": "〜を除いて",
+      "exampleEn": "Everyone came except Tom.",
+      "exampleJa": "トムを除いて全員が来ました。",
+      "level": 2
+    },
+    {
+      "headword": "throughout",
+      "partOfSpeech": "preposition",
+      "phonetic": "/θruːˈaʊt/",
+      "meaning": "〜の至る所で；〜を通じて",
+      "exampleEn": "Rain will fall throughout the day.",
+      "exampleJa": "一日中雨が降るでしょう。",
+      "level": 3
+    },
+    {
+      "headword": "toward",
+      "partOfSpeech": "preposition",
+      "phonetic": "/tɔːrd/",
+      "meaning": "〜の方へ；〜に向かって",
+      "exampleEn": "She walked toward the door.",
+      "exampleJa": "彼女はドアに向かって歩きました。",
+      "level": 2
+    },
+    {
+      "headword": "within",
+      "partOfSpeech": "preposition",
+      "phonetic": "/wɪˈðɪn/",
+      "meaning": "〜の範囲内で；〜以内に",
+      "exampleEn": "Finish it within an hour.",
+      "exampleJa": "1時間以内にそれを終えなさい。",
+      "level": 3
+    },
+    {
+      "headword": "although",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ɔːlˈðoʊ/",
+      "meaning": "〜だけれども；〜にもかかわらず",
+      "exampleEn": "Although it rained, we went out.",
+      "exampleJa": "雨が降っていましたが、私たちは外出しました。",
+      "level": 2
+    },
+    {
+      "headword": "though",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ðoʊ/",
+      "meaning": "〜だけれども；〜にもかかわらず",
+      "exampleEn": "Though he was tired, he kept working.",
+      "exampleJa": "彼は疲れていましたが、働き続けました。",
+      "level": 2
+    },
+    {
+      "headword": "unless",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ənˈles/",
+      "meaning": "〜でない限り；もし〜でなければ",
+      "exampleEn": "I won't go unless you come.",
+      "exampleJa": "あなたが出来ない限り私は行きません。",
+      "level": 3
+    },
+    {
+      "headword": "whether",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/ˈweðər/",
+      "meaning": "〜かどうか；〜であろうとなかろうと",
+      "exampleEn": "I don't know whether he will come.",
+      "exampleJa": "彼が来るかどうか分かりません。",
+      "level": 2
+    },
+    {
+      "headword": "while",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/waɪl/",
+      "meaning": "〜している間に",
+      "exampleEn": "She called me while I was cooking.",
+      "exampleJa": "料理をしている間に彼女から電話がありました。",
+      "level": 2
+    },
+    {
+      "headword": "since",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/sɪns/",
+      "meaning": "〜以来；〜なので",
+      "exampleEn": "I have lived here since last spring.",
+      "exampleJa": "去年の春からここに住んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "whenever",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/wenˈevər/",
+      "meaning": "〜するときはいつでも",
+      "exampleEn": "Visit us whenever you are free.",
+      "exampleJa": "お暇なときはいつでもお訪ねください。",
+      "level": 2
+    },
+    {
+      "headword": "generally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdʒenrəli/",
+      "meaning": "一般に；たいてい",
+      "exampleEn": "People generally sleep about seven hours.",
+      "exampleJa": "人は一般に7時間ほど眠ります。",
+      "level": 3
+    },
+    {
+      "headword": "indeed",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈdiːd/",
+      "meaning": "実に；本当に",
+      "exampleEn": "The concert was indeed wonderful.",
+      "exampleJa": "そのコンサートは実にすばらしかったです。",
+      "level": 3
+    },
+    {
+      "headword": "rarely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈrerli/",
+      "meaning": "めったにしない；まれに",
+      "exampleEn": "My father rarely watches television.",
+      "exampleJa": "父はめったにテレビを見ません。",
+      "level": 3
+    },
+    {
+      "headword": "seldom",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈseldəm/",
+      "meaning": "めったにしない；ほとんどしない",
+      "exampleEn": "She seldom eats out on weekdays.",
+      "exampleJa": "彼女は平日にめったに外食しません。",
+      "level": 3
+    },
+    {
+      "headword": "widely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈwaɪdli/",
+      "meaning": "広く；広範囲に",
+      "exampleEn": "English is widely spoken around the world.",
+      "exampleJa": "英語は世界中で広く話されています。",
+      "level": 3
+    }
+  ]
+}

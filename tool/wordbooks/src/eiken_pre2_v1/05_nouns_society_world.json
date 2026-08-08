@@ -1,0 +1,726 @@
+{
+  "chunk": "05_nouns_society_world",
+  "note": "社会・世界・お金（80語）",
+  "words": [
+    {
+      "headword": "advantage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ədˈvæntɪdʒ/",
+      "meaning": "利点；有利な点；強み",
+      "exampleEn": "Living near a station has many advantages.",
+      "exampleJa": "駅の近くに住むことには多くの利点があります。",
+      "level": 3
+    },
+    {
+      "headword": "amount",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈmaʊnt/",
+      "meaning": "量；金額",
+      "exampleEn": "He spent a large amount of money.",
+      "exampleJa": "彼は多額のお金を使いました。",
+      "level": 2
+    },
+    {
+      "headword": "attitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætɪtuːd/",
+      "meaning": "態度；姿勢；心構え",
+      "exampleEn": "She always keeps a positive attitude at work.",
+      "exampleJa": "彼女は職場でいつも前向きな態度を保っています。",
+      "level": 3
+    },
+    {
+      "headword": "average",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈævərɪdʒ/",
+      "meaning": "平均；平均値；標準",
+      "exampleEn": "His score was above the class average.",
+      "exampleJa": "彼の点数はクラスの平均より上でした。",
+      "level": 2
+    },
+    {
+      "headword": "behavior",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪˈheɪvjər/",
+      "meaning": "行動；振る舞い；態度",
+      "exampleEn": "His behavior in class has improved a lot.",
+      "exampleJa": "授業中の彼の態度はずいぶんよくなりました。",
+      "level": 3
+    },
+    {
+      "headword": "belief",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪˈliːf/",
+      "meaning": "信念；信仰；信頼",
+      "exampleEn": "It is my belief that honesty always wins.",
+      "exampleJa": "正直はいつも勝つというのが私の信念です。",
+      "level": 2
+    },
+    {
+      "headword": "capital",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæpɪtl/",
+      "meaning": "首都；資本；大文字",
+      "exampleEn": "Tokyo is the capital city of Japan.",
+      "exampleJa": "東京は日本の首都です。",
+      "level": 2
+    },
+    {
+      "headword": "character",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkærəktər/",
+      "meaning": "登場人物；性格；文字",
+      "exampleEn": "The main character in the novel is brave.",
+      "exampleJa": "その小説の主人公は勇敢です。",
+      "level": 2
+    },
+    {
+      "headword": "charity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃærəti/",
+      "meaning": "慈善；慈善事業；慈善団体",
+      "exampleEn": "The concert raised money for charity.",
+      "exampleJa": "そのコンサートは慈善事業のために資金を集めました。",
+      "level": 3
+    },
+    {
+      "headword": "citizen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪtɪzn/",
+      "meaning": "市民；国民",
+      "exampleEn": "Every citizen has the right to vote.",
+      "exampleJa": "すべての市民には投票する権利があります。",
+      "level": 2
+    },
+    {
+      "headword": "community",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmjuːnəti/",
+      "meaning": "地域社会；共同体",
+      "exampleEn": "Our local community holds a festival every summer.",
+      "exampleJa": "私たちの地域社会では毎年夏に祭りを開きます。",
+      "level": 2
+    },
+    {
+      "headword": "condition",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈdɪʃn/",
+      "meaning": "状態；条件",
+      "exampleEn": "This used car is in excellent condition.",
+      "exampleJa": "この中古車はとてもよい状態です。",
+      "level": 3
+    },
+    {
+      "headword": "conflict",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnflɪkt/",
+      "meaning": "紛争；対立",
+      "exampleEn": "The two countries ended a long conflict.",
+      "exampleJa": "2つの国は長い紛争を終わらせました。",
+      "level": 3
+    },
+    {
+      "headword": "conversation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːnvərˈseɪʃn/",
+      "meaning": "会話；対話",
+      "exampleEn": "We had a long conversation about our future.",
+      "exampleJa": "私たちは将来について長い会話をしました。",
+      "level": 2
+    },
+    {
+      "headword": "crime",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraɪm/",
+      "meaning": "犯罪；罪",
+      "exampleEn": "The police investigated a serious crime.",
+      "exampleJa": "警察は重大な犯罪を捜査しました。",
+      "level": 2
+    },
+    {
+      "headword": "culture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌltʃər/",
+      "meaning": "文化；教養",
+      "exampleEn": "I want to learn about Japanese tea culture.",
+      "exampleJa": "私は日本の茶文化について学びたいです。",
+      "level": 2
+    },
+    {
+      "headword": "custom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌstəm/",
+      "meaning": "慣習；風習",
+      "exampleEn": "Bowing is a traditional Japanese custom.",
+      "exampleJa": "お辞儀は伝統的な日本の習慣です。",
+      "level": 3
+    },
+    {
+      "headword": "decision",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsɪʒn/",
+      "meaning": "決定；決断",
+      "exampleEn": "It was a difficult decision.",
+      "exampleJa": "それは難しい決断でした。",
+      "level": 2
+    },
+    {
+      "headword": "democracy",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈmɑːkrəsi/",
+      "meaning": "民主主義；民主国家",
+      "exampleEn": "They fought for democracy.",
+      "exampleJa": "彼らは民主主義のために戦いました。",
+      "level": 3
+    },
+    {
+      "headword": "demand",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈmænd/",
+      "meaning": "需要；要求",
+      "exampleEn": "There is strong demand for organic food.",
+      "exampleJa": "オーガニック食品には強い需要があります。",
+      "level": 2
+    },
+    {
+      "headword": "difference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪfərəns/",
+      "meaning": "違い；差",
+      "exampleEn": "There is a big difference.",
+      "exampleJa": "大きな違いがあります。",
+      "level": 1
+    },
+    {
+      "headword": "disadvantage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdɪsədˈvæntɪdʒ/",
+      "meaning": "不利；不利益",
+      "exampleEn": "A lack of experience is a serious disadvantage.",
+      "exampleJa": "経験の不足は深刻な不利になります。",
+      "level": 2
+    },
+    {
+      "headword": "economy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈkɑːnəmi/",
+      "meaning": "経済",
+      "exampleEn": "The global economy is changing.",
+      "exampleJa": "世界経済は変化しています。",
+      "level": 2
+    },
+    {
+      "headword": "effect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈfekt/",
+      "meaning": "効果；影響",
+      "exampleEn": "The medicine had a good effect.",
+      "exampleJa": "その薬は良い効果がありました。",
+      "level": 3
+    },
+    {
+      "headword": "election",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈlekʃən/",
+      "meaning": "選挙",
+      "exampleEn": "The general election is next month.",
+      "exampleJa": "総選挙は来月です。",
+      "level": 3
+    },
+    {
+      "headword": "emotion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmoʊʃn/",
+      "meaning": "感情",
+      "exampleEn": "Music can express many different emotions.",
+      "exampleJa": "音楽はさまざまな感情を表現できます。",
+      "level": 3
+    },
+    {
+      "headword": "factor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæktər/",
+      "meaning": "要因；要素",
+      "exampleEn": "Stress is a major factor.",
+      "exampleJa": "ストレスが主要な要因です。",
+      "level": 3
+    },
+    {
+      "headword": "freedom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfriːdəm/",
+      "meaning": "自由",
+      "exampleEn": "Everyone wants freedom and peace.",
+      "exampleJa": "誰もが自由と平和を求めています。",
+      "level": 2
+    },
+    {
+      "headword": "generation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "meaning": "世代",
+      "exampleEn": "Three generations live in this house.",
+      "exampleJa": "この家には3世代が住んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "government",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡʌvərnmənt/",
+      "meaning": "政府；政治",
+      "exampleEn": "The government announced a new policy.",
+      "exampleJa": "政府は新政策を発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "image",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmɪdʒ/",
+      "meaning": "イメージ；画像",
+      "exampleEn": "The campaign improved the company image.",
+      "exampleJa": "そのキャンペーンは会社のイメージを高めました。",
+      "level": 1
+    },
+    {
+      "headword": "influence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnfluəns/",
+      "meaning": "影響；影響力",
+      "exampleEn": "Parents have a strong influence on children.",
+      "exampleJa": "親は子どもに強い影響を与えます。",
+      "level": 3
+    },
+    {
+      "headword": "justice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meaning": "正義；司法；裁判",
+      "exampleEn": "They demanded truth and justice.",
+      "exampleJa": "彼らは真実と正義を求めました。",
+      "level": 3
+    },
+    {
+      "headword": "law",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɔː/",
+      "meaning": "法律；法則",
+      "exampleEn": "Everyone must obey the law.",
+      "exampleJa": "誰もが法律に従わなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "mayor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeɪər/",
+      "meaning": "市長",
+      "exampleEn": "The mayor gave a speech.",
+      "exampleJa": "市長が演説を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "media",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːdiə/",
+      "meaning": "メディア；媒体；報道機関",
+      "exampleEn": "The media reported the news quickly.",
+      "exampleJa": "メディアはすぐにそのニュースを報道しました。",
+      "level": 2
+    },
+    {
+      "headword": "memory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeməri/",
+      "meaning": "記憶；思い出",
+      "exampleEn": "I have fond memories of school.",
+      "exampleJa": "学校の楽しい思い出があります。",
+      "level": 1
+    },
+    {
+      "headword": "minister",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪnɪstər/",
+      "meaning": "大臣；聖職者",
+      "exampleEn": "The prime minister visited France.",
+      "exampleJa": "首相はフランスを訪問しました。",
+      "level": 3
+    },
+    {
+      "headword": "nation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪʃn/",
+      "meaning": "国家；国民",
+      "exampleEn": "The nation celebrated independence.",
+      "exampleJa": "国家は独立を祝いました。",
+      "level": 2
+    },
+    {
+      "headword": "politician",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɑːləˈtɪʃn/",
+      "meaning": "政治家",
+      "exampleEn": "The politician spoke at a public meeting.",
+      "exampleJa": "その政治家は公開の集会で演説しました。",
+      "level": 2
+    },
+    {
+      "headword": "politics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːlətɪks/",
+      "meaning": "政治",
+      "exampleEn": "She is interested in politics.",
+      "exampleJa": "彼女は政治に興味を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "population",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɑːpjuˈleɪʃn/",
+      "meaning": "人口；全住民",
+      "exampleEn": "The population of this city is growing fast.",
+      "exampleJa": "この都市の人口は急速に増えています。",
+      "level": 2
+    },
+    {
+      "headword": "poverty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːvərti/",
+      "meaning": "貧困；貧しさ",
+      "exampleEn": "Many people are trying to end poverty.",
+      "exampleJa": "多くの人が貧困をなくそうとしています。",
+      "level": 3
+    },
+    {
+      "headword": "president",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprezɪdənt/",
+      "meaning": "大統領；社長",
+      "exampleEn": "The president spoke to the students.",
+      "exampleJa": "大統領は生徒たちに話しかけました。",
+      "level": 2
+    },
+    {
+      "headword": "pride",
+      "partOfSpeech": "noun",
+      "phonetic": "/praɪd/",
+      "meaning": "誇り；自尊心",
+      "exampleEn": "He spoke about his school with pride.",
+      "exampleJa": "彼は誇りを持って自分の学校について話しました。",
+      "level": 2
+    },
+    {
+      "headword": "reality",
+      "partOfSpeech": "noun",
+      "phonetic": "/riˈæləti/",
+      "meaning": "現実；事実",
+      "exampleEn": "Face the harsh reality.",
+      "exampleJa": "厳しい現実に直面しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "relationship",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈleɪʃnʃɪp/",
+      "meaning": "関係；間柄",
+      "exampleEn": "We have a good relationship with our neighbors.",
+      "exampleJa": "私たちは近所の人たちと良い関係にあります。",
+      "level": 2
+    },
+    {
+      "headword": "revolution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrevəˈluːʃən/",
+      "meaning": "革命；回転",
+      "exampleEn": "Industrial revolution changed history.",
+      "exampleJa": "産業革命は歴史を変えました。",
+      "level": 3
+    },
+    {
+      "headword": "society",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈsaɪəti/",
+      "meaning": "社会",
+      "exampleEn": "We live in a modern society.",
+      "exampleJa": "私たちは現代社会に生きています。",
+      "level": 2
+    },
+    {
+      "headword": "source",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɔːrs/",
+      "meaning": "源；情報源",
+      "exampleEn": "The sun is our energy source.",
+      "exampleJa": "太陽は私たちのエネルギー源です。",
+      "level": 2
+    },
+    {
+      "headword": "statement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪtmənt/",
+      "meaning": "声明；明細書",
+      "exampleEn": "The company issued a statement to the press.",
+      "exampleJa": "会社は報道機関に向けて声明を発表しました。",
+      "level": 3
+    },
+    {
+      "headword": "stress",
+      "partOfSpeech": "noun",
+      "phonetic": "/stres/",
+      "meaning": "ストレス",
+      "exampleEn": "Too much stress is bad for you.",
+      "exampleJa": "ストレスが多すぎるのは体に悪いです。",
+      "level": 2
+    },
+    {
+      "headword": "symbol",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmbəl/",
+      "meaning": "記号；象徴",
+      "exampleEn": "A heart is a symbol of love.",
+      "exampleJa": "ハートは愛の象徴です。",
+      "level": 2
+    },
+    {
+      "headword": "tax",
+      "partOfSpeech": "noun",
+      "phonetic": "/tæks/",
+      "meaning": "税金",
+      "exampleEn": "Sales tax was raised last year.",
+      "exampleJa": "消費税が昨年引き上げられました。",
+      "level": 2
+    },
+    {
+      "headword": "tradition",
+      "partOfSpeech": "noun",
+      "phonetic": "/trəˈdɪʃən/",
+      "meaning": "伝統",
+      "exampleEn": "This dance is an old Japanese tradition.",
+      "exampleJa": "この踊りは古い日本の伝統です。",
+      "level": 3
+    },
+    {
+      "headword": "trend",
+      "partOfSpeech": "noun",
+      "phonetic": "/trend/",
+      "meaning": "傾向；流行",
+      "exampleEn": "Follow the latest fashion trends.",
+      "exampleJa": "最新のファッション傾向を追いかけなさい。",
+      "level": 3
+    },
+    {
+      "headword": "truth",
+      "partOfSpeech": "noun",
+      "phonetic": "/truːθ/",
+      "meaning": "真実；事実",
+      "exampleEn": "Tell me the whole truth.",
+      "exampleJa": "真実をすべて話しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "value",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvæljuː/",
+      "meaning": "価値；価格",
+      "exampleEn": "Health is of great value.",
+      "exampleJa": "健康は大きな価値があります。",
+      "level": 2
+    },
+    {
+      "headword": "volunteer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌvɑːlənˈtɪr/",
+      "meaning": "ボランティア",
+      "exampleEn": "He works as a volunteer on weekends.",
+      "exampleJa": "彼は週末にボランティアとして働いています。",
+      "level": 2
+    },
+    {
+      "headword": "honor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːnər/",
+      "meaning": "名誉；栄誉",
+      "exampleEn": "It is a great honor to meet you.",
+      "exampleJa": "お会いできてたいへん光栄です。",
+      "level": 3
+    },
+    {
+      "headword": "human",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhjuːmən/",
+      "meaning": "人間；人",
+      "exampleEn": "Humans cannot live without water.",
+      "exampleJa": "人間は水なしでは生きられません。",
+      "level": 2
+    },
+    {
+      "headword": "impression",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈpreʃn/",
+      "meaning": "印象；感銘",
+      "exampleEn": "Her speech made a strong impression on us.",
+      "exampleJa": "彼女の演説は私たちに強い印象を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "level",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlevl/",
+      "meaning": "水準；程度；高さ",
+      "exampleEn": "The water level of the river rose quickly.",
+      "exampleJa": "川の水位が急に上がりました。",
+      "level": 2
+    },
+    {
+      "headword": "majority",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈdʒɔːrəti/",
+      "meaning": "大多数；過半数",
+      "exampleEn": "The majority of students agreed with the plan.",
+      "exampleJa": "大多数の生徒がその計画に賛成しました。",
+      "level": 3
+    },
+    {
+      "headword": "marriage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmærɪdʒ/",
+      "meaning": "結婚；結婚生活",
+      "exampleEn": "Their marriage has lasted for thirty years.",
+      "exampleJa": "彼らの結婚生活は30年続いています。",
+      "level": 3
+    },
+    {
+      "headword": "personality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɜːrsəˈnæləti/",
+      "meaning": "性格；個性",
+      "exampleEn": "She has a bright and friendly personality.",
+      "exampleJa": "彼女は明るく親しみやすい性格です。",
+      "level": 3
+    },
+    {
+      "headword": "pleasure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpleʒər/",
+      "meaning": "喜び；楽しみ",
+      "exampleEn": "It was a pleasure to work with you.",
+      "exampleJa": "あなたと一緒に働けて楽しかったです。",
+      "level": 3
+    },
+    {
+      "headword": "power",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpaʊər/",
+      "meaning": "力；権力；電力",
+      "exampleEn": "The storm cut off the power last night.",
+      "exampleJa": "昨夜の嵐で電気が止まりました。",
+      "level": 2
+    },
+    {
+      "headword": "pressure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpreʃər/",
+      "meaning": "圧力；重圧",
+      "exampleEn": "He works well under pressure.",
+      "exampleJa": "彼は重圧の中でもよく働きます。",
+      "level": 3
+    },
+    {
+      "headword": "rate",
+      "partOfSpeech": "noun",
+      "phonetic": "/reɪt/",
+      "meaning": "割合；率；速度",
+      "exampleEn": "The birth rate is falling in many countries.",
+      "exampleJa": "多くの国で出生率が下がっています。",
+      "level": 3
+    },
+    {
+      "headword": "religion",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈlɪdʒən/",
+      "meaning": "宗教；信仰",
+      "exampleEn": "People of every religion visit this old city.",
+      "exampleJa": "あらゆる宗教の人々がこの古い都市を訪れます。",
+      "level": 3
+    },
+    {
+      "headword": "respect",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈspekt/",
+      "meaning": "尊敬；敬意",
+      "exampleEn": "Students should show respect for their teachers.",
+      "exampleJa": "生徒は先生に敬意を示すべきです。",
+      "level": 3
+    },
+    {
+      "headword": "right",
+      "partOfSpeech": "noun",
+      "phonetic": "/raɪt/",
+      "meaning": "権利；正しいこと",
+      "exampleEn": "Everyone has the right to speak freely.",
+      "exampleJa": "だれもが自由に発言する権利を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "risk",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪsk/",
+      "meaning": "危険；恐れ",
+      "exampleEn": "Smoking increases the risk of serious illness.",
+      "exampleJa": "喫煙は重い病気の危険を高めます。",
+      "level": 3
+    },
+    {
+      "headword": "secret",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsiːkrət/",
+      "meaning": "秘密；秘訣",
+      "exampleEn": "She kept the secret from her friends.",
+      "exampleJa": "彼女はその秘密を友人たちに隠していました。",
+      "level": 2
+    },
+    {
+      "headword": "sense",
+      "partOfSpeech": "noun",
+      "phonetic": "/sens/",
+      "meaning": "感覚；分別；意味",
+      "exampleEn": "He has a good sense of humor.",
+      "exampleJa": "彼はユーモアのセンスがあります。",
+      "level": 3
+    },
+    {
+      "headword": "situation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsɪtʃuˈeɪʃn/",
+      "meaning": "状況；事態",
+      "exampleEn": "The situation got worse after the storm.",
+      "exampleJa": "嵐のあと状況は悪くなりました。",
+      "level": 3
+    },
+    {
+      "headword": "variety",
+      "partOfSpeech": "noun",
+      "phonetic": "/vəˈraɪəti/",
+      "meaning": "多様性；種類；変化",
+      "exampleEn": "This shop sells a wide variety of bread.",
+      "exampleJa": "この店はさまざまな種類のパンを売っています。",
+      "level": 3
+    },
+    {
+      "headword": "violence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪələns/",
+      "meaning": "暴力；激しさ",
+      "exampleEn": "The movie contains too much violence.",
+      "exampleJa": "その映画は暴力の場面が多すぎます。",
+      "level": 3
+    },
+    {
+      "headword": "wealth",
+      "partOfSpeech": "noun",
+      "phonetic": "/welθ/",
+      "meaning": "富；財産",
+      "exampleEn": "He shared his wealth with poor families.",
+      "exampleJa": "彼は自分の財産を貧しい家庭と分かち合いました。",
+      "level": 3
+    }
+  ]
+}

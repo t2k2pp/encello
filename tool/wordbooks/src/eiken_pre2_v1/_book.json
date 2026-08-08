@@ -10,18 +10,19 @@
   "note": "英検準2級合格に必要な頻出単語・熟語",
   "levelRange": [
     1,
-    5
+    4
   ],
   "chunks": [
-    "00_core_verbs",
-    "01_daily_verbs",
-    "02_nouns_school_life",
-    "03_nouns_society_nature",
-    "04_nouns_culture_health",
-    "05_adjectives_feeling",
-    "06_adjectives_nature_state",
-    "07_adverbs_prepositions",
-    "08_eiken_phrases",
-    "09_advanced_pre2"
+    "00_verbs_core",
+    "01_verbs_mind",
+    "02_verbs_action",
+    "03_nouns_school_work",
+    "04_nouns_life_town",
+    "05_nouns_society_world",
+    "06_nouns_nature_health",
+    "07_adjectives_people",
+    "08_adjectives_things",
+    "09_adverbs_function",
+    "10_phrases"
   ]
 }

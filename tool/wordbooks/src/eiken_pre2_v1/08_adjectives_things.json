@@ -1,0 +1,771 @@
+{
+  "chunk": "08_adjectives_things",
+  "note": "物事・状態・程度の形容詞（85語）",
+  "words": [
+    {
+      "headword": "accurate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈækjərət/",
+      "meaning": "正確な；精密な",
+      "exampleEn": "Her report was accurate and easy to read.",
+      "exampleJa": "彼女の報告は正確で読みやすかったです。",
+      "level": 3
+    },
+    {
+      "headword": "ancient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeɪnʃənt/",
+      "meaning": "古代の；大昔の",
+      "exampleEn": "We visited an ancient temple in Kyoto.",
+      "exampleJa": "私たちは京都で古代の寺を訪ねました。",
+      "level": 2
+    },
+    {
+      "headword": "artificial",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɑːrtɪˈfɪʃl/",
+      "meaning": "人工の；人造の",
+      "exampleEn": "The park has a large artificial lake.",
+      "exampleJa": "その公園には大きな人工の池があります。",
+      "level": 3
+    },
+    {
+      "headword": "available",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈveɪləbl/",
+      "meaning": "利用できる；手に入る",
+      "exampleEn": "Tickets are available online.",
+      "exampleJa": "チケットはオンラインで手に入ります。",
+      "level": 2
+    },
+    {
+      "headword": "basic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbeɪsɪk/",
+      "meaning": "基本的な；基礎的な",
+      "exampleEn": "We learned some basic grammar rules today.",
+      "exampleJa": "私たちは今日、基本的な文法の規則を習いました。",
+      "level": 2
+    },
+    {
+      "headword": "brief",
+      "partOfSpeech": "adjective",
+      "phonetic": "/briːf/",
+      "meaning": "短時間の；簡潔な",
+      "exampleEn": "He gave a brief explanation of the plan.",
+      "exampleJa": "彼はその計画について簡潔な説明をしました。",
+      "level": 3
+    },
+    {
+      "headword": "broad",
+      "partOfSpeech": "adjective",
+      "phonetic": "/brɔːd/",
+      "meaning": "広い；広範な",
+      "exampleEn": "The shop sells a broad range of goods.",
+      "exampleJa": "その店は幅広い種類の品物を売っています。",
+      "level": 3
+    },
+    {
+      "headword": "certain",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɜːrtn/",
+      "meaning": "確信して；確実な；ある〜",
+      "exampleEn": "I am certain that he will come.",
+      "exampleJa": "私は彼が必ず来ると確信しています。",
+      "level": 2
+    },
+    {
+      "headword": "common",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːmən/",
+      "meaning": "共通の；一般的な；ありふれた",
+      "exampleEn": "English is a common language around the world.",
+      "exampleJa": "英語は世界中で共通の言語です。",
+      "level": 2
+    },
+    {
+      "headword": "complete",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəmˈpliːt/",
+      "meaning": "完全な；を完了する",
+      "exampleEn": "The report is not complete yet.",
+      "exampleJa": "その報告書はまだ完成していません。",
+      "level": 2
+    },
+    {
+      "headword": "complex",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəmˈpleks/",
+      "meaning": "複雑な；複合の",
+      "exampleEn": "This math problem is too complex for me.",
+      "exampleJa": "この数学の問題は私には複雑すぎます。",
+      "level": 3
+    },
+    {
+      "headword": "complicated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːmplɪkeɪtɪd/",
+      "meaning": "複雑な",
+      "exampleEn": "The instructions are too complicated to understand.",
+      "exampleJa": "その説明は複雑すぎて理解できません。",
+      "level": 2
+    },
+    {
+      "headword": "convenient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈviːniənt/",
+      "meaning": "便利な；都合の良い",
+      "exampleEn": "This station is very convenient for us.",
+      "exampleJa": "この駅は私たちにとってとても便利です。",
+      "level": 2
+    },
+    {
+      "headword": "crowded",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkraʊdɪd/",
+      "meaning": "混雑した",
+      "exampleEn": "The station was very crowded this morning.",
+      "exampleJa": "今朝は駅がとても混んでいました。",
+      "level": 2
+    },
+    {
+      "headword": "daily",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdeɪli/",
+      "meaning": "毎日の；日常の",
+      "exampleEn": "Reading is part of my daily life.",
+      "exampleJa": "読書は私の毎日の生活の一部です。",
+      "level": 2
+    },
+    {
+      "headword": "direct",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dəˈrekt/",
+      "meaning": "直接の；直行の",
+      "exampleEn": "We took a direct train.",
+      "exampleJa": "私たちは直行列車に乗りました。",
+      "level": 2
+    },
+    {
+      "headword": "domestic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dəˈmestɪk/",
+      "meaning": "国内の；家庭の",
+      "exampleEn": "This airport handles only domestic flights.",
+      "exampleJa": "この空港は国内線だけを扱っています。",
+      "level": 3
+    },
+    {
+      "headword": "due",
+      "partOfSpeech": "adjective",
+      "phonetic": "/duː/",
+      "meaning": "支払期日の来た；予定されている",
+      "exampleEn": "The payment is due at the end of March.",
+      "exampleJa": "支払いは3月末が期日です。",
+      "level": 2
+    },
+    {
+      "headword": "effective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈfektɪv/",
+      "meaning": "効果的な；有効な",
+      "exampleEn": "This medicine is very effective for headaches.",
+      "exampleJa": "この薬は頭痛にとても効果的です。",
+      "level": 2
+    },
+    {
+      "headword": "efficient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "meaning": "効率的な；能率的な；有能な",
+      "exampleEn": "Our new machine is more efficient than before.",
+      "exampleJa": "私たちの新しい機械は以前より効率的です。",
+      "level": 3
+    },
+    {
+      "headword": "elderly",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈeldərli/",
+      "meaning": "年配の；高齢の",
+      "exampleEn": "We should help elderly people.",
+      "exampleJa": "私たちは高齢者を助けるべきです。",
+      "level": 3
+    },
+    {
+      "headword": "entire",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈtaɪər/",
+      "meaning": "全体の；すべての",
+      "exampleEn": "The entire village was flooded.",
+      "exampleJa": "村全体が冠水しました。",
+      "level": 3
+    },
+    {
+      "headword": "equal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈiːkwəl/",
+      "meaning": "等しい；平等な",
+      "exampleEn": "All people are equal.",
+      "exampleJa": "すべての人は平等です。",
+      "level": 2
+    },
+    {
+      "headword": "essential",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈsenʃəl/",
+      "meaning": "不可欠な；本質的な",
+      "exampleEn": "Water is essential for life.",
+      "exampleJa": "水は生命にとって欠かせないものです。",
+      "level": 3
+    },
+    {
+      "headword": "exact",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪɡˈzækt/",
+      "meaning": "正確な；きっちりした",
+      "exampleEn": "What is the exact time?",
+      "exampleJa": "正確な時間は何時ですか。",
+      "level": 2
+    },
+    {
+      "headword": "extreme",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪkˈstriːm/",
+      "meaning": "極端な；過激な",
+      "exampleEn": "Avoid extreme cold temperatures.",
+      "exampleJa": "極度な寒さは避けなさい。",
+      "level": 3
+    },
+    {
+      "headword": "false",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fɔːls/",
+      "meaning": "誤った；偽の",
+      "exampleEn": "Mark true or false on the test.",
+      "exampleJa": "テストで正誤をつけなさい。",
+      "level": 2
+    },
+    {
+      "headword": "flexible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfleksəbəl/",
+      "meaning": "柔軟な；融通の利く",
+      "exampleEn": "Our company offers flexible working hours to employees.",
+      "exampleJa": "私たちの会社は従業員に柔軟な勤務時間を用意しています。",
+      "level": 3
+    },
+    {
+      "headword": "formal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɔːrml/",
+      "meaning": "公式の；正式な",
+      "exampleEn": "We sent a formal invitation to the speaker.",
+      "exampleJa": "私たちは講演者に正式な招待状を送りました。",
+      "level": 2
+    },
+    {
+      "headword": "general",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒenərəl/",
+      "meaning": "一般的な；全体の",
+      "exampleEn": "This is a general rule.",
+      "exampleJa": "これは一般的なルールです。",
+      "level": 2
+    },
+    {
+      "headword": "global",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡloʊbəl/",
+      "meaning": "地球規模の；世界的な",
+      "exampleEn": "Global warming is a big problem.",
+      "exampleJa": "地球温暖化は大きな問題です。",
+      "level": 2
+    },
+    {
+      "headword": "harmful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhɑːrmfəl/",
+      "meaning": "有害な",
+      "exampleEn": "Smoking is harmful to health.",
+      "exampleJa": "喫煙は健康に有害です。",
+      "level": 2
+    },
+    {
+      "headword": "ideal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/aɪˈdiːəl/",
+      "meaning": "理想的な；最適な",
+      "exampleEn": "This is an ideal place for picnic.",
+      "exampleJa": "ここはピクニックに理想的な場所です。",
+      "level": 3
+    },
+    {
+      "headword": "immediate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈmiːdiət/",
+      "meaning": "即座の；早急の；直接の",
+      "exampleEn": "The patient needs immediate medical care.",
+      "exampleJa": "その患者は即座の治療を必要としています。",
+      "level": 3
+    },
+    {
+      "headword": "impossible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpɑːsəbl/",
+      "meaning": "不可能な",
+      "exampleEn": "It is impossible to finish now.",
+      "exampleJa": "今それを終わらせるのは不可能です。",
+      "level": 2
+    },
+    {
+      "headword": "international",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪntərˈnæʃənl/",
+      "meaning": "国際的な",
+      "exampleEn": "She wants an international job.",
+      "exampleJa": "彼女は国際的な仕事に就きたいと思っています。",
+      "level": 2
+    },
+    {
+      "headword": "legal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈliːɡəl/",
+      "meaning": "法律の；合法の",
+      "exampleEn": "This contract is legal in every country.",
+      "exampleJa": "この契約はどの国でも合法です。",
+      "level": 3
+    },
+    {
+      "headword": "limited",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈlɪmɪtɪd/",
+      "meaning": "限られた；有限の",
+      "exampleEn": "The offer is available for a limited time.",
+      "exampleJa": "その特典は期間限定で利用できます。",
+      "level": 2
+    },
+    {
+      "headword": "local",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈloʊkəl/",
+      "meaning": "地元の；地域の",
+      "exampleEn": "Buy fresh local food.",
+      "exampleJa": "地元の新鮮な食べ物を買いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "main",
+      "partOfSpeech": "adjective",
+      "phonetic": "/meɪn/",
+      "meaning": "主な",
+      "exampleEn": "What is the main idea here?",
+      "exampleJa": "ここでの主な考えは何ですか。",
+      "level": 2
+    },
+    {
+      "headword": "major",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmeɪdʒər/",
+      "meaning": "主要な；大きな",
+      "exampleEn": "Oil is a major export.",
+      "exampleJa": "石油は主要な輸出品です。",
+      "level": 2
+    },
+    {
+      "headword": "medical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmedɪkl/",
+      "meaning": "医療の；医学の",
+      "exampleEn": "The hospital bought new medical equipment.",
+      "exampleJa": "その病院は新しい医療機器を買いました。",
+      "level": 2
+    },
+    {
+      "headword": "minor",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmaɪnər/",
+      "meaning": "重要でない；小さい",
+      "exampleEn": "It was only a minor injury.",
+      "exampleJa": "それはほんの軽い怪我でした。",
+      "level": 3
+    },
+    {
+      "headword": "modern",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɑːdərn/",
+      "meaning": "現代の；近代的な",
+      "exampleEn": "This is a modern building.",
+      "exampleJa": "これは現代的な建物です。",
+      "level": 2
+    },
+    {
+      "headword": "narrow",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnæroʊ/",
+      "meaning": "狭い",
+      "exampleEn": "The old street was dark and narrow.",
+      "exampleJa": "その古い通りは暗くて狭かったです。",
+      "level": 2
+    },
+    {
+      "headword": "native",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈneɪtɪv/",
+      "meaning": "母国の；出生地の",
+      "exampleEn": "English is not my native language.",
+      "exampleJa": "英語は私の母国語ではありません。",
+      "level": 2
+    },
+    {
+      "headword": "natural",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnætʃrəl/",
+      "meaning": "自然の",
+      "exampleEn": "This is a natural lake in the mountains.",
+      "exampleJa": "これは山にある自然の湖です。",
+      "level": 2
+    },
+    {
+      "headword": "necessary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnesəseri/",
+      "meaning": "必要な；不可欠な",
+      "exampleEn": "Water is necessary for life.",
+      "exampleJa": "水は生きるために必要です。",
+      "level": 2
+    },
+    {
+      "headword": "normal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɔːrml/",
+      "meaning": "普通の；標準の",
+      "exampleEn": "His body temperature is normal.",
+      "exampleJa": "彼の体温は正常です。",
+      "level": 2
+    },
+    {
+      "headword": "official",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈfɪʃl/",
+      "meaning": "公式の；正式な",
+      "exampleEn": "The company made an official statement today.",
+      "exampleJa": "会社は今日公式な発表をしました。",
+      "level": 2
+    },
+    {
+      "headword": "ordinary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɔːrdneri/",
+      "meaning": "普通の；ありふれた",
+      "exampleEn": "It was an ordinary Monday morning.",
+      "exampleJa": "それはありふれた月曜日の朝でした。",
+      "level": 3
+    },
+    {
+      "headword": "original",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈrɪdʒənəl/",
+      "meaning": "独創的な；最初の",
+      "exampleEn": "This is the original manuscript.",
+      "exampleJa": "これが原稿の原本です。",
+      "level": 2
+    },
+    {
+      "headword": "perfect",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɜːrfɪkt/",
+      "meaning": "完璧な",
+      "exampleEn": "Your answer was perfect this time.",
+      "exampleJa": "今回、あなたの答えは完璧でした。",
+      "level": 2
+    },
+    {
+      "headword": "permanent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɜːrmənənt/",
+      "meaning": "永続的な；終身の；常設の",
+      "exampleEn": "He found a permanent job.",
+      "exampleJa": "彼は終身の仕事を見つけました。",
+      "level": 3
+    },
+    {
+      "headword": "possible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɑːsəbl/",
+      "meaning": "可能な",
+      "exampleEn": "Is it possible to finish today?",
+      "exampleJa": "今日中に終わらせることは可能ですか。",
+      "level": 2
+    },
+    {
+      "headword": "practical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpræktɪkl/",
+      "meaning": "実用的な；現実的な",
+      "exampleEn": "Students gain practical experience at the factory.",
+      "exampleJa": "生徒たちは工場で実用的な経験を積みます。",
+      "level": 3
+    },
+    {
+      "headword": "previous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpriːviəs/",
+      "meaning": "以前の；前の",
+      "exampleEn": "I met her at a previous meeting.",
+      "exampleJa": "私は以前の会議で彼女に会いました。",
+      "level": 3
+    },
+    {
+      "headword": "private",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpraɪvət/",
+      "meaning": "私的な；個人の；民間の",
+      "exampleEn": "This is a private road.",
+      "exampleJa": "ここは私道です。",
+      "level": 2
+    },
+    {
+      "headword": "professional",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈfeʃənl/",
+      "meaning": "プロの；専門的な",
+      "exampleEn": "Seek professional advice.",
+      "exampleJa": "専門的な助言を求めなさい。",
+      "level": 2
+    },
+    {
+      "headword": "proper",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈprɑːpər/",
+      "meaning": "適切な；固有の",
+      "exampleEn": "You must wear proper clothes for the ceremony.",
+      "exampleJa": "式典にはふさわしい服装をしなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "public",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpʌblɪk/",
+      "meaning": "公共の；公の",
+      "exampleEn": "Use public transportation.",
+      "exampleJa": "公共交通機関を利用しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "rapid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈræpɪd/",
+      "meaning": "急速な；すばやい",
+      "exampleEn": "The company enjoyed rapid growth in sales.",
+      "exampleJa": "その会社は売上の急速な伸びを遂げました。",
+      "level": 2
+    },
+    {
+      "headword": "rare",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rer/",
+      "meaning": "まれな；珍しい",
+      "exampleEn": "Gold is a rare metal.",
+      "exampleJa": "金は珍しい金属です。",
+      "level": 2
+    },
+    {
+      "headword": "reasonable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈriːznəbəl/",
+      "meaning": "手頃な；道理にかなった",
+      "exampleEn": "The price is very reasonable.",
+      "exampleJa": "価格はとても手頃です。",
+      "level": 3
+    },
+    {
+      "headword": "regular",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈreɡjələr/",
+      "meaning": "規則的な；通常の",
+      "exampleEn": "Take regular breaks.",
+      "exampleJa": "定期的な休憩を取りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "similar",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪmələr/",
+      "meaning": "似ている",
+      "exampleEn": "Her plan is similar to mine.",
+      "exampleJa": "彼女の計画は私のと似ています。",
+      "level": 3
+    },
+    {
+      "headword": "single",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsɪŋɡl/",
+      "meaning": "ただ一つの；独身の",
+      "exampleEn": "She lives alone in a single room.",
+      "exampleJa": "彼女は一人でシングルの部屋に住んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "specific",
+      "partOfSpeech": "adjective",
+      "phonetic": "/spəˈsɪfɪk/",
+      "meaning": "具体的な；特定の",
+      "exampleEn": "The teacher asked for a specific answer.",
+      "exampleJa": "先生は具体的な答えを求めました。",
+      "level": 3
+    },
+    {
+      "headword": "temporary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtempəreri/",
+      "meaning": "一時的な；仮の；臨時の",
+      "exampleEn": "This is only a temporary position.",
+      "exampleJa": "これは一時的な職にすぎません。",
+      "level": 3
+    },
+    {
+      "headword": "thick",
+      "partOfSpeech": "adjective",
+      "phonetic": "/θɪk/",
+      "meaning": "厚い；太い",
+      "exampleEn": "The ice on the lake was thick.",
+      "exampleJa": "湖の氷は厚かったです。",
+      "level": 2
+    },
+    {
+      "headword": "total",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtoʊtl/",
+      "meaning": "全体の；完全な",
+      "exampleEn": "What is the total cost?",
+      "exampleJa": "総額費用はいくらですか。",
+      "level": 1
+    },
+    {
+      "headword": "tough",
+      "partOfSpeech": "adjective",
+      "phonetic": "/tʌf/",
+      "meaning": "頑丈な；厳しい；骨の折れる",
+      "exampleEn": "It was a tough game.",
+      "exampleJa": "それは厳しい試合でした。",
+      "level": 2
+    },
+    {
+      "headword": "traditional",
+      "partOfSpeech": "adjective",
+      "phonetic": "/trəˈdɪʃənəl/",
+      "meaning": "伝統的な",
+      "exampleEn": "Kimono is traditional Japanese clothing.",
+      "exampleJa": "着物は日本の伝統的な衣服です。",
+      "level": 2
+    },
+    {
+      "headword": "typical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtɪpɪkəl/",
+      "meaning": "典型的な；〜らしい",
+      "exampleEn": "This is a typical summer day.",
+      "exampleJa": "これは典型的な夏の日です。",
+      "level": 3
+    },
+    {
+      "headword": "unique",
+      "partOfSpeech": "adjective",
+      "phonetic": "/juːˈniːk/",
+      "meaning": "独特な；唯一無二の",
+      "exampleEn": "Every person has a unique personality.",
+      "exampleJa": "すべての人が独特な個性を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "urgent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɜːrdʒənt/",
+      "meaning": "緊急の；急を要する",
+      "exampleEn": "I received an urgent message from my boss.",
+      "exampleJa": "私は上司から緊急の連絡を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "various",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈveriəs/",
+      "meaning": "さまざまな；多様な",
+      "exampleEn": "We discussed various topics.",
+      "exampleJa": "私たちはさまざまな話題について話し合いました。",
+      "level": 3
+    },
+    {
+      "headword": "likely",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈlaɪkli/",
+      "meaning": "ありそうな；しそうな",
+      "exampleEn": "It is likely to rain this afternoon.",
+      "exampleJa": "今日の午後は雨が降りそうです。",
+      "level": 3
+    },
+    {
+      "headword": "obvious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːbviəs/",
+      "meaning": "明らかな；明白な",
+      "exampleEn": "The reason for his anger was obvious.",
+      "exampleJa": "彼が怒った理由は明らかでした。",
+      "level": 3
+    },
+    {
+      "headword": "particular",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pərˈtɪkjələr/",
+      "meaning": "特定の；特別の",
+      "exampleEn": "Is there any particular color you want?",
+      "exampleJa": "何か特に欲しい色はありますか。",
+      "level": 3
+    },
+    {
+      "headword": "recent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈriːsnt/",
+      "meaning": "最近の；近ごろの",
+      "exampleEn": "A recent study showed an interesting result.",
+      "exampleJa": "最近の研究は興味深い結果を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "social",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsoʊʃl/",
+      "meaning": "社会の；社交的な",
+      "exampleEn": "The town has many social problems today.",
+      "exampleJa": "その町は今日多くの社会問題を抱えています。",
+      "level": 3
+    },
+    {
+      "headword": "sudden",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsʌdn/",
+      "meaning": "突然の；急な",
+      "exampleEn": "A sudden noise woke me at midnight.",
+      "exampleJa": "突然の物音で真夜中に目が覚めました。",
+      "level": 3
+    },
+    {
+      "headword": "suitable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsuːtəbl/",
+      "meaning": "適した；ふさわしい",
+      "exampleEn": "This movie is not suitable for children.",
+      "exampleJa": "この映画は子どもには適していません。",
+      "level": 3
+    },
+    {
+      "headword": "unusual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌnˈjuːʒuəl/",
+      "meaning": "珍しい；異常な",
+      "exampleEn": "Snow in April is unusual here.",
+      "exampleJa": "ここでは4月に雪が降るのは珍しいことです。",
+      "level": 3
+    }
+  ]
+}
