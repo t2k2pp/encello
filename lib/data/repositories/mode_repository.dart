@@ -18,6 +18,7 @@ class ModeRepository {
   /// 4択の候補プール。学習対象の単語帳にある、出題できる語。
   Future<List<ChoiceCandidate>> loadChoiceCandidates(
     Profile profile, {
+
     /// スピードモードは**すでに学習した語だけ**を対象にする
     /// （[Docs/06_features/speed_mode.md] §3）。
     bool learnedOnly = false,
@@ -59,7 +60,9 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
         wordId: id,
         headword: row.read<String>('headword'),
         meaning: row.read<String>('meaning'),
-        partOfSpeech: PartOfSpeech.fromValue(row.read<String>('part_of_speech')),
+        partOfSpeech: PartOfSpeech.fromValue(
+          row.read<String>('part_of_speech'),
+        ),
         wordbookIds: books[id]!,
       );
     }
@@ -115,10 +118,9 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
 
   /// 解消済みの取り違えの組。
   Future<Set<({int a, int b})>> loadResolvedConfusions(int profileId) async {
-    final rows =
-        await (_db.select(_db.resolvedConfusions)
-              ..where((t) => t.profileId.equals(profileId)))
-            .get();
+    final rows = await (_db.select(
+      _db.resolvedConfusions,
+    )..where((t) => t.profileId.equals(profileId))).get();
     return {for (final r in rows) (a: r.wordIdA, b: r.wordIdB)};
   }
 
@@ -127,9 +129,9 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
   loadConfusionDetails(Iterable<int> wordIds) async {
     final ids = wordIds.toList();
     if (ids.isEmpty) return (labels: <int, String>{}, notes: <int, String?>{});
-    final rows = await (_db.select(_db.words)
-          ..where((t) => t.id.isIn(ids)))
-        .get();
+    final rows = await (_db.select(
+      _db.words,
+    )..where((t) => t.id.isIn(ids))).get();
     return (
       labels: {
         for (final w in rows)
@@ -146,9 +148,7 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
   }) async {
     final logs = await loadRecentLogs(
       profileId,
-      since: now.subtract(
-        const Duration(days: ConfusionPairFinder.withinDays),
-      ),
+      since: now.subtract(const Duration(days: ConfusionPairFinder.withinDays)),
     );
     if (logs.isEmpty) return const [];
     return ConfusionPairFinder.find(
@@ -189,9 +189,7 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
                     t.mode.equals(StudyMode.confusion.value) &
                     (t.wordId.equals(key.a) | t.wordId.equals(key.b)),
               )
-              ..orderBy([
-                (t) => OrderingTerm.desc(t.id),
-              ])
+              ..orderBy([(t) => OrderingTerm.desc(t.id)])
               ..limit(kConfusionResolveStreak))
             .get();
     if (logs.length < kConfusionResolveStreak) return;
@@ -327,14 +325,15 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
   Future<Map<int, String>> breakdownsOf(Iterable<int> wordIds) async {
     final ids = wordIds.toList();
     if (ids.isEmpty) return const {};
-    final query = _db.select(_db.wordPartLinks).join([
-      innerJoin(
-        _db.wordParts,
-        _db.wordParts.id.equalsExp(_db.wordPartLinks.partId),
-      ),
-    ])
-      ..where(_db.wordPartLinks.wordId.isIn(ids))
-      ..orderBy([OrderingTerm.asc(_db.wordPartLinks.position)]);
+    final query =
+        _db.select(_db.wordPartLinks).join([
+            innerJoin(
+              _db.wordParts,
+              _db.wordParts.id.equalsExp(_db.wordPartLinks.partId),
+            ),
+          ])
+          ..where(_db.wordPartLinks.wordId.isIn(ids))
+          ..orderBy([OrderingTerm.asc(_db.wordPartLinks.position)]);
     final rows = await query.get();
 
     final byWord = <int, List<String>>{};
@@ -350,33 +349,35 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
 
   /// 単語詳細の「語のつくり」カードに出す部品（並び順つき）。
   Future<List<WordPart>> partsOf(int wordId) {
-    final query = _db.select(_db.wordParts).join([
-      innerJoin(
-        _db.wordPartLinks,
-        _db.wordPartLinks.partId.equalsExp(_db.wordParts.id),
-        useColumns: false,
-      ),
-    ])
-      ..where(_db.wordPartLinks.wordId.equals(wordId))
-      ..orderBy([OrderingTerm.asc(_db.wordPartLinks.position)]);
+    final query =
+        _db.select(_db.wordParts).join([
+            innerJoin(
+              _db.wordPartLinks,
+              _db.wordPartLinks.partId.equalsExp(_db.wordParts.id),
+              useColumns: false,
+            ),
+          ])
+          ..where(_db.wordPartLinks.wordId.equals(wordId))
+          ..orderBy([OrderingTerm.asc(_db.wordPartLinks.position)]);
     return query.map((row) => row.readTable(_db.wordParts)).get();
   }
 
   /// その部品を含む単語（SCR-16 の一覧）。
   Future<List<Word>> wordsOfPart(int partId, int profileId) {
-    final query = _db.select(_db.words).join([
-      innerJoin(
-        _db.wordPartLinks,
-        _db.wordPartLinks.wordId.equalsExp(_db.words.id),
-        useColumns: false,
-      ),
-    ])
-      ..where(
-        _db.wordPartLinks.partId.equals(partId) &
-            (_db.words.ownerProfileId.isNull() |
-                _db.words.ownerProfileId.equals(profileId)),
-      )
-      ..orderBy([OrderingTerm.asc(_db.words.headword)]);
+    final query =
+        _db.select(_db.words).join([
+            innerJoin(
+              _db.wordPartLinks,
+              _db.wordPartLinks.wordId.equalsExp(_db.words.id),
+              useColumns: false,
+            ),
+          ])
+          ..where(
+            _db.wordPartLinks.partId.equals(partId) &
+                (_db.words.ownerProfileId.isNull() |
+                    _db.words.ownerProfileId.equals(profileId)),
+          )
+          ..orderBy([OrderingTerm.asc(_db.words.headword)]);
     return query.map((row) => row.readTable(_db.words)).get();
   }
 
@@ -385,17 +386,18 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
     int profileId, {
     int? familyId,
   }) async {
-    final query = _db.select(_db.words).join([
-      leftOuterJoin(
-        _db.wordReviews,
-        _db.wordReviews.wordId.equalsExp(_db.words.id) &
-            _db.wordReviews.profileId.equals(profileId),
-      ),
-    ])..where(
-      _db.words.familyId.isNotNull() &
-          (_db.words.ownerProfileId.isNull() |
-              _db.words.ownerProfileId.equals(profileId)),
-    );
+    final query =
+        _db.select(_db.words).join([
+          leftOuterJoin(
+            _db.wordReviews,
+            _db.wordReviews.wordId.equalsExp(_db.words.id) &
+                _db.wordReviews.profileId.equals(profileId),
+          ),
+        ])..where(
+          _db.words.familyId.isNotNull() &
+              (_db.words.ownerProfileId.isNull() |
+                  _db.words.ownerProfileId.equals(profileId)),
+        );
     if (familyId != null) {
       query.where(_db.words.familyId.equals(familyId));
     }
@@ -424,13 +426,10 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
 
   /// 語の習熟度（スピードの対象判定などに使う）。
   Future<Map<int, Mastery>> masteryOf(int profileId) async {
-    final rows =
-        await (_db.select(_db.wordReviews)
-              ..where((t) => t.profileId.equals(profileId)))
-            .get();
-    return {
-      for (final r in rows) r.wordId: Mastery.fromLevel(r.masteryLevel),
-    };
+    final rows = await (_db.select(
+      _db.wordReviews,
+    )..where((t) => t.profileId.equals(profileId))).get();
+    return {for (final r in rows) r.wordId: Mastery.fromLevel(r.masteryLevel)};
   }
 }
 

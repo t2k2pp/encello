@@ -127,7 +127,9 @@ class _AxisLabels extends StatelessWidget {
     if (data.isEmpty) return const SizedBox.shrink();
     String short(String date) {
       final parts = date.split('-');
-      return parts.length == 3 ? '${int.parse(parts[1])}/${int.parse(parts[2])}' : date;
+      return parts.length == 3
+          ? '${int.parse(parts[1])}/${int.parse(parts[2])}'
+          : date;
     }
 
     return Row(
@@ -244,7 +246,8 @@ class _LinePainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     if (values.isEmpty) return;
-    final top = maxValue ??
+    final top =
+        maxValue ??
         [
           for (final v in values) ?v,
           ?guideLine,
@@ -255,10 +258,16 @@ class _LinePainter extends CustomPainter {
     final grid = Paint()
       ..color = gridColor
       ..strokeWidth = 1;
-    canvas.drawLine(Offset(0, size.height), Offset(size.width, size.height), grid);
+    canvas.drawLine(
+      Offset(0, size.height),
+      Offset(size.width, size.height),
+      grid,
+    );
     canvas.drawLine(Offset.zero, Offset(size.width, 0), grid);
 
-    final slot = values.length == 1 ? size.width : size.width / (values.length - 1);
+    final slot = values.length == 1
+        ? size.width
+        : size.width / (values.length - 1);
     final paint = Paint()
       ..style = PaintingStyle.stroke
       ..strokeWidth = 2

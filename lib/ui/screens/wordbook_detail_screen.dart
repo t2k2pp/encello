@@ -61,7 +61,9 @@ class _WordbookDetailScreenState extends ConsumerState<WordbookDetailScreen> {
   @override
   Widget build(BuildContext context) {
     final spacing = AppSpacing.of(context);
-    final book = ref.watch(wordbooksProvider(widget.profile.id)).value
+    final book = ref
+        .watch(wordbooksProvider(widget.profile.id))
+        .value
         ?.where((b) => b.wordbook.id == widget.wordbookId)
         .firstOrNull;
     final counts = ref.watch(dictionaryCountsProvider(_query)).value;
@@ -102,7 +104,9 @@ class _WordbookDetailScreenState extends ConsumerState<WordbookDetailScreen> {
                     ),
                   ),
                   IconButton(
-                    tooltip: _viewMode == ListViewMode.grid ? 'リスト表示' : 'グリッド表示',
+                    tooltip: _viewMode == ListViewMode.grid
+                        ? 'リスト表示'
+                        : 'グリッド表示',
                     onPressed: () => setState(() {
                       _viewMode = _viewMode == ListViewMode.list
                           ? ListViewMode.grid
@@ -175,9 +179,8 @@ class _WordbookDetailScreenState extends ConsumerState<WordbookDetailScreen> {
                             for (final s in DictionarySort.values)
                               (value: s, label: s.label),
                           ],
-                          onChanged: (s) => setState(
-                            () => _query = _query.copyWith(sort: s),
-                          ),
+                          onChanged: (s) =>
+                              setState(() => _query = _query.copyWith(sort: s)),
                         ),
                       ),
                       const SizedBox(width: 8),
@@ -209,7 +212,10 @@ class _WordbookDetailScreenState extends ConsumerState<WordbookDetailScreen> {
                   ),
                 ),
                 trailingBuilder: (entry) => IconButton(
-                  icon: Icon(Icons.remove_circle_outline, color: AppColors.ink3),
+                  icon: Icon(
+                    Icons.remove_circle_outline,
+                    color: AppColors.ink3,
+                  ),
                   tooltip: 'この単語帳から外す',
                   onPressed: () => _remove(entry),
                 ),

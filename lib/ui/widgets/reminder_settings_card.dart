@@ -78,9 +78,7 @@ class _ReminderSettingsCardState extends ConsumerState<ReminderSettingsCard> {
 
   /// 設定を書き換え、そのプロファイルの通知を作り直す。
   Future<void> _patch(ProfilesCompanion patch) async {
-    await ref
-        .read(profileRepositoryProvider)
-        .updateSettings(profile.id, patch);
+    await ref.read(profileRepositoryProvider).updateSettings(profile.id, patch);
     await ref.read(activeProfileProvider.notifier).reload();
     final fresh = ref.read(activeProfileProvider);
     if (fresh == null) return;
@@ -95,9 +93,9 @@ class _ReminderSettingsCardState extends ConsumerState<ReminderSettingsCard> {
           .read(reminderSchedulerProvider)
           .sendTest(profile, now: ref.read(clockProvider)());
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('5秒後にテスト通知を出します')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text('5秒後にテスト通知を出します')));
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(
@@ -118,9 +116,7 @@ class _ReminderSettingsCardState extends ConsumerState<ReminderSettingsCard> {
         children: [
           Row(
             children: [
-              Expanded(
-                child: Text('学習リマインダー', style: AppText.sectionTitle()),
-              ),
+              Expanded(child: Text('学習リマインダー', style: AppText.sectionTitle())),
               Switch(
                 value: profile.reminderEnabled,
                 activeThumbColor: AppColors.accent,

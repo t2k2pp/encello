@@ -293,9 +293,9 @@ class StudySessionController extends Notifier<StudySessionState?> {
     final now = ref.read(clockProvider)();
     final sessionId = const Uuid().v4();
 
-    final picked = ([...questions]..shuffle(Random(sessionId.hashCode)))
-        .take(limit)
-        .toList();
+    final picked = ([
+      ...questions,
+    ]..shuffle(Random(sessionId.hashCode))).take(limit).toList();
     final wordbookIds = decodeIdList(profile.selectedWordbookIds);
     final words = await study.loadWords(picked.map((q) => q.answer.wordId));
     final examples = await ref
@@ -452,8 +452,7 @@ class StudySessionController extends Notifier<StudySessionState?> {
           );
 
       // 誤答した語はキューの末尾へ1回だけ戻す（FR-31）。
-      final requeue =
-          !isCorrect && !s.requeued.contains(word.id);
+      final requeue = !isCorrect && !s.requeued.contains(word.id);
       state = s.copyWith(
         busy: false,
         phase: StudyPhase.feedback,

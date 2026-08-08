@@ -3,7 +3,8 @@ import 'dart:io';
 import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
-import 'package:encello/data/services/audio_library.dart' show kAudioPackDirName;
+import 'package:encello/data/services/audio_library.dart'
+    show kAudioPackDirName;
 import 'package:encello/data/services/cleanup_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart' as p;
@@ -148,13 +149,15 @@ void main() {
       expect(result.freedBytes, 250);
 
       expect(
-        File(p.join(tempDir.path, kAudioPackDirName, 'pack_v1', 'apple.mp3'))
-            .existsSync(),
+        File(
+          p.join(tempDir.path, kAudioPackDirName, 'pack_v1', 'apple.mp3'),
+        ).existsSync(),
         isTrue,
       );
       expect(
-        File(p.join(tempDir.path, kAudioPackDirName, 'pack_v1', 'orphan.mp3'))
-            .existsSync(),
+        File(
+          p.join(tempDir.path, kAudioPackDirName, 'pack_v1', 'orphan.mp3'),
+        ).existsSync(),
         isFalse,
       );
     });

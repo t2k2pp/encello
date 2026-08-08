@@ -54,10 +54,10 @@ class AnswerRecord {
     this.answeredText,
     this.hintUsed = 0,
     this.replayCount = 0,
-  })  : assert(
-          (wordId == null) != (partId == null),
-          'wordId と partId はどちらか一方だけが非 null',
-        );
+  }) : assert(
+         (wordId == null) != (partId == null),
+         'wordId と partId はどちらか一方だけが非 null',
+       );
 
   /// 学習状態を更新するか（時間切れ・自己評価なしは更新しない）。
   bool get updatesReview => grade != GradeResolver.noUpdate;
@@ -147,12 +147,7 @@ class AnswerSubmissionService {
 
       // デイリー目標を達成した瞬間のボーナス（その日1回だけ）は、達成判定と同じ
       // 場所で足す。判定を先にして XP を後から足すと、達成した問と別の問に付く。
-      final daily = await _applyDailyStats(
-        profile,
-        record,
-        answeredAt,
-        baseXp,
-      );
+      final daily = await _applyDailyStats(profile, record, answeredAt, baseXp);
       await _applySessionTotals(sessionId, record, daily.xp);
 
       return AnswerOutcome(
@@ -337,16 +332,14 @@ class AnswerSubmissionService {
     if (session == null) {
       throw StateError('解答の対象セッションが見つかりません（id=$sessionId）');
     }
-    await (_db.update(_db.studySessions)
-          ..where((t) => t.id.equals(sessionId)))
-        .write(
-          StudySessionsCompanion(
-            answeredCount: Value(session.answeredCount + 1),
-            correctCount: Value(
-              session.correctCount + (record.isCorrect ? 1 : 0),
-            ),
-            xpEarned: Value(session.xpEarned + xp),
-          ),
-        );
+    await (_db.update(
+      _db.studySessions,
+    )..where((t) => t.id.equals(sessionId))).write(
+      StudySessionsCompanion(
+        answeredCount: Value(session.answeredCount + 1),
+        correctCount: Value(session.correctCount + (record.isCorrect ? 1 : 0)),
+        xpEarned: Value(session.xpEarned + xp),
+      ),
+    );
   }
 }

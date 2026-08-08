@@ -239,7 +239,10 @@ class _KeyboardLayoutCard extends ConsumerWidget {
         children: [
           Text('キーボードの配列', style: AppText.sectionTitle()),
           const SizedBox(height: 4),
-          Text('綴りを入力するときのキーの並びです。ABC順はキーボードに慣れていないうちに向きます。', style: AppText.caption()),
+          Text(
+            '綴りを入力するときのキーの並びです。ABC順はキーボードに慣れていないうちに向きます。',
+            style: AppText.caption(),
+          ),
           const SizedBox(height: 12),
           SegmentedButton<KeyboardLayout>(
             showSelectedIcon: false,

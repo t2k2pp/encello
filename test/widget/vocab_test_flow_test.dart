@@ -133,9 +133,9 @@ void main() {
     await tester.tap(find.widgetWithText(FilledButton, 'この単語帳を学習対象にする'));
     await tester.pumpAndSettle();
 
-    final updated =
-        await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-            .getSingle();
+    final updated = await (db.select(
+      db.profiles,
+    )..where((t) => t.id.equals(me.id))).getSingle();
     expect(decodeIdList(updated.selectedWordbookIds), contains(bandId));
     // 押したあとは二度押させない。
     expect(find.text('学習対象にしました'), findsOneWidget);
@@ -145,9 +145,9 @@ void main() {
     await pumpTest(tester);
     await answerAll(tester, 'わからない');
 
-    final updated =
-        await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-            .getSingle();
+    final updated = await (db.select(
+      db.profiles,
+    )..where((t) => t.id.equals(me.id))).getSingle();
     expect(decodeIdList(updated.selectedWordbookIds), isEmpty);
   });
 
@@ -168,9 +168,9 @@ void main() {
     // 帯の語を2語だけにする（下限は8語）。
     final words = await db.select(db.words).get();
     for (final word in words.skip(2)) {
-      await (db.delete(db.wordbookEntries)
-            ..where((t) => t.wordId.equals(word.id)))
-          .go();
+      await (db.delete(
+        db.wordbookEntries,
+      )..where((t) => t.wordId.equals(word.id))).go();
     }
 
     await pumpTest(tester);

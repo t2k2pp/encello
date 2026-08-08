@@ -73,7 +73,9 @@ void main() {
     test('空の発音記号は null で入り、空の例文は行を作らない', () async {
       final importer = importerWith(
         presetJson(
-          words: [presetWordJson(headword: 'apple', phonetic: '', exampleEn: '')],
+          words: [
+            presetWordJson(headword: 'apple', phonetic: '', exampleEn: ''),
+          ],
         ),
       );
       await importer.importIfNeeded(installedVersion: 0);
@@ -122,7 +124,9 @@ void main() {
       final json = presetJson(words: [presetWordJson(headword: 'apple')]);
       await importerWith(json).importIfNeeded(installedVersion: 0);
 
-      final result = await importerWith(json).importIfNeeded(installedVersion: 1);
+      final result = await importerWith(
+        json,
+      ).importIfNeeded(installedVersion: 1);
 
       expect(result.applied, isFalse);
       expect(await db.select(db.words).get(), hasLength(1));
@@ -149,15 +153,14 @@ void main() {
 
     test('isEdited の語はプリセット再投入で上書きされない', () async {
       await importerWith(
-        presetJson(words: [presetWordJson(headword: 'apple', meaning: 'りんご')]),
+        presetJson(
+          words: [presetWordJson(headword: 'apple', meaning: 'りんご')],
+        ),
       ).importIfNeeded(installedVersion: 0);
 
       final id = (await db.select(db.words).getSingle()).id;
       await (db.update(db.words)..where((t) => t.id.equals(id))).write(
-        const WordsCompanion(
-          meaning: Value('わたしの訳'),
-          isEdited: Value(true),
-        ),
+        const WordsCompanion(meaning: Value('わたしの訳'), isEdited: Value(true)),
       );
 
       await importerWith(
@@ -183,10 +186,9 @@ void main() {
       ).importIfNeeded(installedVersion: 0);
 
       final profile = await createTestProfile(db, name: 'A');
-      final banana =
-          await (db.select(db.words)
-                ..where((t) => t.headword.equals('banana')))
-              .getSingle();
+      final banana = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('banana'))).getSingle();
       await db
           .into(db.wordReviews)
           .insert(
@@ -260,10 +262,9 @@ void main() {
       // 語の行は1つのまま（学習状態を単語帳ごとに割らない）。
       expect(await db.select(db.words).get(), hasLength(1));
 
-      final examples =
-          await (db.select(db.wordExamples)
-                ..orderBy([(t) => OrderingTerm.asc(t.sortOrder)]))
-              .get();
+      final examples = await (db.select(
+        db.wordExamples,
+      )..orderBy([(t) => OrderingTerm.asc(t.sortOrder)])).get();
       expect(examples, hasLength(2));
       expect(examples.map((e) => e.sourcePresetId), [
         'jhs_v1',
@@ -271,7 +272,10 @@ void main() {
       ]);
       expect(examples.map((e) => e.sortOrder), [10, 60]);
       expect(examples.first.exampleEn, 'We signed a contract with the school.');
-      expect(examples.last.exampleEn, 'Please review the contract before Friday.');
+      expect(
+        examples.last.exampleEn,
+        'Please review the contract before Friday.',
+      );
     });
 
     test('版を上げて入れ直しても例文の行が増えない（(wordId, sourcePresetId) で upsert）', () async {

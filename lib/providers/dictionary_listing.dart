@@ -67,18 +67,19 @@ final wordBreakdownProvider = FutureProvider.family<String?, int>((
 });
 
 /// その部品を含む単語と、現在の学習者の習熟度。
-final wordsOfPartProvider = FutureProvider.family<
-  List<({Word word, Mastery mastery})>,
-  ({int partId, int profileId})
->((ref, key) async {
-  final repo = ref.watch(modeRepositoryProvider);
-  final words = await repo.wordsOfPart(key.partId, key.profileId);
-  final mastery = await repo.masteryOf(key.profileId);
-  return [
-    for (final w in words)
-      (word: w, mastery: mastery[w.id] ?? Mastery.unlearned),
-  ];
-});
+final wordsOfPartProvider =
+    FutureProvider.family<
+      List<({Word word, Mastery mastery})>,
+      ({int partId, int profileId})
+    >((ref, key) async {
+      final repo = ref.watch(modeRepositoryProvider);
+      final words = await repo.wordsOfPart(key.partId, key.profileId);
+      final mastery = await repo.masteryOf(key.profileId);
+      return [
+        for (final w in words)
+          (word: w, mastery: mastery[w.id] ?? Mastery.unlearned),
+      ];
+    });
 
 /// ある語が属する語族の全語。語族に属さない語では空。
 final wordFamilyProvider =

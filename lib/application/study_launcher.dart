@@ -78,14 +78,9 @@ class StudyLauncher {
   /// 出しても、考える時間が無いだけで何も身に付かない。
   Future<List<ChoiceQuestion>> _buildSpeed(Profile profile, int limit) async {
     final repo = _ref.read(modeRepositoryProvider);
-    final learned = await repo.loadChoiceCandidates(
-      profile,
-      learnedOnly: true,
-    );
+    final learned = await repo.loadChoiceCandidates(profile, learnedOnly: true);
     if (learned.length < kSpeedMinWords) {
-      throw const StudyStartFailure(
-        'スピードは学習済みの語が$kSpeedMinWords語以上必要です。',
-      );
+      throw const StudyStartFailure('スピードは学習済みの語が$kSpeedMinWords語以上必要です。');
     }
     // 誤答選択肢は学習済みに限らず全候補から選んでよい。
     final pool = await repo.loadChoiceCandidates(profile);
@@ -114,9 +109,7 @@ class StudyLauncher {
     final repo = _ref.read(modeRepositoryProvider);
     final parts = await repo.loadPartCandidates(profile.id);
     if (parts.length < PartsQuestionBuilder.optionCount) {
-      throw const StudyStartFailure(
-        '語のつくりを出すには、単語に紐付いた部品がもう少し必要です。',
-      );
+      throw const StudyStartFailure('語のつくりを出すには、単語に紐付いた部品がもう少し必要です。');
     }
     final guesses = await repo.loadGuessCandidates(profile);
     final built = PartsQuestionBuilder.build(

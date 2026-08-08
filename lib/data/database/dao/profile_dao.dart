@@ -71,9 +71,8 @@ class ProfileDao extends DatabaseAccessor<AppDatabase> with _$ProfileDaoMixin {
 
   /// 学習者の設定を書き換える。`updatedAt` は常にここで更新する。
   Future<void> updateProfile(int id, ProfilesCompanion patch) async {
-    final updated = await (update(
-      profiles,
-    )..where((t) => t.id.equals(id))).write(patch.copyWith(updatedAt: Value(DateTime.now())));
+    final updated = await (update(profiles)..where((t) => t.id.equals(id)))
+        .write(patch.copyWith(updatedAt: Value(DateTime.now())));
     if (updated == 0) {
       throw StateError('更新対象の学習者が見つかりません（id=$id）');
     }
@@ -132,8 +131,7 @@ class ProfileDao extends DatabaseAccessor<AppDatabase> with _$ProfileDaoMixin {
 
     final todayRow =
         await (select(dailyStats)..where(
-              (t) =>
-                  t.profileId.equals(profile.id) & t.studyDate.equals(today),
+              (t) => t.profileId.equals(profile.id) & t.studyDate.equals(today),
             ))
             .getSingleOrNull();
 

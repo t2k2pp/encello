@@ -110,7 +110,11 @@ class _ProfileRow extends ConsumerWidget {
               padding: const EdgeInsets.only(right: 4),
               child: Tooltip(
                 message: 'いま学習中の学習者',
-                child: Icon(Icons.check_circle, size: 18, color: AppColors.accent),
+                child: Icon(
+                  Icons.check_circle,
+                  size: 18,
+                  color: AppColors.accent,
+                ),
               ),
             ),
           IconButton(
@@ -169,8 +173,8 @@ class _ProfileRow extends ConsumerWidget {
       return;
     }
     if (!context.mounted) return;
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('${profile.name}さんを削除しました')),
-    );
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text('${profile.name}さんを削除しました')));
   }
 }

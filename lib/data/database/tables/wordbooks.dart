@@ -25,9 +25,11 @@ class Wordbooks extends Table {
   TextColumn get presetId => text().nullable()();
 
   /// マイ単語帳の持ち主。それ以外は null。
-  IntColumn get ownerProfileId => integer()
-      .nullable()
-      .references(Profiles, #id, onDelete: KeyAction.cascade)();
+  IntColumn get ownerProfileId => integer().nullable().references(
+    Profiles,
+    #id,
+    onDelete: KeyAction.cascade,
+  )();
 
   /// 投入済みプリセットの版（[Docs/06_features/wordbooks.md] §3）。
   IntColumn get seedVersion => integer().withDefault(const Constant(0))();

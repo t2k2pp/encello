@@ -72,8 +72,7 @@ class _QuickAddWordSheet extends ConsumerStatefulWidget {
   });
 
   @override
-  ConsumerState<_QuickAddWordSheet> createState() =>
-      _QuickAddWordSheetState();
+  ConsumerState<_QuickAddWordSheet> createState() => _QuickAddWordSheetState();
 }
 
 class _QuickAddWordSheetState extends ConsumerState<_QuickAddWordSheet> {
@@ -410,7 +409,11 @@ class _ProfileChooser extends StatelessWidget {
               onTap: () => onSelect(p),
               child: Row(
                 children: [
-                  ProfileAvatar(emoji: p.emoji, colorSeed: p.colorSeed, size: 40),
+                  ProfileAvatar(
+                    emoji: p.emoji,
+                    colorSeed: p.colorSeed,
+                    size: 40,
+                  ),
                   const SizedBox(width: 12),
                   Expanded(
                     child: Text(
@@ -454,9 +457,7 @@ class _ExistingWordCard extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final books = ref
         .watch(
-          wordbooksOfWordProvider(
-            (wordId: existing.id, profileId: profile.id),
-          ),
+          wordbooksOfWordProvider((wordId: existing.id, profileId: profile.id)),
         )
         .value;
     final names = books?.map((b) => b.name).join('、');

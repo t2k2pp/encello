@@ -61,7 +61,9 @@ abstract final class ChoiceDistractors {
     if (pruned.length < optionCount - 1) return const [];
 
     final sameBook = pruned
-        .where((c) => c.wordbookIds.intersection(correct.wordbookIds).isNotEmpty)
+        .where(
+          (c) => c.wordbookIds.intersection(correct.wordbookIds).isNotEmpty,
+        )
         .toList();
     final tiers = <List<ChoiceCandidate>>[
       [

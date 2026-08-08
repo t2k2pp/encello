@@ -52,7 +52,8 @@ final notificationPermissionProvider = FutureProvider<bool>(
 
 /// その学習者の日次集計（全期間）。ストリーク・学習量・正解率のもとになる。
 final dailyStatsHistoryProvider = StreamProvider.family<List<DailyStat>, int>(
-  (ref, profileId) => ref.watch(statsRepositoryProvider).watchDailyStats(profileId),
+  (ref, profileId) =>
+      ref.watch(statsRepositoryProvider).watchDailyStats(profileId),
 );
 
 /// ストリーク（[Docs/06_features/gamification.md] §2）。
@@ -68,15 +69,18 @@ final streakProvider = Provider.family<StreakResult, int>((ref, profileId) {
 });
 
 /// 直近30日の学習量（欠損日は 0 で埋める）。
-final dailySeriesProvider =
-    Provider.family<List<DailyPoint>, Profile>((ref, profile) {
-      final stats = ref.watch(dailyStatsHistoryProvider(profile.id)).value ?? const [];
-      return StatsAggregates.dailySeries(
-        stats,
-        today: studyDateOf(ref.watch(clockProvider)()),
-        currentGoal: profile.dailyGoal,
-      );
-    });
+final dailySeriesProvider = Provider.family<List<DailyPoint>, Profile>((
+  ref,
+  profile,
+) {
+  final stats =
+      ref.watch(dailyStatsHistoryProvider(profile.id)).value ?? const [];
+  return StatsAggregates.dailySeries(
+    stats,
+    today: studyDateOf(ref.watch(clockProvider)()),
+    currentGoal: profile.dailyGoal,
+  );
+});
 
 /// 累計 XP（`daily_stats.xp` の総和）とレベル。
 final totalXpProvider = FutureProvider.family<int, int>(
@@ -118,12 +122,11 @@ final hasSpeedSessionsProvider = FutureProvider.family<bool, int>(
 );
 
 /// よく取り違える組（[Docs/06_features/confusion_drill.md] §2）。
-final confusionPairsProvider =
-    FutureProvider.family<List<ConfusionPair>, int>(
-      (ref, profileId) => ref
-          .watch(modeRepositoryProvider)
-          .findConfusionPairs(profileId, now: ref.watch(clockProvider)()),
-    );
+final confusionPairsProvider = FutureProvider.family<List<ConfusionPair>, int>(
+  (ref, profileId) => ref
+      .watch(modeRepositoryProvider)
+      .findConfusionPairs(profileId, now: ref.watch(clockProvider)()),
+);
 
 /// 解消した取り違えの組の数（減っていることも成果として見せる）。
 final resolvedConfusionCountProvider = FutureProvider.family<int, int>((
@@ -137,20 +140,20 @@ final resolvedConfusionCountProvider = FutureProvider.family<int, int>((
 });
 
 /// 語彙力測定の履歴（新しい順）。
-final vocabHistoryProvider =
-    FutureProvider.family<List<VocabSizeTest>, int>(
-      (ref, profileId) =>
-          ref.watch(vocabTestRepositoryProvider).history(profileId),
-    );
+final vocabHistoryProvider = FutureProvider.family<List<VocabSizeTest>, int>(
+  (ref, profileId) => ref.watch(vocabTestRepositoryProvider).history(profileId),
+);
 
 /// 実績の判定に要る集計。
-final achievementStatsProvider =
-    FutureProvider.family<AchievementStats, int>((ref, profileId) {
-      final streak = ref.watch(streakProvider(profileId));
-      return ref
-          .watch(statsRepositoryProvider)
-          .achievementStats(profileId, longestStreak: streak.longest);
-    });
+final achievementStatsProvider = FutureProvider.family<AchievementStats, int>((
+  ref,
+  profileId,
+) {
+  final streak = ref.watch(streakProvider(profileId));
+  return ref
+      .watch(statsRepositoryProvider)
+      .achievementStats(profileId, longestStreak: streak.longest);
+});
 
 /// 解除済みの実績（code → 解除日時）。
 final unlockedAchievementsProvider =

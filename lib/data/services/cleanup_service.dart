@@ -65,10 +65,9 @@ class CleanupService {
       );
     }
     final withProgress = await _countWordsWithProgress(ids);
-    final owned =
-        await (_db.select(_db.words)
-              ..where((t) => t.id.isIn(ids) & t.ownerProfileId.isNotNull()))
-            .get();
+    final owned = await (_db.select(
+      _db.words,
+    )..where((t) => t.id.isIn(ids) & t.ownerProfileId.isNotNull())).get();
     return OrphanWordsInspection(
       wordCount: ids.length,
       withProgressCount: withProgress,

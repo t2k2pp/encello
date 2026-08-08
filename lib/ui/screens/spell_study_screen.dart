@@ -51,7 +51,10 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
   /// フィードバック帯で読み上げ済みの問題（同じ問題で二重に鳴らさない）。
   int? _spokenFeedbackIndex;
 
-  Future<void> _speakCurrent(StudySessionState session, {bool count = false}) async {
+  Future<void> _speakCurrent(
+    StudySessionState session, {
+    bool count = false,
+  }) async {
     final service = ref.read(pronunciationProvider(session.profile)).value;
     final word = session.currentWord;
     if (service == null || word == null) return;
@@ -184,10 +187,10 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
                         vertical: 12,
                       ),
                       child: _Question(
-                      session: session,
-                      word: word,
-                      onReplay: () => _speakCurrent(session, count: true),
-                    ),
+                        session: session,
+                        word: word,
+                        onReplay: () => _speakCurrent(session, count: true),
+                      ),
                     ),
                   ),
                   if (session.phase == StudyPhase.feedback)
@@ -208,8 +211,9 @@ class _SpellStudyScreenState extends ConsumerState<SpellStudyScreen> {
                         session.profile.keyboardLayout,
                       ),
                       onKey: ref.read(studySessionProvider.notifier).typeLetter,
-                      onBackspace:
-                          ref.read(studySessionProvider.notifier).backspace,
+                      onBackspace: ref
+                          .read(studySessionProvider.notifier)
+                          .backspace,
                       onSubmit: session.canSubmit ? _submit : null,
                     ),
                 ],

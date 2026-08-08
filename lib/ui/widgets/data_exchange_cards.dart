@@ -233,10 +233,7 @@ class _CsvCardState extends ConsumerState<CsvCard> {
         children: [
           Text('単語帳の CSV', style: AppText.sectionTitle()),
           const SizedBox(height: 4),
-          Text(
-            '単語だけを表計算で扱える形にします。学習の記録は含まれません。',
-            style: AppText.caption(),
-          ),
+          Text('単語だけを表計算で扱える形にします。学習の記録は含まれません。', style: AppText.caption()),
           const SizedBox(height: 12),
           SoftDropdown<int>(
             value: selected.wordbook.id,
@@ -245,7 +242,8 @@ class _CsvCardState extends ConsumerState<CsvCard> {
               for (final b in books)
                 (
                   value: b.wordbook.id,
-                  label: '${b.wordbook.emoji} ${b.wordbook.name}（${b.wordCount}語）',
+                  label:
+                      '${b.wordbook.emoji} ${b.wordbook.name}（${b.wordCount}語）',
                 ),
             ],
             onChanged: (id) => setState(() => _selectedId = id),

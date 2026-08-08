@@ -76,7 +76,10 @@ class _FlashcardScreenState extends ConsumerState<FlashcardScreen> {
       ref.read(flashcardProvider)?.phase == FlashcardPhase.showing;
 
   /// 読み上げの**完了**を送りの契機にする。固定秒のタイマーで代用しない。
-  Future<void> _speakThenAdvance(FlashcardState session, SpeechLang lang) async {
+  Future<void> _speakThenAdvance(
+    FlashcardState session,
+    SpeechLang lang,
+  ) async {
     final service = ref.read(pronunciationProvider(session.profile)).value;
     final word = session.currentWord;
     if (service == null || word == null) return;
@@ -332,7 +335,11 @@ class _HaltedView extends StatelessWidget {
               const SizedBox(height: 12),
               Text('読み上げできなかったので止めました', style: AppText.sectionTitle()),
               const SizedBox(height: 6),
-              Text(reason, textAlign: TextAlign.center, style: AppText.caption()),
+              Text(
+                reason,
+                textAlign: TextAlign.center,
+                style: AppText.caption(),
+              ),
               const SizedBox(height: 20),
               FilledButton(
                 style: FilledButton.styleFrom(

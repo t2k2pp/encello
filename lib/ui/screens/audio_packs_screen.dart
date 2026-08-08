@@ -143,9 +143,9 @@ class _AudioPacksScreenState extends ConsumerState<AudioPacksScreen> {
 
   Future<void> _setEnabled(String packId, bool enabled) async {
     final db = ref.read(databaseProvider);
-    final pack = await (db.select(db.audioPacks)
-          ..where((t) => t.packId.equals(packId)))
-        .getSingleOrNull();
+    final pack = await (db.select(
+      db.audioPacks,
+    )..where((t) => t.packId.equals(packId))).getSingleOrNull();
     if (pack == null) return;
     await _updateEnabledIds((ids) {
       final next = [...ids]..remove(pack.id);
@@ -246,14 +246,14 @@ class _AudioPacksScreenState extends ConsumerState<AudioPacksScreen> {
               return const EmptyState(
                 emoji: '🎙',
                 message: '音声パックがありません',
-                subMessage: '録音された発音のファイルを取り込むと、その語は録音で読み上げます。'
+                subMessage:
+                    '録音された発音のファイルを取り込むと、その語は録音で読み上げます。'
                     '入れていない語は合成音声で読み上げます。',
               );
             }
             // 使用中のものを優先順位の順に上へ、未使用をその下へ。
             final ordered = [
-              for (final id in enabled)
-                ...packs.where((p) => p.id == id),
+              for (final id in enabled) ...packs.where((p) => p.id == id),
               ...packs.where((p) => !enabled.contains(p.id)),
             ];
             return ListView.separated(

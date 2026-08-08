@@ -33,10 +33,7 @@ void main() {
           '訳$i',
   };
 
-  Future<ProviderContainer> pump(
-    WidgetTester tester,
-    Profile profile,
-  ) async {
+  Future<ProviderContainer> pump(WidgetTester tester, Profile profile) async {
     final container = await pumpWithProviders(
       tester,
       db: db,
@@ -374,10 +371,9 @@ void main() {
       expect(reviews, hasLength(2));
       expect(reviews.every((r) => r.totalIncorrect == 1), isTrue);
       // ログは出題した語の分だけ（解答は1回だから）。
-      final logs =
-          await (db.select(db.learningLogs)
-                ..where((t) => t.mode.equals(StudyMode.confusion.value)))
-              .get();
+      final logs = await (db.select(
+        db.learningLogs,
+      )..where((t) => t.mode.equals(StudyMode.confusion.value))).get();
       expect(logs, hasLength(1));
     });
   });

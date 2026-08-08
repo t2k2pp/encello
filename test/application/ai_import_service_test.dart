@@ -105,7 +105,9 @@ void main() {
       );
 
       await service.import(
-        book(words: [word(headword: 'apple', meaning: '新しい訳のつもり')]),
+        book(
+          words: [word(headword: 'apple', meaning: '新しい訳のつもり')],
+        ),
       );
 
       final saved = await (db.select(
@@ -123,7 +125,9 @@ void main() {
       );
 
       final result = await service.import(
-        book(words: [word(headword: 'run', partOfSpeech: PartOfSpeech.noun)]),
+        book(
+          words: [word(headword: 'run', partOfSpeech: PartOfSpeech.noun)],
+        ),
       );
 
       expect(result.newWordCount, 1);
@@ -153,9 +157,7 @@ void main() {
       expect(appleRow.isExisting, isTrue);
       expect(appleRow.meaning, '既存の訳', reason: '既存語の訳を出す（上書きしない）');
 
-      final bananaRow = preview.words.firstWhere(
-        (w) => w.headword == 'banana',
-      );
+      final bananaRow = preview.words.firstWhere((w) => w.headword == 'banana');
       expect(bananaRow.isExisting, isFalse);
 
       // プレビューは DB を書き換えない。
@@ -164,10 +166,7 @@ void main() {
     });
 
     test('先頭20語だけを返す', () async {
-      final words = List.generate(
-        30,
-        (i) => word(headword: 'word$i'),
-      );
+      final words = List.generate(30, (i) => word(headword: 'word$i'));
       final preview = await service.preview(book(words: words));
       expect(preview.totalCount, 30);
       expect(preview.words, hasLength(20));
@@ -177,11 +176,21 @@ void main() {
   group('既存の単語帳に足す（分割取り込み）', () {
     test('同じ単語帳に2回に分けて取り込める', () async {
       final first = await service.import(
-        book(words: [word(headword: 'apple'), word(headword: 'banana')]),
+        book(
+          words: [
+            word(headword: 'apple'),
+            word(headword: 'banana'),
+          ],
+        ),
       );
 
       final second = await service.import(
-        book(words: [word(headword: 'cherry'), word(headword: 'banana')]),
+        book(
+          words: [
+            word(headword: 'cherry'),
+            word(headword: 'banana'),
+          ],
+        ),
         targetWordbookId: first.wordbookId,
       );
 
@@ -209,7 +218,12 @@ void main() {
 
       await expectLater(
         service.import(
-          book(words: [word(headword: 'apple'), word(headword: 'banana')]),
+          book(
+            words: [
+              word(headword: 'apple'),
+              word(headword: 'banana'),
+            ],
+          ),
           targetWordbookId: invalidWordbookId,
         ),
         throwsA(anything),

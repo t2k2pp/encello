@@ -1,7 +1,8 @@
 import 'package:drift/drift.dart' hide isNull, isNotNull;
 import 'package:encello/application/answer_submission_service.dart';
 import 'package:encello/application/session_finalizer.dart';
-import 'package:encello/application/study_launcher.dart' show kSpeedQuestionCount;
+import 'package:encello/application/study_launcher.dart'
+    show kSpeedQuestionCount;
 import 'package:encello/core/utils/enums.dart';
 import 'package:encello/data/database/app_database.dart';
 import 'package:encello/data/repositories/study_repository.dart';
@@ -72,7 +73,10 @@ void main() {
 
   group('スピードの全問時間内ボーナス', () {
     test('50問すべて正解ならセッションと日次集計に +50 が付く', () async {
-      final id = await startSession(StudyMode.speed, planned: kSpeedQuestionCount);
+      final id = await startSession(
+        StudyMode.speed,
+        planned: kSpeedQuestionCount,
+      );
       await answerAll(id, mode: StudyMode.speed, count: kSpeedQuestionCount);
 
       final before = (await db.select(db.studySessions).getSingle()).xpEarned;
@@ -88,14 +92,14 @@ void main() {
         (await db.select(db.studySessions).getSingle()).xpEarned,
         before + 50,
       );
-      expect(
-        (await db.select(db.dailyStats).getSingle()).xp,
-        dailyBefore + 50,
-      );
+      expect((await db.select(db.dailyStats).getSingle()).xp, dailyBefore + 50);
     });
 
     test('1問でも落とすとボーナスは付かない', () async {
-      final id = await startSession(StudyMode.speed, planned: kSpeedQuestionCount);
+      final id = await startSession(
+        StudyMode.speed,
+        planned: kSpeedQuestionCount,
+      );
       await answerAll(
         id,
         mode: StudyMode.speed,

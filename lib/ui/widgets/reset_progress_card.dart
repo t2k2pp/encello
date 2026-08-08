@@ -67,13 +67,25 @@ class _ResetProgressCardState extends ConsumerState<ResetProgressCard> {
               Text('次を削除します（単語帳・単語・マイ単語は残ります）。', style: AppText.body()),
               const SizedBox(height: 8),
               Text('・解答履歴 ${counts.learningLogs}件', style: AppText.caption()),
-              Text('・学習セッション ${counts.studySessions}件', style: AppText.caption()),
+              Text(
+                '・学習セッション ${counts.studySessions}件',
+                style: AppText.caption(),
+              ),
               Text('・単語の学習状態 ${counts.wordReviews}件', style: AppText.caption()),
-              Text('・語の部品の学習状態 ${counts.partReviews}件', style: AppText.caption()),
+              Text(
+                '・語の部品の学習状態 ${counts.partReviews}件',
+                style: AppText.caption(),
+              ),
               Text('・日次集計 ${counts.dailyStats}件', style: AppText.caption()),
               Text('・実績 ${counts.achievements}件', style: AppText.caption()),
-              Text('・語彙力測定 ${counts.vocabSizeTests}件', style: AppText.caption()),
-              Text('・解消した取り違え ${counts.resolvedConfusions}件', style: AppText.caption()),
+              Text(
+                '・語彙力測定 ${counts.vocabSizeTests}件',
+                style: AppText.caption(),
+              ),
+              Text(
+                '・解消した取り違え ${counts.resolvedConfusions}件',
+                style: AppText.caption(),
+              ),
               const SizedBox(height: 12),
               OutlinedButton.icon(
                 onPressed: () => _exportBackup(ctx),

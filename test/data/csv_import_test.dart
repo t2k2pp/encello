@@ -9,7 +9,8 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// CSV の取り込み（[Docs/06_features/wordbooks.md] §5）。
 void main() {
-  const header = 'headword,partOfSpeech,phonetic,meaning,exampleEn,exampleJa,level';
+  const header =
+      'headword,partOfSpeech,phonetic,meaning,exampleEn,exampleJa,level';
 
   group('読み取り', () {
     test('ヘッダ行ありを読める', () {
@@ -150,7 +151,12 @@ void main() {
         decodeTextFile(Uint8List.fromList(utf8.encode(text)))!.charset,
         TextCharset.utf8,
       );
-      final withBom = Uint8List.fromList([0xEF, 0xBB, 0xBF, ...utf8.encode(text)]);
+      final withBom = Uint8List.fromList([
+        0xEF,
+        0xBB,
+        0xBF,
+        ...utf8.encode(text),
+      ]);
       final decoded = decodeTextFile(withBom)!;
       expect(decoded.charset, TextCharset.utf8);
       expect(decoded.text.startsWith('apple'), isTrue, reason: 'BOM を落とす');
@@ -164,7 +170,10 @@ void main() {
       expect(decoded.charset, TextCharset.shiftJis);
       expect(decoded.text, 'apple,noun,,りんご,,,1');
       expect(
-        WordbookCsvCodec.decode(decoded.text, hasHeader: false).words.single.meaning,
+        WordbookCsvCodec.decode(
+          decoded.text,
+          hasHeader: false,
+        ).words.single.meaning,
         'りんご',
       );
     });

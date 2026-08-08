@@ -26,10 +26,7 @@ void main() {
 
   group('studyDayStart', () {
     test('22:00 に解いた語の起点はその日の 04:00', () {
-      expect(
-        studyDayStart(DateTime(2026, 8, 3, 22)),
-        DateTime(2026, 8, 3, 4),
-      );
+      expect(studyDayStart(DateTime(2026, 8, 3, 22)), DateTime(2026, 8, 3, 4));
     });
 
     test('深夜2時に解いた語の起点は前日の 04:00', () {

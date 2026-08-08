@@ -317,17 +317,17 @@ SELECT w.id AS word_id,
   Future<Map<int, Word>> loadWords(Iterable<int> wordIds) async {
     final ids = wordIds.toSet().toList();
     if (ids.isEmpty) return const {};
-    final rows =
-        await (_db.select(_db.words)..where((t) => t.id.isIn(ids))).get();
+    final rows = await (_db.select(
+      _db.words,
+    )..where((t) => t.id.isIn(ids))).get();
     return {for (final w in rows) w.id: w};
   }
 
   /// 解除済みの実績（code → 解除日時）。
   Future<Map<String, DateTime>> unlockedAchievements(int profileId) async {
-    final rows =
-        await (_db.select(_db.achievements)
-              ..where((t) => t.profileId.equals(profileId)))
-            .get();
+    final rows = await (_db.select(
+      _db.achievements,
+    )..where((t) => t.profileId.equals(profileId))).get();
     return {for (final r in rows) r.code: r.unlockedAt};
   }
 
@@ -361,11 +361,9 @@ SELECT w.id AS word_id,
     required int longestStreak,
   }) async {
     final sessions =
-        await (_db.select(_db.studySessions)
-              ..where(
-                (t) =>
-                    t.profileId.equals(profileId) & t.finishedAt.isNotNull(),
-              ))
+        await (_db.select(_db.studySessions)..where(
+              (t) => t.profileId.equals(profileId) & t.finishedAt.isNotNull(),
+            ))
             .get();
 
     var bestPerfect = 0;
@@ -424,12 +422,16 @@ SELECT w.id AS word_id,
     );
   }
 
-  Future<int> _countRows(TableInfo<Table, dynamic> table, Expression<bool> where) async {
+  Future<int> _countRows(
+    TableInfo<Table, dynamic> table,
+    Expression<bool> where,
+  ) async {
     final expr = countAll();
-    final row = await (_db.selectOnly(table)
-          ..addColumns([expr])
-          ..where(where))
-        .getSingle();
+    final row =
+        await (_db.selectOnly(table)
+              ..addColumns([expr])
+              ..where(where))
+            .getSingle();
     return row.read(expr) ?? 0;
   }
 

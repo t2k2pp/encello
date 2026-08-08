@@ -276,9 +276,7 @@ class _PasteImportScreenState extends ConsumerState<PasteImportScreen> {
               backgroundColor: AppColors.accent,
               minimumSize: const Size.fromHeight(48),
             ),
-            onPressed: _busy || _textCtrl.text.trim().isEmpty
-                ? null
-                : _confirm,
+            onPressed: _busy || _textCtrl.text.trim().isEmpty ? null : _confirm,
             child: const Text('確認する'),
           ),
         ];

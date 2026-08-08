@@ -34,11 +34,16 @@ class ReminderScheduler {
   }
 
   /// 予約内容を組み立てる（テストから内容だけを検証できるよう分けている）。
-  Future<ReminderPlan> buildPlan(Profile profile, {required DateTime now}) async {
+  Future<ReminderPlan> buildPlan(
+    Profile profile, {
+    required DateTime now,
+  }) async {
     final today = studyDateOf(now);
     final daily = await _stats.dailyStats(profile.id);
     final streak = StreakCalculator.calculate(
-      daily.map((d) => DailyGoalMark(studyDate: d.studyDate, goalMet: d.goalMet)),
+      daily.map(
+        (d) => DailyGoalMark(studyDate: d.studyDate, goalMet: d.goalMet),
+      ),
       today: today,
     );
     final goalMetToday = daily.any((d) => d.studyDate == today && d.goalMet);
@@ -60,8 +65,7 @@ class ReminderScheduler {
       now: now,
       goalMetToday: goalMetToday,
       streakDays: streak.current,
-      dueCountAt: (at) =>
-          dueDates.where((d) => !d.isAfter(at)).length,
+      dueCountAt: (at) => dueDates.where((d) => !d.isAfter(at)).length,
     );
   }
 

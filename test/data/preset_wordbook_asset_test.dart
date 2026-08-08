@@ -25,10 +25,11 @@ void main() {
       final asset =
           jsonDecode(File('assets/wordbooks/$book.json').readAsStringSync())
               as Map<String, Object?>;
-      final manifest = jsonDecode(
-            File('tool/wordbooks/src/$book/_book.json').readAsStringSync(),
-          )
-          as Map<String, Object?>;
+      final manifest =
+          jsonDecode(
+                File('tool/wordbooks/src/$book/_book.json').readAsStringSync(),
+              )
+              as Map<String, Object?>;
       final words = readAssetWords(asset);
 
       test('検証エラーが無い', () {
@@ -61,9 +62,9 @@ void main() {
 
       test('presetId が <presetId>:<headword>:<partOfSpeech> で一意', () {
         final ids = <String>{};
-        for (final raw in (asset['words'] as List).cast<Map<String, Object?>>()) {
-          final expected =
-              '$book:${raw['headword']}:${raw['partOfSpeech']}';
+        for (final raw
+            in (asset['words'] as List).cast<Map<String, Object?>>()) {
+          final expected = '$book:${raw['headword']}:${raw['partOfSpeech']}';
           expect(raw['presetId'], expected);
           expect(ids.add(expected), isTrue, reason: '重複: $expected');
         }
@@ -92,8 +93,9 @@ void main() {
 
 Set<String> _readAllowedWords() {
   final words = <String>{};
-  for (final line
-      in File('tool/wordbooks/allowed_example_words.txt').readAsLinesSync()) {
+  for (final line in File(
+    'tool/wordbooks/allowed_example_words.txt',
+  ).readAsLinesSync()) {
     final trimmed = line.trim();
     if (trimmed.isEmpty || trimmed.startsWith('#')) continue;
     for (final w in trimmed.split(RegExp(r'\s+'))) {

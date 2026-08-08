@@ -37,11 +37,8 @@ class WordPartDetailScreen extends ConsumerWidget {
       body: CenteredContent(
         child: async.when(
           loading: () => const Center(child: CircularProgressIndicator()),
-          error: (e, _) => EmptyState(
-            emoji: '⚠️',
-            message: '読み込めませんでした',
-            subMessage: '$e',
-          ),
+          error: (e, _) =>
+              EmptyState(emoji: '⚠️', message: '読み込めませんでした', subMessage: '$e'),
           data: (words) => ListView(
             padding: spacing.screenPadding.copyWith(bottom: 32),
             children: [
@@ -117,9 +114,7 @@ class _WordsCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final learned = words
-        .where((w) => w.mastery != Mastery.unlearned)
-        .length;
+    final learned = words.where((w) => w.mastery != Mastery.unlearned).length;
     // 未学習を上に並べる（次に埋めるべき穴が見える）。
     final ordered = [...words]
       ..sort((a, b) => a.mastery.level.compareTo(b.mastery.level));
@@ -139,10 +134,8 @@ class _WordsCard extends ConsumerWidget {
             InkWell(
               onTap: () => Navigator.of(context).push(
                 MaterialPageRoute<void>(
-                  builder: (_) => WordDetailScreen(
-                    wordId: entry.word.id,
-                    profile: profile,
-                  ),
+                  builder: (_) =>
+                      WordDetailScreen(wordId: entry.word.id, profile: profile),
                 ),
               ),
               child: Padding(
@@ -154,10 +147,7 @@ class _WordsCard extends ConsumerWidget {
                         entry.word.headword,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
-                        style: AppText.style(
-                          size: 15,
-                          weight: FontWeight.w700,
-                        ),
+                        style: AppText.style(size: 15, weight: FontWeight.w700),
                       ),
                     ),
                     const SizedBox(width: 8),

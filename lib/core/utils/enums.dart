@@ -59,11 +59,10 @@ enum KeyboardLayout {
   final String label;
   const KeyboardLayout(this.value, this.label);
 
-  static KeyboardLayout fromValue(String v) =>
-      KeyboardLayout.values.firstWhere(
-        (e) => e.value == v,
-        orElse: () => throw FormatException('未知のKeyboardLayout: $v'),
-      );
+  static KeyboardLayout fromValue(String v) => KeyboardLayout.values.firstWhere(
+    (e) => e.value == v,
+    orElse: () => throw FormatException('未知のKeyboardLayout: $v'),
+  );
 }
 
 /// フラッシュカードの送り方（FR-24）。

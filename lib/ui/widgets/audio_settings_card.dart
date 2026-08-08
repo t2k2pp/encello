@@ -52,10 +52,7 @@ class AudioSettingsCard extends ConsumerWidget {
         children: [
           Text('音声', style: AppText.sectionTitle()),
           const SizedBox(height: 4),
-          Text(
-            '単語の読み上げに使う音源を選べます。例文は常に合成音声で読み上げます。',
-            style: AppText.caption(),
-          ),
+          Text('単語の読み上げに使う音源を選べます。例文は常に合成音声で読み上げます。', style: AppText.caption()),
           // 音声パックが1つも無いときは「音源」を選ぶ意味がないので出さない。
           if (packs.isNotEmpty) ...[
             const SizedBox(height: 12),
@@ -66,10 +63,8 @@ class AudioSettingsCard extends ConsumerWidget {
                 for (final o in AudioSourcePreference.values)
                   (value: o, label: o.label),
               ],
-              onChanged: (o) => _patch(
-                ref,
-                ProfilesCompanion(audioSource: Value(o.value)),
-              ),
+              onChanged: (o) =>
+                  _patch(ref, ProfilesCompanion(audioSource: Value(o.value))),
             ),
           ] else ...[
             const SizedBox(height: 8),
@@ -120,9 +115,7 @@ class AudioSettingsCard extends ConsumerWidget {
   }
 
   Future<void> _patch(WidgetRef ref, ProfilesCompanion patch) async {
-    await ref
-        .read(profileRepositoryProvider)
-        .updateSettings(profile.id, patch);
+    await ref.read(profileRepositoryProvider).updateSettings(profile.id, patch);
     await ref.read(activeProfileProvider.notifier).reload();
   }
 

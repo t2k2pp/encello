@@ -70,10 +70,7 @@ void main() {
         fresh(3, sortOrder: 0),
       ], limit: 3);
       expect(queue.map((e) => e.wordId).toSet(), {1, 2, 3});
-      expect(
-        queue.firstWhere((e) => e.wordId == 1).source,
-        QueueSource.due,
-      );
+      expect(queue.firstWhere((e) => e.wordId == 1).source, QueueSource.due);
       expect(
         queue.firstWhere((e) => e.wordId == 2).source,
         QueueSource.newWord,
@@ -136,18 +133,17 @@ void main() {
 
   group('新規のみ', () {
     test('未学習語だけを取る', () {
-      final queue = build(
-        [reviewed(1, dueAt: DateTime(2026, 8, 3)), fresh(2)],
-        policy: QueuePolicy.newOnly,
-      );
+      final queue = build([
+        reviewed(1, dueAt: DateTime(2026, 8, 3)),
+        fresh(2),
+      ], policy: QueuePolicy.newOnly);
       expect(queue.single.wordId, 2);
     });
 
     test('未学習語が無ければ空', () {
-      final queue = build(
-        [reviewed(1, dueAt: DateTime(2026, 8, 3))],
-        policy: QueuePolicy.newOnly,
-      );
+      final queue = build([
+        reviewed(1, dueAt: DateTime(2026, 8, 3)),
+      ], policy: QueuePolicy.newOnly);
       expect(queue, isEmpty);
     });
   });
@@ -256,10 +252,9 @@ void main() {
     test('シャッフルしても件数と中身は変わらない', () {
       final queue = build(pool, seed: 7, limit: 20);
       expect(queue, hasLength(20));
-      expect(
-        queue.map((e) => e.wordId).toList()..sort(),
-        [for (var i = 1; i <= 20; i++) i],
-      );
+      expect(queue.map((e) => e.wordId).toList()..sort(), [
+        for (var i = 1; i <= 20; i++) i,
+      ]);
     });
   });
 

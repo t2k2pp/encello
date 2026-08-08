@@ -55,7 +55,8 @@ void main() {
       db,
       me,
       headwords: {
-        for (var i = 0; i < 12; i++) 'word${String.fromCharCode(97 + i)}': '訳$i',
+        for (var i = 0; i < 12; i++)
+          'word${String.fromCharCode(97 + i)}': '訳$i',
       },
     );
     final words = await db.select(db.words).get();
@@ -271,17 +272,15 @@ void main() {
 
       // 答えた語（decision）だけが更新され、提示語（decide）は変わらない。
       final reviews = await db.select(db.wordReviews).get();
-      final decision = await (db.select(db.words)
-            ..where((t) => t.headword.equals('decision')))
-          .getSingle();
-      final decisionReview = reviews.firstWhere(
-        (r) => r.wordId == decision.id,
-      );
+      final decision = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('decision'))).getSingle();
+      final decisionReview = reviews.firstWhere((r) => r.wordId == decision.id);
       expect(decisionReview.totalCorrect, 1);
 
-      final decide = await (db.select(db.words)
-            ..where((t) => t.headword.equals('decide')))
-          .getSingle();
+      final decide = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('decide'))).getSingle();
       final decideReview = reviews.firstWhere((r) => r.wordId == decide.id);
       expect(decideReview.totalCorrect, 0);
       expect(decideReview.masteryLevel, Mastery.learning.level);

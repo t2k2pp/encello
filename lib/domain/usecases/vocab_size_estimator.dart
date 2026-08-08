@@ -101,8 +101,7 @@ class VocabSizeEstimate {
   ///
   /// 帯ごとの表示値（[VocabBandResult.estimatedWords]）の合計と一致させるため、
   /// 丸めは帯ごとに行う。
-  int get estimatedSize =>
-      bands.fold(0, (sum, b) => sum + b.estimatedWords);
+  int get estimatedSize => bands.fold(0, (sum, b) => sum + b.estimatedWords);
 
   /// 次に取り組むとよい帯（[Docs/06_features/vocab_size_test.md] §5.1）。
   ///
@@ -143,7 +142,10 @@ abstract final class VocabSizeEstimator {
   /// ```
   ///
   /// `f` が高い（擬似語にも「わかる」と答えた）人ほど、実在語の正答も割り引かれる。
-  static double correct({required double hitRate, required double falseAlarmRate}) {
+  static double correct({
+    required double hitRate,
+    required double falseAlarmRate,
+  }) {
     if (falseAlarmRate >= 1) return 0;
     final value = (hitRate - falseAlarmRate) / (1 - falseAlarmRate);
     return value.clamp(0.0, 1.0);

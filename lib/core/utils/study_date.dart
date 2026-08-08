@@ -15,8 +15,9 @@ const studyDayStartHour = 4;
 final _studyDateFormat = DateFormat('yyyy-MM-dd');
 
 /// ローカル時刻 [local] が属する学習日（`YYYY-MM-DD`）。
-String studyDateOf(DateTime local) =>
-    _studyDateFormat.format(local.subtract(const Duration(hours: studyDayStartHour)));
+String studyDateOf(DateTime local) => _studyDateFormat.format(
+  local.subtract(const Duration(hours: studyDayStartHour)),
+);
 
 /// ローカル時刻 [local] が属する学習日の起点（その日の 04:00）。
 ///

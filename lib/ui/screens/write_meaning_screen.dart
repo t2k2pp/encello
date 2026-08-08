@@ -23,8 +23,7 @@ class WriteMeaningScreen extends ConsumerStatefulWidget {
   const WriteMeaningScreen({super.key, required this.profile});
 
   @override
-  ConsumerState<WriteMeaningScreen> createState() =>
-      _WriteMeaningScreenState();
+  ConsumerState<WriteMeaningScreen> createState() => _WriteMeaningScreenState();
 }
 
 class _WriteMeaningScreenState extends ConsumerState<WriteMeaningScreen> {

@@ -97,10 +97,7 @@ class _SessionResultScreenState extends ConsumerState<SessionResultScreen> {
                     SizedBox(height: spacing.gap),
                   ],
                   if (summary.missedWords.isNotEmpty) ...[
-                    _MissedCard(
-                      words: summary.missedWords,
-                      profile: _profile,
-                    ),
+                    _MissedCard(words: summary.missedWords, profile: _profile),
                     SizedBox(height: spacing.gap),
                   ],
                   FilledButton(
@@ -281,10 +278,7 @@ class _MissedCard extends StatelessWidget {
                         word.headword,
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
-                        style: AppText.style(
-                          size: 15,
-                          weight: FontWeight.w700,
-                        ),
+                        style: AppText.style(size: 15, weight: FontWeight.w700),
                       ),
                     ),
                     const SizedBox(width: 8),

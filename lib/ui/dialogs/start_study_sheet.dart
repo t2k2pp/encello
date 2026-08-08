@@ -141,9 +141,9 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
       }
       if (!mounted) return;
       Navigator.of(context).pop();
-      await Navigator.of(context).push(
-        MaterialPageRoute<void>(builder: (_) => const SpellStudyScreen()),
-      );
+      await Navigator.of(
+        context,
+      ).push(MaterialPageRoute<void>(builder: (_) => const SpellStudyScreen()));
     } on StudyStartFailure catch (e) {
       // 空のセッションを開始しない。シートを閉じず理由を出す。
       if (mounted) {
@@ -164,7 +164,8 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
 
   @override
   Widget build(BuildContext context) {
-    final books = ref.watch(wordbooksProvider(widget.profile.id)).value ?? const [];
+    final books =
+        ref.watch(wordbooksProvider(widget.profile.id)).value ?? const [];
     final modes =
         ref.watch(availableModesProvider(widget.profile)).value ??
         const [StudyMode.spell];
@@ -231,21 +232,21 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
             // スピードは50問固定、取り違えは自分の組の数で決まる。
             if (_mode != StudyMode.speed) ...[
               Text('問題数', style: AppText.caption()),
-            const SizedBox(height: 6),
-            SegmentedButton<int>(
-              showSelectedIcon: false,
-              style: SegmentedButton.styleFrom(
-                visualDensity: VisualDensity.compact,
-              ),
-              segments: [
-                for (final n in _limits)
-                  ButtonSegment(
-                    value: n ?? _allCount,
-                    label: Text(n == null ? '全部' : '$n'),
-                  ),
-              ],
-              selected: {_limit},
-              onSelectionChanged: (s) => setState(() => _limit = s.first),
+              const SizedBox(height: 6),
+              SegmentedButton<int>(
+                showSelectedIcon: false,
+                style: SegmentedButton.styleFrom(
+                  visualDensity: VisualDensity.compact,
+                ),
+                segments: [
+                  for (final n in _limits)
+                    ButtonSegment(
+                      value: n ?? _allCount,
+                      label: Text(n == null ? '全部' : '$n'),
+                    ),
+                ],
+                selected: {_limit},
+                onSelectionChanged: (s) => setState(() => _limit = s.first),
               ),
             ],
             // 取り違えは対象が自分の組に限られるので、出題方針の行を出さない。

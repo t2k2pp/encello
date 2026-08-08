@@ -27,7 +27,8 @@ class AudioPacks extends Table {
   /// 収録音声数。
   IntColumn get entryCount => integer().withDefault(const Constant(0))();
 
-  DateTimeColumn get installedAt => dateTime().withDefault(currentDateAndTime)();
+  DateTimeColumn get installedAt =>
+      dateTime().withDefault(currentDateAndTime)();
 
   /// 優先順位（同じ語が複数パックにあるとき小さいものを使う）。
   IntColumn get sortOrder => integer().withDefault(const Constant(0))();

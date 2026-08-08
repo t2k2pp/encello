@@ -61,11 +61,14 @@ class _MyWordsScreenState extends ConsumerState<MyWordsScreen> {
   }
 
   /// 実際にクエリへ渡す習熟度（下書きのみ ON のときは強制的に draft）。
-  DictionaryQuery get _effectiveQuery =>
-      _query.copyWith(mastery: _draftOnly ? MasteryFilter.draft : _query.mastery);
+  DictionaryQuery get _effectiveQuery => _query.copyWith(
+    mastery: _draftOnly ? MasteryFilter.draft : _query.mastery,
+  );
 
   bool get _filterActive =>
-      _query.search.isNotEmpty || _query.mastery != MasteryFilter.all || _draftOnly;
+      _query.search.isNotEmpty ||
+      _query.mastery != MasteryFilter.all ||
+      _draftOnly;
 
   void _reset() {
     setState(() {
@@ -146,7 +149,9 @@ class _MyWordsScreenState extends ConsumerState<MyWordsScreen> {
                     ),
                   ),
                   IconButton(
-                    tooltip: _viewMode == ListViewMode.grid ? 'リスト表示' : 'グリッド表示',
+                    tooltip: _viewMode == ListViewMode.grid
+                        ? 'リスト表示'
+                        : 'グリッド表示',
                     onPressed: () => setState(() {
                       _viewMode = _viewMode == ListViewMode.list
                           ? ListViewMode.grid
@@ -209,8 +214,9 @@ class _MyWordsScreenState extends ConsumerState<MyWordsScreen> {
                               if (m != MasteryFilter.draft)
                                 (value: m, label: '習熟度: ${m.label}'),
                           ],
-                          onChanged: (m) =>
-                              setState(() => _query = _query.copyWith(mastery: m)),
+                          onChanged: (m) => setState(
+                            () => _query = _query.copyWith(mastery: m),
+                          ),
                         ),
                       ),
                       const SizedBox(width: 8),

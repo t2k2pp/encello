@@ -158,15 +158,15 @@ final fileExchangeServiceProvider = Provider<FileExchangeService>(
 /// ウィジェットテストでは isolate を起こさない実装に差し替える
 /// （[Docs/07_testing_strategy.md] §4）。
 final backupEncoderProvider = Provider<Future<String> Function(BackupPayload)>(
-  (ref) => (payload) => compute(encodeBackupJson, payload),
+  (ref) =>
+      (payload) => compute(encodeBackupJson, payload),
 );
 
 /// 現在の学習者から見える単語帳（共有＋自分のマイ単語帳）。
-final wordbooksProvider =
-    StreamProvider.family<List<WordbookWithCount>, int>(
-      (ref, profileId) =>
-          ref.watch(wordbookRepositoryProvider).watchVisible(profileId),
-    );
+final wordbooksProvider = StreamProvider.family<List<WordbookWithCount>, int>(
+  (ref, profileId) =>
+      ref.watch(wordbookRepositoryProvider).watchVisible(profileId),
+);
 
 /// 登録されている学習者の一覧（プロファイルゲート・学習者管理が見る）。
 final profilesProvider = StreamProvider<List<Profile>>(
@@ -222,7 +222,9 @@ class ActiveProfileNotifier extends Notifier<Profile?> {
   Future<void> reload() async {
     final current = state;
     if (current == null) return;
-    final fresh = await ref.read(profileRepositoryProvider).findById(current.id);
+    final fresh = await ref
+        .read(profileRepositoryProvider)
+        .findById(current.id);
     if (fresh == null) {
       // 現在の学習者が消えた（他画面からの削除）。ゲートへ戻して選び直させる。
       clear();
@@ -239,8 +241,9 @@ class ActiveProfileNotifier extends Notifier<Profile?> {
   }
 }
 
-final activeProfileProvider =
-    NotifierProvider<ActiveProfileNotifier, Profile?>(ActiveProfileNotifier.new);
+final activeProfileProvider = NotifierProvider<ActiveProfileNotifier, Profile?>(
+  ActiveProfileNotifier.new,
+);
 
 /// ルートのタブ位置（ホーム/辞書/統計/設定）。学習者・配色の切替でサブツリーを
 /// 作り直しても現在タブを保つため、ローカル state ではなく provider に持つ。

@@ -12,16 +12,13 @@ void main() {
   const bananaId = 2;
 
   /// apple にだけ英語の音声ファイルがある索引。
-  AudioLibrary libraryWithApple() => AudioLibrary(
-    const {
-      (appleId, SpeechLang.en): WordAudioRef(
-        path: '/packs/jhs/apple.mp3',
-        isAsset: false,
-        packName: '中学英単語 音声（米）',
-      ),
-    },
-    1,
-  );
+  AudioLibrary libraryWithApple() => AudioLibrary(const {
+    (appleId, SpeechLang.en): WordAudioRef(
+      path: '/packs/jhs/apple.mp3',
+      isAsset: false,
+      packName: '中学英単語 音声（米）',
+    ),
+  }, 1);
 
   ({
     AudioPronunciationService service,
@@ -110,7 +107,10 @@ void main() {
 
     test('音声パックが1つも無ければバッジを出さない', () {
       expect(build().service.hasAnyAudioPack, isFalse);
-      expect(build(library: libraryWithApple()).service.hasAnyAudioPack, isTrue);
+      expect(
+        build(library: libraryWithApple()).service.hasAnyAudioPack,
+        isTrue,
+      );
     });
   });
 

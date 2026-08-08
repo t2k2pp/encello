@@ -39,9 +39,7 @@ abstract final class SharedTextParser {
   static final _singleWordPattern = RegExp(r'^[A-Za-z]+$');
 
   /// ひらがな・カタカナ・漢字を含むか。
-  static final _japanesePattern = RegExp(
-    '[぀-ゟ゠-ヿ一-鿿]',
-  );
+  static final _japanesePattern = RegExp('[぀-ゟ゠-ヿ一-鿿]');
 
   static SharedTextParseResult parse(String raw) {
     final text = raw.trim();

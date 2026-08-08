@@ -73,20 +73,23 @@ class SessionFinalizer {
     /// スピードモードでのみ。時間内正解だけの平均反応時間（ミリ秒）。
     int? avgReactionMs,
   }) async {
-    await (_db.update(_db.studySessions)..where((t) => t.id.equals(sessionId)))
-        .write(
-          StudySessionsCompanion(
-            finishedAt: Value(finishedAt),
-            avgReactionMs: Value(avgReactionMs),
-          ),
-        );
+    await (_db.update(
+      _db.studySessions,
+    )..where((t) => t.id.equals(sessionId))).write(
+      StudySessionsCompanion(
+        finishedAt: Value(finishedAt),
+        avgReactionMs: Value(avgReactionMs),
+      ),
+    );
     await _applySpeedPerfectBonus(sessionId, finishedAt);
 
     final session = await _requireSession(sessionId);
     final today = studyDateOf(finishedAt);
     final marks = await _stats.dailyStats(session.profileId);
     final streak = StreakCalculator.calculate(
-      marks.map((m) => DailyGoalMark(studyDate: m.studyDate, goalMet: m.goalMet)),
+      marks.map(
+        (m) => DailyGoalMark(studyDate: m.studyDate, goalMet: m.goalMet),
+      ),
       today: today,
     );
     final unlocked = await _unlockAchievements(
@@ -112,9 +115,9 @@ class SessionFinalizer {
     final session = await _study.findSession(sessionId);
     if (session == null) return;
     if (session.answeredCount == 0) {
-      await (_db.delete(_db.studySessions)
-            ..where((t) => t.id.equals(sessionId)))
-          .go();
+      await (_db.delete(
+        _db.studySessions,
+      )..where((t) => t.id.equals(sessionId))).go();
     }
   }
 
@@ -163,13 +166,13 @@ class SessionFinalizer {
     if (session.correctCount != session.answeredCount) return;
 
     await _db.transaction(() async {
-      await (_db.update(_db.studySessions)
-            ..where((t) => t.id.equals(sessionId)))
-          .write(
-            StudySessionsCompanion(
-              xpEarned: Value(session.xpEarned + XpCalculator.speedPerfectXp),
-            ),
-          );
+      await (_db.update(
+        _db.studySessions,
+      )..where((t) => t.id.equals(sessionId))).write(
+        StudySessionsCompanion(
+          xpEarned: Value(session.xpEarned + XpCalculator.speedPerfectXp),
+        ),
+      );
       final studyDate = studyDateOf(finishedAt);
       final daily =
           await (_db.select(_db.dailyStats)..where(

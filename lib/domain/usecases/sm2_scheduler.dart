@@ -39,14 +39,11 @@ abstract final class Sm2Scheduler {
     final recalled = grade >= recallThreshold;
     final repetition = recalled ? state.repetition + 1 : 0;
     final interval = recalled
-        ? math.min(
-            maxIntervalDays,
-            switch (state.repetition) {
-              0 => 1.0,
-              1 => 6.0,
-              _ => (state.intervalDays * ease).roundToDouble(),
-            },
-          )
+        ? math.min(maxIntervalDays, switch (state.repetition) {
+            0 => 1.0,
+            1 => 6.0,
+            _ => (state.intervalDays * ease).roundToDouble(),
+          })
         // 思い出せなかった語は翌日に必ずもう一度出す。
         : 1.0;
 

@@ -84,10 +84,7 @@ void main() {
     ];
 
     test('直近7日だけを見る', () {
-      expect(
-        StatsAggregates.recentAnswered(stats, today: '2026-08-04'),
-        20,
-      );
+      expect(StatsAggregates.recentAnswered(stats, today: '2026-08-04'), 20);
       expect(
         StatsAggregates.recentAccuracy(stats, today: '2026-08-04'),
         closeTo(0.75, 1e-9),
@@ -108,24 +105,20 @@ void main() {
         SpeedAnswer(answeredAt: at, elapsedMs: ms, isCorrect: correct);
 
     test('平均は時間内に正解した問題だけで取る', () {
-      final series = ReactionTimeStats.dailySeries(
-        [
-          answer(DateTime(2026, 8, 4, 20), 1000),
-          answer(DateTime(2026, 8, 4, 20), 2000),
-          // 時間切れ・誤答は平均に混ぜない（制限時間を変えると比べられなくなる）。
-          answer(DateTime(2026, 8, 4, 20), 3000, correct: false),
-        ],
-        today: '2026-08-04',
-      );
+      final series = ReactionTimeStats.dailySeries([
+        answer(DateTime(2026, 8, 4, 20), 1000),
+        answer(DateTime(2026, 8, 4, 20), 2000),
+        // 時間切れ・誤答は平均に混ぜない（制限時間を変えると比べられなくなる）。
+        answer(DateTime(2026, 8, 4, 20), 3000, correct: false),
+      ], today: '2026-08-04');
       expect(series.last.averageMs, 1500);
       expect(series.last.sampleCount, 2);
     });
 
     test('実施していない日は null で線を切る', () {
-      final series = ReactionTimeStats.dailySeries(
-        [answer(DateTime(2026, 8, 4, 20), 1200)],
-        today: '2026-08-04',
-      );
+      final series = ReactionTimeStats.dailySeries([
+        answer(DateTime(2026, 8, 4, 20), 1200),
+      ], today: '2026-08-04');
       expect(series.length, 30);
       expect(series.last.averageMs, 1200);
       expect(series[series.length - 2].averageMs, isNull);
@@ -133,10 +126,9 @@ void main() {
 
     test('学習日は 04:00 区切りで数える', () {
       // 8/5 の 03:59 は学習日 8/4。
-      final series = ReactionTimeStats.dailySeries(
-        [answer(DateTime(2026, 8, 5, 3, 59), 900)],
-        today: '2026-08-04',
-      );
+      final series = ReactionTimeStats.dailySeries([
+        answer(DateTime(2026, 8, 5, 3, 59), 900),
+      ], today: '2026-08-04');
       expect(series.last.studyDate, '2026-08-04');
       expect(series.last.averageMs, 900);
     });

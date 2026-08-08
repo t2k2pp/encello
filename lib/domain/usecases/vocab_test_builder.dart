@@ -35,11 +35,7 @@ class VocabQuestion {
   /// この語が属する帯の単語帳 id。擬似語では null。
   final int? wordbookId;
 
-  const VocabQuestion({
-    required this.headword,
-    this.wordId,
-    this.wordbookId,
-  });
+  const VocabQuestion({required this.headword, this.wordId, this.wordbookId});
 
   /// 擬似語か（結果画面まで伏せる）。
   bool get isPseudo => wordId == null;

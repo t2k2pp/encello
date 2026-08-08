@@ -147,10 +147,9 @@ class SeedImporter {
   }
 
   Future<int> _upsertWordbook(PresetWordbook book) async {
-    final existing =
-        await (_db.select(_db.wordbooks)
-              ..where((t) => t.presetId.equals(book.presetId)))
-            .getSingleOrNull();
+    final existing = await (_db.select(
+      _db.wordbooks,
+    )..where((t) => t.presetId.equals(book.presetId))).getSingleOrNull();
 
     if (existing == null) {
       return _db
@@ -171,20 +170,21 @@ class SeedImporter {
           );
     }
 
-    await (_db.update(_db.wordbooks)..where((t) => t.id.equals(existing.id)))
-        .write(
-          WordbooksCompanion(
-            name: Value(book.name),
-            emoji: Value(book.emoji),
-            colorSeed: Value(book.colorSeed),
-            category: Value(book.category.value),
-            seedVersion: Value(book.seedVersion),
-            bandSize: Value(book.bandSize),
-            note: Value(book.note),
-            sortOrder: Value(book.sortOrder),
-            updatedAt: Value(DateTime.now()),
-          ),
-        );
+    await (_db.update(
+      _db.wordbooks,
+    )..where((t) => t.id.equals(existing.id))).write(
+      WordbooksCompanion(
+        name: Value(book.name),
+        emoji: Value(book.emoji),
+        colorSeed: Value(book.colorSeed),
+        category: Value(book.category.value),
+        seedVersion: Value(book.seedVersion),
+        bandSize: Value(book.bandSize),
+        note: Value(book.note),
+        sortOrder: Value(book.sortOrder),
+        updatedAt: Value(DateTime.now()),
+      ),
+    );
     return existing.id;
   }
 

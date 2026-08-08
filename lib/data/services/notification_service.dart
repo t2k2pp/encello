@@ -94,7 +94,11 @@ class NotificationService implements ReminderService {
         .resolvePlatformSpecificImplementation<
           IOSFlutterLocalNotificationsPlugin
         >();
-    return await ios?.requestPermissions(alert: true, badge: true, sound: true) ??
+    return await ios?.requestPermissions(
+          alert: true,
+          badge: true,
+          sound: true,
+        ) ??
         false;
   }
 
@@ -136,7 +140,9 @@ class NotificationService implements ReminderService {
       id: _idOf(profileId, idsPerProfile - 1),
       title: title,
       body: body,
-      scheduledDate: tz.TZDateTime.now(tz.local).add(const Duration(seconds: 5)),
+      scheduledDate: tz.TZDateTime.now(
+        tz.local,
+      ).add(const Duration(seconds: 5)),
       notificationDetails: _details,
       androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
       payload: '$profileId',

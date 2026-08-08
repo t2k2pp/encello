@@ -41,8 +41,10 @@ class StatsScreen extends ConsumerWidget {
     final spacing = AppSpacing.of(context);
     // 単語帳の選択は他画面からも変わるため、最新の学習者を見る。
     final current = ref.watch(activeProfileProvider) ?? profile;
-    final hasSpeed = ref.watch(hasSpeedSessionsProvider(current.id)).value ?? false;
-    final pairs = ref.watch(confusionPairsProvider(current.id)).value ?? const [];
+    final hasSpeed =
+        ref.watch(hasSpeedSessionsProvider(current.id)).value ?? false;
+    final pairs =
+        ref.watch(confusionPairsProvider(current.id)).value ?? const [];
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -146,9 +148,7 @@ class _VocabCard extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final history = ref.watch(vocabHistoryProvider(profile.id)).value;
     if (history == null) {
-      return const SoftCard(
-        child: Center(child: CircularProgressIndicator()),
-      );
+      return const SoftCard(child: Center(child: CircularProgressIndicator()));
     }
     if (history.isEmpty) {
       return SoftCard(
@@ -259,8 +259,7 @@ class _MasteryCardState extends ConsumerState<_MasteryCard> {
           message: 'まだ学習の記録がありません',
           subMessage: '1回学習すると、習熟度の内訳がここに出ます。',
           actionLabel: '学習をはじめる',
-          onAction: () =>
-              showStartStudySheet(context, profile: widget.profile),
+          onAction: () => showStartStudySheet(context, profile: widget.profile),
         ),
       );
     }
@@ -493,7 +492,9 @@ class _StreakCardState extends ConsumerState<_StreakCard> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      streak.current > 0 ? '🔥 ${streak.current}日' : '今日から始めましょう',
+                      streak.current > 0
+                          ? '🔥 ${streak.current}日'
+                          : '今日から始めましょう',
                       maxLines: 1,
                       overflow: TextOverflow.ellipsis,
                       style: AppText.style(size: 22, weight: FontWeight.w800),
@@ -520,12 +521,10 @@ class _StreakCardState extends ConsumerState<_StreakCard> {
                     ? StreakDayState.studied
                     : StreakDayState.none,
             },
-            onPrevMonth: () => setState(
-              () => _month = DateTime(month.year, month.month - 1),
-            ),
-            onNextMonth: () => setState(
-              () => _month = DateTime(month.year, month.month + 1),
-            ),
+            onPrevMonth: () =>
+                setState(() => _month = DateTime(month.year, month.month - 1)),
+            onNextMonth: () =>
+                setState(() => _month = DateTime(month.year, month.month + 1)),
           ),
         ],
       ),
@@ -574,10 +573,8 @@ class _WeakWordsCard extends ConsumerWidget {
             InkWell(
               onTap: () => Navigator.of(context).push(
                 MaterialPageRoute<void>(
-                  builder: (_) => WordDetailScreen(
-                    wordId: w.word.id,
-                    profile: profile,
-                  ),
+                  builder: (_) =>
+                      WordDetailScreen(wordId: w.word.id, profile: profile),
                 ),
               ),
               child: Padding(
@@ -655,17 +652,17 @@ class _ConfusionCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final pairs = ref.watch(confusionPairsProvider(profile.id)).value ?? const [];
-    final resolved = ref.watch(resolvedConfusionCountProvider(profile.id)).value ?? 0;
+    final pairs =
+        ref.watch(confusionPairsProvider(profile.id)).value ?? const [];
+    final resolved =
+        ref.watch(resolvedConfusionCountProvider(profile.id)).value ?? 0;
     final shown = pairs.take(maxPairs).toList();
 
     return SoftCard(
       child: FutureBuilder<Map<int, Word>>(
-        future: ref
-            .watch(statsRepositoryProvider)
-            .loadWords([
-              for (final p in shown) ...[p.wordIdA, p.wordIdB],
-            ]),
+        future: ref.watch(statsRepositoryProvider).loadWords([
+          for (final p in shown) ...[p.wordIdA, p.wordIdB],
+        ]),
         builder: (context, snapshot) {
           final words = snapshot.data;
           return Column(

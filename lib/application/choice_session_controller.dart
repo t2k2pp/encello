@@ -297,8 +297,7 @@ class ChoiceSessionController extends Notifier<ChoiceSessionState?> {
       correctCount: s.correctCount + (isCorrect ? 1 : 0),
       correctStreak: nextStreak,
       timedOutCount: s.timedOutCount + (timedOut ? 1 : 0),
-      guessedCount:
-          s.guessedCount + (question.guessOnly && isCorrect ? 1 : 0),
+      guessedCount: s.guessedCount + (question.guessOnly && isCorrect ? 1 : 0),
       // 平均は時間内に正解した問題だけで取る。
       reactionMs: isCorrect ? [...s.reactionMs, elapsed] : s.reactionMs,
       previousAnswerIndex: question.answerIndex,
@@ -345,9 +344,8 @@ abstract final class ChoiceQuestionBuilder {
       final direction = switch (preference) {
         ChoiceDirection.enToJa => StudyDirection.enToJa,
         ChoiceDirection.jaToEn => StudyDirection.jaToEn,
-        ChoiceDirection.random => random.nextBool()
-            ? StudyDirection.enToJa
-            : StudyDirection.jaToEn,
+        ChoiceDirection.random =>
+          random.nextBool() ? StudyDirection.enToJa : StudyDirection.jaToEn,
       };
 
       final distractors = ChoiceDistractors.pick(
@@ -377,9 +375,7 @@ abstract final class ChoiceQuestionBuilder {
           hint: direction == StudyDirection.enToJa
               ? correct.partOfSpeech.label
               : null,
-          options: [
-            for (final c in arranged) c.labelFor(direction),
-          ],
+          options: [for (final c in arranged) c.labelFor(direction)],
           answerIndex: answerIndex,
           direction: direction,
           wordId: correct.wordId,

@@ -101,7 +101,12 @@ class _PasteStepCard extends StatelessWidget {
 class _PromptForm extends StatefulWidget {
   final String title;
   final String description;
-  final Future<String> Function(WidgetRef ref, String theme, int count, String level)
+  final Future<String> Function(
+    WidgetRef ref,
+    String theme,
+    int count,
+    String level,
+  )
   buildPrompt;
 
   const _PromptForm({
@@ -129,8 +134,12 @@ class _PromptFormState extends State<_PromptForm> {
   }
 
   Future<void> _copy(WidgetRef ref) async {
-    final theme = _themeCtrl.text.trim().isEmpty ? '英単語' : _themeCtrl.text.trim();
-    final level = _levelCtrl.text.trim().isEmpty ? '指定なし' : _levelCtrl.text.trim();
+    final theme = _themeCtrl.text.trim().isEmpty
+        ? '英単語'
+        : _themeCtrl.text.trim();
+    final level = _levelCtrl.text.trim().isEmpty
+        ? '指定なし'
+        : _levelCtrl.text.trim();
     final prompt = await widget.buildPrompt(ref, theme, _count, level);
     await Clipboard.setData(ClipboardData(text: prompt));
     if (!mounted) return;

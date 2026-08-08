@@ -160,7 +160,9 @@ class _TodayCard extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final today = studyDateOf(ref.watch(clockProvider)());
-    final stats = ref.watch(dailyStatsProvider((profile: profile, studyDate: today))).value;
+    final stats = ref
+        .watch(dailyStatsProvider((profile: profile, studyDate: today)))
+        .value;
     final due = ref.watch(dueCountProvider(profile)).value ?? 0;
     final answered = stats?.answeredCount ?? 0;
     final goal = stats?.goalCount ?? profile.dailyGoal;
@@ -439,7 +441,9 @@ class _VocabPromptCard extends ConsumerWidget {
                     tooltip: '閉じる',
                     icon: const Icon(Icons.close, size: 18),
                     onPressed: () =>
-                        ref.read(dismissedVocabPromptProvider.notifier).state = {
+                        ref
+                            .read(dismissedVocabPromptProvider.notifier)
+                            .state = {
                           ...ref.read(dismissedVocabPromptProvider),
                           profile.id,
                         },

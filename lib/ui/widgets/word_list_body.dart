@@ -98,8 +98,10 @@ class WordListBody extends ConsumerWidget {
                   mainAxisExtent: extent,
                 ),
           itemCount: entries.length,
-          itemBuilder: (_, i) =>
-              WordGridTile(entry: entries[i], onTap: () => onTapWord(entries[i])),
+          itemBuilder: (_, i) => WordGridTile(
+            entry: entries[i],
+            onTap: () => onTapWord(entries[i]),
+          ),
         );
       },
     );

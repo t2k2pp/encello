@@ -49,8 +49,7 @@ abstract final class XpCalculator {
     final base = (baseCorrect * modeFactor(mode)).round();
     final afterHint = math.max(0, base - hintUsed * hintPenalty);
     final bonus =
-        sessionCorrectStreak > 0 &&
-            sessionCorrectStreak % streakBonusEvery == 0
+        sessionCorrectStreak > 0 && sessionCorrectStreak % streakBonusEvery == 0
         ? streakBonusXp
         : 0;
     return afterHint + bonus;

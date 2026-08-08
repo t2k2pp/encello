@@ -228,9 +228,7 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
                                 children: [
                                   for (final line in question.explanation)
                                     Padding(
-                                      padding: const EdgeInsets.only(
-                                        bottom: 2,
-                                      ),
+                                      padding: const EdgeInsets.only(bottom: 2),
                                       child: Text(
                                         line,
                                         style: AppText.caption(

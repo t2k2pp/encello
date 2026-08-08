@@ -61,6 +61,7 @@ class AudioPackImporter {
 
   Future<AudioPackImportResult> importZip(
     File zipFile, {
+
     /// 同じ `packId` がすでにある場合に置き換えるか。false なら例外にする。
     bool replaceExisting = false,
   }) async {
@@ -72,10 +73,9 @@ class AudioPackImporter {
     }
 
     final manifest = _readManifest(archive);
-    final existing =
-        await (_db.select(_db.audioPacks)
-              ..where((t) => t.packId.equals(manifest.packId)))
-            .getSingleOrNull();
+    final existing = await (_db.select(
+      _db.audioPacks,
+    )..where((t) => t.packId.equals(manifest.packId))).getSingleOrNull();
     if (existing != null && !replaceExisting) {
       throw AudioPackImportException('同じ音声パックがすでに入っています: ${manifest.name}');
     }
@@ -101,9 +101,9 @@ class AudioPackImporter {
       await _db.transaction(() async {
         if (existing != null) {
           // word_audios は cascade で消える。
-          await (_db.delete(_db.audioPacks)
-                ..where((t) => t.id.equals(existing.id)))
-              .go();
+          await (_db.delete(
+            _db.audioPacks,
+          )..where((t) => t.id.equals(existing.id))).go();
         }
         final sortOrder = await _nextSortOrder();
         final packRowId = await _db
@@ -244,9 +244,9 @@ class AudioPackImporter {
 
   Future<int> _nextSortOrder() async {
     final maxOrder = _db.audioPacks.sortOrder.max();
-    final row = await (_db.selectOnly(_db.audioPacks)
-          ..addColumns([maxOrder]))
-        .getSingle();
+    final row = await (_db.selectOnly(
+      _db.audioPacks,
+    )..addColumns([maxOrder])).getSingle();
     return (row.read(maxOrder) ?? -1) + 1;
   }
 }
@@ -326,8 +326,7 @@ class _ManifestEntry {
           ? null
           : PartOfSpeech.values.firstWhere(
               (e) => e.value == pos,
-              orElse: () =>
-                  throw AudioPackImportException('品詞が不正です: $pos'),
+              orElse: () => throw AudioPackImportException('品詞が不正です: $pos'),
             ),
       file: file,
     );

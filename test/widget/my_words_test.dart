@@ -81,23 +81,18 @@ void main() {
       expect(word.meaning, 'こねこ');
     });
 
-    testWidgets(
-      'EditableText が見出し語用に出ていない（訳・例文の数と一致する）',
-      (tester) async {
-        await pumpQuickAdd(tester);
-        // 訳・見つけた文の TextField の分だけ EditableText がある（見出し語用は無い）。
-        expect(find.byType(EditableText), findsNWidgets(2));
-        await typeHeadword(tester, 'apple');
-        expect(find.byType(EditableText), findsNWidgets(2));
-      },
-    );
+    testWidgets('EditableText が見出し語用に出ていない（訳・例文の数と一致する）', (tester) async {
+      await pumpQuickAdd(tester);
+      // 訳・見つけた文の TextField の分だけ EditableText がある（見出し語用は無い）。
+      expect(find.byType(EditableText), findsNWidgets(2));
+      await typeHeadword(tester, 'apple');
+      expect(find.byType(EditableText), findsNWidgets(2));
+    });
 
     testWidgets('既存の共有語と同じ見出し語＋品詞のとき、既存を示す分岐に入る', (tester) async {
-      final bookId = await WordbookRepository(db).create(
-        name: 'テスト単語帳',
-        emoji: '📗',
-        colorSeed: 1,
-      );
+      final bookId = await WordbookRepository(
+        db,
+      ).create(name: 'テスト単語帳', emoji: '📗', colorSeed: 1);
       final wordId = await WordRepository(db).createShared(
         headword: 'shared',
         partOfSpeech: PartOfSpeech.noun,

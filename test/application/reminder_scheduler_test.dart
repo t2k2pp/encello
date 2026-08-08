@@ -40,8 +40,9 @@ void main() {
         reminderMinute: Value(minute),
       ),
     );
-    return (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-        .getSingle();
+    return (db.select(
+      db.profiles,
+    )..where((t) => t.id.equals(me.id))).getSingle();
   }
 
   /// 期限が来ている復習を [count] 語ぶん仕込む。
@@ -49,9 +50,7 @@ void main() {
     final seeded = await seedStudyTarget(
       db,
       profile,
-      headwords: {
-        for (var i = 0; i < count; i++) 'word$i': 'いみ$i',
-      },
+      headwords: {for (var i = 0; i < count; i++) 'word$i': 'いみ$i'},
     );
     final words = await db.select(db.words).get();
     for (final word in words) {
@@ -139,9 +138,7 @@ void main() {
           (t) => t.wordId.equals(first.id) & t.profileId.equals(profile.id),
         ))
         .write(
-          WordReviewsCompanion(
-            dueAt: Value(now.add(const Duration(days: 30))),
-          ),
+          WordReviewsCompanion(dueAt: Value(now.add(const Duration(days: 30)))),
         );
 
     await scheduler.reschedule(profile, now: now);

@@ -134,10 +134,7 @@ void main() {
       expect(await db.select(db.wordReviews).get(), isEmpty);
       // ログと集計は書く。
       expect(await db.select(db.learningLogs).get(), hasLength(1));
-      expect(
-        (await db.select(db.dailyStats).getSingle()).answeredCount,
-        1,
-      );
+      expect((await db.select(db.dailyStats).getSingle()).answeredCount, 1);
     });
 
     test('2回目の正解で間隔が伸びる', () async {
@@ -178,10 +175,9 @@ void main() {
 
       await submit();
 
-      final theirs =
-          await (db.select(db.wordReviews)
-                ..where((t) => t.profileId.equals(other.id)))
-              .getSingle();
+      final theirs = await (db.select(
+        db.wordReviews,
+      )..where((t) => t.profileId.equals(other.id))).getSingle();
       expect(theirs.dueAt, DateTime(2026, 12, 1));
       expect(theirs.masteryLevel, 3);
     });
@@ -312,10 +308,9 @@ void main() {
       await submit(record: recordOf(isCorrect: false, grade: 1));
       await submit();
 
-      final summary = await SessionFinalizer(db).finish(
-        sessionId: sessionId,
-        finishedAt: answeredAt,
-      );
+      final summary = await SessionFinalizer(
+        db,
+      ).finish(sessionId: sessionId, finishedAt: answeredAt);
       expect(summary.missedWords, isEmpty);
     });
 
@@ -347,10 +342,7 @@ void main() {
       final profile = (await db.profileDao.findById(me.id))!;
 
       expect(await study.loadCandidates(profile), hasLength(1));
-      expect(
-        await study.watchDueCount(profile, () => answeredAt).first,
-        0,
-      );
+      expect(await study.watchDueCount(profile, () => answeredAt).first, 0);
 
       await service.submit(
         profile: profile,
@@ -362,15 +354,11 @@ void main() {
 
       // 翌日 04:00 が期限。翌日の朝には期限到来として数える。
       expect(
-        await study
-            .watchDueCount(profile, () => DateTime(2026, 8, 4, 7))
-            .first,
+        await study.watchDueCount(profile, () => DateTime(2026, 8, 4, 7)).first,
         1,
       );
       expect(
-        await study
-            .watchDueCount(profile, () => DateTime(2026, 8, 4, 3))
-            .first,
+        await study.watchDueCount(profile, () => DateTime(2026, 8, 4, 3)).first,
         0,
       );
     });

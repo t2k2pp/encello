@@ -84,9 +84,7 @@ class QueuedItem {
 
   @override
   bool operator ==(Object other) =>
-      other is QueuedItem &&
-      other.wordId == wordId &&
-      other.source == source;
+      other is QueuedItem && other.wordId == wordId && other.source == source;
 
   @override
   int get hashCode => Object.hash(wordId, source);
@@ -140,10 +138,13 @@ abstract final class StudyQueueBuilder {
     final result = <QueuedItem>[];
 
     // ① 期限到来の復習を dueAt の昇順で。
-    final due = pool
-        .where((c) => c.review?.dueAt != null && !c.review!.dueAt!.isAfter(now))
-        .toList()
-      ..sort((a, b) => a.review!.dueAt!.compareTo(b.review!.dueAt!));
+    final due =
+        pool
+            .where(
+              (c) => c.review?.dueAt != null && !c.review!.dueAt!.isAfter(now),
+            )
+            .toList()
+          ..sort((a, b) => a.review!.dueAt!.compareTo(b.review!.dueAt!));
     for (final c in due) {
       if (result.length >= limit) return result;
       result.add(QueuedItem(wordId: c.wordId, source: QueueSource.due));
@@ -158,10 +159,11 @@ abstract final class StudyQueueBuilder {
 
     // ③ まだ不足なら dueAt が近い順に前借りする。
     final taken = result.map((e) => e.wordId).toSet();
-    final upcoming = pool
-        .where((c) => !taken.contains(c.wordId) && c.review?.dueAt != null)
-        .toList()
-      ..sort((a, b) => a.review!.dueAt!.compareTo(b.review!.dueAt!));
+    final upcoming =
+        pool
+            .where((c) => !taken.contains(c.wordId) && c.review?.dueAt != null)
+            .toList()
+          ..sort((a, b) => a.review!.dueAt!.compareTo(b.review!.dueAt!));
     for (final c in upcoming) {
       if (result.length >= limit) return result;
       result.add(QueuedItem(wordId: c.wordId, source: QueueSource.borrowed));

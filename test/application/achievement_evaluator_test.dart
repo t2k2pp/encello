@@ -5,8 +5,9 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// [Docs/06_features/gamification.md] §4・§6 のテスト観点。
 void main() {
-  Set<String> codesOf(List<AchievementDef> defs) =>
-      {for (final d in defs) d.code};
+  Set<String> codesOf(List<AchievementDef> defs) => {
+    for (final d in defs) d.code,
+  };
 
   group('進捗の境界', () {
     test('継続7日は6日で未解除、7日で解除', () {

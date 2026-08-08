@@ -33,17 +33,11 @@ void main() {
     });
 
     test('f = 1（擬似語全部にわかると答えた）なら 0', () {
-      expect(
-        VocabSizeEstimator.correct(hitRate: 1, falseAlarmRate: 1),
-        0,
-      );
+      expect(VocabSizeEstimator.correct(hitRate: 1, falseAlarmRate: 1), 0);
     });
 
     test('h < f でも負にならず 0 に丸められる', () {
-      expect(
-        VocabSizeEstimator.correct(hitRate: 0.2, falseAlarmRate: 0.5),
-        0,
-      );
+      expect(VocabSizeEstimator.correct(hitRate: 0.2, falseAlarmRate: 0.5), 0);
     });
   });
 

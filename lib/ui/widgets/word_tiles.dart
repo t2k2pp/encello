@@ -17,7 +17,8 @@ class _StateChips extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final chips = <Widget>[
-      if (entry.word.isDraft) _chip('下書き', AppColors.accentSoft, AppColors.ink2),
+      if (entry.word.isDraft)
+        _chip('下書き', AppColors.accentSoft, AppColors.ink2),
       if (entry.word.isExcluded) _chip('除外中', AppColors.chipBg, AppColors.ink3),
       if (entry.word.isEdited) _chip('編集済み', AppColors.chipBg, AppColors.ink2),
     ];

@@ -37,17 +37,15 @@ void main() {
       )..where((t) => t.wordbookId.equals(book.id))).get();
       expect(entries, hasLength(30));
 
-      final dailyStats =
-          await (db.select(db.dailyStats)
-                ..where((t) => t.profileId.equals(taro.id)))
-              .get();
+      final dailyStats = await (db.select(
+        db.dailyStats,
+      )..where((t) => t.profileId.equals(taro.id))).get();
       expect(dailyStats, hasLength(14));
       expect(dailyStats.every((d) => d.goalMet), isTrue);
 
-      final reviews =
-          await (db.select(db.wordReviews)
-                ..where((t) => t.profileId.equals(taro.id)))
-              .get();
+      final reviews = await (db.select(
+        db.wordReviews,
+      )..where((t) => t.profileId.equals(taro.id))).get();
       expect(reviews, hasLength(30));
       // 習熟度に幅がある（統計の内訳がすぐ分かる）。
       final masteryLevels = reviews.map((r) => r.masteryLevel).toSet();
@@ -71,14 +69,12 @@ void main() {
       final jiro = await createTestProfile(db, name: 'じろう');
       await service.install(profileId: taro.id, now: now());
 
-      final jiroStats =
-          await (db.select(db.dailyStats)
-                ..where((t) => t.profileId.equals(jiro.id)))
-              .get();
-      final jiroReviews =
-          await (db.select(db.wordReviews)
-                ..where((t) => t.profileId.equals(jiro.id)))
-              .get();
+      final jiroStats = await (db.select(
+        db.dailyStats,
+      )..where((t) => t.profileId.equals(jiro.id))).get();
+      final jiroReviews = await (db.select(
+        db.wordReviews,
+      )..where((t) => t.profileId.equals(jiro.id))).get();
       expect(jiroStats, isEmpty);
       expect(jiroReviews, isEmpty);
     });
@@ -102,9 +98,7 @@ void main() {
     test('他の単語帳にも属する語は残り、残した件数を報告する', () async {
       await service.install(profileId: taro.id, now: now());
 
-      final sampleWord = (await (db.select(
-        db.words,
-      )..limit(1)).get()).single;
+      final sampleWord = (await (db.select(db.words)..limit(1)).get()).single;
       final otherBookId = await db
           .into(db.wordbooks)
           .insert(

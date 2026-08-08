@@ -168,12 +168,11 @@ abstract final class WordbookJsonCodec {
     return _validate(json);
   }
 
-  static WordbookDecodeResult _structuralFailure() => const WordbookDecodeResult(
-    book: null,
-    issues: [
-      ImportIssue(message: '貼り付けた内容を読み取れませんでした。コピーした範囲を確認してください。'),
-    ],
-  );
+  static WordbookDecodeResult _structuralFailure() =>
+      const WordbookDecodeResult(
+        book: null,
+        issues: [ImportIssue(message: '貼り付けた内容を読み取れませんでした。コピーした範囲を確認してください。')],
+      );
 
   static WordbookDecodeResult _validate(Map<String, dynamic> json) {
     final version = json['encelloWordbook'];
@@ -233,9 +232,7 @@ abstract final class WordbookJsonCodec {
       bookIssues.add(const ImportIssue(message: '単語が1件もありません'));
     } else if (wordsRaw.length > _maxWords) {
       bookIssues.add(
-        const ImportIssue(
-          message: '一度に取り込める語数を超えています。50語ずつに分けて作ってもらってください',
-        ),
+        const ImportIssue(message: '一度に取り込める語数を超えています。50語ずつに分けて作ってもらってください'),
       );
     } else {
       final seen = <String, int>{};
@@ -263,7 +260,12 @@ abstract final class WordbookJsonCodec {
 
     final issues = [...bookIssues, ...wordIssues];
     final book = (bookIssues.isEmpty && validWords.isNotEmpty)
-        ? ParsedWordbook(name: name!, emoji: emoji, note: note, words: validWords)
+        ? ParsedWordbook(
+            name: name!,
+            emoji: emoji,
+            note: note,
+            words: validWords,
+          )
         : null;
     return WordbookDecodeResult(book: book, issues: issues);
   }
@@ -288,7 +290,11 @@ abstract final class WordbookJsonCodec {
       headwordDisplay = h;
       if (h.length > 60) {
         issues.add(
-          ImportIssue(index: idx, headword: h, message: '英単語が長すぎます（60文字以内にしてください）'),
+          ImportIssue(
+            index: idx,
+            headword: h,
+            message: '英単語が長すぎます（60文字以内にしてください）',
+          ),
         );
       } else if (!_headwordPattern.hasMatch(h)) {
         issues.add(
@@ -324,7 +330,11 @@ abstract final class WordbookJsonCodec {
     if (phoneticRaw != null) {
       if (phoneticRaw is! String) {
         issues.add(
-          ImportIssue(index: idx, headword: headwordDisplay, message: '発音記号の形式が正しくありません'),
+          ImportIssue(
+            index: idx,
+            headword: headwordDisplay,
+            message: '発音記号の形式が正しくありません',
+          ),
         );
       } else {
         final trimmed = phoneticRaw.trim();
@@ -336,7 +346,11 @@ abstract final class WordbookJsonCodec {
     final meaningRaw = raw['meaning'];
     if (meaningRaw is! String || meaningRaw.trim().isEmpty) {
       issues.add(
-        ImportIssue(index: idx, headword: headwordDisplay, message: '日本語訳がありません'),
+        ImportIssue(
+          index: idx,
+          headword: headwordDisplay,
+          message: '日本語訳がありません',
+        ),
       );
     } else if (meaningRaw.length > 200) {
       issues.add(
@@ -355,7 +369,11 @@ abstract final class WordbookJsonCodec {
     if (exampleEnRaw != null) {
       if (exampleEnRaw is! String) {
         issues.add(
-          ImportIssue(index: idx, headword: headwordDisplay, message: '例文の形式が正しくありません'),
+          ImportIssue(
+            index: idx,
+            headword: headwordDisplay,
+            message: '例文の形式が正しくありません',
+          ),
         );
       } else {
         final trimmed = exampleEnRaw.trim();
@@ -402,7 +420,11 @@ abstract final class WordbookJsonCodec {
 
     if (exampleEn != null && exampleJa == null) {
       issues.add(
-        ImportIssue(index: idx, headword: headwordDisplay, message: '日本語訳がありません'),
+        ImportIssue(
+          index: idx,
+          headword: headwordDisplay,
+          message: '日本語訳がありません',
+        ),
       );
     }
 

@@ -30,9 +30,9 @@ final ttsCapabilityProvider = FutureProvider<TtsCapability>(
 /// 端末に入っている音声パック（全学習者で共有する）。
 final audioPacksProvider = StreamProvider<List<AudioPack>>((ref) {
   final db = ref.watch(databaseProvider);
-  return (db.select(db.audioPacks)
-        ..orderBy([(t) => OrderingTerm.asc(t.sortOrder)]))
-      .watch();
+  return (db.select(
+    db.audioPacks,
+  )..orderBy([(t) => OrderingTerm.asc(t.sortOrder)])).watch();
 });
 
 /// 展開済み音声パックの置き場。テストでは一時ディレクトリへ差し替える。
@@ -57,37 +57,35 @@ final audioLibraryProvider = FutureProvider.family<AudioLibrary, Profile>((
 /// 読み上げの入口。UI と学習セッションはここだけを見る。
 ///
 /// voice の列挙と音声パックの読み込みが終わるまで `null`（= まだボタンを出さない）。
-final pronunciationProvider = FutureProvider.family<PronunciationService, Profile>((
-  ref,
-  profile,
-) async {
-  final capability = await ref.watch(ttsCapabilityProvider.future);
-  final library = await ref.watch(audioLibraryProvider(profile).future);
-  final tts = ref.watch(ttsServiceProvider);
+final pronunciationProvider =
+    FutureProvider.family<PronunciationService, Profile>((ref, profile) async {
+      final capability = await ref.watch(ttsCapabilityProvider.future);
+      final library = await ref.watch(audioLibraryProvider(profile).future);
+      final tts = ref.watch(ttsServiceProvider);
 
-  // 学習者ごとの読み上げ設定を反映する。voice が端末から消えていた場合は
-  // 勝手に別の voice へ切り替えず、設定画面が警告を出す（[tts.md] §3）。
-  await tts.setRate(profile.ttsRate);
-  await tts.setPitch(profile.ttsPitch);
-  for (final (lang, name) in [
-    (SpeechLang.en, profile.ttsEnVoice),
-    (SpeechLang.ja, profile.ttsJaVoice),
-  ]) {
-    if (name.isEmpty) continue;
-    try {
-      await tts.setVoice(lang, name);
-    } on TtsUnavailableException {
-      // 設定画面の警告に任せ、ここでは既定の voice のまま進める。
-    }
-  }
+      // 学習者ごとの読み上げ設定を反映する。voice が端末から消えていた場合は
+      // 勝手に別の voice へ切り替えず、設定画面が警告を出す（[tts.md] §3）。
+      await tts.setRate(profile.ttsRate);
+      await tts.setPitch(profile.ttsPitch);
+      for (final (lang, name) in [
+        (SpeechLang.en, profile.ttsEnVoice),
+        (SpeechLang.ja, profile.ttsJaVoice),
+      ]) {
+        if (name.isEmpty) continue;
+        try {
+          await tts.setVoice(lang, name);
+        } on TtsUnavailableException {
+          // 設定画面の警告に任せ、ここでは既定の voice のまま進める。
+        }
+      }
 
-  return AudioPronunciationService(
-    library: library,
-    tts: tts,
-    capability: capability,
-    preference: AudioSourcePreference.fromValue(profile.audioSource),
-  );
-});
+      return AudioPronunciationService(
+        library: library,
+        tts: tts,
+        capability: capability,
+        preference: AudioSourcePreference.fromValue(profile.audioSource),
+      );
+    });
 
 /// 学習者の設定に「端末に無い voice」が残っていないか。
 /// 残っていれば設定画面が「選択中の音声が見つかりません」を出す。

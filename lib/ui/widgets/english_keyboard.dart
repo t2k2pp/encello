@@ -231,7 +231,9 @@ class _KeyState extends State<_Key> {
             : (_) => widget.onLongPressEnd!(),
         child: AnimatedScale(
           scale: _pressed ? 0.94 : 1.0,
-          duration: reduceMotion ? Duration.zero : const Duration(milliseconds: 80),
+          duration: reduceMotion
+              ? Duration.zero
+              : const Duration(milliseconds: 80),
           curve: Curves.easeOut,
           child: Container(
             width: widget.width,

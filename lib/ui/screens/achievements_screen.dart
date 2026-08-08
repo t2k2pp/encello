@@ -107,7 +107,11 @@ class _AchievementTile extends StatelessWidget {
                 if (item.isUnlocked)
                   Row(
                     children: [
-                      Icon(Icons.check_circle, size: 16, color: AppColors.correct),
+                      Icon(
+                        Icons.check_circle,
+                        size: 16,
+                        color: AppColors.correct,
+                      ),
                       const SizedBox(width: 4),
                       Expanded(
                         child: Text(
@@ -145,6 +149,5 @@ class _AchievementTile extends StatelessWidget {
     );
   }
 
-  static String _formatDate(DateTime d) =>
-      '${d.year}/${d.month}/${d.day}';
+  static String _formatDate(DateTime d) => '${d.year}/${d.month}/${d.day}';
 }

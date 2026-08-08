@@ -60,13 +60,15 @@ class _BackupPreviewSheet extends StatelessWidget {
                   _Row(label: '単語帳', value: '${preview.wordbookCount}冊'),
                   _Row(
                     label: '単語',
-                    value: '${preview.wordCount}件'
+                    value:
+                        '${preview.wordCount}件'
                         '（うち新規 ${preview.newWordCount}件）',
                   ),
                   _Row(label: 'マイ単語', value: '${preview.myWordCount}件'),
                   _Row(
                     label: '学習記録',
-                    value: '${preview.logCount}件'
+                    value:
+                        '${preview.logCount}件'
                         '（うち新しい ${preview.newLogCount}件）',
                   ),
                   _Row(label: '語彙力測定', value: '${preview.vocabTestCount}件'),

@@ -152,9 +152,9 @@ SELECT r.due_at AS due_at
   Future<Map<int, Word>> loadWords(Iterable<int> wordIds) async {
     final ids = wordIds.toList();
     if (ids.isEmpty) return const {};
-    final rows = await (_db.select(_db.words)
-          ..where((t) => t.id.isIn(ids)))
-        .get();
+    final rows = await (_db.select(
+      _db.words,
+    )..where((t) => t.id.isIn(ids))).get();
     return {for (final w in rows) w.id: w};
   }
 
@@ -179,14 +179,14 @@ SELECT r.due_at AS due_at
             plannedCount: Value(plannedCount),
           ),
         );
-    return (_db.select(_db.studySessions)
-          ..where((t) => t.id.equals(sessionId)))
-        .getSingle();
+    return (_db.select(
+      _db.studySessions,
+    )..where((t) => t.id.equals(sessionId))).getSingle();
   }
 
-  Future<StudySession?> findSession(String sessionId) =>
-      (_db.select(_db.studySessions)..where((t) => t.id.equals(sessionId)))
-          .getSingleOrNull();
+  Future<StudySession?> findSession(String sessionId) => (_db.select(
+    _db.studySessions,
+  )..where((t) => t.id.equals(sessionId))).getSingleOrNull();
 
   /// その語の、その学習者の学習状態。行が無ければ null（未学習）。
   Future<WordReview?> findReview(int wordId, int profileId) =>

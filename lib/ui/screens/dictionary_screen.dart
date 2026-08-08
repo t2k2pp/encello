@@ -104,7 +104,8 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
   @override
   Widget build(BuildContext context) {
     final spacing = AppSpacing.of(context);
-    final books = ref.watch(wordbooksProvider(widget.profile.id)).value ?? const [];
+    final books =
+        ref.watch(wordbooksProvider(widget.profile.id)).value ?? const [];
     final counts = ref.watch(dictionaryCountsProvider(_query)).value;
     // 学習対象の選択が変わったら「学習対象のみ」の結果も追従させる。
     final selected = decodeIdList(_currentProfile.selectedWordbookIds);
@@ -206,7 +207,9 @@ class _DictionaryScreenState extends ConsumerState<DictionaryScreen> {
               ),
             ),
             icon: Icon(
-              _viewMode == ListViewMode.grid ? Icons.view_list : Icons.grid_view,
+              _viewMode == ListViewMode.grid
+                  ? Icons.view_list
+                  : Icons.grid_view,
             ),
           ),
           if (_viewMode == ListViewMode.grid)

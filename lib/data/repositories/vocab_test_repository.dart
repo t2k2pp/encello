@@ -32,18 +32,19 @@ class VocabTestRepository {
 
     final sources = <VocabBandSource>[];
     for (final book in books) {
-      final query = _db.select(_db.words).join([
-        innerJoin(
-          _db.wordbookEntries,
-          _db.wordbookEntries.wordId.equalsExp(_db.words.id),
-          useColumns: false,
-        ),
-      ])..where(
-        _db.wordbookEntries.wordbookId.equals(book.id) &
-            _db.words.ownerProfileId.isNull() &
-            _db.words.isExcluded.equals(false) &
-            _db.words.isDraft.equals(false),
-      );
+      final query =
+          _db.select(_db.words).join([
+            innerJoin(
+              _db.wordbookEntries,
+              _db.wordbookEntries.wordId.equalsExp(_db.words.id),
+              useColumns: false,
+            ),
+          ])..where(
+            _db.wordbookEntries.wordbookId.equals(book.id) &
+                _db.words.ownerProfileId.isNull() &
+                _db.words.isExcluded.equals(false) &
+                _db.words.isDraft.equals(false),
+          );
       final rows = await query.map((r) => r.readTable(_db.words)).get();
       if (rows.isEmpty) continue;
       sources.add(
@@ -51,9 +52,7 @@ class VocabTestRepository {
           wordbookId: book.id,
           name: book.name,
           bandSize: book.bandSize!,
-          words: [
-            for (final w in rows) (wordId: w.id, headword: w.headword),
-          ],
+          words: [for (final w in rows) (wordId: w.id, headword: w.headword)],
         ),
       );
     }
@@ -63,9 +62,7 @@ class VocabTestRepository {
   /// 直近 [count] 回の測定で出した語の id（次回の出題で優先度を下げる）。
   Future<Set<int>> recentlyAskedWordIds(int profileId, {int count = 1}) async {
     final rows = await _recentTests(profileId, limit: count);
-    return {
-      for (final row in rows) ..._decodeIds(row.askedWordIds),
-    };
+    return {for (final row in rows) ..._decodeIds(row.askedWordIds)};
   }
 
   /// 測定の履歴（新しい順）。統計の「語彙力の推移」と前回差に使う。

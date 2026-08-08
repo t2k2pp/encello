@@ -26,7 +26,8 @@ class Profiles extends Table {
   TextColumn get dictViewMode => text().withDefault(const Constant('list'))();
 
   /// 辞書グリッドの列数。`auto` または `2` / `3` / `4`。
-  TextColumn get dictGridColumns => text().withDefault(const Constant('auto'))();
+  TextColumn get dictGridColumns =>
+      text().withDefault(const Constant('auto'))();
 
   /// 辞書の検索対象に例文を含めるか。
   BoolColumn get searchExamples =>

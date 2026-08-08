@@ -192,14 +192,8 @@ void main() {
 
       final rows = await db.select(db.wordReviews).get();
       expect(rows, hasLength(2));
-      expect(
-        rows.firstWhere((r) => r.profileId == a.id).masteryLevel,
-        3,
-      );
-      expect(
-        rows.firstWhere((r) => r.profileId == b.id).masteryLevel,
-        1,
-      );
+      expect(rows.firstWhere((r) => r.profileId == a.id).masteryLevel, 3);
+      expect(rows.firstWhere((r) => r.profileId == b.id).masteryLevel, 1);
     });
 
     test('設定の変更が他の学習者に影響しない', () async {

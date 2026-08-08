@@ -95,7 +95,9 @@ class _WordbookRow extends ConsumerWidget {
             height: 44,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: AppColors.seedColor(book.colorSeed).withValues(alpha: 0.18),
+              color: AppColors.seedColor(
+                book.colorSeed,
+              ).withValues(alpha: 0.18),
               borderRadius: BorderRadius.circular(12),
             ),
             child: Text(
@@ -132,7 +134,9 @@ class _WordbookRow extends ConsumerWidget {
               onChanged: (v) => ref
                   .read(wordbookRepositoryProvider)
                   .setStudyTarget(profile, book.id, selected: v)
-                  .then((_) => ref.read(activeProfileProvider.notifier).reload()),
+                  .then(
+                    (_) => ref.read(activeProfileProvider.notifier).reload(),
+                  ),
             ),
           ),
           if (item.canDelete)
@@ -155,8 +159,10 @@ class _WordbookRow extends ConsumerWidget {
   void _openDetail(BuildContext context) {
     Navigator.of(context).push(
       MaterialPageRoute<void>(
-        builder: (_) =>
-            WordbookDetailScreen(wordbookId: item.wordbook.id, profile: profile),
+        builder: (_) => WordbookDetailScreen(
+          wordbookId: item.wordbook.id,
+          profile: profile,
+        ),
       ),
     );
   }
@@ -188,8 +194,8 @@ class _WordbookRow extends ConsumerWidget {
       return;
     }
     if (!context.mounted) return;
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('「${item.wordbook.name}」を削除しました')),
-    );
+    ScaffoldMessenger.of(
+      context,
+    ).showSnackBar(SnackBar(content: Text('「${item.wordbook.name}」を削除しました')));
   }
 }

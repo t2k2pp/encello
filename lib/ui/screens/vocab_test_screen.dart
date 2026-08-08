@@ -47,9 +47,7 @@ Future<void> openVocabTest(
     }
   }
   await Navigator.of(context).push(
-    MaterialPageRoute<void>(
-      builder: (_) => VocabTestScreen(profile: profile),
-    ),
+    MaterialPageRoute<void>(builder: (_) => VocabTestScreen(profile: profile)),
   );
 }
 
@@ -200,8 +198,7 @@ class _VocabTestScreenState extends ConsumerState<VocabTestScreen> {
                     if (plan == null) {
                       return const Center(child: CircularProgressIndicator());
                     }
-                    final realCount =
-                        plan.questions.length - plan.pseudoCount;
+                    final realCount = plan.questions.length - plan.pseudoCount;
                     if (realCount < VocabTestBuilder.minRealWords) {
                       // 測れるだけの語が無いのに、それらしい数字を出さない。
                       return const EmptyState(
@@ -489,7 +486,10 @@ class _ResultViewState extends ConsumerState<_ResultView> {
   /// 前回差。推定誤差より小さい差は「ほぼ同じ」と出す
   /// （誤差を成長として見せない。[Docs/06_features/vocab_size_test.md] §8）。
   static String _diffLabel(int current, int previous) {
-    if (VocabSizeEstimator.isWithinNoise(current: current, previous: previous)) {
+    if (VocabSizeEstimator.isWithinNoise(
+      current: current,
+      previous: previous,
+    )) {
       return '前回とほぼ同じです';
     }
     final diff = current - previous;

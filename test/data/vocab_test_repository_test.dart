@@ -76,7 +76,11 @@ void main() {
     test('bandSize を持つ単語帳だけが、易しい順（sortOrder 昇順）で返る', () async {
       final hard = await createBand(name: '英検2級', sortOrder: 50);
       final easy = await createBand(name: '中学英単語', sortOrder: 10);
-      final notBand = await createBand(name: 'ユーザー単語帳', sortOrder: 20, bandSize: null);
+      final notBand = await createBand(
+        name: 'ユーザー単語帳',
+        sortOrder: 20,
+        bandSize: null,
+      );
       await addWord(hard, headword: 'reluctant');
       await addWord(easy, headword: 'apple');
       await addWord(notBand, headword: 'banana');

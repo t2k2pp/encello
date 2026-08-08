@@ -110,7 +110,10 @@ void main() {
       // 学習設定・表示設定も別々にしておく。
       await db.profileDao.updateProfile(
         a.id,
-        const ProfilesCompanion(textScale: Value('large'), dailyGoal: Value(50)),
+        const ProfilesCompanion(
+          textScale: Value('large'),
+          dailyGoal: Value(50),
+        ),
       );
       await db.profileDao.updateProfile(
         b.id,

@@ -113,8 +113,9 @@ class _SessionHistoryScreenState extends ConsumerState<SessionHistoryScreen> {
                       session: session,
                       expanded: _expandedId == session.id,
                       onTap: () => setState(
-                        () => _expandedId =
-                            _expandedId == session.id ? null : session.id,
+                        () => _expandedId = _expandedId == session.id
+                            ? null
+                            : session.id,
                       ),
                     );
                   },

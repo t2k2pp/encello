@@ -101,11 +101,7 @@ void main() {
     expect(clipboardWrites, hasLength(1));
     final copied = clipboardWrites.single;
     expect(copied.contains(brokenText), isTrue, reason: '元のテキストが入っていること');
-    expect(
-      copied.contains('読み取れませんでした'),
-      isTrue,
-      reason: 'エラーの理由が入っていること',
-    );
+    expect(copied.contains('読み取れませんでした'), isTrue, reason: 'エラーの理由が入っていること');
   });
 
   testWidgets('画面に「JSON」「インポート」「パース」の文字が出ていない', (tester) async {

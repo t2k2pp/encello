@@ -61,11 +61,7 @@ void main() {
       final result = WordbookJsonCodec.decode(
         validJson(
           words: [
-            {
-              'headword': 'Apple',
-              'partOfSpeech': 'noun',
-              'meaning': 'りんご',
-            },
+            {'headword': 'Apple', 'partOfSpeech': 'noun', 'meaning': 'りんご'},
           ],
         ),
       );
@@ -89,8 +85,7 @@ void main() {
     });
 
     test('前置き・後置きの説明文を無視する', () {
-      final wrapped =
-          'はい、単語帳を作りました。\n\n${validJson()}\n\n他にご質問があればどうぞ。';
+      final wrapped = 'はい、単語帳を作りました。\n\n${validJson()}\n\n他にご質問があればどうぞ。';
       final result = WordbookJsonCodec.decode(wrapped);
       expect(result.isClean, isTrue);
     });
@@ -103,15 +98,13 @@ void main() {
 
     test('全角引用符で壊れた JSON は修復されずエラーになる（推測修復の回帰）', () {
       // 全角引用符・全角コロンを使った壊れたデータ。半角化して救わない。
-      const broken =
-          '{＂encelloWordbook＂：＂1＂，＂name＂：＂テスト＂，＂words＂：[]}';
+      const broken = '{＂encelloWordbook＂：＂1＂，＂name＂：＂テスト＂，＂words＂：[]}';
       final result = WordbookJsonCodec.decode(broken);
       expect(result.book, isNull);
       expect(result.issues, isNotEmpty);
       expect(
         result.issues.every(
-          (i) =>
-              !i.message.contains('全角') && !i.message.contains('半角'),
+          (i) => !i.message.contains('全角') && !i.message.contains('半角'),
         ),
         isTrue,
         reason: '推測で直した形跡（全角/半角への言及）があってはいけない',
@@ -128,10 +121,7 @@ void main() {
     test('単語帳の名前は41文字で無効', () {
       final result = WordbookJsonCodec.decode(validJson(name: 'あ' * 41));
       expect(result.book, isNull);
-      expect(
-        result.issues.single.message,
-        contains('40文字以内'),
-      );
+      expect(result.issues.single.message, contains('40文字以内'));
     });
 
     test('語数は200件まで有効', () {
@@ -159,10 +149,7 @@ void main() {
       );
       final result = WordbookJsonCodec.decode(validJson(words: words));
       expect(result.book, isNull);
-      expect(
-        result.issues.single.message,
-        contains('50語ずつ'),
-      );
+      expect(result.issues.single.message, contains('50語ずつ'));
     });
 
     test('level は1〜5が有効、0と6は無効', () {
@@ -184,10 +171,7 @@ void main() {
           validJson(words: [wordWithLevel(level)]),
         );
         expect(result.book, isNull, reason: 'level=$level は無効');
-        expect(
-          result.issues.any((i) => i.message.contains('1〜5')),
-          isTrue,
-        );
+        expect(result.issues.any((i) => i.message.contains('1〜5')), isTrue);
       }
     });
 
@@ -206,11 +190,7 @@ void main() {
       final ok = WordbookJsonCodec.decode(
         validJson(
           words: [
-            {
-              'headword': 'a' * 60,
-              'partOfSpeech': 'noun',
-              'meaning': 'いみ',
-            },
+            {'headword': 'a' * 60, 'partOfSpeech': 'noun', 'meaning': 'いみ'},
           ],
         ),
       );
@@ -219,19 +199,12 @@ void main() {
       final ng = WordbookJsonCodec.decode(
         validJson(
           words: [
-            {
-              'headword': 'a' * 61,
-              'partOfSpeech': 'noun',
-              'meaning': 'いみ',
-            },
+            {'headword': 'a' * 61, 'partOfSpeech': 'noun', 'meaning': 'いみ'},
           ],
         ),
       );
       expect(ng.book, isNull);
-      expect(
-        ng.issues.any((i) => i.message.contains('60文字以内')),
-        isTrue,
-      );
+      expect(ng.issues.any((i) => i.message.contains('60文字以内')), isTrue);
     });
   });
 
@@ -258,10 +231,7 @@ void main() {
           ],
         ),
       );
-      expect(
-        result.issues.any((i) => i.message.contains('verbs')),
-        isTrue,
-      );
+      expect(result.issues.any((i) => i.message.contains('verbs')), isTrue);
     });
 
     test('日本語訳が無い語は弾かれる', () {
@@ -272,10 +242,7 @@ void main() {
           ],
         ),
       );
-      expect(
-        result.issues.any((i) => i.message.contains('日本語訳')),
-        isTrue,
-      );
+      expect(result.issues.any((i) => i.message.contains('日本語訳')), isTrue);
     });
 
     test('exampleEn だけがある語は exampleJa 必須エラーになる', () {
@@ -292,10 +259,7 @@ void main() {
         ),
       );
       expect(result.book, isNull);
-      expect(
-        result.issues.any((i) => i.message.contains('日本語訳')),
-        isTrue,
-      );
+      expect(result.issues.any((i) => i.message.contains('日本語訳')), isTrue);
     });
 
     test('exampleEn と exampleJa が両方あれば有効', () {
@@ -382,10 +346,7 @@ void main() {
 
   group('致命的な失敗', () {
     test('単語の一覧が無ければ致命的な失敗になる', () {
-      final json = jsonEncode({
-        'encelloWordbook': '1',
-        'name': 'テスト',
-      });
+      final json = jsonEncode({'encelloWordbook': '1', 'name': 'テスト'});
       final result = WordbookJsonCodec.decode(json);
       expect(result.book, isNull);
       expect(result.issues, isNotEmpty);
@@ -412,10 +373,7 @@ void main() {
         ),
       );
       expect(result.book, isNull);
-      expect(
-        result.issues.any((i) => i.message.contains('取り込める語')),
-        isTrue,
-      );
+      expect(result.issues.any((i) => i.message.contains('取り込める語')), isTrue);
     });
   });
 

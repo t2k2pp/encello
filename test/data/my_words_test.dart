@@ -170,9 +170,9 @@ void main() {
       );
       await wordbooks.addWord(bookId, readyId);
       await wordbooks.setStudyTarget(brother, bookId, selected: true);
-      final updated =
-          await (db.select(db.profiles)..where((t) => t.id.equals(brother.id)))
-              .getSingle();
+      final updated = await (db.select(
+        db.profiles,
+      )..where((t) => t.id.equals(brother.id))).getSingle();
 
       final study = StudyRepository(db);
       final candidates = await study.loadCandidates(updated);
@@ -218,9 +218,9 @@ void main() {
         partOfSpeech: PartOfSpeech.noun,
         meaning: 'しまわれた',
       );
-      final entries = await (db.select(db.wordbookEntries)
-            ..where((t) => t.wordbookId.equals(myBook.id)))
-          .get();
+      final entries = await (db.select(
+        db.wordbookEntries,
+      )..where((t) => t.wordbookId.equals(myBook.id))).get();
       expect(entries.map((e) => e.wordId), contains(id));
     });
 

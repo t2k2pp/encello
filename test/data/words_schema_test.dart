@@ -75,10 +75,7 @@ void main() {
       await db
           .into(db.wordbookEntries)
           .insert(
-            WordbookEntriesCompanion.insert(
-              wordbookId: bookId,
-              wordId: wordId,
-            ),
+            WordbookEntriesCompanion.insert(wordbookId: bookId, wordId: wordId),
           );
       await db
           .into(db.wordReviews)

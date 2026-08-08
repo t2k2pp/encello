@@ -5,7 +5,10 @@ import 'word_parts.dart';
 import 'words.dart';
 
 /// 学習セッション（[Docs/03_data_model.md] §2.8）。
-@TableIndex(name: 'study_sessions_profile_started', columns: {#profileId, #startedAt})
+@TableIndex(
+  name: 'study_sessions_profile_started',
+  columns: {#profileId, #startedAt},
+)
 class StudySessions extends Table {
   /// UUID v4。
   TextColumn get id => text()();
@@ -40,7 +43,10 @@ class StudySessions extends Table {
 ///
 /// `wordId` と `partId` は**どちらか一方だけが非 null**になる。両方 null、または
 /// 両方非 null の行は作らない（リポジトリで保証する）。
-@TableIndex(name: 'learning_logs_profile_answered', columns: {#profileId, #answeredAt})
+@TableIndex(
+  name: 'learning_logs_profile_answered',
+  columns: {#profileId, #answeredAt},
+)
 @TableIndex(name: 'learning_logs_session_id', columns: {#sessionId})
 @TableIndex(name: 'learning_logs_word_id', columns: {#wordId})
 class LearningLogs extends Table {
@@ -52,14 +58,18 @@ class LearningLogs extends Table {
       text().references(StudySessions, #id, onDelete: KeyAction.cascade)();
 
   /// 語のつくりモードでは null。
-  IntColumn get wordId => integer()
-      .nullable()
-      .references(Words, #id, onDelete: KeyAction.cascade)();
+  IntColumn get wordId => integer().nullable().references(
+    Words,
+    #id,
+    onDelete: KeyAction.cascade,
+  )();
 
   /// 語のつくりモードでのみ非 null。
-  IntColumn get partId => integer()
-      .nullable()
-      .references(WordParts, #id, onDelete: KeyAction.cascade)();
+  IntColumn get partId => integer().nullable().references(
+    WordParts,
+    #id,
+    onDelete: KeyAction.cascade,
+  )();
 
   /// 学習モード（`StudyMode`）。
   TextColumn get mode => text()();
@@ -128,7 +138,10 @@ class Achievements extends Table {
 }
 
 /// 語彙力測定の履歴（[Docs/03_data_model.md] §2.10）。
-@TableIndex(name: 'vocab_size_tests_profile_taken', columns: {#profileId, #takenAt})
+@TableIndex(
+  name: 'vocab_size_tests_profile_taken',
+  columns: {#profileId, #takenAt},
+)
 class VocabSizeTests extends Table {
   IntColumn get id => integer().autoIncrement()();
 

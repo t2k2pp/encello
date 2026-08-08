@@ -145,9 +145,7 @@ abstract final class PartsQuestionBuilder {
     ];
     if (sameType.length < optionCount - 1) return null;
 
-    final distractors = ([...sameType]..shuffle(random)).take(
-      optionCount - 1,
-    );
+    final distractors = ([...sameType]..shuffle(random)).take(optionCount - 1);
     final formToMeaning = random.nextBool();
     final options = [
       correct,
@@ -184,11 +182,10 @@ abstract final class PartsQuestionBuilder {
     ];
     if (others.length < optionCount - 1) return null;
 
-    final options =
-        [correct, ...([...others]..shuffle(random)).take(optionCount - 1)]
-            .map((g) => g.meaning)
-            .toList()
-          ..shuffle(random);
+    final options = [
+      correct,
+      ...([...others]..shuffle(random)).take(optionCount - 1),
+    ].map((g) => g.meaning).toList()..shuffle(random);
 
     return PartsQuestion(
       prompt: '${correct.headword} の意味は？',

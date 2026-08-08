@@ -24,11 +24,7 @@ void main() {
 
     test('今日まで3日連続なら 3', () {
       final r = StreakCalculator.calculate(
-        _marks({
-          '2026-08-02': true,
-          '2026-08-03': true,
-          '2026-08-04': true,
-        }),
+        _marks({'2026-08-02': true, '2026-08-03': true, '2026-08-04': true}),
         today: '2026-08-04',
       );
       expect(r.current, 3);
@@ -37,11 +33,7 @@ void main() {
 
     test('今日がまだ未達でも、昨日まで連続していれば切れていない', () {
       final r = StreakCalculator.calculate(
-        _marks({
-          '2026-08-02': true,
-          '2026-08-03': true,
-          '2026-08-04': false,
-        }),
+        _marks({'2026-08-02': true, '2026-08-03': true, '2026-08-04': false}),
         today: '2026-08-04',
       );
       expect(r.current, 2);
@@ -75,11 +67,7 @@ void main() {
 
     test('月をまたぐ連続も途切れない', () {
       final r = StreakCalculator.calculate(
-        _marks({
-          '2026-07-30': true,
-          '2026-07-31': true,
-          '2026-08-01': true,
-        }),
+        _marks({'2026-07-30': true, '2026-07-31': true, '2026-08-01': true}),
         today: '2026-08-01',
       );
       expect(r.current, 3);

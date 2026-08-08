@@ -108,9 +108,7 @@ class DonutLegend extends StatelessWidget {
                 SizedBox(
                   width: 44,
                   child: Text(
-                    total == 0
-                        ? '—'
-                        : '${(s.value * 100 / total).round()}%',
+                    total == 0 ? '—' : '${(s.value * 100 / total).round()}%',
                     maxLines: 1,
                     textAlign: TextAlign.right,
                     overflow: TextOverflow.ellipsis,

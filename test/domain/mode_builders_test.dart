@@ -29,7 +29,12 @@ void main() {
     test('誤答に正解そのものが混ざらない', () {
       final picked = ChoiceDistractors.pick(
         correct: apple,
-        pool: [apple, word(2, 'banana', 'バナナ'), word(3, 'cherry', 'さくらんぼ'), word(4, 'grape', 'ぶどう')],
+        pool: [
+          apple,
+          word(2, 'banana', 'バナナ'),
+          word(3, 'cherry', 'さくらんぼ'),
+          word(4, 'grape', 'ぶどう'),
+        ],
         direction: StudyDirection.enToJa,
         random: Random(1),
       );
@@ -65,10 +70,7 @@ void main() {
         direction: StudyDirection.enToJa,
         random: Random(3),
       );
-      expect(
-        picked.every((c) => c.partOfSpeech == PartOfSpeech.noun),
-        isTrue,
-      );
+      expect(picked.every((c) => c.partOfSpeech == PartOfSpeech.noun), isTrue);
     });
 
     test('候補が足りなければ空を返す（ダミーで埋めない）', () {
@@ -222,7 +224,10 @@ void main() {
     test('91日前の誤答は数えない', () {
       final old = now.subtract(const Duration(days: 91));
       final pairs = ConfusionPairFinder.find(
-        logs: [log(at: old), log(at: old)],
+        logs: [
+          log(at: old),
+          log(at: old),
+        ],
         words: words,
         now: now,
       );
@@ -338,9 +343,7 @@ void main() {
         member(3, 'decisive', PartOfSpeech.adjective),
       ]);
       expect(
-        questions.every(
-          (q) => q.prompt.partOfSpeech != q.answer.partOfSpeech,
-        ),
+        questions.every((q) => q.prompt.partOfSpeech != q.answer.partOfSpeech),
         isTrue,
       );
       expect(questions, isNotEmpty);

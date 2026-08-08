@@ -50,9 +50,9 @@ class _RootShellState extends ConsumerState<RootShell> {
     } catch (e) {
       // 予約に失敗したことは伏せない（鳴らないまま ON に見せかけない）。
       if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('学習リマインダーの予約に失敗しました: $e')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('学習リマインダーの予約に失敗しました: $e')));
     }
   }
 
@@ -85,8 +85,7 @@ class _RootShellState extends ConsumerState<RootShell> {
     final wide = MediaQuery.sizeOf(context).width >= 840;
     // 出題できる語が1語も無いうちは学習を始められないため、FAB を出さない
     // （押せるのに始まらないボタンを置かない。[STYLE_GUIDE §0-4]）。
-    final studyable =
-        ref.watch(studyableWordCountProvider(profile)).value ?? 0;
+    final studyable = ref.watch(studyableWordCountProvider(profile)).value ?? 0;
     // 期限到来の復習がある間は件数をバッジで出す（[Docs/04_screens_and_flows.md] §1）。
     final due = ref.watch(dueCountProvider(profile)).value ?? 0;
 
@@ -139,8 +138,7 @@ class _RootShellState extends ConsumerState<RootShell> {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(18),
                 ),
-                onPressed: () =>
-                    showStartStudySheet(context, profile: profile),
+                onPressed: () => showStartStudySheet(context, profile: profile),
                 icon: Badge(
                   isLabelVisible: due > 0,
                   label: Text('$due'),
@@ -168,7 +166,6 @@ class _RootShellState extends ConsumerState<RootShell> {
             ),
     );
   }
-
 }
 
 class _ShellDestination {

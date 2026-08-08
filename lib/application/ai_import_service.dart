@@ -114,10 +114,7 @@ class AiImportService {
   ///
   /// [targetWordbookId] を渡すと「既存の単語帳に足す」（同じ単語帳へ複数回に分けて
   /// 取り込める。§4.1）。未指定なら新しい単語帳を作る。
-  Future<AiImportResult> import(
-    ParsedWordbook book, {
-    int? targetWordbookId,
-  }) {
+  Future<AiImportResult> import(ParsedWordbook book, {int? targetWordbookId}) {
     return _db.transaction(() async {
       final wordbookId = targetWordbookId ?? await _createWordbook(book);
 

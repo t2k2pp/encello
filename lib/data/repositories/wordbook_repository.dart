@@ -14,7 +14,8 @@ class WordbookWithCount {
 
   const WordbookWithCount({required this.wordbook, required this.wordCount});
 
-  WordbookCategory get category => WordbookCategory.fromValue(wordbook.category);
+  WordbookCategory get category =>
+      WordbookCategory.fromValue(wordbook.category);
 
   WordbookSource get source => WordbookSource.fromValue(wordbook.source);
 
@@ -62,9 +63,9 @@ class WordbookRepository {
     );
   }
 
-  Future<Wordbook?> findById(int id) =>
-      (_db.select(_db.wordbooks)..where((t) => t.id.equals(id)))
-          .getSingleOrNull();
+  Future<Wordbook?> findById(int id) => (_db.select(
+    _db.wordbooks,
+  )..where((t) => t.id.equals(id))).getSingleOrNull();
 
   /// `presetId` → 単語帳。例文がどの単語帳のものかを名前で示すために使う
   /// （`word_examples.sourcePresetId`。[Docs/03_data_model.md] §2.4）。
@@ -78,12 +79,13 @@ class WordbookRepository {
   /// プロファイル作成時に必ず1冊作られる（[Docs/06_features/my_words.md] §2）ため、
   /// 見つからない場合はデータ不整合として例外にする。
   Future<Wordbook> myWordsBookOf(int profileId) async {
-    final book = await (_db.select(_db.wordbooks)..where(
-          (t) =>
-              t.ownerProfileId.equals(profileId) &
-              t.category.equals(WordbookCategory.myWords.value),
-        ))
-        .getSingleOrNull();
+    final book =
+        await (_db.select(_db.wordbooks)..where(
+              (t) =>
+                  t.ownerProfileId.equals(profileId) &
+                  t.category.equals(WordbookCategory.myWords.value),
+            ))
+            .getSingleOrNull();
     if (book == null) {
       throw StateError('マイ単語帳が見つかりません（profileId=$profileId）');
     }
@@ -98,9 +100,9 @@ class WordbookRepository {
     String? note,
   }) async {
     final maxOrder = _db.wordbooks.sortOrder.max();
-    final row = await (_db.selectOnly(_db.wordbooks)
-          ..addColumns([maxOrder]))
-        .getSingle();
+    final row = await (_db.selectOnly(
+      _db.wordbooks,
+    )..addColumns([maxOrder])).getSingle();
     return _db
         .into(_db.wordbooks)
         .insert(
@@ -167,9 +169,7 @@ class WordbookRepository {
         if (!ids.contains(id)) continue;
         await (_db.update(_db.profiles)..where((t) => t.id.equals(p.id))).write(
           ProfilesCompanion(
-            selectedWordbookIds: Value(
-              encodeIdList(ids.where((e) => e != id)),
-            ),
+            selectedWordbookIds: Value(encodeIdList(ids.where((e) => e != id))),
             updatedAt: Value(DateTime.now()),
           ),
         );
@@ -191,13 +191,14 @@ class WordbookRepository {
     } else {
       ids.remove(wordbookId);
     }
-    await (_db.update(_db.profiles)..where((t) => t.id.equals(profile.id)))
-        .write(
-          ProfilesCompanion(
-            selectedWordbookIds: Value(encodeIdList(ids)),
-            updatedAt: Value(DateTime.now()),
-          ),
-        );
+    await (_db.update(
+      _db.profiles,
+    )..where((t) => t.id.equals(profile.id))).write(
+      ProfilesCompanion(
+        selectedWordbookIds: Value(encodeIdList(ids)),
+        updatedAt: Value(DateTime.now()),
+      ),
+    );
   }
 
   /// 語を単語帳へ所属させる。すでに所属していれば並び順だけを保つ。

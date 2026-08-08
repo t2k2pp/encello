@@ -39,10 +39,7 @@ void main() {
     });
 
     test('grade が範囲外なら例外', () {
-      expect(
-        () => apply(ReviewState.initial, grade: 6),
-        throwsArgumentError,
-      );
+      expect(() => apply(ReviewState.initial, grade: 6), throwsArgumentError);
     });
   });
 

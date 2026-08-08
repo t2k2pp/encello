@@ -22,11 +22,9 @@ void main() {
   setUp(() async {
     db = newTestDatabase();
     me = await createTestProfile(db, name: 'たろう');
-    wordbookId = await WordbookRepository(db).create(
-      name: 'テスト単語帳',
-      emoji: '📗',
-      colorSeed: 1,
-    );
+    wordbookId = await WordbookRepository(
+      db,
+    ).create(name: 'テスト単語帳', emoji: '📗', colorSeed: 1);
   });
 
   /// 単語を1語足し、学習状態を（指定があれば）作る。
@@ -58,8 +56,9 @@ void main() {
   /// 学習対象に設定した最新のプロファイルを返す。
   Future<Profile> selectWordbook() async {
     await WordbookRepository(db).setStudyTarget(me, wordbookId, selected: true);
-    return (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-        .getSingle();
+    return (db.select(
+      db.profiles,
+    )..where((t) => t.id.equals(me.id))).getSingle();
   }
 
   Future<void> pumpStats(WidgetTester tester, Profile profile) async {
@@ -162,7 +161,12 @@ void main() {
 
   group('苦手単語の条件（解答10回以上・正解率60%未満）', () {
     testWidgets('解答9回では出ない', (tester) async {
-      await addWord('apple', masteryLevel: 1, totalCorrect: 3, totalIncorrect: 6);
+      await addWord(
+        'apple',
+        masteryLevel: 1,
+        totalCorrect: 3,
+        totalIncorrect: 6,
+      );
       await pumpStats(tester, await selectWordbook());
       await scrollToWeakWords(tester);
 
@@ -170,7 +174,12 @@ void main() {
     });
 
     testWidgets('解答10回・正解率59%（10回中5正解）なら出る', (tester) async {
-      await addWord('apple', masteryLevel: 1, totalCorrect: 5, totalIncorrect: 5);
+      await addWord(
+        'apple',
+        masteryLevel: 1,
+        totalCorrect: 5,
+        totalIncorrect: 5,
+      );
       await pumpStats(tester, await selectWordbook());
       await scrollToWeakWords(tester);
 
@@ -179,16 +188,17 @@ void main() {
     });
 
     testWidgets('正解率60%ちょうどでは出ない', (tester) async {
-      await addWord('apple', masteryLevel: 1, totalCorrect: 6, totalIncorrect: 4);
+      await addWord(
+        'apple',
+        masteryLevel: 1,
+        totalCorrect: 6,
+        totalIncorrect: 4,
+      );
       await pumpStats(tester, await selectWordbook());
       await scrollToWeakWords(tester);
 
       expect(find.textContaining('苦手な単語はありません'), findsOneWidget);
-      expect(
-        StudyQueueBuilder.weakMaxAccuracy,
-        0.6,
-        reason: '条件を緩めていないこと',
-      );
+      expect(StudyQueueBuilder.weakMaxAccuracy, 0.6, reason: '条件を緩めていないこと');
     });
   });
 
@@ -199,14 +209,12 @@ void main() {
     await scrollToWeakWords(tester);
     expect(find.textContaining('10回中5正解'), findsOneWidget);
 
-    await WordbookRepository(db).setStudyTarget(
-      selected,
-      wordbookId,
-      selected: false,
-    );
-    final cleared =
-        await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-            .getSingle();
+    await WordbookRepository(
+      db,
+    ).setStudyTarget(selected, wordbookId, selected: false);
+    final cleared = await (db.select(
+      db.profiles,
+    )..where((t) => t.id.equals(me.id))).getSingle();
     await pumpStats(tester, cleared);
     await scrollToWeakWords(tester);
 

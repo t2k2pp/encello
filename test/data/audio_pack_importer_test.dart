@@ -84,7 +84,13 @@ void main() {
 
       expect(
         File(
-          p.join(documents.path, 'audio_packs', 'jhs_en_us_v1', 'audio', 'apple.mp3'),
+          p.join(
+            documents.path,
+            'audio_packs',
+            'jhs_en_us_v1',
+            'audio',
+            'apple.mp3',
+          ),
         ).existsSync(),
         isTrue,
       );
@@ -135,9 +141,9 @@ void main() {
       );
 
       final audio = await db.select(db.wordAudios).getSingle();
-      final word = await (db.select(db.words)
-            ..where((t) => t.id.equals(audio.wordId)))
-          .getSingle();
+      final word = await (db.select(
+        db.words,
+      )..where((t) => t.id.equals(audio.wordId))).getSingle();
       expect(word.partOfSpeech, 'verb');
     });
 
