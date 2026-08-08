@@ -41,7 +41,7 @@ void main() {
             WordExamplesCompanion.insert(
               wordId: id,
               exampleEn: exampleEn,
-              exampleJa: exampleJa ?? '',
+              exampleJa: Value(exampleJa),
             ),
           );
     }
@@ -140,10 +140,9 @@ void main() {
     });
 
     test('例文検索が ON なら例文からもヒットする', () async {
-      expect(
-        await headwordsOf(queryOf(search: 'pie', searchExamples: true)),
-        ['orange'],
-      );
+      expect(await headwordsOf(queryOf(search: 'pie', searchExamples: true)), [
+        'orange',
+      ]);
     });
 
     test('大文字で入力しても引ける', () async {
@@ -216,10 +215,7 @@ void main() {
     test('学習対象のみで絞れる', () async {
       expect(
         await headwordsOf(
-          queryOf(
-            wordbook: WordbookFilter.studyTarget,
-            selected: [bookId],
-          ),
+          queryOf(wordbook: WordbookFilter.studyTarget, selected: [bookId]),
         ),
         ['apple', 'banana'],
       );
@@ -227,14 +223,13 @@ void main() {
 
     test('未学習フィルタは学習状態の行が無い語だけを出す', () async {
       await setReview(appleId, me, mastery: Mastery.learning);
-      expect(
-        await headwordsOf(queryOf(mastery: MasteryFilter.unlearned)),
-        ['banana', 'orphan'],
-      );
-      expect(
-        await headwordsOf(queryOf(mastery: MasteryFilter.learning)),
-        ['apple'],
-      );
+      expect(await headwordsOf(queryOf(mastery: MasteryFilter.unlearned)), [
+        'banana',
+        'orphan',
+      ]);
+      expect(await headwordsOf(queryOf(mastery: MasteryFilter.learning)), [
+        'apple',
+      ]);
     });
 
     test('習熟度は学習者ごとに違う', () async {
@@ -260,10 +255,9 @@ void main() {
         totalCorrect: 5,
         totalIncorrect: 5,
       );
-      final banana =
-          await (db.select(db.words)
-                ..where((t) => t.headword.equals('banana')))
-              .getSingle();
+      final banana = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('banana'))).getSingle();
       // 10回・正解7回（70%）→ 苦手ではない
       await setReview(
         banana.id,
@@ -378,7 +372,9 @@ void main() {
         2,
       );
       expect(
-        entries.firstWhere((e) => e.word.headword == 'orphan').wordbookColorSeed,
+        entries
+            .firstWhere((e) => e.word.headword == 'orphan')
+            .wordbookColorSeed,
         isNull,
       );
     });

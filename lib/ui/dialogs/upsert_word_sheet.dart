@@ -83,10 +83,13 @@ class _UpsertWordSheetState extends ConsumerState<_UpsertWordSheet> {
 
   /// 編集時に、その語に書き残したユーザーの文を読み込む。
   Future<void> _loadUserExample(int wordId) async {
-    final example = await ref.read(wordRepositoryProvider).userExampleOf(wordId);
+    final example = await ref
+        .read(wordRepositoryProvider)
+        .userExampleOf(wordId);
     if (!mounted || example == null) return;
     _exampleEnCtrl.text = example.exampleEn;
-    _exampleJaCtrl.text = example.exampleJa;
+    // 和訳を書いていない「出会った文」は null で入っている（§2.4）。
+    _exampleJaCtrl.text = example.exampleJa ?? '';
   }
 
   @override
@@ -109,11 +112,7 @@ class _UpsertWordSheetState extends ConsumerState<_UpsertWordSheet> {
     }
     final found = await ref
         .read(wordRepositoryProvider)
-        .findByHeadword(
-          headword,
-          _partOfSpeech,
-          profileId: widget.profile.id,
-        );
+        .findByHeadword(headword, _partOfSpeech, profileId: widget.profile.id);
     if (!mounted) return;
     if (found?.id != _existing?.id) setState(() => _existing = found);
   }
@@ -241,8 +240,7 @@ class _UpsertWordSheetState extends ConsumerState<_UpsertWordSheet> {
                     value: _level,
                     hint: 'レベル',
                     items: [
-                      for (var i = 1; i <= 5; i++)
-                        (value: i, label: 'レベル $i'),
+                      for (var i = 1; i <= 5; i++) (value: i, label: 'レベル $i'),
                     ],
                     onChanged: (v) => setState(() => _level = v),
                   ),

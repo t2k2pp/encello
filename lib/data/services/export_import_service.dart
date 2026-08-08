@@ -8,7 +8,8 @@ import '../../core/utils/enums.dart';
 import '../../domain/usecases/wordbook_csv_codec.dart';
 import '../database/app_database.dart';
 import '../repositories/word_repository.dart';
-import '../repositories/wordbook_repository.dart' show decodeIdList, encodeIdList;
+import '../repositories/wordbook_repository.dart'
+    show decodeIdList, encodeIdList;
 
 /// バックアップの中身。**プレーンなデータだけ**で作る（isolate へ渡せる形）。
 typedef BackupPayload = Map<String, dynamic>;
@@ -135,13 +136,7 @@ class ExportImportService {
       'exportedAt': exportedAt.toIso8601String(),
       'profiles': [
         for (final profile in profiles)
-          await _profileJson(
-            profile,
-            wordById,
-            partById,
-            familyById,
-            examples,
-          ),
+          await _profileJson(profile, wordById, partById, familyById, examples),
       ],
       'wordbooks': [
         for (final book in wordbooks)
@@ -213,42 +208,33 @@ class ExportImportService {
     Map<int, WordFamily> familyById,
     Map<int, List<WordExample>> examples,
   ) async {
-    final reviews =
-        await (_db.select(_db.wordReviews)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final partReviews =
-        await (_db.select(_db.partReviews)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final sessions =
-        await (_db.select(_db.studySessions)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final logs =
-        await (_db.select(_db.learningLogs)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final dailyStats =
-        await (_db.select(_db.dailyStats)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final achievements =
-        await (_db.select(_db.achievements)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final vocabTests =
-        await (_db.select(_db.vocabSizeTests)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final confusions =
-        await (_db.select(_db.resolvedConfusions)
-              ..where((t) => t.profileId.equals(profile.id)))
-            .get();
-    final myWords =
-        await (_db.select(_db.words)
-              ..where((t) => t.ownerProfileId.equals(profile.id)))
-            .get();
+    final reviews = await (_db.select(
+      _db.wordReviews,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final partReviews = await (_db.select(
+      _db.partReviews,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final sessions = await (_db.select(
+      _db.studySessions,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final logs = await (_db.select(
+      _db.learningLogs,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final dailyStats = await (_db.select(
+      _db.dailyStats,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final achievements = await (_db.select(
+      _db.achievements,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final vocabTests = await (_db.select(
+      _db.vocabSizeTests,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final confusions = await (_db.select(
+      _db.resolvedConfusions,
+    )..where((t) => t.profileId.equals(profile.id))).get();
+    final myWords = await (_db.select(
+      _db.words,
+    )..where((t) => t.ownerProfileId.equals(profile.id))).get();
 
     return {
       'name': profile.name,
@@ -399,8 +385,9 @@ class ExportImportService {
   Future<List<String>> _selectedWordbookNames(Profile profile) async {
     final ids = decodeIdList(profile.selectedWordbookIds);
     if (ids.isEmpty) return const [];
-    final books =
-        await (_db.select(_db.wordbooks)..where((t) => t.id.isIn(ids))).get();
+    final books = await (_db.select(
+      _db.wordbooks,
+    )..where((t) => t.id.isIn(ids))).get();
     return [for (final b in books) b.name];
   }
 
@@ -462,21 +449,21 @@ class ExportImportService {
   /// CSV は1語1行なので**例文は1つだけ**出す。出すのは**その単語帳の例文**で、
   /// 無ければ `sortOrder` の先頭（[Docs/03_data_model.md] §10）。
   Future<String> collectCsv(int wordbookId) async {
-    final query = _db.select(_db.words).join([
-      innerJoin(
-        _db.wordbookEntries,
-        _db.wordbookEntries.wordId.equalsExp(_db.words.id),
-        useColumns: false,
-      ),
-    ])
-      ..where(_db.wordbookEntries.wordbookId.equals(wordbookId))
-      ..orderBy([OrderingTerm.asc(_db.wordbookEntries.sortOrder)]);
+    final query =
+        _db.select(_db.words).join([
+            innerJoin(
+              _db.wordbookEntries,
+              _db.wordbookEntries.wordId.equalsExp(_db.words.id),
+              useColumns: false,
+            ),
+          ])
+          ..where(_db.wordbookEntries.wordbookId.equals(wordbookId))
+          ..orderBy([OrderingTerm.asc(_db.wordbookEntries.sortOrder)]);
     final words = await query.map((row) => row.readTable(_db.words)).get();
 
-    final examples = await WordRepository(_db).preferredExamples(
-      words.map((w) => w.id),
-      wordbookIds: [wordbookId],
-    );
+    final examples = await WordRepository(
+      _db,
+    ).preferredExamples(words.map((w) => w.id), wordbookIds: [wordbookId]);
 
     return WordbookCsvCodec.encode([
       for (final w in words)
@@ -661,9 +648,7 @@ class ExportImportService {
 
     var newWords = 0;
     for (final w in words.cast<Map<String, dynamic>>()) {
-      if (!existingWordKeys.contains(
-        '${w['headword']}:${w['partOfSpeech']}',
-      )) {
+      if (!existingWordKeys.contains('${w['headword']}:${w['partOfSpeech']}')) {
         newWords++;
       }
     }
@@ -730,13 +715,19 @@ class ExportImportService {
       await _importWordbooks(payload, wordIds);
 
       var logCount = 0;
-      final profiles = (payload['profiles'] as List).cast<Map<String, dynamic>>();
+      final profiles = (payload['profiles'] as List)
+          .cast<Map<String, dynamic>>();
       for (final json in profiles) {
         final profile = await _resolveProfile(json);
         await _importMyWords(json, profile, familyIds, wordIds);
         await _importReviews(json, profile, wordIds);
         await _importPartReviews(json, profile, partIds);
-        logCount += await _importSessionsAndLogs(json, profile, wordIds, partIds);
+        logCount += await _importSessionsAndLogs(
+          json,
+          profile,
+          wordIds,
+          partIds,
+        );
         await _importDailyStats(json, profile);
         await _importAchievements(json, profile);
         await _importVocabTests(json, profile);
@@ -770,8 +761,9 @@ class ExportImportService {
     for (final f in await _db.select(_db.wordFamilies).get()) {
       result[f.baseForm] = f.id;
     }
-    for (final json in (payload['wordFamilies'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final json
+        in (payload['wordFamilies'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final baseForm = json['baseForm'] as String;
       if (result.containsKey(baseForm)) continue;
       result[baseForm] = await _db
@@ -792,8 +784,9 @@ class ExportImportService {
     for (final p in await _db.select(_db.wordParts).get()) {
       result['${p.form}:${p.type}'] = p.id;
     }
-    for (final json in (payload['wordParts'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final json
+        in (payload['wordParts'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final key = '${json['form']}:${json['type']}';
       if (result.containsKey(key)) continue;
       result[key] = await _db
@@ -870,12 +863,18 @@ class ExportImportService {
   Future<void> _insertExamples(Map<String, dynamic> json, int wordId) async {
     final seenSources = <String?>{};
     for (final e
-        in (json['examples'] as List? ?? const []).cast<Map<String, dynamic>>()) {
+        in (json['examples'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final en = e['en'] as String?;
-      final ja = e['ja'] as String?;
-      // 例文と和訳は必ず対で持つ（`word_examples` は両方 not null）。
-      if (en == null || en.isEmpty || ja == null) continue;
+      final rawJa = e['ja'] as String?;
+      // 「無い」は null で表す（古い書き出しに空文字が入っていても null にする）。
+      final ja = (rawJa == null || rawJa.trim().isEmpty) ? null : rawJa;
       final source = e['sourcePresetId'] as String?;
+      if (en == null || en.isEmpty) continue;
+      // 和訳の要否は出どころで変わる（[Docs/03_data_model.md] §2.4）。
+      // プリセット由来は和訳が必須なので、欠けている行は入れない。
+      // ユーザーが書いた文は任意なので、無ければ null のまま入れる。
+      if (source != null && ja == null) continue;
       // 同じ `sourcePresetId` は語ごとに1件（部分ユニーク索引に合わせる）。
       if (!seenSources.add(source)) continue;
       await _db
@@ -884,7 +883,7 @@ class ExportImportService {
             WordExamplesCompanion.insert(
               wordId: wordId,
               exampleEn: en,
-              exampleJa: ja,
+              exampleJa: Value(ja),
               sourcePresetId: Value(source),
               sortOrder: Value(e['sortOrder'] as int? ?? 0),
             ),
@@ -937,9 +936,10 @@ class ExportImportService {
               name: name,
               emoji: json['emoji'] as String? ?? '📗',
               colorSeed: json['colorSeed'] as int? ?? 0,
-              category: json['category'] as String? ??
-                  WordbookCategory.custom.value,
-              source: json['source'] as String? ?? WordbookSource.imported.value,
+              category:
+                  json['category'] as String? ?? WordbookCategory.custom.value,
+              source:
+                  json['source'] as String? ?? WordbookSource.imported.value,
               presetId: Value(presetId),
               bandSize: Value(json['bandSize'] as int?),
               note: Value(json['note'] as String?),
@@ -975,9 +975,9 @@ class ExportImportService {
   /// 学習者は `name` で解決する。**既存の設定は上書きしない**（§2.2）。
   Future<Profile> _resolveProfile(Map<String, dynamic> json) async {
     final name = json['name'] as String;
-    final existing =
-        await (_db.select(_db.profiles)..where((t) => t.name.equals(name)))
-            .getSingleOrNull();
+    final existing = await (_db.select(
+      _db.profiles,
+    )..where((t) => t.name.equals(name))).getSingleOrNull();
     if (existing != null) return existing;
 
     final id = await _db
@@ -991,15 +991,25 @@ class ExportImportService {
             textScale: Value(json['textScale'] as String? ?? 'medium'),
             density: Value(json['density'] as String? ?? 'standard'),
             dictViewMode: Value(json['dictViewMode'] as String? ?? 'list'),
-            dictGridColumns: Value(json['dictGridColumns'] as String? ?? 'auto'),
+            dictGridColumns: Value(
+              json['dictGridColumns'] as String? ?? 'auto',
+            ),
             searchExamples: Value(json['searchExamples'] as bool? ?? false),
             dailyGoal: Value(json['dailyGoal'] as int? ?? 20),
             sessionSize: Value(json['sessionSize'] as int? ?? 20),
-            keyboardLayout: Value(json['keyboardLayout'] as String? ?? 'qwerty'),
-            autoNextOnCorrect: Value(json['autoNextOnCorrect'] as bool? ?? false),
-            flashcardMode: Value(json['flashcardMode'] as String? ?? 'silentAuto'),
+            keyboardLayout: Value(
+              json['keyboardLayout'] as String? ?? 'qwerty',
+            ),
+            autoNextOnCorrect: Value(
+              json['autoNextOnCorrect'] as bool? ?? false,
+            ),
+            flashcardMode: Value(
+              json['flashcardMode'] as String? ?? 'silentAuto',
+            ),
             flashcardSeconds: Value(json['flashcardSeconds'] as int? ?? 3),
-            choiceDirection: Value(json['choiceDirection'] as String? ?? 'random'),
+            choiceDirection: Value(
+              json['choiceDirection'] as String? ?? 'random',
+            ),
             speedLimitMs: Value(json['speedLimitMs'] as int? ?? 3000),
             audioSource: Value(json['audioSource'] as String? ?? 'fileFirst'),
             ttsRate: Value((json['ttsRate'] as num?)?.toDouble() ?? 0.5),
@@ -1023,8 +1033,9 @@ class ExportImportService {
             sortOrder: const Value(1000),
           ),
         );
-    return (_db.select(_db.profiles)..where((t) => t.id.equals(id)))
-        .getSingle();
+    return (_db.select(
+      _db.profiles,
+    )..where((t) => t.id.equals(id))).getSingle();
   }
 
   /// マイ単語は `(headword, partOfSpeech, 学習者)` で解決する。
@@ -1034,10 +1045,9 @@ class ExportImportService {
     Map<String, int> familyIds,
     Map<String, int> wordIds,
   ) async {
-    final mine =
-        await (_db.select(_db.words)
-              ..where((t) => t.ownerProfileId.equals(profile.id)))
-            .get();
+    final mine = await (_db.select(
+      _db.words,
+    )..where((t) => t.ownerProfileId.equals(profile.id))).get();
     final existing = {for (final w in mine) _wordKeyOf(w)};
     final myBook =
         await (_db.select(_db.wordbooks)..where(
@@ -1047,8 +1057,9 @@ class ExportImportService {
             ))
             .getSingleOrNull();
 
-    for (final w in (json['myWords'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final w
+        in (json['myWords'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final key = '${w['headword']}:${w['partOfSpeech']}';
       if (existing.contains(key)) continue;
       final id = await _insertWord(w, familyIds, ownerProfileId: profile.id);
@@ -1074,24 +1085,24 @@ class ExportImportService {
     Map<String, int> wordIds,
   ) async {
     // マイ単語の学習状態も解決できるよう、その人の語も引けるようにする。
-    final owned =
-        await (_db.select(_db.words)
-              ..where((t) => t.ownerProfileId.equals(profile.id)))
-            .get();
+    final owned = await (_db.select(
+      _db.words,
+    )..where((t) => t.ownerProfileId.equals(profile.id))).get();
     final keys = {...wordIds, for (final w in owned) _wordKeyOf(w): w.id};
 
-    for (final r in (json['reviews'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final r
+        in (json['reviews'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final wordId = keys['${r['headword']}:${r['partOfSpeech']}'];
       if (wordId == null) continue;
       final incomingLast = _parseDate(r['lastReviewedAt']);
       final existing =
           await (_db.select(_db.wordReviews)..where(
-                (t) =>
-                    t.profileId.equals(profile.id) & t.wordId.equals(wordId),
+                (t) => t.profileId.equals(profile.id) & t.wordId.equals(wordId),
               ))
               .getSingleOrNull();
-      if (existing != null && !_isNewer(incomingLast, existing.lastReviewedAt)) {
+      if (existing != null &&
+          !_isNewer(incomingLast, existing.lastReviewedAt)) {
         continue;
       }
       await _db
@@ -1121,18 +1132,19 @@ class ExportImportService {
     Profile profile,
     Map<String, int> partIds,
   ) async {
-    for (final r in (json['partReviews'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final r
+        in (json['partReviews'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final partId = partIds['${r['form']}:${r['type']}'];
       if (partId == null) continue;
       final incomingLast = _parseDate(r['lastReviewedAt']);
       final existing =
           await (_db.select(_db.partReviews)..where(
-                (t) =>
-                    t.profileId.equals(profile.id) & t.partId.equals(partId),
+                (t) => t.profileId.equals(profile.id) & t.partId.equals(partId),
               ))
               .getSingleOrNull();
-      if (existing != null && !_isNewer(incomingLast, existing.lastReviewedAt)) {
+      if (existing != null &&
+          !_isNewer(incomingLast, existing.lastReviewedAt)) {
         continue;
       }
       await _db
@@ -1168,8 +1180,9 @@ class ExportImportService {
       for (final s in await _db.select(_db.studySessions).get()) s.id,
     };
     final imported = <String>{};
-    for (final s in (json['sessions'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final s
+        in (json['sessions'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final id = s['id'] as String;
       if (existingIds.contains(id)) continue;
       await _db
@@ -1191,10 +1204,9 @@ class ExportImportService {
       imported.add(id);
     }
 
-    final owned =
-        await (_db.select(_db.words)
-              ..where((t) => t.ownerProfileId.equals(profile.id)))
-            .get();
+    final owned = await (_db.select(
+      _db.words,
+    )..where((t) => t.ownerProfileId.equals(profile.id))).get();
     final keys = {...wordIds, for (final w in owned) _wordKeyOf(w): w.id};
 
     var count = 0;
@@ -1239,8 +1251,9 @@ class ExportImportService {
     Map<String, dynamic> json,
     Profile profile,
   ) async {
-    for (final d in (json['dailyStats'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final d
+        in (json['dailyStats'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final studyDate = d['studyDate'] as String;
       final existing =
           await (_db.select(_db.dailyStats)..where(
@@ -1257,18 +1270,22 @@ class ExportImportService {
               studyDate: studyDate,
               goalCount: existing?.goalCount ?? (d['goalCount'] as int? ?? 20),
               answeredCount: Value(
-                (existing?.answeredCount ?? 0) + (d['answeredCount'] as int? ?? 0),
+                (existing?.answeredCount ?? 0) +
+                    (d['answeredCount'] as int? ?? 0),
               ),
               correctCount: Value(
-                (existing?.correctCount ?? 0) + (d['correctCount'] as int? ?? 0),
+                (existing?.correctCount ?? 0) +
+                    (d['correctCount'] as int? ?? 0),
               ),
               xp: Value((existing?.xp ?? 0) + (d['xp'] as int? ?? 0)),
               studySeconds: Value(
-                (existing?.studySeconds ?? 0) + (d['studySeconds'] as int? ?? 0),
+                (existing?.studySeconds ?? 0) +
+                    (d['studySeconds'] as int? ?? 0),
               ),
               // 達成は OR。片方でも達成していればその日は達成。
               goalMet: Value(
-                (existing?.goalMet ?? false) || (d['goalMet'] as bool? ?? false),
+                (existing?.goalMet ?? false) ||
+                    (d['goalMet'] as bool? ?? false),
               ),
             ),
           );
@@ -1280,8 +1297,9 @@ class ExportImportService {
     Map<String, dynamic> json,
     Profile profile,
   ) async {
-    for (final a in (json['achievements'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final a
+        in (json['achievements'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final code = a['code'] as String;
       final unlockedAt = _parseDate(a['unlockedAt']) ?? DateTime.now();
       final existing =
@@ -1289,7 +1307,9 @@ class ExportImportService {
                 (t) => t.profileId.equals(profile.id) & t.code.equals(code),
               ))
               .getSingleOrNull();
-      if (existing != null && !existing.unlockedAt.isAfter(unlockedAt)) continue;
+      if (existing != null && !existing.unlockedAt.isAfter(unlockedAt)) {
+        continue;
+      }
       await _db
           .into(_db.achievements)
           .insertOnConflictUpdate(
@@ -1308,13 +1328,14 @@ class ExportImportService {
     Profile profile,
   ) async {
     final existing = {
-      for (final v in await (_db.select(_db.vocabSizeTests)
-                ..where((t) => t.profileId.equals(profile.id)))
-              .get())
+      for (final v in await (_db.select(
+        _db.vocabSizeTests,
+      )..where((t) => t.profileId.equals(profile.id))).get())
         v.takenAt.toIso8601String(),
     };
-    for (final v in (json['vocabSizeTests'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final v
+        in (json['vocabSizeTests'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final takenAt = _parseDate(v['takenAt']);
       if (takenAt == null) continue;
       if (existing.contains(takenAt.toIso8601String())) continue;
@@ -1340,14 +1361,14 @@ class ExportImportService {
     Profile profile,
     Map<String, int> wordIds,
   ) async {
-    final owned =
-        await (_db.select(_db.words)
-              ..where((t) => t.ownerProfileId.equals(profile.id)))
-            .get();
+    final owned = await (_db.select(
+      _db.words,
+    )..where((t) => t.ownerProfileId.equals(profile.id))).get();
     final keys = {...wordIds, for (final w in owned) _wordKeyOf(w): w.id};
 
-    for (final c in (json['resolvedConfusions'] as List? ?? const [])
-        .cast<Map<String, dynamic>>()) {
+    for (final c
+        in (json['resolvedConfusions'] as List? ?? const [])
+            .cast<Map<String, dynamic>>()) {
       final a = c['a'] as Map<String, dynamic>;
       final b = c['b'] as Map<String, dynamic>;
       final idA = keys['${a['headword']}:${a['partOfSpeech']}'];
@@ -1365,7 +1386,9 @@ class ExportImportService {
                     t.wordIdB.equals(high),
               ))
               .getSingleOrNull();
-      if (existing != null && !existing.resolvedAt.isAfter(resolvedAt)) continue;
+      if (existing != null && !existing.resolvedAt.isAfter(resolvedAt)) {
+        continue;
+      }
       await _db
           .into(_db.resolvedConfusions)
           .insertOnConflictUpdate(
@@ -1384,7 +1407,8 @@ class ExportImportService {
     Map<String, dynamic> json,
     Profile profile,
   ) async {
-    final names = (json['selectedWordbooks'] as List? ?? const []).cast<String>();
+    final names = (json['selectedWordbooks'] as List? ?? const [])
+        .cast<String>();
     if (names.isEmpty) return;
     final books = await _db.select(_db.wordbooks).get();
     final ids = decodeIdList(profile.selectedWordbookIds).toSet();
@@ -1393,13 +1417,14 @@ class ExportImportService {
       if (match.isEmpty) continue;
       ids.add(match.first.id);
     }
-    await (_db.update(_db.profiles)..where((t) => t.id.equals(profile.id)))
-        .write(
-          ProfilesCompanion(
-            selectedWordbookIds: Value(encodeIdList(ids)),
-            updatedAt: Value(DateTime.now()),
-          ),
-        );
+    await (_db.update(
+      _db.profiles,
+    )..where((t) => t.id.equals(profile.id))).write(
+      ProfilesCompanion(
+        selectedWordbookIds: Value(encodeIdList(ids)),
+        updatedAt: Value(DateTime.now()),
+      ),
+    );
   }
 
   static DateTime? _parseDate(Object? value) =>

@@ -192,7 +192,10 @@ void main() {
         tester,
         words: const {'apple': 'りんご', 'banana': 'バナナ'},
       );
-      await type(tester, container.read(studySessionProvider)!.currentWord!.headword);
+      await type(
+        tester,
+        container.read(studySessionProvider)!.currentWord!.headword,
+      );
       await tester.tap(find.text('答え合わせ'));
       await tester.pumpAndSettle();
 
@@ -238,16 +241,16 @@ void main() {
               WordExamplesCompanion.insert(
                 wordId: wordId,
                 exampleEn: e.en,
-                exampleJa: '和訳',
+                exampleJa: const Value('和訳'),
                 sourcePresetId: Value(e.source),
                 sortOrder: Value(e.order),
               ),
             );
       }
       await books.setStudyTarget(me, toeic, selected: true);
-      final profile =
-          await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-              .getSingle();
+      final profile = await (db.select(
+        db.profiles,
+      )..where((t) => t.id.equals(me.id))).getSingle();
 
       final container = await pumpWithProviders(
         tester,
@@ -311,9 +314,7 @@ void main() {
     testWidgets('20問を解き切ると結果画面へ進む', (tester) async {
       // 見出し語は英字だけにする（数字・記号はキーボードに無く、最初から表示される）。
       const alphabet = 'abcdefghijklmnopqrst';
-      final words = {
-        for (var i = 0; i < 20; i++) 'word${alphabet[i]}': '訳$i',
-      };
+      final words = {for (var i = 0; i < 20; i++) 'word${alphabet[i]}': '訳$i'};
       final container = await pumpStudy(tester, words: words, limit: 20);
 
       expect(container.read(studySessionProvider)!.totalCount, 20);
@@ -345,9 +346,9 @@ void main() {
 
       // DB のストリームは擬似時間の外で回す（購読が残ってテストが止まらないように）。
       await tester.runAsync(() async {
-        final profile =
-            await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-                .getSingle();
+        final profile = await (db.select(
+          db.profiles,
+        )..where((t) => t.id.equals(me.id))).getSingle();
         final study = StudyRepository(db);
 
         // 当日中はまだ期限が来ていない。

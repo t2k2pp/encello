@@ -392,8 +392,7 @@ ORDER BY ${order.text}
     return _Sql(terms.join(', '), vars);
   }
 
-  static String _placeholders(int count) =>
-      List.filled(count, '?').join(', ');
+  static String _placeholders(int count) => List.filled(count, '?').join(', ');
 
   /// LIKE のワイルドカード（`%` `_`）と、エスケープ文字そのものを無効化する。
   static String _escapeLike(String input) => input
@@ -406,8 +405,9 @@ ORDER BY ${order.text}
   Future<Word?> findById(int id) =>
       (_db.select(_db.words)..where((t) => t.id.equals(id))).getSingleOrNull();
 
-  Stream<Word?> watchById(int id) =>
-      (_db.select(_db.words)..where((t) => t.id.equals(id))).watchSingleOrNull();
+  Stream<Word?> watchById(int id) => (_db.select(
+    _db.words,
+  )..where((t) => t.id.equals(id))).watchSingleOrNull();
 
   /// 現在の学習者から見える範囲で `(headword, partOfSpeech)` の語を探す。
   /// 共有の語を優先し、無ければ自分のマイ単語を返す。
@@ -511,18 +511,12 @@ ORDER BY ${order.text}
           // 訳が入ったら下書きではなくなる（[Docs/06_features/my_words.md] §3）。
           // 下書きは**マイ単語だけ**の状態。共有の語は訳が空でも下書きにしない
           // （[Docs/03_data_model.md] §2.3）。
-          isDraft: Value(
-            word.ownerProfileId != null && meaning.trim().isEmpty,
-          ),
+          isDraft: Value(word.ownerProfileId != null && meaning.trim().isEmpty),
           isEdited: Value(word.presetId != null),
           updatedAt: Value(DateTime.now()),
         ),
       );
-      await setUserExample(
-        word.id,
-        exampleEn: exampleEn,
-        exampleJa: exampleJa,
-      );
+      await setUserExample(word.id, exampleEn: exampleEn, exampleJa: exampleJa);
     });
   }
 
@@ -581,9 +575,7 @@ ORDER BY ${order.text}
               ..orderBy([(t) => OrderingTerm.desc(t.createdAt)]))
             .get();
     final examples = await userExamplesOf(words.map((w) => w.id));
-    return [
-      for (final w in words) DraftWord(word: w, example: examples[w.id]),
-    ];
+    return [for (final w in words) DraftWord(word: w, example: examples[w.id])];
   }
 
   /// 自分の下書き（[Docs/06_features/my_words.md] §3）の語数。
@@ -628,8 +620,9 @@ ORDER BY ${order.text}
 
   /// 語を削除する。所属・学習状態・履歴も cascade で一緒に消える。
   Future<void> delete(int wordId) async {
-    final deleted =
-        await (_db.delete(_db.words)..where((t) => t.id.equals(wordId))).go();
+    final deleted = await (_db.delete(
+      _db.words,
+    )..where((t) => t.id.equals(wordId))).go();
     if (deleted == 0) throw StateError('削除対象の単語が見つかりません（id=$wordId）');
   }
 
@@ -679,38 +672,34 @@ ORDER BY ${order.text}
   static const userExampleSortOrder = 0;
 
   /// ある語の例文を全件、表示順（`sortOrder` → `id`）で返す。
-  Future<List<WordExample>> examplesOf(int wordId) => _orderedExamples(
-    (t) => t.wordId.equals(wordId),
-  ).get();
+  Future<List<WordExample>> examplesOf(int wordId) =>
+      _orderedExamples((t) => t.wordId.equals(wordId)).get();
 
   /// 単語詳細が見る例文（全件）。編集がすぐ反映されるようストリームで取る。
-  Stream<List<WordExample>> watchExamples(int wordId) => _orderedExamples(
-    (t) => t.wordId.equals(wordId),
-  ).watch();
+  Stream<List<WordExample>> watchExamples(int wordId) =>
+      _orderedExamples((t) => t.wordId.equals(wordId)).watch();
 
   /// ユーザーが自分で書いた文（`sourcePresetId` が null）。無ければ null。
   Future<WordExample?> userExampleOf(int wordId) =>
-      (_db.select(_db.wordExamples)..where(
-            (t) => t.wordId.equals(wordId) & t.sourcePresetId.isNull(),
-          ))
+      (_db.select(_db.wordExamples)
+            ..where((t) => t.wordId.equals(wordId) & t.sourcePresetId.isNull()))
           .getSingleOrNull();
 
   /// 複数語のユーザーの文をまとめて引く（語 id → その語の文）。
   Future<Map<int, WordExample>> userExamplesOf(Iterable<int> wordIds) async {
     final ids = wordIds.toSet();
     if (ids.isEmpty) return const {};
-    final rows =
-        await (_db.select(_db.wordExamples)..where(
-              (t) => t.wordId.isIn(ids) & t.sourcePresetId.isNull(),
-            ))
-            .get();
+    final rows = await (_db.select(
+      _db.wordExamples,
+    )..where((t) => t.wordId.isIn(ids) & t.sourcePresetId.isNull())).get();
     return {for (final e in rows) e.wordId: e};
   }
 
   /// ユーザーが書いた「出会った文」を1件だけ持たせる
   /// （`sourcePresetId = null` / `sortOrder = 0`）。文が空なら行を消す。
   ///
-  /// 和訳は `word_examples.exampleJa` が not null のため空文字で入る。
+  /// ユーザーが書いた文の和訳は任意なので、**無ければ null で入れる**
+  /// （空文字を入れない。[Docs/03_data_model.md] §2.4）。
   /// クイック登録（[Docs/06_features/my_words.md] §4.1）は和訳を聞かないので、
   /// ここで行を作らないと利用者が書いた文が消えてしまう。
   Future<void> setUserExample(
@@ -719,11 +708,10 @@ ORDER BY ${order.text}
     String? exampleJa,
   }) async {
     final en = _nullIfBlank(exampleEn);
-    final ja = _nullIfBlank(exampleJa) ?? '';
+    final ja = _nullIfBlank(exampleJa);
     if (en == null) {
-      await (_db.delete(_db.wordExamples)..where(
-            (t) => t.wordId.equals(wordId) & t.sourcePresetId.isNull(),
-          ))
+      await (_db.delete(_db.wordExamples)
+            ..where((t) => t.wordId.equals(wordId) & t.sourcePresetId.isNull()))
           .go();
       return;
     }
@@ -735,21 +723,21 @@ ORDER BY ${order.text}
             WordExamplesCompanion.insert(
               wordId: wordId,
               exampleEn: en,
-              exampleJa: ja,
+              exampleJa: Value(ja),
               sortOrder: const Value(userExampleSortOrder),
             ),
           );
       return;
     }
-    await (_db.update(_db.wordExamples)
-          ..where((t) => t.id.equals(existing.id)))
-        .write(
-          WordExamplesCompanion(
-            exampleEn: Value(en),
-            exampleJa: Value(ja),
-            sortOrder: const Value(userExampleSortOrder),
-          ),
-        );
+    await (_db.update(
+      _db.wordExamples,
+    )..where((t) => t.id.equals(existing.id))).write(
+      WordExamplesCompanion(
+        exampleEn: Value(en),
+        exampleJa: Value(ja),
+        sortOrder: const Value(userExampleSortOrder),
+      ),
+    );
   }
 
   /// 単語帳由来の例文を `(wordId, sourcePresetId)` で upsert する
@@ -777,22 +765,22 @@ ORDER BY ${order.text}
             WordExamplesCompanion.insert(
               wordId: wordId,
               exampleEn: exampleEn,
-              exampleJa: exampleJa,
+              exampleJa: Value(exampleJa),
               sourcePresetId: Value(sourcePresetId),
               sortOrder: Value(sortOrder),
             ),
           );
       return;
     }
-    await (_db.update(_db.wordExamples)
-          ..where((t) => t.id.equals(existing.id)))
-        .write(
-          WordExamplesCompanion(
-            exampleEn: Value(exampleEn),
-            exampleJa: Value(exampleJa),
-            sortOrder: Value(sortOrder),
-          ),
-        );
+    await (_db.update(
+      _db.wordExamples,
+    )..where((t) => t.id.equals(existing.id))).write(
+      WordExamplesCompanion(
+        exampleEn: Value(exampleEn),
+        exampleJa: Value(exampleJa),
+        sortOrder: Value(sortOrder),
+      ),
+    );
   }
 
   /// 学習画面に出す例文を1語につき1件選ぶ（[Docs/03_data_model.md] §2.4「表示」）。
@@ -830,20 +818,20 @@ ORDER BY ${order.text}
 
   SimpleSelectStatement<$WordExamplesTable, WordExample> _orderedExamples(
     Expression<bool> Function($WordExamplesTable) filter,
-  ) =>
-      _db.select(_db.wordExamples)
-        ..where(filter)
-        ..orderBy([
-          (t) => OrderingTerm.asc(t.sortOrder),
-          (t) => OrderingTerm.asc(t.id),
-        ]);
+  ) => _db.select(_db.wordExamples)
+    ..where(filter)
+    ..orderBy([
+      (t) => OrderingTerm.asc(t.sortOrder),
+      (t) => OrderingTerm.asc(t.id),
+    ]);
 
   /// 単語帳 id → `wordbooks.presetId`。プリセットでない単語帳は持たない。
   Future<Set<String>> _presetIdsOf(Iterable<int> wordbookIds) async {
     final ids = wordbookIds.toSet();
     if (ids.isEmpty) return const {};
-    final books =
-        await (_db.select(_db.wordbooks)..where((t) => t.id.isIn(ids))).get();
+    final books = await (_db.select(
+      _db.wordbooks,
+    )..where((t) => t.id.isIn(ids))).get();
     return {
       for (final b in books)
         if (b.presetId != null) b.presetId!,

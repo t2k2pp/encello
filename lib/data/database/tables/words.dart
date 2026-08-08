@@ -73,9 +73,11 @@ class Words extends Table {
   TextColumn get presetId => text().nullable()();
 
   /// マイ単語の持ち主。共有の語は null。
-  IntColumn get ownerProfileId => integer()
-      .nullable()
-      .references(Profiles, #id, onDelete: KeyAction.cascade)();
+  IntColumn get ownerProfileId => integer().nullable().references(
+    Profiles,
+    #id,
+    onDelete: KeyAction.cascade,
+  )();
 
   /// 訳が未入力のマイ単語（出題されない）。
   BoolColumn get isDraft => boolean().withDefault(const Constant(false))();
@@ -119,12 +121,15 @@ class WordExamples extends Table {
   /// 英語例文（マイ単語では「見つけた文」）。
   TextColumn get exampleEn => text()();
 
-  /// 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ。
-  TextColumn get exampleJa => text()();
+  /// 例文の和訳。要否は出どころで変わる（[Docs/03_data_model.md] §2.4）。
+  /// [sourcePresetId] があるなら必須（片方だけの例文はアセットに入れない）。
+  /// ユーザーが書いた文（[sourcePresetId] が null）では任意で、
+  /// 無いときは **null**（空文字を入れない）。
+  TextColumn get exampleJa => text().nullable()();
 
   /// どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null。
   TextColumn get sourcePresetId => text().nullable()();
 
-  /// 表示順。
+  /// 表示順。ユーザーが書いた文は 0、プリセット由来は `wordbooks.sortOrder`。
   IntColumn get sortOrder => integer().withDefault(const Constant(0))();
 }

@@ -131,7 +131,7 @@ class SampleDataService {
               WordExamplesCompanion.insert(
                 wordId: wordId,
                 exampleEn: w.exampleEn,
-                exampleJa: w.exampleJa,
+                exampleJa: Value(w.exampleJa),
                 sourcePresetId: const Value(kSampleWordbookPresetId),
                 sortOrder: const Value(_kSampleWordbookSortOrder),
               ),
@@ -179,7 +179,9 @@ class SampleDataService {
     var logCount = 0;
     for (var d = days - 1; d >= 0; d--) {
       final studyDate = addStudyDays(today, -d);
-      final dayStart = studyDayStartOfDate(studyDate).add(const Duration(hours: 14));
+      final dayStart = studyDayStartOfDate(
+        studyDate,
+      ).add(const Duration(hours: 14));
       final sessionId = uuid.v4();
 
       await _db
@@ -331,7 +333,9 @@ class SampleDataService {
   /// 「他の単語帳にも属している語（残す）」に分ける。
   Future<_WordPartition> _partitionWords() async {
     final book = await _findBook();
-    if (book == null) return const _WordPartition(bookId: null, deletable: [], kept: 0);
+    if (book == null) {
+      return const _WordPartition(bookId: null, deletable: [], kept: 0);
+    }
 
     final entries = await (_db.select(
       _db.wordbookEntries,

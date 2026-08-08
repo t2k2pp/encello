@@ -199,9 +199,10 @@ class VerdictBanner extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                       style: AppText.caption(color: AppColors.ink2),
                     ),
-                    if (example!.exampleJa.isNotEmpty)
+                    // 和訳が無い「出会った文」は英文だけを出す（§2.4）。
+                    if (example!.exampleJa != null)
                       Text(
-                        example!.exampleJa,
+                        example!.exampleJa!,
                         maxLines: 2,
                         overflow: TextOverflow.ellipsis,
                         style: AppText.caption(),

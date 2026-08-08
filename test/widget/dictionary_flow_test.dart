@@ -52,7 +52,7 @@ void main() {
           WordExamplesCompanion.insert(
             wordId: wordId,
             exampleEn: en,
-            exampleJa: ja,
+            exampleJa: Value(ja),
             sourcePresetId: Value(source),
             sortOrder: Value(sortOrder),
           ),
@@ -62,11 +62,9 @@ void main() {
   setUp(() async {
     db = newTestDatabase();
     me = await createTestProfile(db, name: 'たろう');
-    bookId = await WordbookRepository(db).create(
-      name: '中学英単語',
-      emoji: '🏫',
-      colorSeed: 1,
-    );
+    bookId = await WordbookRepository(
+      db,
+    ).create(name: '中学英単語', emoji: '🏫', colorSeed: 1);
   });
 
   Future<void> pumpDictionary(WidgetTester tester) async {
@@ -222,10 +220,7 @@ void main() {
       await tester.tap(find.text('編集'));
       await tester.pumpAndSettle();
 
-      await tester.enterText(
-        find.widgetWithText(TextField, 'りんご'),
-        'りんご（訂正）',
-      );
+      await tester.enterText(find.widgetWithText(TextField, 'りんご'), 'りんご（訂正）');
       await tester.tap(find.text('保存'));
       await tester.pumpAndSettle();
 
@@ -308,7 +303,9 @@ void main() {
     testWidgets('例文は全件並び、どの単語帳の文かが分かる', (tester) async {
       final id = await addWord(headword: 'contract', meaning: '契約');
       // 単語帳2冊ぶんの例文＋自分で書いた文。
-      await db.into(db.wordbooks).insert(
+      await db
+          .into(db.wordbooks)
+          .insert(
             WordbooksCompanion.insert(
               name: 'TOEIC 基礎',
               emoji: '💼',

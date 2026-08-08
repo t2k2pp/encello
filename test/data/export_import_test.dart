@@ -60,7 +60,7 @@ void main() {
           WordExamplesCompanion.insert(
             wordId: appleId,
             exampleEn: 'I ate an apple.',
-            exampleJa: 'りんごを食べました。',
+            exampleJa: const Value('りんごを食べました。'),
             sourcePresetId: const Value('jhs_v1'),
             sortOrder: const Value(10),
           ),
@@ -95,12 +95,13 @@ void main() {
             ownerProfileId: Value(taro.id),
           ),
         );
-    final myBook = await (db.select(db.wordbooks)..where(
-          (t) =>
-              t.ownerProfileId.equals(taro.id) &
-              t.category.equals(WordbookCategory.myWords.value),
-        ))
-        .getSingle();
+    final myBook =
+        await (db.select(db.wordbooks)..where(
+              (t) =>
+                  t.ownerProfileId.equals(taro.id) &
+                  t.category.equals(WordbookCategory.myWords.value),
+            ))
+            .getSingle();
     await books.addWord(myBook.id, myWordId);
 
     // 学習状態・履歴・日次集計・実績・測定・取り違え。
@@ -256,10 +257,9 @@ void main() {
       expect(review.easeFactor, 2.6);
       expect(review.lastReviewedAt, DateTime(2026, 8, 4));
 
-      final apple =
-          await (target.select(target.words)
-                ..where((t) => t.headword.equals('apple')))
-              .getSingle();
+      final apple = await (target.select(
+        target.words,
+      )..where((t) => t.headword.equals('apple'))).getSingle();
       expect(apple.meaning, 'りんご');
       expect(apple.phonetic, '/ˈæpl/');
       expect(apple.familyId, isNotNull);
@@ -277,19 +277,17 @@ void main() {
           'sortOrder': 10,
         },
       ]);
-      final restored =
-          await (target.select(target.wordExamples)
-                ..where((t) => t.wordId.equals(apple.id)))
-              .getSingle();
+      final restored = await (target.select(
+        target.wordExamples,
+      )..where((t) => t.wordId.equals(apple.id))).getSingle();
       expect(restored.exampleEn, 'I ate an apple.');
       expect(restored.sourcePresetId, 'jhs_v1');
       expect(restored.sortOrder, 10);
 
       // 学習対象の単語帳が名前で復元される。
-      final taro =
-          await (target.select(target.profiles)
-                ..where((t) => t.name.equals('たろう')))
-              .getSingle();
+      final taro = await (target.select(
+        target.profiles,
+      )..where((t) => t.name.equals('たろう'))).getSingle();
       expect(decodeIdList(taro.selectedWordbookIds), isNotEmpty);
       expect(seeded.bookId, isNotNull);
     });
@@ -302,14 +300,12 @@ void main() {
       );
       await service.apply(await service.inspect(json), mode: ImportMode.merge);
 
-      final taro =
-          await (target.select(target.profiles)
-                ..where((t) => t.name.equals('たろう')))
-              .getSingle();
-      final mine =
-          await (target.select(target.words)
-                ..where((t) => t.ownerProfileId.equals(taro.id)))
-              .get();
+      final taro = await (target.select(
+        target.profiles,
+      )..where((t) => t.name.equals('たろう'))).getSingle();
+      final mine = await (target.select(
+        target.words,
+      )..where((t) => t.ownerProfileId.equals(taro.id))).get();
       expect(mine.map((w) => w.headword), ['serendipity']);
     });
 
@@ -369,11 +365,9 @@ void main() {
       await service.apply(await service.inspect(json), mode: ImportMode.merge);
 
       final apple =
-          await (target.select(target.words)
-                ..where(
-                  (t) =>
-                      t.headword.equals('apple') & t.ownerProfileId.isNull(),
-                ))
+          await (target.select(target.words)..where(
+                (t) => t.headword.equals('apple') & t.ownerProfileId.isNull(),
+              ))
               .getSingle();
       expect(apple.meaning, '手元で直した訳');
 
@@ -399,10 +393,9 @@ void main() {
 
       await service.apply(preview, mode: ImportMode.merge);
 
-      final taro =
-          await (target.select(target.profiles)
-                ..where((t) => t.name.equals('たろう')))
-              .get();
+      final taro = await (target.select(
+        target.profiles,
+      )..where((t) => t.name.equals('たろう'))).get();
       expect(taro.length, 1);
       expect(taro.single.dailyGoal, 50);
     });
@@ -410,9 +403,9 @@ void main() {
     test('学習状態は lastReviewedAt が新しい方を採る（取り込む側が新しい）', () async {
       await seedAll(source);
       final taro = await seedExisting();
-      final apple = await (target.select(target.words)
-            ..where((t) => t.headword.equals('apple')))
-          .getSingle();
+      final apple = await (target.select(
+        target.words,
+      )..where((t) => t.headword.equals('apple'))).getSingle();
       await target
           .into(target.wordReviews)
           .insert(
@@ -440,9 +433,9 @@ void main() {
     test('学習状態は lastReviewedAt が新しい方を採る（手元が新しい）', () async {
       await seedAll(source);
       final taro = await seedExisting();
-      final apple = await (target.select(target.words)
-            ..where((t) => t.headword.equals('apple')))
-          .getSingle();
+      final apple = await (target.select(
+        target.words,
+      )..where((t) => t.headword.equals('apple'))).getSingle();
       await target
           .into(target.wordReviews)
           .insert(
@@ -525,7 +518,7 @@ void main() {
             WordExamplesCompanion.insert(
               wordId: seeded.appleId,
               exampleEn: 'The apple is on sale.',
-              exampleJa: 'そのりんごは特売中です。',
+              exampleJa: const Value('そのりんごは特売中です。'),
               sourcePresetId: const Value('toeic_basic_v1'),
               sortOrder: const Value(60),
             ),
@@ -565,7 +558,8 @@ void main() {
 
   group('検証', () {
     test('formatVersion: 2 は拒否される', () async {
-      const json = '{"formatVersion": 2, "profiles": [], '
+      const json =
+          '{"formatVersion": 2, "profiles": [], '
           '"wordbooks": [], "words": []}';
       expect(
         () => ExportImportService(target).inspect(json),
@@ -637,13 +631,18 @@ void main() {
       final json = encodeBackupJson(
         await ExportImportService(source).collectBackup(exportedAt: exportedAt),
       );
-      await service.apply(await service.inspect(json), mode: ImportMode.replace);
+      await service.apply(
+        await service.inspect(json),
+        mode: ImportMode.replace,
+      );
 
-      final names =
-          (await target.select(target.profiles).get()).map((p) => p.name);
+      final names = (await target.select(target.profiles).get()).map(
+        (p) => p.name,
+      );
       expect(names, ['たろう', 'じろう']);
-      final headwords =
-          (await target.select(target.words).get()).map((w) => w.headword);
+      final headwords = (await target.select(target.words).get()).map(
+        (w) => w.headword,
+      );
       expect(headwords, isNot(contains('obsolete')));
     });
   });

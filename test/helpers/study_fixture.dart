@@ -39,15 +39,15 @@ Future<({int wordbookId, Profile profile})> seedStudyTarget(
             WordExamplesCompanion.insert(
               wordId: id,
               exampleEn: exampleEn,
-              exampleJa: exampleJa ?? '',
+              exampleJa: Value(exampleJa),
             ),
           );
     }
     await repo.addWord(wordbookId, id);
   }
   await repo.setStudyTarget(profile, wordbookId, selected: true);
-  final updated =
-      await (db.select(db.profiles)..where((t) => t.id.equals(profile.id)))
-          .getSingle();
+  final updated = await (db.select(
+    db.profiles,
+  )..where((t) => t.id.equals(profile.id))).getSingle();
   return (wordbookId: wordbookId, profile: updated);
 }

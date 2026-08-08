@@ -2927,9 +2927,9 @@ class $WordExamplesTable extends WordExamples
   late final GeneratedColumn<String> exampleJa = GeneratedColumn<String>(
     'example_ja',
     aliasedName,
-    false,
+    true,
     type: DriftSqlType.string,
-    requiredDuringInsert: true,
+    requiredDuringInsert: false,
   );
   static const VerificationMeta _sourcePresetIdMeta = const VerificationMeta(
     'sourcePresetId',
@@ -2999,8 +2999,6 @@ class $WordExamplesTable extends WordExamples
         _exampleJaMeta,
         exampleJa.isAcceptableOrUnknown(data['example_ja']!, _exampleJaMeta),
       );
-    } else if (isInserting) {
-      context.missing(_exampleJaMeta);
     }
     if (data.containsKey('source_preset_id')) {
       context.handle(
@@ -3041,7 +3039,7 @@ class $WordExamplesTable extends WordExamples
       exampleJa: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}example_ja'],
-      )!,
+      ),
       sourcePresetId: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}source_preset_id'],
@@ -3066,19 +3064,22 @@ class WordExample extends DataClass implements Insertable<WordExample> {
   /// 英語例文（マイ単語では「見つけた文」）。
   final String exampleEn;
 
-  /// 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ。
-  final String exampleJa;
+  /// 例文の和訳。要否は出どころで変わる（[Docs/03_data_model.md] §2.4）。
+  /// [sourcePresetId] があるなら必須（片方だけの例文はアセットに入れない）。
+  /// ユーザーが書いた文（[sourcePresetId] が null）では任意で、
+  /// 無いときは **null**（空文字を入れない）。
+  final String? exampleJa;
 
   /// どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null。
   final String? sourcePresetId;
 
-  /// 表示順。
+  /// 表示順。ユーザーが書いた文は 0、プリセット由来は `wordbooks.sortOrder`。
   final int sortOrder;
   const WordExample({
     required this.id,
     required this.wordId,
     required this.exampleEn,
-    required this.exampleJa,
+    this.exampleJa,
     this.sourcePresetId,
     required this.sortOrder,
   });
@@ -3088,7 +3089,9 @@ class WordExample extends DataClass implements Insertable<WordExample> {
     map['id'] = Variable<int>(id);
     map['word_id'] = Variable<int>(wordId);
     map['example_en'] = Variable<String>(exampleEn);
-    map['example_ja'] = Variable<String>(exampleJa);
+    if (!nullToAbsent || exampleJa != null) {
+      map['example_ja'] = Variable<String>(exampleJa);
+    }
     if (!nullToAbsent || sourcePresetId != null) {
       map['source_preset_id'] = Variable<String>(sourcePresetId);
     }
@@ -3101,7 +3104,9 @@ class WordExample extends DataClass implements Insertable<WordExample> {
       id: Value(id),
       wordId: Value(wordId),
       exampleEn: Value(exampleEn),
-      exampleJa: Value(exampleJa),
+      exampleJa: exampleJa == null && nullToAbsent
+          ? const Value.absent()
+          : Value(exampleJa),
       sourcePresetId: sourcePresetId == null && nullToAbsent
           ? const Value.absent()
           : Value(sourcePresetId),
@@ -3118,7 +3123,7 @@ class WordExample extends DataClass implements Insertable<WordExample> {
       id: serializer.fromJson<int>(json['id']),
       wordId: serializer.fromJson<int>(json['wordId']),
       exampleEn: serializer.fromJson<String>(json['exampleEn']),
-      exampleJa: serializer.fromJson<String>(json['exampleJa']),
+      exampleJa: serializer.fromJson<String?>(json['exampleJa']),
       sourcePresetId: serializer.fromJson<String?>(json['sourcePresetId']),
       sortOrder: serializer.fromJson<int>(json['sortOrder']),
     );
@@ -3130,7 +3135,7 @@ class WordExample extends DataClass implements Insertable<WordExample> {
       'id': serializer.toJson<int>(id),
       'wordId': serializer.toJson<int>(wordId),
       'exampleEn': serializer.toJson<String>(exampleEn),
-      'exampleJa': serializer.toJson<String>(exampleJa),
+      'exampleJa': serializer.toJson<String?>(exampleJa),
       'sourcePresetId': serializer.toJson<String?>(sourcePresetId),
       'sortOrder': serializer.toJson<int>(sortOrder),
     };
@@ -3140,14 +3145,14 @@ class WordExample extends DataClass implements Insertable<WordExample> {
     int? id,
     int? wordId,
     String? exampleEn,
-    String? exampleJa,
+    Value<String?> exampleJa = const Value.absent(),
     Value<String?> sourcePresetId = const Value.absent(),
     int? sortOrder,
   }) => WordExample(
     id: id ?? this.id,
     wordId: wordId ?? this.wordId,
     exampleEn: exampleEn ?? this.exampleEn,
-    exampleJa: exampleJa ?? this.exampleJa,
+    exampleJa: exampleJa.present ? exampleJa.value : this.exampleJa,
     sourcePresetId: sourcePresetId.present
         ? sourcePresetId.value
         : this.sourcePresetId,
@@ -3198,7 +3203,7 @@ class WordExamplesCompanion extends UpdateCompanion<WordExample> {
   final Value<int> id;
   final Value<int> wordId;
   final Value<String> exampleEn;
-  final Value<String> exampleJa;
+  final Value<String?> exampleJa;
   final Value<String?> sourcePresetId;
   final Value<int> sortOrder;
   const WordExamplesCompanion({
@@ -3213,12 +3218,11 @@ class WordExamplesCompanion extends UpdateCompanion<WordExample> {
     this.id = const Value.absent(),
     required int wordId,
     required String exampleEn,
-    required String exampleJa,
+    this.exampleJa = const Value.absent(),
     this.sourcePresetId = const Value.absent(),
     this.sortOrder = const Value.absent(),
   }) : wordId = Value(wordId),
-       exampleEn = Value(exampleEn),
-       exampleJa = Value(exampleJa);
+       exampleEn = Value(exampleEn);
   static Insertable<WordExample> custom({
     Expression<int>? id,
     Expression<int>? wordId,
@@ -3241,7 +3245,7 @@ class WordExamplesCompanion extends UpdateCompanion<WordExample> {
     Value<int>? id,
     Value<int>? wordId,
     Value<String>? exampleEn,
-    Value<String>? exampleJa,
+    Value<String?>? exampleJa,
     Value<String?>? sourcePresetId,
     Value<int>? sortOrder,
   }) {
@@ -14366,7 +14370,7 @@ typedef $$WordExamplesTableCreateCompanionBuilder =
       Value<int> id,
       required int wordId,
       required String exampleEn,
-      required String exampleJa,
+      Value<String?> exampleJa,
       Value<String?> sourcePresetId,
       Value<int> sortOrder,
     });
@@ -14375,7 +14379,7 @@ typedef $$WordExamplesTableUpdateCompanionBuilder =
       Value<int> id,
       Value<int> wordId,
       Value<String> exampleEn,
-      Value<String> exampleJa,
+      Value<String?> exampleJa,
       Value<String?> sourcePresetId,
       Value<int> sortOrder,
     });
@@ -14599,7 +14603,7 @@ class $$WordExamplesTableTableManager
                 Value<int> id = const Value.absent(),
                 Value<int> wordId = const Value.absent(),
                 Value<String> exampleEn = const Value.absent(),
-                Value<String> exampleJa = const Value.absent(),
+                Value<String?> exampleJa = const Value.absent(),
                 Value<String?> sourcePresetId = const Value.absent(),
                 Value<int> sortOrder = const Value.absent(),
               }) => WordExamplesCompanion(
@@ -14615,7 +14619,7 @@ class $$WordExamplesTableTableManager
                 Value<int> id = const Value.absent(),
                 required int wordId,
                 required String exampleEn,
-                required String exampleJa,
+                Value<String?> exampleJa = const Value.absent(),
                 Value<String?> sourcePresetId = const Value.absent(),
                 Value<int> sortOrder = const Value.absent(),
               }) => WordExamplesCompanion.insert(

@@ -78,24 +78,46 @@ class AppDatabase extends _$AppDatabase {
 
     // `sourcePresetId` は `words.presetId`（`<presetId>:<headword>:<partOfSpeech>`）の
     // 先頭要素。マイ単語（`presetId` が null）はユーザーの文として null にする。
-    // 例文と和訳は必ず対で持つため（`word_examples` は両方 not null）、
-    // 片方でも欠けている語は行を作らない。
+    //
+    // 和訳の要否は出どころで変わる（[Docs/03_data_model.md] §2.4）。
+    // プリセット由来は和訳が必須なので、欠けている語は行を作らない。
+    // ユーザーの文は和訳が任意なので、無いときは **null** で移す（空文字を入れない）。
+    //
+    // `sortOrder` はユーザーの文が 0、プリセット由来はその単語帳の `sortOrder`。
+    // 単語帳は `wordbooks.preset_id` で引く。対応する単語帳が無ければ 0。
     await customStatement('''
+      WITH src AS (
+        SELECT
+          id,
+          example_en,
+          NULLIF(example_ja, '') AS example_ja,
+          CASE
+            WHEN preset_id IS NULL THEN NULL
+            WHEN instr(preset_id, ':') = 0 THEN preset_id
+            ELSE substr(preset_id, 1, instr(preset_id, ':') - 1)
+          END AS source_preset_id
+        FROM words
+        WHERE example_en IS NOT NULL AND example_en <> ''
+      )
       INSERT INTO word_examples
         (word_id, example_en, example_ja, source_preset_id, sort_order)
       SELECT
-        id,
-        example_en,
-        example_ja,
+        src.id,
+        src.example_en,
+        src.example_ja,
+        src.source_preset_id,
         CASE
-          WHEN preset_id IS NULL THEN NULL
-          WHEN instr(preset_id, ':') = 0 THEN preset_id
-          ELSE substr(preset_id, 1, instr(preset_id, ':') - 1)
-        END,
-        0
-      FROM words
-      WHERE example_en IS NOT NULL AND example_en <> ''
-        AND example_ja IS NOT NULL AND example_ja <> ''
+          WHEN src.source_preset_id IS NULL THEN 0
+          ELSE COALESCE(
+            (
+              SELECT b.sort_order FROM wordbooks b
+              WHERE b.preset_id = src.source_preset_id
+            ),
+            0
+          )
+        END
+      FROM src
+      WHERE src.source_preset_id IS NULL OR src.example_ja IS NOT NULL
     ''');
 
     // 例文を移し終えてから2列を落とす。SQLite は列の削除ができないため、

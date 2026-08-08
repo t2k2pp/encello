@@ -156,7 +156,7 @@ erDiagram
 | `id` | int | PK, autoIncrement | |
 | `wordId` | int | not null, FK → `words.id`（cascade delete）, index | |
 | `exampleEn` | text | not null | 英語例文（マイ単語では「見つけた文」） |
-| `exampleJa` | text | not null | 例文の和訳。**空を許さない**。例文があるなら必ず対で持つ |
+| `exampleJa` | text | nullable | 例文の和訳。**`sourcePresetId` があるなら必須**（下記） |
 | `sourcePresetId` | text | nullable | どの単語帳由来か（`toeic_basic_v1` など）。ユーザーが書いた文は null |
 | `sortOrder` | int | not null | 表示順。**ユーザーが書いた文は 0、プリセット由来は `wordbooks.sortOrder`**（易→難） |
 
@@ -173,9 +173,24 @@ erDiagram
 - **投入**: `SeedImporter` は `(wordId, sourcePresetId)` で upsert する。
   これにより**単語帳をまたいでも例文が互いを上書きしない**
   （この設計にする前は、`words` の単数列を最後に投入した単語帳が上書きしていた）。
+- **和訳の要否**は例文の出どころで変わる。
+  - `sourcePresetId` がある（プリセット由来）… **和訳は必須**。
+    片方だけの例文はアセットに入れない（[06_features/wordbooks.md] §3.3 で不合格にする）。
+  - `sourcePresetId` が null（ユーザーが書いた文）… **和訳は任意**。
+    出会った文をその場で書き残すのが目的で、訳を求めると書き残せなくなる
+    （[06_features/my_words.md] §3.1）。訳が無ければ詳細画面は英文だけを出す。
+  - 「無い」は null で表す。空文字を入れない。
 - **表示**:
   - 単語詳細画面は全件を並べ、どの単語帳の例文かを添える。
-  - 学習画面は**学習中の単語帳の例文**を選ぶ。無ければ `sortOrder` の先頭。
+    `sourcePresetId` が null なら「自分で書いた文」と添える。
+  - 学習画面は**学習中の単語帳の例文**を選ぶ。
+    学習対象は複数選べる（`profiles.selectedWordbookIds`）ので、
+    **選択中の単語帳に由来する例文のうち `sortOrder` が最小のもの**を使う。
+    どれにも由来しなければ、その語の `sortOrder` の先頭。
+- **プリセット語を編集したときの例文**: 入力欄はユーザーの文（`sourcePresetId = null`）を
+  読み書きする。プリセットの例文は書き換えず、別行として増える。
+  よって「元に戻す」（[06_features/wordbooks.md] §3.2）は `words` の列だけを戻し、
+  **ユーザーが書いた文は残す**。自分で書いたものを消さない。
 - `meaning` `phonetic` `level` は語の属性なので `words` に1つだけ持つ。
   単語帳ごとに違う値を持たせない（同じ語の訳や難易度が単語帳で変わるのはおかしい）。
   ソースデータ側で単語帳をまたいで一致させ、検証で守る

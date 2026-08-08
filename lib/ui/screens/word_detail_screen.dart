@@ -43,8 +43,11 @@ class WordDetailScreen extends ConsumerWidget {
       body: CenteredContent(
         child: async.when(
           loading: () => const Center(child: CircularProgressIndicator()),
-          error: (e, _) =>
-              EmptyState(emoji: '⚠️', message: '単語を読み込めませんでした', subMessage: '$e'),
+          error: (e, _) => EmptyState(
+            emoji: '⚠️',
+            message: '単語を読み込めませんでした',
+            subMessage: '$e',
+          ),
           data: (word) {
             if (word == null) {
               // 他の画面から削除された直後にここへ残ることがある。
@@ -100,11 +103,10 @@ class _HeadwordCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final owning = ref
+    final owning =
+        ref
             .watch(
-              wordbooksOfWordProvider(
-                (wordId: word.id, profileId: profile.id),
-              ),
+              wordbooksOfWordProvider((wordId: word.id, profileId: profile.id)),
             )
             .value ??
         const <Wordbook>[];
@@ -323,9 +325,10 @@ class _ExampleRow extends StatelessWidget {
           ),
           Text(example.exampleEn, style: AppText.body()),
           // 和訳を書いていない「出会った文」もある（[my_words.md] §4.1）。
-          if (example.exampleJa.isNotEmpty) ...[
+          // 無い和訳は null（[Docs/03_data_model.md] §2.4）。
+          if (example.exampleJa != null) ...[
             const SizedBox(height: 4),
-            Text(example.exampleJa, style: AppText.caption()),
+            Text(example.exampleJa!, style: AppText.caption()),
           ],
         ],
       ),
@@ -390,7 +393,12 @@ class _ReviewCard extends StatelessWidget {
           ),
         ),
         Expanded(
-          child: Text(value, maxLines: 2, overflow: TextOverflow.ellipsis, style: AppText.body()),
+          child: Text(
+            value,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: AppText.body(),
+          ),
         ),
       ],
     ),
@@ -412,11 +420,8 @@ class _ActionsCard extends ConsumerWidget {
           Text('この単語', style: AppText.sectionTitle()),
           const SizedBox(height: 10),
           OutlinedButton.icon(
-            onPressed: () => showUpsertWordSheet(
-              context,
-              profile: profile,
-              editing: word,
-            ),
+            onPressed: () =>
+                showUpsertWordSheet(context, profile: profile, editing: word),
             icon: const Icon(Icons.edit_outlined, size: 18),
             label: const Text('編集'),
           ),
@@ -542,10 +547,8 @@ class _WordPartsCard extends ConsumerWidget {
                     borderRadius: BorderRadius.circular(999),
                     onTap: () => Navigator.of(context).push(
                       MaterialPageRoute<void>(
-                        builder: (_) => WordPartDetailScreen(
-                          part: part,
-                          profile: profile,
-                        ),
+                        builder: (_) =>
+                            WordPartDetailScreen(part: part, profile: profile),
                       ),
                     ),
                     child: Container(
@@ -569,10 +572,7 @@ class _WordPartsCard extends ConsumerWidget {
             ),
             const SizedBox(height: 8),
             // 説明文は書かれている語にだけ出す。**機械生成しない**。
-            Text(
-              word.partsNote ?? breakdown ?? '',
-              style: AppText.body(),
-            ),
+            Text(word.partsNote ?? breakdown ?? '', style: AppText.body()),
           ],
         ),
       ),
@@ -596,9 +596,7 @@ class _WordFamilyCard extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final members = ref
-        .watch(
-          wordFamilyProvider((wordId: word.id, profileId: profile.id)),
-        )
+        .watch(wordFamilyProvider((wordId: word.id, profileId: profile.id)))
         .value;
     if (members == null || members.length < 2) return const SizedBox.shrink();
 

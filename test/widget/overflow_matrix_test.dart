@@ -79,7 +79,7 @@ void main() {
             wordId: wordId,
             exampleEn:
                 'The internationalization of the company took several years.',
-            exampleJa: 'その会社の国際化には数年かかりました。',
+            exampleJa: const Value('その会社の国際化には数年かかりました。'),
             sourcePresetId: const Value('jhs_v1'),
             sortOrder: const Value(10),
           ),
@@ -298,11 +298,14 @@ void main() {
     testWidgets('CSV 取り込み', (tester) async {
       final profile = await createTestProfile(db, name: longName);
       final seeded = await seedWords(profile);
-      final book =
-          await (db.select(db.wordbooks)
-                ..where((t) => t.id.equals(seeded.wordbookId)))
-              .getSingle();
-      await checkMatrix(tester, 'CSV 取り込み', (_) => CsvImportScreen(wordbook: book));
+      final book = await (db.select(
+        db.wordbooks,
+      )..where((t) => t.id.equals(seeded.wordbookId))).getSingle();
+      await checkMatrix(
+        tester,
+        'CSV 取り込み',
+        (_) => CsvImportScreen(wordbook: book),
+      );
     });
 
     testWidgets('シェル（4タブ）', (tester) async {
@@ -319,11 +322,7 @@ void main() {
     testWidgets('単語帳管理', (tester) async {
       final profile = await createTestProfile(db, name: longName);
       await seedWords(profile);
-      await checkMatrix(
-        tester,
-        '単語帳管理',
-        (p) => WordbooksScreen(profile: p!),
-      );
+      await checkMatrix(tester, '単語帳管理', (p) => WordbooksScreen(profile: p!));
     });
 
     testWidgets('単語帳の中身', (tester) async {
@@ -332,10 +331,7 @@ void main() {
       await checkMatrix(
         tester,
         '単語帳の中身',
-        (p) => WordbookDetailScreen(
-          wordbookId: seeded.wordbookId,
-          profile: p!,
-        ),
+        (p) => WordbookDetailScreen(wordbookId: seeded.wordbookId, profile: p!),
       );
     });
 
@@ -385,11 +381,7 @@ void main() {
         headword: 'draftword',
         partOfSpeech: PartOfSpeech.noun,
       );
-      await checkMatrix(
-        tester,
-        'マイ単語',
-        (p) => MyWordsScreen(profile: p!),
-      );
+      await checkMatrix(tester, 'マイ単語', (p) => MyWordsScreen(profile: p!));
     });
 
     testWidgets('訳を書く', (tester) async {
@@ -402,11 +394,7 @@ void main() {
         exampleEn:
             'The internationalization of the company took several years.',
       );
-      await checkMatrix(
-        tester,
-        '訳を書く',
-        (p) => WriteMeaningScreen(profile: p!),
-      );
+      await checkMatrix(tester, '訳を書く', (p) => WriteMeaningScreen(profile: p!));
     });
   });
 

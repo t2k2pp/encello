@@ -56,6 +56,29 @@ void main() {
       expect(example.sourcePresetId, isNull);
       expect(example.sortOrder, WordRepository.userExampleSortOrder);
     });
+
+    test('和訳を書かなかったユーザーの文は空文字ではなく null で入る', () async {
+      // 出会った文をその場で書き残すのが目的なので和訳は任意
+      // （[Docs/03_data_model.md] §2.4、[Docs/06_features/my_words.md] §3.1）。
+      final id = await repo.createShared(
+        headword: 'apple',
+        partOfSpeech: PartOfSpeech.noun,
+        meaning: 'りんご',
+        exampleEn: 'I ate an apple.',
+        exampleJa: '   ',
+      );
+      expect((await repo.examplesOf(id)).single.exampleJa, isNull);
+
+      // あとから書いた和訳を消したときも、空文字を残さない。
+      await repo.setUserExample(
+        id,
+        exampleEn: 'I ate an apple.',
+        exampleJa: 'りんごを食べました。',
+      );
+      expect((await repo.examplesOf(id)).single.exampleJa, 'りんごを食べました。');
+      await repo.setUserExample(id, exampleEn: 'I ate an apple.');
+      expect((await repo.examplesOf(id)).single.exampleJa, isNull);
+    });
   });
 
   group('既存語の解決', () {
@@ -81,11 +104,7 @@ void main() {
         meaning: '走ること',
       );
       expect(
-        await repo.findByHeadword(
-          'run',
-          PartOfSpeech.verb,
-          profileId: me.id,
-        ),
+        await repo.findByHeadword('run', PartOfSpeech.verb, profileId: me.id),
         isNull,
       );
     });
@@ -213,7 +232,7 @@ void main() {
             WordExamplesCompanion.insert(
               wordId: id,
               exampleEn: 'I ate an apple.',
-              exampleJa: 'りんごを食べました。',
+              exampleJa: const Value('りんごを食べました。'),
               sourcePresetId: const Value('jhs_v1'),
               sortOrder: const Value(10),
             ),
@@ -312,17 +331,19 @@ void main() {
         }
       }
 
-      final profile =
-          await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-              .getSingle();
+      final profile = await (db.select(
+        db.profiles,
+      )..where((t) => t.id.equals(me.id))).getSingle();
       await (db.update(db.profiles)..where((t) => t.id.equals(me.id))).write(
         ProfilesCompanion(
-          selectedWordbookIds: Value(encodeIdListForTest([myWordsBook, second])),
+          selectedWordbookIds: Value(
+            encodeIdListForTest([myWordsBook, second]),
+          ),
         ),
       );
-      final updated =
-          await (db.select(db.profiles)..where((t) => t.id.equals(me.id)))
-              .getSingle();
+      final updated = await (db.select(
+        db.profiles,
+      )..where((t) => t.id.equals(me.id))).getSingle();
 
       expect(await repo.countStudyable(profile), 0); // まだ1冊も選んでいない
       expect(await repo.countStudyable(updated), 1); // apple だけ
