@@ -368,6 +368,64 @@ List<ValidationIssue> validateWords(
 String _stripPossessive(String token) =>
     token.endsWith("'s") ? token.substring(0, token.length - 2) : token;
 
+/// 単語帳をまたいで語の属性が食い違っていないかを検査する
+/// （[Docs/06_features/wordbooks.md] §3.3 の検証表の最後の行）。
+///
+/// `meaning` / `phonetic` / `level` は `words` が語につき1つしか持てないため
+/// （[Docs/03_data_model.md] §2.3）、単語帳ごとに違う値を書くと
+/// **最後に投入した単語帳の値で上書きされる**。
+/// 例文は `word_examples` が単語帳ごとに持てる（[03_data_model.md] §2.4）ので
+/// 対象にしない。むしろ単語帳ごとに違ってよい。
+///
+/// [wordsByBook] は `presetId` → その単語帳の全語。渡した並びが出力の並びになる。
+/// 単語帳の中での `(headword, partOfSpeech)` の重複は [validateWords] が弾くので、
+/// ここでは単語帳ごとに最初の1件だけを見る。
+List<ValidationIssue> validateAcrossBooks(
+  Map<String, List<SourceWord>> wordsByBook,
+) {
+  final byKey = <String, Map<String, SourceWord>>{};
+  for (final book in wordsByBook.entries) {
+    for (final w in book.value) {
+      byKey
+          .putIfAbsent(w.key, () => <String, SourceWord>{})
+          .putIfAbsent(book.key, () => w);
+    }
+  }
+
+  // `words` が語につき1つしか持てない項目。例文はここに入れない。
+  final fields = <(String, String Function(SourceWord))>[
+    ('meaning', (w) => w.meaning),
+    ('phonetic', (w) => w.phonetic),
+    ('level', (w) => '${w.level}'),
+  ];
+
+  final issues = <ValidationIssue>[];
+  final keys = byKey.keys.toList()..sort();
+  for (final key in keys) {
+    final books = byKey[key]!;
+    if (books.length < 2) continue;
+    for (final (name, read) in fields) {
+      final values = {for (final e in books.entries) e.key: read(e.value)};
+      if (values.values.toSet().length < 2) continue;
+      final detail = values.entries
+          .map((e) => '${e.key}=${e.value.isEmpty ? "(なし)" : e.value}')
+          .join(' / ');
+      issues.add(
+        ValidationIssue(
+          IssueSeverity.error,
+          kCrossBookChunk,
+          key,
+          '$name が単語帳をまたいで違います: $detail',
+        ),
+      );
+    }
+  }
+  return issues;
+}
+
+/// [validateAcrossBooks] の指摘が使う「由来」の名前（特定のチャンクに紐付かない）。
+const kCrossBookChunk = 'cross-book';
+
 /// 見出し語から、例文に出てくる形（活用・派生）を機械的に広げる。
 ///
 /// 例文の語彙チェック（警告）にだけ使う。ここで拾えない不規則形は

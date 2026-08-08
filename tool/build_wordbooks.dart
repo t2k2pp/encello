@@ -11,10 +11,15 @@ import 'wordbook_validator.dart';
 /// dart run tool/build_wordbooks.dart              # 全冊を検証して書き出す
 /// dart run tool/build_wordbooks.dart --check      # 検証だけ（書き出さない）
 /// dart run tool/build_wordbooks.dart --book jhs_v1 --warnings
+/// dart run tool/build_wordbooks.dart --check-all  # 単語帳をまたぐ食い違いだけを検査
 /// ```
 ///
 /// 検証で `error` が1件でも出た単語帳は書き出さない。
 /// 半分だけ直った状態のアセットを出荷しないため。
+///
+/// `--check-all` は1冊ずつの検証（`--check`）とは別物で、
+/// 全単語帳のソースを読んで `meaning` / `phonetic` / `level` の
+/// 単語帳をまたぐ食い違いだけを見る（[Docs/06_features/wordbooks.md] §3.3）。
 
 /// 同梱する単語帳のソース。ディレクトリ走査にしない
 /// （`SeedImporter.assetPaths` と同じ理由。列挙漏れは投入されないことで気付ける）。
@@ -48,6 +53,13 @@ Future<void> main(List<String> args) async {
         stdout.writeln(headword);
       }
     }
+    return;
+  }
+
+  // 単語帳をまたぐ検査。1冊ずつでは見えない食い違いだけを見る。
+  if (args.contains('--check-all')) {
+    if (await _checkAllBooks()) return;
+    exitCode = 1;
     return;
   }
 
@@ -109,6 +121,89 @@ Future<List<String>> _listHeadwords(String book) async {
   return sorted;
 }
 
+/// `_book.json` に列挙されたチャンクを読んでソース語を返す。
+/// 読めなかったチャンクは [issues] に `error` を積んで飛ばす。
+Future<List<SourceWord>> _readBookWords(
+  String book,
+  List<String> chunkNames,
+  List<ValidationIssue> issues,
+) async {
+  final words = <SourceWord>[];
+  for (final chunk in chunkNames) {
+    final file = File('$_srcRoot/$book/$chunk.json');
+    if (!file.existsSync()) {
+      issues.add(ValidationIssue(IssueSeverity.error, chunk, '', 'ファイルがありません'));
+      continue;
+    }
+    Object? decoded;
+    try {
+      decoded = jsonDecode(await file.readAsString());
+    } on FormatException catch (e) {
+      issues.add(
+        ValidationIssue(IssueSeverity.error, chunk, '', 'JSON が壊れています: $e'),
+      );
+      continue;
+    }
+    words.addAll(parseChunk(chunk, decoded, issues));
+  }
+  return words;
+}
+
+/// 全単語帳のソースを読み、単語帳をまたぐ食い違いを検査する（`--check-all`）。
+///
+/// 1冊ずつの検証（`--check`）はここではやらない。
+/// この検査だけが「複数冊を並べないと見えない」もののため。
+Future<bool> _checkAllBooks() async {
+  stdout.writeln('=== 単語帳をまたぐ検査 ===');
+
+  final issues = <ValidationIssue>[];
+  final wordsByBook = <String, List<SourceWord>>{};
+  for (final book in _books) {
+    final manifestFile = File('$_srcRoot/$book/_book.json');
+    if (!manifestFile.existsSync()) {
+      stderr.writeln('ERROR [$book] ${manifestFile.path} がありません');
+      return false;
+    }
+    final manifest =
+        jsonDecode(await manifestFile.readAsString()) as Map<String, Object?>;
+    final chunkNames = (manifest['chunks'] as List).cast<String>();
+    final bookIssues = <ValidationIssue>[];
+    wordsByBook[book] = await _readBookWords(book, chunkNames, bookIssues);
+    // ソースが読めない状態では食い違いを正しく数えられないので、
+    // 読み込み時のエラーもそのまま失敗として扱う。
+    for (final i in bookIssues.where((i) => i.isError)) {
+      issues.add(
+        ValidationIssue(i.severity, '$book / ${i.chunk}', i.target, i.message),
+      );
+    }
+  }
+
+  issues.addAll(validateAcrossBooks(wordsByBook));
+
+  final errors = issues.where((i) => i.isError).toList();
+  final shared = _sharedWordCount(wordsByBook);
+  stdout.writeln(
+    '${_books.length}冊 / 延べ ${wordsByBook.values.fold(0, (a, w) => a + w.length)} 語'
+    ' / 2冊以上に載る語 $shared',
+  );
+  for (final e in errors) {
+    stderr.writeln(e);
+  }
+  stdout.writeln('エラー ${errors.length}');
+  return errors.isEmpty;
+}
+
+/// 2冊以上に載っている `(headword, partOfSpeech)` の数（検査の母数）。
+int _sharedWordCount(Map<String, List<SourceWord>> wordsByBook) {
+  final books = <String, Set<String>>{};
+  for (final entry in wordsByBook.entries) {
+    for (final w in entry.value) {
+      books.putIfAbsent(w.key, () => <String>{}).add(entry.key);
+    }
+  }
+  return books.values.where((b) => b.length > 1).length;
+}
+
 Future<bool> _buildBook(
   String book, {
   required Set<String> allowed,
@@ -128,26 +223,7 @@ Future<bool> _buildBook(
   final levelRange = (manifest['levelRange'] as List).cast<int>();
 
   final issues = <ValidationIssue>[];
-  final words = <SourceWord>[];
-  for (final chunk in chunkNames) {
-    final file = File('$_srcRoot/$book/$chunk.json');
-    if (!file.existsSync()) {
-      issues.add(
-        ValidationIssue(IssueSeverity.error, chunk, '', 'ファイルがありません'),
-      );
-      continue;
-    }
-    Object? decoded;
-    try {
-      decoded = jsonDecode(await file.readAsString());
-    } on FormatException catch (e) {
-      issues.add(
-        ValidationIssue(IssueSeverity.error, chunk, '', 'JSON が壊れています: $e'),
-      );
-      continue;
-    }
-    words.addAll(parseChunk(chunk, decoded, issues));
-  }
+  final words = await _readBookWords(book, chunkNames, issues);
 
   issues.addAll(
     validateWords(

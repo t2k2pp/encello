@@ -10,17 +10,20 @@ import '../../tool/wordbook_validator.dart';
 ///
 /// ビルドツールと同じ検証ロジックをアセット側にも当てる。
 /// ビルドを通さずに `assets/wordbooks/*.json` を直接触った場合にも気付けるようにするため。
+/// 出荷する6冊。`SeedImporter.assetPaths` と同じ並び（易→難）。
+const _books = <String>[
+  'jhs_v1',
+  'hs_basic_v1',
+  'hs_advanced_v1',
+  'eiken_pre2_v1',
+  'eiken_2_v1',
+  'toeic_basic_v1',
+];
+
 void main() {
   final allowed = _readAllowedWords();
 
-  for (final book in const [
-    'jhs_v1',
-    'hs_basic_v1',
-    'hs_advanced_v1',
-    'eiken_pre2_v1',
-    'eiken_2_v1',
-    'toeic_basic_v1',
-  ]) {
+  for (final book in _books) {
     group(book, () {
       final asset =
           jsonDecode(File('assets/wordbooks/$book.json').readAsStringSync())
@@ -89,6 +92,21 @@ void main() {
       });
     });
   }
+
+  // ここから下は6冊を横断する検査なので、1冊ずつの group の外に置く。
+  test('単語帳をまたいで meaning / phonetic / level が食い違っていない', () {
+    final wordsByBook = <String, List<SourceWord>>{
+      for (final book in _books)
+        book: readAssetWords(
+          jsonDecode(File('assets/wordbooks/$book.json').readAsStringSync())
+              as Map<String, Object?>,
+        ),
+    };
+    final errors = validateAcrossBooks(
+      wordsByBook,
+    ).where((i) => i.isError).toList();
+    expect(errors, isEmpty, reason: errors.join('\n'));
+  });
 }
 
 Set<String> _readAllowedWords() {

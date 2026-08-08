@@ -14,10 +14,10 @@
       "headword": "administration",
       "partOfSpeech": "noun",
       "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
-      "meaning": "管理；行政；経営陣",
+      "meaning": "管理；行政；政権",
       "exampleEn": "The hospital administration changed the visiting hours.",
       "exampleJa": "病院の管理部門は面会時間を変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:administrator:noun",
@@ -34,20 +34,20 @@
       "headword": "agenda",
       "partOfSpeech": "noun",
       "phonetic": "/əˈdʒendə/",
-      "meaning": "協議事項；議題リスト",
+      "meaning": "議題；協議事項",
       "exampleEn": "The agenda for tomorrow's meeting is ready.",
       "exampleJa": "明日の会議の議題リストはもう用意できています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:approval:noun",
       "headword": "approval",
       "partOfSpeech": "noun",
       "phonetic": "/əˈpruːvl/",
-      "meaning": "承認；決裁",
+      "meaning": "承認；賛成；認可",
       "exampleEn": "We need approval from the head office.",
       "exampleJa": "私たちは本社の承認が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:approve:verb",
@@ -57,7 +57,7 @@
       "meaning": "を承認する；に賛成する",
       "exampleEn": "The manager approved the travel expenses yesterday.",
       "exampleJa": "マネージャーは昨日その出張費を承認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:assign:verb",
@@ -67,17 +67,17 @@
       "meaning": "を割り当てる；を任命する",
       "exampleEn": "The director assigned the project to me.",
       "exampleJa": "部長はその企画を私に割り当てました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:assignment:noun",
       "headword": "assignment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsaɪnmənt/",
-      "meaning": "割り当てられた仕事；宿題",
+      "meaning": "課題；宿題；割り当てられた仕事",
       "exampleEn": "She finished the assignment before the deadline.",
       "exampleJa": "彼女は締め切り前に割り当てられた仕事を終えました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:assistant:noun",
@@ -94,7 +94,7 @@
       "headword": "attachment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtætʃmənt/",
-      "meaning": "添付ファイル；付属物",
+      "meaning": "添付ファイル；付属品；愛着",
       "exampleEn": "I sent the report as an attachment.",
       "exampleJa": "私は報告書を添付ファイルで送りました。",
       "level": 3
@@ -104,60 +104,60 @@
       "headword": "authorization",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɔːθərəˈzeɪʃn/",
-      "meaning": "許可；認可書",
+      "meaning": "許可；認可；権限",
       "exampleEn": "Written authorization is required for entry.",
       "exampleJa": "立ち入りには書面による許可が必要です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:authorize:verb",
       "headword": "authorize",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɔːθəraɪz/",
-      "meaning": "に権限を与える；を認可する",
+      "meaning": "を認可する；に権限を与える",
       "exampleEn": "The president authorized the budget for the project.",
       "exampleJa": "社長はその企画の予算を認可しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:bulletin:noun",
       "headword": "bulletin",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊlətɪn/",
-      "meaning": "社報；掲示；ニュース速報",
+      "meaning": "掲示；会報；ニュース速報",
       "exampleEn": "A new notice is on the bulletin board.",
       "exampleJa": "新しい通知が掲示板に貼ってあります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:cabinet:noun",
       "headword": "cabinet",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæbɪnət/",
-      "meaning": "書類棚；戸棚",
+      "meaning": "内閣；戸棚；書類棚",
       "exampleEn": "The old files are in the metal cabinet.",
       "exampleJa": "古い書類は金属製の書類棚に入っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:calendar:noun",
       "headword": "calendar",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈkælɪndər/",
-      "meaning": "カレンダー；行事表",
+      "phonetic": "/ˈkæləndər/",
+      "meaning": "カレンダー；暦",
       "exampleEn": "I wrote the meeting date on my calendar.",
       "exampleJa": "私はカレンダーに会議の日を書きました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:clerk:noun",
       "headword": "clerk",
       "partOfSpeech": "noun",
       "phonetic": "/klɜːrk/",
-      "meaning": "事務員；店員",
+      "meaning": "店員；事務員",
       "exampleEn": "The clerk checked my reservation quickly.",
       "exampleJa": "事務員は私の予約をすぐに確認しました。",
-      "level": 3
+      "level": 2
     },
     {
       "presetId": "toeic_basic_v1:colleague:noun",
@@ -174,40 +174,40 @@
       "headword": "confirm",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈfɜːrm/",
-      "meaning": "を確認する；を確定する",
+      "meaning": "を確認する；を裏付ける",
       "exampleEn": "She called the hotel to confirm the booking.",
       "exampleJa": "彼女は予約を確認するためにホテルへ電話しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:confirmation:noun",
       "headword": "confirmation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːnfərˈmeɪʃn/",
-      "meaning": "確認；確定通知",
+      "meaning": "確認；確認書；確証",
       "exampleEn": "The confirmation email arrived a minute later.",
       "exampleJa": "確認のメールは1分後に届きました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:correspond:verb",
       "headword": "correspond",
       "partOfSpeech": "verb",
       "phonetic": "/ˌkɔːrəˈspɑːnd/",
-      "meaning": "文通・通信する；一致する",
+      "meaning": "一致する；文通する；相当する",
       "exampleEn": "We correspond regularly via email.",
       "exampleJa": "私たちは定期的にメールでやり取りしています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:correspondence:noun",
       "headword": "correspondence",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɔːrəˈspɑːndəns/",
-      "meaning": "通信；往復書簡",
+      "meaning": "通信；文通；一致",
       "exampleEn": "The office keeps all business correspondence for years.",
       "exampleJa": "事務所は業務上の書簡をすべて何年も保管しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:cybersecurity:noun",
@@ -217,7 +217,7 @@
       "meaning": "サイバーセキュリティ",
       "exampleEn": "Our company spends a lot on cybersecurity.",
       "exampleJa": "私たちの会社はサイバーセキュリティに多くの費用をかけています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:department:noun",
@@ -237,7 +237,7 @@
       "meaning": "を指定する；を指名する",
       "exampleEn": "The company designated this room for meetings.",
       "exampleJa": "会社はこの部屋を会議用に指定しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:document:noun",
@@ -294,20 +294,20 @@
       "headword": "equipment",
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈkwɪpmənt/",
-      "meaning": "備品；機器",
+      "meaning": "設備；装備；機器",
       "exampleEn": "The office equipment is checked every month.",
       "exampleJa": "オフィスの備品は毎月点検されます。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:executive:noun",
       "headword": "executive",
       "partOfSpeech": "noun",
       "phonetic": "/ɪɡˈzekjətɪv/",
-      "meaning": "幹部；役員",
+      "meaning": "役員；幹部；重役",
       "exampleEn": "A senior executive spoke at the meeting.",
       "exampleJa": "上級幹部が会議で話をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:facility:noun",
@@ -334,7 +334,7 @@
       "headword": "form",
       "partOfSpeech": "noun",
       "phonetic": "/fɔːrm/",
-      "meaning": "用紙；形式",
+      "meaning": "用紙；形；形式",
       "exampleEn": "Please fill out this form in blue ink.",
       "exampleJa": "この用紙に青いインクで記入してください。",
       "level": 2
@@ -367,7 +367,7 @@
       "meaning": "を実行する；を導入する",
       "exampleEn": "The firm implemented a new software system.",
       "exampleJa": "その会社は新しいソフトウェアシステムを導入しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:implementation:noun",
@@ -377,7 +377,7 @@
       "meaning": "実行；導入",
       "exampleEn": "The implementation of the plan took two weeks.",
       "exampleJa": "その計画の実行には2週間かかりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:inquire:verb",
@@ -434,7 +434,7 @@
       "headword": "manage",
       "partOfSpeech": "verb",
       "phonetic": "/ˈmænɪdʒ/",
-      "meaning": "を管理する；を経営する",
+      "meaning": "を管理する；を経営する；どうにか〜する",
       "exampleEn": "She manages a team of ten people.",
       "exampleJa": "彼女は10人のチームを管理しています。",
       "level": 2
@@ -454,7 +454,7 @@
       "headword": "manager",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmænɪdʒər/",
-      "meaning": "支配人；課長；マネージャー",
+      "meaning": "支配人；管理者；マネージャー",
       "exampleEn": "Our manager set a clear deadline.",
       "exampleJa": "私たちの課長は明確な締め切りを決めました。",
       "level": 2
@@ -467,7 +467,7 @@
       "meaning": "必須の；義務的な",
       "exampleEn": "The safety training is mandatory for all workers.",
       "exampleJa": "安全講習はすべての作業員に必須です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:manual:noun",
@@ -484,7 +484,7 @@
       "headword": "matter",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmætər/",
-      "meaning": "件；問題；事態",
+      "meaning": "問題；事柄；件",
       "exampleEn": "I discussed the matter with my boss.",
       "exampleJa": "私はその件を上司と話し合いました。",
       "level": 2
@@ -494,10 +494,10 @@
       "headword": "member",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmembər/",
-      "meaning": "構成員；会員",
+      "meaning": "会員；一員；部員",
       "exampleEn": "He is a member of the sales team.",
       "exampleJa": "彼は営業チームの一員です。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:membership:noun",
@@ -527,7 +527,7 @@
       "meaning": "メンター制度；指導",
       "exampleEn": "The company offers a mentorship program for newcomers.",
       "exampleJa": "その会社は新人向けのメンター制度を用意しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:notice:noun",
@@ -554,10 +554,10 @@
       "headword": "obtain",
       "partOfSpeech": "verb",
       "phonetic": "/əbˈteɪn/",
-      "meaning": "を入手する；を獲得する",
+      "meaning": "を手に入れる；を得る；を取得する",
       "exampleEn": "He obtained a copy of the report.",
       "exampleJa": "彼は報告書の写しを入手しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:occupation:noun",
@@ -567,17 +567,17 @@
       "meaning": "職業；占有",
       "exampleEn": "Please write your name and occupation here.",
       "exampleJa": "ここに名前と職業を書いてください。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:office:noun",
       "headword": "office",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈɑːfɪs/",
-      "meaning": "事務所；職務",
+      "phonetic": "/ˈɔːfɪs/",
+      "meaning": "事務所；オフィス；職務",
       "exampleEn": "Our new office is near the station.",
       "exampleJa": "私たちの新しい事務所は駅の近くにあります。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:officer:noun",
@@ -604,10 +604,10 @@
       "headword": "operate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɑːpəreɪt/",
-      "meaning": "を操作する；事業を営む",
+      "meaning": "を操作する；を運営する；手術する",
       "exampleEn": "He operates the machine very carefully.",
       "exampleJa": "彼はその機械をとても慎重に操作します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:operation:noun",
@@ -617,7 +617,7 @@
       "meaning": "事業；操作；手術",
       "exampleEn": "The factory started operation last April.",
       "exampleJa": "その工場は昨年の4月に操業を始めました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:organization:noun",
@@ -664,10 +664,10 @@
       "headword": "policy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpɑːləsi/",
-      "meaning": "方針；規約；保険証券",
+      "meaning": "方針；政策；保険証券",
       "exampleEn": "Our company changed its remote work policy.",
       "exampleJa": "私たちの会社は在宅勤務の方針を変更しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:postpone:verb",
@@ -684,17 +684,17 @@
       "headword": "precaution",
       "partOfSpeech": "noun",
       "phonetic": "/prɪˈkɔːʃn/",
-      "meaning": "予防措置；用心",
+      "meaning": "予防策；用心",
       "exampleEn": "We took every precaution before the storm.",
       "exampleJa": "私たちは嵐の前にあらゆる予防措置を取りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:procedure:noun",
       "headword": "procedure",
       "partOfSpeech": "noun",
       "phonetic": "/prəˈsiːdʒər/",
-      "meaning": "手続き；手順",
+      "meaning": "手順；手続き",
       "exampleEn": "We follow the safety procedure every morning.",
       "exampleJa": "私たちは毎朝その安全手順に従います。",
       "level": 3
@@ -704,20 +704,20 @@
       "headword": "process",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːses/",
-      "meaning": "過程；手順；処理",
+      "meaning": "過程；工程；処理",
       "exampleEn": "The approval process takes about three days.",
       "exampleJa": "承認の手順には3日ほどかかります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:protocol:noun",
       "headword": "protocol",
       "partOfSpeech": "noun",
       "phonetic": "/ˈproʊtəkɑːl/",
-      "meaning": "プロトコル；規定；手順書",
+      "meaning": "規定；手順；儀礼",
       "exampleEn": "All visitors must follow the security protocol.",
       "exampleJa": "訪問者は全員セキュリティ規定に従わなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:provide:verb",
@@ -747,7 +747,7 @@
       "meaning": "を移転させる；引っ越す",
       "exampleEn": "The firm relocated to a new building.",
       "exampleJa": "その会社は新しいビルに移転しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:remind:verb",
@@ -757,7 +757,7 @@
       "meaning": "に思い出させる；に念を押す",
       "exampleEn": "Please remind me to call the client.",
       "exampleJa": "顧客に電話するよう私に念を押してください。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:reminder:noun",
@@ -767,7 +767,7 @@
       "meaning": "通知；リマインダー",
       "exampleEn": "She sent a reminder about the meeting.",
       "exampleJa": "彼女は会議についての通知を送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:reorganize:verb",
@@ -784,10 +784,10 @@
       "headword": "replace",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈpleɪs/",
-      "meaning": "を取り替える；の後任になる",
+      "meaning": "を取り替える；に取って代わる",
       "exampleEn": "We replaced the old printer with a new one.",
       "exampleJa": "私たちは古いプリンターを新しいものに取り替えました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:replacement:noun",
@@ -797,7 +797,7 @@
       "meaning": "交換品；後任者",
       "exampleEn": "The store sent a replacement the next day.",
       "exampleJa": "店は翌日に交換品を送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:report:noun",
@@ -837,7 +837,7 @@
       "meaning": "必要条件；要件",
       "exampleEn": "This job has three basic requirements.",
       "exampleJa": "この仕事には3つの基本的な要件があります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:resign:verb",
@@ -857,7 +857,7 @@
       "meaning": "辞任；辞表",
       "exampleEn": "He handed in his resignation this morning.",
       "exampleJa": "彼は今朝辞表を提出しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:schedule:noun",
@@ -887,7 +887,7 @@
       "meaning": "文房具；事務用品",
       "exampleEn": "We order office stationery online every month.",
       "exampleJa": "私たちは毎月オンラインで事務用品を注文しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:supervisor:noun",
@@ -917,7 +917,7 @@
       "meaning": "電話会議；遠隔会議",
       "exampleEn": "We held a teleconference with the London team.",
       "exampleJa": "私たちはロンドンのチームと電話会議を行いました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:telemarketing:noun",
@@ -927,7 +927,7 @@
       "meaning": "電話勧誘；テレマーケティング",
       "exampleEn": "The company started a telemarketing campaign last month.",
       "exampleJa": "その会社は先月電話勧誘のキャンペーンを始めました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:transfer:verb",
@@ -937,7 +937,7 @@
       "meaning": "を転勤させる；を移す",
       "exampleEn": "He was transferred to the London office.",
       "exampleJa": "彼はロンドンの事務所に転勤になりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:unanimous:adjective",
@@ -967,27 +967,27 @@
       "meaning": "緊急性",
       "exampleEn": "Everyone understood the urgency of the situation.",
       "exampleJa": "誰もがその状況の緊急性を理解していました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:urgent:adjective",
       "headword": "urgent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɜːrdʒənt/",
-      "meaning": "緊急の；至急の",
+      "meaning": "緊急の；急を要する",
       "exampleEn": "She sent an urgent message to the client.",
       "exampleJa": "彼女は顧客に至急のメッセージを送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:acknowledge:verb",
       "headword": "acknowledge",
       "partOfSpeech": "verb",
       "phonetic": "/əkˈnɑːlɪdʒ/",
-      "meaning": "を認める；の受領を通知する",
+      "meaning": "を認める；の受領を知らせる；に感謝する",
       "exampleEn": "Please acknowledge receipt of this email.",
       "exampleJa": "このメールを受け取ったことをお知らせください。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:address:verb",
@@ -1004,17 +1004,17 @@
       "headword": "advise",
       "partOfSpeech": "verb",
       "phonetic": "/ədˈvaɪz/",
-      "meaning": "に助言する；に通知する",
+      "meaning": "に助言する；に忠告する；に通知する",
       "exampleEn": "Our lawyer advised us to wait.",
       "exampleJa": "顧問弁護士は私たちに待つよう助言しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:announcement:noun",
       "headword": "announcement",
       "partOfSpeech": "noun",
       "phonetic": "/əˈnaʊnsmənt/",
-      "meaning": "発表；告知",
+      "meaning": "発表；告知；案内",
       "exampleEn": "The company made an important announcement today.",
       "exampleJa": "会社は今日重要な発表を行いました。",
       "level": 2
@@ -1024,7 +1024,7 @@
       "headword": "apologize",
       "partOfSpeech": "verb",
       "phonetic": "/əˈpɑːlədʒaɪz/",
-      "meaning": "謝罪する",
+      "meaning": "謝る；謝罪する",
       "exampleEn": "We apologize for the delay in shipping.",
       "exampleJa": "発送が遅れましたことをお詫びいたします。",
       "level": 2
@@ -1044,40 +1044,40 @@
       "headword": "argue",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɑːrɡjuː/",
-      "meaning": "と主張する；議論する",
+      "meaning": "と主張する；議論する；口論する",
       "exampleEn": "The lawyer argued the case in court.",
       "exampleJa": "その弁護士は法廷でその訴訟について弁論しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:argument:noun",
       "headword": "argument",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrɡjumənt/",
-      "meaning": "議論；主張",
+      "meaning": "議論；主張；口論",
       "exampleEn": "His argument convinced everyone at the table.",
       "exampleJa": "彼の主張はその場の全員を納得させました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:articulate:verb",
       "headword": "articulate",
       "partOfSpeech": "verb",
       "phonetic": "/ɑːrˈtɪkjuleɪt/",
-      "meaning": "をはっきり述べる",
+      "meaning": "を明確に述べる；をはっきり発音する",
       "exampleEn": "The president articulated a clear vision for growth.",
       "exampleJa": "社長は成長に向けた明確な構想をはっきりと述べました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:billboard:noun",
       "headword": "billboard",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪlbɔːrd/",
-      "meaning": "屋外広告塔；看板",
+      "meaning": "広告看板；屋外広告塔",
       "exampleEn": "A large billboard stands beside the highway.",
       "exampleJa": "大きな看板が高速道路のそばに立っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:brief:verb",
@@ -1087,14 +1087,14 @@
       "meaning": "に要点・状況を説明する",
       "exampleEn": "The manager briefed the team on the new plan.",
       "exampleJa": "部長は新しい計画についてチームに要点を説明しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:briefing:noun",
       "headword": "briefing",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbriːfɪŋ/",
-      "meaning": "状況説明会；ブリーフィング",
+      "meaning": "状況説明；概要説明；ブリーフィング",
       "exampleEn": "The morning briefing lasted only ten minutes.",
       "exampleJa": "朝の状況説明会はわずか10分で終わりました。",
       "level": 3
@@ -1104,10 +1104,10 @@
       "headword": "broadcast",
       "partOfSpeech": "verb",
       "phonetic": "/ˈbrɔːdkæst/",
-      "meaning": "を放送する",
+      "meaning": "を放送する；放送される",
       "exampleEn": "The station broadcast the news live.",
       "exampleJa": "放送局はそのニュースを生放送しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:clarify:verb",
@@ -1134,7 +1134,7 @@
       "headword": "communicate",
       "partOfSpeech": "verb",
       "phonetic": "/kəˈmjuːnɪkeɪt/",
-      "meaning": "伝える；意思疎通する",
+      "meaning": "意思を伝え合う；を伝える；連絡を取る",
       "exampleEn": "We communicate with our clients by email.",
       "exampleJa": "私たちは顧客とメールでやり取りしています。",
       "level": 2
@@ -1147,17 +1147,17 @@
       "meaning": "妥協する；を損なう",
       "exampleEn": "Both sides compromised and reached an agreement.",
       "exampleJa": "双方が歩み寄って合意に達しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:conclude:verb",
       "headword": "conclude",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈkluːd/",
-      "meaning": "を締めくくる；と結論づける",
+      "meaning": "と結論づける；を締めくくる",
       "exampleEn": "She concluded her speech with a short story.",
       "exampleJa": "彼女は短い話でスピーチを締めくくりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:conclusion:noun",
@@ -1177,17 +1177,17 @@
       "meaning": "会議；協議会",
       "exampleEn": "The annual conference will be held in Osaka.",
       "exampleJa": "年次会議は大阪で開催されます。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:confront:verb",
       "headword": "confront",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈfrʌnt/",
-      "meaning": "に立ち向かう；と対面する",
+      "meaning": "に直面する；に立ち向かう",
       "exampleEn": "The company confronted a serious problem last year.",
       "exampleJa": "会社は昨年深刻な問題に立ち向かいました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:consensus:noun",
@@ -1197,14 +1197,14 @@
       "meaning": "合意；意見の一致",
       "exampleEn": "The team finally reached a consensus.",
       "exampleJa": "チームはついに意見の一致に達しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:consult:verb",
       "headword": "consult",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsʌlt/",
-      "meaning": "に相談する；に意見を求める",
+      "meaning": "に相談する；を参照する",
       "exampleEn": "You should consult a lawyer before you sign.",
       "exampleJa": "署名する前に弁護士に相談したほうがよいです。",
       "level": 3
@@ -1217,17 +1217,17 @@
       "meaning": "を伝える；を運ぶ",
       "exampleEn": "Please convey my thanks to your staff.",
       "exampleJa": "スタッフの皆さんに私の感謝をお伝えください。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:convince:verb",
       "headword": "convince",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈvɪns/",
-      "meaning": "を納得させる；を確信させる",
+      "meaning": "を納得させる；を確信させる；を説得する",
       "exampleEn": "The data convinced the investors to join us.",
       "exampleJa": "そのデータは投資家たちを納得させ、参加を決めさせました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:debate:verb",
@@ -1244,7 +1244,7 @@
       "headword": "deliberate",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈlɪbəreɪt/",
-      "meaning": "熟考する；協議する",
+      "meaning": "を熟考する；を審議する",
       "exampleEn": "The committee deliberated for three hours.",
       "exampleJa": "委員会は3時間にわたり協議しました。",
       "level": 4
@@ -1254,7 +1254,7 @@
       "headword": "describe",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskraɪb/",
-      "meaning": "を述べる；を描写する",
+      "meaning": "を説明する；を描写する",
       "exampleEn": "He described the new product to the customers.",
       "exampleJa": "彼は顧客に新製品について説明しました。",
       "level": 2
@@ -1264,7 +1264,7 @@
       "headword": "description",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈskrɪpʃn/",
-      "meaning": "説明；記述",
+      "meaning": "説明；記述；描写",
       "exampleEn": "She read the job description carefully.",
       "exampleJa": "彼女は職務内容の説明を注意深く読みました。",
       "level": 2
@@ -1297,14 +1297,14 @@
       "meaning": "回り道；迂回路",
       "exampleEn": "The road work forced us to take a detour.",
       "exampleJa": "道路工事のため私たちは迂回路を通りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:discuss:verb",
       "headword": "discuss",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskʌs/",
-      "meaning": "について議論する；話し合う",
+      "meaning": "について話し合う；を議論する",
       "exampleEn": "We discussed the budget at the meeting.",
       "exampleJa": "私たちは会議で予算について話し合いました。",
       "level": 2
@@ -1324,10 +1324,10 @@
       "headword": "dispute",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈspjuːt/",
-      "meaning": "紛争；議論",
+      "meaning": "紛争；論争；議論",
       "exampleEn": "The two firms settled their dispute quietly.",
       "exampleJa": "その2社は紛争を穏便に解決しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:draft:noun",
@@ -1347,7 +1347,7 @@
       "meaning": "詳しく述べる",
       "exampleEn": "Could you elaborate on that point?",
       "exampleJa": "その点についてもう少し詳しく述べていただけますか。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:emphasis:noun",
@@ -1387,7 +1387,7 @@
       "meaning": "を啓発する；を教える",
       "exampleEn": "The lecture enlightened us about the local market.",
       "exampleJa": "その講義は地元市場について私たちに多くを教えてくれました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:explain:verb",
@@ -1397,7 +1397,7 @@
       "meaning": "を説明する",
       "exampleEn": "The manager explained the new rules to us.",
       "exampleJa": "部長は新しい規則を私たちに説明しました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:explanation:noun",
@@ -1437,7 +1437,7 @@
       "meaning": "公開討論会；フォーラム",
       "exampleEn": "The company held an online forum for users.",
       "exampleJa": "会社は利用者向けのオンライン討論会を開きました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:headline:noun",
@@ -1447,7 +1447,7 @@
       "meaning": "見出し；ヘッダー",
       "exampleEn": "The news headline caught my eye this morning.",
       "exampleJa": "今朝そのニュースの見出しが目に留まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:highlight:verb",
@@ -1457,17 +1457,17 @@
       "meaning": "を強調する；を際立たせる",
       "exampleEn": "The report highlighted our strong sales.",
       "exampleJa": "その報告書は好調な売上を際立たせていました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:illustrate:verb",
       "headword": "illustrate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɪləstreɪt/",
-      "meaning": "を例示・図解する",
+      "meaning": "を例証する；を図解する；に挿絵を入れる",
       "exampleEn": "The graph illustrates the growth in sales.",
       "exampleJa": "そのグラフは売上の伸びを分かりやすく示しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:inform:verb",
@@ -1477,17 +1477,17 @@
       "meaning": "に知らせる；に通知する",
       "exampleEn": "Please inform us of any change in the schedule.",
       "exampleJa": "予定に変更があればお知らせください。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:information:noun",
       "headword": "information",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌɪnfərˈmeɪʃn/",
+      "phonetic": "/ˌɪnfərˈmeɪʃən/",
       "meaning": "情報；案内",
       "exampleEn": "You can find more information on our website.",
       "exampleJa": "詳しい情報は当社のウェブサイトでご覧いただけます。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:informative:adjective",
@@ -1504,10 +1504,10 @@
       "headword": "insist",
       "partOfSpeech": "verb",
       "phonetic": "/ɪnˈsɪst/",
-      "meaning": "と主張する；言い張る",
+      "meaning": "と主張する；を強く求める",
       "exampleEn": "He insisted on paying for lunch.",
       "exampleJa": "彼は昼食代を払うと言って譲りませんでした。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:interact:verb",
@@ -1547,7 +1547,7 @@
       "meaning": "解釈；通訳",
       "exampleEn": "The two lawyers had different interpretations of the clause.",
       "exampleJa": "2人の弁護士はその条項について異なる解釈をしていました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:interpreter:noun",
@@ -1577,7 +1577,7 @@
       "meaning": "を紹介する；を導入する",
       "exampleEn": "Let me introduce our new sales manager.",
       "exampleJa": "新しい営業部長を紹介させてください。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:introduction:noun",
@@ -1594,10 +1594,10 @@
       "headword": "issue",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪʃuː/",
-      "meaning": "問題；発行号",
+      "meaning": "問題；発行；号",
       "exampleEn": "We will discuss this issue at the next meeting.",
       "exampleJa": "この問題は次の会議で話し合います。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:lecture:noun",
@@ -1617,14 +1617,14 @@
       "meaning": "利益の上がる；儲かる",
       "exampleEn": "They signed a lucrative contract with a partner overseas.",
       "exampleJa": "彼らは海外のパートナーと利益の大きい契約を結びました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:media:noun",
       "headword": "media",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmiːdiə/",
-      "meaning": "マスメディア；媒体",
+      "meaning": "メディア；媒体；報道機関",
       "exampleEn": "The media reported the merger last week.",
       "exampleJa": "メディアは先週その合併を報じました。",
       "level": 2
@@ -1633,11 +1633,11 @@
       "presetId": "toeic_basic_v1:mention:verb",
       "headword": "mention",
       "partOfSpeech": "verb",
-      "phonetic": "/ˈmenʃn/",
+      "phonetic": "/ˈmenʃən/",
       "meaning": "に言及する；を口にする",
       "exampleEn": "He mentioned the plan briefly at lunch.",
       "exampleJa": "彼は昼食の席でその計画に少し触れました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:message:noun",
@@ -1647,17 +1647,17 @@
       "meaning": "伝言；メッセージ",
       "exampleEn": "Please leave a message after the tone.",
       "exampleJa": "発信音のあとにメッセージをお残しください。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:negotiate:verb",
       "headword": "negotiate",
       "partOfSpeech": "verb",
       "phonetic": "/nɪˈɡoʊʃieɪt/",
-      "meaning": "を交渉する；折り合う",
+      "meaning": "を交渉する；を取り決める",
       "exampleEn": "We negotiated a better price with the supplier.",
       "exampleJa": "私たちは仕入先とより良い価格を交渉しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:negotiation:noun",
@@ -1667,7 +1667,7 @@
       "meaning": "交渉；協議",
       "exampleEn": "The negotiation lasted three days.",
       "exampleJa": "その交渉は3日間続きました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:newsletter:noun",
@@ -1677,7 +1677,7 @@
       "meaning": "会報；ニュースレター",
       "exampleEn": "The company sends a newsletter every month.",
       "exampleJa": "会社は毎月ニュースレターを送っています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:note:verb",
@@ -1707,7 +1707,7 @@
       "meaning": "概要；輪郭",
       "exampleEn": "The presenter gave an outline of the project.",
       "exampleJa": "発表者はプロジェクトの概要を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:pamphlet:noun",
@@ -1717,7 +1717,7 @@
       "meaning": "小冊子；パンフレット",
       "exampleEn": "We handed out a pamphlet to every visitor.",
       "exampleJa": "私たちは来場者全員にパンフレットを配りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:pensioner:noun",
@@ -1727,7 +1727,7 @@
       "meaning": "年金受給者",
       "exampleEn": "The pensioner receives a check every month.",
       "exampleJa": "その年金受給者は毎月小切手を受け取っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:persuade:verb",
@@ -1747,27 +1747,27 @@
       "meaning": "説得；説得力",
       "exampleEn": "It took some persuasion to change his mind.",
       "exampleJa": "彼の考えを変えるには少し説得が必要でした。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:point:noun",
       "headword": "point",
       "partOfSpeech": "noun",
       "phonetic": "/pɔɪnt/",
-      "meaning": "要点；論点",
+      "meaning": "点；要点；得点",
       "exampleEn": "Let me explain the main point of the plan.",
       "exampleJa": "計画の要点を説明させてください。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:present:verb",
       "headword": "present",
       "partOfSpeech": "verb",
       "phonetic": "/prɪˈzent/",
-      "meaning": "を提示する；をプレゼンする",
+      "meaning": "を提示する；を贈る；を発表する",
       "exampleEn": "He presented the results at the conference.",
       "exampleJa": "彼は会議でその結果を発表しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:presentation:noun",
@@ -1777,7 +1777,7 @@
       "meaning": "発表；プレゼンテーション",
       "exampleEn": "Her presentation impressed the board members.",
       "exampleJa": "彼女のプレゼンテーションは取締役たちに好印象を与えました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:proposal:noun",
@@ -1787,27 +1787,27 @@
       "meaning": "提案；企画書",
       "exampleEn": "We must submit the proposal by Friday.",
       "exampleJa": "私たちは金曜日までに提案書を提出しなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:propose:verb",
       "headword": "propose",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈpoʊz/",
-      "meaning": "を提案する",
+      "meaning": "を提案する；に結婚を申し込む",
       "exampleEn": "The consultant proposed a new sales strategy.",
       "exampleJa": "コンサルタントは新しい販売戦略を提案しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:publicity:noun",
       "headword": "publicity",
       "partOfSpeech": "noun",
       "phonetic": "/pʌbˈlɪsəti/",
-      "meaning": "広報；宣伝",
+      "meaning": "宣伝；広報；世間の注目",
       "exampleEn": "The new product received good publicity.",
       "exampleJa": "新製品は好意的な宣伝報道を受けました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:publish:verb",
@@ -1827,7 +1827,7 @@
       "meaning": "アンケート用紙；質問票",
       "exampleEn": "Customers filled out a short questionnaire.",
       "exampleJa": "顧客は短いアンケート用紙に記入しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:quote:noun",
@@ -1847,7 +1847,7 @@
       "meaning": "を勧める；を推薦する",
       "exampleEn": "The doctor recommended more rest.",
       "exampleJa": "医師はもっと休むよう勧めました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:recommendation:noun",
@@ -1857,7 +1857,7 @@
       "meaning": "推薦；勧告",
       "exampleEn": "We followed the expert's recommendation on safety.",
       "exampleJa": "私たちは安全についての専門家の勧告に従いました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:remark:noun",
@@ -1874,7 +1874,7 @@
       "headword": "reply",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈplaɪ/",
-      "meaning": "返信する；答える",
+      "meaning": "返事をする；返信する",
       "exampleEn": "She replied to the inquiry within an hour.",
       "exampleJa": "彼女は1時間以内にその問い合わせに返信しました。",
       "level": 2
@@ -1884,10 +1884,10 @@
       "headword": "respond",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈspɑːnd/",
-      "meaning": "に応答する；に反応する",
+      "meaning": "応答する；反応する",
       "exampleEn": "The company responded quickly to the complaint.",
       "exampleJa": "会社はその苦情に素早く対応しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:response:noun",
@@ -1904,10 +1904,10 @@
       "headword": "speech",
       "partOfSpeech": "noun",
       "phonetic": "/spiːtʃ/",
-      "meaning": "演説；スピーチ",
+      "meaning": "スピーチ；演説",
       "exampleEn": "The director gave a short opening speech.",
       "exampleJa": "部長は短い開会のスピーチを行いました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:stapler:noun",
@@ -1917,7 +1917,7 @@
       "meaning": "ホチキス",
       "exampleEn": "I used a stapler to hold the pages together.",
       "exampleJa": "私はページをまとめるためにホチキスを使いました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:statement:noun",
@@ -1927,7 +1927,7 @@
       "meaning": "声明；明細書",
       "exampleEn": "The company issued a statement to the press.",
       "exampleJa": "会社は報道機関に向けて声明を発表しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:substantially:adverb",
@@ -1937,7 +1937,7 @@
       "meaning": "相当に；大幅に",
       "exampleEn": "Costs fell substantially after the factory was upgraded.",
       "exampleJa": "工場の改修後、コストは大幅に下がりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:summarize:verb",
@@ -1947,7 +1947,7 @@
       "meaning": "を要約する",
       "exampleEn": "He summarized the main points of the meeting.",
       "exampleJa": "彼は会議の要点をまとめました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:videoconference:noun",
@@ -1967,44 +1967,44 @@
       "meaning": "応募者；志願者",
       "exampleEn": "Fifty applicants applied for the new position.",
       "exampleJa": "50名の応募者が新しい職に応募しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:application:noun",
       "headword": "application",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæplɪˈkeɪʃn/",
-      "meaning": "応募；申請書",
+      "meaning": "申請；申込書；応用",
       "exampleEn": "I sent my application form online.",
       "exampleJa": "私は応募用紙をオンラインで送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:apply:verb",
       "headword": "apply",
       "partOfSpeech": "verb",
       "phonetic": "/əˈplaɪ/",
-      "meaning": "に応募する；を適用する",
+      "meaning": "申し込む；応募する；を適用する",
       "exampleEn": "He applied for a manager job last week.",
       "exampleJa": "彼は先週管理職に応募しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:benefit:noun",
       "headword": "benefit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbenɪfɪt/",
-      "meaning": "手当；福利厚生；利益",
+      "meaning": "利益；恩恵；手当",
       "exampleEn": "The company offers good health benefits.",
       "exampleJa": "その会社は充実した健康保険の福利厚生を用意しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:bonus:noun",
       "headword": "bonus",
       "partOfSpeech": "noun",
       "phonetic": "/ˈboʊnəs/",
-      "meaning": "特別手当；ボーナス",
+      "meaning": "ボーナス；特別手当",
       "exampleEn": "The staff received a bonus in December.",
       "exampleJa": "社員は12月にボーナスを受け取りました。",
       "level": 2
@@ -2014,7 +2014,7 @@
       "headword": "candidate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkændɪdeɪt/",
-      "meaning": "候補者；求職志望者",
+      "meaning": "候補者；志願者",
       "exampleEn": "The manager interviewed three strong candidates yesterday.",
       "exampleJa": "部長は昨日3名の有力な候補者と面接しました。",
       "level": 3
@@ -2024,7 +2024,7 @@
       "headword": "career",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈrɪr/",
-      "meaning": "経歴；キャリア",
+      "meaning": "経歴；職業；キャリア",
       "exampleEn": "She built her career in accounting.",
       "exampleJa": "彼女は会計の分野でキャリアを築きました。",
       "level": 2
@@ -2037,17 +2037,17 @@
       "meaning": "CM集；広告動画",
       "exampleEn": "We watched funny commercials during the game.",
       "exampleJa": "私たちは試合の間に面白いCMを見ました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:compensation:noun",
       "headword": "compensation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːmpenˈseɪʃn/",
-      "meaning": "報酬；手当；補償",
+      "meaning": "補償；報酬；手当",
       "exampleEn": "The company offers a generous compensation package.",
       "exampleJa": "その会社は手厚い報酬パッケージを用意しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:demote:verb",
@@ -2074,20 +2074,20 @@
       "headword": "discipline",
       "partOfSpeech": "noun",
       "phonetic": "/ˈdɪsəplɪn/",
-      "meaning": "規律；懲戒",
+      "meaning": "規律；訓練；学問分野",
       "exampleEn": "Our factory keeps strict safety discipline.",
       "exampleJa": "当社の工場は厳しい安全規律を保っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:dismiss:verb",
       "headword": "dismiss",
       "partOfSpeech": "verb",
       "phonetic": "/dɪsˈmɪs/",
-      "meaning": "を解雇する；を退ける",
+      "meaning": "を退ける；を解雇する",
       "exampleEn": "The company dismissed him for breaking the rules.",
       "exampleJa": "会社は規則違反のため彼を解雇しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:dismissal:noun",
@@ -2097,7 +2097,7 @@
       "meaning": "解雇；却下",
       "exampleEn": "The court reviewed his unfair dismissal case.",
       "exampleJa": "裁判所は彼の不当解雇の件を審理しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:earnings:noun",
@@ -2117,7 +2117,7 @@
       "meaning": "適格性；資格",
       "exampleEn": "Please check your eligibility before you apply.",
       "exampleJa": "応募する前にご自身の資格を確認してください。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:eligible:adjective",
@@ -2127,7 +2127,7 @@
       "meaning": "受給資格がある；適格な",
       "exampleEn": "All full-time staff are eligible for paid holidays.",
       "exampleJa": "常勤の社員は全員有給休暇を取る資格があります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:employ:verb",
@@ -2154,7 +2154,7 @@
       "headword": "employer",
       "partOfSpeech": "noun",
       "phonetic": "/ɪmˈplɔɪər/",
-      "meaning": "雇用主；事業主",
+      "meaning": "雇い主；雇用主",
       "exampleEn": "A good employer listens to the staff.",
       "exampleJa": "良い雇用主は社員の声に耳を傾けます。",
       "level": 2
@@ -2167,7 +2167,7 @@
       "meaning": "雇用；職",
       "exampleEn": "He is looking for full-time employment.",
       "exampleJa": "彼は常勤の職を探しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:evaluation:noun",
@@ -2207,7 +2207,7 @@
       "meaning": "配布資料；プリント",
       "exampleEn": "She gave a handout to everyone at the meeting.",
       "exampleJa": "彼女は会議で全員に配布資料を渡しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:hire:verb",
@@ -2227,7 +2227,7 @@
       "meaning": "人事部；人的資源",
       "exampleEn": "I sent my leave request to human resources.",
       "exampleJa": "私は休暇の申請を人事部に送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:in the event of:phrase",
@@ -2237,17 +2237,17 @@
       "meaning": "万一〜の場合には",
       "exampleEn": "Press the red button in the event of a fire.",
       "exampleJa": "万一火災の場合には赤いボタンを押してください。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:incentive:noun",
       "headword": "incentive",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈsentɪv/",
-      "meaning": "報奨金；動機付け",
+      "meaning": "動機付け；報奨金；誘因",
       "exampleEn": "The bonus is a strong incentive for our team.",
       "exampleJa": "そのボーナスは私たちのチームにとって強い動機付けになっています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:intern:noun",
@@ -2284,10 +2284,10 @@
       "headword": "job",
       "partOfSpeech": "noun",
       "phonetic": "/dʒɑːb/",
-      "meaning": "職；仕事",
+      "meaning": "仕事；職",
       "exampleEn": "She found a new job at a travel company.",
       "exampleJa": "彼女は旅行会社で新しい仕事を見つけました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:junction:noun",
@@ -2297,17 +2297,17 @@
       "meaning": "ジャンクション；接続点",
       "exampleEn": "The office stands near a busy highway junction.",
       "exampleJa": "そのオフィスは交通量の多い高速道路のジャンクションの近くにあります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:labor:noun",
       "headword": "labor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈleɪbər/",
-      "meaning": "労働；労働者",
+      "meaning": "労働；作業；労働者",
       "exampleEn": "The work needs a lot of manual labor.",
       "exampleJa": "その作業には多くの肉体労働が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:layoff:noun",
@@ -2317,7 +2317,7 @@
       "meaning": "一時解雇；レイオフ",
       "exampleEn": "The layoffs affected fifty workers at the plant.",
       "exampleJa": "その一時解雇は工場の50名の従業員に影響しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:leave:noun",
@@ -2337,7 +2337,7 @@
       "meaning": "母性；産休の",
       "exampleEn": "Our maternity leave policy changed this month.",
       "exampleJa": "当社の産休制度は今月変わりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:motel:noun",
@@ -2347,7 +2347,7 @@
       "meaning": "モーテル；自動車客向け宿",
       "exampleEn": "We stayed at a small motel near the highway.",
       "exampleJa": "私たちは高速道路の近くの小さなモーテルに泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:opening:noun",
@@ -2367,7 +2367,7 @@
       "meaning": "残業；残業手当",
       "exampleEn": "The team worked overtime to finish the report.",
       "exampleJa": "チームは報告書を仕上げるために残業しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:paperclip:noun",
@@ -2377,7 +2377,7 @@
       "meaning": "ゼムクリップ",
       "exampleEn": "I keep paperclips in my desk drawer.",
       "exampleJa": "私は机の引き出しにゼムクリップを入れています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:part-time:adjective",
@@ -2397,7 +2397,7 @@
       "meaning": "給与支払い簿；総給与額",
       "exampleEn": "The company added ten workers to the payroll.",
       "exampleJa": "会社は10名の従業員を給与支払い簿に加えました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:pension:noun",
@@ -2407,27 +2407,27 @@
       "meaning": "年金；恩給",
       "exampleEn": "My father receives a pension every month.",
       "exampleJa": "父は毎月年金を受け取っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:perform:verb",
       "headword": "perform",
       "partOfSpeech": "verb",
       "phonetic": "/pərˈfɔːrm/",
-      "meaning": "を遂行する；を演じる",
+      "meaning": "を行う；を演じる；を演奏する",
       "exampleEn": "He performs his daily tasks very well.",
       "exampleJa": "彼は日々の業務をとても上手にこなしています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:performance:noun",
       "headword": "performance",
       "partOfSpeech": "noun",
       "phonetic": "/pərˈfɔːrməns/",
-      "meaning": "業績；成果；演奏",
+      "meaning": "業績；公演；演技",
       "exampleEn": "Her performance this year was excellent.",
       "exampleJa": "彼女の今年の業績は素晴らしいものでした。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:personnel:noun",
@@ -2437,14 +2437,14 @@
       "meaning": "人事；全職員",
       "exampleEn": "The personnel department handles all hiring questions.",
       "exampleJa": "人事部が採用に関するすべての質問に対応します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:position:noun",
       "headword": "position",
       "partOfSpeech": "noun",
       "phonetic": "/pəˈzɪʃn/",
-      "meaning": "職；役職；位置",
+      "meaning": "位置；職；立場",
       "exampleEn": "She was offered a position in the London office.",
       "exampleJa": "彼女はロンドン支社の役職を提示されました。",
       "level": 2
@@ -2457,17 +2457,17 @@
       "meaning": "試用期間；保護観察",
       "exampleEn": "New workers are on probation for three months.",
       "exampleJa": "新入社員は3か月の試用期間中です。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:promote:verb",
       "headword": "promote",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈmoʊt/",
-      "meaning": "を昇進させる；を促進する",
+      "meaning": "を促進する；を昇進させる；を宣伝する",
       "exampleEn": "He was promoted to sales manager in April.",
       "exampleJa": "彼は4月に営業部長に昇進しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:promotion:noun",
@@ -2477,7 +2477,7 @@
       "meaning": "昇進；プロモーション",
       "exampleEn": "She celebrated her promotion with her colleagues.",
       "exampleJa": "彼女は同僚と一緒に昇進を祝いました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:qualification:noun",
@@ -2497,7 +2497,7 @@
       "meaning": "適格な；資格のある",
       "exampleEn": "We need a qualified nurse for this clinic.",
       "exampleJa": "この診療所には資格のある看護師が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:recruit:verb",
@@ -2537,7 +2537,7 @@
       "meaning": "給与；報酬",
       "exampleEn": "The job offers good remuneration for skilled staff.",
       "exampleJa": "その仕事は熟練した社員に十分な報酬を用意しています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:resume:noun",
@@ -2567,7 +2567,7 @@
       "meaning": "定年退職者",
       "exampleEn": "The company invited retirees to the annual party.",
       "exampleJa": "会社は定年退職者を年次パーティーに招待しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:retirement:noun",
@@ -2597,14 +2597,14 @@
       "meaning": "退職金；契約解除",
       "exampleEn": "The workers received generous severance pay.",
       "exampleJa": "従業員たちは手厚い退職金を受け取りました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:skill:noun",
       "headword": "skill",
       "partOfSpeech": "noun",
       "phonetic": "/skɪl/",
-      "meaning": "技能；スキル",
+      "meaning": "技能；技術",
       "exampleEn": "You need good computer skills for this work.",
       "exampleJa": "この仕事には優れたコンピューター技能が必要です。",
       "level": 2
@@ -2617,7 +2617,7 @@
       "meaning": "熟練した；腕の良い",
       "exampleEn": "We hired a skilled technician for the repair.",
       "exampleJa": "私たちは修理のために熟練した技術者を雇いました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:staff:noun",
@@ -2637,7 +2637,7 @@
       "meaning": "奨学手当；定額給与",
       "exampleEn": "Each intern receives a small monthly stipend.",
       "exampleJa": "インターン生はそれぞれ毎月少額の手当を受け取ります。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:strike:noun",
@@ -2647,7 +2647,7 @@
       "meaning": "ストライキ；同盟罷業",
       "exampleEn": "The union went on strike for higher pay.",
       "exampleJa": "組合は賃上げを求めてストライキに入りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:stringent:adjective",
@@ -2657,7 +2657,7 @@
       "meaning": "厳格な；厳しい",
       "exampleEn": "The factory follows stringent safety rules.",
       "exampleJa": "その工場は厳格な安全規則に従っています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:subordinate:noun",
@@ -2683,11 +2683,11 @@
       "presetId": "toeic_basic_v1:temporary:adjective",
       "headword": "temporary",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˌtempəˈreri/",
-      "meaning": "臨時雇いの；一時的な",
+      "phonetic": "/ˈtempəreri/",
+      "meaning": "一時的な；仮の；臨時の",
       "exampleEn": "We hire temporary workers during the busy season.",
       "exampleJa": "私たちは繁忙期に臨時の従業員を雇います。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:tenant:noun",
@@ -2697,17 +2697,17 @@
       "meaning": "借り手；テナント",
       "exampleEn": "The new tenant signed the office lease.",
       "exampleJa": "新しい借り手がオフィスの賃貸契約に署名しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:terminate:verb",
       "headword": "terminate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈtɜːrmɪneɪt/",
-      "meaning": "を解雇・終了する",
+      "meaning": "を終了させる；を解約する",
       "exampleEn": "The firm terminated his employment contract.",
       "exampleJa": "会社は彼の雇用契約を終了しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:termination:noun",
@@ -2717,7 +2717,7 @@
       "meaning": "契約解除；解雇",
       "exampleEn": "We received a notice of contract termination.",
       "exampleJa": "私たちは契約解除の通知を受け取りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:train:verb",
@@ -2764,10 +2764,10 @@
       "headword": "turnover",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtɜːrnoʊvər/",
-      "meaning": "離職率；売上高",
+      "meaning": "離職率；総売上高；回転率",
       "exampleEn": "The company reduced its staff turnover last year.",
       "exampleJa": "会社は昨年、社員の離職率を下げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:unemployed:adjective",
@@ -2777,7 +2777,7 @@
       "meaning": "失業中の",
       "exampleEn": "He has been unemployed since March.",
       "exampleJa": "彼は3月からずっと失業しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:unemployment:noun",
@@ -2787,17 +2787,17 @@
       "meaning": "失業；失業者数",
       "exampleEn": "The unemployment rate dropped this year.",
       "exampleJa": "失業率は今年低下しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:union:noun",
       "headword": "union",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈjuːniən/",
-      "meaning": "労働組合；連合",
+      "phonetic": "/ˈjuːnjən/",
+      "meaning": "労働組合；連合；結合",
       "exampleEn": "The union asked for better working conditions.",
       "exampleJa": "労働組合はより良い労働条件を求めました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:vacancy:noun",
@@ -2807,17 +2807,17 @@
       "meaning": "欠員；空室",
       "exampleEn": "There is a vacancy in the sales team.",
       "exampleJa": "営業チームに欠員が1名あります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:vacation:noun",
       "headword": "vacation",
       "partOfSpeech": "noun",
       "phonetic": "/veɪˈkeɪʃn/",
-      "meaning": "休暇",
+      "meaning": "休暇；休み",
       "exampleEn": "I will take a summer vacation next week.",
       "exampleJa": "私は来週夏の休暇を取ります。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:wage:noun",
@@ -2827,7 +2827,7 @@
       "meaning": "賃金；時給",
       "exampleEn": "The minimum wage rose by fifty cents.",
       "exampleJa": "最低賃金が50セント上がりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:workforce:noun",
@@ -2837,7 +2837,7 @@
       "meaning": "全従業員；労働力",
       "exampleEn": "Half of our workforce works from home.",
       "exampleJa": "当社の全従業員の半数は在宅で働いています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:workplace:noun",
@@ -2847,7 +2847,7 @@
       "meaning": "職場",
       "exampleEn": "We keep our workplace clean and safe.",
       "exampleJa": "私たちは職場を清潔で安全に保っています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:workshop:noun",
@@ -2857,17 +2857,17 @@
       "meaning": "研修会；ワークショップ",
       "exampleEn": "I will attend a leadership workshop on Friday.",
       "exampleJa": "私は金曜日にリーダーシップ研修会に参加します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:account:noun",
       "headword": "account",
       "partOfSpeech": "noun",
       "phonetic": "/əˈkaʊnt/",
-      "meaning": "口座；勘定；顧客",
+      "meaning": "口座；説明；勘定",
       "exampleEn": "He opened a business account at the bank.",
       "exampleJa": "彼は銀行でビジネス口座を開設しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:accountant:noun",
@@ -2877,7 +2877,7 @@
       "meaning": "会計士；経理担当者",
       "exampleEn": "Our accountant checked the monthly reports.",
       "exampleJa": "当社の会計士が月次報告書を確認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:accounting:noun",
@@ -2897,34 +2897,34 @@
       "meaning": "割り当て；配分",
       "exampleEn": "The budget allocation for research has increased.",
       "exampleJa": "研究への予算配分が増えました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:asset:noun",
       "headword": "asset",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæset/",
-      "meaning": "資産；価値あるもの",
+      "meaning": "資産；強み",
       "exampleEn": "Real estate is a valuable company asset.",
       "exampleJa": "不動産は会社の価値ある資産です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:audit:noun",
       "headword": "audit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdɪt/",
-      "meaning": "会計監査；査察",
+      "meaning": "会計監査；監査",
       "exampleEn": "The annual audit begins next Monday.",
       "exampleJa": "年次監査は来週の月曜日に始まります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:balance:noun",
       "headword": "balance",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæləns/",
-      "meaning": "残高；バランス",
+      "meaning": "バランス；均衡；残高",
       "exampleEn": "You can check your balance online.",
       "exampleJa": "残高はオンラインで確認できます。",
       "level": 2
@@ -2934,27 +2934,27 @@
       "headword": "bankrupt",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbæŋkrʌpt/",
-      "meaning": "破産した",
+      "meaning": "破産した；倒産した",
       "exampleEn": "The small firm went bankrupt last spring.",
       "exampleJa": "その小さな会社は昨年の春に倒産しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:bankruptcy:noun",
       "headword": "bankruptcy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæŋkrʌptsi/",
-      "meaning": "倒産；破産",
+      "meaning": "破産；倒産",
       "exampleEn": "The airline filed for bankruptcy in May.",
       "exampleJa": "その航空会社は5月に破産を申請しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:bond:noun",
       "headword": "bond",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːnd/",
-      "meaning": "債券；絆",
+      "meaning": "絆；債券；結合",
       "exampleEn": "She bought government bonds for her savings.",
       "exampleJa": "彼女は貯蓄のために国債を買いました。",
       "level": 3
@@ -2967,7 +2967,7 @@
       "meaning": "簿記係；記帳係",
       "exampleEn": "The bookkeeper enters the invoices every day.",
       "exampleJa": "簿記係は毎日、請求書を入力しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:budget:noun",
@@ -2977,7 +2977,7 @@
       "meaning": "予算；経費",
       "exampleEn": "The manager approved the marketing budget.",
       "exampleJa": "部長はマーケティング予算を承認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:calculate:verb",
@@ -2987,14 +2987,14 @@
       "meaning": "を計算する；を算出する",
       "exampleEn": "Please calculate the total cost with tax.",
       "exampleJa": "税込みの総額を計算してください。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:capital:noun",
       "headword": "capital",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæpɪtl/",
-      "meaning": "資本；首都",
+      "meaning": "首都；資本；大文字",
       "exampleEn": "The startup needs capital to grow.",
       "exampleJa": "その新興企業は成長のための資本を必要としています。",
       "level": 2
@@ -3024,30 +3024,30 @@
       "headword": "credit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkredɪt/",
-      "meaning": "信用；クレジット；貸方",
+      "meaning": "信用；クレジット；履修単位",
       "exampleEn": "I applied for a new credit card.",
       "exampleJa": "私は新しいクレジットカードを申し込みました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:currency:noun",
       "headword": "currency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɜːrənsi/",
-      "meaning": "通貨；貨幣",
+      "meaning": "通貨；貨幣；流通",
       "exampleEn": "We exchanged our currency at the airport.",
       "exampleJa": "私たちは空港で通貨を両替しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:debt:noun",
       "headword": "debt",
       "partOfSpeech": "noun",
       "phonetic": "/det/",
-      "meaning": "負債；借金",
+      "meaning": "借金；負債",
       "exampleEn": "The company paid off its debt early.",
       "exampleJa": "会社は負債を早期に完済しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:deficit:noun",
@@ -3057,14 +3057,14 @@
       "meaning": "赤字；不足額",
       "exampleEn": "The trade deficit fell by five percent.",
       "exampleJa": "貿易赤字は5パーセント縮小しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:deposit:noun",
       "headword": "deposit",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈpɑːzɪt/",
-      "meaning": "預金；保証金",
+      "meaning": "預金；保証金；堆積物",
       "exampleEn": "She made a deposit into her savings account.",
       "exampleJa": "彼女は普通預金口座に入金しました。",
       "level": 3
@@ -3077,7 +3077,7 @@
       "meaning": "減価償却；価値下落",
       "exampleEn": "We record depreciation on all office equipment.",
       "exampleJa": "当社はすべての事務機器の減価償却を計上しています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:discount:noun",
@@ -3094,7 +3094,7 @@
       "headword": "dividend",
       "partOfSpeech": "noun",
       "phonetic": "/ˈdɪvɪdend/",
-      "meaning": "配当金",
+      "meaning": "配当金；配当",
       "exampleEn": "Shareholders received a dividend last quarter.",
       "exampleJa": "株主は前の四半期に配当金を受け取りました。",
       "level": 4
@@ -3117,14 +3117,14 @@
       "meaning": "見積もり；概算",
       "exampleEn": "We asked for an estimate of the repair cost.",
       "exampleJa": "私たちは修理費用の見積もりを依頼しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:expenditure:noun",
       "headword": "expenditure",
       "partOfSpeech": "noun",
       "phonetic": "/ɪkˈspendɪtʃər/",
-      "meaning": "支出；経費費消",
+      "meaning": "支出；経費",
       "exampleEn": "The company reduced its office expenditure last year.",
       "exampleJa": "会社は昨年オフィスの支出を削減しました。",
       "level": 4
@@ -3137,17 +3137,17 @@
       "meaning": "経費；費用",
       "exampleEn": "Travel expenses are covered by the company.",
       "exampleJa": "出張の費用は会社が負担します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:finance:noun",
       "headword": "finance",
       "partOfSpeech": "noun",
       "phonetic": "/ˈfaɪnæns/",
-      "meaning": "財務；金融",
+      "meaning": "財政；金融；財務",
       "exampleEn": "She studied corporate finance at university.",
       "exampleJa": "彼女は大学で企業財務を学びました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:financial:adjective",
@@ -3157,17 +3157,17 @@
       "meaning": "財務の；金融の",
       "exampleEn": "The firm published its financial statement.",
       "exampleJa": "その会社は財務諸表を公表しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:fiscal:adjective",
       "headword": "fiscal",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfɪskl/",
-      "meaning": "会計の；財政の",
+      "phonetic": "/ˈfɪskəl/",
+      "meaning": "財政の；会計の",
       "exampleEn": "Our fiscal year ends in March.",
       "exampleJa": "当社の会計年度は3月に終わります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:folder:noun",
@@ -3207,7 +3207,7 @@
       "meaning": "総額の；額面の",
       "exampleEn": "Our gross sales reached one million dollars.",
       "exampleJa": "当社の総売上高は100万ドルに達しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:guesthouse:noun",
@@ -3217,27 +3217,27 @@
       "meaning": "ゲストハウス；簡素な宿",
       "exampleEn": "They stayed at a small guesthouse near the sea.",
       "exampleJa": "彼らは海の近くの小さなゲストハウスに泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:income:noun",
       "headword": "income",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnkʌm/",
-      "meaning": "所得；収入",
+      "meaning": "収入；所得",
       "exampleEn": "His monthly income has increased slightly.",
       "exampleJa": "彼の月々の収入はわずかに増えました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:inflation:noun",
       "headword": "inflation",
       "partOfSpeech": "noun",
-      "phonetic": "/ɪnˈfleɪʃn/",
-      "meaning": "インフレ；物価高騰",
+      "phonetic": "/ɪnˈfleɪʃən/",
+      "meaning": "インフレ；物価上昇",
       "exampleEn": "Inflation has raised prices across the country.",
       "exampleJa": "インフレが国中で物価を押し上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:infomercial:noun",
@@ -3247,7 +3247,7 @@
       "meaning": "テレビ通販番組",
       "exampleEn": "The infomercial showed a new kitchen tool.",
       "exampleJa": "そのテレビ通販番組は新しい調理器具を紹介しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:installment:noun",
@@ -3257,7 +3257,7 @@
       "meaning": "分割払い金",
       "exampleEn": "I pay the loan in monthly installments.",
       "exampleJa": "私はそのローンを毎月の分割払いで返済しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:insurance:noun",
@@ -3267,7 +3267,7 @@
       "meaning": "保険",
       "exampleEn": "The office bought insurance for its equipment.",
       "exampleJa": "事務所は備品の保険に加入しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:interchange:noun",
@@ -3277,14 +3277,14 @@
       "meaning": "インターチェンジ",
       "exampleEn": "We left the highway at the next interchange.",
       "exampleJa": "私たちは次のインターチェンジで高速道路を降りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:interest:noun",
       "headword": "interest",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪntrəst/",
-      "meaning": "利息；金利；関心",
+      "meaning": "興味；関心；利息",
       "exampleEn": "The bank offers a low interest rate.",
       "exampleJa": "その銀行は低い金利を提供しています。",
       "level": 2
@@ -3297,17 +3297,17 @@
       "meaning": "を出資する；投資する",
       "exampleEn": "They invested in solar energy last year.",
       "exampleJa": "彼らは昨年、太陽光エネルギーに投資しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:investment:noun",
       "headword": "investment",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈvestmənt/",
-      "meaning": "投資；出資金",
+      "meaning": "投資；出資",
       "exampleEn": "This investment brings a high return.",
       "exampleJa": "この投資は高い収益をもたらします。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:investor:noun",
@@ -3317,7 +3317,7 @@
       "meaning": "投資家",
       "exampleEn": "An investor funded the new tech company.",
       "exampleJa": "ある投資家がその新しい技術会社に出資しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:invoice:noun",
@@ -3327,7 +3327,7 @@
       "meaning": "請求書；送状",
       "exampleEn": "We sent the invoice to the client yesterday.",
       "exampleJa": "私たちは昨日、顧客に請求書を送りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:ledger:noun",
@@ -3337,7 +3337,7 @@
       "meaning": "元帳；台帳",
       "exampleEn": "The clerk recorded daily sales in the ledger.",
       "exampleJa": "事務員は毎日の売上を元帳に記録しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:liability:noun",
@@ -3347,17 +3347,17 @@
       "meaning": "負債；法的責任",
       "exampleEn": "The firm reduced its total liabilities quickly.",
       "exampleJa": "その会社は負債の総額を速やかに減らしました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:loan:noun",
       "headword": "loan",
       "partOfSpeech": "noun",
       "phonetic": "/loʊn/",
-      "meaning": "融資；ローン",
+      "meaning": "ローン；融資；貸付金",
       "exampleEn": "He applied for a small business loan.",
       "exampleJa": "彼は中小企業向けの融資を申し込みました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:loss:noun",
@@ -3387,7 +3387,7 @@
       "meaning": "連絡覚書；メモリアル",
       "exampleEn": "The staff read the memorandum this morning.",
       "exampleJa": "社員は今朝、その連絡覚書を読みました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:monetary:adjective",
@@ -3397,17 +3397,17 @@
       "meaning": "貨幣の；金融上の",
       "exampleEn": "The central bank changed its monetary policy.",
       "exampleJa": "中央銀行は金融政策を変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:mortgage:noun",
       "headword": "mortgage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɔːrɡɪdʒ/",
-      "meaning": "住宅ローン；担保",
+      "meaning": "住宅ローン；抵当",
       "exampleEn": "They pay their mortgage every month.",
       "exampleJa": "彼らは毎月、住宅ローンを返済しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:net:adjective",
@@ -3417,7 +3417,7 @@
       "meaning": "正味の；純額の",
       "exampleEn": "Our net profit doubled this year.",
       "exampleJa": "当社の純利益は今年2倍になりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:owe:verb",
@@ -3427,7 +3427,7 @@
       "meaning": "借金がある；に負うている",
       "exampleEn": "The firm owes money to its supplier.",
       "exampleJa": "その会社は仕入先に借金があります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:payee:noun",
@@ -3437,7 +3437,7 @@
       "meaning": "受取人",
       "exampleEn": "The bank paid the money to the payee.",
       "exampleJa": "銀行はそのお金を受取人に支払いました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:payer:noun",
@@ -3464,10 +3464,10 @@
       "headword": "portfolio",
       "partOfSpeech": "noun",
       "phonetic": "/pɔːrtˈfoʊlioʊ/",
-      "meaning": "資産構成；ポートフォリオ",
+      "meaning": "作品集；資産構成",
       "exampleEn": "She manages a balanced investment portfolio.",
       "exampleJa": "彼女はバランスの取れた投資ポートフォリオを運用しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:premium:noun",
@@ -3477,7 +3477,7 @@
       "meaning": "保険料；割り増し金",
       "exampleEn": "I pay my insurance premium every month.",
       "exampleJa": "私は毎月、保険料を支払っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:profit:noun",
@@ -3487,7 +3487,7 @@
       "meaning": "利益；収益",
       "exampleEn": "The company earned a record profit this year.",
       "exampleJa": "会社は今年、過去最高の利益を上げました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:profitability:noun",
@@ -3497,7 +3497,7 @@
       "meaning": "収益性；採算性",
       "exampleEn": "The new plan improved the company's profitability.",
       "exampleJa": "新しい計画は会社の収益性を高めました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:profitable:adjective",
@@ -3507,17 +3507,17 @@
       "meaning": "利益の上がる；儲かる",
       "exampleEn": "The new store became profitable in six months.",
       "exampleJa": "その新しい店は半年で黒字になりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:receipt:noun",
       "headword": "receipt",
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈsiːt/",
-      "meaning": "領収書；受領",
+      "meaning": "領収書；レシート；受領",
       "exampleEn": "Please keep the receipt for your records.",
       "exampleJa": "記録のために領収書を保管してください。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:refund:noun",
@@ -3527,7 +3527,7 @@
       "meaning": "返金；払戻金",
       "exampleEn": "The customer asked for a full refund.",
       "exampleJa": "その客は全額の返金を求めました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:reimburse:verb",
@@ -3537,7 +3537,7 @@
       "meaning": "を払い戻す；を補償する",
       "exampleEn": "The company reimbursed my travel costs.",
       "exampleJa": "会社は私の出張の費用を払い戻しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:reimbursement:noun",
@@ -3547,7 +3547,7 @@
       "meaning": "払い戻し；精算",
       "exampleEn": "I submitted the form for reimbursement.",
       "exampleJa": "私は精算のために用紙を提出しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:remit:verb",
@@ -3557,7 +3557,7 @@
       "meaning": "を送金する；を免除する",
       "exampleEn": "The buyer remitted the money to our account.",
       "exampleJa": "買い手は当社の口座に代金を送金しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:remittance:noun",
@@ -3567,7 +3567,7 @@
       "meaning": "送金；送金額",
       "exampleEn": "The bank charges a fee for each remittance.",
       "exampleJa": "銀行は送金ごとに手数料を取ります。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:reserves:noun",
@@ -3597,7 +3597,7 @@
       "meaning": "歳入；総収益",
       "exampleEn": "Our annual revenue rose by ten percent.",
       "exampleJa": "当社の年間収益は10パーセント増えました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:solvency:noun",
@@ -3607,7 +3607,7 @@
       "meaning": "支払能力",
       "exampleEn": "The audit confirmed the firm's solvency.",
       "exampleJa": "監査はその会社の支払能力を確認しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:stock:noun",
@@ -3627,7 +3627,7 @@
       "meaning": "株主",
       "exampleEn": "Stockholders voted at the annual meeting.",
       "exampleJa": "株主たちは年次総会で投票しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:subsequent:adjective",
@@ -3637,7 +3637,7 @@
       "meaning": "その後の；続いて起こる",
       "exampleEn": "The subsequent report confirmed the first findings.",
       "exampleJa": "その後の報告書は最初の調査結果を裏付けました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:surplus:noun",
@@ -3647,7 +3647,7 @@
       "meaning": "黒字；余剰",
       "exampleEn": "The country reported a trade surplus again.",
       "exampleJa": "その国は再び貿易黒字を計上しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:tariff:noun",
@@ -3657,7 +3657,7 @@
       "meaning": "関税；料金表",
       "exampleEn": "The government raised the tariff on steel.",
       "exampleJa": "政府は鉄鋼にかかる関税を引き上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:tax:noun",
@@ -3677,7 +3677,7 @@
       "meaning": "課税；税制",
       "exampleEn": "The new law changed corporate taxation.",
       "exampleJa": "新しい法律が法人への課税を変えました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:teller:noun",
@@ -3687,17 +3687,17 @@
       "meaning": "銀行窓口係",
       "exampleEn": "The teller counted the money carefully.",
       "exampleJa": "銀行の窓口係はお金を丁寧に数えました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:transaction:noun",
       "headword": "transaction",
       "partOfSpeech": "noun",
-      "phonetic": "/trænˈzækʃn/",
-      "meaning": "取引；売買",
+      "phonetic": "/trænˈzækʃən/",
+      "meaning": "取引；売買；処理",
       "exampleEn": "The online transaction finished without trouble.",
       "exampleJa": "オンラインの取引は問題なく完了しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:treasurer:noun",
@@ -3717,7 +3717,7 @@
       "meaning": "財務省；金庫",
       "exampleEn": "The treasury published a new report today.",
       "exampleJa": "財務省は今日、新しい報告書を公表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:valuation:noun",
@@ -3727,7 +3727,7 @@
       "meaning": "評価額；査定",
       "exampleEn": "The valuation of the property rose sharply.",
       "exampleJa": "その物件の評価額は大きく上昇しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:with the exception of:phrase",
@@ -3747,7 +3747,7 @@
       "meaning": "を引き出す；を撤回する",
       "exampleEn": "She withdrew some cash at the ATM.",
       "exampleJa": "彼女はATMで現金を引き出しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:withdrawal:noun",
@@ -3757,27 +3757,27 @@
       "meaning": "引き出し；撤退",
       "exampleEn": "He made a withdrawal at the bank counter.",
       "exampleJa": "彼は銀行の窓口で預金を引き出しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:yield:noun",
       "headword": "yield",
       "partOfSpeech": "noun",
       "phonetic": "/jiːld/",
-      "meaning": "利回り；収穫量",
+      "meaning": "収穫量；利回り；産出量",
       "exampleEn": "This bond has a five percent yield.",
       "exampleJa": "この債券の利回りは5パーセントです。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:advertise:verb",
       "headword": "advertise",
       "partOfSpeech": "verb",
       "phonetic": "/ˈædvərtaɪz/",
-      "meaning": "を広告する；宣伝する",
+      "meaning": "を広告する；を宣伝する",
       "exampleEn": "The firm advertises its new product on television.",
       "exampleJa": "その企業は新製品をテレビで宣伝しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:advertisement:noun",
@@ -3787,7 +3787,7 @@
       "meaning": "広告；宣伝",
       "exampleEn": "I saw their advertisement in the local newspaper.",
       "exampleJa": "私は地元の新聞で彼らの広告を見ました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:advertising:noun",
@@ -3804,10 +3804,10 @@
       "headword": "agency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪdʒənsi/",
-      "meaning": "代理店；エージェンシー",
+      "meaning": "代理店；機関；官庁",
       "exampleEn": "We hired a creative advertising agency in Tokyo.",
       "exampleJa": "私たちは東京のクリエイティブな広告代理店を起用しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:attract:verb",
@@ -3817,17 +3817,17 @@
       "meaning": "を引きつける；を魅了する",
       "exampleEn": "The new design attracted many young customers.",
       "exampleJa": "新しいデザインが多くの若い客を引きつけました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:attraction:noun",
       "headword": "attraction",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtrækʃn/",
-      "meaning": "魅力；集客施設",
+      "meaning": "魅力；観光名所；呼び物",
       "exampleEn": "The castle is the main attraction of this town.",
       "exampleJa": "その城はこの町の主要な観光名所です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:attractive:adjective",
@@ -3837,17 +3837,17 @@
       "meaning": "魅力的な",
       "exampleEn": "The store offers attractive discounts every weekend.",
       "exampleJa": "その店は毎週末に魅力的な割引を実施しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:audience:noun",
       "headword": "audience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
-      "meaning": "聴衆；ターゲット層",
+      "meaning": "聴衆；観客；対象層",
       "exampleEn": "The target audience for this ad is young parents.",
       "exampleJa": "この広告のターゲット層は若い親たちです。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:binder:noun",
@@ -3867,14 +3867,14 @@
       "meaning": "簿記；記帳",
       "exampleEn": "She studies bookkeeping at a night school.",
       "exampleJa": "彼女は夜間の学校で簿記を学んでいます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:brand:noun",
       "headword": "brand",
       "partOfSpeech": "noun",
       "phonetic": "/brænd/",
-      "meaning": "ブランド；銘柄",
+      "meaning": "ブランド；銘柄；商標",
       "exampleEn": "This brand is very popular among students.",
       "exampleJa": "このブランドは学生の間でとても人気があります。",
       "level": 2
@@ -3894,7 +3894,7 @@
       "headword": "buyer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪər/",
-      "meaning": "買手；バイヤー",
+      "meaning": "買い手；購入者；バイヤー",
       "exampleEn": "A buyer from Paris visited our showroom.",
       "exampleJa": "パリのバイヤーが当社のショールームを訪れました。",
       "level": 2
@@ -3904,17 +3904,17 @@
       "headword": "campaign",
       "partOfSpeech": "noun",
       "phonetic": "/kæmˈpeɪn/",
-      "meaning": "キャンペーン；宣伝活動",
+      "meaning": "運動；キャンペーン；宣伝活動",
       "exampleEn": "The company launched a new advertising campaign.",
       "exampleJa": "会社は新しい広告キャンペーンを開始しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:catalog:noun",
       "headword": "catalog",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkætəlɔːɡ/",
-      "meaning": "商品カタログ；目録",
+      "meaning": "カタログ；目録",
       "exampleEn": "You can order the item from our catalog.",
       "exampleJa": "その品物は当社のカタログから注文できます。",
       "level": 2
@@ -3934,10 +3934,10 @@
       "headword": "client",
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪənt/",
-      "meaning": "顧客；クライアント",
+      "meaning": "顧客；依頼人",
       "exampleEn": "I had lunch with an important client today.",
       "exampleJa": "私は今日重要な顧客と昼食をとりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:clientele:noun",
@@ -3947,7 +3947,7 @@
       "meaning": "全顧客；常連客層",
       "exampleEn": "The hotel has a wealthy international clientele.",
       "exampleJa": "そのホテルには裕福な国際的顧客層がついています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:commercial:noun",
@@ -3957,57 +3957,57 @@
       "meaning": "コマーシャル；CM",
       "exampleEn": "That television commercial always makes me laugh.",
       "exampleJa": "あのテレビコマーシャルはいつも私を笑わせます。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:commission:noun",
       "headword": "commission",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɪʃn/",
-      "meaning": "歩合；手数料；委員会",
+      "meaning": "手数料；委員会；委任",
       "exampleEn": "Our sales staff earn a ten percent commission.",
       "exampleJa": "当社の営業スタッフは10パーセントの歩合を得ています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:compete:verb",
       "headword": "compete",
       "partOfSpeech": "verb",
       "phonetic": "/kəmˈpiːt/",
-      "meaning": "競い合う；競合する",
+      "meaning": "競争する；競い合う",
       "exampleEn": "Firms compete for global market share.",
       "exampleJa": "企業は世界市場のシェアを巡って競合しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:competition:noun",
       "headword": "competition",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːmpəˈtɪʃn/",
-      "meaning": "競争；競技会",
+      "meaning": "競争；競技会；コンテスト",
       "exampleEn": "Fierce market competition drove prices down.",
       "exampleJa": "激しい市場競争が価格を押し下げました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:competitive:adjective",
       "headword": "competitive",
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpetətɪv/",
-      "meaning": "競争力のある；格安の",
+      "meaning": "競争力のある；競争の激しい",
       "exampleEn": "Our prices are competitive in this region.",
       "exampleJa": "当社の価格はこの地域で競争力があります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:competitor:noun",
       "headword": "competitor",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpetɪtər/",
-      "meaning": "競合他社；ライバル企業",
+      "meaning": "競合他社；競争相手",
       "exampleEn": "Our main competitor lowered its prices last month.",
       "exampleJa": "主要な競合他社が先月価格を引き下げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:consumer:noun",
@@ -4017,14 +4017,14 @@
       "meaning": "消費者",
       "exampleEn": "Consumer demand for electric cars rose.",
       "exampleJa": "電気自動車に対する消費者需要が高まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:consumption:noun",
       "headword": "consumption",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈsʌmpʃn/",
-      "meaning": "消費；消費量",
+      "meaning": "消費；消費量；消費高",
       "exampleEn": "Oil consumption dropped significantly this year.",
       "exampleJa": "石油消費量が今年大幅に減少しました。",
       "level": 3
@@ -4044,7 +4044,7 @@
       "headword": "customer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmər/",
-      "meaning": "顧客；お客様",
+      "meaning": "顧客；客",
       "exampleEn": "Our customers value quick and friendly service.",
       "exampleJa": "お客様は迅速で親切なサービスを重視しています。",
       "level": 2
@@ -4067,7 +4067,7 @@
       "meaning": "販売業者；ディーラー",
       "exampleEn": "The car dealer offered us a free check.",
       "exampleJa": "自動車販売店が無料点検を申し出てくれました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:demand:noun",
@@ -4094,20 +4094,20 @@
       "headword": "demonstration",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdemənˈstreɪʃn/",
-      "meaning": "実演説明；デモ",
+      "meaning": "実演；証明；デモ",
       "exampleEn": "A staff member gave a cooking demonstration.",
       "exampleJa": "スタッフが料理の実演説明を行いました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:display:verb",
       "headword": "display",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspleɪ/",
-      "meaning": "を展示・陳列する",
+      "meaning": "を展示する；を表示する；を表に出す",
       "exampleEn": "They display new shoes in the front window.",
       "exampleJa": "彼らは正面のウィンドウに新しい靴を陳列しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:distribute:verb",
@@ -4117,7 +4117,7 @@
       "meaning": "を配送する；を配布する",
       "exampleEn": "We distributed free samples to every visitor.",
       "exampleJa": "私たちは来場者全員に無料のサンプルを配りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:distribution:noun",
@@ -4137,7 +4137,7 @@
       "meaning": "卸売業者；ディストリビューター",
       "exampleEn": "We signed a contract with a food distributor.",
       "exampleJa": "私たちは食品卸売業者と契約を結びました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:exhibit:verb",
@@ -4147,7 +4147,7 @@
       "meaning": "を出品・展示する",
       "exampleEn": "The company exhibited its new robot at the fair.",
       "exampleJa": "会社は展示会で新しいロボットを出品しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:exhibition:noun",
@@ -4157,7 +4157,7 @@
       "meaning": "展示会；展覧会",
       "exampleEn": "We will attend a trade exhibition next month.",
       "exampleJa": "私たちは来月見本市に参加します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:exhibitor:noun",
@@ -4167,17 +4167,17 @@
       "meaning": "出展者",
       "exampleEn": "Over two hundred exhibitors displayed goods.",
       "exampleJa": "200以上の出展者が商品を展示しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:expand:verb",
       "headword": "expand",
       "partOfSpeech": "verb",
       "phonetic": "/ɪkˈspænd/",
-      "meaning": "を拡大する；進出する",
+      "meaning": "を拡大する；広がる",
       "exampleEn": "The firm expanded its store chain quickly.",
       "exampleJa": "その企業は店舗チェーンを急速に拡大しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:expansion:noun",
@@ -4197,7 +4197,7 @@
       "meaning": "特徴；目玉商品",
       "exampleEn": "The best feature of this phone is its battery.",
       "exampleJa": "この携帯電話の一番の特徴はバッテリーです。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:feedback:noun",
@@ -4227,7 +4227,7 @@
       "meaning": "保証；保証書",
       "exampleEn": "The product comes with a two year guarantee.",
       "exampleJa": "その製品には2年間の保証が付いています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:hostel:noun",
@@ -4237,7 +4237,7 @@
       "meaning": "ユースホステル；安宿",
       "exampleEn": "We stayed at a youth hostel in Kyoto.",
       "exampleJa": "私たちは京都のユースホステルに泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:image:noun",
@@ -4247,7 +4247,7 @@
       "meaning": "イメージ；画像",
       "exampleEn": "The campaign improved the company image.",
       "exampleJa": "そのキャンペーンは会社のイメージを高めました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:in comparison with:phrase",
@@ -4267,7 +4267,7 @@
       "meaning": "発売；進出",
       "exampleEn": "The product launch is set for next Friday.",
       "exampleJa": "製品の発売は来週の金曜日に予定されています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:logo:noun",
@@ -4287,17 +4287,17 @@
       "meaning": "忠誠；顧客ロイヤリティ",
       "exampleEn": "Good service builds customer loyalty over time.",
       "exampleJa": "良いサービスは時間をかけて顧客のロイヤリティを高めます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:market:noun",
       "headword": "market",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɑːrkɪt/",
-      "meaning": "市場；市街",
+      "meaning": "市場",
       "exampleEn": "The company leads the smartphone market in Asia.",
       "exampleJa": "その会社はアジアのスマートフォン市場を牽引しています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:marketing:noun",
@@ -4317,7 +4317,7 @@
       "meaning": "商品；製品",
       "exampleEn": "The store displays seasonal merchandise near the entrance.",
       "exampleJa": "その店は入口の近くに季節商品を並べています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:merchandising:noun",
@@ -4327,7 +4327,7 @@
       "meaning": "商品化計画；マーチャンダイジング",
       "exampleEn": "Clever merchandising increased sales at the store.",
       "exampleJa": "巧みな商品化計画がその店の売上を伸ばしました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:merchant:noun",
@@ -4344,7 +4344,7 @@
       "headword": "monopoly",
       "partOfSpeech": "noun",
       "phonetic": "/məˈnɑːpəli/",
-      "meaning": "独占；専売",
+      "meaning": "独占；専売；独占権",
       "exampleEn": "The firm holds a monopoly on water supply.",
       "exampleJa": "その企業は水道の供給を独占しています。",
       "level": 4
@@ -4357,7 +4357,7 @@
       "meaning": "直営店舗；アウトレット",
       "exampleEn": "A new outlet opened in the shopping mall.",
       "exampleJa": "ショッピングモールに新しい直営店がオープンしました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:packaging:noun",
@@ -4397,7 +4397,7 @@
       "meaning": "配置；広告掲載",
       "exampleEn": "Product placement in the movie boosted sales.",
       "exampleJa": "映画の中への商品の配置が売上を押し上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:positioning:noun",
@@ -4414,17 +4414,17 @@
       "headword": "potential",
       "partOfSpeech": "adjective",
       "phonetic": "/pəˈtenʃl/",
-      "meaning": "見込みのある；潜在的な",
+      "meaning": "潜在的な；可能性のある；見込みのある",
       "exampleEn": "We called several potential clients this week.",
       "exampleJa": "私たちは今週いくつかの見込み客に電話しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:preference:noun",
       "headword": "preference",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprefrəns/",
-      "meaning": "好み；偏好",
+      "meaning": "好み；優先",
       "exampleEn": "The survey showed a clear preference for blue.",
       "exampleJa": "調査では青色への明確な好みが示されました。",
       "level": 3
@@ -4447,17 +4447,17 @@
       "meaning": "販促の；宣伝の",
       "exampleEn": "We gave away promotional pens at the fair.",
       "exampleJa": "私たちは展示会で販促用のペンを配りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:prospect:noun",
       "headword": "prospect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːspekt/",
-      "meaning": "見込み顧客；展望",
+      "meaning": "見通し；展望；見込み客",
       "exampleEn": "The sales rep called a promising prospect.",
       "exampleJa": "営業担当者が有望な見込み顧客に電話しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:purchase:verb",
@@ -4467,7 +4467,7 @@
       "meaning": "を購入する",
       "exampleEn": "She purchased the software license online.",
       "exampleJa": "彼女はソフトウェアのライセンスをオンラインで購入しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:purchaser:noun",
@@ -4484,7 +4484,7 @@
       "headword": "relationship",
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈleɪʃnʃɪp/",
-      "meaning": "関係；顧客関係",
+      "meaning": "関係；間柄",
       "exampleEn": "We value a long relationship with each client.",
       "exampleJa": "私たちは顧客一人ひとりとの長い関係を大切にしています。",
       "level": 2
@@ -4494,17 +4494,17 @@
       "headword": "release",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈliːs/",
-      "meaning": "を新発売する；を公開する",
+      "meaning": "を発売する；を公開する；を解放する",
       "exampleEn": "The publisher released a new edition in May.",
       "exampleJa": "出版社は5月に新しい版を発売しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:research:noun",
       "headword": "research",
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːsɜːrtʃ/",
-      "meaning": "調査；研究",
+      "meaning": "研究；調査",
       "exampleEn": "We did careful market research before the launch.",
       "exampleJa": "私たちは発売前に入念な市場調査を行いました。",
       "level": 2
@@ -4567,7 +4567,7 @@
       "meaning": "満足度；満足",
       "exampleEn": "Customer satisfaction is our highest priority.",
       "exampleJa": "顧客満足度が当社の最優先事項です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:satisfied:adjective",
@@ -4607,7 +4607,7 @@
       "meaning": "を後援する；スポンサーになる",
       "exampleEn": "The company sponsors a local baseball team.",
       "exampleJa": "その会社は地元の野球チームを後援しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:sponsorship:noun",
@@ -4617,7 +4617,7 @@
       "meaning": "後援；スポンサー契約",
       "exampleEn": "They signed a three year sponsorship deal.",
       "exampleJa": "彼らは3年間のスポンサー契約を結びました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:stevedore:noun",
@@ -4627,7 +4627,7 @@
       "meaning": "港湾労働者；沖仲仕",
       "exampleEn": "The stevedores unloaded the cargo before noon.",
       "exampleJa": "港湾労働者たちは正午前に貨物を降ろしました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:strategy:noun",
@@ -4637,7 +4637,7 @@
       "meaning": "戦略；方針",
       "exampleEn": "Our new strategy focuses on online sales.",
       "exampleJa": "当社の新しい戦略はオンライン販売に重点を置いています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:sustainable:adjective",
@@ -4667,7 +4667,7 @@
       "meaning": "好み；味覚",
       "exampleEn": "The design matches the taste of young buyers.",
       "exampleJa": "そのデザインは若い購買層の好みに合っています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:vendor:noun",
@@ -4677,7 +4677,7 @@
       "meaning": "業者；販売会社",
       "exampleEn": "We ordered the parts from a local vendor.",
       "exampleJa": "私たちは地元の販売業者に部品を発注しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:wholesale:noun",
@@ -4687,7 +4687,7 @@
       "meaning": "卸売り",
       "exampleEn": "The shop buys its goods at wholesale prices.",
       "exampleJa": "その店は商品を卸売価格で仕入れています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:arrival:noun",
@@ -4704,7 +4704,7 @@
       "headword": "arrive",
       "partOfSpeech": "verb",
       "phonetic": "/əˈraɪv/",
-      "meaning": "到着する",
+      "meaning": "到着する；届く",
       "exampleEn": "The containers arrived at the port yesterday.",
       "exampleJa": "コンテナは昨日港に到着しました。",
       "level": 2
@@ -4717,7 +4717,7 @@
       "meaning": "会計監査官；監査役",
       "exampleEn": "The auditor reviewed our accounts last month.",
       "exampleJa": "会計監査官は先月当社の会計を調べました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:bar code:phrase",
@@ -4737,7 +4737,7 @@
       "meaning": "箱；ケース",
       "exampleEn": "She put the samples in a small box.",
       "exampleJa": "彼女は見本を小さな箱に入れました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:cardboard:noun",
@@ -4747,7 +4747,7 @@
       "meaning": "段ボール；ボール紙",
       "exampleEn": "We ship our books in cardboard boxes.",
       "exampleJa": "当社は本を段ボール箱に入れて発送します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:cargo:noun",
@@ -4764,7 +4764,7 @@
       "headword": "carrier",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæriər/",
-      "meaning": "運送会社；搬送体",
+      "meaning": "運送業者；運送会社；保菌者",
       "exampleEn": "Our company uses a national carrier for deliveries.",
       "exampleJa": "当社は配送に全国規模の運送会社を使っています。",
       "level": 3
@@ -4777,7 +4777,7 @@
       "meaning": "受取人；荷受人",
       "exampleEn": "The driver asked the consignee to sign here.",
       "exampleJa": "運転手は荷受人にここへ署名するよう頼みました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:consignment:noun",
@@ -4787,14 +4787,14 @@
       "meaning": "託送品；委託販売",
       "exampleEn": "The consignment left our factory last week.",
       "exampleJa": "その託送品は先週工場を出ました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:container:noun",
       "headword": "container",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈteɪnər/",
-      "meaning": "コンテナ；容器",
+      "meaning": "容器；コンテナ",
       "exampleEn": "A crane lifted the container onto the ship.",
       "exampleJa": "クレーンがコンテナを船に積み上げました。",
       "level": 2
@@ -4807,7 +4807,7 @@
       "meaning": "コンベア；運搬装置",
       "exampleEn": "Bags move along the conveyor to the exit.",
       "exampleJa": "かばんはコンベアに乗って出口まで運ばれます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:courier:noun",
@@ -4817,7 +4817,7 @@
       "meaning": "宅配業者；急送便",
       "exampleEn": "A courier will pick up the documents today.",
       "exampleJa": "宅配業者が今日書類を集荷します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:crate:noun",
@@ -4827,14 +4827,14 @@
       "meaning": "木箱；クレート",
       "exampleEn": "The machine came in a wooden crate.",
       "exampleJa": "その機械は木箱に入って届きました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:customs:noun",
       "headword": "customs",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmz/",
-      "meaning": "税関；関税手続き",
+      "meaning": "税関；関税",
       "exampleEn": "The package cleared customs on Tuesday morning.",
       "exampleJa": "その荷物は火曜日の朝に税関を通りました。",
       "level": 3
@@ -4874,7 +4874,7 @@
       "headword": "deliver",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈlɪvər/",
-      "meaning": "を配達・配送する",
+      "meaning": "を配達する；を届ける；を述べる",
       "exampleEn": "The driver delivers packages every weekday morning.",
       "exampleJa": "その運転手は平日の毎朝荷物を配達します。",
       "level": 2
@@ -4897,7 +4897,7 @@
       "meaning": "超過滞船料；延着料",
       "exampleEn": "The company paid demurrage for the late unloading.",
       "exampleJa": "会社は荷下ろしの遅れに対して超過滞船料を支払いました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:departure:noun",
@@ -4914,20 +4914,20 @@
       "headword": "destination",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdestɪˈneɪʃn/",
-      "meaning": "目的地；配送先",
+      "meaning": "目的地；行き先；配送先",
       "exampleEn": "The parcel reached its destination two days early.",
       "exampleJa": "小包は2日早く配送先に着きました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:dispatch:verb",
       "headword": "dispatch",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspætʃ/",
-      "meaning": "を発送する；を急派する",
+      "meaning": "を発送する；を派遣する",
       "exampleEn": "We dispatch all orders within one business day.",
       "exampleJa": "当社はすべての注文を1営業日以内に発送します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:dock:noun",
@@ -4937,7 +4937,7 @@
       "meaning": "船渠；ドック；波止場",
       "exampleEn": "Trucks were waiting at the loading dock.",
       "exampleJa": "トラックが荷積み用のドックで待っていました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:duty-free:adjective",
@@ -4957,7 +4957,7 @@
       "meaning": "乗船する；着手する",
       "exampleEn": "The passengers embarked at nine in the morning.",
       "exampleJa": "乗客たちは朝9時に乗船しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:envelope:noun",
@@ -5007,7 +5007,7 @@
       "meaning": "全車両；船団",
       "exampleEn": "Our fleet of delivery vans grew last year.",
       "exampleJa": "当社の配送バンの車両数は昨年増えました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:forklift:noun",
@@ -5017,17 +5017,17 @@
       "meaning": "フォークリフト",
       "exampleEn": "A forklift moved the boxes to the shelf.",
       "exampleJa": "フォークリフトが箱を棚まで運びました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:fragile:adjective",
       "headword": "fragile",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfrædʒl/",
-      "meaning": "壊れやすい",
+      "phonetic": "/ˈfrædʒəl/",
+      "meaning": "壊れやすい；虚弱な",
       "exampleEn": "The label says the contents are fragile.",
       "exampleJa": "ラベルには中身が壊れやすいと書いてあります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:freight:noun",
@@ -5037,7 +5037,7 @@
       "meaning": "貨物輸送；貨物運賃",
       "exampleEn": "Freight costs have risen sharply this year.",
       "exampleJa": "貨物輸送の費用は今年大きく上がりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:freighter:noun",
@@ -5047,7 +5047,7 @@
       "meaning": "貨物船；貨物機",
       "exampleEn": "The freighter sails to Singapore twice a month.",
       "exampleJa": "その貨物船は月に2回シンガポールへ向かいます。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:fulfillment:noun",
@@ -5067,7 +5067,7 @@
       "meaning": "を運搬する；を引きずる",
       "exampleEn": "The truck hauled heavy steel to the site.",
       "exampleJa": "そのトラックは重い鋼材を現場まで運びました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:import:verb",
@@ -5107,7 +5107,7 @@
       "meaning": "在庫；棚卸し",
       "exampleEn": "The store keeps a large inventory of parts.",
       "exampleJa": "その店は部品の在庫を大量に持っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:label:noun",
@@ -5147,7 +5147,7 @@
       "meaning": "物流；ロジスティクス",
       "exampleEn": "Our logistics team plans every delivery route.",
       "exampleJa": "当社の物流チームがすべての配送経路を計画しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:manifest:noun",
@@ -5157,7 +5157,7 @@
       "meaning": "積荷目録；マニフェスト",
       "exampleEn": "The officer checked the cargo manifest carefully.",
       "exampleJa": "係官は積荷目録を注意深く確認しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:mark:verb",
@@ -5194,17 +5194,17 @@
       "headword": "order",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːrdər/",
-      "meaning": "注文；順序",
+      "meaning": "注文；順序；命令",
       "exampleEn": "The customer canceled the order this morning.",
       "exampleJa": "その客は今朝注文を取り消しました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:pack:verb",
       "headword": "pack",
       "partOfSpeech": "verb",
       "phonetic": "/pæk/",
-      "meaning": "を梱包する；を詰める",
+      "meaning": "を詰める；を梱包する；荷造りする",
       "exampleEn": "He packed the glasses in soft paper.",
       "exampleJa": "彼はグラスを柔らかい紙で梱包しました。",
       "level": 2
@@ -5247,7 +5247,7 @@
       "meaning": "パレット；荷物台",
       "exampleEn": "The boxes were stacked on a wooden pallet.",
       "exampleJa": "箱は木製のパレットの上に積まれていました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:parcel:noun",
@@ -5307,7 +5307,7 @@
       "meaning": "受取人たち",
       "exampleEn": "The recipients must sign for these documents.",
       "exampleJa": "受取人はこれらの書類に署名しなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:route:noun",
@@ -5327,7 +5327,7 @@
       "meaning": "を密閉する；を封印する",
       "exampleEn": "She sealed the box with strong tape.",
       "exampleJa": "彼女は丈夫なテープで箱を密閉しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:ship:verb",
@@ -5357,7 +5357,7 @@
       "meaning": "荷主；荷送り人",
       "exampleEn": "The shipper covered the cost of insurance.",
       "exampleJa": "荷主が保険の費用を負担しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:shipping:noun",
@@ -5377,7 +5377,7 @@
       "meaning": "を目玉として展示・紹介する",
       "exampleEn": "The fair showcased our newest office printer.",
       "exampleJa": "展示会は当社の最新の事務用プリンターを目玉として紹介しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:shredder:noun",
@@ -5387,7 +5387,7 @@
       "meaning": "シュレッダー；裁断機",
       "exampleEn": "The office bought a new paper shredder.",
       "exampleJa": "事務所は新しいシュレッダーを購入しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:sightseer:noun",
@@ -5397,7 +5397,7 @@
       "meaning": "観光客；見学者",
       "exampleEn": "Many sightseers took photos of the old castle.",
       "exampleJa": "多くの観光客が古い城の写真を撮りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:sort:verb",
@@ -5427,7 +5427,7 @@
       "meaning": "を積み重ねる",
       "exampleEn": "He stacked the empty boxes near the wall.",
       "exampleJa": "彼は空の箱を壁の近くに積み重ねました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:storage:noun",
@@ -5437,7 +5437,7 @@
       "meaning": "保管；貯蔵庫",
       "exampleEn": "We rent extra storage during the busy season.",
       "exampleJa": "当社は繁忙期に追加の保管場所を借りています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:storehouse:noun",
@@ -5467,7 +5467,7 @@
       "meaning": "タンカー；油槽船",
       "exampleEn": "The tanker unloaded oil at the port.",
       "exampleJa": "タンカーが港で石油を荷下ろししました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:tarp:noun",
@@ -5477,7 +5477,7 @@
       "meaning": "防水シート；タープ",
       "exampleEn": "The workers covered the load with a tarp.",
       "exampleJa": "作業員たちは積み荷を防水シートで覆いました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:tentative:adjective",
@@ -5487,7 +5487,7 @@
       "meaning": "仮の；試験的な",
       "exampleEn": "We set a tentative date for the meeting.",
       "exampleJa": "私たちは会議の仮の日程を決めました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:toll:noun",
@@ -5497,7 +5497,7 @@
       "meaning": "通行料；有料道路代",
       "exampleEn": "We paid a toll on the highway.",
       "exampleJa": "私たちは高速道路で通行料を支払いました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:trace:verb",
@@ -5557,7 +5557,7 @@
       "meaning": "輸送；通過；乗り継ぎ",
       "exampleEn": "The goods were damaged in transit.",
       "exampleJa": "商品は輸送中に傷つきました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:transport:verb",
@@ -5573,8 +5573,8 @@
       "presetId": "toeic_basic_v1:transportation:noun",
       "headword": "transportation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌtrænspərˈteɪʃn/",
-      "meaning": "輸送機関；交通手段",
+      "phonetic": "/ˌtrænspərˈteɪʃən/",
+      "meaning": "交通機関；輸送；交通手段",
       "exampleEn": "The company pays for our transportation to work.",
       "exampleJa": "会社は私たちの通勤の交通費を払っています。",
       "level": 2
@@ -5587,7 +5587,7 @@
       "meaning": "積替え",
       "exampleEn": "The port handles transshipment of Asian cargo.",
       "exampleJa": "その港はアジア向け貨物の積替えを扱っています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:unload:verb",
@@ -5614,7 +5614,7 @@
       "headword": "weight",
       "partOfSpeech": "noun",
       "phonetic": "/weɪt/",
-      "meaning": "重量；重さ",
+      "meaning": "重さ；体重；重量",
       "exampleEn": "The clerk checked the weight of the parcel.",
       "exampleJa": "係員は小包の重さを確認しました。",
       "level": 2
@@ -5627,14 +5627,14 @@
       "meaning": "アルゴリズム；計算手順",
       "exampleEn": "The search engine uses a new algorithm.",
       "exampleJa": "その検索エンジンは新しいアルゴリズムを使っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:assembly:noun",
       "headword": "assembly",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsembli/",
-      "meaning": "組み立て；集会",
+      "meaning": "集会；組み立て",
       "exampleEn": "The assembly line runs from morning until night.",
       "exampleJa": "組み立てラインは朝から夜まで稼働しています。",
       "level": 3
@@ -5647,7 +5647,7 @@
       "meaning": "を自動化する",
       "exampleEn": "The factory automated most of its packing work.",
       "exampleJa": "その工場は梱包作業の大半を自動化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:automated:adjective",
@@ -5667,7 +5667,7 @@
       "meaning": "自動化；オートメーション",
       "exampleEn": "Automation has cut our production costs a lot.",
       "exampleJa": "自動化によって生産コストが大きく下がりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:backup:noun",
@@ -5687,7 +5687,7 @@
       "meaning": "設計図；青写真",
       "exampleEn": "The engineer showed us the blueprint for the plant.",
       "exampleJa": "技術者は工場の設計図を私たちに見せました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:calibrate:verb",
@@ -5697,7 +5697,7 @@
       "meaning": "を校正・調整する",
       "exampleEn": "The technician calibrates each machine once a month.",
       "exampleJa": "技術者は月に一度それぞれの機械を調整します。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:calibration:noun",
@@ -5707,14 +5707,14 @@
       "meaning": "校正；調整",
       "exampleEn": "The scale needs calibration before every test.",
       "exampleJa": "そのはかりは検査のたびに校正が必要です。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:capacity:noun",
       "headword": "capacity",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈpæsəti/",
-      "meaning": "生産能力；収容力",
+      "meaning": "収容能力；容量；能力",
       "exampleEn": "Our plant is now running at full capacity.",
       "exampleJa": "当社の工場は今フル稼働しています。",
       "level": 3
@@ -5724,10 +5724,10 @@
       "headword": "component",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpoʊnənt/",
-      "meaning": "構成部品；成分",
+      "meaning": "構成部品；成分；構成要素",
       "exampleEn": "This machine has more than five hundred components.",
       "exampleJa": "この機械には500を超える部品が使われています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:computer:noun",
@@ -5737,7 +5737,7 @@
       "meaning": "コンピューター",
       "exampleEn": "I saved the report on my computer.",
       "exampleJa": "私はその報告書をコンピューターに保存しました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:craftsmanship:noun",
@@ -5757,7 +5757,7 @@
       "meaning": "データベース",
       "exampleEn": "We keep all customer records in a database.",
       "exampleJa": "私たちは顧客の記録をすべてデータベースで管理しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:day-trip:noun",
@@ -5787,7 +5787,7 @@
       "meaning": "欠陥；不具合",
       "exampleEn": "The inspector found a small defect in the product.",
       "exampleJa": "検査官は製品に小さな欠陥を見つけました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:defective:adjective",
@@ -5797,7 +5797,7 @@
       "meaning": "欠陥のある；不良の",
       "exampleEn": "We will replace any defective parts for free.",
       "exampleJa": "不良品の部品は無料で交換します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:developer:noun",
@@ -5837,7 +5837,7 @@
       "meaning": "稼働停止時間；ダウンタイム",
       "exampleEn": "The repair caused two hours of downtime.",
       "exampleJa": "その修理で2時間の稼働停止が生じました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:durability:noun",
@@ -5847,7 +5847,7 @@
       "meaning": "耐久性；耐久力",
       "exampleEn": "Customers praise the durability of these boots.",
       "exampleJa": "顧客はこのブーツの耐久性を高く評価しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:durable:adjective",
@@ -5857,7 +5857,7 @@
       "meaning": "耐久性のある；丈夫な",
       "exampleEn": "This bag is light but very durable.",
       "exampleJa": "このかばんは軽いのにとても丈夫です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:endorse:verb",
@@ -5867,14 +5867,14 @@
       "meaning": "を推薦・宣伝する；裏書する",
       "exampleEn": "A famous athlete endorsed the new sports shoes.",
       "exampleJa": "有名な選手がその新しいスポーツシューズを宣伝しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:engineer:noun",
       "headword": "engineer",
       "partOfSpeech": "noun",
       "phonetic": "/ˌendʒɪˈnɪr/",
-      "meaning": "技術者；エンジニア",
+      "meaning": "技師；技術者；エンジニア",
       "exampleEn": "The engineer checked the machine this morning.",
       "exampleJa": "技術者は今朝その機械を点検しました。",
       "level": 2
@@ -5894,10 +5894,10 @@
       "headword": "fabricate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈfæbrɪkeɪt/",
-      "meaning": "を製造する；を組み立てる",
+      "meaning": "を製造する；をでっち上げる",
       "exampleEn": "The plant fabricates steel parts for bridges.",
       "exampleJa": "その工場は橋に使う鋼材を製造しています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:fabrication:noun",
@@ -5907,17 +5907,17 @@
       "meaning": "製造；加工",
       "exampleEn": "The fabrication of these parts takes three days.",
       "exampleJa": "これらの部品の製造には3日かかります。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:factory:noun",
       "headword": "factory",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈfæktri/",
+      "phonetic": "/ˈfæktəri/",
       "meaning": "工場",
       "exampleEn": "The factory makes two hundred cars a day.",
       "exampleJa": "その工場は1日に200台の車を作っています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:flaw:noun",
@@ -5927,7 +5927,7 @@
       "meaning": "欠陥；傷",
       "exampleEn": "The engineer found a flaw in the design.",
       "exampleJa": "技術者は設計上の欠陥を見つけました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:flawless:adjective",
@@ -5937,17 +5937,17 @@
       "meaning": "傷のない；完璧な",
       "exampleEn": "The final test result was flawless.",
       "exampleJa": "最終検査の結果は完璧でした。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:generate:verb",
       "headword": "generate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈdʒenəreɪt/",
-      "meaning": "を発生させる；を生み出す",
+      "meaning": "を生み出す；を発生させる",
       "exampleEn": "Solar panels generate clean electrical energy.",
       "exampleJa": "太陽光パネルはクリーンな電気を生み出します。",
-      "level": 2
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:hardware:noun",
@@ -5967,13 +5967,13 @@
       "meaning": "ヘッドハンター；人材スカウト",
       "exampleEn": "A headhunter called her about a new job.",
       "exampleJa": "ヘッドハンターが新しい仕事の件で彼女に電話をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:innovation:noun",
       "headword": "innovation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "phonetic": "/ˌɪnəˈveɪʃən/",
       "meaning": "革新；イノベーション",
       "exampleEn": "Innovation is the key to our future growth.",
       "exampleJa": "革新が当社の将来の成長の鍵です。",
@@ -5997,7 +5997,7 @@
       "meaning": "検査官；点検員",
       "exampleEn": "A safety inspector will visit the plant tomorrow.",
       "exampleJa": "明日、安全検査官が工場を訪れます。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:install:verb",
@@ -6024,7 +6024,7 @@
       "headword": "instrument",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnstrəmənt/",
-      "meaning": "器具；測定器；楽器",
+      "meaning": "楽器；器具；測定器",
       "exampleEn": "This instrument measures very small changes in heat.",
       "exampleJa": "この器具はごくわずかな熱の変化を測定します。",
       "level": 2
@@ -6043,7 +6043,7 @@
       "presetId": "toeic_basic_v1:invention:noun",
       "headword": "invention",
       "partOfSpeech": "noun",
-      "phonetic": "/ɪnˈvenʃn/",
+      "phonetic": "/ɪnˈvenʃən/",
       "meaning": "発明；発明品",
       "exampleEn": "His invention changed the way we work.",
       "exampleJa": "彼の発明は私たちの働き方を変えました。",
@@ -6084,10 +6084,10 @@
       "headword": "maintain",
       "partOfSpeech": "verb",
       "phonetic": "/meɪnˈteɪn/",
-      "meaning": "を維持・保守する",
+      "meaning": "を維持する；を保守する；と主張する",
       "exampleEn": "Our staff maintain the machines every weekend.",
       "exampleJa": "当社のスタッフは毎週末に機械を保守しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:malfunction:noun",
@@ -6097,7 +6097,7 @@
       "meaning": "誤作動；故障",
       "exampleEn": "A malfunction in the system delayed the shipment.",
       "exampleJa": "システムの故障で出荷が遅れました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:manufacture:verb",
@@ -6157,7 +6157,7 @@
       "meaning": "マイクロチップ；集積回路",
       "exampleEn": "A tiny microchip controls the whole machine.",
       "exampleJa": "小さなマイクロチップが機械全体を制御しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:model:noun",
@@ -6167,7 +6167,7 @@
       "meaning": "型；モデル",
       "exampleEn": "The latest model sells better than the old one.",
       "exampleJa": "最新のモデルは旧型よりよく売れています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:network:noun",
@@ -6187,7 +6187,7 @@
       "meaning": "操作員；オペレーター",
       "exampleEn": "The machine operator watched the control screen.",
       "exampleJa": "機械の操作員は制御画面を見守っていました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:optimize:verb",
@@ -6197,7 +6197,7 @@
       "meaning": "を最適化する",
       "exampleEn": "We optimized the delivery route to save time.",
       "exampleJa": "私たちは時間を節約するために配送経路を最適化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:outage:noun",
@@ -6207,7 +6207,7 @@
       "meaning": "停電；停止",
       "exampleEn": "A power outage stopped the production line.",
       "exampleJa": "停電で生産ラインが止まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:output:noun",
@@ -6227,7 +6227,7 @@
       "meaning": "を分解修理・全面見直しする",
       "exampleEn": "The team overhauled the old engine last month.",
       "exampleJa": "チームは先月、その古いエンジンを分解修理しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:patent:noun",
@@ -6237,17 +6237,17 @@
       "meaning": "特許；特許権",
       "exampleEn": "The company holds a patent on this design.",
       "exampleJa": "その会社はこの設計の特許を持っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:plant:noun",
       "headword": "plant",
       "partOfSpeech": "noun",
       "phonetic": "/plænt/",
-      "meaning": "工場；プラント；植物",
+      "meaning": "植物；工場",
       "exampleEn": "The plant employs about a thousand workers.",
       "exampleJa": "その工場は約1,000人の従業員を雇っています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:processing:noun",
@@ -6257,14 +6257,14 @@
       "meaning": "加工；データ処理",
       "exampleEn": "Order processing takes about three days.",
       "exampleJa": "注文の処理には3日ほどかかります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:produce:verb",
       "headword": "produce",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈduːs/",
-      "meaning": "を生産・製造する",
+      "meaning": "を生産する；を製造する；を生み出す",
       "exampleEn": "This factory produces batteries for electric cars.",
       "exampleJa": "この工場は電気自動車用のバッテリーを生産しています。",
       "level": 2
@@ -6274,10 +6274,10 @@
       "headword": "production",
       "partOfSpeech": "noun",
       "phonetic": "/prəˈdʌkʃn/",
-      "meaning": "生産；製造高",
+      "meaning": "生産；製造；制作",
       "exampleEn": "Production stopped because of a machine failure.",
       "exampleJa": "機械の故障のために生産が止まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:prototype:noun",
@@ -6287,14 +6287,14 @@
       "meaning": "試作品；プロトタイプ",
       "exampleEn": "The team built a prototype of the new robot.",
       "exampleJa": "チームは新しいロボットの試作品を作りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:quality:noun",
       "headword": "quality",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkwɑːləti/",
-      "meaning": "品質；質",
+      "meaning": "品質；質；特性",
       "exampleEn": "Our customers expect high quality at a fair price.",
       "exampleJa": "顧客は手ごろな価格で高い品質を求めています。",
       "level": 2
@@ -6314,10 +6314,10 @@
       "headword": "refine",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈfaɪn/",
-      "meaning": "を精製する；を洗練させる",
+      "meaning": "を洗練させる；を精製する",
       "exampleEn": "We refined the design after the first test.",
       "exampleJa": "最初の試験の後、私たちは設計を練り直しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:refinery:noun",
@@ -6327,7 +6327,7 @@
       "meaning": "精製所；精油所",
       "exampleEn": "The oil refinery stands near the harbor.",
       "exampleJa": "その石油精製所は港の近くにあります。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:reliability:noun",
@@ -6344,17 +6344,17 @@
       "headword": "reliable",
       "partOfSpeech": "adjective",
       "phonetic": "/rɪˈlaɪəbl/",
-      "meaning": "信頼できる",
+      "meaning": "信頼できる；頼りになる",
       "exampleEn": "Japanese cars are famous for being reliable.",
       "exampleJa": "日本車は信頼できることで有名です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:repair:verb",
       "headword": "repair",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈper/",
-      "meaning": "を修理・修繕する",
+      "meaning": "を修理する；を修繕する",
       "exampleEn": "A worker repaired the broken belt in an hour.",
       "exampleJa": "作業員は壊れたベルトを1時間で修理しました。",
       "level": 2
@@ -6367,7 +6367,7 @@
       "meaning": "ロボット工学",
       "exampleEn": "The company is a leader in robotics.",
       "exampleJa": "その会社はロボット工学の分野で先を行っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:semiconductor:noun",
@@ -6417,7 +6417,7 @@
       "meaning": "仕様書；明細",
       "exampleEn": "The new machine meets all our specifications.",
       "exampleJa": "新しい機械は当社のすべての仕様を満たしています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:standard:noun",
@@ -6437,14 +6437,14 @@
       "meaning": "を標準化・規格化する",
       "exampleEn": "The company standardized its testing methods.",
       "exampleJa": "その会社は検査の方法を標準化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:technology:noun",
       "headword": "technology",
       "partOfSpeech": "noun",
       "phonetic": "/tekˈnɑːlədʒi/",
-      "meaning": "技術；テクノロジー",
+      "meaning": "科学技術；技術",
       "exampleEn": "Modern technology has improved energy efficiency.",
       "exampleJa": "現代の技術はエネルギー効率を高めました。",
       "level": 2
@@ -6457,7 +6457,7 @@
       "meaning": "トナー；印刷インク",
       "exampleEn": "The printer is out of toner again.",
       "exampleJa": "プリンターのトナーがまた切れています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:troubleshoot:verb",
@@ -6467,7 +6467,7 @@
       "meaning": "の問題を解決する；トラブルシューティングする",
       "exampleEn": "Our staff troubleshoot printer problems every day.",
       "exampleJa": "当社のスタッフは毎日プリンターの不具合に対処しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:under the supervision of:phrase",
@@ -6487,7 +6487,7 @@
       "meaning": "予期せぬ；思いがけない",
       "exampleEn": "An unforeseen accident stopped work for two days.",
       "exampleJa": "予期せぬ事故で作業が2日間止まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:upgrade:verb",
@@ -6497,7 +6497,7 @@
       "meaning": "を改良・アップグレードする",
       "exampleEn": "We upgraded the office computers last month.",
       "exampleJa": "先月、オフィスのコンピューターをアップグレードしました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:accommodation:noun",
@@ -6507,7 +6507,7 @@
       "meaning": "宿泊施設；収容能力",
       "exampleEn": "The company pays for our accommodation during business trips.",
       "exampleJa": "会社は出張中の宿泊費を負担します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:airline:noun",
@@ -6527,7 +6527,7 @@
       "meaning": "飛行機",
       "exampleEn": "Our airplane took off on time.",
       "exampleJa": "私たちの飛行機は定刻に離陸しました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:airport:noun",
@@ -6537,7 +6537,7 @@
       "meaning": "空港",
       "exampleEn": "We arrived at the airport two hours early.",
       "exampleJa": "私たちは2時間早く空港に着きました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:aisle:noun",
@@ -6547,7 +6547,7 @@
       "meaning": "通路",
       "exampleEn": "I always ask for an aisle seat.",
       "exampleJa": "私はいつも通路側の席をお願いします。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:at your earliest convenience:phrase",
@@ -6557,14 +6557,14 @@
       "meaning": "ご都合がつき次第早めに",
       "exampleEn": "Please reply at your earliest convenience.",
       "exampleJa": "ご都合がつき次第、早めにご返信ください。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:attendant:noun",
       "headword": "attendant",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtendənt/",
-      "meaning": "接客係；乗務員",
+      "meaning": "係員；接客係；乗務員",
       "exampleEn": "A flight attendant brought me some hot tea.",
       "exampleJa": "客室乗務員が温かいお茶を持ってきてくれました。",
       "level": 3
@@ -6574,10 +6574,10 @@
       "headword": "baggage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæɡɪdʒ/",
-      "meaning": "手荷物；スーツケース",
+      "meaning": "手荷物",
       "exampleEn": "We collected our baggage at the airport.",
       "exampleJa": "私たちは空港で手荷物を受け取りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:banquet:noun",
@@ -6587,7 +6587,7 @@
       "meaning": "晩餐会；宴会",
       "exampleEn": "The company held a banquet for its clients.",
       "exampleJa": "会社は取引先のために宴会を開きました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:beverage:noun",
@@ -6597,14 +6597,14 @@
       "meaning": "飲み物；飲料",
       "exampleEn": "Beverages are free on this flight.",
       "exampleJa": "この便では飲み物は無料です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:boarding:noun",
       "headword": "boarding",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɔːrdɪŋ/",
-      "meaning": "搭乗",
+      "meaning": "搭乗；乗車",
       "exampleEn": "Boarding will begin in twenty minutes.",
       "exampleJa": "搭乗は20分後に始まります。",
       "level": 3
@@ -6644,7 +6644,7 @@
       "headword": "buffet",
       "partOfSpeech": "noun",
       "phonetic": "/bəˈfeɪ/",
-      "meaning": "ビュッフェ；食べ放題",
+      "meaning": "ビュッフェ；セルフサービスの食事",
       "exampleEn": "The hotel serves a breakfast buffet every morning.",
       "exampleJa": "そのホテルは毎朝朝食ビュッフェを提供しています。",
       "level": 3
@@ -6657,14 +6657,14 @@
       "meaning": "客室；キャビン",
       "exampleEn": "The cabin was quiet during the long flight.",
       "exampleJa": "長いフライトの間、客室は静かでした。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:captain:noun",
       "headword": "captain",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæptɪn/",
-      "meaning": "機長；船長",
+      "meaning": "キャプテン；船長；機長",
       "exampleEn": "The captain announced that we would land soon.",
       "exampleJa": "機長はまもなく着陸すると伝えました。",
       "level": 2
@@ -6677,27 +6677,27 @@
       "meaning": "荷物用回転コンベア",
       "exampleEn": "Our bags appeared on the baggage carousel.",
       "exampleJa": "私たちのバッグが手荷物用のコンベアに出てきました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:cater:verb",
       "headword": "cater",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkeɪtər/",
-      "meaning": "料理を調達・ケータリングする",
+      "meaning": "料理を提供する；要求に応じる",
       "exampleEn": "A local restaurant catered our company party.",
       "exampleJa": "地元のレストランが会社のパーティーの料理を用意しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:catering:noun",
       "headword": "catering",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkeɪtərɪŋ/",
-      "meaning": "ケータリング；出張給食サービス",
+      "meaning": "ケータリング；仕出し；出張料理",
       "exampleEn": "We hired a catering company for the event.",
       "exampleJa": "私たちはそのイベントのためにケータリング会社を手配しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:check-in:noun",
@@ -6737,7 +6737,7 @@
       "meaning": "担保；見返り",
       "exampleEn": "He offered his house as collateral for the loan.",
       "exampleJa": "彼はローンの担保として自宅を差し出しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:concierge:noun",
@@ -6747,24 +6747,24 @@
       "meaning": "コンシェルジュ；案内人",
       "exampleEn": "The hotel concierge reserved a table for us.",
       "exampleJa": "ホテルのコンシェルジュが私たちのために席を予約してくれました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:convention:noun",
       "headword": "convention",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈvenʃn/",
-      "meaning": "定期大会；コンベンション；慣習",
+      "meaning": "慣習；大会；条約",
       "exampleEn": "She spoke at the annual sales convention.",
       "exampleJa": "彼女は年次の営業大会で講演しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:cruise:noun",
       "headword": "cruise",
       "partOfSpeech": "noun",
       "phonetic": "/kruːz/",
-      "meaning": "クルーズ；巡航",
+      "meaning": "クルーズ；周遊旅行；巡航",
       "exampleEn": "They took a cruise around the Mediterranean Sea.",
       "exampleJa": "彼らは地中海を巡るクルーズに参加しました。",
       "level": 3
@@ -6777,17 +6777,17 @@
       "meaning": "代表者；使節",
       "exampleEn": "Delegates from thirty countries attended the meeting.",
       "exampleJa": "30カ国の代表者が会議に出席しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:delegation:noun",
       "headword": "delegation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdelɪˈɡeɪʃn/",
-      "meaning": "代表団；派遣団",
+      "meaning": "代表団；派遣団；権限委任",
       "exampleEn": "A trade delegation visited our factory last month.",
       "exampleJa": "貿易代表団が先月私たちの工場を訪れました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:dining:noun",
@@ -6814,10 +6814,10 @@
       "headword": "event",
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈvent/",
-      "meaning": "催し；イベント",
+      "meaning": "出来事；行事；イベント",
       "exampleEn": "The company event was held in the main hall.",
       "exampleJa": "会社の催しは大ホールで開かれました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:excursion:noun",
@@ -6827,17 +6827,17 @@
       "meaning": "日帰り旅行；遠足",
       "exampleEn": "We joined a boat excursion to the island.",
       "exampleJa": "私たちは島へ行く日帰りのボート旅行に参加しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:fare:noun",
       "headword": "fare",
       "partOfSpeech": "noun",
       "phonetic": "/fer/",
-      "meaning": "運賃；乗車料金",
+      "meaning": "運賃；料金",
       "exampleEn": "The bus fare went up last month.",
       "exampleJa": "バスの運賃が先月上がりました。",
-      "level": 3
+      "level": 2
     },
     {
       "presetId": "toeic_basic_v1:flight:noun",
@@ -6847,7 +6847,7 @@
       "meaning": "フライト；定期航空便",
       "exampleEn": "The flight to Paris takes about ten hours.",
       "exampleJa": "パリ行きの便は約10時間かかります。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:front desk:phrase",
@@ -6864,30 +6864,30 @@
       "headword": "gate",
       "partOfSpeech": "noun",
       "phonetic": "/ɡeɪt/",
-      "meaning": "搭乗口；ゲート",
+      "meaning": "門；ゲート；搭乗口",
       "exampleEn": "Passengers are waiting at gate fifteen.",
       "exampleJa": "乗客は15番搭乗口で待っています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:guest:noun",
       "headword": "guest",
       "partOfSpeech": "noun",
       "phonetic": "/ɡest/",
-      "meaning": "宿泊客；来客",
+      "meaning": "客；宿泊客",
       "exampleEn": "The hotel treats every guest very kindly.",
       "exampleJa": "そのホテルはどの宿泊客にもとても親切に接します。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:hospitality:noun",
       "headword": "hospitality",
       "partOfSpeech": "noun",
       "phonetic": "/ˌhɑːspɪˈtæləti/",
-      "meaning": "歓待；ホスピタリティ",
+      "meaning": "歓待；もてなし",
       "exampleEn": "We were impressed by their warm hospitality.",
       "exampleJa": "私たちは彼らの温かいもてなしに感動しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:host:verb",
@@ -6897,7 +6897,7 @@
       "meaning": "を主催する",
       "exampleEn": "Our city will host an international conference.",
       "exampleJa": "私たちの市は国際会議を主催します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:hotel:noun",
@@ -6907,7 +6907,7 @@
       "meaning": "ホテル",
       "exampleEn": "A new hotel opened near the station.",
       "exampleJa": "駅の近くに新しいホテルが開業しました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:inn:noun",
@@ -6917,7 +6917,7 @@
       "meaning": "小旅館；宿屋",
       "exampleEn": "We stayed at a small inn in the countryside.",
       "exampleJa": "私たちは田舎の小さな宿に泊まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:itinerary:noun",
@@ -6927,7 +6927,7 @@
       "meaning": "旅行日程；旅程表",
       "exampleEn": "The agent sent me a detailed itinerary.",
       "exampleJa": "代理店が詳しい旅程表を送ってくれました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:land:verb",
@@ -6957,7 +6957,7 @@
       "meaning": "乗り継ぎ待ち時間；レイオーバー",
       "exampleEn": "We had a three-hour layover in Seoul.",
       "exampleJa": "私たちはソウルで3時間の乗り継ぎ待ちがありました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:limousine:noun",
@@ -6977,17 +6977,17 @@
       "meaning": "宿；宿泊所",
       "exampleEn": "The price includes meals and lodging.",
       "exampleJa": "料金には食事代と宿泊費が含まれています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:luggage:noun",
       "headword": "luggage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈlʌɡɪdʒ/",
-      "meaning": "手荷物；スーツケース",
+      "meaning": "手荷物；旅行かばん",
       "exampleEn": "I left my luggage at the hotel.",
       "exampleJa": "私はホテルに荷物を預けました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:microprocessor:noun",
@@ -6997,7 +6997,7 @@
       "meaning": "超小型演算処理装置",
       "exampleEn": "This computer uses a very fast microprocessor.",
       "exampleJa": "このコンピューターはとても高速な演算処理装置を使っています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:occupancy:noun",
@@ -7007,7 +7007,7 @@
       "meaning": "客室利用率；占有",
       "exampleEn": "The hotel reached ninety percent occupancy last summer.",
       "exampleJa": "そのホテルは昨年の夏に90パーセントの客室利用率に達しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:overbook:verb",
@@ -7017,7 +7017,7 @@
       "meaning": "をオーバーブックする",
       "exampleEn": "The airline overbooked our flight by ten seats.",
       "exampleJa": "航空会社は私たちの便を10席分多く予約を受け付けていました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:passenger:noun",
@@ -7047,7 +7047,7 @@
       "meaning": "パイロット；操縦士",
       "exampleEn": "The pilot has flown this route for years.",
       "exampleJa": "そのパイロットは何年もこの路線を飛んでいます。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:reception:noun",
@@ -7057,7 +7057,7 @@
       "meaning": "受付；歓迎パーティー",
       "exampleEn": "The reception desk is on the first floor.",
       "exampleJa": "受付は1階にあります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:resort:noun",
@@ -7067,7 +7067,7 @@
       "meaning": "リゾート；行楽地",
       "exampleEn": "They spent a week at a beach resort.",
       "exampleJa": "彼らはビーチリゾートで1週間過ごしました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:scanner:noun",
@@ -7087,7 +7087,7 @@
       "meaning": "をスカウトする；探す",
       "exampleEn": "The firm scouts young engineers at universities.",
       "exampleJa": "その会社は大学で若い技術者を探しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:seatbelt:noun",
@@ -7137,7 +7137,7 @@
       "meaning": "途中の寄港；途中下車",
       "exampleEn": "We had an overnight stopover in Paris.",
       "exampleJa": "私たちはパリで一晩の途中滞在をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:suite:noun",
@@ -7147,7 +7147,7 @@
       "meaning": "スイートルーム；特別室",
       "exampleEn": "The manager stayed in a suite on the top floor.",
       "exampleJa": "部長は最上階のスイートルームに泊まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:taxi:noun",
@@ -7157,7 +7157,7 @@
       "meaning": "タクシー",
       "exampleEn": "We took a taxi to the airport terminal.",
       "exampleJa": "私たちはタクシーで空港ターミナルへ行きました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:terminal:noun",
@@ -7167,24 +7167,24 @@
       "meaning": "ターミナル；終着駅",
       "exampleEn": "Our flight leaves from Terminal Two.",
       "exampleJa": "私たちの便は第2ターミナルから出発します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:ticket:noun",
       "headword": "ticket",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtɪkɪt/",
-      "meaning": "チケット；乗車券",
+      "meaning": "切符；チケット；乗車券",
       "exampleEn": "She bought a round-trip ticket online.",
       "exampleJa": "彼女はオンラインで往復の乗車券を買いました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:tour:noun",
       "headword": "tour",
       "partOfSpeech": "noun",
       "phonetic": "/tʊr/",
-      "meaning": "ツアー；周遊旅行",
+      "meaning": "ツアー；見学；周遊旅行",
       "exampleEn": "A guided tour of the factory starts at ten.",
       "exampleJa": "工場のガイド付きツアーは10時に始まります。",
       "level": 2
@@ -7224,10 +7224,10 @@
       "headword": "trip",
       "partOfSpeech": "noun",
       "phonetic": "/trɪp/",
-      "meaning": "出張；旅行",
+      "meaning": "旅行；遠足；出張",
       "exampleEn": "He is going on a business trip to London.",
       "exampleJa": "彼はロンドンへ出張に行きます。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:unquestionably:adverb",
@@ -7247,7 +7247,7 @@
       "meaning": "空いている；空室の",
       "exampleEn": "Only two rooms were vacant last night.",
       "exampleJa": "昨夜は2部屋しか空いていませんでした。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:valet:noun",
@@ -7257,7 +7257,7 @@
       "meaning": "バレーパーキング係；駐車係",
       "exampleEn": "A valet parked our car in the garage.",
       "exampleJa": "駐車係が私たちの車をガレージに停めました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:venue:noun",
@@ -7267,7 +7267,7 @@
       "meaning": "開催地；会場",
       "exampleEn": "The venue can hold five thousand people.",
       "exampleJa": "その会場は5000人を収容できます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:visa:noun",
@@ -7277,14 +7277,14 @@
       "meaning": "査証；ビザ",
       "exampleEn": "He applied for a business visa last week.",
       "exampleJa": "彼は先週ビジネスビザを申請しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:visitor:noun",
       "headword": "visitor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈvɪzɪtər/",
-      "meaning": "訪問者；見学者",
+      "meaning": "訪問者；来客；観光客",
       "exampleEn": "Visitors must sign in at the entrance.",
       "exampleJa": "訪問者は入口で記帳しなければなりません。",
       "level": 2
@@ -7324,20 +7324,20 @@
       "headword": "acceptable",
       "partOfSpeech": "adjective",
       "phonetic": "/əkˈseptəbl/",
-      "meaning": "受け入れられる；容認できる",
+      "meaning": "受け入れられる；許容できる",
       "exampleEn": "The terms are acceptable to our client.",
       "exampleJa": "その条件は顧客にとって受け入れられるものです。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:accurate:adjective",
       "headword": "accurate",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈækjərət/",
-      "meaning": "正確な；狂いのない",
+      "meaning": "正確な；精密な",
       "exampleEn": "The financial report contains accurate data.",
       "exampleJa": "財務報告書には正確なデータが載っています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:adequate:adjective",
@@ -7347,17 +7347,17 @@
       "meaning": "十分な；適切な",
       "exampleEn": "We have an adequate budget for this project.",
       "exampleJa": "このプロジェクトには十分な予算があります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:annual:adjective",
       "headword": "annual",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈænjuəl/",
-      "meaning": "年一回の；年間の",
+      "meaning": "年一回の；毎年の；年間の",
       "exampleEn": "The company publishes an annual sales report.",
       "exampleJa": "その会社は年次の売上報告書を公表しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:appropriate:adjective",
@@ -7367,14 +7367,14 @@
       "meaning": "適切な；ふさわしい",
       "exampleEn": "You should wear appropriate clothes to the interview.",
       "exampleJa": "面接にはふさわしい服装で行くべきです。",
-      "level": 2
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:available:adjective",
       "headword": "available",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈveɪləbl/",
-      "meaning": "利用可能な；手に入る",
+      "meaning": "利用できる；手に入る",
       "exampleEn": "The product is available at our online store.",
       "exampleJa": "その製品は当社のオンラインストアで購入できます。",
       "level": 2
@@ -7384,20 +7384,20 @@
       "headword": "beneficial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌbenɪˈfɪʃl/",
-      "meaning": "有益な；利益になる",
+      "meaning": "有益な；ためになる",
       "exampleEn": "The trade agreement was beneficial to both countries.",
       "exampleJa": "その貿易協定は両国にとって有益でした。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:broad:adjective",
       "headword": "broad",
       "partOfSpeech": "adjective",
       "phonetic": "/brɔːd/",
-      "meaning": "広範な；広い",
+      "meaning": "広い；広範な",
       "exampleEn": "The bank offers a broad range of services.",
       "exampleJa": "その銀行は幅広いサービスを提供しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:committed:adjective",
@@ -7414,10 +7414,10 @@
       "headword": "compulsory",
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpʌlsəri/",
-      "meaning": "強制的な；義務的な",
+      "meaning": "義務的な；強制的な；必修の",
       "exampleEn": "Attendance at the orientation is compulsory.",
       "exampleJa": "オリエンテーションへの出席は必須です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:confidential:adjective",
@@ -7427,7 +7427,7 @@
       "meaning": "機密の；秘密の",
       "exampleEn": "This document contains highly confidential information.",
       "exampleJa": "この書類には極めて機密性の高い情報が含まれています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:consecutive:adjective",
@@ -7437,27 +7437,27 @@
       "meaning": "連続した",
       "exampleEn": "Sales grew for five consecutive quarters.",
       "exampleJa": "売上は5四半期連続で成長しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:considerable:adjective",
       "headword": "considerable",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈsɪdərəbl/",
-      "meaning": "かなりの；考慮すべき",
+      "meaning": "かなりの；相当な",
       "exampleEn": "The project earned a considerable profit.",
       "exampleJa": "そのプロジェクトはかなりの利益を上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:consistent:adjective",
       "headword": "consistent",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈsɪstənt/",
-      "meaning": "一貫した；変わらない",
+      "meaning": "一貫した；矛盾のない",
       "exampleEn": "The factory keeps a consistent level of quality.",
       "exampleJa": "その工場は一貫した品質の水準を保っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:convenient:adjective",
@@ -7477,27 +7477,27 @@
       "meaning": "企業の；法人の",
       "exampleEn": "The company changed its corporate logo last year.",
       "exampleJa": "その会社は昨年、企業ロゴを変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:critical:adjective",
       "headword": "critical",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrɪtɪkl/",
-      "meaning": "重要な；批判的な；難局の",
+      "meaning": "批判的な；極めて重要な；危機的な",
       "exampleEn": "Timing is critical to the success of this project.",
       "exampleJa": "タイミングはこのプロジェクトの成功にとって重要です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:crucial:adjective",
       "headword": "crucial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkruːʃl/",
-      "meaning": "非常に重要な；決定的な",
+      "meaning": "極めて重要な；決定的な",
       "exampleEn": "Customer feedback plays a crucial role in development.",
       "exampleJa": "顧客の声は開発において極めて重要な役割を果たします。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:current:adjective",
@@ -7507,7 +7507,7 @@
       "meaning": "現在の；最新の",
       "exampleEn": "I checked the current price list this morning.",
       "exampleJa": "今朝、最新の価格表を確認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:demanding:adjective",
@@ -7527,7 +7527,7 @@
       "meaning": "指定された",
       "exampleEn": "Employees park in the designated staff area.",
       "exampleJa": "従業員は指定された職員用の区画に駐車します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:diverse:adjective",
@@ -7547,17 +7547,17 @@
       "meaning": "思い切った；抜本的な",
       "exampleEn": "The board took drastic steps to cut costs.",
       "exampleJa": "取締役会は費用を削減するため思い切った手段をとりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:eager:adjective",
       "headword": "eager",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈiːɡər/",
-      "meaning": "熱心な；〜したがっている",
+      "meaning": "熱心な；しきりに〜したがっている",
       "exampleEn": "The new staff are eager to learn.",
       "exampleJa": "新しいスタッフは学ぶことに熱心です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:economic:adjective",
@@ -7567,7 +7567,7 @@
       "meaning": "経済の；経済上の",
       "exampleEn": "The report showed strong economic growth.",
       "exampleJa": "その報告書は力強い経済成長を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:economical:adjective",
@@ -7593,11 +7593,11 @@
       "presetId": "toeic_basic_v1:efficient:adjective",
       "headword": "efficient",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪˈfɪʃnt/",
-      "meaning": "効率的な；能率的な",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "meaning": "効率的な；能率的な；有能な",
       "exampleEn": "The new system is highly efficient.",
       "exampleJa": "新しいシステムは非常に効率的です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:equity:noun",
@@ -7607,7 +7607,7 @@
       "meaning": "株主資本；自己資本",
       "exampleEn": "The company increased its equity last year.",
       "exampleJa": "その会社は昨年、自己資本を増やしました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:extensive:adjective",
@@ -7637,17 +7637,17 @@
       "meaning": "実現可能な；実行可能な",
       "exampleEn": "The plan is feasible within our budget.",
       "exampleJa": "その計画は予算の範囲で実現可能です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:flexible:adjective",
       "headword": "flexible",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfleksəbl/",
+      "phonetic": "/ˈfleksəbəl/",
       "meaning": "柔軟な；融通の利く",
       "exampleEn": "Our company offers flexible working hours.",
       "exampleJa": "当社は柔軟な勤務時間の制度を用意しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:formal:adjective",
@@ -7677,27 +7677,27 @@
       "meaning": "高速道路",
       "exampleEn": "We drove north on the freeway this morning.",
       "exampleJa": "今朝、私たちは高速道路を北へ走りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:ideal:adjective",
       "headword": "ideal",
       "partOfSpeech": "adjective",
       "phonetic": "/aɪˈdiːəl/",
-      "meaning": "理想的な；最高の",
+      "meaning": "理想的な；最適な",
       "exampleEn": "This place is ideal for a retail store.",
       "exampleJa": "この場所は小売店にとって理想的です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:immediate:adjective",
       "headword": "immediate",
       "partOfSpeech": "adjective",
       "phonetic": "/ɪˈmiːdiət/",
-      "meaning": "即座の；当面の",
+      "meaning": "即座の；早急の；直接の",
       "exampleEn": "The problem needs our immediate attention.",
       "exampleJa": "その問題には早急な対応が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:impressed:adjective",
@@ -7717,7 +7717,7 @@
       "meaning": "印象的な；見事な",
       "exampleEn": "The company reported impressive annual profits.",
       "exampleJa": "その会社は見事な年間利益を報告しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:incidental:adjective",
@@ -7727,27 +7727,27 @@
       "meaning": "付随する；臨時雑費の",
       "exampleEn": "The company pays incidental travel expenses.",
       "exampleJa": "会社は出張の雑費を負担します。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:inevitable:adjective",
       "headword": "inevitable",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪnˈevɪtəbl/",
+      "phonetic": "/ɪnˈevɪtəbəl/",
       "meaning": "避けられない；必然の",
       "exampleEn": "The price increase was inevitable.",
       "exampleJa": "値上げは避けられないものでした。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:initial:adjective",
       "headword": "initial",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪˈnɪʃl/",
+      "phonetic": "/ɪˈnɪʃəl/",
       "meaning": "最初の；初期の",
       "exampleEn": "The initial sales results met our expectations.",
       "exampleJa": "初期の売上結果は私たちの期待どおりでした。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:interim:adjective",
@@ -7757,7 +7757,7 @@
       "meaning": "暫定的な；中間の",
       "exampleEn": "The board appointed an interim director.",
       "exampleJa": "取締役会は暫定的な取締役を任命しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:invalid:adjective",
@@ -7767,7 +7767,7 @@
       "meaning": "無効な",
       "exampleEn": "The ticket is invalid after the expiration date.",
       "exampleJa": "そのチケットは有効期限を過ぎると無効です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:jetlag:noun",
@@ -7777,7 +7777,7 @@
       "meaning": "時差ぼけ",
       "exampleEn": "I had jetlag after the long flight.",
       "exampleJa": "長時間のフライトの後、時差ぼけになりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:joint:adjective",
@@ -7803,11 +7803,11 @@
       "presetId": "toeic_basic_v1:legal:adjective",
       "headword": "legal",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈliːɡl/",
-      "meaning": "法律の；合意上の",
+      "phonetic": "/ˈliːɡəl/",
+      "meaning": "法律の；合法の",
       "exampleEn": "We consult the legal department before signing contracts.",
       "exampleJa": "私たちは契約書に署名する前に法務部に相談します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:legitimate:adjective",
@@ -7817,7 +7817,7 @@
       "meaning": "正当な；合法的な",
       "exampleEn": "His claim is legitimate under the contract.",
       "exampleJa": "彼の請求は契約上正当なものです。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:limited:adjective",
@@ -7833,7 +7833,7 @@
       "presetId": "toeic_basic_v1:local:adjective",
       "headword": "local",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈloʊkl/",
+      "phonetic": "/ˈloʊkəl/",
       "meaning": "地元の；地域の",
       "exampleEn": "There are many local shops near our office.",
       "exampleJa": "オフィスの近くには地元の店がたくさんあります。",
@@ -7887,7 +7887,7 @@
       "meaning": "名目の；ごくわずかな",
       "exampleEn": "The bank charges a nominal fee for the service.",
       "exampleJa": "銀行はそのサービスにごくわずかな手数料を課します。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:numerous:adjective",
@@ -7917,7 +7917,7 @@
       "meaning": "義務的な",
       "exampleEn": "Wearing a safety helmet is obligatory on site.",
       "exampleJa": "現場では安全ヘルメットの着用が義務づけられています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:onboarding:noun",
@@ -7937,7 +7937,7 @@
       "meaning": "最適な；最高の",
       "exampleEn": "The machine runs at optimum speed.",
       "exampleJa": "その機械は最適な速度で動いています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:outstanding:adjective",
@@ -7957,7 +7957,7 @@
       "meaning": "全体の；総体的な",
       "exampleEn": "The report showed an overall increase in revenue.",
       "exampleJa": "報告書は収益の全体的な増加を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:partial:adjective",
@@ -7974,10 +7974,10 @@
       "headword": "permanent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpɜːrmənənt/",
-      "meaning": "永久的な；終身の",
+      "meaning": "永続的な；終身の；常設の",
       "exampleEn": "The company offered him a permanent contract.",
       "exampleJa": "会社は彼に終身雇用の契約を提示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:photocopier:noun",
@@ -7997,7 +7997,7 @@
       "meaning": "実用的な；現実的な",
       "exampleEn": "The course gives practical training to new workers.",
       "exampleJa": "その講座は新人に実践的な研修を行います。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:precise:adjective",
@@ -8017,7 +8017,7 @@
       "meaning": "予備の；準備段階の",
       "exampleEn": "We released a preliminary report on the research.",
       "exampleJa": "私たちは調査の予備報告書を公表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:previous:adjective",
@@ -8027,17 +8027,17 @@
       "meaning": "以前の；前の",
       "exampleEn": "Sales are higher than the previous year.",
       "exampleJa": "売上は前年より伸びています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:primary:adjective",
       "headword": "primary",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpraɪmeri/",
-      "meaning": "主要な；第一の",
+      "meaning": "主要な；第一の；初等の",
       "exampleEn": "Safety is our primary concern at the factory.",
       "exampleJa": "安全は工場での第一の関心事です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:principal:adjective",
@@ -8054,10 +8054,10 @@
       "headword": "prompt",
       "partOfSpeech": "adjective",
       "phonetic": "/prɑːmpt/",
-      "meaning": "迅速な；すばやい",
+      "meaning": "迅速な；即座の",
       "exampleEn": "We give prompt replies to customer inquiries.",
       "exampleJa": "私たちは顧客の問い合わせに迅速に返答します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:prospective:adjective",
@@ -8067,17 +8067,17 @@
       "meaning": "見込みのある；将来の",
       "exampleEn": "We met prospective buyers at the trade fair.",
       "exampleJa": "私たちは見本市で見込み客と会いました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:punctual:adjective",
       "headword": "punctual",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpʌŋktʃuəl/",
-      "meaning": "時間を守る",
+      "meaning": "時間を守る；時間に正確な",
       "exampleEn": "She is always punctual for morning meetings.",
       "exampleJa": "彼女は朝の会議にいつも時間どおりに来ます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:radical:adjective",
@@ -8087,7 +8087,7 @@
       "meaning": "抜本的な；急進的な",
       "exampleEn": "The old system needs a radical change.",
       "exampleJa": "古いシステムには抜本的な変更が必要です。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:rapid:adjective",
@@ -8104,10 +8104,10 @@
       "headword": "rational",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈræʃnəl/",
-      "meaning": "合理的・論理的な",
+      "meaning": "合理的な；理性的な；論理的な",
       "exampleEn": "Managers make rational decisions based on data.",
       "exampleJa": "管理職はデータに基づいて合理的な判断を下します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:remarkable:adjective",
@@ -8127,7 +8127,7 @@
       "meaning": "トランジスタ；増幅素子",
       "exampleEn": "This radio uses a small transistor.",
       "exampleJa": "このラジオは小さなトランジスタを使っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:undoubtedly:adverb",
@@ -8147,17 +8147,17 @@
       "meaning": "有効な；正当な",
       "exampleEn": "Your passport must be valid for the trip.",
       "exampleJa": "渡航にはパスポートが有効である必要があります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:absolutely:adverb",
       "headword": "absolutely",
       "partOfSpeech": "adverb",
       "phonetic": "/ˌæbsəˈluːtli/",
-      "meaning": "絶対に；完全に",
+      "meaning": "絶対に；まったく；完全に",
       "exampleEn": "Quality control is absolutely essential here.",
       "exampleJa": "ここでは品質管理が絶対に欠かせません。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:accordingly:adverb",
@@ -8167,7 +8167,7 @@
       "meaning": "それに応じて；したがって",
       "exampleEn": "The rules changed, so we adjusted our plan accordingly.",
       "exampleJa": "規則が変わったので、私たちはそれに応じて計画を調整しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:actively:adverb",
@@ -8183,8 +8183,8 @@
       "presetId": "toeic_basic_v1:actually:adverb",
       "headword": "actually",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˈækʧuəli/",
-      "meaning": "実際は；本当は",
+      "phonetic": "/ˈæktʃuəli/",
+      "meaning": "実は；実際に",
       "exampleEn": "The cost was actually lower than we estimated.",
       "exampleJa": "費用は実際には見積もりより低く済みました。",
       "level": 2
@@ -8197,7 +8197,7 @@
       "meaning": "さらに；加えて",
       "exampleEn": "Additionally, the company offers free health insurance.",
       "exampleJa": "さらに、会社は無料の健康保険を提供しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:adequately:adverb",
@@ -8207,7 +8207,7 @@
       "meaning": "十分に；適切に",
       "exampleEn": "The staff prepared adequately for the fire drill.",
       "exampleJa": "スタッフは避難訓練に向けて十分に準備しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:adversely:adverb",
@@ -8227,7 +8227,7 @@
       "meaning": "すでに；もう",
       "exampleEn": "The accounting desk has already received your payment.",
       "exampleJa": "経理担当はすでにお支払いを受け取っています。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:altogether:adverb",
@@ -8244,7 +8244,7 @@
       "headword": "annually",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈænjuəli/",
-      "meaning": "年一回；毎年",
+      "meaning": "年に一度；毎年",
       "exampleEn": "The board meets annually to review the budget.",
       "exampleJa": "取締役会は予算を見直すために毎年開かれます。",
       "level": 3
@@ -8254,10 +8254,10 @@
       "headword": "apparently",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈpærəntli/",
-      "meaning": "見たところ；どうやら",
+      "meaning": "どうやら；見たところ",
       "exampleEn": "Apparently the approval has been delayed until Monday.",
       "exampleJa": "どうやら承認は月曜日まで遅れているようです。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:approximately:adverb",
@@ -8267,7 +8267,7 @@
       "meaning": "およそ；約",
       "exampleEn": "The project will take approximately three months.",
       "exampleJa": "このプロジェクトはおよそ3か月かかります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:automatically:adverb",
@@ -8284,17 +8284,17 @@
       "headword": "briefly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbriːfli/",
-      "meaning": "手短に；短時間",
+      "meaning": "手短に；簡潔に；短時間",
       "exampleEn": "The speaker explained the current situation briefly.",
       "exampleJa": "発表者は現状を手短に説明しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:broadly:adverb",
       "headword": "broadly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbrɔːdli/",
-      "meaning": "大まかに；広く",
+      "meaning": "広く；大まかに；概して",
       "exampleEn": "The plan was broadly accepted by the board.",
       "exampleJa": "その計画は取締役会に広く受け入れられました。",
       "level": 3
@@ -8307,14 +8307,14 @@
       "meaning": "注意深く；慎重に",
       "exampleEn": "Please read the contract carefully before signing.",
       "exampleJa": "署名の前に契約書を注意深くお読みください。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:clearly:adverb",
       "headword": "clearly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈklɪrli/",
-      "meaning": "明確に；明瞭に",
+      "meaning": "明確に；はっきりと",
       "exampleEn": "The advertisement clearly states the job requirements.",
       "exampleJa": "その広告は募集条件を明確に示しています。",
       "level": 2
@@ -8363,11 +8363,11 @@
       "presetId": "toeic_basic_v1:consequently:adverb",
       "headword": "consequently",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˈkɑːnsɪkwentli/",
+      "phonetic": "/ˈkɑːnsəkwentli/",
       "meaning": "その結果；したがって",
       "exampleEn": "Costs rose, and consequently we raised our prices.",
       "exampleJa": "費用が上がり、その結果私たちは価格を引き上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:consistently:adverb",
@@ -8387,7 +8387,7 @@
       "meaning": "絶えず；常に",
       "exampleEn": "The market is constantly changing.",
       "exampleJa": "市場は絶えず変化しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:conveniently:adverb",
@@ -8414,10 +8414,10 @@
       "headword": "definitely",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈdefɪnətli/",
-      "meaning": "明確に；確実に",
+      "meaning": "間違いなく；確実に",
       "exampleEn": "We will definitely meet the quarterly goal.",
       "exampleJa": "私たちは確実に四半期目標を達成します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:deliberately:adverb",
@@ -8464,10 +8464,10 @@
       "headword": "easily",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈiːzəli/",
-      "meaning": "容易に；簡単に",
+      "meaning": "簡単に；容易に",
       "exampleEn": "Users can easily find the menu button.",
       "exampleJa": "ユーザーはメニューボタンを簡単に見つけられます。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:effectively:adverb",
@@ -8504,7 +8504,7 @@
       "headword": "eventually",
       "partOfSpeech": "adverb",
       "phonetic": "/ɪˈventʃuəli/",
-      "meaning": "最終的には；結局は",
+      "meaning": "最終的に；結局は",
       "exampleEn": "The firm eventually entered the overseas market.",
       "exampleJa": "その会社は最終的に海外市場へ進出しました。",
       "level": 3
@@ -8517,7 +8517,7 @@
       "meaning": "正確に；まさに",
       "exampleEn": "The meeting started at exactly nine o'clock.",
       "exampleJa": "会議はちょうど9時に始まりました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:exclusively:adverb",
@@ -8527,7 +8527,7 @@
       "meaning": "独占的に；〜専用に",
       "exampleEn": "These shoes are sold exclusively online.",
       "exampleJa": "この靴はオンライン限定で販売されています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:explicitly:adverb",
@@ -8537,7 +8537,7 @@
       "meaning": "明白に；はっきりと",
       "exampleEn": "The contract explicitly states the payment terms.",
       "exampleJa": "契約書は支払い条件をはっきりと定めています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:expressway:noun",
@@ -8577,7 +8577,7 @@
       "meaning": "好意的に；好条件で",
       "exampleEn": "The client responded favorably to our proposal.",
       "exampleJa": "顧客は私たちの提案に好意的に反応しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:finally:adverb",
@@ -8587,7 +8587,7 @@
       "meaning": "ついに；最後に",
       "exampleEn": "The board finally reached a decision today.",
       "exampleJa": "取締役会は今日ついに決定に至りました。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:financially:adverb",
@@ -8653,11 +8653,11 @@
       "presetId": "toeic_basic_v1:furthermore:adverb",
       "headword": "furthermore",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˌfɜːrdərˈmɔːr/",
+      "phonetic": "/ˈfɜːrðərmɔːr/",
       "meaning": "さらに；その上",
       "exampleEn": "The price is low; furthermore, the quality is high.",
       "exampleJa": "価格が安く、その上品質も高いです。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:gradually:adverb",
@@ -8717,7 +8717,7 @@
       "meaning": "ますます；いよいよ",
       "exampleEn": "Online shopping is becoming increasingly popular.",
       "exampleJa": "オンラインでの買い物はますます人気が高まっています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:indefinitely:adverb",
@@ -8744,7 +8744,7 @@
       "headword": "inevitably",
       "partOfSpeech": "adverb",
       "phonetic": "/ɪnˈevɪtəbli/",
-      "meaning": "必然的に；やむを得ず",
+      "meaning": "必然的に；否応なく",
       "exampleEn": "Costs inevitably rise when inflation is high.",
       "exampleJa": "インフレが進むと費用は必然的に上昇します。",
       "level": 4
@@ -8767,7 +8767,7 @@
       "meaning": "即座に；瞬時に",
       "exampleEn": "The system sends a confirmation code instantly.",
       "exampleJa": "システムは確認コードを即座に送信します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:intensely:adverb",
@@ -8777,7 +8777,7 @@
       "meaning": "強烈に；激しく",
       "exampleEn": "The two firms compete intensely for market share.",
       "exampleJa": "その2社は市場シェアを巡って激しく競い合っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:intentionally:adverb",
@@ -8797,7 +8797,7 @@
       "meaning": "基調講演；主調",
       "exampleEn": "She gave the keynote speech at the conference.",
       "exampleJa": "彼女は大会で基調講演を行いました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:largely:adverb",
@@ -8807,7 +8807,7 @@
       "meaning": "主に；大部分は",
       "exampleEn": "The success was largely due to teamwork.",
       "exampleJa": "成功は主にチームワークのおかげでした。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:liquidity:noun",
@@ -8817,7 +8817,7 @@
       "meaning": "流動性；換金性",
       "exampleEn": "The bank maintains strong cash liquidity.",
       "exampleJa": "その銀行は十分な現金の流動性を保っています。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:manually:adverb",
@@ -8837,7 +8837,7 @@
       "meaning": "著しく；際立って",
       "exampleEn": "Sales improved markedly after the new release.",
       "exampleJa": "新製品の発売後、売上が著しく向上しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:merely:adverb",
@@ -8927,7 +8927,7 @@
       "meaning": "顕著に；取り分け",
       "exampleEn": "Sales grew notably in the European market.",
       "exampleJa": "欧州市場では売上が顕著に伸びました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:occasionally:adverb",
@@ -8987,7 +8987,7 @@
       "meaning": "特に；とりわけ",
       "exampleEn": "Demand is particularly strong during the summer.",
       "exampleJa": "需要は夏の間、とりわけ強くなります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:perfectly:adverb",
@@ -9007,7 +9007,7 @@
       "meaning": "定期的に；周期的に",
       "exampleEn": "We review our security policy periodically.",
       "exampleJa": "私たちは定期的にセキュリティ方針を見直しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:permanently:adverb",
@@ -9117,7 +9117,7 @@
       "meaning": "〜と一致する；〜に調和する",
       "exampleEn": "Their decision accords with our company policy.",
       "exampleJa": "彼らの決定は当社の方針と一致しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:account for:phrase",
@@ -9174,10 +9174,10 @@
       "headword": "amortization",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæmərtəˈzeɪʃn/",
-      "meaning": "割当償却；ローン償却",
+      "meaning": "償却；割賦返済",
       "exampleEn": "The bank explained the amortization of the loan.",
       "exampleJa": "銀行はそのローンの償却について説明しました。",
-      "level": 4
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:apply for:phrase",
@@ -9197,7 +9197,7 @@
       "meaning": "〜に賛成する；〜を承認する",
       "exampleEn": "The board approved of the new plan.",
       "exampleJa": "取締役会は新しい計画に賛成しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:as a result of:phrase",
@@ -9224,7 +9224,7 @@
       "headword": "as long as",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜である限りは",
+      "meaning": "〜である限り；〜しさえすれば",
       "exampleEn": "The offer is valid as long as supplies last.",
       "exampleJa": "在庫がある限り、この特典は有効です。",
       "level": 2
@@ -9287,7 +9287,7 @@
       "meaning": "〜に帰する；〜のせいにする",
       "exampleEn": "We attribute our success to good teamwork.",
       "exampleJa": "私たちは成功を良いチームワークのおかげだと考えています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:be capable of:phrase",
@@ -9297,7 +9297,7 @@
       "meaning": "〜の能力がある",
       "exampleEn": "This machine is capable of printing a thousand sheets.",
       "exampleJa": "この機械は1000枚を印刷する能力があります。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:be committed to:phrase",
@@ -9307,7 +9307,7 @@
       "meaning": "〜に献身・コミットしている",
       "exampleEn": "Our company is committed to product quality.",
       "exampleJa": "当社は製品の品質に力を注いでいます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:be eligible for:phrase",
@@ -9317,7 +9317,7 @@
       "meaning": "〜の資格がある",
       "exampleEn": "Employees are eligible for paid leave after one year.",
       "exampleJa": "従業員は1年後に有給休暇を取る資格を得ます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:be familiar with:phrase",
@@ -9327,7 +9327,7 @@
       "meaning": "〜に精通している；〜を熟知している",
       "exampleEn": "Our operators are familiar with this software.",
       "exampleJa": "当社の担当者はこのソフトウェアに精通しています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:be held responsible for:phrase",
@@ -9347,7 +9347,7 @@
       "meaning": "〜を任されている；〜の担当である",
       "exampleEn": "She is in charge of the sales team.",
       "exampleJa": "彼女は営業チームを任されています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:be subject to:phrase",
@@ -9357,7 +9357,7 @@
       "meaning": "〜の対象となる；〜を受けやすい",
       "exampleEn": "Prices are subject to change without notice.",
       "exampleJa": "価格は予告なく変更される場合があります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:be supposed to:phrase",
@@ -9397,7 +9397,7 @@
       "meaning": "決して〜ない",
       "exampleEn": "The task was by no means easy.",
       "exampleJa": "その仕事は決して簡単ではありませんでした。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:call off:phrase",
@@ -9407,17 +9407,17 @@
       "meaning": "を中止する；を取り消す",
       "exampleEn": "The manager called off the outdoor event.",
       "exampleJa": "マネージャーは屋外のイベントを中止しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:carry out:phrase",
       "headword": "carry out",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を実行する；を遂行する",
+      "meaning": "を実行する；を遂行する；を果たす",
       "exampleEn": "The team carried out a market survey.",
       "exampleJa": "チームは市場調査を実施しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:charge with:phrase",
@@ -9434,10 +9434,10 @@
       "headword": "come across",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "に偶然出くわす",
+      "meaning": "に偶然出くわす；を偶然見つける",
       "exampleEn": "I came across a useful report yesterday.",
       "exampleJa": "私は昨日、役に立つ報告書を偶然見つけました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:come up with:phrase",
@@ -9457,7 +9457,7 @@
       "meaning": "〜に従う；〜を遵守する",
       "exampleEn": "All buildings must comply with safety rules.",
       "exampleJa": "すべての建物は安全規則に従わなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:concentrate on:phrase",
@@ -9477,7 +9477,7 @@
       "meaning": "〜から成る；〜で構成される",
       "exampleEn": "The committee consists of five directors.",
       "exampleJa": "委員会は5名の役員で構成されています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:contribute to:phrase",
@@ -9487,7 +9487,7 @@
       "meaning": "〜に貢献する；〜に寄与する",
       "exampleEn": "New technology contributed to our sales growth.",
       "exampleJa": "新しい技術が当社の売上の伸びに貢献しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:cope with:phrase",
@@ -9514,7 +9514,7 @@
       "headword": "deal with",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を処理する；〜を取り扱う",
+      "meaning": "に対処する；を取り扱う",
       "exampleEn": "The support desk deals with customer questions every day.",
       "exampleJa": "サポートデスクは毎日、顧客からの質問に対応しています。",
       "level": 2
@@ -9534,7 +9534,7 @@
       "headword": "due to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜が理由で；〜のために",
+      "meaning": "〜が原因で；〜のために",
       "exampleEn": "The flight was delayed due to bad weather.",
       "exampleJa": "悪天候のためフライトが遅れました。",
       "level": 2
@@ -9547,7 +9547,7 @@
       "meaning": "ファームウェア；内蔵プログラム",
       "exampleEn": "We updated the firmware on the router.",
       "exampleJa": "私たちはルーターのファームウェアを更新しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:focus on:phrase",
@@ -9564,20 +9564,20 @@
       "headword": "give up",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を諦める；を放棄する",
+      "meaning": "あきらめる；をやめる",
       "exampleEn": "He never gives up on a difficult project.",
       "exampleJa": "彼は難しいプロジェクトを決して諦めません。",
-      "level": 2
+      "level": 1
     },
     {
       "presetId": "toeic_basic_v1:in accordance with:phrase",
       "headword": "in accordance with",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に従って；〜と一致して",
+      "meaning": "〜に従って；〜に準じて",
       "exampleEn": "We handle data in accordance with company policy.",
       "exampleJa": "当社は会社の方針に従ってデータを扱っています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:in addition to:phrase",
@@ -9614,10 +9614,10 @@
       "headword": "in charge of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を担当して",
+      "meaning": "〜を担当して；〜を任されて",
       "exampleEn": "The man in charge of the project is away today.",
       "exampleJa": "そのプロジェクトを担当している男性は今日は不在です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:in compliance with:phrase",
@@ -9644,10 +9644,10 @@
       "headword": "in light of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を考慮して；〜の観点から",
+      "meaning": "〜を考慮して；〜に照らして",
       "exampleEn": "We changed our plan in light of the new data.",
       "exampleJa": "新しいデータを考慮して私たちは計画を変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:in place of:phrase",
@@ -9687,7 +9687,7 @@
       "meaning": "〜を探して",
       "exampleEn": "She went abroad in search of new customers.",
       "exampleJa": "彼女は新しい顧客を探して海外へ行きました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:in spite of:phrase",
@@ -9697,17 +9697,17 @@
       "meaning": "〜にもかかわらず",
       "exampleEn": "We arrived early in spite of the heavy rain.",
       "exampleJa": "大雨にもかかわらず私たちは早く到着しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:in terms of:phrase",
       "headword": "in terms of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜の点から見ると",
+      "meaning": "〜の点から；〜の観点から",
       "exampleEn": "In terms of quality, this product is the best.",
       "exampleJa": "品質の点から見ると、この製品が最も優れています。",
-      "level": 2
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:in view of:phrase",
@@ -9717,7 +9717,7 @@
       "meaning": "〜を考慮して",
       "exampleEn": "In view of the delay, we canceled the session.",
       "exampleJa": "遅れを考慮して、私たちはその会を中止しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:instead of:phrase",
@@ -9737,7 +9737,7 @@
       "meaning": "〜を妨げる；〜に干渉する",
       "exampleEn": "Loud noise interferes with our daily office work.",
       "exampleJa": "大きな騒音は日々の事務作業を妨げます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:keep up with:phrase",
@@ -9747,7 +9747,7 @@
       "meaning": "〜に遅れずについて行く",
       "exampleEn": "It is hard to keep up with new technology.",
       "exampleJa": "新しい技術に遅れずについて行くのは大変です。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:lead to:phrase",
@@ -9777,7 +9777,7 @@
       "meaning": "〜を調査する",
       "exampleEn": "The manager will look into the cause of the delay.",
       "exampleJa": "マネージャーが遅れの原因を調査します。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:make up for:phrase",
@@ -9787,7 +9787,7 @@
       "meaning": "〜を補う；〜の埋め合わせをする",
       "exampleEn": "Overtime work made up for the lost day.",
       "exampleJa": "残業が失った一日分の埋め合わせをしました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:mentor:noun",
@@ -9797,17 +9797,17 @@
       "meaning": "助言者；メンター",
       "exampleEn": "A senior manager became her mentor.",
       "exampleJa": "上級管理職の一人が彼女のメンターになりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:on account of:phrase",
       "headword": "on account of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜の理由で；〜のために",
+      "meaning": "〜のために；〜の理由で",
       "exampleEn": "The game was canceled on account of rain.",
       "exampleJa": "雨のため試合は中止になりました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:on behalf of:phrase",
@@ -9817,7 +9817,7 @@
       "meaning": "〜を代表して；〜に代わって",
       "exampleEn": "He accepted the award on behalf of the team.",
       "exampleJa": "彼はチームを代表して賞を受け取りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:on condition that:phrase",
@@ -9827,7 +9827,7 @@
       "meaning": "〜という条件で",
       "exampleEn": "They agreed on condition that we pay by Friday.",
       "exampleJa": "金曜日までに支払うという条件で彼らは同意しました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:on short notice:phrase",
@@ -9837,7 +9837,7 @@
       "meaning": "急な知らせで；急遽",
       "exampleEn": "Thank you for joining us on short notice.",
       "exampleJa": "急なお願いにもかかわらずご参加いただき感謝します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:on the basis of:phrase",
@@ -9864,7 +9864,7 @@
       "headword": "on the other hand",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "他方では；その一方で",
+      "meaning": "他方では；一方で",
       "exampleEn": "It costs more; on the other hand, it lasts longer.",
       "exampleJa": "費用は高くつきますが、その一方で長持ちします。",
       "level": 2
@@ -9877,7 +9877,7 @@
       "meaning": "〜を選択する",
       "exampleEn": "Many firms opt for cloud storage today.",
       "exampleJa": "今日では多くの企業がクラウド保存を選択しています。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:overpass:noun",
@@ -9887,7 +9887,7 @@
       "meaning": "陸橋；高架道路",
       "exampleEn": "A truck passed under the highway overpass.",
       "exampleJa": "トラックが高速道路の陸橋の下を通りました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:participate in:phrase",
@@ -9897,7 +9897,7 @@
       "meaning": "〜に参加する",
       "exampleEn": "All staff participated in the safety training.",
       "exampleJa": "全職員が安全講習に参加しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:pay attention to:phrase",
@@ -9934,10 +9934,10 @@
       "headword": "prior to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜より前に",
+      "meaning": "〜より前に；〜に先立って",
       "exampleEn": "Guests should arrive prior to the opening ceremony.",
       "exampleJa": "来賓は開会式より前に到着する必要があります。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:put off:phrase",
@@ -9957,17 +9957,17 @@
       "meaning": "〜を参照する；〜に言及する",
       "exampleEn": "Please refer to the user manual for details.",
       "exampleJa": "詳しくはユーザーマニュアルを参照してください。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:regardless of:phrase",
       "headword": "regardless of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に関係なく",
+      "meaning": "〜に関係なく；〜を問わず",
       "exampleEn": "Anyone can apply regardless of age.",
       "exampleJa": "年齢に関係なく誰でも応募できます。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:rely on:phrase",
@@ -9977,17 +9977,17 @@
       "meaning": "〜を頼りにする；〜に依存する",
       "exampleEn": "Our factory relies on local suppliers.",
       "exampleJa": "当社の工場は地元の仕入先を頼りにしています。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:result in:phrase",
       "headword": "result in",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜という結果に終わる",
+      "meaning": "〜という結果になる；〜をもたらす",
       "exampleEn": "Poor care resulted in a machine breakdown.",
       "exampleJa": "手入れ不足が機械の故障という結果を招きました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:run out of:phrase",
@@ -10004,7 +10004,7 @@
       "headword": "set up",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を設立する；を準備する",
+      "meaning": "を設立する；を準備する；を設置する",
       "exampleEn": "The company set up a new branch in Tokyo.",
       "exampleJa": "その会社は東京に新しい支店を設立しました。",
       "level": 2
@@ -10017,17 +10017,17 @@
       "meaning": "その後；続いて",
       "exampleEn": "We updated the software; sales subsequently rose.",
       "exampleJa": "私たちはソフトウェアを更新し、その後売上が伸びました。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:take advantage of:phrase",
       "headword": "take advantage of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を利用する；〜を活かす",
+      "meaning": "〜を利用する；〜に乗じる",
       "exampleEn": "Many customers took advantage of the discount sale.",
       "exampleJa": "多くの顧客が割引セールを利用しました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:take place:phrase",
@@ -10044,20 +10044,20 @@
       "headword": "turn down",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を拒絶・断る",
+      "meaning": "を断る；を拒絶する；の音量を下げる",
       "exampleEn": "The firm turned down the expensive proposal.",
       "exampleJa": "その会社は高額な提案を断りました。",
-      "level": 2
+      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:unprecedented:adjective",
       "headword": "unprecedented",
       "partOfSpeech": "adjective",
       "phonetic": "/ʌnˈpresɪdentɪd/",
-      "meaning": "前例のない；空前の",
+      "meaning": "前例のない；空前の；未曽有の",
       "exampleEn": "The firm made unprecedented profits this year.",
       "exampleJa": "その企業は今年、前例のない利益を上げました。",
-      "level": 3
+      "level": 5
     },
     {
       "presetId": "toeic_basic_v1:webinar:noun",
@@ -10067,17 +10067,17 @@
       "meaning": "ウェビナー；オンラインセミナー",
       "exampleEn": "The company will host a webinar next Tuesday.",
       "exampleJa": "その会社は来週の火曜日にウェビナーを開催します。",
-      "level": 3
+      "level": 4
     },
     {
       "presetId": "toeic_basic_v1:with regard to:phrase",
       "headword": "with regard to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に関して",
+      "meaning": "〜に関して；〜について",
       "exampleEn": "Please contact us with regard to your order.",
       "exampleJa": "ご注文に関しては当社までご連絡ください。",
-      "level": 3
+      "level": 4
     }
   ]
 }
