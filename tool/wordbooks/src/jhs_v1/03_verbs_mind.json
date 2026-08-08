@@ -24,19 +24,19 @@
       "headword": "guess",
       "partOfSpeech": "verb",
       "phonetic": "/ɡes/",
-      "meaning": "推測する；言い当てる",
+      "meaning": "を推測する；を言い当てる",
       "exampleEn": "Can you guess how old I am?",
       "exampleJa": "私が何歳か当ててみてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "imagine",
       "partOfSpeech": "verb",
       "phonetic": "/ɪˈmædʒɪn/",
-      "meaning": "想像する",
+      "meaning": "を想像する",
       "exampleEn": "Try to imagine a world without cars.",
       "exampleJa": "車のない世界を想像してみてください。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "agree",
@@ -45,7 +45,7 @@
       "meaning": "同意する；賛成する",
       "exampleEn": "I agree with your idea.",
       "exampleJa": "私はあなたの考えに賛成です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "plan",
@@ -60,25 +60,25 @@
       "headword": "expect",
       "partOfSpeech": "verb",
       "phonetic": "/ɪkˈspekt/",
-      "meaning": "予期する；期待する",
+      "meaning": "を予期する；を期待する",
       "exampleEn": "I expect good news from him soon.",
       "exampleJa": "私は彼からすぐに良い知らせがあると期待しています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "mean",
       "partOfSpeech": "verb",
       "phonetic": "/miːn/",
-      "meaning": "意味する",
+      "meaning": "を意味する；を意図する",
       "exampleEn": "What does this word mean?",
       "exampleJa": "この単語はどういう意味ですか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "realize",
       "partOfSpeech": "verb",
-      "phonetic": "/ˈriːəˌlaɪz/",
-      "meaning": "気づく；実現する",
+      "phonetic": "/ˈriːəlaɪz/",
+      "meaning": "に気づく；を実現する",
       "exampleEn": "I didn't realize it was so late.",
       "exampleJa": "こんなに遅い時間だと気づきませんでした。",
       "level": 3
@@ -90,13 +90,13 @@
       "meaning": "〜かなと思う；不思議に思う",
       "exampleEn": "I wonder what she is doing now.",
       "exampleJa": "彼女は今何をしているのかなと思います。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "check",
       "partOfSpeech": "verb",
       "phonetic": "/tʃek/",
-      "meaning": "確認する；点検する",
+      "meaning": "を確認する；を点検する",
       "exampleEn": "Please check your answer before you finish.",
       "exampleJa": "終える前に答えを確かめてください。",
       "level": 1
@@ -105,7 +105,7 @@
       "headword": "disagree",
       "partOfSpeech": "verb",
       "phonetic": "/ˌdɪsəˈɡriː/",
-      "meaning": "反対する；意見が違う",
+      "meaning": "意見が合わない；反対する",
       "exampleEn": "I disagree with you about this plan.",
       "exampleJa": "私はこの計画についてあなたに反対です。",
       "level": 2
@@ -159,7 +159,7 @@
       "headword": "wish",
       "partOfSpeech": "verb",
       "phonetic": "/wɪʃ/",
-      "meaning": "望む；願う",
+      "meaning": "を願う；を望む；〜であればよいと思う",
       "exampleEn": "I wish I could fly like a bird.",
       "exampleJa": "鳥のように飛べたらいいのにと思います。",
       "level": 2
@@ -168,7 +168,7 @@
       "headword": "mind",
       "partOfSpeech": "verb",
       "phonetic": "/maɪnd/",
-      "meaning": "気にする；いやだと思う",
+      "meaning": "を気にする；を嫌だと思う",
       "exampleEn": "Do you mind if I open the window?",
       "exampleJa": "窓を開けても構いませんか。",
       "level": 2
@@ -177,10 +177,10 @@
       "headword": "care",
       "partOfSpeech": "verb",
       "phonetic": "/ker/",
-      "meaning": "気にかける；世話をする",
+      "meaning": "気にかける；世話をする；配慮する",
       "exampleEn": "She cares about her little brother a lot.",
       "exampleJa": "彼女は弟のことをとても気にかけています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "surprise",
@@ -240,28 +240,28 @@
       "headword": "respect",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈspekt/",
-      "meaning": "尊敬する；尊重する",
+      "meaning": "を尊敬する；を尊重する",
       "exampleEn": "We should respect people from other cultures.",
       "exampleJa": "私たちは他の文化の人々を尊重すべきです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "trust",
       "partOfSpeech": "verb",
       "phonetic": "/trʌst/",
-      "meaning": "信頼する",
+      "meaning": "を信頼する；を信用する",
       "exampleEn": "I trust my best friend completely.",
       "exampleJa": "私は親友を完全に信頼しています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "prefer",
       "partOfSpeech": "verb",
       "phonetic": "/prɪˈfɜːr/",
-      "meaning": "〜のほうを好む",
+      "meaning": "をより好む",
       "exampleEn": "I prefer tea to coffee.",
       "exampleJa": "私はコーヒーより紅茶のほうが好きです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "dislike",
@@ -384,28 +384,28 @@
       "headword": "explain",
       "partOfSpeech": "verb",
       "phonetic": "/ɪkˈspleɪn/",
-      "meaning": "説明する",
+      "meaning": "を説明する",
       "exampleEn": "Could you explain this rule again?",
       "exampleJa": "このルールをもう一度説明してもらえますか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "introduce",
       "partOfSpeech": "verb",
       "phonetic": "/ˌɪntrəˈduːs/",
-      "meaning": "紹介する",
+      "meaning": "を紹介する；を導入する",
       "exampleEn": "Let me introduce my new classmate to you.",
       "exampleJa": "私の新しいクラスメートをあなたに紹介させてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "promise",
       "partOfSpeech": "verb",
       "phonetic": "/ˈprɑːmɪs/",
-      "meaning": "約束する",
+      "meaning": "を約束する",
       "exampleEn": "I promise to call you tonight.",
       "exampleJa": "今夜あなたに電話すると約束します。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "thank",
@@ -420,28 +420,28 @@
       "headword": "describe",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskraɪb/",
-      "meaning": "説明する；描写する",
+      "meaning": "を説明する；を描写する",
       "exampleEn": "Can you describe the man you saw?",
       "exampleJa": "あなたが見た男性の特徴を説明できますか。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "discuss",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskʌs/",
-      "meaning": "話し合う；議論する",
+      "meaning": "について話し合う；を議論する",
       "exampleEn": "Let's discuss this problem together.",
       "exampleJa": "この問題について一緒に話し合いましょう。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "express",
       "partOfSpeech": "verb",
       "phonetic": "/ɪkˈspres/",
-      "meaning": "表現する",
+      "meaning": "を表現する；を述べる",
       "exampleEn": "She used pictures to express her idea.",
       "exampleJa": "彼女は自分の考えを表すために絵を使いました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "shout",
@@ -456,25 +456,25 @@
       "headword": "suggest",
       "partOfSpeech": "verb",
       "phonetic": "/səɡˈdʒest/",
-      "meaning": "提案する",
+      "meaning": "を提案する；を暗示する",
       "exampleEn": "I suggest that we leave early tomorrow.",
       "exampleJa": "明日は早く出発することを提案します。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "apologize",
       "partOfSpeech": "verb",
-      "phonetic": "/əˈpɑːləˌdʒaɪz/",
-      "meaning": "謝る",
+      "phonetic": "/əˈpɑːlədʒaɪz/",
+      "meaning": "謝る；謝罪する",
       "exampleEn": "He apologized to his teacher for being late.",
       "exampleJa": "彼は遅刻したことを先生に謝りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "reply",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈplaɪ/",
-      "meaning": "返事をする",
+      "meaning": "返事をする；返信する",
       "exampleEn": "I will reply to your message soon.",
       "exampleJa": "あなたのメッセージにすぐ返信します。",
       "level": 2
@@ -483,16 +483,16 @@
       "headword": "chat",
       "partOfSpeech": "verb",
       "phonetic": "/tʃæt/",
-      "meaning": "おしゃべりする",
+      "meaning": "おしゃべりする；雑談する；チャットする",
       "exampleEn": "We chatted online for an hour last night.",
       "exampleJa": "私たちは昨夜1時間オンラインでおしゃべりしました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "report",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈpɔːrt/",
-      "meaning": "報告する",
+      "meaning": "を報告する；を報道する",
       "exampleEn": "Please report any problems to your teacher.",
       "exampleJa": "問題があれば先生に報告してください。",
       "level": 2
@@ -501,7 +501,7 @@
       "headword": "remind",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈmaɪnd/",
-      "meaning": "思い出させる",
+      "meaning": "に思い出させる；に念を押す",
       "exampleEn": "This song reminds me of my childhood.",
       "exampleJa": "この歌は私に子供のころを思い出させます。",
       "level": 3
@@ -510,16 +510,16 @@
       "headword": "encourage",
       "partOfSpeech": "verb",
       "phonetic": "/ɪnˈkɜːrɪdʒ/",
-      "meaning": "励ます",
+      "meaning": "を励ます；を促す；を促進する",
       "exampleEn": "My coach always encourages me to try harder.",
       "exampleJa": "コーチはいつも私にもっと頑張るよう励ましてくれます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "warn",
       "partOfSpeech": "verb",
       "phonetic": "/wɔːrn/",
-      "meaning": "警告する；注意する",
+      "meaning": "に警告する；に注意する",
       "exampleEn": "The teacher warned us about the heavy rain.",
       "exampleJa": "先生は大雨について私たちに注意しました。",
       "level": 2

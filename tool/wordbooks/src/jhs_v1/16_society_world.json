@@ -33,7 +33,7 @@
       "headword": "law",
       "partOfSpeech": "noun",
       "phonetic": "/lɔː/",
-      "meaning": "法律",
+      "meaning": "法律；法則",
       "exampleEn": "It is against the law to steal.",
       "exampleJa": "盗みは法律違反です。",
       "level": 2
@@ -42,16 +42,16 @@
       "headword": "government",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɡʌvərnmənt/",
-      "meaning": "政府",
+      "meaning": "政府；政治",
       "exampleEn": "The government made a new law.",
       "exampleJa": "政府は新しい法律を作りました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "community",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmjuːnəti/",
-      "meaning": "地域社会；コミュニティ",
+      "meaning": "地域社会；共同体",
       "exampleEn": "He works for his local community.",
       "exampleJa": "彼は地元の地域社会のために働いています。",
       "level": 2
@@ -87,10 +87,10 @@
       "headword": "crime",
       "partOfSpeech": "noun",
       "phonetic": "/kraɪm/",
-      "meaning": "犯罪",
+      "meaning": "犯罪；罪",
       "exampleEn": "Crime is a big problem in this city.",
       "exampleJa": "犯罪はこの都市で大きな問題です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "war",
@@ -114,7 +114,7 @@
       "headword": "population",
       "partOfSpeech": "noun",
       "phonetic": "/ˌpɑːpjuˈleɪʃn/",
-      "meaning": "人口",
+      "meaning": "人口；全住民",
       "exampleEn": "The population of this city is large.",
       "exampleJa": "この都市の人口は多いです。",
       "level": 2
@@ -123,7 +123,7 @@
       "headword": "poverty",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpɑːvərti/",
-      "meaning": "貧困",
+      "meaning": "貧困；貧しさ",
       "exampleEn": "Many people are trying to end poverty.",
       "exampleJa": "多くの人が貧困をなくそうとしています。",
       "level": 3
@@ -132,7 +132,7 @@
       "headword": "equal",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈiːkwəl/",
-      "meaning": "平等な；等しい",
+      "meaning": "等しい；平等な",
       "exampleEn": "All people should be equal.",
       "exampleJa": "すべての人は平等であるべきです。",
       "level": 2
@@ -162,7 +162,7 @@
       "meaning": "国家；国民",
       "exampleEn": "Many nations joined the meeting.",
       "exampleJa": "多くの国がその会議に参加しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "continent",
@@ -177,16 +177,16 @@
       "headword": "border",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɔːrdər/",
-      "meaning": "国境",
+      "meaning": "国境；境界；へり",
       "exampleEn": "The river is the border between two countries.",
       "exampleJa": "その川は二つの国の国境です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "region",
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːdʒən/",
-      "meaning": "地域",
+      "meaning": "地域；地方",
       "exampleEn": "This region is famous for rice.",
       "exampleJa": "この地域は米で有名です。",
       "level": 2
@@ -203,7 +203,7 @@
     {
       "headword": "global",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈɡloʊbl/",
+      "phonetic": "/ˈɡloʊbəl/",
       "meaning": "地球規模の；世界的な",
       "exampleEn": "This is a global problem.",
       "exampleJa": "これは世界的な問題です。",
@@ -231,10 +231,10 @@
       "headword": "company",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌmpəni/",
-      "meaning": "会社",
+      "meaning": "会社；仲間；同伴",
       "exampleEn": "She works for a big company.",
       "exampleJa": "彼女は大きな会社で働いています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "meeting",
@@ -249,19 +249,19 @@
       "headword": "business",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɪznəs/",
-      "meaning": "仕事；商売",
+      "meaning": "仕事；事業；商売",
       "exampleEn": "My uncle started his own business.",
       "exampleJa": "おじは自分の事業を始めました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "career",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈrɪr/",
-      "meaning": "経歴；職業",
+      "meaning": "経歴；職業；キャリア",
       "exampleEn": "She began her career as a nurse.",
       "exampleJa": "彼女は看護師としてのキャリアを始めました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "skill",
@@ -294,7 +294,7 @@
       "headword": "fail",
       "partOfSpeech": "verb",
       "phonetic": "/feɪl/",
-      "meaning": "失敗する",
+      "meaning": "失敗する；に落ちる",
       "exampleEn": "Don't be afraid to fail.",
       "exampleJa": "失敗することを恐れないでください。",
       "level": 2
@@ -312,7 +312,7 @@
       "headword": "achieve",
       "partOfSpeech": "verb",
       "phonetic": "/əˈtʃiːv/",
-      "meaning": "達成する",
+      "meaning": "を達成する；を成し遂げる",
       "exampleEn": "She worked hard to achieve her dream.",
       "exampleJa": "彼女は夢を達成するために一生懸命努力しました。",
       "level": 3
@@ -338,11 +338,11 @@
     {
       "headword": "information",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌɪnfərˈmeɪʃn/",
-      "meaning": "情報",
+      "phonetic": "/ˌɪnfərˈmeɪʃən/",
+      "meaning": "情報；案内",
       "exampleEn": "This book has useful information.",
       "exampleJa": "この本には役に立つ情報があります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "internet",
@@ -384,7 +384,7 @@
       "headword": "connect",
       "partOfSpeech": "verb",
       "phonetic": "/kəˈnekt/",
-      "meaning": "つなぐ；接続する",
+      "meaning": "をつなぐ；を接続する",
       "exampleEn": "This road will connect the two towns.",
       "exampleJa": "この道は二つの町をつなぎます。",
       "level": 2
@@ -393,7 +393,7 @@
       "headword": "connection",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈnekʃn/",
-      "meaning": "接続；つながり",
+      "meaning": "接続；つながり；関係",
       "exampleEn": "The internet connection is slow today.",
       "exampleJa": "今日はインターネット接続が遅いです。",
       "level": 2
@@ -402,10 +402,10 @@
       "headword": "communicate",
       "partOfSpeech": "verb",
       "phonetic": "/kəˈmjuːnɪkeɪt/",
-      "meaning": "意思を伝える；連絡し合う",
+      "meaning": "意思を伝え合う；を伝える；連絡を取る",
       "exampleEn": "We communicate with each other by e-mail.",
       "exampleJa": "私たちはEメールで連絡を取り合います。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "communication",
@@ -429,10 +429,10 @@
       "headword": "media",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmiːdiə/",
-      "meaning": "メディア",
+      "meaning": "メディア；媒体；報道機関",
       "exampleEn": "The media reported the news quickly.",
       "exampleJa": "メディアはすぐにそのニュースを報道しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "radio",
@@ -447,7 +447,7 @@
       "headword": "channel",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃænl/",
-      "meaning": "チャンネル",
+      "meaning": "チャンネル；海峡；経路",
       "exampleEn": "Let's change the channel.",
       "exampleJa": "チャンネルを変えましょう。",
       "level": 2
@@ -465,7 +465,7 @@
       "headword": "advertisement",
       "partOfSpeech": "noun",
       "phonetic": "/ˌædvərˈtaɪzmənt/",
-      "meaning": "広告",
+      "meaning": "広告；宣伝",
       "exampleEn": "I saw an advertisement for a new phone.",
       "exampleJa": "新しい電話の広告を見ました。",
       "level": 3
@@ -474,10 +474,10 @@
       "headword": "announce",
       "partOfSpeech": "verb",
       "phonetic": "/əˈnaʊns/",
-      "meaning": "発表する；知らせる",
+      "meaning": "を発表する；を知らせる；を告知する",
       "exampleEn": "The teacher will announce the results.",
       "exampleJa": "先生が結果を発表します。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "text",
@@ -519,7 +519,7 @@
       "headword": "advice",
       "partOfSpeech": "noun",
       "phonetic": "/ədˈvaɪs/",
-      "meaning": "助言；アドバイス",
+      "meaning": "助言；忠告；アドバイス",
       "exampleEn": "Can you give me some advice?",
       "exampleJa": "何かアドバイスをもらえますか。",
       "level": 2
@@ -546,7 +546,7 @@
       "headword": "rescue",
       "partOfSpeech": "verb",
       "phonetic": "/ˈreskjuː/",
-      "meaning": "救助する",
+      "meaning": "を救助する；を救う",
       "exampleEn": "Firefighters rescued the cat from the tree.",
       "exampleJa": "消防士たちが木から猫を救助しました。",
       "level": 3
@@ -564,7 +564,7 @@
       "headword": "cooperate",
       "partOfSpeech": "verb",
       "phonetic": "/koʊˈɑːpəreɪt/",
-      "meaning": "協力する",
+      "meaning": "協力する；協同する",
       "exampleEn": "Let's cooperate to finish this work.",
       "exampleJa": "この仕事を終わらせるために協力しましょう。",
       "level": 3
@@ -609,7 +609,7 @@
       "headword": "value",
       "partOfSpeech": "noun",
       "phonetic": "/ˈvæljuː/",
-      "meaning": "価値",
+      "meaning": "価値；価格",
       "exampleEn": "This old book has great value.",
       "exampleJa": "この古い本には大きな価値があります。",
       "level": 2
@@ -618,7 +618,7 @@
       "headword": "truth",
       "partOfSpeech": "noun",
       "phonetic": "/truːθ/",
-      "meaning": "真実",
+      "meaning": "真実；事実",
       "exampleEn": "Please tell me the truth.",
       "exampleJa": "本当のことを話してください。",
       "level": 2
@@ -654,7 +654,7 @@
       "headword": "choice",
       "partOfSpeech": "noun",
       "phonetic": "/tʃɔɪs/",
-      "meaning": "選択",
+      "meaning": "選択；選択肢",
       "exampleEn": "You have to make a choice.",
       "exampleJa": "あなたは選択をしなければなりません。",
       "level": 2
@@ -663,7 +663,7 @@
       "headword": "decision",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈsɪʒn/",
-      "meaning": "決定",
+      "meaning": "決定；決断",
       "exampleEn": "It was a difficult decision.",
       "exampleJa": "それは難しい決定でした。",
       "level": 2
@@ -675,13 +675,13 @@
       "meaning": "面接；インタビュー",
       "exampleEn": "She did well at the job interview.",
       "exampleJa": "彼女は就職面接でうまくいきました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "technology",
       "partOfSpeech": "noun",
       "phonetic": "/tekˈnɑːlədʒi/",
-      "meaning": "科学技術",
+      "meaning": "科学技術；技術",
       "exampleEn": "New technology changes our lives.",
       "exampleJa": "新しい科学技術は私たちの生活を変えます。",
       "level": 2
@@ -690,7 +690,7 @@
       "headword": "develop",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈveləp/",
-      "meaning": "発展させる；開発する",
+      "meaning": "を開発する；を発達させる；発展する",
       "exampleEn": "The company will develop a new app.",
       "exampleJa": "その会社は新しいアプリを開発します。",
       "level": 2
@@ -707,8 +707,8 @@
     {
       "headword": "invention",
       "partOfSpeech": "noun",
-      "phonetic": "/ɪnˈvenʃn/",
-      "meaning": "発明",
+      "phonetic": "/ɪnˈvenʃən/",
+      "meaning": "発明；発明品",
       "exampleEn": "The internet is a great invention.",
       "exampleJa": "インターネットはすばらしい発明です。",
       "level": 2
@@ -770,17 +770,17 @@
     {
       "headword": "organization",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌɔːrɡənaɪˈzeɪʃn/",
+      "phonetic": "/ˌɔːrɡənəˈzeɪʃn/",
       "meaning": "組織；団体",
       "exampleEn": "She works for a large organization.",
       "exampleJa": "彼女は大きな組織で働いています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "charity",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃærəti/",
-      "meaning": "慈善（活動）",
+      "meaning": "慈善；慈善事業；慈善団体",
       "exampleEn": "They collected money for charity.",
       "exampleJa": "彼らは慈善のためにお金を集めました。",
       "level": 3
@@ -789,34 +789,34 @@
       "headword": "industry",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪndəstri/",
-      "meaning": "産業",
+      "meaning": "産業；工業",
       "exampleEn": "This city has a strong car industry.",
       "exampleJa": "この都市は自動車産業が盛んです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "earn",
       "partOfSpeech": "verb",
       "phonetic": "/ɜːrn/",
-      "meaning": "稼ぐ",
+      "meaning": "を稼ぐ；を得る",
       "exampleEn": "He earns money by working part-time.",
       "exampleJa": "彼はアルバイトでお金を稼ぎます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "cooperation",
       "partOfSpeech": "noun",
       "phonetic": "/koʊˌɑːpəˈreɪʃn/",
-      "meaning": "協力",
+      "meaning": "協力；協調",
       "exampleEn": "This project needs everyone's cooperation.",
       "exampleJa": "このプロジェクトはみんなの協力が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "network",
       "partOfSpeech": "noun",
       "phonetic": "/ˈnetwɜːrk/",
-      "meaning": "ネットワーク",
+      "meaning": "ネットワーク；網",
       "exampleEn": "Our school has a computer network.",
       "exampleJa": "私たちの学校にはコンピューターネットワークがあります。",
       "level": 2

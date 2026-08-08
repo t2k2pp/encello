@@ -54,7 +54,7 @@
       "meaning": "寝室",
       "exampleEn": "I share a bedroom with my sister.",
       "exampleJa": "私は姉と寝室を共有しています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "living room",
@@ -108,7 +108,7 @@
       "meaning": "天井",
       "exampleEn": "The ceiling in this room is high.",
       "exampleJa": "この部屋の天井は高いです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "door",
@@ -150,19 +150,19 @@
       "headword": "balcony",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbælkəni/",
-      "meaning": "バルコニー",
+      "meaning": "バルコニー；ベランダ",
       "exampleEn": "We can see the sea from the balcony.",
       "exampleJa": "バルコニーから海が見えます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "basement",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbeɪsmənt/",
-      "meaning": "地下室",
+      "meaning": "地下室；地階",
       "exampleEn": "Old boxes are kept in the basement.",
       "exampleJa": "古い箱は地下室に保管されています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "toilet",
@@ -195,7 +195,7 @@
       "headword": "bed",
       "partOfSpeech": "noun",
       "phonetic": "/bed/",
-      "meaning": "ベッド",
+      "meaning": "ベッド；寝床",
       "exampleEn": "He jumped out of bed quickly.",
       "exampleJa": "彼はすばやくベッドから飛び起きました。",
       "level": 1
@@ -249,7 +249,7 @@
       "headword": "curtain",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɜːrtn/",
-      "meaning": "カーテン",
+      "meaning": "カーテン；幕",
       "exampleEn": "Please open the curtain in the morning.",
       "exampleJa": "朝になったらカーテンを開けてください。",
       "level": 2
@@ -257,8 +257,8 @@
     {
       "headword": "carpet",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈkɑːrpət/",
-      "meaning": "じゅうたん",
+      "phonetic": "/ˈkɑːrpɪt/",
+      "meaning": "じゅうたん；カーペット",
       "exampleEn": "The carpet in this room is blue.",
       "exampleJa": "この部屋のじゅうたんは青いです。",
       "level": 2
@@ -303,10 +303,10 @@
       "headword": "bathtub",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæθtʌb/",
-      "meaning": "浴槽",
+      "meaning": "浴槽；バスタブ",
       "exampleEn": "The bathtub is full of hot water.",
       "exampleJa": "浴槽はお湯でいっぱいです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "sink",
@@ -333,7 +333,7 @@
       "meaning": "家具",
       "exampleEn": "This shop sells beautiful furniture.",
       "exampleJa": "この店は美しい家具を売っています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "mailbox",
@@ -384,10 +384,10 @@
       "headword": "garbage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɡɑːrbɪdʒ/",
-      "meaning": "ごみ",
+      "meaning": "ごみ；生ごみ",
       "exampleEn": "Please take out the garbage tonight.",
       "exampleJa": "今夜、ごみを出してください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "broom",
@@ -420,10 +420,10 @@
       "headword": "brush",
       "partOfSpeech": "noun",
       "phonetic": "/brʌʃ/",
-      "meaning": "ブラシ",
+      "meaning": "ブラシ；筆",
       "exampleEn": "She uses a brush for her hair.",
       "exampleJa": "彼女は髪にブラシを使います。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "comb",
@@ -432,7 +432,7 @@
       "meaning": "くし",
       "exampleEn": "Where is my comb?",
       "exampleJa": "私のくしはどこですか。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "handkerchief",
@@ -465,7 +465,7 @@
       "headword": "clock",
       "partOfSpeech": "noun",
       "phonetic": "/klɑːk/",
-      "meaning": "時計",
+      "meaning": "時計；掛け時計",
       "exampleEn": "The clock on the wall stopped.",
       "exampleJa": "壁の時計が止まりました。",
       "level": 1
@@ -492,10 +492,10 @@
       "headword": "camera",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæmərə/",
-      "meaning": "カメラ",
+      "meaning": "カメラ；写真機",
       "exampleEn": "She took a picture with her camera.",
       "exampleJa": "彼女はカメラで写真を撮りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "umbrella",
@@ -510,7 +510,7 @@
       "headword": "box",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːks/",
-      "meaning": "箱",
+      "meaning": "箱；ケース",
       "exampleEn": "He put the toys in a box.",
       "exampleJa": "彼はおもちゃを箱に入れました。",
       "level": 1
@@ -522,16 +522,16 @@
       "meaning": "びん；ボトル",
       "exampleEn": "Fill this bottle with water.",
       "exampleJa": "このボトルに水を入れてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "basket",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæskɪt/",
-      "meaning": "かご",
+      "meaning": "かご；バスケット",
       "exampleEn": "She carried fruit in a basket.",
       "exampleJa": "彼女はかごに果物を入れて運びました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "candle",
@@ -540,7 +540,7 @@
       "meaning": "ろうそく",
       "exampleEn": "We lit a candle for the birthday cake.",
       "exampleJa": "誕生日ケーキにろうそくをともしました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "blanket",
@@ -564,19 +564,19 @@
       "headword": "calendar",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæləndər/",
-      "meaning": "カレンダー",
+      "meaning": "カレンダー；暦",
       "exampleEn": "Check the calendar for today's date.",
       "exampleJa": "今日の日付をカレンダーで確かめてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "album",
       "partOfSpeech": "noun",
       "phonetic": "/ˈælbəm/",
-      "meaning": "アルバム",
+      "meaning": "アルバム；写真集",
       "exampleEn": "We looked at an old photo album.",
       "exampleJa": "私たちは古い写真のアルバムを見ました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "wallet",
@@ -590,8 +590,8 @@
     {
       "headword": "clothes",
       "partOfSpeech": "noun",
-      "phonetic": "/kloʊz/",
-      "meaning": "服",
+      "phonetic": "/kloʊðz/",
+      "meaning": "服；衣服",
       "exampleEn": "Put your clothes in the closet.",
       "exampleJa": "服をクローゼットにしまってください。",
       "level": 1
@@ -645,10 +645,10 @@
       "headword": "coat",
       "partOfSpeech": "noun",
       "phonetic": "/koʊt/",
-      "meaning": "コート",
+      "meaning": "コート；上着",
       "exampleEn": "Wear a coat because it's cold outside.",
       "exampleJa": "外は寒いのでコートを着なさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "jacket",
@@ -699,10 +699,10 @@
       "headword": "cap",
       "partOfSpeech": "noun",
       "phonetic": "/kæp/",
-      "meaning": "帽子（縁なし）",
+      "meaning": "帽子；キャップ；ふた",
       "exampleEn": "He always wears a baseball cap.",
       "exampleJa": "彼はいつも野球帽をかぶっています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "gloves",
@@ -726,10 +726,10 @@
       "headword": "button",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌtn/",
-      "meaning": "ボタン",
+      "meaning": "ボタン；押しボタン",
       "exampleEn": "A button on my shirt came off.",
       "exampleJa": "シャツのボタンが取れました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pocket",
@@ -825,10 +825,10 @@
       "headword": "bracelet",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbreɪslət/",
-      "meaning": "ブレスレット",
+      "meaning": "ブレスレット；腕輪",
       "exampleEn": "She got a bracelet from her friend.",
       "exampleJa": "彼女は友達からブレスレットをもらいました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "necklace",
@@ -852,7 +852,7 @@
       "headword": "comfortable",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌmftərbl/",
-      "meaning": "心地よい；快適な",
+      "meaning": "快適な；心地よい",
       "exampleEn": "This bed is really comfortable.",
       "exampleJa": "このベッドは本当に快適です。",
       "level": 2

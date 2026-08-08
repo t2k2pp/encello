@@ -6,7 +6,7 @@
       "headword": "candidate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkændɪdeɪt/",
-      "meaning": "候補者；求職志望者",
+      "meaning": "候補者；志願者",
       "exampleEn": "The manager interviewed three strong candidates yesterday.",
       "exampleJa": "部長は昨日3名の有力な候補者と面接しました。",
       "level": 3
@@ -15,10 +15,10 @@
       "headword": "compensation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːmpenˈseɪʃn/",
-      "meaning": "報酬；手当；補償",
+      "meaning": "補償；報酬；手当",
       "exampleEn": "The company offers a generous compensation package.",
       "exampleJa": "その会社は手厚い報酬パッケージを用意しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "personnel",
@@ -72,40 +72,40 @@
       "meaning": "応募者；志願者",
       "exampleEn": "Fifty applicants applied for the new position.",
       "exampleJa": "50名の応募者が新しい職に応募しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "application",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæplɪˈkeɪʃn/",
-      "meaning": "応募；申請書",
+      "meaning": "申請；申込書；応用",
       "exampleEn": "I sent my application form online.",
       "exampleJa": "私は応募用紙をオンラインで送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "apply",
       "partOfSpeech": "verb",
       "phonetic": "/əˈplaɪ/",
-      "meaning": "に応募する；を適用する",
+      "meaning": "申し込む；応募する；を適用する",
       "exampleEn": "He applied for a manager job last week.",
       "exampleJa": "彼は先週管理職に応募しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "benefit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbenɪfɪt/",
-      "meaning": "手当；福利厚生；利益",
+      "meaning": "利益；恩恵；手当",
       "exampleEn": "The company offers good health benefits.",
       "exampleJa": "その会社は充実した健康保険の福利厚生を用意しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bonus",
       "partOfSpeech": "noun",
       "phonetic": "/ˈboʊnəs/",
-      "meaning": "特別手当；ボーナス",
+      "meaning": "ボーナス；特別手当",
       "exampleEn": "The staff received a bonus in December.",
       "exampleJa": "社員は12月にボーナスを受け取りました。",
       "level": 2
@@ -114,7 +114,7 @@
       "headword": "career",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈrɪr/",
-      "meaning": "経歴；キャリア",
+      "meaning": "経歴；職業；キャリア",
       "exampleEn": "She built her career in accounting.",
       "exampleJa": "彼女は会計の分野でキャリアを築きました。",
       "level": 2
@@ -141,19 +141,19 @@
       "headword": "discipline",
       "partOfSpeech": "noun",
       "phonetic": "/ˈdɪsəplɪn/",
-      "meaning": "規律；懲戒",
+      "meaning": "規律；訓練；学問分野",
       "exampleEn": "Our factory keeps strict safety discipline.",
       "exampleJa": "当社の工場は厳しい安全規律を保っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dismiss",
       "partOfSpeech": "verb",
       "phonetic": "/dɪsˈmɪs/",
-      "meaning": "を解雇する；を退ける",
+      "meaning": "を退ける；を解雇する",
       "exampleEn": "The company dismissed him for breaking the rules.",
       "exampleJa": "会社は規則違反のため彼を解雇しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dismissal",
@@ -213,7 +213,7 @@
       "headword": "employer",
       "partOfSpeech": "noun",
       "phonetic": "/ɪmˈplɔɪər/",
-      "meaning": "雇用主；事業主",
+      "meaning": "雇い主；雇用主",
       "exampleEn": "A good employer listens to the staff.",
       "exampleJa": "良い雇用主は社員の声に耳を傾けます。",
       "level": 2
@@ -225,7 +225,7 @@
       "meaning": "雇用；職",
       "exampleEn": "He is looking for full-time employment.",
       "exampleJa": "彼は常勤の職を探しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "evaluation",
@@ -276,10 +276,10 @@
       "headword": "incentive",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈsentɪv/",
-      "meaning": "報奨金；動機付け",
+      "meaning": "動機付け；報奨金；誘因",
       "exampleEn": "The bonus is a strong incentive for our team.",
       "exampleJa": "そのボーナスは私たちのチームにとって強い動機付けになっています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "intern",
@@ -312,19 +312,19 @@
       "headword": "job",
       "partOfSpeech": "noun",
       "phonetic": "/dʒɑːb/",
-      "meaning": "職；仕事",
+      "meaning": "仕事；職",
       "exampleEn": "She found a new job at a travel company.",
       "exampleJa": "彼女は旅行会社で新しい仕事を見つけました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "labor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈleɪbər/",
-      "meaning": "労働；労働者",
+      "meaning": "労働；作業；労働者",
       "exampleEn": "The work needs a lot of manual labor.",
       "exampleJa": "その作業には多くの肉体労働が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "layoff",
@@ -402,25 +402,25 @@
       "headword": "perform",
       "partOfSpeech": "verb",
       "phonetic": "/pərˈfɔːrm/",
-      "meaning": "を遂行する；を演じる",
+      "meaning": "を行う；を演じる；を演奏する",
       "exampleEn": "He performs his daily tasks very well.",
       "exampleJa": "彼は日々の業務をとても上手にこなしています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "performance",
       "partOfSpeech": "noun",
       "phonetic": "/pərˈfɔːrməns/",
-      "meaning": "業績；成果；演奏",
+      "meaning": "業績；公演；演技",
       "exampleEn": "Her performance this year was excellent.",
       "exampleJa": "彼女の今年の業績は素晴らしいものでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "position",
       "partOfSpeech": "noun",
       "phonetic": "/pəˈzɪʃn/",
-      "meaning": "職；役職；位置",
+      "meaning": "位置；職；立場",
       "exampleEn": "She was offered a position in the London office.",
       "exampleJa": "彼女はロンドン支社の役職を提示されました。",
       "level": 2
@@ -432,16 +432,16 @@
       "meaning": "試用期間；保護観察",
       "exampleEn": "New workers are on probation for three months.",
       "exampleJa": "新入社員は3か月の試用期間中です。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "promote",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈmoʊt/",
-      "meaning": "を昇進させる；を促進する",
+      "meaning": "を促進する；を昇進させる；を宣伝する",
       "exampleEn": "He was promoted to sales manager in April.",
       "exampleJa": "彼は4月に営業部長に昇進しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "promotion",
@@ -528,7 +528,7 @@
       "headword": "skill",
       "partOfSpeech": "noun",
       "phonetic": "/skɪl/",
-      "meaning": "技能；スキル",
+      "meaning": "技能；技術",
       "exampleEn": "You need good computer skills for this work.",
       "exampleJa": "この仕事には優れたコンピューター技能が必要です。",
       "level": 2
@@ -590,11 +590,11 @@
     {
       "headword": "temporary",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˌtempəˈreri/",
-      "meaning": "臨時雇いの；一時的な",
+      "phonetic": "/ˈtempəreri/",
+      "meaning": "一時的な；仮の；臨時の",
       "exampleEn": "We hire temporary workers during the busy season.",
       "exampleJa": "私たちは繁忙期に臨時の従業員を雇います。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "tenant",
@@ -609,10 +609,10 @@
       "headword": "terminate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈtɜːrmɪneɪt/",
-      "meaning": "を解雇・終了する",
+      "meaning": "を終了させる；を解約する",
       "exampleEn": "The firm terminated his employment contract.",
       "exampleJa": "会社は彼の雇用契約を終了しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "termination",
@@ -663,10 +663,10 @@
       "headword": "turnover",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtɜːrnoʊvər/",
-      "meaning": "離職率；売上高",
+      "meaning": "離職率；総売上高；回転率",
       "exampleEn": "The company reduced its staff turnover last year.",
       "exampleJa": "会社は昨年、社員の離職率を下げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "unemployed",
@@ -689,20 +689,20 @@
     {
       "headword": "union",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈjuːniən/",
-      "meaning": "労働組合；連合",
+      "phonetic": "/ˈjuːnjən/",
+      "meaning": "労働組合；連合；結合",
       "exampleEn": "The union asked for better working conditions.",
       "exampleJa": "労働組合はより良い労働条件を求めました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "vacation",
       "partOfSpeech": "noun",
       "phonetic": "/veɪˈkeɪʃn/",
-      "meaning": "休暇",
+      "meaning": "休暇；休み",
       "exampleEn": "I will take a summer vacation next week.",
       "exampleJa": "私は来週夏の休暇を取ります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "wage",

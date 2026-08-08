@@ -9,7 +9,7 @@
       "meaning": "適性；才能",
       "exampleEn": "She has an aptitude for languages.",
       "exampleJa": "彼女は語学の適性を持っています。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cognition",
@@ -23,20 +23,20 @@
     {
       "headword": "compassion",
       "partOfSpeech": "noun",
-      "phonetic": "/kəmˈpæʃən/",
-      "meaning": "思いやり；深い同情",
+      "phonetic": "/kəmˈpæʃn/",
+      "meaning": "思いやり；同情",
       "exampleEn": "Show compassion to people in need.",
       "exampleJa": "困っている人々に思いやりを示しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "conscience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnʃəns/",
-      "meaning": "良心；道義心",
+      "meaning": "良心；道徳心",
       "exampleEn": "His conscience bothered him after lying.",
       "exampleJa": "嘘をついた後、彼の良心が咎めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consciousness",
@@ -45,7 +45,7 @@
       "meaning": "意識；自覚",
       "exampleEn": "Patient regained consciousness in hospital.",
       "exampleJa": "患者は病院で意識を取り戻しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "disposition",
@@ -186,10 +186,10 @@
       "headword": "afflict",
       "partOfSpeech": "verb",
       "phonetic": "/əˈflɪkt/",
-      "meaning": "を苦しめる；悩ます",
+      "meaning": "を苦しめる；を悩ます",
       "exampleEn": "Famine and disease afflict the poor region.",
       "exampleJa": "飢饉と病気がその貧しい地域を苦しめています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aggrieved",
@@ -204,10 +204,10 @@
       "headword": "aisle",
       "partOfSpeech": "noun",
       "phonetic": "/aɪl/",
-      "meaning": "通路；アイル",
+      "meaning": "通路",
       "exampleEn": "Walk down the supermarket food aisle.",
       "exampleJa": "スーパーマーケットの食品売り場の通路を歩きなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "alleged",
@@ -321,7 +321,7 @@
       "headword": "approval",
       "partOfSpeech": "noun",
       "phonetic": "/əˈpruːvl/",
-      "meaning": "承認；賛成",
+      "meaning": "承認；賛成；認可",
       "exampleEn": "Obtain the manager's formal written approval.",
       "exampleJa": "マネージャーの正式な書面による承認を得なさい。",
       "level": 3
@@ -366,10 +366,10 @@
       "headword": "assimilate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsɪməleɪt/",
-      "meaning": "を消化・同化する；順応する",
+      "meaning": "を同化する；を吸収する；順応する",
       "exampleEn": "Immigrants assimilated into the new society.",
       "exampleJa": "移民たちは新しい社会に同化しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "asymmetrical",
@@ -393,10 +393,10 @@
       "headword": "auspicious",
       "partOfSpeech": "adjective",
       "phonetic": "/ɔːˈspɪʃəs/",
-      "meaning": "幸先の良い；吉兆の",
+      "meaning": "幸先の良い；めでたい",
       "exampleEn": "The wedding took place on an auspicious day.",
       "exampleJa": "結婚式は幸先の良い日に行われました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "auxiliary",
@@ -411,7 +411,7 @@
       "headword": "awesome",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɔːsəm/",
-      "meaning": "すばらしい；荘厳な",
+      "meaning": "すばらしい；見事な；荘厳な",
       "exampleEn": "The live concert performance was awesome.",
       "exampleJa": "そのライブコンサートのパフォーマンスはすばらしかったです。",
       "level": 3
@@ -735,10 +735,10 @@
       "headword": "cryptic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrɪptɪk/",
-      "meaning": "謎めいた；隠された",
+      "meaning": "謎めいた；意味の分かりにくい",
       "exampleEn": "He left a cryptic message on the desk.",
       "exampleJa": "彼は机の上に謎めいたメッセージを残しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cupidity",

@@ -141,10 +141,10 @@
       "headword": "century",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsentʃəri/",
-      "meaning": "世紀",
+      "meaning": "世紀；100年",
       "exampleEn": "This building has stood for a century.",
       "exampleJa": "この建物は1世紀もの間建っています。",
-      "level": 3
+      "level": 1
     },
     {
       "headword": "moment",
@@ -432,7 +432,7 @@
       "meaning": "秋",
       "exampleEn": "Autumn is my favorite season.",
       "exampleJa": "秋は私の一番好きな季節です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "winter",
@@ -465,7 +465,7 @@
       "headword": "degree",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈɡriː/",
-      "meaning": "度（温度の単位）",
+      "meaning": "学位；度；程度",
       "exampleEn": "The temperature is thirty degrees today.",
       "exampleJa": "今日の気温は30度です。",
       "level": 2
@@ -483,7 +483,7 @@
       "headword": "cloudy",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈklaʊdi/",
-      "meaning": "曇りの",
+      "meaning": "曇った；どんよりした",
       "exampleEn": "It was cloudy this morning.",
       "exampleJa": "今朝は曇りでした。",
       "level": 1
@@ -528,10 +528,10 @@
       "headword": "cool",
       "partOfSpeech": "adjective",
       "phonetic": "/kuːl/",
-      "meaning": "涼しい",
+      "meaning": "涼しい；冷たい；かっこいい",
       "exampleEn": "The wind feels cool in fall.",
       "exampleJa": "秋は風が涼しく感じます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "one",

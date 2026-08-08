@@ -15,16 +15,16 @@
       "headword": "audit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdɪt/",
-      "meaning": "会計監査；査察",
+      "meaning": "会計監査；監査",
       "exampleEn": "The annual audit begins next Monday.",
       "exampleJa": "年次監査は来週の月曜日に始まります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "expenditure",
       "partOfSpeech": "noun",
       "phonetic": "/ɪkˈspendɪtʃər/",
-      "meaning": "支出；経費費消",
+      "meaning": "支出；経費",
       "exampleEn": "The company reduced its office expenditure last year.",
       "exampleJa": "会社は昨年オフィスの支出を削減しました。",
       "level": 4
@@ -42,10 +42,10 @@
       "headword": "receipt",
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈsiːt/",
-      "meaning": "領収書；受領",
+      "meaning": "領収書；レシート；受領",
       "exampleEn": "Please keep the receipt for your records.",
       "exampleJa": "記録のために領収書を保管してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "refund",
@@ -69,10 +69,10 @@
       "headword": "account",
       "partOfSpeech": "noun",
       "phonetic": "/əˈkaʊnt/",
-      "meaning": "口座；勘定；顧客",
+      "meaning": "口座；説明；勘定",
       "exampleEn": "He opened a business account at the bank.",
       "exampleJa": "彼は銀行でビジネス口座を開設しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "accountant",
@@ -81,7 +81,7 @@
       "meaning": "会計士；経理担当者",
       "exampleEn": "Our accountant checked the monthly reports.",
       "exampleJa": "当社の会計士が月次報告書を確認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "allocation",
@@ -96,16 +96,16 @@
       "headword": "asset",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæset/",
-      "meaning": "資産；価値あるもの",
+      "meaning": "資産；強み",
       "exampleEn": "Real estate is a valuable company asset.",
       "exampleJa": "不動産は会社の価値ある資産です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "balance",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæləns/",
-      "meaning": "残高；バランス",
+      "meaning": "バランス；均衡；残高",
       "exampleEn": "You can check your balance online.",
       "exampleJa": "残高はオンラインで確認できます。",
       "level": 2
@@ -114,25 +114,25 @@
       "headword": "bankrupt",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbæŋkrʌpt/",
-      "meaning": "破産した",
+      "meaning": "破産した；倒産した",
       "exampleEn": "The small firm went bankrupt last spring.",
       "exampleJa": "その小さな会社は昨年の春に倒産しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bankruptcy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæŋkrʌptsi/",
-      "meaning": "倒産；破産",
+      "meaning": "破産；倒産",
       "exampleEn": "The airline filed for bankruptcy in May.",
       "exampleJa": "その航空会社は5月に破産を申請しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bond",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːnd/",
-      "meaning": "債券；絆",
+      "meaning": "絆；債券；結合",
       "exampleEn": "She bought government bonds for her savings.",
       "exampleJa": "彼女は貯蓄のために国債を買いました。",
       "level": 3
@@ -144,7 +144,7 @@
       "meaning": "予算；経費",
       "exampleEn": "The manager approved the marketing budget.",
       "exampleJa": "部長はマーケティング予算を承認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "calculate",
@@ -153,13 +153,13 @@
       "meaning": "を計算する；を算出する",
       "exampleEn": "Please calculate the total cost with tax.",
       "exampleJa": "税込みの総額を計算してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "capital",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæpɪtl/",
-      "meaning": "資本；首都",
+      "meaning": "首都；資本；大文字",
       "exampleEn": "The startup needs capital to grow.",
       "exampleJa": "その新興企業は成長のための資本を必要としています。",
       "level": 2
@@ -186,28 +186,28 @@
       "headword": "credit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkredɪt/",
-      "meaning": "信用；クレジット；貸方",
+      "meaning": "信用；クレジット；履修単位",
       "exampleEn": "I applied for a new credit card.",
       "exampleJa": "私は新しいクレジットカードを申し込みました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "currency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɜːrənsi/",
-      "meaning": "通貨；貨幣",
+      "meaning": "通貨；貨幣；流通",
       "exampleEn": "We exchanged our currency at the airport.",
       "exampleJa": "私たちは空港で通貨を両替しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "debt",
       "partOfSpeech": "noun",
       "phonetic": "/det/",
-      "meaning": "負債；借金",
+      "meaning": "借金；負債",
       "exampleEn": "The company paid off its debt early.",
       "exampleJa": "会社は負債を早期に完済しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "deficit",
@@ -216,13 +216,13 @@
       "meaning": "赤字；不足額",
       "exampleEn": "The trade deficit fell by five percent.",
       "exampleJa": "貿易赤字は5パーセント縮小しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "deposit",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈpɑːzɪt/",
-      "meaning": "預金；保証金",
+      "meaning": "預金；保証金；堆積物",
       "exampleEn": "She made a deposit into her savings account.",
       "exampleJa": "彼女は普通預金口座に入金しました。",
       "level": 3
@@ -249,7 +249,7 @@
       "headword": "dividend",
       "partOfSpeech": "noun",
       "phonetic": "/ˈdɪvɪdend/",
-      "meaning": "配当金",
+      "meaning": "配当金；配当",
       "exampleEn": "Shareholders received a dividend last quarter.",
       "exampleJa": "株主は前の四半期に配当金を受け取りました。",
       "level": 4
@@ -285,10 +285,10 @@
       "headword": "finance",
       "partOfSpeech": "noun",
       "phonetic": "/ˈfaɪnæns/",
-      "meaning": "財務；金融",
+      "meaning": "財政；金融；財務",
       "exampleEn": "She studied corporate finance at university.",
       "exampleJa": "彼女は大学で企業財務を学びました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "financial",
@@ -302,11 +302,11 @@
     {
       "headword": "fiscal",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfɪskl/",
-      "meaning": "会計の；財政の",
+      "phonetic": "/ˈfɪskəl/",
+      "meaning": "財政の；会計の",
       "exampleEn": "Our fiscal year ends in March.",
       "exampleJa": "当社の会計年度は3月に終わります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "fund",
@@ -339,19 +339,19 @@
       "headword": "income",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnkʌm/",
-      "meaning": "所得；収入",
+      "meaning": "収入；所得",
       "exampleEn": "His monthly income has increased slightly.",
       "exampleJa": "彼の月々の収入はわずかに増えました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "inflation",
       "partOfSpeech": "noun",
-      "phonetic": "/ɪnˈfleɪʃn/",
-      "meaning": "インフレ；物価高騰",
+      "phonetic": "/ɪnˈfleɪʃən/",
+      "meaning": "インフレ；物価上昇",
       "exampleEn": "Inflation has raised prices across the country.",
       "exampleJa": "インフレが国中で物価を押し上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "installment",
@@ -375,7 +375,7 @@
       "headword": "interest",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪntrəst/",
-      "meaning": "利息；金利；関心",
+      "meaning": "興味；関心；利息",
       "exampleEn": "The bank offers a low interest rate.",
       "exampleJa": "その銀行は低い金利を提供しています。",
       "level": 2
@@ -393,10 +393,10 @@
       "headword": "investment",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈvestmənt/",
-      "meaning": "投資；出資金",
+      "meaning": "投資；出資",
       "exampleEn": "This investment brings a high return.",
       "exampleJa": "この投資は高い収益をもたらします。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "investor",
@@ -423,16 +423,16 @@
       "meaning": "負債；法的責任",
       "exampleEn": "The firm reduced its total liabilities quickly.",
       "exampleJa": "その会社は負債の総額を速やかに減らしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "loan",
       "partOfSpeech": "noun",
       "phonetic": "/loʊn/",
-      "meaning": "融資；ローン",
+      "meaning": "ローン；融資；貸付金",
       "exampleEn": "He applied for a small business loan.",
       "exampleJa": "彼は中小企業向けの融資を申し込みました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "loss",
@@ -465,10 +465,10 @@
       "headword": "mortgage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɔːrɡɪdʒ/",
-      "meaning": "住宅ローン；担保",
+      "meaning": "住宅ローン；抵当",
       "exampleEn": "They pay their mortgage every month.",
       "exampleJa": "彼らは毎月、住宅ローンを返済しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "net",
@@ -519,10 +519,10 @@
       "headword": "portfolio",
       "partOfSpeech": "noun",
       "phonetic": "/pɔːrtˈfoʊlioʊ/",
-      "meaning": "資産構成；ポートフォリオ",
+      "meaning": "作品集；資産構成",
       "exampleEn": "She manages a balanced investment portfolio.",
       "exampleJa": "彼女はバランスの取れた投資ポートフォリオを運用しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "premium",
@@ -657,7 +657,7 @@
       "meaning": "関税；料金表",
       "exampleEn": "The government raised the tariff on steel.",
       "exampleJa": "政府は鉄鋼にかかる関税を引き上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "tax",
@@ -689,11 +689,11 @@
     {
       "headword": "transaction",
       "partOfSpeech": "noun",
-      "phonetic": "/trænˈzækʃn/",
-      "meaning": "取引；売買",
+      "phonetic": "/trænˈzækʃən/",
+      "meaning": "取引；売買；処理",
       "exampleEn": "The online transaction finished without trouble.",
       "exampleJa": "オンラインの取引は問題なく完了しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "treasurer",
@@ -744,10 +744,10 @@
       "headword": "yield",
       "partOfSpeech": "noun",
       "phonetic": "/jiːld/",
-      "meaning": "利回り；収穫量",
+      "meaning": "収穫量；利回り；産出量",
       "exampleEn": "This bond has a five percent yield.",
       "exampleJa": "この債券の利回りは5パーセントです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "folder",

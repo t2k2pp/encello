@@ -8,7 +8,10 @@
   "bandSize": 1200,
   "sortOrder": 20,
   "note": "高校学習および大学入試の土台となる基本英単語",
-  "levelRange": [1, 3],
+  "levelRange": [
+    1,
+    5
+  ],
   "chunks": [
     "00_core",
     "01_function_words",

@@ -144,7 +144,7 @@
       "meaning": "〜に沿って",
       "exampleEn": "We walked along the river.",
       "exampleJa": "私たちは川に沿って歩きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "daily",
@@ -177,7 +177,7 @@
       "headword": "bottom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːtəm/",
-      "meaning": "底；一番下",
+      "meaning": "底；最下部",
       "exampleEn": "There is a key at the bottom of the box.",
       "exampleJa": "箱の底に鍵があります。",
       "level": 2
@@ -186,7 +186,7 @@
       "headword": "behind",
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈhaɪnd/",
-      "meaning": "〜の後ろに",
+      "meaning": "〜の後ろに；〜に遅れて",
       "exampleEn": "The park is behind my house.",
       "exampleJa": "公園は私の家の後ろにあります。",
       "level": 1
@@ -195,7 +195,7 @@
       "headword": "beside",
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈsaɪd/",
-      "meaning": "〜のそばに",
+      "meaning": "〜のそばに；〜の横に",
       "exampleEn": "Sit beside me, please.",
       "exampleJa": "私のそばに座ってください。",
       "level": 2
@@ -204,16 +204,16 @@
       "headword": "above",
       "partOfSpeech": "preposition",
       "phonetic": "/əˈbʌv/",
-      "meaning": "〜の上に（離れて）",
+      "meaning": "〜の上に；〜より上に；〜を超えて",
       "exampleEn": "Birds are flying above the mountain.",
       "exampleJa": "鳥が山の上を飛んでいます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "below",
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈloʊ/",
-      "meaning": "〜より下に",
+      "meaning": "〜の下に；〜より下に",
       "exampleEn": "The fish swim below the boat.",
       "exampleJa": "魚がボートの下を泳いでいます。",
       "level": 2
@@ -249,16 +249,16 @@
       "headword": "across",
       "partOfSpeech": "preposition",
       "phonetic": "/əˈkrɔːs/",
-      "meaning": "〜を横切って",
+      "meaning": "〜を横切って；〜の向こう側に",
       "exampleEn": "There is a bridge across the river.",
       "exampleJa": "川を横切る橋があります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "toward",
       "partOfSpeech": "preposition",
       "phonetic": "/tɔːrd/",
-      "meaning": "〜の方へ",
+      "meaning": "〜の方へ；〜に向かって",
       "exampleEn": "The dog ran toward the door.",
       "exampleJa": "犬はドアの方へ走って行きました。",
       "level": 2
@@ -276,7 +276,7 @@
       "headword": "recently",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈriːsntli/",
-      "meaning": "最近",
+      "meaning": "最近；近頃",
       "exampleEn": "I moved to Tokyo recently.",
       "exampleJa": "私は最近東京に引っ越しました。",
       "level": 2
@@ -384,10 +384,10 @@
       "headword": "chance",
       "partOfSpeech": "noun",
       "phonetic": "/tʃæns/",
-      "meaning": "機会；チャンス",
+      "meaning": "機会；可能性；偶然",
       "exampleEn": "This is a good chance to practice English.",
       "exampleJa": "これは英語を練習するよい機会です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "luck",
@@ -405,7 +405,7 @@
       "meaning": "事実",
       "exampleEn": "It is a fact that the earth is round.",
       "exampleJa": "地球が丸いのは事実です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "part",

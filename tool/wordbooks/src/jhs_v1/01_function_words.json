@@ -321,10 +321,10 @@
       "headword": "anything",
       "partOfSpeech": "pronoun",
       "phonetic": "/ˈeniθɪŋ/",
-      "meaning": "何か；（否定文で）何も",
+      "meaning": "何か；何でも；何も",
       "exampleEn": "Did you buy anything at the store?",
       "exampleJa": "その店で何か買いましたか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "nothing",
@@ -348,10 +348,10 @@
       "headword": "anyone",
       "partOfSpeech": "pronoun",
       "phonetic": "/ˈeniwʌn/",
-      "meaning": "だれか；（否定文で）だれも",
+      "meaning": "誰か；誰でも；誰も",
       "exampleEn": "Is anyone home right now?",
       "exampleJa": "今だれか家にいますか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "everyone",
@@ -447,10 +447,10 @@
       "headword": "another",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈnʌðər/",
-      "meaning": "もうひとつの；別の",
+      "meaning": "もう一つの；別の",
       "exampleEn": "Can I have another cup of tea?",
       "exampleJa": "お茶をもう一杯もらえますか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "in",
@@ -474,7 +474,7 @@
       "headword": "at",
       "partOfSpeech": "preposition",
       "phonetic": "/æt/",
-      "meaning": "〜（時刻・場所）に",
+      "meaning": "〜で；〜に",
       "exampleEn": "We arrived at the airport at noon.",
       "exampleJa": "私たちは正午に空港に着きました。",
       "level": 1
@@ -519,7 +519,7 @@
       "headword": "by",
       "partOfSpeech": "preposition",
       "phonetic": "/baɪ/",
-      "meaning": "〜のそばに；〜によって",
+      "meaning": "〜によって；〜のそばに；〜までに",
       "exampleEn": "She sat by the window quietly.",
       "exampleJa": "彼女は静かに窓のそばに座りました。",
       "level": 1
@@ -537,10 +537,10 @@
       "headword": "without",
       "partOfSpeech": "preposition",
       "phonetic": "/wɪˈðaʊt/",
-      "meaning": "〜なしで",
+      "meaning": "〜なしで；〜せずに",
       "exampleEn": "Don't go out without your coat.",
       "exampleJa": "コートなしで外出しないで。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "and",
@@ -555,7 +555,7 @@
       "headword": "but",
       "partOfSpeech": "conjunction",
       "phonetic": "/bʌt/",
-      "meaning": "しかし；でも",
+      "meaning": "しかし；だが",
       "exampleEn": "The bag is small but heavy.",
       "exampleJa": "そのかばんは小さいけれど重いです。",
       "level": 1
@@ -591,10 +591,10 @@
       "headword": "though",
       "partOfSpeech": "conjunction",
       "phonetic": "/ðoʊ/",
-      "meaning": "〜だけれども",
+      "meaning": "〜だけれども；〜にもかかわらず",
       "exampleEn": "Though he was tired, he kept running.",
       "exampleJa": "疲れていたけれど、彼は走り続けました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "until",

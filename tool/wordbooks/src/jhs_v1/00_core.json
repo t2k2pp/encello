@@ -15,16 +15,16 @@
       "headword": "already",
       "partOfSpeech": "adverb",
       "phonetic": "/ɔːlˈredi/",
-      "meaning": "もう；すでに",
+      "meaning": "すでに；もう",
       "exampleEn": "She has already left.",
       "exampleJa": "彼女はもう出発しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "always",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈɔːlweɪz/",
-      "meaning": "いつも；必ず",
+      "meaning": "いつも；常に",
       "exampleEn": "He is always kind to us.",
       "exampleJa": "彼はいつも私たちに親切です。",
       "level": 1
@@ -32,7 +32,7 @@
     {
       "headword": "animal",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈænəməl/",
+      "phonetic": "/ˈænɪml/",
       "meaning": "動物",
       "exampleEn": "What animal do you like?",
       "exampleJa": "どんな動物が好きですか。",
@@ -42,7 +42,7 @@
       "headword": "answer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈænsər/",
-      "meaning": "答え；返事",
+      "meaning": "答え；返事；解答",
       "exampleEn": "Your answer is correct.",
       "exampleJa": "あなたの答えは正しいです。",
       "level": 1
@@ -59,7 +59,7 @@
     {
       "headword": "apple",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈæpəl/",
+      "phonetic": "/ˈæpl/",
       "meaning": "りんご",
       "exampleEn": "I ate an apple for breakfast.",
       "exampleJa": "朝食にりんごを食べました。",
@@ -69,7 +69,7 @@
       "headword": "arrive",
       "partOfSpeech": "verb",
       "phonetic": "/əˈraɪv/",
-      "meaning": "到着する；着く",
+      "meaning": "到着する；届く",
       "exampleEn": "We arrived at the station at six.",
       "exampleJa": "私たちは6時に駅へ着きました。",
       "level": 2
@@ -78,7 +78,7 @@
       "headword": "ask",
       "partOfSpeech": "verb",
       "phonetic": "/æsk/",
-      "meaning": "たずねる；頼む",
+      "meaning": "に尋ねる；を頼む",
       "exampleEn": "May I ask you a question?",
       "exampleJa": "ひとつ質問してもいいですか。",
       "level": 1
@@ -95,7 +95,7 @@
     {
       "headword": "beautiful",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈbjuːtəfəl/",
+      "phonetic": "/ˈbjuːtɪfl/",
       "meaning": "美しい；きれいな",
       "exampleEn": "The sunset was beautiful.",
       "exampleJa": "夕日が美しかったです。",
@@ -114,16 +114,16 @@
       "headword": "become",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈkʌm/",
-      "meaning": "〜になる",
+      "meaning": "〜になる；に似合う",
       "exampleEn": "She became a doctor last year.",
       "exampleJa": "彼女は昨年医者になりました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "begin",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈɡɪn/",
-      "meaning": "始まる；始める",
+      "meaning": "を始める；始まる",
       "exampleEn": "The class begins at nine.",
       "exampleJa": "授業は9時に始まります。",
       "level": 1
@@ -132,10 +132,10 @@
       "headword": "believe",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈliːv/",
-      "meaning": "信じる；〜だと思う",
+      "meaning": "を信じる；と思う",
       "exampleEn": "I believe you.",
       "exampleJa": "私はあなたを信じます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "between",
@@ -144,49 +144,49 @@
       "meaning": "〜の間に",
       "exampleEn": "The park is between the school and the library.",
       "exampleJa": "公園は学校と図書館の間にあります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "borrow",
       "partOfSpeech": "verb",
       "phonetic": "/ˈbɑːroʊ/",
-      "meaning": "借りる",
+      "meaning": "を借りる",
       "exampleEn": "Can I borrow your pen?",
       "exampleJa": "ペンを借りてもいいですか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "break",
       "partOfSpeech": "verb",
       "phonetic": "/breɪk/",
-      "meaning": "こわす；こわれる",
+      "meaning": "を壊す；壊れる；を折る",
       "exampleEn": "Be careful not to break the glass.",
       "exampleJa": "グラスをこわさないよう気をつけて。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bring",
       "partOfSpeech": "verb",
       "phonetic": "/brɪŋ/",
-      "meaning": "持ってくる；連れてくる",
+      "meaning": "を持ってくる；を連れてくる；をもたらす",
       "exampleEn": "Please bring your notebook tomorrow.",
       "exampleJa": "明日はノートを持ってきてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "build",
       "partOfSpeech": "verb",
       "phonetic": "/bɪld/",
-      "meaning": "建てる；つくる",
+      "meaning": "を建てる；を築く",
       "exampleEn": "They will build a new library here.",
       "exampleJa": "ここに新しい図書館が建てられます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "busy",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbɪzi/",
-      "meaning": "忙しい",
+      "meaning": "忙しい；混雑している",
       "exampleEn": "My father is busy today.",
       "exampleJa": "父は今日忙しいです。",
       "level": 1
@@ -195,7 +195,7 @@
       "headword": "buy",
       "partOfSpeech": "verb",
       "phonetic": "/baɪ/",
-      "meaning": "買う",
+      "meaning": "を買う；を購入する",
       "exampleEn": "I want to buy a new bag.",
       "exampleJa": "新しいかばんを買いたいです。",
       "level": 1
@@ -204,37 +204,37 @@
       "headword": "carry",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkæri/",
-      "meaning": "運ぶ；持ち歩く",
+      "meaning": "を運ぶ；を持ち歩く",
       "exampleEn": "He carried the heavy box.",
       "exampleJa": "彼は重い箱を運びました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "catch",
       "partOfSpeech": "verb",
       "phonetic": "/kætʃ/",
-      "meaning": "つかまえる；捕る",
+      "meaning": "を捕まえる；に間に合う；を捕る",
       "exampleEn": "He caught the ball with one hand.",
       "exampleJa": "彼は片手でボールを捕りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "change",
       "partOfSpeech": "verb",
       "phonetic": "/tʃeɪndʒ/",
-      "meaning": "変える；変わる",
+      "meaning": "を変える；変わる",
       "exampleEn": "The weather changed quickly.",
       "exampleJa": "天気が急に変わりました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "choose",
       "partOfSpeech": "verb",
       "phonetic": "/tʃuːz/",
-      "meaning": "選ぶ",
+      "meaning": "を選ぶ",
       "exampleEn": "Choose the color you like.",
       "exampleJa": "好きな色を選んでください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "city",
@@ -249,7 +249,7 @@
       "headword": "clean",
       "partOfSpeech": "adjective",
       "phonetic": "/kliːn/",
-      "meaning": "きれいな；清潔な",
+      "meaning": "清潔な；きれいな",
       "exampleEn": "Her room is always clean.",
       "exampleJa": "彼女の部屋はいつもきれいです。",
       "level": 1
@@ -258,7 +258,7 @@
       "headword": "close",
       "partOfSpeech": "verb",
       "phonetic": "/kloʊz/",
-      "meaning": "閉める；閉まる",
+      "meaning": "を閉める；閉まる",
       "exampleEn": "Please close the window.",
       "exampleJa": "窓を閉めてください。",
       "level": 1
@@ -276,7 +276,7 @@
       "headword": "collect",
       "partOfSpeech": "verb",
       "phonetic": "/kəˈlekt/",
-      "meaning": "集める",
+      "meaning": "を集める；を収集する",
       "exampleEn": "My brother collects old coins.",
       "exampleJa": "兄は古い硬貨を集めています。",
       "level": 2
@@ -285,7 +285,7 @@
       "headword": "country",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌntri/",
-      "meaning": "国；いなか",
+      "meaning": "国；国家；田舎",
       "exampleEn": "I want to visit many countries.",
       "exampleJa": "たくさんの国を訪れたいです。",
       "level": 1
@@ -294,7 +294,7 @@
       "headword": "culture",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌltʃər/",
-      "meaning": "文化",
+      "meaning": "文化；教養",
       "exampleEn": "We learned about Japanese culture.",
       "exampleJa": "私たちは日本の文化について学びました。",
       "level": 2
@@ -657,7 +657,7 @@
       "meaning": "〜を楽しみに待つ",
       "exampleEn": "I look forward to seeing you again.",
       "exampleJa": "またお会いできるのを楽しみにしています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "lose",
@@ -726,10 +726,10 @@
       "headword": "necessary",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈnesəseri/",
-      "meaning": "必要な",
+      "meaning": "必要な；不可欠な",
       "exampleEn": "Water is necessary for life.",
       "exampleJa": "水は生きるために必要です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "notice",
@@ -780,10 +780,10 @@
       "headword": "prepare",
       "partOfSpeech": "verb",
       "phonetic": "/prɪˈper/",
-      "meaning": "準備する",
+      "meaning": "を準備する；を用意する",
       "exampleEn": "We prepared dinner together.",
       "exampleJa": "いっしょに夕食を準備しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "probably",
@@ -807,10 +807,10 @@
       "headword": "protect",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈtekt/",
-      "meaning": "守る",
+      "meaning": "を守る；を保護する",
       "exampleEn": "This hat protects you from the sun.",
       "exampleJa": "この帽子は日ざしから守ってくれます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "quiet",
@@ -824,11 +824,11 @@
     {
       "headword": "reason",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈriːzən/",
-      "meaning": "理由",
+      "phonetic": "/ˈriːzn/",
+      "meaning": "理由；理性",
       "exampleEn": "Tell me the reason.",
       "exampleJa": "理由を教えてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "remember",
@@ -861,7 +861,7 @@
       "headword": "share",
       "partOfSpeech": "verb",
       "phonetic": "/ʃer/",
-      "meaning": "分け合う；共有する",
+      "meaning": "を共有する；を分け合う",
       "exampleEn": "Let's share this cake.",
       "exampleJa": "このケーキを分け合いましょう。",
       "level": 2
@@ -924,10 +924,10 @@
       "headword": "support",
       "partOfSpeech": "verb",
       "phonetic": "/səˈpɔːrt/",
-      "meaning": "支える；応援する",
+      "meaning": "を支える；を支援する；を応援する",
       "exampleEn": "My family supports my dream.",
       "exampleJa": "家族は私の夢を応援してくれます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "take care of",
@@ -1005,10 +1005,10 @@
       "headword": "worry",
       "partOfSpeech": "verb",
       "phonetic": "/ˈwɜːri/",
-      "meaning": "心配する",
+      "meaning": "心配する；を心配させる",
       "exampleEn": "Don't worry about the test.",
       "exampleJa": "テストのことは心配しないで。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "write",

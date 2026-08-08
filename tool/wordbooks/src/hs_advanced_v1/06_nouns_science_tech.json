@@ -18,7 +18,7 @@
       "meaning": "解剖学；人体構造",
       "exampleEn": "Medical students study human anatomy.",
       "exampleJa": "医学生は人体の解剖学を学びます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "apparatus",
@@ -78,10 +78,10 @@
       "headword": "compound",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmpaʊnd/",
-      "meaning": "化合物；複合体",
+      "meaning": "化合物；複合物；敷地",
       "exampleEn": "Water is a chemical compound.",
       "exampleJa": "水は化学化合物です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "database",
@@ -195,7 +195,7 @@
       "headword": "academic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌækəˈdemɪk/",
-      "meaning": "学術の；学問的な",
+      "meaning": "学問の；学術的な；大学の",
       "exampleEn": "She achieved great success in academic research.",
       "exampleJa": "彼女は学術研究で大きな成功を収めました。",
       "level": 3
@@ -294,10 +294,10 @@
       "headword": "allegation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌælɪˈɡeɪʃn/",
-      "meaning": "申し立て；主張；言い分",
+      "meaning": "申し立て；主張",
       "exampleEn": "Police investigated the fraud allegation.",
       "exampleJa": "警察はその詐欺の申し立てを調査しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "allusion",
@@ -339,10 +339,10 @@
       "headword": "analogy",
       "partOfSpeech": "noun",
       "phonetic": "/əˈnælədʒi/",
-      "meaning": "類推；比喩；類似",
+      "meaning": "類推；たとえ；類似",
       "exampleEn": "She drew a clear scientific analogy.",
       "exampleJa": "彼女は明確な科学的類推を示しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "anecdotal",
@@ -789,10 +789,10 @@
       "headword": "incorporate",
       "partOfSpeech": "verb",
       "phonetic": "/ɪnˈkɔːrpəreɪt/",
-      "meaning": "を組み込む；法人化する",
+      "meaning": "を組み込む；を法人化する",
       "exampleEn": "Incorporate the new feedback into the design.",
       "exampleJa": "新しいフィードバックをデザインに組み込みなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "crevasse",

@@ -15,7 +15,7 @@
       "headword": "book",
       "partOfSpeech": "noun",
       "phonetic": "/bʊk/",
-      "meaning": "本",
+      "meaning": "本；書籍",
       "exampleEn": "She is reading a book now.",
       "exampleJa": "彼女は今、本を読んでいます。",
       "level": 1
@@ -24,7 +24,7 @@
       "headword": "chair",
       "partOfSpeech": "noun",
       "phonetic": "/tʃer/",
-      "meaning": "いす",
+      "meaning": "椅子；議長",
       "exampleEn": "Please sit on this chair.",
       "exampleJa": "このいすに座ってください。",
       "level": 1
@@ -69,10 +69,10 @@
       "headword": "even",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈiːvən/",
-      "meaning": "～でさえ",
+      "meaning": "〜でさえ；さらに",
       "exampleEn": "Even my sister can swim.",
       "exampleJa": "妹でさえ泳ぐことができます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "again",
@@ -177,7 +177,7 @@
       "headword": "best",
       "partOfSpeech": "adjective",
       "phonetic": "/best/",
-      "meaning": "最も良い（goodの最上級）",
+      "meaning": "最も良い；最高の",
       "exampleEn": "This is the best pizza in town.",
       "exampleJa": "これは町で一番おいしいピザです。",
       "level": 1
@@ -186,7 +186,7 @@
       "headword": "better",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbetər/",
-      "meaning": "より良い（goodの比較級）",
+      "meaning": "より良い；良くなって",
       "exampleEn": "My English got better this year.",
       "exampleJa": "私の英語は今年上達しました。",
       "level": 1
@@ -222,10 +222,10 @@
       "headword": "such",
       "partOfSpeech": "adjective",
       "phonetic": "/sʌtʃ/",
-      "meaning": "そのような",
+      "meaning": "そのような；こんな",
       "exampleEn": "I have never eaten such delicious cake.",
       "exampleJa": "こんなにおいしいケーキを食べたことがありません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "able",
@@ -474,19 +474,19 @@
       "headword": "for example",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "例えば",
+      "meaning": "たとえば",
       "exampleEn": "I like sports, for example, soccer.",
       "exampleJa": "私はスポーツ、例えばサッカーが好きです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "at first",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "最初は",
+      "meaning": "最初は；はじめのうちは",
       "exampleEn": "At first, I was very nervous.",
       "exampleJa": "最初、私はとても緊張していました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "at last",
@@ -609,28 +609,28 @@
       "headword": "not only",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～だけでなく",
+      "meaning": "〜だけでなく",
       "exampleEn": "Not only Tom but Anna came too.",
       "exampleJa": "トムだけでなくアンナも来ました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "as soon as",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～するとすぐに",
+      "meaning": "〜するとすぐに",
       "exampleEn": "Call me as soon as you arrive.",
       "exampleJa": "到着したらすぐに電話してください。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "as well as",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～だけでなく～も",
+      "meaning": "〜と同様に；〜だけでなく",
       "exampleEn": "She plays tennis as well as soccer.",
       "exampleJa": "彼女はサッカーだけでなくテニスもします。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "in front of",
@@ -798,10 +798,10 @@
       "headword": "give up",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "あきらめる",
+      "meaning": "あきらめる；をやめる",
       "exampleEn": "Never give up on your dream.",
       "exampleJa": "自分の夢をあきらめないで。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pick up",

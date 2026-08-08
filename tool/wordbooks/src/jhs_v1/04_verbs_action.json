@@ -69,7 +69,7 @@
       "headword": "cook",
       "partOfSpeech": "verb",
       "phonetic": "/kʊk/",
-      "meaning": "料理する",
+      "meaning": "料理する；を調理する",
       "exampleEn": "My father cooks dinner on Sundays.",
       "exampleJa": "父は日曜日に夕食を作ります。",
       "level": 1
@@ -87,28 +87,28 @@
       "headword": "hit",
       "partOfSpeech": "verb",
       "phonetic": "/hɪt/",
-      "meaning": "打つ；ぶつかる",
+      "meaning": "を打つ；に当たる",
       "exampleEn": "The ball hit the window hard.",
       "exampleJa": "ボールが窓に激しく当たりました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "kick",
       "partOfSpeech": "verb",
       "phonetic": "/kɪk/",
-      "meaning": "蹴る",
+      "meaning": "を蹴る",
       "exampleEn": "He kicked the ball into the goal.",
       "exampleJa": "彼はボールをゴールに向けて蹴りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "push",
       "partOfSpeech": "verb",
       "phonetic": "/pʊʃ/",
-      "meaning": "押す",
+      "meaning": "を押す；を推進する",
       "exampleEn": "Push the door to open it.",
       "exampleJa": "開けるにはドアを押してください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pull",
@@ -132,10 +132,10 @@
       "headword": "hide",
       "partOfSpeech": "verb",
       "phonetic": "/haɪd/",
-      "meaning": "隠れる；隠す",
+      "meaning": "を隠す；隠れる",
       "exampleEn": "The cat hid under the bed.",
       "exampleJa": "その猫はベッドの下に隠れました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "dig",
@@ -168,10 +168,10 @@
       "headword": "drop",
       "partOfSpeech": "verb",
       "phonetic": "/drɑːp/",
-      "meaning": "落とす；落ちる",
+      "meaning": "を落とす；落ちる",
       "exampleEn": "Be careful not to drop the plate.",
       "exampleJa": "お皿を落とさないよう気をつけて。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "shake",
@@ -195,10 +195,10 @@
       "headword": "knock",
       "partOfSpeech": "verb",
       "phonetic": "/nɑːk/",
-      "meaning": "ノックする",
+      "meaning": "ノックする；を打つ",
       "exampleEn": "Someone knocked on the door quietly.",
       "exampleJa": "だれかが静かにドアをノックしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "wave",
@@ -276,7 +276,7 @@
       "headword": "cut",
       "partOfSpeech": "verb",
       "phonetic": "/kʌt/",
-      "meaning": "切る",
+      "meaning": "を切る；を削減する",
       "exampleEn": "She cut the paper into pieces.",
       "exampleJa": "彼女は紙を切り分けました。",
       "level": 1
@@ -285,34 +285,34 @@
       "headword": "fix",
       "partOfSpeech": "verb",
       "phonetic": "/fɪks/",
-      "meaning": "直す",
+      "meaning": "を修理する；を固定する",
       "exampleEn": "My uncle fixed my broken bike.",
       "exampleJa": "おじが私の壊れた自転車を直してくれました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "fill",
       "partOfSpeech": "verb",
       "phonetic": "/fɪl/",
-      "meaning": "いっぱいにする",
+      "meaning": "を満たす；をいっぱいにする",
       "exampleEn": "Please fill the glass with water.",
       "exampleJa": "グラスに水を満たしてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "add",
       "partOfSpeech": "verb",
       "phonetic": "/æd/",
-      "meaning": "加える；足す",
+      "meaning": "を加える；を足す",
       "exampleEn": "Add some sugar to the tea.",
       "exampleJa": "紅茶に砂糖を少し加えてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "cover",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkʌvər/",
-      "meaning": "覆う",
+      "meaning": "を覆う；を補償する；を取材する",
       "exampleEn": "She covered the table with a cloth.",
       "exampleJa": "彼女は布でテーブルを覆いました。",
       "level": 2
@@ -339,16 +339,16 @@
       "headword": "copy",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːpi/",
-      "meaning": "コピーする；書き写す",
+      "meaning": "を写す；を複製する；をまねる",
       "exampleEn": "Please copy the words in your notebook.",
       "exampleJa": "その単語をノートに書き写してください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "count",
       "partOfSpeech": "verb",
       "phonetic": "/kaʊnt/",
-      "meaning": "数える",
+      "meaning": "を数える；重要である",
       "exampleEn": "Let's count the stars in the sky.",
       "exampleJa": "空の星を数えましょう。",
       "level": 1
@@ -393,7 +393,7 @@
       "headword": "fold",
       "partOfSpeech": "verb",
       "phonetic": "/foʊld/",
-      "meaning": "折る；たたむ",
+      "meaning": "を折る；をたたむ",
       "exampleEn": "Please fold the paper in half.",
       "exampleJa": "紙を半分に折ってください。",
       "level": 2
@@ -402,10 +402,10 @@
       "headword": "lock",
       "partOfSpeech": "verb",
       "phonetic": "/lɑːk/",
-      "meaning": "かぎをかける",
+      "meaning": "にかぎをかける",
       "exampleEn": "Don't forget to lock the door.",
       "exampleJa": "ドアにかぎをかけるのを忘れないで。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "press",
@@ -420,7 +420,7 @@
       "headword": "lift",
       "partOfSpeech": "verb",
       "phonetic": "/lɪft/",
-      "meaning": "持ち上げる",
+      "meaning": "を持ち上げる",
       "exampleEn": "He lifted the heavy box alone.",
       "exampleJa": "彼は重い箱を一人で持ち上げました。",
       "level": 2
@@ -438,7 +438,7 @@
       "headword": "pack",
       "partOfSpeech": "verb",
       "phonetic": "/pæk/",
-      "meaning": "荷造りする；詰める",
+      "meaning": "を詰める；を梱包する；荷造りする",
       "exampleEn": "I packed my bag for the trip.",
       "exampleJa": "私は旅行のためにかばんに荷物を詰めました。",
       "level": 2
@@ -465,19 +465,19 @@
       "headword": "increase",
       "partOfSpeech": "verb",
       "phonetic": "/ɪnˈkriːs/",
-      "meaning": "増える；増やす",
+      "meaning": "増える；を増やす",
       "exampleEn": "The number of students increased this year.",
       "exampleJa": "今年、生徒の数が増えました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "reduce",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈduːs/",
-      "meaning": "減らす",
+      "meaning": "を減らす；を縮小する",
       "exampleEn": "We should reduce plastic waste.",
       "exampleJa": "私たちはプラスチックごみを減らすべきです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "melt",
@@ -492,10 +492,10 @@
       "headword": "burn",
       "partOfSpeech": "verb",
       "phonetic": "/bɜːrn/",
-      "meaning": "燃える；燃やす",
+      "meaning": "を燃やす；燃える；焦げる",
       "exampleEn": "The candle burned for two hours.",
       "exampleJa": "そのろうそくは2時間燃えました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "freeze",
@@ -510,10 +510,10 @@
       "headword": "hurt",
       "partOfSpeech": "verb",
       "phonetic": "/hɜːrt/",
-      "meaning": "傷つける；痛む",
+      "meaning": "を傷つける；痛む",
       "exampleEn": "I hurt my leg during practice.",
       "exampleJa": "練習中に足をけがしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "kill",
@@ -537,25 +537,25 @@
       "headword": "create",
       "partOfSpeech": "verb",
       "phonetic": "/kriˈeɪt/",
-      "meaning": "創造する；作り出す",
+      "meaning": "を創造する；を作り出す",
       "exampleEn": "The artist created a wonderful picture.",
       "exampleJa": "その芸術家はすばらしい絵を作り出しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "produce",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈduːs/",
-      "meaning": "生産する",
+      "meaning": "を生産する；を製造する；を生み出す",
       "exampleEn": "This factory produces electric cars.",
       "exampleJa": "この工場は電気自動車を生産しています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "design",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈzaɪn/",
-      "meaning": "デザインする；設計する",
+      "meaning": "を設計する；をデザインする",
       "exampleEn": "She designed a poster for the festival.",
       "exampleJa": "彼女は祭りのポスターをデザインしました。",
       "level": 2
@@ -564,7 +564,7 @@
       "headword": "invent",
       "partOfSpeech": "verb",
       "phonetic": "/ɪnˈvent/",
-      "meaning": "発明する",
+      "meaning": "を発明する",
       "exampleEn": "Who invented this useful machine?",
       "exampleJa": "だれがこの便利な機械を発明したのですか。",
       "level": 2
@@ -573,10 +573,10 @@
       "headword": "discover",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskʌvər/",
-      "meaning": "発見する",
+      "meaning": "を発見する",
       "exampleEn": "Scientists discovered a new star.",
       "exampleJa": "科学者たちは新しい星を発見しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "draw",
@@ -609,10 +609,10 @@
       "headword": "repair",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈper/",
-      "meaning": "修理する",
+      "meaning": "を修理する；を修繕する",
       "exampleEn": "The workers repaired the old bridge.",
       "exampleJa": "作業員たちは古い橋を修理しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "sweep",
@@ -681,7 +681,7 @@
       "headword": "fit",
       "partOfSpeech": "verb",
       "phonetic": "/fɪt/",
-      "meaning": "合う",
+      "meaning": "に合う；に適合する",
       "exampleEn": "These shoes fit me perfectly.",
       "exampleJa": "このくつは私にぴったり合います。",
       "level": 2
@@ -690,7 +690,7 @@
       "headword": "boil",
       "partOfSpeech": "verb",
       "phonetic": "/bɔɪl/",
-      "meaning": "沸かす；沸騰する",
+      "meaning": "を沸かす；沸騰する；をゆでる",
       "exampleEn": "Boil the water for the tea.",
       "exampleJa": "お茶のために水を沸かしてください。",
       "level": 2
@@ -699,7 +699,7 @@
       "headword": "bake",
       "partOfSpeech": "verb",
       "phonetic": "/beɪk/",
-      "meaning": "焼く",
+      "meaning": "を焼く；パンを焼く",
       "exampleEn": "My mother bakes bread on weekends.",
       "exampleJa": "母は週末にパンを焼きます。",
       "level": 1

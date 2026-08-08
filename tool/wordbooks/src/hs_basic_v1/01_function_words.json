@@ -6,7 +6,7 @@
       "headword": "above",
       "partOfSpeech": "preposition",
       "phonetic": "/əˈbʌv/",
-      "meaning": "〜の上に；〜を超えて",
+      "meaning": "〜の上に；〜より上に；〜を超えて",
       "exampleEn": "The moon rose above the mountain.",
       "exampleJa": "月が山の上に昇りました。",
       "level": 1
@@ -18,7 +18,7 @@
       "meaning": "〜によれば；〜に従って",
       "exampleEn": "According to the news, it will rain.",
       "exampleJa": "ニュースによれば、雨が降るそうです。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "across",
@@ -60,7 +60,7 @@
       "headword": "although",
       "partOfSpeech": "conjunction",
       "phonetic": "/ɔːlˈðoʊ/",
-      "meaning": "〜だけれども",
+      "meaning": "〜だけれども；〜にもかかわらず",
       "exampleEn": "Although it was raining, he went out.",
       "exampleJa": "雨が降っていましたが、彼は出かけました。",
       "level": 2
@@ -99,7 +99,7 @@
       "meaning": "〜するとすぐに",
       "exampleEn": "Call me as soon as you arrive.",
       "exampleJa": "到着したらすぐにお電話ください。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "as well as",
@@ -114,7 +114,7 @@
       "headword": "behind",
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈhaɪnd/",
-      "meaning": "〜の後ろに；〜の背後に",
+      "meaning": "〜の後ろに；〜に遅れて",
       "exampleEn": "The sun went behind the clouds.",
       "exampleJa": "太陽が雲の後ろに隠れました。",
       "level": 1
@@ -123,10 +123,10 @@
       "headword": "below",
       "partOfSpeech": "preposition",
       "phonetic": "/bɪˈloʊ/",
-      "meaning": "〜の下に；〜より低く",
+      "meaning": "〜の下に；〜より下に",
       "exampleEn": "Please read the text below.",
       "exampleJa": "以下の文章をお読みください。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "besides",
@@ -150,7 +150,7 @@
       "headword": "both",
       "partOfSpeech": "pronoun",
       "phonetic": "/boʊθ/",
-      "meaning": "両方",
+      "meaning": "両方；両者",
       "exampleEn": "Both of them are students.",
       "exampleJa": "彼ら2人とも学生です。",
       "level": 1
@@ -177,7 +177,7 @@
       "headword": "due to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜のために；〜が原因で",
+      "meaning": "〜が原因で；〜のために",
       "exampleEn": "The train was delayed due to snow.",
       "exampleJa": "雪のため電車が遅れました。",
       "level": 2
@@ -198,7 +198,7 @@
       "meaning": "特に；とりわけ",
       "exampleEn": "I like fruit, especially apples.",
       "exampleJa": "私はくだもの、特にりんごが好きです。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "even",
@@ -252,7 +252,7 @@
       "meaning": "しかしながら；けれども",
       "exampleEn": "He worked hard; however, he failed.",
       "exampleJa": "彼は懸命に働きましたが、失敗しました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "in order to",
@@ -294,10 +294,10 @@
       "headword": "moreover",
       "partOfSpeech": "adverb",
       "phonetic": "/mɔːrˈoʊvər/",
-      "meaning": "さらに；そのうえ",
+      "meaning": "さらに；その上",
       "exampleEn": "The house is big; moreover, it is quiet.",
       "exampleJa": "その家は大きく、さらに静かです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "neither",
@@ -348,10 +348,10 @@
       "headword": "otherwise",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈʌðərwaɪz/",
-      "meaning": "さもなければ；そうでなければ",
+      "meaning": "さもなければ；そうでなければ；その他の点では",
       "exampleEn": "Hurry up, otherwise you will be late.",
       "exampleJa": "急ぎなさい、さもないと遅刻しますよ。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "outside",
@@ -405,7 +405,7 @@
       "meaning": "〜に関係なく；〜を問わず",
       "exampleEn": "Everyone can join regardless of age.",
       "exampleJa": "年齢に関係なく誰でも参加できます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "since",
@@ -438,7 +438,7 @@
       "headword": "somewhat",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈsʌmwʌt/",
-      "meaning": "いくぶん；少々",
+      "meaning": "いくぶん；多少",
       "exampleEn": "His answer was somewhat unclear.",
       "exampleJa": "彼の答えはいくぶん不明確でした。",
       "level": 3
@@ -474,7 +474,7 @@
       "headword": "though",
       "partOfSpeech": "conjunction",
       "phonetic": "/ðoʊ/",
-      "meaning": "〜だけれども",
+      "meaning": "〜だけれども；〜にもかかわらず",
       "exampleEn": "Though he was tired, he kept working.",
       "exampleJa": "彼は疲れていましたが、働き続けました。",
       "level": 2
@@ -492,7 +492,7 @@
       "headword": "together",
       "partOfSpeech": "adverb",
       "phonetic": "/təˈɡeðər/",
-      "meaning": "いっしょに；共に",
+      "meaning": "一緒に；共に",
       "exampleEn": "Let's study together.",
       "exampleJa": "いっしょに勉強しましょう。",
       "level": 1
@@ -501,7 +501,7 @@
       "headword": "toward",
       "partOfSpeech": "preposition",
       "phonetic": "/tɔːrd/",
-      "meaning": "〜に向かって；〜の方へ",
+      "meaning": "〜の方へ；〜に向かって",
       "exampleEn": "She walked toward the door.",
       "exampleJa": "彼女はドアに向かって歩きました。",
       "level": 2
@@ -582,7 +582,7 @@
       "headword": "without",
       "partOfSpeech": "preposition",
       "phonetic": "/wɪˈðaʊt/",
-      "meaning": "〜なしで",
+      "meaning": "〜なしで；〜せずに",
       "exampleEn": "He left without saying goodbye.",
       "exampleJa": "彼は別れも告げずに出ていきました。",
       "level": 1
@@ -603,25 +603,25 @@
       "meaning": "偶然の；偶発的な",
       "exampleEn": "The encounter was purely accidental.",
       "exampleJa": "その出会いは純粋に偶然のものでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "acid",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæsɪd/",
-      "meaning": "酸；酸性の",
+      "meaning": "酸；酸性物質",
       "exampleEn": "Lemons contain natural citric acid.",
       "exampleJa": "レモンには天然のクエン酸が含まれます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "adequate",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈædɪkwət/",
-      "meaning": "適切な；十分な",
+      "meaning": "十分な；適切な",
       "exampleEn": "Ensure adequate food supply for all.",
       "exampleJa": "全員のための十分な食料供給を確保しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "advertise",
@@ -630,7 +630,7 @@
       "meaning": "を広告する；を宣伝する",
       "exampleEn": "Companies advertise products on TV.",
       "exampleJa": "企業がテレビで製品を広告します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "agent",
@@ -645,28 +645,28 @@
       "headword": "alcoholic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌælkəˈhɑːlɪk/",
-      "meaning": "アルコールの；アルコール中毒者",
+      "meaning": "アルコール入りの；アルコール性の",
       "exampleEn": "Do not serve alcoholic drinks to minors.",
       "exampleJa": "未成年者にアルコール飲料を提供してはならない。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "amaze",
       "partOfSpeech": "verb",
       "phonetic": "/əˈmeɪz/",
-      "meaning": "を非常に驚かせる",
+      "meaning": "を驚かせる；を感嘆させる",
       "exampleEn": "Her magic tricks amaze the audience.",
       "exampleJa": "彼女の手品トリックは観客を非常に驚かせます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "amuse",
       "partOfSpeech": "verb",
       "phonetic": "/əˈmjuːz/",
-      "meaning": "を楽しませる；を笑わせる",
+      "meaning": "を楽しませる；を面白がらせる",
       "exampleEn": "The funny clown amused young children.",
       "exampleJa": "面白いピエロが幼い子供たちを楽しませました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "angrily",
@@ -684,7 +684,7 @@
       "meaning": "匿名の；作者不明の",
       "exampleEn": "Received donation from an anonymous donor.",
       "exampleJa": "匿名の寄付者から寄付を受け取りました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "anywhere",
@@ -693,7 +693,7 @@
       "meaning": "どこかに；どこでも",
       "exampleEn": "You can sit anywhere you like.",
       "exampleJa": "あなたの好きな場所にどこでも座ることができます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "appliance",
@@ -702,7 +702,7 @@
       "meaning": "電化製品；器具",
       "exampleEn": "She bought a new kitchen appliance.",
       "exampleJa": "彼女は新しいキッチン家電を買いました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "apt",
@@ -711,7 +711,7 @@
       "meaning": "〜しがちな；適切な",
       "exampleEn": "He is apt to forget names easily.",
       "exampleJa": "彼は名前を簡単に忘れがちです。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "army",
@@ -726,10 +726,10 @@
       "headword": "artificial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɑːrtɪˈfɪʃl/",
-      "meaning": "人工の；作りものの",
+      "meaning": "人工の；人造の",
       "exampleEn": "Artificial intelligence software learns fast.",
       "exampleJa": "人工知能ソフトウェアは速く学習します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assert",
@@ -738,7 +738,7 @@
       "meaning": "と主張する；を断言する",
       "exampleEn": "He asserted his right to speak.",
       "exampleJa": "彼は話す権利を主張しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "astonish",
@@ -747,7 +747,7 @@
       "meaning": "を大いに驚かせる",
       "exampleEn": "Her sudden success astonished everyone.",
       "exampleJa": "彼女の突然の成功は全員を大いに驚かせました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "attendance",
@@ -756,22 +756,22 @@
       "meaning": "出席；出席者数",
       "exampleEn": "Please record today's class attendance.",
       "exampleJa": "今日のクラスの出席を記録してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "aunt",
       "partOfSpeech": "noun",
       "phonetic": "/ænt/",
-      "meaning": "叔母；伯母",
+      "meaning": "おば",
       "exampleEn": "My aunt lives in quiet seaside city.",
       "exampleJa": "私の叔母は静かな海辺の都市に住んでいます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "average",
       "partOfSpeech": "noun",
       "phonetic": "/ˈævərɪdʒ/",
-      "meaning": "平均；平均の",
+      "meaning": "平均；平均値；標準",
       "exampleEn": "Please calculate the class average score.",
       "exampleJa": "クラスの平均点を計算してください。",
       "level": 2
@@ -798,19 +798,19 @@
       "headword": "bank",
       "partOfSpeech": "noun",
       "phonetic": "/bæŋk/",
-      "meaning": "銀行；土手；川岸",
+      "meaning": "銀行；土手；岸",
       "exampleEn": "He deposited money in the city bank.",
       "exampleJa": "彼は市内の銀行にお金を預けました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "barrier",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈbærɪər/",
-      "meaning": "障害；障壁；バリア",
+      "phonetic": "/ˈbæriər/",
+      "meaning": "障壁；障害；柵",
       "exampleEn": "Language gap is a main communication barrier.",
       "exampleJa": "言語の隔たりは主要なコミュニケーション障壁です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "battlefield",
@@ -825,10 +825,10 @@
       "headword": "bedroom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbedruːm/",
-      "meaning": "寝室；ベッドルーム",
+      "meaning": "寝室",
       "exampleEn": "Clean your home personal bedroom space.",
       "exampleJa": "自宅の個人的な寝室スペースを清掃しなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "belief",
@@ -843,10 +843,10 @@
       "headword": "benevolence",
       "partOfSpeech": "noun",
       "phonetic": "/bəˈnevələns/",
-      "meaning": "慈悲；善行",
+      "meaning": "慈悲；博愛；親切",
       "exampleEn": "Act out of pure human benevolence.",
       "exampleJa": "純粋な人間の慈悲から行動しなさい。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "biological",
@@ -855,25 +855,25 @@
       "meaning": "生物学の；生物の",
       "exampleEn": "Scientists study the biological structure of cells.",
       "exampleJa": "科学者たちは細胞の生物学的構造を研究します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "blast",
       "partOfSpeech": "noun",
       "phonetic": "/blæst/",
-      "meaning": "爆発；突風；を爆破する",
+      "meaning": "爆発；突風",
       "exampleEn": "A huge blast shook the ground.",
       "exampleJa": "巨大な爆発が地面を揺らしました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "blue",
       "partOfSpeech": "adjective",
       "phonetic": "/bluː/",
-      "meaning": "青い；憂鬱な",
+      "meaning": "青い；憂うつな",
       "exampleEn": "The sky was clear and blue that day.",
       "exampleJa": "その日の空は澄んで青かったです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bonus",
@@ -897,7 +897,7 @@
       "headword": "breathe",
       "partOfSpeech": "verb",
       "phonetic": "/briːð/",
-      "meaning": "息をする；呼吸する",
+      "meaning": "呼吸する；息をする",
       "exampleEn": "Breathe deeply in the clean mountain air.",
       "exampleJa": "澄んだ山の空気を深く吸い込みなさい。",
       "level": 2
@@ -906,10 +906,10 @@
       "headword": "bright",
       "partOfSpeech": "adjective",
       "phonetic": "/braɪt/",
-      "meaning": "明るい；頭のいい",
+      "meaning": "明るい；賢い",
       "exampleEn": "Sun is shining in bright blue sky.",
       "exampleJa": "太陽が明るい青空に輝いています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "brother",
@@ -918,7 +918,7 @@
       "meaning": "兄；弟；兄弟",
       "exampleEn": "My older brother plays guitar well.",
       "exampleJa": "私の兄はギターを上手く弾きます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "building",
@@ -927,16 +927,16 @@
       "meaning": "建物；ビル",
       "exampleEn": "A tall office building stands in the city.",
       "exampleJa": "背の高いオフィスビルが都市に立っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "burglar",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɜːrɡlər/",
-      "meaning": "強盗；泥棒",
+      "meaning": "強盗；泥棒；侵入者",
       "exampleEn": "Police caught the burglar last night.",
       "exampleJa": "警察は昨夜、強盗を捕まえました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "butter",
@@ -945,7 +945,7 @@
       "meaning": "バター",
       "exampleEn": "Spread fresh butter on your toast.",
       "exampleJa": "トーストに新鮮なバターを塗りなさい。",
-      "level": 2
+      "level": 1
     }
   ]
 }

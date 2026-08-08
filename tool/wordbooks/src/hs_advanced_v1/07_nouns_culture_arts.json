@@ -6,28 +6,28 @@
       "headword": "artifact",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrtɪfækt/",
-      "meaning": "人工物；工芸品；歴史的遺物",
+      "meaning": "人工物；工芸品；遺物",
       "exampleEn": "Museum exhibits ancient Roman artifacts.",
       "exampleJa": "博物館は古代ローマの歴史的遺物を展示しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "chronicle",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈkrɑːnɪkəl/",
-      "meaning": "年代記；歴史記録",
+      "phonetic": "/ˈkrɑːnɪkl/",
+      "meaning": "年代記；記録",
       "exampleEn": "The book is a chronicle of war.",
       "exampleJa": "その本は戦争の年代記記録です。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "dialect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈdaɪəlekt/",
-      "meaning": "方言；地方話",
+      "meaning": "方言",
       "exampleEn": "He speaks with a southern dialect.",
       "exampleJa": "彼は南部の方言で話します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "ethos",
@@ -114,7 +114,7 @@
       "headword": "philosophy",
       "partOfSpeech": "noun",
       "phonetic": "/fəˈlɑːsəfi/",
-      "meaning": "哲学；人生観",
+      "meaning": "哲学；理念；人生観",
       "exampleEn": "He reads classical Greek philosophy.",
       "exampleJa": "彼は古典ギリシャ哲学を読んでいます。",
       "level": 3
@@ -186,7 +186,7 @@
       "headword": "absolutely",
       "partOfSpeech": "adverb",
       "phonetic": "/ˌæbsəˈluːtli/",
-      "meaning": "絶対的に；まったく",
+      "meaning": "絶対に；まったく；完全に",
       "exampleEn": "The statement is absolutely true.",
       "exampleJa": "その発言はまったく正しいです。",
       "level": 3
@@ -240,10 +240,10 @@
       "headword": "adjacent",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈdʒeɪsnt/",
-      "meaning": "隣接した；隣の",
+      "meaning": "隣接した；近くの",
       "exampleEn": "The hotel is adjacent to the station.",
       "exampleJa": "そのホテルは駅に隣接しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "admittedly",
@@ -258,10 +258,10 @@
       "headword": "adverse",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈædvɜːrs/",
-      "meaning": "逆の；不都合な；有害な",
+      "meaning": "不利な；有害な；逆の",
       "exampleEn": "The drug caused adverse side effects.",
       "exampleJa": "その薬は有害な副作用を引き起こしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "affirmative",
@@ -342,7 +342,7 @@
       "meaning": "逸話；秘話",
       "exampleEn": "The speaker shared a funny anecdote.",
       "exampleJa": "発表者は面白い逸話を披露しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "annotated",
@@ -384,7 +384,7 @@
       "headword": "applaud",
       "partOfSpeech": "verb",
       "phonetic": "/əˈplɔːd/",
-      "meaning": "に拍手する；を賞賛する",
+      "meaning": "に拍手する；を称賛する",
       "exampleEn": "The audience applauded the performance warmly.",
       "exampleJa": "観客はそのパフォーマンスに温かく拍手しました。",
       "level": 3
@@ -477,16 +477,16 @@
       "meaning": "自律的な；自治の",
       "exampleEn": "The car uses an autonomous driving system.",
       "exampleJa": "その車は自律走行システムを使用しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "awe",
       "partOfSpeech": "noun",
       "phonetic": "/ɔː/",
-      "meaning": "畏敬；敬畏の念",
+      "meaning": "畏敬；畏怖",
       "exampleEn": "She stood in silent awe of the view.",
       "exampleJa": "彼女はその景色に畏敬の念を抱き立ち尽くしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "banish",
@@ -510,10 +510,10 @@
       "headword": "bleak",
       "partOfSpeech": "adjective",
       "phonetic": "/bliːk/",
-      "meaning": "暗い；荒涼とした；見通しの暗い",
+      "meaning": "荒涼とした；暗い；わびしい",
       "exampleEn": "The economic outlook appears rather bleak.",
       "exampleJa": "経済の見通しはかなり暗いようです。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "bode",
@@ -537,10 +537,10 @@
       "headword": "brittle",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbrɪtl/",
-      "meaning": "脆い；壊れやすい",
+      "meaning": "もろい；壊れやすい",
       "exampleEn": "The old bones had become brittle.",
       "exampleJa": "その古い骨は脆くなっていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bureaucratic",
@@ -555,10 +555,10 @@
       "headword": "calamity",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈlæməti/",
-      "meaning": "大災害；惨事",
+      "meaning": "大災害；惨事；災難",
       "exampleEn": "The flood was a national calamity.",
       "exampleJa": "その洪水は国家的な大災害でした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "canopy",
@@ -573,10 +573,10 @@
       "headword": "captivity",
       "partOfSpeech": "noun",
       "phonetic": "/kæpˈtɪvəti/",
-      "meaning": "囚われの身；捕獲状態",
+      "meaning": "捕らわれの身；監禁；飼育状態",
       "exampleEn": "The animals were kept in captivity.",
       "exampleJa": "その動物たちは捕らわれの身として飼育されていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "carnivore",
@@ -801,16 +801,16 @@
       "meaning": "十字軍；改革運動",
       "exampleEn": "She led a public health crusade.",
       "exampleJa": "彼女は公衆衛生の改革運動を主導しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cumulative",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkjuːmjələtɪv/",
-      "meaning": "累積的な；引き重ねた",
+      "meaning": "累積的な；次第に増える",
       "exampleEn": "Smoking has a cumulative negative health effect.",
       "exampleJa": "喫煙は健康に累積的な悪影響を及ぼします。",
-      "level": 3
+      "level": 5
     }
   ]
 }

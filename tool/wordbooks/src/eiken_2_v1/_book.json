@@ -8,7 +8,10 @@
   "bandSize": 1100,
   "sortOrder": 50,
   "note": "英検2級合格に必要な高頻出語彙・熟語",
-  "levelRange": [2, 4],
+  "levelRange": [
+    1,
+    5
+  ],
   "chunks": [
     "00_core_verbs",
     "01_verbs_action_change",

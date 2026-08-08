@@ -6,10 +6,10 @@
       "headword": "anomaly",
       "partOfSpeech": "noun",
       "phonetic": "/əˈnɑːməli/",
-      "meaning": "異常；特異な存在",
+      "meaning": "異常；例外；特異な存在",
       "exampleEn": "Snow in July is a weather anomaly.",
       "exampleJa": "7月の雪は気象の異常現象です。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "epistemology",
@@ -33,10 +33,10 @@
       "headword": "predicament",
       "partOfSpeech": "noun",
       "phonetic": "/prɪˈdɪkəmənt/",
-      "meaning": "困境；苦境",
+      "meaning": "苦境；窮地",
       "exampleEn": "He faced a dangerous predicament.",
       "exampleJa": "彼は危険な苦境に直面しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "quintessence",
@@ -231,7 +231,7 @@
       "headword": "animated",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈænɪmeɪtɪd/",
-      "meaning": "活気のある；アニメの",
+      "meaning": "活気のある；生き生きとした；アニメの",
       "exampleEn": "They had an animated conversation about politics.",
       "exampleJa": "彼らは政治について活発な会話をしました。",
       "level": 3
@@ -312,10 +312,10 @@
       "headword": "aspiration",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæspəˈreɪʃn/",
-      "meaning": "熱望；志願；抱負",
+      "meaning": "熱望；抱負；志",
       "exampleEn": "She pursued her career aspiration eagerly.",
       "exampleJa": "彼女は自分のキャリアへの願望を熱心に追い求めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "astound",
@@ -459,7 +459,7 @@
       "meaning": "心臓血管の",
       "exampleEn": "Aerobic exercise improves cardiovascular health.",
       "exampleJa": "有酸素運動は心臓血管の健康を向上させます。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cartography",
@@ -657,7 +657,7 @@
       "meaning": "信条；教義",
       "exampleEn": "People of every race and creed gathered.",
       "exampleJa": "あらゆる人種と信条の人々が集まりました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "crosshairs",

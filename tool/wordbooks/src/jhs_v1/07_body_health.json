@@ -96,7 +96,7 @@
       "headword": "arm",
       "partOfSpeech": "noun",
       "phonetic": "/ɑːrm/",
-      "meaning": "腕",
+      "meaning": "腕；武器",
       "exampleEn": "She broke her arm last week.",
       "exampleJa": "彼女は先週、腕を骨折しました。",
       "level": 1
@@ -150,10 +150,10 @@
       "headword": "back",
       "partOfSpeech": "noun",
       "phonetic": "/bæk/",
-      "meaning": "背中",
+      "meaning": "背中；後ろ；裏",
       "exampleEn": "My back hurts from sitting long.",
       "exampleJa": "長く座っていたので背中が痛いです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "stomach",
@@ -186,7 +186,7 @@
       "headword": "body",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːdi/",
-      "meaning": "体；身体",
+      "meaning": "体；身体；組織",
       "exampleEn": "Sleep is important for your body.",
       "exampleJa": "睡眠はあなたの体にとって大切です。",
       "level": 1
@@ -204,7 +204,7 @@
       "headword": "chest",
       "partOfSpeech": "noun",
       "phonetic": "/tʃest/",
-      "meaning": "胸",
+      "meaning": "胸；箱",
       "exampleEn": "He felt pain in his chest.",
       "exampleJa": "彼は胸に痛みを感じました。",
       "level": 2
@@ -231,7 +231,7 @@
       "headword": "brain",
       "partOfSpeech": "noun",
       "phonetic": "/breɪn/",
-      "meaning": "脳",
+      "meaning": "脳；頭脳",
       "exampleEn": "Reading books is good for the brain.",
       "exampleJa": "読書は脳に良いです。",
       "level": 2
@@ -240,10 +240,10 @@
       "headword": "blood",
       "partOfSpeech": "noun",
       "phonetic": "/blʌd/",
-      "meaning": "血；血液",
+      "meaning": "血；血液；血統",
       "exampleEn": "You need blood to stay alive.",
       "exampleJa": "人は生きるために血液が必要です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bone",
@@ -258,7 +258,7 @@
       "headword": "muscle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmʌsl/",
-      "meaning": "筋肉",
+      "meaning": "筋肉；筋力",
       "exampleEn": "Swimming builds strong muscles in the body.",
       "exampleJa": "水泳は体の筋肉を強くします。",
       "level": 2
@@ -302,7 +302,7 @@
     {
       "headword": "medicine",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈmedsn/",
+      "phonetic": "/ˈmedɪsn/",
       "meaning": "薬；医学",
       "exampleEn": "Take this medicine after every meal.",
       "exampleJa": "毎食後にこの薬を飲んでください。",
@@ -330,7 +330,7 @@
       "headword": "treatment",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtriːtmənt/",
-      "meaning": "治療",
+      "meaning": "治療；取り扱い；待遇",
       "exampleEn": "The doctor explained the treatment carefully.",
       "exampleJa": "医者は治療について丁寧に説明しました。",
       "level": 3
@@ -339,7 +339,7 @@
       "headword": "illness",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪlnəs/",
-      "meaning": "病気",
+      "meaning": "病気；体調不良",
       "exampleEn": "He was absent because of illness.",
       "exampleJa": "彼は病気のため欠席しました。",
       "level": 2
@@ -375,7 +375,7 @@
       "headword": "temperature",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtemprətʃər/",
-      "meaning": "体温；気温",
+      "meaning": "温度；気温；体温",
       "exampleEn": "The nurse checked my temperature first.",
       "exampleJa": "看護師はまず私の体温を測りました。",
       "level": 2
@@ -402,10 +402,10 @@
       "headword": "disease",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈziːz/",
-      "meaning": "病気；疾病",
+      "meaning": "病気；疾患",
       "exampleEn": "Doctors are studying this new disease.",
       "exampleJa": "医者たちはこの新しい病気を研究しています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "cold",
@@ -438,7 +438,7 @@
       "headword": "breath",
       "partOfSpeech": "noun",
       "phonetic": "/breθ/",
-      "meaning": "息",
+      "meaning": "息；呼吸",
       "exampleEn": "Take a deep breath and relax.",
       "exampleJa": "深呼吸をしてリラックスしてください。",
       "level": 2
@@ -447,10 +447,10 @@
       "headword": "energy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈenərdʒi/",
-      "meaning": "元気；エネルギー",
+      "meaning": "エネルギー；元気；活力",
       "exampleEn": "Fruit gives you energy in the morning.",
       "exampleJa": "果物は朝にエネルギーを与えてくれます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "strength",
@@ -483,7 +483,7 @@
       "headword": "weight",
       "partOfSpeech": "noun",
       "phonetic": "/weɪt/",
-      "meaning": "体重；重さ",
+      "meaning": "重さ；体重；重量",
       "exampleEn": "He checks his weight every morning.",
       "exampleJa": "彼は毎朝体重を量ります。",
       "level": 2
@@ -537,7 +537,7 @@
       "headword": "anger",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡər/",
-      "meaning": "怒り",
+      "meaning": "怒り；立腹",
       "exampleEn": "He could not hide his anger.",
       "exampleJa": "彼は怒りを隠せませんでした。",
       "level": 2
@@ -735,10 +735,10 @@
       "headword": "painful",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpeɪnfl/",
-      "meaning": "痛い",
+      "meaning": "痛い；つらい",
       "exampleEn": "The injury was painful for a week.",
       "exampleJa": "そのけがは1週間痛みました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "nail",
@@ -762,7 +762,7 @@
       "headword": "confidence",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnfɪdəns/",
-      "meaning": "自信",
+      "meaning": "自信；信頼",
       "exampleEn": "Winning the game gave her confidence.",
       "exampleJa": "試合に勝って彼女は自信を持ちました。",
       "level": 3
@@ -771,10 +771,10 @@
       "headword": "pride",
       "partOfSpeech": "noun",
       "phonetic": "/praɪd/",
-      "meaning": "誇り",
+      "meaning": "誇り；自尊心",
       "exampleEn": "He spoke about his school with pride.",
       "exampleJa": "彼は誇りを持って自分の学校について話しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "loneliness",
@@ -789,7 +789,7 @@
       "headword": "comfort",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌmfərt/",
-      "meaning": "安心；快適さ",
+      "meaning": "快適さ；慰め；安らぎ",
       "exampleEn": "Her words gave me great comfort.",
       "exampleJa": "彼女の言葉は私に大きな安心を与えてくれました。",
       "level": 3
@@ -843,7 +843,7 @@
       "headword": "appetite",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæpɪtaɪt/",
-      "meaning": "食欲",
+      "meaning": "食欲；欲求",
       "exampleEn": "I lost my appetite because of the heat.",
       "exampleJa": "暑さで食欲がなくなりました。",
       "level": 3

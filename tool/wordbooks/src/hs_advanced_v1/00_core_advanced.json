@@ -6,16 +6,16 @@
       "headword": "abandon",
       "partOfSpeech": "verb",
       "phonetic": "/əˈbændən/",
-      "meaning": "を捨てる；を断念する",
+      "meaning": "を捨てる；を見捨てる；を断念する",
       "exampleEn": "They abandoned the damaged ship.",
       "exampleJa": "彼らは損傷した船を捨てました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "accommodate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkɑːmədeɪt/",
-      "meaning": "を収容できる；を適応させる",
+      "meaning": "を収容する；を適応させる；に便宜を図る",
       "exampleEn": "The hotel can accommodate 300 guests.",
       "exampleJa": "そのホテルは300名の客を収容できます。",
       "level": 4
@@ -24,25 +24,25 @@
       "headword": "acknowledge",
       "partOfSpeech": "verb",
       "phonetic": "/əkˈnɑːlɪdʒ/",
-      "meaning": "を認める；に謝意を表す",
+      "meaning": "を認める；の受領を知らせる；に感謝する",
       "exampleEn": "He acknowledged his mistake publicly.",
       "exampleJa": "彼は公に自分の間違いを認めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "acquire",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkwaɪər/",
-      "meaning": "を取得する；を習得する",
+      "meaning": "を習得する；を手に入れる；を取得する",
       "exampleEn": "She acquired a new skill.",
       "exampleJa": "彼女は新しい技能を習得しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "advocate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈædvəkeɪt/",
-      "meaning": "を主張する；を擁護する",
+      "meaning": "を主張する；を擁護する；を提唱する",
       "exampleEn": "They advocate environmental protection.",
       "exampleJa": "彼らは環境保護を主張しています。",
       "level": 4
@@ -54,13 +54,13 @@
       "meaning": "生じる；起こる",
       "exampleEn": "Unexpected problems arose during test.",
       "exampleJa": "テスト中に予期せぬ問題が生じました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "assert",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsɜːrt/",
-      "meaning": "と断言する；を主張する",
+      "meaning": "と主張する；を断言する",
       "exampleEn": "She asserted her innocence.",
       "exampleJa": "彼女は自身の無実を強く主張しました。",
       "level": 4
@@ -72,22 +72,22 @@
       "meaning": "を評価する；を査定する",
       "exampleEn": "Assess the risk before acting.",
       "exampleJa": "行動する前にリスクを評価しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "boast",
       "partOfSpeech": "verb",
       "phonetic": "/boʊst/",
-      "meaning": "を誇る；自慢する",
+      "meaning": "を自慢する；を誇る",
       "exampleEn": "The city boasts a long history.",
       "exampleJa": "その都市は長い歴史を誇っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "boost",
       "partOfSpeech": "verb",
       "phonetic": "/buːst/",
-      "meaning": "を高める；を後押しする",
+      "meaning": "を高める；を押し上げる；を後押しする",
       "exampleEn": "The news boosted their confidence.",
       "exampleJa": "その知らせが彼らの自信を高めました。",
       "level": 3
@@ -96,7 +96,7 @@
       "headword": "coincide",
       "partOfSpeech": "verb",
       "phonetic": "/ˌkoʊɪnˈsaɪd/",
-      "meaning": "同時に起きる；一致する",
+      "meaning": "同時に起こる；一致する",
       "exampleEn": "His holiday coincided with mine.",
       "exampleJa": "彼の休暇は私の休暇と同時に重なりました。",
       "level": 4
@@ -105,16 +105,16 @@
       "headword": "concede",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsiːd/",
-      "meaning": "を認める；譲歩する",
+      "meaning": "を認める；を譲る；譲歩する",
       "exampleEn": "He conceded victory to his opponent.",
       "exampleJa": "彼は対戦相手に勝利を認めました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "condemn",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈdem/",
-      "meaning": "を非難する；を宣告する",
+      "meaning": "を非難する；に刑を宣告する",
       "exampleEn": "The leaders condemned terrorist attacks.",
       "exampleJa": "指導者たちはテロ攻撃を非難しました。",
       "level": 4
@@ -132,16 +132,16 @@
       "headword": "conserve",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɜːrv/",
-      "meaning": "を保存する；を節約する",
+      "meaning": "を保護する；を節約する",
       "exampleEn": "We must conserve energy.",
       "exampleJa": "私たちはエネルギーを節約しなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consist",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɪst/",
-      "meaning": "から構成される；存在する",
+      "meaning": "から成る；にある",
       "exampleEn": "The team consists of ten members.",
       "exampleJa": "そのチームは10人のメンバーから構成されています。",
       "level": 3
@@ -168,7 +168,7 @@
       "headword": "consume",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsuːm/",
-      "meaning": "を消費する；を使い果たす",
+      "meaning": "を消費する；を摂取する",
       "exampleEn": "Cars consume less fuel now.",
       "exampleJa": "車は現在より少ない燃料を消費します。",
       "level": 3
@@ -189,25 +189,25 @@
       "meaning": "を伝える；を運ぶ",
       "exampleEn": "Please convey my best regards.",
       "exampleJa": "よろしくお伝えください。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cultivate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkʌltɪveɪt/",
-      "meaning": "を栽培する；を養う",
+      "meaning": "を耕作する；を栽培する；を育成する",
       "exampleEn": "Cultivate good habits early in life.",
       "exampleJa": "人生の早い時期に良い習慣を養いなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "decline",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈklaɪn/",
-      "meaning": "減少する；を丁寧に断る",
+      "meaning": "減少する；を丁重に断る",
       "exampleEn": "Profits declined by ten percent.",
       "exampleJa": "利益は10パーセント減少しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dedicate",
@@ -267,7 +267,7 @@
       "headword": "despise",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspaɪz/",
-      "meaning": "を軽蔑する；を蔑む",
+      "meaning": "を軽蔑する；を嫌う",
       "exampleEn": "He despises dishonest people.",
       "exampleJa": "彼は不誠実な人々を軽蔑しています。",
       "level": 4
@@ -276,7 +276,7 @@
       "headword": "deteriorate",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈtɪriəreɪt/",
-      "meaning": "悪化する；を悪化させる",
+      "meaning": "悪化する；劣化する",
       "exampleEn": "Her health deteriorated rapidly.",
       "exampleJa": "彼女の健康状態は急速に悪化しました。",
       "level": 4
@@ -294,7 +294,7 @@
       "headword": "diminish",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈmɪnɪʃ/",
-      "meaning": "を減らす；減少する",
+      "meaning": "減少する；を減らす",
       "exampleEn": "The pain diminished after taking medicine.",
       "exampleJa": "薬を飲んだ後、痛みが和らぎました。",
       "level": 4
@@ -303,7 +303,7 @@
       "headword": "discharge",
       "partOfSpeech": "verb",
       "phonetic": "/dɪsˈtʃɑːrdʒ/",
-      "meaning": "を排出する；を解放する",
+      "meaning": "を排出する；を退院させる；を解雇する",
       "exampleEn": "Factories discharge toxic waste.",
       "exampleJa": "工場は有毒廃棄物を排出します。",
       "level": 4
@@ -330,7 +330,7 @@
       "headword": "display",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspleɪ/",
-      "meaning": "を展示する；を表出する",
+      "meaning": "を展示する；を表示する；を表に出す",
       "exampleEn": "Museum displayed ancient armor.",
       "exampleJa": "博物館は古代の鎧を展示しました。",
       "level": 3
@@ -456,16 +456,16 @@
       "headword": "addict",
       "partOfSpeech": "noun",
       "phonetic": "/ˈædɪkt/",
-      "meaning": "中毒者；マニア",
+      "meaning": "中毒者；熱中する人",
       "exampleEn": "He is a video game addict.",
       "exampleJa": "彼はテレビゲームの中毒者です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "administer",
       "partOfSpeech": "verb",
       "phonetic": "/ədˈmɪnɪstər/",
-      "meaning": "を管理する；を投与する",
+      "meaning": "を管理する；を運営する；を投与する",
       "exampleEn": "The nurse administered medicine to the patient.",
       "exampleJa": "看護師は患者に薬を投与しました。",
       "level": 4
@@ -528,10 +528,10 @@
       "headword": "alternate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɔːltərneɪt/",
-      "meaning": "交互にする；代わりの",
+      "meaning": "交互に起こる；を交互にする；交代する",
       "exampleEn": "Rain and sunshine alternate during spring.",
       "exampleJa": "春の間、雨と日差しが交互になります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "ameliorate",
@@ -621,7 +621,7 @@
       "meaning": "を逮捕する；を理解する",
       "exampleEn": "Police moved to apprehend the suspect.",
       "exampleJa": "警察はその容疑者を逮捕するために動きました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aqueduct",
@@ -672,10 +672,10 @@
       "headword": "astounding",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈstaʊndɪŋ/",
-      "meaning": "驚くべき；度肝を抜く",
+      "meaning": "驚くべき；度肝を抜くような",
       "exampleEn": "The company achieved astounding sales growth.",
       "exampleJa": "その会社は驚くべき売上成長を達成しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "attainability",
@@ -708,10 +708,10 @@
       "headword": "avert",
       "partOfSpeech": "verb",
       "phonetic": "/əˈvɜːrt/",
-      "meaning": "を回避する；目を背ける",
+      "meaning": "を回避する；から目をそらす",
       "exampleEn": "The measures helped avert a bank crisis.",
       "exampleJa": "その措置は銀行危機の回避に役立ちました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "azure",
@@ -753,10 +753,10 @@
       "headword": "blizzard",
       "partOfSpeech": "noun",
       "phonetic": "/ˈblɪzərd/",
-      "meaning": "大吹雪；ブリザード",
+      "meaning": "猛吹雪；大吹雪",
       "exampleEn": "A severe blizzard hit the town.",
       "exampleJa": "激しい吹雪がその町を襲いました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bonanza",
@@ -771,10 +771,10 @@
       "headword": "bribery",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbraɪbəri/",
-      "meaning": "贈収賄；買収",
+      "meaning": "贈収賄；賄賂；買収",
       "exampleEn": "The politician was arrested on bribery charges.",
       "exampleJa": "その政治家は贈収賄の罪で逮捕されました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "buffer",
@@ -801,7 +801,7 @@
       "meaning": "迷彩；偽装；カムフラージュ",
       "exampleEn": "Soldiers wore green camouflage in the forest.",
       "exampleJa": "兵士たちは森の中で緑の迷彩服を着ていました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "capitulation",
@@ -1035,7 +1035,7 @@
       "meaning": "を火葬する",
       "exampleEn": "The family chose to cremate the body.",
       "exampleJa": "家族は遺体を火葬することにしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "crotchety",
@@ -1059,10 +1059,10 @@
       "headword": "custody",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstədi/",
-      "meaning": "保管；保護権；拘留",
+      "meaning": "保護；保管；拘留",
       "exampleEn": "The parent was awarded custody of the child.",
       "exampleJa": "その親は子供の親権を得ました。",
-      "level": 3
+      "level": 4
     }
   ]
 }

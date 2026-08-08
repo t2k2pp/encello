@@ -5,17 +5,17 @@
     {
       "headword": "awful",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈɔːfəl/",
+      "phonetic": "/ˈɔːfl/",
       "meaning": "ひどい；恐ろしい",
       "exampleEn": "I had an awful headache.",
       "exampleJa": "ひどい頭痛がしました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "calm",
       "partOfSpeech": "adjective",
       "phonetic": "/kɑːm/",
-      "meaning": "落ち着いた；穏やかな",
+      "meaning": "穏やかな；落ち着いた；冷静な",
       "exampleEn": "Stay calm in emergencies.",
       "exampleJa": "緊急時には落ち着いていなさい。",
       "level": 2
@@ -23,11 +23,11 @@
     {
       "headword": "capable",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈkeɪpəbəl/",
-      "meaning": "能力がある；〜できる",
+      "phonetic": "/ˈkeɪpəbl/",
+      "meaning": "能力がある；有能な",
       "exampleEn": "She is capable of handling stress.",
       "exampleJa": "彼女はストレスを処理する能力があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "confident",
@@ -36,13 +36,13 @@
       "meaning": "自信がある；確信している",
       "exampleEn": "I am confident of winning.",
       "exampleJa": "私は勝利を確信しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "conscious",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːnʃəs/",
-      "meaning": "意識している；自覚している",
+      "meaning": "意識している；気づいている",
       "exampleEn": "He was conscious of his mistake.",
       "exampleJa": "彼は自分の間違いを自覚していました。",
       "level": 3
@@ -51,7 +51,7 @@
       "headword": "convenient",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈviːniənt/",
-      "meaning": "便利な；都合が良い",
+      "meaning": "便利な；都合の良い",
       "exampleEn": "Living near the station is convenient.",
       "exampleJa": "駅の近くに住むのは便利です。",
       "level": 2
@@ -60,10 +60,10 @@
       "headword": "creative",
       "partOfSpeech": "adjective",
       "phonetic": "/kriˈeɪtɪv/",
-      "meaning": "創造的な；クリエイティブな",
+      "meaning": "創造的な；独創的な",
       "exampleEn": "Artists are creative people.",
       "exampleJa": "芸術家は創造的な人々です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "curious",
@@ -72,7 +72,7 @@
       "meaning": "好奇心が強い；奇妙な",
       "exampleEn": "Children are curious about nature.",
       "exampleJa": "子どもたちは自然に対して好奇心が旺盛です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "desperate",
@@ -87,16 +87,16 @@
       "headword": "eager",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈiːɡər/",
-      "meaning": "熱心な；〜したがっている",
+      "meaning": "熱心な；しきりに〜したがっている",
       "exampleEn": "Students were eager to learn.",
       "exampleJa": "生徒たちは熱心に学ぼうとしていました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "enthusiastic",
       "partOfSpeech": "adjective",
       "phonetic": "/ɪnˌθuːziˈæstɪk/",
-      "meaning": "熱狂的な；意気込みのある",
+      "meaning": "熱心な；熱狂的な",
       "exampleEn": "They gave an enthusiastic welcome.",
       "exampleJa": "彼らは熱狂的な歓迎をしてくれました。",
       "level": 3
@@ -108,7 +108,7 @@
       "meaning": "優秀な；すばらしい",
       "exampleEn": "She gave an excellent performance.",
       "exampleJa": "彼女はすばらしい演技を披露しました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "generous",
@@ -117,7 +117,7 @@
       "meaning": "気前の良い；寛大な",
       "exampleEn": "He is generous to his friends.",
       "exampleJa": "彼は友人に対して気前が良いです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "gentle",
@@ -126,7 +126,7 @@
       "meaning": "優しい；穏やかな",
       "exampleEn": "Speak in a gentle voice.",
       "exampleJa": "優しい声で話しなさい。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "guilty",
@@ -162,7 +162,7 @@
       "meaning": "正直な；誠実な",
       "exampleEn": "Give me an honest opinion.",
       "exampleJa": "正直な意見を言いなさい。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "horrible",
@@ -186,10 +186,10 @@
       "headword": "ideal",
       "partOfSpeech": "adjective",
       "phonetic": "/aɪˈdiːəl/",
-      "meaning": "理想的な",
+      "meaning": "理想的な；最適な",
       "exampleEn": "This is an ideal place for picnic.",
       "exampleJa": "ここはピクニックに理想的な場所です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "innocent",
@@ -243,7 +243,7 @@
       "meaning": "寂しい；孤独な",
       "exampleEn": "I felt lonely without friends.",
       "exampleJa": "友達がいなくて寂しく感じました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "loyal",
@@ -261,7 +261,7 @@
       "meaning": "控えめな；謙虚な",
       "exampleEn": "She is modest about her talent.",
       "exampleJa": "彼女は自分の才能に対して控えめです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "neat",
@@ -284,7 +284,7 @@
     {
       "headword": "painful",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈpeɪnfəl/",
+      "phonetic": "/ˈpeɪnfl/",
       "meaning": "痛い；つらい",
       "exampleEn": "It was a painful memory.",
       "exampleJa": "それはつらい思い出でした。",
@@ -293,8 +293,8 @@
     {
       "headword": "patient",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈpeɪʃənt/",
-      "meaning": "忍耐強い；根気強い",
+      "phonetic": "/ˈpeɪʃnt/",
+      "meaning": "忍耐強い；我慢強い",
       "exampleEn": "Teachers need to be patient.",
       "exampleJa": "教師は忍耐強い必要があります。",
       "level": 2
@@ -312,10 +312,10 @@
       "headword": "polite",
       "partOfSpeech": "adjective",
       "phonetic": "/pəˈlaɪt/",
-      "meaning": "礼儀正しい",
+      "meaning": "礼儀正しい；丁寧な",
       "exampleEn": "Always be polite to customers.",
       "exampleJa": "お客様には常に礼儀正しくしなさい。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "positive",
@@ -333,12 +333,12 @@
       "meaning": "貴重な；大切な",
       "exampleEn": "Time is very precious.",
       "exampleJa": "時間はとても貴重です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "professional",
       "partOfSpeech": "adjective",
-      "phonetic": "/prəˈfeʃənəl/",
+      "phonetic": "/prəˈfeʃənl/",
       "meaning": "プロの；専門的な",
       "exampleEn": "Seek professional advice.",
       "exampleJa": "専門的な助言を求めなさい。",
@@ -351,16 +351,16 @@
       "meaning": "誇りに思って；自慢の",
       "exampleEn": "I am proud of my son.",
       "exampleJa": "私は息子を誇りに思っています。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "rational",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈræʃənəl/",
-      "meaning": "理性的；合理的な",
+      "phonetic": "/ˈræʃnəl/",
+      "meaning": "合理的な；理性的な；論理的な",
       "exampleEn": "Make a rational decision.",
       "exampleJa": "合理的判決をしなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "reasonable",
@@ -384,10 +384,10 @@
       "headword": "sensitive",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈsensətɪv/",
-      "meaning": "敏感な；細やかな",
+      "meaning": "敏感な；繊細な",
       "exampleEn": "She is sensitive to skin products.",
       "exampleJa": "彼女はスキンケア用品に敏感です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "splendid",
@@ -410,11 +410,11 @@
     {
       "headword": "terrible",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈterəbəl/",
-      "meaning": "恐ろしい；ひどい",
+      "phonetic": "/ˈterəbl/",
+      "meaning": "ひどい；恐ろしい",
       "exampleEn": "It was a terrible storm.",
       "exampleJa": "ひどい嵐でした。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "tough",
@@ -437,8 +437,8 @@
     {
       "headword": "valuable",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈvæljuəbəl/",
-      "meaning": "価値のある；貴重な",
+      "phonetic": "/ˈvæljuəbl/",
+      "meaning": "貴重な；価値のある",
       "exampleEn": "Health is our most valuable asset.",
       "exampleJa": "健康は私たちの最も貴重な財産です。",
       "level": 2
@@ -459,7 +459,7 @@
       "meaning": "賢い；賢明な",
       "exampleEn": "He made a wise decision.",
       "exampleJa": "彼は賢明な判断を下しました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "worth",
@@ -474,10 +474,10 @@
       "headword": "adapt",
       "partOfSpeech": "verb",
       "phonetic": "/əˈdæpt/",
-      "meaning": "に適応する；を適応させる",
+      "meaning": "適応する；を適応させる；を改作する",
       "exampleEn": "Adapt quickly to new environments.",
       "exampleJa": "新しい環境に素早く適応しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "adoption",
@@ -501,19 +501,19 @@
       "headword": "aim",
       "partOfSpeech": "verb",
       "phonetic": "/eɪm/",
-      "meaning": "を狙う；目指す；目的",
+      "meaning": "を目指す；を狙う",
       "exampleEn": "Aim for high achievement scores.",
       "exampleJa": "高い達成スコアを目指しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "altogether",
       "partOfSpeech": "adverb",
       "phonetic": "/ˌɔːltəˈɡeðər/",
-      "meaning": "完全に；全部で",
+      "meaning": "全部で；完全に",
       "exampleEn": "That is an altogether different question.",
       "exampleJa": "それは完全に異なる質問です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "amiable",
@@ -522,22 +522,22 @@
       "meaning": "愛想の良い；親しみやすい",
       "exampleEn": "She greeted everyone with an amiable smile.",
       "exampleJa": "彼女は愛想の良い笑顔でみんなを迎えました。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "anchor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋkər/",
-      "meaning": "錨；ニュースキャスター；固定する",
+      "meaning": "錨；ニュースキャスター",
       "exampleEn": "Drop the heavy iron anchor into the sea.",
       "exampleJa": "重い鉄の錨を海に降ろしなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "announcement",
       "partOfSpeech": "noun",
       "phonetic": "/əˈnaʊnsmənt/",
-      "meaning": "発表；告知；アナウンス",
+      "meaning": "発表；告知；案内",
       "exampleEn": "Listen to the flight arrival announcement.",
       "exampleJa": "フライト到着のアナウンスを聞きなさい。",
       "level": 2
@@ -546,19 +546,19 @@
       "headword": "anybody",
       "partOfSpeech": "pronoun",
       "phonetic": "/ˈenibɑːdi/",
-      "meaning": "誰か；誰も（否定・疑問）",
+      "meaning": "誰か；誰でも；誰も",
       "exampleEn": "Is anybody home inside the house?",
       "exampleJa": "家の中に誰かいますか？",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "arise",
       "partOfSpeech": "verb",
       "phonetic": "/əˈraɪz/",
-      "meaning": "生じる；発生する",
+      "meaning": "生じる；起こる",
       "exampleEn": "Problems arise when rules are ignored.",
       "exampleJa": "規則が無視されると問題が生じます。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "arrogant",
@@ -567,7 +567,7 @@
       "meaning": "傲慢な；横柄な",
       "exampleEn": "Avoid arrogant behavior towards others.",
       "exampleJa": "他者に対する傲慢な行動を避けなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "associate",
@@ -576,43 +576,43 @@
       "meaning": "を関連づける；交際する",
       "exampleEn": "Associate green with the natural environment.",
       "exampleJa": "緑を自然環境と関連づけなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "attachment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtætʃmənt/",
-      "meaning": "添付ファイル；愛着",
+      "meaning": "添付ファイル；付属品；愛着",
       "exampleEn": "Open the file attachment in the email.",
       "exampleJa": "メールの添付ファイルを開きなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "audience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
-      "meaning": "観客；聴衆",
+      "meaning": "聴衆；観客；対象層",
       "exampleEn": "The audience clapped for the warm performance.",
       "exampleJa": "観客が温かいパフォーマンスに拍手をしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "autonomy",
       "partOfSpeech": "noun",
       "phonetic": "/ɔːˈtɑːnəmi/",
-      "meaning": "自治；自律性",
+      "meaning": "自治；自主性；自律性",
       "exampleEn": "University maintains full academic research autonomy.",
       "exampleJa": "大学は完全な学術研究の自律性を維持しています。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "awesome",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɔːsəm/",
-      "meaning": "すばらしい；荘厳な",
+      "meaning": "すばらしい；見事な；荘厳な",
       "exampleEn": "The concert music show was awesome.",
       "exampleJa": "コンサートの音楽ショーはすばらしかったです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "badly",
@@ -627,7 +627,7 @@
       "headword": "bamboo",
       "partOfSpeech": "noun",
       "phonetic": "/ˌbæmˈbuː/",
-      "meaning": "タケ；竹",
+      "meaning": "竹",
       "exampleEn": "Pandas eat fresh green bamboo leaves.",
       "exampleJa": "パンダは新鮮な緑の竹の葉を食べます。",
       "level": 2
@@ -639,34 +639,34 @@
       "meaning": "かろうじて；ほとんど〜ない",
       "exampleEn": "He could barely hear the quiet voice.",
       "exampleJa": "彼は静かな声をかろうじて聞くことができました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bath",
       "partOfSpeech": "noun",
       "phonetic": "/bæθ/",
-      "meaning": "入浴；お風呂",
+      "meaning": "入浴；風呂",
       "exampleEn": "Take a hot water bath evening.",
       "exampleJa": "夕方温かいお湯のお風呂に入りなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "beautiful",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbjuːtɪfl/",
-      "meaning": "美しい；素晴らしい",
+      "meaning": "美しい；きれいな",
       "exampleEn": "She wore a beautiful pink dress flower.",
       "exampleJa": "彼女は美しいピンクのドレスの花を着ていました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "behalf",
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈhæf/",
-      "meaning": "味方；代理（on behalf of）",
+      "meaning": "味方；利益；代理",
       "exampleEn": "Speak on behalf of team members.",
       "exampleJa": "チームメンバーの代理として話しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "betrayal",
@@ -693,16 +693,16 @@
       "meaning": "黒板",
       "exampleEn": "The teacher wrote the English lesson on the blackboard.",
       "exampleJa": "先生が黒板に英語の授業を書きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "blood",
       "partOfSpeech": "noun",
       "phonetic": "/blʌd/",
-      "meaning": "血液；血",
+      "meaning": "血；血液；血統",
       "exampleEn": "The heart pumps blood through the body.",
       "exampleJa": "心臓は血液を体中に送り出します。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "boldly",
@@ -720,7 +720,7 @@
       "meaning": "退屈した；飽きた",
       "exampleEn": "I felt bored watching a slow movie.",
       "exampleJa": "私は退屈な映画を見て飽きたように感じました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "box",
@@ -729,34 +729,34 @@
       "meaning": "箱；ケース",
       "exampleEn": "Pack the books inside a heavy cardboard box.",
       "exampleJa": "重い段ボール箱の中に本を詰めなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "breakdown",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbreɪkdaʊn/",
-      "meaning": "故障；崩壊；分析",
+      "meaning": "故障；崩壊；内訳",
       "exampleEn": "The car suffered an engine breakdown on the road.",
       "exampleJa": "車が路上でエンジン故障を起こしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bridge",
       "partOfSpeech": "noun",
       "phonetic": "/brɪdʒ/",
-      "meaning": "橋；架け橋；を架ける",
+      "meaning": "橋；架け橋",
       "exampleEn": "Cross the long stone river water bridge.",
       "exampleJa": "長い石の川の水の橋を渡りなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "broken",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbroʊkən/",
-      "meaning": "壊れた；割れた",
+      "meaning": "壊れた；折れた",
       "exampleEn": "Repair the broken glass window frame.",
       "exampleJa": "壊れたガラス窓のフレームを修理しなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "budget",
@@ -765,7 +765,7 @@
       "meaning": "予算；経費",
       "exampleEn": "Manage your family's annual budget.",
       "exampleJa": "家族の年間予算を管理しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bundle",
@@ -774,7 +774,7 @@
       "meaning": "束；包み",
       "exampleEn": "Tie paper sheets into a neat bundle.",
       "exampleJa": "紙のシートをきちんとした束に縛りなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "businessman",
@@ -789,10 +789,10 @@
       "headword": "byte",
       "partOfSpeech": "noun",
       "phonetic": "/baɪt/",
-      "meaning": "バイト（情報単位）",
+      "meaning": "バイト；情報量の単位",
       "exampleEn": "Computer file data size is thousand bytes.",
       "exampleJa": "コンピューターファイルデータのサイズは1,000バイトです。",
-      "level": 2
+      "level": 3
     }
   ]
 }

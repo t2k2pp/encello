@@ -63,7 +63,7 @@
       "meaning": "バドミントン",
       "exampleEn": "We play badminton in the park.",
       "exampleJa": "私たちは公園でバドミントンをします。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "table tennis",
@@ -123,7 +123,7 @@
       "headword": "ball",
       "partOfSpeech": "noun",
       "phonetic": "/bɔːl/",
-      "meaning": "ボール",
+      "meaning": "ボール；球；舞踏会",
       "exampleEn": "The dog caught the ball quickly.",
       "exampleJa": "その犬は素早くボールをキャッチしました。",
       "level": 1
@@ -132,19 +132,19 @@
       "headword": "goal",
       "partOfSpeech": "noun",
       "phonetic": "/ɡoʊl/",
-      "meaning": "ゴール；得点；目標",
+      "meaning": "目標；ゴール；得点",
       "exampleEn": "She scored the winning goal.",
       "exampleJa": "彼女は決勝ゴールを決めました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "champion",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃæmpiən/",
-      "meaning": "チャンピオン；優勝者",
+      "meaning": "優勝者；チャンピオン",
       "exampleEn": "He became the school champion this year.",
       "exampleJa": "彼は今年学校のチャンピオンになりました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "medal",
@@ -204,7 +204,7 @@
       "headword": "cheer",
       "partOfSpeech": "verb",
       "phonetic": "/tʃɪr/",
-      "meaning": "応援する；歓声を上げる",
+      "meaning": "に声援を送る；を元気づける；歓声を上げる",
       "exampleEn": "We cheered for our team loudly.",
       "exampleJa": "私たちは大声でチームを応援しました。",
       "level": 2
@@ -213,10 +213,10 @@
       "headword": "event",
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈvent/",
-      "meaning": "行事；イベント",
+      "meaning": "出来事；行事；イベント",
       "exampleEn": "The school has a big sports event.",
       "exampleJa": "その学校には大きなスポーツ行事があります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "party",
@@ -258,7 +258,7 @@
       "headword": "custom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəm/",
-      "meaning": "習慣；風習",
+      "meaning": "慣習；風習",
       "exampleEn": "Bowing is a common custom in Japan.",
       "exampleJa": "お辞儀は日本でよく見られる習慣です。",
       "level": 3
@@ -297,7 +297,7 @@
       "meaning": "衣装；仮装",
       "exampleEn": "She wore a cat costume at the party.",
       "exampleJa": "彼女はパーティーで猫の衣装を着ました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "legend",
@@ -402,10 +402,10 @@
       "headword": "band",
       "partOfSpeech": "noun",
       "phonetic": "/bænd/",
-      "meaning": "バンド；楽団",
+      "meaning": "バンド；楽団；帯",
       "exampleEn": "Our band practices twice a week.",
       "exampleJa": "私たちのバンドは週に2回練習します。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "concert",
@@ -414,7 +414,7 @@
       "meaning": "コンサート；演奏会",
       "exampleEn": "We went to a concert last weekend.",
       "exampleJa": "私たちは先週末コンサートに行きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "orchestra",
@@ -456,10 +456,10 @@
       "headword": "instrument",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnstrəmənt/",
-      "meaning": "楽器",
+      "meaning": "楽器；器具；測定器",
       "exampleEn": "The piano is my favorite instrument.",
       "exampleJa": "ピアノは私の一番好きな楽器です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "microphone",
@@ -483,7 +483,7 @@
       "headword": "perform",
       "partOfSpeech": "verb",
       "phonetic": "/pərˈfɔːrm/",
-      "meaning": "演じる；演奏する",
+      "meaning": "を行う；を演じる；を演奏する",
       "exampleEn": "The band will perform at the festival.",
       "exampleJa": "そのバンドは祭りで演奏する予定です。",
       "level": 3
@@ -492,7 +492,7 @@
       "headword": "performance",
       "partOfSpeech": "noun",
       "phonetic": "/pərˈfɔːrməns/",
-      "meaning": "公演；演技",
+      "meaning": "業績；公演；演技",
       "exampleEn": "Her dance performance was amazing.",
       "exampleJa": "彼女のダンスの公演は素晴らしかったです。",
       "level": 3
@@ -573,7 +573,7 @@
       "headword": "comic",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmɪk/",
-      "meaning": "漫画",
+      "meaning": "漫画；喜劇俳優",
       "exampleEn": "My brother reads comics every day.",
       "exampleJa": "私の弟は毎日漫画を読みます。",
       "level": 2
@@ -627,7 +627,7 @@
       "headword": "puzzle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpʌzl/",
-      "meaning": "パズル",
+      "meaning": "パズル；難問",
       "exampleEn": "We finished the puzzle together.",
       "exampleJa": "私たちは一緒にそのパズルを完成させました。",
       "level": 2
@@ -648,7 +648,7 @@
       "meaning": "キャンプ",
       "exampleEn": "We went camping in the mountains.",
       "exampleJa": "私たちは山でキャンプをしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "hiking",
@@ -663,7 +663,7 @@
       "headword": "cartoon",
       "partOfSpeech": "noun",
       "phonetic": "/kɑːrˈtuːn/",
-      "meaning": "アニメ；漫画",
+      "meaning": "漫画；アニメ",
       "exampleEn": "My little sister watches cartoons every morning.",
       "exampleJa": "私の妹は毎朝アニメを見ます。",
       "level": 2
@@ -671,11 +671,11 @@
     {
       "headword": "animation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌænɪˈmeɪʃən/",
-      "meaning": "アニメーション",
+      "phonetic": "/ˌænɪˈmeɪʃn/",
+      "meaning": "アニメーション；動画",
       "exampleEn": "This animation is popular around the world.",
       "exampleJa": "このアニメーションは世界中で人気があります。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "anime",
@@ -711,7 +711,7 @@
       "meaning": "喜劇；コメディー",
       "exampleEn": "This movie is a funny comedy.",
       "exampleJa": "この映画は面白いコメディーです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "adventure",
@@ -720,7 +720,7 @@
       "meaning": "冒険",
       "exampleEn": "The book tells a story of adventure.",
       "exampleJa": "その本は冒険の物語を語っています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "mystery",
@@ -735,7 +735,7 @@
       "headword": "tour",
       "partOfSpeech": "noun",
       "phonetic": "/tʊr/",
-      "meaning": "見学；ツアー",
+      "meaning": "ツアー；見学；周遊旅行",
       "exampleEn": "We took a tour of the old castle.",
       "exampleJa": "私たちはその古い城のツアーに参加しました。",
       "level": 2
@@ -842,17 +842,17 @@
     {
       "headword": "collection",
       "partOfSpeech": "noun",
-      "phonetic": "/kəˈlekʃən/",
-      "meaning": "収集；コレクション",
+      "phonetic": "/kəˈlekʃn/",
+      "meaning": "収集；コレクション；収集品",
       "exampleEn": "He has a large collection of old coins.",
       "exampleJa": "彼は古いコインの大きなコレクションを持っています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "character",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkærəktər/",
-      "meaning": "登場人物；キャラクター",
+      "meaning": "登場人物；性格；文字",
       "exampleEn": "My favorite character in the movie is brave.",
       "exampleJa": "その映画で私が一番好きな登場人物は勇敢です。",
       "level": 2

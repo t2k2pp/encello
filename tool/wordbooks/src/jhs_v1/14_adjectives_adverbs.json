@@ -24,7 +24,7 @@
       "headword": "angry",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈæŋɡri/",
-      "meaning": "怒った",
+      "meaning": "怒った；腹を立てた",
       "exampleEn": "My mother got angry at me.",
       "exampleJa": "母は私に対して怒りました。",
       "level": 1
@@ -36,7 +36,7 @@
       "meaning": "恐れて；心配して",
       "exampleEn": "I was afraid of the dark room.",
       "exampleJa": "私は暗い部屋を恐れていました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "nervous",
@@ -51,7 +51,7 @@
       "headword": "proud",
       "partOfSpeech": "adjective",
       "phonetic": "/praʊd/",
-      "meaning": "誇りに思って",
+      "meaning": "誇りに思って；自慢の",
       "exampleEn": "My father is proud of me.",
       "exampleJa": "父は私を誇りに思っています。",
       "level": 2
@@ -96,10 +96,10 @@
       "headword": "bored",
       "partOfSpeech": "adjective",
       "phonetic": "/bɔːrd/",
-      "meaning": "退屈して",
+      "meaning": "退屈した；飽きた",
       "exampleEn": "The students looked bored in class.",
       "exampleJa": "生徒たちは授業中に退屈そうでした。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "worried",
@@ -114,10 +114,10 @@
       "headword": "disappointed",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
-      "meaning": "がっかりした",
+      "meaning": "失望した；がっかりした",
       "exampleEn": "I was disappointed with the result.",
       "exampleJa": "私はその結果にがっかりしました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "thankful",
@@ -132,7 +132,7 @@
       "headword": "lonely",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈloʊnli/",
-      "meaning": "寂しい",
+      "meaning": "寂しい；孤独な",
       "exampleEn": "He felt lonely after they left.",
       "exampleJa": "彼らが去った後、彼は寂しく感じました。",
       "level": 2
@@ -150,10 +150,10 @@
       "headword": "confused",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈfjuːzd/",
-      "meaning": "混乱した",
+      "meaning": "混乱した；困惑した",
       "exampleEn": "I was confused by his question.",
       "exampleJa": "私は彼の質問に困惑しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "relieved",
@@ -168,7 +168,7 @@
       "headword": "embarrassed",
       "partOfSpeech": "adjective",
       "phonetic": "/ɪmˈbærəst/",
-      "meaning": "恥ずかしい思いをした",
+      "meaning": "恥ずかしい；きまりが悪い",
       "exampleEn": "I felt embarrassed after my mistake.",
       "exampleJa": "私は自分のミスの後、恥ずかしい思いをしました。",
       "level": 3
@@ -177,7 +177,7 @@
       "headword": "big",
       "partOfSpeech": "adjective",
       "phonetic": "/bɪɡ/",
-      "meaning": "大きい",
+      "meaning": "大きい；重大な",
       "exampleEn": "This bag is too big for me.",
       "exampleJa": "このかばんは私には大きすぎます。",
       "level": 1
@@ -357,7 +357,7 @@
       "headword": "blue",
       "partOfSpeech": "adjective",
       "phonetic": "/bluː/",
-      "meaning": "青い",
+      "meaning": "青い；憂うつな",
       "exampleEn": "The sky was blue and clear today.",
       "exampleJa": "今日の空は青くて澄んでいました。",
       "level": 1
@@ -384,7 +384,7 @@
       "headword": "black",
       "partOfSpeech": "adjective",
       "phonetic": "/blæk/",
-      "meaning": "黒い",
+      "meaning": "黒い；暗い",
       "exampleEn": "He wore a black jacket yesterday.",
       "exampleJa": "彼は昨日黒いジャケットを着ていました。",
       "level": 1
@@ -405,7 +405,7 @@
       "meaning": "茶色の",
       "exampleEn": "My dog has brown eyes.",
       "exampleJa": "私の犬は茶色の目をしています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pink",
@@ -447,7 +447,7 @@
       "headword": "color",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌlər/",
-      "meaning": "色",
+      "meaning": "色；色彩",
       "exampleEn": "What color do you like best?",
       "exampleJa": "あなたはどの色が一番好きですか。",
       "level": 1
@@ -456,7 +456,7 @@
       "headword": "colorful",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌlərfl/",
-      "meaning": "色彩豊かな",
+      "meaning": "カラフルな；色彩豊かな",
       "exampleEn": "The festival had colorful lights everywhere.",
       "exampleJa": "その祭りにはどこも色とりどりの明かりがありました。",
       "level": 2
@@ -465,10 +465,10 @@
       "headword": "bright",
       "partOfSpeech": "adjective",
       "phonetic": "/braɪt/",
-      "meaning": "明るい",
+      "meaning": "明るい；賢い",
       "exampleEn": "The classroom was bright and clean.",
       "exampleJa": "教室は明るくて清潔でした。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "dark",
@@ -600,19 +600,19 @@
       "headword": "carefully",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈkerfəli/",
-      "meaning": "注意深く",
+      "meaning": "注意深く；慎重に",
       "exampleEn": "Listen carefully to your teacher.",
       "exampleJa": "先生の話を注意深く聞きなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "easily",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈiːzəli/",
-      "meaning": "簡単に",
+      "meaning": "簡単に；容易に",
       "exampleEn": "She answered the question easily.",
       "exampleJa": "彼女はその質問に簡単に答えました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "suddenly",
@@ -636,16 +636,16 @@
       "headword": "almost",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈɔːlmoʊst/",
-      "meaning": "ほとんど",
+      "meaning": "ほとんど；もう少しで",
       "exampleEn": "It is almost time for dinner.",
       "exampleJa": "もうすぐ夕食の時間です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "together",
       "partOfSpeech": "adverb",
       "phonetic": "/təˈɡeðər/",
-      "meaning": "一緒に",
+      "meaning": "一緒に；共に",
       "exampleEn": "Let's study together after dinner.",
       "exampleJa": "夕食の後、一緒に勉強しましょう。",
       "level": 1
@@ -654,10 +654,10 @@
       "headword": "especially",
       "partOfSpeech": "adverb",
       "phonetic": "/ɪˈspeʃəli/",
-      "meaning": "特に",
+      "meaning": "特に；とりわけ",
       "exampleEn": "I like fruit, especially oranges.",
       "exampleJa": "私は果物が好きで、特にオレンジが好きです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "maybe",
@@ -671,20 +671,20 @@
     {
       "headword": "certainly",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˈsɜːrtənli/",
-      "meaning": "確かに；確実に",
+      "phonetic": "/ˈsɜːrtnli/",
+      "meaning": "確かに；きっと；もちろん",
       "exampleEn": "This is certainly a difficult question.",
       "exampleJa": "これは確かに難しい質問です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "actually",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈæktʃuəli/",
-      "meaning": "実は",
+      "meaning": "実は；実際に",
       "exampleEn": "Actually, I don't like coffee.",
       "exampleJa": "実は、私はコーヒーが好きではありません。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "instead",
@@ -693,25 +693,25 @@
       "meaning": "その代わりに",
       "exampleEn": "I had tea instead of coffee.",
       "exampleJa": "私はコーヒーの代わりにお茶を飲みました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "anyway",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈeniweɪ/",
-      "meaning": "とにかく",
+      "meaning": "とにかく；いずれにせよ",
       "exampleEn": "It was raining, but we went anyway.",
       "exampleJa": "雨が降っていましたが、私たちはとにかく出かけました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "however",
       "partOfSpeech": "adverb",
       "phonetic": "/haʊˈevər/",
-      "meaning": "しかしながら",
+      "meaning": "しかしながら；けれども",
       "exampleEn": "The test was hard. However, I still passed.",
       "exampleJa": "テストは難しかったです。しかし、私はそれでも合格しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "also",
@@ -753,7 +753,7 @@
       "headword": "ago",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈɡoʊ/",
-      "meaning": "（今から）〜前に",
+      "meaning": "〜前に",
       "exampleEn": "I visited Kyoto three years ago.",
       "exampleJa": "私は3年前に京都を訪れました。",
       "level": 1
@@ -771,10 +771,10 @@
       "headword": "still",
       "partOfSpeech": "adverb",
       "phonetic": "/stɪl/",
-      "meaning": "まだ",
+      "meaning": "まだ；今でも",
       "exampleEn": "It is still raining outside.",
       "exampleJa": "外はまだ雨が降っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "yet",
@@ -807,10 +807,10 @@
       "headword": "abroad",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈbrɔːd/",
-      "meaning": "外国へ；海外に",
+      "meaning": "外国へ；海外で",
       "exampleEn": "My brother wants to study abroad.",
       "exampleJa": "私の兄は海外で勉強したいと思っています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "everywhere",

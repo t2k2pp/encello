@@ -18,7 +18,7 @@
       "meaning": "海洋；大洋",
       "exampleEn": "The Pacific Ocean is very large.",
       "exampleJa": "太平洋はとても広いです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "river",
@@ -42,7 +42,7 @@
       "headword": "beach",
       "partOfSpeech": "noun",
       "phonetic": "/biːtʃ/",
-      "meaning": "浜辺；ビーチ",
+      "meaning": "浜辺；砂浜；ビーチ",
       "exampleEn": "We played volleyball on the beach.",
       "exampleJa": "私たちはビーチでバレーボールをしました。",
       "level": 1
@@ -231,7 +231,7 @@
       "headword": "cloud",
       "partOfSpeech": "noun",
       "phonetic": "/klaʊd/",
-      "meaning": "雲",
+      "meaning": "雲；クラウド",
       "exampleEn": "A big cloud covered the sun.",
       "exampleJa": "大きな雲が太陽を覆いました。",
       "level": 1
@@ -276,10 +276,10 @@
       "headword": "cow",
       "partOfSpeech": "noun",
       "phonetic": "/kaʊ/",
-      "meaning": "牛（雌牛）",
+      "meaning": "雌牛；牛",
       "exampleEn": "The cow gives us fresh milk.",
       "exampleJa": "その牛は新鮮な牛乳をくれます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pig",
@@ -393,16 +393,16 @@
       "headword": "bee",
       "partOfSpeech": "noun",
       "phonetic": "/biː/",
-      "meaning": "ハチ",
+      "meaning": "ハチ；ミツバチ",
       "exampleEn": "A bee flew around the flowers.",
       "exampleJa": "ハチが花の周りを飛んでいました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "butterfly",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌtərflaɪ/",
-      "meaning": "チョウ",
+      "meaning": "チョウ；チョウチョ",
       "exampleEn": "A beautiful butterfly landed on the flower.",
       "exampleJa": "美しいチョウが花にとまりました。",
       "level": 1
@@ -432,7 +432,7 @@
       "meaning": "アリ",
       "exampleEn": "Ants were carrying food to their nest.",
       "exampleJa": "アリたちは巣へ食べ物を運んでいました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "spider",
@@ -564,7 +564,7 @@
       "headword": "branch",
       "partOfSpeech": "noun",
       "phonetic": "/bræntʃ/",
-      "meaning": "枝",
+      "meaning": "枝；支店；部門",
       "exampleEn": "A bird sat on the branch.",
       "exampleJa": "鳥が枝に止まりました。",
       "level": 2
@@ -591,7 +591,7 @@
       "headword": "blossom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈblɑːsəm/",
-      "meaning": "（果樹の）花",
+      "meaning": "花；開花",
       "exampleEn": "The cherry blossom is a symbol of spring.",
       "exampleJa": "桜の花は春の象徴です。",
       "level": 3
@@ -599,17 +599,17 @@
     {
       "headword": "bamboo",
       "partOfSpeech": "noun",
-      "phonetic": "/bæmˈbuː/",
+      "phonetic": "/ˌbæmˈbuː/",
       "meaning": "竹",
       "exampleEn": "Pandas eat a lot of bamboo.",
       "exampleJa": "パンダはたくさんの竹を食べます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "plant",
       "partOfSpeech": "noun",
       "phonetic": "/plænt/",
-      "meaning": "植物",
+      "meaning": "植物；工場",
       "exampleEn": "This plant needs a lot of water.",
       "exampleJa": "この植物はたくさんの水が必要です。",
       "level": 1
@@ -627,19 +627,19 @@
       "headword": "environment",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈvaɪrənmənt/",
-      "meaning": "環境",
+      "meaning": "環境；自然環境",
       "exampleEn": "We must protect the environment.",
       "exampleJa": "私たちは環境を守らなければなりません。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "pollution",
       "partOfSpeech": "noun",
       "phonetic": "/pəˈluːʃn/",
-      "meaning": "汚染",
+      "meaning": "汚染；公害",
       "exampleEn": "Air pollution is a big problem.",
       "exampleJa": "大気汚染は大きな問題です。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "recycle",
@@ -654,7 +654,7 @@
       "headword": "plastic",
       "partOfSpeech": "noun",
       "phonetic": "/ˈplæstɪk/",
-      "meaning": "プラスチック",
+      "meaning": "プラスチック；樹脂",
       "exampleEn": "This bag is made of plastic.",
       "exampleJa": "このかばんはプラスチックでできています。",
       "level": 2
@@ -663,7 +663,7 @@
       "headword": "resource",
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːsɔːrs/",
-      "meaning": "資源",
+      "meaning": "資源；財源",
       "exampleEn": "We should not waste natural resources.",
       "exampleJa": "私たちは天然資源を無駄にすべきではありません。",
       "level": 3
@@ -672,10 +672,10 @@
       "headword": "climate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪmət/",
-      "meaning": "気候",
+      "meaning": "気候；風潮",
       "exampleEn": "The climate is changing around the world.",
       "exampleJa": "世界中で気候が変化しています。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "global warming",
@@ -807,7 +807,7 @@
       "headword": "cave",
       "partOfSpeech": "noun",
       "phonetic": "/keɪv/",
-      "meaning": "洞窟",
+      "meaning": "洞窟；洞穴",
       "exampleEn": "This cave is very dark and cold.",
       "exampleJa": "この洞窟はとても暗くて寒いです。",
       "level": 2
@@ -825,7 +825,7 @@
       "headword": "coast",
       "partOfSpeech": "noun",
       "phonetic": "/koʊst/",
-      "meaning": "海岸",
+      "meaning": "海岸；沿岸",
       "exampleEn": "Many towns are along the coast.",
       "exampleJa": "多くの町が海岸沿いにあります。",
       "level": 2

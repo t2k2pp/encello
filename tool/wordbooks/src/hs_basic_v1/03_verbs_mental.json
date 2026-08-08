@@ -33,7 +33,7 @@
       "headword": "approve",
       "partOfSpeech": "verb",
       "phonetic": "/əˈpruːv/",
-      "meaning": "を承認する；賛成する",
+      "meaning": "を承認する；に賛成する",
       "exampleEn": "My boss approved the plan.",
       "exampleJa": "上司はその計画を承認しました。",
       "level": 3
@@ -42,25 +42,25 @@
       "headword": "assume",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsuːm/",
-      "meaning": "と思い込む；を仮定する",
+      "meaning": "と思い込む；を仮定する；を引き受ける",
       "exampleEn": "I assumed he was coming.",
       "exampleJa": "彼は来るものと思い込んでいました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "attempt",
       "partOfSpeech": "verb",
       "phonetic": "/əˈtempt/",
-      "meaning": "を試みる；企てる",
+      "meaning": "を試みる；を企てる",
       "exampleEn": "They attempted to climb the peak.",
       "exampleJa": "彼らは山頂への登頂を試みました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "care",
       "partOfSpeech": "verb",
       "phonetic": "/ker/",
-      "meaning": "気にかける；配慮する",
+      "meaning": "気にかける；世話をする；配慮する",
       "exampleEn": "I care about your health.",
       "exampleJa": "私はあなたの健康を気にかけています。",
       "level": 1
@@ -72,13 +72,13 @@
       "meaning": "を混乱させる；を混同する",
       "exampleEn": "The instructions confused me.",
       "exampleJa": "説明書に混乱させられました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "convince",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈvɪns/",
-      "meaning": "を納得させる；を確信させる",
+      "meaning": "を納得させる；を確信させる；を説得する",
       "exampleEn": "She convinced me of the truth.",
       "exampleJa": "彼女は私に事実を納得させました。",
       "level": 3
@@ -132,7 +132,7 @@
       "headword": "guess",
       "partOfSpeech": "verb",
       "phonetic": "/ɡes/",
-      "meaning": "を推測する",
+      "meaning": "を推測する；を言い当てる",
       "exampleEn": "Can you guess his age?",
       "exampleJa": "彼の年齢を推測できますか。",
       "level": 1
@@ -150,10 +150,10 @@
       "headword": "ignore",
       "partOfSpeech": "verb",
       "phonetic": "/ɪɡˈnɔːr/",
-      "meaning": "を無視する",
+      "meaning": "を無視する；を見落とす",
       "exampleEn": "He ignored my warning.",
       "exampleJa": "彼は私の警告を無視しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "imagine",
@@ -180,7 +180,7 @@
       "meaning": "を意図する；〜するつもりである",
       "exampleEn": "I intend to study abroad.",
       "exampleJa": "私は留学するつもりです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "judge",
@@ -195,10 +195,10 @@
       "headword": "mind",
       "partOfSpeech": "verb",
       "phonetic": "/maɪnd/",
-      "meaning": "を気に病む；〜を嫌がる",
+      "meaning": "を気にする；を嫌だと思う",
       "exampleEn": "Do you mind if I open the window?",
       "exampleJa": "窓を開けても構いませんか。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "prefer",
@@ -222,10 +222,10 @@
       "headword": "realize",
       "partOfSpeech": "verb",
       "phonetic": "/ˈriːəlaɪz/",
-      "meaning": "を自覚する；を実現する",
+      "meaning": "に気づく；を実現する",
       "exampleEn": "I realized my mistake.",
       "exampleJa": "私は自分の間違いを自覚しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "recall",
@@ -240,28 +240,28 @@
       "headword": "recognize",
       "partOfSpeech": "verb",
       "phonetic": "/ˈrekəɡnaɪz/",
-      "meaning": "を認める；を識別する",
+      "meaning": "を認識する；を見分ける；を認める",
       "exampleEn": "I didn't recognize her at first.",
       "exampleJa": "最初、彼女だと分かりませんでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "regret",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈɡret/",
-      "meaning": "を後悔する",
+      "meaning": "を後悔する；を残念に思う",
       "exampleEn": "I regret saying that.",
       "exampleJa": "それを言ったことを後悔しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "remind",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈmaɪnd/",
-      "meaning": "に思い出させる",
+      "meaning": "に思い出させる；に念を押す",
       "exampleEn": "This song reminds me of high school.",
       "exampleJa": "この歌は高校時代を思い出させます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "respect",
@@ -270,16 +270,16 @@
       "meaning": "を尊敬する；を尊重する",
       "exampleEn": "We respect our elders.",
       "exampleJa": "私たちは年長者を尊敬します。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "satisfy",
       "partOfSpeech": "verb",
       "phonetic": "/ˈsætɪsfaɪ/",
-      "meaning": "を満足させる",
+      "meaning": "を満足させる；を満たす",
       "exampleEn": "The meal satisfied our hunger.",
       "exampleJa": "その食事で満腹になりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "suppose",
@@ -294,7 +294,7 @@
       "headword": "suspect",
       "partOfSpeech": "verb",
       "phonetic": "/səˈspekt/",
-      "meaning": "を疑う；〜ではないかと思う",
+      "meaning": "を疑う；ではないかと思う",
       "exampleEn": "The police suspect him.",
       "exampleJa": "警察は彼を疑っています。",
       "level": 3
@@ -303,16 +303,16 @@
       "headword": "wish",
       "partOfSpeech": "verb",
       "phonetic": "/wɪʃ/",
-      "meaning": "願う；〜であればよいと思う",
+      "meaning": "を願う；を望む；〜であればよいと思う",
       "exampleEn": "I wish you good luck.",
       "exampleJa": "あなたの幸運を祈ります。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "wonder",
       "partOfSpeech": "verb",
       "phonetic": "/ˈwʌndər/",
-      "meaning": "〜かしらと思う；不思議に思う",
+      "meaning": "〜かなと思う；不思議に思う",
       "exampleEn": "I wonder why he is late.",
       "exampleJa": "なぜ彼が遅れているのかかしらと思っています。",
       "level": 2
@@ -339,34 +339,34 @@
       "headword": "accommodate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkɑːmədeɪt/",
-      "meaning": "を収容する；に応じる",
+      "meaning": "を収容する；を適応させる；に便宜を図る",
       "exampleEn": "The hotel can accommodate 200 guests.",
       "exampleJa": "そのホテルは200名の客を収容できます。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "acquire",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkwaɪər/",
-      "meaning": "を習得する；を手に入れる",
+      "meaning": "を習得する；を手に入れる；を取得する",
       "exampleEn": "Acquire new skills for your career.",
       "exampleJa": "キャリアのために新しいスキルを習得しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "adjustment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈdʒʌstmənt/",
-      "meaning": "調整；順応",
+      "meaning": "調整；修正；適応",
       "exampleEn": "Make minor adjustments to the plan.",
       "exampleJa": "計画に軽微な調整を行いなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "advice",
       "partOfSpeech": "noun",
       "phonetic": "/ədˈvaɪs/",
-      "meaning": "助言；アドバイス",
+      "meaning": "助言；忠告；アドバイス",
       "exampleEn": "Thank you for your helpful advice.",
       "exampleJa": "役に立つ助言をありがとう。",
       "level": 2
@@ -378,7 +378,7 @@
       "meaning": "激しい苦痛；苦悩",
       "exampleEn": "He suffered in agony after the injury.",
       "exampleJa": "彼は負傷の後激しい苦痛の中で苦しみました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "alien",
@@ -393,10 +393,10 @@
       "headword": "alpha",
       "partOfSpeech": "noun",
       "phonetic": "/ˈælfə/",
-      "meaning": "アルファ；最初",
+      "meaning": "アルファ；最初のもの",
       "exampleEn": "Alpha is the first Greek letter.",
       "exampleJa": "アルファは最初のギリシャ文字です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "ambassador",
@@ -405,7 +405,7 @@
       "meaning": "大使；使節",
       "exampleEn": "The ambassador visited the foreign president.",
       "exampleJa": "大使が外国の大統領を訪問しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "amusing",
@@ -420,19 +420,19 @@
       "headword": "anguish",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡwɪʃ/",
-      "meaning": "苦悩；苦痛",
+      "meaning": "苦悩；激しい苦痛",
       "exampleEn": "She felt mental anguish after her loss.",
       "exampleJa": "彼女は喪失の後精神的苦悩を感じました。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "answer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈænsər/",
-      "meaning": "答え；返答；に答える",
+      "meaning": "答え；返事；解答",
       "exampleEn": "Give the correct answer to this question.",
       "exampleJa": "この質問に正しい答えを出しなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "apartment",
@@ -441,43 +441,43 @@
       "meaning": "アパート；マンション",
       "exampleEn": "Rent a clean city center apartment.",
       "exampleJa": "清潔な都心のアパートを借りなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "application",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæplɪˈkeɪʃn/",
-      "meaning": "申請；応用；アプリ",
+      "meaning": "申請；申込書；応用",
       "exampleEn": "Please fill out the job application form.",
       "exampleJa": "求人応募用紙に記入してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "arbitrary",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɑːrbɪtreri/",
-      "meaning": "独断的な；任意的な",
+      "meaning": "独断的な；任意の",
       "exampleEn": "Avoid making arbitrary personal rules.",
       "exampleJa": "独断的な個人の規則を作るのを避けなさい。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "arouse",
       "partOfSpeech": "verb",
       "phonetic": "/əˈraʊz/",
-      "meaning": "を呼び起こす；を刺激する",
+      "meaning": "を呼び起こす；を目覚めさせる",
       "exampleEn": "The news aroused public interest curiosity.",
       "exampleJa": "ニュースが世間の関心好奇心を呼び起こしました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "artistic",
       "partOfSpeech": "adjective",
       "phonetic": "/ɑːrˈtɪstɪk/",
-      "meaning": "芸術的な；美の",
+      "meaning": "芸術的な",
       "exampleEn": "She showed great artistic talent.",
       "exampleJa": "彼女は素晴らしい芸術的スキル才能を示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assessment",
@@ -486,7 +486,7 @@
       "meaning": "評価；査定",
       "exampleEn": "We conduct an annual performance assessment.",
       "exampleJa": "私たちは毎年、業務評価を実施します。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "astronomy",
@@ -495,7 +495,7 @@
       "meaning": "天文学",
       "exampleEn": "She wants to study astronomy in college.",
       "exampleJa": "彼女は大学で天文学を学びたいと思っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "author",
@@ -510,10 +510,10 @@
       "headword": "avoidance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈvɔɪdəns/",
-      "meaning": "回避；防止",
+      "meaning": "回避；忌避",
       "exampleEn": "Focus on conflict avoidance for safety.",
       "exampleJa": "安全のために対立の回避に集中しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "background",
@@ -549,16 +549,16 @@
       "meaning": "野球",
       "exampleEn": "We played a baseball match after school.",
       "exampleJa": "私たちは放課後、野球の試合をしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "beach",
       "partOfSpeech": "noun",
       "phonetic": "/biːtʃ/",
-      "meaning": "浜辺；ビーチ",
+      "meaning": "浜辺；砂浜；ビーチ",
       "exampleEn": "We walked along the sunny beach.",
       "exampleJa": "私たちは晴れた浜辺を歩きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "beef",
@@ -567,25 +567,25 @@
       "meaning": "牛肉",
       "exampleEn": "We ate fresh roasted beef for dinner.",
       "exampleJa": "私たちは夕食に新鮮なローストビーフを食べました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bell",
       "partOfSpeech": "noun",
       "phonetic": "/bel/",
-      "meaning": "ベル；鈴；鐘",
+      "meaning": "ベル；鐘；鈴",
       "exampleEn": "The school bell rang end class.",
       "exampleJa": "学校のベルが鳴って授業が終わりました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "benign",
       "partOfSpeech": "adjective",
       "phonetic": "/bɪˈnaɪn/",
-      "meaning": "良性の；穏やかな",
+      "meaning": "良性の；無害な；穏やかな",
       "exampleEn": "Doctor confirmed tumor was benign safe.",
       "exampleJa": "医師が腫瘍は良性だと確認しました。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "biased",
@@ -618,10 +618,10 @@
       "headword": "blush",
       "partOfSpeech": "verb",
       "phonetic": "/blʌʃ/",
-      "meaning": "顔を赤らめる；赤面する",
+      "meaning": "赤面する；顔を赤らめる",
       "exampleEn": "She blushes red when praised publicly.",
       "exampleJa": "彼女は人前で褒められると顔を赤らめます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bookstore",
@@ -630,16 +630,16 @@
       "meaning": "書店；本屋",
       "exampleEn": "I bought a new textbook at the bookstore.",
       "exampleJa": "私は書店で新しい教科書を買いました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bottle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːtl/",
-      "meaning": "ボトル；瓶",
+      "meaning": "びん；ボトル",
       "exampleEn": "Drink clear water from a glass bottle.",
       "exampleJa": "ガラスの瓶から綺麗なお水を飲みなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "brand",
@@ -663,10 +663,10 @@
       "headword": "bring",
       "partOfSpeech": "verb",
       "phonetic": "/brɪŋ/",
-      "meaning": "をもたらす；を持ってくる",
+      "meaning": "を持ってくる；を連れてくる；をもたらす",
       "exampleEn": "Please bring your textbook to class.",
       "exampleJa": "授業に教科書を持ってきてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "brown",
@@ -675,7 +675,7 @@
       "meaning": "茶色の",
       "exampleEn": "Wear dark brown leather shoes today.",
       "exampleJa": "今日濃い茶色の革靴を履きなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bulk",
@@ -684,25 +684,25 @@
       "meaning": "大部分；大量；かさ",
       "exampleEn": "We buy food in bulk to save money.",
       "exampleJa": "私たちは節約のため食品をまとめ買いします。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "burial",
       "partOfSpeech": "noun",
       "phonetic": "/ˈberiəl/",
-      "meaning": "埋葬；葬式",
+      "meaning": "埋葬；葬儀",
       "exampleEn": "We attended my grandfather's burial service.",
       "exampleJa": "私たちは祖父の埋葬式に参列しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "button",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʌtn/",
-      "meaning": "ボタン",
+      "meaning": "ボタン；押しボタン",
       "exampleEn": "Press the red button to start the machine.",
       "exampleJa": "機械を起動するために赤いボタンを押しなさい。",
-      "level": 2
+      "level": 1
     }
   ]
 }

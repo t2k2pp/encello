@@ -6,7 +6,7 @@
       "headword": "assembly",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsembli/",
-      "meaning": "組み立て；集会",
+      "meaning": "集会；組み立て",
       "exampleEn": "The assembly line runs from morning until night.",
       "exampleJa": "組み立てラインは朝から夜まで稼働しています。",
       "level": 3
@@ -18,7 +18,7 @@
       "meaning": "欠陥；不具合",
       "exampleEn": "The inspector found a small defect in the product.",
       "exampleJa": "検査官は製品に小さな欠陥を見つけました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "defective",
@@ -63,7 +63,7 @@
       "meaning": "を自動化する",
       "exampleEn": "The factory automated most of its packing work.",
       "exampleJa": "その工場は梱包作業の大半を自動化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "automated",
@@ -81,7 +81,7 @@
       "meaning": "自動化；オートメーション",
       "exampleEn": "Automation has cut our production costs a lot.",
       "exampleJa": "自動化によって生産コストが大きく下がりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "backup",
@@ -99,7 +99,7 @@
       "meaning": "設計図；青写真",
       "exampleEn": "The engineer showed us the blueprint for the plant.",
       "exampleJa": "技術者は工場の設計図を私たちに見せました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "calibrate",
@@ -123,7 +123,7 @@
       "headword": "capacity",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈpæsəti/",
-      "meaning": "生産能力；収容力",
+      "meaning": "収容能力；容量；能力",
       "exampleEn": "Our plant is now running at full capacity.",
       "exampleJa": "当社の工場は今フル稼働しています。",
       "level": 3
@@ -132,10 +132,10 @@
       "headword": "component",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpoʊnənt/",
-      "meaning": "構成部品；成分",
+      "meaning": "構成部品；成分；構成要素",
       "exampleEn": "This machine has more than five hundred components.",
       "exampleJa": "この機械には500を超える部品が使われています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "computer",
@@ -144,7 +144,7 @@
       "meaning": "コンピューター",
       "exampleEn": "I saved the report on my computer.",
       "exampleJa": "私はその報告書をコンピューターに保存しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "craftsmanship",
@@ -162,7 +162,7 @@
       "meaning": "データベース",
       "exampleEn": "We keep all customer records in a database.",
       "exampleJa": "私たちは顧客の記録をすべてデータベースで管理しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "developer",
@@ -222,7 +222,7 @@
       "headword": "engineer",
       "partOfSpeech": "noun",
       "phonetic": "/ˌendʒɪˈnɪr/",
-      "meaning": "技術者；エンジニア",
+      "meaning": "技師；技術者；エンジニア",
       "exampleEn": "The engineer checked the machine this morning.",
       "exampleJa": "技術者は今朝その機械を点検しました。",
       "level": 2
@@ -240,10 +240,10 @@
       "headword": "fabricate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈfæbrɪkeɪt/",
-      "meaning": "を製造する；を組み立てる",
+      "meaning": "を製造する；をでっち上げる",
       "exampleEn": "The plant fabricates steel parts for bridges.",
       "exampleJa": "その工場は橋に使う鋼材を製造しています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "fabrication",
@@ -257,11 +257,11 @@
     {
       "headword": "factory",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈfæktri/",
+      "phonetic": "/ˈfæktəri/",
       "meaning": "工場",
       "exampleEn": "The factory makes two hundred cars a day.",
       "exampleJa": "その工場は1日に200台の車を作っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "flaw",
@@ -285,10 +285,10 @@
       "headword": "generate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈdʒenəreɪt/",
-      "meaning": "を発生させる；を生み出す",
+      "meaning": "を生み出す；を発生させる",
       "exampleEn": "Solar panels generate clean electrical energy.",
       "exampleJa": "太陽光パネルはクリーンな電気を生み出します。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "hardware",
@@ -302,7 +302,7 @@
     {
       "headword": "innovation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌɪnəˈveɪʃn/",
+      "phonetic": "/ˌɪnəˈveɪʃən/",
       "meaning": "革新；イノベーション",
       "exampleEn": "Innovation is the key to our future growth.",
       "exampleJa": "革新が当社の将来の成長の鍵です。",
@@ -348,7 +348,7 @@
       "headword": "instrument",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnstrəmənt/",
-      "meaning": "器具；測定器；楽器",
+      "meaning": "楽器；器具；測定器",
       "exampleEn": "This instrument measures very small changes in heat.",
       "exampleJa": "この器具はごくわずかな熱の変化を測定します。",
       "level": 2
@@ -365,7 +365,7 @@
     {
       "headword": "invention",
       "partOfSpeech": "noun",
-      "phonetic": "/ɪnˈvenʃn/",
+      "phonetic": "/ɪnˈvenʃən/",
       "meaning": "発明；発明品",
       "exampleEn": "His invention changed the way we work.",
       "exampleJa": "彼の発明は私たちの働き方を変えました。",
@@ -402,10 +402,10 @@
       "headword": "maintain",
       "partOfSpeech": "verb",
       "phonetic": "/meɪnˈteɪn/",
-      "meaning": "を維持・保守する",
+      "meaning": "を維持する；を保守する；と主張する",
       "exampleEn": "Our staff maintain the machines every weekend.",
       "exampleJa": "当社のスタッフは毎週末に機械を保守しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "malfunction",
@@ -528,10 +528,10 @@
       "headword": "plant",
       "partOfSpeech": "noun",
       "phonetic": "/plænt/",
-      "meaning": "工場；プラント；植物",
+      "meaning": "植物；工場",
       "exampleEn": "The plant employs about a thousand workers.",
       "exampleJa": "その工場は約1,000人の従業員を雇っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "processing",
@@ -546,7 +546,7 @@
       "headword": "produce",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈduːs/",
-      "meaning": "を生産・製造する",
+      "meaning": "を生産する；を製造する；を生み出す",
       "exampleEn": "This factory produces batteries for electric cars.",
       "exampleJa": "この工場は電気自動車用のバッテリーを生産しています。",
       "level": 2
@@ -555,10 +555,10 @@
       "headword": "production",
       "partOfSpeech": "noun",
       "phonetic": "/prəˈdʌkʃn/",
-      "meaning": "生産；製造高",
+      "meaning": "生産；製造；制作",
       "exampleEn": "Production stopped because of a machine failure.",
       "exampleJa": "機械の故障のために生産が止まりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "prototype",
@@ -573,7 +573,7 @@
       "headword": "quality",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkwɑːləti/",
-      "meaning": "品質；質",
+      "meaning": "品質；質；特性",
       "exampleEn": "Our customers expect high quality at a fair price.",
       "exampleJa": "顧客は手ごろな価格で高い品質を求めています。",
       "level": 2
@@ -591,10 +591,10 @@
       "headword": "refine",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈfaɪn/",
-      "meaning": "を精製する；を洗練させる",
+      "meaning": "を洗練させる；を精製する",
       "exampleEn": "We refined the design after the first test.",
       "exampleJa": "最初の試験の後、私たちは設計を練り直しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "refinery",
@@ -618,16 +618,16 @@
       "headword": "reliable",
       "partOfSpeech": "adjective",
       "phonetic": "/rɪˈlaɪəbl/",
-      "meaning": "信頼できる",
+      "meaning": "信頼できる；頼りになる",
       "exampleEn": "Japanese cars are famous for being reliable.",
       "exampleJa": "日本車は信頼できることで有名です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "repair",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈper/",
-      "meaning": "を修理・修繕する",
+      "meaning": "を修理する；を修繕する",
       "exampleEn": "A worker repaired the broken belt in an hour.",
       "exampleJa": "作業員は壊れたベルトを1時間で修理しました。",
       "level": 2
@@ -699,7 +699,7 @@
       "headword": "technology",
       "partOfSpeech": "noun",
       "phonetic": "/tekˈnɑːlədʒi/",
-      "meaning": "技術；テクノロジー",
+      "meaning": "科学技術；技術",
       "exampleEn": "Modern technology has improved energy efficiency.",
       "exampleJa": "現代の技術はエネルギー効率を高めました。",
       "level": 2

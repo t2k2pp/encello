@@ -5,11 +5,11 @@
     {
       "headword": "consequently",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˈkɑːnsɪkwentli/",
-      "meaning": "その結果として；したがって",
+      "phonetic": "/ˈkɑːnsəkwentli/",
+      "meaning": "その結果；したがって",
       "exampleEn": "The road flooded; consequently, all traffic stopped.",
       "exampleJa": "道路が冠水し、その結果すべての交通が止まりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "furthermore",
@@ -18,7 +18,7 @@
       "meaning": "さらに；その上",
       "exampleEn": "The house is spacious; furthermore, the rent is cheap.",
       "exampleJa": "その家は広く、さらに家賃も安いです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "hence",
@@ -60,10 +60,10 @@
       "headword": "otherwise",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈʌðərwaɪz/",
-      "meaning": "さもなければ；その他の点では",
+      "meaning": "さもなければ；そうでなければ；その他の点では",
       "exampleEn": "We must hurry; otherwise, we will miss the train.",
       "exampleJa": "私たちは急がなければなりません。さもないと電車に乗り遅れます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "thereby",
@@ -87,10 +87,10 @@
       "headword": "absurd",
       "partOfSpeech": "adjective",
       "phonetic": "/əbˈsɜːrd/",
-      "meaning": "荒唐無稽な；ばかげた",
+      "meaning": "ばかげた；不合理な；不条理な",
       "exampleEn": "His excuse sounded completely absurd to us.",
       "exampleJa": "彼の言い訳は私たちにとって完全にばかげたものに聞こえました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "accustom",
@@ -99,34 +99,34 @@
       "meaning": "を慣れさせる",
       "exampleEn": "It takes time to accustom yourself to the cold.",
       "exampleJa": "寒さに体を慣れさせるには時間がかかります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "adjust",
       "partOfSpeech": "verb",
       "phonetic": "/əˈdʒʌst/",
-      "meaning": "を調節する；適応する",
+      "meaning": "を調整する；順応する",
       "exampleEn": "He adjusted the seat before he started driving.",
       "exampleJa": "彼は運転を始める前に座席を調節しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "afflict",
       "partOfSpeech": "verb",
       "phonetic": "/əˈflɪkt/",
-      "meaning": "を苦しめる",
+      "meaning": "を苦しめる；を悩ます",
       "exampleEn": "Severe famine afflicted the entire nation.",
       "exampleJa": "深刻な飢饉が国全体を苦しめました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "allegiance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈliːdʒəns/",
-      "meaning": "忠誠；忠実",
+      "meaning": "忠誠；忠義",
       "exampleEn": "Citizens pledge allegiance to their country.",
       "exampleJa": "市民たちは自分の国に忠誠を誓います。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "ambassador",
@@ -135,22 +135,22 @@
       "meaning": "大使；使節",
       "exampleEn": "The Japanese ambassador met the French president.",
       "exampleJa": "日本の大使がフランスの大統領と会いました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "amuse",
       "partOfSpeech": "verb",
       "phonetic": "/əˈmjuːz/",
-      "meaning": "を面白がらせる",
+      "meaning": "を楽しませる；を面白がらせる",
       "exampleEn": "His funny story amused all the guests.",
       "exampleJa": "彼の面白い話は客たち全員を楽しませました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "angle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡl/",
-      "meaning": "角度；視点",
+      "meaning": "角度；角；視点",
       "exampleEn": "The photographer took the picture from a high angle.",
       "exampleJa": "その写真家は高い角度から写真を撮りました。",
       "level": 2
@@ -159,7 +159,7 @@
       "headword": "antique",
       "partOfSpeech": "noun",
       "phonetic": "/ænˈtiːk/",
-      "meaning": "骨董品；アンティーク",
+      "meaning": "骨董品；古美術品",
       "exampleEn": "The collector bought a rare antique table.",
       "exampleJa": "その収集家は珍しい骨董品のテーブルを買いました。",
       "level": 3
@@ -171,16 +171,16 @@
       "meaning": "適用できる；該当する",
       "exampleEn": "These rules are applicable to all employees.",
       "exampleJa": "これらの規則はすべての従業員に適用されます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "approximate",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈprɑːksɪmət/",
-      "meaning": "おおよその；近似の",
+      "meaning": "おおよその；概算の",
       "exampleEn": "They gave me an approximate cost for the repair.",
       "exampleJa": "彼らは修理のおおよその費用を教えてくれました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "arrest",
@@ -195,37 +195,37 @@
       "headword": "assail",
       "partOfSpeech": "verb",
       "phonetic": "/əˈseɪl/",
-      "meaning": "を猛攻撃する",
+      "meaning": "を激しく攻撃する；を襲う",
       "exampleEn": "Critics assailed the new government tax plan.",
       "exampleJa": "批評家たちは政府の新しい税制案を激しく攻撃しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "assist",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsɪst/",
-      "meaning": "を援助・補助する",
+      "meaning": "を援助する；を手伝う",
       "exampleEn": "The nurse assisted the doctor during the operation.",
       "exampleJa": "看護師は手術の間、医師を補助しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "astray",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈstreɪ/",
-      "meaning": "道に迷って；迷い出て",
+      "meaning": "道に迷って；道を外れて",
       "exampleEn": "The letter went astray at the post office.",
       "exampleJa": "その手紙は郵便局で行方が分からなくなりました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "attitude",
       "partOfSpeech": "noun",
       "phonetic": "/ˈætɪtuːd/",
-      "meaning": "態度；姿勢",
+      "meaning": "態度；姿勢；心構え",
       "exampleEn": "A positive attitude leads to success at work.",
       "exampleJa": "前向きな態度は仕事での成功につながります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "authentic",
@@ -234,7 +234,7 @@
       "meaning": "本物の；真正の",
       "exampleEn": "This restaurant serves authentic Italian pizza.",
       "exampleJa": "このレストランは本物のイタリアのピザを出しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "avid",
@@ -249,7 +249,7 @@
       "headword": "balance",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæləns/",
-      "meaning": "バランス；残高",
+      "meaning": "バランス；均衡；残高",
       "exampleEn": "She keeps a good balance between work and family.",
       "exampleJa": "彼女は仕事と家庭のよいバランスを保っています。",
       "level": 2
@@ -261,7 +261,7 @@
       "meaning": "慈悲深い；親切な",
       "exampleEn": "The benevolent king gave money to the poor.",
       "exampleJa": "その慈悲深い王は貧しい人々にお金を与えました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "biodiversity",
@@ -276,10 +276,10 @@
       "headword": "blight",
       "partOfSpeech": "noun",
       "phonetic": "/blaɪt/",
-      "meaning": "胴枯れ病；荒廃",
+      "meaning": "病害；胴枯れ病；荒廃",
       "exampleEn": "A blight destroyed most of the corn crop.",
       "exampleJa": "胴枯れ病がトウモロコシの作物の大半を枯らしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "blush",
@@ -294,28 +294,28 @@
       "headword": "bother",
       "partOfSpeech": "verb",
       "phonetic": "/ˈbɑːðər/",
-      "meaning": "に迷惑をかける；を気にする",
+      "meaning": "に迷惑をかける；を悩ます；気にする",
       "exampleEn": "Sorry to bother you during work hours.",
       "exampleJa": "お仕事中にお邪魔してすみません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "brilliant",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbrɪliənt/",
-      "meaning": "素晴らしい；輝かしい",
+      "meaning": "素晴らしい；輝かしい；聡明な",
       "exampleEn": "The engineer came up with a brilliant idea.",
       "exampleJa": "その技術者は素晴らしいアイデアを思いつきました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bureaucracy",
       "partOfSpeech": "noun",
       "phonetic": "/bjʊˈrɑːkrəsi/",
-      "meaning": "官僚主義；煩雑な手続き",
+      "meaning": "官僚制；官僚主義；煩雑な手続き",
       "exampleEn": "Government bureaucracy delayed the approval of the project.",
       "exampleJa": "政府の官僚主義がその計画の承認を遅らせました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "capable",
@@ -324,7 +324,7 @@
       "meaning": "能力がある；有能な",
       "exampleEn": "She is a capable manager of a large team.",
       "exampleJa": "彼女は大きなチームを率いる有能な管理者です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cargo",
@@ -339,10 +339,10 @@
       "headword": "cavity",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkævəti/",
-      "meaning": "虫歯の穴；空洞",
+      "meaning": "虫歯の穴；空洞；くぼみ",
       "exampleEn": "The dentist filled the cavity in my tooth.",
       "exampleJa": "歯科医が私の歯の虫歯の穴を詰めてくれました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "certificate",
@@ -357,19 +357,19 @@
       "headword": "cherish",
       "partOfSpeech": "verb",
       "phonetic": "/ˈtʃerɪʃ/",
-      "meaning": "を大切にする；を愛おしむ",
+      "meaning": "を大切にする；を慈しむ",
       "exampleEn": "I cherish the memories of my childhood.",
       "exampleJa": "私は子供のころの思い出を大切にしています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "clarify",
       "partOfSpeech": "verb",
       "phonetic": "/ˈklærəfaɪ/",
-      "meaning": "を明確にする",
+      "meaning": "を明確にする；を説明する",
       "exampleEn": "Could you clarify the meaning of this word?",
       "exampleJa": "この語の意味を明確にしていただけますか。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "clog",
@@ -384,10 +384,10 @@
       "headword": "collaboration",
       "partOfSpeech": "noun",
       "phonetic": "/kəˌlæbəˈreɪʃn/",
-      "meaning": "共同制作；コラボレーション",
+      "meaning": "共同作業；共同制作；協力",
       "exampleEn": "The project succeeded through close collaboration between the teams.",
       "exampleJa": "その計画はチーム間の緊密な共同作業によって成功しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "combine",
@@ -429,19 +429,19 @@
       "headword": "compound",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmpaʊnd/",
-      "meaning": "化合物；敷地",
+      "meaning": "化合物；複合物；敷地",
       "exampleEn": "Water is a compound of hydrogen and oxygen.",
       "exampleJa": "水は水素と酸素の化合物です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "concentrate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːnsntreɪt/",
-      "meaning": "を集中させる",
+      "meaning": "集中する；を集中させる",
       "exampleEn": "I cannot concentrate on my work in this noise.",
       "exampleJa": "この騒音の中では仕事に集中できません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "concord",
@@ -456,19 +456,19 @@
       "headword": "conduct",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈdʌkt/",
-      "meaning": "を実施・導く",
+      "meaning": "を実施する；を指揮する；を導く",
       "exampleEn": "The team conducted an experiment in the laboratory.",
       "exampleJa": "そのチームは実験室で実験を実施しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "confirmation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːnfərˈmeɪʃn/",
-      "meaning": "確認書；確証",
+      "meaning": "確認；確認書；確証",
       "exampleEn": "I received an email confirmation of my hotel booking.",
       "exampleJa": "ホテルの予約確認のメールを受け取りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "consecrate",
@@ -504,7 +504,7 @@
       "meaning": "に相談する；を参照する",
       "exampleEn": "You should consult a doctor before taking this medicine.",
       "exampleJa": "この薬を飲む前に医師に相談したほうがよいです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "contempt",
@@ -564,10 +564,10 @@
       "headword": "council",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkaʊnsl/",
-      "meaning": "地方議会；評議会",
+      "meaning": "議会；評議会",
       "exampleEn": "The city council approved the new library budget.",
       "exampleJa": "市議会が新しい図書館の予算を承認しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "covert",
@@ -585,7 +585,7 @@
       "meaning": "頂上；波頭；紋章",
       "exampleEn": "The climbers reached the crest of the hill.",
       "exampleJa": "登山者たちは丘の頂上に到達しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cruise",
@@ -599,11 +599,11 @@
     {
       "headword": "cumulative",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈkjuːmjəleɪtɪv/",
-      "meaning": "累積的な；積み重なった",
+      "phonetic": "/ˈkjuːmjələtɪv/",
+      "meaning": "累積的な；次第に増える",
       "exampleEn": "The effect of the damage was cumulative over years.",
       "exampleJa": "その被害の影響は何年もかけて積み重なりました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cynic",
@@ -654,10 +654,10 @@
       "headword": "delicious",
       "partOfSpeech": "adjective",
       "phonetic": "/dɪˈlɪʃəs/",
-      "meaning": "美味しい；風味の良い",
+      "meaning": "とてもおいしい",
       "exampleEn": "The soup my mother made was delicious.",
       "exampleJa": "母が作ったスープはとてもおいしかったです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "democrat",
@@ -672,10 +672,10 @@
       "headword": "dense",
       "partOfSpeech": "adjective",
       "phonetic": "/dens/",
-      "meaning": "密度の高い；濃厚な",
+      "meaning": "密集した；濃い；密度の高い",
       "exampleEn": "A dense forest covers the north of the island.",
       "exampleJa": "うっそうとした森が島の北部を覆っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "depose",
@@ -738,7 +738,7 @@
       "meaning": "を口述する；を命じる",
       "exampleEn": "The manager dictated a letter to his secretary.",
       "exampleJa": "部長は秘書に手紙を口述しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dignity",
@@ -765,7 +765,7 @@
       "meaning": "を見分ける；を識別する",
       "exampleEn": "It is hard to discern the difference between them.",
       "exampleJa": "それらの違いを見分けるのは難しいです。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "discontinue",
@@ -780,10 +780,10 @@
       "headword": "discriminate",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskrɪmɪneɪt/",
-      "meaning": "差別する；識別する",
+      "meaning": "差別する；を区別する",
       "exampleEn": "The law does not allow companies to discriminate against women.",
       "exampleJa": "法律は企業が女性を差別することを認めていません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "disinterested",
@@ -798,10 +798,10 @@
       "headword": "dispatch",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspætʃ/",
-      "meaning": "を派遣する；を発送する",
+      "meaning": "を発送する；を派遣する",
       "exampleEn": "The city dispatched a rescue team to the village.",
       "exampleJa": "市は村へ救助隊を派遣しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "disprove",
@@ -927,7 +927,7 @@
       "meaning": "手順；手続き",
       "exampleEn": "Everyone must follow the safety procedure in the lab.",
       "exampleJa": "実験室では全員が安全手順に従わなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "prodigy",
@@ -1008,7 +1008,7 @@
       "meaning": "を押す；を推進する",
       "exampleEn": "He pushed the door open and went inside.",
       "exampleJa": "彼はドアを押し開けて中に入りました。",
-      "level": 2
+      "level": 1
     }
   ]
 }

@@ -33,7 +33,7 @@
       "headword": "brother",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbrʌðər/",
-      "meaning": "兄；弟",
+      "meaning": "兄；弟；兄弟",
       "exampleEn": "I have an older brother.",
       "exampleJa": "私には兄がいます。",
       "level": 1
@@ -114,7 +114,7 @@
       "headword": "child",
       "partOfSpeech": "noun",
       "phonetic": "/tʃaɪld/",
-      "meaning": "子ども",
+      "meaning": "子ども；児童",
       "exampleEn": "Every child needs love and care.",
       "exampleJa": "すべての子どもに愛情と世話が必要です。",
       "level": 1
@@ -123,7 +123,7 @@
       "headword": "baby",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbeɪbi/",
-      "meaning": "赤ちゃん",
+      "meaning": "赤ちゃん；赤ん坊",
       "exampleEn": "The baby is sleeping now.",
       "exampleJa": "赤ちゃんは今眠っています。",
       "level": 1
@@ -240,7 +240,7 @@
       "headword": "boy",
       "partOfSpeech": "noun",
       "phonetic": "/bɔɪ/",
-      "meaning": "男の子",
+      "meaning": "男の子；少年",
       "exampleEn": "The boy is reading a comic book.",
       "exampleJa": "その男の子は漫画を読んでいます。",
       "level": 1
@@ -276,10 +276,10 @@
       "headword": "adult",
       "partOfSpeech": "noun",
       "phonetic": "/əˈdʌlt/",
-      "meaning": "大人",
+      "meaning": "大人；成人",
       "exampleEn": "This movie is only for adults.",
       "exampleJa": "この映画は大人だけのものです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "teenager",
@@ -321,10 +321,10 @@
       "headword": "guest",
       "partOfSpeech": "noun",
       "phonetic": "/ɡest/",
-      "meaning": "客",
+      "meaning": "客；宿泊客",
       "exampleEn": "We welcomed many guests today.",
       "exampleJa": "私たちは今日多くのお客さんを迎えました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "owner",
@@ -339,7 +339,7 @@
       "headword": "visitor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈvɪzɪtər/",
-      "meaning": "訪問者；観光客",
+      "meaning": "訪問者；来客；観光客",
       "exampleEn": "This temple gets many visitors every year.",
       "exampleJa": "このお寺は毎年多くの訪問者を迎えます。",
       "level": 2
@@ -347,11 +347,11 @@
     {
       "headword": "citizen",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈsɪtəzn/",
-      "meaning": "市民",
+      "phonetic": "/ˈsɪtɪzn/",
+      "meaning": "市民；国民",
       "exampleEn": "We should act as good citizens.",
       "exampleJa": "私たちは良き市民として行動すべきです。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "foreigner",
@@ -366,7 +366,7 @@
       "headword": "customer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmər/",
-      "meaning": "客；顧客",
+      "meaning": "顧客；客",
       "exampleEn": "The shop was full of customers today.",
       "exampleJa": "その店は今日お客さんでいっぱいでした。",
       "level": 2
@@ -375,7 +375,7 @@
       "headword": "audience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
-      "meaning": "聴衆；観客",
+      "meaning": "聴衆；観客；対象層",
       "exampleEn": "The audience clapped after the speech.",
       "exampleJa": "聴衆はスピーチの後拍手しました。",
       "level": 3
@@ -387,16 +387,16 @@
       "meaning": "群衆；人ごみ",
       "exampleEn": "A large crowd gathered at the station.",
       "exampleJa": "大勢の人が駅に集まりました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "leader",
       "partOfSpeech": "noun",
       "phonetic": "/ˈliːdər/",
-      "meaning": "リーダー；指導者",
+      "meaning": "指導者；リーダー",
       "exampleEn": "She is a good leader of our class.",
       "exampleJa": "彼女は私たちのクラスの良いリーダーです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "doctor",
@@ -465,16 +465,16 @@
       "headword": "artist",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrtɪst/",
-      "meaning": "芸術家；アーティスト",
+      "meaning": "芸術家；画家",
       "exampleEn": "The artist painted a beautiful picture.",
       "exampleJa": "その芸術家は美しい絵を描きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "engineer",
       "partOfSpeech": "noun",
       "phonetic": "/ˌendʒɪˈnɪr/",
-      "meaning": "技師；エンジニア",
+      "meaning": "技師；技術者；エンジニア",
       "exampleEn": "My father works as an engineer.",
       "exampleJa": "父は技師として働いています。",
       "level": 2
@@ -483,10 +483,10 @@
       "headword": "pilot",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpaɪlət/",
-      "meaning": "パイロット",
+      "meaning": "パイロット；操縦士",
       "exampleEn": "The pilot landed the plane safely.",
       "exampleJa": "パイロットは飛行機を無事に着陸させました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "cook",
@@ -573,7 +573,7 @@
       "headword": "chef",
       "partOfSpeech": "noun",
       "phonetic": "/ʃef/",
-      "meaning": "シェフ；料理長",
+      "meaning": "料理長；シェフ",
       "exampleEn": "The chef made a new dish for us.",
       "exampleJa": "シェフは私たちに新しい料理を作ってくれました。",
       "level": 2
@@ -585,7 +585,7 @@
       "meaning": "俳優",
       "exampleEn": "The actor practiced his speech every day.",
       "exampleJa": "その俳優は毎日せりふを練習しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "musician",
@@ -626,7 +626,7 @@
     {
       "headword": "lawyer",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈlɔɪər/",
+      "phonetic": "/ˈlɔːjər/",
       "meaning": "弁護士",
       "exampleEn": "She wants to become a lawyer.",
       "exampleJa": "彼女は弁護士になりたいと思っています。",
@@ -666,13 +666,13 @@
       "meaning": "助手；アシスタント",
       "exampleEn": "The teacher's assistant helped us with the test.",
       "exampleJa": "先生の助手はテストを手伝ってくれました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "manager",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmænɪdʒər/",
-      "meaning": "マネージャー；店長",
+      "meaning": "支配人；管理者；マネージャー",
       "exampleEn": "The store manager checked all the shelves.",
       "exampleJa": "店長はすべての棚を確認しました。",
       "level": 2
@@ -684,13 +684,13 @@
       "meaning": "大統領；社長",
       "exampleEn": "The president spoke to the students.",
       "exampleJa": "大統領は生徒たちに話しかけました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "boss",
       "partOfSpeech": "noun",
       "phonetic": "/bɔːs/",
-      "meaning": "上司；ボス",
+      "meaning": "上司；ボス；経営者",
       "exampleEn": "My boss praised our team's work.",
       "exampleJa": "上司は私たちのチームの仕事をほめてくれました。",
       "level": 2
@@ -726,7 +726,7 @@
       "headword": "couple",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌpl/",
-      "meaning": "夫婦；カップル",
+      "meaning": "一対；夫婦；カップル",
       "exampleEn": "That couple got married last spring.",
       "exampleJa": "あの夫婦は去年の春結婚しました。",
       "level": 2
@@ -735,10 +735,10 @@
       "headword": "relationship",
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈleɪʃnʃɪp/",
-      "meaning": "関係",
+      "meaning": "関係；間柄",
       "exampleEn": "We have a good relationship with our neighbors.",
       "exampleJa": "私たちは近所の人たちと良い関係にあります。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "teammate",
@@ -843,10 +843,10 @@
       "headword": "alone",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈloʊn/",
-      "meaning": "ひとりで",
+      "meaning": "一人で；単独で",
       "exampleEn": "I don't like staying home alone.",
       "exampleJa": "私は一人で家にいるのが好きではありません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "married",

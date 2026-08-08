@@ -51,7 +51,7 @@
       "headword": "in accordance with",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に従って；〜に合わせて",
+      "meaning": "〜に従って；〜に準じて",
       "exampleEn": "Act in accordance with rules.",
       "exampleJa": "規則に従って行動しなさい。",
       "level": 4
@@ -69,10 +69,10 @@
       "headword": "in terms of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜の点から；〜の観点において",
+      "meaning": "〜の点から；〜の観点から",
       "exampleEn": "Evaluate cost in terms of value.",
       "exampleJa": "価値の観点からコストを評価しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "in the long run",
@@ -87,10 +87,10 @@
       "headword": "on behalf of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を代表して；〜のために",
+      "meaning": "〜を代表して；〜に代わって",
       "exampleEn": "I spoke on behalf of our team.",
       "exampleJa": "私はチームを代表して発言しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "to some extent",
@@ -180,16 +180,16 @@
       "meaning": "青年；思春期の若者",
       "exampleEn": "Adolescents often experience rapid mood swings.",
       "exampleJa": "思春期の若者は気分が急に変わりやすいです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "affluent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈæfluənt/",
-      "meaning": "裕福な；豊かな",
+      "meaning": "裕福な；豊富な",
       "exampleEn": "They live in an affluent neighborhood.",
       "exampleJa": "彼らは裕福な地域に住んでいます。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "agility",
@@ -222,7 +222,7 @@
       "headword": "alpha",
       "partOfSpeech": "noun",
       "phonetic": "/ˈælfə/",
-      "meaning": "アルファ；最初",
+      "meaning": "アルファ；最初のもの",
       "exampleEn": "Alpha is the first letter of the Greek alphabet.",
       "exampleJa": "アルファはギリシャ文字の最初の文字です。",
       "level": 3
@@ -267,10 +267,10 @@
       "headword": "anguish",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡwɪʃ/",
-      "meaning": "苦悩；苦痛",
+      "meaning": "苦悩；激しい苦痛",
       "exampleEn": "She cried out in deep anguish.",
       "exampleJa": "彼女は深い苦悩の中で泣き叫びました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "annum",
@@ -420,10 +420,10 @@
       "headword": "bombard",
       "partOfSpeech": "verb",
       "phonetic": "/bɑːmˈbɑːrd/",
-      "meaning": "を砲撃する；に浴びせる",
+      "meaning": "を浴びせる；を砲撃する",
       "exampleEn": "The media bombarded the public with ads.",
       "exampleJa": "メディアは世間に広告を浴びせました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "brunt",
@@ -468,7 +468,7 @@
       "meaning": "心臓の；心臓病の",
       "exampleEn": "The patient suffered a sudden cardiac arrest.",
       "exampleJa": "患者は突然の心臓発作に見舞われました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "carp",
@@ -486,7 +486,7 @@
       "meaning": "壊滅的な；悲惨な",
       "exampleEn": "The tsunami caused catastrophic damage.",
       "exampleJa": "津波は壊滅的な被害をもたらしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "caviar",
@@ -546,10 +546,10 @@
       "headword": "hospitality",
       "partOfSpeech": "noun",
       "phonetic": "/ˌhɑːspɪˈtæləti/",
-      "meaning": "歓待；おもてなし",
+      "meaning": "歓待；もてなし",
       "exampleEn": "Thank you for your warm hospitality.",
       "exampleJa": "温かいおもてなしに感謝します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "hysteria",

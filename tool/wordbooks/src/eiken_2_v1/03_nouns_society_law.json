@@ -5,29 +5,29 @@
     {
       "headword": "administration",
       "partOfSpeech": "noun",
-      "phonetic": "/ədˌmɪnɪˈstreɪʃən/",
-      "meaning": "行政；管理；政権",
+      "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+      "meaning": "管理；行政；政権",
       "exampleEn": "The new administration lowered taxes on small businesses.",
       "exampleJa": "新しい政権は中小企業への税金を下げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "agency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪdʒənsi/",
-      "meaning": "代理店；政府機関",
+      "meaning": "代理店；機関；官庁",
       "exampleEn": "The travel agency booked our flight tickets.",
       "exampleJa": "旅行代理店が私たちの航空券を手配しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "candidate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkændɪdeɪt/",
-      "meaning": "候補者；志望者",
+      "meaning": "候補者；志願者",
       "exampleEn": "Each candidate gave a short speech before the election.",
       "exampleJa": "各候補者は選挙の前に短い演説をしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "committee",
@@ -42,7 +42,7 @@
       "headword": "democracy",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈmɑːkrəsi/",
-      "meaning": "民主主義；民主主義国",
+      "meaning": "民主主義；民主国家",
       "exampleEn": "Freedom of speech is important in a democracy.",
       "exampleJa": "言論の自由は民主主義において重要です。",
       "level": 3
@@ -51,7 +51,7 @@
       "headword": "foundation",
       "partOfSpeech": "noun",
       "phonetic": "/faʊnˈdeɪʃən/",
-      "meaning": "土台；財団；設立",
+      "meaning": "基礎；土台；財団",
       "exampleEn": "Education is the foundation of a good society.",
       "exampleJa": "教育は良い社会の土台です。",
       "level": 3
@@ -87,19 +87,19 @@
       "headword": "abolish",
       "partOfSpeech": "verb",
       "phonetic": "/əˈbɑːlɪʃ/",
-      "meaning": "を廃止する",
+      "meaning": "を廃止する；を撤廃する",
       "exampleEn": "The government abolished the old unfair tax.",
       "exampleJa": "政府は古い不公平な税金を廃止しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "accommodate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkɑːmədeɪt/",
-      "meaning": "を収容する；をもてなす",
+      "meaning": "を収容する；を適応させる；に便宜を図る",
       "exampleEn": "The hotel can accommodate five hundred guests.",
       "exampleJa": "そのホテルは500人の客を収容できます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "addict",
@@ -108,13 +108,13 @@
       "meaning": "中毒者；熱中する人",
       "exampleEn": "He became a smartphone game addict.",
       "exampleJa": "彼はスマートフォンゲームの中毒者になりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "adverse",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈædvɜːrs/",
-      "meaning": "不都合な；反対の",
+      "meaning": "不利な；有害な；逆の",
       "exampleEn": "Adverse weather forced us to cancel the event.",
       "exampleJa": "悪天候のため私たちはイベントを中止しました。",
       "level": 4
@@ -123,28 +123,28 @@
       "headword": "agitate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈædʒɪteɪt/",
-      "meaning": "を攪乱する；運動を起こす",
+      "meaning": "を扇動する；をかき混ぜる；を動揺させる",
       "exampleEn": "The workers agitated for higher wages.",
       "exampleJa": "労働者たちはより高い賃金を求めて運動を起こしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "alternate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɔːltərneɪt/",
-      "meaning": "交互にする；交代する",
+      "meaning": "交互に起こる；を交互にする；交代する",
       "exampleEn": "Sunny days alternate with rainy days here.",
       "exampleJa": "ここでは晴れの日と雨の日が交互にやって来ます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "amend",
       "partOfSpeech": "verb",
       "phonetic": "/əˈmend/",
-      "meaning": "を修正・改正する",
+      "meaning": "を修正する；を改正する",
       "exampleEn": "Congress amended the law last year.",
       "exampleJa": "議会は昨年その法律を改正しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "anarchy",
@@ -153,16 +153,16 @@
       "meaning": "無政府状態；混乱",
       "exampleEn": "The long war threw the country into anarchy.",
       "exampleJa": "長い戦争がその国を無政府状態に陥れました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "annoy",
       "partOfSpeech": "verb",
       "phonetic": "/əˈnɔɪ/",
-      "meaning": "をいらだたせる",
+      "meaning": "をいらだたせる；を困らせる",
       "exampleEn": "The loud noise annoyed everyone in the room.",
       "exampleJa": "大きな騒音が部屋にいる全員をいらだたせました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "apparel",
@@ -177,19 +177,19 @@
       "headword": "appreciation",
       "partOfSpeech": "noun",
       "phonetic": "/əˌpriːʃiˈeɪʃn/",
-      "meaning": "感謝；正しい評価",
+      "meaning": "感謝；正しい評価；鑑賞",
       "exampleEn": "She expressed her appreciation for our help.",
       "exampleJa": "彼女は私たちの助けに感謝を表しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "arduous",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɑːrdʒuəs/",
-      "meaning": "困難な；過酷な",
+      "meaning": "困難な；骨の折れる",
       "exampleEn": "Climbing the mountain was an arduous task.",
       "exampleJa": "その山に登ることは過酷な仕事でした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "artisan",
@@ -198,40 +198,40 @@
       "meaning": "職人；工芸家",
       "exampleEn": "A skilled artisan made this vase by hand.",
       "exampleJa": "熟練した職人がこの花瓶を手作りしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "assess",
       "partOfSpeech": "verb",
       "phonetic": "/əˈses/",
-      "meaning": "を査定・評価する",
+      "meaning": "を評価する；を査定する",
       "exampleEn": "The inspector assessed the damage from the fire.",
       "exampleJa": "検査官は火災による損害を査定しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "attend",
       "partOfSpeech": "verb",
       "phonetic": "/əˈtend/",
-      "meaning": "に出席する；に世話する",
+      "meaning": "に出席する；に通う；の世話をする",
       "exampleEn": "All employees must attend the safety meeting.",
       "exampleJa": "全従業員は安全会議に出席しなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "audience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
-      "meaning": "聴衆；観客",
+      "meaning": "聴衆；観客；対象層",
       "exampleEn": "The audience clapped after the last song.",
       "exampleJa": "聴衆は最後の曲の後に拍手しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "autobiography",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɔːtəbaɪˈɑːɡrəfi/",
-      "meaning": "自叙伝；自伝",
+      "meaning": "自伝；自叙伝",
       "exampleEn": "The singer published her autobiography last month.",
       "exampleJa": "その歌手は先月、自伝を出版しました。",
       "level": 3
@@ -249,10 +249,10 @@
       "headword": "behalf",
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈhæf/",
-      "meaning": "側；味方",
+      "meaning": "味方；利益；代理",
       "exampleEn": "I spoke on behalf of all the members.",
       "exampleJa": "私は全会員を代表して話しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bewilder",
@@ -270,7 +270,7 @@
       "meaning": "味のない；特徴のない",
       "exampleEn": "The soup was bland because he forgot the salt.",
       "exampleJa": "彼が塩を入れ忘れたのでスープは味気ないものでした。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "blooms",
@@ -303,10 +303,10 @@
       "headword": "broker",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbroʊkər/",
-      "meaning": "仲介人；ブローカー",
+      "meaning": "仲介人；仲買人；ブローカー",
       "exampleEn": "The broker arranged the sale of the house.",
       "exampleJa": "仲介人が家の売却をまとめました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "calibre",
@@ -330,10 +330,10 @@
       "headword": "catastrophic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌkætəˈstrɑːfɪk/",
-      "meaning": "壊滅的な",
+      "meaning": "壊滅的な；悲惨な",
       "exampleEn": "The earthquake caused catastrophic damage to the city.",
       "exampleJa": "地震はその都市に壊滅的な被害をもたらしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "censor",
@@ -357,10 +357,10 @@
       "headword": "circumvent",
       "partOfSpeech": "verb",
       "phonetic": "/ˌsɜːrkəmˈvent/",
-      "meaning": "を回避する；裏をかく",
+      "meaning": "を回避する；を出し抜く",
       "exampleEn": "The hacker circumvented the security system.",
       "exampleJa": "ハッカーはセキュリティシステムの裏をかきました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cliche",
@@ -375,10 +375,10 @@
       "headword": "cognitive",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːɡnətɪv/",
-      "meaning": "認識の；認知の",
+      "meaning": "認知の；認識の",
       "exampleEn": "Puzzles can improve your cognitive skills.",
       "exampleJa": "パズルは認知能力を高めることができます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "collusion",
@@ -411,10 +411,10 @@
       "headword": "complain",
       "partOfSpeech": "verb",
       "phonetic": "/kəmˈpleɪn/",
-      "meaning": "不平・苦情を言う",
+      "meaning": "不平を言う；苦情を言う",
       "exampleEn": "The guest complained about the poor service.",
       "exampleJa": "客は粗末なサービスについて苦情を言いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "compose",
@@ -438,19 +438,19 @@
       "headword": "concert",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnsərt/",
-      "meaning": "演奏会；コンサート",
+      "meaning": "コンサート；演奏会",
       "exampleEn": "We went to a rock concert last night.",
       "exampleJa": "私たちは昨夜ロックの演奏会に行きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "condense",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈdens/",
-      "meaning": "を凝縮する；要約する",
+      "meaning": "を凝縮する；を要約する",
       "exampleEn": "He condensed the long report into one page.",
       "exampleJa": "彼は長い報告書を1ページに要約しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "confide",
@@ -477,25 +477,25 @@
       "meaning": "を征服する；を克服する",
       "exampleEn": "The climbers finally conquered the highest peak.",
       "exampleJa": "登山家たちはついに最高峰を征服しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "conservation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːnsərˈveɪʃn/",
-      "meaning": "環境保護；保全",
+      "meaning": "保護；保全；節約",
       "exampleEn": "The group works on forest conservation.",
       "exampleJa": "その団体は森林の保全に取り組んでいます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consolidate",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɑːlɪdeɪt/",
-      "meaning": "を統合・強化する",
+      "meaning": "を統合する；を強化する",
       "exampleEn": "The company consolidated its two offices.",
       "exampleJa": "その会社は2つのオフィスを統合しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "constrain",
@@ -504,7 +504,7 @@
       "meaning": "を制約する；を強制する",
       "exampleEn": "A small budget constrains our new plan.",
       "exampleJa": "少ない予算が私たちの新しい計画を制約します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "contagious",
@@ -546,10 +546,10 @@
       "headword": "convince",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈvɪns/",
-      "meaning": "を納得・確信させる",
+      "meaning": "を納得させる；を確信させる；を説得する",
       "exampleEn": "The lawyer convinced the jury of his innocence.",
       "exampleJa": "弁護士は陪審員に彼の無罪を納得させました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cordiality",
@@ -585,7 +585,7 @@
       "meaning": "噴火口；クレーター",
       "exampleEn": "White smoke rose from the volcano's crater.",
       "exampleJa": "火山の噴火口から白い煙が上がりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "criticism",
@@ -600,19 +600,19 @@
       "headword": "cryptic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrɪptɪk/",
-      "meaning": "神秘的な；謎めいた",
+      "meaning": "謎めいた；意味の分かりにくい",
       "exampleEn": "She sent me a cryptic message last night.",
       "exampleJa": "彼女は昨夜、謎めいたメッセージを送ってきました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "currency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɜːrənsi/",
-      "meaning": "通貨；流通",
+      "meaning": "通貨；貨幣；流通",
       "exampleEn": "The yen is the currency of Japan.",
       "exampleJa": "円は日本の通貨です。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "debilitate",
@@ -654,10 +654,10 @@
       "headword": "delegation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdelɪˈɡeɪʃn/",
-      "meaning": "代表団；権限委任",
+      "meaning": "代表団；派遣団；権限委任",
       "exampleEn": "A trade delegation visited the capital yesterday.",
       "exampleJa": "貿易代表団が昨日、首都を訪れました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "delude",
@@ -726,10 +726,10 @@
       "headword": "deteriorate",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈtɪriəreɪt/",
-      "meaning": "が悪化する；を劣化させる",
+      "meaning": "悪化する；劣化する",
       "exampleEn": "His health deteriorated during the night.",
       "exampleJa": "彼の健康状態は夜の間に悪化しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "deviation",
@@ -783,7 +783,7 @@
       "meaning": "災害；大惨事",
       "exampleEn": "The flood was the worst disaster in years.",
       "exampleJa": "その洪水は近年で最悪の災害でした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "disclose",
@@ -792,7 +792,7 @@
       "meaning": "を公表する；を明かす",
       "exampleEn": "The firm disclosed its financial results today.",
       "exampleJa": "その会社は今日、財務結果を公表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "discovery",
@@ -825,10 +825,10 @@
       "headword": "display",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspleɪ/",
-      "meaning": "を展示・表示する",
+      "meaning": "を展示する；を表示する；を表に出す",
       "exampleEn": "The museum displays ancient Egyptian treasures.",
       "exampleJa": "その博物館は古代エジプトの宝物を展示しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "dissatisfaction",
@@ -879,10 +879,10 @@
       "headword": "possess",
       "partOfSpeech": "verb",
       "phonetic": "/pəˈzes/",
-      "meaning": "を所持する；を保有する",
+      "meaning": "を所有する；を備えている",
       "exampleEn": "She possesses excellent language skills.",
       "exampleJa": "彼女は優れた語学力を持っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "precaution",
@@ -891,7 +891,7 @@
       "meaning": "予防策；用心",
       "exampleEn": "We took extra precautions before the storm arrived.",
       "exampleJa": "私たちは嵐が来る前に特別な予防策をとりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "prediction",
@@ -933,7 +933,7 @@
       "headword": "prize",
       "partOfSpeech": "noun",
       "phonetic": "/praɪz/",
-      "meaning": "賞品；賞",
+      "meaning": "賞；賞品",
       "exampleEn": "She won first prize in the speech contest.",
       "exampleJa": "彼女はスピーチコンテストで一等賞を取りました。",
       "level": 2
@@ -996,10 +996,10 @@
       "headword": "protocol",
       "partOfSpeech": "noun",
       "phonetic": "/ˈproʊtəkɑːl/",
-      "meaning": "プロトコル；儀礼；手順",
+      "meaning": "規定；手順；儀礼",
       "exampleEn": "Everyone must follow the security protocol here.",
       "exampleJa": "ここでは全員が保安手順に従わなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "provision",

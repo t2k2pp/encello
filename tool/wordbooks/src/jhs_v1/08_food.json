@@ -87,7 +87,7 @@
       "headword": "recipe",
       "partOfSpeech": "noun",
       "phonetic": "/ˈresəpi/",
-      "meaning": "レシピ",
+      "meaning": "レシピ；調理法",
       "exampleEn": "She found a new cake recipe.",
       "exampleJa": "彼女は新しいケーキのレシピを見つけました。",
       "level": 2
@@ -207,7 +207,7 @@
       "meaning": "牛肉",
       "exampleEn": "This beef tastes very good today.",
       "exampleJa": "この牛肉は今日とてもおいしいです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pork",
@@ -222,7 +222,7 @@
       "headword": "chicken",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃɪkɪn/",
-      "meaning": "鶏肉；ニワトリ",
+      "meaning": "ニワトリ；鶏肉",
       "exampleEn": "My father is cooking chicken now.",
       "exampleJa": "父は今、鶏肉を料理しています。",
       "level": 1
@@ -321,16 +321,16 @@
       "headword": "corn",
       "partOfSpeech": "noun",
       "phonetic": "/kɔːrn/",
-      "meaning": "とうもろこし",
+      "meaning": "トウモロコシ",
       "exampleEn": "We grilled corn at the picnic.",
       "exampleJa": "ピクニックでとうもろこしを焼きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "cucumber",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkjuːkʌmbər/",
-      "meaning": "きゅうり",
+      "meaning": "キュウリ",
       "exampleEn": "I sliced a cucumber for lunch.",
       "exampleJa": "昼食用にきゅうりを切りました。",
       "level": 2
@@ -420,10 +420,10 @@
       "headword": "cherry",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃeri/",
-      "meaning": "さくらんぼ",
+      "meaning": "さくらんぼ；桜",
       "exampleEn": "A cherry fell from the tree.",
       "exampleJa": "さくらんぼが木から落ちました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pineapple",
@@ -519,15 +519,15 @@
       "headword": "candy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkændi/",
-      "meaning": "キャンディー",
+      "meaning": "キャンディー；お菓子",
       "exampleEn": "The children shared candy at the party.",
       "exampleJa": "子どもたちはパーティーでキャンディーを分けました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "chocolate",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈtʃɔːklət/",
+      "phonetic": "/ˈtʃɑːklət/",
       "meaning": "チョコレート",
       "exampleEn": "I gave her chocolate for her birthday.",
       "exampleJa": "彼女の誕生日にチョコレートをあげました。",
@@ -612,7 +612,7 @@
       "meaning": "バター",
       "exampleEn": "She spread butter on the bread.",
       "exampleJa": "彼女はパンにバターを塗りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "cheese",
@@ -645,7 +645,7 @@
       "headword": "ingredient",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈɡriːdiənt/",
-      "meaning": "材料",
+      "meaning": "材料；成分",
       "exampleEn": "Eggs are an important ingredient here.",
       "exampleJa": "卵はここで重要な材料です。",
       "level": 3
@@ -663,7 +663,7 @@
       "headword": "cup",
       "partOfSpeech": "noun",
       "phonetic": "/kʌp/",
-      "meaning": "カップ",
+      "meaning": "カップ；茶碗",
       "exampleEn": "He filled the cup with juice.",
       "exampleJa": "彼はカップにジュースを入れました。",
       "level": 1
@@ -681,7 +681,7 @@
       "headword": "bowl",
       "partOfSpeech": "noun",
       "phonetic": "/boʊl/",
-      "meaning": "どんぶり；ボウル",
+      "meaning": "ボウル；どんぶり；鉢",
       "exampleEn": "Serve the soup in a bowl.",
       "exampleJa": "スープをどんぶりに入れて出してください。",
       "level": 2
@@ -816,7 +816,7 @@
       "headword": "bitter",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbɪtər/",
-      "meaning": "苦い",
+      "meaning": "苦い；つらい；痛烈な",
       "exampleEn": "Coffee can taste bitter without sugar.",
       "exampleJa": "コーヒーは砂糖なしだと苦く感じることがあります。",
       "level": 2

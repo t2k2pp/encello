@@ -42,7 +42,7 @@
       "headword": "disappear",
       "partOfSpeech": "verb",
       "phonetic": "/ˌdɪsəˈpɪr/",
-      "meaning": "消える",
+      "meaning": "消える；姿を消す",
       "exampleEn": "The magician made the coin disappear.",
       "exampleJa": "その手品師はコインを消してみせました。",
       "level": 2
@@ -87,7 +87,7 @@
       "headword": "continue",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈtɪnjuː/",
-      "meaning": "続く；続ける",
+      "meaning": "を続ける；続く",
       "exampleEn": "The rain continued all through the night.",
       "exampleJa": "雨は一晩中降り続きました。",
       "level": 2
@@ -132,7 +132,7 @@
       "headword": "come",
       "partOfSpeech": "verb",
       "phonetic": "/kʌm/",
-      "meaning": "来る",
+      "meaning": "来る；到着する",
       "exampleEn": "Can you come to my house tomorrow?",
       "exampleJa": "明日私の家に来られますか。",
       "level": 1
@@ -195,19 +195,19 @@
       "headword": "climb",
       "partOfSpeech": "verb",
       "phonetic": "/klaɪm/",
-      "meaning": "登る",
+      "meaning": "に登る；上昇する",
       "exampleEn": "They climbed the mountain in five hours.",
       "exampleJa": "彼らは5時間でその山に登りました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "enter",
       "partOfSpeech": "verb",
       "phonetic": "/ˈentər/",
-      "meaning": "入る",
+      "meaning": "に入る；に入学する",
       "exampleEn": "Please enter the room quietly.",
       "exampleJa": "静かに部屋に入ってください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pass",
@@ -222,7 +222,7 @@
       "headword": "cross",
       "partOfSpeech": "verb",
       "phonetic": "/krɔːs/",
-      "meaning": "渡る；横切る",
+      "meaning": "を渡る；を横切る；交差する",
       "exampleEn": "Look both ways before you cross the street.",
       "exampleJa": "道路を渡る前に両方向を見なさい。",
       "level": 2
@@ -240,19 +240,19 @@
       "headword": "reach",
       "partOfSpeech": "verb",
       "phonetic": "/riːtʃ/",
-      "meaning": "着く；達する",
+      "meaning": "に到達する；に着く；に手を伸ばす",
       "exampleEn": "We reached the top of the mountain at noon.",
       "exampleJa": "私たちは正午に山の頂上に着きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "escape",
       "partOfSpeech": "verb",
       "phonetic": "/ɪˈskeɪp/",
-      "meaning": "逃げる",
+      "meaning": "逃げる；を免れる",
       "exampleEn": "The bird escaped from its cage.",
       "exampleJa": "その鳥はかごから逃げました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "jump",
@@ -321,10 +321,10 @@
       "headword": "float",
       "partOfSpeech": "verb",
       "phonetic": "/floʊt/",
-      "meaning": "浮く",
+      "meaning": "浮かぶ；を浮かべる",
       "exampleEn": "Wood floats on water easily.",
       "exampleJa": "木は水に簡単に浮きます。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "sink",
@@ -393,7 +393,7 @@
       "headword": "hang",
       "partOfSpeech": "verb",
       "phonetic": "/hæŋ/",
-      "meaning": "かける；ぶら下がる",
+      "meaning": "を掛ける；ぶら下がる",
       "exampleEn": "She hung the picture on the wall.",
       "exampleJa": "彼女は壁に絵をかけました。",
       "level": 2
@@ -438,7 +438,7 @@
       "headword": "receive",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈsiːv/",
-      "meaning": "受け取る",
+      "meaning": "を受け取る",
       "exampleEn": "She received a letter from her friend.",
       "exampleJa": "彼女は友達から手紙を受け取りました。",
       "level": 2
@@ -465,10 +465,10 @@
       "headword": "offer",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɔːfər/",
-      "meaning": "申し出る；提供する",
+      "meaning": "を提供する；を申し出る",
       "exampleEn": "He offered to carry my heavy bag.",
       "exampleJa": "彼は私の重いかばんを運ぶと申し出ました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "hand",
@@ -483,10 +483,10 @@
       "headword": "accept",
       "partOfSpeech": "verb",
       "phonetic": "/əkˈsept/",
-      "meaning": "受け入れる",
+      "meaning": "を受け入れる；を承諾する",
       "exampleEn": "She happily accepted our invitation.",
       "exampleJa": "彼女は私たちの招待を喜んで受け入れました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "post",
@@ -519,7 +519,7 @@
       "headword": "present",
       "partOfSpeech": "verb",
       "phonetic": "/prɪˈzent/",
-      "meaning": "贈る；提示する",
+      "meaning": "を提示する；を贈る；を発表する",
       "exampleEn": "They presented her with a beautiful watch.",
       "exampleJa": "彼らは彼女に美しい腕時計を贈りました。",
       "level": 3
@@ -546,7 +546,7 @@
       "headword": "belong",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈlɔːŋ/",
-      "meaning": "属する",
+      "meaning": "所属する；のものである",
       "exampleEn": "This bike belongs to my sister.",
       "exampleJa": "この自転車は私の姉のものです。",
       "level": 2

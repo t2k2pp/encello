@@ -6,7 +6,7 @@
       "headword": "climate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪmət/",
-      "meaning": "気候",
+      "meaning": "気候；風潮",
       "exampleEn": "Climate change is a big threat.",
       "exampleJa": "気候変動は大きな脅威です。",
       "level": 2
@@ -24,10 +24,10 @@
       "headword": "disaster",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈzæstər/",
-      "meaning": "災害；惨事",
+      "meaning": "災害；大惨事",
       "exampleEn": "Earthquakes are natural disasters.",
       "exampleJa": "地震は自然災害です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "disease",
@@ -45,7 +45,7 @@
       "meaning": "生態学；生態系",
       "exampleEn": "She studies tropical forest ecology.",
       "exampleJa": "彼女は熱帯雨林の生態系を研究しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "element",
@@ -60,7 +60,7 @@
       "headword": "energy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈenərdʒi/",
-      "meaning": "エネルギー；活力",
+      "meaning": "エネルギー；元気；活力",
       "exampleEn": "Solar energy is clean.",
       "exampleJa": "太陽エネルギーはクリーンです。",
       "level": 1
@@ -69,7 +69,7 @@
       "headword": "environment",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈvaɪrənmənt/",
-      "meaning": "環境",
+      "meaning": "環境；自然環境",
       "exampleEn": "We should protect our environment.",
       "exampleJa": "私たちは環境を守るべきです。",
       "level": 2
@@ -123,7 +123,7 @@
       "headword": "illness",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪlnəs/",
-      "meaning": "病気",
+      "meaning": "病気；体調不良",
       "exampleEn": "He recovered from a serious illness.",
       "exampleJa": "彼は重い病気から回復しました。",
       "level": 2
@@ -167,8 +167,8 @@
     {
       "headword": "muscle",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈmʌsəl/",
-      "meaning": "筋肉",
+      "phonetic": "/ˈmʌsl/",
+      "meaning": "筋肉；筋力",
       "exampleEn": "Exercise builds strong muscles.",
       "exampleJa": "運動は強い筋肉を作ります。",
       "level": 2
@@ -176,8 +176,8 @@
     {
       "headword": "ocean",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈoʊʃən/",
-      "meaning": "大洋；海洋",
+      "phonetic": "/ˈoʊʃn/",
+      "meaning": "海洋；大洋",
       "exampleEn": "The Pacific is the largest ocean.",
       "exampleJa": "太平洋は最大の洋です。",
       "level": 1
@@ -186,7 +186,7 @@
       "headword": "planet",
       "partOfSpeech": "noun",
       "phonetic": "/ˈplænɪt/",
-      "meaning": "惑星；地球",
+      "meaning": "惑星",
       "exampleEn": "Mars is the fourth planet from the Sun.",
       "exampleJa": "火星は太陽から4番目の惑星です。",
       "level": 2
@@ -194,7 +194,7 @@
     {
       "headword": "pollution",
       "partOfSpeech": "noun",
-      "phonetic": "/pəˈluːʃən/",
+      "phonetic": "/pəˈluːʃn/",
       "meaning": "汚染；公害",
       "exampleEn": "Air pollution affects health.",
       "exampleJa": "大気汚染は健康に影響します。",
@@ -207,7 +207,7 @@
       "meaning": "資源；財源",
       "exampleEn": "Water is a precious resource.",
       "exampleJa": "水は貴重な資源です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "species",
@@ -222,10 +222,10 @@
       "headword": "temperature",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtemprətʃər/",
-      "meaning": "温度；体温",
+      "meaning": "温度；気温；体温",
       "exampleEn": "The temperature rose quickly.",
       "exampleJa": "気温が急激に上昇しました。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "tissue",
@@ -270,7 +270,7 @@
       "meaning": "野生生物",
       "exampleEn": "The park preserves local wildlife.",
       "exampleJa": "その公園は地元の野生生物を保護しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "wound",
@@ -285,10 +285,10 @@
       "headword": "abundant",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈbʌndənt/",
-      "meaning": "豊富な；大量の",
+      "meaning": "豊富な；豊かな",
       "exampleEn": "Natural resources are abundant here.",
       "exampleJa": "ここでは天然資源が豊富です。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "account",
@@ -297,16 +297,16 @@
       "meaning": "口座；説明；勘定",
       "exampleEn": "Open a new bank account today.",
       "exampleJa": "今日新しい銀行口座を開設しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "admission",
       "partOfSpeech": "noun",
       "phonetic": "/ədˈmɪʃn/",
-      "meaning": "入場；入場料；承認",
+      "meaning": "入場；入場料；入場許可",
       "exampleEn": "Free admission for young children.",
       "exampleJa": "幼い子供たちは入場無料です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "allegation",
@@ -315,43 +315,43 @@
       "meaning": "申し立て；主張",
       "exampleEn": "Police checked the fraud allegation.",
       "exampleJa": "警察が詐欺の申し立てを確認しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "alternative",
       "partOfSpeech": "noun",
       "phonetic": "/ɔːlˈtɜːrnətɪv/",
-      "meaning": "代案；選択肢；代わりの",
+      "meaning": "代替案；選択肢",
       "exampleEn": "We need to find an alternative plan.",
       "exampleJa": "私たちは代案の計画を見つける必要があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "amend",
       "partOfSpeech": "verb",
       "phonetic": "/əˈmend/",
-      "meaning": "を修正・改正する",
+      "meaning": "を修正する；を改正する",
       "exampleEn": "Congress voted to amend the law.",
       "exampleJa": "議会が法律を改正することを採択しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "ancestor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈænsestər/",
-      "meaning": "先祖；祖先",
+      "meaning": "祖先；先祖",
       "exampleEn": "Respect your family ancient ancestors.",
       "exampleJa": "あなたの家族の古代の先祖を尊重しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "annex",
       "partOfSpeech": "verb",
       "phonetic": "/əˈneks/",
-      "meaning": "を併合する；別館",
+      "meaning": "を併合する；を添える；別館",
       "exampleEn": "The museum built a new side annex.",
       "exampleJa": "博物館は新しい横の別館を建設しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "anticipation",
@@ -360,43 +360,43 @@
       "meaning": "予期；期待",
       "exampleEn": "Wait in excited happy anticipation.",
       "exampleJa": "興奮した幸せな予期の中で待ちなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "apparent",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈpærənt/",
-      "meaning": "明白な；一見〜らしい",
+      "meaning": "明白な；見たところの",
       "exampleEn": "His happiness was apparent to all.",
       "exampleJa": "彼の幸せは全員にとって明白でした。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "aside",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈsaɪd/",
-      "meaning": "脇へ；傍らに",
+      "meaning": "脇へ；別にして",
       "exampleEn": "Set your worries aside for today.",
       "exampleJa": "今日のところはあなたの心配事を脇に置いておきなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "atom",
       "partOfSpeech": "noun",
       "phonetic": "/ˈætəm/",
-      "meaning": "原子；微量",
+      "meaning": "原子",
       "exampleEn": "Everything matter is made of atoms.",
       "exampleJa": "すべての物質は原子で作られています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "attractive",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈtræktɪv/",
-      "meaning": "魅力的な；美しい",
+      "meaning": "魅力的な",
       "exampleEn": "She has an attractive friendly smile.",
       "exampleJa": "彼女は魅力的なフレンドリーな笑顔を持っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "automatic",
@@ -405,7 +405,7 @@
       "meaning": "自動の；無意識の",
       "exampleEn": "The door has an automatic sensor system.",
       "exampleJa": "そのドアには自動センサーシステムが備わっています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "aware",
@@ -414,7 +414,7 @@
       "meaning": "気づいて；認識して",
       "exampleEn": "Be aware of danger risks around.",
       "exampleJa": "周囲の危険なリスクに気づいていなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bacteria",
@@ -429,16 +429,16 @@
       "headword": "ballet",
       "partOfSpeech": "noun",
       "phonetic": "/bæˈleɪ/",
-      "meaning": "バレエ；バレエ舞踊",
+      "meaning": "バレエ",
       "exampleEn": "We watched a classical ballet performance.",
       "exampleJa": "私たちは古典的なバレエの公演を観賞しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bar",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːr/",
-      "meaning": "バー；棒；障害",
+      "meaning": "棒；バー；酒場",
       "exampleEn": "Grab the metal exercise bar with your hand.",
       "exampleJa": "手で金属の運動棒を掴みなさい。",
       "level": 2
@@ -450,13 +450,13 @@
       "meaning": "基礎；根拠；基準",
       "exampleEn": "Work done on a regular daily basis.",
       "exampleJa": "毎日の定期的な基準で行われた作業。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "beard",
       "partOfSpeech": "noun",
       "phonetic": "/bɪrd/",
-      "meaning": "アゴヒゲ",
+      "meaning": "あごひげ",
       "exampleEn": "He grew a long white face beard.",
       "exampleJa": "彼は長い白い顔のアゴヒゲを伸ばしました。",
       "level": 2
@@ -465,10 +465,10 @@
       "headword": "begin",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈɡɪn/",
-      "meaning": "始める；始まる",
+      "meaning": "を始める；始まる",
       "exampleEn": "The lesson begins at nine in the morning.",
       "exampleJa": "授業は朝9時に始まります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bestow",
@@ -477,7 +477,7 @@
       "meaning": "を授ける；を贈る",
       "exampleEn": "They bestowed a medal upon the hero.",
       "exampleJa": "彼らは英雄にメダルを授けました。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "bidding",
@@ -510,46 +510,46 @@
       "headword": "body",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɑːdi/",
-      "meaning": "身体；体；主体",
+      "meaning": "体；身体；組織",
       "exampleEn": "Exercise daily to keep a healthy body.",
       "exampleJa": "健康な身体を保つために毎日運動しなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "booth",
       "partOfSpeech": "noun",
       "phonetic": "/buːθ/",
-      "meaning": "売店；ブース；電話ボックス",
+      "meaning": "ブース；売店；小部屋",
       "exampleEn": "We visited the trade exhibition booth.",
       "exampleJa": "私たちは貿易展示会のブースを訪れました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "boundary",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaʊndri/",
-      "meaning": "境界；限界",
+      "meaning": "境界；境界線；限界",
       "exampleEn": "The river marks the natural land boundary.",
       "exampleJa": "その川が自然の土地の境界を示します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bread",
       "partOfSpeech": "noun",
       "phonetic": "/bred/",
-      "meaning": "パン；食パン",
+      "meaning": "パン",
       "exampleEn": "I eat fresh bread every morning.",
       "exampleJa": "私は毎朝焼きたてのパンを食べます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bribery",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbraɪbəri/",
-      "meaning": "贈収賄；買収",
+      "meaning": "贈収賄；賄賂；買収",
       "exampleEn": "Politician was arrested on bribery charges.",
       "exampleJa": "政治家が贈収賄の罪で逮捕されました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "broadcaster",
@@ -564,10 +564,10 @@
       "headword": "brush",
       "partOfSpeech": "noun",
       "phonetic": "/brʌʃ/",
-      "meaning": "ブラシ；絵筆；を磨く",
+      "meaning": "ブラシ；筆",
       "exampleEn": "Brush your teeth every morning and night.",
       "exampleJa": "毎朝毎晩歯を磨きなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bully",
@@ -585,7 +585,7 @@
       "meaning": "バス",
       "exampleEn": "Take the public bus to school.",
       "exampleJa": "学校へ行くためにバスに乗りなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "by",
@@ -594,7 +594,7 @@
       "meaning": "〜によって；〜のそばに；〜までに",
       "exampleEn": "Finish your work by five o'clock.",
       "exampleJa": "夕方5時までに作業を終えなさい。",
-      "level": 2
+      "level": 1
     }
   ]
 }

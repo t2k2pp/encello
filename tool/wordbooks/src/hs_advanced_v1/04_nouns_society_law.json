@@ -9,7 +9,7 @@
       "meaning": "同盟；提携",
       "exampleEn": "Two nations formed a military alliance.",
       "exampleJa": "2国は軍事同盟を結びました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "ambassador",
@@ -18,16 +18,16 @@
       "meaning": "大使；使節",
       "exampleEn": "The American ambassador visited Tokyo.",
       "exampleJa": "アメリカ大使が東京を訪問しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "amendment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈmendmənt/",
-      "meaning": "修正案；憲法修正条項",
+      "meaning": "修正；改正；修正条項",
       "exampleEn": "Congress passed the first amendment.",
       "exampleJa": "議会は修正第1条を可決しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "amnesty",
@@ -45,16 +45,16 @@
       "meaning": "無政府状態；混乱",
       "exampleEn": "The country fell into total anarchy.",
       "exampleJa": "国は完全な無政府状態に陥りました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "asylum",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsaɪləm/",
-      "meaning": "亡命；庇護",
+      "meaning": "亡命；庇護；保護施設",
       "exampleEn": "Refugees sought political asylum.",
       "exampleJa": "難民たちは政治的亡命を求めました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "attorney",
@@ -63,13 +63,13 @@
       "meaning": "弁護士；代理人",
       "exampleEn": "She consulted her defense attorney.",
       "exampleJa": "彼女は弁護人に相談しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bureaucracy",
       "partOfSpeech": "noun",
       "phonetic": "/bjʊˈrɑːkrəsi/",
-      "meaning": "官僚主義；官僚機構",
+      "meaning": "官僚制；官僚主義；煩雑な手続き",
       "exampleEn": "Government bureaucracy delays progress.",
       "exampleJa": "政府の官僚機構が進展を遅らせています。",
       "level": 4
@@ -78,16 +78,16 @@
       "headword": "cabinet",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæbɪnət/",
-      "meaning": "内閣；戸棚",
+      "meaning": "内閣；戸棚；書類棚",
       "exampleEn": "The Prime Minister reshuffled cabinet.",
       "exampleJa": "首相は内閣を改造しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "coalition",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌkoʊəˈlɪʃən/",
-      "meaning": "連立；連合",
+      "phonetic": "/ˌkoʊəˈlɪʃn/",
+      "meaning": "連立；連合；同盟",
       "exampleEn": "Parties formed a coalition government.",
       "exampleJa": "政党たちは連立政府を樹立しました。",
       "level": 4
@@ -95,11 +95,11 @@
     {
       "headword": "corruption",
       "partOfSpeech": "noun",
-      "phonetic": "/kəˈrʌpʃən/",
+      "phonetic": "/kəˈrʌpʃn/",
       "meaning": "汚職；腐敗",
       "exampleEn": "Voters protested political corruption.",
       "exampleJa": "有権者は政治的汚職に抗議しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "decree",
@@ -108,7 +108,7 @@
       "meaning": "法令；布告",
       "exampleEn": "King issued an official decree.",
       "exampleJa": "国王は公式の法令を発しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "diplomacy",
@@ -230,11 +230,11 @@
     {
       "headword": "petition",
       "partOfSpeech": "noun",
-      "phonetic": "/pəˈtɪʃən/",
-      "meaning": "請願；請願書",
+      "phonetic": "/pəˈtɪʃn/",
+      "meaning": "請願；請願書；嘆願",
       "exampleEn": "Citizens signed a public petition.",
       "exampleJa": "市民たちは公的請願書に署名しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "regime",
@@ -294,10 +294,10 @@
       "headword": "tariff",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtærɪf/",
-      "meaning": "関税",
+      "meaning": "関税；料金表",
       "exampleEn": "The country raised import tariffs.",
       "exampleJa": "その国は輸入関税を引き上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "treaty",
@@ -375,10 +375,10 @@
       "headword": "accumulate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkjuːmjəleɪt/",
-      "meaning": "を蓄積する；溜まる",
+      "meaning": "を蓄積する；たまる",
       "exampleEn": "Snow began to accumulate on the roof.",
       "exampleJa": "屋根に雪が積もり始めました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "acoustics",
@@ -429,19 +429,19 @@
       "headword": "affinity",
       "partOfSpeech": "noun",
       "phonetic": "/əˈfɪnəti/",
-      "meaning": "親近感；相性；類似性",
+      "meaning": "親近感；親和性；類似性",
       "exampleEn": "She feels a strong affinity for jazz.",
       "exampleJa": "彼女はジャズに強い親近感を感じています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aggregate",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæɡrɪɡət/",
-      "meaning": "総計；集合体；集計する",
+      "meaning": "総計；集合体",
       "exampleEn": "In aggregate, the economy grew slightly.",
       "exampleJa": "総計すると、経済はわずかに成長しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "ailment",
@@ -456,10 +456,10 @@
       "headword": "align",
       "partOfSpeech": "verb",
       "phonetic": "/əˈlaɪn/",
-      "meaning": "を整列させる；提携する",
+      "meaning": "を整列させる；を一致させる；提携する",
       "exampleEn": "The company aligned its strategy with customer needs.",
       "exampleJa": "その会社は顧客のニーズに合わせて戦略を調整しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "allude",
@@ -483,10 +483,10 @@
       "headword": "amiable",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈeɪmiəbl/",
-      "meaning": "愛想の良い；和やかな",
+      "meaning": "愛想の良い；親しみやすい",
       "exampleEn": "She greeted the visitor with an amiable smile.",
       "exampleJa": "彼女は愛想の良い笑顔で来客を迎えました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "amperage",
@@ -690,19 +690,19 @@
       "headword": "bountiful",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbaʊntɪfl/",
-      "meaning": "豊富な；恵み豊かな",
+      "meaning": "豊富な；恵み豊かな；物惜しみしない",
       "exampleEn": "Farmers celebrated a bountiful wheat harvest.",
       "exampleJa": "農民たちは豊作の小麦の収穫を祝いました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "brisk",
       "partOfSpeech": "adjective",
       "phonetic": "/brɪsk/",
-      "meaning": "活発な；爽やかな",
+      "meaning": "活発な；きびきびした；さわやかな",
       "exampleEn": "She took a brisk walk in the park.",
       "exampleJa": "彼女は公園で活発な散歩をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "buoyancy",
@@ -735,7 +735,7 @@
       "headword": "caption",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæpʃn/",
-      "meaning": "説明文；見出し；字幕",
+      "meaning": "見出し；説明文；字幕",
       "exampleEn": "Read the caption below the picture.",
       "exampleJa": "写真の下の説明文を読みなさい。",
       "level": 3
@@ -753,10 +753,10 @@
       "headword": "casualty",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæʒuəlti/",
-      "meaning": "死傷者；被害者；災難",
+      "meaning": "死傷者；犠牲者；被害者",
       "exampleEn": "The accident caused several serious casualties.",
       "exampleJa": "その事故は数名の重傷者を出しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cathedral",
@@ -780,10 +780,10 @@
       "headword": "chancellor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃænsələr/",
-      "meaning": "首相；総長；大臣",
+      "meaning": "首相；学長；大臣",
       "exampleEn": "The German chancellor spoke at the meeting.",
       "exampleJa": "ドイツの首相はその会議で演説しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "choreography",
@@ -951,16 +951,16 @@
       "headword": "crest",
       "partOfSpeech": "noun",
       "phonetic": "/krest/",
-      "meaning": "山頂；波頭；紋章",
+      "meaning": "頂上；波頭；紋章",
       "exampleEn": "They reached the snowy mountain crest.",
       "exampleJa": "彼らは雪に覆われた山頂に到達しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "crude",
       "partOfSpeech": "adjective",
       "phonetic": "/kruːd/",
-      "meaning": "天然のままの；粗雑な；原油",
+      "meaning": "天然のままの；未加工の；粗雑な",
       "exampleEn": "The refinery processes crude oil into fuel.",
       "exampleJa": "その製油所は原油を燃料に精製します。",
       "level": 4
@@ -969,10 +969,10 @@
       "headword": "cynicism",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɪnɪsɪzəm/",
-      "meaning": "冷笑主義；シニシズム",
+      "meaning": "冷笑主義；皮肉",
       "exampleEn": "There is widespread cynicism about government promises.",
       "exampleJa": "政府の約束に対する冷笑的な見方が広まっています。",
-      "level": 4
+      "level": 5
     }
   ]
 }

@@ -32,35 +32,35 @@
     {
       "headword": "initial",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪˈnɪʃl/",
-      "meaning": "初期の；最初の",
+      "phonetic": "/ɪˈnɪʃəl/",
+      "meaning": "最初の；初期の",
       "exampleEn": "Initial results look promising.",
       "exampleJa": "初期の結果は有望に見えます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "potential",
       "partOfSpeech": "adjective",
       "phonetic": "/pəˈtenʃl/",
-      "meaning": "潜在的な；可能性のある",
+      "meaning": "潜在的な；可能性のある；見込みのある",
       "exampleEn": "We must identify potential risks in advance.",
       "exampleJa": "私たちは潜在的なリスクを事前に見つけなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "radical",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈrædɪkl/",
-      "meaning": "急進的な；抜本的な",
+      "meaning": "抜本的な；急進的な",
       "exampleEn": "The school system needs a radical reform.",
       "exampleJa": "その学校制度は抜本的な改革を必要としています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "abstract",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈæbstrækt/",
-      "meaning": "抽象的な",
+      "meaning": "抽象的な；観念的な",
       "exampleEn": "Truth is an abstract philosophical concept.",
       "exampleJa": "真理は抽象的な哲学の概念です。",
       "level": 3
@@ -72,7 +72,7 @@
       "meaning": "を告発する；を非難する",
       "exampleEn": "They accused him of stealing money.",
       "exampleJa": "彼らは彼がお金を盗んだと告発しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "adjacent",
@@ -81,16 +81,16 @@
       "meaning": "隣接した；近くの",
       "exampleEn": "The park is adjacent to the elementary school.",
       "exampleJa": "公園は小学校に隣接しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "affirm",
       "partOfSpeech": "verb",
       "phonetic": "/əˈfɜːrm/",
-      "meaning": "を断言する；を支持する",
+      "meaning": "を断言する；を確認する；を支持する",
       "exampleEn": "The court affirmed the lower court decision.",
       "exampleJa": "裁判所は下級審の判決を支持しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "allege",
@@ -99,25 +99,25 @@
       "meaning": "と主張する；を申し立てる",
       "exampleEn": "The police allege that he robbed the shop.",
       "exampleJa": "警察は彼がその店を襲ったと主張しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "amaze",
       "partOfSpeech": "verb",
       "phonetic": "/əˈmeɪz/",
-      "meaning": "を驚かせる",
+      "meaning": "を驚かせる；を感嘆させる",
       "exampleEn": "The magic show amazed the children.",
       "exampleJa": "その手品のショーは子どもたちを驚かせました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "amplify",
       "partOfSpeech": "verb",
       "phonetic": "/ˈæmplɪfaɪ/",
-      "meaning": "を拡大・増幅する",
+      "meaning": "を増幅する；を拡大する",
       "exampleEn": "The speakers amplified the sound of the guitar.",
       "exampleJa": "スピーカーがギターの音を増幅しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "anecdote",
@@ -126,7 +126,7 @@
       "meaning": "逸話；秘話",
       "exampleEn": "The teacher told us a funny anecdote.",
       "exampleJa": "先生は私たちに面白い逸話を話してくれました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "antipathy",
@@ -135,25 +135,25 @@
       "meaning": "反感；嫌悪",
       "exampleEn": "He feels strong antipathy toward dishonest people.",
       "exampleJa": "彼は不誠実な人々に強い反感を抱いています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "appliance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈplaɪəns/",
-      "meaning": "電気器具；家電製品",
+      "meaning": "電化製品；器具",
       "exampleEn": "We bought a new kitchen appliance yesterday.",
       "exampleJa": "私たちは昨日、新しい台所用の電気器具を買いました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "approval",
       "partOfSpeech": "noun",
       "phonetic": "/əˈpruːvl/",
-      "meaning": "承認",
+      "meaning": "承認；賛成；認可",
       "exampleEn": "You need the manager's approval before starting.",
       "exampleJa": "始める前に部長の承認が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "arrears",
@@ -162,7 +162,7 @@
       "meaning": "滞納金；未払い",
       "exampleEn": "The tenant is three months in arrears.",
       "exampleJa": "その借主は3か月分の家賃を滞納しています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aspire",
@@ -171,25 +171,25 @@
       "meaning": "を熱望する；を目指す",
       "exampleEn": "She aspires to become a corporate lawyer.",
       "exampleJa": "彼女は企業弁護士になることを目指しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "assimilate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsɪməleɪt/",
-      "meaning": "を吸収・同化する",
+      "meaning": "を同化する；を吸収する；順応する",
       "exampleEn": "The immigrants assimilated into the local culture.",
       "exampleJa": "移民たちは地元の文化に同化しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "astounding",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈstaʊndɪŋ/",
-      "meaning": "驚くべき；度肝を抜く",
+      "meaning": "驚くべき；度肝を抜くような",
       "exampleEn": "The team achieved an astounding victory.",
       "exampleJa": "そのチームは驚くべき勝利を収めました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "attest",
@@ -198,7 +198,7 @@
       "meaning": "を証明する；を証言する",
       "exampleEn": "The witness attested to the truth of his story.",
       "exampleJa": "目撃者は彼の話が真実であることを証言しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "austere",
@@ -207,16 +207,16 @@
       "meaning": "厳格な；質素な",
       "exampleEn": "The monks lead an austere life.",
       "exampleJa": "修道士たちは質素な生活を送っています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "avert",
       "partOfSpeech": "verb",
       "phonetic": "/əˈvɜːrt/",
-      "meaning": "を回避する；目をそらす",
+      "meaning": "を回避する；から目をそらす",
       "exampleEn": "Quick action averted a serious accident.",
       "exampleJa": "迅速な行動が深刻な事故を回避しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "baggage",
@@ -225,16 +225,16 @@
       "meaning": "手荷物",
       "exampleEn": "We checked our baggage at the airport counter.",
       "exampleJa": "私たちは空港のカウンターで手荷物を預けました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "benefit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbenɪfɪt/",
-      "meaning": "利益；給付金",
+      "meaning": "利益；恩恵；手当",
       "exampleEn": "Employees receive a health insurance benefit.",
       "exampleJa": "従業員は健康保険の給付を受けます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "binding",
@@ -243,7 +243,7 @@
       "meaning": "拘束力のある",
       "exampleEn": "The signed contract is legally binding.",
       "exampleJa": "署名された契約は法的に拘束力があります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "blessing",
@@ -252,16 +252,16 @@
       "meaning": "祝福；恵み",
       "exampleEn": "Good health is a great blessing.",
       "exampleJa": "健康であることは大きな恵みです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "blur",
       "partOfSpeech": "verb",
       "phonetic": "/blɜːr/",
-      "meaning": "をぼやけさせる；にじむ",
+      "meaning": "をぼやけさせる；かすむ",
       "exampleEn": "The rain blurred my view through the windshield.",
       "exampleJa": "雨がフロントガラス越しの視界をぼやけさせました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "boredom",
@@ -276,7 +276,7 @@
       "headword": "briefing",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbriːfɪŋ/",
-      "meaning": "状況説明；ブリーフィング",
+      "meaning": "状況説明；概要説明；ブリーフィング",
       "exampleEn": "The manager held a briefing this morning.",
       "exampleJa": "部長は今朝、状況説明を行いました。",
       "level": 3
@@ -285,19 +285,19 @@
       "headword": "bureau",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbjʊroʊ/",
-      "meaning": "局；事務局",
+      "meaning": "局；事務局；案内所",
       "exampleEn": "She works at the city tourism bureau.",
       "exampleJa": "彼女は市の観光局で働いています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "candor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkændər/",
-      "meaning": "素直さ；率直さ",
+      "meaning": "率直さ；誠実さ",
       "exampleEn": "We appreciated her honesty and candor.",
       "exampleJa": "私たちは彼女の誠実さと率直さを高く評価しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cardiovascular",
@@ -306,7 +306,7 @@
       "meaning": "心臓血管の",
       "exampleEn": "Regular exercise improves your cardiovascular health.",
       "exampleJa": "定期的な運動は心臓血管の健康を改善します。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "certainty",
@@ -324,16 +324,16 @@
       "meaning": "狂信的愛国主義；男性優位主義",
       "exampleEn": "His remarks revealed a deep chauvinism.",
       "exampleJa": "彼の発言は根深い男性優位主義を露呈しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "claim",
       "partOfSpeech": "verb",
       "phonetic": "/kleɪm/",
-      "meaning": "を主張する；を請求する",
+      "meaning": "と主張する；を請求する",
       "exampleEn": "He claimed that he was innocent.",
       "exampleJa": "彼は自分が無実だと主張しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "clinical",
@@ -420,10 +420,10 @@
       "headword": "confirm",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈfɜːrm/",
-      "meaning": "を確定・確認する",
+      "meaning": "を確認する；を裏付ける",
       "exampleEn": "Please confirm your flight reservation by Friday.",
       "exampleJa": "金曜日までにフライトの予約を確認してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "congestion",
@@ -438,10 +438,10 @@
       "headword": "consciousness",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnʃəsnəs/",
-      "meaning": "意識；知覚",
+      "meaning": "意識；自覚",
       "exampleEn": "The patient regained consciousness after the operation.",
       "exampleJa": "患者は手術の後に意識を取り戻しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consideration",
@@ -510,7 +510,7 @@
       "headword": "cooperative",
       "partOfSpeech": "adjective",
       "phonetic": "/koʊˈɑːpərətɪv/",
-      "meaning": "協力的・協同の",
+      "meaning": "協力的な；協同の",
       "exampleEn": "Staff were helpful and highly cooperative.",
       "exampleJa": "スタッフは親切でとても協力的でした。",
       "level": 3
@@ -549,16 +549,16 @@
       "meaning": "を火葬する",
       "exampleEn": "His family decided to cremate the body.",
       "exampleJa": "彼の家族は遺体を火葬することに決めました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cruelty",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkruːəlti/",
-      "meaning": "残酷さ；残虐行為",
+      "meaning": "残酷さ；虐待",
       "exampleEn": "We must stop cruelty to animals.",
       "exampleJa": "私たちは動物への残虐行為をやめさせなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "culture",
@@ -573,10 +573,10 @@
       "headword": "customary",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌstəmeri/",
-      "meaning": "慣習の；しきたりの",
+      "meaning": "慣習の；いつもの",
       "exampleEn": "It is customary to bow politely.",
       "exampleJa": "丁寧にお辞儀をすることが慣習です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "decay",
@@ -594,7 +594,7 @@
       "meaning": "法令；布告",
       "exampleEn": "The king issued a new decree.",
       "exampleJa": "国王は新しい法令を公布しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "defense",
@@ -618,19 +618,19 @@
       "headword": "delicate",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈdelɪkət/",
-      "meaning": "繊細な；壊れやすい",
+      "meaning": "繊細な；壊れやすい；微妙な",
       "exampleEn": "Handle this delicate glass vase with care.",
       "exampleJa": "この繊細なガラスの花瓶は注意して扱ってください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "denounce",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈnaʊns/",
-      "meaning": "を公然と非難する",
+      "meaning": "を公然と非難する；を告発する",
       "exampleEn": "World leaders denounced the terror attack.",
       "exampleJa": "世界の指導者たちはそのテロ攻撃を公然と非難しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "deport",
@@ -693,7 +693,7 @@
       "meaning": "を捧げる；を専念させる",
       "exampleEn": "She devotes an hour daily to studying English.",
       "exampleJa": "彼女は毎日1時間を英語の勉強に捧げています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "diatribe",
@@ -851,11 +851,11 @@
     {
       "headword": "preference",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈprefərəns/",
-      "meaning": "好み；優先権",
+      "phonetic": "/ˈprefrəns/",
+      "meaning": "好み；優先",
       "exampleEn": "Please tell me your preference for lunch.",
       "exampleJa": "昼食の好みを教えてください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "preposterous",
@@ -882,7 +882,7 @@
       "meaning": "以前の；前の",
       "exampleEn": "The data comes from the previous annual report.",
       "exampleJa": "そのデータは前回の年次報告書のものです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "prior",
@@ -981,7 +981,7 @@
       "meaning": "を罰する；を処罰する",
       "exampleEn": "The court punished the thief severely.",
       "exampleJa": "裁判所はその泥棒を厳しく処罰しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "pursuit",

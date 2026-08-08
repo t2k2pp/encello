@@ -8,7 +8,10 @@
   "bandSize": 1300,
   "sortOrder": 30,
   "note": "難関大学入試に対応する高度な語彙",
-  "levelRange": [3, 5],
+  "levelRange": [
+    1,
+    5
+  ],
   "chunks": [
     "00_core_advanced",
     "01_verbs_cognition",

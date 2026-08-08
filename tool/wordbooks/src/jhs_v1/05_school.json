@@ -60,10 +60,10 @@
       "headword": "gate",
       "partOfSpeech": "noun",
       "phonetic": "/ɡeɪt/",
-      "meaning": "門",
+      "meaning": "門；ゲート；搭乗口",
       "exampleEn": "Close the school gate at four.",
       "exampleJa": "4時に校門を閉めてください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "hall",
@@ -105,7 +105,7 @@
       "headword": "cafeteria",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkæfəˈtɪriə/",
-      "meaning": "食堂",
+      "meaning": "食堂；カフェテリア",
       "exampleEn": "Students eat lunch in the cafeteria.",
       "exampleJa": "生徒たちは食堂で昼食を食べます。",
       "level": 2
@@ -141,16 +141,16 @@
       "headword": "principal",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɪnsəpl/",
-      "meaning": "校長",
+      "meaning": "校長；学長；主要なもの",
       "exampleEn": "The principal spoke at the ceremony.",
       "exampleJa": "校長先生は式で話をしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "club",
       "partOfSpeech": "noun",
       "phonetic": "/klʌb/",
-      "meaning": "部活動；クラブ",
+      "meaning": "クラブ；部活動",
       "exampleEn": "I joined the art club last month.",
       "exampleJa": "私は先月美術部に入りました。",
       "level": 1
@@ -168,16 +168,16 @@
       "headword": "member",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmembər/",
-      "meaning": "部員；メンバー",
+      "meaning": "会員；一員；部員",
       "exampleEn": "How many members are in your club?",
       "exampleJa": "あなたのクラブには何人の部員がいますか。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "captain",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈkæptən/",
-      "meaning": "キャプテン；主将",
+      "phonetic": "/ˈkæptɪn/",
+      "meaning": "キャプテン；船長；機長",
       "exampleEn": "He is the captain of our team.",
       "exampleJa": "彼はうちのチームのキャプテンです。",
       "level": 2
@@ -204,7 +204,7 @@
       "headword": "coach",
       "partOfSpeech": "noun",
       "phonetic": "/koʊtʃ/",
-      "meaning": "コーチ；監督",
+      "meaning": "コーチ；監督；大型バス",
       "exampleEn": "Our coach teaches us every weekend.",
       "exampleJa": "私たちのコーチは毎週末教えてくれます。",
       "level": 2
@@ -240,7 +240,7 @@
       "headword": "art",
       "partOfSpeech": "noun",
       "phonetic": "/ɑːrt/",
-      "meaning": "美術；芸術",
+      "meaning": "芸術；美術；技術",
       "exampleEn": "I drew a picture in art class.",
       "exampleJa": "私は美術の授業で絵を描きました。",
       "level": 1
@@ -375,7 +375,7 @@
       "headword": "bag",
       "partOfSpeech": "noun",
       "phonetic": "/bæɡ/",
-      "meaning": "かばん",
+      "meaning": "かばん；袋；バッグ",
       "exampleEn": "Put your textbook back in your bag.",
       "exampleJa": "教科書をかばんに戻しなさい。",
       "level": 1
@@ -384,7 +384,7 @@
       "headword": "calculator",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkælkjuleɪtər/",
-      "meaning": "電卓",
+      "meaning": "電卓；計算機",
       "exampleEn": "We cannot use a calculator in math class.",
       "exampleJa": "数学の授業では電卓を使えません。",
       "level": 2
@@ -501,7 +501,7 @@
       "headword": "report",
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈpɔːrt/",
-      "meaning": "レポート；報告書",
+      "meaning": "報告書；レポート",
       "exampleEn": "I have to write a book report.",
       "exampleJa": "私は読書感想文を書かなければなりません。",
       "level": 2
@@ -513,7 +513,7 @@
       "meaning": "スピーチ；演説",
       "exampleEn": "She gave a great speech in English class.",
       "exampleJa": "彼女は英語の授業ですばらしいスピーチをしました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "exam",
@@ -555,7 +555,7 @@
       "headword": "project",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːdʒekt/",
-      "meaning": "研究課題；プロジェクト",
+      "meaning": "計画；事業；プロジェクト",
       "exampleEn": "We are working on a science project.",
       "exampleJa": "私たちは理科の課題に取り組んでいます。",
       "level": 2
@@ -564,10 +564,10 @@
       "headword": "point",
       "partOfSpeech": "noun",
       "phonetic": "/pɔɪnt/",
-      "meaning": "点；得点",
+      "meaning": "点；要点；得点",
       "exampleEn": "You get one point for each answer.",
       "exampleJa": "答え一つにつき1点もらえます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "result",
@@ -585,7 +585,7 @@
       "meaning": "努力",
       "exampleEn": "Your effort made a big difference.",
       "exampleJa": "あなたの努力が大きな違いを生みました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "review",
@@ -600,7 +600,7 @@
       "headword": "correct",
       "partOfSpeech": "adjective",
       "phonetic": "/kəˈrekt/",
-      "meaning": "正しい",
+      "meaning": "正しい；正確な",
       "exampleEn": "Is my answer correct?",
       "exampleJa": "私の答えは正しいですか。",
       "level": 2
@@ -608,8 +608,8 @@
     {
       "headword": "festival",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈfestɪvl/",
-      "meaning": "祭り；文化祭",
+      "phonetic": "/ˈfestɪvəl/",
+      "meaning": "祭り；祝祭",
       "exampleEn": "Our school festival is in October.",
       "exampleJa": "文化祭は10月にあります。",
       "level": 1
@@ -618,7 +618,7 @@
       "headword": "trip",
       "partOfSpeech": "noun",
       "phonetic": "/trɪp/",
-      "meaning": "旅行；遠足",
+      "meaning": "旅行；遠足；出張",
       "exampleEn": "We went on a school trip to Kyoto.",
       "exampleJa": "私たちは京都へ修学旅行に行きました。",
       "level": 1
@@ -654,7 +654,7 @@
       "headword": "ceremony",
       "partOfSpeech": "noun",
       "phonetic": "/ˈserəmoʊni/",
-      "meaning": "式；式典",
+      "meaning": "式典；儀式；式",
       "exampleEn": "The entrance ceremony starts at nine.",
       "exampleJa": "入学式は9時に始まります。",
       "level": 2
@@ -663,7 +663,7 @@
       "headword": "camp",
       "partOfSpeech": "noun",
       "phonetic": "/kæmp/",
-      "meaning": "キャンプ；合宿",
+      "meaning": "キャンプ；合宿；陣営",
       "exampleEn": "Our club has a summer training camp.",
       "exampleJa": "私たちの部は夏に合宿があります。",
       "level": 1
@@ -672,7 +672,7 @@
       "headword": "assembly",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsembli/",
-      "meaning": "集会",
+      "meaning": "集会；組み立て",
       "exampleEn": "All students meet at the morning assembly.",
       "exampleJa": "全生徒が朝の集会に集まります。",
       "level": 3
@@ -699,7 +699,7 @@
       "headword": "absent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈæbsənt/",
-      "meaning": "欠席して",
+      "meaning": "欠席の；不在の",
       "exampleEn": "He was absent from school yesterday.",
       "exampleJa": "彼は昨日学校を欠席しました。",
       "level": 2
@@ -789,7 +789,7 @@
       "headword": "chapter",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtʃæptər/",
-      "meaning": "章",
+      "meaning": "章；支部",
       "exampleEn": "We finished chapter two of the textbook.",
       "exampleJa": "私たちは教科書の2章を終えました。",
       "level": 2
@@ -816,7 +816,7 @@
       "headword": "class",
       "partOfSpeech": "noun",
       "phonetic": "/klæs/",
-      "meaning": "授業；クラス",
+      "meaning": "クラス；授業；階級",
       "exampleEn": "Our English class starts at nine.",
       "exampleJa": "英語の授業は9時に始まります。",
       "level": 1
@@ -834,7 +834,7 @@
       "headword": "chorus",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɔːrəs/",
-      "meaning": "合唱",
+      "meaning": "合唱；コーラス；サビ",
       "exampleEn": "Our class won the chorus contest.",
       "exampleJa": "私たちのクラスは合唱コンクールで優勝しました。",
       "level": 2
@@ -843,7 +843,7 @@
       "headword": "contest",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːntest/",
-      "meaning": "コンテスト；コンクール",
+      "meaning": "コンテスト；競技会；コンクール",
       "exampleEn": "She won first prize in the speech contest.",
       "exampleJa": "彼女はスピーチコンテストで優勝しました。",
       "level": 2

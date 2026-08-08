@@ -63,7 +63,7 @@
       "meaning": "〜を代表して；〜に代わって",
       "exampleEn": "He accepted the award on behalf of the team.",
       "exampleJa": "彼はチームを代表して賞を受け取りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "on short notice",
@@ -159,7 +159,7 @@
       "headword": "as long as",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜である限りは",
+      "meaning": "〜である限り；〜しさえすれば",
       "exampleEn": "The offer is valid as long as supplies last.",
       "exampleJa": "在庫がある限り、この特典は有効です。",
       "level": 2
@@ -306,16 +306,16 @@
       "meaning": "を中止する；を取り消す",
       "exampleEn": "The manager called off the outdoor event.",
       "exampleJa": "マネージャーは屋外のイベントを中止しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "carry out",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を実行する；を遂行する",
+      "meaning": "を実行する；を遂行する；を果たす",
       "exampleEn": "The team carried out a market survey.",
       "exampleJa": "チームは市場調査を実施しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "charge with",
@@ -330,10 +330,10 @@
       "headword": "come across",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "に偶然出くわす",
+      "meaning": "に偶然出くわす；を偶然見つける",
       "exampleEn": "I came across a useful report yesterday.",
       "exampleJa": "私は昨日、役に立つ報告書を偶然見つけました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "come up with",
@@ -402,7 +402,7 @@
       "headword": "deal with",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を処理する；〜を取り扱う",
+      "meaning": "に対処する；を取り扱う",
       "exampleEn": "The support desk deals with customer questions every day.",
       "exampleJa": "サポートデスクは毎日、顧客からの質問に対応しています。",
       "level": 2
@@ -420,7 +420,7 @@
       "headword": "due to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜が理由で；〜のために",
+      "meaning": "〜が原因で；〜のために",
       "exampleEn": "The flight was delayed due to bad weather.",
       "exampleJa": "悪天候のためフライトが遅れました。",
       "level": 2
@@ -438,19 +438,19 @@
       "headword": "give up",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を諦める；を放棄する",
+      "meaning": "あきらめる；をやめる",
       "exampleEn": "He never gives up on a difficult project.",
       "exampleJa": "彼は難しいプロジェクトを決して諦めません。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "in accordance with",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に従って；〜と一致して",
+      "meaning": "〜に従って；〜に準じて",
       "exampleEn": "We handle data in accordance with company policy.",
       "exampleJa": "当社は会社の方針に従ってデータを扱っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "in addition to",
@@ -474,10 +474,10 @@
       "headword": "in charge of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を担当して",
+      "meaning": "〜を担当して；〜を任されて",
       "exampleEn": "The man in charge of the project is away today.",
       "exampleJa": "そのプロジェクトを担当している男性は今日は不在です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "in honor of",
@@ -492,10 +492,10 @@
       "headword": "in light of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を考慮して；〜の観点から",
+      "meaning": "〜を考慮して；〜に照らして",
       "exampleEn": "We changed our plan in light of the new data.",
       "exampleJa": "新しいデータを考慮して私たちは計画を変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "in place of",
@@ -537,10 +537,10 @@
       "headword": "in terms of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜の点から見ると",
+      "meaning": "〜の点から；〜の観点から",
       "exampleEn": "In terms of quality, this product is the best.",
       "exampleJa": "品質の点から見ると、この製品が最も優れています。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "in view of",
@@ -603,7 +603,7 @@
       "meaning": "〜を調査する",
       "exampleEn": "The manager will look into the cause of the delay.",
       "exampleJa": "マネージャーが遅れの原因を調査します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "make up for",
@@ -618,10 +618,10 @@
       "headword": "on account of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜の理由で；〜のために",
+      "meaning": "〜のために；〜の理由で",
       "exampleEn": "The game was canceled on account of rain.",
       "exampleJa": "雨のため試合は中止になりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "on condition that",
@@ -654,7 +654,7 @@
       "headword": "on the other hand",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "他方では；その一方で",
+      "meaning": "他方では；一方で",
       "exampleEn": "It costs more; on the other hand, it lasts longer.",
       "exampleJa": "費用は高くつきますが、その一方で長持ちします。",
       "level": 2
@@ -708,10 +708,10 @@
       "headword": "prior to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜より前に",
+      "meaning": "〜より前に；〜に先立って",
       "exampleEn": "Guests should arrive prior to the opening ceremony.",
       "exampleJa": "来賓は開会式より前に到着する必要があります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "put off",
@@ -735,10 +735,10 @@
       "headword": "regardless of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に関係なく",
+      "meaning": "〜に関係なく；〜を問わず",
       "exampleEn": "Anyone can apply regardless of age.",
       "exampleJa": "年齢に関係なく誰でも応募できます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "rely on",
@@ -753,10 +753,10 @@
       "headword": "result in",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜という結果に終わる",
+      "meaning": "〜という結果になる；〜をもたらす",
       "exampleEn": "Poor care resulted in a machine breakdown.",
       "exampleJa": "手入れ不足が機械の故障という結果を招きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "run out of",
@@ -771,7 +771,7 @@
       "headword": "set up",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を設立する；を準備する",
+      "meaning": "を設立する；を準備する；を設置する",
       "exampleEn": "The company set up a new branch in Tokyo.",
       "exampleJa": "その会社は東京に新しい支店を設立しました。",
       "level": 2
@@ -780,10 +780,10 @@
       "headword": "take advantage of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜を利用する；〜を活かす",
+      "meaning": "〜を利用する；〜に乗じる",
       "exampleEn": "Many customers took advantage of the discount sale.",
       "exampleJa": "多くの顧客が割引セールを利用しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "take place",
@@ -798,19 +798,19 @@
       "headword": "turn down",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "を拒絶・断る",
+      "meaning": "を断る；を拒絶する；の音量を下げる",
       "exampleEn": "The firm turned down the expensive proposal.",
       "exampleJa": "その会社は高額な提案を断りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "with regard to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "〜に関して",
+      "meaning": "〜に関して；〜について",
       "exampleEn": "Please contact us with regard to your order.",
       "exampleJa": "ご注文に関しては当社までご連絡ください。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "webinar",
@@ -834,10 +834,10 @@
       "headword": "amortization",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæmərtəˈzeɪʃn/",
-      "meaning": "割当償却；ローン償却",
+      "meaning": "償却；割賦返済",
       "exampleEn": "The bank explained the amortization of the loan.",
       "exampleJa": "銀行はそのローンの償却について説明しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "overpass",
@@ -861,10 +861,10 @@
       "headword": "unprecedented",
       "partOfSpeech": "adjective",
       "phonetic": "/ʌnˈpresɪdentɪd/",
-      "meaning": "前例のない；空前の",
+      "meaning": "前例のない；空前の；未曽有の",
       "exampleEn": "The firm made unprecedented profits this year.",
       "exampleJa": "その企業は今年、前例のない利益を上げました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "subsequently",

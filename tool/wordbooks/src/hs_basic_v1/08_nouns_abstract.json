@@ -6,7 +6,7 @@
       "headword": "aspect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæspekt/",
-      "meaning": "側面；様相",
+      "meaning": "側面；局面；外観",
       "exampleEn": "Consider every aspect of the problem.",
       "exampleJa": "問題のすべての側面を考慮しなさい。",
       "level": 3
@@ -15,16 +15,16 @@
       "headword": "category",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkætəɡɔːri/",
-      "meaning": "カテゴリー；分類",
+      "meaning": "部門；分類；カテゴリー",
       "exampleEn": "Books are sorted into categories.",
       "exampleJa": "本はカテゴリー別に分類されています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "century",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsentʃəri/",
-      "meaning": "世紀；100年間",
+      "meaning": "世紀；100年",
       "exampleEn": "We live in the 21st century.",
       "exampleJa": "私たちは21世紀に生きています。",
       "level": 1
@@ -36,22 +36,22 @@
       "meaning": "状況；事情",
       "exampleEn": "Under the circumstances, we agreed.",
       "exampleJa": "置かれた状況下で、私たちは同意しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "concept",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnsept/",
-      "meaning": "概念；発想",
+      "meaning": "概念；考え",
       "exampleEn": "It is a simple design concept.",
       "exampleJa": "それはシンプルなデザイン発想です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "context",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːntekst/",
-      "meaning": "文脈；状況",
+      "meaning": "文脈；状況；背景",
       "exampleEn": "Guess the meaning from context.",
       "exampleJa": "文脈から意味を推測しなさい。",
       "level": 3
@@ -60,7 +60,7 @@
       "headword": "degree",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈɡriː/",
-      "meaning": "程度；度；学位",
+      "meaning": "学位；度；程度",
       "exampleEn": "She obtained a master's degree.",
       "exampleJa": "彼女は修士号を取得しました。",
       "level": 2
@@ -132,7 +132,7 @@
       "headword": "foundation",
       "partOfSpeech": "noun",
       "phonetic": "/faʊnˈdeɪʃən/",
-      "meaning": "基礎；財団",
+      "meaning": "基礎；土台；財団",
       "exampleEn": "Good health is the foundation of life.",
       "exampleJa": "良好な健康は人生の基礎です。",
       "level": 3
@@ -141,7 +141,7 @@
       "headword": "goal",
       "partOfSpeech": "noun",
       "phonetic": "/ɡoʊl/",
-      "meaning": "目標；ゴール",
+      "meaning": "目標；ゴール；得点",
       "exampleEn": "My goal is to pass the exam.",
       "exampleJa": "私の目標は試験に合格することです。",
       "level": 1
@@ -204,10 +204,10 @@
       "headword": "opportunity",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɑːpərˈtuːnəti/",
-      "meaning": "好機；機会",
+      "meaning": "機会；好機",
       "exampleEn": "Take this opportunity to study abroad.",
       "exampleJa": "この機会を利用して留学しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "origin",
@@ -266,8 +266,8 @@
     {
       "headword": "principle",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈprɪnsəpəl/",
-      "meaning": "原理；主義",
+      "phonetic": "/ˈprɪnsəpl/",
+      "meaning": "原則；主義；原理",
       "exampleEn": "I stick to my principles.",
       "exampleJa": "私は自分の主義を貫きます。",
       "level": 3
@@ -279,7 +279,7 @@
       "meaning": "目的；意図",
       "exampleEn": "What is the purpose of your visit?",
       "exampleJa": "ご訪問の目的は何ですか。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "quality",
@@ -288,7 +288,7 @@
       "meaning": "品質；質；特性",
       "exampleEn": "This product has high quality.",
       "exampleJa": "この製品は高品質です。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "range",
@@ -396,7 +396,7 @@
       "meaning": "真実；事実",
       "exampleEn": "Tell me the whole truth.",
       "exampleJa": "真実をすべて話しなさい。",
-      "level": 1
+      "level": 2
     },
     {
       "headword": "wisdom",
@@ -411,19 +411,19 @@
       "headword": "academic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌækəˈdemɪk/",
-      "meaning": "学術の；学問の",
+      "meaning": "学問の；学術的な；大学の",
       "exampleEn": "He achieved high academic success.",
       "exampleJa": "彼は高い学術的成功を収めました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "accountant",
       "partOfSpeech": "noun",
       "phonetic": "/əˈkaʊntənt/",
-      "meaning": "会計士",
+      "meaning": "会計士；経理担当者",
       "exampleEn": "An accountant checked the company money.",
       "exampleJa": "会計士が会社のお金を点検しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "actual",
@@ -432,22 +432,22 @@
       "meaning": "実際の；現実の",
       "exampleEn": "The actual cost was lower.",
       "exampleJa": "実際の費用はより安かったです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "affection",
       "partOfSpeech": "noun",
       "phonetic": "/əˈfekʃn/",
-      "meaning": "愛着；愛情",
+      "meaning": "愛情；愛着",
       "exampleEn": "Show deep affection for family members.",
       "exampleJa": "家族構成員に対して深い愛情を示しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "ahead",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈhed/",
-      "meaning": "前方へ；事前に",
+      "meaning": "前方に；前もって",
       "exampleEn": "Plan ahead for your career future.",
       "exampleJa": "あなたのキャリアの将来のために事前に計画しなさい。",
       "level": 2
@@ -465,10 +465,10 @@
       "headword": "amendment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈmendmənt/",
-      "meaning": "改正案；修正",
+      "meaning": "修正；改正；修正条項",
       "exampleEn": "Pass an official law constitution amendment.",
       "exampleJa": "公式な法律憲法改正案を通過させなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "ancestral",
@@ -477,7 +477,7 @@
       "meaning": "先祖伝来の；代々の",
       "exampleEn": "Visit the ancestral family land house.",
       "exampleJa": "先祖伝来の家族の土地住宅を訪問しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "anniversary",
@@ -492,34 +492,34 @@
       "headword": "anxiety",
       "partOfSpeech": "noun",
       "phonetic": "/æŋˈzaɪəti/",
-      "meaning": "不安；懸念",
+      "meaning": "不安；心配；切望",
       "exampleEn": "Try to reduce your test anxiety.",
       "exampleJa": "テストへの不安を軽減するようにしなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "apparently",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈpærəntli/",
-      "meaning": "どうやら〜らしい；見たところ",
+      "meaning": "どうやら；見たところ",
       "exampleEn": "Apparently, the store is closed today.",
       "exampleJa": "見たところ、店は今日閉まっているようです。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "appreciation",
       "partOfSpeech": "noun",
       "phonetic": "/əˌpriːʃiˈeɪʃn/",
-      "meaning": "感謝；鑑賞；評価",
+      "meaning": "感謝；正しい評価；鑑賞",
       "exampleEn": "Write a warm note of appreciation.",
       "exampleJa": "感謝の気持ちを込めた温かいメモを書きなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "arrival",
       "partOfSpeech": "noun",
       "phonetic": "/əˈraɪvl/",
-      "meaning": "到着；出現",
+      "meaning": "到着",
       "exampleEn": "Wait for the plane's arrival time.",
       "exampleJa": "飛行機の到着時刻を待ちなさい。",
       "level": 2
@@ -531,7 +531,7 @@
       "meaning": "に尋ねる；を頼む",
       "exampleEn": "Ask your teacher a question about the test.",
       "exampleJa": "テストについて先生に質問しなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "assistance",
@@ -546,19 +546,19 @@
       "headword": "atomic",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈtɑːmɪk/",
-      "meaning": "原子の；原子力による",
+      "meaning": "原子の；原子力の",
       "exampleEn": "She studies atomic energy science.",
       "exampleJa": "彼女は原子力エネルギー科学を学んでいます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "attribute",
       "partOfSpeech": "verb",
       "phonetic": "/əˈtrɪbjuːt/",
-      "meaning": "を〜のせいにする；属性",
+      "meaning": "を〜のせいにする；を〜に帰する",
       "exampleEn": "He attributes success to hard work.",
       "exampleJa": "彼は成功を努力の賜物にしています。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "automatically",
@@ -576,7 +576,7 @@
       "meaning": "意識；認識",
       "exampleEn": "We must raise public health awareness.",
       "exampleJa": "私たちは公衆衛生への意識を高めなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bad",
@@ -585,13 +585,13 @@
       "meaning": "悪い；ひどい",
       "exampleEn": "Eating junk food is bad for health.",
       "exampleJa": "ジャンクフードを食べることは健康に悪いです。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "balloon",
       "partOfSpeech": "noun",
       "phonetic": "/bəˈluːn/",
-      "meaning": "風船；バルーン",
+      "meaning": "風船；気球",
       "exampleEn": "A red rubber balloon flew into the air.",
       "exampleJa": "赤いゴム風船が空へ飛んでいきました。",
       "level": 2
@@ -612,16 +612,16 @@
       "meaning": "かご；バスケット",
       "exampleEn": "Put fresh fruit inside the basket.",
       "exampleJa": "かごの中に新鮮な果物を入れなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "beast",
       "partOfSpeech": "noun",
       "phonetic": "/biːst/",
-      "meaning": "野獣；動物",
+      "meaning": "野獣；獣",
       "exampleEn": "A wild beast roared loudly in the forest.",
       "exampleJa": "野獣が森の中で大きく吠えました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "beginner",
@@ -639,7 +639,7 @@
       "meaning": "ベルト；帯",
       "exampleEn": "Fasten your seat belt inside the car.",
       "exampleJa": "車の中でシートベルトを締めなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bet",
@@ -648,13 +648,13 @@
       "meaning": "を賭ける；きっと〜だと思う",
       "exampleEn": "I bet our team will win game.",
       "exampleJa": "私はきっと私たちのチームが試合に勝つと思います。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bill",
       "partOfSpeech": "noun",
       "phonetic": "/bɪl/",
-      "meaning": "請求書；法案；紙幣",
+      "meaning": "請求書；紙幣；法案",
       "exampleEn": "Please pay the restaurant bill.",
       "exampleJa": "レストランの請求書を払ってください。",
       "level": 2
@@ -666,13 +666,13 @@
       "meaning": "奇妙な；風変わりな",
       "exampleEn": "Witness reported seeing a bizarre strange object.",
       "exampleJa": "目撃者が奇妙な物体を見たと報告しました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "block",
       "partOfSpeech": "noun",
       "phonetic": "/blɑːk/",
-      "meaning": "ブロック；街区；を遮断する",
+      "meaning": "街区；ブロック；かたまり",
       "exampleEn": "Walk two city blocks down the road.",
       "exampleJa": "道路を道なりに2街区歩きなさい。",
       "level": 2
@@ -690,7 +690,7 @@
       "headword": "bow",
       "partOfSpeech": "verb",
       "phonetic": "/baʊ/",
-      "meaning": "おじぎする；弓",
+      "meaning": "お辞儀する；頭を下げる",
       "exampleEn": "Bow your head respectfully to your host.",
       "exampleJa": "日本のホストに対して丁寧におじぎをしなさい。",
       "level": 2
@@ -702,7 +702,7 @@
       "meaning": "幅；広がり",
       "exampleEn": "Appreciate the breadth of his knowledge.",
       "exampleJa": "彼の知識の広さを評価しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "brick",
@@ -717,28 +717,28 @@
       "headword": "broadly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbrɔːdli/",
-      "meaning": "大体において；広く",
+      "meaning": "広く；大まかに；概して",
       "exampleEn": "Broadly speaking, the project is successful.",
       "exampleJa": "大体において、プロジェクトは成功しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "brutal",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbruːtl/",
-      "meaning": "残忍な；残酷な",
+      "meaning": "残忍な；残酷な；過酷な",
       "exampleEn": "We condemn these brutal acts of violence.",
       "exampleJa": "私たちはこれらの残忍な暴力行為を非難します。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "bump",
       "partOfSpeech": "verb",
       "phonetic": "/bʌmp/",
-      "meaning": "にぶつかる；凸凹",
+      "meaning": "ぶつかる；をぶつける",
       "exampleEn": "The car bumped against a wall.",
       "exampleJa": "車が壁にぶつかりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bush",

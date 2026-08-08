@@ -9,7 +9,7 @@
       "meaning": "資産；強み",
       "exampleEn": "Confidence is a valuable asset.",
       "exampleJa": "自信は貴重な資産です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bankruptcy",
@@ -18,13 +18,13 @@
       "meaning": "破産；倒産",
       "exampleEn": "The company filed for bankruptcy.",
       "exampleJa": "その会社は破産を申請しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bond",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːnd/",
-      "meaning": "債券；絆；結合",
+      "meaning": "絆；債券；結合",
       "exampleEn": "Investors bought government bonds.",
       "exampleJa": "投資家たちは国債を購入しました。",
       "level": 3
@@ -45,34 +45,34 @@
       "meaning": "商業；貿易",
       "exampleEn": "E-commerce grew rapidly worldwide.",
       "exampleJa": "電子商取引は世界中で急速に成長しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "commodity",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɑːdəti/",
-      "meaning": "商品；日用品；資源物資",
+      "meaning": "商品；日用品",
       "exampleEn": "Oil is an essential commodity.",
       "exampleJa": "石油は不可欠な商品・資源物資です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "compensation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌkɑːmpenˈseɪʃən/",
-      "meaning": "補償；手当；報酬",
+      "phonetic": "/ˌkɑːmpenˈseɪʃn/",
+      "meaning": "補償；報酬；手当",
       "exampleEn": "He received financial compensation.",
       "exampleJa": "彼は金銭的補償を受け取りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "currency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɜːrənsi/",
-      "meaning": "通貨；貨幣",
+      "meaning": "通貨；貨幣；流通",
       "exampleEn": "Yen is the Japanese currency.",
       "exampleJa": "円は日本の通貨です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "deficit",
@@ -96,7 +96,7 @@
       "headword": "deposit",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈpɑːzɪt/",
-      "meaning": "預金；頭金；堆積物",
+      "meaning": "預金；保証金；堆積物",
       "exampleEn": "Make a bank deposit today.",
       "exampleJa": "今日銀行預金をしなさい。",
       "level": 3
@@ -140,7 +140,7 @@
     {
       "headword": "fiscal",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfɪskl/",
+      "phonetic": "/ˈfɪskəl/",
       "meaning": "財政の；会計の",
       "exampleEn": "Fiscal year ends in March.",
       "exampleJa": "会計年度は3月に終了します。",
@@ -150,16 +150,16 @@
       "headword": "inflation",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈfleɪʃən/",
-      "meaning": "インフレーション；物価高",
+      "meaning": "インフレ；物価上昇",
       "exampleEn": "High inflation reduces purchasing power.",
       "exampleJa": "高いインフレは購買力を低下させます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "inventory",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnvəntɔːri/",
-      "meaning": "在庫；全在庫品目",
+      "meaning": "在庫；棚卸し",
       "exampleEn": "Store holds large product inventory.",
       "exampleJa": "店舗は大量の製品在庫を抱えています。",
       "level": 4
@@ -186,7 +186,7 @@
       "headword": "loan",
       "partOfSpeech": "noun",
       "phonetic": "/loʊn/",
-      "meaning": "ローン；貸付金",
+      "meaning": "ローン；融資；貸付金",
       "exampleEn": "He took out a student loan.",
       "exampleJa": "彼は学生ローンを組みました。",
       "level": 3
@@ -195,16 +195,16 @@
       "headword": "monopoly",
       "partOfSpeech": "noun",
       "phonetic": "/məˈnɑːpəli/",
-      "meaning": "独占；独占権",
+      "meaning": "独占；専売；独占権",
       "exampleEn": "The firm holds a market monopoly.",
       "exampleJa": "その企業は市場の独占権を握っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "mortgage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɔːrɡɪdʒ/",
-      "meaning": "住宅ローン；担保",
+      "meaning": "住宅ローン；抵当",
       "exampleEn": "They paid off their home mortgage.",
       "exampleJa": "彼らは住宅ローンを完済しました。",
       "level": 4
@@ -213,16 +213,16 @@
       "headword": "transaction",
       "partOfSpeech": "noun",
       "phonetic": "/trænˈzækʃən/",
-      "meaning": "取引；売買",
+      "meaning": "取引；売買；処理",
       "exampleEn": "Online credit card transactions are secure.",
       "exampleJa": "オンラインのカード取引は安全です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "turnover",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtɜːrnoʊvər/",
-      "meaning": "総売上高；離職率",
+      "meaning": "離職率；総売上高；回転率",
       "exampleEn": "Annual corporate turnover increased.",
       "exampleJa": "年間の企業売上高が増加しました。",
       "level": 4
@@ -231,7 +231,7 @@
       "headword": "yield",
       "partOfSpeech": "noun",
       "phonetic": "/jiːld/",
-      "meaning": "収穫量；利回り",
+      "meaning": "収穫量；利回り；産出量",
       "exampleEn": "High crop yield helped farmers.",
       "exampleJa": "高い作物の収穫量が農家を助けました。",
       "level": 4
@@ -267,10 +267,10 @@
       "headword": "accommodation",
       "partOfSpeech": "noun",
       "phonetic": "/əˌkɑːməˈdeɪʃn/",
-      "meaning": "宿泊施設；収容",
+      "meaning": "宿泊施設；収容能力",
       "exampleEn": "She booked hotel accommodation online.",
       "exampleJa": "彼女はオンラインでホテルの宿泊施設を予約しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "accumulation",
@@ -330,7 +330,7 @@
       "headword": "affirm",
       "partOfSpeech": "verb",
       "phonetic": "/əˈfɜːrm/",
-      "meaning": "と断言する；を確認する",
+      "meaning": "を断言する；を確認する；を支持する",
       "exampleEn": "The court affirmed the contract's validity.",
       "exampleJa": "裁判所は契約の有効性を確認しました。",
       "level": 4
@@ -420,10 +420,10 @@
       "headword": "annihilate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈnaɪəleɪt/",
-      "meaning": "を全滅させる；消滅させる",
+      "meaning": "を全滅させる；を消滅させる",
       "exampleEn": "The bomb could annihilate the entire city.",
       "exampleJa": "その爆弾は都市全体を壊滅させる恐れがあります。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "antecedent",
@@ -492,10 +492,10 @@
       "headword": "arrears",
       "partOfSpeech": "noun",
       "phonetic": "/əˈrɪrz/",
-      "meaning": "滞納金；遅れ",
+      "meaning": "滞納金；未払い",
       "exampleEn": "He paid off his rent arrears.",
       "exampleJa": "彼は家賃の滞納金を支払いました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "ascent",
@@ -522,7 +522,7 @@
       "meaning": "抜け目のない；機敏な",
       "exampleEn": "He made an astute investment decision.",
       "exampleJa": "彼は抜け目のない投資判断をしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "attic",
@@ -582,10 +582,10 @@
       "headword": "blatant",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbleɪtnt/",
-      "meaning": "あからさまな；厚かましい",
+      "meaning": "露骨な；あからさまな",
       "exampleEn": "It was a blatant lie.",
       "exampleJa": "それはあからさまな嘘でした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "bluntly",
@@ -645,10 +645,10 @@
       "headword": "captivate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkæptɪveɪt/",
-      "meaning": "を魅了する；心を奪う",
+      "meaning": "を魅了する；の心を奪う",
       "exampleEn": "Her voice captivated the entire audience.",
       "exampleJa": "彼女の声が観客全員を魅了しました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "carnal",

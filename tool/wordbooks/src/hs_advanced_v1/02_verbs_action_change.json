@@ -6,7 +6,7 @@
       "headword": "accelerate",
       "partOfSpeech": "verb",
       "phonetic": "/əkˈseləreɪt/",
-      "meaning": "を加速させる；速くなる",
+      "meaning": "を加速する；加速する；を促進する",
       "exampleEn": "The car accelerated rapidly on highway.",
       "exampleJa": "車は高速道路で急速に加速しました。",
       "level": 4
@@ -15,10 +15,10 @@
       "headword": "aggravate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈæɡrəveɪt/",
-      "meaning": "をさらに悪化させる；を怒らせる",
+      "meaning": "を悪化させる；を怒らせる",
       "exampleEn": "Stress can aggravate skin conditions.",
       "exampleJa": "ストレスは皮膚疾患をさらに悪化させることがあります。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "amplify",
@@ -51,7 +51,7 @@
       "headword": "degrade",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈɡreɪd/",
-      "meaning": "を低減させる；劣解する",
+      "meaning": "を劣化させる；を低下させる；の品位を落とす",
       "exampleEn": "Plastics degrade slowly in ocean.",
       "exampleJa": "プラスチックは海中でゆっくり分解・劣化します。",
       "level": 4
@@ -141,10 +141,10 @@
       "headword": "generate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈdʒenəreɪt/",
-      "meaning": "を発生させる；を生み出す",
+      "meaning": "を生み出す；を発生させる",
       "exampleEn": "Turbines generate green electricity.",
       "exampleJa": "タービンがクリーン電力を生み出します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "impair",
@@ -195,10 +195,10 @@
       "headword": "modify",
       "partOfSpeech": "verb",
       "phonetic": "/ˈmɑːdɪfaɪ/",
-      "meaning": "を修正する；を修飾する",
+      "meaning": "を修正する；を変更する",
       "exampleEn": "We modified the original program.",
       "exampleJa": "私たちは元のプログラムを修正しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "multiply",
@@ -240,7 +240,7 @@
       "headword": "provoke",
       "partOfSpeech": "verb",
       "phonetic": "/prəˈvoʊk/",
-      "meaning": "を挑発する；を誘発する",
+      "meaning": "を挑発する；を引き起こす",
       "exampleEn": "His comment provoked angry reactions.",
       "exampleJa": "彼のコメントは怒りの反応を誘発しました。",
       "level": 4
@@ -333,13 +333,13 @@
       "meaning": "を維持する；を支える",
       "exampleEn": "Hope sustained us through hardship.",
       "exampleJa": "希望が苦難のあいだ私たちを支えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "terminate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈtɜːrmɪneɪt/",
-      "meaning": "を終了させる；終わる",
+      "meaning": "を終了させる；を解約する",
       "exampleEn": "Company terminated the contract.",
       "exampleJa": "会社は契約を終了させました。",
       "level": 4
@@ -387,7 +387,7 @@
       "meaning": "に違反する；を侵害する",
       "exampleEn": "Speeding violates traffic laws.",
       "exampleJa": "スピード違反は交通法規に違反します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "worsen",
@@ -492,10 +492,10 @@
       "headword": "affiliate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈfɪlieɪt/",
-      "meaning": "と提携する；加盟する",
+      "meaning": "を提携させる；加入する",
       "exampleEn": "The local office is affiliated with a global network.",
       "exampleJa": "その地元オフィスは国際的なネットワークと提携しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "agonizing",
@@ -510,10 +510,10 @@
       "headword": "alienate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈeɪliəneɪt/",
-      "meaning": "を遠ざける；疎外する",
+      "meaning": "を遠ざける；を疎外する",
       "exampleEn": "Arrogant behavior alienates close friends.",
       "exampleJa": "傲慢な態度は親しい友人を遠ざけます。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "allot",
@@ -531,7 +531,7 @@
       "meaning": "利他主義；愛他心",
       "exampleEn": "His action was driven by pure altruism.",
       "exampleJa": "彼の行動は純粋な利他主義に基づくものでした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "amenable",
@@ -545,7 +545,7 @@
     {
       "headword": "amortization",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌæmɔːrtɪˈzeɪʃn/",
+      "phonetic": "/ˌæmərtəˈzeɪʃn/",
       "meaning": "償却；割賦返済",
       "exampleEn": "Calculate the loan's amortization schedule.",
       "exampleJa": "そのローンの償却スケジュールを計算しなさい。",
@@ -585,7 +585,7 @@
       "meaning": "敵対者；悪役",
       "exampleEn": "The main antagonist opposed the hero.",
       "exampleJa": "その主要な敵役はヒーローに対抗しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "antiquated",
@@ -645,7 +645,7 @@
       "headword": "arraign",
       "partOfSpeech": "verb",
       "phonetic": "/əˈreɪn/",
-      "meaning": "を罪状認否に問う；告発する",
+      "meaning": "を罪状認否に問う；を告発する",
       "exampleEn": "The suspect was arraigned on robbery charges.",
       "exampleJa": "その容疑者は強盗の罪で罪状認否を受けました。",
       "level": 5
@@ -702,7 +702,7 @@
       "meaning": "許可；認可；権限",
       "exampleEn": "Obtain written authorization from your manager.",
       "exampleJa": "上司から書面での許可を得なさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "aviation",
@@ -747,7 +747,7 @@
       "meaning": "封鎖；遮断",
       "exampleEn": "The naval fleet established a port blockade.",
       "exampleJa": "その海軍艦隊は港の封鎖を敷きました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "botanical",
@@ -762,10 +762,10 @@
       "headword": "brim",
       "partOfSpeech": "noun",
       "phonetic": "/brɪm/",
-      "meaning": "縁；フチ",
+      "meaning": "縁；へり",
       "exampleEn": "Fill the cup right to the brim.",
       "exampleJa": "カップの縁まで水を満たしなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "buggy",
@@ -792,7 +792,7 @@
       "meaning": "率直さ；誠実さ",
       "exampleEn": "I appreciate your candor and honesty.",
       "exampleJa": "あなたの率直さと誠実さに感謝します。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "capricious",
@@ -861,7 +861,7 @@
       "headword": "coagulate",
       "partOfSpeech": "verb",
       "phonetic": "/koʊˈæɡjuleɪt/",
-      "meaning": "を凝固・凝固させる",
+      "meaning": "を凝固させる；凝固する",
       "exampleEn": "The blood began to coagulate in the wound.",
       "exampleJa": "血液がその傷口で凝固し始めました。",
       "level": 5
@@ -914,11 +914,11 @@
     {
       "headword": "illusion",
       "partOfSpeech": "noun",
-      "phonetic": "/ɪˈluːʒn/",
+      "phonetic": "/ɪˈluːʒən/",
       "meaning": "錯覚；幻想",
       "exampleEn": "An optical illusion tricked his eyes.",
       "exampleJa": "その錯視は彼の目を欺きました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "immorality",
@@ -1041,7 +1041,7 @@
       "headword": "culpable",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌlpəbl/",
-      "meaning": "咎められるべき；罪のある",
+      "meaning": "咎められるべき；過失のある",
       "exampleEn": "He was found culpable for the accident.",
       "exampleJa": "彼はその事故について法的に有責とされました。",
       "level": 5

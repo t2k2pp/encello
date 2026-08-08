@@ -9,22 +9,22 @@
       "meaning": "宿泊施設；収容能力",
       "exampleEn": "The company pays for our accommodation during business trips.",
       "exampleJa": "会社は出張中の宿泊費を負担します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "baggage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbæɡɪdʒ/",
-      "meaning": "手荷物；スーツケース",
+      "meaning": "手荷物",
       "exampleEn": "We collected our baggage at the airport.",
       "exampleJa": "私たちは空港で手荷物を受け取りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "boarding",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbɔːrdɪŋ/",
-      "meaning": "搭乗",
+      "meaning": "搭乗；乗車",
       "exampleEn": "Boarding will begin in twenty minutes.",
       "exampleJa": "搭乗は20分後に始まります。",
       "level": 3
@@ -33,10 +33,10 @@
       "headword": "convention",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈvenʃn/",
-      "meaning": "定期大会；コンベンション；慣習",
+      "meaning": "慣習；大会；条約",
       "exampleEn": "She spoke at the annual sales convention.",
       "exampleJa": "彼女は年次の営業大会で講演しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "itinerary",
@@ -90,7 +90,7 @@
       "meaning": "飛行機",
       "exampleEn": "Our airplane took off on time.",
       "exampleJa": "私たちの飛行機は定刻に離陸しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "airport",
@@ -99,7 +99,7 @@
       "meaning": "空港",
       "exampleEn": "We arrived at the airport two hours early.",
       "exampleJa": "私たちは2時間早く空港に着きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "aisle",
@@ -108,13 +108,13 @@
       "meaning": "通路",
       "exampleEn": "I always ask for an aisle seat.",
       "exampleJa": "私はいつも通路側の席をお願いします。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "attendant",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtendənt/",
-      "meaning": "接客係；乗務員",
+      "meaning": "係員；接客係；乗務員",
       "exampleEn": "A flight attendant brought me some hot tea.",
       "exampleJa": "客室乗務員が温かいお茶を持ってきてくれました。",
       "level": 3
@@ -135,7 +135,7 @@
       "meaning": "飲み物；飲料",
       "exampleEn": "Beverages are free on this flight.",
       "exampleJa": "この便では飲み物は無料です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "boarding pass",
@@ -168,7 +168,7 @@
       "headword": "buffet",
       "partOfSpeech": "noun",
       "phonetic": "/bəˈfeɪ/",
-      "meaning": "ビュッフェ；食べ放題",
+      "meaning": "ビュッフェ；セルフサービスの食事",
       "exampleEn": "The hotel serves a breakfast buffet every morning.",
       "exampleJa": "そのホテルは毎朝朝食ビュッフェを提供しています。",
       "level": 3
@@ -186,7 +186,7 @@
       "headword": "captain",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæptɪn/",
-      "meaning": "機長；船長",
+      "meaning": "キャプテン；船長；機長",
       "exampleEn": "The captain announced that we would land soon.",
       "exampleJa": "機長はまもなく着陸すると伝えました。",
       "level": 2
@@ -204,19 +204,19 @@
       "headword": "cater",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkeɪtər/",
-      "meaning": "料理を調達・ケータリングする",
+      "meaning": "料理を提供する；要求に応じる",
       "exampleEn": "A local restaurant catered our company party.",
       "exampleJa": "地元のレストランが会社のパーティーの料理を用意しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "catering",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkeɪtərɪŋ/",
-      "meaning": "ケータリング；出張給食サービス",
+      "meaning": "ケータリング；仕出し；出張料理",
       "exampleEn": "We hired a catering company for the event.",
       "exampleJa": "私たちはそのイベントのためにケータリング会社を手配しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "check-in",
@@ -258,7 +258,7 @@
       "headword": "cruise",
       "partOfSpeech": "noun",
       "phonetic": "/kruːz/",
-      "meaning": "クルーズ；巡航",
+      "meaning": "クルーズ；周遊旅行；巡航",
       "exampleEn": "They took a cruise around the Mediterranean Sea.",
       "exampleJa": "彼らは地中海を巡るクルーズに参加しました。",
       "level": 3
@@ -267,10 +267,10 @@
       "headword": "delegation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdelɪˈɡeɪʃn/",
-      "meaning": "代表団；派遣団",
+      "meaning": "代表団；派遣団；権限委任",
       "exampleEn": "A trade delegation visited our factory last month.",
       "exampleJa": "貿易代表団が先月私たちの工場を訪れました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "delegate",
@@ -294,10 +294,10 @@
       "headword": "event",
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈvent/",
-      "meaning": "催し；イベント",
+      "meaning": "出来事；行事；イベント",
       "exampleEn": "The company event was held in the main hall.",
       "exampleJa": "会社の催しは大ホールで開かれました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "excursion",
@@ -312,10 +312,10 @@
       "headword": "fare",
       "partOfSpeech": "noun",
       "phonetic": "/fer/",
-      "meaning": "運賃；乗車料金",
+      "meaning": "運賃；料金",
       "exampleEn": "The bus fare went up last month.",
       "exampleJa": "バスの運賃が先月上がりました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "flight",
@@ -339,28 +339,28 @@
       "headword": "gate",
       "partOfSpeech": "noun",
       "phonetic": "/ɡeɪt/",
-      "meaning": "搭乗口；ゲート",
+      "meaning": "門；ゲート；搭乗口",
       "exampleEn": "Passengers are waiting at gate fifteen.",
       "exampleJa": "乗客は15番搭乗口で待っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "guest",
       "partOfSpeech": "noun",
       "phonetic": "/ɡest/",
-      "meaning": "宿泊客；来客",
+      "meaning": "客；宿泊客",
       "exampleEn": "The hotel treats every guest very kindly.",
       "exampleJa": "そのホテルはどの宿泊客にもとても親切に接します。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "hospitality",
       "partOfSpeech": "noun",
       "phonetic": "/ˌhɑːspɪˈtæləti/",
-      "meaning": "歓待；ホスピタリティ",
+      "meaning": "歓待；もてなし",
       "exampleEn": "We were impressed by their warm hospitality.",
       "exampleJa": "私たちは彼らの温かいもてなしに感動しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "host",
@@ -378,7 +378,7 @@
       "meaning": "ホテル",
       "exampleEn": "A new hotel opened near the station.",
       "exampleJa": "駅の近くに新しいホテルが開業しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "inn",
@@ -429,10 +429,10 @@
       "headword": "luggage",
       "partOfSpeech": "noun",
       "phonetic": "/ˈlʌɡɪdʒ/",
-      "meaning": "手荷物；スーツケース",
+      "meaning": "手荷物；旅行かばん",
       "exampleEn": "I left my luggage at the hotel.",
       "exampleJa": "私はホテルに荷物を預けました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "occupancy",
@@ -477,7 +477,7 @@
       "meaning": "パイロット；操縦士",
       "exampleEn": "The pilot has flown this route for years.",
       "exampleJa": "そのパイロットは何年もこの路線を飛んでいます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "resort",
@@ -546,16 +546,16 @@
       "headword": "ticket",
       "partOfSpeech": "noun",
       "phonetic": "/ˈtɪkɪt/",
-      "meaning": "チケット；乗車券",
+      "meaning": "切符；チケット；乗車券",
       "exampleEn": "She bought a round-trip ticket online.",
       "exampleJa": "彼女はオンラインで往復の乗車券を買いました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "tour",
       "partOfSpeech": "noun",
       "phonetic": "/tʊr/",
-      "meaning": "ツアー；周遊旅行",
+      "meaning": "ツアー；見学；周遊旅行",
       "exampleEn": "A guided tour of the factory starts at ten.",
       "exampleJa": "工場のガイド付きツアーは10時に始まります。",
       "level": 2
@@ -591,10 +591,10 @@
       "headword": "trip",
       "partOfSpeech": "noun",
       "phonetic": "/trɪp/",
-      "meaning": "出張；旅行",
+      "meaning": "旅行；遠足；出張",
       "exampleEn": "He is going on a business trip to London.",
       "exampleJa": "彼はロンドンへ出張に行きます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "vacant",
@@ -636,7 +636,7 @@
       "headword": "visitor",
       "partOfSpeech": "noun",
       "phonetic": "/ˈvɪzɪtər/",
-      "meaning": "訪問者；見学者",
+      "meaning": "訪問者；来客；観光客",
       "exampleEn": "Visitors must sign in at the entrance.",
       "exampleJa": "訪問者は入口で記帳しなければなりません。",
       "level": 2

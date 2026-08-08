@@ -6,19 +6,19 @@
       "headword": "acceptable",
       "partOfSpeech": "adjective",
       "phonetic": "/əkˈseptəbl/",
-      "meaning": "受け入れられる；容認できる",
+      "meaning": "受け入れられる；許容できる",
       "exampleEn": "The terms are acceptable to our client.",
       "exampleJa": "その条件は顧客にとって受け入れられるものです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "accurate",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈækjərət/",
-      "meaning": "正確な；狂いのない",
+      "meaning": "正確な；精密な",
       "exampleEn": "The financial report contains accurate data.",
       "exampleJa": "財務報告書には正確なデータが載っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "confidential",
@@ -36,16 +36,16 @@
       "meaning": "企業の；法人の",
       "exampleEn": "The company changed its corporate logo last year.",
       "exampleJa": "その会社は昨年、企業ロゴを変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "efficient",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪˈfɪʃnt/",
-      "meaning": "効率的な；能率的な",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "meaning": "効率的な；能率的な；有能な",
       "exampleEn": "The new system is highly efficient.",
       "exampleJa": "新しいシステムは非常に効率的です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "valid",
@@ -54,7 +54,7 @@
       "meaning": "有効な；正当な",
       "exampleEn": "Your passport must be valid for the trip.",
       "exampleJa": "渡航にはパスポートが有効である必要があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "adequate",
@@ -63,16 +63,16 @@
       "meaning": "十分な；適切な",
       "exampleEn": "We have an adequate budget for this project.",
       "exampleJa": "このプロジェクトには十分な予算があります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "annual",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈænjuəl/",
-      "meaning": "年一回の；年間の",
+      "meaning": "年一回の；毎年の；年間の",
       "exampleEn": "The company publishes an annual sales report.",
       "exampleJa": "その会社は年次の売上報告書を公表しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "appropriate",
@@ -81,13 +81,13 @@
       "meaning": "適切な；ふさわしい",
       "exampleEn": "You should wear appropriate clothes to the interview.",
       "exampleJa": "面接にはふさわしい服装で行くべきです。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "available",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈveɪləbl/",
-      "meaning": "利用可能な；手に入る",
+      "meaning": "利用できる；手に入る",
       "exampleEn": "The product is available at our online store.",
       "exampleJa": "その製品は当社のオンラインストアで購入できます。",
       "level": 2
@@ -96,19 +96,19 @@
       "headword": "beneficial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌbenɪˈfɪʃl/",
-      "meaning": "有益な；利益になる",
+      "meaning": "有益な；ためになる",
       "exampleEn": "The trade agreement was beneficial to both countries.",
       "exampleJa": "その貿易協定は両国にとって有益でした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "broad",
       "partOfSpeech": "adjective",
       "phonetic": "/brɔːd/",
-      "meaning": "広範な；広い",
+      "meaning": "広い；広範な",
       "exampleEn": "The bank offers a broad range of services.",
       "exampleJa": "その銀行は幅広いサービスを提供しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "committed",
@@ -123,10 +123,10 @@
       "headword": "compulsory",
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpʌlsəri/",
-      "meaning": "強制的な；義務的な",
+      "meaning": "義務的な；強制的な；必修の",
       "exampleEn": "Attendance at the orientation is compulsory.",
       "exampleJa": "オリエンテーションへの出席は必須です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consecutive",
@@ -141,19 +141,19 @@
       "headword": "considerable",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈsɪdərəbl/",
-      "meaning": "かなりの；考慮すべき",
+      "meaning": "かなりの；相当な",
       "exampleEn": "The project earned a considerable profit.",
       "exampleJa": "そのプロジェクトはかなりの利益を上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consistent",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈsɪstənt/",
-      "meaning": "一貫した；変わらない",
+      "meaning": "一貫した；矛盾のない",
       "exampleEn": "The factory keeps a consistent level of quality.",
       "exampleJa": "その工場は一貫した品質の水準を保っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "convenient",
@@ -168,19 +168,19 @@
       "headword": "critical",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrɪtɪkl/",
-      "meaning": "重要な；批判的な；難局の",
+      "meaning": "批判的な；極めて重要な；危機的な",
       "exampleEn": "Timing is critical to the success of this project.",
       "exampleJa": "タイミングはこのプロジェクトの成功にとって重要です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "crucial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkruːʃl/",
-      "meaning": "非常に重要な；決定的な",
+      "meaning": "極めて重要な；決定的な",
       "exampleEn": "Customer feedback plays a crucial role in development.",
       "exampleJa": "顧客の声は開発において極めて重要な役割を果たします。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "current",
@@ -189,7 +189,7 @@
       "meaning": "現在の；最新の",
       "exampleEn": "I checked the current price list this morning.",
       "exampleJa": "今朝、最新の価格表を確認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "demanding",
@@ -231,10 +231,10 @@
       "headword": "eager",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈiːɡər/",
-      "meaning": "熱心な；〜したがっている",
+      "meaning": "熱心な；しきりに〜したがっている",
       "exampleEn": "The new staff are eager to learn.",
       "exampleJa": "新しいスタッフは学ぶことに熱心です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "economic",
@@ -293,11 +293,11 @@
     {
       "headword": "flexible",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfleksəbl/",
+      "phonetic": "/ˈfleksəbəl/",
       "meaning": "柔軟な；融通の利く",
       "exampleEn": "Our company offers flexible working hours.",
       "exampleJa": "当社は柔軟な勤務時間の制度を用意しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "formal",
@@ -321,19 +321,19 @@
       "headword": "ideal",
       "partOfSpeech": "adjective",
       "phonetic": "/aɪˈdiːəl/",
-      "meaning": "理想的な；最高の",
+      "meaning": "理想的な；最適な",
       "exampleEn": "This place is ideal for a retail store.",
       "exampleJa": "この場所は小売店にとって理想的です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "immediate",
       "partOfSpeech": "adjective",
       "phonetic": "/ɪˈmiːdiət/",
-      "meaning": "即座の；当面の",
+      "meaning": "即座の；早急の；直接の",
       "exampleEn": "The problem needs our immediate attention.",
       "exampleJa": "その問題には早急な対応が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "impressed",
@@ -351,7 +351,7 @@
       "meaning": "印象的な；見事な",
       "exampleEn": "The company reported impressive annual profits.",
       "exampleJa": "その会社は見事な年間利益を報告しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "incidental",
@@ -365,20 +365,20 @@
     {
       "headword": "inevitable",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪnˈevɪtəbl/",
+      "phonetic": "/ɪnˈevɪtəbəl/",
       "meaning": "避けられない；必然の",
       "exampleEn": "The price increase was inevitable.",
       "exampleJa": "値上げは避けられないものでした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "initial",
       "partOfSpeech": "adjective",
-      "phonetic": "/ɪˈnɪʃl/",
+      "phonetic": "/ɪˈnɪʃəl/",
       "meaning": "最初の；初期の",
       "exampleEn": "The initial sales results met our expectations.",
       "exampleJa": "初期の売上結果は私たちの期待どおりでした。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "interim",
@@ -419,11 +419,11 @@
     {
       "headword": "legal",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈliːɡl/",
-      "meaning": "法律の；合意上の",
+      "phonetic": "/ˈliːɡəl/",
+      "meaning": "法律の；合法の",
       "exampleEn": "We consult the legal department before signing contracts.",
       "exampleJa": "私たちは契約書に署名する前に法務部に相談します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "legitimate",
@@ -446,7 +446,7 @@
     {
       "headword": "local",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈloʊkl/",
+      "phonetic": "/ˈloʊkəl/",
       "meaning": "地元の；地域の",
       "exampleEn": "There are many local shops near our office.",
       "exampleJa": "オフィスの近くには地元の店がたくさんあります。",
@@ -564,10 +564,10 @@
       "headword": "permanent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpɜːrmənənt/",
-      "meaning": "永久的な；終身の",
+      "meaning": "永続的な；終身の；常設の",
       "exampleEn": "The company offered him a permanent contract.",
       "exampleJa": "会社は彼に終身雇用の契約を提示しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "practical",
@@ -603,16 +603,16 @@
       "meaning": "以前の；前の",
       "exampleEn": "Sales are higher than the previous year.",
       "exampleJa": "売上は前年より伸びています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "primary",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpraɪmeri/",
-      "meaning": "主要な；第一の",
+      "meaning": "主要な；第一の；初等の",
       "exampleEn": "Safety is our primary concern at the factory.",
       "exampleJa": "安全は工場での第一の関心事です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "principal",
@@ -627,10 +627,10 @@
       "headword": "prompt",
       "partOfSpeech": "adjective",
       "phonetic": "/prɑːmpt/",
-      "meaning": "迅速な；すばやい",
+      "meaning": "迅速な；即座の",
       "exampleEn": "We give prompt replies to customer inquiries.",
       "exampleJa": "私たちは顧客の問い合わせに迅速に返答します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "prospective",
@@ -645,10 +645,10 @@
       "headword": "punctual",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpʌŋktʃuəl/",
-      "meaning": "時間を守る",
+      "meaning": "時間を守る；時間に正確な",
       "exampleEn": "She is always punctual for morning meetings.",
       "exampleJa": "彼女は朝の会議にいつも時間どおりに来ます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "radical",
@@ -657,7 +657,7 @@
       "meaning": "抜本的な；急進的な",
       "exampleEn": "The old system needs a radical change.",
       "exampleJa": "古いシステムには抜本的な変更が必要です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "rapid",
@@ -672,10 +672,10 @@
       "headword": "rational",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈræʃnəl/",
-      "meaning": "合理的・論理的な",
+      "meaning": "合理的な；理性的な；論理的な",
       "exampleEn": "Managers make rational decisions based on data.",
       "exampleJa": "管理職はデータに基づいて合理的な判断を下します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "remarkable",

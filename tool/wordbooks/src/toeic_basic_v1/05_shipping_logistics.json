@@ -15,7 +15,7 @@
       "headword": "carrier",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæriər/",
-      "meaning": "運送会社；搬送体",
+      "meaning": "運送業者；運送会社；保菌者",
       "exampleEn": "Our company uses a national carrier for deliveries.",
       "exampleJa": "当社は配送に全国規模の運送会社を使っています。",
       "level": 3
@@ -24,7 +24,7 @@
       "headword": "customs",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmz/",
-      "meaning": "税関；関税手続き",
+      "meaning": "税関；関税",
       "exampleEn": "The package cleared customs on Tuesday morning.",
       "exampleJa": "その荷物は火曜日の朝に税関を通りました。",
       "level": 3
@@ -33,10 +33,10 @@
       "headword": "dispatch",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspætʃ/",
-      "meaning": "を発送する；を急派する",
+      "meaning": "を発送する；を派遣する",
       "exampleEn": "We dispatch all orders within one business day.",
       "exampleJa": "当社はすべての注文を1営業日以内に発送します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "freight",
@@ -54,7 +54,7 @@
       "meaning": "在庫；棚卸し",
       "exampleEn": "The store keeps a large inventory of parts.",
       "exampleJa": "その店は部品の在庫を大量に持っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "parcel",
@@ -105,7 +105,7 @@
       "headword": "arrive",
       "partOfSpeech": "verb",
       "phonetic": "/əˈraɪv/",
-      "meaning": "到着する",
+      "meaning": "到着する；届く",
       "exampleEn": "The containers arrived at the port yesterday.",
       "exampleJa": "コンテナは昨日港に到着しました。",
       "level": 2
@@ -126,7 +126,7 @@
       "meaning": "箱；ケース",
       "exampleEn": "She put the samples in a small box.",
       "exampleJa": "彼女は見本を小さな箱に入れました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "cardboard",
@@ -135,7 +135,7 @@
       "meaning": "段ボール；ボール紙",
       "exampleEn": "We ship our books in cardboard boxes.",
       "exampleJa": "当社は本を段ボール箱に入れて発送します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "consignee",
@@ -159,7 +159,7 @@
       "headword": "container",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈteɪnər/",
-      "meaning": "コンテナ；容器",
+      "meaning": "容器；コンテナ",
       "exampleEn": "A crane lifted the container onto the ship.",
       "exampleJa": "クレーンがコンテナを船に積み上げました。",
       "level": 2
@@ -222,7 +222,7 @@
       "headword": "deliver",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈlɪvər/",
-      "meaning": "を配達・配送する",
+      "meaning": "を配達する；を届ける；を述べる",
       "exampleEn": "The driver delivers packages every weekday morning.",
       "exampleJa": "その運転手は平日の毎朝荷物を配達します。",
       "level": 2
@@ -258,10 +258,10 @@
       "headword": "destination",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdestɪˈneɪʃn/",
-      "meaning": "目的地；配送先",
+      "meaning": "目的地；行き先；配送先",
       "exampleEn": "The parcel reached its destination two days early.",
       "exampleJa": "小包は2日早く配送先に着きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "dock",
@@ -347,11 +347,11 @@
     {
       "headword": "fragile",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfrædʒl/",
-      "meaning": "壊れやすい",
+      "phonetic": "/ˈfrædʒəl/",
+      "meaning": "壊れやすい；虚弱な",
       "exampleEn": "The label says the contents are fragile.",
       "exampleJa": "ラベルには中身が壊れやすいと書いてあります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "freighter",
@@ -465,16 +465,16 @@
       "headword": "order",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːrdər/",
-      "meaning": "注文；順序",
+      "meaning": "注文；順序；命令",
       "exampleEn": "The customer canceled the order this morning.",
       "exampleJa": "その客は今朝注文を取り消しました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "pack",
       "partOfSpeech": "verb",
       "phonetic": "/pæk/",
-      "meaning": "を梱包する；を詰める",
+      "meaning": "を詰める；を梱包する；荷造りする",
       "exampleEn": "He packed the glasses in soft paper.",
       "exampleJa": "彼はグラスを柔らかい紙で梱包しました。",
       "level": 2
@@ -743,8 +743,8 @@
     {
       "headword": "transportation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌtrænspərˈteɪʃn/",
-      "meaning": "輸送機関；交通手段",
+      "phonetic": "/ˌtrænspərˈteɪʃən/",
+      "meaning": "交通機関；輸送；交通手段",
       "exampleEn": "The company pays for our transportation to work.",
       "exampleJa": "会社は私たちの通勤の交通費を払っています。",
       "level": 2
@@ -762,7 +762,7 @@
       "headword": "weight",
       "partOfSpeech": "noun",
       "phonetic": "/weɪt/",
-      "meaning": "重量；重さ",
+      "meaning": "重さ；体重；重量",
       "exampleEn": "The clerk checked the weight of the parcel.",
       "exampleJa": "係員は小包の重さを確認しました。",
       "level": 2

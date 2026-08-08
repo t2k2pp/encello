@@ -18,16 +18,16 @@
       "meaning": "を詳細に描写する；の輪郭を描く",
       "exampleEn": "Report delineates future growth plan.",
       "exampleJa": "報告書は将来の成長計画を詳しく描写しています。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "disseminate",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈsemɪneɪt/",
-      "meaning": "を広める；を散布する",
+      "meaning": "を広める；を流布する",
       "exampleEn": "Internet disseminates news worldwide rapidly.",
       "exampleJa": "インターネットはニュースを世界中へ急速に広めます。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "emancipate",
@@ -42,10 +42,10 @@
       "headword": "fabricate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈfæbrɪkeɪt/",
-      "meaning": "をでっち上げる；を製造する",
+      "meaning": "を製造する；をでっち上げる",
       "exampleEn": "He fabricated an alibi.",
       "exampleJa": "彼はアリバイをでっち上げました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "manifest",
@@ -96,19 +96,19 @@
       "headword": "absurd",
       "partOfSpeech": "adjective",
       "phonetic": "/əbˈsɜːrd/",
-      "meaning": "荒唐無稽な；不条理な",
+      "meaning": "ばかげた；不合理な；不条理な",
       "exampleEn": "The claim was completely absurd.",
       "exampleJa": "その主張はまったく不条理でした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "accessible",
       "partOfSpeech": "adjective",
       "phonetic": "/əkˈsesəbl/",
-      "meaning": "アクセスしやすい；理解しやすい",
+      "meaning": "近づきやすい；利用しやすい；理解しやすい",
       "exampleEn": "The facility is accessible to wheelchair users.",
       "exampleJa": "その施設は車椅子の利用者にとって利用しやすいです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "accordion",
@@ -168,10 +168,10 @@
       "headword": "aesthetic",
       "partOfSpeech": "adjective",
       "phonetic": "/esˈθetɪk/",
-      "meaning": "美的な；美の",
+      "meaning": "美的な；美学の",
       "exampleEn": "The design has a strong aesthetic appeal.",
       "exampleJa": "そのデザインは強い美的魅力を持っています。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "affront",
@@ -186,10 +186,10 @@
       "headword": "agitate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈædʒɪteɪt/",
-      "meaning": "を煽動する；を攪拌する",
+      "meaning": "を扇動する；をかき混ぜる；を動揺させる",
       "exampleEn": "The activist agitated for civil rights reform.",
       "exampleJa": "その活動家は公民権改革を求めて扇動しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "albeit",
@@ -207,16 +207,16 @@
       "meaning": "変更；修正",
       "exampleEn": "They made a minor alteration to the plan.",
       "exampleJa": "彼らは計画に小さな修正を加えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "ambivalent",
       "partOfSpeech": "adjective",
       "phonetic": "/æmˈbɪvələnt/",
-      "meaning": "どちらとも言えない；決めかねている",
+      "meaning": "相反する感情を抱く；どちらとも決めかねる",
       "exampleEn": "He felt ambivalent about the job offer.",
       "exampleJa": "彼はその内定にどちらとも言えない気持ちでした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "anatomical",
@@ -249,10 +249,10 @@
       "headword": "anticipation",
       "partOfSpeech": "noun",
       "phonetic": "/ænˌtɪsɪˈpeɪʃn/",
-      "meaning": "期待；予期",
+      "meaning": "予期；期待",
       "exampleEn": "The crowd waited with great anticipation.",
       "exampleJa": "群衆は大きな期待を抱いて待ちました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "aphorism",
@@ -285,10 +285,10 @@
       "headword": "aquarium",
       "partOfSpeech": "noun",
       "phonetic": "/əˈkweriəm/",
-      "meaning": "水族館",
+      "meaning": "水族館；水槽",
       "exampleEn": "We visited a large public aquarium.",
       "exampleJa": "私たちは大きな公共水族館を訪れました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "archetypal",
@@ -324,7 +324,7 @@
       "meaning": "仮定；思い込み；引き受け",
       "exampleEn": "The theory is based on a false assumption.",
       "exampleJa": "その理論は誤った仮定に基づいています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "atrocity",
@@ -348,10 +348,10 @@
       "headword": "authenticate",
       "partOfSpeech": "verb",
       "phonetic": "/ɔːˈθentɪkeɪt/",
-      "meaning": "を認証する；本物と証明する",
+      "meaning": "を認証する；を本物と証明する",
       "exampleEn": "The system authenticates users with a password.",
       "exampleJa": "システムはパスワードでユーザーを認証します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "aver",
@@ -393,10 +393,10 @@
       "headword": "blister",
       "partOfSpeech": "noun",
       "phonetic": "/ˈblɪstər/",
-      "meaning": "水ぶくれ；水胞",
+      "meaning": "水ぶくれ；まめ",
       "exampleEn": "Tight shoes gave her a painful blister.",
       "exampleJa": "きつい靴のせいで彼女は痛い水ぶくれができました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bombardment",
@@ -447,7 +447,7 @@
       "headword": "capacity",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈpæsəti/",
-      "meaning": "収容能力；許容量；立場",
+      "meaning": "収容能力；容量；能力",
       "exampleEn": "The hall has a seating capacity of a thousand.",
       "exampleJa": "そのホールは1,000人の収容能力があります。",
       "level": 3
@@ -456,10 +456,10 @@
       "headword": "cardinal",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːrdɪnl/",
-      "meaning": "最も重要な；枢機卿；基本の",
+      "meaning": "最も重要な；基本的な；主要な",
       "exampleEn": "Honesty is a cardinal virtue in life.",
       "exampleJa": "誠実さは人生における最も重要な美徳です。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "cartel",
@@ -492,10 +492,10 @@
       "headword": "century",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsentʃəri/",
-      "meaning": "世紀；100年間",
+      "meaning": "世紀；100年",
       "exampleEn": "The castle was built in the nineteenth century.",
       "exampleJa": "その城は19世紀に建てられました。",
-      "level": 3
+      "level": 1
     },
     {
       "headword": "chemo",
@@ -690,10 +690,10 @@
       "headword": "curtail",
       "partOfSpeech": "verb",
       "phonetic": "/kərˈteɪl/",
-      "meaning": "を削減・短縮する",
+      "meaning": "を削減する；を短縮する",
       "exampleEn": "The firm decided to curtail its expenses.",
       "exampleJa": "その企業は経費を削減する決定をしました。",
-      "level": 4
+      "level": 5
     }
   ]
 }

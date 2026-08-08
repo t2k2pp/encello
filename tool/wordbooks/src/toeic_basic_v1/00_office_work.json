@@ -6,16 +6,16 @@
       "headword": "agenda",
       "partOfSpeech": "noun",
       "phonetic": "/əˈdʒendə/",
-      "meaning": "協議事項；議題リスト",
+      "meaning": "議題；協議事項",
       "exampleEn": "The agenda for tomorrow's meeting is ready.",
       "exampleJa": "明日の会議の議題リストはもう用意できています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "attachment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtætʃmənt/",
-      "meaning": "添付ファイル；付属物",
+      "meaning": "添付ファイル；付属品；愛着",
       "exampleEn": "I sent the report as an attachment.",
       "exampleJa": "私は報告書を添付ファイルで送りました。",
       "level": 3
@@ -24,19 +24,19 @@
       "headword": "bulletin",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbʊlətɪn/",
-      "meaning": "社報；掲示；ニュース速報",
+      "meaning": "掲示；会報；ニュース速報",
       "exampleEn": "A new notice is on the bulletin board.",
       "exampleJa": "新しい通知が掲示板に貼ってあります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "clerk",
       "partOfSpeech": "noun",
       "phonetic": "/klɜːrk/",
-      "meaning": "事務員；店員",
+      "meaning": "店員；事務員",
       "exampleEn": "The clerk checked my reservation quickly.",
       "exampleJa": "事務員は私の予約をすぐに確認しました。",
-      "level": 3
+      "level": 2
     },
     {
       "headword": "duplicate",
@@ -78,7 +78,7 @@
       "headword": "procedure",
       "partOfSpeech": "noun",
       "phonetic": "/prəˈsiːdʒər/",
-      "meaning": "手続き；手順",
+      "meaning": "手順；手続き",
       "exampleEn": "We follow the safety procedure every morning.",
       "exampleJa": "私たちは毎朝その安全手順に従います。",
       "level": 3
@@ -96,10 +96,10 @@
       "headword": "administration",
       "partOfSpeech": "noun",
       "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
-      "meaning": "管理；行政；経営陣",
+      "meaning": "管理；行政；政権",
       "exampleEn": "The hospital administration changed the visiting hours.",
       "exampleJa": "病院の管理部門は面会時間を変更しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "administrator",
@@ -117,16 +117,16 @@
       "meaning": "を承認する；に賛成する",
       "exampleEn": "The manager approved the travel expenses yesterday.",
       "exampleJa": "マネージャーは昨日その出張費を承認しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "approval",
       "partOfSpeech": "noun",
       "phonetic": "/əˈpruːvl/",
-      "meaning": "承認；決裁",
+      "meaning": "承認；賛成；認可",
       "exampleEn": "We need approval from the head office.",
       "exampleJa": "私たちは本社の承認が必要です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assign",
@@ -135,16 +135,16 @@
       "meaning": "を割り当てる；を任命する",
       "exampleEn": "The director assigned the project to me.",
       "exampleJa": "部長はその企画を私に割り当てました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assignment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsaɪnmənt/",
-      "meaning": "割り当てられた仕事；宿題",
+      "meaning": "課題；宿題；割り当てられた仕事",
       "exampleEn": "She finished the assignment before the deadline.",
       "exampleJa": "彼女は締め切り前に割り当てられた仕事を終えました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assistant",
@@ -159,37 +159,37 @@
       "headword": "authorize",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɔːθəraɪz/",
-      "meaning": "に権限を与える；を認可する",
+      "meaning": "を認可する；に権限を与える",
       "exampleEn": "The president authorized the budget for the project.",
       "exampleJa": "社長はその企画の予算を認可しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "authorization",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɔːθərəˈzeɪʃn/",
-      "meaning": "許可；認可書",
+      "meaning": "許可；認可；権限",
       "exampleEn": "Written authorization is required for entry.",
       "exampleJa": "立ち入りには書面による許可が必要です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cabinet",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæbɪnət/",
-      "meaning": "書類棚；戸棚",
+      "meaning": "内閣；戸棚；書類棚",
       "exampleEn": "The old files are in the metal cabinet.",
       "exampleJa": "古い書類は金属製の書類棚に入っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "calendar",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈkælɪndər/",
-      "meaning": "カレンダー；行事表",
+      "phonetic": "/ˈkæləndər/",
+      "meaning": "カレンダー；暦",
       "exampleEn": "I wrote the meeting date on my calendar.",
       "exampleJa": "私はカレンダーに会議の日を書きました。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "colleague",
@@ -204,37 +204,37 @@
       "headword": "confirm",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈfɜːrm/",
-      "meaning": "を確認する；を確定する",
+      "meaning": "を確認する；を裏付ける",
       "exampleEn": "She called the hotel to confirm the booking.",
       "exampleJa": "彼女は予約を確認するためにホテルへ電話しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "confirmation",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːnfərˈmeɪʃn/",
-      "meaning": "確認；確定通知",
+      "meaning": "確認；確認書；確証",
       "exampleEn": "The confirmation email arrived a minute later.",
       "exampleJa": "確認のメールは1分後に届きました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "correspond",
       "partOfSpeech": "verb",
       "phonetic": "/ˌkɔːrəˈspɑːnd/",
-      "meaning": "文通・通信する；一致する",
+      "meaning": "一致する；文通する；相当する",
       "exampleEn": "We correspond regularly via email.",
       "exampleJa": "私たちは定期的にメールでやり取りしています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "correspondence",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɔːrəˈspɑːndəns/",
-      "meaning": "通信；往復書簡",
+      "meaning": "通信；文通；一致",
       "exampleEn": "The office keeps all business correspondence for years.",
       "exampleJa": "事務所は業務上の書簡をすべて何年も保管しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "department",
@@ -252,7 +252,7 @@
       "meaning": "を指定する；を指名する",
       "exampleEn": "The company designated this room for meetings.",
       "exampleJa": "会社はこの部屋を会議用に指定しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "document",
@@ -294,19 +294,19 @@
       "headword": "equipment",
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈkwɪpmənt/",
-      "meaning": "備品；機器",
+      "meaning": "設備；装備；機器",
       "exampleEn": "The office equipment is checked every month.",
       "exampleJa": "オフィスの備品は毎月点検されます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "executive",
       "partOfSpeech": "noun",
       "phonetic": "/ɪɡˈzekjətɪv/",
-      "meaning": "幹部；役員",
+      "meaning": "役員；幹部；重役",
       "exampleEn": "A senior executive spoke at the meeting.",
       "exampleJa": "上級幹部が会議で話をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "facility",
@@ -330,7 +330,7 @@
       "headword": "form",
       "partOfSpeech": "noun",
       "phonetic": "/fɔːrm/",
-      "meaning": "用紙；形式",
+      "meaning": "用紙；形；形式",
       "exampleEn": "Please fill out this form in blue ink.",
       "exampleJa": "この用紙に青いインクで記入してください。",
       "level": 2
@@ -411,7 +411,7 @@
       "headword": "manage",
       "partOfSpeech": "verb",
       "phonetic": "/ˈmænɪdʒ/",
-      "meaning": "を管理する；を経営する",
+      "meaning": "を管理する；を経営する；どうにか〜する",
       "exampleEn": "She manages a team of ten people.",
       "exampleJa": "彼女は10人のチームを管理しています。",
       "level": 2
@@ -429,7 +429,7 @@
       "headword": "manager",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmænɪdʒər/",
-      "meaning": "支配人；課長；マネージャー",
+      "meaning": "支配人；管理者；マネージャー",
       "exampleEn": "Our manager set a clear deadline.",
       "exampleJa": "私たちの課長は明確な締め切りを決めました。",
       "level": 2
@@ -456,7 +456,7 @@
       "headword": "matter",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmætər/",
-      "meaning": "件；問題；事態",
+      "meaning": "問題；事柄；件",
       "exampleEn": "I discussed the matter with my boss.",
       "exampleJa": "私はその件を上司と話し合いました。",
       "level": 2
@@ -465,10 +465,10 @@
       "headword": "member",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmembər/",
-      "meaning": "構成員；会員",
+      "meaning": "会員；一員；部員",
       "exampleEn": "He is a member of the sales team.",
       "exampleJa": "彼は営業チームの一員です。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "membership",
@@ -492,10 +492,10 @@
       "headword": "obtain",
       "partOfSpeech": "verb",
       "phonetic": "/əbˈteɪn/",
-      "meaning": "を入手する；を獲得する",
+      "meaning": "を手に入れる；を得る；を取得する",
       "exampleEn": "He obtained a copy of the report.",
       "exampleJa": "彼は報告書の写しを入手しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "occupation",
@@ -509,11 +509,11 @@
     {
       "headword": "office",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈɑːfɪs/",
-      "meaning": "事務所；職務",
+      "phonetic": "/ˈɔːfɪs/",
+      "meaning": "事務所；オフィス；職務",
       "exampleEn": "Our new office is near the station.",
       "exampleJa": "私たちの新しい事務所は駅の近くにあります。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "officer",
@@ -537,10 +537,10 @@
       "headword": "operate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈɑːpəreɪt/",
-      "meaning": "を操作する；事業を営む",
+      "meaning": "を操作する；を運営する；手術する",
       "exampleEn": "He operates the machine very carefully.",
       "exampleJa": "彼はその機械をとても慎重に操作します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "operation",
@@ -591,10 +591,10 @@
       "headword": "policy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpɑːləsi/",
-      "meaning": "方針；規約；保険証券",
+      "meaning": "方針；政策；保険証券",
       "exampleEn": "Our company changed its remote work policy.",
       "exampleJa": "私たちの会社は在宅勤務の方針を変更しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "postpone",
@@ -609,28 +609,28 @@
       "headword": "precaution",
       "partOfSpeech": "noun",
       "phonetic": "/prɪˈkɔːʃn/",
-      "meaning": "予防措置；用心",
+      "meaning": "予防策；用心",
       "exampleEn": "We took every precaution before the storm.",
       "exampleJa": "私たちは嵐の前にあらゆる予防措置を取りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "process",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːses/",
-      "meaning": "過程；手順；処理",
+      "meaning": "過程；工程；処理",
       "exampleEn": "The approval process takes about three days.",
       "exampleJa": "承認の手順には3日ほどかかります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "protocol",
       "partOfSpeech": "noun",
       "phonetic": "/ˈproʊtəkɑːl/",
-      "meaning": "プロトコル；規定；手順書",
+      "meaning": "規定；手順；儀礼",
       "exampleEn": "All visitors must follow the security protocol.",
       "exampleJa": "訪問者は全員セキュリティ規定に従わなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "provide",
@@ -666,7 +666,7 @@
       "meaning": "に思い出させる；に念を押す",
       "exampleEn": "Please remind me to call the client.",
       "exampleJa": "顧客に電話するよう私に念を押してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "reminder",
@@ -690,10 +690,10 @@
       "headword": "replace",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈpleɪs/",
-      "meaning": "を取り替える；の後任になる",
+      "meaning": "を取り替える；に取って代わる",
       "exampleEn": "We replaced the old printer with a new one.",
       "exampleJa": "私たちは古いプリンターを新しいものに取り替えました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "replacement",
@@ -798,10 +798,10 @@
       "headword": "urgent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈɜːrdʒənt/",
-      "meaning": "緊急の；至急の",
+      "meaning": "緊急の；急を要する",
       "exampleEn": "She sent an urgent message to the client.",
       "exampleJa": "彼女は顧客に至急のメッセージを送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "urgency",

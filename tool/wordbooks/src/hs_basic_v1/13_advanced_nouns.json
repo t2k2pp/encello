@@ -5,11 +5,11 @@
     {
       "headword": "collaboration",
       "partOfSpeech": "noun",
-      "phonetic": "/kəˌlæbəˈreɪʃən/",
-      "meaning": "共同研究；コラボレーション",
+      "phonetic": "/kəˌlæbəˈreɪʃn/",
+      "meaning": "共同作業；共同制作；協力",
       "exampleEn": "The project is a collaboration.",
       "exampleJa": "そのプロジェクトは共同事業です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "compromise",
@@ -18,7 +18,7 @@
       "meaning": "妥協；歩み寄り",
       "exampleEn": "They reached a fair compromise.",
       "exampleJa": "彼らは公正な妥協に達しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consensus",
@@ -33,37 +33,37 @@
       "headword": "constraint",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈstreɪnt/",
-      "meaning": "制約；制限",
+      "meaning": "制約；制限；束縛",
       "exampleEn": "Budget constraint is a major issue.",
       "exampleJa": "予算制約が主要な問題です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "controversy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːntrəvɜːrsi/",
-      "meaning": "論争；議論",
+      "meaning": "論争；物議",
       "exampleEn": "The new law caused controversy.",
       "exampleJa": "新法は論争を引き起こしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "convention",
       "partOfSpeech": "noun",
-      "phonetic": "/kənˈvenʃən/",
-      "meaning": "慣習；大会",
+      "phonetic": "/kənˈvenʃn/",
+      "meaning": "慣習；大会；条約",
       "exampleEn": "Follow international conventions.",
       "exampleJa": "国際的な慣習に従いなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "conviction",
       "partOfSpeech": "noun",
-      "phonetic": "/kənˈvɪkʃən/",
-      "meaning": "確信；信念",
+      "phonetic": "/kənˈvɪkʃn/",
+      "meaning": "確信；信念；有罪判決",
       "exampleEn": "She spoke with deep conviction.",
       "exampleJa": "彼女は深い確信をもって語りました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "crisis",
@@ -78,10 +78,10 @@
       "headword": "criterion",
       "partOfSpeech": "noun",
       "phonetic": "/kraɪˈtɪriən/",
-      "meaning": "基準；評価基準",
+      "meaning": "基準；判断基準",
       "exampleEn": "What is the criterion for selection?",
       "exampleJa": "選考の基準は何ですか。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dilemma",
@@ -95,11 +95,11 @@
     {
       "headword": "dimension",
       "partOfSpeech": "noun",
-      "phonetic": "/daɪˈmenʃən/",
-      "meaning": "次元；寸法；側面",
+      "phonetic": "/daɪˈmenʃn/",
+      "meaning": "寸法；次元；側面",
       "exampleEn": "Time is the fourth dimension.",
       "exampleJa": "時間は第4の次元です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "diversity",
@@ -171,16 +171,16 @@
       "meaning": "指針；ガイドライン",
       "exampleEn": "Follow safety guidelines at work.",
       "exampleJa": "職場の安全ガイドラインに従いなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "hypothesis",
       "partOfSpeech": "noun",
       "phonetic": "/haɪˈpɑːθəsɪs/",
-      "meaning": "仮説",
+      "meaning": "仮説；前提",
       "exampleEn": "Test the hypothesis through experiments.",
       "exampleJa": "実験を通じて仮説を検証しなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "illusion",
@@ -189,7 +189,7 @@
       "meaning": "錯覚；幻想",
       "exampleEn": "Mirage is an optical illusion.",
       "exampleJa": "蜃気楼は目の錯覚です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "impact",
@@ -204,10 +204,10 @@
       "headword": "incentive",
       "partOfSpeech": "noun",
       "phonetic": "/ɪnˈsentɪv/",
-      "meaning": "動機付け；インセンティブ",
+      "meaning": "動機付け；報奨金；誘因",
       "exampleEn": "Bonuses act as an incentive.",
       "exampleJa": "ボーナスは動機付けとして機能します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "infrastructure",
@@ -225,7 +225,7 @@
       "meaning": "革新；イノベーション",
       "exampleEn": "Technical innovation changes lives.",
       "exampleJa": "技術革新は生活を変えます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "insight",
@@ -360,16 +360,16 @@
       "meaning": "特権；名誉",
       "exampleEn": "It is a privilege to meet you.",
       "exampleJa": "あなたにお会いできて光栄です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "prospect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːspekt/",
-      "meaning": "見通し；展望",
+      "meaning": "見通し；展望；見込み客",
       "exampleEn": "Job prospects look bright.",
       "exampleJa": "就職の見通しは明るく見えます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "reform",
@@ -447,10 +447,10 @@
       "headword": "access",
       "partOfSpeech": "noun",
       "phonetic": "/ˈækses/",
-      "meaning": "利用権；アクセス；接近",
+      "meaning": "利用権；接近；アクセス",
       "exampleEn": "Students have access to the library.",
       "exampleJa": "生徒たちは図書館へのアクセス権を持っています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "additional",
@@ -459,7 +459,7 @@
       "meaning": "追加の；付加的な",
       "exampleEn": "There is no additional fee required.",
       "exampleJa": "追加の費用は必要ありません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "album",
@@ -477,13 +477,13 @@
       "meaning": "いつも；常に",
       "exampleEn": "Always try your best in learning.",
       "exampleJa": "学習においては常にベストを尽くしなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "anger",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæŋɡər/",
-      "meaning": "怒り；を腹立たせる",
+      "meaning": "怒り；立腹",
       "exampleEn": "Control your emotional temper anger.",
       "exampleJa": "あなたの感情的な気分の怒りを制御しなさい。",
       "level": 2
@@ -492,28 +492,28 @@
       "headword": "anything",
       "partOfSpeech": "pronoun",
       "phonetic": "/ˈeniθɪŋ/",
-      "meaning": "何か；何も",
+      "meaning": "何か；何でも；何も",
       "exampleEn": "Do you need anything else today?",
       "exampleJa": "今日他に何か必要なものはありますか？",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "applaud",
       "partOfSpeech": "verb",
       "phonetic": "/əˈplɔːd/",
-      "meaning": "に拍手する；を賞賛する",
+      "meaning": "に拍手する；を称賛する",
       "exampleEn": "Audience applauded the music show performance.",
       "exampleJa": "観客が音楽ショーのパフォーマンスに拍手しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "approximate",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈprɑːksɪmət/",
-      "meaning": "およその；概算の",
+      "meaning": "おおよその；概算の",
       "exampleEn": "What is the approximate cost total?",
       "exampleJa": "およその合計費用はいくらですか？",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "armed",
@@ -531,25 +531,25 @@
       "meaning": "を組み立てる；集まる",
       "exampleEn": "He assembled the computer parts in his room.",
       "exampleJa": "彼は自分の部屋でコンピューター部品を組み立てました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assumption",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsʌmpʃn/",
-      "meaning": "仮定；想定；思い込み",
+      "meaning": "仮定；思い込み；引き受け",
       "exampleEn": "The plan is based on a clear assumption.",
       "exampleJa": "その計画は明確な仮定に基づいています。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "auditorium",
       "partOfSpeech": "noun",
-      "phonetic": "/ˈɔːdɪtɔːriəm/",
+      "phonetic": "/ˌɔːdɪˈtɔːriəm/",
       "meaning": "講堂；大ホール",
       "exampleEn": "Students met inside the school auditorium.",
       "exampleJa": "生徒たちは学校の講堂の中に集まりました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "available",
@@ -573,10 +573,10 @@
       "headword": "band",
       "partOfSpeech": "noun",
       "phonetic": "/bænd/",
-      "meaning": "バンド；劇団；帯",
+      "meaning": "バンド；楽団；帯",
       "exampleEn": "Listen to a popular rock band.",
       "exampleJa": "人気のロックバンドを聞きなさい。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "barn",
@@ -585,25 +585,25 @@
       "meaning": "納屋；家畜小屋",
       "exampleEn": "Store the hay crop inside the wooden barn.",
       "exampleJa": "木造の納屋の中に干し草を保管しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "become",
       "partOfSpeech": "verb",
       "phonetic": "/bɪˈkʌm/",
-      "meaning": "になる；に似合う",
+      "meaning": "〜になる；に似合う",
       "exampleEn": "He wants to become a doctor future.",
       "exampleJa": "彼は将来医師になりたいと思っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "beneficiary",
       "partOfSpeech": "noun",
       "phonetic": "/ˌbenɪˈfɪʃieri/",
-      "meaning": "受取人；受益者",
+      "meaning": "受益者；受取人；受給者",
       "exampleEn": "Name a beneficiary for your insurance policy.",
       "exampleJa": "保険契約の受取人を指定しなさい。",
-      "level": 2
+      "level": 5
     },
     {
       "headword": "beverage",
@@ -612,7 +612,7 @@
       "meaning": "飲み物；飲料",
       "exampleEn": "Order a hot or cold beverage with your meal.",
       "exampleJa": "食事と一緒に温かいまたは冷たい飲み物を注文しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "binding",
@@ -621,16 +621,16 @@
       "meaning": "拘束力のある",
       "exampleEn": "Sign a legally binding contract document.",
       "exampleJa": "法的に拘束力のある契約文書に署名しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "blank",
       "partOfSpeech": "adjective",
       "phonetic": "/blæŋk/",
-      "meaning": "空白の；無表情な",
+      "meaning": "空白の；白紙の；無表情な",
       "exampleEn": "Write your name on the blank paper.",
       "exampleJa": "空白の紙にあなたの名前を書きなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "blossom",
@@ -639,16 +639,16 @@
       "meaning": "花；開花",
       "exampleEn": "The pink apple tree blossom smells sweet.",
       "exampleJa": "ピンクのリンゴの木の花が甘い香りを放ちます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bond",
       "partOfSpeech": "noun",
       "phonetic": "/bɑːnd/",
-      "meaning": "絆；債券；結合する",
+      "meaning": "絆；債券；結合",
       "exampleEn": "A strong family bond holds them together.",
       "exampleJa": "強い家族の絆が彼らを結びつけています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "borrow",
@@ -657,7 +657,7 @@
       "meaning": "を借りる",
       "exampleEn": "Can I borrow your pen for a minute?",
       "exampleJa": "ちょっとあなたのペンを借りてもいいですか？",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "boyfriend",
@@ -681,10 +681,10 @@
       "headword": "briefing",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbriːfɪŋ/",
-      "meaning": "概要説明；ブリーフィング",
+      "meaning": "状況説明；概要説明；ブリーフィング",
       "exampleEn": "Attend the morning team briefing today.",
       "exampleJa": "今日の朝のチームブリーフィングに出席しなさい。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "brook",
@@ -693,7 +693,7 @@
       "meaning": "小川",
       "exampleEn": "Fresh water flows inside a small brook.",
       "exampleJa": "小さな小川の中に新鮮な水が流れます。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "build",
@@ -702,25 +702,25 @@
       "meaning": "を建てる；を築く",
       "exampleEn": "Workers build new houses from stone.",
       "exampleJa": "作業員たちは石で新しい家を建てます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "bureaucracy",
       "partOfSpeech": "noun",
       "phonetic": "/bjʊˈrɑːkrəsi/",
-      "meaning": "官僚制；お役所主義",
+      "meaning": "官僚制；官僚主義；煩雑な手続き",
       "exampleEn": "Reduce unnecessary government bureaucracy.",
       "exampleJa": "不要な政府の官僚制を削減しなさい。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "but",
       "partOfSpeech": "conjunction",
       "phonetic": "/bʌt/",
-      "meaning": "しかし；〜以外は",
+      "meaning": "しかし；だが",
       "exampleEn": "He is small, but he is very strong.",
       "exampleJa": "彼は小柄ですが、非常に強いです。",
-      "level": 2
+      "level": 1
     }
   ]
 }

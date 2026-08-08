@@ -15,19 +15,19 @@
       "headword": "campaign",
       "partOfSpeech": "noun",
       "phonetic": "/kæmˈpeɪn/",
-      "meaning": "キャンペーン；宣伝活動",
+      "meaning": "運動；キャンペーン；宣伝活動",
       "exampleEn": "The company launched a new advertising campaign.",
       "exampleJa": "会社は新しい広告キャンペーンを開始しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "competitor",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpetɪtər/",
-      "meaning": "競合他社；ライバル企業",
+      "meaning": "競合他社；競争相手",
       "exampleEn": "Our main competitor lowered its prices last month.",
       "exampleJa": "主要な競合他社が先月価格を引き下げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "flyer",
@@ -87,10 +87,10 @@
       "headword": "advertise",
       "partOfSpeech": "verb",
       "phonetic": "/ˈædvərtaɪz/",
-      "meaning": "を広告する；宣伝する",
+      "meaning": "を広告する；を宣伝する",
       "exampleEn": "The firm advertises its new product on television.",
       "exampleJa": "その企業は新製品をテレビで宣伝しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "advertisement",
@@ -99,7 +99,7 @@
       "meaning": "広告；宣伝",
       "exampleEn": "I saw their advertisement in the local newspaper.",
       "exampleJa": "私は地元の新聞で彼らの広告を見ました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "advertising",
@@ -114,10 +114,10 @@
       "headword": "agency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪdʒənsi/",
-      "meaning": "代理店；エージェンシー",
+      "meaning": "代理店；機関；官庁",
       "exampleEn": "We hired a creative advertising agency in Tokyo.",
       "exampleJa": "私たちは東京のクリエイティブな広告代理店を起用しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "attract",
@@ -126,16 +126,16 @@
       "meaning": "を引きつける；を魅了する",
       "exampleEn": "The new design attracted many young customers.",
       "exampleJa": "新しいデザインが多くの若い客を引きつけました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "attraction",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtrækʃn/",
-      "meaning": "魅力；集客施設",
+      "meaning": "魅力；観光名所；呼び物",
       "exampleEn": "The castle is the main attraction of this town.",
       "exampleJa": "その城はこの町の主要な観光名所です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "attractive",
@@ -144,22 +144,22 @@
       "meaning": "魅力的な",
       "exampleEn": "The store offers attractive discounts every weekend.",
       "exampleJa": "その店は毎週末に魅力的な割引を実施しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "audience",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdiəns/",
-      "meaning": "聴衆；ターゲット層",
+      "meaning": "聴衆；観客；対象層",
       "exampleEn": "The target audience for this ad is young parents.",
       "exampleJa": "この広告のターゲット層は若い親たちです。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "brand",
       "partOfSpeech": "noun",
       "phonetic": "/brænd/",
-      "meaning": "ブランド；銘柄",
+      "meaning": "ブランド；銘柄；商標",
       "exampleEn": "This brand is very popular among students.",
       "exampleJa": "このブランドは学生の間でとても人気があります。",
       "level": 2
@@ -168,7 +168,7 @@
       "headword": "buyer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪər/",
-      "meaning": "買手；バイヤー",
+      "meaning": "買い手；購入者；バイヤー",
       "exampleEn": "A buyer from Paris visited our showroom.",
       "exampleJa": "パリのバイヤーが当社のショールームを訪れました。",
       "level": 2
@@ -177,7 +177,7 @@
       "headword": "catalog",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkætəlɔːɡ/",
-      "meaning": "商品カタログ；目録",
+      "meaning": "カタログ；目録",
       "exampleEn": "You can order the item from our catalog.",
       "exampleJa": "その品物は当社のカタログから注文できます。",
       "level": 2
@@ -186,10 +186,10 @@
       "headword": "client",
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪənt/",
-      "meaning": "顧客；クライアント",
+      "meaning": "顧客；依頼人",
       "exampleEn": "I had lunch with an important client today.",
       "exampleJa": "私は今日重要な顧客と昼食をとりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "clientele",
@@ -213,37 +213,37 @@
       "headword": "commission",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈmɪʃn/",
-      "meaning": "歩合；手数料；委員会",
+      "meaning": "手数料；委員会；委任",
       "exampleEn": "Our sales staff earn a ten percent commission.",
       "exampleJa": "当社の営業スタッフは10パーセントの歩合を得ています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "compete",
       "partOfSpeech": "verb",
       "phonetic": "/kəmˈpiːt/",
-      "meaning": "競い合う；競合する",
+      "meaning": "競争する；競い合う",
       "exampleEn": "Firms compete for global market share.",
       "exampleJa": "企業は世界市場のシェアを巡って競合しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "competition",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːmpəˈtɪʃn/",
-      "meaning": "競争；競技会",
+      "meaning": "競争；競技会；コンテスト",
       "exampleEn": "Fierce market competition drove prices down.",
       "exampleJa": "激しい市場競争が価格を押し下げました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "competitive",
       "partOfSpeech": "adjective",
       "phonetic": "/kəmˈpetətɪv/",
-      "meaning": "競争力のある；格安の",
+      "meaning": "競争力のある；競争の激しい",
       "exampleEn": "Our prices are competitive in this region.",
       "exampleJa": "当社の価格はこの地域で競争力があります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "consumer",
@@ -258,7 +258,7 @@
       "headword": "consumption",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈsʌmpʃn/",
-      "meaning": "消費；消費量",
+      "meaning": "消費；消費量；消費高",
       "exampleEn": "Oil consumption dropped significantly this year.",
       "exampleJa": "石油消費量が今年大幅に減少しました。",
       "level": 3
@@ -276,7 +276,7 @@
       "headword": "customer",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkʌstəmər/",
-      "meaning": "顧客；お客様",
+      "meaning": "顧客；客",
       "exampleEn": "Our customers value quick and friendly service.",
       "exampleJa": "お客様は迅速で親切なサービスを重視しています。",
       "level": 2
@@ -321,19 +321,19 @@
       "headword": "demonstration",
       "partOfSpeech": "noun",
       "phonetic": "/ˌdemənˈstreɪʃn/",
-      "meaning": "実演説明；デモ",
+      "meaning": "実演；証明；デモ",
       "exampleEn": "A staff member gave a cooking demonstration.",
       "exampleJa": "スタッフが料理の実演説明を行いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "display",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspleɪ/",
-      "meaning": "を展示・陳列する",
+      "meaning": "を展示する；を表示する；を表に出す",
       "exampleEn": "They display new shoes in the front window.",
       "exampleJa": "彼らは正面のウィンドウに新しい靴を陳列しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "distribute",
@@ -393,10 +393,10 @@
       "headword": "expand",
       "partOfSpeech": "verb",
       "phonetic": "/ɪkˈspænd/",
-      "meaning": "を拡大する；進出する",
+      "meaning": "を拡大する；広がる",
       "exampleEn": "The firm expanded its store chain quickly.",
       "exampleJa": "その企業は店舗チェーンを急速に拡大しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "expansion",
@@ -474,10 +474,10 @@
       "headword": "market",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɑːrkɪt/",
-      "meaning": "市場；市街",
+      "meaning": "市場",
       "exampleEn": "The company leads the smartphone market in Asia.",
       "exampleJa": "その会社はアジアのスマートフォン市場を牽引しています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "marketing",
@@ -501,7 +501,7 @@
       "headword": "monopoly",
       "partOfSpeech": "noun",
       "phonetic": "/məˈnɑːpəli/",
-      "meaning": "独占；専売",
+      "meaning": "独占；専売；独占権",
       "exampleEn": "The firm holds a monopoly on water supply.",
       "exampleJa": "その企業は水道の供給を独占しています。",
       "level": 4
@@ -555,16 +555,16 @@
       "headword": "potential",
       "partOfSpeech": "adjective",
       "phonetic": "/pəˈtenʃl/",
-      "meaning": "見込みのある；潜在的な",
+      "meaning": "潜在的な；可能性のある；見込みのある",
       "exampleEn": "We called several potential clients this week.",
       "exampleJa": "私たちは今週いくつかの見込み客に電話しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "preference",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprefrəns/",
-      "meaning": "好み；偏好",
+      "meaning": "好み；優先",
       "exampleEn": "The survey showed a clear preference for blue.",
       "exampleJa": "調査では青色への明確な好みが示されました。",
       "level": 3
@@ -591,10 +591,10 @@
       "headword": "prospect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɑːspekt/",
-      "meaning": "見込み顧客；展望",
+      "meaning": "見通し；展望；見込み客",
       "exampleEn": "The sales rep called a promising prospect.",
       "exampleJa": "営業担当者が有望な見込み顧客に電話しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "purchase",
@@ -618,7 +618,7 @@
       "headword": "relationship",
       "partOfSpeech": "noun",
       "phonetic": "/rɪˈleɪʃnʃɪp/",
-      "meaning": "関係；顧客関係",
+      "meaning": "関係；間柄",
       "exampleEn": "We value a long relationship with each client.",
       "exampleJa": "私たちは顧客一人ひとりとの長い関係を大切にしています。",
       "level": 2
@@ -627,16 +627,16 @@
       "headword": "release",
       "partOfSpeech": "verb",
       "phonetic": "/rɪˈliːs/",
-      "meaning": "を新発売する；を公開する",
+      "meaning": "を発売する；を公開する；を解放する",
       "exampleEn": "The publisher released a new edition in May.",
       "exampleJa": "出版社は5月に新しい版を発売しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "research",
       "partOfSpeech": "noun",
       "phonetic": "/ˈriːsɜːrtʃ/",
-      "meaning": "調査；研究",
+      "meaning": "研究；調査",
       "exampleEn": "We did careful market research before the launch.",
       "exampleJa": "私たちは発売前に入念な市場調査を行いました。",
       "level": 2

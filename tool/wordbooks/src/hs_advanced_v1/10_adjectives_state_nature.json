@@ -9,25 +9,25 @@
       "meaning": "鋭い；深刻な；急性の",
       "exampleEn": "Hospitals face an acute shortage.",
       "exampleJa": "病院は深刻な不足に直面しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "chronic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkrɑːnɪk/",
-      "meaning": "慢性的な；長引く",
+      "meaning": "慢性の；持病の；長引く",
       "exampleEn": "He suffers from chronic pain.",
       "exampleJa": "彼は慢性的な痛みに苦しんでいます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dense",
       "partOfSpeech": "adjective",
       "phonetic": "/dens/",
-      "meaning": "密度の高い；濃い",
+      "meaning": "密集した；濃い；密度の高い",
       "exampleEn": "They walked through dense fog.",
       "exampleJa": "彼らは濃い霧の中を歩きました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "drastic",
@@ -50,11 +50,11 @@
     {
       "headword": "fragile",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈfrædʒl/",
+      "phonetic": "/ˈfrædʒəl/",
       "meaning": "壊れやすい；虚弱な",
       "exampleEn": "Handle fragile glass with care.",
       "exampleJa": "壊れやすいガラスは注意して取り扱いなさい。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "inevitable",
@@ -63,7 +63,7 @@
       "meaning": "避けられない；必然の",
       "exampleEn": "Change is inevitable in life.",
       "exampleJa": "変化は人生において避けられないものです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "inherent",
@@ -105,7 +105,7 @@
       "headword": "precise",
       "partOfSpeech": "adjective",
       "phonetic": "/prɪˈsaɪs/",
-      "meaning": "精密な；正確な",
+      "meaning": "正確な；精密な",
       "exampleEn": "Calculate precise measurements for design.",
       "exampleJa": "設計のために精密な測定値を計算しなさい。",
       "level": 3
@@ -114,7 +114,7 @@
       "headword": "predominant",
       "partOfSpeech": "adjective",
       "phonetic": "/prɪˈdɑːmɪnənt/",
-      "meaning": "支配的な；優勢な",
+      "meaning": "支配的な；優勢な；卓越した",
       "exampleEn": "English is the predominant language.",
       "exampleJa": "英語は支配的な言語です。",
       "level": 4
@@ -123,7 +123,7 @@
       "headword": "profound",
       "partOfSpeech": "adjective",
       "phonetic": "/prəˈfaʊnd/",
-      "meaning": "深遠な；重大な",
+      "meaning": "深遠な；深い；重大な",
       "exampleEn": "The book had a profound influence.",
       "exampleJa": "その本は深遠な影響を与えました。",
       "level": 4
@@ -132,10 +132,10 @@
       "headword": "prominent",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈprɑːmɪnənt/",
-      "meaning": "著しい；著名な",
+      "meaning": "著名な；傑出した；目立つ",
       "exampleEn": "He is a prominent figure in science.",
       "exampleJa": "彼は科学界で著名な人物です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "simultaneous",
@@ -186,10 +186,10 @@
       "headword": "unprecedented",
       "partOfSpeech": "adjective",
       "phonetic": "/ʌnˈpresɪdentɪd/",
-      "meaning": "前例のない；未曽有の",
+      "meaning": "前例のない；空前の；未曽有の",
       "exampleEn": "Disaster caused unprecedented damage.",
       "exampleJa": "災害は前例のない被害を引き起こしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "abiding",
@@ -204,7 +204,7 @@
       "headword": "abstract",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈæbstrækt/",
-      "meaning": "抽象的な；要約",
+      "meaning": "抽象的な；観念的な",
       "exampleEn": "Philosophy often deals with abstract concepts.",
       "exampleJa": "哲学はしばしば抽象的な概念を扱います。",
       "level": 3
@@ -231,10 +231,10 @@
       "headword": "accuse",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkjuːz/",
-      "meaning": "を告訴・告発する；非難する",
+      "meaning": "を告発する；を非難する",
       "exampleEn": "Police accused the man of theft.",
       "exampleJa": "警察はその男を窃盗の容疑で告発しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "acquit",
@@ -258,10 +258,10 @@
       "headword": "adolescence",
       "partOfSpeech": "noun",
       "phonetic": "/ˌædəˈlesns/",
-      "meaning": "思春期；青春期",
+      "meaning": "思春期；青年期",
       "exampleEn": "Adolescence brings rapid physical and emotional change.",
       "exampleJa": "思春期には急激な身体的・精神的変化が訪れます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "advocacy",
@@ -284,11 +284,11 @@
     {
       "headword": "agile",
       "partOfSpeech": "adjective",
-      "phonetic": "/ˈætʃl/",
-      "meaning": "機敏な；アジャイルな",
+      "phonetic": "/ˈædʒəl/",
+      "meaning": "機敏な；素早い；柔軟な",
       "exampleEn": "The team adopted an agile development process.",
       "exampleJa": "チームは機敏な開発プロセスを採用しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "akin",
@@ -303,10 +303,10 @@
       "headword": "allegiance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈliːdʒəns/",
-      "meaning": "忠誠；帰依",
+      "meaning": "忠誠；忠義",
       "exampleEn": "Soldiers pledge allegiance to their country.",
       "exampleJa": "兵士たちは自国への忠誠を誓います。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "aloof",
@@ -378,7 +378,7 @@
       "meaning": "無関心；冷淡",
       "exampleEn": "Public apathy led to low turnout.",
       "exampleJa": "世間の無関心が低い投票率を招きました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "appalling",
@@ -393,10 +393,10 @@
       "headword": "appraise",
       "partOfSpeech": "verb",
       "phonetic": "/əˈpreɪz/",
-      "meaning": "を査定・評価する；値踏みする",
+      "meaning": "を査定する；を評価する",
       "exampleEn": "An expert appraised the antique's value.",
       "exampleJa": "専門家がその骨董品の価値を査定しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "approximation",
@@ -429,10 +429,10 @@
       "headword": "articulate",
       "partOfSpeech": "verb",
       "phonetic": "/ɑːrˈtɪkjuleɪt/",
-      "meaning": "を明確に表現する；滑舌良く話す",
+      "meaning": "を明確に述べる；をはっきり発音する",
       "exampleEn": "The speaker articulated complex ideas clearly.",
       "exampleJa": "発表者は複雑な考えを明確に表現しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "asexual",
@@ -450,7 +450,7 @@
       "meaning": "詰め合わせ；各種取り揃え",
       "exampleEn": "She bought an assortment of chocolates.",
       "exampleJa": "彼女はチョコレートの詰め合わせを買いました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "atheist",
@@ -522,16 +522,16 @@
       "meaning": "至福；無上の喜び",
       "exampleEn": "Living on the island felt like pure bliss.",
       "exampleJa": "その島で暮らすことはまさに至福でした。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "bolster",
       "partOfSpeech": "verb",
       "phonetic": "/ˈboʊlstər/",
-      "meaning": "を補強する；を支援する",
+      "meaning": "を強化する；を支援する",
       "exampleEn": "The measures helped bolster public confidence.",
       "exampleJa": "その対策は世間の信頼を高めるのに役立ちました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "bowel",
@@ -573,10 +573,10 @@
       "headword": "capability",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkeɪpəˈbɪləti/",
-      "meaning": "能力；潜在力；素質",
+      "meaning": "能力；素質；潜在力",
       "exampleEn": "The team demonstrated strong technical capability.",
       "exampleJa": "チームは高い技術的能力を示しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "carbohydrate",
@@ -627,7 +627,7 @@
       "headword": "chauvinism",
       "partOfSpeech": "noun",
       "phonetic": "/ˈʃoʊvɪnɪzəm/",
-      "meaning": "狂信的愛国主義；男性至上主義",
+      "meaning": "狂信的愛国主義；男性優位主義",
       "exampleEn": "The report criticized his blatant chauvinism.",
       "exampleJa": "その報告書は彼の露骨な男性至上主義を批判しました。",
       "level": 5
@@ -825,10 +825,10 @@
       "headword": "curb",
       "partOfSpeech": "verb",
       "phonetic": "/kɜːrb/",
-      "meaning": "を抑制する；縁石",
+      "meaning": "を抑制する；を抑える",
       "exampleEn": "Measures aimed to curb rising inflation.",
       "exampleJa": "その対策は上昇するインフレを抑制することを目的としました。",
-      "level": 3
+      "level": 4
     }
   ]
 }

@@ -63,7 +63,7 @@
       "meaning": "を蓄積する；たまる",
       "exampleEn": "Dust accumulated on the old bookshelf.",
       "exampleJa": "古い本棚にほこりがたまりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "adequate",
@@ -72,7 +72,7 @@
       "meaning": "十分な；適切な",
       "exampleEn": "The food supply was adequate for survival.",
       "exampleJa": "食料の備えは生き延びるのに十分でした。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "affiliate",
@@ -81,16 +81,16 @@
       "meaning": "を提携させる；加入する",
       "exampleEn": "The local clinic is affiliated with a large hospital.",
       "exampleJa": "地元の診療所は大きな病院と提携しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "alienate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈeɪliəneɪt/",
-      "meaning": "を遠ざける；を孤立させる",
+      "meaning": "を遠ざける；を疎外する",
       "exampleEn": "His rude behavior alienated all of his friends.",
       "exampleJa": "彼の無礼な振る舞いは友人をみな遠ざけました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "altruism",
@@ -99,7 +99,7 @@
       "meaning": "利他主義；愛他心",
       "exampleEn": "Volunteer work is motivated by pure altruism.",
       "exampleJa": "ボランティア活動は純粋な利他の心から生まれます。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "amiable",
@@ -108,7 +108,7 @@
       "meaning": "愛想の良い；親しみやすい",
       "exampleEn": "The host greeted us with an amiable smile.",
       "exampleJa": "主人は愛想の良い笑顔で私たちを迎えました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "anchor",
@@ -117,70 +117,70 @@
       "meaning": "錨；ニュースキャスター",
       "exampleEn": "The ship dropped its anchor in the quiet bay.",
       "exampleJa": "船は静かな湾に錨を下ろしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "anonymous",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈnɑːnɪməs/",
-      "meaning": "匿名の",
+      "meaning": "匿名の；作者不明の",
       "exampleEn": "An anonymous donor gave the school a large gift.",
       "exampleJa": "匿名の寄付者が学校に多額の寄付をしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "applaud",
       "partOfSpeech": "verb",
       "phonetic": "/əˈplɔːd/",
-      "meaning": "に拍手を送る；を称賛する",
+      "meaning": "に拍手する；を称賛する",
       "exampleEn": "The audience applauded the young singer for ten minutes.",
       "exampleJa": "観客は若い歌手に10分間拍手を送りました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "appropriate",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈproʊpriət/",
-      "meaning": "適切な",
+      "meaning": "適切な；ふさわしい",
       "exampleEn": "You should wear appropriate clothes to the interview.",
       "exampleJa": "面接には適切な服装をしていくべきです。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "arraign",
       "partOfSpeech": "verb",
       "phonetic": "/əˈreɪn/",
-      "meaning": "を罪状認否で問う；罪に問う",
+      "meaning": "を罪状認否に問う；を告発する",
       "exampleEn": "The court arraigned the suspect on a theft charge.",
       "exampleJa": "裁判所は窃盗の罪で容疑者に罪状認否を求めました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aspect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæspekt/",
-      "meaning": "局面；側面；外観",
+      "meaning": "側面；局面；外観",
       "exampleEn": "We must consider every aspect of this plan.",
       "exampleJa": "私たちはこの計画のあらゆる側面を検討しなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assign",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsaɪn/",
-      "meaning": "を割り当てる；を指名する",
+      "meaning": "を割り当てる；を任命する",
       "exampleEn": "The manager assigned the task to a new employee.",
       "exampleJa": "部長はその仕事を新しい社員に割り当てました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "assurance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈʃʊrəns/",
-      "meaning": "確約；保証；自信",
+      "meaning": "保証；確約；自信",
       "exampleEn": "The company gave us an assurance of complete safety.",
       "exampleJa": "会社は完全な安全を私たちに確約しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "attention",
@@ -195,16 +195,16 @@
       "headword": "augment",
       "partOfSpeech": "verb",
       "phonetic": "/ɔːɡˈment/",
-      "meaning": "を増加・増強する",
+      "meaning": "を増やす；を増強する",
       "exampleEn": "The firm augmented its sales staff for the busy season.",
       "exampleJa": "その会社は繁忙期に向けて営業スタッフを増強しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "availability",
       "partOfSpeech": "noun",
       "phonetic": "/əˌveɪləˈbɪləti/",
-      "meaning": "利用可能性；空き状況",
+      "meaning": "利用可能性；入手可能性；空き状況",
       "exampleEn": "I checked the availability of hotel rooms online.",
       "exampleJa": "私はホテルの部屋の空き状況をネットで確認しました。",
       "level": 3
@@ -222,10 +222,10 @@
       "headword": "beneficial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌbenɪˈfɪʃl/",
-      "meaning": "有益な",
+      "meaning": "有益な；ためになる",
       "exampleEn": "Exercise is highly beneficial to physical health.",
       "exampleJa": "運動は体の健康にとって非常に有益です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bilateral",
@@ -252,16 +252,16 @@
       "meaning": "大失敗；へま",
       "exampleEn": "That careless email was a serious blunder.",
       "exampleJa": "あの不注意なメールは深刻な大失敗でした。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "booth",
       "partOfSpeech": "noun",
       "phonetic": "/buːθ/",
-      "meaning": "ブース；小部屋；売店",
+      "meaning": "ブース；売店；小部屋",
       "exampleEn": "Our company had a small booth at the fair.",
       "exampleJa": "私たちの会社は見本市に小さなブースを出しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bribe",
@@ -276,46 +276,46 @@
       "headword": "brutal",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈbruːtl/",
-      "meaning": "残忍な；厳しい",
+      "meaning": "残忍な；残酷な；過酷な",
       "exampleEn": "The soldiers survived a brutal winter in the mountains.",
       "exampleJa": "兵士たちは山中の厳しい冬を生き延びました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "campaign",
       "partOfSpeech": "noun",
       "phonetic": "/kæmˈpeɪn/",
-      "meaning": "運動；キャンペーン",
+      "meaning": "運動；キャンペーン；宣伝活動",
       "exampleEn": "The city started a health campaign last month.",
       "exampleJa": "市は先月、健康キャンペーンを始めました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "cardiac",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːrdiæk/",
-      "meaning": "心臓の",
+      "meaning": "心臓の；心臓病の",
       "exampleEn": "The patient suffered a sudden cardiac arrest.",
       "exampleJa": "その患者は突然の心停止を起こしました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "cater",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkeɪtər/",
-      "meaning": "を仕出す；ニーズを満たす",
+      "meaning": "料理を提供する；要求に応じる",
       "exampleEn": "This hotel caters to business travelers from abroad.",
       "exampleJa": "このホテルは海外からの出張客のニーズに応えています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "centralize",
       "partOfSpeech": "verb",
       "phonetic": "/ˈsentrəlaɪz/",
-      "meaning": "を中央集権化する",
+      "meaning": "を中央集権化する；を一元化する",
       "exampleEn": "The company centralized its management in one office.",
       "exampleJa": "その会社は経営を一つの事務所に集中させました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "chasm",
@@ -333,7 +333,7 @@
       "meaning": "民間人；一般市民",
       "exampleEn": "Many civilians lost their homes during the war.",
       "exampleJa": "戦争中に多くの民間人が家を失いました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "climax",
@@ -351,7 +351,7 @@
       "meaning": "同時に起こる；一致する",
       "exampleEn": "My vacation coincides with a national holiday.",
       "exampleJa": "私の休暇は祝日と重なります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "colossal",
@@ -375,10 +375,10 @@
       "headword": "compensate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːmpenseɪt/",
-      "meaning": "を補償する；に報償する",
+      "meaning": "を補償する；を埋め合わせる",
       "exampleEn": "The company compensated the victims for their losses.",
       "exampleJa": "会社は被害者に損失を補償しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "complex",
@@ -402,19 +402,19 @@
       "headword": "concede",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsiːd/",
-      "meaning": "を認める；譲歩する",
+      "meaning": "を認める；を譲る；譲歩する",
       "exampleEn": "The candidate conceded defeat after the final count.",
       "exampleJa": "候補者は最終集計の後に敗北を認めました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "conclude",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈkluːd/",
-      "meaning": "を締めくくる；と結論づける",
+      "meaning": "と結論づける；を締めくくる",
       "exampleEn": "The speaker concluded her speech with a famous quote.",
       "exampleJa": "講演者は有名な言葉でスピーチを締めくくりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "condole",
@@ -456,7 +456,7 @@
       "headword": "consider",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɪdər/",
-      "meaning": "を考慮・検討する",
+      "meaning": "をよく考える；を検討する；とみなす",
       "exampleEn": "We should consider all the choices carefully.",
       "exampleJa": "私たちはすべての選択肢を慎重に検討すべきです。",
       "level": 2
@@ -483,10 +483,10 @@
       "headword": "contemplate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːntəmpleɪt/",
-      "meaning": "を熟考する；を凝視する",
+      "meaning": "を熟考する；をじっと眺める",
       "exampleEn": "She contemplated a career change for several months.",
       "exampleJa": "彼女は数か月にわたって転職を熟考しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "continual",
@@ -501,19 +501,19 @@
       "headword": "contribute",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈtrɪbjuːt/",
-      "meaning": "に貢献・寄付する",
+      "meaning": "貢献する；を寄付する；の一因となる",
       "exampleEn": "Many people contribute money to that charity.",
       "exampleJa": "多くの人がその慈善団体にお金を寄付しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "convention",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈvenʃn/",
-      "meaning": "慣習；定期大会；条約",
+      "meaning": "慣習；大会；条約",
       "exampleEn": "She attended a medical convention in Osaka.",
       "exampleJa": "彼女は大阪で開かれた医学の大会に出席しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "corporate",
@@ -522,7 +522,7 @@
       "meaning": "企業の；法人の",
       "exampleEn": "He works at the corporate headquarters in Tokyo.",
       "exampleJa": "彼は東京にある企業の本社で働いています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cosmetic",
@@ -555,10 +555,10 @@
       "headword": "crucial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkruːʃl/",
-      "meaning": "決定的な；極めて重要な",
+      "meaning": "極めて重要な；決定的な",
       "exampleEn": "Water is a crucial element for all living things.",
       "exampleJa": "水はすべての生き物にとって極めて重要な要素です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "cultivation",
@@ -572,11 +572,11 @@
     {
       "headword": "curtail",
       "partOfSpeech": "verb",
-      "phonetic": "/kɜːrˈteɪl/",
-      "meaning": "を削減・短縮する",
+      "phonetic": "/kərˈteɪl/",
+      "meaning": "を削減する；を短縮する",
       "exampleEn": "The company curtailed its spending during the crisis.",
       "exampleJa": "会社は危機の間、支出を切り詰めました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "debtor",
@@ -663,7 +663,7 @@
       "headword": "describe",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈskraɪb/",
-      "meaning": "を説明・描写する",
+      "meaning": "を説明する；を描写する",
       "exampleEn": "Please describe the features of the new product.",
       "exampleJa": "新製品の特徴を説明してください。",
       "level": 2
@@ -672,10 +672,10 @@
       "headword": "despise",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspaɪz/",
-      "meaning": "を軽蔑する；嫌う",
+      "meaning": "を軽蔑する；を嫌う",
       "exampleEn": "He despises people who lie to their friends.",
       "exampleJa": "彼は友人にうそをつく人を軽蔑します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "detachment",
@@ -726,10 +726,10 @@
       "headword": "dimension",
       "partOfSpeech": "noun",
       "phonetic": "/daɪˈmenʃn/",
-      "meaning": "寸法；次元",
+      "meaning": "寸法；次元；側面",
       "exampleEn": "Please measure the dimensions of this wooden box.",
       "exampleJa": "この木箱の寸法を測ってください。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "disagreement",
@@ -789,10 +789,10 @@
       "headword": "dispose",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈspoʊz/",
-      "meaning": "を処分する；を配列する",
+      "meaning": "を処分する；を配置する",
       "exampleEn": "We must dispose of this waste properly.",
       "exampleJa": "私たちはこの廃棄物を適切に処分しなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "dissent",
@@ -834,10 +834,10 @@
       "headword": "ponder",
       "partOfSpeech": "verb",
       "phonetic": "/ˈpɑːndər/",
-      "meaning": "を熟考する；についてじっくり考える",
+      "meaning": "を熟考する；をじっくり考える",
       "exampleEn": "He pondered the question for a long time.",
       "exampleJa": "彼はその問いを長い間じっくり考えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "postpone",
@@ -846,16 +846,16 @@
       "meaning": "を延期する",
       "exampleEn": "They postponed the game because of the rain.",
       "exampleJa": "彼らは雨のために試合を延期しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "precious",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈpreʃəs/",
-      "meaning": "貴重な；高価な",
+      "meaning": "貴重な；大切な",
       "exampleEn": "Gold is a precious metal used in jewelry.",
       "exampleJa": "金は宝飾品に使われる貴重な金属です。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "preeminent",
@@ -897,10 +897,10 @@
       "headword": "principal",
       "partOfSpeech": "noun",
       "phonetic": "/ˈprɪnsəpl/",
-      "meaning": "校長；主要なもの",
+      "meaning": "校長；学長；主要なもの",
       "exampleEn": "Our principal gave a speech at the graduation ceremony.",
       "exampleJa": "校長先生が卒業式でスピーチをしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "probation",
@@ -909,7 +909,7 @@
       "meaning": "試用期間；保護観察",
       "exampleEn": "New employees are on probation for three months.",
       "exampleJa": "新しい社員は3か月の試用期間があります。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "procurement",
@@ -942,10 +942,10 @@
       "headword": "prompt",
       "partOfSpeech": "adjective",
       "phonetic": "/prɑːmpt/",
-      "meaning": "迅速な；すばやい",
+      "meaning": "迅速な；即座の",
       "exampleEn": "Thank you for your prompt reply to my email.",
       "exampleJa": "私のメールへの迅速なお返事に感謝します。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "prophesy",
@@ -969,7 +969,7 @@
       "headword": "proud",
       "partOfSpeech": "adjective",
       "phonetic": "/praʊd/",
-      "meaning": "誇りに思っている；自慢の",
+      "meaning": "誇りに思って；自慢の",
       "exampleEn": "His parents were proud of his success.",
       "exampleJa": "彼の両親は彼の成功を誇りに思っていました。",
       "level": 2

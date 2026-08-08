@@ -5,11 +5,11 @@
     {
       "headword": "corporation",
       "partOfSpeech": "noun",
-      "phonetic": "/ˌkɔːrpəˈreɪʃən/",
-      "meaning": "大企業；法人",
+      "phonetic": "/ˌkɔːrpəˈreɪʃn/",
+      "meaning": "株式会社；大企業；法人",
       "exampleEn": "A large corporation bought our small company.",
       "exampleJa": "大企業が私たちの小さな会社を買収しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "debt",
@@ -18,7 +18,7 @@
       "meaning": "借金；負債",
       "exampleEn": "He paid off all his student debt.",
       "exampleJa": "彼は学生時代の借金をすべて返済しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "employee",
@@ -42,10 +42,10 @@
       "headword": "executive",
       "partOfSpeech": "noun",
       "phonetic": "/ɪɡˈzekjətɪv/",
-      "meaning": "役員；幹部",
+      "meaning": "役員；幹部；重役",
       "exampleEn": "The chief executive announced a new strategy.",
       "exampleJa": "最高経営責任者が新しい戦略を発表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "fund",
@@ -54,16 +54,16 @@
       "meaning": "資金；基金",
       "exampleEn": "The charity raised funds for the hospital.",
       "exampleJa": "その慈善団体は病院のために資金を集めました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "opportunity",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɑːpərˈtuːnəti/",
-      "meaning": "機会；チャンス",
+      "meaning": "機会；好機",
       "exampleEn": "You should not miss this great opportunity.",
       "exampleJa": "この絶好の機会を逃すべきではありません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "profit",
@@ -99,7 +99,7 @@
       "meaning": "を成し遂げる；を達成する",
       "exampleEn": "She accomplished her goal after years of study.",
       "exampleJa": "彼女は何年もの勉強の末に目標を成し遂げました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "addiction",
@@ -108,25 +108,25 @@
       "meaning": "中毒；依存症",
       "exampleEn": "He is fighting a serious addiction to smoking.",
       "exampleJa": "彼は喫煙への深刻な依存症と闘っています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "advocate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈædvəkeɪt/",
-      "meaning": "を主張する；を擁護する",
+      "meaning": "を主張する；を擁護する；を提唱する",
       "exampleEn": "Many scientists advocate the use of clean energy.",
       "exampleJa": "多くの科学者がクリーンエネルギーの利用を主張しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "agony",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæɡəni/",
-      "meaning": "苦痛；もがき",
+      "meaning": "激しい苦痛；苦悩",
       "exampleEn": "He was in agony after the accident.",
       "exampleJa": "彼は事故の後で激しい苦痛に苦しみました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "alternative",
@@ -135,34 +135,34 @@
       "meaning": "代替案；選択肢",
       "exampleEn": "We have no other alternative right now.",
       "exampleJa": "私たちには今のところ他の選択肢がありません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "amendment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈmendmənt/",
-      "meaning": "修正案；改正",
+      "meaning": "修正；改正；修正条項",
       "exampleEn": "The senate approved the constitutional amendment.",
       "exampleJa": "上院は憲法の修正案を承認しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "anatomy",
       "partOfSpeech": "noun",
       "phonetic": "/əˈnætəmi/",
-      "meaning": "解剖学；体つき",
+      "meaning": "解剖学；人体構造",
       "exampleEn": "Medical students study human anatomy in class.",
       "exampleJa": "医学生は授業で人体の解剖学を学びます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "annual",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈænjuəl/",
-      "meaning": "年一回の；例年の",
+      "meaning": "年一回の；毎年の；年間の",
       "exampleEn": "Our company holds an annual meeting in May.",
       "exampleJa": "私たちの会社は5月に年一回の会議を開きます。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "apparent",
@@ -171,25 +171,25 @@
       "meaning": "明白な；見たところの",
       "exampleEn": "The cause of the accident soon became apparent.",
       "exampleJa": "事故の原因はまもなく明らかになりました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "apprehend",
       "partOfSpeech": "verb",
       "phonetic": "/ˌæprɪˈhend/",
-      "meaning": "を逮捕する；を危惧する",
+      "meaning": "を逮捕する；を理解する",
       "exampleEn": "The police apprehended the suspect near the station.",
       "exampleJa": "警察は駅の近くで容疑者を逮捕しました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "arise",
       "partOfSpeech": "verb",
       "phonetic": "/əˈraɪz/",
-      "meaning": "生じる；発生する",
+      "meaning": "生じる；起こる",
       "exampleEn": "Problems often arise when rules are ignored.",
       "exampleJa": "規則が無視されると問題がよく起こります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "ascertain",
@@ -198,79 +198,79 @@
       "meaning": "を確かめる；を突き止める",
       "exampleEn": "We must ascertain the facts before we decide.",
       "exampleJa": "決定する前に私たちは事実を確かめなければなりません。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "assessment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsesmənt/",
-      "meaning": "査定；評価",
+      "meaning": "評価；査定",
       "exampleEn": "The teacher gave a fair assessment of my work.",
       "exampleJa": "先生は私の作品に公正な評価をしてくれました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "assumption",
       "partOfSpeech": "noun",
       "phonetic": "/əˈsʌmpʃn/",
-      "meaning": "仮定；思い込み",
+      "meaning": "仮定；思い込み；引き受け",
       "exampleEn": "Your plan is based on a false assumption.",
       "exampleJa": "あなたの計画は誤った思い込みに基づいています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "attendance",
       "partOfSpeech": "noun",
       "phonetic": "/əˈtendəns/",
-      "meaning": "出席；入場者数",
+      "meaning": "出席；出席者数",
       "exampleEn": "The teacher checks attendance every morning.",
       "exampleJa": "先生は毎朝出席をとります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "audit",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːdɪt/",
-      "meaning": "会計監査",
+      "meaning": "会計監査；監査",
       "exampleEn": "The company passed the annual financial audit.",
       "exampleJa": "その会社は年に一度の会計監査に合格しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "automatic",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɔːtəˈmætɪk/",
-      "meaning": "自動の",
+      "meaning": "自動の；無意識の",
       "exampleEn": "This door has an automatic sensor.",
       "exampleJa": "このドアには自動のセンサーがついています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "awe",
       "partOfSpeech": "noun",
       "phonetic": "/ɔː/",
-      "meaning": "畏怖；感嘆",
+      "meaning": "畏敬；畏怖",
       "exampleEn": "We stood in awe of the huge mountain.",
       "exampleJa": "私たちは巨大な山に畏怖の念を抱いて立ち尽くしました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "behavior",
       "partOfSpeech": "noun",
       "phonetic": "/bɪˈheɪvjər/",
-      "meaning": "行動；振る舞い",
+      "meaning": "行動；振る舞い；態度",
       "exampleEn": "His behavior in class has improved a lot.",
       "exampleJa": "彼の授業中の振る舞いはずいぶんよくなりました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "bias",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbaɪəs/",
-      "meaning": "偏見；バイアス",
+      "meaning": "偏見；先入観",
       "exampleEn": "We must avoid bias when we choose members.",
       "exampleJa": "メンバーを選ぶときは偏見を避けなければなりません。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "blatant",
@@ -279,7 +279,7 @@
       "meaning": "露骨な；あからさまな",
       "exampleEn": "That was a blatant violation of the rules.",
       "exampleJa": "それは規則のあからさまな違反でした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "blossom",
@@ -294,7 +294,7 @@
       "headword": "boom",
       "partOfSpeech": "noun",
       "phonetic": "/buːm/",
-      "meaning": "にわか景気；ブーム",
+      "meaning": "好景気；ブーム；にわか景気",
       "exampleEn": "The economic boom created many new jobs.",
       "exampleJa": "にわか景気が多くの新しい仕事を生み出しました。",
       "level": 3
@@ -375,19 +375,19 @@
       "headword": "client",
       "partOfSpeech": "noun",
       "phonetic": "/ˈklaɪənt/",
-      "meaning": "依頼人；顧客",
+      "meaning": "顧客；依頼人",
       "exampleEn": "I met an important client at the office.",
       "exampleJa": "私はオフィスで重要な顧客と会いました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "coherent",
       "partOfSpeech": "adjective",
       "phonetic": "/koʊˈhɪrənt/",
-      "meaning": "筋の通った；一貫した",
+      "meaning": "一貫した；筋の通った",
       "exampleEn": "She gave a clear and coherent explanation.",
       "exampleJa": "彼女は明確で筋の通った説明をしました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "colonial",
@@ -420,10 +420,10 @@
       "headword": "complaint",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpleɪnt/",
-      "meaning": "苦情；不満",
+      "meaning": "苦情；不平；不満",
       "exampleEn": "The store received a complaint from a customer.",
       "exampleJa": "その店は客から苦情を受けました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "composer",
@@ -468,16 +468,16 @@
       "meaning": "自信；信頼",
       "exampleEn": "He spoke with confidence in front of everyone.",
       "exampleJa": "彼はみんなの前で自信を持って話しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "confuse",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈfjuːz/",
-      "meaning": "を混乱させる",
+      "meaning": "を混乱させる；を混同する",
       "exampleEn": "The unclear instructions confused the new workers.",
       "exampleJa": "あいまいな指示が新しい作業員たちを混乱させました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "conquest",
@@ -510,16 +510,16 @@
       "headword": "constraint",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈstreɪnt/",
-      "meaning": "制約；束縛",
+      "meaning": "制約；制限；束縛",
       "exampleEn": "We finished the work under a tight time constraint.",
       "exampleJa": "私たちは厳しい時間の制約の中で仕事を終えました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "contain",
       "partOfSpeech": "verb",
       "phonetic": "/kənˈteɪn/",
-      "meaning": "を含む；を封じ込める",
+      "meaning": "を含む；を収容する；を封じ込める",
       "exampleEn": "This box contains fresh vegetables from the farm.",
       "exampleJa": "この箱には農場からの新鮮な野菜が入っています。",
       "level": 2
@@ -546,10 +546,10 @@
       "headword": "convenience",
       "partOfSpeech": "noun",
       "phonetic": "/kənˈviːniəns/",
-      "meaning": "便利さ；手軽さ",
+      "meaning": "便利さ；好都合",
       "exampleEn": "The store opens late for the convenience of customers.",
       "exampleJa": "その店は客の利便性のために遅くまで営業しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "convincing",
@@ -609,10 +609,10 @@
       "headword": "culpable",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌlpəbl/",
-      "meaning": "咎められるべき；罪のある",
+      "meaning": "咎められるべき；過失のある",
       "exampleEn": "The driver was culpable for the accident.",
       "exampleJa": "その運転手は事故について責めを負うべき立場でした。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "current",
@@ -621,7 +621,7 @@
       "meaning": "現在の；最新の",
       "exampleEn": "Please check the current exchange rate online.",
       "exampleJa": "現在の為替レートをネットで確認してください。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "debris",
@@ -639,16 +639,16 @@
       "meaning": "を宣言する；を申告する",
       "exampleEn": "You must declare these goods at customs.",
       "exampleJa": "これらの品物は税関で申告しなければなりません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "defeat",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈfiːt/",
-      "meaning": "を打ち負かす；敗北",
+      "meaning": "を打ち負かす；を挫折させる",
       "exampleEn": "Our team defeated a strong rival yesterday.",
       "exampleJa": "私たちのチームは昨日強敵を打ち負かしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "deflect",
@@ -720,7 +720,7 @@
       "meaning": "必死の；絶望的な",
       "exampleEn": "They made a desperate attempt to save him.",
       "exampleJa": "彼らは彼を救おうと必死の試みをしました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "destructive",
@@ -753,10 +753,10 @@
       "headword": "dialect",
       "partOfSpeech": "noun",
       "phonetic": "/ˈdaɪəlekt/",
-      "meaning": "方言；地方言葉",
+      "meaning": "方言",
       "exampleEn": "My grandmother speaks an old local dialect.",
       "exampleJa": "祖母は古い地元の方言を話します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "digest",
@@ -855,7 +855,7 @@
       "meaning": "を説得する",
       "exampleEn": "I persuaded my father to buy a new car.",
       "exampleJa": "私は父を説得して新しい車を買ってもらいました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "petty",
@@ -882,7 +882,7 @@
       "meaning": "を汚染する",
       "exampleEn": "Factory waste polluted the river last year.",
       "exampleJa": "工場の廃棄物が昨年その川を汚染しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "possession",
@@ -906,10 +906,10 @@
       "headword": "predominant",
       "partOfSpeech": "adjective",
       "phonetic": "/prɪˈdɑːmɪnənt/",
-      "meaning": "優勢な；卓越した",
+      "meaning": "支配的な；優勢な；卓越した",
       "exampleEn": "English is the predominant language of business.",
       "exampleJa": "英語はビジネスで最も優勢な言語です。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "preoccupy",
@@ -1014,10 +1014,10 @@
       "headword": "publicity",
       "partOfSpeech": "noun",
       "phonetic": "/pʌbˈlɪsəti/",
-      "meaning": "広報；宣伝；注目",
+      "meaning": "宣伝；広報；世間の注目",
       "exampleEn": "The event received a lot of publicity.",
       "exampleJa": "そのイベントは多くの注目を集めました。",
-      "level": 2
+      "level": 4
     },
     {
       "headword": "purple",

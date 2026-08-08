@@ -9,7 +9,7 @@
       "meaning": "およそ；約",
       "exampleEn": "The project will take approximately three months.",
       "exampleJa": "このプロジェクトはおよそ3か月かかります。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "currently",
@@ -60,10 +60,10 @@
       "headword": "absolutely",
       "partOfSpeech": "adverb",
       "phonetic": "/ˌæbsəˈluːtli/",
-      "meaning": "絶対に；完全に",
+      "meaning": "絶対に；まったく；完全に",
       "exampleEn": "Quality control is absolutely essential here.",
       "exampleJa": "ここでは品質管理が絶対に欠かせません。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "accordingly",
@@ -86,8 +86,8 @@
     {
       "headword": "actually",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˈækʧuəli/",
-      "meaning": "実際は；本当は",
+      "phonetic": "/ˈæktʃuəli/",
+      "meaning": "実は；実際に",
       "exampleEn": "The cost was actually lower than we estimated.",
       "exampleJa": "費用は実際には見積もりより低く済みました。",
       "level": 2
@@ -126,7 +126,7 @@
       "meaning": "すでに；もう",
       "exampleEn": "The accounting desk has already received your payment.",
       "exampleJa": "経理担当はすでにお支払いを受け取っています。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "altogether",
@@ -141,7 +141,7 @@
       "headword": "annually",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈænjuəli/",
-      "meaning": "年一回；毎年",
+      "meaning": "年に一度；毎年",
       "exampleEn": "The board meets annually to review the budget.",
       "exampleJa": "取締役会は予算を見直すために毎年開かれます。",
       "level": 3
@@ -150,10 +150,10 @@
       "headword": "apparently",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈpærəntli/",
-      "meaning": "見たところ；どうやら",
+      "meaning": "どうやら；見たところ",
       "exampleEn": "Apparently the approval has been delayed until Monday.",
       "exampleJa": "どうやら承認は月曜日まで遅れているようです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "automatically",
@@ -168,16 +168,16 @@
       "headword": "briefly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbriːfli/",
-      "meaning": "手短に；短時間",
+      "meaning": "手短に；簡潔に；短時間",
       "exampleEn": "The speaker explained the current situation briefly.",
       "exampleJa": "発表者は現状を手短に説明しました。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "broadly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈbrɔːdli/",
-      "meaning": "大まかに；広く",
+      "meaning": "広く；大まかに；概して",
       "exampleEn": "The plan was broadly accepted by the board.",
       "exampleJa": "その計画は取締役会に広く受け入れられました。",
       "level": 3
@@ -189,13 +189,13 @@
       "meaning": "注意深く；慎重に",
       "exampleEn": "Please read the contract carefully before signing.",
       "exampleJa": "署名の前に契約書を注意深くお読みください。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "clearly",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈklɪrli/",
-      "meaning": "明確に；明瞭に",
+      "meaning": "明確に；はっきりと",
       "exampleEn": "The advertisement clearly states the job requirements.",
       "exampleJa": "その広告は募集条件を明確に示しています。",
       "level": 2
@@ -239,11 +239,11 @@
     {
       "headword": "consequently",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˈkɑːnsɪkwentli/",
+      "phonetic": "/ˈkɑːnsəkwentli/",
       "meaning": "その結果；したがって",
       "exampleEn": "Costs rose, and consequently we raised our prices.",
       "exampleJa": "費用が上がり、その結果私たちは価格を引き上げました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "consistently",
@@ -261,7 +261,7 @@
       "meaning": "絶えず；常に",
       "exampleEn": "The market is constantly changing.",
       "exampleJa": "市場は絶えず変化しています。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "conveniently",
@@ -276,10 +276,10 @@
       "headword": "definitely",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈdefɪnətli/",
-      "meaning": "明確に；確実に",
+      "meaning": "間違いなく；確実に",
       "exampleEn": "We will definitely meet the quarterly goal.",
       "exampleJa": "私たちは確実に四半期目標を達成します。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "deliberately",
@@ -321,10 +321,10 @@
       "headword": "easily",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈiːzəli/",
-      "meaning": "容易に；簡単に",
+      "meaning": "簡単に；容易に",
       "exampleEn": "Users can easily find the menu button.",
       "exampleJa": "ユーザーはメニューボタンを簡単に見つけられます。",
-      "level": 2
+      "level": 1
     },
     {
       "headword": "effectively",
@@ -357,7 +357,7 @@
       "headword": "eventually",
       "partOfSpeech": "adverb",
       "phonetic": "/ɪˈventʃuəli/",
-      "meaning": "最終的には；結局は",
+      "meaning": "最終的に；結局は",
       "exampleEn": "The firm eventually entered the overseas market.",
       "exampleJa": "その会社は最終的に海外市場へ進出しました。",
       "level": 3
@@ -473,11 +473,11 @@
     {
       "headword": "furthermore",
       "partOfSpeech": "adverb",
-      "phonetic": "/ˌfɜːrdərˈmɔːr/",
+      "phonetic": "/ˈfɜːrðərmɔːr/",
       "meaning": "さらに；その上",
       "exampleEn": "The price is low; furthermore, the quality is high.",
       "exampleJa": "価格が安く、その上品質も高いです。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "gradually",
@@ -531,7 +531,7 @@
       "meaning": "ますます；いよいよ",
       "exampleEn": "Online shopping is becoming increasingly popular.",
       "exampleJa": "オンラインでの買い物はますます人気が高まっています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "indefinitely",
@@ -555,7 +555,7 @@
       "headword": "inevitably",
       "partOfSpeech": "adverb",
       "phonetic": "/ɪnˈevɪtəbli/",
-      "meaning": "必然的に；やむを得ず",
+      "meaning": "必然的に；否応なく",
       "exampleEn": "Costs inevitably rise when inflation is high.",
       "exampleJa": "インフレが進むと費用は必然的に上昇します。",
       "level": 4
@@ -738,7 +738,7 @@
       "meaning": "特に；とりわけ",
       "exampleEn": "Demand is particularly strong during the summer.",
       "exampleJa": "需要は夏の間、とりわけ強くなります。",
-      "level": 2
+      "level": 3
     },
     {
       "headword": "perfectly",

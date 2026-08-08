@@ -6,7 +6,7 @@
       "headword": "comprehend",
       "partOfSpeech": "verb",
       "phonetic": "/ˌkɑːmprɪˈhend/",
-      "meaning": "を十分に理解する；を包摂する",
+      "meaning": "を理解する；を把握する",
       "exampleEn": "He failed to comprehend the concept.",
       "exampleJa": "彼はその概念を十分理解できませんでした。",
       "level": 4
@@ -15,7 +15,7 @@
       "headword": "contemplate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈkɑːntəmpleɪt/",
-      "meaning": "を熟考する；をじっくり観賞する",
+      "meaning": "を熟考する；をじっと眺める",
       "exampleEn": "She contemplated studying in Paris.",
       "exampleJa": "彼女はパリでの留学を熟考しました。",
       "level": 4
@@ -24,19 +24,19 @@
       "headword": "deduce",
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈduːs/",
-      "meaning": "を演繹する；推論する",
+      "meaning": "を推論する；を演繹する",
       "exampleEn": "What can you deduce from the clues?",
       "exampleJa": "手がかりから何を推論できますか。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "deem",
       "partOfSpeech": "verb",
       "phonetic": "/diːm/",
-      "meaning": "を〜だとみなす；と思う",
+      "meaning": "をみなす；と思う",
       "exampleEn": "The proposal was deemed acceptable.",
       "exampleJa": "その提案は受諾可能だとみなされました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "discern",
@@ -45,7 +45,7 @@
       "meaning": "を見分ける；を識別する",
       "exampleEn": "It is hard to discern the truth.",
       "exampleJa": "真実を見分けるのは困難です。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "estimate",
@@ -96,7 +96,7 @@
       "headword": "ponder",
       "partOfSpeech": "verb",
       "phonetic": "/ˈpɑːndər/",
-      "meaning": "を熟考する；思い巡らす",
+      "meaning": "を熟考する；をじっくり考える",
       "exampleEn": "She pondered over her career choice.",
       "exampleJa": "彼女は進路の選択について熟考しました。",
       "level": 4
@@ -150,10 +150,10 @@
       "headword": "abbreviate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈbriːvieɪt/",
-      "meaning": "を省略する；短縮する",
+      "meaning": "を省略する；を短縮する",
       "exampleEn": "You can abbreviate Doctor to Dr.",
       "exampleJa": "Doctor は Dr. に省略できます。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "aboriginal",
@@ -171,7 +171,7 @@
       "meaning": "豊富な；豊かな",
       "exampleEn": "The ocean supplies abundant fish resources.",
       "exampleJa": "海洋は豊富な魚資源を供給します。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "acclaim",
@@ -213,19 +213,19 @@
       "headword": "addiction",
       "partOfSpeech": "noun",
       "phonetic": "/əˈdɪkʃn/",
-      "meaning": "依存症；中毒",
+      "meaning": "中毒；依存症",
       "exampleEn": "He overcame his addiction to gambling.",
       "exampleJa": "彼はギャンブル依存症を克服しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "administration",
       "partOfSpeech": "noun",
       "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
-      "meaning": "行政；政権；管理",
+      "meaning": "管理；行政；政権",
       "exampleEn": "The administration announced a new public policy.",
       "exampleJa": "政権は新しい公共政策を発表しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "adrift",
@@ -321,7 +321,7 @@
       "headword": "ancestry",
       "partOfSpeech": "noun",
       "phonetic": "/ˈænsestri/",
-      "meaning": "家系；先祖；血統",
+      "meaning": "家系；血統；先祖",
       "exampleEn": "He traced his family's European ancestry.",
       "exampleJa": "彼は自分の家系のヨーロッパの血統を辿りました。",
       "level": 4
@@ -348,7 +348,7 @@
       "headword": "antipathy",
       "partOfSpeech": "noun",
       "phonetic": "/ænˈtɪpəθi/",
-      "meaning": "反感；嫌悪感",
+      "meaning": "反感；嫌悪",
       "exampleEn": "They felt strong mutual antipathy.",
       "exampleJa": "彼らは互いに強い反感を抱いていました。",
       "level": 5
@@ -396,7 +396,7 @@
       "meaning": "熱烈な；熱心な",
       "exampleEn": "He is an ardent supporter of the cause.",
       "exampleJa": "彼はその運動の熱烈な支持者です。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "aromatic",
@@ -411,10 +411,10 @@
       "headword": "artisan",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrtɪzn/",
-      "meaning": "職人；熟練工",
+      "meaning": "職人；工芸家",
       "exampleEn": "The skilled artisan made a ceramic vase.",
       "exampleJa": "その熟練の職人は陶器の花瓶を作りました。",
-      "level": 4
+      "level": 5
     },
     {
       "headword": "assailant",
@@ -429,16 +429,16 @@
       "headword": "astray",
       "partOfSpeech": "adverb",
       "phonetic": "/əˈstreɪ/",
-      "meaning": "迷って；道に外れて",
+      "meaning": "道に迷って；道を外れて",
       "exampleEn": "Bad advice led the young student astray.",
       "exampleJa": "悪い助言がその若い生徒を迷わせました。",
-      "level": 3
+      "level": 5
     },
     {
       "headword": "attainment",
       "partOfSpeech": "noun",
       "phonetic": "/əˈteɪnmənt/",
-      "meaning": "達成；到達；学力",
+      "meaning": "達成；到達；学識",
       "exampleEn": "They celebrated the attainment of their goal.",
       "exampleJa": "彼らは目標の達成を祝いました。",
       "level": 4
@@ -495,7 +495,7 @@
       "meaning": "奇妙な；風変わりな",
       "exampleEn": "The witness reported a bizarre light in the sky.",
       "exampleJa": "目撃者は空に奇妙な光を見たと報告しました。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "bloat",
@@ -582,10 +582,10 @@
       "headword": "catering",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkeɪtərɪŋ/",
-      "meaning": "出張料理；ケータリング",
+      "meaning": "ケータリング；仕出し；出張料理",
       "exampleEn": "The hotel provides full wedding catering service.",
       "exampleJa": "そのホテルは結婚式の完全なケータリングサービスを提供しています。",
-      "level": 3
+      "level": 4
     },
     {
       "headword": "celebrated",
@@ -807,10 +807,10 @@
       "headword": "customary",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkʌstəmeri/",
-      "meaning": "習慣的な；例の",
+      "meaning": "慣習の；いつもの",
       "exampleEn": "Give the customary polite greeting.",
       "exampleJa": "習慣的な丁寧な挨拶をしなさい。",
-      "level": 3
+      "level": 4
     }
   ]
 }
