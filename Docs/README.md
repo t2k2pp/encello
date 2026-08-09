@@ -17,6 +17,9 @@
 | 07 | [07_testing_strategy.md](07_testing_strategy.md) | テストの層と必ず書くもの |
 | 08 | [08_platform_setup.md](08_platform_setup.md) | Android / iOS の設定 |
 | 09 | [09_roadmap.md](09_roadmap.md) | 実装順（M1〜M9）と v2 候補 |
+| 10 | [10_oss_licenses.md](10_oss_licenses.md) | 使用OSSのライセンス棚卸しと同梱コンテンツの権利 |
+| 11 | [11_release_quickref.md](11_release_quickref.md) | ストア提出までの実務チェックリスト |
+| 12 | [12_store_listing.md](12_store_listing.md) | ペルソナとストア掲載文の原稿 |
 
 ## 機能設計（06_features/）
 

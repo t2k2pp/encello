@@ -1,7 +1,9 @@
 # 取り違えドリル（Confusion Drill）
 
 対応要件: FR-80〜FR-83
-実装: `domain/usecases/confusion_pair_finder.dart`, `ui/screens/confusion_drill_screen.dart`
+実装: `domain/usecases/confusion_pair_finder.dart`, `ui/screens/choice_study_screen.dart`
+（4択・スピード・語のつくりと描画も進行も同じ形なので1画面にまとめている）,
+単語詳細のカードは `ui/screens/word_detail_screen.dart`
 
 ## 1. 狙い
 
