@@ -1,6 +1,6 @@
 {
   "chunk": "03_nouns_school_work",
-  "note": "学校・仕事・職業（80語）",
+  "note": "学校・仕事・職業（86語）",
   "words": [
     {
       "headword": "ability",
@@ -720,6 +720,60 @@
       "meaning": "制度；体系；システム",
       "exampleEn": "Our school uses a new computer system.",
       "exampleJa": "私たちの学校は新しいコンピューターシステムを使っています。",
+      "level": 2
+    },
+    {
+      "headword": "addition",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈdɪʃn/",
+      "meaning": "追加；足し算",
+      "exampleEn": "In addition, the hotel offers a free breakfast.",
+      "exampleJa": "さらにそのホテルは無料の朝食を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "beginner",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪˈɡɪnər/",
+      "meaning": "初心者",
+      "exampleEn": "This course is perfect for beginners.",
+      "exampleJa": "この講座は初心者にぴったりです。",
+      "level": 2
+    },
+    {
+      "headword": "beginning",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪˈɡɪnɪŋ/",
+      "meaning": "始まり；最初；初期",
+      "exampleEn": "I read the story from the beginning.",
+      "exampleJa": "私はその物語を初めから読みました。",
+      "level": 2
+    },
+    {
+      "headword": "comparison",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpærɪsn/",
+      "meaning": "比較；対比",
+      "exampleEn": "Let us make a comparison of the two plans.",
+      "exampleJa": "2つの計画の比較をしてみましょう。",
+      "level": 3
+    },
+    {
+      "headword": "completion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpliːʃn/",
+      "meaning": "完了；完成",
+      "exampleEn": "The completion of the bridge took two years.",
+      "exampleJa": "その橋の完成には2年かかりました。",
+      "level": 3
+    },
+    {
+      "headword": "creativity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkriːeɪˈtɪvəti/",
+      "meaning": "創造性",
+      "exampleEn": "Art classes develop children's creativity.",
+      "exampleJa": "美術の授業は子どもの創造性を育てます。",
       "level": 2
     }
   ]

@@ -1,6 +1,6 @@
 {
   "chunk": "12_adjectives_things",
-  "note": "物事・状態・程度の形容詞（86語）",
+  "note": "物事・状態・程度の形容詞（95語）",
   "words": [
     {
       "headword": "accurate",
@@ -775,6 +775,87 @@
       "exampleEn": "This river is very wide here.",
       "exampleJa": "この川はここでとても幅が広いです。",
       "level": 2
+    },
+    {
+      "headword": "opposite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːpəzɪt/",
+      "meaning": "反対の；正反対の",
+      "exampleEn": "The station is on the opposite side.",
+      "exampleJa": "駅は反対側にあります。",
+      "level": 3
+    },
+    {
+      "headword": "scientific",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌsaɪənˈtɪfɪk/",
+      "meaning": "科学的な；科学の",
+      "exampleEn": "The claim has no scientific support.",
+      "exampleJa": "その主張には科学的な裏付けがありません。",
+      "level": 3
+    },
+    {
+      "headword": "selective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪˈlektɪv/",
+      "meaning": "選択的な；えり好みする",
+      "exampleEn": "She is selective about the books she reads.",
+      "exampleJa": "彼女は読む本をえり好みします。",
+      "level": 3
+    },
+    {
+      "headword": "supportive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/səˈpɔːrtɪv/",
+      "meaning": "支えになる；協力的な",
+      "exampleEn": "My family was very supportive during the illness.",
+      "exampleJa": "病気の間、家族はとても支えになってくれました。",
+      "level": 3
+    },
+    {
+      "headword": "imaginary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈmædʒɪneri/",
+      "meaning": "想像上の；架空の",
+      "exampleEn": "The novel is set in an imaginary country.",
+      "exampleJa": "その小説は架空の国を舞台にしています。",
+      "level": 3
+    },
+    {
+      "headword": "helpless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhelpləs/",
+      "meaning": "無力な；どうしようもない",
+      "exampleEn": "The bird looked helpless on the ground.",
+      "exampleJa": "その鳥は地面で無力そうに見えました。",
+      "level": 3
+    },
+    {
+      "headword": "hopeful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhoʊpfl/",
+      "meaning": "希望を持った；有望な",
+      "exampleEn": "We are hopeful about the coming season.",
+      "exampleJa": "私たちは次の季節に希望を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "portable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɔːrtəbl/",
+      "meaning": "持ち運べる；携帯用の",
+      "exampleEn": "He bought a portable music player.",
+      "exampleJa": "彼は携帯用の音楽プレーヤーを買いました。",
+      "level": 3
+    },
+    {
+      "headword": "educational",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌedʒuˈkeɪʃənl/",
+      "meaning": "教育の；教育的な",
+      "exampleEn": "The museum offers educational programs.",
+      "exampleJa": "その博物館は教育的な催しを行っています。",
+      "level": 3
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "chunk": "hs_advanced_v1_dropped",
-  "note": "作り直しで外した語（1088語）",
+  "note": "作り直しで外した語（1086語）",
   "words": [
     {
       "headword": "abandon",
@@ -2874,15 +2874,6 @@
       "level": 5
     },
     {
-      "headword": "ascend",
-      "partOfSpeech": "verb",
-      "phonetic": "/əˈsend/",
-      "meaning": "に登る；上昇する",
-      "exampleEn": "Climbers ascend the steep mountain trail.",
-      "exampleJa": "登山家たちは急な山道を登ります。",
-      "level": 4
-    },
-    {
       "headword": "assassinate",
       "partOfSpeech": "verb",
       "phonetic": "/əˈsæsɪneɪt/",
@@ -4285,15 +4276,6 @@
       "exampleEn": "He is a devoted adherent of the movement.",
       "exampleJa": "彼はその運動の熱心な支持者です。",
       "level": 5
-    },
-    {
-      "headword": "admiration",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˌædməˈreɪʃn/",
-      "meaning": "賞賛；感嘆",
-      "exampleEn": "She expressed deep admiration for the hero.",
-      "exampleJa": "彼女はその英雄への深い賞賛を表しました。",
-      "level": 3
     },
     {
       "headword": "adultery",

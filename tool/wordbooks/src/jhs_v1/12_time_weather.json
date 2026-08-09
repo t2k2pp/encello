@@ -1,6 +1,6 @@
 {
   "chunk": "12_time_weather",
-  "note": "時間・天気・季節・数・単位（95語）",
+  "note": "時間・天気・季節・数・単位（97語）",
   "words": [
     {
       "headword": "time",
@@ -855,6 +855,24 @@
       "meaning": "インチ",
       "exampleEn": "The snow was six inches deep.",
       "exampleJa": "雪は6インチの深さでした。",
+      "level": 2
+    },
+    {
+      "headword": "depth",
+      "partOfSpeech": "noun",
+      "phonetic": "/depθ/",
+      "meaning": "深さ；奥行き",
+      "exampleEn": "We measured the depth of the pool.",
+      "exampleJa": "私たちはプールの深さを測りました。",
+      "level": 2
+    },
+    {
+      "headword": "width",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɪdθ/",
+      "meaning": "幅；横の長さ",
+      "exampleEn": "Please check the width of this desk.",
+      "exampleJa": "この机の幅を確かめてください。",
       "level": 2
     }
   ]

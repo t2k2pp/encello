@@ -1,0 +1,90 @@
+{
+  "note": "紐付け4（他の紐付けで語が付かなかった接頭辞・接尾辞を埋める）",
+  "links": [
+    { "headword": "mistake", "parts": ["mis-"], "partsNote": "誤って取ること → 間違い" },
+    { "headword": "misunderstand", "parts": ["mis-", "under-"], "partsNote": "誤って受け取る → 誤解する" },
+
+    { "headword": "antibiotic", "parts": ["anti-", "bio"], "partsNote": "生命に対抗するもの → 抗生物質" },
+    { "headword": "antibody", "parts": ["anti-"], "partsNote": "異物に対抗するもの → 抗体" },
+
+    { "headword": "forecast", "parts": ["fore-"], "partsNote": "前もって投げる → 予報する" },
+    { "headword": "foresee", "parts": ["fore-"], "partsNote": "前もって見る → 予見する" },
+    { "headword": "forehead", "parts": ["fore-"], "partsNote": "頭の前 → 額" },
+
+    { "headword": "surface", "parts": ["sur-"], "partsNote": "上の面 → 表面" },
+    { "headword": "surpass", "parts": ["sur-"], "partsNote": "超えて行く → 上回る" },
+    { "headword": "surplus", "parts": ["sur-"], "partsNote": "超えて多い分 → 余剰" },
+    { "headword": "surround", "parts": ["sur-"], "partsNote": "上から取り巻く → 囲む" },
+
+    { "headword": "overcome", "parts": ["over-"], "partsNote": "上を越えて来る → 打ち勝つ" },
+    { "headword": "overlook", "parts": ["over-"], "partsNote": "上から見過ごす → 見落とす" },
+    { "headword": "oversee", "parts": ["over-"], "partsNote": "上から見る → 監督する" },
+    { "headword": "overall", "parts": ["over-"], "partsNote": "全体にかかる → 全体的な" },
+    { "headword": "overtime", "parts": ["over-"], "partsNote": "決まった時間を超えて → 残業" },
+    { "headword": "override", "parts": ["over-"], "partsNote": "上に乗って進む → 優先する" },
+    { "headword": "overhead", "parts": ["over-"], "partsNote": "頭の上にかかるもの → 諸経費" },
+
+    { "headword": "undermine", "parts": ["under-"], "partsNote": "下を掘る → 密かに損なう" },
+    { "headword": "understand", "parts": ["under-"], "partsNote": "下に立つ → 理解する" },
+    { "headword": "undertake", "parts": ["under-"], "partsNote": "下に引き受ける → 引き受ける" },
+    { "headword": "underneath", "parts": ["under-"], "partsNote": null },
+    { "headword": "underpass", "parts": ["under-"], "partsNote": "下を通る道 → 地下道" },
+
+    { "headword": "coalition", "parts": ["co-"], "partsNote": "共に育つこと → 連立" },
+    { "headword": "colleague", "parts": ["co-"], "partsNote": "共に選ばれた人 → 同僚" },
+
+    { "headword": "syntax", "parts": ["syn-"], "partsNote": "共に並べる決まり → 構文" },
+    { "headword": "synthesis", "parts": ["syn-"], "partsNote": "共に置くこと → 合成" },
+    { "headword": "synthesize", "parts": ["syn-", "-ize"], "partsNote": null },
+    { "headword": "syndicate", "parts": ["syn-", "dict"], "partsNote": "共に取り決めること → 企業連合" },
+
+    { "headword": "embody", "parts": ["em-"], "partsNote": "体の中に入れる → 具体化する" },
+    { "headword": "embrace", "parts": ["em-"], "partsNote": "腕の中に入れる → 抱く・受け入れる" },
+    { "headword": "empower", "parts": ["em-"], "partsNote": "力を持たせる → 権限を与える" },
+    { "headword": "embark", "parts": ["em-"], "partsNote": "船の中に入る → 乗り込む・着手する" },
+
+    { "headword": "monotheism", "parts": ["mono-"], "partsNote": "1つの神を信じること → 一神教" },
+    { "headword": "monotonous", "parts": ["mono-", "-ous"], "partsNote": "調子が1つだけ → 単調な" },
+    { "headword": "monopoly", "parts": ["mono-"], "partsNote": "1人だけが売ること → 独占" },
+
+    { "headword": "bicycle", "parts": ["bi-"], "partsNote": "輪が2つ → 自転車" },
+
+    { "headword": "outcome", "parts": ["out-"], "partsNote": "外へ出て来るもの → 結果" },
+    { "headword": "output", "parts": ["out-"], "partsNote": "外へ出すもの → 生産量・出力" },
+    { "headword": "outline", "parts": ["out-"], "partsNote": "外側の線 → 輪郭・概要" },
+    { "headword": "outlet", "parts": ["out-"], "partsNote": "外へ出る口 → 出口・販路" },
+    { "headword": "outstanding", "parts": ["out-"], "partsNote": "外に立って目立つ → 際立った" },
+    { "headword": "outweigh", "parts": ["out-"], "partsNote": "重さで勝つ → 上回る" },
+    { "headword": "outgoing", "parts": ["out-"], "partsNote": "外へ出て行く → 社交的な" },
+    { "headword": "outsourcing", "parts": ["out-"], "partsNote": "外から調達すること → 外部委託" },
+
+    { "headword": "malfunction", "parts": ["mal-", "fact"], "partsNote": "働きが悪い → 故障" },
+    { "headword": "malice", "parts": ["mal-"], "partsNote": "悪い心 → 悪意" },
+
+    { "headword": "altruism", "parts": ["-ism"], "partsNote": "他人を思う考え → 利他主義" },
+    { "headword": "feminism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "imperialism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "journalism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "optimism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "pessimism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "patriotism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "racism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "terrorism", "parts": ["terr", "-ism"], "partsNote": null },
+    { "headword": "tourism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "secularism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "pluralism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "symbolism", "parts": ["-ism"], "partsNote": null },
+    { "headword": "scepticism", "parts": ["-ism"], "partsNote": null },
+
+    { "headword": "careless", "parts": ["-less"], "partsNote": "注意が無い → 不注意な" },
+    { "headword": "useless", "parts": ["-less"], "partsNote": "役に立たない → 無駄な" },
+    { "headword": "reckless", "parts": ["-less"], "partsNote": "考えが無い → 無謀な" },
+    { "headword": "restless", "parts": ["-less"], "partsNote": "休みが無い → 落ち着かない" },
+    { "headword": "ruthless", "parts": ["-less"], "partsNote": "情け容赦が無い → 非情な" },
+    { "headword": "flawless", "parts": ["-less"], "partsNote": "傷が無い → 完璧な" },
+    { "headword": "regardless", "parts": ["-less"], "partsNote": "気にかけない → 構わずに" },
+
+    { "headword": "childhood", "parts": ["-hood"], "partsNote": "子どもの時期 → 子ども時代" },
+    { "headword": "neighborhood", "parts": ["-hood"], "partsNote": "隣近所である状態 → 近所" }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "chunk": "00_verbs_core",
-  "note": "基本動詞と語法（81語）",
+  "note": "基本動詞と語法（87語）",
   "words": [
     {
       "headword": "adapt",
@@ -729,6 +729,60 @@
       "meaning": "に違反する；を侵害する",
       "exampleEn": "This action violates international human rights.",
       "exampleJa": "この行為は国際的な人権を侵害します。",
+      "level": 4
+    },
+    {
+      "headword": "compose",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpoʊz/",
+      "meaning": "を構成する；を作曲する",
+      "exampleEn": "He composed this song for his mother.",
+      "exampleJa": "彼はこの曲を母のために作曲しました。",
+      "level": 3
+    },
+    {
+      "headword": "proceed",
+      "partOfSpeech": "verb",
+      "phonetic": "/proʊˈsiːd/",
+      "meaning": "進む；続行する",
+      "exampleEn": "We proceeded carefully along the narrow mountain road.",
+      "exampleJa": "私たちは狭い山道を注意深く進みました。",
+      "level": 3
+    },
+    {
+      "headword": "resist",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzɪst/",
+      "meaning": "に抵抗する；を耐える",
+      "exampleEn": "I could not resist the sweet chocolate.",
+      "exampleJa": "私はその甘いチョコレートを我慢できませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "compute",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpjuːt/",
+      "meaning": "を計算する；を算出する",
+      "exampleEn": "The program computes the total in a second.",
+      "exampleJa": "そのプログラムは合計を一瞬で計算します。",
+      "level": 4
+    },
+    {
+      "headword": "lengthen",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈleŋθən/",
+      "meaning": "を長くする；長くなる",
+      "exampleEn": "They lengthened the school day by an hour.",
+      "exampleJa": "彼らは授業日を1時間長くしました。",
+      "level": 4
+    },
+    {
+      "headword": "specialize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈspeʃəlaɪz/",
+      "meaning": "専門にする；専攻する",
+      "exampleEn": "This lawyer specializes in tax cases.",
+      "exampleJa": "この弁護士は税の事案を専門にしています。",
       "level": 4
     }
   ]

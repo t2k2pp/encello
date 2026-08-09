@@ -1,6 +1,6 @@
 {
   "chunk": "eiken_2_v1_dropped",
-  "note": "作り直しで外した語（1103語）",
+  "note": "作り直しで外した語（1081語）",
   "words": [
     {
       "headword": "absorb",
@@ -63,15 +63,6 @@
       "meaning": "言及する；参照する",
       "exampleEn": "She referred to the dictionary for the spelling.",
       "exampleJa": "彼女は綴りを確かめるために辞書を参照しました。",
-      "level": 3
-    },
-    {
-      "headword": "resist",
-      "partOfSpeech": "verb",
-      "phonetic": "/rɪˈzɪst/",
-      "meaning": "に抵抗する；を耐える",
-      "exampleEn": "I could not resist the sweet chocolate.",
-      "exampleJa": "私はその甘いチョコレートを我慢できませんでした。",
       "level": 3
     },
     {
@@ -838,15 +829,6 @@
       "exampleEn": "Jet engines propel the airplane forward at high speed.",
       "exampleJa": "ジェットエンジンが飛行機を高速で前へ進ませます。",
       "level": 4
-    },
-    {
-      "headword": "protective",
-      "partOfSpeech": "adjective",
-      "phonetic": "/prəˈtektɪv/",
-      "meaning": "保護する；庇護的な",
-      "exampleEn": "Workers wear protective gloves in the laboratory.",
-      "exampleJa": "作業員は実験室で保護用の手袋を着用します。",
-      "level": 3
     },
     {
       "headword": "provider",
@@ -1623,15 +1605,6 @@
       "level": 3
     },
     {
-      "headword": "productive",
-      "partOfSpeech": "adjective",
-      "phonetic": "/prəˈdʌktɪv/",
-      "meaning": "生産的な",
-      "exampleEn": "We had a very productive meeting today.",
-      "exampleJa": "今日はとても生産的な会議ができました。",
-      "level": 3
-    },
-    {
       "headword": "prognosis",
       "partOfSpeech": "noun",
       "phonetic": "/prɑːɡˈnoʊsɪs/",
@@ -2343,15 +2316,6 @@
       "level": 3
     },
     {
-      "headword": "preservation",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˌprezərˈveɪʃn/",
-      "meaning": "保存；保護",
-      "exampleEn": "The city supports the preservation of old buildings.",
-      "exampleJa": "市は古い建物の保存を支援しています。",
-      "level": 3
-    },
-    {
       "headword": "pretentious",
       "partOfSpeech": "adjective",
       "phonetic": "/prɪˈtenʃəs/",
@@ -2775,15 +2739,6 @@
       "level": 5
     },
     {
-      "headword": "compose",
-      "partOfSpeech": "verb",
-      "phonetic": "/kəmˈpoʊz/",
-      "meaning": "を構成する；を作曲する",
-      "exampleEn": "He composed this song for his mother.",
-      "exampleJa": "彼はこの曲を母のために作曲しました。",
-      "level": 3
-    },
-    {
       "headword": "compulsion",
       "partOfSpeech": "noun",
       "phonetic": "/kəmˈpʌlʃn/",
@@ -3018,15 +2973,6 @@
       "level": 4
     },
     {
-      "headword": "descend",
-      "partOfSpeech": "verb",
-      "phonetic": "/dɪˈsend/",
-      "meaning": "を降りる；下る",
-      "exampleEn": "The plane descended slowly toward the runway.",
-      "exampleJa": "飛行機は滑走路に向かってゆっくり降下しました。",
-      "level": 3
-    },
-    {
       "headword": "despair",
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈsper/",
@@ -3088,15 +3034,6 @@
       "exampleEn": "The flood was the worst disaster in years.",
       "exampleJa": "その洪水は近年で最悪の災害でした。",
       "level": 3
-    },
-    {
-      "headword": "discovery",
-      "partOfSpeech": "noun",
-      "phonetic": "/dɪˈskʌvəri/",
-      "meaning": "発見",
-      "exampleEn": "Her discovery changed modern science.",
-      "exampleJa": "彼女の発見は現代科学を変えました。",
-      "level": 2
     },
     {
       "headword": "disgust",
@@ -3180,15 +3117,6 @@
       "level": 4
     },
     {
-      "headword": "prediction",
-      "partOfSpeech": "noun",
-      "phonetic": "/prɪˈdɪkʃn/",
-      "meaning": "予測；予言",
-      "exampleEn": "The weather prediction came true today.",
-      "exampleJa": "天気の予測は今日的中しました。",
-      "level": 3
-    },
-    {
       "headword": "premise",
       "partOfSpeech": "noun",
       "phonetic": "/ˈpremɪs/",
@@ -3196,24 +3124,6 @@
       "exampleEn": "His argument is based on a false premise.",
       "exampleJa": "彼の主張は誤った前提に基づいています。",
       "level": 4
-    },
-    {
-      "headword": "prevail",
-      "partOfSpeech": "verb",
-      "phonetic": "/prɪˈveɪl/",
-      "meaning": "勝利する；普及している",
-      "exampleEn": "Truth and justice will prevail in the end.",
-      "exampleJa": "真実と正義が最後には勝つでしょう。",
-      "level": 4
-    },
-    {
-      "headword": "prime",
-      "partOfSpeech": "adjective",
-      "phonetic": "/praɪm/",
-      "meaning": "極上の；最高の；素数の",
-      "exampleEn": "The shop stands in a prime business area.",
-      "exampleJa": "その店は最高の商業地区に建っています。",
-      "level": 3
     },
     {
       "headword": "prize",
@@ -3637,15 +3547,6 @@
       "exampleEn": "The law compels drivers to wear seat belts.",
       "exampleJa": "法律は運転手にシートベルトの着用を義務づけています。",
       "level": 4
-    },
-    {
-      "headword": "complaint",
-      "partOfSpeech": "noun",
-      "phonetic": "/kəmˈpleɪnt/",
-      "meaning": "苦情；不平；不満",
-      "exampleEn": "The store received a complaint from a customer.",
-      "exampleJa": "その店は客から苦情を受けました。",
-      "level": 3
     },
     {
       "headword": "composer",
@@ -4503,15 +4404,6 @@
       "level": 3
     },
     {
-      "headword": "confusion",
-      "partOfSpeech": "noun",
-      "phonetic": "/kənˈfjuːʒn/",
-      "meaning": "混乱；困惑",
-      "exampleEn": "The sudden change caused confusion among passengers.",
-      "exampleJa": "突然の変更が乗客の間に混乱を引き起こしました。",
-      "level": 3
-    },
-    {
       "headword": "conspicuous",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈspɪkjuəs/",
@@ -4825,15 +4717,6 @@
       "exampleEn": "Local products predominate in this small market.",
       "exampleJa": "この小さな市場では地元の製品が優勢です。",
       "level": 5
-    },
-    {
-      "headword": "preparation",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˌprepəˈreɪʃn/",
-      "meaning": "準備；下ごしらえ",
-      "exampleEn": "He finished his preparation for the exam early.",
-      "exampleJa": "彼は試験の準備を早めに終えました。",
-      "level": 2
     },
     {
       "headword": "president",
@@ -5529,15 +5412,6 @@
       "level": 4
     },
     {
-      "headword": "persuasive",
-      "partOfSpeech": "adjective",
-      "phonetic": "/pərˈsweɪsɪv/",
-      "meaning": "説得力のある",
-      "exampleEn": "Her argument was clear and very persuasive.",
-      "exampleJa": "彼女の主張は明快でとても説得力がありました。",
-      "level": 3
-    },
-    {
       "headword": "pharmacist",
       "partOfSpeech": "noun",
       "phonetic": "/ˈfɑːrməsɪst/",
@@ -6112,15 +5986,6 @@
       "exampleEn": "We will continue working until the task ends.",
       "exampleJa": "私たちはその仕事が終わるまで作業を続けます。",
       "level": 2
-    },
-    {
-      "headword": "contribution",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˌkɑːntrɪˈbjuːʃn/",
-      "meaning": "貢献；寄付金",
-      "exampleEn": "His contribution to the research was valuable.",
-      "exampleJa": "彼のその研究への貢献は貴重でした。",
-      "level": 3
     },
     {
       "headword": "cooperation",
@@ -6978,15 +6843,6 @@
       "level": 4
     },
     {
-      "headword": "consideration",
-      "partOfSpeech": "noun",
-      "phonetic": "/kənˌsɪdəˈreɪʃn/",
-      "meaning": "配慮；考慮事項",
-      "exampleEn": "We took user safety into consideration.",
-      "exampleJa": "私たちは利用者の安全を考慮に入れました。",
-      "level": 3
-    },
-    {
       "headword": "constant",
       "partOfSpeech": "adjective",
       "phonetic": "/ˈkɑːnstənt/",
@@ -7120,15 +6976,6 @@
       "exampleEn": "The king issued a new decree.",
       "exampleJa": "国王は新しい法令を公布しました。",
       "level": 5
-    },
-    {
-      "headword": "defense",
-      "partOfSpeech": "noun",
-      "phonetic": "/dɪˈfens/",
-      "meaning": "防衛；弁護",
-      "exampleEn": "The country spends a lot on defense.",
-      "exampleJa": "その国は防衛に多くの費用を使っています。",
-      "level": 2
     },
     {
       "headword": "defunct",
@@ -7815,15 +7662,6 @@
       "level": 4
     },
     {
-      "headword": "continuous",
-      "partOfSpeech": "adjective",
-      "phonetic": "/kənˈtɪnjuəs/",
-      "meaning": "連続的な；途切れない",
-      "exampleEn": "The machine made a continuous noise all night.",
-      "exampleJa": "その機械は一晩中途切れない音を出していました。",
-      "level": 3
-    },
-    {
       "headword": "contrite",
       "partOfSpeech": "adjective",
       "phonetic": "/kənˈtraɪt/",
@@ -8184,15 +8022,6 @@
       "level": 5
     },
     {
-      "headword": "proof",
-      "partOfSpeech": "noun",
-      "phonetic": "/pruːf/",
-      "meaning": "証拠；証明",
-      "exampleEn": "The police found no proof of his guilt.",
-      "exampleJa": "警察は彼の有罪の証拠を見つけられませんでした。",
-      "level": 2
-    },
-    {
       "headword": "proportion",
       "partOfSpeech": "noun",
       "phonetic": "/prəˈpɔːrʃn/",
@@ -8434,15 +8263,6 @@
       "exampleEn": "The police arrested him for a violent assault.",
       "exampleJa": "警察は暴力的な暴行の罪で彼を逮捕しました。",
       "level": 4
-    },
-    {
-      "headword": "assistance",
-      "partOfSpeech": "noun",
-      "phonetic": "/əˈsɪstəns/",
-      "meaning": "援助；支援",
-      "exampleEn": "Thank you for your quick assistance.",
-      "exampleJa": "迅速なご支援に感謝します。",
-      "level": 3
     },
     {
       "headword": "astute",
@@ -9019,15 +8839,6 @@
       "exampleEn": "The lake water remains pristine even today.",
       "exampleJa": "その湖の水は今でも手つかずのままです。",
       "level": 5
-    },
-    {
-      "headword": "proceed",
-      "partOfSpeech": "verb",
-      "phonetic": "/proʊˈsiːd/",
-      "meaning": "進む；続行する",
-      "exampleEn": "We proceeded carefully along the narrow mountain road.",
-      "exampleJa": "私たちは狭い山道を注意深く進みました。",
-      "level": 3
     },
     {
       "headword": "profitable",
@@ -9892,15 +9703,6 @@
       "exampleEn": "Gardeners propagate these plants from seeds.",
       "exampleJa": "庭師はこれらの植物を種から繁殖させます。",
       "level": 5
-    },
-    {
-      "headword": "protection",
-      "partOfSpeech": "noun",
-      "phonetic": "/prəˈtekʃn/",
-      "meaning": "保護；防護",
-      "exampleEn": "Helmets give riders good head protection.",
-      "exampleJa": "ヘルメットは乗る人の頭をしっかり保護します。",
-      "level": 2
     },
     {
       "headword": "prudent",

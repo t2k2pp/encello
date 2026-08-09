@@ -1,6 +1,6 @@
 {
   "chunk": "11_adverbs_function",
-  "note": "副詞・つなぎ語（74語）",
+  "note": "副詞・つなぎ語（76語）",
   "words": [
     {
       "headword": "accordingly",
@@ -666,6 +666,24 @@
       "meaning": "〜であるのに対して",
       "exampleEn": "He likes fiction, whereas she prefers poems.",
       "exampleJa": "彼は小説が好きですが、彼女は詩を好みます。",
+      "level": 4
+    },
+    {
+      "headword": "continuously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kənˈtɪnjuəsli/",
+      "meaning": "続けて；絶え間なく",
+      "exampleEn": "The machine ran continuously for three days.",
+      "exampleJa": "その機械は3日間絶え間なく動きました。",
+      "level": 4
+    },
+    {
+      "headword": "supposedly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səˈpoʊzɪdli/",
+      "meaning": "たぶん；言われているところでは",
+      "exampleEn": "This bridge is supposedly the oldest here.",
+      "exampleJa": "この橋は言われているところでは当地で最も古いものです。",
       "level": 4
     }
   ]

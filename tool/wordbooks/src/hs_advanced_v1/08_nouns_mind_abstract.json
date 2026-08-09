@@ -1,6 +1,6 @@
 {
   "chunk": "08_nouns_mind_abstract",
-  "note": "心・抽象概念（90語）",
+  "note": "心・抽象概念（91語）",
   "words": [
     {
       "headword": "abstraction",
@@ -811,6 +811,15 @@
       "exampleEn": "He argued his case with great vigor.",
       "exampleJa": "彼は大変な気迫で自らの主張を述べました。",
       "level": 4
+    },
+    {
+      "headword": "admiration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædməˈreɪʃn/",
+      "meaning": "賞賛；感嘆",
+      "exampleEn": "She expressed deep admiration for the hero.",
+      "exampleJa": "彼女はその英雄への深い賞賛を表しました。",
+      "level": 3
     }
   ]
 }

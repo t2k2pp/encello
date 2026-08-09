@@ -1,6 +1,6 @@
 {
   "chunk": "04_verbs_action",
-  "note": "基本動詞III（動作・操作・変化・生産）（78語）",
+  "note": "基本動詞III（動作・操作・変化・生産）（79語）",
   "words": [
     {
       "headword": "play",
@@ -703,6 +703,15 @@
       "exampleEn": "My mother bakes bread on weekends.",
       "exampleJa": "母は週末にパンを焼きます。",
       "level": 1
+    },
+    {
+      "headword": "heal",
+      "partOfSpeech": "verb",
+      "phonetic": "/hiːl/",
+      "meaning": "を治す；治る",
+      "exampleEn": "The cut on my hand healed in a week.",
+      "exampleJa": "手の切り傷は1週間で治りました。",
+      "level": 2
     }
   ]
 }

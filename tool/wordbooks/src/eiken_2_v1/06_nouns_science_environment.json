@@ -1,6 +1,6 @@
 {
   "chunk": "06_nouns_science_environment",
-  "note": "科学・環境・エネルギー（76語）",
+  "note": "科学・環境・エネルギー（77語）",
   "words": [
     {
       "headword": "acid",
@@ -684,6 +684,15 @@
       "meaning": "野生生物",
       "exampleEn": "The park preserves local wildlife.",
       "exampleJa": "その公園は地元の野生生物を保護しています。",
+      "level": 3
+    },
+    {
+      "headword": "preservation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprezərˈveɪʃn/",
+      "meaning": "保存；保護",
+      "exampleEn": "The city supports the preservation of old buildings.",
+      "exampleJa": "市は古い建物の保存を支援しています。",
       "level": 3
     }
   ]

@@ -1,0 +1,1481 @@
+{
+  "note": "紐付け3（名前・押す・つるす・折る・第一・考える・求める・治める・登る・仕える・しるし・解く・音・答える・時・土地・証言・価値・来る・言葉・道・巻く）",
+  "links": [
+    {
+      "headword": "nominate",
+      "parts": [
+        "nom",
+        "-ate"
+      ],
+      "partsNote": "名を挙げる → 指名する"
+    },
+    {
+      "headword": "nominal",
+      "parts": [
+        "nom",
+        "-al"
+      ],
+      "partsNote": "名ばかりの → 名目上の"
+    },
+    {
+      "headword": "economy",
+      "parts": [
+        "nom"
+      ],
+      "partsNote": "家を治める決まり → 経済"
+    },
+    {
+      "headword": "economic",
+      "parts": [
+        "nom",
+        "-ic"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "economics",
+      "parts": [
+        "nom",
+        "-ic"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "economical",
+      "parts": [
+        "nom",
+        "-ic",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "autonomy",
+      "parts": [
+        "auto-",
+        "nom"
+      ],
+      "partsNote": "自らの決まりで治める → 自治"
+    },
+    {
+      "headword": "astronomy",
+      "parts": [
+        "nom"
+      ],
+      "partsNote": "星の決まり → 天文学"
+    },
+    {
+      "headword": "phenomenon",
+      "parts": [
+        "nom"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "expel",
+      "parts": [
+        "ex-",
+        "pel"
+      ],
+      "partsNote": "外へ追いやる → 追放する"
+    },
+    {
+      "headword": "dispel",
+      "parts": [
+        "dis-",
+        "pel"
+      ],
+      "partsNote": "ばらばらに追いやる → 払いのける"
+    },
+    {
+      "headword": "propel",
+      "parts": [
+        "pro-",
+        "pel"
+      ],
+      "partsNote": "前へ押す → 推進する"
+    },
+    {
+      "headword": "compulsion",
+      "parts": [
+        "com-",
+        "pel",
+        "-sion"
+      ],
+      "partsNote": "強く押すこと → 強制・衝動"
+    },
+    {
+      "headword": "compulsory",
+      "parts": [
+        "com-",
+        "pel"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "impulse",
+      "parts": [
+        "im-",
+        "pel"
+      ],
+      "partsNote": "中から押す力 → 衝動"
+    },
+    {
+      "headword": "impulsive",
+      "parts": [
+        "im-",
+        "pel",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "pulse",
+      "parts": [
+        "pel"
+      ],
+      "partsNote": "押す動き → 脈"
+    },
+    {
+      "headword": "depend",
+      "parts": [
+        "de-",
+        "pend"
+      ],
+      "partsNote": "下にぶら下がる → 頼る"
+    },
+    {
+      "headword": "dependent",
+      "parts": [
+        "de-",
+        "pend",
+        "-ent"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "independent",
+      "parts": [
+        "in-",
+        "de-",
+        "pend",
+        "-ent"
+      ],
+      "partsNote": "ぶら下がらない → 独立した"
+    },
+    {
+      "headword": "independence",
+      "parts": [
+        "in-",
+        "de-",
+        "pend",
+        "-ence"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "suspend",
+      "parts": [
+        "sub-",
+        "pend"
+      ],
+      "partsNote": "下へつるす → 一時停止する"
+    },
+    {
+      "headword": "spend",
+      "parts": [
+        "pend"
+      ],
+      "partsNote": "量って払う → 費やす"
+    },
+    {
+      "headword": "expense",
+      "parts": [
+        "ex-",
+        "pend"
+      ],
+      "partsNote": "払い出したもの → 費用"
+    },
+    {
+      "headword": "expensive",
+      "parts": [
+        "ex-",
+        "pend",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "expenditure",
+      "parts": [
+        "ex-",
+        "pend"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "dispensable",
+      "parts": [
+        "dis-",
+        "pend",
+        "-able"
+      ],
+      "partsNote": "分け与えて済む → なくても困らない"
+    },
+    {
+      "headword": "compensate",
+      "parts": [
+        "com-",
+        "pend",
+        "-ate"
+      ],
+      "partsNote": "釣り合うように量る → 補償する"
+    },
+    {
+      "headword": "compensation",
+      "parts": [
+        "com-",
+        "pend",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "pension",
+      "parts": [
+        "pend",
+        "-sion"
+      ],
+      "partsNote": "量って払うもの → 年金"
+    },
+    {
+      "headword": "pensioner",
+      "parts": [
+        "pend",
+        "-sion",
+        "-er"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "stipend",
+      "parts": [
+        "pend"
+      ],
+      "partsNote": "量って払う手当 → 奨学金・手当"
+    },
+    {
+      "headword": "pendulum",
+      "parts": [
+        "pend"
+      ],
+      "partsNote": "つり下がるもの → 振り子"
+    },
+    {
+      "headword": "apply",
+      "parts": [
+        "ad-",
+        "plic"
+      ],
+      "partsNote": "そちらへ重ねる → 応用する・申し込む"
+    },
+    {
+      "headword": "applicant",
+      "parts": [
+        "ad-",
+        "plic",
+        "-ant"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "application",
+      "parts": [
+        "ad-",
+        "plic",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "imply",
+      "parts": [
+        "im-",
+        "plic"
+      ],
+      "partsNote": "中へ折り込む → ほのめかす"
+    },
+    {
+      "headword": "implication",
+      "parts": [
+        "im-",
+        "plic",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "implicit",
+      "parts": [
+        "im-",
+        "plic"
+      ],
+      "partsNote": "折り込まれた → 暗黙の"
+    },
+    {
+      "headword": "implicitly",
+      "parts": [
+        "im-",
+        "plic",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "explicit",
+      "parts": [
+        "ex-",
+        "plic"
+      ],
+      "partsNote": "折り目を外へ開いた → 明確な"
+    },
+    {
+      "headword": "explicitly",
+      "parts": [
+        "ex-",
+        "plic",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "reply",
+      "parts": [
+        "re-",
+        "plic"
+      ],
+      "partsNote": "折り返す → 返答する"
+    },
+    {
+      "headword": "replicate",
+      "parts": [
+        "re-",
+        "plic",
+        "-ate"
+      ],
+      "partsNote": "折り返して同じ物を作る → 複製する"
+    },
+    {
+      "headword": "complicated",
+      "parts": [
+        "com-",
+        "plic"
+      ],
+      "partsNote": "折り重なった → 複雑な"
+    },
+    {
+      "headword": "duplicate",
+      "parts": [
+        "plic",
+        "-ate"
+      ],
+      "partsNote": "二重に折る → 複製する"
+    },
+    {
+      "headword": "multiply",
+      "parts": [
+        "multi-",
+        "plic"
+      ],
+      "partsNote": "何重にも折る → かけ算する・増やす"
+    },
+    {
+      "headword": "complex",
+      "parts": [
+        "com-",
+        "plic"
+      ],
+      "partsNote": "折り合わさった → 複雑な"
+    },
+    {
+      "headword": "supply",
+      "parts": [
+        "sub-",
+        "plic"
+      ],
+      "partsNote": "下から満たす → 供給する"
+    },
+    {
+      "headword": "primary",
+      "parts": [
+        "prim"
+      ],
+      "partsNote": "第一の → 主要な"
+    },
+    {
+      "headword": "primarily",
+      "parts": [
+        "prim",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "primitive",
+      "parts": [
+        "prim",
+        "-ive"
+      ],
+      "partsNote": "最初の段階の → 原始的な"
+    },
+    {
+      "headword": "prime",
+      "parts": [
+        "prim"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "compute",
+      "parts": [
+        "com-",
+        "put"
+      ],
+      "partsNote": "まとめて数える → 計算する"
+    },
+    {
+      "headword": "computer",
+      "parts": [
+        "com-",
+        "put",
+        "-er"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "dispute",
+      "parts": [
+        "dis-",
+        "put"
+      ],
+      "partsNote": "別々に考える → 論争する"
+    },
+    {
+      "headword": "reputation",
+      "parts": [
+        "re-",
+        "put",
+        "-tion"
+      ],
+      "partsNote": "繰り返し考えられること → 評判"
+    },
+    {
+      "headword": "require",
+      "parts": [
+        "re-",
+        "quir"
+      ],
+      "partsNote": "強く求める → 必要とする"
+    },
+    {
+      "headword": "requirement",
+      "parts": [
+        "re-",
+        "quir",
+        "-ment"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "request",
+      "parts": [
+        "re-",
+        "quir"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "acquire",
+      "parts": [
+        "ad-",
+        "quir"
+      ],
+      "partsNote": "求めて手に入れる → 習得する"
+    },
+    {
+      "headword": "acquisition",
+      "parts": [
+        "ad-",
+        "quir",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "inquire",
+      "parts": [
+        "in-",
+        "quir"
+      ],
+      "partsNote": "中を問う → 尋ねる"
+    },
+    {
+      "headword": "inquiry",
+      "parts": [
+        "in-",
+        "quir"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "inquisitive",
+      "parts": [
+        "in-",
+        "quir",
+        "-ive"
+      ],
+      "partsNote": "問いたがる → 好奇心の強い"
+    },
+    {
+      "headword": "question",
+      "parts": [
+        "quir",
+        "-tion"
+      ],
+      "partsNote": "求めること → 質問"
+    },
+    {
+      "headword": "questionnaire",
+      "parts": [
+        "quir",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "unquestionably",
+      "parts": [
+        "un-",
+        "quir",
+        "-tion",
+        "-able",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "exquisite",
+      "parts": [
+        "ex-",
+        "quir"
+      ],
+      "partsNote": "探し出した → 極上の"
+    },
+    {
+      "headword": "regulate",
+      "parts": [
+        "reg",
+        "-ate"
+      ],
+      "partsNote": "きまりで治める → 規制する"
+    },
+    {
+      "headword": "regulation",
+      "parts": [
+        "reg",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "deregulation",
+      "parts": [
+        "de-",
+        "reg",
+        "-tion"
+      ],
+      "partsNote": "規制を外すこと → 規制緩和"
+    },
+    {
+      "headword": "regular",
+      "parts": [
+        "reg"
+      ],
+      "partsNote": "きまりに沿った → 規則的な"
+    },
+    {
+      "headword": "regime",
+      "parts": [
+        "reg"
+      ],
+      "partsNote": "治め方 → 政権"
+    },
+    {
+      "headword": "region",
+      "parts": [
+        "reg"
+      ],
+      "partsNote": "治める範囲 → 地域"
+    },
+    {
+      "headword": "correct",
+      "parts": [
+        "con-",
+        "reg"
+      ],
+      "partsNote": "すっかりまっすぐにする → 正す"
+    },
+    {
+      "headword": "direct",
+      "parts": [
+        "dis-",
+        "reg"
+      ],
+      "partsNote": "まっすぐ向ける → 直接の・指図する"
+    },
+    {
+      "headword": "direction",
+      "parts": [
+        "dis-",
+        "reg",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "directly",
+      "parts": [
+        "dis-",
+        "reg",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "indirectly",
+      "parts": [
+        "in-",
+        "dis-",
+        "reg",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "rectify",
+      "parts": [
+        "reg",
+        "-ify"
+      ],
+      "partsNote": "まっすぐにする → 正す"
+    },
+    {
+      "headword": "interrogate",
+      "parts": [
+        "inter-",
+        "rog"
+      ],
+      "partsNote": "間に立って問う → 尋問する"
+    },
+    {
+      "headword": "arrogance",
+      "parts": [
+        "ad-",
+        "rog",
+        "-ance"
+      ],
+      "partsNote": "自分に求めすぎること → ごう慢"
+    },
+    {
+      "headword": "arrogant",
+      "parts": [
+        "ad-",
+        "rog",
+        "-ant"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "transcend",
+      "parts": [
+        "trans-",
+        "scend"
+      ],
+      "partsNote": "越えて登る → 超越する"
+    },
+    {
+      "headword": "descend",
+      "parts": [
+        "de-",
+        "scend"
+      ],
+      "partsNote": "下へ向かう → 下る"
+    },
+    {
+      "headword": "ascend",
+      "parts": [
+        "ad-",
+        "scend"
+      ],
+      "partsNote": "上へ登る → 上がる"
+    },
+    {
+      "headword": "serve",
+      "parts": [
+        "serv"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "servant",
+      "parts": [
+        "serv",
+        "-ant"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "server",
+      "parts": [
+        "serv",
+        "-er"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "service",
+      "parts": [
+        "serv"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "servile",
+      "parts": [
+        "serv"
+      ],
+      "partsNote": "仕えるような → 卑屈な"
+    },
+    {
+      "headword": "preserve",
+      "parts": [
+        "pre-",
+        "serv"
+      ],
+      "partsNote": "前もって保つ → 保存する"
+    },
+    {
+      "headword": "conserve",
+      "parts": [
+        "con-",
+        "serv"
+      ],
+      "partsNote": "しっかり保つ → 保全する"
+    },
+    {
+      "headword": "conservation",
+      "parts": [
+        "con-",
+        "serv",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "reserve",
+      "parts": [
+        "re-",
+        "serv"
+      ],
+      "partsNote": "取っておく → 予約する"
+    },
+    {
+      "headword": "reserved",
+      "parts": [
+        "re-",
+        "serv"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "reservoir",
+      "parts": [
+        "re-",
+        "serv"
+      ],
+      "partsNote": "取っておく所 → 貯水池"
+    },
+    {
+      "headword": "observe",
+      "parts": [
+        "ob-",
+        "serv"
+      ],
+      "partsNote": "向かって見守る → 観察する"
+    },
+    {
+      "headword": "deserve",
+      "parts": [
+        "de-",
+        "serv"
+      ],
+      "partsNote": "しっかり仕える → 値する"
+    },
+    {
+      "headword": "signal",
+      "parts": [
+        "sign",
+        "-al"
+      ],
+      "partsNote": "しるし → 合図"
+    },
+    {
+      "headword": "design",
+      "parts": [
+        "de-",
+        "sign"
+      ],
+      "partsNote": "しるしを書き出す → 設計する"
+    },
+    {
+      "headword": "designer",
+      "parts": [
+        "de-",
+        "sign",
+        "-er"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "designate",
+      "parts": [
+        "de-",
+        "sign",
+        "-ate"
+      ],
+      "partsNote": "しるしを付ける → 指定する"
+    },
+    {
+      "headword": "assign",
+      "parts": [
+        "ad-",
+        "sign"
+      ],
+      "partsNote": "しるしを付けて割り当てる → 割り当てる"
+    },
+    {
+      "headword": "assignment",
+      "parts": [
+        "ad-",
+        "sign",
+        "-ment"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "resign",
+      "parts": [
+        "re-",
+        "sign"
+      ],
+      "partsNote": "署名を返す → 辞職する"
+    },
+    {
+      "headword": "resignation",
+      "parts": [
+        "re-",
+        "sign",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "consignment",
+      "parts": [
+        "con-",
+        "sign",
+        "-ment"
+      ],
+      "partsNote": "しるしを付けて託すこと → 委託品"
+    },
+    {
+      "headword": "solve",
+      "parts": [
+        "sol"
+      ],
+      "partsNote": "ゆるめてほどく → 解く"
+    },
+    {
+      "headword": "solution",
+      "parts": [
+        "sol",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "resolve",
+      "parts": [
+        "re-",
+        "sol"
+      ],
+      "partsNote": "ほどき切る → 解決する・決意する"
+    },
+    {
+      "headword": "resolution",
+      "parts": [
+        "re-",
+        "sol",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "dissolve",
+      "parts": [
+        "dis-",
+        "sol"
+      ],
+      "partsNote": "ばらばらにほどく → 溶かす"
+    },
+    {
+      "headword": "absolute",
+      "parts": [
+        "ab-",
+        "sol"
+      ],
+      "partsNote": "しばりを離れた → 絶対の"
+    },
+    {
+      "headword": "absolutely",
+      "parts": [
+        "ab-",
+        "sol",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "solvency",
+      "parts": [
+        "sol",
+        "-ence"
+      ],
+      "partsNote": "支払ってほどけること → 支払能力"
+    },
+    {
+      "headword": "sole",
+      "parts": [
+        "sol"
+      ],
+      "partsNote": "ひとりだけの → 唯一の"
+    },
+    {
+      "headword": "solitude",
+      "parts": [
+        "sol"
+      ],
+      "partsNote": "ひとりでいること → 孤独"
+    },
+    {
+      "headword": "resonate",
+      "parts": [
+        "re-",
+        "son",
+        "-ate"
+      ],
+      "partsNote": "音が返る → 響く"
+    },
+    {
+      "headword": "song",
+      "parts": [
+        "son"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "respond",
+      "parts": [
+        "re-",
+        "spond"
+      ],
+      "partsNote": "答え返す → 応答する"
+    },
+    {
+      "headword": "response",
+      "parts": [
+        "re-",
+        "spond"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "responsible",
+      "parts": [
+        "re-",
+        "spond",
+        "-ible"
+      ],
+      "partsNote": "答えられる → 責任のある"
+    },
+    {
+      "headword": "responsibility",
+      "parts": [
+        "re-",
+        "spond",
+        "-ible",
+        "-ity"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "correspond",
+      "parts": [
+        "con-",
+        "spond"
+      ],
+      "partsNote": "互いに答え合う → 一致する・文通する"
+    },
+    {
+      "headword": "correspondence",
+      "parts": [
+        "con-",
+        "spond",
+        "-ence"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "sponsor",
+      "parts": [
+        "spond",
+        "-or"
+      ],
+      "partsNote": "約束する人 → 後援者"
+    },
+    {
+      "headword": "sponsorship",
+      "parts": [
+        "spond",
+        "-or",
+        "-ship"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "temporary",
+      "parts": [
+        "tempor"
+      ],
+      "partsNote": "その時だけの → 一時的な"
+    },
+    {
+      "headword": "temporarily",
+      "parts": [
+        "tempor",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "contemporary",
+      "parts": [
+        "con-",
+        "tempor"
+      ],
+      "partsNote": "時を共にする → 同時代の"
+    },
+    {
+      "headword": "temperature",
+      "parts": [
+        "tempor"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "territory",
+      "parts": [
+        "terr"
+      ],
+      "partsNote": "土地の範囲 → 領土"
+    },
+    {
+      "headword": "testify",
+      "parts": [
+        "test",
+        "-ify"
+      ],
+      "partsNote": "証人として述べる → 証言する"
+    },
+    {
+      "headword": "testimony",
+      "parts": [
+        "test"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "contest",
+      "parts": [
+        "con-",
+        "test"
+      ],
+      "partsNote": "互いに証言し合う → 競う"
+    },
+    {
+      "headword": "protest",
+      "parts": [
+        "pro-",
+        "test"
+      ],
+      "partsNote": "人前で言い立てる → 抗議する"
+    },
+    {
+      "headword": "value",
+      "parts": [
+        "val"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "valuable",
+      "parts": [
+        "val",
+        "-able"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "valuation",
+      "parts": [
+        "val",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "evaluate",
+      "parts": [
+        "ex-",
+        "val",
+        "-ate"
+      ],
+      "partsNote": "価値を取り出す → 評価する"
+    },
+    {
+      "headword": "evaluation",
+      "parts": [
+        "ex-",
+        "val",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "valid",
+      "parts": [
+        "val"
+      ],
+      "partsNote": "力がある → 有効な"
+    },
+    {
+      "headword": "invalid",
+      "parts": [
+        "in-",
+        "val"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "validate",
+      "parts": [
+        "val",
+        "-ate"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "prevalent",
+      "parts": [
+        "pre-",
+        "val",
+        "-ent"
+      ],
+      "partsNote": "前に出て強い → 広まっている"
+    },
+    {
+      "headword": "ambivalence",
+      "parts": [
+        "val",
+        "-ence"
+      ],
+      "partsNote": "両方に力が働くこと → 相反する感情"
+    },
+    {
+      "headword": "available",
+      "parts": [
+        "ad-",
+        "val",
+        "-able"
+      ],
+      "partsNote": "役に立てられる → 利用できる"
+    },
+    {
+      "headword": "valiant",
+      "parts": [
+        "val",
+        "-ant"
+      ],
+      "partsNote": "力のある → 勇敢な"
+    },
+    {
+      "headword": "prevail",
+      "parts": [
+        "pre-",
+        "val"
+      ],
+      "partsNote": "前に出て強い → 打ち勝つ・広まる"
+    },
+    {
+      "headword": "prevent",
+      "parts": [
+        "pre-",
+        "ven"
+      ],
+      "partsNote": "前に来て立ちふさがる → 防ぐ"
+    },
+    {
+      "headword": "invent",
+      "parts": [
+        "in-",
+        "ven"
+      ],
+      "partsNote": "そこへ来て出会う → 発明する"
+    },
+    {
+      "headword": "invention",
+      "parts": [
+        "in-",
+        "ven",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "inventor",
+      "parts": [
+        "in-",
+        "ven",
+        "-or"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "inventory",
+      "parts": [
+        "in-",
+        "ven"
+      ],
+      "partsNote": "見つけたものの一覧 → 在庫"
+    },
+    {
+      "headword": "convenient",
+      "parts": [
+        "con-",
+        "ven",
+        "-ent"
+      ],
+      "partsNote": "都合よく来合わせる → 便利な"
+    },
+    {
+      "headword": "conveniently",
+      "parts": [
+        "con-",
+        "ven",
+        "-ent",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "convention",
+      "parts": [
+        "con-",
+        "ven",
+        "-tion"
+      ],
+      "partsNote": "集まって来ること → 慣習・大会"
+    },
+    {
+      "headword": "conventional",
+      "parts": [
+        "con-",
+        "ven",
+        "-tion",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "revenue",
+      "parts": [
+        "re-",
+        "ven"
+      ],
+      "partsNote": "戻って来るもの → 収益"
+    },
+    {
+      "headword": "venue",
+      "parts": [
+        "ven"
+      ],
+      "partsNote": "人が来る所 → 会場"
+    },
+    {
+      "headword": "adventure",
+      "parts": [
+        "ad-",
+        "ven"
+      ],
+      "partsNote": "やって来ること → 冒険"
+    },
+    {
+      "headword": "avenue",
+      "parts": [
+        "ven"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "circumvent",
+      "parts": [
+        "circum-",
+        "ven"
+      ],
+      "partsNote": "周りから来る → 回避する"
+    },
+    {
+      "headword": "souvenir",
+      "parts": [
+        "ven"
+      ],
+      "partsNote": "思い出が戻って来るもの → 土産"
+    },
+    {
+      "headword": "vendor",
+      "parts": [
+        "ven"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "verbal",
+      "parts": [
+        "verb",
+        "-al"
+      ],
+      "partsNote": "言葉の → 口頭の"
+    },
+    {
+      "headword": "proverb",
+      "parts": [
+        "pro-",
+        "verb"
+      ],
+      "partsNote": "人前で言われる言葉 → ことわざ"
+    },
+    {
+      "headword": "convey",
+      "parts": [
+        "con-",
+        "via"
+      ],
+      "partsNote": "道を共に行かせる → 伝える・運ぶ"
+    },
+    {
+      "headword": "conveyor",
+      "parts": [
+        "con-",
+        "via",
+        "-or"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "voyage",
+      "parts": [
+        "via",
+        "-age"
+      ],
+      "partsNote": "道を行くこと → 航海"
+    },
+    {
+      "headword": "deviation",
+      "parts": [
+        "de-",
+        "via",
+        "-tion"
+      ],
+      "partsNote": "道から外れること → 逸脱"
+    },
+    {
+      "headword": "obvious",
+      "parts": [
+        "ob-",
+        "via",
+        "-ous"
+      ],
+      "partsNote": "道の前にある → 明らかな"
+    },
+    {
+      "headword": "previous",
+      "parts": [
+        "pre-",
+        "via",
+        "-ous"
+      ],
+      "partsNote": "先の道を行く → 前の"
+    },
+    {
+      "headword": "involve",
+      "parts": [
+        "in-",
+        "volv"
+      ],
+      "partsNote": "中へ巻き込む → 含む・巻き込む"
+    },
+    {
+      "headword": "evolve",
+      "parts": [
+        "ex-",
+        "volv"
+      ],
+      "partsNote": "巻きを外へ開く → 進化する"
+    },
+    {
+      "headword": "evolution",
+      "parts": [
+        "ex-",
+        "volv",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "revolution",
+      "parts": [
+        "re-",
+        "volv",
+        "-tion"
+      ],
+      "partsNote": "回り返ること → 革命・回転"
+    },
+    {
+      "headword": "volume",
+      "parts": [
+        "volv"
+      ],
+      "partsNote": "巻いたもの → 巻・量"
+    }
+  ]
+}

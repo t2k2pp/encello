@@ -1,0 +1,1515 @@
+{
+  "note": "派生語ファミリー（[Docs/06_features/word_families.md] §2）。綴りが派生関係にある語だけを束ねる。意味が近いだけの語は束ねない。",
+  "families": [
+    {
+      "baseForm": "achieve",
+      "note": null,
+      "members": [
+        "achieve",
+        "achievement"
+      ]
+    },
+    {
+      "baseForm": "act",
+      "note": null,
+      "members": [
+        "act",
+        "action",
+        "active",
+        "actively",
+        "activity",
+        "actual",
+        "actually",
+        "activist"
+      ]
+    },
+    {
+      "baseForm": "add",
+      "note": null,
+      "members": [
+        "add",
+        "addition",
+        "additional",
+        "additionally"
+      ]
+    },
+    {
+      "baseForm": "admire",
+      "note": null,
+      "members": [
+        "admire",
+        "admiration"
+      ]
+    },
+    {
+      "baseForm": "admit",
+      "note": null,
+      "members": [
+        "admit",
+        "admission"
+      ]
+    },
+    {
+      "baseForm": "advertise",
+      "note": null,
+      "members": [
+        "advertise",
+        "advertisement",
+        "advertising"
+      ]
+    },
+    {
+      "baseForm": "advise",
+      "note": "名詞は c、動詞は s",
+      "members": [
+        "advise",
+        "advice"
+      ]
+    },
+    {
+      "baseForm": "agree",
+      "note": null,
+      "members": [
+        "agree",
+        "agreement",
+        "disagree"
+      ]
+    },
+    {
+      "baseForm": "analyze",
+      "note": null,
+      "members": [
+        "analyze",
+        "analysis"
+      ]
+    },
+    {
+      "baseForm": "announce",
+      "note": null,
+      "members": [
+        "announce",
+        "announcement"
+      ]
+    },
+    {
+      "baseForm": "apply",
+      "note": null,
+      "members": [
+        "apply",
+        "application",
+        "applicant"
+      ]
+    },
+    {
+      "baseForm": "appoint",
+      "note": null,
+      "members": [
+        "appoint",
+        "appointment"
+      ]
+    },
+    {
+      "baseForm": "approve",
+      "note": null,
+      "members": [
+        "approve",
+        "approval"
+      ]
+    },
+    {
+      "baseForm": "argue",
+      "note": null,
+      "members": [
+        "argue",
+        "argument",
+        "arguably"
+      ]
+    },
+    {
+      "baseForm": "arrive",
+      "note": null,
+      "members": [
+        "arrive",
+        "arrival"
+      ]
+    },
+    {
+      "baseForm": "assign",
+      "note": null,
+      "members": [
+        "assign",
+        "assignment"
+      ]
+    },
+    {
+      "baseForm": "assist",
+      "note": null,
+      "members": [
+        "assist",
+        "assistance",
+        "assistant"
+      ]
+    },
+    {
+      "baseForm": "attend",
+      "note": null,
+      "members": [
+        "attend",
+        "attendance",
+        "attendant",
+        "attention",
+        "attentive"
+      ]
+    },
+    {
+      "baseForm": "attract",
+      "note": null,
+      "members": [
+        "attract",
+        "attraction",
+        "attractive"
+      ]
+    },
+    {
+      "baseForm": "beauty",
+      "note": null,
+      "members": [
+        "beauty",
+        "beautiful"
+      ]
+    },
+    {
+      "baseForm": "begin",
+      "note": null,
+      "members": [
+        "begin",
+        "beginner",
+        "beginning"
+      ]
+    },
+    {
+      "baseForm": "believe",
+      "note": "名詞は f、動詞は v",
+      "members": [
+        "believe",
+        "belief"
+      ]
+    },
+    {
+      "baseForm": "care",
+      "note": null,
+      "members": [
+        "care",
+        "careful",
+        "carefully",
+        "careless"
+      ]
+    },
+    {
+      "baseForm": "celebrate",
+      "note": null,
+      "members": [
+        "celebrate",
+        "celebration"
+      ]
+    },
+    {
+      "baseForm": "choose",
+      "note": "不規則な派生",
+      "members": [
+        "choose",
+        "choice"
+      ]
+    },
+    {
+      "baseForm": "collect",
+      "note": null,
+      "members": [
+        "collect",
+        "collection",
+        "collective",
+        "collectively"
+      ]
+    },
+    {
+      "baseForm": "compare",
+      "note": null,
+      "members": [
+        "compare",
+        "comparison",
+        "comparatively"
+      ]
+    },
+    {
+      "baseForm": "compete",
+      "note": null,
+      "members": [
+        "compete",
+        "competition",
+        "competitive",
+        "competitor"
+      ]
+    },
+    {
+      "baseForm": "complain",
+      "note": null,
+      "members": [
+        "complain",
+        "complaint"
+      ]
+    },
+    {
+      "baseForm": "complete",
+      "note": null,
+      "members": [
+        "complete",
+        "completely",
+        "completion"
+      ]
+    },
+    {
+      "baseForm": "conclude",
+      "note": null,
+      "members": [
+        "conclude",
+        "conclusion"
+      ]
+    },
+    {
+      "baseForm": "confide",
+      "note": null,
+      "members": [
+        "confide",
+        "confidence",
+        "confident"
+      ]
+    },
+    {
+      "baseForm": "confuse",
+      "note": null,
+      "members": [
+        "confuse",
+        "confusion"
+      ]
+    },
+    {
+      "baseForm": "consider",
+      "note": null,
+      "members": [
+        "consider",
+        "consideration",
+        "considerable",
+        "considerably",
+        "considerate"
+      ]
+    },
+    {
+      "baseForm": "construct",
+      "note": null,
+      "members": [
+        "construct",
+        "construction"
+      ]
+    },
+    {
+      "baseForm": "contain",
+      "note": null,
+      "members": [
+        "contain",
+        "container",
+        "content"
+      ]
+    },
+    {
+      "baseForm": "continue",
+      "note": null,
+      "members": [
+        "continue",
+        "continuous",
+        "continuously"
+      ]
+    },
+    {
+      "baseForm": "contribute",
+      "note": null,
+      "members": [
+        "contribute",
+        "contribution"
+      ]
+    },
+    {
+      "baseForm": "create",
+      "note": null,
+      "members": [
+        "create",
+        "creation",
+        "creative",
+        "creature",
+        "creativity"
+      ]
+    },
+    {
+      "baseForm": "danger",
+      "note": null,
+      "members": [
+        "danger",
+        "dangerous"
+      ]
+    },
+    {
+      "baseForm": "decide",
+      "note": "-sion 型の名詞化",
+      "members": [
+        "decide",
+        "decision",
+        "decisive",
+        "decidedly"
+      ]
+    },
+    {
+      "baseForm": "deep",
+      "note": "不規則な派生",
+      "members": [
+        "deep",
+        "deeply",
+        "depth"
+      ]
+    },
+    {
+      "baseForm": "defend",
+      "note": "不規則な派生",
+      "members": [
+        "defend",
+        "defense",
+        "defensive"
+      ]
+    },
+    {
+      "baseForm": "define",
+      "note": null,
+      "members": [
+        "define",
+        "definition",
+        "definitely",
+        "definitive"
+      ]
+    },
+    {
+      "baseForm": "deliver",
+      "note": null,
+      "members": [
+        "deliver",
+        "delivery"
+      ]
+    },
+    {
+      "baseForm": "depend",
+      "note": null,
+      "members": [
+        "depend",
+        "dependent",
+        "independent",
+        "independence"
+      ]
+    },
+    {
+      "baseForm": "describe",
+      "note": null,
+      "members": [
+        "describe",
+        "description"
+      ]
+    },
+    {
+      "baseForm": "destroy",
+      "note": "不規則な派生",
+      "members": [
+        "destroy",
+        "destruction"
+      ]
+    },
+    {
+      "baseForm": "develop",
+      "note": null,
+      "members": [
+        "develop",
+        "development"
+      ]
+    },
+    {
+      "baseForm": "differ",
+      "note": null,
+      "members": [
+        "differ",
+        "difference",
+        "different",
+        "differently",
+        "differentiate"
+      ]
+    },
+    {
+      "baseForm": "discover",
+      "note": null,
+      "members": [
+        "discover",
+        "discovery"
+      ]
+    },
+    {
+      "baseForm": "discuss",
+      "note": null,
+      "members": [
+        "discuss",
+        "discussion"
+      ]
+    },
+    {
+      "baseForm": "divide",
+      "note": null,
+      "members": [
+        "divide",
+        "division",
+        "dividend"
+      ]
+    },
+    {
+      "baseForm": "economy",
+      "note": null,
+      "members": [
+        "economy",
+        "economic",
+        "economical",
+        "economics"
+      ]
+    },
+    {
+      "baseForm": "educate",
+      "note": null,
+      "members": [
+        "educate",
+        "education",
+        "educational"
+      ]
+    },
+    {
+      "baseForm": "elect",
+      "note": null,
+      "members": [
+        "elect",
+        "election",
+        "electorate"
+      ]
+    },
+    {
+      "baseForm": "employ",
+      "note": null,
+      "members": [
+        "employ",
+        "employee",
+        "employer",
+        "employment",
+        "unemployment"
+      ]
+    },
+    {
+      "baseForm": "encourage",
+      "note": null,
+      "members": [
+        "encourage",
+        "encouragement",
+        "discourage"
+      ]
+    },
+    {
+      "baseForm": "enter",
+      "note": null,
+      "members": [
+        "enter",
+        "entrance"
+      ]
+    },
+    {
+      "baseForm": "environment",
+      "note": null,
+      "members": [
+        "environment",
+        "environmental"
+      ]
+    },
+    {
+      "baseForm": "equal",
+      "note": null,
+      "members": [
+        "equal",
+        "equally",
+        "equality"
+      ]
+    },
+    {
+      "baseForm": "evaluate",
+      "note": null,
+      "members": [
+        "evaluate",
+        "evaluation"
+      ]
+    },
+    {
+      "baseForm": "examine",
+      "note": null,
+      "members": [
+        "examine",
+        "examination"
+      ]
+    },
+    {
+      "baseForm": "excite",
+      "note": null,
+      "members": [
+        "excite",
+        "excited",
+        "exciting",
+        "excitement"
+      ]
+    },
+    {
+      "baseForm": "exist",
+      "note": null,
+      "members": [
+        "exist",
+        "existence"
+      ]
+    },
+    {
+      "baseForm": "expand",
+      "note": "不規則な派生",
+      "members": [
+        "expand",
+        "expansion"
+      ]
+    },
+    {
+      "baseForm": "expect",
+      "note": null,
+      "members": [
+        "expect",
+        "expectation",
+        "expectancy"
+      ]
+    },
+    {
+      "baseForm": "explain",
+      "note": "不規則な派生",
+      "members": [
+        "explain",
+        "explanation"
+      ]
+    },
+    {
+      "baseForm": "express",
+      "note": null,
+      "members": [
+        "express",
+        "expression",
+        "expressway"
+      ]
+    },
+    {
+      "baseForm": "fail",
+      "note": null,
+      "members": [
+        "fail",
+        "failure"
+      ]
+    },
+    {
+      "baseForm": "final",
+      "note": null,
+      "members": [
+        "final",
+        "finally"
+      ]
+    },
+    {
+      "baseForm": "friend",
+      "note": null,
+      "members": [
+        "friend",
+        "friendly",
+        "friendship"
+      ]
+    },
+    {
+      "baseForm": "generate",
+      "note": null,
+      "members": [
+        "generate",
+        "generation"
+      ]
+    },
+    {
+      "baseForm": "govern",
+      "note": null,
+      "members": [
+        "govern",
+        "government",
+        "governance"
+      ]
+    },
+    {
+      "baseForm": "grow",
+      "note": "不規則な派生",
+      "members": [
+        "grow",
+        "growth"
+      ]
+    },
+    {
+      "baseForm": "happy",
+      "note": null,
+      "members": [
+        "happy",
+        "happily",
+        "happiness",
+        "unhappy"
+      ]
+    },
+    {
+      "baseForm": "heal",
+      "note": null,
+      "members": [
+        "heal",
+        "health",
+        "healthy"
+      ]
+    },
+    {
+      "baseForm": "help",
+      "note": null,
+      "members": [
+        "help",
+        "helpful",
+        "helpless"
+      ]
+    },
+    {
+      "baseForm": "high",
+      "note": "不規則な派生",
+      "members": [
+        "high",
+        "highly",
+        "height",
+        "heighten"
+      ]
+    },
+    {
+      "baseForm": "hope",
+      "note": null,
+      "members": [
+        "hope",
+        "hopeful"
+      ]
+    },
+    {
+      "baseForm": "imagine",
+      "note": null,
+      "members": [
+        "imagine",
+        "imagination",
+        "imaginary",
+        "imagery"
+      ]
+    },
+    {
+      "baseForm": "important",
+      "note": null,
+      "members": [
+        "important",
+        "importance"
+      ]
+    },
+    {
+      "baseForm": "improve",
+      "note": null,
+      "members": [
+        "improve",
+        "improvement"
+      ]
+    },
+    {
+      "baseForm": "include",
+      "note": null,
+      "members": [
+        "include",
+        "inclusion",
+        "including"
+      ]
+    },
+    {
+      "baseForm": "increase",
+      "note": null,
+      "members": [
+        "increase",
+        "increasingly"
+      ]
+    },
+    {
+      "baseForm": "inform",
+      "note": null,
+      "members": [
+        "inform",
+        "information",
+        "informative"
+      ]
+    },
+    {
+      "baseForm": "inspect",
+      "note": null,
+      "members": [
+        "inspect",
+        "inspection",
+        "inspector"
+      ]
+    },
+    {
+      "baseForm": "intend",
+      "note": null,
+      "members": [
+        "intend",
+        "intent",
+        "intention",
+        "intentionally"
+      ]
+    },
+    {
+      "baseForm": "introduce",
+      "note": null,
+      "members": [
+        "introduce",
+        "introduction"
+      ]
+    },
+    {
+      "baseForm": "invent",
+      "note": null,
+      "members": [
+        "invent",
+        "invention",
+        "inventor"
+      ]
+    },
+    {
+      "baseForm": "invest",
+      "note": null,
+      "members": [
+        "invest",
+        "investment",
+        "investor"
+      ]
+    },
+    {
+      "baseForm": "invite",
+      "note": "不規則な派生",
+      "members": [
+        "invite",
+        "invitation"
+      ]
+    },
+    {
+      "baseForm": "know",
+      "note": "不規則な派生",
+      "members": [
+        "know",
+        "knowledge"
+      ]
+    },
+    {
+      "baseForm": "long",
+      "note": "不規則な派生",
+      "members": [
+        "long",
+        "length",
+        "lengthen"
+      ]
+    },
+    {
+      "baseForm": "lose",
+      "note": "不規則な派生",
+      "members": [
+        "lose",
+        "loss",
+        "lost"
+      ]
+    },
+    {
+      "baseForm": "maintain",
+      "note": "不規則な派生",
+      "members": [
+        "maintain",
+        "maintenance"
+      ]
+    },
+    {
+      "baseForm": "manage",
+      "note": null,
+      "members": [
+        "manage",
+        "management",
+        "manager"
+      ]
+    },
+    {
+      "baseForm": "measure",
+      "note": null,
+      "members": [
+        "measure",
+        "measurement"
+      ]
+    },
+    {
+      "baseForm": "memory",
+      "note": null,
+      "members": [
+        "memory",
+        "memorize",
+        "remember"
+      ]
+    },
+    {
+      "baseForm": "move",
+      "note": null,
+      "members": [
+        "move",
+        "movement",
+        "movie",
+        "remove"
+      ]
+    },
+    {
+      "baseForm": "nation",
+      "note": null,
+      "members": [
+        "nation",
+        "national",
+        "nationality",
+        "international"
+      ]
+    },
+    {
+      "baseForm": "nature",
+      "note": null,
+      "members": [
+        "nature",
+        "natural",
+        "naturally"
+      ]
+    },
+    {
+      "baseForm": "necessary",
+      "note": null,
+      "members": [
+        "necessary",
+        "necessarily",
+        "necessity",
+        "necessitate"
+      ]
+    },
+    {
+      "baseForm": "negotiate",
+      "note": null,
+      "members": [
+        "negotiate",
+        "negotiation"
+      ]
+    },
+    {
+      "baseForm": "obey",
+      "note": "不規則な派生",
+      "members": [
+        "obey",
+        "obedient"
+      ]
+    },
+    {
+      "baseForm": "observe",
+      "note": null,
+      "members": [
+        "observe",
+        "observation"
+      ]
+    },
+    {
+      "baseForm": "occupy",
+      "note": null,
+      "members": [
+        "occupy",
+        "occupation"
+      ]
+    },
+    {
+      "baseForm": "operate",
+      "note": null,
+      "members": [
+        "operate",
+        "operation",
+        "operator"
+      ]
+    },
+    {
+      "baseForm": "oppose",
+      "note": null,
+      "members": [
+        "oppose",
+        "opposite",
+        "opposition",
+        "opponent"
+      ]
+    },
+    {
+      "baseForm": "organize",
+      "note": null,
+      "members": [
+        "organize",
+        "organization",
+        "organizer"
+      ]
+    },
+    {
+      "baseForm": "perform",
+      "note": null,
+      "members": [
+        "perform",
+        "performance",
+        "performer"
+      ]
+    },
+    {
+      "baseForm": "permit",
+      "note": null,
+      "members": [
+        "permit",
+        "permission"
+      ]
+    },
+    {
+      "baseForm": "persuade",
+      "note": "不規則な派生",
+      "members": [
+        "persuade",
+        "persuasion",
+        "persuasive"
+      ]
+    },
+    {
+      "baseForm": "polite",
+      "note": null,
+      "members": [
+        "polite",
+        "politely",
+        "politeness"
+      ]
+    },
+    {
+      "baseForm": "pollute",
+      "note": null,
+      "members": [
+        "pollute",
+        "pollution"
+      ]
+    },
+    {
+      "baseForm": "poor",
+      "note": "不規則な派生",
+      "members": [
+        "poor",
+        "poverty"
+      ]
+    },
+    {
+      "baseForm": "possible",
+      "note": null,
+      "members": [
+        "possible",
+        "possibly",
+        "possibility",
+        "impossible"
+      ]
+    },
+    {
+      "baseForm": "predict",
+      "note": null,
+      "members": [
+        "predict",
+        "prediction",
+        "predictable"
+      ]
+    },
+    {
+      "baseForm": "prepare",
+      "note": null,
+      "members": [
+        "prepare",
+        "preparation"
+      ]
+    },
+    {
+      "baseForm": "present",
+      "note": null,
+      "members": [
+        "present",
+        "presentation",
+        "presence"
+      ]
+    },
+    {
+      "baseForm": "preserve",
+      "note": null,
+      "members": [
+        "preserve",
+        "preservation"
+      ]
+    },
+    {
+      "baseForm": "produce",
+      "note": null,
+      "members": [
+        "produce",
+        "product",
+        "production",
+        "productive",
+        "productivity",
+        "producer"
+      ]
+    },
+    {
+      "baseForm": "protect",
+      "note": null,
+      "members": [
+        "protect",
+        "protection",
+        "protective"
+      ]
+    },
+    {
+      "baseForm": "prove",
+      "note": "不規則な派生",
+      "members": [
+        "prove",
+        "proof"
+      ]
+    },
+    {
+      "baseForm": "publish",
+      "note": null,
+      "members": [
+        "publish",
+        "publication",
+        "publisher"
+      ]
+    },
+    {
+      "baseForm": "receive",
+      "note": "不規則な派生",
+      "members": [
+        "receive",
+        "reception",
+        "receipt",
+        "recipient",
+        "receptor"
+      ]
+    },
+    {
+      "baseForm": "recognize",
+      "note": null,
+      "members": [
+        "recognize",
+        "recognition"
+      ]
+    },
+    {
+      "baseForm": "recommend",
+      "note": null,
+      "members": [
+        "recommend",
+        "recommendation"
+      ]
+    },
+    {
+      "baseForm": "reduce",
+      "note": "不規則な派生",
+      "members": [
+        "reduce",
+        "reduction"
+      ]
+    },
+    {
+      "baseForm": "refer",
+      "note": null,
+      "members": [
+        "refer",
+        "reference",
+        "referee"
+      ]
+    },
+    {
+      "baseForm": "regulate",
+      "note": null,
+      "members": [
+        "regulate",
+        "regulation"
+      ]
+    },
+    {
+      "baseForm": "relate",
+      "note": null,
+      "members": [
+        "relate",
+        "relation",
+        "relationship",
+        "relative",
+        "relatively"
+      ]
+    },
+    {
+      "baseForm": "rely",
+      "note": "不規則な派生",
+      "members": [
+        "rely",
+        "reliable",
+        "reliability"
+      ]
+    },
+    {
+      "baseForm": "repeat",
+      "note": null,
+      "members": [
+        "repeat",
+        "repetition"
+      ]
+    },
+    {
+      "baseForm": "replace",
+      "note": null,
+      "members": [
+        "replace",
+        "replacement"
+      ]
+    },
+    {
+      "baseForm": "require",
+      "note": null,
+      "members": [
+        "require",
+        "requirement"
+      ]
+    },
+    {
+      "baseForm": "reserve",
+      "note": null,
+      "members": [
+        "reserve",
+        "reservation",
+        "reserved"
+      ]
+    },
+    {
+      "baseForm": "resist",
+      "note": null,
+      "members": [
+        "resist",
+        "resistance"
+      ]
+    },
+    {
+      "baseForm": "respond",
+      "note": "不規則な派生",
+      "members": [
+        "respond",
+        "response",
+        "responsible",
+        "responsibility"
+      ]
+    },
+    {
+      "baseForm": "safe",
+      "note": null,
+      "members": [
+        "safe",
+        "safely",
+        "safety"
+      ]
+    },
+    {
+      "baseForm": "satisfy",
+      "note": "不規則な派生",
+      "members": [
+        "satisfy",
+        "satisfaction",
+        "satisfied"
+      ]
+    },
+    {
+      "baseForm": "science",
+      "note": null,
+      "members": [
+        "science",
+        "scientific",
+        "scientist"
+      ]
+    },
+    {
+      "baseForm": "select",
+      "note": null,
+      "members": [
+        "select",
+        "selection",
+        "selective"
+      ]
+    },
+    {
+      "baseForm": "sense",
+      "note": null,
+      "members": [
+        "sense",
+        "sensible",
+        "sensitive",
+        "sensor"
+      ]
+    },
+    {
+      "baseForm": "serve",
+      "note": null,
+      "members": [
+        "serve",
+        "service",
+        "servant",
+        "server"
+      ]
+    },
+    {
+      "baseForm": "settle",
+      "note": null,
+      "members": [
+        "settle",
+        "settlement"
+      ]
+    },
+    {
+      "baseForm": "sign",
+      "note": null,
+      "members": [
+        "sign",
+        "signal",
+        "significant",
+        "significance",
+        "significantly"
+      ]
+    },
+    {
+      "baseForm": "similar",
+      "note": null,
+      "members": [
+        "similar",
+        "similarly",
+        "similarity"
+      ]
+    },
+    {
+      "baseForm": "solve",
+      "note": null,
+      "members": [
+        "solve",
+        "solution",
+        "resolve",
+        "resolution"
+      ]
+    },
+    {
+      "baseForm": "special",
+      "note": null,
+      "members": [
+        "special",
+        "specially",
+        "specialist",
+        "specialize"
+      ]
+    },
+    {
+      "baseForm": "strong",
+      "note": "不規則な派生",
+      "members": [
+        "strong",
+        "strongly",
+        "strength",
+        "strengthen"
+      ]
+    },
+    {
+      "baseForm": "succeed",
+      "note": "不規則な派生",
+      "members": [
+        "succeed",
+        "success",
+        "successful",
+        "successfully"
+      ]
+    },
+    {
+      "baseForm": "suggest",
+      "note": null,
+      "members": [
+        "suggest",
+        "suggestion"
+      ]
+    },
+    {
+      "baseForm": "supply",
+      "note": null,
+      "members": [
+        "supply",
+        "supplier"
+      ]
+    },
+    {
+      "baseForm": "support",
+      "note": null,
+      "members": [
+        "support",
+        "supporter",
+        "supportive"
+      ]
+    },
+    {
+      "baseForm": "suppose",
+      "note": null,
+      "members": [
+        "suppose",
+        "supposedly"
+      ]
+    },
+    {
+      "baseForm": "survive",
+      "note": null,
+      "members": [
+        "survive",
+        "survival",
+        "survivor"
+      ]
+    },
+    {
+      "baseForm": "sustain",
+      "note": null,
+      "members": [
+        "sustain",
+        "sustainable",
+        "sustainability"
+      ]
+    },
+    {
+      "baseForm": "translate",
+      "note": null,
+      "members": [
+        "translate",
+        "translation",
+        "translator"
+      ]
+    },
+    {
+      "baseForm": "transport",
+      "note": null,
+      "members": [
+        "transport",
+        "transportation"
+      ]
+    },
+    {
+      "baseForm": "true",
+      "note": "不規則な派生",
+      "members": [
+        "true",
+        "truly",
+        "truth"
+      ]
+    },
+    {
+      "baseForm": "understand",
+      "note": null,
+      "members": [
+        "understand",
+        "understanding"
+      ]
+    },
+    {
+      "baseForm": "use",
+      "note": null,
+      "members": [
+        "use",
+        "useful",
+        "useless",
+        "user",
+        "usage"
+      ]
+    },
+    {
+      "baseForm": "value",
+      "note": null,
+      "members": [
+        "value",
+        "valuable",
+        "valuation"
+      ]
+    },
+    {
+      "baseForm": "vary",
+      "note": "不規則な派生",
+      "members": [
+        "vary",
+        "various",
+        "variety",
+        "variation"
+      ]
+    },
+    {
+      "baseForm": "visit",
+      "note": null,
+      "members": [
+        "visit",
+        "visitor"
+      ]
+    },
+    {
+      "baseForm": "warm",
+      "note": null,
+      "members": [
+        "warm",
+        "warmth"
+      ]
+    },
+    {
+      "baseForm": "weak",
+      "note": "不規則な派生",
+      "members": [
+        "weak",
+        "weakness",
+        "weaken"
+      ]
+    },
+    {
+      "baseForm": "wide",
+      "note": "不規則な派生",
+      "members": [
+        "wide",
+        "widely",
+        "width",
+        "widen"
+      ]
+    },
+    {
+      "baseForm": "wise",
+      "note": "不規則な派生",
+      "members": [
+        "wise",
+        "wisdom"
+      ]
+    }
+  ]
+}

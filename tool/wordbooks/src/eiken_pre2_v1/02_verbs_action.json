@@ -1,6 +1,6 @@
 {
   "chunk": "02_verbs_action",
-  "note": "行動・変化・作業の動詞（80語）",
+  "note": "行動・変化・作業の動詞（81語）",
   "words": [
     {
       "headword": "add",
@@ -721,6 +721,15 @@
       "exampleEn": "She wrapped the gift in blue paper.",
       "exampleJa": "彼女は青い紙でその贈り物を包みました。",
       "level": 3
+    },
+    {
+      "headword": "act",
+      "partOfSpeech": "verb",
+      "phonetic": "/ækt/",
+      "meaning": "行動する；演じる",
+      "exampleEn": "We must act quickly to solve this problem.",
+      "exampleJa": "私たちはこの問題を解決するために素早く行動しなければなりません。",
+      "level": 2
     }
   ]
 }

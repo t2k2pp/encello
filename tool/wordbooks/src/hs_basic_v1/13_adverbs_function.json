@@ -1,6 +1,6 @@
 {
   "chunk": "13_adverbs_function",
-  "note": "副詞・前置詞・接続詞（74語）",
+  "note": "副詞・前置詞・接続詞（78語）",
   "words": [
     {
       "headword": "abroad",
@@ -667,6 +667,42 @@
       "exampleEn": "She called me while I was cooking.",
       "exampleJa": "料理をしている間に彼女から電話がありました。",
       "level": 2
+    },
+    {
+      "headword": "deeply",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdiːpli/",
+      "meaning": "深く；ひどく",
+      "exampleEn": "She was deeply moved by the letter.",
+      "exampleJa": "彼女はその手紙に深く感動しました。",
+      "level": 3
+    },
+    {
+      "headword": "differently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdɪfrəntli/",
+      "meaning": "違って；異なって",
+      "exampleEn": "Each culture treats this problem differently.",
+      "exampleJa": "文化によってこの問題の扱いは異なります。",
+      "level": 3
+    },
+    {
+      "headword": "specially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈspeʃəli/",
+      "meaning": "特別に；わざわざ",
+      "exampleEn": "This room was specially built for music.",
+      "exampleJa": "この部屋は音楽のために特別に建てられました。",
+      "level": 3
+    },
+    {
+      "headword": "successfully",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səkˈsesfəli/",
+      "meaning": "うまく；首尾よく",
+      "exampleEn": "The team successfully finished the project.",
+      "exampleJa": "チームはその企画を首尾よく終えました。",
+      "level": 3
     }
   ]
 }

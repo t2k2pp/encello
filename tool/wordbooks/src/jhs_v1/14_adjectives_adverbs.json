@@ -1,6 +1,6 @@
 {
   "chunk": "14_adjectives_adverbs",
-  "note": "形容詞II（大きさ・色・感情）・副詞（95語）",
+  "note": "形容詞II（大きさ・色・感情）・副詞（100語）",
   "words": [
     {
       "headword": "happy",
@@ -856,6 +856,51 @@
       "exampleEn": "Let's go inside because it's cold.",
       "exampleJa": "寒いので中に入りましょう。",
       "level": 1
+    },
+    {
+      "headword": "happily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈhæpɪli/",
+      "meaning": "幸せに；楽しそうに",
+      "exampleEn": "The children played happily in the park.",
+      "exampleJa": "子どもたちは公園で楽しそうに遊びました。",
+      "level": 2
+    },
+    {
+      "headword": "safely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈseɪfli/",
+      "meaning": "安全に；無事に",
+      "exampleEn": "We arrived safely at the station.",
+      "exampleJa": "私たちは無事に駅に着きました。",
+      "level": 2
+    },
+    {
+      "headword": "truly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈtruːli/",
+      "meaning": "本当に；心から",
+      "exampleEn": "I am truly sorry about the mistake.",
+      "exampleJa": "その間違いを本当に申し訳なく思います。",
+      "level": 2
+    },
+    {
+      "headword": "strongly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈstrɔːŋli/",
+      "meaning": "強く；強調して",
+      "exampleEn": "He strongly disagreed with the plan.",
+      "exampleJa": "彼はその計画に強く反対しました。",
+      "level": 2
+    },
+    {
+      "headword": "politely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pəˈlaɪtli/",
+      "meaning": "礼儀正しく；ていねいに",
+      "exampleEn": "She politely asked for another chair.",
+      "exampleJa": "彼女はていねいにもう1つのいすを頼みました。",
+      "level": 2
     }
   ]
 }

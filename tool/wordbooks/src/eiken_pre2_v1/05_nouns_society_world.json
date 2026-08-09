@@ -1,6 +1,6 @@
 {
   "chunk": "05_nouns_society_world",
-  "note": "社会・世界・お金（80語）",
+  "note": "社会・世界・お金（83語）",
   "words": [
     {
       "headword": "advantage",
@@ -721,6 +721,33 @@
       "exampleEn": "He shared his wealth with poor families.",
       "exampleJa": "彼は自分の財産を貧しい家庭と分かち合いました。",
       "level": 3
+    },
+    {
+      "headword": "action",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈækʃn/",
+      "meaning": "行動；動作；アクション",
+      "exampleEn": "We must take action right now.",
+      "exampleJa": "私たちは今すぐ行動を起こさなければなりません。",
+      "level": 1
+    },
+    {
+      "headword": "agreement",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈɡriːmənt/",
+      "meaning": "合意；協定",
+      "exampleEn": "The two countries signed a peace agreement.",
+      "exampleJa": "両国は平和協定に署名しました。",
+      "level": 2
+    },
+    {
+      "headword": "creation",
+      "partOfSpeech": "noun",
+      "phonetic": "/kriˈeɪʃn/",
+      "meaning": "創造；創設；作品",
+      "exampleEn": "The creation of the park took two years.",
+      "exampleJa": "その公園の創設には2年かかりました。",
+      "level": 2
     }
   ]
 }

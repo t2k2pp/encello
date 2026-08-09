@@ -19,10 +19,12 @@ void main() {
   });
 
   // 差分適用のふるまいは1冊で確かめる（同梱6冊の内容に左右されないようにするため）。
+  // 語の部品は入れない（`partsPath: null`）。単語帳だけでも投入できることを兼ねて確かめる。
   SeedImporter importerWith(String json) => SeedImporter(
     db,
     FakeAssetBundle({_assetPath: json}),
     paths: const [_assetPath],
+    partsPath: null,
   );
 
   group('初回投入', () {
@@ -220,6 +222,7 @@ void main() {
     /// `contract` を2冊が別々の例文で収録している状態を作る。
     SeedImporter twoBookImporter({int seedVersion = 1}) => SeedImporter(
       db,
+      partsPath: null,
       FakeAssetBundle({
         _assetPath: presetJson(
           seedVersion: seedVersion,
@@ -344,6 +347,101 @@ void main() {
       final words = await db.select(db.words).get();
       expect(words.every((w) => w.meaning.isNotEmpty), isTrue);
       expect(words.every((w) => !w.isDraft), isTrue);
+    });
+
+    test('語の部品と紐付けが投入される（word_parts.md §9）', () async {
+      final importer = SeedImporter(db, rootBundle);
+      final result = await importer.importIfNeeded(installedVersion: 0);
+
+      expect(result.partCount, greaterThan(100));
+
+      final parts = await db.select(db.wordParts).get();
+      // 種別ごとに入っている（§2.3 の目安）。
+      expect(parts.where((p) => p.type == 'prefix'), isNotEmpty);
+      expect(parts.where((p) => p.type == 'root'), isNotEmpty);
+      expect(parts.where((p) => p.type == 'suffix'), isNotEmpty);
+      // ハイフンの位置が種別を表す（§2.1）。
+      expect(
+        parts.every(
+          (p) => switch (p.type) {
+            'prefix' => p.form.endsWith('-'),
+            'suffix' => p.form.startsWith('-'),
+            _ => !p.form.startsWith('-') && !p.form.endsWith('-'),
+          },
+        ),
+        isTrue,
+      );
+
+      // `import` = `im-`(0) + `port`(1)（§2.2 の例）。
+      final port = parts.firstWhere((p) => p.form == 'port');
+      final im = parts.firstWhere((p) => p.form == 'im-');
+      final word = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('import'))).getSingle();
+      final links = await (db.select(
+        db.wordPartLinks,
+      )..where((t) => t.wordId.equals(word.id))).get();
+      expect(links.length, 2);
+      expect(links.firstWhere((l) => l.partId == im.id).position, 0);
+      expect(links.firstWhere((l) => l.partId == port.id).position, 1);
+      expect(word.partsNote, isNotNull);
+
+      // 紐付けの無い語には `partsNote` を入れない（カードごと出さない・§3）。
+      final apple = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('apple'))).getSingle();
+      expect(apple.partsNote, isNull);
+      expect(
+        await (db.select(
+          db.wordPartLinks,
+        )..where((t) => t.wordId.equals(apple.id))).get(),
+        isEmpty,
+      );
+    });
+
+    test('派生語ファミリーが投入される（word_families.md §8）', () async {
+      final importer = SeedImporter(db, rootBundle);
+      final result = await importer.importIfNeeded(installedVersion: 0);
+
+      expect(result.familyCount, greaterThan(50));
+
+      final families = await db.select(db.wordFamilies).get();
+      final decide = families.firstWhere((f) => f.baseForm == 'decide');
+      final members = await (db.select(
+        db.words,
+      )..where((t) => t.familyId.equals(decide.id))).get();
+      // 同じ語族に束ねた語が全部入っている。
+      expect(
+        members.map((w) => w.headword).toSet(),
+        containsAll(const ['decide', 'decision', 'decisive']),
+      );
+      // 語族に属さない語は null のまま。
+      final apple = await (db.select(
+        db.words,
+      )..where((t) => t.headword.equals('apple'))).getSingle();
+      expect(apple.familyId, isNull);
+      // 1語だけの語族は作らない（§3・§4.2）。
+      for (final family in families) {
+        final count = await (db.select(
+          db.words,
+        )..where((t) => t.familyId.equals(family.id))).get();
+        expect(count.length, greaterThan(1), reason: family.baseForm);
+      }
+    });
+
+    test('二度投入しても部品と語族の行が増えない（冪等）', () async {
+      final importer = SeedImporter(db, rootBundle);
+      await importer.importIfNeeded(installedVersion: 0);
+      final parts = (await db.select(db.wordParts).get()).length;
+      final links = (await db.select(db.wordPartLinks).get()).length;
+      final families = (await db.select(db.wordFamilies).get()).length;
+
+      // 版を上げて入れ直す（アセットの中身を変えたときと同じ経路）。
+      await importer.importIfNeeded(installedVersion: 0);
+
+      expect((await db.select(db.wordParts).get()).length, parts);
+      expect((await db.select(db.wordPartLinks).get()).length, links);
+      expect((await db.select(db.wordFamilies).get()).length, families);
     });
 
     test('presetId からアセットの語を引き直せる（元に戻す用）', () async {

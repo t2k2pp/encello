@@ -1,6 +1,6 @@
 {
   "chunk": "13_adjectives",
-  "note": "形容詞I（性質・評価・状態）（95語）",
+  "note": "形容詞I（性質・評価・状態）（96語）",
   "words": [
     {
       "headword": "kind",
@@ -855,6 +855,15 @@
       "meaning": "すばらしい",
       "exampleEn": "We had a fantastic vacation this summer.",
       "exampleJa": "私たちは今年の夏すばらしい休暇を過ごしました。",
+      "level": 2
+    },
+    {
+      "headword": "unhappy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌnˈhæpi/",
+      "meaning": "不幸な；うれしくない",
+      "exampleEn": "She looked unhappy about the change.",
+      "exampleJa": "彼女はその変更にうれしくなさそうでした。",
       "level": 2
     }
   ]

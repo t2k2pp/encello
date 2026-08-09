@@ -104,6 +104,8 @@ flutter:
     - assets/google_fonts/
     # プリセット単語帳（[Docs/06_features/wordbooks.md] §3）。
     - assets/wordbooks/
+    # 語の部品と派生語ファミリー（[Docs/06_features/word_parts.md] §9）。
+    - assets/word_parts.json
     # 語彙力測定の擬似語（[Docs/06_features/vocab_size_test.md] §4）。
     - assets/pseudowords.json
     # AI に単語帳を作ってもらうための定型文（[Docs/06_features/ai_import.md] §4）。

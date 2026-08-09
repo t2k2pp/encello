@@ -154,7 +154,120 @@ deport という単語の意味は？
 一般に知られた語源（ラテン語・ギリシア語の原形と意味）と、日本語の説明文を自分で書く。
 語源の解釈が分かれる語は収録しない。
 
-## 8. テスト観点
+## 8. アセット形式と投入（実装済み）
+
+語の部品・紐付け・派生語ファミリーは**1つのアセットにまとめる**。
+3つは互いに独立して使えないため（紐付けは部品と語の両方を指す）、
+別々のアセットにすると版がずれた組み合わせで投入されうる。
+
+```
+tool/wordparts/src/prefixes.json   接頭辞（種別ごとに1ファイル）
+tool/wordparts/src/roots.json      語根
+tool/wordparts/src/suffixes.json   接尾辞
+tool/wordparts/src/links_1..4.json 語と部品の紐付け（分野ごとに分ける）
+tool/wordparts/src/families.json   派生語ファミリー
+        ↓  dart run tool/build_wordparts.dart
+assets/word_parts.json             出荷するアセット（手で編集しない）
+```
+
+```json
+{
+  "seedVersion": 7,
+  "parts": [
+    { "form": "im-", "type": "prefix", "meaning": "中へ；〜でない",
+      "origin": "ラテン語 in-", "note": "b・m・p の前で in- がこの形になる", "level": 3 }
+  ],
+  "links": [
+    { "headword": "import", "parts": ["im-", "port"], "partsNote": "中へ運ぶ → 輸入する" }
+  ],
+  "families": [
+    { "baseForm": "decide", "note": "-sion 型の名詞化",
+      "members": ["decide", "decision", "decisive", "decidedly"] }
+  ]
+}
+```
+
+- **語の参照は `headword` だけで行う**（品詞を持たせない）。分解は綴りで決まるので、
+  同綴異品詞のどちらにも同じ分解が当てはまる。投入時はその見出し語の
+  共有の語すべて（`ownerProfileId IS NULL`）に同じ紐付けを張る。
+- `parts` の並びがそのまま `word_part_links.position`（0 から）になる。
+- **`seedVersion` は単語帳と同じ値にそろえる。** 投入ゲートはアセットの最大
+  `seedVersion` だけを見るため（[wordbooks.md] §3.1）、ここだけ古いと端末に届かない。
+  ビルドツールが単語帳の `_book.json` から読んで書き込むので、手で書かない。
+- 投入は `SeedImporter` の同じトランザクションの中、**単語帳のあとに**行う
+  （`words` の id が要る）。`isEdited = true` の語の `partsNote` は上書きしない。
+- アセットから消えた部品は削除する（紐付けは cascade で消える）。
+  消えた語族は**所属を外してから**削除する（`words.familyId` は cascade を張っていない）。
+
+### 8.1 検証
+
+```
+dart run tool/build_wordparts.dart --check
+```
+
+| 不合格（error） |
+|---|
+| `form` にハイフン以外の記号 / 種別とハイフンの位置が合わない（`prefix` は末尾、`suffix` は先頭、`root` は無し） |
+| `form` の重複 / `meaning` が空・日本語なし・丸括弧あり / `level` が 1〜5 外 |
+| **紐付けが単語帳に無い見出し語を指している** |
+| 紐付けの見出し語の重複 / 知らない部品 / 同じ部品を2回 |
+| `partsNote` に日本語がない・丸括弧がある |
+| 語族の `members` が2語未満 / `baseForm` が `members` に無い / `baseForm` の重複 |
+| **1語が2つの語族に入っている**（`words.familyId` は1つしか持てない） |
+| 語族が単語帳に無い見出し語を束ねている |
+
+「単語帳に無い見出し語」を不合格にするのが要点。
+**紐付けや語族は投入時に `headword` で引くので、無い語を指しても黙って何も起きない。**
+出荷前に落とす。
+
+出荷したアセットが規則を満たしていることは `test/data/word_parts_asset_test.dart`
+が確かめる（ビルドを通さずにアセットだけ直しても気付ける）。
+
+### 8.2 収録の実績
+
+| | 個数 |
+|---|---|
+| 接頭辞 | 51 |
+| 語根 | 82 |
+| 接尾辞 | 30 |
+| 紐付いた語 | 772（部品との組で1,661） |
+| `partsNote` を書いた語 | 486 |
+| **3語以上に紐付いた部品**（§5.3 で出題される） | 125 |
+| 紐付けが0の部品 | 8（`non-` `ultra-` `tri-` `macro-` `counter-` `hyper-` `poly-` `-ward`） |
+| 派生語ファミリー | 170（延べ490語） |
+
+紐付けが0の部品は、**その部品を含む語が出荷6冊に無い**もの。
+§2.3 の「段階投入できる」に沿って残してある（語が増えれば表示が現れる）。
+消してしまうと、次の冊を足すときに同じものを書き直すことになる。
+
+数はビルドツールが毎回出す。
+
+### 8.3 紐付けの作り方
+
+1. 語根の異形（`vert` / `vers`、`miss` / `mit`）を並べて、
+   出荷6冊の見出し語に部分一致をかけて候補を挙げる。
+2. **こじつけを1つずつ落とす。** 機械の候補には `sport`（`port` ではない）、
+   `tennis`（`ten` ではない）、`often`（`ten` ではない）が必ず混ざる。
+3. 語源が別なら**別の部品に分ける**。実際に分けたもの:
+
+| 分けたもの | 理由 |
+|---|---|
+| `tain`（保つ・tenere）と `tend`（伸ばす・tendere） | `extend` `attend` `tension` は tendere で、`contain` `obtain` とは別語根 |
+| `lect`（選ぶ・読む・legere）と `leg`（法・lex） | `legal` `legislation` `privilege` は lex で、`collect` `select` とは別語根 |
+
+4. 書いたあとに**自分の分解を語源で検算する**。
+   実際に次を取り違えていた（どれも一見それらしく見える）。
+
+| 語 | 誤り |
+|---|---|
+| `deliberate` | librare（量る）由来。`liber`（自由）ではない |
+| `refund` | re + fundere（注ぐ）。`fund`（底・fundus）ではない |
+| `devise` | dividere（分ける）由来。`vis`（見る）ではない |
+| `pedagogy` | ギリシア語 paid（子ども）。ラテン語 pes（足）ではない |
+| `allege` | ex + litigare（争う）。legere ではない |
+| `anticipate` | ante（前）+ capere。`anti-`（反対）ではない |
+
+## 9. テスト観点
 
 - 紐付けの無い単語の詳細に「語のつくり」カードが存在しない。
 - `partsNote` が空のとき、部品の意味を `+` で繋いだ表示になる。

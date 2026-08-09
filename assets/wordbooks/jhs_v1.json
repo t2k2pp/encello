@@ -2780,6 +2780,16 @@
       "level": 2
     },
     {
+      "presetId": "jhs_v1:excite:verb",
+      "headword": "excite",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈsaɪt/",
+      "meaning": "をわくわくさせる；を興奮させる",
+      "exampleEn": "The news excited the whole class.",
+      "exampleJa": "その知らせはクラス全体をわくわくさせました。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:expect:verb",
       "headword": "expect",
       "partOfSpeech": "verb",
@@ -3517,6 +3527,16 @@
       "meaning": "凍る；凍らせる",
       "exampleEn": "Water freezes at zero degrees.",
       "exampleJa": "水はゼロ度で凍ります。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:heal:verb",
+      "headword": "heal",
+      "partOfSpeech": "verb",
+      "phonetic": "/hiːl/",
+      "meaning": "を治す；治る",
+      "exampleEn": "The cut on my hand healed in a week.",
+      "exampleJa": "手の切り傷は1週間で治りました。",
       "level": 2
     },
     {
@@ -10790,6 +10810,16 @@
       "level": 2
     },
     {
+      "presetId": "jhs_v1:depth:noun",
+      "headword": "depth",
+      "partOfSpeech": "noun",
+      "phonetic": "/depθ/",
+      "meaning": "深さ；奥行き",
+      "exampleEn": "We measured the depth of the pool.",
+      "exampleJa": "私たちはプールの深さを測りました。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:eight:adjective",
       "headword": "eight",
       "partOfSpeech": "adjective",
@@ -11578,6 +11608,16 @@
       "exampleEn": "I enjoy sports on the weekend.",
       "exampleJa": "私は週末にスポーツを楽しみます。",
       "level": 1
+    },
+    {
+      "presetId": "jhs_v1:width:noun",
+      "headword": "width",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɪdθ/",
+      "meaning": "幅；横の長さ",
+      "exampleEn": "Please check the width of this desk.",
+      "exampleJa": "この机の幅を確かめてください。",
+      "level": 2
     },
     {
       "presetId": "jhs_v1:windy:adjective",
@@ -12490,6 +12530,16 @@
       "level": 2
     },
     {
+      "presetId": "jhs_v1:unhappy:adjective",
+      "headword": "unhappy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌnˈhæpi/",
+      "meaning": "不幸な；うれしくない",
+      "exampleEn": "She looked unhappy about the change.",
+      "exampleJa": "彼女はその変更にうれしくなさそうでした。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:unlucky:adjective",
       "headword": "unlucky",
       "partOfSpeech": "adjective",
@@ -12910,6 +12960,16 @@
       "level": 1
     },
     {
+      "presetId": "jhs_v1:happily:adverb",
+      "headword": "happily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈhæpɪli/",
+      "meaning": "幸せに；楽しそうに",
+      "exampleEn": "The children played happily in the park.",
+      "exampleJa": "子どもたちは公園で楽しそうに遊びました。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:happy:adjective",
       "headword": "happy",
       "partOfSpeech": "adjective",
@@ -13180,6 +13240,16 @@
       "level": 1
     },
     {
+      "presetId": "jhs_v1:politely:adverb",
+      "headword": "politely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pəˈlaɪtli/",
+      "meaning": "礼儀正しく；ていねいに",
+      "exampleEn": "She politely asked for another chair.",
+      "exampleJa": "彼女はていねいにもう1つのいすを頼みました。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:proud:adjective",
       "headword": "proud",
       "partOfSpeech": "adjective",
@@ -13268,6 +13338,16 @@
       "exampleEn": "The sad story made me cry.",
       "exampleJa": "その悲しい話で私は泣きました。",
       "level": 1
+    },
+    {
+      "presetId": "jhs_v1:safely:adverb",
+      "headword": "safely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈseɪfli/",
+      "meaning": "安全に；無事に",
+      "exampleEn": "We arrived safely at the station.",
+      "exampleJa": "私たちは無事に駅に着きました。",
+      "level": 2
     },
     {
       "presetId": "jhs_v1:scared:adjective",
@@ -13370,6 +13450,16 @@
       "level": 1
     },
     {
+      "presetId": "jhs_v1:strongly:adverb",
+      "headword": "strongly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈstrɔːŋli/",
+      "meaning": "強く；強調して",
+      "exampleEn": "He strongly disagreed with the plan.",
+      "exampleJa": "彼はその計画に強く反対しました。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:suddenly:adverb",
       "headword": "suddenly",
       "partOfSpeech": "adverb",
@@ -13458,6 +13548,16 @@
       "exampleEn": "I like music, and I dance, too.",
       "exampleJa": "私は音楽が好きで、ダンスもします。",
       "level": 1
+    },
+    {
+      "presetId": "jhs_v1:truly:adverb",
+      "headword": "truly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈtruːli/",
+      "meaning": "本当に；心から",
+      "exampleEn": "I am truly sorry about the mistake.",
+      "exampleJa": "その間違いを本当に申し訳なく思います。",
+      "level": 2
     },
     {
       "presetId": "jhs_v1:well:adverb",
@@ -15000,6 +15100,16 @@
       "level": 1
     },
     {
+      "presetId": "jhs_v1:movement:noun",
+      "headword": "movement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmuːvmənt/",
+      "meaning": "動き；運動",
+      "exampleEn": "The movement of the crowd stopped.",
+      "exampleJa": "群衆の動きが止まりました。",
+      "level": 2
+    },
+    {
       "presetId": "jhs_v1:nation:noun",
       "headword": "nation",
       "partOfSpeech": "noun",
@@ -15347,6 +15457,26 @@
       "meaning": "真実；事実",
       "exampleEn": "Please tell me the truth.",
       "exampleJa": "本当のことを話してください。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:understanding:noun",
+      "headword": "understanding",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌʌndərˈstændɪŋ/",
+      "meaning": "理解；了解",
+      "exampleEn": "We reached an understanding after the talk.",
+      "exampleJa": "話し合いのあとで私たちは了解に達しました。",
+      "level": 2
+    },
+    {
+      "presetId": "jhs_v1:user:noun",
+      "headword": "user",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːzər/",
+      "meaning": "使う人；利用者",
+      "exampleEn": "This app has many young users.",
+      "exampleJa": "このアプリには若い利用者が多くいます。",
       "level": 2
     },
     {

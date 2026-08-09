@@ -1,0 +1,580 @@
+{
+  "type": "root",
+  "note": "語根（82個）",
+  "parts": [
+    {
+      "form": "port",
+      "meaning": "運ぶ",
+      "origin": "ラテン語 portare",
+      "note": "import は「中へ運ぶ」＝輸入する",
+      "level": 3
+    },
+    {
+      "form": "spect",
+      "meaning": "見る",
+      "origin": "ラテン語 spectare",
+      "note": "inspect は「中を見る」＝検査する",
+      "level": 3
+    },
+    {
+      "form": "dict",
+      "meaning": "言う",
+      "origin": "ラテン語 dicere",
+      "note": "predict は「前に言う」＝予測する",
+      "level": 3
+    },
+    {
+      "form": "duct",
+      "meaning": "導く",
+      "origin": "ラテン語 ducere",
+      "note": "conduct は「共に導く」＝行う・指揮する",
+      "level": 4
+    },
+    {
+      "form": "fer",
+      "meaning": "運ぶ；もたらす",
+      "origin": "ラテン語 ferre",
+      "note": "transfer は「越えて運ぶ」＝移す",
+      "level": 4
+    },
+    {
+      "form": "miss",
+      "meaning": "送る",
+      "origin": "ラテン語 mittere",
+      "note": "動詞では mit の形になる（transmit）",
+      "level": 4
+    },
+    {
+      "form": "pos",
+      "meaning": "置く",
+      "origin": "ラテン語 ponere",
+      "note": "compose は「共に置く」＝組み立てる",
+      "level": 4
+    },
+    {
+      "form": "script",
+      "meaning": "書く",
+      "origin": "ラテン語 scribere",
+      "note": "動詞では scrib の形になる（describe）",
+      "level": 4
+    },
+    {
+      "form": "tract",
+      "meaning": "引く",
+      "origin": "ラテン語 trahere",
+      "note": "attract は「〜へ引く」＝引き付ける",
+      "level": 4
+    },
+    {
+      "form": "vert",
+      "meaning": "向ける；回す",
+      "origin": "ラテン語 vertere",
+      "note": "名詞では vers の形になる（version）",
+      "level": 4
+    },
+    {
+      "form": "ject",
+      "meaning": "投げる",
+      "origin": "ラテン語 iacere",
+      "note": "reject は「投げ返す」＝拒む",
+      "level": 4
+    },
+    {
+      "form": "cept",
+      "meaning": "取る；つかむ",
+      "origin": "ラテン語 capere",
+      "note": "accept は「〜へ取る」＝受け取る",
+      "level": 4
+    },
+    {
+      "form": "tain",
+      "meaning": "保つ",
+      "origin": "ラテン語 tenere",
+      "note": "名詞では ten の形になる（content）",
+      "level": 3
+    },
+    {
+      "form": "tend",
+      "meaning": "伸ばす；向かう",
+      "origin": "ラテン語 tendere",
+      "note": "tens の形にもなる（tension）。tain（保つ・tenere）とは別の語根",
+      "level": 3
+    },
+    {
+      "form": "fact",
+      "meaning": "作る；行う",
+      "origin": "ラテン語 facere",
+      "note": "fect・fic の形にもなる（effect・difficult）",
+      "level": 3
+    },
+    {
+      "form": "grad",
+      "meaning": "段階；進む",
+      "origin": "ラテン語 gradus",
+      "note": "gress の形にもなる（progress）",
+      "level": 4
+    },
+    {
+      "form": "cess",
+      "meaning": "行く；譲る",
+      "origin": "ラテン語 cedere",
+      "note": "動詞では ceed・cede の形になる（proceed）",
+      "level": 4
+    },
+    {
+      "form": "voc",
+      "meaning": "呼ぶ；声",
+      "origin": "ラテン語 vocare",
+      "note": "vok の形にもなる（provoke）",
+      "level": 4
+    },
+    {
+      "form": "sist",
+      "meaning": "立つ",
+      "origin": "ラテン語 sistere",
+      "note": "resist は「逆らって立つ」＝抵抗する",
+      "level": 4
+    },
+    {
+      "form": "spir",
+      "meaning": "息をする",
+      "origin": "ラテン語 spirare",
+      "note": "inspire は「中へ息を吹き込む」＝感激させる",
+      "level": 4
+    },
+    {
+      "form": "press",
+      "meaning": "押す",
+      "origin": "ラテン語 premere",
+      "note": "express は「外へ押し出す」＝表す",
+      "level": 3
+    },
+    {
+      "form": "rupt",
+      "meaning": "破る",
+      "origin": "ラテン語 rumpere",
+      "note": "interrupt は「間で破る」＝さえぎる",
+      "level": 4
+    },
+    {
+      "form": "struct",
+      "meaning": "建てる；組む",
+      "origin": "ラテン語 struere",
+      "note": "construct は「共に建てる」＝建設する",
+      "level": 4
+    },
+    {
+      "form": "form",
+      "meaning": "形；形づくる",
+      "origin": "ラテン語 forma",
+      "note": null,
+      "level": 2
+    },
+    {
+      "form": "man",
+      "meaning": "手",
+      "origin": "ラテン語 manus",
+      "note": "manual は「手の」＝手作業の",
+      "level": 4
+    },
+    {
+      "form": "ped",
+      "meaning": "足",
+      "origin": "ラテン語 pes",
+      "note": "pedal は足で踏むもの",
+      "level": 4
+    },
+    {
+      "form": "cord",
+      "meaning": "心",
+      "origin": "ラテン語 cor",
+      "note": "cour の形にもなる（courage）",
+      "level": 4
+    },
+    {
+      "form": "sens",
+      "meaning": "感じる",
+      "origin": "ラテン語 sentire",
+      "note": "sent の形にもなる（consent）",
+      "level": 3
+    },
+    {
+      "form": "mem",
+      "meaning": "記憶",
+      "origin": "ラテン語 memor",
+      "note": null,
+      "level": 3
+    },
+    {
+      "form": "sci",
+      "meaning": "知る",
+      "origin": "ラテン語 scire",
+      "note": "science は「知ること」",
+      "level": 3
+    },
+    {
+      "form": "log",
+      "meaning": "言葉；話",
+      "origin": "ギリシア語 logos",
+      "note": "dialogue は「間で交わす言葉」",
+      "level": 4
+    },
+    {
+      "form": "graph",
+      "meaning": "書く；描く",
+      "origin": "ギリシア語 graphein",
+      "note": null,
+      "level": 3
+    },
+    {
+      "form": "phon",
+      "meaning": "音；声",
+      "origin": "ギリシア語 phone",
+      "note": null,
+      "level": 3
+    },
+    {
+      "form": "meter",
+      "meaning": "測る；計器",
+      "origin": "ギリシア語 metron",
+      "note": "metr の形にもなる（symmetry）",
+      "level": 3
+    },
+    {
+      "form": "scope",
+      "meaning": "見る道具；範囲",
+      "origin": "ギリシア語 skopein",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "therm",
+      "meaning": "熱",
+      "origin": "ギリシア語 thermos",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "bio",
+      "meaning": "生命",
+      "origin": "ギリシア語 bios",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "geo",
+      "meaning": "地球；土地",
+      "origin": "ギリシア語 ge",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "hydro",
+      "meaning": "水",
+      "origin": "ギリシア語 hydor",
+      "note": null,
+      "level": 5
+    },
+    {
+      "form": "photo",
+      "meaning": "光",
+      "origin": "ギリシア語 phos",
+      "note": null,
+      "level": 3
+    },
+    {
+      "form": "aud",
+      "meaning": "聞く",
+      "origin": "ラテン語 audire",
+      "note": "audience は「聞く人たち」",
+      "level": 3
+    },
+    {
+      "form": "vis",
+      "meaning": "見る",
+      "origin": "ラテン語 videre",
+      "note": "visible は「見ることができる」",
+      "level": 3
+    },
+    {
+      "form": "vid",
+      "meaning": "見る",
+      "origin": "ラテン語 videre",
+      "note": "evident は「外から見て取れる」＝明白な",
+      "level": 4
+    },
+    {
+      "form": "mob",
+      "meaning": "動く",
+      "origin": "ラテン語 movere",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "mot",
+      "meaning": "動かす",
+      "origin": "ラテン語 movere",
+      "note": "promote は「前へ動かす」＝促進する",
+      "level": 4
+    },
+    {
+      "form": "nat",
+      "meaning": "生まれる",
+      "origin": "ラテン語 nasci",
+      "note": "nation は「生まれを同じくする集まり」",
+      "level": 3
+    },
+    {
+      "form": "gen",
+      "meaning": "生む；種",
+      "origin": "ギリシア語 genos",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "viv",
+      "meaning": "生きる",
+      "origin": "ラテン語 vivere",
+      "note": "survive は「越えて生きる」＝生き残る",
+      "level": 4
+    },
+    {
+      "form": "mort",
+      "meaning": "死",
+      "origin": "ラテン語 mors",
+      "note": null,
+      "level": 5
+    },
+    {
+      "form": "cid",
+      "meaning": "切る；殺す",
+      "origin": "ラテン語 caedere",
+      "note": "decide は「切り落とす」＝決める",
+      "level": 4
+    },
+    {
+      "form": "sect",
+      "meaning": "切る",
+      "origin": "ラテン語 secare",
+      "note": "section は「切り分けた部分」",
+      "level": 4
+    },
+    {
+      "form": "fin",
+      "meaning": "終わり；境",
+      "origin": "ラテン語 finis",
+      "note": "define は「境を定める」＝定義する",
+      "level": 3
+    },
+    {
+      "form": "flu",
+      "meaning": "流れる",
+      "origin": "ラテン語 fluere",
+      "note": "influence は「中へ流れ込むもの」",
+      "level": 4
+    },
+    {
+      "form": "fund",
+      "meaning": "底；基礎",
+      "origin": "ラテン語 fundus",
+      "note": "found の形にもなる（foundation）",
+      "level": 4
+    },
+    {
+      "form": "jur",
+      "meaning": "法；誓う",
+      "origin": "ラテン語 ius",
+      "note": "just・jud の形にもなる（justice・judge）",
+      "level": 4
+    },
+    {
+      "form": "lect",
+      "meaning": "選ぶ；集める；読む",
+      "origin": "ラテン語 legere",
+      "note": "select は「離して選ぶ」",
+      "level": 4
+    },
+    {
+      "form": "leg",
+      "meaning": "法",
+      "origin": "ラテン語 lex",
+      "note": "lect（選ぶ・読む・legere）とは別の語根",
+      "level": 4
+    },
+    {
+      "form": "liber",
+      "meaning": "自由な",
+      "origin": "ラテン語 liber",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "mand",
+      "meaning": "命じる；任せる",
+      "origin": "ラテン語 mandare",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "nom",
+      "meaning": "名前",
+      "origin": "ラテン語 nomen",
+      "note": "nomin の形にもなる（nominate）",
+      "level": 4
+    },
+    {
+      "form": "pel",
+      "meaning": "押す；追いやる",
+      "origin": "ラテン語 pellere",
+      "note": "puls の形にもなる（impulse）",
+      "level": 4
+    },
+    {
+      "form": "pend",
+      "meaning": "つるす；重さを量る",
+      "origin": "ラテン語 pendere",
+      "note": "depend は「下にぶら下がる」＝頼る",
+      "level": 4
+    },
+    {
+      "form": "plic",
+      "meaning": "折る；重ねる",
+      "origin": "ラテン語 plicare",
+      "note": "ply・pli の形にもなる（apply・complicated）",
+      "level": 4
+    },
+    {
+      "form": "prim",
+      "meaning": "第一の",
+      "origin": "ラテン語 primus",
+      "note": null,
+      "level": 3
+    },
+    {
+      "form": "put",
+      "meaning": "考える；数える",
+      "origin": "ラテン語 putare",
+      "note": "compute は「共に数える」＝計算する",
+      "level": 4
+    },
+    {
+      "form": "quir",
+      "meaning": "求める；問う",
+      "origin": "ラテン語 quaerere",
+      "note": "quest・quisit の形にもなる（request・acquisition）",
+      "level": 4
+    },
+    {
+      "form": "reg",
+      "meaning": "治める；まっすぐな",
+      "origin": "ラテン語 regere",
+      "note": "rect の形にもなる（correct）",
+      "level": 3
+    },
+    {
+      "form": "rog",
+      "meaning": "尋ねる；求める",
+      "origin": "ラテン語 rogare",
+      "note": null,
+      "level": 5
+    },
+    {
+      "form": "scend",
+      "meaning": "登る",
+      "origin": "ラテン語 scandere",
+      "note": "descend は「下へ登る」＝下る",
+      "level": 4
+    },
+    {
+      "form": "serv",
+      "meaning": "仕える；保つ",
+      "origin": "ラテン語 servire",
+      "note": "preserve は「前もって保つ」＝保存する",
+      "level": 3
+    },
+    {
+      "form": "sign",
+      "meaning": "しるし",
+      "origin": "ラテン語 signum",
+      "note": null,
+      "level": 2
+    },
+    {
+      "form": "sol",
+      "meaning": "ひとりの；ゆるめる",
+      "origin": "ラテン語 solus・solvere",
+      "note": "solve は「ゆるめてほどく」＝解く",
+      "level": 4
+    },
+    {
+      "form": "son",
+      "meaning": "音",
+      "origin": "ラテン語 sonus",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "spond",
+      "meaning": "答える；約束する",
+      "origin": "ラテン語 spondere",
+      "note": "spons の形にもなる（response）",
+      "level": 4
+    },
+    {
+      "form": "tempor",
+      "meaning": "時",
+      "origin": "ラテン語 tempus",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "terr",
+      "meaning": "土地",
+      "origin": "ラテン語 terra",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "test",
+      "meaning": "証言する",
+      "origin": "ラテン語 testis",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "val",
+      "meaning": "価値；強い",
+      "origin": "ラテン語 valere",
+      "note": "evaluate は「価値を取り出す」＝評価する",
+      "level": 3
+    },
+    {
+      "form": "ven",
+      "meaning": "来る",
+      "origin": "ラテン語 venire",
+      "note": "prevent は「前に来て立ちふさぐ」＝防ぐ",
+      "level": 4
+    },
+    {
+      "form": "verb",
+      "meaning": "言葉",
+      "origin": "ラテン語 verbum",
+      "note": null,
+      "level": 4
+    },
+    {
+      "form": "via",
+      "meaning": "道",
+      "origin": "ラテン語 via",
+      "note": "vey・voy の形にもなる（convey・voyage）",
+      "level": 4
+    },
+    {
+      "form": "volv",
+      "meaning": "巻く；回る",
+      "origin": "ラテン語 volvere",
+      "note": "volut の形にもなる（revolution）",
+      "level": 4
+    }
+  ]
+}

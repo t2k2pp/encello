@@ -1,6 +1,6 @@
 {
   "chunk": "05_nouns_work_money",
-  "note": "仕事・経済・お金（84語）",
+  "note": "仕事・経済・お金（89語）",
   "words": [
     {
       "headword": "account",
@@ -756,6 +756,51 @@
       "meaning": "富；財産",
       "exampleEn": "He shared his wealth with poor families.",
       "exampleJa": "彼は自分の財産を貧しい家庭と分かち合いました。",
+      "level": 3
+    },
+    {
+      "headword": "producer",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈduːsər/",
+      "meaning": "生産者；製作者",
+      "exampleEn": "This country is a major coffee producer.",
+      "exampleJa": "この国は主要なコーヒー生産者です。",
+      "level": 3
+    },
+    {
+      "headword": "reservation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrezərˈveɪʃn/",
+      "meaning": "予約；ためらい",
+      "exampleEn": "I made a reservation for two people.",
+      "exampleJa": "私は2人分の予約をしました。",
+      "level": 3
+    },
+    {
+      "headword": "organizer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɡənaɪzər/",
+      "meaning": "主催者；まとめ役",
+      "exampleEn": "The organizer welcomed every visitor.",
+      "exampleJa": "主催者はどの来場者も歓迎しました。",
+      "level": 3
+    },
+    {
+      "headword": "specialist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspeʃəlɪst/",
+      "meaning": "専門家；専門医",
+      "exampleEn": "The doctor sent him to a specialist.",
+      "exampleJa": "医師は彼を専門医に紹介しました。",
+      "level": 3
+    },
+    {
+      "headword": "translator",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænzˈleɪtər/",
+      "meaning": "翻訳者；通訳",
+      "exampleEn": "The translator worked on the report all night.",
+      "exampleJa": "翻訳者は一晩その報告書に取り組みました。",
       "level": 3
     }
   ]

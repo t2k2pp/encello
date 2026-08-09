@@ -1,6 +1,6 @@
 {
   "chunk": "10_nouns_abstract",
-  "note": "抽象概念（時間・量・関係）（83語）",
+  "note": "抽象概念（時間・量・関係）（88語）",
   "words": [
     {
       "headword": "ability",
@@ -747,6 +747,51 @@
       "meaning": "知恵；賢さ",
       "exampleEn": "Experience brings wisdom.",
       "exampleJa": "経験は知恵をもたらします。",
+      "level": 3
+    },
+    {
+      "headword": "preparation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprepəˈreɪʃn/",
+      "meaning": "準備；下ごしらえ",
+      "exampleEn": "He finished his preparation for the exam early.",
+      "exampleJa": "彼は試験の準備を早めに終えました。",
+      "level": 2
+    },
+    {
+      "headword": "encouragement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈkɜːrɪdʒmənt/",
+      "meaning": "励まし；奨励",
+      "exampleEn": "His encouragement kept me going.",
+      "exampleJa": "彼の励ましが私を続けさせました。",
+      "level": 3
+    },
+    {
+      "headword": "resistance",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzɪstəns/",
+      "meaning": "抵抗；反発",
+      "exampleEn": "The new rule met little resistance.",
+      "exampleJa": "新しい規則はほとんど抵抗に遭いませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "weakness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwiːknəs/",
+      "meaning": "弱さ；弱点",
+      "exampleEn": "Everyone has a weakness of some kind.",
+      "exampleJa": "だれにも何らかの弱点があります。",
+      "level": 3
+    },
+    {
+      "headword": "section",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsekʃn/",
+      "meaning": "区画；部門；章",
+      "exampleEn": "The last section of the book is short.",
+      "exampleJa": "その本の最後の章は短いです。",
       "level": 3
     }
   ]

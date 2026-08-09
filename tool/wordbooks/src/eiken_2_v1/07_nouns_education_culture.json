@@ -1,6 +1,6 @@
 {
   "chunk": "07_nouns_education_culture",
-  "note": "教育・文化・メディア（82語）",
+  "note": "教育・文化・メディア（84語）",
   "words": [
     {
       "headword": "academy",
@@ -739,6 +739,24 @@
       "exampleEn": "I will attend a leadership workshop on Friday.",
       "exampleJa": "私は金曜日にリーダーシップ研修会に参加します。",
       "level": 3
+    },
+    {
+      "headword": "prediction",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈdɪkʃn/",
+      "meaning": "予測；予言",
+      "exampleEn": "The weather prediction came true today.",
+      "exampleJa": "天気の予測は今日的中しました。",
+      "level": 3
+    },
+    {
+      "headword": "performer",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈfɔːrmər/",
+      "meaning": "演者；出演者",
+      "exampleEn": "The performer bowed to the audience.",
+      "exampleJa": "演者は観客にお辞儀をしました。",
+      "level": 4
     }
   ]
 }

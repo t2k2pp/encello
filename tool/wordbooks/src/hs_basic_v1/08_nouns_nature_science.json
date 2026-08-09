@@ -1,6 +1,6 @@
 {
   "chunk": "08_nouns_nature_science",
-  "note": "自然・科学・環境（82語）",
+  "note": "自然・科学・環境（85語）",
   "words": [
     {
       "headword": "atmosphere",
@@ -738,6 +738,33 @@
       "meaning": "野生生物",
       "exampleEn": "The park preserves local wildlife.",
       "exampleJa": "その公園は地元の野生生物を保護しています。",
+      "level": 3
+    },
+    {
+      "headword": "protection",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈtekʃn/",
+      "meaning": "保護；防護",
+      "exampleEn": "Helmets give riders good head protection.",
+      "exampleJa": "ヘルメットは乗る人の頭をしっかり保護します。",
+      "level": 2
+    },
+    {
+      "headword": "warmth",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɔːrmθ/",
+      "meaning": "温かさ；温もり",
+      "exampleEn": "The warmth of the sun melted the snow.",
+      "exampleJa": "太陽の温かさが雪を溶かしました。",
+      "level": 3
+    },
+    {
+      "headword": "reduction",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈdʌkʃn/",
+      "meaning": "削減；減少",
+      "exampleEn": "The plan aims at a reduction in waste.",
+      "exampleJa": "その計画はごみの削減を目指しています。",
       "level": 3
     }
   ]

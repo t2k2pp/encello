@@ -1,6 +1,6 @@
 {
   "chunk": "03_verbs_action_change",
-  "note": "行動・変化・作用の動詞（83語）",
+  "note": "行動・変化・作用の動詞（84語）",
   "words": [
     {
       "headword": "abolish",
@@ -747,6 +747,15 @@
       "meaning": "を弱める；弱まる",
       "exampleEn": "The long illness weakened his whole body.",
       "exampleJa": "長い病気が彼の体全体を弱らせました。",
+      "level": 3
+    },
+    {
+      "headword": "descend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsend/",
+      "meaning": "を降りる；下る",
+      "exampleEn": "The plane descended slowly toward the runway.",
+      "exampleJa": "飛行機は滑走路に向かってゆっくり降下しました。",
       "level": 3
     }
   ]

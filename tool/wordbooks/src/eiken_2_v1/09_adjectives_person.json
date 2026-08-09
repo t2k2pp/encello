@@ -1,6 +1,6 @@
 {
   "chunk": "09_adjectives_person",
-  "note": "人・評価の形容詞（81語）",
+  "note": "人・評価の形容詞（83語）",
   "words": [
     {
       "headword": "aggressive",
@@ -730,6 +730,24 @@
       "exampleEn": "The editor wrote a witty headline.",
       "exampleJa": "編集者は機知に富んだ見出しを書きました。",
       "level": 5
+    },
+    {
+      "headword": "persuasive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pərˈsweɪsɪv/",
+      "meaning": "説得力のある",
+      "exampleEn": "Her argument was clear and very persuasive.",
+      "exampleJa": "彼女の主張は明快でとても説得力がありました。",
+      "level": 3
+    },
+    {
+      "headword": "verbal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvɜːrbl/",
+      "meaning": "言葉の；口頭の",
+      "exampleEn": "They had only a verbal agreement.",
+      "exampleJa": "彼らには口頭の合意しかありませんでした。",
+      "level": 4
     }
   ]
 }

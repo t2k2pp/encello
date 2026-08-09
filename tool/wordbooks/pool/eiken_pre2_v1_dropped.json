@@ -1,6 +1,6 @@
 {
   "chunk": "eiken_pre2_v1_dropped",
-  "note": "作り直しで外した語（1108語）",
+  "note": "作り直しで外した語（1094語）",
   "words": [
     {
       "headword": "approve",
@@ -46,15 +46,6 @@
       "exampleEn": "Please acknowledge receipt of this letter.",
       "exampleJa": "この手紙を受け取ったことをお知らせください。",
       "level": 4
-    },
-    {
-      "headword": "actual",
-      "partOfSpeech": "adjective",
-      "phonetic": "/ˈæktʃuəl/",
-      "meaning": "実際の；現実の",
-      "exampleEn": "The actual cost was lower than expected.",
-      "exampleJa": "実際の費用は予想より低かったです。",
-      "level": 3
     },
     {
       "headword": "adjust",
@@ -289,15 +280,6 @@
       "exampleEn": "The beacon guided the ships to the harbor.",
       "exampleJa": "灯台の光が船を港へ導きました。",
       "level": 4
-    },
-    {
-      "headword": "beauty",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˈbjuːti/",
-      "meaning": "美しさ；美；美人",
-      "exampleEn": "We enjoyed the beauty of the mountains.",
-      "exampleJa": "私たちは山の美しさを楽しみました。",
-      "level": 2
     },
     {
       "headword": "before",
@@ -1081,15 +1063,6 @@
       "exampleEn": "He is an adventurous mountain climber.",
       "exampleJa": "彼は冒険好きな登山家です。",
       "level": 3
-    },
-    {
-      "headword": "agreement",
-      "partOfSpeech": "noun",
-      "phonetic": "/əˈɡriːmənt/",
-      "meaning": "合意；協定",
-      "exampleEn": "The two countries signed a peace agreement.",
-      "exampleJa": "両国は平和協定に署名しました。",
-      "level": 2
     },
     {
       "headword": "album",
@@ -2604,15 +2577,6 @@
       "level": 3
     },
     {
-      "headword": "celebration",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˌselɪˈbreɪʃn/",
-      "meaning": "祝賀；お祝い",
-      "exampleEn": "The whole town joined the victory celebration.",
-      "exampleJa": "町中の人が勝利のお祝いに参加しました。",
-      "level": 2
-    },
-    {
       "headword": "center",
       "partOfSpeech": "noun",
       "phonetic": "/ˈsentər/",
@@ -4125,15 +4089,6 @@
       "level": 3
     },
     {
-      "headword": "act",
-      "partOfSpeech": "verb",
-      "phonetic": "/ækt/",
-      "meaning": "行動する；演じる",
-      "exampleEn": "We must act quickly to solve this problem.",
-      "exampleJa": "私たちはこの問題を解決するために素早く行動しなければなりません。",
-      "level": 2
-    },
-    {
       "headword": "agency",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪdʒənsi/",
@@ -4773,15 +4728,6 @@
       "level": 4
     },
     {
-      "headword": "completion",
-      "partOfSpeech": "noun",
-      "phonetic": "/kəmˈpliːʃn/",
-      "meaning": "完了；完成",
-      "exampleEn": "The completion of the bridge took two years.",
-      "exampleJa": "その橋の完成には2年かかりました。",
-      "level": 3
-    },
-    {
       "headword": "composition",
       "partOfSpeech": "noun",
       "phonetic": "/ˌkɑːmpəˈzɪʃn/",
@@ -5052,24 +4998,6 @@
       "level": 3
     },
     {
-      "headword": "action",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˈækʃn/",
-      "meaning": "行動；動作；アクション",
-      "exampleEn": "We must take action right now.",
-      "exampleJa": "私たちは今すぐ行動を起こさなければなりません。",
-      "level": 1
-    },
-    {
-      "headword": "addition",
-      "partOfSpeech": "noun",
-      "phonetic": "/əˈdɪʃn/",
-      "meaning": "追加；足し算",
-      "exampleEn": "In addition, the hotel offers a free breakfast.",
-      "exampleJa": "さらにそのホテルは無料の朝食を提供しています。",
-      "level": 2
-    },
-    {
       "headword": "adopt",
       "partOfSpeech": "verb",
       "phonetic": "/əˈdɑːpt/",
@@ -5329,15 +5257,6 @@
       "exampleEn": "My bedroom is on the second floor.",
       "exampleJa": "私の寝室は2階にあります。",
       "level": 1
-    },
-    {
-      "headword": "beginner",
-      "partOfSpeech": "noun",
-      "phonetic": "/bɪˈɡɪnər/",
-      "meaning": "初心者",
-      "exampleEn": "This course is perfect for beginners.",
-      "exampleJa": "この講座は初心者にぴったりです。",
-      "level": 2
     },
     {
       "headword": "bell",
@@ -5745,15 +5664,6 @@
       "level": 4
     },
     {
-      "headword": "comparison",
-      "partOfSpeech": "noun",
-      "phonetic": "/kəmˈpærɪsn/",
-      "meaning": "比較；対比",
-      "exampleEn": "Let us make a comparison of the two plans.",
-      "exampleJa": "2つの計画の比較をしてみましょう。",
-      "level": 3
-    },
-    {
       "headword": "compound",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːmpaʊnd/",
@@ -6039,15 +5949,6 @@
       "meaning": "痛み；うずき",
       "exampleEn": "He had a dull stomach ache.",
       "exampleJa": "彼は鈍い胃の痛みを感じていました。",
-      "level": 3
-    },
-    {
-      "headword": "additional",
-      "partOfSpeech": "adjective",
-      "phonetic": "/əˈdɪʃənl/",
-      "meaning": "追加の；付加的な",
-      "exampleEn": "We need additional staff for this project.",
-      "exampleJa": "このプロジェクトには追加のスタッフが必要です。",
       "level": 3
     },
     {
@@ -6337,15 +6238,6 @@
       "exampleEn": "A bee was collecting nectar from the flowers.",
       "exampleJa": "ハチが花からみつを集めていました。",
       "level": 1
-    },
-    {
-      "headword": "beginning",
-      "partOfSpeech": "noun",
-      "phonetic": "/bɪˈɡɪnɪŋ/",
-      "meaning": "始まり；最初；初期",
-      "exampleEn": "I read the story from the beginning.",
-      "exampleJa": "私はその物語を初めから読みました。",
-      "level": 2
     },
     {
       "headword": "belly",
@@ -7885,15 +7777,6 @@
       "exampleEn": "A skilled craftsman made this wooden table.",
       "exampleJa": "熟練した職人がこの木のテーブルを作りました。",
       "level": 4
-    },
-    {
-      "headword": "creation",
-      "partOfSpeech": "noun",
-      "phonetic": "/kriˈeɪʃn/",
-      "meaning": "創造；創設；作品",
-      "exampleEn": "The creation of the park took two years.",
-      "exampleJa": "その公園の創設には2年かかりました。",
-      "level": 2
     },
     {
       "headword": "creek",
@@ -9900,15 +9783,6 @@
       "meaning": "クレーン；ツル",
       "exampleEn": "A large crane lifted the steel beams.",
       "exampleJa": "大きなクレーンが鉄骨をつり上げました。",
-      "level": 2
-    },
-    {
-      "headword": "creativity",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˌkriːeɪˈtɪvəti/",
-      "meaning": "創造性",
-      "exampleEn": "Art classes develop children's creativity.",
-      "exampleJa": "美術の授業は子どもの創造性を育てます。",
       "level": 2
     },
     {

@@ -1,6 +1,6 @@
 {
   "chunk": "08_adjectives_things",
-  "note": "物事・状態・程度の形容詞（85語）",
+  "note": "物事・状態・程度の形容詞（87語）",
   "words": [
     {
       "headword": "accurate",
@@ -765,6 +765,24 @@
       "meaning": "珍しい；異常な",
       "exampleEn": "Snow in April is unusual here.",
       "exampleJa": "ここでは4月に雪が降るのは珍しいことです。",
+      "level": 3
+    },
+    {
+      "headword": "actual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæktʃuəl/",
+      "meaning": "実際の；現実の",
+      "exampleEn": "The actual cost was lower than expected.",
+      "exampleJa": "実際の費用は予想より低かったです。",
+      "level": 3
+    },
+    {
+      "headword": "additional",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈdɪʃənl/",
+      "meaning": "追加の；付加的な",
+      "exampleEn": "We need additional staff for this project.",
+      "exampleJa": "このプロジェクトには追加のスタッフが必要です。",
       "level": 3
     }
   ]

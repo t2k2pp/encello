@@ -1,6 +1,6 @@
 {
   "chunk": "hs_basic_v1_dropped",
-  "note": "作り直しで外した語（754語）",
+  "note": "作り直しで外した語（753語）",
   "words": [
     {
       "headword": "accept",
@@ -289,15 +289,6 @@
       "exampleEn": "I received a letter yesterday.",
       "exampleJa": "昨日手紙を受け取りました。",
       "level": 2
-    },
-    {
-      "headword": "relation",
-      "partOfSpeech": "noun",
-      "phonetic": "/rɪˈleɪʃən/",
-      "meaning": "関係；親戚",
-      "exampleEn": "The relation between the two countries improved.",
-      "exampleJa": "両国間の関係が改善しました。",
-      "level": 3
     },
     {
       "headword": "share",

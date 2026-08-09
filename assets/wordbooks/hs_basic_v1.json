@@ -3390,6 +3390,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:defense:noun",
+      "headword": "defense",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈfens/",
+      "meaning": "防衛；弁護",
+      "exampleEn": "The country spends a lot on defense.",
+      "exampleJa": "その国は防衛に多くの費用を使っています。",
+      "level": 2
+    },
+    {
       "presetId": "hs_basic_v1:democracy:noun",
       "headword": "democracy",
       "partOfSpeech": "noun",
@@ -3640,6 +3650,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:opposition:noun",
+      "headword": "opposition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːpəˈzɪʃn/",
+      "meaning": "反対；野党",
+      "exampleEn": "The plan met strong opposition from residents.",
+      "exampleJa": "その計画は住民の強い反対に遭いました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:organization:noun",
       "headword": "organization",
       "partOfSpeech": "noun",
@@ -3687,6 +3707,16 @@
       "meaning": "方針；政策；保険証券",
       "exampleEn": "Honesty is the best policy.",
       "exampleJa": "正直は最善の策です。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:politeness:noun",
+      "headword": "politeness",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈlaɪtnəs/",
+      "meaning": "礼儀正しさ；ていねいさ",
+      "exampleEn": "Her politeness impressed every guest.",
+      "exampleJa": "彼女の礼儀正しさはどの客にもよい印象を与えました。",
       "level": 3
     },
     {
@@ -3798,6 +3828,16 @@
       "exampleEn": "This region is famous for rice.",
       "exampleJa": "この地域は米で有名です。",
       "level": 2
+    },
+    {
+      "presetId": "hs_basic_v1:relation:noun",
+      "headword": "relation",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈleɪʃən/",
+      "meaning": "関係；親戚",
+      "exampleEn": "The relation between the two countries improved.",
+      "exampleJa": "両国間の関係が改善しました。",
+      "level": 3
     },
     {
       "presetId": "hs_basic_v1:religion:noun",
@@ -3937,6 +3977,16 @@
       "meaning": "見知らぬ人",
       "exampleEn": "Don't talk to strangers on the street.",
       "exampleJa": "道で見知らぬ人と話してはいけません。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:supporter:noun",
+      "headword": "supporter",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈpɔːrtər/",
+      "meaning": "支持者；後援者",
+      "exampleEn": "The team has many loyal supporters.",
+      "exampleJa": "そのチームには忠実な支持者が多くいます。",
       "level": 3
     },
     {
@@ -4520,6 +4570,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:organizer:noun",
+      "headword": "organizer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɡənaɪzər/",
+      "meaning": "主催者；まとめ役",
+      "exampleEn": "The organizer welcomed every visitor.",
+      "exampleJa": "主催者はどの来場者も歓迎しました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:output:noun",
       "headword": "output",
       "partOfSpeech": "noun",
@@ -4577,6 +4637,16 @@
       "meaning": "所有物；所持",
       "exampleEn": "Keep your valuable possessions in a safe place.",
       "exampleJa": "貴重な所有物は安全な場所に保管してください。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:producer:noun",
+      "headword": "producer",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈduːsər/",
+      "meaning": "生産者；製作者",
+      "exampleEn": "This country is a major coffee producer.",
+      "exampleJa": "この国は主要なコーヒー生産者です。",
       "level": 3
     },
     {
@@ -4710,6 +4780,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:reservation:noun",
+      "headword": "reservation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrezərˈveɪʃn/",
+      "meaning": "予約；ためらい",
+      "exampleEn": "I made a reservation for two people.",
+      "exampleJa": "私は2人分の予約をしました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:resource:noun",
       "headword": "resource",
       "partOfSpeech": "noun",
@@ -4770,6 +4850,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:specialist:noun",
+      "headword": "specialist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspeʃəlɪst/",
+      "meaning": "専門家；専門医",
+      "exampleEn": "The doctor sent him to a specialist.",
+      "exampleJa": "医師は彼を専門医に紹介しました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:staff:noun",
       "headword": "staff",
       "partOfSpeech": "noun",
@@ -4818,6 +4908,16 @@
       "exampleEn": "Free trade benefits both nations.",
       "exampleJa": "自由貿易は両国に益をもたらします。",
       "level": 2
+    },
+    {
+      "presetId": "hs_basic_v1:translator:noun",
+      "headword": "translator",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænzˈleɪtər/",
+      "meaning": "翻訳者；通訳",
+      "exampleEn": "The translator worked on the report all night.",
+      "exampleJa": "翻訳者は一晩その報告書に取り組みました。",
+      "level": 3
     },
     {
       "presetId": "hs_basic_v1:value:noun",
@@ -5110,6 +5210,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:discovery:noun",
+      "headword": "discovery",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskʌvəri/",
+      "meaning": "発見",
+      "exampleEn": "Her discovery changed modern science.",
+      "exampleJa": "彼女の発見は現代科学を変えました。",
+      "level": 2
+    },
+    {
       "presetId": "hs_basic_v1:discussion:noun",
       "headword": "discussion",
       "partOfSpeech": "noun",
@@ -5118,6 +5228,16 @@
       "exampleEn": "The discussion continued after lunch.",
       "exampleJa": "話し合いは昼食のあとも続きました。",
       "level": 2
+    },
+    {
+      "presetId": "hs_basic_v1:division:noun",
+      "headword": "division",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈvɪʒn/",
+      "meaning": "分割；部門；割り算",
+      "exampleEn": "The company has three main divisions.",
+      "exampleJa": "その会社には主な部門が3つあります。",
+      "level": 3
     },
     {
       "presetId": "hs_basic_v1:document:noun",
@@ -5187,6 +5307,16 @@
       "meaning": "証拠；根拠",
       "exampleEn": "There is no clear evidence.",
       "exampleJa": "明確な証拠はありません。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:examination:noun",
+      "headword": "examination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪɡˌzæmɪˈneɪʃn/",
+      "meaning": "試験；検査",
+      "exampleEn": "The examination lasted for two hours.",
+      "exampleJa": "その試験は2時間続きました。",
       "level": 3
     },
     {
@@ -5308,6 +5438,16 @@
       "exampleEn": "The campaign improved the company image.",
       "exampleJa": "そのキャンペーンは会社のイメージを高めました。",
       "level": 1
+    },
+    {
+      "presetId": "hs_basic_v1:imagination:noun",
+      "headword": "imagination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌmædʒɪˈneɪʃn/",
+      "meaning": "想像力；想像",
+      "exampleEn": "The story caught the children's imagination.",
+      "exampleJa": "その物語は子どもたちの想像力をとらえました。",
+      "level": 3
     },
     {
       "presetId": "hs_basic_v1:impression:noun",
@@ -5450,6 +5590,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:measurement:noun",
+      "headword": "measurement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeʒərmənt/",
+      "meaning": "測定；寸法",
+      "exampleEn": "Take the measurement before you cut it.",
+      "exampleJa": "切る前に寸法を測ってください。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:media:noun",
       "headword": "media",
       "partOfSpeech": "noun",
@@ -5467,6 +5617,16 @@
       "meaning": "方法；方式",
       "exampleEn": "This is a new teaching method.",
       "exampleJa": "これは新しい指導方法です。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:observation:noun",
+      "headword": "observation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːbzərˈveɪʃn/",
+      "meaning": "観察；観測；意見",
+      "exampleEn": "Careful observation led to the discovery.",
+      "exampleJa": "注意深い観察がその発見につながりました。",
       "level": 3
     },
     {
@@ -5520,6 +5680,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:proof:noun",
+      "headword": "proof",
+      "partOfSpeech": "noun",
+      "phonetic": "/pruːf/",
+      "meaning": "証拠；証明",
+      "exampleEn": "The police found no proof of his guilt.",
+      "exampleJa": "警察は彼の有罪の証拠を見つけられませんでした。",
+      "level": 2
+    },
+    {
       "presetId": "hs_basic_v1:psychology:noun",
       "headword": "psychology",
       "partOfSpeech": "noun",
@@ -5530,6 +5700,16 @@
       "level": 2
     },
     {
+      "presetId": "hs_basic_v1:recognition:noun",
+      "headword": "recognition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrekəɡˈnɪʃn/",
+      "meaning": "認識；承認；評価",
+      "exampleEn": "Her research finally received recognition.",
+      "exampleJa": "彼女の研究はついに評価を受けました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:reference:noun",
       "headword": "reference",
       "partOfSpeech": "noun",
@@ -5537,6 +5717,16 @@
       "meaning": "身元照会先；参照",
       "exampleEn": "Please give us two references from past employers.",
       "exampleJa": "以前の雇用主からの身元照会先を2名お知らせください。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:repetition:noun",
+      "headword": "repetition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrepəˈtɪʃn/",
+      "meaning": "繰り返し；反復",
+      "exampleEn": "Repetition helps you remember new words.",
+      "exampleJa": "繰り返しは新しい語を覚える助けになります。",
       "level": 3
     },
     {
@@ -5567,6 +5757,16 @@
       "meaning": "批評；見直し",
       "exampleEn": "The novel received an excellent review.",
       "exampleJa": "その小説はすばらしい批評を受けました。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:selection:noun",
+      "headword": "selection",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɪˈlekʃn/",
+      "meaning": "選択；選ばれたもの",
+      "exampleEn": "The shop offers a wide selection of books.",
+      "exampleJa": "その店は幅広い本の選択をそろえています。",
       "level": 3
     },
     {
@@ -5667,6 +5867,26 @@
       "meaning": "翻訳",
       "exampleEn": "This translation keeps the original rhythm.",
       "exampleJa": "この翻訳は原文のリズムを保っています。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:usage:noun",
+      "headword": "usage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːsɪdʒ/",
+      "meaning": "使い方；用法",
+      "exampleEn": "This dictionary explains the usage of each word.",
+      "exampleJa": "この辞書は各語の用法を説明しています。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:variation:noun",
+      "headword": "variation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌveriˈeɪʃn/",
+      "meaning": "変化；変動；違い",
+      "exampleEn": "There is wide variation in the results.",
+      "exampleJa": "結果には大きな違いがあります。",
       "level": 3
     },
     {
@@ -7160,6 +7380,16 @@
       "level": 4
     },
     {
+      "presetId": "hs_basic_v1:protection:noun",
+      "headword": "protection",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈtekʃn/",
+      "meaning": "保護；防護",
+      "exampleEn": "Helmets give riders good head protection.",
+      "exampleJa": "ヘルメットは乗る人の頭をしっかり保護します。",
+      "level": 2
+    },
+    {
       "presetId": "hs_basic_v1:radiation:noun",
       "headword": "radiation",
       "partOfSpeech": "noun",
@@ -7177,6 +7407,16 @@
       "meaning": "降雨量",
       "exampleEn": "Rainfall has decreased across this region.",
       "exampleJa": "この地域では降雨量が減っています。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:reduction:noun",
+      "headword": "reduction",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈdʌkʃn/",
+      "meaning": "削減；減少",
+      "exampleEn": "The plan aims at a reduction in waste.",
+      "exampleJa": "その計画はごみの削減を目指しています。",
       "level": 3
     },
     {
@@ -7337,6 +7577,16 @@
       "meaning": "火山",
       "exampleEn": "The volcano on this island is still active.",
       "exampleJa": "この島の火山は今も活動しています。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:warmth:noun",
+      "headword": "warmth",
+      "partOfSpeech": "noun",
+      "phonetic": "/wɔːrmθ/",
+      "meaning": "温かさ；温もり",
+      "exampleEn": "The warmth of the sun melted the snow.",
+      "exampleJa": "太陽の温かさが雪を溶かしました。",
       "level": 3
     },
     {
@@ -8270,6 +8520,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:encouragement:noun",
+      "headword": "encouragement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈkɜːrɪdʒmənt/",
+      "meaning": "励まし；奨励",
+      "exampleEn": "His encouragement kept me going.",
+      "exampleJa": "彼の励ましが私を続けさせました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:existence:noun",
       "headword": "existence",
       "partOfSpeech": "noun",
@@ -8560,6 +8820,16 @@
       "level": 4
     },
     {
+      "presetId": "hs_basic_v1:preparation:noun",
+      "headword": "preparation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprepəˈreɪʃn/",
+      "meaning": "準備；下ごしらえ",
+      "exampleEn": "He finished his preparation for the exam early.",
+      "exampleJa": "彼は試験の準備を早めに終えました。",
+      "level": 2
+    },
+    {
       "presetId": "hs_basic_v1:presence:noun",
       "headword": "presence",
       "partOfSpeech": "noun",
@@ -8650,6 +8920,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:resistance:noun",
+      "headword": "resistance",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzɪstəns/",
+      "meaning": "抵抗；反発",
+      "exampleEn": "The new rule met little resistance.",
+      "exampleJa": "新しい規則はほとんど抵抗に遭いませんでした。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:respect:noun",
       "headword": "respect",
       "partOfSpeech": "noun",
@@ -8688,6 +8968,16 @@
       "exampleEn": "The disaster happened on a huge scale.",
       "exampleJa": "その災害は非常に大きな規模で起こりました。",
       "level": 4
+    },
+    {
+      "presetId": "hs_basic_v1:section:noun",
+      "headword": "section",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsekʃn/",
+      "meaning": "区画；部門；章",
+      "exampleEn": "The last section of the book is short.",
+      "exampleJa": "その本の最後の章は短いです。",
+      "level": 3
     },
     {
       "presetId": "hs_basic_v1:sense:noun",
@@ -8877,6 +9167,16 @@
       "meaning": "量；音量",
       "exampleEn": "The volume of traffic doubled this year.",
       "exampleJa": "交通量が今年は倍になりました。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:weakness:noun",
+      "headword": "weakness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwiːknəs/",
+      "meaning": "弱さ；弱点",
+      "exampleEn": "Everyone has a weakness of some kind.",
+      "exampleJa": "だれにも何らかの弱点があります。",
       "level": 3
     },
     {
@@ -9860,6 +10160,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:educational:adjective",
+      "headword": "educational",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌedʒuˈkeɪʃənl/",
+      "meaning": "教育の；教育的な",
+      "exampleEn": "The museum offers educational programs.",
+      "exampleJa": "その博物館は教育的な催しを行っています。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:effective:adjective",
       "headword": "effective",
       "partOfSpeech": "adjective",
@@ -9948,6 +10258,36 @@
       "exampleEn": "This is a general rule.",
       "exampleJa": "これは一般的なルールです。",
       "level": 2
+    },
+    {
+      "presetId": "hs_basic_v1:helpless:adjective",
+      "headword": "helpless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhelpləs/",
+      "meaning": "無力な；どうしようもない",
+      "exampleEn": "The bird looked helpless on the ground.",
+      "exampleJa": "その鳥は地面で無力そうに見えました。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:hopeful:adjective",
+      "headword": "hopeful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhoʊpfl/",
+      "meaning": "希望を持った；有望な",
+      "exampleEn": "We are hopeful about the coming season.",
+      "exampleJa": "私たちは次の季節に希望を持っています。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:imaginary:adjective",
+      "headword": "imaginary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈmædʒɪneri/",
+      "meaning": "想像上の；架空の",
+      "exampleEn": "The novel is set in an imaginary country.",
+      "exampleJa": "その小説は架空の国を舞台にしています。",
+      "level": 3
     },
     {
       "presetId": "hs_basic_v1:immediate:adjective",
@@ -10140,6 +10480,16 @@
       "level": 3
     },
     {
+      "presetId": "hs_basic_v1:opposite:adjective",
+      "headword": "opposite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːpəzɪt/",
+      "meaning": "反対の；正反対の",
+      "exampleEn": "The station is on the opposite side.",
+      "exampleJa": "駅は反対側にあります。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:ordinary:adjective",
       "headword": "ordinary",
       "partOfSpeech": "adjective",
@@ -10197,6 +10547,16 @@
       "meaning": "政治の",
       "exampleEn": "Students debated a difficult political issue.",
       "exampleJa": "生徒たちは難しい政治問題を議論しました。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:portable:adjective",
+      "headword": "portable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɔːrtəbl/",
+      "meaning": "持ち運べる；携帯用の",
+      "exampleEn": "He bought a portable music player.",
+      "exampleJa": "彼は携帯用の音楽プレーヤーを買いました。",
       "level": 3
     },
     {
@@ -10320,6 +10680,26 @@
       "level": 2
     },
     {
+      "presetId": "hs_basic_v1:scientific:adjective",
+      "headword": "scientific",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌsaɪənˈtɪfɪk/",
+      "meaning": "科学的な；科学の",
+      "exampleEn": "The claim has no scientific support.",
+      "exampleJa": "その主張には科学的な裏付けがありません。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:selective:adjective",
+      "headword": "selective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪˈlektɪv/",
+      "meaning": "選択的な；えり好みする",
+      "exampleEn": "She is selective about the books she reads.",
+      "exampleJa": "彼女は読む本をえり好みします。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:separate:adjective",
       "headword": "separate",
       "partOfSpeech": "adjective",
@@ -10427,6 +10807,16 @@
       "meaning": "適した；ふさわしい",
       "exampleEn": "This movie is not suitable for children.",
       "exampleJa": "この映画は子どもには適していません。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:supportive:adjective",
+      "headword": "supportive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/səˈpɔːrtɪv/",
+      "meaning": "支えになる；協力的な",
+      "exampleEn": "My family was very supportive during the illness.",
+      "exampleJa": "病気の間、家族はとても支えになってくれました。",
       "level": 3
     },
     {
@@ -10720,6 +11110,16 @@
       "level": 2
     },
     {
+      "presetId": "hs_basic_v1:deeply:adverb",
+      "headword": "deeply",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdiːpli/",
+      "meaning": "深く；ひどく",
+      "exampleEn": "She was deeply moved by the letter.",
+      "exampleJa": "彼女はその手紙に深く感動しました。",
+      "level": 3
+    },
+    {
       "presetId": "hs_basic_v1:definitely:adverb",
       "headword": "definitely",
       "partOfSpeech": "adverb",
@@ -10737,6 +11137,16 @@
       "meaning": "〜にもかかわらず",
       "exampleEn": "We played outside despite the heat.",
       "exampleJa": "私たちは暑さにもかかわらず外で遊戯しました。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:differently:adverb",
+      "headword": "differently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdɪfrəntli/",
+      "meaning": "違って；異なって",
+      "exampleEn": "Each culture treats this problem differently.",
+      "exampleJa": "文化によってこの問題の扱いは異なります。",
       "level": 3
     },
     {
@@ -11167,6 +11577,26 @@
       "meaning": "いくぶん；多少",
       "exampleEn": "His answer was somewhat unclear.",
       "exampleJa": "彼の答えはいくぶん不明確でした。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:specially:adverb",
+      "headword": "specially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈspeʃəli/",
+      "meaning": "特別に；わざわざ",
+      "exampleEn": "This room was specially built for music.",
+      "exampleJa": "この部屋は音楽のために特別に建てられました。",
+      "level": 3
+    },
+    {
+      "presetId": "hs_basic_v1:successfully:adverb",
+      "headword": "successfully",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səkˈsesfəli/",
+      "meaning": "うまく；首尾よく",
+      "exampleEn": "The team successfully finished the project.",
+      "exampleJa": "チームはその企画を首尾よく終えました。",
       "level": 3
     },
     {

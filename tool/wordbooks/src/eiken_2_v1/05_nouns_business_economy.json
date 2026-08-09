@@ -1,6 +1,6 @@
 {
   "chunk": "05_nouns_business_economy",
-  "note": "仕事・ビジネス・経済（83語）",
+  "note": "仕事・ビジネス・経済（85語）",
   "words": [
     {
       "headword": "acquisition",
@@ -748,6 +748,24 @@
       "exampleEn": "Half of our workforce works from home.",
       "exampleJa": "当社の全従業員の半数は在宅で働いています。",
       "level": 4
+    },
+    {
+      "headword": "assistance",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsɪstəns/",
+      "meaning": "援助；支援",
+      "exampleEn": "Thank you for your quick assistance.",
+      "exampleJa": "迅速なご支援に感謝します。",
+      "level": 3
+    },
+    {
+      "headword": "complaint",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpleɪnt/",
+      "meaning": "苦情；不平；不満",
+      "exampleEn": "The store received a complaint from a customer.",
+      "exampleJa": "その店は客から苦情を受けました。",
+      "level": 3
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "chunk": "03_verbs_mind",
-  "note": "基本動詞II（思考・感情・知覚・伝達）（58語）",
+  "note": "基本動詞II（思考・感情・知覚・伝達）（59語）",
   "words": [
     {
       "headword": "think",
@@ -522,6 +522,15 @@
       "meaning": "に警告する；に注意する",
       "exampleEn": "The teacher warned us about the heavy rain.",
       "exampleJa": "先生は大雨について私たちに注意しました。",
+      "level": 2
+    },
+    {
+      "headword": "excite",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈsaɪt/",
+      "meaning": "をわくわくさせる；を興奮させる",
+      "exampleEn": "The news excited the whole class.",
+      "exampleJa": "その知らせはクラス全体をわくわくさせました。",
       "level": 2
     }
   ]

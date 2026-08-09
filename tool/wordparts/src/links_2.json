@@ -1,0 +1,2338 @@
+{
+  "note": "紐付け2（進む・行く・呼ぶ・立つ・息・押す・破る・建てる・形・手・心・感じる・記憶・知る・言葉）",
+  "links": [
+    {
+      "headword": "progress",
+      "parts": [
+        "pro-",
+        "grad"
+      ],
+      "partsNote": "前へ進む → 進歩"
+    },
+    {
+      "headword": "aggressive",
+      "parts": [
+        "ad-",
+        "grad",
+        "-ive"
+      ],
+      "partsNote": "そちらへ進み出る → 攻撃的な"
+    },
+    {
+      "headword": "degrade",
+      "parts": [
+        "de-",
+        "grad"
+      ],
+      "partsNote": "段階を下げる → 劣化させる"
+    },
+    {
+      "headword": "upgrade",
+      "parts": [
+        "grad"
+      ],
+      "partsNote": "段階を上げる → 格上げする"
+    },
+    {
+      "headword": "grade",
+      "parts": [
+        "grad"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "gradual",
+      "parts": [
+        "grad",
+        "-al"
+      ],
+      "partsNote": "段階を追う → 徐々の"
+    },
+    {
+      "headword": "gradually",
+      "parts": [
+        "grad",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "graduate",
+      "parts": [
+        "grad",
+        "-ate"
+      ],
+      "partsNote": "段階を上がりきる → 卒業する"
+    },
+    {
+      "headword": "graduation",
+      "parts": [
+        "grad",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "degree",
+      "parts": [
+        "de-",
+        "grad"
+      ],
+      "partsNote": "段階 → 程度・学位"
+    },
+    {
+      "headword": "congress",
+      "parts": [
+        "con-",
+        "grad"
+      ],
+      "partsNote": "共に歩み寄る → 議会"
+    },
+    {
+      "headword": "proceed",
+      "parts": [
+        "pro-",
+        "cess"
+      ],
+      "partsNote": "前へ行く → 進む"
+    },
+    {
+      "headword": "process",
+      "parts": [
+        "pro-",
+        "cess"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "processing",
+      "parts": [
+        "pro-",
+        "cess"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "precede",
+      "parts": [
+        "pre-",
+        "cess"
+      ],
+      "partsNote": "前を行く → 先行する"
+    },
+    {
+      "headword": "precedent",
+      "parts": [
+        "pre-",
+        "cess",
+        "-ent"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "unprecedented",
+      "parts": [
+        "un-",
+        "pre-",
+        "cess",
+        "-ent"
+      ],
+      "partsNote": "先に行った例が無い → 前例のない"
+    },
+    {
+      "headword": "exceed",
+      "parts": [
+        "ex-",
+        "cess"
+      ],
+      "partsNote": "外へ出て行く → 超える"
+    },
+    {
+      "headword": "excess",
+      "parts": [
+        "ex-",
+        "cess"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "excessive",
+      "parts": [
+        "ex-",
+        "cess",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "succeed",
+      "parts": [
+        "sub-",
+        "cess"
+      ],
+      "partsNote": "後に続いて行く → 成功する・継ぐ"
+    },
+    {
+      "headword": "success",
+      "parts": [
+        "sub-",
+        "cess"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "successful",
+      "parts": [
+        "sub-",
+        "cess",
+        "-ful"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "recede",
+      "parts": [
+        "re-",
+        "cess"
+      ],
+      "partsNote": "後ろへ行く → 退く"
+    },
+    {
+      "headword": "recession",
+      "parts": [
+        "re-",
+        "cess",
+        "-sion"
+      ],
+      "partsNote": "後退すること → 景気後退"
+    },
+    {
+      "headword": "concede",
+      "parts": [
+        "con-",
+        "cess"
+      ],
+      "partsNote": "譲り渡す → 認める"
+    },
+    {
+      "headword": "secession",
+      "parts": [
+        "cess",
+        "-sion"
+      ],
+      "partsNote": "離れて行くこと → 分離・脱退"
+    },
+    {
+      "headword": "inaccessible",
+      "parts": [
+        "in-",
+        "ad-",
+        "cess",
+        "-ible"
+      ],
+      "partsNote": "近づいて行けない → 近づきがたい"
+    },
+    {
+      "headword": "advocate",
+      "parts": [
+        "ad-",
+        "voc",
+        "-ate"
+      ],
+      "partsNote": "そちらへ呼びかける → 主張する"
+    },
+    {
+      "headword": "advocacy",
+      "parts": [
+        "ad-",
+        "voc"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "evoke",
+      "parts": [
+        "ex-",
+        "voc"
+      ],
+      "partsNote": "外へ呼び出す → 呼び起こす"
+    },
+    {
+      "headword": "invoke",
+      "parts": [
+        "in-",
+        "voc"
+      ],
+      "partsNote": "中へ呼び込む → 発動する"
+    },
+    {
+      "headword": "provoke",
+      "parts": [
+        "pro-",
+        "voc"
+      ],
+      "partsNote": "前へ呼び出す → 引き起こす・怒らせる"
+    },
+    {
+      "headword": "vocabulary",
+      "parts": [
+        "voc"
+      ],
+      "partsNote": "呼び名の集まり → 語彙"
+    },
+    {
+      "headword": "vocation",
+      "parts": [
+        "voc",
+        "-tion"
+      ],
+      "partsNote": "呼ばれること → 天職"
+    },
+    {
+      "headword": "unequivocally",
+      "parts": [
+        "un-",
+        "voc",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": "呼び方が1つしかない → 明確に"
+    },
+    {
+      "headword": "assist",
+      "parts": [
+        "ad-",
+        "sist"
+      ],
+      "partsNote": "そばに立つ → 手伝う"
+    },
+    {
+      "headword": "assistant",
+      "parts": [
+        "ad-",
+        "sist",
+        "-ant"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "consist",
+      "parts": [
+        "con-",
+        "sist"
+      ],
+      "partsNote": "共に立つ → 成り立つ"
+    },
+    {
+      "headword": "consistent",
+      "parts": [
+        "con-",
+        "sist",
+        "-ent"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "inconsistent",
+      "parts": [
+        "in-",
+        "con-",
+        "sist",
+        "-ent"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "insist",
+      "parts": [
+        "in-",
+        "sist"
+      ],
+      "partsNote": "その上に立つ → 主張する"
+    },
+    {
+      "headword": "resist",
+      "parts": [
+        "re-",
+        "sist"
+      ],
+      "partsNote": "逆らって立つ → 抵抗する"
+    },
+    {
+      "headword": "persistent",
+      "parts": [
+        "per-",
+        "sist",
+        "-ent"
+      ],
+      "partsNote": "通して立ち続ける → 根気強い"
+    },
+    {
+      "headword": "subsistence",
+      "parts": [
+        "sub-",
+        "sist",
+        "-ence"
+      ],
+      "partsNote": "下で立ち続けること → 最低限の暮らし"
+    },
+    {
+      "headword": "inspire",
+      "parts": [
+        "in-",
+        "spir"
+      ],
+      "partsNote": "中へ息を吹き込む → 感激させる"
+    },
+    {
+      "headword": "aspiration",
+      "parts": [
+        "ad-",
+        "spir",
+        "-tion"
+      ],
+      "partsNote": "そちらへ息を向けること → 熱望"
+    },
+    {
+      "headword": "respiration",
+      "parts": [
+        "re-",
+        "spir",
+        "-tion"
+      ],
+      "partsNote": "繰り返し息をすること → 呼吸"
+    },
+    {
+      "headword": "express",
+      "parts": [
+        "ex-",
+        "press"
+      ],
+      "partsNote": "外へ押し出す → 表す"
+    },
+    {
+      "headword": "expression",
+      "parts": [
+        "ex-",
+        "press",
+        "-sion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "impress",
+      "parts": [
+        "im-",
+        "press"
+      ],
+      "partsNote": "中へ押し付ける → 印象づける"
+    },
+    {
+      "headword": "impression",
+      "parts": [
+        "im-",
+        "press",
+        "-sion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "impressive",
+      "parts": [
+        "im-",
+        "press",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "compress",
+      "parts": [
+        "com-",
+        "press"
+      ],
+      "partsNote": "まとめて押す → 圧縮する"
+    },
+    {
+      "headword": "depression",
+      "parts": [
+        "de-",
+        "press",
+        "-sion"
+      ],
+      "partsNote": "下へ押されること → 落ち込み・不況"
+    },
+    {
+      "headword": "oppression",
+      "parts": [
+        "ob-",
+        "press",
+        "-sion"
+      ],
+      "partsNote": "上から押しつけること → 圧迫"
+    },
+    {
+      "headword": "repression",
+      "parts": [
+        "re-",
+        "press",
+        "-sion"
+      ],
+      "partsNote": "押し戻すこと → 抑圧"
+    },
+    {
+      "headword": "suppress",
+      "parts": [
+        "sub-",
+        "press"
+      ],
+      "partsNote": "下へ押さえる → 抑える"
+    },
+    {
+      "headword": "pressure",
+      "parts": [
+        "press"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "interrupt",
+      "parts": [
+        "inter-",
+        "rupt"
+      ],
+      "partsNote": "間で破る → さえぎる"
+    },
+    {
+      "headword": "disrupt",
+      "parts": [
+        "dis-",
+        "rupt"
+      ],
+      "partsNote": "ばらばらに破る → 混乱させる"
+    },
+    {
+      "headword": "abruptly",
+      "parts": [
+        "ab-",
+        "rupt",
+        "-ly"
+      ],
+      "partsNote": "断ち切って → 突然に"
+    },
+    {
+      "headword": "corruption",
+      "parts": [
+        "con-",
+        "rupt",
+        "-tion"
+      ],
+      "partsNote": "すっかり壊れること → 汚職"
+    },
+    {
+      "headword": "bankrupt",
+      "parts": [
+        "rupt"
+      ],
+      "partsNote": "帳場が壊れた → 破産した"
+    },
+    {
+      "headword": "bankruptcy",
+      "parts": [
+        "rupt"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "construct",
+      "parts": [
+        "con-",
+        "struct"
+      ],
+      "partsNote": "組み上げる → 建設する"
+    },
+    {
+      "headword": "construction",
+      "parts": [
+        "con-",
+        "struct",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "reconstruct",
+      "parts": [
+        "re-",
+        "con-",
+        "struct"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "destruction",
+      "parts": [
+        "de-",
+        "struct",
+        "-tion"
+      ],
+      "partsNote": "組んだものを崩すこと → 破壊"
+    },
+    {
+      "headword": "instruct",
+      "parts": [
+        "in-",
+        "struct"
+      ],
+      "partsNote": "中に組み入れる → 教える"
+    },
+    {
+      "headword": "instruction",
+      "parts": [
+        "in-",
+        "struct",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "infrastructure",
+      "parts": [
+        "struct"
+      ],
+      "partsNote": "下に組んだもの → 社会基盤"
+    },
+    {
+      "headword": "structure",
+      "parts": [
+        "struct"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "inform",
+      "parts": [
+        "in-",
+        "form"
+      ],
+      "partsNote": "形を中に入れる → 知らせる"
+    },
+    {
+      "headword": "information",
+      "parts": [
+        "in-",
+        "form",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "informative",
+      "parts": [
+        "in-",
+        "form",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "perform",
+      "parts": [
+        "per-",
+        "form"
+      ],
+      "partsNote": "すっかり形にする → 行う・演じる"
+    },
+    {
+      "headword": "performance",
+      "parts": [
+        "per-",
+        "form",
+        "-ance"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "reform",
+      "parts": [
+        "re-",
+        "form"
+      ],
+      "partsNote": "形を作り直す → 改革する"
+    },
+    {
+      "headword": "transform",
+      "parts": [
+        "trans-",
+        "form"
+      ],
+      "partsNote": "形を移す → 変える"
+    },
+    {
+      "headword": "conform",
+      "parts": [
+        "con-",
+        "form"
+      ],
+      "partsNote": "形を合わせる → 従う"
+    },
+    {
+      "headword": "conformity",
+      "parts": [
+        "con-",
+        "form",
+        "-ity"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "uniform",
+      "parts": [
+        "uni-",
+        "form"
+      ],
+      "partsNote": "形が1つ → 均一な・制服"
+    },
+    {
+      "headword": "formal",
+      "parts": [
+        "form",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "formally",
+      "parts": [
+        "form",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "formula",
+      "parts": [
+        "form"
+      ],
+      "partsNote": "形にしたもの → 公式"
+    },
+    {
+      "headword": "formulate",
+      "parts": [
+        "form",
+        "-ate"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "manual",
+      "parts": [
+        "man",
+        "-al"
+      ],
+      "partsNote": "手の → 手作業の・手引き"
+    },
+    {
+      "headword": "manually",
+      "parts": [
+        "man",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "manage",
+      "parts": [
+        "man",
+        "-age"
+      ],
+      "partsNote": "手で扱う → 管理する"
+    },
+    {
+      "headword": "management",
+      "parts": [
+        "man",
+        "-age",
+        "-ment"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "manager",
+      "parts": [
+        "man",
+        "-age",
+        "-er"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "manifest",
+      "parts": [
+        "man"
+      ],
+      "partsNote": "手でつかめる → 明らかな"
+    },
+    {
+      "headword": "mandate",
+      "parts": [
+        "mand"
+      ],
+      "partsNote": "手に委ねること → 委任・権限"
+    },
+    {
+      "headword": "mandatory",
+      "parts": [
+        "mand"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "command",
+      "parts": [
+        "com-",
+        "mand"
+      ],
+      "partsNote": "しっかり任せる → 命じる"
+    },
+    {
+      "headword": "demand",
+      "parts": [
+        "de-",
+        "mand"
+      ],
+      "partsNote": "強く任せる → 要求する"
+    },
+    {
+      "headword": "demanding",
+      "parts": [
+        "de-",
+        "mand"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "expedite",
+      "parts": [
+        "ex-",
+        "ped"
+      ],
+      "partsNote": "足を外へ出す → 早める"
+    },
+    {
+      "headword": "impede",
+      "parts": [
+        "im-",
+        "ped"
+      ],
+      "partsNote": "足をからめる → 妨げる"
+    },
+    {
+      "headword": "encourage",
+      "parts": [
+        "en-",
+        "cord",
+        "-age"
+      ],
+      "partsNote": "心を入れる → 励ます"
+    },
+    {
+      "headword": "discourage",
+      "parts": [
+        "dis-",
+        "cord",
+        "-age"
+      ],
+      "partsNote": "心を離す → 落胆させる"
+    },
+    {
+      "headword": "courage",
+      "parts": [
+        "cord",
+        "-age"
+      ],
+      "partsNote": "心の力 → 勇気"
+    },
+    {
+      "headword": "courageous",
+      "parts": [
+        "cord",
+        "-age",
+        "-ous"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "record",
+      "parts": [
+        "re-",
+        "cord"
+      ],
+      "partsNote": "心に呼び戻す → 記録する"
+    },
+    {
+      "headword": "accordingly",
+      "parts": [
+        "ad-",
+        "cord",
+        "-ly"
+      ],
+      "partsNote": "心を合わせて → それに応じて"
+    },
+    {
+      "headword": "sense",
+      "parts": [
+        "sens"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "sensible",
+      "parts": [
+        "sens",
+        "-ible"
+      ],
+      "partsNote": "感じ取れる → 賢明な"
+    },
+    {
+      "headword": "sensitive",
+      "parts": [
+        "sens",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "sensor",
+      "parts": [
+        "sens",
+        "-or"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "consent",
+      "parts": [
+        "con-",
+        "sens"
+      ],
+      "partsNote": "共に感じる → 同意する"
+    },
+    {
+      "headword": "consensus",
+      "parts": [
+        "con-",
+        "sens"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "dissent",
+      "parts": [
+        "dis-",
+        "sens"
+      ],
+      "partsNote": "別に感じる → 異議を唱える"
+    },
+    {
+      "headword": "resentful",
+      "parts": [
+        "re-",
+        "sens",
+        "-ful"
+      ],
+      "partsNote": "感情がぶり返す → 腹を立てた"
+    },
+    {
+      "headword": "resentment",
+      "parts": [
+        "re-",
+        "sens",
+        "-ment"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "sentiment",
+      "parts": [
+        "sens",
+        "-ment"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "sentimental",
+      "parts": [
+        "sens",
+        "-ment",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "memory",
+      "parts": [
+        "mem"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "memorize",
+      "parts": [
+        "mem",
+        "-ize"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "remember",
+      "parts": [
+        "re-",
+        "mem"
+      ],
+      "partsNote": "もう一度記憶に置く → 思い出す"
+    },
+    {
+      "headword": "memorandum",
+      "parts": [
+        "mem"
+      ],
+      "partsNote": "覚えておくべきもの → 覚書"
+    },
+    {
+      "headword": "memo",
+      "parts": [
+        "mem"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "science",
+      "parts": [
+        "sci",
+        "-ence"
+      ],
+      "partsNote": "知ること → 科学"
+    },
+    {
+      "headword": "scientist",
+      "parts": [
+        "sci",
+        "-ist"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "conscious",
+      "parts": [
+        "con-",
+        "sci",
+        "-ous"
+      ],
+      "partsNote": "すっかり知っている → 意識している"
+    },
+    {
+      "headword": "consciousness",
+      "parts": [
+        "con-",
+        "sci",
+        "-ous",
+        "-ness"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "conscience",
+      "parts": [
+        "con-",
+        "sci",
+        "-ence"
+      ],
+      "partsNote": "共に知るもの → 良心"
+    },
+    {
+      "headword": "conscientious",
+      "parts": [
+        "con-",
+        "sci",
+        "-ous"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "biology",
+      "parts": [
+        "bio",
+        "-logy"
+      ],
+      "partsNote": "生命の学 → 生物学"
+    },
+    {
+      "headword": "geology",
+      "parts": [
+        "geo",
+        "-logy"
+      ],
+      "partsNote": "地球の学 → 地質学"
+    },
+    {
+      "headword": "psychology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": "心の学 → 心理学"
+    },
+    {
+      "headword": "technology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "anthropology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": "人の学 → 人類学"
+    },
+    {
+      "headword": "archaeology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "ecology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "mythology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "theology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "physiology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "cosmology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "etymology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "ideology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "philology",
+      "parts": [
+        "-logy"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "dialogue",
+      "parts": [
+        "log"
+      ],
+      "partsNote": "間で交わす言葉 → 対話"
+    },
+    {
+      "headword": "logic",
+      "parts": [
+        "log",
+        "-ic"
+      ],
+      "partsNote": "言葉の筋道 → 論理"
+    },
+    {
+      "headword": "logical",
+      "parts": [
+        "log",
+        "-ic",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "apology",
+      "parts": [
+        "log"
+      ],
+      "partsNote": "言い開き → 謝罪"
+    },
+    {
+      "headword": "apologize",
+      "parts": [
+        "log",
+        "-ize"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "catalog",
+      "parts": [
+        "log"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "photograph",
+      "parts": [
+        "photo",
+        "graph"
+      ],
+      "partsNote": "光で描いたもの → 写真"
+    },
+    {
+      "headword": "paragraph",
+      "parts": [
+        "graph"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "geography",
+      "parts": [
+        "geo",
+        "graph"
+      ],
+      "partsNote": "土地を描くこと → 地理"
+    },
+    {
+      "headword": "biography",
+      "parts": [
+        "bio",
+        "graph"
+      ],
+      "partsNote": "生涯を書いたもの → 伝記"
+    },
+    {
+      "headword": "autobiography",
+      "parts": [
+        "auto-",
+        "bio",
+        "graph"
+      ],
+      "partsNote": "自ら生涯を書いたもの → 自伝"
+    },
+    {
+      "headword": "calligraphy",
+      "parts": [
+        "graph"
+      ],
+      "partsNote": "美しく書くこと → 書道"
+    },
+    {
+      "headword": "choreography",
+      "parts": [
+        "graph"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "iconography",
+      "parts": [
+        "graph"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "phone",
+      "parts": [
+        "phon"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "microphone",
+      "parts": [
+        "micro-",
+        "phon"
+      ],
+      "partsNote": "小さな音を拾うもの → マイク"
+    },
+    {
+      "headword": "smartphone",
+      "parts": [
+        "phon"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "thermometer",
+      "parts": [
+        "therm",
+        "meter"
+      ],
+      "partsNote": "熱を測るもの → 温度計"
+    },
+    {
+      "headword": "diameter",
+      "parts": [
+        "meter"
+      ],
+      "partsNote": "間を測った線 → 直径"
+    },
+    {
+      "headword": "kilometer",
+      "parts": [
+        "meter"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "centimeter",
+      "parts": [
+        "meter"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "symmetry",
+      "parts": [
+        "sym-",
+        "meter"
+      ],
+      "partsNote": "共に測って等しい → 対称"
+    },
+    {
+      "headword": "microscope",
+      "parts": [
+        "micro-",
+        "scope"
+      ],
+      "partsNote": "小さなものを見る道具 → 顕微鏡"
+    },
+    {
+      "headword": "telescope",
+      "parts": [
+        "tele-",
+        "scope"
+      ],
+      "partsNote": "遠くを見る道具 → 望遠鏡"
+    },
+    {
+      "headword": "audience",
+      "parts": [
+        "aud",
+        "-ence"
+      ],
+      "partsNote": "聞く人たち → 聴衆"
+    },
+    {
+      "headword": "audit",
+      "parts": [
+        "aud"
+      ],
+      "partsNote": "聞き取ること → 監査"
+    },
+    {
+      "headword": "auditor",
+      "parts": [
+        "aud",
+        "-or"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "visible",
+      "parts": [
+        "vis",
+        "-ible"
+      ],
+      "partsNote": "見ることができる → 目に見える"
+    },
+    {
+      "headword": "visit",
+      "parts": [
+        "vis"
+      ],
+      "partsNote": "見に行く → 訪れる"
+    },
+    {
+      "headword": "visitor",
+      "parts": [
+        "vis",
+        "-or"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "visualize",
+      "parts": [
+        "vis",
+        "-al",
+        "-ize"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "revise",
+      "parts": [
+        "re-",
+        "vis"
+      ],
+      "partsNote": "もう一度見る → 見直す"
+    },
+    {
+      "headword": "supervisor",
+      "parts": [
+        "super-",
+        "vis",
+        "-or"
+      ],
+      "partsNote": "上から見る人 → 監督者"
+    },
+    {
+      "headword": "devise",
+      "parts": [
+        "dis-",
+        "vid"
+      ],
+      "partsNote": "分けて組み立てる → 考え出す"
+    },
+    {
+      "headword": "envisage",
+      "parts": [
+        "en-",
+        "vis",
+        "-age"
+      ],
+      "partsNote": "思い浮かべる → 想定する"
+    },
+    {
+      "headword": "envision",
+      "parts": [
+        "en-",
+        "vis",
+        "-sion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "advise",
+      "parts": [
+        "ad-",
+        "vis"
+      ],
+      "partsNote": "そちらへ見方を示す → 助言する"
+    },
+    {
+      "headword": "evidence",
+      "parts": [
+        "ex-",
+        "vid",
+        "-ence"
+      ],
+      "partsNote": "外から見て取れるもの → 証拠"
+    },
+    {
+      "headword": "evidently",
+      "parts": [
+        "ex-",
+        "vid",
+        "-ent",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "provide",
+      "parts": [
+        "pro-",
+        "vid"
+      ],
+      "partsNote": "前もって見ておく → 供給する"
+    },
+    {
+      "headword": "divide",
+      "parts": [
+        "dis-",
+        "vid"
+      ],
+      "partsNote": "分け離す → 分ける"
+    },
+    {
+      "headword": "dividend",
+      "parts": [
+        "dis-",
+        "vid"
+      ],
+      "partsNote": "分けられるもの → 配当金"
+    },
+    {
+      "headword": "individual",
+      "parts": [
+        "in-",
+        "dis-",
+        "vid",
+        "-al"
+      ],
+      "partsNote": "これ以上分けられない → 個人"
+    },
+    {
+      "headword": "promote",
+      "parts": [
+        "pro-",
+        "mot"
+      ],
+      "partsNote": "前へ動かす → 促進する"
+    },
+    {
+      "headword": "promotion",
+      "parts": [
+        "pro-",
+        "mot",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "promotional",
+      "parts": [
+        "pro-",
+        "mot",
+        "-tion",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "demote",
+      "parts": [
+        "de-",
+        "mot"
+      ],
+      "partsNote": "下へ動かす → 降格させる"
+    },
+    {
+      "headword": "demotion",
+      "parts": [
+        "de-",
+        "mot",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "remote",
+      "parts": [
+        "re-",
+        "mot"
+      ],
+      "partsNote": "遠くへ動かされた → 遠い"
+    },
+    {
+      "headword": "remove",
+      "parts": [
+        "re-",
+        "mot"
+      ],
+      "partsNote": "動かして離す → 取り除く"
+    },
+    {
+      "headword": "emotion",
+      "parts": [
+        "ex-",
+        "mot",
+        "-tion"
+      ],
+      "partsNote": "外へ動き出るもの → 感情"
+    },
+    {
+      "headword": "motivation",
+      "parts": [
+        "mot",
+        "-tion"
+      ],
+      "partsNote": "動かすもの → 動機づけ"
+    },
+    {
+      "headword": "mobility",
+      "parts": [
+        "mob",
+        "-ity"
+      ],
+      "partsNote": "動けること → 移動しやすさ"
+    },
+    {
+      "headword": "nation",
+      "parts": [
+        "nat",
+        "-tion"
+      ],
+      "partsNote": "生まれを同じくする集まり → 国民"
+    },
+    {
+      "headword": "national",
+      "parts": [
+        "nat",
+        "-tion",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "nationality",
+      "parts": [
+        "nat",
+        "-tion",
+        "-al",
+        "-ity"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "international",
+      "parts": [
+        "inter-",
+        "nat",
+        "-tion",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "native",
+      "parts": [
+        "nat",
+        "-ive"
+      ],
+      "partsNote": "生まれの → 生来の"
+    },
+    {
+      "headword": "natural",
+      "parts": [
+        "nat",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "naturally",
+      "parts": [
+        "nat",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "nature",
+      "parts": [
+        "nat"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "innate",
+      "parts": [
+        "in-",
+        "nat"
+      ],
+      "partsNote": "生まれの中にある → 生まれつきの"
+    },
+    {
+      "headword": "generate",
+      "parts": [
+        "gen",
+        "-ate"
+      ],
+      "partsNote": "生み出す → 発生させる"
+    },
+    {
+      "headword": "generation",
+      "parts": [
+        "gen",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "gene",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "genome",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "genre",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": "生まれ・種類 → ジャンル"
+    },
+    {
+      "headword": "indigenous",
+      "parts": [
+        "gen",
+        "-ous"
+      ],
+      "partsNote": "その土地で生まれた → 土着の"
+    },
+    {
+      "headword": "pathogen",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": "病を生むもの → 病原体"
+    },
+    {
+      "headword": "hydrogen",
+      "parts": [
+        "hydro",
+        "gen"
+      ],
+      "partsNote": "水を生むもの → 水素"
+    },
+    {
+      "headword": "oxygen",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "nitrogen",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "genuine",
+      "parts": [
+        "gen"
+      ],
+      "partsNote": "生まれのままの → 本物の"
+    },
+    {
+      "headword": "survive",
+      "parts": [
+        "super-",
+        "viv"
+      ],
+      "partsNote": "越えて生きる → 生き残る"
+    },
+    {
+      "headword": "survival",
+      "parts": [
+        "super-",
+        "viv",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "revive",
+      "parts": [
+        "re-",
+        "viv"
+      ],
+      "partsNote": "また生きる → 復活する"
+    },
+    {
+      "headword": "vivid",
+      "parts": [
+        "viv"
+      ],
+      "partsNote": "生きているような → 生き生きした"
+    },
+    {
+      "headword": "mortality",
+      "parts": [
+        "mort",
+        "-ity"
+      ],
+      "partsNote": "死ぬこと → 死亡率"
+    },
+    {
+      "headword": "mortgage",
+      "parts": [
+        "mort"
+      ],
+      "partsNote": "死ぬまでの約束 → 住宅ローン"
+    },
+    {
+      "headword": "amortization",
+      "parts": [
+        "mort",
+        "-tion"
+      ],
+      "partsNote": "少しずつ消していくこと → 償却"
+    },
+    {
+      "headword": "decide",
+      "parts": [
+        "de-",
+        "cid"
+      ],
+      "partsNote": "切り落とす → 決める"
+    },
+    {
+      "headword": "decision",
+      "parts": [
+        "de-",
+        "cid",
+        "-sion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "decisive",
+      "parts": [
+        "de-",
+        "cid",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "decidedly",
+      "parts": [
+        "de-",
+        "cid",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "precise",
+      "parts": [
+        "pre-",
+        "cid"
+      ],
+      "partsNote": "前もって切りそろえた → 正確な"
+    },
+    {
+      "headword": "precisely",
+      "parts": [
+        "pre-",
+        "cid",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "precision",
+      "parts": [
+        "pre-",
+        "cid",
+        "-sion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "pesticide",
+      "parts": [
+        "cid"
+      ],
+      "partsNote": "害虫を殺すもの → 殺虫剤"
+    },
+    {
+      "headword": "section",
+      "parts": [
+        "sect",
+        "-tion"
+      ],
+      "partsNote": "切り分けた部分 → 区画"
+    },
+    {
+      "headword": "sector",
+      "parts": [
+        "sect",
+        "-or"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "insect",
+      "parts": [
+        "in-",
+        "sect"
+      ],
+      "partsNote": "体に切れ目がある → 昆虫"
+    },
+    {
+      "headword": "define",
+      "parts": [
+        "de-",
+        "fin"
+      ],
+      "partsNote": "境をはっきり定める → 定義する"
+    },
+    {
+      "headword": "definition",
+      "parts": [
+        "de-",
+        "fin",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "definitive",
+      "parts": [
+        "de-",
+        "fin",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "definitely",
+      "parts": [
+        "de-",
+        "fin",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "final",
+      "parts": [
+        "fin",
+        "-al"
+      ],
+      "partsNote": "終わりの → 最後の"
+    },
+    {
+      "headword": "finally",
+      "parts": [
+        "fin",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "finish",
+      "parts": [
+        "fin"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "finite",
+      "parts": [
+        "fin"
+      ],
+      "partsNote": "境がある → 有限の"
+    },
+    {
+      "headword": "infinite",
+      "parts": [
+        "in-",
+        "fin"
+      ],
+      "partsNote": "境が無い → 無限の"
+    },
+    {
+      "headword": "confine",
+      "parts": [
+        "con-",
+        "fin"
+      ],
+      "partsNote": "境の中に収める → 限る"
+    },
+    {
+      "headword": "refine",
+      "parts": [
+        "re-",
+        "fin"
+      ],
+      "partsNote": "仕上げ直す → 精製する・洗練する"
+    },
+    {
+      "headword": "refined",
+      "parts": [
+        "re-",
+        "fin"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "finance",
+      "parts": [
+        "fin",
+        "-ance"
+      ],
+      "partsNote": "決着をつけること → 財政"
+    },
+    {
+      "headword": "financial",
+      "parts": [
+        "fin",
+        "-ance",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "influence",
+      "parts": [
+        "in-",
+        "flu",
+        "-ence"
+      ],
+      "partsNote": "中へ流れ込むもの → 影響"
+    },
+    {
+      "headword": "influential",
+      "parts": [
+        "in-",
+        "flu",
+        "-ence",
+        "-al"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "influx",
+      "parts": [
+        "in-",
+        "flu"
+      ],
+      "partsNote": "中への流れ → 流入"
+    },
+    {
+      "headword": "fluent",
+      "parts": [
+        "flu",
+        "-ent"
+      ],
+      "partsNote": "流れるような → 流暢な"
+    },
+    {
+      "headword": "fluctuate",
+      "parts": [
+        "flu",
+        "-ate"
+      ],
+      "partsNote": "流れて揺れる → 変動する"
+    },
+    {
+      "headword": "fluctuation",
+      "parts": [
+        "flu",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "affluence",
+      "parts": [
+        "ad-",
+        "flu",
+        "-ence"
+      ],
+      "partsNote": "豊かに流れ込むこと → 裕福さ"
+    },
+    {
+      "headword": "superfluous",
+      "parts": [
+        "super-",
+        "flu",
+        "-ous"
+      ],
+      "partsNote": "あふれ流れる → 余分な"
+    },
+    {
+      "headword": "fundamentally",
+      "parts": [
+        "fund",
+        "-al",
+        "-ly"
+      ],
+      "partsNote": "底から → 根本的に"
+    },
+    {
+      "headword": "profound",
+      "parts": [
+        "pro-",
+        "fund"
+      ],
+      "partsNote": "底へ向かう → 深い"
+    },
+    {
+      "headword": "profoundly",
+      "parts": [
+        "pro-",
+        "fund",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "justice",
+      "parts": [
+        "jur"
+      ],
+      "partsNote": "法にかなうこと → 正義"
+    },
+    {
+      "headword": "injustice",
+      "parts": [
+        "in-",
+        "jur"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "justify",
+      "parts": [
+        "jur",
+        "-ify"
+      ],
+      "partsNote": "法にかなうとする → 正当化する"
+    },
+    {
+      "headword": "judge",
+      "parts": [
+        "jur"
+      ],
+      "partsNote": "法を告げる人 → 裁判官"
+    },
+    {
+      "headword": "judicious",
+      "parts": [
+        "jur",
+        "-ous"
+      ],
+      "partsNote": "よく裁く → 賢明な"
+    },
+    {
+      "headword": "jury",
+      "parts": [
+        "jur"
+      ],
+      "partsNote": "誓って裁く人たち → 陪審"
+    },
+    {
+      "headword": "prejudice",
+      "parts": [
+        "pre-",
+        "jur"
+      ],
+      "partsNote": "前もって裁くこと → 偏見"
+    },
+    {
+      "headword": "injury",
+      "parts": [
+        "in-",
+        "jur"
+      ],
+      "partsNote": "法にかなわない扱い → けが"
+    },
+    {
+      "headword": "collect",
+      "parts": [
+        "con-",
+        "lect"
+      ],
+      "partsNote": "共に集める → 集める"
+    },
+    {
+      "headword": "collection",
+      "parts": [
+        "con-",
+        "lect",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "collective",
+      "parts": [
+        "con-",
+        "lect",
+        "-ive"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "collectively",
+      "parts": [
+        "con-",
+        "lect",
+        "-ive",
+        "-ly"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "select",
+      "parts": [
+        "lect"
+      ],
+      "partsNote": "選び分ける → 選ぶ"
+    },
+    {
+      "headword": "elect",
+      "parts": [
+        "ex-",
+        "lect"
+      ],
+      "partsNote": "外へ選び出す → 選挙する"
+    },
+    {
+      "headword": "election",
+      "parts": [
+        "ex-",
+        "lect",
+        "-tion"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "electorate",
+      "parts": [
+        "ex-",
+        "lect",
+        "-ate"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "neglect",
+      "parts": [
+        "lect"
+      ],
+      "partsNote": "選び取らない → 怠る"
+    },
+    {
+      "headword": "negligence",
+      "parts": [
+        "lect",
+        "-ence"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "intellect",
+      "parts": [
+        "inter-",
+        "lect"
+      ],
+      "partsNote": "間から選び取る力 → 知性"
+    },
+    {
+      "headword": "intelligent",
+      "parts": [
+        "inter-",
+        "lect",
+        "-ent"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "intelligence",
+      "parts": [
+        "inter-",
+        "lect",
+        "-ence"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "lecture",
+      "parts": [
+        "lect"
+      ],
+      "partsNote": "読んで聞かせること → 講義"
+    },
+    {
+      "headword": "lecturer",
+      "parts": [
+        "lect",
+        "-er"
+      ],
+      "partsNote": null
+    },
+    {
+      "headword": "dialect",
+      "parts": [
+        "lect"
+      ],
+      "partsNote": "話し分けられた言葉 → 方言"
+    },
+    {
+      "headword": "legal",
+      "parts": [
+        "leg",
+        "-al"
+      ],
+      "partsNote": "法の定め → 法律の"
+    },
+    {
+      "headword": "legislation",
+      "parts": [
+        "leg",
+        "-tion"
+      ],
+      "partsNote": "法を定めること → 立法"
+    },
+    {
+      "headword": "legitimate",
+      "parts": [
+        "leg"
+      ],
+      "partsNote": "法にかなった → 正当な"
+    },
+    {
+      "headword": "privilege",
+      "parts": [
+        "leg"
+      ],
+      "partsNote": "個人のための法 → 特権"
+    },
+    {
+      "headword": "liberty",
+      "parts": [
+        "liber",
+        "-ity"
+      ],
+      "partsNote": "自由であること → 自由"
+    }
+  ]
+}

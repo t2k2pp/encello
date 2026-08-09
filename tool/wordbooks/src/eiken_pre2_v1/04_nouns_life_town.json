@@ -1,6 +1,6 @@
 {
   "chunk": "04_nouns_life_town",
-  "note": "くらし・街・旅行（80語）",
+  "note": "くらし・街・旅行（82語）",
   "words": [
     {
       "headword": "accident",
@@ -720,6 +720,24 @@
       "meaning": "様式；やり方；文体",
       "exampleEn": "This building has an old European style.",
       "exampleJa": "この建物は古いヨーロッパ様式です。",
+      "level": 2
+    },
+    {
+      "headword": "beauty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbjuːti/",
+      "meaning": "美しさ；美；美人",
+      "exampleEn": "We enjoyed the beauty of the mountains.",
+      "exampleJa": "私たちは山の美しさを楽しみました。",
+      "level": 2
+    },
+    {
+      "headword": "celebration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌselɪˈbreɪʃn/",
+      "meaning": "祝賀；お祝い",
+      "exampleEn": "The whole town joined the victory celebration.",
+      "exampleJa": "町中の人が勝利のお祝いに参加しました。",
       "level": 2
     }
   ]

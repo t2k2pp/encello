@@ -2220,6 +2220,16 @@
       "level": 4
     },
     {
+      "presetId": "hs_advanced_v1:ascend:verb",
+      "headword": "ascend",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsend/",
+      "meaning": "に登る；上昇する",
+      "exampleEn": "Climbers ascend the steep mountain trail.",
+      "exampleJa": "登山家たちは急な山道を登ります。",
+      "level": 4
+    },
+    {
       "presetId": "hs_advanced_v1:augment:verb",
       "headword": "augment",
       "partOfSpeech": "verb",
@@ -2728,6 +2738,16 @@
       "exampleEn": "The scandal precipitated the collapse of the government.",
       "exampleJa": "そのスキャンダルが政権の崩壊を引き起こしました。",
       "level": 5
+    },
+    {
+      "presetId": "hs_advanced_v1:prevail:verb",
+      "headword": "prevail",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈveɪl/",
+      "meaning": "勝利する；普及している",
+      "exampleEn": "Truth and justice will prevail in the end.",
+      "exampleJa": "真実と正義が最後には勝つでしょう。",
+      "level": 4
     },
     {
       "presetId": "hs_advanced_v1:propel:verb",
@@ -6098,6 +6118,16 @@
       "exampleEn": "Mathematical abstraction simplifies the real world.",
       "exampleJa": "数学的抽象化が現実世界を単純化します。",
       "level": 4
+    },
+    {
+      "presetId": "hs_advanced_v1:admiration:noun",
+      "headword": "admiration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædməˈreɪʃn/",
+      "meaning": "賞賛；感嘆",
+      "exampleEn": "She expressed deep admiration for the hero.",
+      "exampleJa": "彼女はその英雄への深い賞賛を表しました。",
+      "level": 3
     },
     {
       "presetId": "hs_advanced_v1:adversity:noun",

@@ -1,6 +1,6 @@
 {
   "chunk": "16_society_world",
-  "note": "社会・世界・仕事・情報（95語）",
+  "note": "社会・世界・仕事・情報（98語）",
   "words": [
     {
       "headword": "world",
@@ -856,6 +856,33 @@
       "exampleEn": "My classmate was very helpful today.",
       "exampleJa": "今日、クラスメートはとても親切にしてくれました。",
       "level": 1
+    },
+    {
+      "headword": "movement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmuːvmənt/",
+      "meaning": "動き；運動",
+      "exampleEn": "The movement of the crowd stopped.",
+      "exampleJa": "群衆の動きが止まりました。",
+      "level": 2
+    },
+    {
+      "headword": "user",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːzər/",
+      "meaning": "使う人；利用者",
+      "exampleEn": "This app has many young users.",
+      "exampleJa": "このアプリには若い利用者が多くいます。",
+      "level": 2
+    },
+    {
+      "headword": "understanding",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌʌndərˈstændɪŋ/",
+      "meaning": "理解；了解",
+      "exampleEn": "We reached an understanding after the talk.",
+      "exampleJa": "話し合いのあとで私たちは了解に達しました。",
+      "level": 2
     }
   ]
 }

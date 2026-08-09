@@ -1,6 +1,6 @@
 {
   "chunk": "03_verbs_change",
-  "note": "変化・作用・生成の動詞（81語）",
+  "note": "変化・作用・生成の動詞（83語）",
   "words": [
     {
       "headword": "accelerate",
@@ -730,6 +730,24 @@
       "exampleEn": "The flowers withered in the summer heat.",
       "exampleJa": "花は夏の暑さでしおれてしまいました。",
       "level": 5
+    },
+    {
+      "headword": "ascend",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsend/",
+      "meaning": "に登る；上昇する",
+      "exampleEn": "Climbers ascend the steep mountain trail.",
+      "exampleJa": "登山家たちは急な山道を登ります。",
+      "level": 4
+    },
+    {
+      "headword": "prevail",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈveɪl/",
+      "meaning": "勝利する；普及している",
+      "exampleEn": "Truth and justice will prevail in the end.",
+      "exampleJa": "真実と正義が最後には勝つでしょう。",
+      "level": 4
     }
   ]
 }

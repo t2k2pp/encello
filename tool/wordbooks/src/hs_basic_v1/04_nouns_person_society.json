@@ -1,6 +1,6 @@
 {
   "chunk": "04_nouns_person_society",
-  "note": "人・社会・制度（81語）",
+  "note": "人・社会・制度（86語）",
   "words": [
     {
       "headword": "adult",
@@ -730,6 +730,51 @@
       "exampleEn": "The witness described the accident in detail.",
       "exampleJa": "目撃者はその事故を詳しく説明しました。",
       "level": 4
+    },
+    {
+      "headword": "relation",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈleɪʃən/",
+      "meaning": "関係；親戚",
+      "exampleEn": "The relation between the two countries improved.",
+      "exampleJa": "両国間の関係が改善しました。",
+      "level": 3
+    },
+    {
+      "headword": "defense",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈfens/",
+      "meaning": "防衛；弁護",
+      "exampleEn": "The country spends a lot on defense.",
+      "exampleJa": "その国は防衛に多くの費用を使っています。",
+      "level": 2
+    },
+    {
+      "headword": "opposition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːpəˈzɪʃn/",
+      "meaning": "反対；野党",
+      "exampleEn": "The plan met strong opposition from residents.",
+      "exampleJa": "その計画は住民の強い反対に遭いました。",
+      "level": 3
+    },
+    {
+      "headword": "politeness",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈlaɪtnəs/",
+      "meaning": "礼儀正しさ；ていねいさ",
+      "exampleEn": "Her politeness impressed every guest.",
+      "exampleJa": "彼女の礼儀正しさはどの客にもよい印象を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "supporter",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈpɔːrtər/",
+      "meaning": "支持者；後援者",
+      "exampleEn": "The team has many loyal supporters.",
+      "exampleJa": "そのチームには忠実な支持者が多くいます。",
+      "level": 3
     }
   ]
 }

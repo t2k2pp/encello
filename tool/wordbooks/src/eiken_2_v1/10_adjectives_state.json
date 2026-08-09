@@ -1,6 +1,6 @@
 {
   "chunk": "10_adjectives_state",
-  "note": "状態・程度の形容詞（82語）",
+  "note": "状態・程度の形容詞（90語）",
   "words": [
     {
       "headword": "abundant",
@@ -739,6 +739,78 @@
       "exampleEn": "Volunteering is a worthwhile experience.",
       "exampleJa": "ボランティアは価値のある経験です。",
       "level": 4
+    },
+    {
+      "headword": "continuous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈtɪnjuəs/",
+      "meaning": "連続的な；途切れない",
+      "exampleEn": "The machine made a continuous noise all night.",
+      "exampleJa": "その機械は一晩中途切れない音を出していました。",
+      "level": 3
+    },
+    {
+      "headword": "prime",
+      "partOfSpeech": "adjective",
+      "phonetic": "/praɪm/",
+      "meaning": "極上の；最高の；素数の",
+      "exampleEn": "The shop stands in a prime business area.",
+      "exampleJa": "その店は最高の商業地区に建っています。",
+      "level": 3
+    },
+    {
+      "headword": "productive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈdʌktɪv/",
+      "meaning": "生産的な",
+      "exampleEn": "We had a very productive meeting today.",
+      "exampleJa": "今日はとても生産的な会議ができました。",
+      "level": 3
+    },
+    {
+      "headword": "protective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈtektɪv/",
+      "meaning": "保護する；庇護的な",
+      "exampleEn": "Workers wear protective gloves in the laboratory.",
+      "exampleJa": "作業員は実験室で保護用の手袋を着用します。",
+      "level": 3
+    },
+    {
+      "headword": "infinite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪnfɪnət/",
+      "meaning": "無限の；果てしない",
+      "exampleEn": "The universe seems almost infinite.",
+      "exampleJa": "宇宙はほとんど無限に思えます。",
+      "level": 4
+    },
+    {
+      "headword": "defensive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈfensɪv/",
+      "meaning": "防御の；守りの",
+      "exampleEn": "The team took a defensive position.",
+      "exampleJa": "チームは守りの姿勢を取りました。",
+      "level": 4
+    },
+    {
+      "headword": "predictable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɪˈdɪktəbl/",
+      "meaning": "予測できる；ありがちな",
+      "exampleEn": "The ending of the film was predictable.",
+      "exampleJa": "その映画の結末は予測できました。",
+      "level": 4
+    },
+    {
+      "headword": "lost",
+      "partOfSpeech": "adjective",
+      "phonetic": "/lɔːst/",
+      "meaning": "失われた；道に迷った",
+      "exampleEn": "We were lost in the narrow streets.",
+      "exampleJa": "私たちは細い通りで道に迷いました。",
+      "level": 3
     }
   ]
 }

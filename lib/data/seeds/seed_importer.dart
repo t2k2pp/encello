@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show AssetBundle;
 
 import '../database/app_database.dart';
 import '../repositories/word_repository.dart';
+import 'preset_word_parts.dart';
 import 'preset_wordbook.dart';
 
 /// プリセット投入の結果（起動ゲートのログ・テスト用）。
@@ -21,11 +22,19 @@ class SeedImportResult {
   /// 追加・更新した語の延べ数。
   final int wordCount;
 
+  /// 投入した語の部品の数（[Docs/06_features/word_parts.md] §9）。
+  final int partCount;
+
+  /// 投入した派生語ファミリーの数（[Docs/06_features/word_families.md] §8）。
+  final int familyCount;
+
   const SeedImportResult({
     required this.applied,
     required this.installedVersion,
     required this.wordbookCount,
     required this.wordCount,
+    this.partCount = 0,
+    this.familyCount = 0,
   });
 }
 
@@ -54,14 +63,49 @@ class SeedImporter {
     'assets/wordbooks/toeic_basic_v1.json',
   ];
 
+  /// 語の部品と派生語ファミリーのアセット
+  /// （[Docs/06_features/word_parts.md] §9）。
+  static const wordPartsPath = 'assets/word_parts.json';
+
+  /// 語の部品のアセットのパス。テストが部品なしの投入を確かめられるよう
+  /// null を許す（単語帳だけで起動できることは崩さない）。
+  final String? partsPath;
+
   /// [paths] は差し替え可能にしてある。テストが1冊だけを投入して
   /// 差分適用のふるまいを確かめられるようにするため。
-  const SeedImporter(this._db, this._bundle, {this.paths = assetPaths});
+  const SeedImporter(
+    this._db,
+    this._bundle, {
+    this.paths = assetPaths,
+    this.partsPath = wordPartsPath,
+  });
 
-  /// アセット側の版（同梱プリセットの最大 `seedVersion`）。
+  /// アセット側の版（同梱プリセットと語の部品の最大 `seedVersion`）。
+  ///
+  /// 部品も同じ最大値の計算に入れる。入れないと、部品だけを改版したときに
+  /// 最大が動かず、投入済みの端末に届かない（[wordbooks.md] §3.1 と同じ壊れ方）。
   Future<int> assetVersion() async {
     final books = await loadPresets();
-    return books.map((b) => b.seedVersion).reduce((a, b) => a > b ? a : b);
+    var version = books
+        .map((b) => b.seedVersion)
+        .reduce((a, b) => a > b ? a : b);
+    final parts = await loadWordParts();
+    if (parts != null && parts.seedVersion > version) {
+      version = parts.seedVersion;
+    }
+    return version;
+  }
+
+  /// 語の部品と派生語ファミリーのアセットを読む。[partsPath] が null なら null。
+  Future<PresetWordParts?> loadWordParts() async {
+    final path = partsPath;
+    if (path == null) return null;
+    final raw = await _bundle.loadString(path);
+    final json = jsonDecode(raw);
+    if (json is! Map<String, dynamic>) {
+      throw FormatException('$path がオブジェクトではありません');
+    }
+    return PresetWordParts.fromJson(json);
   }
 
   /// 同梱プリセットをすべて読む。壊れていれば例外を投げる（起動ゲートが再試行を出す）。
@@ -86,9 +130,13 @@ class SeedImporter {
     required int installedVersion,
   }) async {
     final books = await loadPresets();
-    final version = books
+    final wordParts = await loadWordParts();
+    var version = books
         .map((b) => b.seedVersion)
         .reduce((a, b) => a > b ? a : b);
+    if (wordParts != null && wordParts.seedVersion > version) {
+      version = wordParts.seedVersion;
+    }
     if (installedVersion >= version) {
       return SeedImportResult(
         applied: false,
@@ -99,9 +147,16 @@ class SeedImporter {
     }
 
     var wordCount = 0;
+    var partCount = 0;
+    var familyCount = 0;
     await _db.transaction(() async {
       for (final book in books) {
         wordCount += await _applyWordbook(book);
+      }
+      // 部品とファミリーは単語の投入後に当てる（`words` の id が要るため）。
+      if (wordParts != null) {
+        partCount = await _applyWordParts(wordParts);
+        familyCount = await _applyFamilies(wordParts);
       }
     });
 
@@ -110,7 +165,155 @@ class SeedImporter {
       installedVersion: version,
       wordbookCount: books.length,
       wordCount: wordCount,
+      partCount: partCount,
+      familyCount: familyCount,
     );
+  }
+
+  /// 語の部品と紐付けを適用し、部品の数を返す
+  /// （[Docs/06_features/word_parts.md] §9）。
+  ///
+  /// 紐付けは `(headword)` で引いた**共有の語すべて**に張る。
+  /// 分解は綴りで決まるので、同綴異品詞のどちらにも同じ分解が当てはまる。
+  /// マイ単語（`ownerProfileId != null`）には張らない。
+  Future<int> _applyWordParts(PresetWordParts asset) async {
+    final partIds = <String, int>{};
+    for (final part in asset.parts) {
+      partIds[part.form] = await _upsertPart(part);
+    }
+
+    // アセットから消えた部品は削除する。紐付けは cascade で消える。
+    await (_db.delete(
+      _db.wordParts,
+    )..where((t) => t.form.isNotIn(partIds.keys))).go();
+
+    for (final link in asset.links) {
+      final wordIds =
+          await (_db.select(_db.words)..where(
+                (t) =>
+                    t.headword.equals(link.headword) &
+                    t.ownerProfileId.isNull(),
+              ))
+              .get();
+      for (final word in wordIds) {
+        // ユーザーが編集した語の `partsNote` は上書きしない（語と同じ扱い）。
+        if (!word.isEdited) {
+          await (_db.update(_db.words)..where((t) => t.id.equals(word.id)))
+              .write(WordsCompanion(partsNote: Value(link.partsNote)));
+        }
+        // 並びが変わったときに古い行が残らないよう、この語の紐付けを作り直す。
+        await (_db.delete(
+          _db.wordPartLinks,
+        )..where((t) => t.wordId.equals(word.id))).go();
+        for (var i = 0; i < link.parts.length; i++) {
+          final partId = partIds[link.parts[i]];
+          if (partId == null) {
+            throw StateError('知らない部品です: ${link.parts[i]}');
+          }
+          await _db
+              .into(_db.wordPartLinks)
+              .insert(
+                WordPartLinksCompanion.insert(
+                  wordId: word.id,
+                  partId: partId,
+                  position: Value(i),
+                ),
+              );
+        }
+      }
+    }
+    return asset.parts.length;
+  }
+
+  Future<int> _upsertPart(PresetPart part) async {
+    final existing =
+        await (_db.select(_db.wordParts)..where(
+              (t) => t.form.equals(part.form) & t.type.equals(part.type.value),
+            ))
+            .getSingleOrNull();
+
+    if (existing == null) {
+      return _db
+          .into(_db.wordParts)
+          .insert(
+            WordPartsCompanion.insert(
+              form: part.form,
+              type: part.type.value,
+              meaning: part.meaning,
+              origin: Value(part.origin),
+              note: Value(part.note),
+              level: Value(part.level),
+            ),
+          );
+    }
+    await (_db.update(
+      _db.wordParts,
+    )..where((t) => t.id.equals(existing.id))).write(
+      WordPartsCompanion(
+        meaning: Value(part.meaning),
+        origin: Value(part.origin),
+        note: Value(part.note),
+        level: Value(part.level),
+      ),
+    );
+    return existing.id;
+  }
+
+  /// 派生語ファミリーを適用し、語族の数を返す
+  /// （[Docs/06_features/word_families.md] §8）。
+  Future<int> _applyFamilies(PresetWordParts asset) async {
+    final familyIds = <String, int>{};
+    for (final family in asset.families) {
+      final existing = await (_db.select(
+        _db.wordFamilies,
+      )..where((t) => t.baseForm.equals(family.baseForm))).getSingleOrNull();
+
+      if (existing == null) {
+        familyIds[family.baseForm] = await _db
+            .into(_db.wordFamilies)
+            .insert(
+              WordFamiliesCompanion.insert(
+                baseForm: family.baseForm,
+                note: Value(family.note),
+              ),
+            );
+      } else {
+        await (_db.update(_db.wordFamilies)
+              ..where((t) => t.id.equals(existing.id)))
+            .write(WordFamiliesCompanion(note: Value(family.note)));
+        familyIds[family.baseForm] = existing.id;
+      }
+    }
+
+    // アセットから消えた語族は、所属を外してから削除する
+    // （`words.familyId` は cascade を張っていない）。
+    final gone = await (_db.select(
+      _db.wordFamilies,
+    )..where((t) => t.baseForm.isNotIn(familyIds.keys))).get();
+    for (final family in gone) {
+      await (_db.update(_db.words)..where((t) => t.familyId.equals(family.id)))
+          .write(const WordsCompanion(familyId: Value(null)));
+      await (_db.delete(
+        _db.wordFamilies,
+      )..where((t) => t.id.equals(family.id))).go();
+    }
+
+    for (final family in asset.families) {
+      final id = familyIds[family.baseForm]!;
+      // この語族に入るべき語だけを所属させ、外れた語の所属は外す。
+      await (_db.update(_db.words)..where(
+            (t) =>
+                t.familyId.equals(id) &
+                t.headword.isNotIn(family.members) &
+                t.ownerProfileId.isNull(),
+          ))
+          .write(const WordsCompanion(familyId: Value(null)));
+      await (_db.update(_db.words)..where(
+            (t) => t.headword.isIn(family.members) & t.ownerProfileId.isNull(),
+          ))
+          .write(WordsCompanion(familyId: Value(id)));
+    }
+    return asset.families.length;
   }
 
   /// 単語帳1冊を適用し、収録語数を返す。

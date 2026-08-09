@@ -110,6 +110,26 @@
       "level": 3
     },
     {
+      "presetId": "eiken_2_v1:compose:verb",
+      "headword": "compose",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpoʊz/",
+      "meaning": "を構成する；を作曲する",
+      "exampleEn": "He composed this song for his mother.",
+      "exampleJa": "彼はこの曲を母のために作曲しました。",
+      "level": 3
+    },
+    {
+      "presetId": "eiken_2_v1:compute:verb",
+      "headword": "compute",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpjuːt/",
+      "meaning": "を計算する；を算出する",
+      "exampleEn": "The program computes the total in a second.",
+      "exampleJa": "そのプログラムは合計を一瞬で計算します。",
+      "level": 4
+    },
+    {
       "presetId": "eiken_2_v1:confront:verb",
       "headword": "confront",
       "partOfSpeech": "verb",
@@ -400,6 +420,16 @@
       "level": 3
     },
     {
+      "presetId": "eiken_2_v1:lengthen:verb",
+      "headword": "lengthen",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈleŋθən/",
+      "meaning": "を長くする；長くなる",
+      "exampleEn": "They lengthened the school day by an hour.",
+      "exampleJa": "彼らは授業日を1時間長くしました。",
+      "level": 4
+    },
+    {
       "presetId": "eiken_2_v1:maintain:verb",
       "headword": "maintain",
       "partOfSpeech": "verb",
@@ -580,6 +610,16 @@
       "level": 3
     },
     {
+      "presetId": "eiken_2_v1:proceed:verb",
+      "headword": "proceed",
+      "partOfSpeech": "verb",
+      "phonetic": "/proʊˈsiːd/",
+      "meaning": "進む；続行する",
+      "exampleEn": "We proceeded carefully along the narrow mountain road.",
+      "exampleJa": "私たちは狭い山道を注意深く進みました。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:prohibit:verb",
       "headword": "prohibit",
       "partOfSpeech": "verb",
@@ -680,6 +720,16 @@
       "level": 3
     },
     {
+      "presetId": "eiken_2_v1:resist:verb",
+      "headword": "resist",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzɪst/",
+      "meaning": "に抵抗する；を耐える",
+      "exampleEn": "I could not resist the sweet chocolate.",
+      "exampleJa": "私はその甘いチョコレートを我慢できませんでした。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:restore:verb",
       "headword": "restore",
       "partOfSpeech": "verb",
@@ -727,6 +777,16 @@
       "meaning": "を改訂する",
       "exampleEn": "The editor revised the whole manuscript.",
       "exampleJa": "編集者は原稿全体を改訂しました。",
+      "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:specialize:verb",
+      "headword": "specialize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈspeʃəlaɪz/",
+      "meaning": "専門にする；専攻する",
+      "exampleEn": "This lawyer specializes in tax cases.",
+      "exampleJa": "この弁護士は税の事案を専門にしています。",
       "level": 4
     },
     {
@@ -2650,6 +2710,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:descend:verb",
+      "headword": "descend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsend/",
+      "meaning": "を降りる；下る",
+      "exampleEn": "The plane descended slowly toward the runway.",
+      "exampleJa": "飛行機は滑走路に向かってゆっくり降下しました。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:detect:verb",
       "headword": "detect",
       "partOfSpeech": "verb",
@@ -3360,6 +3430,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:contribution:noun",
+      "headword": "contribution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːntrɪˈbjuːʃn/",
+      "meaning": "貢献；寄付金",
+      "exampleEn": "His contribution to the research was valuable.",
+      "exampleJa": "彼のその研究への貢献は貴重でした。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:controversy:noun",
       "headword": "controversy",
       "partOfSpeech": "noun",
@@ -4010,6 +4090,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:assistance:noun",
+      "headword": "assistance",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsɪstəns/",
+      "meaning": "援助；支援",
+      "exampleEn": "Thank you for your quick assistance.",
+      "exampleJa": "迅速なご支援に感謝します。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:auction:noun",
       "headword": "auction",
       "partOfSpeech": "noun",
@@ -4088,6 +4178,16 @@
       "exampleEn": "Oil is an important commodity in world trade.",
       "exampleJa": "石油は世界の貿易において重要な商品です。",
       "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:complaint:noun",
+      "headword": "complaint",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpleɪnt/",
+      "meaning": "苦情；不平；不満",
+      "exampleEn": "The store received a complaint from a customer.",
+      "exampleJa": "その店は客から苦情を受けました。",
+      "level": 3
     },
     {
       "presetId": "eiken_2_v1:credit:noun",
@@ -5370,6 +5470,16 @@
       "level": 2
     },
     {
+      "presetId": "eiken_2_v1:preservation:noun",
+      "headword": "preservation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprezərˈveɪʃn/",
+      "meaning": "保存；保護",
+      "exampleEn": "The city supports the preservation of old buildings.",
+      "exampleJa": "市は古い建物の保存を支援しています。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:radiation:noun",
       "headword": "radiation",
       "partOfSpeech": "noun",
@@ -6130,6 +6240,16 @@
       "level": 3
     },
     {
+      "presetId": "eiken_2_v1:performer:noun",
+      "headword": "performer",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈfɔːrmər/",
+      "meaning": "演者；出演者",
+      "exampleEn": "The performer bowed to the audience.",
+      "exampleJa": "演者は観客にお辞儀をしました。",
+      "level": 4
+    },
+    {
       "presetId": "eiken_2_v1:philosophy:noun",
       "headword": "philosophy",
       "partOfSpeech": "noun",
@@ -6158,6 +6278,16 @@
       "exampleEn": "A poster announced the coming festival.",
       "exampleJa": "ポスターが近づく祭りを知らせていました。",
       "level": 2
+    },
+    {
+      "presetId": "eiken_2_v1:prediction:noun",
+      "headword": "prediction",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈdɪkʃn/",
+      "meaning": "予測；予言",
+      "exampleEn": "The weather prediction came true today.",
+      "exampleJa": "天気の予測は今日的中しました。",
+      "level": 3
     },
     {
       "presetId": "eiken_2_v1:proverb:noun",
@@ -6490,6 +6620,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:confusion:noun",
+      "headword": "confusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈfjuːʒn/",
+      "meaning": "混乱；困惑",
+      "exampleEn": "The sudden change caused confusion among passengers.",
+      "exampleJa": "突然の変更が乗客の間に混乱を引き起こしました。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:conscience:noun",
       "headword": "conscience",
       "partOfSpeech": "noun",
@@ -6498,6 +6638,16 @@
       "exampleEn": "His conscience would not let him lie.",
       "exampleJa": "彼は良心が許さず、うそをつけませんでした。",
       "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:consideration:noun",
+      "headword": "consideration",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˌsɪdəˈreɪʃn/",
+      "meaning": "配慮；考慮事項",
+      "exampleEn": "We took user safety into consideration.",
+      "exampleJa": "私たちは利用者の安全を考慮に入れました。",
+      "level": 3
     },
     {
       "presetId": "eiken_2_v1:consumption:noun",
@@ -6767,6 +6917,16 @@
       "meaning": "動機付け；報奨金；誘因",
       "exampleEn": "The bonus is a strong incentive for our team.",
       "exampleJa": "そのボーナスは私たちのチームにとって強い動機付けになっています。",
+      "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:inclusion:noun",
+      "headword": "inclusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈkluːʒn/",
+      "meaning": "含めること；包含",
+      "exampleEn": "The report argues for the inclusion of every child.",
+      "exampleJa": "その報告書はすべての子どもを含めることを訴えています。",
       "level": 4
     },
     {
@@ -7087,6 +7247,16 @@
       "meaning": "生存",
       "exampleEn": "Clean water is essential for survival.",
       "exampleJa": "きれいな水は生存に欠かせません。",
+      "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:survivor:noun",
+      "headword": "survivor",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈvaɪvər/",
+      "meaning": "生存者；生き残った人",
+      "exampleEn": "Rescuers found three survivors in the building.",
+      "exampleJa": "救助隊は建物の中で3人の生存者を見つけました。",
       "level": 4
     },
     {
@@ -7770,6 +7940,16 @@
       "level": 5
     },
     {
+      "presetId": "eiken_2_v1:persuasive:adjective",
+      "headword": "persuasive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pərˈsweɪsɪv/",
+      "meaning": "説得力のある",
+      "exampleEn": "Her argument was clear and very persuasive.",
+      "exampleJa": "彼女の主張は明快でとても説得力がありました。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:pessimistic:adjective",
       "headword": "pessimistic",
       "partOfSpeech": "adjective",
@@ -7987,6 +8167,16 @@
       "meaning": "信頼できる",
       "exampleEn": "We need a trustworthy supplier.",
       "exampleJa": "私たちは信頼できる納入業者が必要です。",
+      "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:verbal:adjective",
+      "headword": "verbal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvɜːrbl/",
+      "meaning": "言葉の；口頭の",
+      "exampleEn": "They had only a verbal agreement.",
+      "exampleJa": "彼らには口頭の合意しかありませんでした。",
       "level": 4
     },
     {
@@ -8220,6 +8410,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:continuous:adjective",
+      "headword": "continuous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈtɪnjuəs/",
+      "meaning": "連続的な；途切れない",
+      "exampleEn": "The machine made a continuous noise all night.",
+      "exampleJa": "その機械は一晩中途切れない音を出していました。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:controversial:adjective",
       "headword": "controversial",
       "partOfSpeech": "adjective",
@@ -8247,6 +8447,16 @@
       "meaning": "極めて重要な；決定的な",
       "exampleEn": "Water is a crucial element for all living things.",
       "exampleJa": "水はすべての生き物にとって極めて重要な要素です。",
+      "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:defensive:adjective",
+      "headword": "defensive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈfensɪv/",
+      "meaning": "防御の；守りの",
+      "exampleEn": "The team took a defensive position.",
+      "exampleJa": "チームは守りの姿勢を取りました。",
       "level": 4
     },
     {
@@ -8450,6 +8660,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:infinite:adjective",
+      "headword": "infinite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪnfɪnət/",
+      "meaning": "無限の；果てしない",
+      "exampleEn": "The universe seems almost infinite.",
+      "exampleJa": "宇宙はほとんど無限に思えます。",
+      "level": 4
+    },
+    {
       "presetId": "eiken_2_v1:innovative:adjective",
       "headword": "innovative",
       "partOfSpeech": "adjective",
@@ -8498,6 +8718,16 @@
       "exampleEn": "The landlord is liable for the repair.",
       "exampleJa": "その修理の責任は家主にあります。",
       "level": 5
+    },
+    {
+      "presetId": "eiken_2_v1:lost:adjective",
+      "headword": "lost",
+      "partOfSpeech": "adjective",
+      "phonetic": "/lɔːst/",
+      "meaning": "失われた；道に迷った",
+      "exampleEn": "We were lost in the narrow streets.",
+      "exampleJa": "私たちは細い通りで道に迷いました。",
+      "level": 3
     },
     {
       "presetId": "eiken_2_v1:mandatory:adjective",
@@ -8590,6 +8820,16 @@
       "level": 3
     },
     {
+      "presetId": "eiken_2_v1:predictable:adjective",
+      "headword": "predictable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɪˈdɪktəbl/",
+      "meaning": "予測できる；ありがちな",
+      "exampleEn": "The ending of the film was predictable.",
+      "exampleJa": "その映画の結末は予測できました。",
+      "level": 4
+    },
+    {
       "presetId": "eiken_2_v1:preliminary:adjective",
       "headword": "preliminary",
       "partOfSpeech": "adjective",
@@ -8600,6 +8840,16 @@
       "level": 4
     },
     {
+      "presetId": "eiken_2_v1:prime:adjective",
+      "headword": "prime",
+      "partOfSpeech": "adjective",
+      "phonetic": "/praɪm/",
+      "meaning": "極上の；最高の；素数の",
+      "exampleEn": "The shop stands in a prime business area.",
+      "exampleJa": "その店は最高の商業地区に建っています。",
+      "level": 3
+    },
+    {
       "presetId": "eiken_2_v1:primitive:adjective",
       "headword": "primitive",
       "partOfSpeech": "adjective",
@@ -8607,6 +8857,16 @@
       "meaning": "原始的な；素朴な",
       "exampleEn": "Ancient people used primitive stone tools.",
       "exampleJa": "古代の人々は原始的な石の道具を使いました。",
+      "level": 3
+    },
+    {
+      "presetId": "eiken_2_v1:productive:adjective",
+      "headword": "productive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈdʌktɪv/",
+      "meaning": "生産的な",
+      "exampleEn": "We had a very productive meeting today.",
+      "exampleJa": "今日はとても生産的な会議ができました。",
       "level": 3
     },
     {
@@ -8628,6 +8888,16 @@
       "exampleEn": "He is a prominent lawyer in this city.",
       "exampleJa": "彼はこの街で傑出した弁護士です。",
       "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:protective:adjective",
+      "headword": "protective",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈtektɪv/",
+      "meaning": "保護する；庇護的な",
+      "exampleEn": "Workers wear protective gloves in the laboratory.",
+      "exampleJa": "作業員は実験室で保護用の手袋を着用します。",
+      "level": 3
     },
     {
       "presetId": "eiken_2_v1:radical:adjective",
@@ -8958,6 +9228,16 @@
       "exampleEn": "Sales improved considerably this year.",
       "exampleJa": "今年は売り上げがかなり伸びました。",
       "level": 3
+    },
+    {
+      "presetId": "eiken_2_v1:continuously:adverb",
+      "headword": "continuously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kənˈtɪnjuəsli/",
+      "meaning": "続けて；絶え間なく",
+      "exampleEn": "The machine ran continuously for three days.",
+      "exampleJa": "その機械は3日間絶え間なく動きました。",
+      "level": 4
     },
     {
       "presetId": "eiken_2_v1:deliberately:adverb",
@@ -9487,6 +9767,16 @@
       "meaning": "相当に；大幅に",
       "exampleEn": "Costs fell substantially after the factory was upgraded.",
       "exampleJa": "工場の改修後、コストは大幅に下がりました。",
+      "level": 4
+    },
+    {
+      "presetId": "eiken_2_v1:supposedly:adverb",
+      "headword": "supposedly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səˈpoʊzɪdli/",
+      "meaning": "たぶん；言われているところでは",
+      "exampleEn": "This bridge is supposedly the oldest here.",
+      "exampleJa": "この橋は言われているところでは当地で最も古いものです。",
       "level": 4
     },
     {

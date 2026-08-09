@@ -1,6 +1,6 @@
 {
   "chunk": "08_nouns_health_life",
-  "note": "健康・心・くらし（81語）",
+  "note": "健康・心・くらし（85語）",
   "words": [
     {
       "headword": "addiction",
@@ -730,6 +730,42 @@
       "exampleEn": "Experience brings wisdom.",
       "exampleJa": "経験は知恵をもたらします。",
       "level": 3
+    },
+    {
+      "headword": "confusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈfjuːʒn/",
+      "meaning": "混乱；困惑",
+      "exampleEn": "The sudden change caused confusion among passengers.",
+      "exampleJa": "突然の変更が乗客の間に混乱を引き起こしました。",
+      "level": 3
+    },
+    {
+      "headword": "consideration",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˌsɪdəˈreɪʃn/",
+      "meaning": "配慮；考慮事項",
+      "exampleEn": "We took user safety into consideration.",
+      "exampleJa": "私たちは利用者の安全を考慮に入れました。",
+      "level": 3
+    },
+    {
+      "headword": "survivor",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈvaɪvər/",
+      "meaning": "生存者；生き残った人",
+      "exampleEn": "Rescuers found three survivors in the building.",
+      "exampleJa": "救助隊は建物の中で3人の生存者を見つけました。",
+      "level": 4
+    },
+    {
+      "headword": "inclusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈkluːʒn/",
+      "meaning": "含めること；包含",
+      "exampleEn": "The report argues for the inclusion of every child.",
+      "exampleJa": "その報告書はすべての子どもを含めることを訴えています。",
+      "level": 4
     }
   ]
 }

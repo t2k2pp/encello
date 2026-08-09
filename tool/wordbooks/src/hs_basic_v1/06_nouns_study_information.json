@@ -1,6 +1,6 @@
 {
   "chunk": "06_nouns_study_information",
-  "note": "学問・言語・情報（84語）",
+  "note": "学問・言語・情報（96語）",
   "words": [
     {
       "headword": "analysis",
@@ -757,6 +757,114 @@
       "exampleEn": "Good writing requires careful planning.",
       "exampleJa": "よい文章には入念な準備が必要です。",
       "level": 2
+    },
+    {
+      "headword": "discovery",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskʌvəri/",
+      "meaning": "発見",
+      "exampleEn": "Her discovery changed modern science.",
+      "exampleJa": "彼女の発見は現代科学を変えました。",
+      "level": 2
+    },
+    {
+      "headword": "proof",
+      "partOfSpeech": "noun",
+      "phonetic": "/pruːf/",
+      "meaning": "証拠；証明",
+      "exampleEn": "The police found no proof of his guilt.",
+      "exampleJa": "警察は彼の有罪の証拠を見つけられませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "examination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪɡˌzæmɪˈneɪʃn/",
+      "meaning": "試験；検査",
+      "exampleEn": "The examination lasted for two hours.",
+      "exampleJa": "その試験は2時間続きました。",
+      "level": 3
+    },
+    {
+      "headword": "division",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈvɪʒn/",
+      "meaning": "分割；部門；割り算",
+      "exampleEn": "The company has three main divisions.",
+      "exampleJa": "その会社には主な部門が3つあります。",
+      "level": 3
+    },
+    {
+      "headword": "selection",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɪˈlekʃn/",
+      "meaning": "選択；選ばれたもの",
+      "exampleEn": "The shop offers a wide selection of books.",
+      "exampleJa": "その店は幅広い本の選択をそろえています。",
+      "level": 3
+    },
+    {
+      "headword": "recognition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrekəɡˈnɪʃn/",
+      "meaning": "認識；承認；評価",
+      "exampleEn": "Her research finally received recognition.",
+      "exampleJa": "彼女の研究はついに評価を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "repetition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrepəˈtɪʃn/",
+      "meaning": "繰り返し；反復",
+      "exampleEn": "Repetition helps you remember new words.",
+      "exampleJa": "繰り返しは新しい語を覚える助けになります。",
+      "level": 3
+    },
+    {
+      "headword": "measurement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeʒərmənt/",
+      "meaning": "測定；寸法",
+      "exampleEn": "Take the measurement before you cut it.",
+      "exampleJa": "切る前に寸法を測ってください。",
+      "level": 3
+    },
+    {
+      "headword": "observation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːbzərˈveɪʃn/",
+      "meaning": "観察；観測；意見",
+      "exampleEn": "Careful observation led to the discovery.",
+      "exampleJa": "注意深い観察がその発見につながりました。",
+      "level": 3
+    },
+    {
+      "headword": "imagination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌmædʒɪˈneɪʃn/",
+      "meaning": "想像力；想像",
+      "exampleEn": "The story caught the children's imagination.",
+      "exampleJa": "その物語は子どもたちの想像力をとらえました。",
+      "level": 3
+    },
+    {
+      "headword": "usage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːsɪdʒ/",
+      "meaning": "使い方；用法",
+      "exampleEn": "This dictionary explains the usage of each word.",
+      "exampleJa": "この辞書は各語の用法を説明しています。",
+      "level": 3
+    },
+    {
+      "headword": "variation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌveriˈeɪʃn/",
+      "meaning": "変化；変動；違い",
+      "exampleEn": "There is wide variation in the results.",
+      "exampleJa": "結果には大きな違いがあります。",
+      "level": 3
     }
   ]
 }

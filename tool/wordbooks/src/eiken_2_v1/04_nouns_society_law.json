@@ -1,6 +1,6 @@
 {
   "chunk": "04_nouns_society_law",
-  "note": "社会・政治・法（77語）",
+  "note": "社会・政治・法（78語）",
   "words": [
     {
       "headword": "activist",
@@ -694,6 +694,15 @@
       "exampleEn": "The witness described the accident in detail.",
       "exampleJa": "目撃者はその事故を詳しく説明しました。",
       "level": 4
+    },
+    {
+      "headword": "contribution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːntrɪˈbjuːʃn/",
+      "meaning": "貢献；寄付金",
+      "exampleEn": "His contribution to the research was valuable.",
+      "exampleJa": "彼のその研究への貢献は貴重でした。",
+      "level": 3
     }
   ]
 }
