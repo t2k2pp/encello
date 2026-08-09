@@ -1,6 +1,6 @@
 {
   "chunk": "02_employment_hiring",
-  "note": "採用・人事・評価・雇用関係に関する語彙 (90語)",
+  "note": "採用・人事・評価・雇用関係に関する語彙（89語）",
   "words": [
     {
       "headword": "candidate",
@@ -766,15 +766,6 @@
       "exampleEn": "The company invited retirees to the annual party.",
       "exampleJa": "会社は定年退職者を年次パーティーに招待しました。",
       "level": 4
-    },
-    {
-      "headword": "commercials",
-      "partOfSpeech": "noun",
-      "phonetic": "/kəˈmɜːrʃlz/",
-      "meaning": "CM集；広告動画",
-      "exampleEn": "We watched funny commercials during the game.",
-      "exampleJa": "私たちは試合の間に面白いCMを見ました。",
-      "level": 3
     },
     {
       "headword": "junction",

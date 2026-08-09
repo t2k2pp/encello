@@ -69,7 +69,7 @@
       "headword": "be different from",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～と違う",
+      "meaning": "〜と違う",
       "exampleEn": "This plan will be different from that one.",
       "exampleJa": "この計画はあの計画とは違うでしょう。",
       "level": 2
@@ -78,7 +78,7 @@
       "headword": "be full of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～でいっぱいである",
+      "meaning": "〜でいっぱいである",
       "exampleEn": "This box will be full of toys soon.",
       "exampleJa": "この箱はもうすぐおもちゃでいっぱいになるでしょう。",
       "level": 2
@@ -87,7 +87,7 @@
       "headword": "be proud of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を誇りに思う",
+      "meaning": "〜を誇りに思う",
       "exampleEn": "You should be proud of your effort.",
       "exampleJa": "あなたは自分の努力を誇りに思うべきです。",
       "level": 2
@@ -105,7 +105,7 @@
       "headword": "because of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～のために（理由）",
+      "meaning": "〜が原因で；〜のために",
       "exampleEn": "The game was stopped because of rain.",
       "exampleJa": "雨のためその試合は中止されました。",
       "level": 2
@@ -285,7 +285,7 @@
       "headword": "had better",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～した方がよい",
+      "meaning": "〜した方がよい",
       "exampleEn": "You had better go home now.",
       "exampleJa": "あなたは今すぐ家に帰った方がよいです。",
       "level": 2
@@ -564,7 +564,7 @@
       "headword": "take off",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（服など）を脱ぐ；離陸する",
+      "meaning": "服を脱ぐ；離陸する",
       "exampleEn": "Please take off your shoes here.",
       "exampleJa": "ここで靴を脱いでください。",
       "level": 1

@@ -1,6 +1,6 @@
 {
   "chunk": "01_function_words",
-  "note": "機能語（代名詞・冠詞・前置詞・接続詞・疑問詞・数量表現・間投詞）",
+  "note": "機能語（代名詞・冠詞・前置詞・接続詞・疑問詞・数量表現・間投詞）（90語）",
   "words": [
     {
       "headword": "i",
@@ -382,25 +382,25 @@
     },
     {
       "headword": "a",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ə/",
-      "meaning": "ひとつの（数えられる名詞の単数形につける）",
+      "meaning": "ひとつの",
       "exampleEn": "I saw a cat in the garden.",
       "exampleJa": "庭で猫を1匹見ました。",
       "level": 1
     },
     {
       "headword": "the",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ðə/",
-      "meaning": "その（すでに話題になったものにつける）",
+      "meaning": "その",
       "exampleEn": "Please open the window.",
       "exampleJa": "窓を開けてください。",
       "level": 1
     },
     {
       "headword": "some",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/sʌm/",
       "meaning": "いくつかの；いくらかの",
       "exampleEn": "There is some milk in the fridge.",
@@ -409,16 +409,16 @@
     },
     {
       "headword": "any",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ˈeni/",
-      "meaning": "いくつかの；どんな〜も（疑問・否定文で）",
+      "meaning": "いくつかの；どんな〜も",
       "exampleEn": "Do you have any questions?",
       "exampleJa": "何か質問はありますか。",
       "level": 1
     },
     {
       "headword": "every",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ˈevri/",
       "meaning": "すべての；〜ごとに",
       "exampleEn": "I brush my teeth every morning.",
@@ -427,7 +427,7 @@
     },
     {
       "headword": "both",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/boʊθ/",
       "meaning": "両方の；両方とも",
       "exampleEn": "Both books are interesting.",
@@ -436,7 +436,7 @@
     },
     {
       "headword": "all",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ɔːl/",
       "meaning": "すべての；みんな",
       "exampleEn": "All students must wear a hat.",
@@ -445,7 +445,7 @@
     },
     {
       "headword": "another",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/əˈnʌðər/",
       "meaning": "もう一つの；別の",
       "exampleEn": "Can I have another cup of tea?",
@@ -456,7 +456,7 @@
       "headword": "in",
       "partOfSpeech": "preposition",
       "phonetic": "/ɪn/",
-      "meaning": "〜の中に；〜（年・月など）に",
+      "meaning": "〜の中に；〜において",
       "exampleEn": "There are many fish in the lake.",
       "exampleJa": "湖にはたくさんの魚がいます。",
       "level": 1
@@ -465,7 +465,7 @@
       "headword": "on",
       "partOfSpeech": "preposition",
       "phonetic": "/ɑːn/",
-      "meaning": "〜の上に；〜（曜日・日付）に",
+      "meaning": "〜の上に；〜曜日に",
       "exampleEn": "Put the book on the desk.",
       "exampleJa": "机の上に本を置いてください。",
       "level": 1
@@ -600,7 +600,7 @@
       "headword": "until",
       "partOfSpeech": "conjunction",
       "phonetic": "/ənˈtɪl/",
-      "meaning": "〜まで（ずっと）",
+      "meaning": "〜までずっと",
       "exampleEn": "We waited until the rain stopped.",
       "exampleJa": "雨がやむまで待ちました。",
       "level": 2
@@ -618,7 +618,7 @@
       "headword": "than",
       "partOfSpeech": "conjunction",
       "phonetic": "/ðæn/",
-      "meaning": "〜より（比較して）",
+      "meaning": "〜より",
       "exampleEn": "This bag is heavier than that one.",
       "exampleJa": "このかばんはあれより重いです。",
       "level": 1
@@ -688,34 +688,34 @@
     },
     {
       "headword": "many",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ˈmeni/",
-      "meaning": "多くの（数えられる名詞に）",
+      "meaning": "多数の；多くの",
       "exampleEn": "Many students joined the club.",
       "exampleJa": "多くの生徒がその部活に入りました。",
       "level": 1
     },
     {
       "headword": "much",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/mʌtʃ/",
-      "meaning": "多くの（数えられない名詞に）",
+      "meaning": "多量の；多くの",
       "exampleEn": "I don't have much time today.",
       "exampleJa": "今日はあまり時間がありません。",
       "level": 1
     },
     {
       "headword": "few",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/fjuː/",
-      "meaning": "ほとんど〜ない（数えられる名詞に）",
+      "meaning": "ほとんど〜ない；少数の",
       "exampleEn": "Few people were at the park.",
       "exampleJa": "公園にはほとんど人がいませんでした。",
       "level": 2
     },
     {
       "headword": "several",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ˈsevrəl/",
       "meaning": "いくつかの",
       "exampleEn": "She has visited several countries.",
@@ -724,7 +724,7 @@
     },
     {
       "headword": "most",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/moʊst/",
       "meaning": "ほとんどの；いちばん多くの",
       "exampleEn": "Most students walk to school.",
@@ -733,7 +733,7 @@
     },
     {
       "headword": "can",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "auxiliary",
       "phonetic": "/kæn/",
       "meaning": "〜できる",
       "exampleEn": "I can swim very fast.",
@@ -742,7 +742,7 @@
     },
     {
       "headword": "will",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "auxiliary",
       "phonetic": "/wɪl/",
       "meaning": "〜するつもりだ；〜だろう",
       "exampleEn": "I will call you tomorrow.",
@@ -751,7 +751,7 @@
     },
     {
       "headword": "must",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "auxiliary",
       "phonetic": "/mʌst/",
       "meaning": "〜しなければならない",
       "exampleEn": "You must finish your homework.",

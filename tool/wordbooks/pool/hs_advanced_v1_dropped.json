@@ -1,5 +1,5 @@
 {
-  "chunk": "pool_hs_advanced_v1",
+  "chunk": "hs_advanced_v1_dropped",
   "note": "作り直しで外した語（1088語）",
   "words": [
     {
@@ -366,7 +366,7 @@
       "headword": "adrenaline",
       "partOfSpeech": "noun",
       "phonetic": "/əˈdrenəlɪn/",
-      "meaning": "アドレナリン（ホルモン）",
+      "meaning": "アドレナリン",
       "exampleEn": "She felt a rush of adrenaline.",
       "exampleJa": "彼女はアドレナリンが急上昇するのを感じました。",
       "level": 3
@@ -402,7 +402,7 @@
       "headword": "alliteration",
       "partOfSpeech": "noun",
       "phonetic": "/əˌlɪtəˈreɪʃn/",
-      "meaning": "頭韻法（詩）",
+      "meaning": "頭韻法",
       "exampleEn": "The poet used alliteration in the poem.",
       "exampleJa": "その詩人は詩の中で頭韻法を使いました。",
       "level": 5
@@ -1833,7 +1833,7 @@
       "headword": "acorn",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪkɔːrn/",
-      "meaning": "ドングリ（木の実）",
+      "meaning": "ドングリ",
       "exampleEn": "The squirrel collected acorns from the oak tree.",
       "exampleJa": "そのリスはオークの木からドングリを集めました。",
       "level": 4
@@ -2157,7 +2157,7 @@
       "headword": "cadaver",
       "partOfSpeech": "noun",
       "phonetic": "/kəˈdævər/",
-      "meaning": "死体；遺体（医学解剖用）",
+      "meaning": "死体；遺体",
       "exampleEn": "The medical student dissected a cadaver.",
       "exampleJa": "その医学生は遺体を解剖しました。",
       "level": 5
@@ -3642,7 +3642,7 @@
       "headword": "appendix",
       "partOfSpeech": "noun",
       "phonetic": "/əˈpendɪks/",
-      "meaning": "付録；虫垂（解剖）",
+      "meaning": "付録；虫垂",
       "exampleEn": "Check the data table in the appendix.",
       "exampleJa": "付録のデータ表を確認しなさい。",
       "level": 4
@@ -3813,7 +3813,7 @@
       "headword": "cannibal",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkænɪbl/",
-      "meaning": "人食い人種；食肉動物",
+      "meaning": "人食い人種；共食いする動物",
       "exampleEn": "The tale describes a dangerous island cannibal.",
       "exampleJa": "その物語は危険な島の人食い人種について描いています。",
       "level": 4
@@ -3912,7 +3912,7 @@
       "headword": "idiocrasy",
       "partOfSpeech": "noun",
       "phonetic": "/ˌɪdiˈɑːkrəsi/",
-      "meaning": "愚民政治",
+      "meaning": "特異体質",
       "exampleEn": "The satirical film depicts a future idiocrasy.",
       "exampleJa": "その風刺映画は未来の愚民政治を描いています。",
       "level": 5
@@ -4362,7 +4362,7 @@
       "headword": "ampere",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæmpɪr/",
-      "meaning": "アンペア（電流単位）",
+      "meaning": "アンペア",
       "exampleEn": "The current measured ten amperes.",
       "exampleJa": "電流は10アンペアと測定されました。",
       "level": 4
@@ -4398,7 +4398,7 @@
       "headword": "antecedent",
       "partOfSpeech": "noun",
       "phonetic": "/ˌæntɪˈsiːdnt/",
-      "meaning": "前例；先行詞（文法）",
+      "meaning": "前例；先行詞",
       "exampleEn": "A pronoun must agree with its antecedent.",
       "exampleJa": "代名詞はその先行詞と一致しなければなりません。",
       "level": 5
@@ -5100,7 +5100,7 @@
       "headword": "antler",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæntlər/",
-      "meaning": "鹿の角（枝角）",
+      "meaning": "鹿の角；枝角",
       "exampleEn": "The male deer has large antlers.",
       "exampleJa": "その雄鹿は大きな角を持っています。",
       "level": 5
@@ -5469,7 +5469,7 @@
       "headword": "inclement",
       "partOfSpeech": "adjective",
       "phonetic": "/ɪnˈklemənt/",
-      "meaning": "荒れ模様の（天候）；厳しい",
+      "meaning": "荒れ模様の；厳しい",
       "exampleEn": "The flight was canceled due to inclement weather.",
       "exampleJa": "そのフライトは荒れ模様の天候のため欠航しました。",
       "level": 5
@@ -5766,7 +5766,7 @@
       "headword": "apostrophe",
       "partOfSpeech": "noun",
       "phonetic": "/əˈpɑːstrəfi/",
-      "meaning": "アポストロフィ（記号）",
+      "meaning": "アポストロフィ",
       "exampleEn": "The apostrophe shows possession or a contraction.",
       "exampleJa": "アポストロフィは所有格や短縮形を示します。",
       "level": 3
@@ -5856,7 +5856,7 @@
       "headword": "auspices",
       "partOfSpeech": "noun",
       "phonetic": "/ˈɔːspɪsɪz/",
-      "meaning": "保護；主催（under the auspices of）",
+      "meaning": "保護；主催",
       "exampleEn": "The event was held under United Nations auspices.",
       "exampleJa": "その行事は国連の主催のもとで開催されました。",
       "level": 5
@@ -5901,7 +5901,7 @@
       "headword": "bode",
       "partOfSpeech": "verb",
       "phonetic": "/boʊd/",
-      "meaning": "の予兆となる（bode well/ill）",
+      "meaning": "の予兆となる",
       "exampleEn": "High profit sales bode well for future growth.",
       "exampleJa": "高い利益売上は将来の成長にとって良い予兆となります。",
       "level": 5
@@ -6054,7 +6054,7 @@
       "headword": "immemorial",
       "partOfSpeech": "adjective",
       "phonetic": "/ˌɪməˈmɔːriəl/",
-      "meaning": "太古の；遠い昔の（from time immemorial）",
+      "meaning": "太古の；遠い昔の",
       "exampleEn": "The tradition dates from time immemorial.",
       "exampleJa": "その伝統は太古の昔から続いています。",
       "level": 5
@@ -6882,7 +6882,7 @@
       "headword": "accusative",
       "partOfSpeech": "adjective",
       "phonetic": "/əˈkjuːzətɪv/",
-      "meaning": "対格の（文法）",
+      "meaning": "対格の",
       "exampleEn": "German grammar uses nominative and accusative case.",
       "exampleJa": "ドイツ語の文法は主格と対格の格を使用します。",
       "level": 5
@@ -6954,7 +6954,7 @@
       "headword": "ammonia",
       "partOfSpeech": "noun",
       "phonetic": "/əˈmoʊniə/",
-      "meaning": "アンモニア（化学）",
+      "meaning": "アンモニア",
       "exampleEn": "Chemical plant produces nitrogen ammonia gas.",
       "exampleJa": "化学工場が窒素アンモニアガスを生産します。",
       "level": 3
@@ -7764,7 +7764,7 @@
       "headword": "brunette",
       "partOfSpeech": "noun",
       "phonetic": "/bruːˈnet/",
-      "meaning": "黒髪（茶髪）の女性",
+      "meaning": "黒髪の女性",
       "exampleEn": "She was a brunette with striking eyes.",
       "exampleJa": "彼女は印象的な瞳を持つ黒髪の女性でした。",
       "level": 4
@@ -8196,7 +8196,7 @@
       "headword": "annum",
       "partOfSpeech": "noun",
       "phonetic": "/ˈænəm/",
-      "meaning": "年（per annum で「年あたり」）",
+      "meaning": "年",
       "exampleEn": "The account earns five percent per annum.",
       "exampleJa": "その口座は年あたり5%の利息を得ます。",
       "level": 5
@@ -8349,7 +8349,7 @@
       "headword": "callus",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæləs/",
-      "meaning": "タコ（皮膚の硬化部分）",
+      "meaning": "皮膚のタコ",
       "exampleEn": "Hard work gave his hands thick calluses.",
       "exampleJa": "重労働が彼の手に分厚いタコを作りました。",
       "level": 5
@@ -8376,7 +8376,7 @@
       "headword": "carp",
       "partOfSpeech": "verb",
       "phonetic": "/kɑːrp/",
-      "meaning": "の小言を言う；コイ（魚）",
+      "meaning": "に小言を言う",
       "exampleEn": "He constantly carped about petty minor details.",
       "exampleJa": "彼は軽微な些細な詳細について絶えず小言を言いました。",
       "level": 5
@@ -8394,7 +8394,7 @@
       "headword": "caviar",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkæviɑːr/",
-      "meaning": "キャビア（チョウザメの卵）",
+      "meaning": "キャビア",
       "exampleEn": "They ate expensive caviar at the party.",
       "exampleJa": "彼らはパーティーで高価なキャビアを食べました。",
       "level": 4
@@ -8637,7 +8637,7 @@
       "headword": "accordion",
       "partOfSpeech": "noun",
       "phonetic": "/əˈkɔːrdiən/",
-      "meaning": "アコーディオン（楽器）",
+      "meaning": "アコーディオン",
       "exampleEn": "She played the accordion at the festival.",
       "exampleJa": "彼女は祭りでアコーディオンを演奏しました。",
       "level": 3
@@ -9357,7 +9357,7 @@
       "headword": "amputate",
       "partOfSpeech": "verb",
       "phonetic": "/ˈæmpjuteɪt/",
-      "meaning": "を切断する（手足など）",
+      "meaning": "手足を切断する",
       "exampleEn": "The surgeon had to amputate his leg.",
       "exampleJa": "外科医は彼の脚を切断しなければなりませんでした。",
       "level": 5

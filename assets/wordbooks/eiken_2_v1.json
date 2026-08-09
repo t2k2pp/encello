@@ -4,7 +4,7 @@
   "emoji": "🥇",
   "category": "eiken",
   "colorSeed": 5,
-  "seedVersion": 5,
+  "seedVersion": 6,
   "bandSize": 1100,
   "sortOrder": 50,
   "note": "英検2級合格に必要な高頻出語彙・熟語",
@@ -8894,7 +8894,7 @@
       "headword": "arguably",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈɑːrɡjuəbli/",
-      "meaning": "ほぼ間違いなく；間違いなく言えるのは",
+      "meaning": "おそらく；ほぼ〜と言ってよい",
       "exampleEn": "He is arguably the best player.",
       "exampleJa": "彼は間違いなくチーム最高の選手です。",
       "level": 4

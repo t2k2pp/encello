@@ -4,7 +4,7 @@
   "emoji": "💼",
   "category": "toeic",
   "colorSeed": 6,
-  "seedVersion": 5,
+  "seedVersion": 6,
   "bandSize": null,
   "sortOrder": 60,
   "note": "TOEIC L&R テストの基礎〜600点目標に必須のビジネス語彙",
@@ -2028,16 +2028,6 @@
       "exampleEn": "She built her career in accounting.",
       "exampleJa": "彼女は会計の分野でキャリアを築きました。",
       "level": 2
-    },
-    {
-      "presetId": "toeic_basic_v1:commercials:noun",
-      "headword": "commercials",
-      "partOfSpeech": "noun",
-      "phonetic": "/kəˈmɜːrʃlz/",
-      "meaning": "CM集；広告動画",
-      "exampleEn": "We watched funny commercials during the game.",
-      "exampleJa": "私たちは試合の間に面白いCMを見ました。",
-      "level": 3
     },
     {
       "presetId": "toeic_basic_v1:compensation:noun",
@@ -5300,11 +5290,11 @@
       "level": 3
     },
     {
-      "presetId": "toeic_basic_v1:recipients:noun",
-      "headword": "recipients",
+      "presetId": "toeic_basic_v1:recipient:noun",
+      "headword": "recipient",
       "partOfSpeech": "noun",
-      "phonetic": "/rɪˈsɪpiənts/",
-      "meaning": "受取人たち",
+      "phonetic": "/rɪˈsɪpiənt/",
+      "meaning": "受取人；受領者",
       "exampleEn": "The recipients must sign for these documents.",
       "exampleJa": "受取人はこれらの書類に署名しなければなりません。",
       "level": 4

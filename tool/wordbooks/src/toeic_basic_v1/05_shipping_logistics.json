@@ -1,6 +1,6 @@
 {
   "chunk": "05_shipping_logistics",
-  "note": "物流・配送・手荷物・輸送・倉庫に関する語彙 (90語)",
+  "note": "物流・配送・手荷物・輸送・倉庫に関する語彙（93語）",
   "words": [
     {
       "headword": "cargo",
@@ -543,10 +543,10 @@
       "level": 3
     },
     {
-      "headword": "recipients",
+      "headword": "recipient",
       "partOfSpeech": "noun",
-      "phonetic": "/rɪˈsɪpiənts/",
-      "meaning": "受取人たち",
+      "phonetic": "/rɪˈsɪpiənt/",
+      "meaning": "受取人；受領者",
       "exampleEn": "The recipients must sign for these documents.",
       "exampleJa": "受取人はこれらの書類に署名しなければなりません。",
       "level": 4

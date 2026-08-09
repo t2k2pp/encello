@@ -1,5 +1,5 @@
 {
-  "chunk": "pool_hs_basic_v1",
+  "chunk": "hs_basic_v1_dropped",
   "note": "作り直しで外した語（754語）",
   "words": [
     {
@@ -519,7 +519,7 @@
       "headword": "barrel",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbærəl/",
-      "meaning": "樽；バレル（単位）",
+      "meaning": "樽；バレル",
       "exampleEn": "They store oil in a wooden barrel.",
       "exampleJa": "彼らは木の樽に石油を保管します。",
       "level": 3
@@ -933,7 +933,7 @@
       "headword": "until",
       "partOfSpeech": "preposition",
       "phonetic": "/ənˈtɪl/",
-      "meaning": "〜まで（ずっと）",
+      "meaning": "〜まで",
       "exampleEn": "Wait here until I return.",
       "exampleJa": "私が戻るまでここで待っていてください。",
       "level": 1
@@ -1725,7 +1725,7 @@
       "headword": "another",
       "partOfSpeech": "pronoun",
       "phonetic": "/əˈnʌðər/",
-      "meaning": "もう一つの；別の",
+      "meaning": "もう一つのもの；別のもの",
       "exampleEn": "Would you like another cup of tea?",
       "exampleJa": "もう一杯のお茶はいかがですか？",
       "level": 1
@@ -3444,7 +3444,7 @@
       "headword": "bid",
       "partOfSpeech": "verb",
       "phonetic": "/bɪd/",
-      "meaning": "を口にする；入札する；入札",
+      "meaning": "値をつける；入札する",
       "exampleEn": "Make a cash money auction bid.",
       "exampleJa": "現金お金のオークション入札を行いなさい。",
       "level": 4
@@ -3831,7 +3831,7 @@
       "headword": "bully",
       "partOfSpeech": "verb",
       "phonetic": "/ˈbʊli/",
-      "meaning": "をいじめる；いじめっ子",
+      "meaning": "をいじめる；を脅す",
       "exampleEn": "Never bully your younger classmates.",
       "exampleJa": "年下のクラスメイトをいじめてはいけません。",
       "level": 3
@@ -6124,9 +6124,9 @@
     },
     {
       "headword": "born",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "adjective",
       "phonetic": "/bɔːrn/",
-      "meaning": "生まれた（be born）",
+      "meaning": "生まれた",
       "exampleEn": "She was born in Tokyo, Japan.",
       "exampleJa": "彼女は日本の東京で生まれました。",
       "level": 1

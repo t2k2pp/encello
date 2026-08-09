@@ -12,6 +12,7 @@ import 'wordbook_validator.dart';
 /// dart run tool/build_wordbooks.dart --check      # 検証だけ（書き出さない）
 /// dart run tool/build_wordbooks.dart --book jhs_v1 --warnings
 /// dart run tool/build_wordbooks.dart --check-all  # 単語帳をまたぐ食い違いだけを検査
+/// dart run tool/build_wordbooks.dart --check-pool # プール（§3.4）を検査
 /// ```
 ///
 /// 検証で `error` が1件でも出た単語帳は書き出さない。
@@ -33,6 +34,7 @@ const _books = <String>[
 ];
 
 const _srcRoot = 'tool/wordbooks/src';
+const _poolRoot = 'tool/wordbooks/pool';
 const _assetRoot = 'assets/wordbooks';
 const _allowedWordsPath = 'tool/wordbooks/allowed_example_words.txt';
 
@@ -59,6 +61,14 @@ Future<void> main(List<String> args) async {
   // 単語帳をまたぐ検査。1冊ずつでは見えない食い違いだけを見る。
   if (args.contains('--check-all')) {
     if (await _checkAllBooks()) return;
+    exitCode = 1;
+    return;
+  }
+
+  // プールの検査。ビルド対象外だが、`_book.json` に足せばそのまま
+  // 単語帳に戻せる形なので、規則を満たしていないと戻したときに落ちる。
+  if (args.contains('--check-pool')) {
+    if (await _checkPool()) return;
     exitCode = 1;
     return;
   }
@@ -186,6 +196,95 @@ Future<bool> _checkAllBooks() async {
     '${_books.length}冊 / 延べ ${wordsByBook.values.fold(0, (a, w) => a + w.length)} 語'
     ' / 2冊以上に載る語 $shared',
   );
+  for (final e in errors) {
+    stderr.writeln(e);
+  }
+  stdout.writeln('エラー ${errors.length}');
+  return errors.isEmpty;
+}
+
+/// プール（`tool/wordbooks/pool/`）の語を検査する（`--check-pool`）。
+///
+/// [Docs/06_features/wordbooks.md] §3.4。ここは出荷しないが、
+/// 次の作り直しの流用元になるので、規則から外れたまま置かない。
+/// 出荷分（`src`）に同じ `(headword, partOfSpeech)` があるときは値もそろえる。
+/// そろっていないと、プールから戻した冊が `--check-all` で落ちる。
+Future<bool> _checkPool() async {
+  stdout.writeln('=== プールの検査 ===');
+
+  final dir = Directory(_poolRoot);
+  if (!dir.existsSync()) {
+    stderr.writeln('ERROR $_poolRoot がありません');
+    return false;
+  }
+
+  // 出荷分の値を引くための索引。
+  final shipped = <String, SourceWord>{};
+  for (final book in _books) {
+    final manifest =
+        jsonDecode(await File('$_srcRoot/$book/_book.json').readAsString())
+            as Map<String, Object?>;
+    final chunkNames = (manifest['chunks'] as List).cast<String>();
+    for (final w in await _readBookWords(book, chunkNames, [])) {
+      shipped[w.key] = w;
+    }
+  }
+
+  final allowed = await _readAllowedWords();
+  final issues = <ValidationIssue>[];
+  var total = 0;
+  final paths =
+      dir
+          .listSync()
+          .whereType<File>()
+          .map((f) => f.path)
+          .where((p) => p.endsWith('.json'))
+          .toList()
+        ..sort();
+
+  // ファイルごとに検査する。同じ語が2冊分のプールに入っていることは
+  // ふつうにあるので（`barrel` は2冊から外れた）、まとめて見ると重複で落ちる。
+  for (final path in paths) {
+    final name = path.split(RegExp(r'[/\\]')).last.replaceAll('.json', '');
+    final decoded = jsonDecode(await File(path).readAsString());
+    // プールのファイルはチャンクと同じ形。`note` の語数の検査もそのまま効く。
+    final words = parseChunk(name, decoded, issues);
+    total += words.length;
+
+    // level の範囲は 1〜5 全部を許す（どの単語帳に戻すか決まっていないため）。
+    issues.addAll(
+      validateWords(
+        words,
+        minLevel: 1,
+        maxLevel: 5,
+        allowedExampleWords: allowed,
+      ),
+    );
+
+    for (final w in words) {
+      final ship = shipped[w.key];
+      if (ship == null) continue;
+      for (final (label, a, b) in <(String, String, String)>[
+        ('meaning', w.meaning, ship.meaning),
+        ('phonetic', w.phonetic, ship.phonetic),
+        ('level', '${w.level}', '${ship.level}'),
+      ]) {
+        if (a != b) {
+          issues.add(
+            ValidationIssue(
+              IssueSeverity.error,
+              name,
+              w.key,
+              '出荷分と $label が違います: プール[$a] / src[$b]',
+            ),
+          );
+        }
+      }
+    }
+  }
+
+  final errors = issues.where((i) => i.isError).toList();
+  stdout.writeln('${paths.length}ファイル / 延べ $total 語');
   for (final e in errors) {
     stderr.writeln(e);
   }

@@ -1,6 +1,6 @@
 {
   "chunk": "12_time_weather",
-  "note": "時間・天気・季節・数・単位",
+  "note": "時間・天気・季節・数・単位（95語）",
   "words": [
     {
       "headword": "time",
@@ -15,7 +15,7 @@
       "headword": "hour",
       "partOfSpeech": "noun",
       "phonetic": "/aʊər/",
-      "meaning": "時間（1時間）",
+      "meaning": "1時間",
       "exampleEn": "The trip takes about one hour.",
       "exampleJa": "その旅行は約1時間かかります。",
       "level": 1
@@ -24,7 +24,7 @@
       "headword": "minute",
       "partOfSpeech": "noun",
       "phonetic": "/ˈmɪnɪt/",
-      "meaning": "分（時間の単位）",
+      "meaning": "分",
       "exampleEn": "Please wait for five minutes.",
       "exampleJa": "5分待ってください。",
       "level": 1
@@ -60,7 +60,7 @@
       "headword": "month",
       "partOfSpeech": "noun",
       "phonetic": "/mʌnθ/",
-      "meaning": "月（1か月）",
+      "meaning": "1か月",
       "exampleEn": "We have a test every month.",
       "exampleJa": "私たちは毎月テストがあります。",
       "level": 1
@@ -843,7 +843,7 @@
       "headword": "pound",
       "partOfSpeech": "noun",
       "phonetic": "/paʊnd/",
-      "meaning": "ポンド（重さの単位）",
+      "meaning": "ポンド",
       "exampleEn": "This fish is about five pounds.",
       "exampleJa": "この魚は約5ポンドです。",
       "level": 2
@@ -852,7 +852,7 @@
       "headword": "inch",
       "partOfSpeech": "noun",
       "phonetic": "/ɪntʃ/",
-      "meaning": "インチ（長さの単位）",
+      "meaning": "インチ",
       "exampleEn": "The snow was six inches deep.",
       "exampleJa": "雪は6インチの深さでした。",
       "level": 2

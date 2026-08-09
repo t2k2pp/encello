@@ -1,6 +1,6 @@
 {
   "chunk": "14_adjectives_adverbs",
-  "note": "形容詞II（大きさ・色・感情）・副詞",
+  "note": "形容詞II（大きさ・色・感情）・副詞（95語）",
   "words": [
     {
       "headword": "happy",
@@ -735,7 +735,7 @@
       "headword": "either",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈiːðər/",
-      "meaning": "（否定文で）〜もまた",
+      "meaning": "〜もまた",
       "exampleEn": "I don't like fish, and he doesn't either.",
       "exampleJa": "私は魚が好きではなく、彼も好きではありません。",
       "level": 2
@@ -744,7 +744,7 @@
       "headword": "neither",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈniːðər/",
-      "meaning": "〜もまた（否定文で）",
+      "meaning": "〜もまた〜ない",
       "exampleEn": "I can't swim, and neither can he.",
       "exampleJa": "私は泳げませんし、彼も泳げません。",
       "level": 3
@@ -780,7 +780,7 @@
       "headword": "yet",
       "partOfSpeech": "adverb",
       "phonetic": "/jet/",
-      "meaning": "まだ（否定文で）；もう（疑問文で）",
+      "meaning": "まだ〜ない；もう〜したか",
       "exampleEn": "Have you finished your homework yet?",
       "exampleJa": "もう宿題を終えましたか。",
       "level": 2

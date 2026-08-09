@@ -161,6 +161,10 @@ enum PartOfSpeech {
   preposition('preposition', '前置詞'),
   conjunction('conjunction', '接続詞'),
   pronoun('pronoun', '代名詞'),
+  // 助動詞と限定詞。`can` を verb、`a` `the` を adjective に入れると
+  // 訳が品詞と合わなくなる（[Docs/06_features/wordbooks.md] §2.2 (d)）。
+  auxiliary('auxiliary', '助動詞'),
+  determiner('determiner', '限定詞'),
   interjection('interjection', '間投詞'),
   phrase('phrase', '熟語'),
   unknown('unknown', '未分類');

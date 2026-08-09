@@ -4,7 +4,7 @@
   "emoji": "🏅",
   "category": "eiken",
   "colorSeed": 4,
-  "seedVersion": 5,
+  "seedVersion": 6,
   "bandSize": 900,
   "sortOrder": 40,
   "note": "英検準2級合格に必要な頻出単語・熟語",
@@ -734,7 +734,7 @@
       "headword": "serve",
       "partOfSpeech": "verb",
       "phonetic": "/sɜːrv/",
-      "meaning": "（食事などを）出す；仕える",
+      "meaning": "食事を出す；仕える",
       "exampleEn": "The restaurant serves lunch until two.",
       "exampleJa": "そのレストランは2時まで昼食を出しています。",
       "level": 2
@@ -3814,7 +3814,7 @@
       "headword": "platform",
       "partOfSpeech": "noun",
       "phonetic": "/ˈplætfɔːrm/",
-      "meaning": "（駅の）ホーム",
+      "meaning": "駅のホーム",
       "exampleEn": "The train left from this platform.",
       "exampleJa": "電車はこのホームから出発しました。",
       "level": 2
@@ -8064,7 +8064,7 @@
       "headword": "be different from",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～と違う",
+      "meaning": "〜と違う",
       "exampleEn": "This plan will be different from that one.",
       "exampleJa": "この計画はあの計画とは違うでしょう。",
       "level": 2
@@ -8074,7 +8074,7 @@
       "headword": "be full of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～でいっぱいである",
+      "meaning": "〜でいっぱいである",
       "exampleEn": "This box will be full of toys soon.",
       "exampleJa": "この箱はもうすぐおもちゃでいっぱいになるでしょう。",
       "level": 2
@@ -8094,7 +8094,7 @@
       "headword": "be proud of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を誇りに思う",
+      "meaning": "〜を誇りに思う",
       "exampleEn": "You should be proud of your effort.",
       "exampleJa": "あなたは自分の努力を誇りに思うべきです。",
       "level": 2
@@ -8134,7 +8134,7 @@
       "headword": "because of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～のために（理由）",
+      "meaning": "〜が原因で；〜のために",
       "exampleEn": "The game was stopped because of rain.",
       "exampleJa": "雨のためその試合は中止されました。",
       "level": 2
@@ -8394,7 +8394,7 @@
       "headword": "had better",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～した方がよい",
+      "meaning": "〜した方がよい",
       "exampleEn": "You had better go home now.",
       "exampleJa": "あなたは今すぐ家に帰った方がよいです。",
       "level": 2
@@ -8744,7 +8744,7 @@
       "headword": "take off",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（服など）を脱ぐ；離陸する",
+      "meaning": "服を脱ぐ；離陸する",
       "exampleEn": "Please take off your shoes here.",
       "exampleJa": "ここで靴を脱いでください。",
       "level": 1

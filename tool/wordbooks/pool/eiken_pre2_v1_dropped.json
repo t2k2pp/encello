@@ -1,6 +1,6 @@
 {
-  "chunk": "pool_eiken_pre2_v1",
-  "note": "作り直しで外した語",
+  "chunk": "eiken_pre2_v1_dropped",
+  "note": "作り直しで外した語（1108語）",
   "words": [
     {
       "headword": "approve",
@@ -465,7 +465,7 @@
       "headword": "buck",
       "partOfSpeech": "noun",
       "phonetic": "/bʌk/",
-      "meaning": "1ドル（口語）；雄鹿",
+      "meaning": "1ドル；雄鹿",
       "exampleEn": "The ticket cost only five bucks.",
       "exampleJa": "そのチケットはたった5ドルでした。",
       "level": 3
@@ -969,7 +969,7 @@
       "headword": "cricket",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkrɪkɪt/",
-      "meaning": "コオロギ；クリケット（球技）",
+      "meaning": "コオロギ；クリケット",
       "exampleEn": "A cricket chirped in the grass at night.",
       "exampleJa": "コオロギが夜に草むらで鳴きました。",
       "level": 2
@@ -1356,7 +1356,7 @@
       "headword": "besides",
       "partOfSpeech": "adverb",
       "phonetic": "/bɪˈsaɪdz/",
-      "meaning": "〜のほかに；それに",
+      "meaning": "そのうえ；それに",
       "exampleEn": "Besides English she speaks Japanese well.",
       "exampleJa": "英語のほかに、彼女は日本語も上手に話します。",
       "level": 2
@@ -1563,7 +1563,7 @@
       "headword": "cardigan",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːrdɪɡən/",
-      "meaning": "カーディガン（衣類）",
+      "meaning": "カーディガン",
       "exampleEn": "He wore a warm wool cardigan.",
       "exampleJa": "彼は温かい羊毛のカーディガンを着ていました。",
       "level": 2
@@ -1707,7 +1707,7 @@
       "headword": "clothing",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkloʊðɪŋ/",
-      "meaning": "衣類；衣料品（集合的）",
+      "meaning": "衣類；衣料品",
       "exampleEn": "We bought warm clothing for the winter.",
       "exampleJa": "私たちは冬のために温かい衣類を買いました。",
       "level": 2
@@ -1938,10 +1938,10 @@
       "level": 4
     },
     {
-      "headword": "cosmetic",
+      "headword": "cosmetics",
       "partOfSpeech": "noun",
       "phonetic": "/kɑːzˈmetɪk/",
-      "meaning": "化粧品；コスメ",
+      "meaning": "化粧品",
       "exampleEn": "She buys her cosmetics at this store.",
       "exampleJa": "彼女はこの店で化粧品を買います。",
       "level": 3
@@ -2103,7 +2103,7 @@
       "headword": "acre",
       "partOfSpeech": "noun",
       "phonetic": "/ˈeɪkər/",
-      "meaning": "エーカー（面積単位）",
+      "meaning": "エーカー",
       "exampleEn": "That farm spreads over fifty acres of land.",
       "exampleJa": "その農場は50エーカーの土地に広がっています。",
       "level": 3
@@ -3237,7 +3237,7 @@
       "headword": "arms",
       "partOfSpeech": "noun",
       "phonetic": "/ɑːrmz/",
-      "meaning": "兵器；武器（複数形）",
+      "meaning": "兵器；武器",
       "exampleEn": "The two countries agreed to reduce their arms.",
       "exampleJa": "その二つの国は兵器を減らすことに合意しました。",
       "level": 4
@@ -3633,7 +3633,7 @@
       "headword": "cattle",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkætl/",
-      "meaning": "牛（集合的）；家畜",
+      "meaning": "牛；家畜",
       "exampleEn": "The cattle are eating grass in the field.",
       "exampleJa": "牛たちが野原で草を食べています。",
       "level": 3
@@ -4605,7 +4605,7 @@
       "headword": "cause",
       "partOfSpeech": "noun",
       "phonetic": "/kɔːz/",
-      "meaning": "原因；理由；を引き起こす",
+      "meaning": "原因；理由",
       "exampleEn": "The police found the cause of the accident.",
       "exampleJa": "警察は事故の原因を突き止めました。",
       "level": 2
@@ -4695,7 +4695,7 @@
       "headword": "claw",
       "partOfSpeech": "noun",
       "phonetic": "/klɔː/",
-      "meaning": "爪（動物の）；かぎ爪",
+      "meaning": "動物の爪；かぎ爪",
       "exampleEn": "The cat's claws scratched the sofa.",
       "exampleJa": "猫の爪がソファをひっかきました。",
       "level": 3
@@ -4749,7 +4749,7 @@
       "headword": "commercial",
       "partOfSpeech": "adjective",
       "phonetic": "/kəˈmɜːrʃl/",
-      "meaning": "商業の；CM",
+      "meaning": "商業の；商業上の",
       "exampleEn": "This street is a busy commercial area.",
       "exampleJa": "この通りはにぎやかな商業地区です。",
       "level": 3
@@ -5514,7 +5514,7 @@
       "headword": "can",
       "partOfSpeech": "noun",
       "phonetic": "/kæn/",
-      "meaning": "缶；缶詰；〜できる",
+      "meaning": "缶；缶詰",
       "exampleEn": "He opened a can of orange juice.",
       "exampleJa": "彼はオレンジジュースの缶を開けました。",
       "level": 1
@@ -6459,7 +6459,7 @@
       "headword": "brandy",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbrændi/",
-      "meaning": "ブランデー（酒類）",
+      "meaning": "ブランデー",
       "exampleEn": "My uncle drank a small glass of brandy.",
       "exampleJa": "おじは小さなグラスのブランデーを飲みました。",
       "level": 3
@@ -7192,15 +7192,6 @@
       "exampleEn": "His decision was based on a wrong assumption.",
       "exampleJa": "彼の決定は誤った思い込みに基づいていました。",
       "level": 4
-    },
-    {
-      "headword": "atlantic",
-      "partOfSpeech": "adjective",
-      "phonetic": "/ətˈlæntɪk/",
-      "meaning": "大西洋の",
-      "exampleEn": "The ship crossed the Atlantic Ocean in June.",
-      "exampleJa": "その船は6月に大西洋を横断しました。",
-      "level": 3
     },
     {
       "headword": "attendance",
@@ -8241,7 +8232,7 @@
       "headword": "barrel",
       "partOfSpeech": "noun",
       "phonetic": "/ˈbærəl/",
-      "meaning": "樽；バレル（単位）",
+      "meaning": "樽；バレル",
       "exampleEn": "The oil is kept in a large barrel.",
       "exampleJa": "その油は大きな樽に保管されています。",
       "level": 3
@@ -8529,7 +8520,7 @@
       "headword": "champagne",
       "partOfSpeech": "noun",
       "phonetic": "/ʃæmˈpeɪn/",
-      "meaning": "シャンパン（発泡酒）",
+      "meaning": "シャンパン",
       "exampleEn": "They opened a bottle of champagne.",
       "exampleJa": "彼らはシャンパンを1本開けました。",
       "level": 3
@@ -8646,7 +8637,7 @@
       "headword": "cocktail",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːkteɪl/",
-      "meaning": "カクテル（酒類）",
+      "meaning": "カクテル",
       "exampleEn": "She ordered a cocktail at the bar.",
       "exampleJa": "彼女はバーでカクテルを注文しました。",
       "level": 3
@@ -9112,7 +9103,7 @@
     },
     {
       "headword": "another",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/əˈnʌðər/",
       "meaning": "もう一つの；別の",
       "exampleEn": "Would you like another cup of tea?",
@@ -9877,7 +9868,7 @@
     },
     {
       "headword": "could",
-      "partOfSpeech": "verb",
+      "partOfSpeech": "auxiliary",
       "phonetic": "/kʊd/",
       "meaning": "〜することができた；〜だろうか",
       "exampleEn": "Could you help me with this work?",

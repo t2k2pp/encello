@@ -1,6 +1,6 @@
 {
   "chunk": "02_verbs_basic",
-  "note": "基本動詞I（存在・移動・位置・授受・所有）",
+  "note": "基本動詞I（存在・移動・位置・授受・所有）（62語）",
   "words": [
     {
       "headword": "stay",
@@ -168,7 +168,7 @@
       "headword": "ride",
       "partOfSpeech": "verb",
       "phonetic": "/raɪd/",
-      "meaning": "（乗り物に）乗る",
+      "meaning": "乗り物に乗る",
       "exampleEn": "My brother rides his bike to work.",
       "exampleJa": "兄は自転車に乗って仕事に行きます。",
       "level": 1
@@ -510,7 +510,7 @@
       "headword": "serve",
       "partOfSpeech": "verb",
       "phonetic": "/sɜːrv/",
-      "meaning": "（食事などを）出す；仕える",
+      "meaning": "食事を出す；仕える",
       "exampleEn": "The restaurant serves lunch until two.",
       "exampleJa": "そのレストランは2時まで昼食を出しています。",
       "level": 2

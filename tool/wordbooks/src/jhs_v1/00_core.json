@@ -1,6 +1,6 @@
 {
   "chunk": "00_core",
-  "note": "M2 の暫定版から引き継いだ基本語。分野をまたぐ。",
+  "note": "M2 の暫定版から引き継いだ基本語。分野をまたぐ。（113語）",
   "words": [
     {
       "headword": "a lot of",
@@ -373,7 +373,7 @@
     },
     {
       "headword": "enough",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/ɪˈnʌf/",
       "meaning": "十分な",
       "exampleEn": "We have enough time.",

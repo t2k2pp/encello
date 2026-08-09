@@ -1,6 +1,6 @@
 {
   "chunk": "17_basics_phrases",
-  "note": "基本語の補完と熟語・句動詞",
+  "note": "基本語の補完と熟語・句動詞（95語）",
   "words": [
     {
       "headword": "school",
@@ -33,7 +33,7 @@
       "headword": "not",
       "partOfSpeech": "adverb",
       "phonetic": "/nɑːt/",
-      "meaning": "～ではない",
+      "meaning": "〜ではない",
       "exampleEn": "This question is not easy.",
       "exampleJa": "この問題は簡単ではありません。",
       "level": 1
@@ -51,7 +51,7 @@
       "headword": "just",
       "partOfSpeech": "adverb",
       "phonetic": "/dʒʌst/",
-      "meaning": "ちょうど；ただ～だけ",
+      "meaning": "ちょうど；ただ〜だけ",
       "exampleEn": "I just finished my homework.",
       "exampleJa": "私はちょうど宿題を終えました。",
       "level": 1
@@ -60,7 +60,7 @@
       "headword": "only",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈoʊnli/",
-      "meaning": "ただ～だけ",
+      "meaning": "ただ〜だけ",
       "exampleEn": "I only have one brother.",
       "exampleJa": "私には兄弟が一人だけいます。",
       "level": 1
@@ -141,7 +141,7 @@
       "headword": "never",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈnevər/",
-      "meaning": "決して～ない",
+      "meaning": "決して〜ない",
       "exampleEn": "I have never seen snow.",
       "exampleJa": "私は雪を見たことが一度もありません。",
       "level": 1
@@ -159,7 +159,7 @@
       "headword": "more",
       "partOfSpeech": "adverb",
       "phonetic": "/mɔːr/",
-      "meaning": "もっと（manyまたはmuchの比較級）",
+      "meaning": "もっと多く",
       "exampleEn": "This book is more interesting than that one.",
       "exampleJa": "この本はあの本より面白いです。",
       "level": 1
@@ -168,7 +168,7 @@
       "headword": "less",
       "partOfSpeech": "adverb",
       "phonetic": "/les/",
-      "meaning": "より少なく（littleの比較級）",
+      "meaning": "より少なく",
       "exampleEn": "I eat less than my brother.",
       "exampleJa": "私は兄より食べる量が少ないです。",
       "level": 2
@@ -195,7 +195,7 @@
       "headword": "worse",
       "partOfSpeech": "adjective",
       "phonetic": "/wɜːrs/",
-      "meaning": "より悪い（badの比較級）",
+      "meaning": "より悪い",
       "exampleEn": "The weather got worse in the afternoon.",
       "exampleJa": "午後、天気はさらに悪くなりました。",
       "level": 2
@@ -238,7 +238,7 @@
     },
     {
       "headword": "each",
-      "partOfSpeech": "adjective",
+      "partOfSpeech": "determiner",
       "phonetic": "/iːtʃ/",
       "meaning": "それぞれの",
       "exampleEn": "Each student has an umbrella today.",
@@ -294,7 +294,7 @@
       "headword": "look for",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を探す",
+      "meaning": "〜を探す",
       "exampleEn": "I am looking for my key.",
       "exampleJa": "私は鍵を探しています。",
       "level": 1
@@ -303,7 +303,7 @@
       "headword": "look at",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を見る",
+      "meaning": "〜を見る",
       "exampleEn": "Look at that beautiful moon tonight.",
       "exampleJa": "今夜のあの美しい月を見てください。",
       "level": 1
@@ -312,7 +312,7 @@
       "headword": "listen to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を聞く",
+      "meaning": "〜を聞く",
       "exampleEn": "I like to listen to music.",
       "exampleJa": "私は音楽を聞くのが好きです。",
       "level": 1
@@ -321,7 +321,7 @@
       "headword": "get on",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（乗り物に）乗る",
+      "meaning": "乗り物に乗る",
       "exampleEn": "I get on the bus every morning.",
       "exampleJa": "私は毎朝バスに乗ります。",
       "level": 1
@@ -330,7 +330,7 @@
       "headword": "get off",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（乗り物を）降りる",
+      "meaning": "乗り物を降りる",
       "exampleEn": "You should get off at the next stop.",
       "exampleJa": "あなたは次の停留所で降りるべきです。",
       "level": 1
@@ -339,7 +339,7 @@
       "headword": "put on",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（服など）を着る",
+      "meaning": "服を着る",
       "exampleEn": "Put on your jacket, it's cold.",
       "exampleJa": "寒いのでジャケットを着なさい。",
       "level": 1
@@ -348,7 +348,7 @@
       "headword": "take off",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（服など）を脱ぐ；離陸する",
+      "meaning": "服を脱ぐ；離陸する",
       "exampleEn": "Please take off your shoes here.",
       "exampleJa": "ここで靴を脱いでください。",
       "level": 1
@@ -357,7 +357,7 @@
       "headword": "turn on",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（電源など）をつける",
+      "meaning": "電源をつける",
       "exampleEn": "Can you turn on the light?",
       "exampleJa": "明かりをつけてもらえますか。",
       "level": 1
@@ -366,7 +366,7 @@
       "headword": "turn off",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "（電源など）を消す",
+      "meaning": "電源を消す",
       "exampleEn": "Please turn off the radio before bed.",
       "exampleJa": "寝る前にラジオを消してください。",
       "level": 1
@@ -375,7 +375,7 @@
       "headword": "wait for",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を待つ",
+      "meaning": "〜を待つ",
       "exampleEn": "I will wait for you at the station.",
       "exampleJa": "駅であなたを待っています。",
       "level": 1
@@ -384,7 +384,7 @@
       "headword": "arrive at",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～に到着する",
+      "meaning": "〜に到着する",
       "exampleEn": "We will arrive at the airport soon.",
       "exampleJa": "私たちはもうすぐ空港に到着します。",
       "level": 2
@@ -393,7 +393,7 @@
       "headword": "be interested in",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～に興味がある",
+      "meaning": "〜に興味がある",
       "exampleEn": "You should be interested in Japanese history.",
       "exampleJa": "あなたは日本の歴史に興味を持つべきです。",
       "level": 2
@@ -402,7 +402,7 @@
       "headword": "be good at",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～が得意である",
+      "meaning": "〜が得意である",
       "exampleEn": "You will be good at cooking soon.",
       "exampleJa": "あなたはもうすぐ料理が上手になるでしょう。",
       "level": 1
@@ -411,7 +411,7 @@
       "headword": "be full of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～でいっぱいである",
+      "meaning": "〜でいっぱいである",
       "exampleEn": "This box will be full of toys soon.",
       "exampleJa": "この箱はもうすぐおもちゃでいっぱいになるでしょう。",
       "level": 2
@@ -420,7 +420,7 @@
       "headword": "be famous for",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～で有名である",
+      "meaning": "〜で有名である",
       "exampleEn": "This town will be famous for its temple.",
       "exampleJa": "この町はお寺で有名になるでしょう。",
       "level": 2
@@ -429,7 +429,7 @@
       "headword": "be covered with",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～で覆われている",
+      "meaning": "〜で覆われている",
       "exampleEn": "The mountain will be covered with snow soon.",
       "exampleJa": "その山はもうすぐ雪で覆われるでしょう。",
       "level": 2
@@ -447,7 +447,7 @@
       "headword": "a few",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "少しの（数）",
+      "meaning": "少数の；少しの",
       "exampleEn": "I have a few questions for you.",
       "exampleJa": "あなたに少し質問があります。",
       "level": 1
@@ -456,7 +456,7 @@
       "headword": "a little",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "少しの（量）",
+      "meaning": "少量の；少しの",
       "exampleEn": "There is a little milk left.",
       "exampleJa": "牛乳が少し残っています。",
       "level": 1
@@ -582,7 +582,7 @@
       "headword": "would like",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～が欲しい（丁寧な言い方）",
+      "meaning": "〜が欲しいのですが",
       "exampleEn": "I would like some water, please.",
       "exampleJa": "水をいただきたいのですが。",
       "level": 1
@@ -591,7 +591,7 @@
       "headword": "had better",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～した方がよい",
+      "meaning": "〜した方がよい",
       "exampleEn": "You had better go home now.",
       "exampleJa": "あなたは今すぐ家に帰った方がよいです。",
       "level": 2
@@ -600,7 +600,7 @@
       "headword": "don't have to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～する必要はない",
+      "meaning": "〜する必要はない",
       "exampleEn": "You don't have to hurry.",
       "exampleJa": "急ぐ必要はありません。",
       "level": 1
@@ -636,7 +636,7 @@
       "headword": "in front of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～の前で",
+      "meaning": "〜の前で",
       "exampleEn": "Let's meet in front of the station.",
       "exampleJa": "駅の前で会いましょう。",
       "level": 1
@@ -645,7 +645,7 @@
       "headword": "next to",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～の隣に",
+      "meaning": "〜の隣に",
       "exampleEn": "The bank is next to the library.",
       "exampleJa": "銀行は図書館の隣にあります。",
       "level": 1
@@ -654,7 +654,7 @@
       "headword": "because of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～のために（理由）",
+      "meaning": "〜が原因で；〜のために",
       "exampleEn": "The game was stopped because of rain.",
       "exampleJa": "雨のためその試合は中止されました。",
       "level": 2
@@ -726,7 +726,7 @@
       "headword": "be proud of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を誇りに思う",
+      "meaning": "〜を誇りに思う",
       "exampleEn": "You should be proud of your effort.",
       "exampleJa": "あなたは自分の努力を誇りに思うべきです。",
       "level": 2
@@ -735,7 +735,7 @@
       "headword": "be afraid of",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～を恐れる",
+      "meaning": "〜を恐れる",
       "exampleEn": "Everyone can be afraid of the dark.",
       "exampleJa": "誰でも暗闇を怖がることがあります。",
       "level": 1
@@ -744,7 +744,7 @@
       "headword": "be different from",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～と違う",
+      "meaning": "〜と違う",
       "exampleEn": "This plan will be different from that one.",
       "exampleJa": "この計画はあの計画とは違うでしょう。",
       "level": 2
@@ -753,7 +753,7 @@
       "headword": "look like",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～のように見える",
+      "meaning": "〜のように見える",
       "exampleEn": "That cloud looks like a rabbit.",
       "exampleJa": "あの雲はうさぎのように見えます。",
       "level": 1
@@ -852,7 +852,7 @@
       "headword": "how about",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "～はどうですか",
+      "meaning": "〜はどうですか",
       "exampleEn": "How about going to the beach?",
       "exampleJa": "海に行くのはどうですか。",
       "level": 1

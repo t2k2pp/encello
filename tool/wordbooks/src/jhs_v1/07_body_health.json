@@ -1,6 +1,6 @@
 {
   "chunk": "07_body_health",
-  "note": "体・健康・病気・気持ちを表す名詞",
+  "note": "体・健康・病気・気持ちを表す名詞（95語）",
   "words": [
     {
       "headword": "head",
@@ -825,7 +825,7 @@
       "headword": "runny nose",
       "partOfSpeech": "phrase",
       "phonetic": "",
-      "meaning": "鼻水（が出ること）",
+      "meaning": "鼻水が出ること",
       "exampleEn": "A runny nose is a sign of a cold.",
       "exampleJa": "鼻水は風邪のサインです。",
       "level": 3

@@ -1,6 +1,6 @@
 {
   "chunk": "10_town_money",
-  "note": "街・建物・交通・買い物・お金",
+  "note": "街・建物・交通・買い物・お金（95語）",
   "words": [
     {
       "headword": "town",
@@ -591,7 +591,7 @@
       "headword": "platform",
       "partOfSpeech": "noun",
       "phonetic": "/ˈplætfɔːrm/",
-      "meaning": "（駅の）ホーム",
+      "meaning": "駅のホーム",
       "exampleEn": "The train left from this platform.",
       "exampleJa": "電車はこのホームから出発しました。",
       "level": 2
@@ -735,7 +735,7 @@
       "headword": "yen",
       "partOfSpeech": "noun",
       "phonetic": "/jen/",
-      "meaning": "円（日本のお金）",
+      "meaning": "円",
       "exampleEn": "I paid in yen at the shop.",
       "exampleJa": "私はその店で円で支払いました。",
       "level": 1

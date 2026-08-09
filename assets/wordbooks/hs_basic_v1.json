@@ -4,7 +4,7 @@
   "emoji": "🎓",
   "category": "highSchool",
   "colorSeed": 2,
-  "seedVersion": 5,
+  "seedVersion": 6,
   "bandSize": 1200,
   "sortOrder": 20,
   "note": "高校学習および大学入試の土台となる基本英単語",
@@ -714,7 +714,7 @@
       "headword": "serve",
       "partOfSpeech": "verb",
       "phonetic": "/sɜːrv/",
-      "meaning": "（食事などを）出す；仕える",
+      "meaning": "食事を出す；仕える",
       "exampleEn": "The restaurant serves lunch until two.",
       "exampleJa": "そのレストランは2時まで昼食を出しています。",
       "level": 2
@@ -5784,7 +5784,7 @@
       "headword": "clothing",
       "partOfSpeech": "noun",
       "phonetic": "/ˈkloʊðɪŋ/",
-      "meaning": "衣類；衣料品（集合的）",
+      "meaning": "衣類；衣料品",
       "exampleEn": "We bought warm clothing for the winter.",
       "exampleJa": "私たちは冬のために温かい衣類を買いました。",
       "level": 2

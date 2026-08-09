@@ -122,7 +122,7 @@ erDiagram
 |---|---|---|---|
 | `id` | int | PK, autoIncrement | |
 | `headword` | text | not null, index | 見出し語。小文字で正規化して保存 |
-| `partOfSpeech` | text | not null | `noun` / `verb` / `adjective` / `adverb` / `preposition` / `conjunction` / `pronoun` / `interjection` / `phrase` / `unknown` |
+| `partOfSpeech` | text | not null | `noun` / `verb` / `adjective` / `adverb` / `preposition` / `conjunction` / `pronoun` / `auxiliary` / `determiner` / `interjection` / `phrase` / `unknown` |
 | `phonetic` | text | nullable | 発音記号 |
 | `meaning` | text | not null | 日本語訳。`isDraft = true` のときだけ空文字を許す |
 | `partsNote` | text | nullable | 語のつくりの説明1行（[06_features/word_parts.md] §3.1） |

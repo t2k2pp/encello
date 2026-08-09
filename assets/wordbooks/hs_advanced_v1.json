@@ -4,7 +4,7 @@
   "emoji": "🏛️",
   "category": "highSchool",
   "colorSeed": 3,
-  "seedVersion": 5,
+  "seedVersion": 6,
   "bandSize": 1300,
   "sortOrder": 30,
   "note": "難関大学入試に対応する高度な語彙",
@@ -1434,7 +1434,7 @@
       "headword": "acclaim",
       "partOfSpeech": "verb",
       "phonetic": "/əˈkleɪm/",
-      "meaning": "を絶賛する；称賛",
+      "meaning": "を絶賛する；を称賛する",
       "exampleEn": "Critics acclaimed the director's new masterpiece.",
       "exampleJa": "批評家たちはその監督の新作傑作を絶賛しました。",
       "level": 4
@@ -4574,7 +4574,7 @@
       "headword": "antibody",
       "partOfSpeech": "noun",
       "phonetic": "/ˈæntibɑːdi/",
-      "meaning": "抗体（免疫）",
+      "meaning": "抗体",
       "exampleEn": "The immune system produces antibodies to fight viruses.",
       "exampleJa": "免疫系はウイルスと戦う抗体を作ります。",
       "level": 4
@@ -8744,7 +8744,7 @@
       "headword": "arguably",
       "partOfSpeech": "adverb",
       "phonetic": "/ˈɑːrɡjuəbli/",
-      "meaning": "ほぼ間違いなく；間違いなく言えるのは",
+      "meaning": "おそらく；ほぼ〜と言ってよい",
       "exampleEn": "He is arguably the best player.",
       "exampleJa": "彼は間違いなくチーム最高の選手です。",
       "level": 4

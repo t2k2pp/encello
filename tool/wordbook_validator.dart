@@ -92,6 +92,8 @@ const kPartsOfSpeech = <String>{
   'preposition',
   'conjunction',
   'pronoun',
+  'auxiliary',
+  'determiner',
   'interjection',
   'phrase',
 };
@@ -114,14 +116,18 @@ final _wordTokenPattern = RegExp(r"[A-Za-z][A-Za-z'\-]*");
 const _softExampleWords = 10;
 const _maxExampleWords = 12;
 
-/// 和訳に語義の写しをねじ込んだ跡（`おもてなし（歓待）` のような形）。
+/// 語義の写しをねじ込んだ跡（`おもてなし（歓待）` のような形）。
 ///
 /// 訳語の候補を丸括弧で並べるのは自然な日本語ではないので不合格にする
 /// （[Docs/06_features/wordbooks.md] §2.1）。丸括弧そのものを禁じている。
+/// `meaning` と `exampleJa` の両方に当てる（§2.2 (g)）。
 final _parentheticalGloss = RegExp(r'（');
 
 /// 訳の語義の上限（[Docs/06_features/wordbooks.md] §2）。
 const _maxSenses = 3;
+
+/// チャンクの `note` に書く語数（`（90語）`）。半角括弧も読む。
+final _noteCountPattern = RegExp(r'[（(](\d+)\s*語[）)]');
 
 /// チャンクファイルの JSON からソース語を読む。
 ///
@@ -146,6 +152,20 @@ List<SourceWord> parseChunk(
   if (rawWords is! List) {
     err('', 'words が配列ではありません');
     return const [];
+  }
+
+  // note の語数が実語数と合っているか（[Docs/06_features/wordbooks.md] §2.2 (e)）。
+  // 人が書く数なので、語を足したときに直し忘れる。機械で数えれば嘘にならない。
+  final note = decoded['note'];
+  if (note is! String || note.isEmpty) {
+    err('', 'note がありません');
+  } else {
+    final match = _noteCountPattern.firstMatch(note);
+    if (match == null) {
+      err('', 'note に語数（例:「（90語）」）がありません: $note');
+    } else if (int.parse(match[1]!) != rawWords.length) {
+      err('', 'note の語数が実語数と違います: ${match[1]}語 / 実 ${rawWords.length}語');
+    }
   }
 
   final words = <SourceWord>[];
@@ -285,6 +305,12 @@ List<ValidationIssue> validateWords(
       }
       if (senses.any((s) => s.trim().isEmpty)) {
         err(w, '空の語義があります');
+      }
+      // 例文和訳と同じ規則を訳にも当てる（§2.2 (g)）。
+      // 「（乗り物に）乗る」「ポンド（重さの単位）」のような補足は、
+      // 「乗り物に乗る」「ポンド」と書けば括弧なしで足りる。
+      if (_parentheticalGloss.hasMatch(w.meaning)) {
+        err(w, '訳に丸括弧があります（括弧なしの日本語で書く）: ${w.meaning}');
       }
     }
 

@@ -1,6 +1,6 @@
 {
-  "chunk": "pool_eiken_2_v1",
-  "note": "作り直しで外した語（1104語）",
+  "chunk": "eiken_2_v1_dropped",
+  "note": "作り直しで外した語（1103語）",
   "words": [
     {
       "headword": "absorb",
@@ -2649,10 +2649,10 @@
       "level": 5
     },
     {
-      "headword": "blooms",
+      "headword": "bloom",
       "partOfSpeech": "noun",
-      "phonetic": "/bluːmz/",
-      "meaning": "開花；花々",
+      "phonetic": "/bluːm/",
+      "meaning": "花；開花",
       "exampleEn": "The garden is full of white blooms.",
       "exampleJa": "その庭は白い花々でいっぱいです。",
       "level": 3
@@ -5295,10 +5295,10 @@
       "level": 4
     },
     {
-      "headword": "cosmetic",
+      "headword": "cosmetics",
       "partOfSpeech": "noun",
       "phonetic": "/kɑːzˈmetɪk/",
-      "meaning": "化粧品；コスメ",
+      "meaning": "化粧品",
       "exampleEn": "This shop sells natural cosmetics at low prices.",
       "exampleJa": "この店は自然派の化粧品を安く売っています。",
       "level": 3
@@ -8749,15 +8749,6 @@
       "exampleEn": "You should not covet your neighbor's wealth.",
       "exampleJa": "隣人の富をむやみに欲しがるべきではありません。",
       "level": 5
-    },
-    {
-      "headword": "crises",
-      "partOfSpeech": "noun",
-      "phonetic": "/ˈkraɪsiːz/",
-      "meaning": "危機（複数形）",
-      "exampleEn": "The country has survived several economic crises.",
-      "exampleJa": "その国はいくつかの経済危機を乗り越えてきました。",
-      "level": 3
     },
     {
       "headword": "crumble",
