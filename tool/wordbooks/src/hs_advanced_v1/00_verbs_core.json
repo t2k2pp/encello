@@ -1,0 +1,726 @@
+{
+  "chunk": "00_verbs_core",
+  "note": "多義・語法の重要動詞（80語）",
+  "words": [
+    {
+      "headword": "adhere",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈhɪr/",
+      "meaning": "順守する；固執する；付着する",
+      "exampleEn": "Adhere strictly to the safety rules.",
+      "exampleJa": "安全規則に厳格に従いなさい。",
+      "level": 4
+    },
+    {
+      "headword": "administer",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmɪnɪstər/",
+      "meaning": "を管理する；を運営する；を投与する",
+      "exampleEn": "The nurse administered medicine to the patient.",
+      "exampleJa": "看護師は患者に薬を投与しました。",
+      "level": 4
+    },
+    {
+      "headword": "allege",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈledʒ/",
+      "meaning": "と主張する；を申し立てる",
+      "exampleEn": "He is alleged to have stolen funds.",
+      "exampleJa": "彼は資金を盗んだと断定・主張されています。",
+      "level": 4
+    },
+    {
+      "headword": "ascertain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌæsərˈteɪn/",
+      "meaning": "を確かめる；を突き止める",
+      "exampleEn": "We must ascertain the facts before we decide.",
+      "exampleJa": "決める前に事実を確かめなければなりません。",
+      "level": 5
+    },
+    {
+      "headword": "assert",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsɜːrt/",
+      "meaning": "と主張する；を断言する",
+      "exampleEn": "She asserted her innocence.",
+      "exampleJa": "彼女は自身の無実を強く主張しました。",
+      "level": 4
+    },
+    {
+      "headword": "attribute",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtrɪbjuːt/",
+      "meaning": "を〜のせいにする；を〜に帰する",
+      "exampleEn": "They attribute the sales growth to the new ad.",
+      "exampleJa": "彼らは売上の伸びを新しい広告のおかげだと考えています。",
+      "level": 4
+    },
+    {
+      "headword": "commence",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmens/",
+      "meaning": "を開始する；始まる",
+      "exampleEn": "The meeting will commence at ten o'clock.",
+      "exampleJa": "会議は10時ちょうどに始まります。",
+      "level": 4
+    },
+    {
+      "headword": "comprise",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpraɪz/",
+      "meaning": "を構成する；から成る",
+      "exampleEn": "The team comprises players from six countries.",
+      "exampleJa": "そのチームは6か国の選手で構成されています。",
+      "level": 4
+    },
+    {
+      "headword": "confer",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfɜːr/",
+      "meaning": "相談する；を授与する",
+      "exampleEn": "The two leaders conferred for an hour.",
+      "exampleJa": "2人の指導者は1時間相談しました。",
+      "level": 5
+    },
+    {
+      "headword": "conform",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfɔːrm/",
+      "meaning": "に従う；適合する",
+      "exampleEn": "New buildings must conform to safety rules.",
+      "exampleJa": "新しい建物は安全規則に従わなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "constitute",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːnstətuːt/",
+      "meaning": "を構成する；に相当する",
+      "exampleEn": "Women constitute half of the workforce.",
+      "exampleJa": "女性が労働力の半分を構成しています。",
+      "level": 4
+    },
+    {
+      "headword": "contend",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈtend/",
+      "meaning": "と主張する；争う",
+      "exampleEn": "He contended that the test was unfair.",
+      "exampleJa": "彼はテストが不公平だと主張しました。",
+      "level": 4
+    },
+    {
+      "headword": "culminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkʌlmɪneɪt/",
+      "meaning": "最高潮に達する；で終わる",
+      "exampleEn": "The event will culminate in a fireworks show.",
+      "exampleJa": "そのイベントは盛大な花火ショーで最高潮に達します。",
+      "level": 4
+    },
+    {
+      "headword": "deem",
+      "partOfSpeech": "verb",
+      "phonetic": "/diːm/",
+      "meaning": "をみなす；と思う",
+      "exampleEn": "The proposal was deemed acceptable.",
+      "exampleJa": "その提案は受諾可能だとみなされました。",
+      "level": 5
+    },
+    {
+      "headword": "defer",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfɜːr/",
+      "meaning": "を延期する；の意見に従う",
+      "exampleEn": "They decided to defer the final decision.",
+      "exampleJa": "彼らは最終決定を先延ばしにすることにしました。",
+      "level": 4
+    },
+    {
+      "headword": "delegate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdelɪɡeɪt/",
+      "meaning": "を委任する；を派遣する",
+      "exampleEn": "Manager delegated tasks to assistants.",
+      "exampleJa": "マネージャーは助手にタスクを委任しました。",
+      "level": 4
+    },
+    {
+      "headword": "denote",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈnoʊt/",
+      "meaning": "を示す；を意味する",
+      "exampleEn": "The red mark denotes a serious warning.",
+      "exampleJa": "赤い印は重大な警告を示します。",
+      "level": 4
+    },
+    {
+      "headword": "deprive",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈpraɪv/",
+      "meaning": "から奪う；を剥奪する",
+      "exampleEn": "The war deprived children of their education.",
+      "exampleJa": "戦争は子どもたちから教育を奪いました。",
+      "level": 4
+    },
+    {
+      "headword": "derive",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈraɪv/",
+      "meaning": "を引き出す；に由来する",
+      "exampleEn": "English derives many words from Latin.",
+      "exampleJa": "英語はラテン語から多くの語に由来しています。",
+      "level": 4
+    },
+    {
+      "headword": "designate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdezɪɡneɪt/",
+      "meaning": "を指定する；を指名する",
+      "exampleEn": "The company designated this room for meetings.",
+      "exampleJa": "会社はこの部屋を会議用に指定しました。",
+      "level": 4
+    },
+    {
+      "headword": "deter",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtɜːr/",
+      "meaning": "を思いとどまらせる；防ぐ",
+      "exampleEn": "Security cameras deter thieves from breaking in.",
+      "exampleJa": "防犯カメラは泥棒の侵入を思いとどまらせます。",
+      "level": 4
+    },
+    {
+      "headword": "devise",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈvaɪz/",
+      "meaning": "を考案する；を工夫する",
+      "exampleEn": "The team devised a new marketing strategy.",
+      "exampleJa": "チームは新しい販売戦略を考案しました。",
+      "level": 4
+    },
+    {
+      "headword": "differentiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪfəˈrenʃieɪt/",
+      "meaning": "を区別する；を差別化する",
+      "exampleEn": "It is hard to differentiate the two samples.",
+      "exampleJa": "その2つの標本を見分けるのは難しいです。",
+      "level": 4
+    },
+    {
+      "headword": "discern",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsɜːrn/",
+      "meaning": "を見分ける；を識別する",
+      "exampleEn": "It is hard to discern the truth.",
+      "exampleJa": "真実を見分けるのは困難です。",
+      "level": 5
+    },
+    {
+      "headword": "disperse",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈspɜːrs/",
+      "meaning": "を分散・散乱させる",
+      "exampleEn": "The police ordered the crowd to disperse peacefully.",
+      "exampleJa": "警察は群衆に平和的に解散するよう命じました。",
+      "level": 4
+    },
+    {
+      "headword": "displace",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈpleɪs/",
+      "meaning": "を立ち退かせる；に取って代わる",
+      "exampleEn": "The war displaced thousands of innocent people.",
+      "exampleJa": "戦争は何千人もの罪のない人々を故郷から追い立てました。",
+      "level": 4
+    },
+    {
+      "headword": "dissolve",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈzɑːlv/",
+      "meaning": "を溶かす；解散する",
+      "exampleEn": "Sugar dissolves quickly in hot tea.",
+      "exampleJa": "砂糖は熱いお茶にすぐ溶けます。",
+      "level": 3
+    },
+    {
+      "headword": "distort",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstɔːrt/",
+      "meaning": "を歪める；歪む",
+      "exampleEn": "Media distorted his original words.",
+      "exampleJa": "メディアは彼の元の発言を歪めました。",
+      "level": 4
+    },
+    {
+      "headword": "divert",
+      "partOfSpeech": "verb",
+      "phonetic": "/daɪˈvɜːrt/",
+      "meaning": "をそらす；を迂回させる",
+      "exampleEn": "Traffic was diverted due to roadwork.",
+      "exampleJa": "工事のため交通は迂回させられました。",
+      "level": 4
+    },
+    {
+      "headword": "elicit",
+      "partOfSpeech": "verb",
+      "phonetic": "/iˈlɪsɪt/",
+      "meaning": "を引き出す；を誘い出す",
+      "exampleEn": "Her question elicited an honest answer.",
+      "exampleJa": "彼女の質問が正直な答えを引き出しました。",
+      "level": 5
+    },
+    {
+      "headword": "embody",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈbɑːdi/",
+      "meaning": "を体現する；を具体化する",
+      "exampleEn": "This building embodies the spirit of the age.",
+      "exampleJa": "この建物はその時代の精神を体現しています。",
+      "level": 5
+    },
+    {
+      "headword": "empower",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpaʊər/",
+      "meaning": "に権限を与える；に力を持たせる",
+      "exampleEn": "The law empowers citizens to demand information.",
+      "exampleJa": "その法律は市民に情報開示を求める権利を与えています。",
+      "level": 4
+    },
+    {
+      "headword": "enact",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈækt/",
+      "meaning": "を制定する；を上演する",
+      "exampleEn": "Parliament enacted environmental laws.",
+      "exampleJa": "議会は環境関連法規を制定しました。",
+      "level": 4
+    },
+    {
+      "headword": "encompass",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkʌmpəs/",
+      "meaning": "を含む；を取り囲む",
+      "exampleEn": "The survey encompasses all age groups.",
+      "exampleJa": "その調査はすべての年齢層を対象にしています。",
+      "level": 5
+    },
+    {
+      "headword": "endow",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈdaʊ/",
+      "meaning": "を授ける；に寄付する",
+      "exampleEn": "Nature endowed her with a beautiful voice.",
+      "exampleJa": "彼女は生まれつき美しい声に恵まれていました。",
+      "level": 5
+    },
+    {
+      "headword": "entail",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈteɪl/",
+      "meaning": "を必然的に伴う；を必要とする",
+      "exampleEn": "This job entails a lot of responsibility.",
+      "exampleJa": "この仕事には大きな責任が伴います。",
+      "level": 5
+    },
+    {
+      "headword": "evoke",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈvoʊk/",
+      "meaning": "を呼び起こす；を喚起する",
+      "exampleEn": "The song evokes memories of my childhood.",
+      "exampleJa": "その歌は子どもの頃の記憶を呼び起こします。",
+      "level": 4
+    },
+    {
+      "headword": "exemplify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈzemplɪfaɪ/",
+      "meaning": "の良い例となる；を例示する",
+      "exampleEn": "This case exemplifies the problem very well.",
+      "exampleJa": "この事例はその問題をよく表しています。",
+      "level": 5
+    },
+    {
+      "headword": "exert",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈzɜːrt/",
+      "meaning": "を及ぼす；を働かせる",
+      "exampleEn": "The moon exerts a strong pull on the sea.",
+      "exampleJa": "月は海に強い引力を及ぼしています。",
+      "level": 4
+    },
+    {
+      "headword": "formulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfɔːrmjuleɪt/",
+      "meaning": "を練り上げる；を明確に述べる",
+      "exampleEn": "The team formulated a new safety plan.",
+      "exampleJa": "そのチームは新しい安全計画をまとめ上げました。",
+      "level": 4
+    },
+    {
+      "headword": "furnish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfɜːrnɪʃ/",
+      "meaning": "を供給する；に家具を備え付ける",
+      "exampleEn": "The witness furnished the police with details.",
+      "exampleJa": "その目撃者は警察に詳しい情報を提供しました。",
+      "level": 4
+    },
+    {
+      "headword": "govern",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɡʌvərn/",
+      "meaning": "を統治する；を支配する",
+      "exampleEn": "The president governs the nation.",
+      "exampleJa": "大統領が国家を統治します。",
+      "level": 3
+    },
+    {
+      "headword": "impede",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpiːd/",
+      "meaning": "を妨げる；を遅らせる",
+      "exampleEn": "Storms impeded search efforts.",
+      "exampleJa": "嵐が捜索活動を妨げました。",
+      "level": 5
+    },
+    {
+      "headword": "implement",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪmplɪment/",
+      "meaning": "を実行する；を導入する",
+      "exampleEn": "The firm implemented a new software system.",
+      "exampleJa": "その会社は新しいソフトウェアシステムを導入しました。",
+      "level": 4
+    },
+    {
+      "headword": "incur",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkɜːr/",
+      "meaning": "を招く；を負う",
+      "exampleEn": "The company incurred huge losses last year.",
+      "exampleJa": "その会社は昨年、巨額の損失を出しました。",
+      "level": 5
+    },
+    {
+      "headword": "induce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈduːs/",
+      "meaning": "を引き起こす；を誘発する",
+      "exampleEn": "Stress can induce headaches.",
+      "exampleJa": "ストレスは頭痛を誘発することがあります。",
+      "level": 4
+    },
+    {
+      "headword": "inhibit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈhɪbɪt/",
+      "meaning": "を妨げる；を抑制する",
+      "exampleEn": "Cold weather inhibits the growth of plants.",
+      "exampleJa": "寒い天候は植物の成長を妨げます。",
+      "level": 4
+    },
+    {
+      "headword": "invoke",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvoʊk/",
+      "meaning": "を発動する；に訴える；を呼び起こす",
+      "exampleEn": "The president invoked his emergency powers.",
+      "exampleJa": "大統領は非常時の権限を発動しました。",
+      "level": 5
+    },
+    {
+      "headword": "manifest",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmænɪfest/",
+      "meaning": "を明らかに示す；現れる",
+      "exampleEn": "Symptoms manifested after two days.",
+      "exampleJa": "2日後に症状が明らかになりました。",
+      "level": 4
+    },
+    {
+      "headword": "mediate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmiːdieɪt/",
+      "meaning": "を仲裁する；を取り持つ",
+      "exampleEn": "A neighbor mediated between the two families.",
+      "exampleJa": "近所の人がその2家族の間を取り持ちました。",
+      "level": 4
+    },
+    {
+      "headword": "mitigate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmɪtɪɡeɪt/",
+      "meaning": "を和らげる；を軽減する",
+      "exampleEn": "Trees help mitigate the effects of heat.",
+      "exampleJa": "樹木は暑さの影響を和らげるのに役立ちます。",
+      "level": 5
+    },
+    {
+      "headword": "necessitate",
+      "partOfSpeech": "verb",
+      "phonetic": "/nəˈsesɪteɪt/",
+      "meaning": "を必要とする；をやむを得なくする",
+      "exampleEn": "The accident necessitated a change of plan.",
+      "exampleJa": "その事故のせいで計画の変更が必要になりました。",
+      "level": 5
+    },
+    {
+      "headword": "nurture",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈnɜːrtʃər/",
+      "meaning": "を育む；を養育する",
+      "exampleEn": "Parents nurture talent in children.",
+      "exampleJa": "親は子どもの才能を育みます。",
+      "level": 4
+    },
+    {
+      "headword": "obscure",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈskjʊr/",
+      "meaning": "を覆い隠す；を分かりにくくする",
+      "exampleEn": "Thick clouds obscured the top of the mountain.",
+      "exampleJa": "厚い雲が山頂を覆い隠していました。",
+      "level": 4
+    },
+    {
+      "headword": "omit",
+      "partOfSpeech": "verb",
+      "phonetic": "/oʊˈmɪt/",
+      "meaning": "を省く；を怠る",
+      "exampleEn": "You may omit the last question.",
+      "exampleJa": "最後の問題は省いてもかまいません。",
+      "level": 4
+    },
+    {
+      "headword": "outweigh",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌaʊtˈweɪ/",
+      "meaning": "に勝る；より重要である",
+      "exampleEn": "The benefits clearly outweigh the risks.",
+      "exampleJa": "利点は明らかに危険を上回っています。",
+      "level": 4
+    },
+    {
+      "headword": "oversee",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌoʊvərˈsiː/",
+      "meaning": "を監督する；を統括する",
+      "exampleEn": "She oversees the whole production process.",
+      "exampleJa": "彼女は生産工程の全体を監督しています。",
+      "level": 4
+    },
+    {
+      "headword": "override",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌoʊvərˈraɪd/",
+      "meaning": "に優先する；を覆す",
+      "exampleEn": "Safety concerns override every other factor.",
+      "exampleJa": "安全への配慮が他のどの要素よりも優先されます。",
+      "level": 5
+    },
+    {
+      "headword": "pervade",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈveɪd/",
+      "meaning": "に広がる；に充満する",
+      "exampleEn": "A sense of unease pervaded the whole room.",
+      "exampleJa": "不安な空気が部屋中に広がっていました。",
+      "level": 5
+    },
+    {
+      "headword": "preclude",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈkluːd/",
+      "meaning": "を排除する；を妨げる",
+      "exampleEn": "The rules preclude visitors from entering the lab.",
+      "exampleJa": "規則は訪問者が実験室に入ることを妨げています。",
+      "level": 5
+    },
+    {
+      "headword": "proclaim",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈkleɪm/",
+      "meaning": "を宣言・公表する",
+      "exampleEn": "The president proclaimed a national holiday.",
+      "exampleJa": "大統領は国民の祝日を宣言しました。",
+      "level": 4
+    },
+    {
+      "headword": "procure",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈkjʊr/",
+      "meaning": "を調達する；を入手する",
+      "exampleEn": "The firm procured materials from another country.",
+      "exampleJa": "その会社は別の国から資材を調達しました。",
+      "level": 4
+    },
+    {
+      "headword": "prolong",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈlɔːŋ/",
+      "meaning": "を延ばす；を延長する",
+      "exampleEn": "The medicine helped to prolong the patient's life.",
+      "exampleJa": "その薬は患者の寿命を延ばすのに役立ちました。",
+      "level": 4
+    },
+    {
+      "headword": "rectify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrektɪfaɪ/",
+      "meaning": "を是正する；を正す",
+      "exampleEn": "We must rectify this error at once.",
+      "exampleJa": "この誤りをただちに正さなければなりません。",
+      "level": 5
+    },
+    {
+      "headword": "refute",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfjuːt/",
+      "meaning": "に反論する；の誤りを証明する",
+      "exampleEn": "New data refuted the old theory.",
+      "exampleJa": "新しいデータが古い学説の誤りを示しました。",
+      "level": 5
+    },
+    {
+      "headword": "regulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈreɡjəleɪt/",
+      "meaning": "を規制する；を調整する",
+      "exampleEn": "Laws regulate pharmaceutical sales.",
+      "exampleJa": "法律が医薬品の販売を規制しています。",
+      "level": 3
+    },
+    {
+      "headword": "reiterate",
+      "partOfSpeech": "verb",
+      "phonetic": "/riˈɪtəreɪt/",
+      "meaning": "を繰り返して言う；を反復する",
+      "exampleEn": "He reiterated his support for the plan.",
+      "exampleJa": "彼はその計画への支持を改めて表明しました。",
+      "level": 5
+    },
+    {
+      "headword": "render",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrendər/",
+      "meaning": "を…にする；を与える；を表現する",
+      "exampleEn": "The shock rendered him completely silent.",
+      "exampleJa": "その衝撃で彼はすっかり黙り込んでしまいました。",
+      "level": 4
+    },
+    {
+      "headword": "replicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈreplɪkeɪt/",
+      "meaning": "を再現する；を複製する",
+      "exampleEn": "Other teams could not replicate the result.",
+      "exampleJa": "他の研究チームはその結果を再現できませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "retrieve",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈtriːv/",
+      "meaning": "を取り戻す；を検索する",
+      "exampleEn": "You can retrieve the file from the server.",
+      "exampleJa": "そのファイルはサーバーから取り出せます。",
+      "level": 4
+    },
+    {
+      "headword": "revert",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvɜːrt/",
+      "meaning": "戻る；復帰する",
+      "exampleEn": "The land reverted to forest after the fire.",
+      "exampleJa": "その土地は火災のあと再び森に戻りました。",
+      "level": 5
+    },
+    {
+      "headword": "scrutinize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈskruːtənaɪz/",
+      "meaning": "を詳細に調べる；精査する",
+      "exampleEn": "Auditors scrutinized the documents.",
+      "exampleJa": "監査人は書類を精査しました。",
+      "level": 5
+    },
+    {
+      "headword": "stipulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈstɪpjuleɪt/",
+      "meaning": "を規定する；を明記する",
+      "exampleEn": "The contract stipulates a two-year term.",
+      "exampleJa": "その契約は2年間の期間を定めています。",
+      "level": 5
+    },
+    {
+      "headword": "supersede",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌsuːpərˈsiːd/",
+      "meaning": "に取って代わる；を廃止する",
+      "exampleEn": "Digital maps have superseded paper ones.",
+      "exampleJa": "電子地図が紙の地図に取って代わりました。",
+      "level": 5
+    },
+    {
+      "headword": "surpass",
+      "partOfSpeech": "verb",
+      "phonetic": "/sərˈpæs/",
+      "meaning": "を上回る；にまさる",
+      "exampleEn": "Sales surpassed our highest expectations.",
+      "exampleJa": "売り上げは私たちの最高の予想を上回りました。",
+      "level": 4
+    },
+    {
+      "headword": "transcend",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænˈsend/",
+      "meaning": "を超越する；の範囲を超える",
+      "exampleEn": "Great art transcends time and language.",
+      "exampleJa": "優れた芸術は時代も言語も超えていきます。",
+      "level": 5
+    },
+    {
+      "headword": "undermine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌndərˈmaɪn/",
+      "meaning": "を密かに損なう；の土台を崩す",
+      "exampleEn": "Scandal undermined his public trust.",
+      "exampleJa": "スキャンダルが彼の公的信頼を密かに損ないました。",
+      "level": 4
+    },
+    {
+      "headword": "uphold",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʌpˈhoʊld/",
+      "meaning": "を支持する；を維持する",
+      "exampleEn": "The court upheld the earlier decision.",
+      "exampleJa": "裁判所は以前の判断を支持しました。",
+      "level": 4
+    },
+    {
+      "headword": "validate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈvælɪdeɪt/",
+      "meaning": "の正しさを立証する；を有効にする",
+      "exampleEn": "These results validate our original theory.",
+      "exampleJa": "これらの結果は私たちの当初の仮説の正しさを裏づけます。",
+      "level": 4
+    },
+    {
+      "headword": "wield",
+      "partOfSpeech": "verb",
+      "phonetic": "/wiːld/",
+      "meaning": "を振るう；を行使する",
+      "exampleEn": "That group wields great political power.",
+      "exampleJa": "その集団は大きな政治的影響力を振るっています。",
+      "level": 5
+    }
+  ]
+}

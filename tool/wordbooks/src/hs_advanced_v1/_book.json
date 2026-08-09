@@ -4,28 +4,27 @@
   "emoji": "🏛️",
   "category": "highSchool",
   "colorSeed": 3,
-  "seedVersion": 3,
+  "seedVersion": 4,
   "bandSize": 1300,
   "sortOrder": 30,
   "note": "難関大学入試に対応する高度な語彙",
   "levelRange": [
-    1,
+    2,
     5
   ],
   "chunks": [
-    "00_core_advanced",
-    "01_verbs_cognition",
-    "02_verbs_action_change",
-    "03_verbs_social_politics",
-    "04_nouns_society_law",
-    "05_nouns_economy_finance",
-    "06_nouns_science_tech",
-    "07_nouns_culture_arts",
-    "08_nouns_abstract_mind",
-    "09_adjectives_eval_mind",
-    "10_adjectives_state_nature",
-    "11_adverbs_idioms",
-    "12_super_advanced_verbs",
-    "13_super_advanced_nouns"
+    "00_verbs_core",
+    "01_verbs_thought",
+    "02_verbs_communication",
+    "03_verbs_change",
+    "04_nouns_society_politics",
+    "05_nouns_economy_industry",
+    "06_nouns_science_technology",
+    "07_nouns_culture_thought",
+    "08_nouns_mind_abstract",
+    "09_adjectives_person",
+    "10_adjectives_state",
+    "11_adverbs_function",
+    "12_phrases"
   ]
 }

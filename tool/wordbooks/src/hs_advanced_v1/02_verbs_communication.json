@@ -1,0 +1,681 @@
+{
+  "chunk": "02_verbs_communication",
+  "note": "主張・交渉・対人の動詞（75語）",
+  "words": [
+    {
+      "headword": "acclaim",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkleɪm/",
+      "meaning": "を絶賛する；称賛",
+      "exampleEn": "Critics acclaimed the director's new masterpiece.",
+      "exampleJa": "批評家たちはその監督の新作傑作を絶賛しました。",
+      "level": 4
+    },
+    {
+      "headword": "admonish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmɑːnɪʃ/",
+      "meaning": "を戒める；に警告する",
+      "exampleEn": "The teacher admonished the student for being late.",
+      "exampleJa": "先生は遅刻した生徒を戒めました。",
+      "level": 5
+    },
+    {
+      "headword": "appease",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpiːz/",
+      "meaning": "をなだめる；を譲歩する",
+      "exampleEn": "The government tried to appease the crowd.",
+      "exampleJa": "政府は群衆をなだめようとしました。",
+      "level": 5
+    },
+    {
+      "headword": "berate",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈreɪt/",
+      "meaning": "を厳しく叱る；をののしる",
+      "exampleEn": "The coach berated his players after the game.",
+      "exampleJa": "監督は試合のあと選手たちを厳しく叱りました。",
+      "level": 5
+    },
+    {
+      "headword": "censure",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsenʃər/",
+      "meaning": "を問責する；厳しく非難する",
+      "exampleEn": "Parliament voted to censure the minister.",
+      "exampleJa": "議会はその大臣を問責することを可決しました。",
+      "level": 5
+    },
+    {
+      "headword": "chastise",
+      "partOfSpeech": "verb",
+      "phonetic": "/tʃæˈstaɪz/",
+      "meaning": "を厳しく非難する；を罰する",
+      "exampleEn": "The teacher chastised the student for lying.",
+      "exampleJa": "先生は嘘をついた生徒を厳しく叱りました。",
+      "level": 5
+    },
+    {
+      "headword": "coax",
+      "partOfSpeech": "verb",
+      "phonetic": "/koʊks/",
+      "meaning": "をなだめて〜させる",
+      "exampleEn": "His mother coaxed him into eating vegetables.",
+      "exampleJa": "母親は彼をなだめて野菜を食べさせました。",
+      "level": 5
+    },
+    {
+      "headword": "coerce",
+      "partOfSpeech": "verb",
+      "phonetic": "/koʊˈɜːrs/",
+      "meaning": "を強制する；に強圧を加える",
+      "exampleEn": "They were coerced into signing.",
+      "exampleJa": "彼らは署名するよう強制されました。",
+      "level": 5
+    },
+    {
+      "headword": "commend",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmend/",
+      "meaning": "を称賛する；を推薦する",
+      "exampleEn": "The mayor commended the brave officer.",
+      "exampleJa": "市長はその勇敢な警察官を褒め称えました。",
+      "level": 5
+    },
+    {
+      "headword": "condemn",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈdem/",
+      "meaning": "を非難する；に刑を宣告する",
+      "exampleEn": "The leaders condemned terrorist attacks.",
+      "exampleJa": "指導者たちはテロ攻撃を非難しました。",
+      "level": 4
+    },
+    {
+      "headword": "confide",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfaɪd/",
+      "meaning": "を打ち明ける",
+      "exampleEn": "She confided her worries to her best friend.",
+      "exampleJa": "彼女は悩みを親友に打ち明けました。",
+      "level": 4
+    },
+    {
+      "headword": "console",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsoʊl/",
+      "meaning": "を慰める",
+      "exampleEn": "He tried to console his crying sister.",
+      "exampleJa": "彼は泣いている妹を慰めようとしました。",
+      "level": 4
+    },
+    {
+      "headword": "counsel",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkaʊnsl/",
+      "meaning": "に助言する；カウンセリングする",
+      "exampleEn": "The teacher counseled him about his future.",
+      "exampleJa": "先生は彼の将来について助言しました。",
+      "level": 4
+    },
+    {
+      "headword": "decree",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈkriː/",
+      "meaning": "を命じる；を布告する",
+      "exampleEn": "The king decreed that all taxes would rise.",
+      "exampleJa": "王はすべての税を上げると布告しました。",
+      "level": 5
+    },
+    {
+      "headword": "denounce",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈnaʊns/",
+      "meaning": "を公然と非難する；を告発する",
+      "exampleEn": "Citizens denounced government corruption.",
+      "exampleJa": "市民たちは政府の腐敗を公然と批判しました。",
+      "level": 5
+    },
+    {
+      "headword": "deride",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈraɪd/",
+      "meaning": "をあざ笑う；を馬鹿にする",
+      "exampleEn": "Critics derided the film as boring.",
+      "exampleJa": "批評家たちはその映画をつまらないとあざ笑いました。",
+      "level": 5
+    },
+    {
+      "headword": "dictate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdɪkteɪt/",
+      "meaning": "を口述する；を命じる",
+      "exampleEn": "The boss dictated a memorandum.",
+      "exampleJa": "上司は覚書を口述・指示しました。",
+      "level": 4
+    },
+    {
+      "headword": "disclose",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈkloʊz/",
+      "meaning": "を公表する；を明かす",
+      "exampleEn": "Company disclosed financial reports.",
+      "exampleJa": "会社は財務報告書を公表しました。",
+      "level": 4
+    },
+    {
+      "headword": "disparage",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈspærɪdʒ/",
+      "meaning": "を見くびる；を貶める",
+      "exampleEn": "You should not disparage the efforts of others.",
+      "exampleJa": "他人の努力を見くびってはいけません。",
+      "level": 5
+    },
+    {
+      "headword": "dissuade",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsweɪd/",
+      "meaning": "を思いとどまらせる；に断念させる",
+      "exampleEn": "We dissuaded him from selling the house.",
+      "exampleJa": "私たちは彼に家を売るのを思いとどまらせました。",
+      "level": 5
+    },
+    {
+      "headword": "divulge",
+      "partOfSpeech": "verb",
+      "phonetic": "/daɪˈvʌldʒ/",
+      "meaning": "を漏らす；を明かす",
+      "exampleEn": "She refused to divulge her sources.",
+      "exampleJa": "彼女は情報源を明かすことを拒みました。",
+      "level": 5
+    },
+    {
+      "headword": "elaborate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈlæbəreɪt/",
+      "meaning": "詳しく述べる",
+      "exampleEn": "Could you elaborate on that point?",
+      "exampleJa": "その点についてもう少し詳しく述べていただけますか。",
+      "level": 4
+    },
+    {
+      "headword": "enlighten",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈlaɪtn/",
+      "meaning": "を啓発する；を教える",
+      "exampleEn": "The lecture enlightened us about the local market.",
+      "exampleJa": "その講義は地元市場について私たちに多くを教えてくれました。",
+      "level": 5
+    },
+    {
+      "headword": "exclaim",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈskleɪm/",
+      "meaning": "と叫ぶ；と声を上げる",
+      "exampleEn": "The children exclaimed with delight.",
+      "exampleJa": "子どもたちは喜びの声を上げました。",
+      "level": 4
+    },
+    {
+      "headword": "flatter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈflætər/",
+      "meaning": "にお世辞を言う；を喜ばせる",
+      "exampleEn": "He flattered her to get the job.",
+      "exampleJa": "彼はその仕事を得るために彼女にお世辞を言いました。",
+      "level": 4
+    },
+    {
+      "headword": "harass",
+      "partOfSpeech": "verb",
+      "phonetic": "/həˈræs/",
+      "meaning": "を痛めつける；に嫌がらせする",
+      "exampleEn": "Do not harass or bully your classmates.",
+      "exampleJa": "クラスメイトを痛めつけたりいじめたりしてはいけません。",
+      "level": 4
+    },
+    {
+      "headword": "implore",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈplɔːr/",
+      "meaning": "に哀願する；懇願する",
+      "exampleEn": "The victim implored the judge for mercy.",
+      "exampleJa": "被害者は裁判官に慈悲を懇願しました。",
+      "level": 5
+    },
+    {
+      "headword": "incite",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsaɪt/",
+      "meaning": "を扇動する；をあおる",
+      "exampleEn": "The speech incited the crowd to riot.",
+      "exampleJa": "その演説は群衆を暴動へと駆り立てました。",
+      "level": 5
+    },
+    {
+      "headword": "indict",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈdaɪt/",
+      "meaning": "を起訴する",
+      "exampleEn": "Grand jury indicted the politician.",
+      "exampleJa": "大陪審はその政治家を起訴しました。",
+      "level": 5
+    },
+    {
+      "headword": "interrogate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈterəɡeɪt/",
+      "meaning": "を尋問する；を問いただす",
+      "exampleEn": "Police interrogated the suspect for hours.",
+      "exampleJa": "警察はその容疑者を何時間も尋問しました。",
+      "level": 5
+    },
+    {
+      "headword": "intimidate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtɪmɪdeɪt/",
+      "meaning": "を脅す；をおびえさせる",
+      "exampleEn": "They tried to intimidate the witness.",
+      "exampleJa": "彼らはその証人を脅そうとしました。",
+      "level": 5
+    },
+    {
+      "headword": "lament",
+      "partOfSpeech": "verb",
+      "phonetic": "/ləˈment/",
+      "meaning": "を嘆く；を悲しむ",
+      "exampleEn": "Many people lament the loss of old customs.",
+      "exampleJa": "古い習慣が失われたことを嘆く人は多いです。",
+      "level": 5
+    },
+    {
+      "headword": "lobby",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈlɑːbi/",
+      "meaning": "ロビー活動をする；働きかける",
+      "exampleEn": "Groups lobbied for renewable energy.",
+      "exampleJa": "団体の人々は再生可能エネルギーの推進をロビー活動しました。",
+      "level": 3
+    },
+    {
+      "headword": "mock",
+      "partOfSpeech": "verb",
+      "phonetic": "/mɑːk/",
+      "meaning": "をあざける；をまねてからかう",
+      "exampleEn": "The students mocked his strange accent.",
+      "exampleJa": "生徒たちは彼の変わったなまりをからかいました。",
+      "level": 4
+    },
+    {
+      "headword": "petition",
+      "partOfSpeech": "verb",
+      "phonetic": "/pəˈtɪʃn/",
+      "meaning": "に請願する；を嘆願する",
+      "exampleEn": "Residents petitioned the city for a new park.",
+      "exampleJa": "住民は新しい公園を求めて市に請願しました。",
+      "level": 5
+    },
+    {
+      "headword": "plead",
+      "partOfSpeech": "verb",
+      "phonetic": "/pliːd/",
+      "meaning": "に懇願する；無罪を主張する",
+      "exampleEn": "The defendant pleaded not guilty in court.",
+      "exampleJa": "被告は法廷で無罪を主張しました。",
+      "level": 4
+    },
+    {
+      "headword": "preach",
+      "partOfSpeech": "verb",
+      "phonetic": "/priːtʃ/",
+      "meaning": "を説く；説教する",
+      "exampleEn": "He preached peace all his life.",
+      "exampleJa": "彼は生涯を通じて平和を説きました。",
+      "level": 4
+    },
+    {
+      "headword": "provoke",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈvoʊk/",
+      "meaning": "を挑発する；を引き起こす",
+      "exampleEn": "His comment provoked angry reactions.",
+      "exampleJa": "彼のコメントは怒りの反応を誘発しました。",
+      "level": 4
+    },
+    {
+      "headword": "publicize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpʌblɪsaɪz/",
+      "meaning": "を公表する；を宣伝する",
+      "exampleEn": "The group publicized the results widely.",
+      "exampleJa": "その団体は結果を広く公表しました。",
+      "level": 4
+    },
+    {
+      "headword": "rebuke",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈbjuːk/",
+      "meaning": "を叱責する；をとがめる",
+      "exampleEn": "The judge rebuked him for his rude words.",
+      "exampleJa": "裁判官は彼の無礼な発言をとがめました。",
+      "level": 5
+    },
+    {
+      "headword": "relay",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈleɪ/",
+      "meaning": "を伝える；を中継する",
+      "exampleEn": "She relayed the message to her team.",
+      "exampleJa": "彼女はその伝言をチームに伝えました。",
+      "level": 4
+    },
+    {
+      "headword": "renounce",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈnaʊns/",
+      "meaning": "を放棄する；と縁を切る",
+      "exampleEn": "The prince renounced his claim to the throne.",
+      "exampleJa": "その王子は王位への権利を放棄しました。",
+      "level": 5
+    },
+    {
+      "headword": "reproach",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈproʊtʃ/",
+      "meaning": "を非難する；をとがめる",
+      "exampleEn": "She reproached him for forgetting the date.",
+      "exampleJa": "彼女は日付を忘れた彼を責めました。",
+      "level": 5
+    },
+    {
+      "headword": "slander",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈslændər/",
+      "meaning": "を中傷する；の悪口を言う",
+      "exampleEn": "He was accused of slandering a rival.",
+      "exampleJa": "彼は競争相手を中傷したとして訴えられました。",
+      "level": 5
+    },
+    {
+      "headword": "solicit",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈlɪsɪt/",
+      "meaning": "を求める；を勧誘する",
+      "exampleEn": "The school solicited opinions from parents.",
+      "exampleJa": "学校は保護者から意見を募りました。",
+      "level": 5
+    },
+    {
+      "headword": "summon",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsʌmən/",
+      "meaning": "を呼び出す；を招集する",
+      "exampleEn": "The manager summoned everyone to the hall.",
+      "exampleJa": "部長は全員を広間に呼び集めました。",
+      "level": 4
+    },
+    {
+      "headword": "accuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkjuːz/",
+      "meaning": "を告発する；を非難する",
+      "exampleEn": "Police accused the man of theft.",
+      "exampleJa": "警察はその男を窃盗の容疑で告発しました。",
+      "level": 4
+    },
+    {
+      "headword": "advise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈvaɪz/",
+      "meaning": "に助言する；に忠告する；に通知する",
+      "exampleEn": "The doctor advised him to rest at home.",
+      "exampleJa": "医師は彼に家で休むよう助言しました。",
+      "level": 3
+    },
+    {
+      "headword": "announce",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈnaʊns/",
+      "meaning": "を発表する；を知らせる；を告知する",
+      "exampleEn": "The company announced an increase in profits.",
+      "exampleJa": "その会社は利益の増加を発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "assure",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈʃʊr/",
+      "meaning": "を保証する；を安心させる",
+      "exampleEn": "The manager assured us of a quick refund.",
+      "exampleJa": "支配人は私たちに迅速な返金を約束しました。",
+      "level": 4
+    },
+    {
+      "headword": "complain",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpleɪn/",
+      "meaning": "不平を言う；苦情を言う",
+      "exampleEn": "The guest complained about the poor service.",
+      "exampleJa": "客は粗末なサービスについて苦情を言いました。",
+      "level": 3
+    },
+    {
+      "headword": "declare",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈkler/",
+      "meaning": "を宣言する；を申告する",
+      "exampleEn": "You must declare these goods at customs.",
+      "exampleJa": "これらの品物は税関で申告しなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "defend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfend/",
+      "meaning": "を守る；を弁護する",
+      "exampleEn": "The lawyer defended his client in court.",
+      "exampleJa": "弁護士は法廷で依頼人を弁護しました。",
+      "level": 2
+    },
+    {
+      "headword": "demand",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈmænd/",
+      "meaning": "を要求する；を必要とする",
+      "exampleEn": "Workers demanded higher wages.",
+      "exampleJa": "労働者たちは賃上げを要求しました。",
+      "level": 3
+    },
+    {
+      "headword": "emphasize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈemfəsaɪz/",
+      "meaning": "を強調する",
+      "exampleEn": "The speaker emphasized the importance of reading.",
+      "exampleJa": "講演者は読書の大切さを強調しました。",
+      "level": 3
+    },
+    {
+      "headword": "inform",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɔːrm/",
+      "meaning": "に知らせる；に通知する",
+      "exampleEn": "We will inform you of the decision.",
+      "exampleJa": "私たちはその決定をあなたにお知らせします。",
+      "level": 3
+    },
+    {
+      "headword": "inquire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkwaɪər/",
+      "meaning": "尋ねる；問い合わせる",
+      "exampleEn": "A customer inquired about the delivery date.",
+      "exampleJa": "顧客が配達日について問い合わせました。",
+      "level": 3
+    },
+    {
+      "headword": "insist",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsɪst/",
+      "meaning": "と主張する；を強く求める",
+      "exampleEn": "He insisted on paying for dinner.",
+      "exampleJa": "彼は夕食代を払うと言い張りました。",
+      "level": 3
+    },
+    {
+      "headword": "mention",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmenʃən/",
+      "meaning": "に言及する；を口にする",
+      "exampleEn": "She mentioned her plan to her boss.",
+      "exampleJa": "彼女は上司に自分の計画を話しました。",
+      "level": 3
+    },
+    {
+      "headword": "negotiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/nɪˈɡoʊʃieɪt/",
+      "meaning": "を交渉する；を取り決める",
+      "exampleEn": "The union negotiated higher wages with the company.",
+      "exampleJa": "組合は会社とより高い賃金を交渉しました。",
+      "level": 4
+    },
+    {
+      "headword": "notify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈnoʊtɪfaɪ/",
+      "meaning": "に通知する；に報告する",
+      "exampleEn": "The office notified us about the schedule change.",
+      "exampleJa": "事務所は予定の変更を私たちに通知しました。",
+      "level": 3
+    },
+    {
+      "headword": "offend",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfend/",
+      "meaning": "の感情を害する",
+      "exampleEn": "His careless remark offended the whole staff.",
+      "exampleJa": "彼の不用意な発言が全職員の気分を害しました。",
+      "level": 4
+    },
+    {
+      "headword": "persuade",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsweɪd/",
+      "meaning": "を説得する",
+      "exampleEn": "I persuaded my father to buy a new car.",
+      "exampleJa": "私は父を説得して新しい車を買ってもらいました。",
+      "level": 3
+    },
+    {
+      "headword": "protest",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈtest/",
+      "meaning": "抗議する；に異議を唱える",
+      "exampleEn": "Citizens protested against the tax increase.",
+      "exampleJa": "市民たちは増税に抗議しました。",
+      "level": 3
+    },
+    {
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌrekəˈmend/",
+      "meaning": "を勧める；を推薦する",
+      "exampleEn": "The doctor recommended light exercise.",
+      "exampleJa": "医師は軽い運動を勧めました。",
+      "level": 3
+    },
+    {
+      "headword": "refuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfjuːz/",
+      "meaning": "を断る；を拒否する",
+      "exampleEn": "He refused to sign the document.",
+      "exampleJa": "彼はその書類に署名することを拒みました。",
+      "level": 2
+    },
+    {
+      "headword": "remark",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmɑːrk/",
+      "meaning": "と述べる",
+      "exampleEn": "The lecturer remarked on the recent trend.",
+      "exampleJa": "講師は最近の傾向について述べました。",
+      "level": 4
+    },
+    {
+      "headword": "reply",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈplaɪ/",
+      "meaning": "返事をする；返信する",
+      "exampleEn": "She replied promptly.",
+      "exampleJa": "彼女は迅速に返事をしました。",
+      "level": 2
+    },
+    {
+      "headword": "report",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈpɔːrt/",
+      "meaning": "を報告する；を報道する",
+      "exampleEn": "He reported the incident.",
+      "exampleJa": "彼は出来事を報告しました。",
+      "level": 2
+    },
+    {
+      "headword": "request",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkwest/",
+      "meaning": "を要請する；を頼む",
+      "exampleEn": "We requested further information.",
+      "exampleJa": "私たちは更なる情報を要請しました。",
+      "level": 3
+    },
+    {
+      "headword": "respond",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈspɑːnd/",
+      "meaning": "応答する；反応する",
+      "exampleEn": "He responded to my question.",
+      "exampleJa": "彼は私の質問に応答しました。",
+      "level": 3
+    },
+    {
+      "headword": "suggest",
+      "partOfSpeech": "verb",
+      "phonetic": "/səɡˈdʒest/",
+      "meaning": "を提案する；を暗示する",
+      "exampleEn": "She suggested taking a short break.",
+      "exampleJa": "彼女は短い休憩をとることを提案しました。",
+      "level": 2
+    },
+    {
+      "headword": "threaten",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈθretən/",
+      "meaning": "を脅す；を脅かす",
+      "exampleEn": "Pollution threatens wildlife along this coast.",
+      "exampleJa": "汚染がこの海岸の野生生物を脅かしています。",
+      "level": 3
+    },
+    {
+      "headword": "urge",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɜːrdʒ/",
+      "meaning": "に強く促す；を催促する",
+      "exampleEn": "Doctors urge people to exercise.",
+      "exampleJa": "医師たちは人々に運動するよう強く促します。",
+      "level": 4
+    },
+    {
+      "headword": "warn",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɔːrn/",
+      "meaning": "に警告する；に注意する",
+      "exampleEn": "The sign warned visitors of the danger.",
+      "exampleJa": "その標識は訪問者に危険を警告しました。",
+      "level": 2
+    }
+  ]
+}

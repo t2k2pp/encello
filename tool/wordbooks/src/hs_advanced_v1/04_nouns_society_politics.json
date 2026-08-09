@@ -1,0 +1,735 @@
+{
+  "chunk": "04_nouns_society_politics",
+  "note": "社会・政治・法（81語）",
+  "words": [
+    {
+      "headword": "advocacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈædvəkəsi/",
+      "meaning": "擁護；弁護；推進",
+      "exampleEn": "She works for a human rights advocacy group.",
+      "exampleJa": "彼女は人権擁護団体で働いています。",
+      "level": 4
+    },
+    {
+      "headword": "allegation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌælɪˈɡeɪʃn/",
+      "meaning": "申し立て；主張",
+      "exampleEn": "Police investigated the fraud allegation.",
+      "exampleJa": "警察はその詐欺の申し立てを調査しました。",
+      "level": 4
+    },
+    {
+      "headword": "anarchy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænərki/",
+      "meaning": "無政府状態；混乱",
+      "exampleEn": "The country fell into total anarchy.",
+      "exampleJa": "国は完全な無政府状態に陥りました。",
+      "level": 5
+    },
+    {
+      "headword": "aristocracy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌærɪˈstɑːkrəsi/",
+      "meaning": "貴族政治；貴族社会",
+      "exampleEn": "The land was ruled by a wealthy aristocracy.",
+      "exampleJa": "その土地は裕福な貴族社会によって統治されていました。",
+      "level": 4
+    },
+    {
+      "headword": "autonomy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɔːˈtɑːnəmi/",
+      "meaning": "自治；自主性；自律性",
+      "exampleEn": "The region gained autonomy from the central government.",
+      "exampleJa": "その地域は中央政府から自治権を得ました。",
+      "level": 4
+    },
+    {
+      "headword": "bureaucracy",
+      "partOfSpeech": "noun",
+      "phonetic": "/bjʊˈrɑːkrəsi/",
+      "meaning": "官僚制；官僚主義；煩雑な手続き",
+      "exampleEn": "Government bureaucracy delays progress.",
+      "exampleJa": "政府の官僚機構が進展を遅らせています。",
+      "level": 4
+    },
+    {
+      "headword": "census",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsensəs/",
+      "meaning": "国勢調査；人口調査",
+      "exampleEn": "The government takes a census every five years.",
+      "exampleJa": "政府は5年ごとに国勢調査を行います。",
+      "level": 4
+    },
+    {
+      "headword": "coercion",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊˈɜːrʃn/",
+      "meaning": "強制；威圧",
+      "exampleEn": "He signed the confession under coercion.",
+      "exampleJa": "彼は強制のもとで自白書に署名しました。",
+      "level": 4
+    },
+    {
+      "headword": "compliance",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈplaɪəns/",
+      "meaning": "法令遵守；コンプライアンス",
+      "exampleEn": "The factory must ensure compliance with the law.",
+      "exampleJa": "その工場は法令の遵守を徹底しなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "consensus",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsensəs/",
+      "meaning": "合意；意見の一致",
+      "exampleEn": "The team finally reached a consensus.",
+      "exampleJa": "チームはついに意見の一致に達しました。",
+      "level": 4
+    },
+    {
+      "headword": "constituency",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈstɪtʃuənsi/",
+      "meaning": "選挙区；支持者層",
+      "exampleEn": "She has represented this constituency for ten years.",
+      "exampleJa": "彼女は10年間この選挙区の代表を務めています。",
+      "level": 5
+    },
+    {
+      "headword": "corruption",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈrʌpʃn/",
+      "meaning": "汚職；腐敗",
+      "exampleEn": "Voters protested political corruption.",
+      "exampleJa": "有権者は政治的汚職に抗議しました。",
+      "level": 4
+    },
+    {
+      "headword": "custody",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌstədi/",
+      "meaning": "保護；保管；拘留",
+      "exampleEn": "The parent was awarded custody of the child.",
+      "exampleJa": "その親は子供の親権を得ました。",
+      "level": 4
+    },
+    {
+      "headword": "decree",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈkriː/",
+      "meaning": "法令；布告",
+      "exampleEn": "King issued an official decree.",
+      "exampleJa": "国王は公式の法令を発しました。",
+      "level": 5
+    },
+    {
+      "headword": "deterrent",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈtɜːrənt/",
+      "meaning": "抑止力；制止物",
+      "exampleEn": "A strict penalty is a strong deterrent to crime.",
+      "exampleJa": "厳しい罰は犯罪への強い抑止力です。",
+      "level": 4
+    },
+    {
+      "headword": "dictatorship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪkteɪtərʃɪp/",
+      "meaning": "独裁政権",
+      "exampleEn": "The country changed from a dictatorship to a democracy.",
+      "exampleJa": "その国は独裁政権から民主主義へと変わりました。",
+      "level": 4
+    },
+    {
+      "headword": "disparity",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈspærəti/",
+      "meaning": "格差；不均衡",
+      "exampleEn": "There is a wide income disparity in the city.",
+      "exampleJa": "その都市には大きな所得の格差があります。",
+      "level": 4
+    },
+    {
+      "headword": "dissent",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsent/",
+      "meaning": "異議；反対意見",
+      "exampleEn": "One judge expressed strong dissent from the decision.",
+      "exampleJa": "一人の裁判官がその決定に強い異議を表明しました。",
+      "level": 4
+    },
+    {
+      "headword": "doctrine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɑːktrɪn/",
+      "meaning": "教義；外交方針・ドクトリン",
+      "exampleEn": "President stated a new foreign doctrine.",
+      "exampleJa": "大統領は新たな外交ドクトリンを表明しました。",
+      "level": 4
+    },
+    {
+      "headword": "electorate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈlektərət/",
+      "meaning": "有権者全体；選挙民",
+      "exampleEn": "The electorate rejected the new tax plan.",
+      "exampleJa": "有権者は新しい税制案を退けました。",
+      "level": 5
+    },
+    {
+      "headword": "elite",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈliːt/",
+      "meaning": "エリート層；選ばれた人々",
+      "exampleEn": "A small elite controlled most of the land.",
+      "exampleJa": "少数のエリート層が土地の大半を支配していました。",
+      "level": 4
+    },
+    {
+      "headword": "equity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈekwəti/",
+      "meaning": "株主資本；自己資本",
+      "exampleEn": "The company increased its equity last year.",
+      "exampleJa": "その会社は昨年、自己資本を増やしました。",
+      "level": 5
+    },
+    {
+      "headword": "espionage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈespiənɑːʒ/",
+      "meaning": "スパイ行為；諜報活動",
+      "exampleEn": "He was arrested on charges of espionage.",
+      "exampleJa": "彼はスパイ行為の疑いで逮捕されました。",
+      "level": 5
+    },
+    {
+      "headword": "exile",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeksaɪl/",
+      "meaning": "亡命；追放",
+      "exampleEn": "The poet spent his last years in exile.",
+      "exampleJa": "その詩人は晩年を亡命先で過ごしました。",
+      "level": 4
+    },
+    {
+      "headword": "famine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæmɪn/",
+      "meaning": "飢きん；食糧不足",
+      "exampleEn": "A long drought caused a terrible famine.",
+      "exampleJa": "長い干ばつがひどい飢きんを引き起こしました。",
+      "level": 4
+    },
+    {
+      "headword": "feminism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfemənɪzəm/",
+      "meaning": "女性の権利拡張論；フェミニズム",
+      "exampleEn": "Her book changed the history of feminism.",
+      "exampleJa": "彼女の本は女性解放思想の歴史を変えました。",
+      "level": 5
+    },
+    {
+      "headword": "franchise",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfræntʃaɪz/",
+      "meaning": "販売権；フランチャイズ",
+      "exampleEn": "He bought a franchise of a coffee chain.",
+      "exampleJa": "彼はコーヒー店チェーンの販売権を買いました。",
+      "level": 5
+    },
+    {
+      "headword": "governance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡʌvərnəns/",
+      "meaning": "統治；管理体制",
+      "exampleEn": "Good governance requires open information.",
+      "exampleJa": "よい統治には情報の公開が必要です。",
+      "level": 5
+    },
+    {
+      "headword": "ideology",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌaɪdiˈɑːlədʒi/",
+      "meaning": "イデオロギー；思想体系",
+      "exampleEn": "His belief is based on party ideology.",
+      "exampleJa": "彼の信念は党のイデオロギーに基づいています。",
+      "level": 4
+    },
+    {
+      "headword": "immunity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmjuːnəti/",
+      "meaning": "免疫",
+      "exampleEn": "Vaccination builds immunity to the virus.",
+      "exampleJa": "予防接種はウイルスへの免疫をつくります。",
+      "level": 5
+    },
+    {
+      "headword": "imperialism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈpɪriəlɪzəm/",
+      "meaning": "帝国主義",
+      "exampleEn": "Historians study nineteenth-century European imperialism.",
+      "exampleJa": "歴史家たちは19世紀のヨーロッパ帝国主義を研究します。",
+      "level": 4
+    },
+    {
+      "headword": "indictment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdaɪtmənt/",
+      "meaning": "起訴；告発",
+      "exampleEn": "The indictment named three former officials.",
+      "exampleJa": "その起訴状には3人の元役人の名前がありました。",
+      "level": 5
+    },
+    {
+      "headword": "infringement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfrɪndʒmənt/",
+      "meaning": "侵害；違反",
+      "exampleEn": "The court found a clear infringement of rights.",
+      "exampleJa": "裁判所は明らかな権利の侵害を認めました。",
+      "level": 5
+    },
+    {
+      "headword": "injustice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdʒʌstɪs/",
+      "meaning": "不正；不公平",
+      "exampleEn": "They fought against social injustice.",
+      "exampleJa": "彼らは社会の不正と闘いました。",
+      "level": 4
+    },
+    {
+      "headword": "insurgency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈsɜːrdʒənsi/",
+      "meaning": "反乱；武装蜂起",
+      "exampleEn": "The insurgency spread to the northern region.",
+      "exampleJa": "反乱は北部の地域にまで広がりました。",
+      "level": 5
+    },
+    {
+      "headword": "integrity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈteɡrəti/",
+      "meaning": "誠実；完全性",
+      "exampleEn": "A leader must possess integrity.",
+      "exampleJa": "指導者は誠実さを備えていなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "jurisdiction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒʊrɪsˈdɪkʃən/",
+      "meaning": "管轄権；司法権",
+      "exampleEn": "The case fell under federal jurisdiction.",
+      "exampleJa": "その事件は連邦の管轄権の下にありました。",
+      "level": 4
+    },
+    {
+      "headword": "kinship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɪnʃɪp/",
+      "meaning": "血縁関係；親近感",
+      "exampleEn": "Kinship still shapes village life there.",
+      "exampleJa": "そこでは血縁関係が今も村の暮らしを形づくっています。",
+      "level": 5
+    },
+    {
+      "headword": "legacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɡəsi/",
+      "meaning": "遺産；遺贈",
+      "exampleEn": "The war left a painful legacy.",
+      "exampleJa": "その戦争はつらい遺産を残しました。",
+      "level": 4
+    },
+    {
+      "headword": "legitimacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪˈdʒɪtɪməsi/",
+      "meaning": "正当性；合法性",
+      "exampleEn": "Voters questioned the legitimacy of the result.",
+      "exampleJa": "有権者はその結果の正当性を疑いました。",
+      "level": 5
+    },
+    {
+      "headword": "lobby",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɑːbi/",
+      "meaning": "圧力団体；ロビー",
+      "exampleEn": "The farming lobby opposed the new law.",
+      "exampleJa": "農業団体はその新法に反対しました。",
+      "level": 4
+    },
+    {
+      "headword": "mandate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmændeɪt/",
+      "meaning": "権限；委任；指令",
+      "exampleEn": "The new government has a clear mandate.",
+      "exampleJa": "新政権は明確な信任を得ています。",
+      "level": 5
+    },
+    {
+      "headword": "militia",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈlɪʃə/",
+      "meaning": "民兵組織；義勇軍",
+      "exampleEn": "A local militia guarded the bridge.",
+      "exampleJa": "地元の民兵組織がその橋を守っていました。",
+      "level": 5
+    },
+    {
+      "headword": "mobility",
+      "partOfSpeech": "noun",
+      "phonetic": "/moʊˈbɪləti/",
+      "meaning": "移動性；流動性",
+      "exampleEn": "Education can increase social mobility.",
+      "exampleJa": "教育は社会的な流動性を高めることができます。",
+      "level": 4
+    },
+    {
+      "headword": "monopoly",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈnɑːpəli/",
+      "meaning": "独占；専売；独占権",
+      "exampleEn": "The firm holds a market monopoly.",
+      "exampleJa": "その企業は市場の独占権を握っています。",
+      "level": 4
+    },
+    {
+      "headword": "norm",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɔːrm/",
+      "meaning": "規範；標準",
+      "exampleEn": "Social norms vary by country.",
+      "exampleJa": "社会規範は国によって異なります。",
+      "level": 4
+    },
+    {
+      "headword": "oppression",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpreʃn/",
+      "meaning": "抑圧；圧政",
+      "exampleEn": "The people finally rose against oppression.",
+      "exampleJa": "民衆はついに抑圧に立ち上がりました。",
+      "level": 4
+    },
+    {
+      "headword": "ordinance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrdɪnəns/",
+      "meaning": "条例；法令",
+      "exampleEn": "A city ordinance bans smoking in parks.",
+      "exampleJa": "市の条例は公園での喫煙を禁じています。",
+      "level": 5
+    },
+    {
+      "headword": "patriotism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪtriətɪzəm/",
+      "meaning": "愛国心",
+      "exampleEn": "His speech appealed to their patriotism.",
+      "exampleJa": "彼の演説は人々の愛国心に訴えました。",
+      "level": 4
+    },
+    {
+      "headword": "persecution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɜːrsɪˈkjuːʃn/",
+      "meaning": "迫害；虐待",
+      "exampleEn": "Many families fled religious persecution.",
+      "exampleJa": "多くの家族が宗教的な迫害から逃れました。",
+      "level": 5
+    },
+    {
+      "headword": "plaintiff",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpleɪntɪf/",
+      "meaning": "原告",
+      "exampleEn": "The plaintiff asked for a public apology.",
+      "exampleJa": "原告は公の謝罪を求めました。",
+      "level": 5
+    },
+    {
+      "headword": "pluralism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplʊrəlɪzəm/",
+      "meaning": "多元主義；多様性の共存",
+      "exampleEn": "Pluralism allows many voices to be heard.",
+      "exampleJa": "多元主義は多くの声が届くことを可能にします。",
+      "level": 5
+    },
+    {
+      "headword": "precedent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpresɪdənt/",
+      "meaning": "先例；前例",
+      "exampleEn": "The court's decision set an important precedent.",
+      "exampleJa": "裁判所の判決は重要な先例となりました。",
+      "level": 4
+    },
+    {
+      "headword": "proponent",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈpoʊnənt/",
+      "meaning": "提唱者；支持者",
+      "exampleEn": "He is a leading proponent of solar energy.",
+      "exampleJa": "彼は太陽エネルギーの主要な提唱者です。",
+      "level": 4
+    },
+    {
+      "headword": "prosecution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprɑːsɪˈkjuːʃn/",
+      "meaning": "起訴；検察側",
+      "exampleEn": "The prosecution presented strong evidence in court.",
+      "exampleJa": "検察側は法廷で強力な証拠を提示しました。",
+      "level": 4
+    },
+    {
+      "headword": "protocol",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊtəkɑːl/",
+      "meaning": "規定；手順；儀礼",
+      "exampleEn": "All visitors must follow the security protocol.",
+      "exampleJa": "訪問者は全員セキュリティ規定に従わなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "quota",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkwoʊtə/",
+      "meaning": "割り当て；定数",
+      "exampleEn": "Each country was given a fishing quota.",
+      "exampleJa": "各国に漁獲量の割り当てが与えられました。",
+      "level": 4
+    },
+    {
+      "headword": "ratification",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrætɪfɪˈkeɪʃn/",
+      "meaning": "批准；正式な承認",
+      "exampleEn": "The treaty awaits ratification by parliament.",
+      "exampleJa": "その条約は議会の批准を待っています。",
+      "level": 5
+    },
+    {
+      "headword": "referendum",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrefəˈrendəm/",
+      "meaning": "国民投票；住民投票",
+      "exampleEn": "The issue was settled by a referendum.",
+      "exampleJa": "その問題は国民投票で決着しました。",
+      "level": 5
+    },
+    {
+      "headword": "regime",
+      "partOfSpeech": "noun",
+      "phonetic": "/reɪˈʒiːm/",
+      "meaning": "政権；体制",
+      "exampleEn": "The military regime collapsed last month.",
+      "exampleJa": "軍事政権は先月崩壊しました。",
+      "level": 4
+    },
+    {
+      "headword": "repression",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈpreʃn/",
+      "meaning": "弾圧；抑圧",
+      "exampleEn": "Years of repression followed the uprising.",
+      "exampleJa": "その蜂起のあと長い弾圧の時代が続きました。",
+      "level": 5
+    },
+    {
+      "headword": "rhetoric",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈretərɪk/",
+      "meaning": "修辞法；レトリック；誇張表現",
+      "exampleEn": "Politician used persuasive rhetoric.",
+      "exampleJa": "政治家は説得力のある修辞法を用いました。",
+      "level": 4
+    },
+    {
+      "headword": "sanction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsæŋkʃn/",
+      "meaning": "制裁；認可",
+      "exampleEn": "Trade sanctions hurt the country's economy.",
+      "exampleJa": "貿易制裁はその国の経済に打撃を与えました。",
+      "level": 4
+    },
+    {
+      "headword": "scrutiny",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskruːtəni/",
+      "meaning": "綿密な調査；監視",
+      "exampleEn": "The plan came under close scrutiny.",
+      "exampleJa": "その計画は厳しい精査を受けました。",
+      "level": 5
+    },
+    {
+      "headword": "secession",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɪˈseʃn/",
+      "meaning": "分離独立；脱退",
+      "exampleEn": "The region voted for secession from the state.",
+      "exampleJa": "その地域は国からの分離独立に賛成票を投じました。",
+      "level": 5
+    },
+    {
+      "headword": "segregation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌseɡrɪˈɡeɪʃn/",
+      "meaning": "人種隔離；分離",
+      "exampleEn": "Laws ended segregation in public schools.",
+      "exampleJa": "法律によって公立学校での人種隔離は終わりました。",
+      "level": 5
+    },
+    {
+      "headword": "solidarity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsɑːlɪˈdærəti/",
+      "meaning": "連帯；団結",
+      "exampleEn": "Workers marched in solidarity with the miners.",
+      "exampleJa": "労働者たちは炭鉱夫と連帯して行進しました。",
+      "level": 5
+    },
+    {
+      "headword": "sovereignty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɑːvrənti/",
+      "meaning": "主権；統治権",
+      "exampleEn": "Respect national sovereignty.",
+      "exampleJa": "国家主権を尊重しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "statute",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstætʃuːt/",
+      "meaning": "法令；成文法",
+      "exampleEn": "The court interpreted legal statute.",
+      "exampleJa": "裁判所は法的成文法を解釈しました。",
+      "level": 5
+    },
+    {
+      "headword": "subsidy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbsədi/",
+      "meaning": "補助金；助成金",
+      "exampleEn": "Government offers agricultural subsidies.",
+      "exampleJa": "政府は農業補助金を提供しています。",
+      "level": 4
+    },
+    {
+      "headword": "suffrage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌfrɪdʒ/",
+      "meaning": "選挙権；参政権",
+      "exampleEn": "Women won suffrage after a long struggle.",
+      "exampleJa": "女性は長い闘いの末に参政権を勝ち取りました。",
+      "level": 5
+    },
+    {
+      "headword": "surveillance",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈveɪləns/",
+      "meaning": "監視；見張り",
+      "exampleEn": "The building is under constant surveillance.",
+      "exampleJa": "その建物は常時監視されています。",
+      "level": 4
+    },
+    {
+      "headword": "tenure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtenjər/",
+      "meaning": "在職期間；終身在職権",
+      "exampleEn": "Taxes fell during his tenure as mayor.",
+      "exampleJa": "彼の市長在任中に税は下がりました。",
+      "level": 5
+    },
+    {
+      "headword": "tribunal",
+      "partOfSpeech": "noun",
+      "phonetic": "/traɪˈbjuːnl/",
+      "meaning": "裁判所；審判所",
+      "exampleEn": "An international tribunal heard the case.",
+      "exampleJa": "国際裁判所がその事件を審理しました。",
+      "level": 5
+    },
+    {
+      "headword": "turmoil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrmɔɪl/",
+      "meaning": "混乱；騒動",
+      "exampleEn": "The country fell into political turmoil.",
+      "exampleJa": "その国は政治的な混乱に陥りました。",
+      "level": 5
+    },
+    {
+      "headword": "tyranny",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɪrəni/",
+      "meaning": "圧政；専制政治",
+      "exampleEn": "They lived for years under tyranny.",
+      "exampleJa": "彼らは長年、圧政のもとで暮らしました。",
+      "level": 5
+    },
+    {
+      "headword": "uprising",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʌpraɪzɪŋ/",
+      "meaning": "反乱；暴動",
+      "exampleEn": "The uprising began in a small town.",
+      "exampleJa": "その反乱は小さな町から始まりました。",
+      "level": 4
+    },
+    {
+      "headword": "utopia",
+      "partOfSpeech": "noun",
+      "phonetic": "/juːˈtoʊpiə/",
+      "meaning": "理想郷；ユートピア",
+      "exampleEn": "No society can become a perfect utopia.",
+      "exampleJa": "完全な理想郷になれる社会はありません。",
+      "level": 4
+    },
+    {
+      "headword": "vigilance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪdʒɪləns/",
+      "meaning": "警戒；用心深さ",
+      "exampleEn": "Constant vigilance protects our freedom.",
+      "exampleJa": "絶えず警戒を続けることが自由を守ります。",
+      "level": 5
+    },
+    {
+      "headword": "warrant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɔːrənt/",
+      "meaning": "令状；正当な理由",
+      "exampleEn": "The officers arrived with a search warrant.",
+      "exampleJa": "警官たちは捜索令状を持って現れました。",
+      "level": 4
+    },
+    {
+      "headword": "xenophobia",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌzenəˈfoʊbiə/",
+      "meaning": "外国人嫌い；排外主義",
+      "exampleEn": "Hard times can feed xenophobia.",
+      "exampleJa": "苦しい時代は外国人への敵意を育てることがあります。",
+      "level": 5
+    }
+  ]
+}

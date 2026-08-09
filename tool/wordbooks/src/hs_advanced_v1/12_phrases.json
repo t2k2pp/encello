@@ -1,0 +1,600 @@
+{
+  "chunk": "12_phrases",
+  "note": "熟語・語法（66語）",
+  "words": [
+    {
+      "headword": "a myriad of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "無数の",
+      "exampleEn": "A myriad of stars filled the night sky.",
+      "exampleJa": "無数の星が夜空を埋め尽くしていました。",
+      "level": 5
+    },
+    {
+      "headword": "abide by",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に従う；を守る",
+      "exampleEn": "You must abide by the rules of the club.",
+      "exampleJa": "クラブの規則には従わなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "adhere to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を厳守する；に付着する",
+      "exampleEn": "All members adhere to a strict code.",
+      "exampleJa": "会員は全員、厳格な規範を守っています。",
+      "level": 5
+    },
+    {
+      "headword": "all but",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ほとんど；…以外すべて",
+      "exampleEn": "The old bridge was all but gone.",
+      "exampleJa": "その古い橋はほとんど消えかけていました。",
+      "level": 5
+    },
+    {
+      "headword": "at odds with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "と食い違って；と対立して",
+      "exampleEn": "His story is at odds with the facts.",
+      "exampleJa": "彼の話は事実と食い違っています。",
+      "level": 5
+    },
+    {
+      "headword": "at the mercy of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "のなすがままに",
+      "exampleEn": "The small boat was at the mercy of the waves.",
+      "exampleJa": "その小舟は波のなすがままでした。",
+      "level": 5
+    },
+    {
+      "headword": "be attributed to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "が原因とされる；の作とされる",
+      "exampleEn": "The painting is attributed to a young artist.",
+      "exampleJa": "その絵は若い画家の作とされています。",
+      "level": 5
+    },
+    {
+      "headword": "be conducive to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "の助けとなる；を促す",
+      "exampleEn": "A quiet room is conducive to study.",
+      "exampleJa": "静かな部屋は勉強に適しています。",
+      "level": 5
+    },
+    {
+      "headword": "be devoid of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を全く欠いている",
+      "exampleEn": "His answer was devoid of any feeling.",
+      "exampleJa": "彼の返事には何の感情もありませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "be indicative of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を示している；の表れである",
+      "exampleEn": "These signs are indicative of a cold.",
+      "exampleJa": "これらの症状は風邪の表れです。",
+      "level": 5
+    },
+    {
+      "headword": "be prone to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "の傾向がある；しがちである",
+      "exampleEn": "Old houses are prone to damp.",
+      "exampleJa": "古い家は湿気を帯びやすいです。",
+      "level": 4
+    },
+    {
+      "headword": "be susceptible to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "の影響を受けやすい",
+      "exampleEn": "Young plants are susceptible to frost.",
+      "exampleJa": "若い苗は霜の害を受けやすいです。",
+      "level": 5
+    },
+    {
+      "headword": "bear in mind",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を心に留めておく",
+      "exampleEn": "Bear in mind that the shop closes early.",
+      "exampleJa": "その店が早く閉まることを覚えておいてください。",
+      "level": 4
+    },
+    {
+      "headword": "by no means",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "決して〜ない",
+      "exampleEn": "The task was by no means easy.",
+      "exampleJa": "その仕事は決して簡単ではありませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "by virtue of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜のおかげで；〜によって",
+      "exampleEn": "He won by virtue of practice.",
+      "exampleJa": "彼は練習のおかげで勝利しました。",
+      "level": 5
+    },
+    {
+      "headword": "call into question",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に疑問を投げかける",
+      "exampleEn": "The report calls into question our old methods.",
+      "exampleJa": "その報告は私たちの従来の方法に疑問を投げかけています。",
+      "level": 5
+    },
+    {
+      "headword": "come to terms with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を受け入れる；と折り合いをつける",
+      "exampleEn": "She slowly came to terms with her loss.",
+      "exampleJa": "彼女は少しずつ喪失を受け入れていきました。",
+      "level": 4
+    },
+    {
+      "headword": "conform to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に適合する；に従う",
+      "exampleEn": "All toys must conform to safety standards.",
+      "exampleJa": "すべての玩具は安全基準に適合しなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "dispose of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を処分する；を片づける",
+      "exampleEn": "Please dispose of the trash properly.",
+      "exampleJa": "ごみは適切に処分してください。",
+      "level": 4
+    },
+    {
+      "headword": "draw on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を活用する；に頼る",
+      "exampleEn": "The writer draws on his own childhood.",
+      "exampleJa": "その作家は自らの子ども時代を題材にしています。",
+      "level": 4
+    },
+    {
+      "headword": "far from",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "決して…でない；…どころではない",
+      "exampleEn": "The work is far from finished.",
+      "exampleJa": "その作業は終わりにはほど遠いです。",
+      "level": 4
+    },
+    {
+      "headword": "for the sake of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜のために；〜の目的で",
+      "exampleEn": "Work hard for the sake of future.",
+      "exampleJa": "将来のために一生懸命働きなさい。",
+      "level": 3
+    },
+    {
+      "headword": "give way to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に取って代わられる；に道を譲る",
+      "exampleEn": "Fields gave way to houses over the years.",
+      "exampleJa": "年月とともに畑は住宅に変わっていきました。",
+      "level": 4
+    },
+    {
+      "headword": "go hand in hand",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "密接に関係する；相伴う",
+      "exampleEn": "Poverty and poor health go hand in hand.",
+      "exampleJa": "貧困と健康の悪化は密接に結びついています。",
+      "level": 4
+    },
+    {
+      "headword": "grapple with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "と取り組む；と格闘する",
+      "exampleEn": "The city is grappling with traffic problems.",
+      "exampleJa": "その市は交通問題に取り組んでいます。",
+      "level": 5
+    },
+    {
+      "headword": "in accordance with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に従って；〜に準じて",
+      "exampleEn": "Act in accordance with rules.",
+      "exampleJa": "規則に従って行動しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "in conjunction with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "と併せて；と共同で",
+      "exampleEn": "Use this map in conjunction with the guide.",
+      "exampleJa": "この地図はガイドブックと併せて使ってください。",
+      "level": 5
+    },
+    {
+      "headword": "in defiance of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に逆らって；を無視して",
+      "exampleEn": "They marched in defiance of the ban.",
+      "exampleJa": "彼らは禁止令に逆らって行進しました。",
+      "level": 5
+    },
+    {
+      "headword": "in essence",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "本質的には；要するに",
+      "exampleEn": "In essence, the two plans are the same.",
+      "exampleJa": "要するに、その2つの案は同じものです。",
+      "level": 4
+    },
+    {
+      "headword": "in hindsight",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "後から考えれば",
+      "exampleEn": "In hindsight, we should have left earlier.",
+      "exampleJa": "後から考えれば、もっと早く出発すべきでした。",
+      "level": 4
+    },
+    {
+      "headword": "in lieu of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "の代わりに",
+      "exampleEn": "He took extra days in lieu of pay.",
+      "exampleJa": "彼は給料の代わりに休みを多く取りました。",
+      "level": 5
+    },
+    {
+      "headword": "in proportion to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に比例して；に応じて",
+      "exampleEn": "Pay rises in proportion to experience.",
+      "exampleJa": "給与は経験に応じて上がります。",
+      "level": 4
+    },
+    {
+      "headword": "in pursuit of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を求めて；を追って",
+      "exampleEn": "She moved abroad in pursuit of work.",
+      "exampleJa": "彼女は仕事を求めて外国へ移りました。",
+      "level": 4
+    },
+    {
+      "headword": "in retrospect",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "振り返ってみると",
+      "exampleEn": "In retrospect, the decision was a wise one.",
+      "exampleJa": "振り返ってみると、その決定は賢明でした。",
+      "level": 5
+    },
+    {
+      "headword": "in the wake of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "の直後に；の結果として",
+      "exampleEn": "Prices rose in the wake of the storm.",
+      "exampleJa": "その嵐のあと、物価が上がりました。",
+      "level": 5
+    },
+    {
+      "headword": "in vain",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "むだに；かいなく",
+      "exampleEn": "They searched all day in vain.",
+      "exampleJa": "彼らは一日中探しましたがむだでした。",
+      "level": 4
+    },
+    {
+      "headword": "inasmuch as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "…である限り；…だから",
+      "exampleEn": "He is lucky inasmuch as he has support.",
+      "exampleJa": "支えがあるという点で彼は幸運です。",
+      "level": 5
+    },
+    {
+      "headword": "lend itself to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に適している；に向いている",
+      "exampleEn": "The hall lends itself to small concerts.",
+      "exampleJa": "そのホールは小さな演奏会に向いています。",
+      "level": 5
+    },
+    {
+      "headword": "let alone",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "まして〜ない",
+      "exampleEn": "He cannot walk, let alone run.",
+      "exampleJa": "彼は歩けません。まして走るなど無理です。",
+      "level": 5
+    },
+    {
+      "headword": "make allowance for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を考慮に入れる",
+      "exampleEn": "Make allowance for the heavy traffic.",
+      "exampleJa": "道路の混雑を考慮に入れておきなさい。",
+      "level": 5
+    },
+    {
+      "headword": "no less than",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "…もの；…に劣らず",
+      "exampleEn": "No less than fifty people applied.",
+      "exampleJa": "50人もの人が応募しました。",
+      "level": 4
+    },
+    {
+      "headword": "on the grounds that",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "…という理由で",
+      "exampleEn": "He refused on the grounds that it was unfair.",
+      "exampleJa": "不公平だという理由で彼は断りました。",
+      "level": 5
+    },
+    {
+      "headword": "on the whole",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "全体として；概して",
+      "exampleEn": "On the whole, the trip went well.",
+      "exampleJa": "全体としてその旅行はうまくいきました。",
+      "level": 4
+    },
+    {
+      "headword": "once and for all",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "きっぱりと；これを最後に",
+      "exampleEn": "Let us settle this once and for all.",
+      "exampleJa": "この件をこれを最後にきっぱり片づけましょう。",
+      "level": 4
+    },
+    {
+      "headword": "owing to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "のために；が原因で",
+      "exampleEn": "The game was called off owing to rain.",
+      "exampleJa": "雨のため試合は中止になりました。",
+      "level": 4
+    },
+    {
+      "headword": "pave the way for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "への道を開く；を準備する",
+      "exampleEn": "Her research paved the way for new drugs.",
+      "exampleJa": "彼女の研究が新薬への道を開きました。",
+      "level": 4
+    },
+    {
+      "headword": "play a role in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "で役割を果たす",
+      "exampleEn": "Diet plays a role in good health.",
+      "exampleJa": "食事は健康を保つうえで役割を果たします。",
+      "level": 4
+    },
+    {
+      "headword": "put into practice",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を実行に移す",
+      "exampleEn": "We must put these ideas into practice.",
+      "exampleJa": "私たちはこれらの考えを実行に移さねばなりません。",
+      "level": 4
+    },
+    {
+      "headword": "refrain from",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を控える；を慎む",
+      "exampleEn": "Please refrain from talking during the film.",
+      "exampleJa": "映画の間はお話をお控えください。",
+      "level": 4
+    },
+    {
+      "headword": "rule out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を除外する；を否定する",
+      "exampleEn": "Police have not ruled out an accident.",
+      "exampleJa": "警察は事故の可能性を否定していません。",
+      "level": 4
+    },
+    {
+      "headword": "set forth",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を述べる；出発する",
+      "exampleEn": "The report sets forth three main aims.",
+      "exampleJa": "その報告書は3つの主要な目的を述べています。",
+      "level": 5
+    },
+    {
+      "headword": "shed light on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を明らかにする；に光を当てる",
+      "exampleEn": "New letters shed light on his early life.",
+      "exampleJa": "新たに見つかった手紙が彼の若い頃を明らかにしました。",
+      "level": 4
+    },
+    {
+      "headword": "stand to reason",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "理にかなっている；当然である",
+      "exampleEn": "It stands to reason that costs will rise.",
+      "exampleJa": "費用が上がるのは当然のことです。",
+      "level": 5
+    },
+    {
+      "headword": "subject to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を条件として；を受けやすい",
+      "exampleEn": "The plan is subject to final approval.",
+      "exampleJa": "その計画は最終承認を条件としています。",
+      "level": 4
+    },
+    {
+      "headword": "take issue with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に異議を唱える",
+      "exampleEn": "She took issue with his main point.",
+      "exampleJa": "彼女は彼の主要な論点に異議を唱えました。",
+      "level": 5
+    },
+    {
+      "headword": "take precedence over",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に優先する",
+      "exampleEn": "Safety takes precedence over speed.",
+      "exampleJa": "安全は速さより優先されます。",
+      "level": 5
+    },
+    {
+      "headword": "tantamount to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に等しい；も同然の",
+      "exampleEn": "Silence here is tantamount to consent.",
+      "exampleJa": "ここでの沈黙は同意も同然です。",
+      "level": 5
+    },
+    {
+      "headword": "to no avail",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "かいなく；むだに",
+      "exampleEn": "He shouted for help, but to no avail.",
+      "exampleJa": "彼は助けを呼びましたが、かいがありませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "to say nothing of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "は言うまでもなく",
+      "exampleEn": "It costs money, to say nothing of time.",
+      "exampleJa": "時間は言うまでもなく、お金もかかります。",
+      "level": 5
+    },
+    {
+      "headword": "to some extent",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "ある程度は",
+      "exampleEn": "I agree with you to some extent.",
+      "exampleJa": "ある程度まではあなたに同意します。",
+      "level": 3
+    },
+    {
+      "headword": "under no circumstances",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "どんなことがあっても…ない",
+      "exampleEn": "Under no circumstances should you open this door.",
+      "exampleJa": "どんなことがあってもこの扉を開けてはいけません。",
+      "level": 5
+    },
+    {
+      "headword": "weed out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を取り除く；をふるい落とす",
+      "exampleEn": "The first test weeds out weak applicants.",
+      "exampleJa": "最初の試験で力の足りない志願者がふるい落とされます。",
+      "level": 4
+    },
+    {
+      "headword": "what is more",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "さらに；その上",
+      "exampleEn": "It is cheap, and what is more, safe.",
+      "exampleJa": "それは安く、その上、安全です。",
+      "level": 4
+    },
+    {
+      "headword": "with a view to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を目的として",
+      "exampleEn": "They met with a view to reaching agreement.",
+      "exampleJa": "彼らは合意に達することを目的として会いました。",
+      "level": 5
+    },
+    {
+      "headword": "with respect to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に関して；について",
+      "exampleEn": "With respect to cost, the plan looks fine.",
+      "exampleJa": "費用に関しては、その計画で問題なさそうです。",
+      "level": 4
+    },
+    {
+      "headword": "without fail",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "必ず；間違いなく",
+      "exampleEn": "Send the form by Friday without fail.",
+      "exampleJa": "その用紙を必ず金曜までに送ってください。",
+      "level": 4
+    }
+  ]
+}

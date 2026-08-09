@@ -1,0 +1,663 @@
+{
+  "chunk": "05_nouns_economy_industry",
+  "note": "経済・産業・労働（73語）",
+  "words": [
+    {
+      "headword": "affluence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæfluəns/",
+      "meaning": "裕福；富裕",
+      "exampleEn": "The country enjoyed decades of growing affluence.",
+      "exampleJa": "その国は数十年にわたり豊かさを享受しました。",
+      "level": 5
+    },
+    {
+      "headword": "allocation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæləˈkeɪʃn/",
+      "meaning": "割り当て；配分",
+      "exampleEn": "Review the annual budget allocation.",
+      "exampleJa": "年次予算の割り当てを見直しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "arbitration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːrbɪˈtreɪʃn/",
+      "meaning": "仲裁；調停",
+      "exampleEn": "They settled the dispute through arbitration.",
+      "exampleJa": "彼らは仲裁によって紛争を解決しました。",
+      "level": 4
+    },
+    {
+      "headword": "assembly",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsembli/",
+      "meaning": "集会；組み立て",
+      "exampleEn": "The assembly line runs from morning until night.",
+      "exampleJa": "組み立てラインは朝から夜まで稼働しています。",
+      "level": 3
+    },
+    {
+      "headword": "attrition",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtrɪʃn/",
+      "meaning": "摩耗；人員自然減；消耗",
+      "exampleEn": "The company reduced staff through natural attrition.",
+      "exampleJa": "その会社は自然減により人員を削減しました。",
+      "level": 5
+    },
+    {
+      "headword": "bailout",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪlaʊt/",
+      "meaning": "緊急救済；財政支援",
+      "exampleEn": "The bank survived thanks to a government bailout.",
+      "exampleJa": "その銀行は政府の緊急救済のおかげで生き延びました。",
+      "level": 5
+    },
+    {
+      "headword": "collateral",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈlætərəl/",
+      "meaning": "担保；見返り",
+      "exampleEn": "He offered his house as collateral for the loan.",
+      "exampleJa": "彼はローンの担保として自宅を差し出しました。",
+      "level": 5
+    },
+    {
+      "headword": "commodity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmɑːdəti/",
+      "meaning": "商品；日用品",
+      "exampleEn": "Oil is an essential commodity.",
+      "exampleJa": "石油は不可欠な商品・資源物資です。",
+      "level": 4
+    },
+    {
+      "headword": "conglomerate",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈɡlɑːmərət/",
+      "meaning": "複合企業；集合体",
+      "exampleEn": "A huge conglomerate bought the small maker.",
+      "exampleJa": "巨大な複合企業がその小さなメーカーを買収しました。",
+      "level": 5
+    },
+    {
+      "headword": "consortium",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsɔːrʃiəm/",
+      "meaning": "企業連合；共同事業体",
+      "exampleEn": "A consortium of firms built the tunnel.",
+      "exampleJa": "企業連合がそのトンネルを建設しました。",
+      "level": 5
+    },
+    {
+      "headword": "deficit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdefɪsɪt/",
+      "meaning": "赤字；不足額",
+      "exampleEn": "The nation faces a trade deficit.",
+      "exampleJa": "その国は貿易赤字に直面しています。",
+      "level": 4
+    },
+    {
+      "headword": "deflation",
+      "partOfSpeech": "noun",
+      "phonetic": "/diːˈfleɪʃən/",
+      "meaning": "デフレーション；通告収縮",
+      "exampleEn": "Economy suffered prolonged deflation.",
+      "exampleJa": "経済は長引くデフレに苦しみました。",
+      "level": 4
+    },
+    {
+      "headword": "depreciation",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˌpriːʃiˈeɪʃn/",
+      "meaning": "減価償却；価値下落",
+      "exampleEn": "We record depreciation on all office equipment.",
+      "exampleJa": "当社はすべての事務機器の減価償却を計上しています。",
+      "level": 5
+    },
+    {
+      "headword": "depression",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpreʃn/",
+      "meaning": "うつ病；不況；意気消沈",
+      "exampleEn": "The economic depression hit many countries.",
+      "exampleJa": "経済不況が多くの国を襲いました。",
+      "level": 3
+    },
+    {
+      "headword": "deregulation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdiːreɡjuˈleɪʃn/",
+      "meaning": "規制緩和",
+      "exampleEn": "Deregulation opened the market to new firms.",
+      "exampleJa": "規制緩和が新しい企業に市場を開きました。",
+      "level": 5
+    },
+    {
+      "headword": "dividend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪvɪdend/",
+      "meaning": "配当金；配当",
+      "exampleEn": "Shareholders received annual dividend.",
+      "exampleJa": "株主たちは配当金を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "downturn",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaʊntɜːrn/",
+      "meaning": "景気の後退；下降",
+      "exampleEn": "Sales fell sharply during the downturn.",
+      "exampleJa": "景気後退の間、売り上げは急に落ち込みました。",
+      "level": 4
+    },
+    {
+      "headword": "endowment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdaʊmənt/",
+      "meaning": "寄付基金；天賦の才",
+      "exampleEn": "The university lives on a large endowment.",
+      "exampleJa": "その大学は多額の寄付基金で運営されています。",
+      "level": 5
+    },
+    {
+      "headword": "equilibrium",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌiːkwɪˈlɪbriəm/",
+      "meaning": "均衡；平衡状態",
+      "exampleEn": "Prices settle where supply reaches equilibrium.",
+      "exampleJa": "価格は供給が均衡に達する点で落ち着きます。",
+      "level": 5
+    },
+    {
+      "headword": "expenditure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspendɪtʃər/",
+      "meaning": "支出；経費",
+      "exampleEn": "Reduce annual military expenditure.",
+      "exampleJa": "年間軍事支出を削減しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "exploitation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌeksplɔɪˈteɪʃn/",
+      "meaning": "搾取；開発利用",
+      "exampleEn": "The law protects workers from exploitation.",
+      "exampleJa": "その法律は労働者を搾取から守ります。",
+      "level": 5
+    },
+    {
+      "headword": "fluctuation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌflʌktʃuˈeɪʃn/",
+      "meaning": "変動；上下動",
+      "exampleEn": "Sharp fluctuations in price worried farmers.",
+      "exampleJa": "激しい価格の変動が農家を不安にさせました。",
+      "level": 5
+    },
+    {
+      "headword": "forecast",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrkæst/",
+      "meaning": "予測；予報",
+      "exampleEn": "The forecast for next year looks bright.",
+      "exampleJa": "来年の予測は明るいようです。",
+      "level": 4
+    },
+    {
+      "headword": "fraud",
+      "partOfSpeech": "noun",
+      "phonetic": "/frɔːd/",
+      "meaning": "詐欺；不正行為",
+      "exampleEn": "He was arrested for credit card fraud.",
+      "exampleJa": "彼はクレジットカード詐欺で逮捕されました。",
+      "level": 3
+    },
+    {
+      "headword": "grievance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡriːvəns/",
+      "meaning": "不満；苦情",
+      "exampleEn": "Workers listed their grievances in a letter.",
+      "exampleJa": "労働者たちは不満を手紙に書き並べました。",
+      "level": 5
+    },
+    {
+      "headword": "hierarchy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhaɪərɑːrki/",
+      "meaning": "階級組織；ヒエラルキー",
+      "exampleEn": "Respect organizational hierarchy.",
+      "exampleJa": "組織の階級秩序を尊重しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "incentive",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈsentɪv/",
+      "meaning": "動機付け；報奨金；誘因",
+      "exampleEn": "The company offered a cash incentive.",
+      "exampleJa": "その会社は現金の報奨金を提示しました。",
+      "level": 4
+    },
+    {
+      "headword": "incumbent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈkʌmbənt/",
+      "meaning": "現職者；在職者",
+      "exampleEn": "The incumbent won the election easily.",
+      "exampleJa": "現職が楽に選挙に勝ちました。",
+      "level": 5
+    },
+    {
+      "headword": "index",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪndeks/",
+      "meaning": "指数；索引",
+      "exampleEn": "The price index rose again last month.",
+      "exampleJa": "物価指数は先月も上昇しました。",
+      "level": 4
+    },
+    {
+      "headword": "influx",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnflʌks/",
+      "meaning": "流入；殺到",
+      "exampleEn": "The city saw an influx of young workers.",
+      "exampleJa": "その都市には若い労働者が大量に流入しました。",
+      "level": 5
+    },
+    {
+      "headword": "infrastructure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnfrəstrʌktʃər/",
+      "meaning": "インフラ；社会基盤",
+      "exampleEn": "Invest in public infrastructure.",
+      "exampleJa": "公共インフラに投資しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "ingenuity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪndʒəˈnuːəti/",
+      "meaning": "創意工夫；発明の才",
+      "exampleEn": "Human ingenuity solved the water problem.",
+      "exampleJa": "人間の創意工夫が水の問題を解決しました。",
+      "level": 5
+    },
+    {
+      "headword": "installment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈstɔːlmənt/",
+      "meaning": "分割払い金",
+      "exampleEn": "I pay the loan in monthly installments.",
+      "exampleJa": "私はそのローンを毎月の分割払いで返済しています。",
+      "level": 4
+    },
+    {
+      "headword": "labor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪbər/",
+      "meaning": "労働；作業；労働者",
+      "exampleEn": "Manual labor can be exhausting.",
+      "exampleJa": "肉体労働は疲れることがあります。",
+      "level": 3
+    },
+    {
+      "headword": "layoff",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪɔːf/",
+      "meaning": "一時解雇；レイオフ",
+      "exampleEn": "The layoffs affected fifty workers at the plant.",
+      "exampleJa": "その一時解雇は工場の50名の従業員に影響しました。",
+      "level": 4
+    },
+    {
+      "headword": "leverage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlevərɪdʒ/",
+      "meaning": "影響力；てこの作用",
+      "exampleEn": "Small buyers have little leverage in talks.",
+      "exampleJa": "小さな買い手は交渉でほとんど影響力を持ちません。",
+      "level": 5
+    },
+    {
+      "headword": "liquidation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌlɪkwɪˈdeɪʃn/",
+      "meaning": "清算；整理",
+      "exampleEn": "The failed store went into liquidation.",
+      "exampleJa": "経営に行き詰まったその店は清算に入りました。",
+      "level": 5
+    },
+    {
+      "headword": "mechanization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmekənəˈzeɪʃn/",
+      "meaning": "機械化",
+      "exampleEn": "Mechanization changed farming forever.",
+      "exampleJa": "機械化は農業を永久に変えました。",
+      "level": 5
+    },
+    {
+      "headword": "negligence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɡlɪdʒəns/",
+      "meaning": "怠慢；過失",
+      "exampleEn": "The accident was caused by simple negligence.",
+      "exampleJa": "その事故は単純な不注意が原因でした。",
+      "level": 5
+    },
+    {
+      "headword": "outlay",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtleɪ/",
+      "meaning": "支出；経費",
+      "exampleEn": "The initial outlay for the machine was huge.",
+      "exampleJa": "その機械への初期支出は莫大でした。",
+      "level": 5
+    },
+    {
+      "headword": "outsourcing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtsɔːrsɪŋ/",
+      "meaning": "外部委託",
+      "exampleEn": "Outsourcing cut the company's labor costs.",
+      "exampleJa": "外部委託によってその会社の人件費は下がりました。",
+      "level": 4
+    },
+    {
+      "headword": "overhead",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊvərhed/",
+      "meaning": "経常経費；間接費",
+      "exampleEn": "A smaller office keeps overhead low.",
+      "exampleJa": "事務所を小さくすれば間接費を低く抑えられます。",
+      "level": 5
+    },
+    {
+      "headword": "patron",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪtrən/",
+      "meaning": "常連客；パトロン",
+      "exampleEn": "Regular patrons receive a discount on every visit.",
+      "exampleJa": "常連客は来店のたびに割引を受けられます。",
+      "level": 4
+    },
+    {
+      "headword": "payoff",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪɔːf/",
+      "meaning": "見返り；報酬",
+      "exampleEn": "The payoff from early study is large.",
+      "exampleJa": "早くから学んだ見返りは大きいです。",
+      "level": 4
+    },
+    {
+      "headword": "portfolio",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɔːrtˈfoʊlioʊ/",
+      "meaning": "作品集；資産構成",
+      "exampleEn": "She manages a balanced investment portfolio.",
+      "exampleJa": "彼女はバランスの取れた投資ポートフォリオを運用しています。",
+      "level": 4
+    },
+    {
+      "headword": "precision",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈsɪʒn/",
+      "meaning": "正確さ；精密さ",
+      "exampleEn": "These parts are made with great precision.",
+      "exampleJa": "これらの部品は非常に高い精度で作られています。",
+      "level": 4
+    },
+    {
+      "headword": "premise",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpremɪs/",
+      "meaning": "前提；敷地",
+      "exampleEn": "His argument is based on a false premise.",
+      "exampleJa": "彼の主張は誤った前提に基づいています。",
+      "level": 4
+    },
+    {
+      "headword": "proprietor",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈpraɪətər/",
+      "meaning": "所有者；オーナー",
+      "exampleEn": "The proprietor welcomed us at the shop door.",
+      "exampleJa": "店の所有者が入口で私たちを迎えました。",
+      "level": 4
+    },
+    {
+      "headword": "prosperity",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɑːˈsperəti/",
+      "meaning": "繁栄；成功",
+      "exampleEn": "The country enjoyed years of economic prosperity.",
+      "exampleJa": "その国は何年もの経済的繁栄を享受しました。",
+      "level": 3
+    },
+    {
+      "headword": "recruitment",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈkruːtmənt/",
+      "meaning": "採用活動；募集",
+      "exampleEn": "Our recruitment campaign starts next Monday.",
+      "exampleJa": "当社の採用活動は来週の月曜日に始まります。",
+      "level": 3
+    },
+    {
+      "headword": "redundancy",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈdʌndənsi/",
+      "meaning": "余剰；人員削減",
+      "exampleEn": "The merger created redundancy in both offices.",
+      "exampleJa": "その合併は両方の事務所に人員の余剰を生みました。",
+      "level": 5
+    },
+    {
+      "headword": "remuneration",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌmjuːnəˈreɪʃn/",
+      "meaning": "給与；報酬",
+      "exampleEn": "The job offers good remuneration for skilled staff.",
+      "exampleJa": "その仕事は熟練した社員に十分な報酬を用意しています。",
+      "level": 5
+    },
+    {
+      "headword": "revenue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrevənuː/",
+      "meaning": "歳入；総収益",
+      "exampleEn": "Our annual revenue rose by ten percent.",
+      "exampleJa": "当社の年間収益は10パーセント増えました。",
+      "level": 4
+    },
+    {
+      "headword": "scarcity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskersəti/",
+      "meaning": "不足；欠乏",
+      "exampleEn": "Water scarcity is a serious global issue.",
+      "exampleJa": "水不足は深刻な世界的問題です。",
+      "level": 4
+    },
+    {
+      "headword": "securities",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɪˈkjʊrətiz/",
+      "meaning": "有価証券",
+      "exampleEn": "He invested his savings in government securities.",
+      "exampleJa": "彼は貯金を国債などの有価証券に投じました。",
+      "level": 5
+    },
+    {
+      "headword": "solvency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɑːlvənsi/",
+      "meaning": "支払能力",
+      "exampleEn": "The audit confirmed the firm's solvency.",
+      "exampleJa": "監査はその会社の支払能力を確認しました。",
+      "level": 5
+    },
+    {
+      "headword": "speculation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌspekjuˈleɪʃn/",
+      "meaning": "投機；推測",
+      "exampleEn": "Land speculation pushed house prices up.",
+      "exampleJa": "土地への投機が住宅価格を押し上げました。",
+      "level": 4
+    },
+    {
+      "headword": "stagnation",
+      "partOfSpeech": "noun",
+      "phonetic": "/stæɡˈneɪʃn/",
+      "meaning": "停滞；不振",
+      "exampleEn": "The country faced ten years of stagnation.",
+      "exampleJa": "その国は10年に及ぶ停滞に直面しました。",
+      "level": 5
+    },
+    {
+      "headword": "stakeholder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪkhoʊldər/",
+      "meaning": "利害関係者",
+      "exampleEn": "Every stakeholder should join the discussion.",
+      "exampleJa": "すべての利害関係者が議論に加わるべきです。",
+      "level": 4
+    },
+    {
+      "headword": "stipend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstaɪpend/",
+      "meaning": "奨学手当；定額給与",
+      "exampleEn": "Each intern receives a small monthly stipend.",
+      "exampleJa": "インターン生はそれぞれ毎月少額の手当を受け取ります。",
+      "level": 5
+    },
+    {
+      "headword": "subsistence",
+      "partOfSpeech": "noun",
+      "phonetic": "/səbˈsɪstəns/",
+      "meaning": "最低限の生活；生存",
+      "exampleEn": "Many families live at subsistence level.",
+      "exampleJa": "多くの家族が最低限の生活水準で暮らしています。",
+      "level": 5
+    },
+    {
+      "headword": "surge",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɜːrdʒ/",
+      "meaning": "急増；大波",
+      "exampleEn": "There was a surge in online orders.",
+      "exampleJa": "ネット注文が急増しました。",
+      "level": 4
+    },
+    {
+      "headword": "syndicate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪndɪkət/",
+      "meaning": "企業連合；組合",
+      "exampleEn": "A banking syndicate funded the project.",
+      "exampleJa": "銀行の連合体がその事業に資金を出しました。",
+      "level": 5
+    },
+    {
+      "headword": "tenant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtenənt/",
+      "meaning": "借り手；テナント",
+      "exampleEn": "The new tenant signed the office lease.",
+      "exampleJa": "新しい借り手がオフィスの賃貸契約に署名しました。",
+      "level": 4
+    },
+    {
+      "headword": "threshold",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθreʃhoʊld/",
+      "meaning": "境界；敷居；出発点",
+      "exampleEn": "Income above this threshold is taxed.",
+      "exampleJa": "この基準額を超える収入には税がかかります。",
+      "level": 5
+    },
+    {
+      "headword": "trajectory",
+      "partOfSpeech": "noun",
+      "phonetic": "/trəˈdʒektəri/",
+      "meaning": "軌道；進路",
+      "exampleEn": "The firm is on a steady growth trajectory.",
+      "exampleJa": "その会社は着実な成長の軌道に乗っています。",
+      "level": 5
+    },
+    {
+      "headword": "turnover",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrnoʊvər/",
+      "meaning": "離職率；総売上高；回転率",
+      "exampleEn": "Annual corporate turnover increased.",
+      "exampleJa": "年間の企業売上高が増加しました。",
+      "level": 4
+    },
+    {
+      "headword": "utility",
+      "partOfSpeech": "noun",
+      "phonetic": "/juːˈtɪləti/",
+      "meaning": "公益事業；有用性",
+      "exampleEn": "Water and power are basic utilities.",
+      "exampleJa": "水道と電気は基本的な公共サービスです。",
+      "level": 4
+    },
+    {
+      "headword": "valuation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌvæljuˈeɪʃn/",
+      "meaning": "評価額；査定",
+      "exampleEn": "The valuation of the property rose sharply.",
+      "exampleJa": "その物件の評価額は大きく上昇しました。",
+      "level": 4
+    },
+    {
+      "headword": "vocation",
+      "partOfSpeech": "noun",
+      "phonetic": "/voʊˈkeɪʃn/",
+      "meaning": "天職；職業",
+      "exampleEn": "Teaching became her true vocation.",
+      "exampleJa": "教えることが彼女の本当の天職になりました。",
+      "level": 4
+    },
+    {
+      "headword": "wholesale",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhoʊlseɪl/",
+      "meaning": "卸売り",
+      "exampleEn": "The shop buys its goods at wholesale prices.",
+      "exampleJa": "その店は商品を卸売価格で仕入れています。",
+      "level": 4
+    },
+    {
+      "headword": "windfall",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪndfɔːl/",
+      "meaning": "思いがけない収入；棚ぼた",
+      "exampleEn": "The sale brought the town a windfall.",
+      "exampleJa": "その売却は町に思いがけない収入をもたらしました。",
+      "level": 5
+    },
+    {
+      "headword": "yield",
+      "partOfSpeech": "noun",
+      "phonetic": "/jiːld/",
+      "meaning": "収穫量；利回り；産出量",
+      "exampleEn": "High crop yield helped farmers.",
+      "exampleJa": "高い作物の収穫量が農家を助けました。",
+      "level": 4
+    }
+  ]
+}

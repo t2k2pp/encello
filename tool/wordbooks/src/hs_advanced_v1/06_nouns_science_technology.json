@@ -1,0 +1,726 @@
+{
+  "chunk": "06_nouns_science_technology",
+  "note": "科学・技術・医学（80語）",
+  "words": [
+    {
+      "headword": "aerodynamics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌerədaɪˈnæmɪks/",
+      "meaning": "空気力学；空力特性",
+      "exampleEn": "The car's aerodynamics reduce fuel use.",
+      "exampleJa": "その車の空力特性が燃料の消費を抑えます。",
+      "level": 5
+    },
+    {
+      "headword": "algorithm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælɡərɪðəm/",
+      "meaning": "アルゴリズム；計算手順",
+      "exampleEn": "Search engine uses complex algorithm.",
+      "exampleJa": "検索エンジンは複雑なアルゴリズムを使用しています。",
+      "level": 4
+    },
+    {
+      "headword": "amplitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæmplɪtuːd/",
+      "meaning": "振幅；広がり",
+      "exampleEn": "A louder sound has a greater amplitude.",
+      "exampleJa": "音が大きいほど振幅は大きくなります。",
+      "level": 5
+    },
+    {
+      "headword": "anatomy",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈnætəmi/",
+      "meaning": "解剖学；人体構造",
+      "exampleEn": "Medical students study human anatomy.",
+      "exampleJa": "医学生は人体の解剖学を学びます。",
+      "level": 4
+    },
+    {
+      "headword": "antibody",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæntibɑːdi/",
+      "meaning": "抗体（免疫）",
+      "exampleEn": "The immune system produces antibodies to fight viruses.",
+      "exampleJa": "免疫系はウイルスと戦う抗体を作ります。",
+      "level": 4
+    },
+    {
+      "headword": "aperture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæpərtʃər/",
+      "meaning": "開口部；絞り",
+      "exampleEn": "A wide aperture lets in more light.",
+      "exampleJa": "絞りを開けるとより多くの光が入ります。",
+      "level": 5
+    },
+    {
+      "headword": "apparatus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæpəˈrætəs/",
+      "meaning": "実験器具；装置",
+      "exampleEn": "Lab has sophisticated testing apparatus.",
+      "exampleJa": "研究所には精巧な検査器具があります。",
+      "level": 4
+    },
+    {
+      "headword": "asteroid",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæstərɔɪd/",
+      "meaning": "小惑星",
+      "exampleEn": "A small asteroid passed close to Earth.",
+      "exampleJa": "小さな小惑星が地球のそばを通過しました。",
+      "level": 4
+    },
+    {
+      "headword": "astronomy",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈstrɑːnəmi/",
+      "meaning": "天文学",
+      "exampleEn": "He loves reading about astronomy.",
+      "exampleJa": "彼は天文学について読むのが大好きです。",
+      "level": 3
+    },
+    {
+      "headword": "bandwidth",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbændwɪdθ/",
+      "meaning": "帯域幅；通信容量",
+      "exampleEn": "Video calls need plenty of bandwidth.",
+      "exampleJa": "ビデオ通話には十分な帯域幅が必要です。",
+      "level": 4
+    },
+    {
+      "headword": "catalyst",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkætəlɪst/",
+      "meaning": "触媒；きっかけ",
+      "exampleEn": "The event served as a catalyst for reform.",
+      "exampleJa": "その出来事は改革のきっかけとなりました。",
+      "level": 4
+    },
+    {
+      "headword": "cellulose",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈseljuloʊs/",
+      "meaning": "セルロース；繊維素",
+      "exampleEn": "Plant walls are made mainly of cellulose.",
+      "exampleJa": "植物の細胞壁は主にセルロースでできています。",
+      "level": 5
+    },
+    {
+      "headword": "chromosome",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkroʊməsoʊm/",
+      "meaning": "染色体",
+      "exampleEn": "Humans have 23 pairs of chromosomes.",
+      "exampleJa": "人間には23対の染色体があります。",
+      "level": 4
+    },
+    {
+      "headword": "circumference",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈkʌmfərəns/",
+      "meaning": "円周；周囲の長さ",
+      "exampleEn": "He measured the circumference of the tree.",
+      "exampleJa": "彼はその木の周囲の長さを測りました。",
+      "level": 4
+    },
+    {
+      "headword": "clone",
+      "partOfSpeech": "noun",
+      "phonetic": "/kloʊn/",
+      "meaning": "クローン；複製個体",
+      "exampleEn": "Scientists produced a clone of the sheep.",
+      "exampleJa": "科学者たちはその羊のクローンを作りました。",
+      "level": 4
+    },
+    {
+      "headword": "coefficient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkoʊɪˈfɪʃnt/",
+      "meaning": "係数",
+      "exampleEn": "The coefficient shows how strong the effect is.",
+      "exampleJa": "その係数は効果の強さを表します。",
+      "level": 5
+    },
+    {
+      "headword": "combustion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈbʌstʃən/",
+      "meaning": "燃焼",
+      "exampleEn": "Combustion of coal produces a lot of smoke.",
+      "exampleJa": "石炭の燃焼は大量の煙を出します。",
+      "level": 4
+    },
+    {
+      "headword": "conductor",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈdʌktər/",
+      "meaning": "指揮者；車掌；導体",
+      "exampleEn": "The conductor raised his baton slowly.",
+      "exampleJa": "指揮者はゆっくりと指揮棒を上げました。",
+      "level": 4
+    },
+    {
+      "headword": "configuration",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˌfɪɡjuˈreɪʃn/",
+      "meaning": "配置；構成",
+      "exampleEn": "The configuration of the atoms decides its color.",
+      "exampleJa": "原子の配置がその色を決めます。",
+      "level": 5
+    },
+    {
+      "headword": "conjecture",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈdʒektʃər/",
+      "meaning": "推測；憶測",
+      "exampleEn": "His statement was based on pure conjecture.",
+      "exampleJa": "彼の発言は全くの推測に基づいていました。",
+      "level": 5
+    },
+    {
+      "headword": "cortex",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɔːrteks/",
+      "meaning": "皮質；外皮",
+      "exampleEn": "The brain's cortex controls language.",
+      "exampleJa": "脳の皮質は言語をつかさどっています。",
+      "level": 5
+    },
+    {
+      "headword": "crystallization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkrɪstələˈzeɪʃn/",
+      "meaning": "結晶化；具体化",
+      "exampleEn": "Slow cooling helps crystallization of the salt.",
+      "exampleJa": "ゆっくり冷やすと塩の結晶化が進みます。",
+      "level": 5
+    },
+    {
+      "headword": "decay",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈkeɪ/",
+      "meaning": "腐敗；崩壊；衰退",
+      "exampleEn": "Sugar speeds up tooth decay.",
+      "exampleJa": "砂糖は虫歯の進行を早めます。",
+      "level": 4
+    },
+    {
+      "headword": "deficiency",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈfɪʃnsi/",
+      "meaning": "不足；欠乏",
+      "exampleEn": "A vitamin deficiency can cause health problems.",
+      "exampleJa": "ビタミンの不足は健康上の問題を引き起こすことがあります。",
+      "level": 4
+    },
+    {
+      "headword": "derivative",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈrɪvətɪv/",
+      "meaning": "派生物；誘導体",
+      "exampleEn": "This medicine is a derivative of a plant.",
+      "exampleJa": "この薬はある植物から作られた誘導体です。",
+      "level": 5
+    },
+    {
+      "headword": "diagnosis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdaɪəɡˈnoʊsɪs/",
+      "meaning": "診断；見立て",
+      "exampleEn": "The doctor gave her an early diagnosis.",
+      "exampleJa": "医師は彼女に早期の診断を下しました。",
+      "level": 3
+    },
+    {
+      "headword": "dosage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdoʊsɪdʒ/",
+      "meaning": "服用量；投与量",
+      "exampleEn": "Never take more than the stated dosage.",
+      "exampleJa": "決められた服用量を超えて飲んではいけません。",
+      "level": 5
+    },
+    {
+      "headword": "electrode",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈlektroʊd/",
+      "meaning": "電極",
+      "exampleEn": "Two electrodes were placed in the liquid.",
+      "exampleJa": "2本の電極が液体の中に置かれました。",
+      "level": 5
+    },
+    {
+      "headword": "embryo",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈembrioʊ/",
+      "meaning": "胚；胎児",
+      "exampleEn": "The embryo grows quickly in the first weeks.",
+      "exampleJa": "胚は最初の数週間で急速に成長します。",
+      "level": 5
+    },
+    {
+      "headword": "entropy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈentrəpi/",
+      "meaning": "エントロピー；無秩序の度合い",
+      "exampleEn": "Entropy increases in every closed system.",
+      "exampleJa": "閉じた系ではエントロピーは増大します。",
+      "level": 5
+    },
+    {
+      "headword": "enzyme",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenzaɪm/",
+      "meaning": "酵素",
+      "exampleEn": "This enzyme breaks down fat in food.",
+      "exampleJa": "この酵素は食べ物の脂肪を分解します。",
+      "level": 4
+    },
+    {
+      "headword": "epidemic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌepɪˈdemɪk/",
+      "meaning": "流行病；伝染病",
+      "exampleEn": "The flu epidemic spread rapidly.",
+      "exampleJa": "インフルエンザの流行病が急速に広まりました。",
+      "level": 4
+    },
+    {
+      "headword": "equation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈkweɪʒən/",
+      "meaning": "方程式；等式",
+      "exampleEn": "Solve the algebraic equation.",
+      "exampleJa": "代数方程式を解きなさい。",
+      "level": 3
+    },
+    {
+      "headword": "frequency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfriːkwənsi/",
+      "meaning": "周波数；頻度",
+      "exampleEn": "Dogs can hear a very high frequency.",
+      "exampleJa": "犬は非常に高い周波数を聞き取れます。",
+      "level": 4
+    },
+    {
+      "headword": "fusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfjuːʒn/",
+      "meaning": "核融合；融合",
+      "exampleEn": "The sun produces energy by fusion.",
+      "exampleJa": "太陽は核融合によってエネルギーを生み出します。",
+      "level": 4
+    },
+    {
+      "headword": "genome",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒiːnoʊm/",
+      "meaning": "ゲノム；全遺伝情報",
+      "exampleEn": "Scientists mapped human genome sequence.",
+      "exampleJa": "科学者たちはヒトゲノム配列を解読しました。",
+      "level": 4
+    },
+    {
+      "headword": "geology",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒiˈɑːlədʒi/",
+      "meaning": "地質学；地質",
+      "exampleEn": "She studies the geology of the island.",
+      "exampleJa": "彼女はその島の地質を研究しています。",
+      "level": 4
+    },
+    {
+      "headword": "germination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒɜːrmɪˈneɪʃn/",
+      "meaning": "発芽",
+      "exampleEn": "Warm soil speeds up germination.",
+      "exampleJa": "暖かい土は発芽を早めます。",
+      "level": 5
+    },
+    {
+      "headword": "helix",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhiːlɪks/",
+      "meaning": "らせん；らせん構造",
+      "exampleEn": "The double helix of DNA was discovered here.",
+      "exampleJa": "DNAの二重らせんはここで発見されました。",
+      "level": 5
+    },
+    {
+      "headword": "hormone",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɔːrmoʊn/",
+      "meaning": "ホルモン",
+      "exampleEn": "Hormones control body growth rate.",
+      "exampleJa": "ホルモンは身体の成長速度を制御します。",
+      "level": 3
+    },
+    {
+      "headword": "hypothesis",
+      "partOfSpeech": "noun",
+      "phonetic": "/haɪˈpɑːθəsɪs/",
+      "meaning": "仮説；前提",
+      "exampleEn": "Scientists tested the new hypothesis.",
+      "exampleJa": "科学者たちはその新しい仮説を検証しました。",
+      "level": 4
+    },
+    {
+      "headword": "immunization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪmjunəˈzeɪʃn/",
+      "meaning": "予防接種；免疫化",
+      "exampleEn": "Immunization has saved millions of lives.",
+      "exampleJa": "予防接種は何百万もの命を救ってきました。",
+      "level": 5
+    },
+    {
+      "headword": "incubation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪŋkjuˈbeɪʃn/",
+      "meaning": "潜伏期間；ふ化",
+      "exampleEn": "The incubation period lasts about ten days.",
+      "exampleJa": "潜伏期間はおよそ10日間続きます。",
+      "level": 5
+    },
+    {
+      "headword": "inertia",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈnɜːrʃə/",
+      "meaning": "慣性；不活発",
+      "exampleEn": "A heavy body has greater inertia.",
+      "exampleJa": "重い物体ほど慣性が大きくなります。",
+      "level": 5
+    },
+    {
+      "headword": "isotope",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaɪsətoʊp/",
+      "meaning": "同位体",
+      "exampleEn": "This isotope is used to date old bones.",
+      "exampleJa": "この同位体は古い骨の年代測定に使われます。",
+      "level": 5
+    },
+    {
+      "headword": "kinetics",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɪˈnetɪks/",
+      "meaning": "動力学；反応速度論",
+      "exampleEn": "Kinetics explains how fast reactions happen.",
+      "exampleJa": "反応速度論は反応の速さを説明します。",
+      "level": 5
+    },
+    {
+      "headword": "latitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlætɪtuːd/",
+      "meaning": "緯度；自由裁量",
+      "exampleEn": "Tokyo lies at about thirty-five degrees latitude.",
+      "exampleJa": "東京はおよそ北緯35度に位置しています。",
+      "level": 4
+    },
+    {
+      "headword": "lens",
+      "partOfSpeech": "noun",
+      "phonetic": "/lenz/",
+      "meaning": "レンズ；水晶体",
+      "exampleEn": "He cleaned the lens of his camera.",
+      "exampleJa": "彼はカメラのレンズを掃除しました。",
+      "level": 4
+    },
+    {
+      "headword": "longitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɑːndʒɪtuːd/",
+      "meaning": "経度",
+      "exampleEn": "Sailors once found longitude by the stars.",
+      "exampleJa": "かつて船乗りは星から経度を割り出しました。",
+      "level": 4
+    },
+    {
+      "headword": "magnitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmæɡnɪtuːd/",
+      "meaning": "規模；大きさ；等級",
+      "exampleEn": "Few people understood the magnitude of the danger.",
+      "exampleJa": "その危険の大きさを理解していた人はわずかでした。",
+      "level": 4
+    },
+    {
+      "headword": "membrane",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmembreɪn/",
+      "meaning": "膜；細胞膜",
+      "exampleEn": "A thin membrane surrounds each cell.",
+      "exampleJa": "薄い膜がそれぞれの細胞を包んでいます。",
+      "level": 5
+    },
+    {
+      "headword": "metabolism",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈtæbəlɪzəm/",
+      "meaning": "代謝；新陳代謝",
+      "exampleEn": "Exercise raises your metabolism.",
+      "exampleJa": "運動は代謝を高めます。",
+      "level": 4
+    },
+    {
+      "headword": "meteor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːtiər/",
+      "meaning": "流星；隕石",
+      "exampleEn": "We watched a bright meteor cross the sky.",
+      "exampleJa": "私たちは明るい流星が空を横切るのを見ました。",
+      "level": 4
+    },
+    {
+      "headword": "momentum",
+      "partOfSpeech": "noun",
+      "phonetic": "/moʊˈmentəm/",
+      "meaning": "勢い；はずみ",
+      "exampleEn": "The movement gained momentum.",
+      "exampleJa": "運動は勢いを増しました。",
+      "level": 4
+    },
+    {
+      "headword": "mutation",
+      "partOfSpeech": "noun",
+      "phonetic": "/mjuːˈteɪʃn/",
+      "meaning": "突然変異；変化",
+      "exampleEn": "A single mutation changed the plant's color.",
+      "exampleJa": "たった1つの突然変異がその植物の色を変えました。",
+      "level": 4
+    },
+    {
+      "headword": "nucleus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnuːkliəs/",
+      "meaning": "核；中心",
+      "exampleEn": "The nucleus holds the cell's genetic material.",
+      "exampleJa": "核は細胞の遺伝物質を収めています。",
+      "level": 4
+    },
+    {
+      "headword": "optics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːptɪks/",
+      "meaning": "光学",
+      "exampleEn": "Modern optics made better telescopes possible.",
+      "exampleJa": "現代の光学がより優れた望遠鏡を可能にしました。",
+      "level": 5
+    },
+    {
+      "headword": "organism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɡənɪzəm/",
+      "meaning": "有機体；生物",
+      "exampleEn": "Microscopic organisms live in soil.",
+      "exampleJa": "微小な有機体が土壌の中に生息しています。",
+      "level": 3
+    },
+    {
+      "headword": "oscillation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːsɪˈleɪʃn/",
+      "meaning": "振動；揺れ",
+      "exampleEn": "The oscillation of the string makes sound.",
+      "exampleJa": "弦の振動が音を生み出します。",
+      "level": 5
+    },
+    {
+      "headword": "pathogen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæθədʒən/",
+      "meaning": "病原体",
+      "exampleEn": "The water contained a dangerous pathogen.",
+      "exampleJa": "その水には危険な病原体が含まれていました。",
+      "level": 5
+    },
+    {
+      "headword": "pendulum",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpendʒələm/",
+      "meaning": "振り子",
+      "exampleEn": "The pendulum of the clock swings slowly.",
+      "exampleJa": "その時計の振り子はゆっくりと揺れています。",
+      "level": 4
+    },
+    {
+      "headword": "physiology",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌfɪziˈɑːlədʒi/",
+      "meaning": "生理学；生理機能",
+      "exampleEn": "He teaches human physiology at the college.",
+      "exampleJa": "彼はその大学で人体生理学を教えています。",
+      "level": 5
+    },
+    {
+      "headword": "plasma",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplæzmə/",
+      "meaning": "血しょう；プラズマ",
+      "exampleEn": "Blood plasma carries salts and proteins.",
+      "exampleJa": "血しょうは塩分やタンパク質を運びます。",
+      "level": 5
+    },
+    {
+      "headword": "probability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌprɑːbəˈbɪləti/",
+      "meaning": "公算；確率",
+      "exampleEn": "There is a high probability of rain today.",
+      "exampleJa": "今日は雨が降る確率が高いです。",
+      "level": 3
+    },
+    {
+      "headword": "prototype",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊtətaɪp/",
+      "meaning": "試作品；プロトタイプ",
+      "exampleEn": "The team built a prototype of the new robot.",
+      "exampleJa": "チームは新しいロボットの試作品を作りました。",
+      "level": 4
+    },
+    {
+      "headword": "quantum",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkwɑːntəm/",
+      "meaning": "量子；一定量",
+      "exampleEn": "Quantum theory explains the world of atoms.",
+      "exampleJa": "量子論は原子の世界を説明します。",
+      "level": 5
+    },
+    {
+      "headword": "radius",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈreɪdiəs/",
+      "meaning": "半径；範囲",
+      "exampleEn": "Shops within a short radius were closed.",
+      "exampleJa": "わずかな範囲内の店はすべて閉まっていました。",
+      "level": 4
+    },
+    {
+      "headword": "receptor",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈseptər/",
+      "meaning": "受容体",
+      "exampleEn": "The drug binds to a receptor in the brain.",
+      "exampleJa": "その薬は脳内の受容体と結びつきます。",
+      "level": 5
+    },
+    {
+      "headword": "refraction",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈfrækʃn/",
+      "meaning": "屈折",
+      "exampleEn": "Refraction makes the stick look bent.",
+      "exampleJa": "屈折のせいで棒が曲がって見えます。",
+      "level": 5
+    },
+    {
+      "headword": "residue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrezɪduː/",
+      "meaning": "残留物；残り",
+      "exampleEn": "A white residue stayed in the glass.",
+      "exampleJa": "白い残留物がグラスに残っていました。",
+      "level": 5
+    },
+    {
+      "headword": "respiration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrespəˈreɪʃn/",
+      "meaning": "呼吸；呼吸作用",
+      "exampleEn": "Plants use oxygen during respiration.",
+      "exampleJa": "植物は呼吸の際に酸素を使います。",
+      "level": 4
+    },
+    {
+      "headword": "sediment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsedɪmənt/",
+      "meaning": "堆積物；沈殿物",
+      "exampleEn": "Thick sediment covers the river bottom.",
+      "exampleJa": "厚い堆積物が川底を覆っています。",
+      "level": 5
+    },
+    {
+      "headword": "semiconductor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsemikənˈdʌktər/",
+      "meaning": "半導体",
+      "exampleEn": "The plant makes semiconductors for mobile phones.",
+      "exampleJa": "その工場は携帯電話用の半導体を製造しています。",
+      "level": 4
+    },
+    {
+      "headword": "sensor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsensər/",
+      "meaning": "センサー；感知器",
+      "exampleEn": "A sensor turns the light on automatically.",
+      "exampleJa": "センサーが自動で明かりをつけます。",
+      "level": 4
+    },
+    {
+      "headword": "spectrum",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspektrəm/",
+      "meaning": "スペクトル；範囲",
+      "exampleEn": "A prism spreads light into a spectrum.",
+      "exampleJa": "プリズムは光をスペクトルに分けます。",
+      "level": 4
+    },
+    {
+      "headword": "symmetry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmətri/",
+      "meaning": "対称；つり合い",
+      "exampleEn": "The building has perfect symmetry.",
+      "exampleJa": "その建物は完全な左右対称になっています。",
+      "level": 4
+    },
+    {
+      "headword": "synthesis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪnθəsɪs/",
+      "meaning": "合成；統合",
+      "exampleEn": "The synthesis of this drug takes weeks.",
+      "exampleJa": "この薬の合成には数週間かかります。",
+      "level": 5
+    },
+    {
+      "headword": "velocity",
+      "partOfSpeech": "noun",
+      "phonetic": "/vəˈlɑːsəti/",
+      "meaning": "速度；速さ",
+      "exampleEn": "Light travels at a fixed velocity.",
+      "exampleJa": "光は一定の速度で進みます。",
+      "level": 4
+    },
+    {
+      "headword": "viscosity",
+      "partOfSpeech": "noun",
+      "phonetic": "/vɪˈskɑːsəti/",
+      "meaning": "粘性；粘り気",
+      "exampleEn": "Oil loses viscosity when it gets hot.",
+      "exampleJa": "油は熱くなると粘り気を失います。",
+      "level": 5
+    },
+    {
+      "headword": "voltage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvoʊltɪdʒ/",
+      "meaning": "電圧",
+      "exampleEn": "Do not touch wires with high voltage.",
+      "exampleJa": "高い電圧のかかった電線に触れてはいけません。",
+      "level": 4
+    }
+  ]
+}

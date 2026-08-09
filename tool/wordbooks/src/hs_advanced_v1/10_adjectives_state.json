@@ -1,0 +1,780 @@
+{
+  "chunk": "10_adjectives_state",
+  "note": "状態・性質・程度の形容詞（86語）",
+  "words": [
+    {
+      "headword": "absolute",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæbsəluːt/",
+      "meaning": "絶対的な；完全な",
+      "exampleEn": "The king held absolute power over the state.",
+      "exampleJa": "国王は国家に対して絶対的な権力を握っていました。",
+      "level": 3
+    },
+    {
+      "headword": "adjacent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈdʒeɪsnt/",
+      "meaning": "隣接した；近くの",
+      "exampleEn": "The hotel is adjacent to the station.",
+      "exampleJa": "そのホテルは駅に隣接しています。",
+      "level": 4
+    },
+    {
+      "headword": "aesthetic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/esˈθetɪk/",
+      "meaning": "美的な；美学の",
+      "exampleEn": "The design has a strong aesthetic appeal.",
+      "exampleJa": "そのデザインは強い美的魅力を持っています。",
+      "level": 5
+    },
+    {
+      "headword": "ambiguous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/æmˈbɪɡjuəs/",
+      "meaning": "曖昧な；多義の",
+      "exampleEn": "Contract terms were vague and ambiguous.",
+      "exampleJa": "契約条件は模索的で曖昧でした。",
+      "level": 4
+    },
+    {
+      "headword": "anonymous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈnɑːnɪməs/",
+      "meaning": "匿名の；作者不明の",
+      "exampleEn": "She sent an anonymous letter to the school.",
+      "exampleJa": "彼女は学校に匿名の手紙を送りました。",
+      "level": 4
+    },
+    {
+      "headword": "archaic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɑːrˈkeɪɪk/",
+      "meaning": "古風な；時代遅れの",
+      "exampleEn": "The document was written in archaic language.",
+      "exampleJa": "その文書は古風な言葉遣いで書かれていました。",
+      "level": 5
+    },
+    {
+      "headword": "barren",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbærən/",
+      "meaning": "不毛の；作物のできない",
+      "exampleEn": "Desert land is completely dry and barren.",
+      "exampleJa": "砂漠の土地は完全に乾燥して不毛です。",
+      "level": 4
+    },
+    {
+      "headword": "bizarre",
+      "partOfSpeech": "adjective",
+      "phonetic": "/bɪˈzɑːr/",
+      "meaning": "奇妙な；風変わりな",
+      "exampleEn": "The witness reported a bizarre light in the sky.",
+      "exampleJa": "目撃者は空に奇妙な光を見たと報告しました。",
+      "level": 4
+    },
+    {
+      "headword": "coherent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/koʊˈhɪrənt/",
+      "meaning": "一貫した；筋の通った",
+      "exampleEn": "His essay presents a coherent argument.",
+      "exampleJa": "彼の小論文は筋の通った主張を示しています。",
+      "level": 5
+    },
+    {
+      "headword": "coincidental",
+      "partOfSpeech": "adjective",
+      "phonetic": "/koʊˌɪnsɪˈdentl/",
+      "meaning": "偶然の；同時に起こる",
+      "exampleEn": "The two events were purely coincidental.",
+      "exampleJa": "その2つの出来事は全くの偶然でした。",
+      "level": 4
+    },
+    {
+      "headword": "conspicuous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈspɪkjuəs/",
+      "meaning": "目立つ；顕著な",
+      "exampleEn": "The red sign was conspicuous in the crowd.",
+      "exampleJa": "その赤い看板は人ごみの中で目立ちました。",
+      "level": 5
+    },
+    {
+      "headword": "contradictory",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌkɑːntrəˈdɪktəri/",
+      "meaning": "矛盾した",
+      "exampleEn": "The police received two contradictory reports.",
+      "exampleJa": "警察は矛盾した2つの報告を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "corrosive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kəˈroʊsɪv/",
+      "meaning": "腐食性の；じわじわ壊す",
+      "exampleEn": "This liquid is highly corrosive.",
+      "exampleJa": "この液体は腐食性が非常に強いです。",
+      "level": 5
+    },
+    {
+      "headword": "cumbersome",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkʌmbərsəm/",
+      "meaning": "厄介な；重くて扱いづらい",
+      "exampleEn": "The wooden box was heavy and cumbersome.",
+      "exampleJa": "その木箱は重くて扱いづらいものでした。",
+      "level": 4
+    },
+    {
+      "headword": "cumulative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkjuːmjələtɪv/",
+      "meaning": "累積的な；次第に増える",
+      "exampleEn": "Smoking has a cumulative negative health effect.",
+      "exampleJa": "喫煙は健康に累積的な悪影響を及ぼします。",
+      "level": 5
+    },
+    {
+      "headword": "deceptive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈseptɪv/",
+      "meaning": "人を惑わす；当てにならない",
+      "exampleEn": "Appearances can sometimes be very deceptive.",
+      "exampleJa": "見た目は時にとても当てにならないものです。",
+      "level": 4
+    },
+    {
+      "headword": "definitive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈfɪnətɪv/",
+      "meaning": "決定的な；最終的な",
+      "exampleEn": "This book is the definitive guide to the war.",
+      "exampleJa": "この本はその戦争についての決定版の解説書です。",
+      "level": 4
+    },
+    {
+      "headword": "derivative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈrɪvətɪv/",
+      "meaning": "派生的な；模倣の",
+      "exampleEn": "Critics said the movie was derivative and dull.",
+      "exampleJa": "批評家はその映画が模倣的で退屈だと言いました。",
+      "level": 5
+    },
+    {
+      "headword": "detrimental",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌdetrɪˈmentl/",
+      "meaning": "有害な；損害を与える",
+      "exampleEn": "Smoking is detrimental to your health.",
+      "exampleJa": "喫煙は健康に有害です。",
+      "level": 4
+    },
+    {
+      "headword": "devoid",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈvɔɪd/",
+      "meaning": "〜を欠いている；全くない",
+      "exampleEn": "The desert is devoid of trees and water.",
+      "exampleJa": "その砂漠には木も水も全くありません。",
+      "level": 5
+    },
+    {
+      "headword": "dilapidated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈlæpɪdeɪtɪd/",
+      "meaning": "荒廃した；ボロボロの",
+      "exampleEn": "They bought a dilapidated house near the river.",
+      "exampleJa": "彼らは川の近くの荒廃した家を買いました。",
+      "level": 5
+    },
+    {
+      "headword": "discrete",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈskriːt/",
+      "meaning": "分離した；個別の",
+      "exampleEn": "The task was divided into three discrete phases.",
+      "exampleJa": "その作業は3つの個別の段階に分けられました。",
+      "level": 4
+    },
+    {
+      "headword": "dispensable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈspensəbl/",
+      "meaning": "なくても済む；重要でない",
+      "exampleEn": "No member of this team is dispensable.",
+      "exampleJa": "このチームに欠けてよい人は一人もいません。",
+      "level": 5
+    },
+    {
+      "headword": "disproportionate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌdɪsprəˈpɔːrʃənət/",
+      "meaning": "不釣り合いな；過大な",
+      "exampleEn": "The city takes a disproportionate share of funds.",
+      "exampleJa": "その市は不釣り合いに多い資金を得ています。",
+      "level": 5
+    },
+    {
+      "headword": "distinctive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈstɪŋktɪv/",
+      "meaning": "独特の；際立った",
+      "exampleEn": "The bird has a distinctive song.",
+      "exampleJa": "その鳥は独特の鳴き声を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "diverse",
+      "partOfSpeech": "adjective",
+      "phonetic": "/daɪˈvɜːrs/",
+      "meaning": "多様な；さまざまな",
+      "exampleEn": "The company hires people from diverse backgrounds.",
+      "exampleJa": "その会社は多様な背景を持つ人々を採用しています。",
+      "level": 3
+    },
+    {
+      "headword": "elaborate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈlæbərət/",
+      "meaning": "手の込んだ；精巧な",
+      "exampleEn": "They prepared an elaborate dinner for us.",
+      "exampleJa": "彼らは私たちのために手の込んだ夕食を用意しました。",
+      "level": 4
+    },
+    {
+      "headword": "elusive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/iˈluːsɪv/",
+      "meaning": "とらえどころのない；つかまえにくい",
+      "exampleEn": "A clear answer remains elusive.",
+      "exampleJa": "明確な答えは依然として得られていません。",
+      "level": 5
+    },
+    {
+      "headword": "empirical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpɪrɪkl/",
+      "meaning": "経験に基づく；実証的な",
+      "exampleEn": "There is no empirical support for that idea.",
+      "exampleJa": "その考えを支える実証的な根拠はありません。",
+      "level": 5
+    },
+    {
+      "headword": "erratic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈrætɪk/",
+      "meaning": "不規則な；気まぐれな",
+      "exampleEn": "His work has been erratic this year.",
+      "exampleJa": "今年の彼の仕事ぶりは波がありました。",
+      "level": 5
+    },
+    {
+      "headword": "exquisite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪkˈskwɪzɪt/",
+      "meaning": "非常に美しい；精巧な",
+      "exampleEn": "She wore an exquisite silk dress.",
+      "exampleJa": "彼女はこの上なく美しい絹のドレスを着ていました。",
+      "level": 5
+    },
+    {
+      "headword": "feasible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfiːzəbl/",
+      "meaning": "実現可能な；実行可能な",
+      "exampleEn": "The plan is feasible within our budget.",
+      "exampleJa": "その計画は予算の範囲で実現可能です。",
+      "level": 4
+    },
+    {
+      "headword": "finite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfaɪnaɪt/",
+      "meaning": "有限の；限りある",
+      "exampleEn": "Oil is a finite resource.",
+      "exampleJa": "石油は限りある資源です。",
+      "level": 4
+    },
+    {
+      "headword": "formidable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfɔːrmɪdəbl/",
+      "meaning": "手ごわい；恐るべき",
+      "exampleEn": "They faced a formidable opponent.",
+      "exampleJa": "彼らは手ごわい相手と対戦しました。",
+      "level": 5
+    },
+    {
+      "headword": "futile",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfjuːtl/",
+      "meaning": "むだな；無益な",
+      "exampleEn": "Further argument seemed futile.",
+      "exampleJa": "これ以上の議論はむだに思えました。",
+      "level": 5
+    },
+    {
+      "headword": "hypothetical",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌhaɪpəˈθetɪkl/",
+      "meaning": "仮説の；仮定の",
+      "exampleEn": "Let's consider a hypothetical worst-case scenario.",
+      "exampleJa": "仮定の最悪のシナリオを考えてみましょう。",
+      "level": 4
+    },
+    {
+      "headword": "illegible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈledʒəbl/",
+      "meaning": "判読できない；読みにくい",
+      "exampleEn": "His signature is almost illegible.",
+      "exampleJa": "彼の署名はほとんど判読できません。",
+      "level": 5
+    },
+    {
+      "headword": "imperative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈperətɪv/",
+      "meaning": "絶対必要な；命令の",
+      "exampleEn": "It is imperative that we take action now.",
+      "exampleJa": "私たちが今行動を起こすことが絶対必要です。",
+      "level": 4
+    },
+    {
+      "headword": "implicit",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈplɪsɪt/",
+      "meaning": "暗黙の；絶対的な",
+      "exampleEn": "The contract contained an implicit understanding.",
+      "exampleJa": "その契約には暗黙の了解が含まれていました。",
+      "level": 4
+    },
+    {
+      "headword": "inaccessible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnækˈsesəbl/",
+      "meaning": "到達できない；入手困難な",
+      "exampleEn": "The mountain village was remote and inaccessible.",
+      "exampleJa": "その山村は遠隔地で到達困難でした。",
+      "level": 3
+    },
+    {
+      "headword": "inconsistent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪnkənˈsɪstənt/",
+      "meaning": "一貫性のない；矛盾した",
+      "exampleEn": "The witness's testimony was inconsistent.",
+      "exampleJa": "その目撃者の証言は一貫性がありませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "indigenous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈdɪdʒənəs/",
+      "meaning": "その土地固有の；先住の",
+      "exampleEn": "This plant is indigenous to the island.",
+      "exampleJa": "この植物はその島固有のものです。",
+      "level": 5
+    },
+    {
+      "headword": "inherent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈhɪrənt/",
+      "meaning": "固有の；本来備わっている",
+      "exampleEn": "Risk is inherent in investment.",
+      "exampleJa": "リスクは投資に本来伴うものです。",
+      "level": 5
+    },
+    {
+      "headword": "innate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈneɪt/",
+      "meaning": "生まれつきの；固有の",
+      "exampleEn": "Children have an innate love of play.",
+      "exampleJa": "子どもは生まれつき遊びを好みます。",
+      "level": 5
+    },
+    {
+      "headword": "integral",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪntɪɡrəl/",
+      "meaning": "不可欠な；全体を成す",
+      "exampleEn": "Music is integral to the festival.",
+      "exampleJa": "音楽はその祭りに欠かせないものです。",
+      "level": 4
+    },
+    {
+      "headword": "intricate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪntrɪkət/",
+      "meaning": "入り組んだ；複雑な",
+      "exampleEn": "The lock has an intricate design.",
+      "exampleJa": "その錠前は入り組んだ造りをしています。",
+      "level": 5
+    },
+    {
+      "headword": "intrinsic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈtrɪnzɪk/",
+      "meaning": "本質的な；本来備わった",
+      "exampleEn": "The work has intrinsic value.",
+      "exampleJa": "その仕事にはそれ自体の価値があります。",
+      "level": 5
+    },
+    {
+      "headword": "irrelevant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈreləvənt/",
+      "meaning": "無関係な；的外れな",
+      "exampleEn": "That question is irrelevant to our topic.",
+      "exampleJa": "その質問は私たちの話題とは関係ありません。",
+      "level": 4
+    },
+    {
+      "headword": "irreversible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪrɪˈvɜːrsəbl/",
+      "meaning": "元に戻せない；不可逆の",
+      "exampleEn": "The damage to the forest is irreversible.",
+      "exampleJa": "その森の被害は元に戻せません。",
+      "level": 5
+    },
+    {
+      "headword": "lucrative",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈluːkrətɪv/",
+      "meaning": "利益の上がる；儲かる",
+      "exampleEn": "They signed a lucrative contract with a partner overseas.",
+      "exampleJa": "彼らは海外のパートナーと利益の大きい契約を結びました。",
+      "level": 5
+    },
+    {
+      "headword": "marginal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɑːrdʒɪnl/",
+      "meaning": "微小な；限界の",
+      "exampleEn": "The change brought only a marginal increase in profit.",
+      "exampleJa": "その変更は利益のわずかな増加しかもたらしませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "monotonous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/məˈnɑːtənəs/",
+      "meaning": "単調な；変化に乏しい",
+      "exampleEn": "The work is safe but monotonous.",
+      "exampleJa": "その仕事は安全ですが単調です。",
+      "level": 4
+    },
+    {
+      "headword": "negligible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈneɡlɪdʒəbl/",
+      "meaning": "無視できるほどの；ごくわずかな",
+      "exampleEn": "The difference in cost is negligible.",
+      "exampleJa": "費用の差は無視できるほどわずかです。",
+      "level": 5
+    },
+    {
+      "headword": "nominal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɑːmɪnl/",
+      "meaning": "名目の；ごくわずかな",
+      "exampleEn": "The bank charges a nominal fee for the service.",
+      "exampleJa": "銀行はそのサービスにごくわずかな手数料を課します。",
+      "level": 5
+    },
+    {
+      "headword": "obsolete",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɑːbsəˈliːt/",
+      "meaning": "時代遅れの；廃れた",
+      "exampleEn": "Floppy disks are now obsolete.",
+      "exampleJa": "フロッピーディスクは現在では時代遅れです。",
+      "level": 4
+    },
+    {
+      "headword": "opaque",
+      "partOfSpeech": "adjective",
+      "phonetic": "/oʊˈpeɪk/",
+      "meaning": "不透明な；分かりにくい",
+      "exampleEn": "The glass is thick and opaque.",
+      "exampleJa": "そのガラスは厚くて不透明です。",
+      "level": 4
+    },
+    {
+      "headword": "overt",
+      "partOfSpeech": "adjective",
+      "phonetic": "/oʊˈvɜːrt/",
+      "meaning": "あからさまな；公然の",
+      "exampleEn": "There was no overt sign of anger.",
+      "exampleJa": "怒りのあからさまな兆候はありませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "paramount",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpærəmaʊnt/",
+      "meaning": "最重要の；最高位の",
+      "exampleEn": "Safety is paramount on this site.",
+      "exampleJa": "この現場では安全が何より優先されます。",
+      "level": 5
+    },
+    {
+      "headword": "perpetual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pərˈpetʃuəl/",
+      "meaning": "絶え間ない；永続的な",
+      "exampleEn": "They live in perpetual noise near the road.",
+      "exampleJa": "彼らは道路のそばで絶え間ない騒音の中で暮らしています。",
+      "level": 5
+    },
+    {
+      "headword": "pertinent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpɜːrtnənt/",
+      "meaning": "適切な；関連のある",
+      "exampleEn": "She asked several pertinent questions at the meeting.",
+      "exampleJa": "彼女は会議で適切な質問をいくつかしました。",
+      "level": 4
+    },
+    {
+      "headword": "plausible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈplɔːzəbl/",
+      "meaning": "もっともらしい；説得力のある",
+      "exampleEn": "He gave a plausible explanation for his absence.",
+      "exampleJa": "彼は欠席についてもっともらしい説明をしました。",
+      "level": 4
+    },
+    {
+      "headword": "potent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpoʊtnt/",
+      "meaning": "強力な；効力のある",
+      "exampleEn": "The doctor gave him a potent new medicine.",
+      "exampleJa": "医師は彼に強力な新しい薬を与えました。",
+      "level": 4
+    },
+    {
+      "headword": "precarious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɪˈkeriəs/",
+      "meaning": "不安定な；危なっかしい",
+      "exampleEn": "The company is in a precarious position.",
+      "exampleJa": "その会社は不安定な立場にあります。",
+      "level": 5
+    },
+    {
+      "headword": "predominant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prɪˈdɑːmɪnənt/",
+      "meaning": "支配的な；優勢な；卓越した",
+      "exampleEn": "English is the predominant language.",
+      "exampleJa": "英語は支配的な言語です。",
+      "level": 4
+    },
+    {
+      "headword": "prevalent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈprevələnt/",
+      "meaning": "流行している；普及している",
+      "exampleEn": "Colds are prevalent during the winter months.",
+      "exampleJa": "冬の間は風邪が流行しています。",
+      "level": 4
+    },
+    {
+      "headword": "profound",
+      "partOfSpeech": "adjective",
+      "phonetic": "/prəˈfaʊnd/",
+      "meaning": "深遠な；深い；重大な",
+      "exampleEn": "The book had a profound influence.",
+      "exampleJa": "その本は深遠な影響を与えました。",
+      "level": 4
+    },
+    {
+      "headword": "prone",
+      "partOfSpeech": "adjective",
+      "phonetic": "/proʊn/",
+      "meaning": "〜しがちな；うつ伏せの",
+      "exampleEn": "This area is prone to floods every summer.",
+      "exampleJa": "この地域は毎年夏に洪水に見舞われがちです。",
+      "level": 4
+    },
+    {
+      "headword": "redundant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈdʌndənt/",
+      "meaning": "余分な；重複した",
+      "exampleEn": "This sentence contains redundant words.",
+      "exampleJa": "この文には余分な語が含まれています。",
+      "level": 5
+    },
+    {
+      "headword": "rigorous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈrɪɡərəs/",
+      "meaning": "厳格な；厳密な",
+      "exampleEn": "The school has rigorous entrance tests.",
+      "exampleJa": "その学校は厳しい入学試験を課しています。",
+      "level": 4
+    },
+    {
+      "headword": "robust",
+      "partOfSpeech": "adjective",
+      "phonetic": "/roʊˈbʌst/",
+      "meaning": "頑丈な；力強い",
+      "exampleEn": "The economy remains fairly robust.",
+      "exampleJa": "経済は依然としてかなり堅調です。",
+      "level": 4
+    },
+    {
+      "headword": "rudimentary",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌruːdɪˈmentri/",
+      "meaning": "初歩的な；未発達の",
+      "exampleEn": "He has only rudimentary skills in French.",
+      "exampleJa": "彼のフランス語は初歩的な力しかありません。",
+      "level": 5
+    },
+    {
+      "headword": "salient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈseɪliənt/",
+      "meaning": "顕著な；目立つ",
+      "exampleEn": "She listed the salient points of the plan.",
+      "exampleJa": "彼女はその計画の要点を挙げました。",
+      "level": 5
+    },
+    {
+      "headword": "saturated",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsætʃəreɪtɪd/",
+      "meaning": "飽和した；しみ込んだ",
+      "exampleEn": "The market for cheap phones is saturated.",
+      "exampleJa": "安価な携帯電話の市場は飽和しています。",
+      "level": 4
+    },
+    {
+      "headword": "scarce",
+      "partOfSpeech": "adjective",
+      "phonetic": "/skers/",
+      "meaning": "乏しい；不足した",
+      "exampleEn": "Clean water became scarce that summer.",
+      "exampleJa": "その夏、きれいな水が乏しくなりました。",
+      "level": 4
+    },
+    {
+      "headword": "sporadic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/spəˈrædɪk/",
+      "meaning": "散発的な；時折の",
+      "exampleEn": "Sporadic rain continued all week.",
+      "exampleJa": "その週はずっと雨が降ったりやんだりしていました。",
+      "level": 5
+    },
+    {
+      "headword": "static",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈstætɪk/",
+      "meaning": "静止した；変化のない",
+      "exampleEn": "Prices have been static for months.",
+      "exampleJa": "価格は何か月も動いていません。",
+      "level": 4
+    },
+    {
+      "headword": "stringent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈstrɪndʒənt/",
+      "meaning": "厳格な；厳しい",
+      "exampleEn": "The factory follows stringent safety rules.",
+      "exampleJa": "その工場は厳格な安全規則に従っています。",
+      "level": 5
+    },
+    {
+      "headword": "superfluous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/suːˈpɜːrfluəs/",
+      "meaning": "余計な；不必要な",
+      "exampleEn": "Cut every superfluous word from the report.",
+      "exampleJa": "報告書から余計な語をすべて削りなさい。",
+      "level": 5
+    },
+    {
+      "headword": "tangible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtændʒəbəl/",
+      "meaning": "触れられる；明白な；有形の",
+      "exampleEn": "Results showed tangible improvements.",
+      "exampleJa": "結果は明白な改善を示しました。",
+      "level": 4
+    },
+    {
+      "headword": "transient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtrænʃnt/",
+      "meaning": "つかの間の；一時的な",
+      "exampleEn": "Fame is often transient.",
+      "exampleJa": "名声はしばしばつかの間のものです。",
+      "level": 5
+    },
+    {
+      "headword": "turbulent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtɜːrbjələnt/",
+      "meaning": "荒れ狂う；激動の",
+      "exampleEn": "They crossed a turbulent sea.",
+      "exampleJa": "彼らは荒れた海を渡りました。",
+      "level": 5
+    },
+    {
+      "headword": "ubiquitous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/juːˈbɪkwɪtəs/",
+      "meaning": "至る所にある；遍在する",
+      "exampleEn": "Smartphones are now ubiquitous.",
+      "exampleJa": "スマートフォンは今やどこにでもあります。",
+      "level": 5
+    },
+    {
+      "headword": "unanimous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/juːˈnænɪməs/",
+      "meaning": "満場一致の；全員一致の",
+      "exampleEn": "The board made a unanimous decision.",
+      "exampleJa": "取締役会は満場一致の決定をしました。",
+      "level": 4
+    },
+    {
+      "headword": "unprecedented",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌnˈpresɪdentɪd/",
+      "meaning": "前例のない；空前の；未曽有の",
+      "exampleEn": "Disaster caused unprecedented damage.",
+      "exampleJa": "災害は前例のない被害を引き起こしました。",
+      "level": 5
+    },
+    {
+      "headword": "viable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvaɪəbl/",
+      "meaning": "実行可能な；生存できる",
+      "exampleEn": "We need a viable plan by Friday.",
+      "exampleJa": "金曜までに実行可能な案が必要です。",
+      "level": 4
+    },
+    {
+      "headword": "volatile",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvɑːlətl/",
+      "meaning": "不安定な；揮発性の",
+      "exampleEn": "Oil prices remain highly volatile.",
+      "exampleJa": "石油価格は非常に不安定なままです。",
+      "level": 5
+    }
+  ]
+}

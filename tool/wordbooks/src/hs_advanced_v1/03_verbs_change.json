@@ -1,0 +1,735 @@
+{
+  "chunk": "03_verbs_change",
+  "note": "変化・作用・生成の動詞（81語）",
+  "words": [
+    {
+      "headword": "accelerate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈseləreɪt/",
+      "meaning": "を加速する；加速する；を促進する",
+      "exampleEn": "The car accelerated rapidly on highway.",
+      "exampleJa": "車は高速道路で急速に加速しました。",
+      "level": 4
+    },
+    {
+      "headword": "aggravate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈæɡrəveɪt/",
+      "meaning": "を悪化させる；を怒らせる",
+      "exampleEn": "Stress can aggravate skin conditions.",
+      "exampleJa": "ストレスは皮膚疾患をさらに悪化させることがあります。",
+      "level": 5
+    },
+    {
+      "headword": "alleviate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈliːvieɪt/",
+      "meaning": "を軽減する；を和らげる",
+      "exampleEn": "Medicine helps alleviate severe pain.",
+      "exampleJa": "薬は激しい痛みを和らげるのに役立ちます。",
+      "level": 4
+    },
+    {
+      "headword": "amplify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈæmplɪfaɪ/",
+      "meaning": "を増幅する；を拡大する",
+      "exampleEn": "Speakers amplify the guitar sound.",
+      "exampleJa": "スピーカーがギターの音を増幅します。",
+      "level": 4
+    },
+    {
+      "headword": "augment",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɔːɡˈment/",
+      "meaning": "を増やす；を増強する",
+      "exampleEn": "The company plans to augment its staff.",
+      "exampleJa": "その会社はスタッフを増強する計画です。",
+      "level": 5
+    },
+    {
+      "headword": "blur",
+      "partOfSpeech": "verb",
+      "phonetic": "/blɜːr/",
+      "meaning": "をぼやけさせる；かすむ",
+      "exampleEn": "The heavy rain blurred the driver's view.",
+      "exampleJa": "激しい雨が運転手の視界をぼやけさせました。",
+      "level": 4
+    },
+    {
+      "headword": "bolster",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈboʊlstər/",
+      "meaning": "を強化する；を支援する",
+      "exampleEn": "The measures helped bolster public confidence.",
+      "exampleJa": "その対策は世間の信頼を高めるのに役立ちました。",
+      "level": 5
+    },
+    {
+      "headword": "circumvent",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌsɜːrkəmˈvent/",
+      "meaning": "を回避する；を出し抜く",
+      "exampleEn": "The company tried to circumvent the regulations.",
+      "exampleJa": "その会社は規制を迂回しようとしました。",
+      "level": 5
+    },
+    {
+      "headword": "compress",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpres/",
+      "meaning": "を圧縮する；を要約する",
+      "exampleEn": "You can compress the file to save space.",
+      "exampleJa": "容量を節約するためにそのファイルを圧縮できます。",
+      "level": 4
+    },
+    {
+      "headword": "condense",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈdens/",
+      "meaning": "を凝縮する；を要約する",
+      "exampleEn": "He condensed the long report into one page.",
+      "exampleJa": "彼は長い報告書を1ページに要約しました。",
+      "level": 5
+    },
+    {
+      "headword": "confine",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfaɪn/",
+      "meaning": "を限定する；を閉じ込める",
+      "exampleEn": "Please confine your remarks to today's topic.",
+      "exampleJa": "発言は今日の話題だけに限ってください。",
+      "level": 4
+    },
+    {
+      "headword": "consolidate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsɑːlɪdeɪt/",
+      "meaning": "を統合する；を強化する",
+      "exampleEn": "Company consolidated its position.",
+      "exampleJa": "会社はその地位を確固たるものにしました。",
+      "level": 5
+    },
+    {
+      "headword": "contaminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈtæmɪneɪt/",
+      "meaning": "を汚染する；を汚す",
+      "exampleEn": "Chemicals contaminated the river water.",
+      "exampleJa": "化学物質が川の水を汚染しました。",
+      "level": 4
+    },
+    {
+      "headword": "corrode",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈroʊd/",
+      "meaning": "を腐食させる；蝕む",
+      "exampleEn": "Salt water corroded the iron gate.",
+      "exampleJa": "塩水がその鉄の門を腐食させました。",
+      "level": 4
+    },
+    {
+      "headword": "curtail",
+      "partOfSpeech": "verb",
+      "phonetic": "/kərˈteɪl/",
+      "meaning": "を削減する；を短縮する",
+      "exampleEn": "The firm decided to curtail its expenses.",
+      "exampleJa": "その企業は経費を削減する決定をしました。",
+      "level": 5
+    },
+    {
+      "headword": "deflect",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈflekt/",
+      "meaning": "をそらす；偏向する",
+      "exampleEn": "The shield deflected the arrow easily.",
+      "exampleJa": "盾はその矢を簡単にそらしました。",
+      "level": 4
+    },
+    {
+      "headword": "degrade",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈɡreɪd/",
+      "meaning": "を劣化させる；を低下させる；の品位を落とす",
+      "exampleEn": "Plastics degrade slowly in ocean.",
+      "exampleJa": "プラスチックは海中でゆっくり分解・劣化します。",
+      "level": 4
+    },
+    {
+      "headword": "deplete",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈpliːt/",
+      "meaning": "を枯渇させる；減らす",
+      "exampleEn": "Overfishing has depleted the fish in the sea.",
+      "exampleJa": "乱獲が海の魚を枯渇させてしまいました。",
+      "level": 4
+    },
+    {
+      "headword": "deploy",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈplɔɪ/",
+      "meaning": "を配置・展開する",
+      "exampleEn": "The police deployed extra officers at the stadium.",
+      "exampleJa": "警察は競技場に追加の警察官を配置しました。",
+      "level": 4
+    },
+    {
+      "headword": "deteriorate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtɪriəreɪt/",
+      "meaning": "悪化する；劣化する",
+      "exampleEn": "Her health deteriorated rapidly.",
+      "exampleJa": "彼女の健康状態は急速に悪化しました。",
+      "level": 4
+    },
+    {
+      "headword": "diffuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfjuːz/",
+      "meaning": "を拡散・散乱させる",
+      "exampleEn": "The lamp diffused a soft light through the room.",
+      "exampleJa": "そのランプは柔らかな光を部屋中に広げました。",
+      "level": 4
+    },
+    {
+      "headword": "dilute",
+      "partOfSpeech": "verb",
+      "phonetic": "/daɪˈluːt/",
+      "meaning": "を薄める；を希釈する",
+      "exampleEn": "The nurse diluted the medicine with water.",
+      "exampleJa": "看護師はその薬を水で薄めました。",
+      "level": 4
+    },
+    {
+      "headword": "diminish",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈmɪnɪʃ/",
+      "meaning": "減少する；を減らす",
+      "exampleEn": "The pain diminished after taking medicine.",
+      "exampleJa": "薬を飲んだ後、痛みが和らぎました。",
+      "level": 4
+    },
+    {
+      "headword": "disintegrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈɪntɪɡreɪt/",
+      "meaning": "崩壊する；バラバラになる",
+      "exampleEn": "The comet disintegrated as it entered the atmosphere.",
+      "exampleJa": "その彗星は大気に入るときに崩壊しました。",
+      "level": 4
+    },
+    {
+      "headword": "dispel",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈspel/",
+      "meaning": "を追い払う；を晴らす",
+      "exampleEn": "His speech dispelled our fears.",
+      "exampleJa": "彼の演説は私たちの不安を晴らしました。",
+      "level": 5
+    },
+    {
+      "headword": "disrupt",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈrʌpt/",
+      "meaning": "を混乱させる；を中断させる",
+      "exampleEn": "Protests disrupted city traffic.",
+      "exampleJa": "抗議行動が市内交通を混乱させました。",
+      "level": 4
+    },
+    {
+      "headword": "dwindle",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdwɪndl/",
+      "meaning": "次第に減る；衰える",
+      "exampleEn": "The town's population is slowly dwindling.",
+      "exampleJa": "その町の人口は少しずつ減っています。",
+      "level": 5
+    },
+    {
+      "headword": "eradicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈrædɪkeɪt/",
+      "meaning": "を根絶する；を撲滅する",
+      "exampleEn": "Doctors hope to eradicate the disease.",
+      "exampleJa": "医師たちはその病気を根絶したいと考えています。",
+      "level": 5
+    },
+    {
+      "headword": "erode",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈroʊd/",
+      "meaning": "を浸食する；蝕む",
+      "exampleEn": "Waves erode the sandy cliff.",
+      "exampleJa": "波が砂の崖を浸食します。",
+      "level": 4
+    },
+    {
+      "headword": "evaporate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈvæpəreɪt/",
+      "meaning": "蒸発する；消え去る",
+      "exampleEn": "Water evaporates quickly in hot weather.",
+      "exampleJa": "暑い天気では水はすぐに蒸発します。",
+      "level": 4
+    },
+    {
+      "headword": "expedite",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈekspədaɪt/",
+      "meaning": "を早める；を促進する",
+      "exampleEn": "New rules will expedite the approval process.",
+      "exampleJa": "新しい規則は承認の手続きを早めるでしょう。",
+      "level": 5
+    },
+    {
+      "headword": "expel",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspel/",
+      "meaning": "を追放する；を排出する",
+      "exampleEn": "The school expelled two students last year.",
+      "exampleJa": "その学校は昨年、生徒を2人退学にしました。",
+      "level": 4
+    },
+    {
+      "headword": "extinguish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈstɪŋɡwɪʃ/",
+      "meaning": "を消す；を消滅させる",
+      "exampleEn": "Firefighters extinguished the flames in an hour.",
+      "exampleJa": "消防士たちは1時間で炎を消し止めました。",
+      "level": 4
+    },
+    {
+      "headword": "fabricate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfæbrɪkeɪt/",
+      "meaning": "を製造する；をでっち上げる",
+      "exampleEn": "He fabricated an alibi.",
+      "exampleJa": "彼はアリバイをでっち上げました。",
+      "level": 5
+    },
+    {
+      "headword": "falter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfɔːltər/",
+      "meaning": "ぐらつく；勢いが弱まる",
+      "exampleEn": "His voice faltered as he read the letter.",
+      "exampleJa": "手紙を読むうちに彼の声は震え始めました。",
+      "level": 5
+    },
+    {
+      "headword": "fluctuate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈflʌktʃueɪt/",
+      "meaning": "変動する；上下する",
+      "exampleEn": "Prices fluctuate according to season.",
+      "exampleJa": "価格は季節に応じて変動します。",
+      "level": 4
+    },
+    {
+      "headword": "forge",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɔːrdʒ/",
+      "meaning": "を築き上げる；を偽造する",
+      "exampleEn": "The two nations forged a lasting friendship.",
+      "exampleJa": "その2国は長く続く友好関係を築きました。",
+      "level": 5
+    },
+    {
+      "headword": "fortify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfɔːrtɪfaɪ/",
+      "meaning": "を強化する；を要塞化する",
+      "exampleEn": "They fortified the wall against strong winds.",
+      "exampleJa": "彼らは強風に備えて壁を補強しました。",
+      "level": 5
+    },
+    {
+      "headword": "fracture",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfræktʃər/",
+      "meaning": "を骨折する；を砕く",
+      "exampleEn": "She fractured her arm during the game.",
+      "exampleJa": "彼女は試合中に腕を骨折しました。",
+      "level": 4
+    },
+    {
+      "headword": "fuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/fjuːz/",
+      "meaning": "を融合させる；溶け合う",
+      "exampleEn": "The artist fuses old and new styles.",
+      "exampleJa": "その芸術家は古い様式と新しい様式を融合させています。",
+      "level": 4
+    },
+    {
+      "headword": "hamper",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhæmpər/",
+      "meaning": "を妨げる；を邪魔する",
+      "exampleEn": "Heavy snow hampered the rescue work.",
+      "exampleJa": "大雪が救助活動を妨げました。",
+      "level": 5
+    },
+    {
+      "headword": "harness",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhɑːrnəs/",
+      "meaning": "を利用・活かす；馬具",
+      "exampleEn": "We should harness solar power for energy.",
+      "exampleJa": "私たちは太陽光を利用してエネルギーを得るべきです。",
+      "level": 4
+    },
+    {
+      "headword": "hasten",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈheɪsn/",
+      "meaning": "を早める；急ぐ",
+      "exampleEn": "Warm air hastened the melting of the ice.",
+      "exampleJa": "暖かい空気が氷が解けるのを早めました。",
+      "level": 5
+    },
+    {
+      "headword": "heighten",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhaɪtn/",
+      "meaning": "を高める；を強める",
+      "exampleEn": "The news heightened public interest.",
+      "exampleJa": "その知らせは世間の関心を高めました。",
+      "level": 4
+    },
+    {
+      "headword": "hinder",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhɪndər/",
+      "meaning": "を妨げる；を邪魔する",
+      "exampleEn": "Heavy rain hindered the rescue effort.",
+      "exampleJa": "大雨が救助活動を妨げました。",
+      "level": 4
+    },
+    {
+      "headword": "ignite",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈnaɪt/",
+      "meaning": "に点火する；発火する",
+      "exampleEn": "A spark ignited the engine's fuel.",
+      "exampleJa": "火花がエンジンの燃料に引火しました。",
+      "level": 4
+    },
+    {
+      "headword": "impair",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈper/",
+      "meaning": "を損なう；を減退させる",
+      "exampleEn": "Alcohol impairs judgment capability.",
+      "exampleJa": "アルコールは判断能力を損ないます。",
+      "level": 5
+    },
+    {
+      "headword": "insulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪnsəleɪt/",
+      "meaning": "を断熱する；を隔離する",
+      "exampleEn": "Thick walls insulate the house from cold.",
+      "exampleJa": "厚い壁がその家を寒さから守っています。",
+      "level": 4
+    },
+    {
+      "headword": "intensify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtensɪfaɪ/",
+      "meaning": "を激しくする；強まる",
+      "exampleEn": "Competition intensified in the market.",
+      "exampleJa": "市場での競争が激化しました。",
+      "level": 4
+    },
+    {
+      "headword": "jeopardize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒepərdaɪz/",
+      "meaning": "を危険にさらす；を危うくする",
+      "exampleEn": "One mistake could jeopardize the whole plan.",
+      "exampleJa": "1つの失敗が計画全体を危うくしかねません。",
+      "level": 5
+    },
+    {
+      "headword": "magnify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmæɡnɪfaɪ/",
+      "meaning": "を拡大する；を誇張する",
+      "exampleEn": "This lens magnifies the image ten times.",
+      "exampleJa": "このレンズは像を10倍に拡大します。",
+      "level": 4
+    },
+    {
+      "headword": "mutate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmjuːteɪt/",
+      "meaning": "突然変異する；変化する",
+      "exampleEn": "Some viruses mutate very quickly.",
+      "exampleJa": "ウイルスの中には非常に速く変異するものがあります。",
+      "level": 5
+    },
+    {
+      "headword": "offset",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɔːfˈset/",
+      "meaning": "を相殺する；を埋め合わせる",
+      "exampleEn": "New sales offset the earlier losses.",
+      "exampleJa": "新たな売り上げが以前の損失を埋め合わせました。",
+      "level": 5
+    },
+    {
+      "headword": "permeate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpɜːrmieɪt/",
+      "meaning": "に染み渡る；に充満する",
+      "exampleEn": "Smell of coffee permeated room.",
+      "exampleJa": "コーヒーの香りが部屋に充満しました。",
+      "level": 5
+    },
+    {
+      "headword": "precipitate",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈsɪpɪteɪt/",
+      "meaning": "を引き起こす；急落させる",
+      "exampleEn": "The scandal precipitated the collapse of the government.",
+      "exampleJa": "そのスキャンダルが政権の崩壊を引き起こしました。",
+      "level": 5
+    },
+    {
+      "headword": "propel",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈpel/",
+      "meaning": "を推進する；を進ませる",
+      "exampleEn": "Jet engines propel the airplane forward at high speed.",
+      "exampleJa": "ジェットエンジンが飛行機を高速で前へ進ませます。",
+      "level": 4
+    },
+    {
+      "headword": "purify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpjʊrɪfaɪ/",
+      "meaning": "を浄化・精製する",
+      "exampleEn": "This filter purifies the drinking water.",
+      "exampleJa": "このフィルターは飲料水をきれいにします。",
+      "level": 3
+    },
+    {
+      "headword": "radiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈreɪdieɪt/",
+      "meaning": "を放射する；四方に広がる",
+      "exampleEn": "The stove radiates heat into the room.",
+      "exampleJa": "そのストーブは部屋に熱を放っています。",
+      "level": 4
+    },
+    {
+      "headword": "rebound",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈbaʊnd/",
+      "meaning": "回復する；跳ね返る",
+      "exampleEn": "The economy rebounded after a hard year.",
+      "exampleJa": "厳しい1年を経て経済は持ち直しました。",
+      "level": 4
+    },
+    {
+      "headword": "recede",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈsiːd/",
+      "meaning": "後退する；退く",
+      "exampleEn": "The flood water slowly receded.",
+      "exampleJa": "洪水の水はゆっくりと引いていきました。",
+      "level": 5
+    },
+    {
+      "headword": "reconstruct",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌriːkənˈstrʌkt/",
+      "meaning": "を再建する；を復元する",
+      "exampleEn": "The city reconstructed the old bridge.",
+      "exampleJa": "市はその古い橋を再建しました。",
+      "level": 4
+    },
+    {
+      "headword": "relocate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌriːˈloʊkeɪt/",
+      "meaning": "を移転させる；引っ越す",
+      "exampleEn": "The firm relocated to a new building.",
+      "exampleJa": "その会社は新しいビルに移転しました。",
+      "level": 4
+    },
+    {
+      "headword": "replenish",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈplenɪʃ/",
+      "meaning": "を補充する；を満たし直す",
+      "exampleEn": "Rain replenished the empty lake.",
+      "exampleJa": "雨が干上がった湖を再び満たしました。",
+      "level": 5
+    },
+    {
+      "headword": "resonate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrezəneɪt/",
+      "meaning": "響く；共感を呼ぶ",
+      "exampleEn": "His words resonated with young readers.",
+      "exampleJa": "彼の言葉は若い読者の心に響きました。",
+      "level": 5
+    },
+    {
+      "headword": "saturate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsætʃəreɪt/",
+      "meaning": "を飽和させる；をずぶぬれにする",
+      "exampleEn": "Heavy rain saturated the soft ground.",
+      "exampleJa": "激しい雨が柔らかい地面を水浸しにしました。",
+      "level": 5
+    },
+    {
+      "headword": "sever",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsevər/",
+      "meaning": "を切断する；を断ち切る",
+      "exampleEn": "The country severed ties with its neighbor.",
+      "exampleJa": "その国は隣国との関係を断ち切りました。",
+      "level": 5
+    },
+    {
+      "headword": "shatter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈʃætər/",
+      "meaning": "を粉々にする；を打ち砕く",
+      "exampleEn": "The ball shattered the kitchen window.",
+      "exampleJa": "ボールが台所の窓を粉々に割りました。",
+      "level": 4
+    },
+    {
+      "headword": "solidify",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈlɪdɪfaɪ/",
+      "meaning": "を固める；固まる",
+      "exampleEn": "The hot metal solidified as it cooled.",
+      "exampleJa": "熱い金属は冷えるにつれて固まりました。",
+      "level": 5
+    },
+    {
+      "headword": "sprout",
+      "partOfSpeech": "verb",
+      "phonetic": "/spraʊt/",
+      "meaning": "芽を出す；生え始める",
+      "exampleEn": "The seeds sprouted after a warm week.",
+      "exampleJa": "暖かい1週間のあと種が芽を出しました。",
+      "level": 4
+    },
+    {
+      "headword": "subside",
+      "partOfSpeech": "verb",
+      "phonetic": "/səbˈsaɪd/",
+      "meaning": "おさまる；静まる",
+      "exampleEn": "The pain subsided within a few days.",
+      "exampleJa": "痛みは数日のうちにおさまりました。",
+      "level": 5
+    },
+    {
+      "headword": "supplant",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈplænt/",
+      "meaning": "に取って代わる；を押しのける",
+      "exampleEn": "Machines have supplanted much manual work.",
+      "exampleJa": "機械が多くの手作業に取って代わりました。",
+      "level": 5
+    },
+    {
+      "headword": "suppress",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈpres/",
+      "meaning": "を抑圧する；を抑制する",
+      "exampleEn": "Police suppressed the violent riot.",
+      "exampleJa": "警察は暴動を抑圧しました。",
+      "level": 4
+    },
+    {
+      "headword": "swell",
+      "partOfSpeech": "verb",
+      "phonetic": "/swel/",
+      "meaning": "膨らむ；増大する",
+      "exampleEn": "His ankle swelled after the fall.",
+      "exampleJa": "転んだあと彼の足首は腫れました。",
+      "level": 4
+    },
+    {
+      "headword": "thaw",
+      "partOfSpeech": "verb",
+      "phonetic": "/θɔː/",
+      "meaning": "解ける；を解かす",
+      "exampleEn": "The snow thawed under the spring sun.",
+      "exampleJa": "春の日ざしを浴びて雪が解けました。",
+      "level": 4
+    },
+    {
+      "headword": "thrive",
+      "partOfSpeech": "verb",
+      "phonetic": "/θraɪv/",
+      "meaning": "繁栄する；元気に育つ",
+      "exampleEn": "Cactus thrives in dry climates.",
+      "exampleJa": "サボテンは乾燥した気候でよく育ちます。",
+      "level": 4
+    },
+    {
+      "headword": "topple",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtɑːpl/",
+      "meaning": "を倒す；ぐらついて倒れる",
+      "exampleEn": "Strong winds toppled several old trees.",
+      "exampleJa": "強風が古い木を何本もなぎ倒しました。",
+      "level": 5
+    },
+    {
+      "headword": "transplant",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænsˈplænt/",
+      "meaning": "を移植する；を移し植える",
+      "exampleEn": "We transplanted the young tree to the garden.",
+      "exampleJa": "私たちはその若木を庭に移し植えました。",
+      "level": 4
+    },
+    {
+      "headword": "traverse",
+      "partOfSpeech": "verb",
+      "phonetic": "/trəˈvɜːrs/",
+      "meaning": "を横断する；を渡る",
+      "exampleEn": "The road traverses a wide desert.",
+      "exampleJa": "その道路は広い砂漠を横断しています。",
+      "level": 5
+    },
+    {
+      "headword": "trigger",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtrɪɡər/",
+      "meaning": "を引き起こす；の引き金となる",
+      "exampleEn": "Pollen triggers severe allergies.",
+      "exampleJa": "花粉が重いアレルギーを引き起こします。",
+      "level": 3
+    },
+    {
+      "headword": "unleash",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʌnˈliːʃ/",
+      "meaning": "を解き放つ；を引き起こす",
+      "exampleEn": "The storm unleashed enormous power.",
+      "exampleJa": "その嵐は途方もない力を解き放ちました。",
+      "level": 5
+    },
+    {
+      "headword": "wither",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwɪðər/",
+      "meaning": "しおれる；衰える",
+      "exampleEn": "The flowers withered in the summer heat.",
+      "exampleJa": "花は夏の暑さでしおれてしまいました。",
+      "level": 5
+    }
+  ]
+}

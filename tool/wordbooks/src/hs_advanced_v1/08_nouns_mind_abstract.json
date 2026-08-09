@@ -1,0 +1,816 @@
+{
+  "chunk": "08_nouns_mind_abstract",
+  "note": "心・抽象概念（90語）",
+  "words": [
+    {
+      "headword": "abstraction",
+      "partOfSpeech": "noun",
+      "phonetic": "/æbˈstrækʃn/",
+      "meaning": "抽象化；観念",
+      "exampleEn": "Mathematical abstraction simplifies real world models.",
+      "exampleJa": "数学的抽象化が実世界のモデルを単純化します。",
+      "level": 4
+    },
+    {
+      "headword": "adversity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ədˈvɜːrsəti/",
+      "meaning": "逆境；苦難",
+      "exampleEn": "She overcame great adversity as a child.",
+      "exampleJa": "彼女は子供の頃大きな逆境を乗り越えました。",
+      "level": 4
+    },
+    {
+      "headword": "affinity",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈfɪnəti/",
+      "meaning": "親近感；親和性；類似性",
+      "exampleEn": "She feels a strong affinity for jazz.",
+      "exampleJa": "彼女はジャズに強い親近感を感じています。",
+      "level": 5
+    },
+    {
+      "headword": "affliction",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈflɪkʃn/",
+      "meaning": "苦難；病気；苦痛",
+      "exampleEn": "The disease caused him great affliction.",
+      "exampleJa": "その病気は彼に大きな苦痛をもたらしました。",
+      "level": 5
+    },
+    {
+      "headword": "altruism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæltruɪzəm/",
+      "meaning": "利他主義；愛他心",
+      "exampleEn": "His action was driven by pure altruism.",
+      "exampleJa": "彼の行動は純粋な利他主義に基づくものでした。",
+      "level": 5
+    },
+    {
+      "headword": "ambivalence",
+      "partOfSpeech": "noun",
+      "phonetic": "/æmˈbɪvələns/",
+      "meaning": "相反する感情；ためらい",
+      "exampleEn": "He felt deep ambivalence about the move.",
+      "exampleJa": "彼は引っ越しについて複雑な思いを抱いていました。",
+      "level": 5
+    },
+    {
+      "headword": "anguish",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæŋɡwɪʃ/",
+      "meaning": "苦悩；激しい苦痛",
+      "exampleEn": "She cried out in deep anguish.",
+      "exampleJa": "彼女は深い苦悩の中で泣き叫びました。",
+      "level": 5
+    },
+    {
+      "headword": "apathy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæpəθi/",
+      "meaning": "無関心；冷淡",
+      "exampleEn": "Public apathy led to low turnout.",
+      "exampleJa": "世間の無関心が低い投票率を招きました。",
+      "level": 5
+    },
+    {
+      "headword": "apprehension",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæprɪˈhenʃn/",
+      "meaning": "不安；懸念；逮捕",
+      "exampleEn": "She felt deep apprehension before the test.",
+      "exampleJa": "彼女はテスト前に深い不安を感じました。",
+      "level": 4
+    },
+    {
+      "headword": "arrogance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈærəɡəns/",
+      "meaning": "傲慢；横柄さ",
+      "exampleEn": "His arrogance turned team members away.",
+      "exampleJa": "彼の傲慢さがチームメンバーを遠ざけました。",
+      "level": 4
+    },
+    {
+      "headword": "aspiration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæspəˈreɪʃn/",
+      "meaning": "熱望；抱負；志",
+      "exampleEn": "She pursued her career aspiration eagerly.",
+      "exampleJa": "彼女は自分のキャリアへの願望を熱心に追い求めました。",
+      "level": 4
+    },
+    {
+      "headword": "assertion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsɜːrʃn/",
+      "meaning": "主張；断言",
+      "exampleEn": "He supported his assertion with clear evidence.",
+      "exampleJa": "彼は自分の主張を明確な証拠で裏づけました。",
+      "level": 4
+    },
+    {
+      "headword": "assumption",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsʌmpʃn/",
+      "meaning": "仮定；思い込み；引き受け",
+      "exampleEn": "The theory is based on a false assumption.",
+      "exampleJa": "その理論は誤った仮定に基づいています。",
+      "level": 4
+    },
+    {
+      "headword": "attachment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtætʃmənt/",
+      "meaning": "添付ファイル；付属品；愛着",
+      "exampleEn": "I sent the report as an attachment.",
+      "exampleJa": "私は報告書を添付ファイルで送りました。",
+      "level": 3
+    },
+    {
+      "headword": "aversion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈvɜːrʒn/",
+      "meaning": "嫌悪；忌避",
+      "exampleEn": "She has a strong natural aversion to risk.",
+      "exampleJa": "彼女はリスクに対して強い嫌悪感を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "benevolence",
+      "partOfSpeech": "noun",
+      "phonetic": "/bəˈnevələns/",
+      "meaning": "慈悲；博愛；親切",
+      "exampleEn": "The old king was famous for his benevolence.",
+      "exampleJa": "その老いた王は慈悲深さで有名でした。",
+      "level": 5
+    },
+    {
+      "headword": "bias",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaɪəs/",
+      "meaning": "偏見；先入観",
+      "exampleEn": "We must avoid bias when we choose members.",
+      "exampleJa": "メンバーを選ぶときは偏見を避けなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "candor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkændər/",
+      "meaning": "率直さ；誠実さ",
+      "exampleEn": "I appreciate your candor and honesty.",
+      "exampleJa": "あなたの率直さと誠実さに感謝します。",
+      "level": 5
+    },
+    {
+      "headword": "compulsion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpʌlʃn/",
+      "meaning": "衝動；強制",
+      "exampleEn": "She felt a strong compulsion to check her phone.",
+      "exampleJa": "彼女はスマートフォンを確認したいという強い衝動を感じました。",
+      "level": 4
+    },
+    {
+      "headword": "conception",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsepʃn/",
+      "meaning": "概念；着想；妊娠",
+      "exampleEn": "He had no clear conception of the plan.",
+      "exampleJa": "彼にはその計画のはっきりした考えがありませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "condolence",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈdoʊləns/",
+      "meaning": "お悔やみ；哀悼",
+      "exampleEn": "She sent a letter of condolence to the family.",
+      "exampleJa": "彼女は遺族にお悔やみの手紙を送りました。",
+      "level": 5
+    },
+    {
+      "headword": "conformity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈfɔːrməti/",
+      "meaning": "適合；順応",
+      "exampleEn": "The company demands conformity with strict rules.",
+      "exampleJa": "その会社は厳しい規則に従うことを求めます。",
+      "level": 4
+    },
+    {
+      "headword": "contempt",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈtempt/",
+      "meaning": "軽蔑；軽視",
+      "exampleEn": "He looked at the liar with open contempt.",
+      "exampleJa": "彼は嘘つきをあからさまな軽蔑の目で見ました。",
+      "level": 4
+    },
+    {
+      "headword": "contention",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈtenʃn/",
+      "meaning": "主張；争い",
+      "exampleEn": "His main contention is that prices will fall.",
+      "exampleJa": "彼の主な主張は価格が下がるということです。",
+      "level": 5
+    },
+    {
+      "headword": "contradiction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːntrəˈdɪkʃn/",
+      "meaning": "矛盾；反対主張",
+      "exampleEn": "His story was full of contradictions.",
+      "exampleJa": "彼の話は矛盾だらけでした。",
+      "level": 3
+    },
+    {
+      "headword": "conviction",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈvɪkʃn/",
+      "meaning": "確信；信念；有罪判決",
+      "exampleEn": "He spoke about his plan with deep conviction.",
+      "exampleJa": "彼は自分の計画について強い確信をもって話しました。",
+      "level": 4
+    },
+    {
+      "headword": "deception",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsepʃn/",
+      "meaning": "欺瞞；詐欺",
+      "exampleEn": "The company's deception was finally uncovered by reporters.",
+      "exampleJa": "その会社の欺瞞はついに記者たちによって暴かれました。",
+      "level": 4
+    },
+    {
+      "headword": "delusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈluːʒn/",
+      "meaning": "妄想；錯覚",
+      "exampleEn": "He lives under the delusion that everyone likes him.",
+      "exampleJa": "彼はみんなに好かれているという妄想の中で生きています。",
+      "level": 5
+    },
+    {
+      "headword": "demeanor",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈmiːnər/",
+      "meaning": "物腰；振る舞い",
+      "exampleEn": "The nurse kept a calm demeanor during the emergency.",
+      "exampleJa": "その看護師は緊急時にも冷静な物腰を保ちました。",
+      "level": 5
+    },
+    {
+      "headword": "denial",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈnaɪəl/",
+      "meaning": "否定；拒絶",
+      "exampleEn": "The minister issued a strong denial of the charges.",
+      "exampleJa": "大臣はその容疑に対して強い否定を表明しました。",
+      "level": 3
+    },
+    {
+      "headword": "despair",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈsper/",
+      "meaning": "絶望",
+      "exampleEn": "He fell into despair after losing his job.",
+      "exampleJa": "彼は職を失った後、絶望に陥りました。",
+      "level": 3
+    },
+    {
+      "headword": "deviation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdiːviˈeɪʃn/",
+      "meaning": "逸脱；偏差",
+      "exampleEn": "We found a small deviation from the standard.",
+      "exampleJa": "私たちは標準からのわずかな逸脱を見つけました。",
+      "level": 4
+    },
+    {
+      "headword": "devotion",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈvoʊʃn/",
+      "meaning": "献身；傾倒",
+      "exampleEn": "Her devotion to her family never changed.",
+      "exampleJa": "家族への彼女の献身は決して変わりませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "disclosure",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪsˈkloʊʒər/",
+      "meaning": "情報開示；公表",
+      "exampleEn": "The company must make a full disclosure of profits.",
+      "exampleJa": "その会社は利益の完全な開示をしなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "discretion",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskreʃn/",
+      "meaning": "思慮分別；裁量",
+      "exampleEn": "You may leave early at your own discretion.",
+      "exampleJa": "あなたの裁量で早く帰ってもかまいません。",
+      "level": 4
+    },
+    {
+      "headword": "disillusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdɪsɪˈluːʒn/",
+      "meaning": "幻滅；失望",
+      "exampleEn": "Years of failure brought deep disillusion.",
+      "exampleJa": "何年もの失敗が深い幻滅をもたらしました。",
+      "level": 5
+    },
+    {
+      "headword": "disposition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdɪspəˈzɪʃən/",
+      "meaning": "気質；性格；配置",
+      "exampleEn": "She has a cheerful disposition.",
+      "exampleJa": "彼女は明るい気質を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "dread",
+      "partOfSpeech": "noun",
+      "phonetic": "/dred/",
+      "meaning": "強い恐れ；不安",
+      "exampleEn": "He felt a sudden dread of the dark.",
+      "exampleJa": "彼は暗闇に対する突然の恐れを覚えました。",
+      "level": 4
+    },
+    {
+      "headword": "eloquence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeləkwəns/",
+      "meaning": "雄弁；説得力",
+      "exampleEn": "Her eloquence moved the whole audience.",
+      "exampleJa": "彼女の雄弁は聴衆全体を動かしました。",
+      "level": 5
+    },
+    {
+      "headword": "empathy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈempəθi/",
+      "meaning": "共感；感情移入",
+      "exampleEn": "Empathy is essential for friendship.",
+      "exampleJa": "共感は友情にとって不可欠です。",
+      "level": 3
+    },
+    {
+      "headword": "endurance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdʊrəns/",
+      "meaning": "忍耐力；持久力",
+      "exampleEn": "The race tests speed and endurance.",
+      "exampleJa": "そのレースは速さと持久力を試します。",
+      "level": 4
+    },
+    {
+      "headword": "enthusiasm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈθuːziæzəm/",
+      "meaning": "熱意；熱中",
+      "exampleEn": "The class greeted the plan with enthusiasm.",
+      "exampleJa": "クラスはその計画を熱意をもって迎えました。",
+      "level": 3
+    },
+    {
+      "headword": "envy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenvi/",
+      "meaning": "うらやみ；ねたみ",
+      "exampleEn": "Her new bike filled him with envy.",
+      "exampleJa": "彼女の新しい自転車が彼のうらやみをかき立てました。",
+      "level": 3
+    },
+    {
+      "headword": "euphoria",
+      "partOfSpeech": "noun",
+      "phonetic": "/juːˈfɔːriə/",
+      "meaning": "強い幸福感；高揚感",
+      "exampleEn": "Victory brought a night of euphoria.",
+      "exampleJa": "勝利は高揚感に満ちた一夜をもたらしました。",
+      "level": 5
+    },
+    {
+      "headword": "exaggeration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪɡˌzædʒəˈreɪʃn/",
+      "meaning": "誇張；大げさな表現",
+      "exampleEn": "That story contains some exaggeration.",
+      "exampleJa": "その話には多少の誇張が含まれています。",
+      "level": 4
+    },
+    {
+      "headword": "expectancy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspektənsi/",
+      "meaning": "予期；期待される値",
+      "exampleEn": "Life expectancy has risen in most countries.",
+      "exampleJa": "ほとんどの国で平均寿命は延びています。",
+      "level": 4
+    },
+    {
+      "headword": "fallacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæləsi/",
+      "meaning": "誤った考え；誤びゅう",
+      "exampleEn": "It is a fallacy that money brings happiness.",
+      "exampleJa": "お金が幸福をもたらすというのは誤った考えです。",
+      "level": 5
+    },
+    {
+      "headword": "fervor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrvər/",
+      "meaning": "熱情；熱烈さ",
+      "exampleEn": "They defended the plan with great fervor.",
+      "exampleJa": "彼らは強い熱意をもってその計画を擁護しました。",
+      "level": 5
+    },
+    {
+      "headword": "fortitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrtɪtuːd/",
+      "meaning": "不屈の精神；剛毅",
+      "exampleEn": "She faced her illness with quiet fortitude.",
+      "exampleJa": "彼女は静かな不屈の心で病と向き合いました。",
+      "level": 5
+    },
+    {
+      "headword": "futility",
+      "partOfSpeech": "noun",
+      "phonetic": "/fjuːˈtɪləti/",
+      "meaning": "無益さ；むだ",
+      "exampleEn": "He finally saw the futility of war.",
+      "exampleJa": "彼はついに戦争の無益さを悟りました。",
+      "level": 5
+    },
+    {
+      "headword": "humility",
+      "partOfSpeech": "noun",
+      "phonetic": "/hjuːˈmɪləti/",
+      "meaning": "謙虚さ；謙そん",
+      "exampleEn": "He accepted the prize with humility.",
+      "exampleJa": "彼は謙虚にその賞を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "implication",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪmplɪˈkeɪʃn/",
+      "meaning": "影響；含み",
+      "exampleEn": "The decision has serious implications for schools.",
+      "exampleJa": "その決定は学校に重大な影響を及ぼします。",
+      "level": 4
+    },
+    {
+      "headword": "inclination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnklɪˈneɪʃn/",
+      "meaning": "傾向；傾き；好み",
+      "exampleEn": "He showed a natural inclination toward art.",
+      "exampleJa": "彼は芸術への自然な傾向を示しました。",
+      "level": 4
+    },
+    {
+      "headword": "indifference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdɪfrəns/",
+      "meaning": "無関心；冷淡さ",
+      "exampleEn": "Public indifference killed the project.",
+      "exampleJa": "世間の無関心がその企画を潰しました。",
+      "level": 4
+    },
+    {
+      "headword": "indignation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪndɪɡˈneɪʃn/",
+      "meaning": "憤り；義憤",
+      "exampleEn": "The news caused widespread indignation.",
+      "exampleJa": "その報道は広く憤りを呼びました。",
+      "level": 5
+    },
+    {
+      "headword": "inference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnfərəns/",
+      "meaning": "推論；推測",
+      "exampleEn": "That inference is not supported by data.",
+      "exampleJa": "その推論はデータに裏づけられていません。",
+      "level": 5
+    },
+    {
+      "headword": "inhibition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnhɪˈbɪʃn/",
+      "meaning": "抑制；ためらい",
+      "exampleEn": "He spoke without any inhibition.",
+      "exampleJa": "彼は何のためらいもなく話しました。",
+      "level": 5
+    },
+    {
+      "headword": "initiative",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈnɪʃətɪv/",
+      "meaning": "主導権；新たな取り組み；自発性",
+      "exampleEn": "She took the initiative in the discussion.",
+      "exampleJa": "彼女は議論で主導権を取りました。",
+      "level": 4
+    },
+    {
+      "headword": "insanity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈsænəti/",
+      "meaning": "狂気；非常識",
+      "exampleEn": "Driving in that storm was pure insanity.",
+      "exampleJa": "あの嵐の中で運転するのは全くの無謀でした。",
+      "level": 5
+    },
+    {
+      "headword": "intent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈtent/",
+      "meaning": "意図；目的",
+      "exampleEn": "The court had to judge his intent.",
+      "exampleJa": "裁判所は彼の意図を判断しなければなりませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "intimacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntɪməsi/",
+      "meaning": "親密さ；打ち解けた間柄",
+      "exampleEn": "Long letters created a quiet intimacy.",
+      "exampleJa": "長い手紙が静かな親密さを生みました。",
+      "level": 5
+    },
+    {
+      "headword": "intrigue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntriːɡ/",
+      "meaning": "陰謀；策略",
+      "exampleEn": "The court was full of political intrigue.",
+      "exampleJa": "宮廷は政治的な陰謀に満ちていました。",
+      "level": 5
+    },
+    {
+      "headword": "intuition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪntuˈɪʃən/",
+      "meaning": "直感；直感力",
+      "exampleEn": "Trust your intuition when deciding.",
+      "exampleJa": "決定するときは自身の直感を信頼しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "malice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmælɪs/",
+      "meaning": "悪意；敵意",
+      "exampleEn": "He said it without any malice.",
+      "exampleJa": "彼は何の悪意もなくそう言いました。",
+      "level": 5
+    },
+    {
+      "headword": "melancholy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmelənkɑːli/",
+      "meaning": "憂鬱；哀愁",
+      "exampleEn": "Rainy days fill him with melancholy.",
+      "exampleJa": "雨の日は彼を憂鬱で満たします。",
+      "level": 4
+    },
+    {
+      "headword": "notion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnoʊʃən/",
+      "meaning": "観念；考え",
+      "exampleEn": "Reject the notion that success is easy.",
+      "exampleJa": "成功が簡単だという考えを捨てなさい。",
+      "level": 4
+    },
+    {
+      "headword": "nuance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnuːɑːns/",
+      "meaning": "微妙な違い；ニュアンス",
+      "exampleEn": "Translation often loses the nuance of a word.",
+      "exampleJa": "翻訳では語の微妙な違いが失われがちです。",
+      "level": 5
+    },
+    {
+      "headword": "obscurity",
+      "partOfSpeech": "noun",
+      "phonetic": "/əbˈskjʊrəti/",
+      "meaning": "世に知られないこと；不明りょうさ",
+      "exampleEn": "The painter died in complete obscurity.",
+      "exampleJa": "その画家は全く無名のまま亡くなりました。",
+      "level": 5
+    },
+    {
+      "headword": "omission",
+      "partOfSpeech": "noun",
+      "phonetic": "/oʊˈmɪʃn/",
+      "meaning": "省略；手落ち",
+      "exampleEn": "The omission of her name was an error.",
+      "exampleJa": "彼女の名前が抜けていたのは手落ちでした。",
+      "level": 5
+    },
+    {
+      "headword": "outrage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtreɪdʒ/",
+      "meaning": "激しい怒り；暴挙",
+      "exampleEn": "The decision caused public outrage.",
+      "exampleJa": "その決定は世間の激しい怒りを招きました。",
+      "level": 4
+    },
+    {
+      "headword": "perseverance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɜːrsəˈvɪrəns/",
+      "meaning": "忍耐強さ；粘り強さ",
+      "exampleEn": "Perseverance matters more than talent here.",
+      "exampleJa": "ここでは才能より粘り強さが大切です。",
+      "level": 4
+    },
+    {
+      "headword": "perspective",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈspektɪv/",
+      "meaning": "視点；見方",
+      "exampleEn": "Try to view it from another perspective.",
+      "exampleJa": "別の視点からそれを見るようにしなさい。",
+      "level": 4
+    },
+    {
+      "headword": "persuasion",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈsweɪʒn/",
+      "meaning": "説得；説得力",
+      "exampleEn": "It took some persuasion to change his mind.",
+      "exampleJa": "彼の考えを変えるには少し説得が必要でした。",
+      "level": 4
+    },
+    {
+      "headword": "presumption",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈzʌmpʃn/",
+      "meaning": "推定；推測",
+      "exampleEn": "The court starts with a presumption of innocence.",
+      "exampleJa": "裁判所は無罪の推定から始めます。",
+      "level": 4
+    },
+    {
+      "headword": "pretense",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpriːtens/",
+      "meaning": "見せかけ；見栄",
+      "exampleEn": "His kindness was only a pretense.",
+      "exampleJa": "彼の優しさは見せかけにすぎませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "rationale",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌræʃəˈnæl/",
+      "meaning": "根拠；論理的な理由",
+      "exampleEn": "Please explain the rationale for this rule.",
+      "exampleJa": "この規則の根拠を説明してください。",
+      "level": 5
+    },
+    {
+      "headword": "reluctance",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈlʌktəns/",
+      "meaning": "気の進まないこと；不本意",
+      "exampleEn": "He agreed with obvious reluctance.",
+      "exampleJa": "彼は明らかに気の進まない様子で同意しました。",
+      "level": 4
+    },
+    {
+      "headword": "remorse",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈmɔːrs/",
+      "meaning": "深い後悔；良心の呵責",
+      "exampleEn": "He showed no remorse for his actions.",
+      "exampleJa": "彼は自分の行いを少しも悔いていませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "resentment",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzentmənt/",
+      "meaning": "憤り；恨み",
+      "exampleEn": "Unfair pay created deep resentment.",
+      "exampleJa": "不公平な賃金が深い恨みを生みました。",
+      "level": 5
+    },
+    {
+      "headword": "reverence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrevərəns/",
+      "meaning": "崇敬；敬意",
+      "exampleEn": "They speak of their teacher with reverence.",
+      "exampleJa": "彼らは恩師のことを敬意をもって語ります。",
+      "level": 5
+    },
+    {
+      "headword": "scepticism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskeptɪsɪzəm/",
+      "meaning": "懐疑；疑い深さ",
+      "exampleEn": "The claim was met with scepticism.",
+      "exampleJa": "その主張は懐疑をもって受け止められました。",
+      "level": 5
+    },
+    {
+      "headword": "serenity",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈrenəti/",
+      "meaning": "静けさ；平静",
+      "exampleEn": "The garden has a rare serenity.",
+      "exampleJa": "その庭にはまれな静けさがあります。",
+      "level": 5
+    },
+    {
+      "headword": "solitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɑːlətuːd/",
+      "meaning": "孤独；ひとり居ること",
+      "exampleEn": "He enjoyed the solitude of mountain.",
+      "exampleJa": "彼は山の静かな孤独を楽しみました。",
+      "level": 4
+    },
+    {
+      "headword": "spontaneity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌspɑːntəˈneɪəti/",
+      "meaning": "自発性；のびのびとした自然さ",
+      "exampleEn": "Too many rules kill spontaneity.",
+      "exampleJa": "規則が多すぎるとのびのびとした自然さは失われます。",
+      "level": 5
+    },
+    {
+      "headword": "subtlety",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌtlti/",
+      "meaning": "繊細さ；微妙な点",
+      "exampleEn": "The subtlety of her argument impressed us.",
+      "exampleJa": "彼女の議論の繊細さは私たちを感心させました。",
+      "level": 5
+    },
+    {
+      "headword": "supremacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/suːˈpreməsi/",
+      "meaning": "優位；至上",
+      "exampleEn": "The team lost its long supremacy.",
+      "exampleJa": "そのチームは長く保った優位を失いました。",
+      "level": 5
+    },
+    {
+      "headword": "tranquility",
+      "partOfSpeech": "noun",
+      "phonetic": "/træŋˈkwɪləti/",
+      "meaning": "静けさ；平穏",
+      "exampleEn": "He enjoys the tranquility of the countryside.",
+      "exampleJa": "彼は田舎の静けさを楽しんでいます。",
+      "level": 4
+    },
+    {
+      "headword": "vanity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvænəti/",
+      "meaning": "虚栄心；むなしさ",
+      "exampleEn": "His vanity made him ignore advice.",
+      "exampleJa": "虚栄心のせいで彼は助言を聞き入れませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "veracity",
+      "partOfSpeech": "noun",
+      "phonetic": "/vəˈræsəti/",
+      "meaning": "真実性；正直さ",
+      "exampleEn": "No one doubted the veracity of her report.",
+      "exampleJa": "彼女の報告の真実性を疑う者はいませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "vigor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪɡər/",
+      "meaning": "活力；気迫",
+      "exampleEn": "He argued his case with great vigor.",
+      "exampleJa": "彼は大変な気迫で自らの主張を述べました。",
+      "level": 4
+    }
+  ]
+}

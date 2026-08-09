@@ -1,0 +1,690 @@
+{
+  "chunk": "07_nouns_culture_thought",
+  "note": "文化・芸術・思想（76語）",
+  "words": [
+    {
+      "headword": "aesthetics",
+      "partOfSpeech": "noun",
+      "phonetic": "/esˈθetɪks/",
+      "meaning": "美学；美意識",
+      "exampleEn": "He studies aesthetics in visual design.",
+      "exampleJa": "彼は視覚デザインにおける美学を学んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "allegory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælɪɡɔːri/",
+      "meaning": "寓話；比喩",
+      "exampleEn": "The novel is a political allegory.",
+      "exampleJa": "その小説は政治的な寓話です。",
+      "level": 5
+    },
+    {
+      "headword": "allusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈluːʒn/",
+      "meaning": "ほのめかし；暗喩",
+      "exampleEn": "The poem contains a subtle biblical allusion.",
+      "exampleJa": "その詩には聖書への微妙な暗喩が含まれています。",
+      "level": 4
+    },
+    {
+      "headword": "ambiguity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæmbɪˈɡjuːəti/",
+      "meaning": "曖昧さ；多義性",
+      "exampleEn": "His statement was full of ambiguity.",
+      "exampleJa": "彼の発言は曖昧さに満ちていました。",
+      "level": 4
+    },
+    {
+      "headword": "anecdote",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænɪkdoʊt/",
+      "meaning": "逸話；秘話",
+      "exampleEn": "The speaker shared a funny anecdote.",
+      "exampleJa": "発表者は面白い逸話を披露しました。",
+      "level": 4
+    },
+    {
+      "headword": "anthropology",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌænθrəˈpɑːlədʒi/",
+      "meaning": "人類学",
+      "exampleEn": "She majored in anthropology at college.",
+      "exampleJa": "彼女は大学で人類学を専攻しました。",
+      "level": 4
+    },
+    {
+      "headword": "archaeology",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːrkiˈɑːlədʒi/",
+      "meaning": "考古学",
+      "exampleEn": "She studies archaeology at a university in Egypt.",
+      "exampleJa": "彼女はエジプトの大学で考古学を学んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "archetype",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrkɪtaɪp/",
+      "meaning": "原型；典型",
+      "exampleEn": "The character is a classic hero archetype.",
+      "exampleJa": "その登場人物は典型的な英雄像です。",
+      "level": 5
+    },
+    {
+      "headword": "artifact",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrtɪfækt/",
+      "meaning": "人工物；工芸品；遺物",
+      "exampleEn": "Museum exhibits ancient Roman artifacts.",
+      "exampleJa": "博物館は古代ローマの歴史的遺物を展示しています。",
+      "level": 4
+    },
+    {
+      "headword": "autobiography",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːtəbaɪˈɑːɡrəfi/",
+      "meaning": "自伝；自叙伝",
+      "exampleEn": "She wrote an autobiography about her long life.",
+      "exampleJa": "彼女は自分の長い人生について自叙伝を書きました。",
+      "level": 3
+    },
+    {
+      "headword": "ballad",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæləd/",
+      "meaning": "バラード；抒情歌",
+      "exampleEn": "The singer performed a slow, romantic ballad.",
+      "exampleJa": "その歌手はゆったりしたロマンチックなバラードを歌いました。",
+      "level": 3
+    },
+    {
+      "headword": "calligraphy",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈlɪɡrəfi/",
+      "meaning": "書道；美しい書体",
+      "exampleEn": "She studied calligraphy for many years.",
+      "exampleJa": "彼女は長年、書道を学びました。",
+      "level": 4
+    },
+    {
+      "headword": "canon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkænən/",
+      "meaning": "規範；正典",
+      "exampleEn": "His novels entered the literary canon.",
+      "exampleJa": "彼の小説は文学の正典に加わりました。",
+      "level": 5
+    },
+    {
+      "headword": "caricature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkærɪkətʃʊr/",
+      "meaning": "風刺画；戯画；誇張表現",
+      "exampleEn": "The artist drew a funny caricature.",
+      "exampleJa": "その芸術家は面白い風刺画を描きました。",
+      "level": 5
+    },
+    {
+      "headword": "choreography",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɔːriˈɑːɡrəfi/",
+      "meaning": "振付；振り付け",
+      "exampleEn": "The dancer created bold new choreography.",
+      "exampleJa": "そのダンサーは大胆な新しい振付を創作しました。",
+      "level": 4
+    },
+    {
+      "headword": "chronicle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkrɑːnɪkl/",
+      "meaning": "年代記；記録",
+      "exampleEn": "The book is a chronicle of war.",
+      "exampleJa": "その本は戦争の年代記記録です。",
+      "level": 5
+    },
+    {
+      "headword": "civility",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈvɪləti/",
+      "meaning": "礼儀正しさ；丁重さ",
+      "exampleEn": "They argued but kept a basic civility.",
+      "exampleJa": "彼らは議論しながらも最低限の礼儀は保ちました。",
+      "level": 5
+    },
+    {
+      "headword": "cognition",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɑːɡˈnɪʃən/",
+      "meaning": "認知；認識作用",
+      "exampleEn": "Sleep impacts human cognition performance.",
+      "exampleJa": "睡眠は人間の認知性能に影響を与えます。",
+      "level": 4
+    },
+    {
+      "headword": "connotation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːnəˈteɪʃn/",
+      "meaning": "言外の意味；含み",
+      "exampleEn": "The word carries a negative connotation.",
+      "exampleJa": "その語には否定的な含みがあります。",
+      "level": 5
+    },
+    {
+      "headword": "consciousness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnʃəsnəs/",
+      "meaning": "意識；自覚",
+      "exampleEn": "Patient regained consciousness in hospital.",
+      "exampleJa": "患者は病院で意識を取り戻しました。",
+      "level": 4
+    },
+    {
+      "headword": "cosmology",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɑːzˈmɑːlədʒi/",
+      "meaning": "宇宙論；宇宙観",
+      "exampleEn": "Ancient cosmology placed Earth at the center.",
+      "exampleJa": "古代の宇宙観は地球を中心に置いていました。",
+      "level": 5
+    },
+    {
+      "headword": "critique",
+      "partOfSpeech": "noun",
+      "phonetic": "/krɪˈtiːk/",
+      "meaning": "批評；文芸批評",
+      "exampleEn": "She wrote a thoughtful critique of the film.",
+      "exampleJa": "彼女はその映画について丁寧な批評を書きました。",
+      "level": 4
+    },
+    {
+      "headword": "curator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkjʊreɪtər/",
+      "meaning": "学芸員；キュレーター",
+      "exampleEn": "The museum curator preserved ancient paintings.",
+      "exampleJa": "その博物館の学芸員は古代の絵画を保存しました。",
+      "level": 4
+    },
+    {
+      "headword": "deity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdeɪəti/",
+      "meaning": "神；神性",
+      "exampleEn": "Each river had its own deity.",
+      "exampleJa": "それぞれの川にはそれぞれの神がいました。",
+      "level": 5
+    },
+    {
+      "headword": "dialect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪəlekt/",
+      "meaning": "方言",
+      "exampleEn": "He speaks with a southern dialect.",
+      "exampleJa": "彼は南部の方言で話します。",
+      "level": 4
+    },
+    {
+      "headword": "discourse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪskɔːrs/",
+      "meaning": "談話；講演；論文",
+      "exampleEn": "The book studies political discourse in the media.",
+      "exampleJa": "その本はメディアでの政治的な談話を研究しています。",
+      "level": 4
+    },
+    {
+      "headword": "dogma",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɔːɡmə/",
+      "meaning": "教義；独断的な説",
+      "exampleEn": "He questioned the dogma of his time.",
+      "exampleJa": "彼は当時の教義に疑問を投げかけました。",
+      "level": 5
+    },
+    {
+      "headword": "ecclesiastic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌkliːziˈæstɪk/",
+      "meaning": "聖職者",
+      "exampleEn": "A learned ecclesiastic wrote this history.",
+      "exampleJa": "学識のある聖職者がこの歴史書を書きました。",
+      "level": 5
+    },
+    {
+      "headword": "elegy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈelədʒi/",
+      "meaning": "哀歌；挽歌",
+      "exampleEn": "The poet wrote an elegy for his friend.",
+      "exampleJa": "その詩人は友のために哀歌を書きました。",
+      "level": 5
+    },
+    {
+      "headword": "epic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈepɪk/",
+      "meaning": "叙事詩；大作",
+      "exampleEn": "This epic tells of a long sea voyage.",
+      "exampleJa": "この叙事詩は長い航海の物語を伝えています。",
+      "level": 4
+    },
+    {
+      "headword": "epoch",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈepək/",
+      "meaning": "時代；新時代",
+      "exampleEn": "The invention opened a new epoch.",
+      "exampleJa": "その発明は新しい時代を開きました。",
+      "level": 5
+    },
+    {
+      "headword": "ethnicity",
+      "partOfSpeech": "noun",
+      "phonetic": "/eθˈnɪsəti/",
+      "meaning": "民族性；民族的出自",
+      "exampleEn": "Students of every ethnicity attend the school.",
+      "exampleJa": "あらゆる民族の学生がその学校に通っています。",
+      "level": 4
+    },
+    {
+      "headword": "etymology",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌetɪˈmɑːlədʒi/",
+      "meaning": "語源；語源学",
+      "exampleEn": "The etymology of this word is unclear.",
+      "exampleJa": "この語の語源ははっきりしていません。",
+      "level": 5
+    },
+    {
+      "headword": "folklore",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfoʊklɔːr/",
+      "meaning": "民間伝承；伝承文化",
+      "exampleEn": "Scholars study local Japanese folklore.",
+      "exampleJa": "学者たちは地元の日本民間伝承を研究しています。",
+      "level": 4
+    },
+    {
+      "headword": "genre",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʒɑːnrə/",
+      "meaning": "ジャンル；様式",
+      "exampleEn": "Jazz is my favorite music genre.",
+      "exampleJa": "ジャズは私の大好きな音楽ジャンルです。",
+      "level": 3
+    },
+    {
+      "headword": "heresy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈherəsi/",
+      "meaning": "異端；異説",
+      "exampleEn": "His ideas were condemned as heresy.",
+      "exampleJa": "彼の考えは異端として断罪されました。",
+      "level": 5
+    },
+    {
+      "headword": "heritage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "meaning": "遺産；継承物",
+      "exampleEn": "Kyoto has rich cultural heritage.",
+      "exampleJa": "京都には豊かな文化遺産があります。",
+      "level": 3
+    },
+    {
+      "headword": "humanities",
+      "partOfSpeech": "noun",
+      "phonetic": "/hjuːˈmænətiz/",
+      "meaning": "人文科学；人文学",
+      "exampleEn": "She majored in the humanities at college.",
+      "exampleJa": "彼女は大学で人文科学を専攻しました。",
+      "level": 4
+    },
+    {
+      "headword": "iconography",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌaɪkəˈnɑːɡrəfi/",
+      "meaning": "図像学；図像表現",
+      "exampleEn": "Christian iconography fills these old walls.",
+      "exampleJa": "キリスト教の図像がこれらの古い壁を埋めています。",
+      "level": 5
+    },
+    {
+      "headword": "idiom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪdiəm/",
+      "meaning": "慣用句；語法",
+      "exampleEn": "This idiom cannot be translated word by word.",
+      "exampleJa": "この慣用句は一語ずつ訳すことはできません。",
+      "level": 4
+    },
+    {
+      "headword": "imagery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmɪdʒəri/",
+      "meaning": "心象；比ゆ的表現",
+      "exampleEn": "The poem is rich in natural imagery.",
+      "exampleJa": "その詩は自然の心象表現に満ちています。",
+      "level": 5
+    },
+    {
+      "headword": "improvisation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪmprəvaɪˈzeɪʃn/",
+      "meaning": "即興；即興演奏",
+      "exampleEn": "Jazz music features creative improvisation.",
+      "exampleJa": "ジャズ音楽は創造的な即興演奏を特徴とします。",
+      "level": 4
+    },
+    {
+      "headword": "inscription",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈskrɪpʃn/",
+      "meaning": "銘文；刻まれた文字",
+      "exampleEn": "An old inscription covers the stone.",
+      "exampleJa": "古い銘文がその石に刻まれています。",
+      "level": 5
+    },
+    {
+      "headword": "intellect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪntəlekt/",
+      "meaning": "知性；知力",
+      "exampleEn": "Her intellect impressed every teacher.",
+      "exampleJa": "彼女の知性はどの教師にも感銘を与えました。",
+      "level": 4
+    },
+    {
+      "headword": "irony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaɪrəni/",
+      "meaning": "皮肉；反語",
+      "exampleEn": "There is deep irony in that ending.",
+      "exampleJa": "その結末には深い皮肉があります。",
+      "level": 4
+    },
+    {
+      "headword": "lexicon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleksɪkɑːn/",
+      "meaning": "語い；辞書",
+      "exampleEn": "New technology adds words to our lexicon.",
+      "exampleJa": "新しい技術は私たちの語いに言葉を加えます。",
+      "level": 5
+    },
+    {
+      "headword": "linguistics",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪŋˈɡwɪstɪks/",
+      "meaning": "言語学",
+      "exampleEn": "She teaches applied linguistics.",
+      "exampleJa": "彼女は応用言語学を教えています。",
+      "level": 4
+    },
+    {
+      "headword": "liturgy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪtərdʒi/",
+      "meaning": "典礼；礼拝式",
+      "exampleEn": "The liturgy has changed little in centuries.",
+      "exampleJa": "その典礼は何世紀もほとんど変わっていません。",
+      "level": 5
+    },
+    {
+      "headword": "manuscript",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænjuskrɪpt/",
+      "meaning": "原稿；手書き写本",
+      "exampleEn": "Author submitted her final manuscript.",
+      "exampleJa": "著者は最終原稿を提出しました。",
+      "level": 4
+    },
+    {
+      "headword": "metaphor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmetəfɔːr/",
+      "meaning": "隠喩；たとえ",
+      "exampleEn": "The journey is a metaphor for life.",
+      "exampleJa": "その旅は人生の隠喩になっています。",
+      "level": 4
+    },
+    {
+      "headword": "metropolis",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈtrɑːpəlɪs/",
+      "meaning": "大都市；主要都市",
+      "exampleEn": "The village grew into a busy metropolis.",
+      "exampleJa": "その村はにぎやかな大都市へと成長しました。",
+      "level": 4
+    },
+    {
+      "headword": "monotheism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːnoʊθiɪzəm/",
+      "meaning": "一神教",
+      "exampleEn": "Monotheism spread across the ancient world.",
+      "exampleJa": "一神教は古代世界に広まりました。",
+      "level": 5
+    },
+    {
+      "headword": "morality",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈræləti/",
+      "meaning": "道徳；道徳性",
+      "exampleEn": "The novel raises questions about morality.",
+      "exampleJa": "その小説は道徳をめぐる問いを投げかけます。",
+      "level": 4
+    },
+    {
+      "headword": "mosaic",
+      "partOfSpeech": "noun",
+      "phonetic": "/moʊˈzeɪɪk/",
+      "meaning": "モザイク；寄せ集め",
+      "exampleEn": "A colorful mosaic covers the church floor.",
+      "exampleJa": "色鮮やかなモザイクが教会の床を覆っています。",
+      "level": 4
+    },
+    {
+      "headword": "motif",
+      "partOfSpeech": "noun",
+      "phonetic": "/moʊˈtiːf/",
+      "meaning": "主題；繰り返される図案",
+      "exampleEn": "Water is a common motif in his paintings.",
+      "exampleJa": "水は彼の絵によく現れる主題です。",
+      "level": 5
+    },
+    {
+      "headword": "narration",
+      "partOfSpeech": "noun",
+      "phonetic": "/næˈreɪʃn/",
+      "meaning": "語り；叙述",
+      "exampleEn": "The film's narration explains the background.",
+      "exampleJa": "その映画の語りが背景を説明しています。",
+      "level": 4
+    },
+    {
+      "headword": "nostalgia",
+      "partOfSpeech": "noun",
+      "phonetic": "/nəˈstældʒə/",
+      "meaning": "郷愁；懐かしさ",
+      "exampleEn": "Old songs filled him with nostalgia.",
+      "exampleJa": "古い歌が彼を懐かしさで満たしました。",
+      "level": 4
+    },
+    {
+      "headword": "ornament",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrnəmənt/",
+      "meaning": "飾り",
+      "exampleEn": "She hung a small ornament on the door.",
+      "exampleJa": "彼女は扉に小さな飾りをかけました。",
+      "level": 4
+    },
+    {
+      "headword": "paradigm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpærədaɪm/",
+      "meaning": "パラダイム；理論的枠組み；典範",
+      "exampleEn": "Discovery caused a shift in paradigm.",
+      "exampleJa": "発見がパラダイムの転換を引き起こしました。",
+      "level": 4
+    },
+    {
+      "headword": "paradox",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpærədɑːks/",
+      "meaning": "パラドックス；逆説",
+      "exampleEn": "It is a strange paradox.",
+      "exampleJa": "それは奇妙なパラドックスです。",
+      "level": 4
+    },
+    {
+      "headword": "parody",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpærədi/",
+      "meaning": "パロディー；もじり作品",
+      "exampleEn": "The play is a parody of court life.",
+      "exampleJa": "その劇は宮廷生活のパロディーです。",
+      "level": 5
+    },
+    {
+      "headword": "pedagogy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpedəɡoʊdʒi/",
+      "meaning": "教授法；教育学",
+      "exampleEn": "Her pedagogy puts students first.",
+      "exampleJa": "彼女の教授法は生徒を第一に置いています。",
+      "level": 5
+    },
+    {
+      "headword": "philology",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɪˈlɑːlədʒi/",
+      "meaning": "文献学；言語学",
+      "exampleEn": "Philology helped date the old manuscript.",
+      "exampleJa": "文献学がその古い写本の年代を定めるのに役立ちました。",
+      "level": 5
+    },
+    {
+      "headword": "pilgrimage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɪlɡrɪmɪdʒ/",
+      "meaning": "巡礼；聖地への旅",
+      "exampleEn": "Thousands make the pilgrimage every spring.",
+      "exampleJa": "毎年春には何千人もが巡礼の旅に出ます。",
+      "level": 4
+    },
+    {
+      "headword": "premiere",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈmɪr/",
+      "meaning": "初日；試写会",
+      "exampleEn": "The actors attended the premiere of the film.",
+      "exampleJa": "俳優たちはその映画の初日に出席しました。",
+      "level": 3
+    },
+    {
+      "headword": "prose",
+      "partOfSpeech": "noun",
+      "phonetic": "/proʊz/",
+      "meaning": "散文；散文体",
+      "exampleEn": "His prose style is clear.",
+      "exampleJa": "彼の散文体は明瞭です。",
+      "level": 4
+    },
+    {
+      "headword": "psyche",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪki/",
+      "meaning": "精神；心",
+      "exampleEn": "War left a scar on the national psyche.",
+      "exampleJa": "戦争は国民の精神に傷跡を残しました。",
+      "level": 5
+    },
+    {
+      "headword": "renaissance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrenəsɑːns/",
+      "meaning": "復興；再生",
+      "exampleEn": "The town is enjoying a cultural renaissance.",
+      "exampleJa": "その町は文化的な復興を迎えています。",
+      "level": 4
+    },
+    {
+      "headword": "repertoire",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrepərtwɑːr/",
+      "meaning": "レパートリー；持ち芸",
+      "exampleEn": "The band added two songs to its repertoire.",
+      "exampleJa": "そのバンドはレパートリーに2曲を加えました。",
+      "level": 5
+    },
+    {
+      "headword": "ritual",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrɪtʃuəl/",
+      "meaning": "儀式；習慣的行事",
+      "exampleEn": "Tea ceremony is a traditional ritual.",
+      "exampleJa": "茶道は伝統的な儀式です。",
+      "level": 3
+    },
+    {
+      "headword": "satire",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsætaɪər/",
+      "meaning": "風刺；風刺作品",
+      "exampleEn": "The novel is a sharp satire on power.",
+      "exampleJa": "その小説は権力に対する鋭い風刺です。",
+      "level": 5
+    },
+    {
+      "headword": "secularism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsekjələrɪzəm/",
+      "meaning": "世俗主義；政教分離",
+      "exampleEn": "Secularism keeps religion out of government.",
+      "exampleJa": "世俗主義は宗教を政治から切り離します。",
+      "level": 5
+    },
+    {
+      "headword": "semantics",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɪˈmæntɪks/",
+      "meaning": "意味論；語義",
+      "exampleEn": "The argument turned into a debate about semantics.",
+      "exampleJa": "その議論は言葉の意味をめぐる論争になりました。",
+      "level": 5
+    },
+    {
+      "headword": "symbolism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmbəlɪzəm/",
+      "meaning": "象徴性；象徴主義",
+      "exampleEn": "The color red carries strong symbolism here.",
+      "exampleJa": "ここでは赤い色が強い象徴性を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "syntax",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪntæks/",
+      "meaning": "統語法；構文",
+      "exampleEn": "English syntax differs greatly from Japanese.",
+      "exampleJa": "英語の構文は日本語と大きく異なります。",
+      "level": 5
+    },
+    {
+      "headword": "theology",
+      "partOfSpeech": "noun",
+      "phonetic": "/θiˈɑːlədʒi/",
+      "meaning": "神学",
+      "exampleEn": "He studied theology before becoming a writer.",
+      "exampleJa": "彼は作家になる前に神学を学びました。",
+      "level": 5
+    }
+  ]
+}

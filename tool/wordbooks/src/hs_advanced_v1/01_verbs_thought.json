@@ -1,0 +1,564 @@
+{
+  "chunk": "01_verbs_thought",
+  "note": "思考・分析・判断の動詞（62語）",
+  "words": [
+    {
+      "headword": "advocate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈædvəkeɪt/",
+      "meaning": "を主張する；を擁護する；を提唱する",
+      "exampleEn": "They advocate environmental protection.",
+      "exampleJa": "彼らは環境保護を主張しています。",
+      "level": 4
+    },
+    {
+      "headword": "affirm",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfɜːrm/",
+      "meaning": "を断言する；を確認する；を支持する",
+      "exampleEn": "The court affirmed the contract's validity.",
+      "exampleJa": "裁判所は契約の有効性を確認しました。",
+      "level": 4
+    },
+    {
+      "headword": "allude",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈluːd/",
+      "meaning": "についてほのめかす；言及する",
+      "exampleEn": "The speaker alluded to a past scandal.",
+      "exampleJa": "発表者は過去のスキャンダルについてほのめかしました。",
+      "level": 5
+    },
+    {
+      "headword": "appraise",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpreɪz/",
+      "meaning": "を査定する；を評価する",
+      "exampleEn": "An expert appraised the antique's value.",
+      "exampleJa": "専門家がその骨董品の価値を査定しました。",
+      "level": 5
+    },
+    {
+      "headword": "articulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɑːrˈtɪkjuleɪt/",
+      "meaning": "を明確に述べる；をはっきり発音する",
+      "exampleEn": "The speaker articulated complex ideas clearly.",
+      "exampleJa": "発表者は複雑な考えを明確に表現しました。",
+      "level": 5
+    },
+    {
+      "headword": "ascribe",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈskraɪb/",
+      "meaning": "を〜のせいにする；を〜の作とする",
+      "exampleEn": "Scholars ascribe the painting to a master.",
+      "exampleJa": "学者たちはその絵を巨匠の作としています。",
+      "level": 5
+    },
+    {
+      "headword": "assimilate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsɪməleɪt/",
+      "meaning": "を同化する；を吸収する；順応する",
+      "exampleEn": "Immigrants assimilated into the new society.",
+      "exampleJa": "移民たちは新しい社会に同化しました。",
+      "level": 5
+    },
+    {
+      "headword": "categorize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkætəɡəraɪz/",
+      "meaning": "を分類する",
+      "exampleEn": "The library categorizes books by subject.",
+      "exampleJa": "図書館は本を分野ごとに分類しています。",
+      "level": 3
+    },
+    {
+      "headword": "concede",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsiːd/",
+      "meaning": "を認める；を譲る；譲歩する",
+      "exampleEn": "He conceded victory to his opponent.",
+      "exampleJa": "彼は対戦相手に勝利を認めました。",
+      "level": 5
+    },
+    {
+      "headword": "conceive",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsiːv/",
+      "meaning": "を思いつく；を想像する",
+      "exampleEn": "The architect conceived a new building design.",
+      "exampleJa": "その建築家は新しい建物の設計を思いつきました。",
+      "level": 4
+    },
+    {
+      "headword": "decipher",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsaɪfər/",
+      "meaning": "を解読する；を判読する",
+      "exampleEn": "Scholars finally deciphered the ancient text.",
+      "exampleJa": "学者たちはついにその古代の文書を解読しました。",
+      "level": 5
+    },
+    {
+      "headword": "deduce",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈduːs/",
+      "meaning": "を推論する；を演繹する",
+      "exampleEn": "What can you deduce from the clues?",
+      "exampleJa": "手がかりから何を推論できますか。",
+      "level": 5
+    },
+    {
+      "headword": "deliberate",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈlɪbəreɪt/",
+      "meaning": "を熟考する；を審議する",
+      "exampleEn": "Jury deliberated for three hours.",
+      "exampleJa": "陪審員団は3時間審議しました。",
+      "level": 4
+    },
+    {
+      "headword": "diagnose",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdaɪəɡˈnoʊz/",
+      "meaning": "を診断する",
+      "exampleEn": "The doctor diagnosed her with the flu.",
+      "exampleJa": "医師は彼女をインフルエンザと診断しました。",
+      "level": 3
+    },
+    {
+      "headword": "discredit",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈkredɪt/",
+      "meaning": "の信用を傷つける",
+      "exampleEn": "A false rumor discredited the young politician.",
+      "exampleJa": "誤った噂がその若い政治家の信用を傷つけました。",
+      "level": 4
+    },
+    {
+      "headword": "disprove",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsˈpruːv/",
+      "meaning": "の誤りを証明する；論破する",
+      "exampleEn": "New evidence disproved the old theory.",
+      "exampleJa": "新しい証拠が古い理論の誤りを証明しました。",
+      "level": 3
+    },
+    {
+      "headword": "elucidate",
+      "partOfSpeech": "verb",
+      "phonetic": "/iˈluːsɪdeɪt/",
+      "meaning": "を解明する；を分かりやすく説明する",
+      "exampleEn": "The study elucidates how memory works.",
+      "exampleJa": "その研究は記憶の仕組みを明らかにしています。",
+      "level": 5
+    },
+    {
+      "headword": "endorse",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈdɔːrs/",
+      "meaning": "を推薦・宣伝する；裏書する",
+      "exampleEn": "A famous athlete endorsed the new sports shoes.",
+      "exampleJa": "有名な選手がその新しいスポーツシューズを宣伝しました。",
+      "level": 4
+    },
+    {
+      "headword": "envisage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvɪzɪdʒ/",
+      "meaning": "を想定する；を心に描く",
+      "exampleEn": "We envisage a long period of change.",
+      "exampleJa": "私たちは長い変化の時期を想定しています。",
+      "level": 5
+    },
+    {
+      "headword": "envision",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvɪʒn/",
+      "meaning": "を思い描く；を構想する",
+      "exampleEn": "She envisions a city without cars.",
+      "exampleJa": "彼女は車のない都市を思い描いています。",
+      "level": 4
+    },
+    {
+      "headword": "equate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈkweɪt/",
+      "meaning": "を同一視する；を等しいとみなす",
+      "exampleEn": "Do not equate wealth with happiness.",
+      "exampleJa": "富と幸福を同じものと考えてはいけません。",
+      "level": 4
+    },
+    {
+      "headword": "esteem",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈstiːm/",
+      "meaning": "を尊重する；を高く評価する",
+      "exampleEn": "His work is esteemed by many artists.",
+      "exampleJa": "彼の作品は多くの芸術家に高く評価されています。",
+      "level": 5
+    },
+    {
+      "headword": "fathom",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfæðəm/",
+      "meaning": "を理解する；を見抜く",
+      "exampleEn": "I cannot fathom why he left.",
+      "exampleJa": "彼がなぜ去ったのか私には理解できません。",
+      "level": 5
+    },
+    {
+      "headword": "gauge",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡeɪdʒ/",
+      "meaning": "を判断する；を測定する",
+      "exampleEn": "It is hard to gauge public opinion.",
+      "exampleJa": "世論を推し量るのは難しいことです。",
+      "level": 4
+    },
+    {
+      "headword": "generalize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒenrəlaɪz/",
+      "meaning": "一般化する；概括して言う",
+      "exampleEn": "We should not generalize from one case.",
+      "exampleJa": "1つの事例から一般化すべきではありません。",
+      "level": 4
+    },
+    {
+      "headword": "hypothesize",
+      "partOfSpeech": "verb",
+      "phonetic": "/haɪˈpɑːθəsaɪz/",
+      "meaning": "を仮定する；仮説を立てる",
+      "exampleEn": "Researchers hypothesized a link.",
+      "exampleJa": "研究者たちは関連性を仮説として立てました。",
+      "level": 5
+    },
+    {
+      "headword": "illuminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈluːmɪneɪt/",
+      "meaning": "を照らす；解明する",
+      "exampleEn": "The bright lamp illuminates the dark room.",
+      "exampleJa": "その明るいランプが暗い部屋を照らします。",
+      "level": 4
+    },
+    {
+      "headword": "juxtapose",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒʌkstəpoʊz/",
+      "meaning": "を並べて置く；を対比させる",
+      "exampleEn": "The artist juxtaposes light and shadow.",
+      "exampleJa": "その画家は光と影を並べて対比させています。",
+      "level": 5
+    },
+    {
+      "headword": "ponder",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpɑːndər/",
+      "meaning": "を熟考する；をじっくり考える",
+      "exampleEn": "She pondered over her career choice.",
+      "exampleJa": "彼女は進路の選択について熟考しました。",
+      "level": 4
+    },
+    {
+      "headword": "postulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpɑːstʃuleɪt/",
+      "meaning": "を仮定する；を要請する",
+      "exampleEn": "The theory postulates an unknown force.",
+      "exampleJa": "その理論は未知の力の存在を仮定しています。",
+      "level": 5
+    },
+    {
+      "headword": "presuppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌpriːsəˈpoʊz/",
+      "meaning": "を前提とする；を当然と考える",
+      "exampleEn": "This argument presupposes a free market.",
+      "exampleJa": "この議論は自由な市場を前提としています。",
+      "level": 5
+    },
+    {
+      "headword": "rationalize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈræʃnəlaɪz/",
+      "meaning": "を正当化する；を合理化する",
+      "exampleEn": "He tried to rationalize his own mistake.",
+      "exampleJa": "彼は自分の失敗を正当化しようとしました。",
+      "level": 5
+    },
+    {
+      "headword": "reaffirm",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌriːəˈfɜːrm/",
+      "meaning": "を再確認する；を改めて断言する",
+      "exampleEn": "Both leaders reaffirmed their agreement.",
+      "exampleJa": "両国の指導者は合意を改めて確認しました。",
+      "level": 4
+    },
+    {
+      "headword": "rebut",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈbʌt/",
+      "meaning": "に反ばくする；に反証を挙げる",
+      "exampleEn": "She rebutted the charge with clear evidence.",
+      "exampleJa": "彼女は明確な証拠でその非難に反ばくしました。",
+      "level": 5
+    },
+    {
+      "headword": "reconcile",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrekənsaɪl/",
+      "meaning": "を調停する；を和解させる",
+      "exampleEn": "He reconciled differences with brother.",
+      "exampleJa": "彼は兄弟との意見の違いを調停・和解させました。",
+      "level": 4
+    },
+    {
+      "headword": "repudiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈpjuːdieɪt/",
+      "meaning": "を否認する；を拒絶する",
+      "exampleEn": "The writer repudiated his early views.",
+      "exampleJa": "その作家は初期の主張を否認しました。",
+      "level": 5
+    },
+    {
+      "headword": "speculate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈspekjəleɪt/",
+      "meaning": "と推測する；投機する",
+      "exampleEn": "Reporters speculated on the election result.",
+      "exampleJa": "記者たちは選挙結果を推測しました。",
+      "level": 4
+    },
+    {
+      "headword": "substantiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/səbˈstænʃieɪt/",
+      "meaning": "を裏づける；を立証する",
+      "exampleEn": "No evidence substantiates that claim.",
+      "exampleJa": "その主張を裏づける証拠は何もありません。",
+      "level": 5
+    },
+    {
+      "headword": "surmise",
+      "partOfSpeech": "verb",
+      "phonetic": "/sərˈmaɪz/",
+      "meaning": "を推測する；と推察する",
+      "exampleEn": "We surmised that she already knew.",
+      "exampleJa": "彼女はすでに知っているのだろうと私たちは推測しました。",
+      "level": 5
+    },
+    {
+      "headword": "synthesize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsɪnθəsaɪz/",
+      "meaning": "を統合する；を合成する",
+      "exampleEn": "The report synthesizes ten years of data.",
+      "exampleJa": "その報告書は10年分のデータをまとめています。",
+      "level": 5
+    },
+    {
+      "headword": "theorize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈθiːəraɪz/",
+      "meaning": "と理論づける；仮説を立てる",
+      "exampleEn": "Some scientists theorize that life began there.",
+      "exampleJa": "生命はそこで始まったと唱える科学者もいます。",
+      "level": 5
+    },
+    {
+      "headword": "visualize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈvɪʒuəlaɪz/",
+      "meaning": "を心に思い描く；を可視化する",
+      "exampleEn": "Try to visualize the finished building.",
+      "exampleJa": "完成した建物を頭の中に思い描いてみてください。",
+      "level": 4
+    },
+    {
+      "headword": "comprehend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌkɑːmprɪˈhend/",
+      "meaning": "を理解する；を把握する",
+      "exampleEn": "He failed to comprehend the concept.",
+      "exampleJa": "彼はその概念を十分理解できませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "contradict",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌkɑːntrəˈdɪkt/",
+      "meaning": "と矛盾する；に反論する",
+      "exampleEn": "The new evidence contradicts his story.",
+      "exampleJa": "新しい証拠は彼の話と矛盾しています。",
+      "level": 4
+    },
+    {
+      "headword": "determine",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meaning": "を決定する；を突き止める",
+      "exampleEn": "They determined the cause of fire.",
+      "exampleJa": "彼らは火災の原因を突き止めました。",
+      "level": 3
+    },
+    {
+      "headword": "distinguish",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstɪŋɡwɪʃ/",
+      "meaning": "を区別する；見分ける",
+      "exampleEn": "Distinguish between right and wrong.",
+      "exampleJa": "善悪を区別しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "evaluate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈvæljueɪt/",
+      "meaning": "を評価する；を査定する",
+      "exampleEn": "Teachers evaluate their students' essays carefully.",
+      "exampleJa": "教師は生徒の小論文を注意深く評価します。",
+      "level": 3
+    },
+    {
+      "headword": "foresee",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɔːrˈsiː/",
+      "meaning": "を予見する",
+      "exampleEn": "Nobody could foresee such a serious recession.",
+      "exampleJa": "これほど深刻な不況を予見できた人はいません。",
+      "level": 4
+    },
+    {
+      "headword": "grasp",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡræsp/",
+      "meaning": "を把握する；をしっかり掴む",
+      "exampleEn": "She quickly grasped the main point.",
+      "exampleJa": "彼女は要点を素早く把握しました。",
+      "level": 3
+    },
+    {
+      "headword": "imply",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈplaɪ/",
+      "meaning": "を暗に示す；を意味する",
+      "exampleEn": "Her words imply a hidden intent.",
+      "exampleJa": "彼女の言葉は隠された意図を暗に示します。",
+      "level": 4
+    },
+    {
+      "headword": "infer",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɜːr/",
+      "meaning": "を推論する",
+      "exampleEn": "What can you infer from the text?",
+      "exampleJa": "文章から何を推論できますか。",
+      "level": 4
+    },
+    {
+      "headword": "interpret",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtɜːrprət/",
+      "meaning": "を解釈する；通訳する",
+      "exampleEn": "How do you interpret this poem?",
+      "exampleJa": "この詩をどう解釈しますか。",
+      "level": 3
+    },
+    {
+      "headword": "perceive",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsiːv/",
+      "meaning": "を認識する；を察知する",
+      "exampleEn": "She perceived danger in the sudden silence.",
+      "exampleJa": "彼女は突然の静けさの中に危険を察知しました。",
+      "level": 4
+    },
+    {
+      "headword": "presume",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈzuːm/",
+      "meaning": "と推定する；と思う",
+      "exampleEn": "We presume that he is still alive.",
+      "exampleJa": "私たちは彼がまだ生きていると推定しています。",
+      "level": 4
+    },
+    {
+      "headword": "reckon",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrekən/",
+      "meaning": "と思う；と見積もる",
+      "exampleEn": "Experts reckon the population will double soon.",
+      "exampleJa": "専門家は人口がまもなく倍になると見ています。",
+      "level": 4
+    },
+    {
+      "headword": "recount",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkaʊnt/",
+      "meaning": "を詳しく話す；を物語る",
+      "exampleEn": "He recounted the events of that night.",
+      "exampleJa": "彼はその夜の出来事を詳しく語りました。",
+      "level": 4
+    },
+    {
+      "headword": "reflect",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈflekt/",
+      "meaning": "を反射する；熟考する；反映する",
+      "exampleEn": "The mirror reflected her face.",
+      "exampleJa": "鏡が彼女の顔を映し出しました。",
+      "level": 3
+    },
+    {
+      "headword": "regard",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈɡɑːrd/",
+      "meaning": "を〜とみなす；を尊重する",
+      "exampleEn": "I regard him as my best friend.",
+      "exampleJa": "私は彼を親友だとみなしています。",
+      "level": 3
+    },
+    {
+      "headword": "resolve",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzɑːlv/",
+      "meaning": "を解決する；を決意する",
+      "exampleEn": "They resolved the conflict peacefully.",
+      "exampleJa": "彼らは衝突を平和的に解決しました。",
+      "level": 4
+    },
+    {
+      "headword": "suppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈpoʊz/",
+      "meaning": "と思う；と考える",
+      "exampleEn": "What do you suppose will happen?",
+      "exampleJa": "何が起きると思いますか。",
+      "level": 3
+    },
+    {
+      "headword": "suspect",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈspekt/",
+      "meaning": "を疑う；ではないかと思う",
+      "exampleEn": "The police suspect him of the crime.",
+      "exampleJa": "警察は彼がその犯罪を犯したのではないかと疑っています。",
+      "level": 3
+    },
+    {
+      "headword": "weigh",
+      "partOfSpeech": "verb",
+      "phonetic": "/weɪ/",
+      "meaning": "を比べて考える；の重さがある",
+      "exampleEn": "Weigh the risks before making a decision.",
+      "exampleJa": "決める前に危険をよく検討してください。",
+      "level": 4
+    }
+  ]
+}
