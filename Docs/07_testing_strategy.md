@@ -124,6 +124,45 @@ integration_test/
 `PronunciationService` と `ReminderService` はフェイクに差し替える。
 実機の音声・通知に依存させない。
 
+### 5.1 実行
+
+実機・エミュレータは使わず flutter_tester で回す。
+
+```
+flutter test -d flutter-tester integration_test/study_flow_test.dart
+```
+
+`integration_test/` 配下のテストは既定で端末を要求するため、`-d flutter-tester` を必ず付ける。
+
+### 5.2 通し方の決めごと
+
+- **画面は実際に叩く**。プロバイダを直接動かして画面を飛ばさない（飛ばすと通したことに
+  ならない）。出題中の語は、画面に出ている和訳から特定する。
+- **再起動**は、一時ディレクトリに置いた**同じ DB ファイルを閉じて開き直す**ことで表す
+  （メモリ DB では再起動を表現できない）。`SharedPreferences` のモックは起動のたびに
+  作り直さないので、投入済みプリセットの版は再起動をまたいで残る。2回目の起動で
+  再投入が起きないことまで確かめる。
+- **プリセット投入は実アセット**（`assets/wordbooks/`）を `rootBundle` から読み、本番と
+  同じ `SeedImporter` で入れる。検証は「6冊入った」「語が0件でない」まで。
+- **学習対象は5語だけの単語帳**にする。モード選択シートで選べる問題数は 10 / 20 / 50 /
+  全部 で5問を直接は選べず、プリセットは1冊で数百語あるため、貼り付け取込（SCR-24）で
+  作った5語の単語帳を学習対象にして5問のセッションにする。
+- 5問のうち2問を誤答すると、その2語は末尾へ1回だけ戻る（FR-31）。結果画面に着くまでの
+  解答は7問になり、`study_sessions` は `plannedCount = 5` / `answeredCount = 7` /
+  `correctCount = 3`、誤答した2語の `word_reviews.totalIncorrect` は 2 になる。
+- 時刻は固定した `clockProvider` を使う（§3.5）。学習日・`dueAt`・ストリークを
+  実時刻に依存させないため。
+- `PronunciationService` は `pronunciationProvider` ごと `FakePronunciationService` へ
+  差し替える。本物（`AudioPronunciationService`）は音声パックを使っていなくても
+  `audioplayers` の `AudioPlayer` を作るため、プラグインの無い環境では
+  `MissingPluginException` になる。
+- 戻る操作に `WidgetTester.pageBack` は使わない。英語の「Back」ツールチップしか見ず、
+  日本語ロケールで動くこのアプリでは見つけられない。`find.byType(BackButton)` で探す。
+- 縦スクロールは `scrollUntilVisible` を使わない。スクロール対象を
+  `find.byType(Scrollable)` で探すが、シェルの `IndexedStack` は選ばれていないタブも
+  組み立てたままにするため複数見つかって決められない。掴む位置を画面下寄りに固定して
+  ドラッグする（複数行 `TextField` にドラッグを吸われるのも避けられる）。
+
 ## 6. 手動確認が要るもの
 
 自動テストで担保できないものは、リリース前チェックリストに残す。
