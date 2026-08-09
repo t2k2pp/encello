@@ -1,0 +1,735 @@
+{
+  "chunk": "08_nouns_health_life",
+  "note": "健康・心・くらし（81語）",
+  "words": [
+    {
+      "headword": "addiction",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈdɪkʃn/",
+      "meaning": "中毒；依存症",
+      "exampleEn": "He is fighting a serious addiction to smoking.",
+      "exampleJa": "彼は喫煙への深刻な依存症と闘っています。",
+      "level": 4
+    },
+    {
+      "headword": "allergy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælərdʒi/",
+      "meaning": "アレルギー",
+      "exampleEn": "My friend has a bad allergy.",
+      "exampleJa": "私の友達はひどいアレルギーがあります。",
+      "level": 3
+    },
+    {
+      "headword": "ambition",
+      "partOfSpeech": "noun",
+      "phonetic": "/æmˈbɪʃn/",
+      "meaning": "野心；大望",
+      "exampleEn": "Her ambition is to become a doctor.",
+      "exampleJa": "彼女の大きな望みは医者になることです。",
+      "level": 3
+    },
+    {
+      "headword": "anxiety",
+      "partOfSpeech": "noun",
+      "phonetic": "/æŋˈzaɪəti/",
+      "meaning": "不安；心配；切望",
+      "exampleEn": "She felt great anxiety before the exam.",
+      "exampleJa": "彼女は試験の前に大きな不安を感じました。",
+      "level": 3
+    },
+    {
+      "headword": "appetite",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæpɪtaɪt/",
+      "meaning": "食欲；欲求",
+      "exampleEn": "Walking outside always increases my appetite.",
+      "exampleJa": "外を歩くといつも食欲が増します。",
+      "level": 3
+    },
+    {
+      "headword": "burden",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbɜːrdn/",
+      "meaning": "重荷；負担",
+      "exampleEn": "The high rent is a heavy burden for us.",
+      "exampleJa": "高い家賃は私たちにとって重い負担です。",
+      "level": 3
+    },
+    {
+      "headword": "childhood",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃaɪldhʊd/",
+      "meaning": "幼少期；子供時代",
+      "exampleEn": "He spent his childhood in a small village.",
+      "exampleJa": "彼は小さな村で子ども時代を過ごしました。",
+      "level": 2
+    },
+    {
+      "headword": "commitment",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmɪtmənt/",
+      "meaning": "約束；献身；コミットメント",
+      "exampleEn": "He showed a strong commitment to his job.",
+      "exampleJa": "彼は仕事への強い献身を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "companion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpæniən/",
+      "meaning": "仲間；連れ",
+      "exampleEn": "My dog has been my companion for years.",
+      "exampleJa": "私の犬は何年も私の仲間です。",
+      "level": 4
+    },
+    {
+      "headword": "conscience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnʃəns/",
+      "meaning": "良心；道徳心",
+      "exampleEn": "His conscience would not let him lie.",
+      "exampleJa": "彼は良心が許さず、うそをつけませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "consumption",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈsʌmpʃn/",
+      "meaning": "消費；消費量；消費高",
+      "exampleEn": "We should reduce our energy consumption at home.",
+      "exampleJa": "私たちは家庭でのエネルギー消費を減らすべきです。",
+      "level": 3
+    },
+    {
+      "headword": "conviction",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈvɪkʃn/",
+      "meaning": "確信；信念；有罪判決",
+      "exampleEn": "He spoke about his plan with deep conviction.",
+      "exampleJa": "彼は自分の計画について強い確信をもって話しました。",
+      "level": 4
+    },
+    {
+      "headword": "curiosity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkjʊriˈɑːsəti/",
+      "meaning": "好奇心",
+      "exampleEn": "The child showed great curiosity about science.",
+      "exampleJa": "その子どもは科学に強い好奇心を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "depression",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpreʃn/",
+      "meaning": "うつ病；不況；意気消沈",
+      "exampleEn": "The economic depression hit many countries.",
+      "exampleJa": "経済不況が多くの国を襲いました。",
+      "level": 3
+    },
+    {
+      "headword": "destiny",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdestəni/",
+      "meaning": "宿命；運命",
+      "exampleEn": "He believed that destiny brought them together.",
+      "exampleJa": "彼は運命が二人を引き合わせたと信じていました。",
+      "level": 3
+    },
+    {
+      "headword": "diagnosis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdaɪəɡˈnoʊsɪs/",
+      "meaning": "診断；見立て",
+      "exampleEn": "The doctor gave her an early diagnosis.",
+      "exampleJa": "医師は彼女に早期の診断を下しました。",
+      "level": 3
+    },
+    {
+      "headword": "dignity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪɡnəti/",
+      "meaning": "尊厳；気品",
+      "exampleEn": "We should treat every person with dignity.",
+      "exampleJa": "私たちはすべての人を尊厳をもって扱うべきです。",
+      "level": 3
+    },
+    {
+      "headword": "disability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdɪsəˈbɪləti/",
+      "meaning": "障害",
+      "exampleEn": "The facility supports people with a disability.",
+      "exampleJa": "その施設は障害のある人を支援しています。",
+      "level": 4
+    },
+    {
+      "headword": "disorder",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪsˈɔːrdər/",
+      "meaning": "混乱；疾患；障がい",
+      "exampleEn": "The doctor treated a rare blood disorder.",
+      "exampleJa": "医師はまれな血液の疾患を治療しました。",
+      "level": 3
+    },
+    {
+      "headword": "emergency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmɜːrdʒənsi/",
+      "meaning": "緊急事態；非常時",
+      "exampleEn": "You should call this number in an emergency.",
+      "exampleJa": "緊急のときはこの番号に電話してください。",
+      "level": 2
+    },
+    {
+      "headword": "empathy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈempəθi/",
+      "meaning": "共感；感情移入",
+      "exampleEn": "Empathy is essential for friendship.",
+      "exampleJa": "共感は友情にとって不可欠です。",
+      "level": 3
+    },
+    {
+      "headword": "epidemic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌepɪˈdemɪk/",
+      "meaning": "流行病；伝染病",
+      "exampleEn": "The flu epidemic spread rapidly.",
+      "exampleJa": "インフルエンザの流行病が急速に広まりました。",
+      "level": 4
+    },
+    {
+      "headword": "essence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈesəns/",
+      "meaning": "本質",
+      "exampleEn": "Explain the essence of the argument briefly.",
+      "exampleJa": "その議論の本質を手短に説明してください。",
+      "level": 5
+    },
+    {
+      "headword": "exposure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspoʊʒər/",
+      "meaning": "さらされること；露出",
+      "exampleEn": "Long exposure to radiation is dangerous.",
+      "exampleJa": "放射線に長くさらされるのは危険です。",
+      "level": 5
+    },
+    {
+      "headword": "fatigue",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈtiːɡ/",
+      "meaning": "疲労",
+      "exampleEn": "Long hours caused serious fatigue.",
+      "exampleJa": "長時間の労働が深刻な疲労を招きました。",
+      "level": 4
+    },
+    {
+      "headword": "frustration",
+      "partOfSpeech": "noun",
+      "phonetic": "/frʌˈstreɪʃən/",
+      "meaning": "いらだち",
+      "exampleEn": "The long delay caused great frustration.",
+      "exampleJa": "長い遅れが大きないらだちを招きました。",
+      "level": 4
+    },
+    {
+      "headword": "generosity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒenəˈrɑːsəti/",
+      "meaning": "気前のよさ",
+      "exampleEn": "The charity depends on public generosity.",
+      "exampleJa": "その慈善団体は人々の善意に支えられています。",
+      "level": 5
+    },
+    {
+      "headword": "gratitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrætɪtuːd/",
+      "meaning": "感謝",
+      "exampleEn": "She expressed her gratitude to the staff.",
+      "exampleJa": "彼女は職員に感謝を伝えました。",
+      "level": 4
+    },
+    {
+      "headword": "grief",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡriːf/",
+      "meaning": "深い悲しみ",
+      "exampleEn": "The whole community shared her grief.",
+      "exampleJa": "地域全体が彼女の悲しみを分かち合いました。",
+      "level": 5
+    },
+    {
+      "headword": "hardship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːrdʃɪp/",
+      "meaning": "苦難；困窮",
+      "exampleEn": "They endured severe financial hardship together.",
+      "exampleJa": "彼らは共に深刻な経済的苦難に耐えました。",
+      "level": 3
+    },
+    {
+      "headword": "harmony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːrməni/",
+      "meaning": "調和",
+      "exampleEn": "The village lives in harmony with nature.",
+      "exampleJa": "その村は自然と調和して暮らしています。",
+      "level": 4
+    },
+    {
+      "headword": "hospitality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌhɑːspɪˈtæləti/",
+      "meaning": "歓待；もてなし",
+      "exampleEn": "We were impressed by their warm hospitality.",
+      "exampleJa": "私たちは彼らの温かいもてなしに感動しました。",
+      "level": 4
+    },
+    {
+      "headword": "hygiene",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhaɪdʒiːn/",
+      "meaning": "衛生；清潔",
+      "exampleEn": "Good hygiene helps you avoid getting sick.",
+      "exampleJa": "良い衛生習慣は病気になるのを防いでくれます。",
+      "level": 4
+    },
+    {
+      "headword": "identity",
+      "partOfSpeech": "noun",
+      "phonetic": "/aɪˈdentəti/",
+      "meaning": "身元；独自性",
+      "exampleEn": "The police confirmed the witness's identity.",
+      "exampleJa": "警察は目撃者の身元を確認しました。",
+      "level": 4
+    },
+    {
+      "headword": "immunity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmjuːnəti/",
+      "meaning": "免疫",
+      "exampleEn": "Vaccination builds immunity to the virus.",
+      "exampleJa": "予防接種はウイルスへの免疫をつくります。",
+      "level": 5
+    },
+    {
+      "headword": "impulse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmpʌls/",
+      "meaning": "衝動；弾み；心力",
+      "exampleEn": "She bought it on a sudden impulse.",
+      "exampleJa": "彼女は突然の衝動でそれを買いました。",
+      "level": 3
+    },
+    {
+      "headword": "incentive",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈsentɪv/",
+      "meaning": "動機付け；報奨金；誘因",
+      "exampleEn": "The bonus is a strong incentive for our team.",
+      "exampleJa": "そのボーナスは私たちのチームにとって強い動機付けになっています。",
+      "level": 4
+    },
+    {
+      "headword": "infection",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfekʃən/",
+      "meaning": "感染；感染症",
+      "exampleEn": "The doctor gave him medicine for the infection.",
+      "exampleJa": "医師は彼に感染症の薬を出しました。",
+      "level": 3
+    },
+    {
+      "headword": "inheritance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈherɪtəns/",
+      "meaning": "相続；遺産",
+      "exampleEn": "He used his inheritance to start a business.",
+      "exampleJa": "彼は相続した財産で事業を始めました。",
+      "level": 5
+    },
+    {
+      "headword": "insight",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnsaɪt/",
+      "meaning": "洞察；見識",
+      "exampleEn": "Gain insight into human nature.",
+      "exampleJa": "人間性に対する見識を深めなさい。",
+      "level": 4
+    },
+    {
+      "headword": "instinct",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstɪŋkt/",
+      "meaning": "本能",
+      "exampleEn": "Birds migrate by instinct.",
+      "exampleJa": "鳥は本能で渡りをします。",
+      "level": 4
+    },
+    {
+      "headword": "intuition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪntuˈɪʃən/",
+      "meaning": "直感；直感力",
+      "exampleEn": "Trust your intuition when deciding.",
+      "exampleJa": "決定するときは自身の直感を信頼しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "isolation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌaɪsəˈleɪʃən/",
+      "meaning": "孤立",
+      "exampleEn": "Long isolation harmed his mental health.",
+      "exampleJa": "長い孤立が彼の心の健康を損ないました。",
+      "level": 5
+    },
+    {
+      "headword": "jealousy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒeləsi/",
+      "meaning": "嫉妬",
+      "exampleEn": "Jealousy destroyed their long friendship.",
+      "exampleJa": "嫉妬が二人の長い友情を壊しました。",
+      "level": 4
+    },
+    {
+      "headword": "loneliness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈloʊnlinəs/",
+      "meaning": "孤独感",
+      "exampleEn": "She felt loneliness in the new city.",
+      "exampleJa": "彼女は新しい街で孤独感を感じました。",
+      "level": 3
+    },
+    {
+      "headword": "loyalty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɔɪəlti/",
+      "meaning": "忠誠；顧客ロイヤリティ",
+      "exampleEn": "Good service builds customer loyalty over time.",
+      "exampleJa": "良いサービスは時間をかけて顧客のロイヤリティを高めます。",
+      "level": 4
+    },
+    {
+      "headword": "maturity",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈtʃʊrəti/",
+      "meaning": "成熟",
+      "exampleEn": "He showed real maturity in the crisis.",
+      "exampleJa": "彼は危機のときに本当の成熟を示しました。",
+      "level": 5
+    },
+    {
+      "headword": "mortality",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɔːrˈtæləti/",
+      "meaning": "死亡率",
+      "exampleEn": "Better nutrition lowered infant mortality.",
+      "exampleJa": "栄養の改善が乳児死亡率を下げました。",
+      "level": 5
+    },
+    {
+      "headword": "motivation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmoʊtɪˈveɪʃən/",
+      "meaning": "動機づけ",
+      "exampleEn": "Praise increases a student's motivation.",
+      "exampleJa": "褒めることは生徒の意欲を高めます。",
+      "level": 4
+    },
+    {
+      "headword": "nutrition",
+      "partOfSpeech": "noun",
+      "phonetic": "/nuːˈtrɪʃən/",
+      "meaning": "栄養；栄養摂取",
+      "exampleEn": "A balanced meal gives us good nutrition.",
+      "exampleJa": "バランスの取れた食事は私たちに良い栄養を与えます。",
+      "level": 3
+    },
+    {
+      "headword": "obesity",
+      "partOfSpeech": "noun",
+      "phonetic": "/oʊˈbiːsəti/",
+      "meaning": "肥満",
+      "exampleEn": "Obesity raises the risk of heart disease.",
+      "exampleJa": "肥満は心臓病の危険を高めます。",
+      "level": 5
+    },
+    {
+      "headword": "obligation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːblɪˈɡeɪʃən/",
+      "meaning": "義務；責任",
+      "exampleEn": "We have an obligation to help.",
+      "exampleJa": "私達には助ける義務があります。",
+      "level": 4
+    },
+    {
+      "headword": "obsession",
+      "partOfSpeech": "noun",
+      "phonetic": "/əbˈseʃən/",
+      "meaning": "強迫観念；執着",
+      "exampleEn": "His obsession with work harmed his family.",
+      "exampleJa": "仕事への執着が彼の家族を傷つけました。",
+      "level": 5
+    },
+    {
+      "headword": "optimism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːptɪmɪzəm/",
+      "meaning": "楽観",
+      "exampleEn": "There is cautious optimism about the economy.",
+      "exampleJa": "経済については慎重な楽観が見られます。",
+      "level": 4
+    },
+    {
+      "headword": "passion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæʃən/",
+      "meaning": "情熱",
+      "exampleEn": "She speaks about literature with passion.",
+      "exampleJa": "彼女は文学について情熱をもって語ります。",
+      "level": 3
+    },
+    {
+      "headword": "patience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪʃəns/",
+      "meaning": "忍耐",
+      "exampleEn": "Learning a language requires patience.",
+      "exampleJa": "言語の習得には忍耐が要ります。",
+      "level": 3
+    },
+    {
+      "headword": "perception",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈsepʃən/",
+      "meaning": "知覚；認識；見解",
+      "exampleEn": "Public perception of safety changed.",
+      "exampleJa": "安全に関する世間の認識が変わりました。",
+      "level": 3
+    },
+    {
+      "headword": "personality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɜːrsəˈnæləti/",
+      "meaning": "性格；個性",
+      "exampleEn": "She has a bright and friendly personality.",
+      "exampleJa": "彼女は明るく親しみやすい性格です。",
+      "level": 3
+    },
+    {
+      "headword": "pessimism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpesɪmɪzəm/",
+      "meaning": "悲観主義；悲観",
+      "exampleEn": "Pessimism about the economy spread among workers.",
+      "exampleJa": "経済についての悲観が労働者の間に広まりました。",
+      "level": 4
+    },
+    {
+      "headword": "pride",
+      "partOfSpeech": "noun",
+      "phonetic": "/praɪd/",
+      "meaning": "誇り；自尊心",
+      "exampleEn": "He takes great pride in his work.",
+      "exampleJa": "彼は自分の仕事に大きな誇りを持っています。",
+      "level": 2
+    },
+    {
+      "headword": "privacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpraɪvəsi/",
+      "meaning": "プライバシー；私生活",
+      "exampleEn": "The new law protects our personal privacy.",
+      "exampleJa": "新しい法律は私たちの個人のプライバシーを守ります。",
+      "level": 2
+    },
+    {
+      "headword": "prosperity",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɑːˈsperəti/",
+      "meaning": "繁栄；成功",
+      "exampleEn": "The country enjoyed years of economic prosperity.",
+      "exampleJa": "その国は何年もの経済的繁栄を享受しました。",
+      "level": 3
+    },
+    {
+      "headword": "resilience",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈzɪliəns/",
+      "meaning": "立ち直る力",
+      "exampleEn": "The town showed resilience after the disaster.",
+      "exampleJa": "その町は災害のあと立ち直る力を見せました。",
+      "level": 5
+    },
+    {
+      "headword": "satisfaction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsætɪsˈfækʃn/",
+      "meaning": "満足度；満足",
+      "exampleEn": "Customer satisfaction is our highest priority.",
+      "exampleJa": "顧客満足度が当社の最優先事項です。",
+      "level": 3
+    },
+    {
+      "headword": "sentiment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsentɪmənt/",
+      "meaning": "感情；意見",
+      "exampleEn": "Public sentiment turned against the reform.",
+      "exampleJa": "世論はその改革に反対へ傾きました。",
+      "level": 5
+    },
+    {
+      "headword": "sibling",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪblɪŋ/",
+      "meaning": "きょうだい",
+      "exampleEn": "He has three siblings in another province.",
+      "exampleJa": "彼には別の州に三人のきょうだいがいます。",
+      "level": 4
+    },
+    {
+      "headword": "stability",
+      "partOfSpeech": "noun",
+      "phonetic": "/stəˈbɪləti/",
+      "meaning": "安定",
+      "exampleEn": "The treaty brought stability to the region.",
+      "exampleJa": "その条約は地域に安定をもたらしました。",
+      "level": 4
+    },
+    {
+      "headword": "stimulus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstɪmjələs/",
+      "meaning": "刺激",
+      "exampleEn": "The subsidy acted as an economic stimulus.",
+      "exampleJa": "その補助金は経済的な刺激になりました。",
+      "level": 5
+    },
+    {
+      "headword": "survival",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈvaɪvəl/",
+      "meaning": "生存",
+      "exampleEn": "Clean water is essential for survival.",
+      "exampleJa": "きれいな水は生存に欠かせません。",
+      "level": 4
+    },
+    {
+      "headword": "sympathy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmpəθi/",
+      "meaning": "同情",
+      "exampleEn": "The letter expressed deep sympathy.",
+      "exampleJa": "その手紙は深い同情を伝えていました。",
+      "level": 4
+    },
+    {
+      "headword": "symptom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmptəm/",
+      "meaning": "症状；兆候",
+      "exampleEn": "A high fever is a common symptom of flu.",
+      "exampleJa": "高い熱はインフルエンザによくある症状です。",
+      "level": 3
+    },
+    {
+      "headword": "temptation",
+      "partOfSpeech": "noun",
+      "phonetic": "/tempˈteɪʃən/",
+      "meaning": "誘惑",
+      "exampleEn": "He resisted the temptation to give up.",
+      "exampleJa": "彼はあきらめたい誘惑に耐えました。",
+      "level": 5
+    },
+    {
+      "headword": "tolerance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɑːlərəns/",
+      "meaning": "寛容",
+      "exampleEn": "Tolerance toward other cultures matters.",
+      "exampleJa": "他の文化への寛容さが大切です。",
+      "level": 4
+    },
+    {
+      "headword": "tragedy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrædʒədi/",
+      "meaning": "悲劇；惨事",
+      "exampleEn": "Shakespeare wrote famous tragedies.",
+      "exampleJa": "シェイクスピアは有名な悲劇を執筆しました。",
+      "level": 3
+    },
+    {
+      "headword": "trait",
+      "partOfSpeech": "noun",
+      "phonetic": "/treɪt/",
+      "meaning": "特性",
+      "exampleEn": "Curiosity is a valuable trait.",
+      "exampleJa": "好奇心は価値ある特性です。",
+      "level": 5
+    },
+    {
+      "headword": "trauma",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtrɔːmə/",
+      "meaning": "心的外傷",
+      "exampleEn": "Therapy helped him recover from the trauma.",
+      "exampleJa": "療法が彼の心の傷からの回復を助けました。",
+      "level": 5
+    },
+    {
+      "headword": "urge",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɜːrdʒ/",
+      "meaning": "衝動",
+      "exampleEn": "She felt a sudden urge to travel.",
+      "exampleJa": "彼女は急に旅に出たい衝動を覚えました。",
+      "level": 4
+    },
+    {
+      "headword": "vaccination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌvæksɪˈneɪʃən/",
+      "meaning": "予防接種",
+      "exampleEn": "Vaccination prevented a serious epidemic.",
+      "exampleJa": "予防接種が深刻な流行を防ぎました。",
+      "level": 4
+    },
+    {
+      "headword": "virtue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɜːrtʃuː/",
+      "meaning": "美徳；長所",
+      "exampleEn": "Patience is a great virtue.",
+      "exampleJa": "忍耐は素晴らしい美徳です。",
+      "level": 3
+    },
+    {
+      "headword": "willingness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪlɪŋnəs/",
+      "meaning": "進んでする気持ち",
+      "exampleEn": "His willingness to help impressed everyone.",
+      "exampleJa": "進んで手伝う彼の姿勢が皆を感心させました。",
+      "level": 5
+    },
+    {
+      "headword": "wisdom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪzdəm/",
+      "meaning": "知恵；賢さ",
+      "exampleEn": "Experience brings wisdom.",
+      "exampleJa": "経験は知恵をもたらします。",
+      "level": 3
+    }
+  ]
+}

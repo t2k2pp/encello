@@ -1,0 +1,699 @@
+{
+  "chunk": "04_nouns_society_law",
+  "note": "社会・政治・法（77語）",
+  "words": [
+    {
+      "headword": "activist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæktɪvɪst/",
+      "meaning": "活動家；アクティビスト",
+      "exampleEn": "Human rights activist spoke at international peace conference.",
+      "exampleJa": "人権活動家が国際平和会議で講演しました。",
+      "level": 3
+    },
+    {
+      "headword": "administration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+      "meaning": "管理；行政；政権",
+      "exampleEn": "The new administration lowered taxes on small businesses.",
+      "exampleJa": "新しい政権は中小企業への税金を下げました。",
+      "level": 4
+    },
+    {
+      "headword": "agenda",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈdʒendə/",
+      "meaning": "議題；協議事項",
+      "exampleEn": "The chairman read the conference agenda.",
+      "exampleJa": "議長が会議の議題を読み上げました。",
+      "level": 4
+    },
+    {
+      "headword": "alliance",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈlaɪəns/",
+      "meaning": "同盟；提携",
+      "exampleEn": "Two nations formed a military alliance.",
+      "exampleJa": "2国は軍事同盟を結びました。",
+      "level": 4
+    },
+    {
+      "headword": "ambassador",
+      "partOfSpeech": "noun",
+      "phonetic": "/æmˈbæsədər/",
+      "meaning": "大使；使節",
+      "exampleEn": "The Japanese ambassador met the French president.",
+      "exampleJa": "日本の大使がフランスの大統領と会いました。",
+      "level": 4
+    },
+    {
+      "headword": "ballot",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbælət/",
+      "meaning": "投票；投票用紙",
+      "exampleEn": "Each voter put a ballot in the box.",
+      "exampleJa": "有権者はそれぞれ投票用紙を箱に入れました。",
+      "level": 4
+    },
+    {
+      "headword": "boundary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbaʊndri/",
+      "meaning": "境界；境界線；限界",
+      "exampleEn": "The river forms the boundary between the two countries.",
+      "exampleJa": "その川は二つの国の境界線になっています。",
+      "level": 3
+    },
+    {
+      "headword": "campaign",
+      "partOfSpeech": "noun",
+      "phonetic": "/kæmˈpeɪn/",
+      "meaning": "運動；キャンペーン；宣伝活動",
+      "exampleEn": "The city started a health campaign last month.",
+      "exampleJa": "市は先月、健康キャンペーンを始めました。",
+      "level": 3
+    },
+    {
+      "headword": "candidate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkændɪdeɪt/",
+      "meaning": "候補者；志願者",
+      "exampleEn": "Each candidate gave a short speech before the election.",
+      "exampleJa": "各候補者は選挙の前に短い演説をしました。",
+      "level": 3
+    },
+    {
+      "headword": "charity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃærəti/",
+      "meaning": "慈善；慈善事業；慈善団体",
+      "exampleEn": "The event raised money for a local charity.",
+      "exampleJa": "そのイベントは地元の慈善団体のために資金を集めました。",
+      "level": 3
+    },
+    {
+      "headword": "citizenship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪtɪzənʃɪp/",
+      "meaning": "市民権；国籍",
+      "exampleEn": "He applied for Japanese citizenship last year.",
+      "exampleJa": "彼は昨年、日本の市民権を申請しました。",
+      "level": 3
+    },
+    {
+      "headword": "coalition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkoʊəˈlɪʃn/",
+      "meaning": "連立；連合；同盟",
+      "exampleEn": "The two parties formed a coalition government.",
+      "exampleJa": "2つの政党が連立政権を作りました。",
+      "level": 4
+    },
+    {
+      "headword": "colony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːləni/",
+      "meaning": "植民地；コロニー；群集",
+      "exampleEn": "A colony of penguins lives on the ice.",
+      "exampleJa": "ペンギンの群れが氷の上で暮らしています。",
+      "level": 3
+    },
+    {
+      "headword": "constitution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːnstəˈtuːʃn/",
+      "meaning": "憲法；構成；体質",
+      "exampleEn": "The nation adopted a new constitution in 1947.",
+      "exampleJa": "その国は1947年に新しい憲法を採用しました。",
+      "level": 4
+    },
+    {
+      "headword": "controversy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntrəvɜːrsi/",
+      "meaning": "論争；物議",
+      "exampleEn": "The decision caused a great deal of controversy.",
+      "exampleJa": "その決定は大きな論争を引き起こしました。",
+      "level": 4
+    },
+    {
+      "headword": "convention",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈvenʃn/",
+      "meaning": "慣習；大会；条約",
+      "exampleEn": "She attended a medical convention in Osaka.",
+      "exampleJa": "彼女は大阪で開かれた医学の大会に出席しました。",
+      "level": 4
+    },
+    {
+      "headword": "council",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkaʊnsl/",
+      "meaning": "議会；評議会",
+      "exampleEn": "The city council approved the new library budget.",
+      "exampleJa": "市議会が新しい図書館の予算を承認しました。",
+      "level": 4
+    },
+    {
+      "headword": "criminal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkrɪmɪnl/",
+      "meaning": "犯人；犯罪者",
+      "exampleEn": "The police caught the criminal near the river.",
+      "exampleJa": "警察は川の近くで犯人を捕まえました。",
+      "level": 3
+    },
+    {
+      "headword": "defendant",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈfendənt/",
+      "meaning": "被告",
+      "exampleEn": "The defendant stood quietly before the judge.",
+      "exampleJa": "被告は裁判官の前に静かに立ちました。",
+      "level": 4
+    },
+    {
+      "headword": "delegate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdelɪɡət/",
+      "meaning": "代表者；使節",
+      "exampleEn": "Delegates from thirty countries attended the meeting.",
+      "exampleJa": "30カ国の代表者が会議に出席しました。",
+      "level": 4
+    },
+    {
+      "headword": "demonstration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdemənˈstreɪʃn/",
+      "meaning": "実演；証明；デモ",
+      "exampleEn": "We watched a product demonstration at the fair.",
+      "exampleJa": "私たちは見本市で製品の実演を見ました。",
+      "level": 3
+    },
+    {
+      "headword": "dictator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪkteɪtər/",
+      "meaning": "独裁者",
+      "exampleEn": "The dictator ruled the country for thirty years.",
+      "exampleJa": "その独裁者は30年間その国を支配しました。",
+      "level": 3
+    },
+    {
+      "headword": "diplomacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈploʊməsi/",
+      "meaning": "外交；駆け引き",
+      "exampleEn": "They solved the conflict through patient diplomacy.",
+      "exampleJa": "彼らは辛抱強い外交によって紛争を解決しました。",
+      "level": 4
+    },
+    {
+      "headword": "discrimination",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˌskrɪmɪˈneɪʃn/",
+      "meaning": "差別；識別力",
+      "exampleEn": "We must fight against racial discrimination.",
+      "exampleJa": "私たちは人種差別と戦わなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "dispute",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈspjuːt/",
+      "meaning": "紛争；論争；議論",
+      "exampleEn": "The two nations settled their border dispute.",
+      "exampleJa": "その二つの国は国境の紛争を解決しました。",
+      "level": 4
+    },
+    {
+      "headword": "embassy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈembəsi/",
+      "meaning": "大使館",
+      "exampleEn": "Protesters gathered outside embassy.",
+      "exampleJa": "抗議者たちが大使館の外に集まりました。",
+      "level": 3
+    },
+    {
+      "headword": "enforcement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfɔːrsmənt/",
+      "meaning": "施行；取り締まり",
+      "exampleEn": "Strict enforcement reduced traffic accidents.",
+      "exampleJa": "厳しい取り締まりで交通事故が減りました。",
+      "level": 5
+    },
+    {
+      "headword": "ethics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeθɪks/",
+      "meaning": "倫理；道徳規範",
+      "exampleEn": "Medical ethics is very important.",
+      "exampleJa": "医療倫理は非常に重要です。",
+      "level": 4
+    },
+    {
+      "headword": "facility",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈsɪləti/",
+      "meaning": "施設；設備",
+      "exampleEn": "The new research facility opened last month.",
+      "exampleJa": "新しい研究施設が先月開設しました。",
+      "level": 3
+    },
+    {
+      "headword": "framework",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfreɪmwɜːrk/",
+      "meaning": "枠組み；骨組み",
+      "exampleEn": "Build a solid conceptual framework.",
+      "exampleJa": "確固たる概念的枠組みを築きなさい。",
+      "level": 4
+    },
+    {
+      "headword": "guideline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡaɪdlaɪn/",
+      "meaning": "指針；ガイドライン",
+      "exampleEn": "The new guidelines are on our website.",
+      "exampleJa": "新しい指針は私たちのウェブサイトにあります。",
+      "level": 3
+    },
+    {
+      "headword": "heritage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "meaning": "遺産；継承物",
+      "exampleEn": "Kyoto has rich cultural heritage.",
+      "exampleJa": "京都には豊かな文化遺産があります。",
+      "level": 3
+    },
+    {
+      "headword": "hierarchy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhaɪərɑːrki/",
+      "meaning": "階級組織；ヒエラルキー",
+      "exampleEn": "Respect organizational hierarchy.",
+      "exampleJa": "組織の階級秩序を尊重しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "immigrant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmɪɡrənt/",
+      "meaning": "移民；移住者",
+      "exampleEn": "The immigrant family settled in a new country.",
+      "exampleJa": "その移民家族は新しい国に定住しました。",
+      "level": 3
+    },
+    {
+      "headword": "independence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪndɪˈpendəns/",
+      "meaning": "独立",
+      "exampleEn": "The colony gained independence in 1960.",
+      "exampleJa": "その植民地は1960年に独立を果たしました。",
+      "level": 3
+    },
+    {
+      "headword": "inequality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnɪˈkwɑːləti/",
+      "meaning": "不平等",
+      "exampleEn": "Economic inequality remains a serious issue.",
+      "exampleJa": "経済的な不平等は深刻な問題のままです。",
+      "level": 4
+    },
+    {
+      "headword": "jury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒʊri/",
+      "meaning": "陪審員団",
+      "exampleEn": "Jury reached a unanimous verdict.",
+      "exampleJa": "陪審員団は全員一致の評決に達しました。",
+      "level": 3
+    },
+    {
+      "headword": "legislation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌledʒɪsˈleɪʃən/",
+      "meaning": "立法；法律",
+      "exampleEn": "New legislation protects worker safety.",
+      "exampleJa": "新しい法律規律が労働者の安全を守ります。",
+      "level": 4
+    },
+    {
+      "headword": "liberty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪbərti/",
+      "meaning": "自由；解放",
+      "exampleEn": "Statue of Liberty stands in New York.",
+      "exampleJa": "自由の女神像がニューヨークに立っています。",
+      "level": 3
+    },
+    {
+      "headword": "majority",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈdʒɔːrəti/",
+      "meaning": "大多数；過半数",
+      "exampleEn": "The majority of students agreed with the plan.",
+      "exampleJa": "大多数の生徒がその計画に賛成しました。",
+      "level": 3
+    },
+    {
+      "headword": "migration",
+      "partOfSpeech": "noun",
+      "phonetic": "/maɪˈɡreɪʃən/",
+      "meaning": "移住；渡り",
+      "exampleEn": "Climate change affects bird migration.",
+      "exampleJa": "気候変動は鳥の渡りに影響します。",
+      "level": 4
+    },
+    {
+      "headword": "minister",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪnɪstər/",
+      "meaning": "大臣；聖職者",
+      "exampleEn": "The prime minister visited France.",
+      "exampleJa": "首相はフランスを訪問しました。",
+      "level": 3
+    },
+    {
+      "headword": "minority",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈnɔːrəti/",
+      "meaning": "少数派",
+      "exampleEn": "A small minority opposed the new policy.",
+      "exampleJa": "少数の人々が新しい方針に反対しました。",
+      "level": 4
+    },
+    {
+      "headword": "monarchy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːnərki/",
+      "meaning": "君主制",
+      "exampleEn": "The revolution ended the old monarchy.",
+      "exampleJa": "その革命は古い君主制を終わらせました。",
+      "level": 5
+    },
+    {
+      "headword": "nationality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌnæʃəˈnæləti/",
+      "meaning": "国籍",
+      "exampleEn": "Please write your nationality on this form.",
+      "exampleJa": "この用紙に国籍を書いてください。",
+      "level": 3
+    },
+    {
+      "headword": "negotiation",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɪˌɡoʊʃiˈeɪʃn/",
+      "meaning": "交渉；協議",
+      "exampleEn": "The negotiation lasted three days.",
+      "exampleJa": "その交渉は3日間続きました。",
+      "level": 4
+    },
+    {
+      "headword": "opponent",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpoʊnənt/",
+      "meaning": "相手；対戦相手",
+      "exampleEn": "She played well against her opponent.",
+      "exampleJa": "彼女は対戦相手に対してよいプレーをしました。",
+      "level": 3
+    },
+    {
+      "headword": "parliament",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrləmənt/",
+      "meaning": "議会",
+      "exampleEn": "Members of parliament met yesterday.",
+      "exampleJa": "国会議員たちが昨日会合を開きました。",
+      "level": 4
+    },
+    {
+      "headword": "penalty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpenəlti/",
+      "meaning": "罰則；罰金",
+      "exampleEn": "The penalty for the violation is severe.",
+      "exampleJa": "その違反に対する罰則は重いです。",
+      "level": 4
+    },
+    {
+      "headword": "petition",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈtɪʃn/",
+      "meaning": "請願；請願書；嘆願",
+      "exampleEn": "Thousands of citizens signed the petition online.",
+      "exampleJa": "何千人もの市民がオンラインでその請願書に署名しました。",
+      "level": 4
+    },
+    {
+      "headword": "prejudice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpredʒədɪs/",
+      "meaning": "偏見；先入観",
+      "exampleEn": "We must fight against prejudice in our society.",
+      "exampleJa": "私たちは社会の偏見と戦わなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "privilege",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɪvəlɪdʒ/",
+      "meaning": "特権；名誉",
+      "exampleEn": "It is a privilege to speak here.",
+      "exampleJa": "ここでお話しできることは光栄です。",
+      "level": 4
+    },
+    {
+      "headword": "province",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːvɪns/",
+      "meaning": "省；地方；分野",
+      "exampleEn": "They traveled across a northern province of Canada.",
+      "exampleJa": "彼らはカナダ北部の州を横断して旅しました。",
+      "level": 3
+    },
+    {
+      "headword": "racism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈreɪsɪzəm/",
+      "meaning": "人種差別",
+      "exampleEn": "The campaign fights racism in schools.",
+      "exampleJa": "その運動は学校での人種差別と闘っています。",
+      "level": 4
+    },
+    {
+      "headword": "reform",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈfɔːrm/",
+      "meaning": "改革；改善",
+      "exampleEn": "Educational reform is needed.",
+      "exampleJa": "教育改革が必要です。",
+      "level": 3
+    },
+    {
+      "headword": "refugee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrefjuˈdʒiː/",
+      "meaning": "難民",
+      "exampleEn": "The community welcomed refugees from the conflict.",
+      "exampleJa": "その地域は紛争から逃れた難民を受け入れました。",
+      "level": 4
+    },
+    {
+      "headword": "regulation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌreɡjuˈleɪʃən/",
+      "meaning": "規則；規制",
+      "exampleEn": "The company follows strict safety regulations.",
+      "exampleJa": "その会社は厳しい安全規則に従っています。",
+      "level": 3
+    },
+    {
+      "headword": "reputation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrepjəˈteɪʃən/",
+      "meaning": "評判；名声",
+      "exampleEn": "The hospital has a good reputation.",
+      "exampleJa": "その病院は良い評判を得ています。",
+      "level": 3
+    },
+    {
+      "headword": "republic",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈpʌblɪk/",
+      "meaning": "共和国",
+      "exampleEn": "France is a democratic republic.",
+      "exampleJa": "フランスは民主共和国です。",
+      "level": 3
+    },
+    {
+      "headword": "resolution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrezəˈluːʃən/",
+      "meaning": "決議；解決；決意",
+      "exampleEn": "UN passed peace resolution.",
+      "exampleJa": "国連は和平決議を可決しました。",
+      "level": 3
+    },
+    {
+      "headword": "revolution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrevəˈluːʃən/",
+      "meaning": "革命；回転",
+      "exampleEn": "Industrial revolution changed history.",
+      "exampleJa": "産業革命は歴史を変えました。",
+      "level": 3
+    },
+    {
+      "headword": "security",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈkjʊrəti/",
+      "meaning": "警備；セキュリティ；安心",
+      "exampleEn": "The airport tightened its security checks last month.",
+      "exampleJa": "空港は先月、保安検査を強化しました。",
+      "level": 2
+    },
+    {
+      "headword": "sentence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsentəns/",
+      "meaning": "文",
+      "exampleEn": "Make a sentence using this word.",
+      "exampleJa": "この単語を使って文を作りなさい。",
+      "level": 1
+    },
+    {
+      "headword": "session",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈseʃən/",
+      "meaning": "会期；集まり",
+      "exampleEn": "Parliament opened a special session today.",
+      "exampleJa": "議会は今日、特別会期を開きました。",
+      "level": 4
+    },
+    {
+      "headword": "settlement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsetəlmənt/",
+      "meaning": "解決；入植地",
+      "exampleEn": "Both sides reached a fair settlement.",
+      "exampleJa": "双方が公正な解決に達しました。",
+      "level": 4
+    },
+    {
+      "headword": "slavery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsleɪvəri/",
+      "meaning": "奴隷制度",
+      "exampleEn": "The law abolished slavery in this republic.",
+      "exampleJa": "その法律はこの共和国の奴隷制度を廃止しました。",
+      "level": 4
+    },
+    {
+      "headword": "summit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌmɪt/",
+      "meaning": "首脳会談；頂上",
+      "exampleEn": "Leaders discussed climate change at the summit.",
+      "exampleJa": "首脳会談で各国の指導者が気候変動を議論しました。",
+      "level": 4
+    },
+    {
+      "headword": "sustainability",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˌsteɪnəˈbɪləti/",
+      "meaning": "持続可能性",
+      "exampleEn": "The company reports on environmental sustainability.",
+      "exampleJa": "その会社は環境の持続可能性について報告しています。",
+      "level": 5
+    },
+    {
+      "headword": "terrorism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈterərɪzəm/",
+      "meaning": "テロ行為",
+      "exampleEn": "The treaty aims to prevent terrorism.",
+      "exampleJa": "その条約はテロ行為を防ぐことを目指しています。",
+      "level": 4
+    },
+    {
+      "headword": "testimony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtestɪmoʊni/",
+      "meaning": "証言",
+      "exampleEn": "The jury believed her clear testimony.",
+      "exampleJa": "陪審は彼女の明快な証言を信じました。",
+      "level": 5
+    },
+    {
+      "headword": "treaty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtriːti/",
+      "meaning": "条約；協定",
+      "exampleEn": "Nations signed trade treaty.",
+      "exampleJa": "諸国は貿易条約に署名しました。",
+      "level": 3
+    },
+    {
+      "headword": "unity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːnəti/",
+      "meaning": "結束；統一",
+      "exampleEn": "The crisis strengthened national unity.",
+      "exampleJa": "その危機は国民の結束を強めました。",
+      "level": 4
+    },
+    {
+      "headword": "verdict",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɜːrdɪkt/",
+      "meaning": "評決；判定",
+      "exampleEn": "Jury delivered a guilty verdict.",
+      "exampleJa": "陪審員団は有罪評決を下しました。",
+      "level": 4
+    },
+    {
+      "headword": "violation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌvaɪəˈleɪʃən/",
+      "meaning": "違反",
+      "exampleEn": "This is a clear violation of the regulation.",
+      "exampleJa": "これは明らかな規則違反です。",
+      "level": 4
+    },
+    {
+      "headword": "warfare",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɔːrfer/",
+      "meaning": "戦争行為",
+      "exampleEn": "Modern warfare relies on advanced technology.",
+      "exampleJa": "現代の戦争は高度な技術に頼っています。",
+      "level": 5
+    },
+    {
+      "headword": "welfare",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwelfer/",
+      "meaning": "福祉；幸福",
+      "exampleEn": "The state improves social welfare.",
+      "exampleJa": "国家は社会福祉を改善します。",
+      "level": 3
+    },
+    {
+      "headword": "witness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪtnəs/",
+      "meaning": "目撃者；証人",
+      "exampleEn": "The witness described the accident in detail.",
+      "exampleJa": "目撃者はその事故を詳しく説明しました。",
+      "level": 4
+    }
+  ]
+}

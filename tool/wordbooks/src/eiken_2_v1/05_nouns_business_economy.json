@@ -1,0 +1,753 @@
+{
+  "chunk": "05_nouns_business_economy",
+  "note": "仕事・ビジネス・経済（83語）",
+  "words": [
+    {
+      "headword": "acquisition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌækwɪˈzɪʃn/",
+      "meaning": "買収；取得；獲得",
+      "exampleEn": "The company announced a major acquisition.",
+      "exampleJa": "その会社は大規模な買収を発表しました。",
+      "level": 4
+    },
+    {
+      "headword": "asset",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæset/",
+      "meaning": "資産；強み",
+      "exampleEn": "Her language skills are a real asset.",
+      "exampleJa": "彼女の語学力は大きな強みです。",
+      "level": 4
+    },
+    {
+      "headword": "auction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːkʃn/",
+      "meaning": "競売；オークション",
+      "exampleEn": "She bought an old painting at an auction.",
+      "exampleJa": "彼女はオークションで古い絵を買いました。",
+      "level": 3
+    },
+    {
+      "headword": "audit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːdɪt/",
+      "meaning": "会計監査；監査",
+      "exampleEn": "The company passed the annual financial audit.",
+      "exampleJa": "その会社は年に一度の会計監査に合格しました。",
+      "level": 4
+    },
+    {
+      "headword": "bankruptcy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæŋkrʌptsi/",
+      "meaning": "破産；倒産",
+      "exampleEn": "The airline filed for bankruptcy in May.",
+      "exampleJa": "その航空会社は5月に破産を申請しました。",
+      "level": 4
+    },
+    {
+      "headword": "bid",
+      "partOfSpeech": "noun",
+      "phonetic": "/bɪd/",
+      "meaning": "入札；競り",
+      "exampleEn": "Our company made the lowest bid.",
+      "exampleJa": "私たちの会社が最も低い入札をしました。",
+      "level": 4
+    },
+    {
+      "headword": "brand",
+      "partOfSpeech": "noun",
+      "phonetic": "/brænd/",
+      "meaning": "ブランド；銘柄；商標",
+      "exampleEn": "This brand is very popular among students.",
+      "exampleJa": "このブランドは学生の間でとても人気があります。",
+      "level": 2
+    },
+    {
+      "headword": "capital",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæpɪtl/",
+      "meaning": "首都；資本；大文字",
+      "exampleEn": "Tokyo is the capital city of Japan.",
+      "exampleJa": "東京は日本の首都です。",
+      "level": 2
+    },
+    {
+      "headword": "cargo",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrɡoʊ/",
+      "meaning": "貨物；積荷",
+      "exampleEn": "The ship carried cargo from Japan to Korea.",
+      "exampleJa": "その船は日本から韓国へ貨物を運びました。",
+      "level": 3
+    },
+    {
+      "headword": "commodity",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmɑːdəti/",
+      "meaning": "商品；日用品",
+      "exampleEn": "Oil is an important commodity in world trade.",
+      "exampleJa": "石油は世界の貿易において重要な商品です。",
+      "level": 4
+    },
+    {
+      "headword": "credit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkredɪt/",
+      "meaning": "信用；クレジット；履修単位",
+      "exampleEn": "He needs three more credits to graduate.",
+      "exampleJa": "彼は卒業するのにあと3単位必要です。",
+      "level": 3
+    },
+    {
+      "headword": "currency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrənsi/",
+      "meaning": "通貨；貨幣；流通",
+      "exampleEn": "The yen is the currency of Japan.",
+      "exampleJa": "円は日本の通貨です。",
+      "level": 4
+    },
+    {
+      "headword": "deadline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdedlaɪn/",
+      "meaning": "締め切り",
+      "exampleEn": "We cannot extend the deadline again.",
+      "exampleJa": "締め切りをもう一度延ばすことはできません。",
+      "level": 3
+    },
+    {
+      "headword": "deficit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdefɪsɪt/",
+      "meaning": "赤字；不足額",
+      "exampleEn": "The government's budget deficit grew larger this year.",
+      "exampleJa": "政府の予算の赤字は今年さらに拡大しました。",
+      "level": 4
+    },
+    {
+      "headword": "delivery",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈlɪvəri/",
+      "meaning": "配達；配送",
+      "exampleEn": "Delivery usually takes three to five days.",
+      "exampleJa": "配達には通常3日から5日かかります。",
+      "level": 2
+    },
+    {
+      "headword": "dividend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪvɪdend/",
+      "meaning": "配当金；配当",
+      "exampleEn": "Shareholders received a dividend last quarter.",
+      "exampleJa": "株主は前の四半期に配当金を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "earnings",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɜːrnɪŋz/",
+      "meaning": "所得；給料",
+      "exampleEn": "His earnings increased by five percent last year.",
+      "exampleJa": "彼の所得は昨年5パーセント増えました。",
+      "level": 3
+    },
+    {
+      "headword": "efficiency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈfɪʃənsi/",
+      "meaning": "効率；能率",
+      "exampleEn": "Improve fuel efficiency of cars.",
+      "exampleJa": "車の燃費効率を向上させなさい。",
+      "level": 3
+    },
+    {
+      "headword": "enterprise",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈentərpraɪz/",
+      "meaning": "企業；事業",
+      "exampleEn": "He founded a joint enterprise.",
+      "exampleJa": "彼は共同企業を立ち上げました。",
+      "level": 4
+    },
+    {
+      "headword": "entrepreneur",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːntrəprəˈnɜːr/",
+      "meaning": "起業家；実業家",
+      "exampleEn": "Young entrepreneur started a tech firm.",
+      "exampleJa": "若い起業家がIT企業を立ち上げました。",
+      "level": 4
+    },
+    {
+      "headword": "estimate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈestɪmət/",
+      "meaning": "見積もり；概算",
+      "exampleEn": "We asked for an estimate of the repair cost.",
+      "exampleJa": "私たちは修理費用の見積もりを依頼しました。",
+      "level": 3
+    },
+    {
+      "headword": "expenditure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspendɪtʃər/",
+      "meaning": "支出；経費",
+      "exampleEn": "The company reduced its office expenditure last year.",
+      "exampleJa": "会社は昨年オフィスの支出を削減しました。",
+      "level": 4
+    },
+    {
+      "headword": "export",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈekspɔːrt/",
+      "meaning": "輸出",
+      "exampleEn": "Coffee is this country's main export.",
+      "exampleJa": "コーヒーはこの国の主要な輸出品です。",
+      "level": 3
+    },
+    {
+      "headword": "franchise",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfræntʃaɪz/",
+      "meaning": "販売権；フランチャイズ",
+      "exampleEn": "He bought a franchise of a coffee chain.",
+      "exampleJa": "彼はコーヒー店チェーンの販売権を買いました。",
+      "level": 5
+    },
+    {
+      "headword": "goods",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡʊdz/",
+      "meaning": "商品",
+      "exampleEn": "This shop sells cheap goods.",
+      "exampleJa": "この店は安い商品を売っています。",
+      "level": 2
+    },
+    {
+      "headword": "headquarters",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhedkwɔːrtərz/",
+      "meaning": "本社；本部",
+      "exampleEn": "Our company moved its headquarters to Osaka.",
+      "exampleJa": "私たちの会社は本社を大阪に移しました。",
+      "level": 3
+    },
+    {
+      "headword": "inflation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfleɪʃən/",
+      "meaning": "インフレ；物価上昇",
+      "exampleEn": "Inflation has raised prices across the country.",
+      "exampleJa": "インフレが国中で物価を押し上げました。",
+      "level": 4
+    },
+    {
+      "headword": "infrastructure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnfrəstrʌktʃər/",
+      "meaning": "インフラ；社会基盤",
+      "exampleEn": "Invest in public infrastructure.",
+      "exampleJa": "公共インフラに投資しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "inventory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnvəntɔːri/",
+      "meaning": "在庫；棚卸し",
+      "exampleEn": "The store keeps a large inventory of parts.",
+      "exampleJa": "その店は部品の在庫を大量に持っています。",
+      "level": 4
+    },
+    {
+      "headword": "invoice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnvɔɪs/",
+      "meaning": "請求書；送状",
+      "exampleEn": "We sent the invoice to the client yesterday.",
+      "exampleJa": "私たちは昨日、顧客に請求書を送りました。",
+      "level": 4
+    },
+    {
+      "headword": "landlord",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlændlɔːrd/",
+      "meaning": "家主",
+      "exampleEn": "The landlord raised the rent again.",
+      "exampleJa": "家主がまた家賃を上げました。",
+      "level": 4
+    },
+    {
+      "headword": "lease",
+      "partOfSpeech": "noun",
+      "phonetic": "/liːs/",
+      "meaning": "賃貸契約",
+      "exampleEn": "The lease expires at the end of March.",
+      "exampleJa": "賃貸契約は三月末に切れます。",
+      "level": 5
+    },
+    {
+      "headword": "liability",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌlaɪəˈbɪləti/",
+      "meaning": "負債；法的責任",
+      "exampleEn": "The firm reduced its total liabilities quickly.",
+      "exampleJa": "その会社は負債の総額を速やかに減らしました。",
+      "level": 4
+    },
+    {
+      "headword": "loan",
+      "partOfSpeech": "noun",
+      "phonetic": "/loʊn/",
+      "meaning": "ローン；融資；貸付金",
+      "exampleEn": "He applied for a small business loan.",
+      "exampleJa": "彼は中小企業向けの融資を申し込みました。",
+      "level": 3
+    },
+    {
+      "headword": "logistics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ləˈdʒɪstɪks/",
+      "meaning": "物流；ロジスティクス",
+      "exampleEn": "Our logistics team plans every delivery route.",
+      "exampleJa": "当社の物流チームがすべての配送経路を計画しています。",
+      "level": 4
+    },
+    {
+      "headword": "maintenance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeɪntənəns/",
+      "meaning": "保守；メンテナンス",
+      "exampleEn": "Regular maintenance keeps the machines in good condition.",
+      "exampleJa": "定期的な保守が機械を良い状態に保ちます。",
+      "level": 3
+    },
+    {
+      "headword": "margin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːrdʒɪn/",
+      "meaning": "利ざや；マージン；余白",
+      "exampleEn": "A high profit margin helps the company grow.",
+      "exampleJa": "高い利ざやは会社の成長に役立ちます。",
+      "level": 3
+    },
+    {
+      "headword": "merchandise",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɜːrtʃəndaɪs/",
+      "meaning": "商品；製品",
+      "exampleEn": "The store displays seasonal merchandise near the entrance.",
+      "exampleJa": "その店は入口の近くに季節商品を並べています。",
+      "level": 4
+    },
+    {
+      "headword": "merger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɜːrdʒər/",
+      "meaning": "合併",
+      "exampleEn": "The merger created a huge corporation.",
+      "exampleJa": "その合併で巨大企業が生まれました。",
+      "level": 5
+    },
+    {
+      "headword": "mortgage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɔːrɡɪdʒ/",
+      "meaning": "住宅ローン；抵当",
+      "exampleEn": "They pay their mortgage every month.",
+      "exampleJa": "彼らは毎月、住宅ローンを返済しています。",
+      "level": 4
+    },
+    {
+      "headword": "outlet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtlet/",
+      "meaning": "直営店舗；アウトレット",
+      "exampleEn": "A new outlet opened in the shopping mall.",
+      "exampleJa": "ショッピングモールに新しい直営店がオープンしました。",
+      "level": 4
+    },
+    {
+      "headword": "output",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtpʊt/",
+      "meaning": "生産高；出力",
+      "exampleEn": "The plant doubled its output this year.",
+      "exampleJa": "その工場は今年、生産高を2倍にしました。",
+      "level": 3
+    },
+    {
+      "headword": "partnership",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrtnərʃɪp/",
+      "meaning": "提携；共同経営",
+      "exampleEn": "The two firms formed a long partnership.",
+      "exampleJa": "その二社は長い提携関係を結びました。",
+      "level": 4
+    },
+    {
+      "headword": "patent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpætnt/",
+      "meaning": "特許；特許権",
+      "exampleEn": "The company holds a patent on this design.",
+      "exampleJa": "その会社はこの設計の特許を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "payroll",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪroʊl/",
+      "meaning": "給与支払い簿；総給与額",
+      "exampleEn": "The company added ten workers to the payroll.",
+      "exampleJa": "会社は10名の従業員を給与支払い簿に加えました。",
+      "level": 4
+    },
+    {
+      "headword": "pension",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpenʃn/",
+      "meaning": "年金；恩給",
+      "exampleEn": "My father receives a pension every month.",
+      "exampleJa": "父は毎月年金を受け取っています。",
+      "level": 4
+    },
+    {
+      "headword": "percentage",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈsentɪdʒ/",
+      "meaning": "割合",
+      "exampleEn": "A high percentage of students study abroad.",
+      "exampleJa": "高い割合の学生が海外で学んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "personnel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɜːrsəˈnel/",
+      "meaning": "人事；全職員",
+      "exampleEn": "The personnel department handles all hiring questions.",
+      "exampleJa": "人事部が採用に関するすべての質問に対応します。",
+      "level": 4
+    },
+    {
+      "headword": "premium",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpriːmiəm/",
+      "meaning": "保険料；割り増し金",
+      "exampleEn": "I pay my insurance premium every month.",
+      "exampleJa": "私は毎月、保険料を支払っています。",
+      "level": 4
+    },
+    {
+      "headword": "procedure",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈsiːdʒər/",
+      "meaning": "手順；手続き",
+      "exampleEn": "Everyone must follow the safety procedure in the lab.",
+      "exampleJa": "実験室では全員が安全手順に従わなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "productivity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌproʊdʌkˈtɪvəti/",
+      "meaning": "生産性",
+      "exampleEn": "The new software improved the staff's productivity.",
+      "exampleJa": "新しいソフトウェアが職員の生産性を高めました。",
+      "level": 3
+    },
+    {
+      "headword": "profit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːfɪt/",
+      "meaning": "利益；収益",
+      "exampleEn": "The store made a large profit this year.",
+      "exampleJa": "その店は今年大きな利益を上げました。",
+      "level": 3
+    },
+    {
+      "headword": "promotion",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈmoʊʃn/",
+      "meaning": "昇進；プロモーション",
+      "exampleEn": "He got a promotion for his hard work.",
+      "exampleJa": "彼は懸命に働いて昇進しました。",
+      "level": 3
+    },
+    {
+      "headword": "proposal",
+      "partOfSpeech": "noun",
+      "phonetic": "/prəˈpoʊzl/",
+      "meaning": "提案；企画書",
+      "exampleEn": "We submitted our budget proposal yesterday.",
+      "exampleJa": "私たちは昨日、予算の提案を提出しました。",
+      "level": 3
+    },
+    {
+      "headword": "prospect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːspekt/",
+      "meaning": "見通し；展望；見込み客",
+      "exampleEn": "The sales rep called a promising prospect.",
+      "exampleJa": "営業担当者が有望な見込み顧客に電話しました。",
+      "level": 4
+    },
+    {
+      "headword": "purchase",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɜːrtʃəs/",
+      "meaning": "購入；購入品",
+      "exampleEn": "Keep the receipt for every large purchase.",
+      "exampleJa": "高額な買い物では領収書を保管してください。",
+      "level": 4
+    },
+    {
+      "headword": "quotation",
+      "partOfSpeech": "noun",
+      "phonetic": "/kwoʊˈteɪʃən/",
+      "meaning": "見積もり；引用",
+      "exampleEn": "Please send a written quotation.",
+      "exampleJa": "書面での見積もりを送ってください。",
+      "level": 4
+    },
+    {
+      "headword": "receipt",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈsiːt/",
+      "meaning": "領収書；レシート；受領",
+      "exampleEn": "Please keep your receipt after paying.",
+      "exampleJa": "支払い後はレシートを保管してください。",
+      "level": 3
+    },
+    {
+      "headword": "recession",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈseʃən/",
+      "meaning": "不況",
+      "exampleEn": "Many workers lost jobs during the recession.",
+      "exampleJa": "不況の間に多くの労働者が職を失いました。",
+      "level": 4
+    },
+    {
+      "headword": "recruitment",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈkruːtmənt/",
+      "meaning": "採用活動；募集",
+      "exampleEn": "Our recruitment campaign starts next Monday.",
+      "exampleJa": "当社の採用活動は来週の月曜日に始まります。",
+      "level": 3
+    },
+    {
+      "headword": "refund",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːfʌnd/",
+      "meaning": "返金；払戻金",
+      "exampleEn": "The customer asked for a full refund.",
+      "exampleJa": "その客は全額の返金を求めました。",
+      "level": 3
+    },
+    {
+      "headword": "rent",
+      "partOfSpeech": "noun",
+      "phonetic": "/rent/",
+      "meaning": "家賃",
+      "exampleEn": "The rent is due on the first day.",
+      "exampleJa": "家賃は毎月一日が支払日です。",
+      "level": 3
+    },
+    {
+      "headword": "retail",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːteɪl/",
+      "meaning": "小売り",
+      "exampleEn": "She has worked in retail for ten years.",
+      "exampleJa": "彼女は10年間小売業で働いています。",
+      "level": 3
+    },
+    {
+      "headword": "revenue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrevənuː/",
+      "meaning": "歳入；総収益",
+      "exampleEn": "Our annual revenue rose by ten percent.",
+      "exampleJa": "当社の年間収益は10パーセント増えました。",
+      "level": 4
+    },
+    {
+      "headword": "salary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsæləri/",
+      "meaning": "給料；月給",
+      "exampleEn": "The company pays a good monthly salary.",
+      "exampleJa": "その会社は良い月給を支払っています。",
+      "level": 2
+    },
+    {
+      "headword": "sector",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsektər/",
+      "meaning": "部門；分野",
+      "exampleEn": "The service sector employs most workers here.",
+      "exampleJa": "ここではサービス部門が最も多くの労働者を雇っています。",
+      "level": 4
+    },
+    {
+      "headword": "shareholder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃerhoʊldər/",
+      "meaning": "株主",
+      "exampleEn": "Shareholders approved the annual budget.",
+      "exampleJa": "株主が年間予算を承認しました。",
+      "level": 5
+    },
+    {
+      "headword": "shipment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɪpmənt/",
+      "meaning": "発送品；出荷",
+      "exampleEn": "The shipment will leave the port on Friday.",
+      "exampleJa": "その発送品は金曜日に港を出ます。",
+      "level": 3
+    },
+    {
+      "headword": "shortage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʃɔːrtɪdʒ/",
+      "meaning": "不足；欠乏",
+      "exampleEn": "Water shortage affected crops.",
+      "exampleJa": "水不足が作物に影響を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "stock",
+      "partOfSpeech": "noun",
+      "phonetic": "/stɑːk/",
+      "meaning": "株式；在庫",
+      "exampleEn": "The company issued new shares of stock.",
+      "exampleJa": "会社は新しい株式を発行しました。",
+      "level": 2
+    },
+    {
+      "headword": "strategy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstrætədʒi/",
+      "meaning": "戦略；方針",
+      "exampleEn": "Our new strategy focuses on online sales.",
+      "exampleJa": "当社の新しい戦略はオンライン販売に重点を置いています。",
+      "level": 3
+    },
+    {
+      "headword": "subsidy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbsədi/",
+      "meaning": "補助金；助成金",
+      "exampleEn": "Government offers agricultural subsidies.",
+      "exampleJa": "政府は農業補助金を提供しています。",
+      "level": 4
+    },
+    {
+      "headword": "supplier",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈplaɪər/",
+      "meaning": "納入業者",
+      "exampleEn": "We changed our supplier last year.",
+      "exampleJa": "私たちは昨年、納入業者を変えました。",
+      "level": 4
+    },
+    {
+      "headword": "surplus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrplʌs/",
+      "meaning": "黒字；余剰",
+      "exampleEn": "The country reported a trade surplus again.",
+      "exampleJa": "その国は再び貿易黒字を計上しました。",
+      "level": 4
+    },
+    {
+      "headword": "tariff",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtærɪf/",
+      "meaning": "関税；料金表",
+      "exampleEn": "The government raised the tariff on steel.",
+      "exampleJa": "政府は鉄鋼にかかる関税を引き上げました。",
+      "level": 4
+    },
+    {
+      "headword": "transaction",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænˈzækʃən/",
+      "meaning": "取引；売買；処理",
+      "exampleEn": "The online transaction finished without trouble.",
+      "exampleJa": "オンラインの取引は問題なく完了しました。",
+      "level": 4
+    },
+    {
+      "headword": "turnover",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrnoʊvər/",
+      "meaning": "離職率；総売上高；回転率",
+      "exampleEn": "The company reduced its staff turnover last year.",
+      "exampleJa": "会社は昨年、社員の離職率を下げました。",
+      "level": 4
+    },
+    {
+      "headword": "vendor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvendər/",
+      "meaning": "業者；販売会社",
+      "exampleEn": "We ordered the parts from a local vendor.",
+      "exampleJa": "私たちは地元の販売業者に部品を発注しました。",
+      "level": 4
+    },
+    {
+      "headword": "venture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈventʃər/",
+      "meaning": "冒険的な事業",
+      "exampleEn": "The new venture attracted many investors.",
+      "exampleJa": "その新しい事業は多くの投資家を引きつけました。",
+      "level": 4
+    },
+    {
+      "headword": "warehouse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwerhaʊs/",
+      "meaning": "倉庫；保管場所",
+      "exampleEn": "Our new warehouse holds twice as much stock.",
+      "exampleJa": "当社の新しい倉庫は2倍の在庫を保管できます。",
+      "level": 3
+    },
+    {
+      "headword": "warranty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɔːrənti/",
+      "meaning": "保証",
+      "exampleEn": "This device has a two-year warranty.",
+      "exampleJa": "この機器には二年間の保証がついています。",
+      "level": 4
+    },
+    {
+      "headword": "wholesale",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhoʊlseɪl/",
+      "meaning": "卸売り",
+      "exampleEn": "The shop buys its goods at wholesale prices.",
+      "exampleJa": "その店は商品を卸売価格で仕入れています。",
+      "level": 4
+    },
+    {
+      "headword": "workforce",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːrkfɔːrs/",
+      "meaning": "全従業員；労働力",
+      "exampleEn": "Half of our workforce works from home.",
+      "exampleJa": "当社の全従業員の半数は在宅で働いています。",
+      "level": 4
+    }
+  ]
+}

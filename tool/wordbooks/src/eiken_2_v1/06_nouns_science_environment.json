@@ -1,0 +1,690 @@
+{
+  "chunk": "06_nouns_science_environment",
+  "note": "科学・環境・エネルギー（76語）",
+  "words": [
+    {
+      "headword": "acid",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæsɪd/",
+      "meaning": "酸；酸性物質",
+      "exampleEn": "Lemons contain a natural acid.",
+      "exampleJa": "レモンには天然の酸が含まれています。",
+      "level": 3
+    },
+    {
+      "headword": "adaptation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌædæpˈteɪʃn/",
+      "meaning": "適応；脚色",
+      "exampleEn": "The film is an adaptation of the novel.",
+      "exampleJa": "その映画は小説を脚色した作品です。",
+      "level": 3
+    },
+    {
+      "headword": "altitude",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæltɪtuːd/",
+      "meaning": "高度；標高",
+      "exampleEn": "The plane is flying at a high altitude.",
+      "exampleJa": "その飛行機は高い高度を飛んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "antibiotic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌæntibaɪˈɑːtɪk/",
+      "meaning": "抗生物質",
+      "exampleEn": "The doctor prescribed a strong antibiotic.",
+      "exampleJa": "医師は強い抗生物質を処方しました。",
+      "level": 4
+    },
+    {
+      "headword": "atmosphere",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætməsfɪr/",
+      "meaning": "大気；雰囲気",
+      "exampleEn": "Carbon dioxide is warming the earth's atmosphere.",
+      "exampleJa": "二酸化炭素が地球の大気を暖めています。",
+      "level": 3
+    },
+    {
+      "headword": "bacteria",
+      "partOfSpeech": "noun",
+      "phonetic": "/bækˈtɪriə/",
+      "meaning": "細菌；バクテリア",
+      "exampleEn": "Soap kills the bacteria on your hands.",
+      "exampleJa": "石けんは手についた細菌を殺します。",
+      "level": 3
+    },
+    {
+      "headword": "biodiversity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+      "meaning": "生物多様性",
+      "exampleEn": "We must protect the biodiversity of the rainforest.",
+      "exampleJa": "私たちは熱帯雨林の生物多様性を守らなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "carbon",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːrbən/",
+      "meaning": "炭素",
+      "exampleEn": "We must reduce carbon dioxide in the air.",
+      "exampleJa": "私たちは空気中の二酸化炭素を減らさなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "catastrophe",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈtæstrəfi/",
+      "meaning": "大惨事；破局",
+      "exampleEn": "The flood was a catastrophe for the village.",
+      "exampleJa": "その洪水は村にとって大惨事でした。",
+      "level": 4
+    },
+    {
+      "headword": "chemical",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkemɪkəl/",
+      "meaning": "化学物質",
+      "exampleEn": "This chemical is harmful to wildlife.",
+      "exampleJa": "この化学物質は野生生物に有害です。",
+      "level": 3
+    },
+    {
+      "headword": "circuit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrkɪt/",
+      "meaning": "回路；周回コース",
+      "exampleEn": "Electricity flows through this simple circuit.",
+      "exampleJa": "電気はこの簡単な回路を流れます。",
+      "level": 4
+    },
+    {
+      "headword": "climate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklaɪmət/",
+      "meaning": "気候；風潮",
+      "exampleEn": "Climate change is affecting life in the ocean.",
+      "exampleJa": "気候変動は海の生き物に影響を与えています。",
+      "level": 2
+    },
+    {
+      "headword": "component",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəmˈpoʊnənt/",
+      "meaning": "構成部品；成分；構成要素",
+      "exampleEn": "This engine is made of many small components.",
+      "exampleJa": "このエンジンは多くの小さな部品でできています。",
+      "level": 4
+    },
+    {
+      "headword": "compound",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːmpaʊnd/",
+      "meaning": "化合物；複合物；敷地",
+      "exampleEn": "Water is a compound of hydrogen and oxygen.",
+      "exampleJa": "水は水素と酸素の化合物です。",
+      "level": 4
+    },
+    {
+      "headword": "conservation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːnsərˈveɪʃn/",
+      "meaning": "保護；保全；節約",
+      "exampleEn": "The group works on forest conservation.",
+      "exampleJa": "その団体は森林の保全に取り組んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "contamination",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˌtæmɪˈneɪʃən/",
+      "meaning": "汚染",
+      "exampleEn": "Contamination of the reservoir worried residents.",
+      "exampleJa": "貯水池の汚染が住民を不安にさせました。",
+      "level": 5
+    },
+    {
+      "headword": "deforestation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdiːˌfɔːrɪˈsteɪʃn/",
+      "meaning": "森林破壊",
+      "exampleEn": "Deforestation is destroying the tropical forests.",
+      "exampleJa": "森林破壊が熱帯の森を失わせています。",
+      "level": 3
+    },
+    {
+      "headword": "density",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdensəti/",
+      "meaning": "密度；濃度",
+      "exampleEn": "This city has a high population density.",
+      "exampleJa": "この都市は人口密度が高いです。",
+      "level": 3
+    },
+    {
+      "headword": "diameter",
+      "partOfSpeech": "noun",
+      "phonetic": "/daɪˈæmɪtər/",
+      "meaning": "直径",
+      "exampleEn": "The diameter of this circle is ten centimeters.",
+      "exampleJa": "この円の直径は10センチです。",
+      "level": 3
+    },
+    {
+      "headword": "disposal",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈspoʊzl/",
+      "meaning": "処分；廃棄",
+      "exampleEn": "The city has strict rules for waste disposal.",
+      "exampleJa": "市には廃棄物の処分について厳しい規則があります。",
+      "level": 3
+    },
+    {
+      "headword": "ecosystem",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈiːkoʊsɪstəm/",
+      "meaning": "生態系",
+      "exampleEn": "Pesticides damage the local ecosystem.",
+      "exampleJa": "農薬は地域の生態系を傷つけます。",
+      "level": 4
+    },
+    {
+      "headword": "electron",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈlektrɑːn/",
+      "meaning": "電子",
+      "exampleEn": "An electron carries a negative charge.",
+      "exampleJa": "電子は負の電荷を帯びています。",
+      "level": 5
+    },
+    {
+      "headword": "element",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeləmənt/",
+      "meaning": "要素；元素",
+      "exampleEn": "Water consists of hydrogen and oxygen elements.",
+      "exampleJa": "水は水素と酸素の元素からなります。",
+      "level": 2
+    },
+    {
+      "headword": "emission",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈmɪʃən/",
+      "meaning": "排出；排出量",
+      "exampleEn": "Countries aim to cut carbon emissions.",
+      "exampleJa": "各国は炭素の排出量を減らすことを目指しています。",
+      "level": 3
+    },
+    {
+      "headword": "engineering",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌendʒɪˈnɪrɪŋ/",
+      "meaning": "工学；エンジニアリング",
+      "exampleEn": "She studied mechanical engineering at college.",
+      "exampleJa": "彼女は大学で機械工学を学びました。",
+      "level": 2
+    },
+    {
+      "headword": "erosion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈroʊʒən/",
+      "meaning": "浸食",
+      "exampleEn": "Erosion has reshaped this rocky shore.",
+      "exampleJa": "浸食がこの岩の海岸の形を変えました。",
+      "level": 5
+    },
+    {
+      "headword": "extinction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈstɪŋkʃən/",
+      "meaning": "絶滅",
+      "exampleEn": "Hunting drove this species toward extinction.",
+      "exampleJa": "狩猟がこの種を絶滅へ追いやりました。",
+      "level": 4
+    },
+    {
+      "headword": "fertilizer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrtəlaɪzər/",
+      "meaning": "肥料",
+      "exampleEn": "Too much fertilizer pollutes the stream.",
+      "exampleJa": "肥料の使いすぎは小川を汚します。",
+      "level": 4
+    },
+    {
+      "headword": "fossil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːsəl/",
+      "meaning": "化石",
+      "exampleEn": "Coal and oil are fossil fuels.",
+      "exampleJa": "石炭と石油は化石燃料です。",
+      "level": 3
+    },
+    {
+      "headword": "friction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfrɪkʃən/",
+      "meaning": "摩擦",
+      "exampleEn": "Oil reduces friction between moving parts.",
+      "exampleJa": "油は動く部品どうしの摩擦を減らします。",
+      "level": 5
+    },
+    {
+      "headword": "fuel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfjuːəl/",
+      "meaning": "燃料",
+      "exampleEn": "This car uses less fuel than mine.",
+      "exampleJa": "この車は私の車より燃料の消費が少ないです。",
+      "level": 2
+    },
+    {
+      "headword": "galaxy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡæləksi/",
+      "meaning": "銀河；銀河系",
+      "exampleEn": "The Milky Way is our galaxy.",
+      "exampleJa": "天の川は私たちの銀河です。",
+      "level": 3
+    },
+    {
+      "headword": "gravity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrævəti/",
+      "meaning": "重力；引力；重大さ",
+      "exampleEn": "Newton formulated law of gravity.",
+      "exampleJa": "ニュートンは万有引力の法則を定式化しました。",
+      "level": 3
+    },
+    {
+      "headword": "greenhouse",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡriːnhaʊs/",
+      "meaning": "温室",
+      "exampleEn": "Greenhouse gases warm the atmosphere.",
+      "exampleJa": "温室効果ガスが大気を暖めます。",
+      "level": 4
+    },
+    {
+      "headword": "habitat",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæbɪtæt/",
+      "meaning": "生息地；自生地",
+      "exampleEn": "Deforestation destroys animal habitat.",
+      "exampleJa": "森林伐採は動物の生息地を破壊します。",
+      "level": 3
+    },
+    {
+      "headword": "hazard",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæzərd/",
+      "meaning": "危険；ハザード",
+      "exampleEn": "Toxic waste is a serious health hazard.",
+      "exampleJa": "有毒廃棄物は深刻な健康上の危険です。",
+      "level": 3
+    },
+    {
+      "headword": "hydrogen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhaɪdrədʒən/",
+      "meaning": "水素",
+      "exampleEn": "Hydrogen may replace petroleum as fuel.",
+      "exampleJa": "水素が燃料として石油に取って代わるかもしれません。",
+      "level": 4
+    },
+    {
+      "headword": "ingredient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈɡriːdiənt/",
+      "meaning": "材料；成分",
+      "exampleEn": "Eggs are an important ingredient here.",
+      "exampleJa": "卵はここで重要な材料です。",
+      "level": 3
+    },
+    {
+      "headword": "instrument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "meaning": "楽器；器具；測定器",
+      "exampleEn": "She plays a musical instrument in the school band.",
+      "exampleJa": "彼女は学校のバンドで楽器を演奏しています。",
+      "level": 2
+    },
+    {
+      "headword": "irrigation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪrɪˈɡeɪʃən/",
+      "meaning": "かんがい",
+      "exampleEn": "Irrigation made this dry region fertile.",
+      "exampleJa": "かんがいがこの乾いた地域を豊かにしました。",
+      "level": 5
+    },
+    {
+      "headword": "landfill",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlændfɪl/",
+      "meaning": "埋め立て地",
+      "exampleEn": "The city closed the old landfill.",
+      "exampleJa": "市は古い埋め立て地を閉鎖しました。",
+      "level": 5
+    },
+    {
+      "headword": "mass",
+      "partOfSpeech": "noun",
+      "phonetic": "/mæs/",
+      "meaning": "質量；かたまり",
+      "exampleEn": "Gravity depends on the mass of a planet.",
+      "exampleJa": "重力は惑星の質量によって決まります。",
+      "level": 4
+    },
+    {
+      "headword": "mechanism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmekənɪzəm/",
+      "meaning": "仕組み；メカニズム",
+      "exampleEn": "The door has a simple safety mechanism.",
+      "exampleJa": "そのドアには単純な安全の仕組みが付いています。",
+      "level": 3
+    },
+    {
+      "headword": "microscope",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmaɪkrəskoʊp/",
+      "meaning": "顕微鏡",
+      "exampleEn": "Examine the specimen under a microscope.",
+      "exampleJa": "標本を顕微鏡で観察してください。",
+      "level": 3
+    },
+    {
+      "headword": "molecule",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːlɪkjuːl/",
+      "meaning": "分子",
+      "exampleEn": "A water molecule contains two hydrogen atoms.",
+      "exampleJa": "水分子は水素原子を二つ含みます。",
+      "level": 4
+    },
+    {
+      "headword": "nitrogen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnaɪtrədʒən/",
+      "meaning": "窒素",
+      "exampleEn": "Nitrogen makes up most of the atmosphere.",
+      "exampleJa": "窒素は大気の大部分を占めます。",
+      "level": 4
+    },
+    {
+      "headword": "nutrient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnuːtriənt/",
+      "meaning": "栄養素",
+      "exampleEn": "Crops absorb nutrients from the soil.",
+      "exampleJa": "作物は土から栄養素を吸収します。",
+      "level": 4
+    },
+    {
+      "headword": "orbit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrbɪt/",
+      "meaning": "軌道",
+      "exampleEn": "The satellite entered orbit this morning.",
+      "exampleJa": "その衛星は今朝、軌道に入りました。",
+      "level": 4
+    },
+    {
+      "headword": "organism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɡənɪzəm/",
+      "meaning": "有機体；生物",
+      "exampleEn": "Microscopic organisms live in soil.",
+      "exampleJa": "微小な有機体が土壌の中に生息しています。",
+      "level": 3
+    },
+    {
+      "headword": "ozone",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊzoʊn/",
+      "meaning": "オゾン",
+      "exampleEn": "The ozone layer protects us from radiation.",
+      "exampleJa": "オゾン層は私たちを放射線から守っています。",
+      "level": 4
+    },
+    {
+      "headword": "particle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrtɪkəl/",
+      "meaning": "素粒子；微粒子",
+      "exampleEn": "Physicists study subatomic particles.",
+      "exampleJa": "物理学者は亜原子粒子を研究します。",
+      "level": 3
+    },
+    {
+      "headword": "pesticide",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpestɪsaɪd/",
+      "meaning": "殺虫剤",
+      "exampleEn": "Farmers reduced pesticide use this season.",
+      "exampleJa": "農家は今季、殺虫剤の使用を減らしました。",
+      "level": 5
+    },
+    {
+      "headword": "petroleum",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈtroʊliəm/",
+      "meaning": "石油",
+      "exampleEn": "Japan imports petroleum from other countries.",
+      "exampleJa": "日本は他の国々から石油を輸入しています。",
+      "level": 3
+    },
+    {
+      "headword": "phenomenon",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈnɑːmɪnɑːn/",
+      "meaning": "現象",
+      "exampleEn": "The aurora is a beautiful natural phenomenon.",
+      "exampleJa": "オーロラは美しい自然現象です。",
+      "level": 4
+    },
+    {
+      "headword": "pollution",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈluːʃn/",
+      "meaning": "汚染；公害",
+      "exampleEn": "Air pollution has become worse in this city.",
+      "exampleJa": "この街では大気汚染がひどくなっています。",
+      "level": 2
+    },
+    {
+      "headword": "radiation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌreɪdiˈeɪʃən/",
+      "meaning": "放射線",
+      "exampleEn": "Workers measured the radiation near the plant.",
+      "exampleJa": "作業員が発電所の近くで放射線を測りました。",
+      "level": 4
+    },
+    {
+      "headword": "reaction",
+      "partOfSpeech": "noun",
+      "phonetic": "/riˈækʃən/",
+      "meaning": "反応",
+      "exampleEn": "The chemical reaction produces a lot of heat.",
+      "exampleJa": "その化学反応は多くの熱を生みます。",
+      "level": 3
+    },
+    {
+      "headword": "recycling",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌriːˈsaɪklɪŋ/",
+      "meaning": "リサイクル；再生利用",
+      "exampleEn": "Our town started a new recycling program.",
+      "exampleJa": "私たちの町は新しいリサイクルの取り組みを始めました。",
+      "level": 2
+    },
+    {
+      "headword": "reservoir",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrezərvwɑːr/",
+      "meaning": "貯水池",
+      "exampleEn": "The reservoir supplies water to the city.",
+      "exampleJa": "その貯水池が市に水を供給しています。",
+      "level": 5
+    },
+    {
+      "headword": "resource",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːsɔːrs/",
+      "meaning": "資源；財源",
+      "exampleEn": "Water is an important natural resource.",
+      "exampleJa": "水は大切な天然資源です。",
+      "level": 3
+    },
+    {
+      "headword": "sewage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsuːɪdʒ/",
+      "meaning": "下水",
+      "exampleEn": "Untreated sewage polluted the whole bay.",
+      "exampleJa": "未処理の下水が湾全体を汚しました。",
+      "level": 5
+    },
+    {
+      "headword": "species",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspiːʃiːz/",
+      "meaning": "種；生物種",
+      "exampleEn": "Many species face extinction.",
+      "exampleJa": "多くの種が絶滅に直面しています。",
+      "level": 3
+    },
+    {
+      "headword": "specimen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspesɪmən/",
+      "meaning": "標本",
+      "exampleEn": "The museum keeps a rare fossil specimen.",
+      "exampleJa": "その博物館は珍しい化石の標本を所蔵しています。",
+      "level": 5
+    },
+    {
+      "headword": "substance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbstəns/",
+      "meaning": "物質",
+      "exampleEn": "This substance dissolves quickly in water.",
+      "exampleJa": "この物質は水にすぐ溶けます。",
+      "level": 4
+    },
+    {
+      "headword": "technique",
+      "partOfSpeech": "noun",
+      "phonetic": "/tekˈniːk/",
+      "meaning": "技法",
+      "exampleEn": "She learned a new painting technique.",
+      "exampleJa": "彼女は新しい絵の技法を学びました。",
+      "level": 3
+    },
+    {
+      "headword": "telescope",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈteləskoʊp/",
+      "meaning": "望遠鏡",
+      "exampleEn": "This telescope can observe distant galaxies.",
+      "exampleJa": "この望遠鏡は遠い銀河を観測できます。",
+      "level": 3
+    },
+    {
+      "headword": "temperature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtemprətʃər/",
+      "meaning": "温度；気温；体温",
+      "exampleEn": "The temperature rose quickly.",
+      "exampleJa": "気温が急激に上昇しました。",
+      "level": 2
+    },
+    {
+      "headword": "theory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːəri/",
+      "meaning": "理論；説",
+      "exampleEn": "Einstein proposed the theory of relativity.",
+      "exampleJa": "アインシュタインは相対性理論を提唱しました。",
+      "level": 3
+    },
+    {
+      "headword": "thermometer",
+      "partOfSpeech": "noun",
+      "phonetic": "/θərˈmɑːmɪtər/",
+      "meaning": "温度計",
+      "exampleEn": "The thermometer showed a record temperature.",
+      "exampleJa": "温度計は記録的な気温を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "tissue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɪʃuː/",
+      "meaning": "組織；ティッシュペーパー",
+      "exampleEn": "Muscle tissue regenerates slowly.",
+      "exampleJa": "筋肉組織はゆっくり再生します。",
+      "level": 3
+    },
+    {
+      "headword": "toxin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɑːksɪn/",
+      "meaning": "毒素",
+      "exampleEn": "Some bacteria produce a dangerous toxin.",
+      "exampleJa": "細菌の中には危険な毒素を出すものがあります。",
+      "level": 5
+    },
+    {
+      "headword": "turbine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɜːrbaɪn/",
+      "meaning": "タービン",
+      "exampleEn": "Wind turbines generate renewable energy.",
+      "exampleJa": "風力タービンが再生可能エネルギーを生み出します。",
+      "level": 5
+    },
+    {
+      "headword": "vaccine",
+      "partOfSpeech": "noun",
+      "phonetic": "/vækˈsiːn/",
+      "meaning": "ワクチン",
+      "exampleEn": "Vaccines protect people from flu.",
+      "exampleJa": "ワクチンは人々をインフルエンザから守ります。",
+      "level": 3
+    },
+    {
+      "headword": "vegetation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌvedʒəˈteɪʃən/",
+      "meaning": "植生",
+      "exampleEn": "Dense vegetation covers the whole valley.",
+      "exampleJa": "濃い植生が谷全体を覆っています。",
+      "level": 5
+    },
+    {
+      "headword": "waste",
+      "partOfSpeech": "noun",
+      "phonetic": "/weɪst/",
+      "meaning": "ごみ；廃棄物",
+      "exampleEn": "We should reduce food waste.",
+      "exampleJa": "私たちは食品廃棄物を減らすべきです。",
+      "level": 2
+    },
+    {
+      "headword": "wildlife",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwaɪldlaɪf/",
+      "meaning": "野生生物",
+      "exampleEn": "The park preserves local wildlife.",
+      "exampleJa": "その公園は地元の野生生物を保護しています。",
+      "level": 3
+    }
+  ]
+}

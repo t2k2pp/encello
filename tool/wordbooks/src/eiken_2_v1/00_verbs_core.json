@@ -1,0 +1,735 @@
+{
+  "chunk": "00_verbs_core",
+  "note": "基本動詞と語法（81語）",
+  "words": [
+    {
+      "headword": "adapt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdæpt/",
+      "meaning": "適応する；を適応させる；を改作する",
+      "exampleEn": "These animals adapt quickly to a cold climate.",
+      "exampleJa": "これらの動物は寒い気候にすぐに適応します。",
+      "level": 3
+    },
+    {
+      "headword": "adopt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdɑːpt/",
+      "meaning": "を採用する；を養子にする",
+      "exampleEn": "The company adopted a new working system.",
+      "exampleJa": "その会社は新しい勤務制度を採用しました。",
+      "level": 3
+    },
+    {
+      "headword": "afford",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfɔːrd/",
+      "meaning": "の余裕がある；を買う余裕がある",
+      "exampleEn": "I cannot afford to buy a new car.",
+      "exampleJa": "私には新しい車を買う余裕がありません。",
+      "level": 3
+    },
+    {
+      "headword": "appoint",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɔɪnt/",
+      "meaning": "を任命する；を指名する；を指定する",
+      "exampleEn": "The board appointed him as the new president.",
+      "exampleJa": "取締役会は彼を新しい社長に任命しました。",
+      "level": 4
+    },
+    {
+      "headword": "approve",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpruːv/",
+      "meaning": "を承認する；に賛成する",
+      "exampleEn": "The director approved our budget request yesterday.",
+      "exampleJa": "部長は昨日、私たちの予算の申請を承認しました。",
+      "level": 3
+    },
+    {
+      "headword": "arrange",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈreɪndʒ/",
+      "meaning": "を手配する；を並べる；を取り決める",
+      "exampleEn": "She arranged a surprise party.",
+      "exampleJa": "彼女はサプライズパーティーを手配しました。",
+      "level": 3
+    },
+    {
+      "headword": "assign",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsaɪn/",
+      "meaning": "を割り当てる；を任命する",
+      "exampleEn": "The manager assigned the task to a new employee.",
+      "exampleJa": "部長はその仕事を新しい社員に割り当てました。",
+      "level": 3
+    },
+    {
+      "headword": "assume",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsuːm/",
+      "meaning": "と思い込む；を仮定する；を引き受ける",
+      "exampleEn": "Many people assume that the story is true.",
+      "exampleJa": "多くの人がその話は本当だと思い込んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "attain",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈteɪn/",
+      "meaning": "を達成する；に到達する",
+      "exampleEn": "He attained his goal after years of effort.",
+      "exampleJa": "彼は何年もの努力の末に目標を達成しました。",
+      "level": 4
+    },
+    {
+      "headword": "attend",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtend/",
+      "meaning": "に出席する；に通う；の世話をする",
+      "exampleEn": "All employees must attend the safety meeting.",
+      "exampleJa": "全従業員は安全会議に出席しなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "confront",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfrʌnt/",
+      "meaning": "に直面する；に立ち向かう",
+      "exampleEn": "We must confront this problem with courage.",
+      "exampleJa": "私たちは勇気をもってこの問題に立ち向かわなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "consent",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsent/",
+      "meaning": "に同意する；承諾する",
+      "exampleEn": "Her parents consented to the marriage.",
+      "exampleJa": "彼女の両親は結婚に同意しました。",
+      "level": 4
+    },
+    {
+      "headword": "convey",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈveɪ/",
+      "meaning": "を伝える；を運ぶ",
+      "exampleEn": "Her words conveyed her deep feelings clearly.",
+      "exampleJa": "彼女の言葉は深い気持ちをはっきりと伝えました。",
+      "level": 4
+    },
+    {
+      "headword": "deserve",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈzɜːrv/",
+      "meaning": "に値する；を受けるに足る",
+      "exampleEn": "Your team deserves a special prize.",
+      "exampleJa": "あなたのチームは特別な賞に値します。",
+      "level": 3
+    },
+    {
+      "headword": "determine",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meaning": "を決定する；を突き止める",
+      "exampleEn": "Scientists determined the cause of the accident.",
+      "exampleJa": "科学者たちは事故の原因を突き止めました。",
+      "level": 3
+    },
+    {
+      "headword": "devote",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈvoʊt/",
+      "meaning": "を捧げる；を専念させる",
+      "exampleEn": "She devotes an hour daily to studying English.",
+      "exampleJa": "彼女は毎日1時間を英語の勉強に捧げています。",
+      "level": 3
+    },
+    {
+      "headword": "dominate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdɑːmɪneɪt/",
+      "meaning": "を支配する；で優位に立つ",
+      "exampleEn": "One company dominates the market.",
+      "exampleJa": "ある企業が市場を支配しています。",
+      "level": 4
+    },
+    {
+      "headword": "embrace",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈbreɪs/",
+      "meaning": "を受け入れる；を抱きしめる",
+      "exampleEn": "The company embraced a new business strategy.",
+      "exampleJa": "その会社は新しい経営戦略を受け入れました。",
+      "level": 4
+    },
+    {
+      "headword": "endure",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈdʊr/",
+      "meaning": "に耐える",
+      "exampleEn": "Farmers endured a long and severe drought.",
+      "exampleJa": "農家は長く厳しい干ばつに耐えました。",
+      "level": 4
+    },
+    {
+      "headword": "enforce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɔːrs/",
+      "meaning": "を施行する；を強要する",
+      "exampleEn": "Police enforce traffic safety regulations.",
+      "exampleJa": "警察は交通安全規則を施行・強制します。",
+      "level": 3
+    },
+    {
+      "headword": "enhance",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈhæns/",
+      "meaning": "を高める；を強化する",
+      "exampleEn": "Good lighting enhances room atmosphere.",
+      "exampleJa": "良い照明は部屋の雰囲気を高めます。",
+      "level": 4
+    },
+    {
+      "headword": "enroll",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈroʊl/",
+      "meaning": "登録する；入学する",
+      "exampleEn": "She enrolled in an evening seminar.",
+      "exampleJa": "彼女は夜のセミナーに登録しました。",
+      "level": 4
+    },
+    {
+      "headword": "ensure",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈʃʊr/",
+      "meaning": "を確実にする；を保証する",
+      "exampleEn": "We checked the room twice to ensure safety.",
+      "exampleJa": "私たちは安全を確実にするため部屋を2回点検しました。",
+      "level": 3
+    },
+    {
+      "headword": "exhibit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈzɪbɪt/",
+      "meaning": "を出品・展示する",
+      "exampleEn": "The company exhibited its new robot at the fair.",
+      "exampleJa": "会社は展示会で新しいロボットを出品しました。",
+      "level": 3
+    },
+    {
+      "headword": "expose",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspoʊz/",
+      "meaning": "をさらす；を暴露する",
+      "exampleEn": "The report exposed a serious violation.",
+      "exampleJa": "その報道は重大な違反を明るみに出しました。",
+      "level": 4
+    },
+    {
+      "headword": "extend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈstend/",
+      "meaning": "を延長する；を伸ばす；を差し出す",
+      "exampleEn": "The library extended its opening hours.",
+      "exampleJa": "図書館は開館時間を延長しました。",
+      "level": 3
+    },
+    {
+      "headword": "fulfill",
+      "partOfSpeech": "verb",
+      "phonetic": "/fʊlˈfɪl/",
+      "meaning": "を果たす；を満たす",
+      "exampleEn": "He fulfilled every obligation in the contract.",
+      "exampleJa": "彼は契約上の義務をすべて果たしました。",
+      "level": 4
+    },
+    {
+      "headword": "grant",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡrænt/",
+      "meaning": "を与える；を認める",
+      "exampleEn": "The council granted us permission to build.",
+      "exampleJa": "議会は私たちに建設の許可を与えました。",
+      "level": 4
+    },
+    {
+      "headword": "handle",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhændl/",
+      "meaning": "を扱う；に対処する",
+      "exampleEn": "She handled the problem very well.",
+      "exampleJa": "彼女はその問題をとても上手に処理しました。",
+      "level": 3
+    },
+    {
+      "headword": "impose",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpoʊz/",
+      "meaning": "を課す；を押しつける",
+      "exampleEn": "Government imposed a new tax.",
+      "exampleJa": "政府は新しい税金を課しました。",
+      "level": 4
+    },
+    {
+      "headword": "include",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkluːd/",
+      "meaning": "を含む",
+      "exampleEn": "Tax is included in the price.",
+      "exampleJa": "税金は価格に含まれています。",
+      "level": 2
+    },
+    {
+      "headword": "indicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪndɪkeɪt/",
+      "meaning": "を示す；を指し示す",
+      "exampleEn": "This map indicates the location of the hospital.",
+      "exampleJa": "この地図は病院の場所を示しています。",
+      "level": 3
+    },
+    {
+      "headword": "inhabit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈhæbɪt/",
+      "meaning": "に住む",
+      "exampleEn": "Rare species inhabit this small island.",
+      "exampleJa": "この小さな島には希少な種が生息しています。",
+      "level": 4
+    },
+    {
+      "headword": "initiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈnɪʃieɪt/",
+      "meaning": "を始める",
+      "exampleEn": "The ministry initiated a major reform.",
+      "exampleJa": "省庁は大きな改革を始めました。",
+      "level": 5
+    },
+    {
+      "headword": "inspect",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈspekt/",
+      "meaning": "を検査する；を点検する",
+      "exampleEn": "An engineer inspected the elevator this morning.",
+      "exampleJa": "技師が今朝そのエレベーターを点検しました。",
+      "level": 3
+    },
+    {
+      "headword": "install",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈstɔːl/",
+      "meaning": "を設置する；をインストールする",
+      "exampleEn": "We will install the new software next week.",
+      "exampleJa": "来週、新しいソフトウェアを導入します。",
+      "level": 2
+    },
+    {
+      "headword": "integrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪntɪɡreɪt/",
+      "meaning": "を統合する；に融和させる",
+      "exampleEn": "Integrate new software into the system.",
+      "exampleJa": "新しいソフトウェアをシステムに統合しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "intend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtend/",
+      "meaning": "を意図する；〜するつもりである",
+      "exampleEn": "I intend to study abroad next year.",
+      "exampleJa": "私は来年留学するつもりです。",
+      "level": 3
+    },
+    {
+      "headword": "interfere",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntərˈfɪr/",
+      "meaning": "干渉する；邪魔をする",
+      "exampleEn": "Don't interfere in private matters.",
+      "exampleJa": "私事に干渉しないでください。",
+      "level": 3
+    },
+    {
+      "headword": "maintain",
+      "partOfSpeech": "verb",
+      "phonetic": "/meɪnˈteɪn/",
+      "meaning": "を維持する；を保守する；と主張する",
+      "exampleEn": "You should maintain good posture while studying.",
+      "exampleJa": "勉強している間は良い姿勢を保つべきです。",
+      "level": 3
+    },
+    {
+      "headword": "manage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmænɪdʒ/",
+      "meaning": "を管理する；を経営する；どうにか〜する",
+      "exampleEn": "He managed to pass the final exam.",
+      "exampleJa": "彼は何とか期末試験に合格しました。",
+      "level": 2
+    },
+    {
+      "headword": "minimize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmɪnəmaɪz/",
+      "meaning": "を最小限にする",
+      "exampleEn": "We must minimize the damage to the ecosystem.",
+      "exampleJa": "生態系への被害を最小限にしなければなりません。",
+      "level": 4
+    },
+    {
+      "headword": "monitor",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmɑːnɪtər/",
+      "meaning": "を監視する",
+      "exampleEn": "Sensors monitor the temperature every hour.",
+      "exampleJa": "センサーが一時間ごとに温度を監視します。",
+      "level": 4
+    },
+    {
+      "headword": "neglect",
+      "partOfSpeech": "verb",
+      "phonetic": "/nɪˈɡlekt/",
+      "meaning": "を怠る；を無視する",
+      "exampleEn": "The owner neglected the maintenance for years.",
+      "exampleJa": "持ち主は何年も手入れを怠りました。",
+      "level": 4
+    },
+    {
+      "headword": "nominate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈnɑːmɪneɪt/",
+      "meaning": "を指名する；を推薦する",
+      "exampleEn": "Party nominated her for president.",
+      "exampleJa": "党は彼女を大統領候補に指名しました。",
+      "level": 3
+    },
+    {
+      "headword": "oblige",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈblaɪdʒ/",
+      "meaning": "に義務づける",
+      "exampleEn": "The regulation obliges firms to report emissions.",
+      "exampleJa": "その規則は企業に排出量の報告を義務づけています。",
+      "level": 5
+    },
+    {
+      "headword": "obtain",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈteɪn/",
+      "meaning": "を手に入れる；を得る；を取得する",
+      "exampleEn": "You must obtain permission before entering.",
+      "exampleJa": "入る前に許可を得なければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "occupy",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːkjupaɪ/",
+      "meaning": "を占める；を占領する",
+      "exampleEn": "Work occupies most of his time.",
+      "exampleJa": "仕事が彼の時間の大部分を占めています。",
+      "level": 3
+    },
+    {
+      "headword": "operate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːpəreɪt/",
+      "meaning": "を操作する；を運営する；手術する",
+      "exampleEn": "He knows how to operate this machine.",
+      "exampleJa": "彼はこの機械の操作の仕方を知っています。",
+      "level": 3
+    },
+    {
+      "headword": "oppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpoʊz/",
+      "meaning": "に反対する；に対抗する",
+      "exampleEn": "Residents opposed the new highway construction.",
+      "exampleJa": "住民たちは新しい高速道路の建設に反対しました。",
+      "level": 3
+    },
+    {
+      "headword": "overcome",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌoʊvərˈkʌm/",
+      "meaning": "を克服する；に打ち勝つ",
+      "exampleEn": "She overcame difficulties to succeed.",
+      "exampleJa": "彼女は困難を克服して成功しました。",
+      "level": 3
+    },
+    {
+      "headword": "participate",
+      "partOfSpeech": "verb",
+      "phonetic": "/pɑːrˈtɪsɪpeɪt/",
+      "meaning": "参加する",
+      "exampleEn": "All the students participated in the debate.",
+      "exampleJa": "生徒全員がその討論に参加しました。",
+      "level": 3
+    },
+    {
+      "headword": "perform",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈfɔːrm/",
+      "meaning": "を行う；を演じる；を演奏する",
+      "exampleEn": "The actor performed on stage.",
+      "exampleJa": "その俳優は舞台で演じました。",
+      "level": 3
+    },
+    {
+      "headword": "permit",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈmɪt/",
+      "meaning": "を許可する；を認める",
+      "exampleEn": "The teacher permitted us to leave early.",
+      "exampleJa": "先生は私たちが早く帰るのを許可しました。",
+      "level": 3
+    },
+    {
+      "headword": "postpone",
+      "partOfSpeech": "verb",
+      "phonetic": "/poʊstˈpoʊn/",
+      "meaning": "を延期する",
+      "exampleEn": "They postponed the game because of the rain.",
+      "exampleJa": "彼らは雨のために試合を延期しました。",
+      "level": 3
+    },
+    {
+      "headword": "precede",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈsiːd/",
+      "meaning": "に先行する；より先に起こる",
+      "exampleEn": "Dark clouds preceded the heavy thunderstorm.",
+      "exampleJa": "暗い雲が激しい雷雨に先立って現れました。",
+      "level": 4
+    },
+    {
+      "headword": "preserve",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈzɜːrv/",
+      "meaning": "を保護・保存する",
+      "exampleEn": "The city preserves its historical buildings carefully.",
+      "exampleJa": "市は歴史的な建物を大切に保存しています。",
+      "level": 3
+    },
+    {
+      "headword": "prohibit",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈhɪbɪt/",
+      "meaning": "を禁止する",
+      "exampleEn": "The law prohibits smoking in public buildings.",
+      "exampleJa": "法律は公共の建物での喫煙を禁止しています。",
+      "level": 3
+    },
+    {
+      "headword": "promote",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈmoʊt/",
+      "meaning": "を促進する；を昇進させる；を宣伝する",
+      "exampleEn": "The campaign promotes healthy eating habits.",
+      "exampleJa": "そのキャンペーンは健康的な食習慣を促進します。",
+      "level": 3
+    },
+    {
+      "headword": "prompt",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɑːmpt/",
+      "meaning": "を促す；を引き起こす",
+      "exampleEn": "The accident prompted a safety inspection.",
+      "exampleJa": "その事故が安全点検のきっかけになりました。",
+      "level": 4
+    },
+    {
+      "headword": "provide",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈvaɪd/",
+      "meaning": "を提供する；を供給する",
+      "exampleEn": "The hotel provides free Wi-Fi for guests.",
+      "exampleJa": "そのホテルは宿泊客に無料のWi-Fiを提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "pursue",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsuː/",
+      "meaning": "を追求する；を追跡する",
+      "exampleEn": "She decided to pursue a career in medicine.",
+      "exampleJa": "彼女は医療の分野でのキャリアを追求することに決めました。",
+      "level": 4
+    },
+    {
+      "headword": "recover",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkʌvər/",
+      "meaning": "回復する；治る",
+      "exampleEn": "I hope you recover soon.",
+      "exampleJa": "早く回復するといいですね。",
+      "level": 3
+    },
+    {
+      "headword": "reinforce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌriːɪnˈfɔːrs/",
+      "meaning": "を強化する；を補強する",
+      "exampleEn": "Reinforce the wall with steel.",
+      "exampleJa": "鋼鉄で壁を補強しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "remain",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmeɪn/",
+      "meaning": "のままである；残る",
+      "exampleEn": "The store remained open until midnight.",
+      "exampleJa": "その店は真夜中まで開いたままでした。",
+      "level": 3
+    },
+    {
+      "headword": "require",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkwaɪər/",
+      "meaning": "を必要とする；を要求する",
+      "exampleEn": "Plants require sunlight to grow well.",
+      "exampleJa": "植物は元気に育つために日光を必要とします。",
+      "level": 2
+    },
+    {
+      "headword": "resign",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzaɪn/",
+      "meaning": "辞職する；辞任する",
+      "exampleEn": "The director resigned from the board yesterday.",
+      "exampleJa": "その取締役は昨日役員会を辞任しました。",
+      "level": 3
+    },
+    {
+      "headword": "restore",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈstɔːr/",
+      "meaning": "を回復させる；を修復する",
+      "exampleEn": "Power was restored after the storm.",
+      "exampleJa": "嵐の後に電力が復旧しました。",
+      "level": 4
+    },
+    {
+      "headword": "restrain",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈstreɪn/",
+      "meaning": "を抑える",
+      "exampleEn": "The government tried to restrain inflation.",
+      "exampleJa": "政府はインフレを抑えようとしました。",
+      "level": 5
+    },
+    {
+      "headword": "retain",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈteɪn/",
+      "meaning": "を保持する；を維持する",
+      "exampleEn": "The store retains customer records for five years.",
+      "exampleJa": "その店は顧客の記録を5年間保管しています。",
+      "level": 4
+    },
+    {
+      "headword": "reveal",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈviːl/",
+      "meaning": "を明らかにする；を暴露する",
+      "exampleEn": "Investigation revealed the truth.",
+      "exampleJa": "調査によって真実が明らかになりました。",
+      "level": 3
+    },
+    {
+      "headword": "revise",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvaɪz/",
+      "meaning": "を改訂する",
+      "exampleEn": "The editor revised the whole manuscript.",
+      "exampleJa": "編集者は原稿全体を改訂しました。",
+      "level": 4
+    },
+    {
+      "headword": "specify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈspesɪfaɪ/",
+      "meaning": "を明確に述べる",
+      "exampleEn": "Please specify the deadline in the proposal.",
+      "exampleJa": "提案書に締め切りを明記してください。",
+      "level": 4
+    },
+    {
+      "headword": "submit",
+      "partOfSpeech": "verb",
+      "phonetic": "/səbˈmɪt/",
+      "meaning": "を提出する；屈服する",
+      "exampleEn": "You must submit the report by Friday.",
+      "exampleJa": "金曜日までに報告書を提出しなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "subscribe",
+      "partOfSpeech": "verb",
+      "phonetic": "/səbˈskraɪb/",
+      "meaning": "定期購読する",
+      "exampleEn": "He subscribes to a weekly science journal.",
+      "exampleJa": "彼は週刊の科学誌を定期購読しています。",
+      "level": 4
+    },
+    {
+      "headword": "supply",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈplaɪ/",
+      "meaning": "を供給する；を支給する",
+      "exampleEn": "The city supplies clean water to every home.",
+      "exampleJa": "市はすべての家庭にきれいな水を供給しています。",
+      "level": 3
+    },
+    {
+      "headword": "sustain",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈsteɪn/",
+      "meaning": "を維持する；を支える",
+      "exampleEn": "Farmland sustains the local food supply.",
+      "exampleJa": "農地が地域の食料供給を支えています。",
+      "level": 4
+    },
+    {
+      "headword": "terminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈtɜːrmɪneɪt/",
+      "meaning": "を終了させる；を解約する",
+      "exampleEn": "The firm terminated his employment contract.",
+      "exampleJa": "会社は彼の雇用契約を終了しました。",
+      "level": 4
+    },
+    {
+      "headword": "transmit",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænsˈmɪt/",
+      "meaning": "を伝える；を送信する",
+      "exampleEn": "Mosquitoes transmit this dangerous disease.",
+      "exampleJa": "蚊がこの危険な病気を媒介します。",
+      "level": 4
+    },
+    {
+      "headword": "utilize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈjuːtəlaɪz/",
+      "meaning": "を活用する；を巧みに利用する",
+      "exampleEn": "Our school utilizes new technology in every class.",
+      "exampleJa": "私たちの学校はどの授業でも新しい技術を活用しています。",
+      "level": 4
+    },
+    {
+      "headword": "violate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈvaɪəleɪt/",
+      "meaning": "に違反する；を侵害する",
+      "exampleEn": "This action violates international human rights.",
+      "exampleJa": "この行為は国際的な人権を侵害します。",
+      "level": 4
+    }
+  ]
+}

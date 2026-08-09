@@ -13,17 +13,18 @@
     5
   ],
   "chunks": [
-    "00_core_verbs",
-    "01_verbs_action_change",
-    "02_verbs_social_communication",
-    "03_nouns_society_law",
-    "04_nouns_economy_business",
-    "05_nouns_science_environment",
-    "06_nouns_culture_health",
-    "07_adjectives_eval_person",
-    "08_adjectives_state_degree",
-    "09_adverbs_connectors",
-    "10_eiken_2_phrases_basic",
-    "11_eiken_2_phrases_advanced"
+    "00_verbs_core",
+    "01_verbs_thought",
+    "02_verbs_communication",
+    "03_verbs_action_change",
+    "04_nouns_society_law",
+    "05_nouns_business_economy",
+    "06_nouns_science_environment",
+    "07_nouns_education_culture",
+    "08_nouns_health_life",
+    "09_adjectives_person",
+    "10_adjectives_state",
+    "11_adverbs_function",
+    "12_phrases"
   ]
 }

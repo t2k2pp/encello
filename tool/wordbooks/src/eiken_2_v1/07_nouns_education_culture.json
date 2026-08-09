@@ -1,0 +1,744 @@
+{
+  "chunk": "07_nouns_education_culture",
+  "note": "教育・文化・メディア（82語）",
+  "words": [
+    {
+      "headword": "academy",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈkædəmi/",
+      "meaning": "専門学校；アカデミー",
+      "exampleEn": "She graduated from a military academy.",
+      "exampleJa": "彼女は陸軍士官学校を卒業しました。",
+      "level": 3
+    },
+    {
+      "headword": "achievement",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtʃiːvmənt/",
+      "meaning": "業績；達成；偉業",
+      "exampleEn": "Winning the prize was a great achievement.",
+      "exampleJa": "その賞を取ったことは大きな業績でした。",
+      "level": 3
+    },
+    {
+      "headword": "admission",
+      "partOfSpeech": "noun",
+      "phonetic": "/ədˈmɪʃn/",
+      "meaning": "入場；入場料；入場許可",
+      "exampleEn": "The museum offers free admission on Sundays.",
+      "exampleJa": "その博物館は日曜日は入場料が無料です。",
+      "level": 3
+    },
+    {
+      "headword": "apprentice",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈprentɪs/",
+      "meaning": "見習い；弟子",
+      "exampleEn": "He works as a builder's apprentice.",
+      "exampleJa": "彼は建築職人の見習いとして働いています。",
+      "level": 4
+    },
+    {
+      "headword": "architecture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrkɪtektʃər/",
+      "meaning": "建築；建築様式；建築学",
+      "exampleEn": "She studies modern city architecture.",
+      "exampleJa": "彼女は現代の都市建築を学んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "archive",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrkaɪv/",
+      "meaning": "記録保管所；公文書館；アーカイブ",
+      "exampleEn": "The old records are kept in a digital archive.",
+      "exampleJa": "古い記録はデジタルの保管庫に保存されています。",
+      "level": 4
+    },
+    {
+      "headword": "assignment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsaɪnmənt/",
+      "meaning": "課題；宿題；割り当てられた仕事",
+      "exampleEn": "I finished my history assignment last night.",
+      "exampleJa": "私は昨夜、歴史の課題を終えました。",
+      "level": 3
+    },
+    {
+      "headword": "attendance",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtendəns/",
+      "meaning": "出席；出席者数",
+      "exampleEn": "The teacher checks attendance every morning.",
+      "exampleJa": "先生は毎朝出席をとります。",
+      "level": 3
+    },
+    {
+      "headword": "broadcast",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbrɔːdkæst/",
+      "meaning": "放送",
+      "exampleEn": "The live broadcast reached a huge audience.",
+      "exampleJa": "その生放送は多くの視聴者に届きました。",
+      "level": 4
+    },
+    {
+      "headword": "campus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæmpəs/",
+      "meaning": "キャンパス；構内",
+      "exampleEn": "The university campus is very large.",
+      "exampleJa": "その大学のキャンパスはとても広いです。",
+      "level": 2
+    },
+    {
+      "headword": "certificate",
+      "partOfSpeech": "noun",
+      "phonetic": "/sərˈtɪfɪkət/",
+      "meaning": "証明書；修了証",
+      "exampleEn": "She received a certificate after finishing the course.",
+      "exampleJa": "彼女は講座を修了して証明書を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "cinema",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪnəmə/",
+      "meaning": "映画館；映画産業",
+      "exampleEn": "We saw a great movie at the cinema.",
+      "exampleJa": "私たちは映画館ですばらしい映画を見ました。",
+      "level": 2
+    },
+    {
+      "headword": "commentary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːmənteri/",
+      "meaning": "解説；実況",
+      "exampleEn": "We listened to the radio commentary of the game.",
+      "exampleJa": "私たちはその試合のラジオ実況を聞きました。",
+      "level": 3
+    },
+    {
+      "headword": "copyright",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːpiraɪt/",
+      "meaning": "著作権",
+      "exampleEn": "The publisher owns the copyright of this edition.",
+      "exampleJa": "出版社がこの版の著作権を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "counselor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkaʊnsələr/",
+      "meaning": "相談員；カウンセラー",
+      "exampleEn": "The school counselor helped me with my worries.",
+      "exampleJa": "学校の相談員が私の悩みの相談に乗ってくれました。",
+      "level": 3
+    },
+    {
+      "headword": "curriculum",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈrɪkjələm/",
+      "meaning": "カリキュラム；教育課程",
+      "exampleEn": "The school changed its science curriculum this year.",
+      "exampleJa": "学校は今年、理科のカリキュラムを変更しました。",
+      "level": 4
+    },
+    {
+      "headword": "dialect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪəlekt/",
+      "meaning": "方言",
+      "exampleEn": "My grandmother speaks an old local dialect.",
+      "exampleJa": "祖母は古い地元の方言を話します。",
+      "level": 4
+    },
+    {
+      "headword": "diploma",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈploʊmə/",
+      "meaning": "卒業証書；修了証書",
+      "exampleEn": "He received his high school diploma last spring.",
+      "exampleJa": "彼は昨年の春に高校の卒業証書を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "discipline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɪsəplɪn/",
+      "meaning": "規律；訓練；学問分野",
+      "exampleEn": "He keeps strict discipline in his daily life.",
+      "exampleJa": "彼は日々の生活で厳しい規律を守っています。",
+      "level": 4
+    },
+    {
+      "headword": "documentary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdɑːkjuˈmentəri/",
+      "meaning": "記録映画",
+      "exampleEn": "The documentary explored deforestation in the region.",
+      "exampleJa": "その記録映画は地域の森林破壊を取り上げました。",
+      "level": 4
+    },
+    {
+      "headword": "dormitory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɔːrmɪtɔːri/",
+      "meaning": "寮",
+      "exampleEn": "She lives in a campus dormitory.",
+      "exampleJa": "彼女は大学の寮に住んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "drama",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdrɑːmə/",
+      "meaning": "ドラマ；劇",
+      "exampleEn": "We watched a drama last night.",
+      "exampleJa": "私たちは昨夜ドラマを見ました。",
+      "level": 2
+    },
+    {
+      "headword": "edition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈdɪʃən/",
+      "meaning": "版",
+      "exampleEn": "The second edition includes new statistics.",
+      "exampleJa": "第二版には新しい統計が入っています。",
+      "level": 4
+    },
+    {
+      "headword": "editor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈedɪtər/",
+      "meaning": "編集者",
+      "exampleEn": "The editor rejected the first manuscript.",
+      "exampleJa": "編集者は最初の原稿を却下しました。",
+      "level": 3
+    },
+    {
+      "headword": "enrollment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈroʊlmənt/",
+      "meaning": "入学者数；登録",
+      "exampleEn": "Enrollment at the academy has declined.",
+      "exampleJa": "その学校の入学者数は減っています。",
+      "level": 5
+    },
+    {
+      "headword": "exhibition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌeksɪˈbɪʃn/",
+      "meaning": "展示会；展覧会",
+      "exampleEn": "We will attend a trade exhibition next month.",
+      "exampleJa": "私たちは来月見本市に参加します。",
+      "level": 3
+    },
+    {
+      "headword": "faculty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfækəlti/",
+      "meaning": "学部；教授陣",
+      "exampleEn": "The faculty approved the new curriculum.",
+      "exampleJa": "教授陣は新しい教育課程を承認しました。",
+      "level": 5
+    },
+    {
+      "headword": "fellowship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfeloʊʃɪp/",
+      "meaning": "研究奨学金",
+      "exampleEn": "He won a fellowship for his research.",
+      "exampleJa": "彼は研究で奨学金を得ました。",
+      "level": 5
+    },
+    {
+      "headword": "festival",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfestɪvəl/",
+      "meaning": "祭り；祝祭",
+      "exampleEn": "Our school festival is in October.",
+      "exampleJa": "文化祭は10月にあります。",
+      "level": 1
+    },
+    {
+      "headword": "gallery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡæləri/",
+      "meaning": "美術館；ギャラリー",
+      "exampleEn": "We saw many paintings at the gallery.",
+      "exampleJa": "私たちはそのギャラリーでたくさんの絵を見ました。",
+      "level": 3
+    },
+    {
+      "headword": "genre",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈʒɑːnrə/",
+      "meaning": "ジャンル；様式",
+      "exampleEn": "Jazz is my favorite music genre.",
+      "exampleJa": "ジャズは私の大好きな音楽ジャンルです。",
+      "level": 3
+    },
+    {
+      "headword": "graduate",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrædʒuət/",
+      "meaning": "卒業生",
+      "exampleEn": "Every graduate received a certificate.",
+      "exampleJa": "卒業生は全員が証書を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "headline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhedlaɪn/",
+      "meaning": "見出し；ヘッダー",
+      "exampleEn": "The news headline caught my eye this morning.",
+      "exampleJa": "今朝そのニュースの見出しが目に留まりました。",
+      "level": 3
+    },
+    {
+      "headword": "historian",
+      "partOfSpeech": "noun",
+      "phonetic": "/hɪˈstɔːriən/",
+      "meaning": "歴史家",
+      "exampleEn": "The historian studied ancient civilization.",
+      "exampleJa": "その歴史家は古代文明を研究しました。",
+      "level": 4
+    },
+    {
+      "headword": "illustration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪləˈstreɪʃən/",
+      "meaning": "挿絵；例示",
+      "exampleEn": "The illustration explains the structure clearly.",
+      "exampleJa": "その挿絵が構造をわかりやすく説明しています。",
+      "level": 4
+    },
+    {
+      "headword": "institute",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstɪtuːt/",
+      "meaning": "研究所",
+      "exampleEn": "The institute published its annual report.",
+      "exampleJa": "その研究所は年次報告を発表しました。",
+      "level": 4
+    },
+    {
+      "headword": "journalism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒɜːrnəlɪzəm/",
+      "meaning": "報道",
+      "exampleEn": "Honest journalism protects a free society.",
+      "exampleJa": "誠実な報道は自由な社会を守ります。",
+      "level": 4
+    },
+    {
+      "headword": "journalist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒɜːrnəlɪst/",
+      "meaning": "記者",
+      "exampleEn": "A journalist interviewed the candidate.",
+      "exampleJa": "記者がその候補者に取材しました。",
+      "level": 3
+    },
+    {
+      "headword": "laboratory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlæbrətɔːri/",
+      "meaning": "実験室；研究所",
+      "exampleEn": "The new material was tested in our laboratory.",
+      "exampleJa": "新しい素材は当社の研究所で試験されました。",
+      "level": 2
+    },
+    {
+      "headword": "lecturer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlektʃərər/",
+      "meaning": "講師",
+      "exampleEn": "The lecturer spoke about renewable energy.",
+      "exampleJa": "講師は再生可能エネルギーについて話しました。",
+      "level": 4
+    },
+    {
+      "headword": "legend",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈledʒənd/",
+      "meaning": "伝説",
+      "exampleEn": "This is an old legend about a dragon.",
+      "exampleJa": "これは竜についての古い伝説です。",
+      "level": 3
+    },
+    {
+      "headword": "linguistics",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪŋˈɡwɪstɪks/",
+      "meaning": "言語学",
+      "exampleEn": "She teaches applied linguistics.",
+      "exampleJa": "彼女は応用言語学を教えています。",
+      "level": 4
+    },
+    {
+      "headword": "literacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪtərəsi/",
+      "meaning": "読み書きの能力；活用能力",
+      "exampleEn": "Digital literacy is necessary for most jobs today.",
+      "exampleJa": "デジタル活用能力は今日のほとんどの仕事に必要です。",
+      "level": 3
+    },
+    {
+      "headword": "literature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪtrətʃər/",
+      "meaning": "文学；文献",
+      "exampleEn": "English literature is fascinating.",
+      "exampleJa": "英文学は魅力的な分野です。",
+      "level": 2
+    },
+    {
+      "headword": "manuscript",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmænjuskrɪpt/",
+      "meaning": "原稿；手書き写本",
+      "exampleEn": "Author submitted her final manuscript.",
+      "exampleJa": "著者は最終原稿を提出しました。",
+      "level": 4
+    },
+    {
+      "headword": "masterpiece",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmæstərpiːs/",
+      "meaning": "傑作；代表作",
+      "exampleEn": "Mona Lisa is Leonardo's masterpiece.",
+      "exampleJa": "モナリザはレオナルドの代表作です。",
+      "level": 3
+    },
+    {
+      "headword": "monument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːnjumənt/",
+      "meaning": "記念碑",
+      "exampleEn": "A stone monument stands near the entrance.",
+      "exampleJa": "入り口の近くに石の記念碑が立っています。",
+      "level": 4
+    },
+    {
+      "headword": "museum",
+      "partOfSpeech": "noun",
+      "phonetic": "/mjuˈziːəm/",
+      "meaning": "博物館；美術館",
+      "exampleEn": "We visited an art museum yesterday.",
+      "exampleJa": "私たちは昨日美術館を訪れました。",
+      "level": 2
+    },
+    {
+      "headword": "mythology",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɪˈθɑːlədʒi/",
+      "meaning": "神話体系；神話学",
+      "exampleEn": "Greek mythology inspires artists.",
+      "exampleJa": "ギリシャ神話は芸術家たちを触発します。",
+      "level": 4
+    },
+    {
+      "headword": "narrative",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnærətɪv/",
+      "meaning": "語り；物語",
+      "exampleEn": "The novel has a complex narrative.",
+      "exampleJa": "その小説は複雑な語りの構造を持っています。",
+      "level": 5
+    },
+    {
+      "headword": "novelist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnɑːvəlɪst/",
+      "meaning": "小説家",
+      "exampleEn": "The novelist described childhood in detail.",
+      "exampleJa": "その小説家は子ども時代を詳しく描きました。",
+      "level": 4
+    },
+    {
+      "headword": "orchestra",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrkɪstrə/",
+      "meaning": "オーケストラ",
+      "exampleEn": "The school orchestra played beautifully.",
+      "exampleJa": "その学校のオーケストラは美しく演奏しました。",
+      "level": 3
+    },
+    {
+      "headword": "outline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtlaɪn/",
+      "meaning": "概要；輪郭",
+      "exampleEn": "The presenter gave an outline of the project.",
+      "exampleJa": "発表者はプロジェクトの概要を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "pamphlet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæmflət/",
+      "meaning": "小冊子；パンフレット",
+      "exampleEn": "We handed out a pamphlet to every visitor.",
+      "exampleJa": "私たちは来場者全員にパンフレットを配りました。",
+      "level": 3
+    },
+    {
+      "headword": "paragraph",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpærəɡræf/",
+      "meaning": "段落",
+      "exampleEn": "Read the first paragraph carefully.",
+      "exampleJa": "最初の段落を注意深く読みなさい。",
+      "level": 3
+    },
+    {
+      "headword": "philosophy",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈlɑːsəfi/",
+      "meaning": "哲学；理念；人生観",
+      "exampleEn": "She studies ancient Greek philosophy at university.",
+      "exampleJa": "彼女は大学で古代ギリシャ哲学を学んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "portrait",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɔːrtrət/",
+      "meaning": "肖像画",
+      "exampleEn": "A portrait of the author hangs here.",
+      "exampleJa": "ここにその作家の肖像画がかかっています。",
+      "level": 4
+    },
+    {
+      "headword": "poster",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpoʊstər/",
+      "meaning": "ポスター",
+      "exampleEn": "A poster announced the coming festival.",
+      "exampleJa": "ポスターが近づく祭りを知らせていました。",
+      "level": 2
+    },
+    {
+      "headword": "proverb",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɑːvɜːrb/",
+      "meaning": "ことわざ；格言",
+      "exampleEn": "This old proverb teaches us to be patient.",
+      "exampleJa": "この古いことわざは私たちに忍耐を教えてくれます。",
+      "level": 3
+    },
+    {
+      "headword": "publication",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpʌblɪˈkeɪʃn/",
+      "meaning": "出版；公表",
+      "exampleEn": "They announced the publication date of the book.",
+      "exampleJa": "彼らはその本の出版日を発表しました。",
+      "level": 3
+    },
+    {
+      "headword": "publisher",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpʌblɪʃər/",
+      "meaning": "出版社；発行者",
+      "exampleEn": "The publisher released a new edition of the novel.",
+      "exampleJa": "出版社はその小説の新しい版を発売しました。",
+      "level": 2
+    },
+    {
+      "headword": "qualification",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkwɑːlɪfɪˈkeɪʃn/",
+      "meaning": "資格；適性",
+      "exampleEn": "She has the qualifications for this job.",
+      "exampleJa": "彼女はこの仕事に必要な資格を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "questionnaire",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkwestʃəˈner/",
+      "meaning": "アンケート用紙；質問票",
+      "exampleEn": "Customers filled out a short questionnaire.",
+      "exampleJa": "顧客は短いアンケート用紙に記入しました。",
+      "level": 4
+    },
+    {
+      "headword": "reference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrefrəns/",
+      "meaning": "身元照会先；参照",
+      "exampleEn": "Please give us two references from past employers.",
+      "exampleJa": "以前の雇用主からの身元照会先を2名お知らせください。",
+      "level": 3
+    },
+    {
+      "headword": "registration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌredʒɪˈstreɪʃən/",
+      "meaning": "登録",
+      "exampleEn": "Registration closes at the end of the month.",
+      "exampleJa": "登録は今月末で締め切られます。",
+      "level": 4
+    },
+    {
+      "headword": "rehearsal",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈhɜːrsəl/",
+      "meaning": "リハーサル",
+      "exampleEn": "The orchestra held a final rehearsal.",
+      "exampleJa": "楽団は最後のリハーサルを行いました。",
+      "level": 4
+    },
+    {
+      "headword": "residence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrezɪdəns/",
+      "meaning": "住居",
+      "exampleEn": "The ambassador's residence stands near the embassy.",
+      "exampleJa": "大使の住居は大使館の近くにあります。",
+      "level": 5
+    },
+    {
+      "headword": "scholarship",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskɑːlərʃɪp/",
+      "meaning": "奨学金；学識",
+      "exampleEn": "She won a full scholarship to a famous university.",
+      "exampleJa": "彼女は有名な大学の全額奨学金を勝ち取りました。",
+      "level": 2
+    },
+    {
+      "headword": "script",
+      "partOfSpeech": "noun",
+      "phonetic": "/skrɪpt/",
+      "meaning": "脚本",
+      "exampleEn": "The director revised the script again.",
+      "exampleJa": "監督は脚本をまた書き直しました。",
+      "level": 4
+    },
+    {
+      "headword": "sculpture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskʌlptʃər/",
+      "meaning": "彫刻；彫像",
+      "exampleEn": "Marble sculpture stood in courtyard.",
+      "exampleJa": "大理石の彫刻が中庭に立っていました。",
+      "level": 3
+    },
+    {
+      "headword": "seminar",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsemɪnɑːr/",
+      "meaning": "セミナー",
+      "exampleEn": "The seminar covered business ethics.",
+      "exampleJa": "そのセミナーは企業倫理を扱いました。",
+      "level": 4
+    },
+    {
+      "headword": "stereotype",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteriətaɪp/",
+      "meaning": "固定観念",
+      "exampleEn": "The film challenges an old stereotype.",
+      "exampleJa": "その映画は古い固定観念に異議を唱えています。",
+      "level": 5
+    },
+    {
+      "headword": "subscription",
+      "partOfSpeech": "noun",
+      "phonetic": "/səbˈskrɪpʃən/",
+      "meaning": "定期購読",
+      "exampleEn": "My subscription expires next month.",
+      "exampleJa": "私の定期購読は来月で切れます。",
+      "level": 4
+    },
+    {
+      "headword": "subtitle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbtaɪtəl/",
+      "meaning": "字幕",
+      "exampleEn": "I watched the documentary with subtitles.",
+      "exampleJa": "私はその記録映画を字幕つきで見ました。",
+      "level": 3
+    },
+    {
+      "headword": "superstition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsuːpərˈstɪʃən/",
+      "meaning": "迷信",
+      "exampleEn": "This old superstition still survives here.",
+      "exampleJa": "この古い迷信は今もここに残っています。",
+      "level": 5
+    },
+    {
+      "headword": "symbol",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmbəl/",
+      "meaning": "記号；象徴",
+      "exampleEn": "A heart is a symbol of love.",
+      "exampleJa": "ハートは愛の象徴です。",
+      "level": 2
+    },
+    {
+      "headword": "textbook",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtekstbʊk/",
+      "meaning": "教科書",
+      "exampleEn": "Open your textbook to page ten.",
+      "exampleJa": "教科書の10ページを開きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "theater",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːətər/",
+      "meaning": "劇場；映画館",
+      "exampleEn": "We can watch a play at the theater.",
+      "exampleJa": "劇場で劇を見ましょう。",
+      "level": 2
+    },
+    {
+      "headword": "thesis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːsɪs/",
+      "meaning": "論文",
+      "exampleEn": "She submitted her thesis before the deadline.",
+      "exampleJa": "彼女は締め切り前に論文を提出しました。",
+      "level": 5
+    },
+    {
+      "headword": "tuition",
+      "partOfSpeech": "noun",
+      "phonetic": "/tuˈɪʃən/",
+      "meaning": "授業料；学費",
+      "exampleEn": "The university raised its tuition again this year.",
+      "exampleJa": "その大学は今年もまた授業料を値上げしました。",
+      "level": 3
+    },
+    {
+      "headword": "tutor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtuːtər/",
+      "meaning": "個人指導の教師",
+      "exampleEn": "A private tutor helped him with grammar.",
+      "exampleJa": "家庭教師が彼の文法を助けました。",
+      "level": 4
+    },
+    {
+      "headword": "workshop",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɜːrkʃɑːp/",
+      "meaning": "研修会；ワークショップ",
+      "exampleEn": "I will attend a leadership workshop on Friday.",
+      "exampleJa": "私は金曜日にリーダーシップ研修会に参加します。",
+      "level": 3
+    }
+  ]
+}

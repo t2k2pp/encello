@@ -1,0 +1,672 @@
+{
+  "chunk": "11_adverbs_function",
+  "note": "副詞・つなぎ語（74語）",
+  "words": [
+    {
+      "headword": "accordingly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈkɔːrdɪŋli/",
+      "meaning": "それに応じて；したがって",
+      "exampleEn": "The rules changed, so we adjusted our plan accordingly.",
+      "exampleJa": "規則が変わったので、私たちはそれに応じて計画を調整しました。",
+      "level": 4
+    },
+    {
+      "headword": "alternatively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɔːlˈtɜːrnətɪvli/",
+      "meaning": "あるいは；代わりに",
+      "exampleEn": "Alternatively, you may select another option.",
+      "exampleJa": "あるいは、別の選択肢を選んでもよいです。",
+      "level": 3
+    },
+    {
+      "headword": "apparently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈpærəntli/",
+      "meaning": "どうやら；見たところ",
+      "exampleEn": "Apparently he passed all the tests.",
+      "exampleJa": "どうやら彼はすべての試験に合格したようです。",
+      "level": 4
+    },
+    {
+      "headword": "approximately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈprɑːksɪmətli/",
+      "meaning": "およそ；約",
+      "exampleEn": "The flight takes approximately two hours.",
+      "exampleJa": "その飛行機はおよそ2時間かかります。",
+      "level": 4
+    },
+    {
+      "headword": "arguably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɑːrɡjuəbli/",
+      "meaning": "ほぼ間違いなく；間違いなく言えるのは",
+      "exampleEn": "He is arguably the best player.",
+      "exampleJa": "彼は間違いなくチーム最高の選手です。",
+      "level": 4
+    },
+    {
+      "headword": "barely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈberli/",
+      "meaning": "かろうじて；ほとんど〜ない",
+      "exampleEn": "He barely passed the difficult test.",
+      "exampleJa": "彼はその難しいテストにかろうじて合格しました。",
+      "level": 3
+    },
+    {
+      "headword": "briefly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈbriːfli/",
+      "meaning": "手短に；簡潔に；短時間",
+      "exampleEn": "The speaker explained the current situation briefly.",
+      "exampleJa": "発表者は現状を手短に説明しました。",
+      "level": 3
+    },
+    {
+      "headword": "consequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈkɑːnsəkwentli/",
+      "meaning": "その結果；したがって",
+      "exampleEn": "The road flooded; consequently, all traffic stopped.",
+      "exampleJa": "道路が冠水し、その結果すべての交通が止まりました。",
+      "level": 4
+    },
+    {
+      "headword": "considerably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/kənˈsɪdərəbli/",
+      "meaning": "かなり；大幅に",
+      "exampleEn": "Sales improved considerably this year.",
+      "exampleJa": "今年は売り上げがかなり伸びました。",
+      "level": 3
+    },
+    {
+      "headword": "deliberately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/dɪˈlɪbərətli/",
+      "meaning": "故意に；慎重に",
+      "exampleEn": "The manager chose his words deliberately during the talks.",
+      "exampleJa": "マネージャーは交渉の間、慎重に言葉を選びました。",
+      "level": 3
+    },
+    {
+      "headword": "drastically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdræstɪkli/",
+      "meaning": "劇的に",
+      "exampleEn": "Emissions fell drastically after the reform.",
+      "exampleJa": "改革のあと排出量が劇的に減りました。",
+      "level": 5
+    },
+    {
+      "headword": "eventually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈventʃuəli/",
+      "meaning": "最終的に；結局は",
+      "exampleEn": "Hard work eventually pays off.",
+      "exampleJa": "努力は最終的に報われます。",
+      "level": 3
+    },
+    {
+      "headword": "exceptionally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈsepʃənəli/",
+      "meaning": "非常に；例外的に",
+      "exampleEn": "This summer was exceptionally dry.",
+      "exampleJa": "今年の夏は非常に乾燥していました。",
+      "level": 5
+    },
+    {
+      "headword": "explicitly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪkˈsplɪsɪtli/",
+      "meaning": "明白に；はっきりと",
+      "exampleEn": "The contract explicitly states the payment terms.",
+      "exampleJa": "契約書は支払い条件をはっきりと定めています。",
+      "level": 4
+    },
+    {
+      "headword": "frequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfriːkwəntli/",
+      "meaning": "頻繁に；しばしば",
+      "exampleEn": "We update the system software frequently.",
+      "exampleJa": "私たちはシステムのソフトウェアを頻繁に更新します。",
+      "level": 2
+    },
+    {
+      "headword": "furthermore",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈfɜːrðərmɔːr/",
+      "meaning": "さらに；その上",
+      "exampleEn": "The house is spacious; furthermore, the rent is cheap.",
+      "exampleJa": "その家は広く、さらに家賃も安いです。",
+      "level": 4
+    },
+    {
+      "headword": "genuinely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈdʒenjuɪnli/",
+      "meaning": "心から",
+      "exampleEn": "He was genuinely sorry for the delay.",
+      "exampleJa": "彼は遅れを心から申し訳なく思っていました。",
+      "level": 4
+    },
+    {
+      "headword": "gradually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɡrædʒuəli/",
+      "meaning": "徐々に；段階的に",
+      "exampleEn": "Sales increased gradually over six months.",
+      "exampleJa": "売上は6か月かけて徐々に増加しました。",
+      "level": 2
+    },
+    {
+      "headword": "hence",
+      "partOfSpeech": "adverb",
+      "phonetic": "/hens/",
+      "meaning": "それゆえに；したがって",
+      "exampleEn": "Little rain fell; hence, the harvest was small.",
+      "exampleJa": "雨がほとんど降らず、それゆえ収穫が少なくなりました。",
+      "level": 3
+    },
+    {
+      "headword": "ideally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/aɪˈdiːəli/",
+      "meaning": "理想を言えば",
+      "exampleEn": "Ideally, we would finish before the deadline.",
+      "exampleJa": "理想を言えば、締め切り前に終えたいところです。",
+      "level": 4
+    },
+    {
+      "headword": "increasingly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈkriːsɪŋli/",
+      "meaning": "ますます；いよいよ",
+      "exampleEn": "Online shopping is becoming increasingly popular.",
+      "exampleJa": "オンラインでの買い物はますます人気が高まっています。",
+      "level": 4
+    },
+    {
+      "headword": "indeed",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈdiːd/",
+      "meaning": "実に；本当に",
+      "exampleEn": "The concert was indeed wonderful.",
+      "exampleJa": "そのコンサートは実にすばらしかったです。",
+      "level": 3
+    },
+    {
+      "headword": "inevitably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪnˈevɪtəbli/",
+      "meaning": "必然的に；否応なく",
+      "exampleEn": "Costs inevitably rise when inflation is high.",
+      "exampleJa": "インフレが進むと費用は必然的に上昇します。",
+      "level": 4
+    },
+    {
+      "headword": "initially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ɪˈnɪʃəli/",
+      "meaning": "当初は；はじめに",
+      "exampleEn": "The budget was initially set very low.",
+      "exampleJa": "予算は当初とても低く設定されていました。",
+      "level": 3
+    },
+    {
+      "headword": "instantly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɪnstəntli/",
+      "meaning": "即座に；瞬時に",
+      "exampleEn": "The system sends a confirmation code instantly.",
+      "exampleJa": "システムは確認コードを即座に送信します。",
+      "level": 3
+    },
+    {
+      "headword": "likewise",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈlaɪkwaɪz/",
+      "meaning": "同様に",
+      "exampleEn": "The second experiment likewise failed.",
+      "exampleJa": "二つ目の実験も同様に失敗しました。",
+      "level": 5
+    },
+    {
+      "headword": "literally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈlɪtərəli/",
+      "meaning": "文字どおり",
+      "exampleEn": "Translate this phrase literally first.",
+      "exampleJa": "まずこの表現を文字どおり訳してください。",
+      "level": 4
+    },
+    {
+      "headword": "meanwhile",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmiːnwaɪl/",
+      "meaning": "その間に；一方では",
+      "exampleEn": "I cooked the pasta; meanwhile, she made a salad.",
+      "exampleJa": "私がパスタをゆで、その間に彼女がサラダを作りました。",
+      "level": 2
+    },
+    {
+      "headword": "merely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmɪrli/",
+      "meaning": "単に；〜にすぎない",
+      "exampleEn": "This report is merely a draft.",
+      "exampleJa": "この報告書は単なる下書きにすぎません。",
+      "level": 3
+    },
+    {
+      "headword": "moreover",
+      "partOfSpeech": "adverb",
+      "phonetic": "/mɔːrˈoʊvər/",
+      "meaning": "さらに；その上",
+      "exampleEn": "The house is big; moreover, it is quiet.",
+      "exampleJa": "その家は大きく、さらに静かです。",
+      "level": 4
+    },
+    {
+      "headword": "mutually",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈmjuːtʃuəli/",
+      "meaning": "相互に",
+      "exampleEn": "We reached a mutually beneficial agreement.",
+      "exampleJa": "私たちは互いに利益のある合意に達しました。",
+      "level": 4
+    },
+    {
+      "headword": "namely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈneɪmli/",
+      "meaning": "すなわち",
+      "exampleEn": "One sector grew, namely tourism.",
+      "exampleJa": "ある部門が伸びました。すなわち観光です。",
+      "level": 5
+    },
+    {
+      "headword": "nevertheless",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌnevərðəˈles/",
+      "meaning": "それにもかかわらず",
+      "exampleEn": "It rained hard; nevertheless, we went hiking.",
+      "exampleJa": "激しい雨が降りました。それにもかかわらず私たちはハイキングに行きました。",
+      "level": 3
+    },
+    {
+      "headword": "nonetheless",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌnʌnðəˈles/",
+      "meaning": "それにもかかわらず；それでもなお",
+      "exampleEn": "The task was difficult; nonetheless, the team succeeded.",
+      "exampleJa": "その仕事は困難でしたが、それでもチームは成功しました。",
+      "level": 3
+    },
+    {
+      "headword": "notably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈnoʊtəbli/",
+      "meaning": "顕著に；取り分け",
+      "exampleEn": "Sales grew notably in the European market.",
+      "exampleJa": "欧州市場では売上が顕著に伸びました。",
+      "level": 4
+    },
+    {
+      "headword": "obviously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈɑːbviəsli/",
+      "meaning": "明らかに；言うまでもなく",
+      "exampleEn": "She was obviously happy with the gift.",
+      "exampleJa": "彼女はその贈り物を明らかに喜んでいました。",
+      "level": 3
+    },
+    {
+      "headword": "occasionally",
+      "partOfSpeech": "adverb",
+      "phonetic": "/əˈkeɪʒnəli/",
+      "meaning": "たまに；時々",
+      "exampleEn": "The team occasionally goes out for dinner.",
+      "exampleJa": "チームは時々夕食に出かけます。",
+      "level": 2
+    },
+    {
+      "headword": "otherwise",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈʌðərwaɪz/",
+      "meaning": "さもなければ；そうでなければ；その他の点では",
+      "exampleEn": "We must hurry; otherwise, we will miss the train.",
+      "exampleJa": "私たちは急がなければなりません。さもないと電車に乗り遅れます。",
+      "level": 3
+    },
+    {
+      "headword": "partially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpɑːrʃəli/",
+      "meaning": "部分的に",
+      "exampleEn": "The work was only partially finished.",
+      "exampleJa": "作業は部分的にしか終わっていませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "particularly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/pərˈtɪkjələrli/",
+      "meaning": "特に；とりわけ",
+      "exampleEn": "I like sports, particularly soccer.",
+      "exampleJa": "私はスポーツ、特にサッカーが好きです。",
+      "level": 3
+    },
+    {
+      "headword": "precisely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/prɪˈsaɪsli/",
+      "meaning": "正確に",
+      "exampleEn": "Measure the diameter precisely.",
+      "exampleJa": "直径を正確に測ってください。",
+      "level": 4
+    },
+    {
+      "headword": "presumably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/prɪˈzuːməbli/",
+      "meaning": "思うに；たぶん",
+      "exampleEn": "He will presumably arrive on time.",
+      "exampleJa": "彼はたぶん時間通りに到着するでしょう。",
+      "level": 4
+    },
+    {
+      "headword": "previously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈpriːviəsli/",
+      "meaning": "以前に",
+      "exampleEn": "He previously worked for a publisher.",
+      "exampleJa": "彼は以前、出版社で働いていました。",
+      "level": 4
+    },
+    {
+      "headword": "primarily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/praɪˈmerəli/",
+      "meaning": "主に",
+      "exampleEn": "This region depends primarily on agriculture.",
+      "exampleJa": "この地域は主に農業に頼っています。",
+      "level": 4
+    },
+    {
+      "headword": "promptly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈprɑːmptli/",
+      "meaning": "即座に；速やかに",
+      "exampleEn": "She replied promptly to my email.",
+      "exampleJa": "彼女は私のメールに速やかに返信しました。",
+      "level": 3
+    },
+    {
+      "headword": "rarely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈrerli/",
+      "meaning": "めったにしない；まれに",
+      "exampleEn": "My father rarely watches television.",
+      "exampleJa": "父はめったにテレビを見ません。",
+      "level": 3
+    },
+    {
+      "headword": "readily",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈredɪli/",
+      "meaning": "たやすく；快く",
+      "exampleEn": "This material is readily available here.",
+      "exampleJa": "この材料はここでたやすく手に入ります。",
+      "level": 5
+    },
+    {
+      "headword": "regardless",
+      "partOfSpeech": "adverb",
+      "phonetic": "/rɪˈɡɑːrdləs/",
+      "meaning": "それでも；かまわずに",
+      "exampleEn": "The crew continued regardless of the storm.",
+      "exampleJa": "乗組員は嵐にかまわず作業を続けました。",
+      "level": 5
+    },
+    {
+      "headword": "relatively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈrelətɪvli/",
+      "meaning": "比較的に；相対的に",
+      "exampleEn": "The exam was relatively easy for the students.",
+      "exampleJa": "その試験は生徒にとって比較的簡単でした。",
+      "level": 3
+    },
+    {
+      "headword": "reluctantly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/rɪˈlʌktəntli/",
+      "meaning": "しぶしぶ",
+      "exampleEn": "She reluctantly accepted the settlement.",
+      "exampleJa": "彼女はしぶしぶその和解を受け入れました。",
+      "level": 4
+    },
+    {
+      "headword": "remarkably",
+      "partOfSpeech": "adverb",
+      "phonetic": "/rɪˈmɑːrkəbli/",
+      "meaning": "著しく",
+      "exampleEn": "Productivity improved remarkably this year.",
+      "exampleJa": "今年は生産性が著しく向上しました。",
+      "level": 4
+    },
+    {
+      "headword": "respectively",
+      "partOfSpeech": "adverb",
+      "phonetic": "/rɪˈspektɪvli/",
+      "meaning": "それぞれ",
+      "exampleEn": "They finished first and third respectively.",
+      "exampleJa": "彼らはそれぞれ一位と三位で終えました。",
+      "level": 5
+    },
+    {
+      "headword": "scarcely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈskersli/",
+      "meaning": "ほとんど〜ない",
+      "exampleEn": "There was scarcely any vegetation left.",
+      "exampleJa": "植生はほとんど残っていませんでした。",
+      "level": 5
+    },
+    {
+      "headword": "seemingly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsiːmɪŋli/",
+      "meaning": "見たところ",
+      "exampleEn": "The dispute was seemingly settled.",
+      "exampleJa": "その争いは見たところ決着したようでした。",
+      "level": 5
+    },
+    {
+      "headword": "seldom",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈseldəm/",
+      "meaning": "めったにしない；ほとんどしない",
+      "exampleEn": "She seldom eats out on weekdays.",
+      "exampleJa": "彼女は平日にめったに外食しません。",
+      "level": 3
+    },
+    {
+      "headword": "severely",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səˈvɪrli/",
+      "meaning": "ひどく；厳しく",
+      "exampleEn": "The storm severely damaged the harbor.",
+      "exampleJa": "嵐が港をひどく壊しました。",
+      "level": 4
+    },
+    {
+      "headword": "simultaneously",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌsaɪməlˈteɪniəsli/",
+      "meaning": "同時に",
+      "exampleEn": "The broadcast reached both nations simultaneously.",
+      "exampleJa": "その放送は両国に同時に届きました。",
+      "level": 5
+    },
+    {
+      "headword": "subsequently",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈsʌbsɪkwəntli/",
+      "meaning": "その後；続いて",
+      "exampleEn": "We updated the software; sales subsequently rose.",
+      "exampleJa": "私たちはソフトウェアを更新し、その後売上が伸びました。",
+      "level": 4
+    },
+    {
+      "headword": "substantially",
+      "partOfSpeech": "adverb",
+      "phonetic": "/səbˈstænʃəli/",
+      "meaning": "相当に；大幅に",
+      "exampleEn": "Costs fell substantially after the factory was upgraded.",
+      "exampleJa": "工場の改修後、コストは大幅に下がりました。",
+      "level": 4
+    },
+    {
+      "headword": "thereby",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˌðerˈbaɪ/",
+      "meaning": "それによって",
+      "exampleEn": "He signed the contract, thereby agreeing to the terms.",
+      "exampleJa": "彼は契約書に署名し、それによって条件に同意しました。",
+      "level": 4
+    },
+    {
+      "headword": "thoroughly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈθɜːroʊli/",
+      "meaning": "徹底的に",
+      "exampleEn": "Wash the specimen thoroughly before testing.",
+      "exampleJa": "検査の前に標本を徹底的に洗ってください。",
+      "level": 4
+    },
+    {
+      "headword": "typically",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈtɪpɪkli/",
+      "meaning": "たいてい；典型的に",
+      "exampleEn": "The session typically lasts two hours.",
+      "exampleJa": "その集まりはたいてい二時間続きます。",
+      "level": 4
+    },
+    {
+      "headword": "ultimately",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ˈʌltɪmətli/",
+      "meaning": "最終的に",
+      "exampleEn": "The council ultimately approved the petition.",
+      "exampleJa": "議会は最終的にその請願を承認しました。",
+      "level": 4
+    },
+    {
+      "headword": "undoubtedly",
+      "partOfSpeech": "adverb",
+      "phonetic": "/ʌnˈdaʊtɪdli/",
+      "meaning": "間違いなく；確かに",
+      "exampleEn": "The new system undoubtedly saves time.",
+      "exampleJa": "新しいシステムは間違いなく時間を節約します。",
+      "level": 3
+    },
+    {
+      "headword": "amid",
+      "partOfSpeech": "preposition",
+      "phonetic": "/əˈmɪd/",
+      "meaning": "〜の最中に；〜に囲まれて",
+      "exampleEn": "She stayed calm amid the noise of the crowd.",
+      "exampleJa": "彼女は群衆の騒がしさの中でも落ち着いていました。",
+      "level": 4
+    },
+    {
+      "headword": "beneath",
+      "partOfSpeech": "preposition",
+      "phonetic": "/bɪˈniːθ/",
+      "meaning": "〜の下に；〜の真下に",
+      "exampleEn": "We sat beneath a large tree.",
+      "exampleJa": "私たちは大きな木の下に座りました。",
+      "level": 3
+    },
+    {
+      "headword": "concerning",
+      "partOfSpeech": "preposition",
+      "phonetic": "/kənˈsɜːrnɪŋ/",
+      "meaning": "〜に関して",
+      "exampleEn": "I received an email concerning the business trip.",
+      "exampleJa": "私は出張に関するメールを受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "despite",
+      "partOfSpeech": "preposition",
+      "phonetic": "/dɪˈspaɪt/",
+      "meaning": "〜にもかかわらず",
+      "exampleEn": "We finished the work despite the heavy rain.",
+      "exampleJa": "激しい雨にもかかわらず私たちは作業を終えました。",
+      "level": 3
+    },
+    {
+      "headword": "per",
+      "partOfSpeech": "preposition",
+      "phonetic": "/pɜːr/",
+      "meaning": "〜につき",
+      "exampleEn": "The rent is charged per month.",
+      "exampleJa": "家賃は一か月につきで請求されます。",
+      "level": 4
+    },
+    {
+      "headword": "throughout",
+      "partOfSpeech": "preposition",
+      "phonetic": "/θruːˈaʊt/",
+      "meaning": "〜の至る所で；〜を通じて",
+      "exampleEn": "Rain will fall throughout the day.",
+      "exampleJa": "一日中雨が降るでしょう。",
+      "level": 3
+    },
+    {
+      "headword": "underneath",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ˌʌndərˈniːθ/",
+      "meaning": "〜の下に",
+      "exampleEn": "A thick layer of ice lay underneath the snow.",
+      "exampleJa": "雪の下に厚い氷の層がありました。",
+      "level": 4
+    },
+    {
+      "headword": "versus",
+      "partOfSpeech": "preposition",
+      "phonetic": "/ˈvɜːrsəs/",
+      "meaning": "〜対〜",
+      "exampleEn": "The debate was growth versus sustainability.",
+      "exampleJa": "その討論は成長対持続可能性というものでした。",
+      "level": 5
+    },
+    {
+      "headword": "provided",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/prəˈvaɪdɪd/",
+      "meaning": "〜という条件で；もし〜ならば",
+      "exampleEn": "You may go home provided your work is finished.",
+      "exampleJa": "仕事が終わっているなら家に帰ってもかまいません。",
+      "level": 4
+    },
+    {
+      "headword": "whereas",
+      "partOfSpeech": "conjunction",
+      "phonetic": "/werˈæz/",
+      "meaning": "〜であるのに対して",
+      "exampleEn": "He likes fiction, whereas she prefers poems.",
+      "exampleJa": "彼は小説が好きですが、彼女は詩を好みます。",
+      "level": 4
+    }
+  ]
+}
