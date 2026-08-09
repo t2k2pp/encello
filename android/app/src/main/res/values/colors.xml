@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- flutter_launcher_icons が pubspec.yaml の adaptive_icon_background から生成する。 -->
+    <color name="ic_launcher_background">#FDF5F8</color>
+    <!-- ネイティブスプラッシュの背景。pink パレットの bg と同じ値にし、
+         Flutter の最初のフレーム（BootstrapGate）へ継ぎ目なくつなぐ。 -->
+    <color name="splash_background">#FDF5F8</color>
+</resources>

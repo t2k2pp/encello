@@ -139,9 +139,42 @@ iOS は OS 標準の音声が常に入っているため、voice が0件にな�
 **使用するウェイトは必ず同梱する**。未同梱のウェイトを指定すると、
 プラットフォーム既定のフォントで無言のうちに描画される。
 
-## 5. アプリアイコン
+## 5. アプリアイコンとスプラッシュ
 
-`flutter_launcher_icons` で生成する。
+### 5.1 図柄
+
+綴りを打つ画面の文字タイル（`LetterTiles`）をそのまま図案にする。
+開いた1枚のタイルに `e`、その右に未入力のタイルを2枚並べ、「これから綴る」状態を表す。
+色は **pink パレット**（`AppColors` の `pinkPalette`）から取る。
+
+### 5.2 原画の作り方
+
+画像編集ソフトで作った PNG を置かない。**アプリと同じトークンから描き出す**。
+配色を変えたときに画像だけ取り残されるのを防ぐため。
+
+```
+flutter test tool/build_brand_images.dart   # 原画とスプラッシュのロゴを描き出す
+dart run flutter_launcher_icons             # ランチャーアイコンの各解像度を生成する
+```
+
+`tool/build_brand_images.dart` は Flutter のレンダラで描くため `flutter test` の上で走る。
+テスト本体ではないので `test/` ではなく `tool/` に置く
+（`flutter test` の既定の走査対象は `test/` なので、通常のテスト実行では拾われない）。
+
+書き出す先:
+
+| 用途 | 出力先 |
+|---|---|
+| アイコン原画 1024×1024 | `assets/icon/app_icon.png` |
+| Android スプラッシュのロゴ | `android/app/src/main/res/drawable-{m,h,x,xx,xxx}dpi/splash_logo.png` |
+| iOS スプラッシュのロゴ | `ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage{,@2x,@3x}.png` |
+
+スプラッシュのロゴは**背景を塗らずに**描く（背景はネイティブ側が塗る。
+両方で塗ると濃さのわずかな差が四角く見える）。
+Android のレイヤーリストの `bitmap` は密度ごとの実寸で描かれるため、1枚では足りず
+密度バケットごとに書き出す。
+
+### 5.3 ランチャーアイコンの設定
 
 ```yaml
 flutter_launcher_icons:
@@ -154,6 +187,31 @@ flutter_launcher_icons:
   remove_alpha_ios: true
   background_color_ios: "#FDF5F8"
 ```
+
+前景に原画（背景ごと）を渡すのは意図的。`adaptive_icon_background` と原画の背景が
+同じ `#FDF5F8` なので、18% の内寄せをしても継ぎ目が出ない。
+
+`flutter_launcher_icons` は `android/app/src/main/res/values/colors.xml` に
+`ic_launcher_background` を書き込む。同じファイルに置いた `splash_background`（§5.4）は
+再生成しても消えないが、**実行後に colors.xml を確認すること**。
+
+### 5.4 スプラッシュ
+
+Flutter の最初のフレーム（`BootstrapGate`）が出るまでの間に表示される。
+既定の白のままだと、白 → pink の切り替わりが見えてしまうので、
+**ネイティブ側の背景を `BootstrapGate` と同じ `#FDF5F8` に揃える**。
+
+| プラットフォーム | 触るファイル |
+|---|---|
+| Android | `res/values/colors.xml` の `splash_background`、`res/drawable/launch_background.xml` と `res/drawable-v21/launch_background.xml` |
+| iOS | `ios/Runner/Base.lproj/LaunchScreen.storyboard` の `backgroundColor` と `<image>` の実寸宣言 |
+
+`values-night/styles.xml` も同じ `@drawable/launch_background` を指す。
+アプリはライトテーマ1本（[05_design_system.md]）なので、
+端末のダークモードでも同じ pink の背景でよい。
+
+iOS の storyboard は `<resources>` に `LaunchImage` の実寸を宣言している。
+**ロゴの寸法を変えたらここも直す**（1x の画素数を書く。現在は 200×86）。
 
 ## 6. バージョン文字列
 
