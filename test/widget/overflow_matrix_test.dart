@@ -20,6 +20,7 @@ import 'package:encello/ui/screens/flashcard_screen.dart';
 import 'package:encello/ui/screens/home_screen.dart';
 import 'package:encello/ui/screens/my_words_screen.dart';
 import 'package:encello/ui/screens/paste_import_screen.dart';
+import 'package:encello/ui/screens/privacy_policy_screen.dart';
 import 'package:encello/ui/screens/profile_gate_screen.dart';
 import 'package:encello/ui/screens/profiles_screen.dart';
 import 'package:encello/ui/screens/prompt_guide_screen.dart';
@@ -1226,5 +1227,14 @@ void main() {
         }
       });
     }
+
+    testWidgets('プライバシーポリシー', (tester) async {
+      await createTestProfile(db, name: longName);
+      await checkMatrix(
+        tester,
+        'プライバシーポリシー',
+        (_) => const PrivacyPolicyScreen(),
+      );
+    });
   });
 }

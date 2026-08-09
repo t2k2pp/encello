@@ -2,6 +2,7 @@ import 'package:drift/drift.dart' show Value;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../core/app_info.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_text.dart';
@@ -20,6 +21,7 @@ import 'achievements_screen.dart';
 import 'audio_packs_screen.dart';
 import 'my_words_screen.dart';
 import 'paste_import_screen.dart';
+import 'privacy_policy_screen.dart';
 import 'profiles_screen.dart';
 import 'prompt_guide_screen.dart';
 import 'vocab_test_screen.dart';
@@ -633,7 +635,7 @@ class _InfoTab extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text('encello', style: AppText.sectionTitle()),
+              Text(AppInfo.name, style: AppText.sectionTitle()),
               const SizedBox(height: 4),
               Text('バージョン $kAppVersion', style: AppText.caption()),
               const SizedBox(height: 8),
@@ -641,7 +643,22 @@ class _InfoTab extends StatelessWidget {
                 '綴る・聴く・見分けるの3方向で英単語を反復し、忘却曲線に沿って再出題する英単語学習アプリです。',
                 style: AppText.body(),
               ),
+              const SizedBox(height: 8),
+              Text(
+                'お問い合わせ: ${AppInfo.supportEmail}',
+                style: AppText.caption(),
+              ),
             ],
+          ),
+        ),
+        SizedBox(height: spacing.gap),
+        _NavTile(
+          icon: Icons.privacy_tip_outlined,
+          label: 'プライバシーポリシー',
+          onTap: () => Navigator.of(context).push(
+            MaterialPageRoute<void>(
+              builder: (_) => const PrivacyPolicyScreen(),
+            ),
           ),
         ),
         SizedBox(height: spacing.gap),
@@ -650,7 +667,7 @@ class _InfoTab extends StatelessWidget {
           label: 'オープンソースライセンス',
           onTap: () => showLicensePage(
             context: context,
-            applicationName: 'encello',
+            applicationName: AppInfo.name,
             applicationVersion: kAppVersion,
           ),
         ),
