@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -30,6 +31,25 @@ Future<void> main() async {
     final ofl = await rootBundle.loadString('assets/google_fonts/OFL.txt');
     yield LicenseEntryWithLineBreaks(const ['google_fonts'], ofl);
   });
+
+  // iOS のサイレントスイッチが ON でも学習の音を鳴らす
+  // （[Docs/08_platform_setup.md] §3.1）。他アプリの音楽は止めない。
+  //
+  // `AVAudioSession` を触るのは**ここ1か所だけ**にする。`flutter_tts` の
+  // `setIosAudioCategory` と `audioplayers` の `AudioContextIOS` は同じセッションを
+  // 触るため、両方から設定すると後勝ちで挙動が変わる。
+  //
+  // 待たない。プラグインの初期化が停滞しても最初のフレームを止めないため（NFR-08）。
+  unawaited(
+    AudioPlayer.global.setAudioContext(
+      AudioContext(
+        iOS: AudioContextIOS(
+          category: AVAudioSessionCategory.playback,
+          options: const {AVAudioSessionOptions.mixWithOthers},
+        ),
+      ),
+    ),
+  );
 
   // ビルドエラー時に黒画面/グレー画面ではなく、読めるエラー表示を出す。
   ErrorWidget.builder = (details) => Material(
