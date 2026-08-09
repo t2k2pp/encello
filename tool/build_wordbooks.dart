@@ -289,11 +289,178 @@ void _printStats(List<SourceWord> words, List<String> chunkNames) {
 
   stdout
     ..writeln('延べ ${words.length} 語 / 見出し語 ${headwords.length}')
-    ..writeln('チャンク: ${byChunk.entries.map((e) => "${e.key}=${e.value}").join(" ")}')
+    ..writeln(
+      'チャンク: ${byChunk.entries.map((e) => "${e.key}=${e.value}").join(" ")}',
+    )
     ..writeln('品詞: ${_sortedCounts(byPos)}')
     ..writeln('レベル: ${_sortedCounts(byLevel)}')
     ..writeln(
       '発音記号なし $noPhonetic（うち句以外 $noPhoneticNonPhrase） / 例文なし $noExample',
+    );
+
+  _printSelectionChecks(words, chunkNames);
+}
+
+/// 例文に1つも無いと名詞の羅列になる語（冠詞・限定詞・be 動詞・前置詞・代名詞）。
+/// 網羅する必要はない。`Appreciate breadth of knowledge experience.` のような
+/// 文を見つけるための目印なので、頻出のものだけで足りる。
+const _functionWords = <String>{
+  'a',
+  'an',
+  'the',
+  'my',
+  'your',
+  'his',
+  'her',
+  'its',
+  'our',
+  'their',
+  'whose',
+  'this',
+  'that',
+  'these',
+  'those',
+  'which',
+  'what',
+  'some',
+  'any',
+  'no',
+  'every',
+  'each',
+  'both',
+  'all',
+  'many',
+  'much',
+  'several',
+  'few',
+  'little',
+  'other',
+  'another',
+  'such',
+  'is',
+  'are',
+  'was',
+  'were',
+  'am',
+  'be',
+  'been',
+  'being',
+  'in',
+  'on',
+  'at',
+  'of',
+  'for',
+  'to',
+  'with',
+  'from',
+  'by',
+  'about',
+  'into',
+  'over',
+  'under',
+  'after',
+  'before',
+  'between',
+  'among',
+  'through',
+  'during',
+  'against',
+  'without',
+  'within',
+  'across',
+  'toward',
+  'towards',
+  'upon',
+  'beyond',
+  'throughout',
+  'despite',
+  'around',
+  'behind',
+  'beside',
+  'besides',
+  'since',
+  'until',
+  'per',
+  'onto',
+  'off',
+  'out',
+  'up',
+  'down',
+  'near',
+  'along',
+  'amid',
+  'i',
+  'you',
+  'he',
+  'she',
+  'it',
+  'we',
+  'they',
+  'me',
+  'him',
+  'us',
+  'them',
+  'who',
+  'there',
+  'here',
+};
+
+final _wordPattern = RegExp(r"[a-zA-Z']+");
+
+/// [Docs/06_features/wordbooks.md] §2.1 の「機械検査でしか見つからない壊れ方」。
+///
+/// **形式検証（§3.3）とは別で、エラーにも警告にもしない。**
+/// どれも「やり直すか」の判断を人がするための数で、
+/// 不合格のまま出荷を止めると作りかけの単語帳がビルドできなくなる。
+void _printSelectionChecks(List<SourceWord> words, List<String> chunkNames) {
+  final headwords = words.map((w) => w.headword).toSet();
+  final initials = <String, int>{};
+  for (final h in headwords) {
+    initials[h[0]] = (initials[h[0]] ?? 0) + 1;
+  }
+  final abc = ['a', 'b', 'c'].fold(0, (sum, c) => sum + (initials[c] ?? 0));
+  final abcRatio = abc / headwords.length;
+
+  var examples = 0;
+  var bareExamples = 0;
+  for (final w in words) {
+    if (w.exampleEn.isEmpty) continue;
+    examples++;
+    final tokens = _wordPattern
+        .allMatches(w.exampleEn.toLowerCase())
+        .map((m) => m[0]!);
+    if (!tokens.any(_functionWords.contains)) bareExamples++;
+  }
+  final bareRatio = examples == 0 ? 0.0 : bareExamples / examples;
+
+  final parens = words.where((w) => w.meaning.contains('（')).length;
+
+  // チャンクごとの最上位 level の割合。範囲外の語を混ぜていると半分を超える。
+  final topLevel = words.map((w) => w.level).reduce((a, b) => a > b ? a : b);
+  final overTopLevel = <String>[];
+  for (final chunk in chunkNames) {
+    final inChunk = words.where((w) => w.chunk == chunk).toList();
+    if (inChunk.isEmpty) continue;
+    final top = inChunk.where((w) => w.level == topLevel).length;
+    if (top * 2 > inChunk.length) {
+      overTopLevel.add('$chunk=${(top / inChunk.length * 100).round()}%');
+    }
+  }
+
+  stdout
+    ..writeln('--- 選定の検査（§2.1・エラーにはしない）')
+    ..writeln(
+      '頭文字 a+b+c ${(abcRatio * 100).round()}%'
+      '（半分超で選定やり直し）${abcRatio > 0.5 ? " 不合格" : ""}',
+    )
+    ..writeln(
+      '機能語ゼロの例文 $bareExamples/$examples ${(bareRatio * 100).toStringAsFixed(1)}%'
+      '（1割超で例文作り直し）${bareRatio > 0.1 ? " 不合格" : ""}',
+    )
+    ..writeln('訳の丸括弧 $parens 件（§2.2 (g)）')
+    ..writeln(
+      'level $topLevel が半分を超えるチャンク: '
+      '${overTopLevel.isEmpty ? "なし" : overTopLevel.join(" ")}',
     );
 }
 

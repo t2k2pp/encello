@@ -105,8 +105,8 @@
       "headword": "deflation",
       "partOfSpeech": "noun",
       "phonetic": "/diːˈfleɪʃən/",
-      "meaning": "デフレーション；通告収縮",
-      "exampleEn": "Economy suffered prolonged deflation.",
+      "meaning": "デフレーション；通貨収縮",
+      "exampleEn": "The economy suffered prolonged deflation.",
       "exampleJa": "経済は長引くデフレに苦しみました。",
       "level": 4
     },
@@ -142,7 +142,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdɪvɪdend/",
       "meaning": "配当金；配当",
-      "exampleEn": "Shareholders received annual dividend.",
+      "exampleEn": "Shareholders received an annual dividend.",
       "exampleJa": "株主たちは配当金を受け取りました。",
       "level": 4
     },
@@ -178,8 +178,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪkˈspendɪtʃər/",
       "meaning": "支出；経費",
-      "exampleEn": "Reduce annual military expenditure.",
-      "exampleJa": "年間軍事支出を削減しなさい。",
+      "exampleEn": "The country reduced its annual military expenditure.",
+      "exampleJa": "その国は年間軍事支出を削減しました。",
       "level": 4
     },
     {
@@ -232,8 +232,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈhaɪərɑːrki/",
       "meaning": "階級組織；ヒエラルキー",
-      "exampleEn": "Respect organizational hierarchy.",
-      "exampleJa": "組織の階級秩序を尊重しなさい。",
+      "exampleEn": "New staff must respect the organizational hierarchy.",
+      "exampleJa": "新入社員は組織の階級秩序を尊重しなければなりません。",
       "level": 4
     },
     {
@@ -277,8 +277,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɪnfrəstrʌktʃər/",
       "meaning": "インフラ；社会基盤",
-      "exampleEn": "Invest in public infrastructure.",
-      "exampleJa": "公共インフラに投資しなさい。",
+      "exampleEn": "The city invests in public infrastructure.",
+      "exampleJa": "市は公共インフラに投資しています。",
       "level": 4
     },
     {
@@ -655,7 +655,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/jiːld/",
       "meaning": "収穫量；利回り；産出量",
-      "exampleEn": "High crop yield helped farmers.",
+      "exampleEn": "A high crop yield helped the farmers.",
       "exampleJa": "高い作物の収穫量が農家を助けました。",
       "level": 4
     }

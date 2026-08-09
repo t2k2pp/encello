@@ -142,7 +142,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈdelɪɡeɪt/",
       "meaning": "を委任する；を派遣する",
-      "exampleEn": "Manager delegated tasks to assistants.",
+      "exampleEn": "The manager delegated tasks to his assistants.",
       "exampleJa": "マネージャーは助手にタスクを委任しました。",
       "level": 4
     },
@@ -250,7 +250,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈstɔːrt/",
       "meaning": "を歪める；歪む",
-      "exampleEn": "Media distorted his original words.",
+      "exampleEn": "The media distorted his original words.",
       "exampleJa": "メディアは彼の元の発言を歪めました。",
       "level": 4
     },
@@ -691,8 +691,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˌʌndərˈmaɪn/",
       "meaning": "を密かに損なう；の土台を崩す",
-      "exampleEn": "Scandal undermined his public trust.",
-      "exampleJa": "スキャンダルが彼の公的信頼を密かに損ないました。",
+      "exampleEn": "The scandal undermined public trust in him.",
+      "exampleJa": "スキャンダルが彼への世間の信頼を損ないました。",
       "level": 4
     },
     {

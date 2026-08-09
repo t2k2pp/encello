@@ -34,8 +34,8 @@
       "partOfSpeech": "adjective",
       "phonetic": "/æmˈbɪɡjuəs/",
       "meaning": "曖昧な；多義の",
-      "exampleEn": "Contract terms were vague and ambiguous.",
-      "exampleJa": "契約条件は模索的で曖昧でした。",
+      "exampleEn": "The contract terms were vague and ambiguous.",
+      "exampleJa": "契約条件は漠然として曖昧でした。",
       "level": 4
     },
     {
@@ -709,7 +709,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈtændʒəbəl/",
       "meaning": "触れられる；明白な；有形の",
-      "exampleEn": "Results showed tangible improvements.",
+      "exampleEn": "The results showed tangible improvements.",
       "exampleJa": "結果は明白な改善を示しました。",
       "level": 4
     },
@@ -754,7 +754,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ʌnˈpresɪdentɪd/",
       "meaning": "前例のない；空前の；未曽有の",
-      "exampleEn": "Disaster caused unprecedented damage.",
+      "exampleEn": "The disaster caused unprecedented damage.",
       "exampleJa": "災害は前例のない被害を引き起こしました。",
       "level": 5
     },

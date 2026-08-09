@@ -79,7 +79,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈɑːrtɪfækt/",
       "meaning": "人工物；工芸品；遺物",
-      "exampleEn": "Museum exhibits ancient Roman artifacts.",
+      "exampleEn": "The museum exhibits ancient Roman artifacts.",
       "exampleJa": "博物館は古代ローマの歴史的遺物を展示しています。",
       "level": 4
     },
@@ -160,8 +160,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/kɑːɡˈnɪʃən/",
       "meaning": "認知；認識作用",
-      "exampleEn": "Sleep impacts human cognition performance.",
-      "exampleJa": "睡眠は人間の認知性能に影響を与えます。",
+      "exampleEn": "Poor sleep affects human cognition.",
+      "exampleJa": "睡眠不足は人間の認知に影響を与えます。",
       "level": 4
     },
     {
@@ -178,7 +178,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkɑːnʃəsnəs/",
       "meaning": "意識；自覚",
-      "exampleEn": "Patient regained consciousness in hospital.",
+      "exampleEn": "The patient regained consciousness in the hospital.",
       "exampleJa": "患者は病院で意識を取り戻しました。",
       "level": 4
     },
@@ -331,7 +331,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈherɪtɪdʒ/",
       "meaning": "遺産；継承物",
-      "exampleEn": "Kyoto has rich cultural heritage.",
+      "exampleEn": "Kyoto has a rich cultural heritage.",
       "exampleJa": "京都には豊かな文化遺産があります。",
       "level": 3
     },
@@ -439,7 +439,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈmænjuskrɪpt/",
       "meaning": "原稿；手書き写本",
-      "exampleEn": "Author submitted her final manuscript.",
+      "exampleEn": "The author submitted her final manuscript.",
       "exampleJa": "著者は最終原稿を提出しました。",
       "level": 4
     },
@@ -529,7 +529,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈpærədaɪm/",
       "meaning": "パラダイム；理論的枠組み；典範",
-      "exampleEn": "Discovery caused a shift in paradigm.",
+      "exampleEn": "The discovery caused a shift in the paradigm.",
       "exampleJa": "発見がパラダイムの転換を引き起こしました。",
       "level": 4
     },
@@ -628,7 +628,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈrɪtʃuəl/",
       "meaning": "儀式；習慣的行事",
-      "exampleEn": "Tea ceremony is a traditional ritual.",
+      "exampleEn": "The tea ceremony is a traditional ritual.",
       "exampleJa": "茶道は伝統的な儀式です。",
       "level": 3
     },

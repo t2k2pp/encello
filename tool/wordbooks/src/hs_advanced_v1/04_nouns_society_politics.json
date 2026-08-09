@@ -124,7 +124,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/dɪˈkriː/",
       "meaning": "法令；布告",
-      "exampleEn": "King issued an official decree.",
+      "exampleEn": "The king issued an official decree.",
       "exampleJa": "国王は公式の法令を発しました。",
       "level": 5
     },
@@ -169,7 +169,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdɑːktrɪn/",
       "meaning": "教義；外交方針・ドクトリン",
-      "exampleEn": "President stated a new foreign doctrine.",
+      "exampleEn": "The president stated a new foreign doctrine.",
       "exampleJa": "大統領は新たな外交ドクトリンを表明しました。",
       "level": 4
     },
@@ -556,7 +556,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈretərɪk/",
       "meaning": "修辞法；レトリック；誇張表現",
-      "exampleEn": "Politician used persuasive rhetoric.",
+      "exampleEn": "The politician used persuasive rhetoric.",
       "exampleJa": "政治家は説得力のある修辞法を用いました。",
       "level": 4
     },
@@ -610,8 +610,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈsɑːvrənti/",
       "meaning": "主権；統治権",
-      "exampleEn": "Respect national sovereignty.",
-      "exampleJa": "国家主権を尊重しなさい。",
+      "exampleEn": "All countries must respect national sovereignty.",
+      "exampleJa": "すべての国は国家主権を尊重しなければなりません。",
       "level": 4
     },
     {
@@ -619,7 +619,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈstætʃuːt/",
       "meaning": "法令；成文法",
-      "exampleEn": "The court interpreted legal statute.",
+      "exampleEn": "The court interpreted the legal statute.",
       "exampleJa": "裁判所は法的成文法を解釈しました。",
       "level": 5
     },
@@ -628,7 +628,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈsʌbsədi/",
       "meaning": "補助金；助成金",
-      "exampleEn": "Government offers agricultural subsidies.",
+      "exampleEn": "The government offers agricultural subsidies.",
       "exampleJa": "政府は農業補助金を提供しています。",
       "level": 4
     },

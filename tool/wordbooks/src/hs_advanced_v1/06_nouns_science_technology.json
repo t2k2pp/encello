@@ -16,7 +16,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈælɡərɪðəm/",
       "meaning": "アルゴリズム；計算手順",
-      "exampleEn": "Search engine uses complex algorithm.",
+      "exampleEn": "The search engine uses a complex algorithm.",
       "exampleJa": "検索エンジンは複雑なアルゴリズムを使用しています。",
       "level": 4
     },
@@ -61,7 +61,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌæpəˈrætəs/",
       "meaning": "実験器具；装置",
-      "exampleEn": "Lab has sophisticated testing apparatus.",
+      "exampleEn": "The lab has sophisticated testing apparatus.",
       "exampleJa": "研究所には精巧な検査器具があります。",
       "level": 4
     },
@@ -322,8 +322,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdʒiːnoʊm/",
       "meaning": "ゲノム；全遺伝情報",
-      "exampleEn": "Scientists mapped human genome sequence.",
-      "exampleJa": "科学者たちはヒトゲノム配列を解読しました。",
+      "exampleEn": "Scientists mapped the human genome.",
+      "exampleJa": "科学者たちはヒトゲノムを解読しました。",
       "level": 4
     },
     {
@@ -358,8 +358,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈhɔːrmoʊn/",
       "meaning": "ホルモン",
-      "exampleEn": "Hormones control body growth rate.",
-      "exampleJa": "ホルモンは身体の成長速度を制御します。",
+      "exampleEn": "Hormones control the growth of the body.",
+      "exampleJa": "ホルモンは身体の成長を制御します。",
       "level": 3
     },
     {

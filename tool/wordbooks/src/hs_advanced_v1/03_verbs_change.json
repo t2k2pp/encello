@@ -7,7 +7,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/əkˈseləreɪt/",
       "meaning": "を加速する；加速する；を促進する",
-      "exampleEn": "The car accelerated rapidly on highway.",
+      "exampleEn": "The car accelerated rapidly on the highway.",
       "exampleJa": "車は高速道路で急速に加速しました。",
       "level": 4
     },
@@ -106,7 +106,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/kənˈsɑːlɪdeɪt/",
       "meaning": "を統合する；を強化する",
-      "exampleEn": "Company consolidated its position.",
+      "exampleEn": "The company consolidated its position.",
       "exampleJa": "会社はその地位を確固たるものにしました。",
       "level": 5
     },
@@ -151,7 +151,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈɡreɪd/",
       "meaning": "を劣化させる；を低下させる；の品位を落とす",
-      "exampleEn": "Plastics degrade slowly in ocean.",
+      "exampleEn": "Plastics degrade slowly in the ocean.",
       "exampleJa": "プラスチックは海中でゆっくり分解・劣化します。",
       "level": 4
     },
@@ -322,7 +322,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈflʌktʃueɪt/",
       "meaning": "変動する；上下する",
-      "exampleEn": "Prices fluctuate according to season.",
+      "exampleEn": "Prices fluctuate according to the season.",
       "exampleJa": "価格は季節に応じて変動します。",
       "level": 4
     },
@@ -421,8 +421,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ɪmˈper/",
       "meaning": "を損なう；を減退させる",
-      "exampleEn": "Alcohol impairs judgment capability.",
-      "exampleJa": "アルコールは判断能力を損ないます。",
+      "exampleEn": "Alcohol impairs the driver's judgment.",
+      "exampleJa": "アルコールは運転者の判断力を損ないます。",
       "level": 5
     },
     {
@@ -484,7 +484,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈpɜːrmieɪt/",
       "meaning": "に染み渡る；に充満する",
-      "exampleEn": "Smell of coffee permeated room.",
+      "exampleEn": "The smell of coffee permeated the room.",
       "exampleJa": "コーヒーの香りが部屋に充満しました。",
       "level": 5
     },
@@ -673,7 +673,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/θraɪv/",
       "meaning": "繁栄する；元気に育つ",
-      "exampleEn": "Cactus thrives in dry climates.",
+      "exampleEn": "The cactus thrives in dry climates.",
       "exampleJa": "サボテンは乾燥した気候でよく育ちます。",
       "level": 4
     },

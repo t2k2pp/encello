@@ -115,7 +115,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈlɪbəreɪt/",
       "meaning": "を熟考する；を審議する",
-      "exampleEn": "Jury deliberated for three hours.",
+      "exampleEn": "The jury deliberated for three hours.",
       "exampleJa": "陪審員団は3時間審議しました。",
       "level": 4
     },
@@ -313,8 +313,8 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈrekənsaɪl/",
       "meaning": "を調停する；を和解させる",
-      "exampleEn": "He reconciled differences with brother.",
-      "exampleJa": "彼は兄弟との意見の違いを調停・和解させました。",
+      "exampleEn": "He reconciled his differences with his brother.",
+      "exampleJa": "彼は兄との意見の違いを調停しました。",
       "level": 4
     },
     {
@@ -403,7 +403,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/dɪˈtɜːrmɪn/",
       "meaning": "を決定する；を突き止める",
-      "exampleEn": "They determined the cause of fire.",
+      "exampleEn": "They determined the cause of the fire.",
       "exampleJa": "彼らは火災の原因を突き止めました。",
       "level": 3
     },
