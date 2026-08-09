@@ -54,6 +54,30 @@ void main() {
     );
   });
 
+  test('語のプールの見出し語も含まれない', () {
+    // プール（[Docs/06_features/wordbooks.md] §3.4）は出荷していないが、
+    // `_book.json` に足せばそのまま単語帳へ戻せる。戻した瞬間に
+    // 擬似語が実在語になってしまうため、こちらも突き合わせる。
+    final headwords = <String>{};
+    for (final file in Directory('tool/wordbooks/pool').listSync()) {
+      if (!file.path.endsWith('.json')) continue;
+      final json =
+          jsonDecode(File(file.path).readAsStringSync())
+              as Map<String, dynamic>;
+      for (final word in json['words'] as List) {
+        headwords.add(
+          (word as Map<String, dynamic>)['headword'].toString().toLowerCase(),
+        );
+      }
+    }
+    expect(headwords, isNotEmpty, reason: 'プールが読めていない');
+    expect(
+      pseudowords.toSet().intersection(headwords),
+      isEmpty,
+      reason: '実在語（プールの見出し語）が擬似語に混ざっている',
+    );
+  });
+
   test('壊れたアセットは推測で補わず例外にする', () async {
     final bundle = FakeAssetBundle({
       PseudowordAssets.assetPath: '{"words": "not-a-list"}',
