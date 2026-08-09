@@ -4,7 +4,7 @@
   "emoji": "🏅",
   "category": "eiken",
   "colorSeed": 4,
-  "seedVersion": 6,
+  "seedVersion": 7,
   "bandSize": 900,
   "sortOrder": 40,
   "note": "英検準2級合格に必要な頻出単語・熟語",
@@ -4615,7 +4615,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌrevəˈluːʃən/",
       "meaning": "革命；回転",
-      "exampleEn": "Industrial revolution changed history.",
+      "exampleEn": "The industrial revolution changed history.",
       "exampleJa": "産業革命は歴史を変えました。",
       "level": 3
     },
@@ -5385,7 +5385,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈʃɔːrtɪdʒ/",
       "meaning": "不足；欠乏",
-      "exampleEn": "Water shortage affected crops.",
+      "exampleEn": "The water shortage affected crops.",
       "exampleJa": "水不足が作物に影響を与えました。",
       "level": 3
     },

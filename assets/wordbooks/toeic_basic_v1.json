@@ -4,7 +4,7 @@
   "emoji": "💼",
   "category": "toeic",
   "colorSeed": 6,
-  "seedVersion": 6,
+  "seedVersion": 7,
   "bandSize": null,
   "sortOrder": 60,
   "note": "TOEIC L&R テストの基礎〜600点目標に必須のビジネス語彙",
@@ -4375,7 +4375,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌpenəˈtreɪʃn/",
       "meaning": "浸透；市場参入",
-      "exampleEn": "Market penetration rate increased by ten percent.",
+      "exampleEn": "The market penetration rate increased by ten percent.",
       "exampleJa": "市場浸透率が10パーセント増加しました。",
       "level": 4
     },

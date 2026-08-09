@@ -1,6 +1,6 @@
 # 見出し語の選定計画と作り直しの道具
 
-`Docs/06_features/wordbooks.md` §2.2 (a) の「見出し語の選定やり直し」で使うもの。
+`Docs/06_features/wordbooks.md` §2.2 の直しで使うもの。
 **チャンクファイルそのものではない**（ビルドの対象外）。
 
 ```
@@ -8,7 +8,24 @@ plan_<presetId>.md          その単語帳に入れる見出し語の一覧（�
 harvest.py                  計画に対し、既存6冊＋プールからレコードを回収する
 assemble.py                 回収分と新規作成分を合成し、src/<presetId>/ を差し替える
 lint_new.py                 新規作成したレコードを、本番の検証に通す前に検査する
+find_bare_subject.py        主語に限定詞が無い例文の候補を挙げる（§2.2 (d)）
 ```
+
+## `find_bare_subject.py`（人の判断が必要）
+
+```
+python tool/wordbooks/plans/find_bare_subject.py hs_basic_v1 eiken_2_v1
+```
+
+`Financial crisis hit the market.` のように、文頭の可算名詞に限定詞が無い例文を挙げる。
+ビルドの「機能語ゼロの例文」（§2.1）は文中に1つも機能語が無い文しか挙げないので、
+**文の別の場所に冠詞がある文の欠落はこちらでしか見つからない**。
+
+**誤検知が多い。** 不可算名詞・動名詞・固有名詞が主語の文（`Knowledge is power.`
+`Swimming is her favorite sport.` `Congress passed the bill.`）も挙がる。
+実績は候補88件のうち直すべきものが13件（`hs_basic_v1`）。
+そのためビルドの毎回の集計には入れず、ここに置いて必要なときだけ回す。
+**挙がったものは1件ずつ読んで判断する。**
 
 ## 手順
 

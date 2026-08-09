@@ -4,7 +4,7 @@
   "emoji": "🎓",
   "category": "highSchool",
   "colorSeed": 2,
-  "seedVersion": 6,
+  "seedVersion": 7,
   "bandSize": 1200,
   "sortOrder": 20,
   "note": "高校学習および大学入試の土台となる基本英単語",
@@ -3155,7 +3155,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/trænsˈfɔːrm/",
       "meaning": "を一変させる；を変形させる；を変容させる",
-      "exampleEn": "Internet transformed business.",
+      "exampleEn": "The internet transformed business.",
       "exampleJa": "インターネットはビジネスを一変させました。",
       "level": 3
     },
@@ -3225,8 +3225,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈænsestər/",
       "meaning": "祖先；先祖",
-      "exampleEn": "Respect your family ancient ancestors.",
-      "exampleJa": "あなたの家族の古代の先祖を尊重しなさい。",
+      "exampleEn": "We should respect our ancient ancestors.",
+      "exampleJa": "私たちは古代の先祖を尊重すべきです。",
       "level": 3
     },
     {
@@ -3285,7 +3285,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌsɪvələˈzeɪʃn/",
       "meaning": "文明",
-      "exampleEn": "Ancient civilization developed near large rivers.",
+      "exampleEn": "Ancient civilizations developed near large rivers.",
       "exampleJa": "古代の文明は大きな川の近くで発展しました。",
       "level": 2
     },
@@ -3375,7 +3375,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈkraɪsɪs/",
       "meaning": "危機；難局",
-      "exampleEn": "Financial crisis hit the market.",
+      "exampleEn": "The financial crisis hit the market.",
       "exampleJa": "金融危機が市場を襲いました。",
       "level": 3
     },
@@ -3545,7 +3545,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdʒʊri/",
       "meaning": "陪審員団",
-      "exampleEn": "Jury reached a unanimous verdict.",
+      "exampleEn": "The jury reached a unanimous verdict.",
       "exampleJa": "陪審員団は全員一致の評決に達しました。",
       "level": 3
     },
@@ -3585,7 +3585,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈlɪbərti/",
       "meaning": "自由；解放",
-      "exampleEn": "Statue of Liberty stands in New York.",
+      "exampleEn": "The Statue of Liberty stands in New York.",
       "exampleJa": "自由の女神像がニューヨークに立っています。",
       "level": 3
     },
@@ -3625,8 +3625,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/əˈfɪʃəl/",
       "meaning": "役人；職員",
-      "exampleEn": "Government officials attended.",
-      "exampleJa": "政府高官らが出席しました。",
+      "exampleEn": "Government officials attended the meeting.",
+      "exampleJa": "政府高官らがその会議に出席しました。",
       "level": 3
     },
     {
@@ -3845,7 +3845,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌrevəˈluːʃən/",
       "meaning": "革命；回転",
-      "exampleEn": "Industrial revolution changed history.",
+      "exampleEn": "The industrial revolution changed history.",
       "exampleJa": "産業革命は歴史を変えました。",
       "level": 3
     },
@@ -4065,8 +4065,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/bræntʃ/",
       "meaning": "枝；支店；部門",
-      "exampleEn": "Bank opened a new city office branch.",
-      "exampleJa": "銀行が新しい都市オフィス支店を開設しました。",
+      "exampleEn": "The bank opened a new branch office.",
+      "exampleJa": "銀行が新しい支店を開設しました。",
       "level": 2
     },
     {
@@ -4765,7 +4765,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈʃɔːrtɪdʒ/",
       "meaning": "不足；欠乏",
-      "exampleEn": "Water shortage affected crops.",
+      "exampleEn": "The water shortage affected crops.",
       "exampleJa": "水不足が作物に影響を与えました。",
       "level": 3
     },
@@ -6425,7 +6425,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈskʌlptʃər/",
       "meaning": "彫刻；彫像",
-      "exampleEn": "Marble sculpture stood in courtyard.",
+      "exampleEn": "The marble sculpture stood in the courtyard.",
       "exampleJa": "大理石の彫刻が中庭に立っていました。",
       "level": 3
     },
@@ -6545,8 +6545,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈætməsfɪr/",
       "meaning": "大気；雰囲気",
-      "exampleEn": "Restaurant has a friendly warm atmosphere.",
-      "exampleJa": "レストランはフレンドリーで温かい雰囲気を持っています。",
+      "exampleEn": "The restaurant has a friendly atmosphere.",
+      "exampleJa": "そのレストランは親しみやすい雰囲気です。",
       "level": 3
     },
     {
@@ -6555,7 +6555,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈætəm/",
       "meaning": "原子",
-      "exampleEn": "Everything matter is made of atoms.",
+      "exampleEn": "All matter is made of atoms.",
       "exampleJa": "すべての物質は原子で作られています。",
       "level": 3
     },

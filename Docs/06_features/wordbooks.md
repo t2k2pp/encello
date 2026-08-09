@@ -83,10 +83,10 @@ level 5 が半分を超えるチャンク: なし
 | 単語帳 | 頭文字 a+b+c | 機能語ゼロの例文 | 訳の丸括弧 |
 |---|---|---|---|
 | `jhs_v1` | 22% | 0.4%（7/1,686） | 0 |
-| `hs_basic_v1` | 22% | 2.8%（34/1,206） | 0 |
+| `hs_basic_v1` | 22% | 2.5%（30/1,206） | 0 |
 | `hs_advanced_v1` | 22% | 3.2%（32/1,002） | 0 |
-| `eiken_pre2_v1` | 23% | 1.8%（16/880） | 0 |
-| `eiken_2_v1` | 22% | 3.4%（36/1,045） | 0 |
+| `eiken_pre2_v1` | 23% | 1.6%（14/880） | 0 |
+| `eiken_2_v1` | 22% | 3.0%（31/1,045） | 0 |
 | `toeic_basic_v1` | 24% | 0.5%（5/1,006） | 0 |
 
 「機能語ゼロ」に残っているものは `Stress can induce headaches.`
@@ -191,7 +191,7 @@ Docs が挙げていた `bear`(verb)「クマ」・`close`(verb)「親しい」�
 | 固有形容詞なのに小文字: `atlantic` | プールから削除（見出し語は小文字しか許さないので戻せない） |
 | 級の水準を超える語: `arraign` `descant` `condole` | (a) の作り直しでプールへ退避済み |
 | 学習者向けとして再検討が要る語: `cock` `breast` `belly` `brandy` | 同上（出荷6冊には無い） |
-| 例文の冠詞欠落が `hs_advanced_v1` に多い | 47件を書き直した（下記） |
+| 例文の冠詞欠落が `hs_advanced_v1` に多い | 47件を書き直した。**他の3冊にも同じ壊れ方が残っていた**ので、あわせて33件を直した（下記） |
 | 訳語の取り違え | `idiocrasy`「愚民政治」→「特異体質」、`cannibal`「食肉動物」→「共食いする動物」、`arguably`「間違いなく」→「おそらく；ほぼ〜と言ってよい」 |
 | 助動詞・限定詞の区分が `partOfSpeech` に無い | `auxiliary`（助動詞）と `determiner`（限定詞）を足した（下記） |
 
@@ -251,6 +251,30 @@ Docs が挙げていた `bear`(verb)「クマ」・`close`(verb)「親しい」�
 `They determined the cause of fire.` のように、
 **別の場所に冠詞がある文の欠落は挙がらない**。
 検査は当たりを付けるためのもので、通し読みの代わりにはならない。
+
+##### 他の3冊にも同じ欠落が残っていた
+
+`hs_advanced_v1` を直したあと、**文頭の可算名詞に限定詞が無い例文**を挙げる検査を書いて
+全6冊にかけたところ、`hs_basic_v1` に `Financial crisis hit the market.`、
+`eiken_2_v1` に `Jury reached a unanimous verdict.` が残っていた。
+Docs は「`hs_advanced_v1` に多い」と書いていたが、**他の冊にもあった**。
+
+| 単語帳 | 直した件数 | 機能語ゼロの例文 |
+|---|---|---|
+| `hs_basic_v1` | 13 | 2.8% → 2.5% |
+| `eiken_2_v1` | 17 | 3.4% → 3.0% |
+| `eiken_pre2_v1` | 2 | 1.8% → 1.6% |
+| `toeic_basic_v1` | 1 | 0.5%（変わらず） |
+| `jhs_v1` | 0（候補40件すべて正しい文だった） | — |
+
+`Everything matter is made of atoms.`（→ `All matter is made of atoms.`）のような
+壊れた英語も、この検査で一緒に見つかった。
+
+検査は `tool/wordbooks/plans/find_bare_subject.py`。
+**誤検知が多いのでビルドの毎回の集計には入れていない**
+（`Knowledge is power.` `Swimming is her favorite sport.` `Congress passed the bill.` も挙がる。
+`hs_basic_v1` は候補88件のうち直したのが13件）。
+挙がったものを1件ずつ読んで判断する道具として置いてある。
 
 ついでに直したもの（例文の書き直しに伴って気付いたもの）。
 
@@ -338,7 +362,7 @@ Docs が挙げていた `bear`(verb)「クマ」・`close`(verb)「親しい」�
   "emoji": "🏫",
   "category": "juniorHigh",
   "colorSeed": 1,
-  "seedVersion": 6,
+  "seedVersion": 7,
   "bandSize": 1600,
   "sortOrder": 10,
   "note": "中学校で学ぶ基本語彙",
@@ -399,9 +423,9 @@ Docs が挙げていた `bear`(verb)「クマ」・`close`(verb)「親しい」�
   `hs_advanced_v1` の作り直しと合わせて 3 → 4 に上げた。
   **例文・和訳・訳語の書き直しも同じ**（`word_examples` と `words` の upsert が走らない）で、
   `hs_advanced_v1` の冠詞欠落47件の書き直しで 4 → 5、
-  §2.2 (c)(d)(e)(g) の直しで 5 → 6 に上げた。
+  §2.2 (c)(d)(e)(g) の直しで 5 → 6、残り3冊の例文の冠詞欠落の直しで 6 → 7 に上げた。
   つまり**アセットの中身を変えたら必ず上げる**。
-- **6冊の `seedVersion` は常に同じ値にそろえる**（現在は 6）。
+- **6冊の `seedVersion` は常に同じ値にそろえる**（現在は 7）。
   判定が最大値だけを見るため、冊ごとに版がずれていると
   「版の小さい冊を足しても最大が動かず、その冊が端末に届かない」という壊れ方をする。
   実際 M8-A で `jhs_v1` だけを 2 に上げ、M8-B で残り5冊を 1 のまま足したため、

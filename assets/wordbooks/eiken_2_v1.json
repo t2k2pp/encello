@@ -4,7 +4,7 @@
   "emoji": "🥇",
   "category": "eiken",
   "colorSeed": 5,
-  "seedVersion": 6,
+  "seedVersion": 7,
   "bandSize": 1100,
   "sortOrder": 50,
   "note": "英検2級合格に必要な高頻出語彙・熟語",
@@ -305,7 +305,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ɪmˈpoʊz/",
       "meaning": "を課す；を押しつける",
-      "exampleEn": "Government imposed a new tax.",
+      "exampleEn": "The government imposed a new tax.",
       "exampleJa": "政府は新しい税金を課しました。",
       "level": 4
     },
@@ -455,7 +455,7 @@
       "partOfSpeech": "verb",
       "phonetic": "/ˈnɑːmɪneɪt/",
       "meaning": "を指名する；を推薦する",
-      "exampleEn": "Party nominated her for president.",
+      "exampleEn": "The party nominated her for president.",
       "exampleJa": "党は彼女を大統領候補に指名しました。",
       "level": 3
     },
@@ -3225,8 +3225,8 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈæktɪvɪst/",
       "meaning": "活動家；アクティビスト",
-      "exampleEn": "Human rights activist spoke at international peace conference.",
-      "exampleJa": "人権活動家が国際平和会議で講演しました。",
+      "exampleEn": "A human rights activist spoke at an international conference.",
+      "exampleJa": "人権活動家が国際会議で講演しました。",
       "level": 3
     },
     {
@@ -3545,7 +3545,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈhaɪərɑːrki/",
       "meaning": "階級組織；ヒエラルキー",
-      "exampleEn": "Respect organizational hierarchy.",
+      "exampleEn": "Respect the organizational hierarchy.",
       "exampleJa": "組織の階級秩序を尊重しなさい。",
       "level": 4
     },
@@ -3585,7 +3585,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈdʒʊri/",
       "meaning": "陪審員団",
-      "exampleEn": "Jury reached a unanimous verdict.",
+      "exampleEn": "The jury reached a unanimous verdict.",
       "exampleJa": "陪審員団は全員一致の評決に達しました。",
       "level": 3
     },
@@ -3605,7 +3605,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈlɪbərti/",
       "meaning": "自由；解放",
-      "exampleEn": "Statue of Liberty stands in New York.",
+      "exampleEn": "The Statue of Liberty stands in New York.",
       "exampleJa": "自由の女神像がニューヨークに立っています。",
       "level": 3
     },
@@ -3825,7 +3825,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌrevəˈluːʃən/",
       "meaning": "革命；回転",
-      "exampleEn": "Industrial revolution changed history.",
+      "exampleEn": "The industrial revolution changed history.",
       "exampleJa": "産業革命は歴史を変えました。",
       "level": 3
     },
@@ -3945,7 +3945,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈvɜːrdɪkt/",
       "meaning": "評決；判定",
-      "exampleEn": "Jury delivered a guilty verdict.",
+      "exampleEn": "The jury delivered a guilty verdict.",
       "exampleJa": "陪審員団は有罪評決を下しました。",
       "level": 4
     },
@@ -4165,7 +4165,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ɪˈfɪʃənsi/",
       "meaning": "効率；能率",
-      "exampleEn": "Improve fuel efficiency of cars.",
+      "exampleEn": "Improve the fuel efficiency of cars.",
       "exampleJa": "車の燃費効率を向上させなさい。",
       "level": 3
     },
@@ -4185,7 +4185,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˌɑːntrəprəˈnɜːr/",
       "meaning": "起業家；実業家",
-      "exampleEn": "Young entrepreneur started a tech firm.",
+      "exampleEn": "A young entrepreneur started a tech firm.",
       "exampleJa": "若い起業家がIT企業を立ち上げました。",
       "level": 4
     },
@@ -4675,7 +4675,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈʃɔːrtɪdʒ/",
       "meaning": "不足；欠乏",
-      "exampleEn": "Water shortage affected crops.",
+      "exampleEn": "The water shortage affected crops.",
       "exampleJa": "水不足が作物に影響を与えました。",
       "level": 3
     },
@@ -4705,7 +4705,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈsʌbsədi/",
       "meaning": "補助金；助成金",
-      "exampleEn": "Government offers agricultural subsidies.",
+      "exampleEn": "The government offers agricultural subsidies.",
       "exampleJa": "政府は農業補助金を提供しています。",
       "level": 4
     },
@@ -5165,7 +5165,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈhæbɪtæt/",
       "meaning": "生息地；自生地",
-      "exampleEn": "Deforestation destroys animal habitat.",
+      "exampleEn": "Deforestation destroys animal habitats.",
       "exampleJa": "森林伐採は動物の生息地を破壊します。",
       "level": 3
     },
@@ -6025,7 +6025,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈmænjuskrɪpt/",
       "meaning": "原稿；手書き写本",
-      "exampleEn": "Author submitted her final manuscript.",
+      "exampleEn": "The author submitted her final manuscript.",
       "exampleJa": "著者は最終原稿を提出しました。",
       "level": 4
     },
@@ -6275,7 +6275,7 @@
       "partOfSpeech": "noun",
       "phonetic": "/ˈskʌlptʃər/",
       "meaning": "彫刻；彫像",
-      "exampleEn": "Marble sculpture stood in courtyard.",
+      "exampleEn": "The marble sculpture stood in the courtyard.",
       "exampleJa": "大理石の彫刻が中庭に立っていました。",
       "level": 3
     },
@@ -8685,7 +8685,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/ˈrɪdʒɪd/",
       "meaning": "厳格な；固い；融通が利かない",
-      "exampleEn": "School follows rigid rules.",
+      "exampleEn": "The school follows rigid rules.",
       "exampleJa": "学校は厳格な規則に従っています。",
       "level": 4
     },
@@ -8765,7 +8765,7 @@
       "partOfSpeech": "adjective",
       "phonetic": "/trəˈmendəs/",
       "meaning": "巨大な；すさまじい",
-      "exampleEn": "Team made a tremendous effort.",
+      "exampleEn": "The team made a tremendous effort.",
       "exampleJa": "チームはすさまじい努力をしました。",
       "level": 3
     },
