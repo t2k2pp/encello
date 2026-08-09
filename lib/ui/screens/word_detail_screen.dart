@@ -11,6 +11,7 @@ import '../../domain/entities/mastery.dart';
 import '../../providers/dictionary_listing.dart';
 import '../../providers/providers.dart';
 import '../dialogs/confirm_dialog.dart';
+import '../dialogs/start_study_sheet.dart';
 import '../dialogs/upsert_word_sheet.dart';
 import '../widgets/centered_content.dart';
 import '../widgets/empty_state.dart';
@@ -24,7 +25,7 @@ import 'wordbook_detail_screen.dart';
 /// [Docs/06_features/dictionary.md] §2）。
 ///
 /// 条件を満たさないカードは**カードごと出さない**（空のカードを置かない）。
-/// 語のつくり・語族・取り違えの各カードは、それぞれの機能が入った時点で足す。
+/// 例文・語のつくり・語族・取り違えの各カードは、それぞれの条件を満たす語にだけ出る。
 class WordDetailScreen extends ConsumerWidget {
   final int wordId;
   final Profile profile;
@@ -86,6 +87,8 @@ class _WordDetailBody extends ConsumerWidget {
         _WordPartsCard(word: word, profile: profile, gap: spacing.gap),
         // 語族に自分しかいない語ではカードごと出さない。
         _WordFamilyCard(word: word, profile: profile, gap: spacing.gap),
+        // 取り違えの組が無い語ではカードごと出さない。
+        _ConfusionCard(word: word, profile: profile, gap: spacing.gap),
         SizedBox(height: spacing.gap),
         _ReviewCard(review: review),
         SizedBox(height: spacing.gap),
@@ -659,6 +662,131 @@ class _WordFamilyCard extends ConsumerWidget {
                   ),
                 ),
               ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 取り違えやすい語カード（[Docs/06_features/confusion_drill.md] §4）。
+///
+/// **自分の誤答から割り出した組**だけを出す。既製の紛らわしい語リストは使わない。
+/// 組が1つも無ければカードを出さない（空のカードを置かない）。
+class _ConfusionCard extends ConsumerWidget {
+  final Word word;
+  final Profile profile;
+  final double gap;
+
+  const _ConfusionCard({
+    required this.word,
+    required this.profile,
+    required this.gap,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final partners = ref
+        .watch(
+          confusionPartnersProvider((wordId: word.id, profileId: profile.id)),
+        )
+        .value;
+    if (partners == null || partners.isEmpty) return const SizedBox.shrink();
+
+    return Padding(
+      padding: EdgeInsets.only(top: gap),
+      child: SoftCard(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text('取り違えやすい語', style: AppText.sectionTitle()),
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 6,
+              runSpacing: 6,
+              children: [
+                for (final partner in partners)
+                  _ConfusionChip(
+                    partner: partner.word,
+                    count: partner.count,
+                    onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => WordDetailScreen(
+                          wordId: partner.word.id,
+                          profile: profile,
+                        ),
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+            // 覚え方は書かれている語にだけ出す。**機械生成しない**。
+            if (word.confusionNote != null) ...[
+              const SizedBox(height: 8),
+              Text(word.confusionNote!, style: AppText.body()),
+            ],
+            const SizedBox(height: 12),
+            FilledButton(
+              style: FilledButton.styleFrom(
+                backgroundColor: AppColors.accent,
+                minimumSize: const Size.fromHeight(48),
+              ),
+              onPressed: () => showStartStudySheet(
+                context,
+                profile: profile,
+                initialMode: StudyMode.confusion,
+              ),
+              child: const Text('取り違えドリルで練習する'),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// 取り違えている相手の語のチップ。誤答した回数を添える。
+class _ConfusionChip extends StatelessWidget {
+  final Word partner;
+  final int count;
+  final VoidCallback onTap;
+
+  const _ConfusionChip({
+    required this.partner,
+    required this.count,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      borderRadius: BorderRadius.circular(999),
+      onTap: onTap,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+        constraints: const BoxConstraints(maxWidth: 220),
+        decoration: BoxDecoration(
+          color: AppColors.chipBg,
+          borderRadius: BorderRadius.circular(999),
+        ),
+        child: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Flexible(
+              child: Text(
+                partner.headword,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: AppText.caption(color: AppColors.ink2),
+              ),
+            ),
+            const SizedBox(width: 4),
+            Text(
+              '$count回',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: AppText.caption(color: AppColors.ink3),
+            ),
           ],
         ),
       ),

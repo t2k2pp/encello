@@ -81,6 +81,22 @@ final wordsOfPartProvider =
       ];
     });
 
+/// ある語と取り違えている相手の語（[Docs/06_features/confusion_drill.md] §4）。
+/// 組が1つも無ければ空。
+final confusionPartnersProvider =
+    FutureProvider.family<
+      List<({Word word, int count})>,
+      ({int wordId, int profileId})
+    >(
+      (ref, key) => ref
+          .watch(modeRepositoryProvider)
+          .confusionPartnersOf(
+            key.wordId,
+            profileId: key.profileId,
+            now: ref.watch(clockProvider)(),
+          ),
+    );
+
 /// ある語が属する語族の全語。語族に属さない語では空。
 final wordFamilyProvider =
     FutureProvider.family<List<FamilyMember>, ({int wordId, int profileId})>((

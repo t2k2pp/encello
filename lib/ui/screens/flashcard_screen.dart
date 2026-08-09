@@ -8,6 +8,7 @@ import '../../application/flashcard_controller.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_text.dart';
 import '../../core/utils/enums.dart';
+import '../../domain/services/pronunciation_service.dart';
 import '../../providers/audio.dart';
 import '../../providers/providers.dart';
 import '../widgets/soft_card.dart';
@@ -31,6 +32,13 @@ class _FlashcardScreenState extends ConsumerState<FlashcardScreen> {
   /// いま送りの処理を仕掛けたカード。同じカードで二重に仕掛けない。
   int? _scheduledIndex;
 
+  /// 画面を離れるときに音を止めるための読み上げサービス。
+  ///
+  /// `dispose()` から `ref` を読むと riverpod 3 が例外を投げる（`BuildContext` が
+  /// すでに無効なため）。解決済みのサービスを [build] のたびにここへ控えておき、
+  /// 後片付けでは `ref` に触れない（[Docs/07_testing_strategy.md] §4）。
+  PronunciationService? _pronunciation;
+
   @override
   void initState() {
     super.initState();
@@ -43,11 +51,7 @@ class _FlashcardScreenState extends ConsumerState<FlashcardScreen> {
     _silentTimer?.cancel();
     // 画面を離れたら必ず解除し、鳴っている音も止める。
     unawaited(WakelockPlus.disable());
-    final profile = ref.read(flashcardProvider)?.profile;
-    if (profile != null) {
-      final service = ref.read(pronunciationProvider(profile)).value;
-      unawaited(service?.stop() ?? Future<void>.value());
-    }
+    unawaited(_pronunciation?.stop() ?? Future<void>.value());
     super.dispose();
   }
 
@@ -108,6 +112,7 @@ class _FlashcardScreenState extends ConsumerState<FlashcardScreen> {
   Widget build(BuildContext context) {
     final session = ref.watch(flashcardProvider);
     if (session == null) return const Scaffold(body: SizedBox.shrink());
+    _pronunciation = ref.watch(pronunciationProvider(session.profile)).value;
 
     if (session.phase == FlashcardPhase.finished) {
       WidgetsBinding.instance.addPostFrameCallback((_) {

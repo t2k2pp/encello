@@ -159,6 +159,29 @@ SELECT w.id AS word_id, w.headword, w.part_of_speech, w.meaning,
     );
   }
 
+  /// 単語詳細の「取り違えやすい語」に出す相手の語
+  /// （[Docs/06_features/confusion_drill.md] §4）。組が無ければ空。
+  Future<List<({Word word, int count})>> confusionPartnersOf(
+    int wordId, {
+    required int profileId,
+    required DateTime now,
+  }) async {
+    final pairs = await findConfusionPairs(profileId, now: now);
+    // 相手の語 id → その組での誤答回数。
+    final counts = <int, int>{};
+    for (final pair in pairs) {
+      if (pair.wordIdA == wordId) counts[pair.wordIdB] = pair.count;
+      if (pair.wordIdB == wordId) counts[pair.wordIdA] = pair.count;
+    }
+    if (counts.isEmpty) return const [];
+
+    final rows = await (_db.select(
+      _db.words,
+    )..where((t) => t.id.isIn(counts.keys.toList()))).get();
+    return [for (final w in rows) (word: w, count: counts[w.id]!)]
+      ..sort((x, y) => y.count.compareTo(x.count));
+  }
+
   /// 取り違えの組で5回連続正解したら解消済みにする（§6）。
   /// 解消後にまた誤答したら記録を消して復活させる。
   Future<void> updateConfusionResolution({

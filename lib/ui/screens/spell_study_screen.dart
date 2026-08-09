@@ -351,8 +351,14 @@ class _Question extends ConsumerWidget {
         ),
         const SizedBox(height: 20),
         if (answering)
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          // ボタンは可変長ラベルの並びなので `Wrap` にする（STYLE_GUIDE §7）。
+          // リスニングでは「訳を見る」が加わって3つになり、狭い端末では
+          // 1行に収まらない。
+          Wrap(
+            alignment: WrapAlignment.spaceEvenly,
+            crossAxisAlignment: WrapCrossAlignment.center,
+            spacing: 4,
+            runSpacing: 4,
             children: [
               TextButton.icon(
                 onPressed: session.canHint ? notifier.hint : null,
