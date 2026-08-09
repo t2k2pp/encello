@@ -1,0 +1,735 @@
+{
+  "chunk": "00_verbs_core",
+  "note": "基本動詞と語法（81語）",
+  "words": [
+    {
+      "headword": "account",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkaʊnt/",
+      "meaning": "説明する；占める",
+      "exampleEn": "Tourism accounts for half of our income.",
+      "exampleJa": "観光がこの町の収入の半分を占めています。",
+      "level": 4
+    },
+    {
+      "headword": "acquire",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkwaɪər/",
+      "meaning": "を習得する；を手に入れる；を取得する",
+      "exampleEn": "Acquire new skills for your career.",
+      "exampleJa": "キャリアのために新しいスキルを習得しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "adapt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdæpt/",
+      "meaning": "適応する；を適応させる；を改作する",
+      "exampleEn": "Adapt quickly to new environments.",
+      "exampleJa": "新しい環境に素早く適応しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "adopt",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdɑːpt/",
+      "meaning": "を採用する；を養子にする",
+      "exampleEn": "They adopted a new method.",
+      "exampleJa": "彼らは新しい方法を採用しました。",
+      "level": 3
+    },
+    {
+      "headword": "afford",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfɔːrd/",
+      "meaning": "の余裕がある；を買う余裕がある",
+      "exampleEn": "I cannot afford a new car.",
+      "exampleJa": "新車を買う余裕はありません。",
+      "level": 3
+    },
+    {
+      "headword": "allow",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈlaʊ/",
+      "meaning": "を許可する；を許す",
+      "exampleEn": "Pets are not allowed here.",
+      "exampleJa": "ここではペットは許可されていません。",
+      "level": 2
+    },
+    {
+      "headword": "apply",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈplaɪ/",
+      "meaning": "申し込む；応募する；を適用する",
+      "exampleEn": "She applied for the job.",
+      "exampleJa": "彼女はその仕事に申し込みました。",
+      "level": 3
+    },
+    {
+      "headword": "arise",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈraɪz/",
+      "meaning": "生じる；起こる",
+      "exampleEn": "Problems arise when rules are ignored.",
+      "exampleJa": "規則が無視されると問題が生じます。",
+      "level": 4
+    },
+    {
+      "headword": "assume",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsuːm/",
+      "meaning": "と思い込む；を仮定する；を引き受ける",
+      "exampleEn": "I assumed he was coming.",
+      "exampleJa": "彼は来るものと思い込んでいました。",
+      "level": 4
+    },
+    {
+      "headword": "attend",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtend/",
+      "meaning": "に出席する；に通う；の世話をする",
+      "exampleEn": "He attended the meeting.",
+      "exampleJa": "彼は会議に出席しました。",
+      "level": 3
+    },
+    {
+      "headword": "bear",
+      "partOfSpeech": "verb",
+      "phonetic": "/ber/",
+      "meaning": "に耐える；を産む；を負う",
+      "exampleEn": "He could not bear the severe pain.",
+      "exampleJa": "彼は激しい痛みに耐えることができませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "behave",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈheɪv/",
+      "meaning": "振る舞う；行儀よくする",
+      "exampleEn": "The children behaved very well.",
+      "exampleJa": "子どもたちはとても行儀よく振る舞いました。",
+      "level": 3
+    },
+    {
+      "headword": "belong",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈlɔːŋ/",
+      "meaning": "所属する；のものである",
+      "exampleEn": "This book belongs to me.",
+      "exampleJa": "この本は私のものです。",
+      "level": 2
+    },
+    {
+      "headword": "benefit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈbenɪfɪt/",
+      "meaning": "利益を得る；のためになる",
+      "exampleEn": "Both sides benefit from this new contract.",
+      "exampleJa": "この新しい契約は双方に利益があります。",
+      "level": 3
+    },
+    {
+      "headword": "concern",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsɜːrn/",
+      "meaning": "に関係する；を心配させる",
+      "exampleEn": "This issue concerns every citizen in town.",
+      "exampleJa": "この問題は町のすべての市民に関わります。",
+      "level": 3
+    },
+    {
+      "headword": "conduct",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈdʌkt/",
+      "meaning": "を実施する；を指揮する；を導く",
+      "exampleEn": "They conducted a survey.",
+      "exampleJa": "彼らはアンケート調査を実施しました。",
+      "level": 4
+    },
+    {
+      "headword": "consist",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsɪst/",
+      "meaning": "から成る；にある",
+      "exampleEn": "The team consists of five young scientists.",
+      "exampleJa": "そのチームは5人の若い科学者から成っています。",
+      "level": 3
+    },
+    {
+      "headword": "contain",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈteɪn/",
+      "meaning": "を含む；を収容する；を封じ込める",
+      "exampleEn": "The box contains old letters.",
+      "exampleJa": "箱には古い手紙が入っています。",
+      "level": 2
+    },
+    {
+      "headword": "contribute",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈtrɪbjuːt/",
+      "meaning": "貢献する；を寄付する；の一因となる",
+      "exampleEn": "He contributed to the success.",
+      "exampleJa": "彼は成功に貢献しました。",
+      "level": 3
+    },
+    {
+      "headword": "deal",
+      "partOfSpeech": "verb",
+      "phonetic": "/diːl/",
+      "meaning": "扱う；対処する",
+      "exampleEn": "We must deal with this problem.",
+      "exampleJa": "私たちはこの問題に対処しなければなりません。",
+      "level": 3
+    },
+    {
+      "headword": "depend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈpend/",
+      "meaning": "依存する；〜次第である",
+      "exampleEn": "Success depends on your effort.",
+      "exampleJa": "成功はあなたの努力次第です。",
+      "level": 2
+    },
+    {
+      "headword": "derive",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈraɪv/",
+      "meaning": "を引き出す；に由来する",
+      "exampleEn": "English derives many words from Latin.",
+      "exampleJa": "英語はラテン語から多くの語に由来しています。",
+      "level": 4
+    },
+    {
+      "headword": "deserve",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈzɜːrv/",
+      "meaning": "に値する；を受けるに足る",
+      "exampleEn": "Your team deserves a special prize.",
+      "exampleJa": "あなたのチームは特別な賞に値します。",
+      "level": 3
+    },
+    {
+      "headword": "differ",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdɪfər/",
+      "meaning": "異なる；意見を異にする",
+      "exampleEn": "Opinions differ on this economic issue.",
+      "exampleJa": "この経済問題については意見が分かれます。",
+      "level": 3
+    },
+    {
+      "headword": "emerge",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈmɜːrdʒ/",
+      "meaning": "現れる；明らかになる",
+      "exampleEn": "New evidence emerged during the long trial.",
+      "exampleJa": "長い裁判の途中で新しい証拠が出てきました。",
+      "level": 4
+    },
+    {
+      "headword": "employ",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈplɔɪ/",
+      "meaning": "を雇う；を用いる",
+      "exampleEn": "The factory employs two hundred workers.",
+      "exampleJa": "その工場は200名の労働者を雇っています。",
+      "level": 2
+    },
+    {
+      "headword": "enable",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈneɪbəl/",
+      "meaning": "を可能にする",
+      "exampleEn": "This device enables us to measure humidity.",
+      "exampleJa": "この装置のおかげで湿度を測れます。",
+      "level": 3
+    },
+    {
+      "headword": "encounter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkaʊntər/",
+      "meaning": "に遭遇する；に直面する",
+      "exampleEn": "We encountered unexpected troubles.",
+      "exampleJa": "私たちは予期せぬトラブルに遭遇しました。",
+      "level": 3
+    },
+    {
+      "headword": "engage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈɡeɪdʒ/",
+      "meaning": "従事する；を引きつける；を従事させる",
+      "exampleEn": "He engaged in trade.",
+      "exampleJa": "彼は貿易に従事しました。",
+      "level": 4
+    },
+    {
+      "headword": "ensure",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈʃʊr/",
+      "meaning": "を確実にする；を保証する",
+      "exampleEn": "We checked the room twice to ensure safety.",
+      "exampleJa": "私たちは安全を確実にするため部屋を2回点検しました。",
+      "level": 3
+    },
+    {
+      "headword": "exceed",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈsiːd/",
+      "meaning": "を超える",
+      "exampleEn": "The total cost exceeded our original budget.",
+      "exampleJa": "総費用が当初の予算を超えてしまいました。",
+      "level": 4
+    },
+    {
+      "headword": "exist",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈzɪst/",
+      "meaning": "存在する",
+      "exampleEn": "Strange creatures exist deep in the sea.",
+      "exampleJa": "深海には奇妙な生物が存在します。",
+      "level": 3
+    },
+    {
+      "headword": "fail",
+      "partOfSpeech": "verb",
+      "phonetic": "/feɪl/",
+      "meaning": "失敗する；に落ちる",
+      "exampleEn": "Don't be afraid to fail.",
+      "exampleJa": "失敗することを恐れないでください。",
+      "level": 2
+    },
+    {
+      "headword": "function",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈfʌŋkʃən/",
+      "meaning": "機能する；働く",
+      "exampleEn": "The old engine still functions very well.",
+      "exampleJa": "その古いエンジンはまだよく動きます。",
+      "level": 3
+    },
+    {
+      "headword": "gain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡeɪn/",
+      "meaning": "を得る；を増やす",
+      "exampleEn": "He gained weight recently.",
+      "exampleJa": "彼は最近体重が増えました。",
+      "level": 3
+    },
+    {
+      "headword": "hold",
+      "partOfSpeech": "verb",
+      "phonetic": "/hoʊld/",
+      "meaning": "持つ；つかむ",
+      "exampleEn": "Please hold my bag for a minute.",
+      "exampleJa": "少しの間、私のかばんを持っていてください。",
+      "level": 2
+    },
+    {
+      "headword": "include",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkluːd/",
+      "meaning": "を含む",
+      "exampleEn": "Tax is included in the price.",
+      "exampleJa": "税金は価格に含まれています。",
+      "level": 2
+    },
+    {
+      "headword": "indicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪndɪkeɪt/",
+      "meaning": "を示す；を指し示す",
+      "exampleEn": "The red light indicates danger.",
+      "exampleJa": "赤い光は危険を示しています。",
+      "level": 3
+    },
+    {
+      "headword": "intend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtend/",
+      "meaning": "を意図する；〜するつもりである",
+      "exampleEn": "I intend to study abroad.",
+      "exampleJa": "私は留学するつもりです。",
+      "level": 3
+    },
+    {
+      "headword": "involve",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvɑːlv/",
+      "meaning": "を巻き込む；を伴う",
+      "exampleEn": "The job involves traveling worldwide.",
+      "exampleJa": "その仕事は世界中を旅することを伴います。",
+      "level": 3
+    },
+    {
+      "headword": "lack",
+      "partOfSpeech": "verb",
+      "phonetic": "/læk/",
+      "meaning": "を欠く；が足りない",
+      "exampleEn": "This essay lacks a clear conclusion.",
+      "exampleJa": "この小論文には明確な結論がありません。",
+      "level": 3
+    },
+    {
+      "headword": "last",
+      "partOfSpeech": "verb",
+      "phonetic": "/læst/",
+      "meaning": "続く",
+      "exampleEn": "The summer festival usually lasts three days.",
+      "exampleJa": "夏祭りはたいてい3日間続きます。",
+      "level": 2
+    },
+    {
+      "headword": "lay",
+      "partOfSpeech": "verb",
+      "phonetic": "/leɪ/",
+      "meaning": "を置く；を横たえる",
+      "exampleEn": "He laid the baby on the bed.",
+      "exampleJa": "彼は赤ちゃんをベッドに寝かせました。",
+      "level": 3
+    },
+    {
+      "headword": "lie",
+      "partOfSpeech": "verb",
+      "phonetic": "/laɪ/",
+      "meaning": "横になる",
+      "exampleEn": "The cat likes to lie in the sun.",
+      "exampleJa": "その猫は日なたに横になるのが好きです。",
+      "level": 2
+    },
+    {
+      "headword": "maintain",
+      "partOfSpeech": "verb",
+      "phonetic": "/meɪnˈteɪn/",
+      "meaning": "を維持する；を保守する；と主張する",
+      "exampleEn": "Maintain good health.",
+      "exampleJa": "良好な健康を維持しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "manage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmænɪdʒ/",
+      "meaning": "を管理する；を経営する；どうにか〜する",
+      "exampleEn": "She manages a coffee shop.",
+      "exampleJa": "彼女は喫茶店を経営しています。",
+      "level": 2
+    },
+    {
+      "headword": "matter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmætər/",
+      "meaning": "重要である",
+      "exampleEn": "Your opinion matters to us.",
+      "exampleJa": "あなたの意見は私たちにとって重要です。",
+      "level": 2
+    },
+    {
+      "headword": "mean",
+      "partOfSpeech": "verb",
+      "phonetic": "/miːn/",
+      "meaning": "を意味する；を意図する",
+      "exampleEn": "What does this word mean?",
+      "exampleJa": "この単語はどういう意味ですか。",
+      "level": 1
+    },
+    {
+      "headword": "mind",
+      "partOfSpeech": "verb",
+      "phonetic": "/maɪnd/",
+      "meaning": "を気にする；を嫌だと思う",
+      "exampleEn": "Do you mind if I open the window?",
+      "exampleJa": "窓を開けても構いませんか。",
+      "level": 2
+    },
+    {
+      "headword": "obtain",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈteɪn/",
+      "meaning": "を手に入れる；を得る；を取得する",
+      "exampleEn": "Obtain permission before leaving.",
+      "exampleJa": "立ち去る前に許可を取得しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "occur",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkɜːr/",
+      "meaning": "発生する；心に浮かぶ",
+      "exampleEn": "Accidents occur frequently at night.",
+      "exampleJa": "事故は夜間に頻繁に発生します。",
+      "level": 3
+    },
+    {
+      "headword": "offer",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːfər/",
+      "meaning": "を提供する；を申し出る",
+      "exampleEn": "He offered to help us.",
+      "exampleJa": "彼は私たちを手伝うと申し出ました。",
+      "level": 2
+    },
+    {
+      "headword": "operate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːpəreɪt/",
+      "meaning": "を操作する；を運営する；手術する",
+      "exampleEn": "He knows how to operate this machine.",
+      "exampleJa": "彼はこの機械の操作の仕方を知っています。",
+      "level": 3
+    },
+    {
+      "headword": "owe",
+      "partOfSpeech": "verb",
+      "phonetic": "/oʊ/",
+      "meaning": "借金がある；に負うている",
+      "exampleEn": "The firm owes money to its supplier.",
+      "exampleJa": "その会社は仕入先に借金があります。",
+      "level": 3
+    },
+    {
+      "headword": "participate",
+      "partOfSpeech": "verb",
+      "phonetic": "/pɑːrˈtɪsɪpeɪt/",
+      "meaning": "参加する",
+      "exampleEn": "All the students participated in the debate.",
+      "exampleJa": "生徒全員がその討論に参加しました。",
+      "level": 3
+    },
+    {
+      "headword": "perform",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈfɔːrm/",
+      "meaning": "を行う；を演じる；を演奏する",
+      "exampleEn": "The actor performed on stage.",
+      "exampleJa": "その俳優は舞台で演じました。",
+      "level": 3
+    },
+    {
+      "headword": "possess",
+      "partOfSpeech": "verb",
+      "phonetic": "/pəˈzes/",
+      "meaning": "を所有する；を備えている",
+      "exampleEn": "She possesses excellent language skills.",
+      "exampleJa": "彼女は優れた語学力を持っています。",
+      "level": 4
+    },
+    {
+      "headword": "prove",
+      "partOfSpeech": "verb",
+      "phonetic": "/pruːv/",
+      "meaning": "を証明する；とわかる",
+      "exampleEn": "The experiment proved that the theory was correct.",
+      "exampleJa": "その実験は理論が正しいことを証明しました。",
+      "level": 2
+    },
+    {
+      "headword": "provide",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈvaɪd/",
+      "meaning": "を提供する；を供給する",
+      "exampleEn": "The hotel provides free lunch.",
+      "exampleJa": "そのホテルは無料の昼食を提供しています。",
+      "level": 2
+    },
+    {
+      "headword": "pursue",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsuː/",
+      "meaning": "を追求する；を追跡する",
+      "exampleEn": "Pursue your passion in life.",
+      "exampleJa": "人生で自分の情熱を追求しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "refer",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfɜːr/",
+      "meaning": "言及する；参照する",
+      "exampleEn": "She referred to the dictionary for the spelling.",
+      "exampleJa": "彼女は綴りを確かめるために辞書を参照しました。",
+      "level": 3
+    },
+    {
+      "headword": "regard",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈɡɑːrd/",
+      "meaning": "を〜とみなす；を尊重する",
+      "exampleEn": "I regard him as a friend.",
+      "exampleJa": "私は彼を友人だとみなしています。",
+      "level": 3
+    },
+    {
+      "headword": "relate",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈleɪt/",
+      "meaning": "を関連づける；関係がある",
+      "exampleEn": "Scientists relate the disease to poor nutrition.",
+      "exampleJa": "科学者はその病気を栄養不足と結びつけています。",
+      "level": 3
+    },
+    {
+      "headword": "rely",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈlaɪ/",
+      "meaning": "頼る；当てにする",
+      "exampleEn": "Farmers rely on rainfall for their crops.",
+      "exampleJa": "農家は作物を降雨に頼っています。",
+      "level": 3
+    },
+    {
+      "headword": "remain",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmeɪn/",
+      "meaning": "のままである；残る",
+      "exampleEn": "The store remained open until midnight.",
+      "exampleJa": "その店は真夜中まで開いたままでした。",
+      "level": 3
+    },
+    {
+      "headword": "require",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkwaɪər/",
+      "meaning": "を必要とする；を要求する",
+      "exampleEn": "This task requires patience.",
+      "exampleJa": "この作業には根気が必要です。",
+      "level": 2
+    },
+    {
+      "headword": "resemble",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzembəl/",
+      "meaning": "に似ている",
+      "exampleEn": "The daughter resembles her mother in manner.",
+      "exampleJa": "その娘は仕草が母親に似ています。",
+      "level": 4
+    },
+    {
+      "headword": "result",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzʌlt/",
+      "meaning": "結果として生じる",
+      "exampleEn": "Careless driving often results in serious injury.",
+      "exampleJa": "不注意な運転はしばしば大けがにつながります。",
+      "level": 3
+    },
+    {
+      "headword": "seek",
+      "partOfSpeech": "verb",
+      "phonetic": "/siːk/",
+      "meaning": "を探し求める；を得ようとする",
+      "exampleEn": "Many young people seek jobs in the city.",
+      "exampleJa": "多くの若者が都会で仕事を探しています。",
+      "level": 3
+    },
+    {
+      "headword": "seem",
+      "partOfSpeech": "verb",
+      "phonetic": "/siːm/",
+      "meaning": "〜のように見える",
+      "exampleEn": "This math problem seems difficult to me.",
+      "exampleJa": "この数学の問題は私には難しく見えます。",
+      "level": 2
+    },
+    {
+      "headword": "serve",
+      "partOfSpeech": "verb",
+      "phonetic": "/sɜːrv/",
+      "meaning": "（食事などを）出す；仕える",
+      "exampleEn": "The restaurant serves lunch until two.",
+      "exampleJa": "そのレストランは2時まで昼食を出しています。",
+      "level": 2
+    },
+    {
+      "headword": "settle",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsetl/",
+      "meaning": "を解決する；定住する",
+      "exampleEn": "They finally settled the argument.",
+      "exampleJa": "彼らはついにその口論を解決しました。",
+      "level": 3
+    },
+    {
+      "headword": "stick",
+      "partOfSpeech": "verb",
+      "phonetic": "/stɪk/",
+      "meaning": "くっつく；固執する",
+      "exampleEn": "This label will not stick to the fabric.",
+      "exampleJa": "このラベルは布地にくっつきません。",
+      "level": 3
+    },
+    {
+      "headword": "suit",
+      "partOfSpeech": "verb",
+      "phonetic": "/suːt/",
+      "meaning": "に合う；都合がよい",
+      "exampleEn": "This schedule suits everyone in the department.",
+      "exampleJa": "この予定なら部署の全員に都合がいいです。",
+      "level": 3
+    },
+    {
+      "headword": "supply",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈplaɪ/",
+      "meaning": "を供給する；を支給する",
+      "exampleEn": "The city supplies clean water to every home.",
+      "exampleJa": "市はすべての家庭にきれいな水を供給しています。",
+      "level": 3
+    },
+    {
+      "headword": "tend",
+      "partOfSpeech": "verb",
+      "phonetic": "/tend/",
+      "meaning": "傾向がある",
+      "exampleEn": "Prices tend to rise before a festival.",
+      "exampleJa": "祭りの前は値段が上がりがちです。",
+      "level": 3
+    },
+    {
+      "headword": "treat",
+      "partOfSpeech": "verb",
+      "phonetic": "/triːt/",
+      "meaning": "を扱う；を治療する；におごる",
+      "exampleEn": "The doctor treated my broken arm.",
+      "exampleJa": "医師は私の折れた腕を治療しました。",
+      "level": 3
+    },
+    {
+      "headword": "undergo",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌndərˈɡoʊ/",
+      "meaning": "を経験する；を経験・受ける",
+      "exampleEn": "He underwent surgery yesterday.",
+      "exampleJa": "彼は昨日手術を受けました。",
+      "level": 4
+    },
+    {
+      "headword": "undertake",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌndərˈteɪk/",
+      "meaning": "を引き受ける；に着手する",
+      "exampleEn": "Our team undertook a difficult research project.",
+      "exampleJa": "私たちの班は難しい研究計画を引き受けました。",
+      "level": 4
+    },
+    {
+      "headword": "vary",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈveri/",
+      "meaning": "異なる；多様である",
+      "exampleEn": "Prices vary depending on the store.",
+      "exampleJa": "価格は店によって異なります。",
+      "level": 3
+    },
+    {
+      "headword": "yield",
+      "partOfSpeech": "verb",
+      "phonetic": "/jiːld/",
+      "meaning": "を生み出す；譲る",
+      "exampleEn": "This soil yields an excellent harvest every year.",
+      "exampleJa": "この土壌は毎年みごとな収穫をもたらします。",
+      "level": 4
+    }
+  ]
+}

@@ -1,0 +1,636 @@
+{
+  "chunk": "09_nouns_body_health",
+  "note": "体・健康・医療（70語）",
+  "words": [
+    {
+      "headword": "ache",
+      "partOfSpeech": "noun",
+      "phonetic": "/eɪk/",
+      "meaning": "痛み；うずき",
+      "exampleEn": "He had a bad stomach ache.",
+      "exampleJa": "彼はひどい胃の痛みがありました。",
+      "level": 3
+    },
+    {
+      "headword": "allergy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈælərdʒi/",
+      "meaning": "アレルギー",
+      "exampleEn": "My friend has a bad allergy.",
+      "exampleJa": "私の友達はひどいアレルギーがあります。",
+      "level": 3
+    },
+    {
+      "headword": "ambulance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæmbjələns/",
+      "meaning": "救急車",
+      "exampleEn": "Call an emergency ambulance for help.",
+      "exampleJa": "手助けのために緊急救急車を呼びなさい。",
+      "level": 2
+    },
+    {
+      "headword": "ankle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæŋkl/",
+      "meaning": "足首",
+      "exampleEn": "He twisted his right ankle playing soccer.",
+      "exampleJa": "彼はサッカーをしていて右の足首をひねりました。",
+      "level": 2
+    },
+    {
+      "headword": "appetite",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæpɪtaɪt/",
+      "meaning": "食欲；欲求",
+      "exampleEn": "Exercise gives you a healthy appetite.",
+      "exampleJa": "運動はあなたに健康的な食欲を与えます。",
+      "level": 3
+    },
+    {
+      "headword": "bacteria",
+      "partOfSpeech": "noun",
+      "phonetic": "/bækˈtɪriə/",
+      "meaning": "細菌；バクテリア",
+      "exampleEn": "Wash your hands to kill harmful bacteria.",
+      "exampleJa": "有害な細菌を殺すために手を洗いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "bandage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbændɪdʒ/",
+      "meaning": "包帯",
+      "exampleEn": "The nurse wrapped a bandage around my arm.",
+      "exampleJa": "看護師が私の腕に包帯を巻きました。",
+      "level": 3
+    },
+    {
+      "headword": "breath",
+      "partOfSpeech": "noun",
+      "phonetic": "/breθ/",
+      "meaning": "息；呼吸",
+      "exampleEn": "Take a deep fresh air breath.",
+      "exampleJa": "深くて清々しい空気の息をしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "cancer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkænsər/",
+      "meaning": "がん；悪性腫瘍",
+      "exampleEn": "The doctor is treating a patient with cancer.",
+      "exampleJa": "その医師はがんの患者を治療しています。",
+      "level": 3
+    },
+    {
+      "headword": "cavity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkævəti/",
+      "meaning": "虫歯の穴；空洞；くぼみ",
+      "exampleEn": "The dentist found a cavity in my tooth.",
+      "exampleJa": "歯医者は私の歯に虫歯を見つけました。",
+      "level": 4
+    },
+    {
+      "headword": "cheek",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃiːk/",
+      "meaning": "頬；ほっぺた",
+      "exampleEn": "The cold wind turned her cheeks red.",
+      "exampleJa": "冷たい風が彼女の頬を赤くしました。",
+      "level": 2
+    },
+    {
+      "headword": "chest",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃest/",
+      "meaning": "胸；箱",
+      "exampleEn": "He felt pain in his chest.",
+      "exampleJa": "彼は胸に痛みを感じました。",
+      "level": 2
+    },
+    {
+      "headword": "chin",
+      "partOfSpeech": "noun",
+      "phonetic": "/tʃɪn/",
+      "meaning": "あご",
+      "exampleEn": "He rested his chin on his hand.",
+      "exampleJa": "彼はあごを手に乗せました。",
+      "level": 2
+    },
+    {
+      "headword": "clinic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈklɪnɪk/",
+      "meaning": "診療所；クリニック",
+      "exampleEn": "I visited the clinic near my house.",
+      "exampleJa": "私は家の近くの診療所へ行きました。",
+      "level": 2
+    },
+    {
+      "headword": "cure",
+      "partOfSpeech": "noun",
+      "phonetic": "/kjʊr/",
+      "meaning": "治療法",
+      "exampleEn": "Researchers are seeking a cure for cancer.",
+      "exampleJa": "研究者たちはがんの治療法を探しています。",
+      "level": 3
+    },
+    {
+      "headword": "dentist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdentɪst/",
+      "meaning": "歯医者",
+      "exampleEn": "I visited the dentist last Monday.",
+      "exampleJa": "先週の月曜日に歯医者に行きました。",
+      "level": 2
+    },
+    {
+      "headword": "diagnosis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdaɪəɡˈnoʊsɪs/",
+      "meaning": "診断；見立て",
+      "exampleEn": "The doctor gave her an early diagnosis.",
+      "exampleJa": "医師は彼女に早期の診断を下しました。",
+      "level": 3
+    },
+    {
+      "headword": "digestion",
+      "partOfSpeech": "noun",
+      "phonetic": "/daɪˈdʒestʃən/",
+      "meaning": "消化；消化作用",
+      "exampleEn": "Chewing your food well helps digestion.",
+      "exampleJa": "食べ物をよくかむことは消化を助けます。",
+      "level": 3
+    },
+    {
+      "headword": "disease",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈziːz/",
+      "meaning": "病気；疾患",
+      "exampleEn": "Prevention is key to stopping disease.",
+      "exampleJa": "予防が病気を止める鍵です。",
+      "level": 2
+    },
+    {
+      "headword": "disorder",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪsˈɔːrdər/",
+      "meaning": "混乱；疾患；障がい",
+      "exampleEn": "The doctor treated a rare blood disorder.",
+      "exampleJa": "医師はまれな血液の疾患を治療しました。",
+      "level": 3
+    },
+    {
+      "headword": "dose",
+      "partOfSpeech": "noun",
+      "phonetic": "/doʊs/",
+      "meaning": "服用量",
+      "exampleEn": "Do not exceed the daily dose.",
+      "exampleJa": "一日の服用量を超えないでください。",
+      "level": 4
+    },
+    {
+      "headword": "elbow",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈelboʊ/",
+      "meaning": "ひじ",
+      "exampleEn": "Don't put your elbow on the table.",
+      "exampleJa": "テーブルにひじをつかないでください。",
+      "level": 3
+    },
+    {
+      "headword": "fatigue",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈtiːɡ/",
+      "meaning": "疲労",
+      "exampleEn": "Long hours caused serious fatigue.",
+      "exampleJa": "長時間の労働が深刻な疲労を招きました。",
+      "level": 4
+    },
+    {
+      "headword": "fever",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfiːvər/",
+      "meaning": "熱",
+      "exampleEn": "I have a high fever today.",
+      "exampleJa": "今日は高熱があります。",
+      "level": 2
+    },
+    {
+      "headword": "flesh",
+      "partOfSpeech": "noun",
+      "phonetic": "/fleʃ/",
+      "meaning": "肉；果肉",
+      "exampleEn": "The flesh of this fruit is sweet.",
+      "exampleJa": "この果物の果肉は甘いです。",
+      "level": 4
+    },
+    {
+      "headword": "flu",
+      "partOfSpeech": "noun",
+      "phonetic": "/fluː/",
+      "meaning": "インフルエンザ",
+      "exampleEn": "Many students caught the flu this winter.",
+      "exampleJa": "この冬、多くの生徒がインフルエンザにかかりました。",
+      "level": 3
+    },
+    {
+      "headword": "forehead",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrhed/",
+      "meaning": "額",
+      "exampleEn": "The nurse touched his forehead gently.",
+      "exampleJa": "看護師はそっと彼の額に触れました。",
+      "level": 3
+    },
+    {
+      "headword": "germ",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɜːrm/",
+      "meaning": "細菌",
+      "exampleEn": "Washing your hands removes many germs.",
+      "exampleJa": "手を洗えば多くの細菌が落ちます。",
+      "level": 3
+    },
+    {
+      "headword": "hygiene",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhaɪdʒiːn/",
+      "meaning": "衛生；清潔",
+      "exampleEn": "Good hygiene helps you avoid getting sick.",
+      "exampleJa": "良い衛生習慣は病気になるのを防いでくれます。",
+      "level": 4
+    },
+    {
+      "headword": "illness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪlnəs/",
+      "meaning": "病気；体調不良",
+      "exampleEn": "He recovered from a serious illness.",
+      "exampleJa": "彼は重い病気から回復しました。",
+      "level": 2
+    },
+    {
+      "headword": "infection",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈfekʃən/",
+      "meaning": "感染；感染症",
+      "exampleEn": "Wash hands to prevent infection.",
+      "exampleJa": "感染予防のために手を洗いなさい。",
+      "level": 3
+    },
+    {
+      "headword": "injection",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈdʒekʃən/",
+      "meaning": "注射",
+      "exampleEn": "The doctor gave him an injection.",
+      "exampleJa": "医師は彼に注射をしました。",
+      "level": 3
+    },
+    {
+      "headword": "injury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪndʒəri/",
+      "meaning": "けが",
+      "exampleEn": "He is recovering from a knee injury.",
+      "exampleJa": "彼はひざのけがから回復しています。",
+      "level": 3
+    },
+    {
+      "headword": "jaw",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɔː/",
+      "meaning": "あご",
+      "exampleEn": "He broke his jaw in the accident.",
+      "exampleJa": "彼はその事故であごを骨折しました。",
+      "level": 3
+    },
+    {
+      "headword": "joint",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒɔɪnt/",
+      "meaning": "関節",
+      "exampleEn": "Cold weather makes my joints ache.",
+      "exampleJa": "寒いと関節が痛みます。",
+      "level": 3
+    },
+    {
+      "headword": "kidney",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɪdni/",
+      "meaning": "腎臓",
+      "exampleEn": "The kidney removes waste from the blood.",
+      "exampleJa": "腎臓は血液から老廃物を取り除きます。",
+      "level": 4
+    },
+    {
+      "headword": "limb",
+      "partOfSpeech": "noun",
+      "phonetic": "/lɪm/",
+      "meaning": "手足",
+      "exampleEn": "The patient cannot move his lower limbs.",
+      "exampleJa": "その患者は下肢を動かせません。",
+      "level": 4
+    },
+    {
+      "headword": "liver",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪvər/",
+      "meaning": "肝臓",
+      "exampleEn": "Alcohol can damage the liver.",
+      "exampleJa": "アルコールは肝臓を傷めることがあります。",
+      "level": 3
+    },
+    {
+      "headword": "lung",
+      "partOfSpeech": "noun",
+      "phonetic": "/lʌŋ/",
+      "meaning": "肺",
+      "exampleEn": "Smoking damages your lungs.",
+      "exampleJa": "喫煙は肺を傷つけます。",
+      "level": 3
+    },
+    {
+      "headword": "muscle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmʌsl/",
+      "meaning": "筋肉；筋力",
+      "exampleEn": "Exercise builds strong muscles.",
+      "exampleJa": "運動は強い筋肉を作ります。",
+      "level": 2
+    },
+    {
+      "headword": "nerve",
+      "partOfSpeech": "noun",
+      "phonetic": "/nɜːrv/",
+      "meaning": "神経",
+      "exampleEn": "The injury damaged a nerve in his arm.",
+      "exampleJa": "そのけがで腕の神経が傷つきました。",
+      "level": 3
+    },
+    {
+      "headword": "nutrition",
+      "partOfSpeech": "noun",
+      "phonetic": "/nuːˈtrɪʃən/",
+      "meaning": "栄養；栄養摂取",
+      "exampleEn": "A balanced meal gives us good nutrition.",
+      "exampleJa": "バランスの取れた食事は私たちに良い栄養を与えます。",
+      "level": 3
+    },
+    {
+      "headword": "operation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɑːpəˈreɪʃn/",
+      "meaning": "事業；操作；手術",
+      "exampleEn": "The factory started operation last April.",
+      "exampleJa": "その工場は昨年の4月に操業を始めました。",
+      "level": 3
+    },
+    {
+      "headword": "organ",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɡən/",
+      "meaning": "臓器",
+      "exampleEn": "The heart is a vital organ.",
+      "exampleJa": "心臓は生命に関わる臓器です。",
+      "level": 3
+    },
+    {
+      "headword": "patient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpeɪʃnt/",
+      "meaning": "患者",
+      "exampleEn": "The doctor visited every patient in the room.",
+      "exampleJa": "医師は病室のすべての患者を診て回りました。",
+      "level": 2
+    },
+    {
+      "headword": "pharmacy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːrməsi/",
+      "meaning": "薬局；ドラッグストア",
+      "exampleEn": "I bought my medicine at the pharmacy nearby.",
+      "exampleJa": "私は近くの薬局で薬を買いました。",
+      "level": 3
+    },
+    {
+      "headword": "physician",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈzɪʃən/",
+      "meaning": "内科医",
+      "exampleEn": "Her physician recommended a longer rest.",
+      "exampleJa": "彼女の主治医はもっと長い休養を勧めました。",
+      "level": 4
+    },
+    {
+      "headword": "pill",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɪl/",
+      "meaning": "錠剤",
+      "exampleEn": "Take one pill after every meal.",
+      "exampleJa": "毎食後に錠剤を一つ飲んでください。",
+      "level": 3
+    },
+    {
+      "headword": "posture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːstʃər/",
+      "meaning": "姿勢；心構え",
+      "exampleEn": "Good posture is important when you sit.",
+      "exampleJa": "座るときは良い姿勢が大切です。",
+      "level": 3
+    },
+    {
+      "headword": "pregnancy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpreɡnənsi/",
+      "meaning": "妊娠",
+      "exampleEn": "Good nutrition matters during pregnancy.",
+      "exampleJa": "妊娠中は十分な栄養が大切です。",
+      "level": 4
+    },
+    {
+      "headword": "prescription",
+      "partOfSpeech": "noun",
+      "phonetic": "/prɪˈskrɪpʃn/",
+      "meaning": "処方箋；規定",
+      "exampleEn": "She took the prescription to the pharmacy.",
+      "exampleJa": "彼女は処方箋を薬局へ持って行きました。",
+      "level": 3
+    },
+    {
+      "headword": "pulse",
+      "partOfSpeech": "noun",
+      "phonetic": "/pʌls/",
+      "meaning": "脈拍",
+      "exampleEn": "The nurse checked his pulse quickly.",
+      "exampleJa": "看護師は手早く彼の脈をとりました。",
+      "level": 4
+    },
+    {
+      "headword": "recovery",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈkʌvəri/",
+      "meaning": "回復；復旧",
+      "exampleEn": "His recovery from the illness was quick.",
+      "exampleJa": "彼の病気からの回復は早かったです。",
+      "level": 3
+    },
+    {
+      "headword": "rib",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪb/",
+      "meaning": "肋骨",
+      "exampleEn": "He cracked a rib during the game.",
+      "exampleJa": "彼は試合中に肋骨にひびが入りました。",
+      "level": 4
+    },
+    {
+      "headword": "skeleton",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskelətən/",
+      "meaning": "骨格",
+      "exampleEn": "The museum displays the skeleton of a whale.",
+      "exampleJa": "その博物館はクジラの骨格を展示しています。",
+      "level": 4
+    },
+    {
+      "headword": "skin",
+      "partOfSpeech": "noun",
+      "phonetic": "/skɪn/",
+      "meaning": "肌；皮膚",
+      "exampleEn": "Take care of your skin every day.",
+      "exampleJa": "毎日肌の手入れをしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "stomach",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstʌmək/",
+      "meaning": "胃；おなか",
+      "exampleEn": "I have a pain in my stomach.",
+      "exampleJa": "おなかに痛みがあります。",
+      "level": 2
+    },
+    {
+      "headword": "surgery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrdʒəri/",
+      "meaning": "手術；外科",
+      "exampleEn": "He had surgery on his knee last month.",
+      "exampleJa": "彼は先月ひざの手術を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "symptom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪmptəm/",
+      "meaning": "症状；兆候",
+      "exampleEn": "A high fever is a common symptom of flu.",
+      "exampleJa": "高い熱はインフルエンザによくある症状です。",
+      "level": 3
+    },
+    {
+      "headword": "therapy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθerəpi/",
+      "meaning": "療法",
+      "exampleEn": "Regular therapy improved her movement.",
+      "exampleJa": "定期的な療法で彼女の動きがよくなりました。",
+      "level": 4
+    },
+    {
+      "headword": "throat",
+      "partOfSpeech": "noun",
+      "phonetic": "/θroʊt/",
+      "meaning": "のど",
+      "exampleEn": "My throat hurts when I swallow.",
+      "exampleJa": "飲み込むとのどが痛みます。",
+      "level": 3
+    },
+    {
+      "headword": "thumb",
+      "partOfSpeech": "noun",
+      "phonetic": "/θʌm/",
+      "meaning": "親指",
+      "exampleEn": "She hurt her thumb while cooking.",
+      "exampleJa": "彼女は料理中に親指をけがしました。",
+      "level": 2
+    },
+    {
+      "headword": "treatment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtriːtmənt/",
+      "meaning": "治療；取り扱い；待遇",
+      "exampleEn": "He received good treatment at the hospital.",
+      "exampleJa": "彼は病院で良い治療を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "vaccine",
+      "partOfSpeech": "noun",
+      "phonetic": "/vækˈsiːn/",
+      "meaning": "ワクチン",
+      "exampleEn": "Vaccines protect people from flu.",
+      "exampleJa": "ワクチンは人々をインフルエンザから守ります。",
+      "level": 3
+    },
+    {
+      "headword": "vein",
+      "partOfSpeech": "noun",
+      "phonetic": "/veɪn/",
+      "meaning": "静脈",
+      "exampleEn": "Blood returns to the heart through veins.",
+      "exampleJa": "血液は静脈を通って心臓へ戻ります。",
+      "level": 4
+    },
+    {
+      "headword": "virus",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪrəs/",
+      "meaning": "ウイルス",
+      "exampleEn": "The virus causes high fever.",
+      "exampleJa": "そのウイルスは高熱を引き起こします。",
+      "level": 2
+    },
+    {
+      "headword": "vitamin",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪtəmɪn/",
+      "meaning": "ビタミン",
+      "exampleEn": "Oranges contain a lot of vitamin C.",
+      "exampleJa": "オレンジにはビタミンCがたくさん含まれています。",
+      "level": 2
+    },
+    {
+      "headword": "wheelchair",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwiːltʃer/",
+      "meaning": "車いす",
+      "exampleEn": "This entrance is wide enough for a wheelchair.",
+      "exampleJa": "この入り口は車いすが通れる広さです。",
+      "level": 3
+    },
+    {
+      "headword": "wound",
+      "partOfSpeech": "noun",
+      "phonetic": "/wuːnd/",
+      "meaning": "傷；負傷",
+      "exampleEn": "The doctor treated his wound.",
+      "exampleJa": "医師は彼の傷を治療しました。",
+      "level": 3
+    },
+    {
+      "headword": "wrist",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪst/",
+      "meaning": "手首",
+      "exampleEn": "He wears a watch on his left wrist.",
+      "exampleJa": "彼は左手首に時計をしています。",
+      "level": 2
+    }
+  ]
+}

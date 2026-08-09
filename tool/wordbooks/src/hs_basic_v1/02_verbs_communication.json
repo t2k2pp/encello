@@ -1,0 +1,735 @@
+{
+  "chunk": "02_verbs_communication",
+  "note": "伝達・対人関係の動詞（81語）",
+  "words": [
+    {
+      "headword": "accuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkjuːz/",
+      "meaning": "を告発する；を非難する",
+      "exampleEn": "They accused him of theft.",
+      "exampleJa": "彼らは彼を窃盗で告発しました。",
+      "level": 4
+    },
+    {
+      "headword": "address",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdres/",
+      "meaning": "問題に取り組む；演説する",
+      "exampleEn": "The manager addressed the customer's complaint quickly.",
+      "exampleJa": "部長は顧客の苦情に速やかに対応しました。",
+      "level": 3
+    },
+    {
+      "headword": "advise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈvaɪz/",
+      "meaning": "に助言する；に忠告する；に通知する",
+      "exampleEn": "The doctor advised me to rest.",
+      "exampleJa": "医師は私に休むよう助言しました。",
+      "level": 3
+    },
+    {
+      "headword": "announce",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈnaʊns/",
+      "meaning": "を発表する；を知らせる；を告知する",
+      "exampleEn": "They announced the news.",
+      "exampleJa": "彼らはニュースを発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "apologize",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpɑːlədʒaɪz/",
+      "meaning": "謝る；謝罪する",
+      "exampleEn": "He apologized for being late.",
+      "exampleJa": "彼は遅刻したことを謝りました。",
+      "level": 2
+    },
+    {
+      "headword": "appeal",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpiːl/",
+      "meaning": "訴える；魅力がある；懇願する",
+      "exampleEn": "The movie appeals to young children.",
+      "exampleJa": "その映画は幼い子供たちを惹きつけます。",
+      "level": 3
+    },
+    {
+      "headword": "assist",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsɪst/",
+      "meaning": "を援助する；を手伝う",
+      "exampleEn": "She assisted the professor with research.",
+      "exampleJa": "彼女は教授の研究を補助しました。",
+      "level": 3
+    },
+    {
+      "headword": "beg",
+      "partOfSpeech": "verb",
+      "phonetic": "/beɡ/",
+      "meaning": "を懇願する；を乞う",
+      "exampleEn": "He begged for forgiveness.",
+      "exampleJa": "彼は許しを懇願しました。",
+      "level": 3
+    },
+    {
+      "headword": "betray",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈtreɪ/",
+      "meaning": "を裏切る；を漏らす",
+      "exampleEn": "Never betray the trust of a close friend.",
+      "exampleJa": "親しい友人の信頼を絶対に裏切ってはならない。",
+      "level": 4
+    },
+    {
+      "headword": "boast",
+      "partOfSpeech": "verb",
+      "phonetic": "/boʊst/",
+      "meaning": "を自慢する；を誇る",
+      "exampleEn": "He boasts about his high test scores.",
+      "exampleJa": "彼は自分の高いテストスコアを自慢します。",
+      "level": 4
+    },
+    {
+      "headword": "celebrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈselɪbreɪt/",
+      "meaning": "を祝う；祝賀する",
+      "exampleEn": "We celebrated her birthday last night.",
+      "exampleJa": "私たちは昨夜彼女の誕生日を祝いました。",
+      "level": 1
+    },
+    {
+      "headword": "command",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmænd/",
+      "meaning": "に命令する；を指揮する",
+      "exampleEn": "The captain commanded the soldiers.",
+      "exampleJa": "船長は兵士たちに命令しました。",
+      "level": 3
+    },
+    {
+      "headword": "comment",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːment/",
+      "meaning": "意見を述べる；コメントする",
+      "exampleEn": "The spokesperson refused to comment on the report.",
+      "exampleJa": "広報担当者はその報道についてコメントするのを断りました。",
+      "level": 2
+    },
+    {
+      "headword": "commit",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmɪt/",
+      "meaning": "を犯す；を約束する；を委ねる",
+      "exampleEn": "He committed himself to improving his English.",
+      "exampleJa": "彼は英語を上達させることに真剣に取り組むと約束しました。",
+      "level": 4
+    },
+    {
+      "headword": "communicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈmjuːnɪkeɪt/",
+      "meaning": "意思を伝え合う；を伝える；連絡を取る",
+      "exampleEn": "Dolphins communicate with sounds.",
+      "exampleJa": "イルカは音で意思疎通します。",
+      "level": 2
+    },
+    {
+      "headword": "compete",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpiːt/",
+      "meaning": "競争する；競い合う",
+      "exampleEn": "Many athletes competed in the race.",
+      "exampleJa": "多くの選手がレースで競い合いました。",
+      "level": 3
+    },
+    {
+      "headword": "complain",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈpleɪn/",
+      "meaning": "不平を言う；苦情を言う",
+      "exampleEn": "He complained about the noise.",
+      "exampleJa": "彼は騒音について苦情を言いました。",
+      "level": 3
+    },
+    {
+      "headword": "compliment",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkɑːmpləment/",
+      "meaning": "を褒める",
+      "exampleEn": "The teacher complimented her on the essay.",
+      "exampleJa": "先生は彼女の小論文を褒めました。",
+      "level": 4
+    },
+    {
+      "headword": "consult",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsʌlt/",
+      "meaning": "に相談する；を参照する",
+      "exampleEn": "Consult a doctor if necessary.",
+      "exampleJa": "必要に応じて医師に相談してください。",
+      "level": 3
+    },
+    {
+      "headword": "cooperate",
+      "partOfSpeech": "verb",
+      "phonetic": "/koʊˈɑːpəreɪt/",
+      "meaning": "協力する；協同する",
+      "exampleEn": "Let's cooperate to finish this work.",
+      "exampleJa": "この仕事を終わらせるために協力しましょう。",
+      "level": 3
+    },
+    {
+      "headword": "declare",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈkler/",
+      "meaning": "を宣言する；を申告する",
+      "exampleEn": "They declared independence.",
+      "exampleJa": "彼らは独立を宣言しました。",
+      "level": 3
+    },
+    {
+      "headword": "dedicate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdedɪkeɪt/",
+      "meaning": "を捧げる；を専念させる",
+      "exampleEn": "She dedicated her life to helping poor children.",
+      "exampleJa": "彼女は貧しい子供たちを助けることに人生を捧げました。",
+      "level": 3
+    },
+    {
+      "headword": "defend",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfend/",
+      "meaning": "を守る；を弁護する",
+      "exampleEn": "They defended their country.",
+      "exampleJa": "彼らは自国を守りました。",
+      "level": 2
+    },
+    {
+      "headword": "delay",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈleɪ/",
+      "meaning": "を遅らせる；遅れる",
+      "exampleEn": "The train was delayed by heavy snow.",
+      "exampleJa": "電車は大雪のため遅れました。",
+      "level": 2
+    },
+    {
+      "headword": "deliver",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈlɪvər/",
+      "meaning": "を配達する；を届ける；を述べる",
+      "exampleEn": "The package was delivered today.",
+      "exampleJa": "小包は今日配達されました。",
+      "level": 2
+    },
+    {
+      "headword": "demand",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈmænd/",
+      "meaning": "を要求する；を必要とする",
+      "exampleEn": "Workers demanded higher wages.",
+      "exampleJa": "労働者たちは賃上げを要求しました。",
+      "level": 3
+    },
+    {
+      "headword": "devote",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈvoʊt/",
+      "meaning": "を捧げる；を専念させる",
+      "exampleEn": "She devoted her life to art.",
+      "exampleJa": "彼女は芸術に生涯を捧げました。",
+      "level": 3
+    },
+    {
+      "headword": "disagree",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈɡriː/",
+      "meaning": "意見が合わない；反対する",
+      "exampleEn": "I disagree with you about this plan.",
+      "exampleJa": "私はこの計画についてあなたに反対です。",
+      "level": 2
+    },
+    {
+      "headword": "discuss",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskʌs/",
+      "meaning": "について話し合う；を議論する",
+      "exampleEn": "Let's discuss the project.",
+      "exampleJa": "プロジェクトについて話し合いましょう。",
+      "level": 2
+    },
+    {
+      "headword": "dismiss",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪsˈmɪs/",
+      "meaning": "を退ける；を解雇する",
+      "exampleEn": "The manager dismissed the proposal.",
+      "exampleJa": "マネージャーはその提案を却下しました。",
+      "level": 4
+    },
+    {
+      "headword": "educate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈedʒukeɪt/",
+      "meaning": "を教育する",
+      "exampleEn": "Schools educate children about environmental issues.",
+      "exampleJa": "学校は子どもたちに環境問題を教えます。",
+      "level": 3
+    },
+    {
+      "headword": "elect",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈlekt/",
+      "meaning": "を選挙で選ぶ",
+      "exampleEn": "Citizens elect a new mayor every four years.",
+      "exampleJa": "市民は四年ごとに新しい市長を選びます。",
+      "level": 3
+    },
+    {
+      "headword": "embarrass",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈbærəs/",
+      "meaning": "を戸惑わせる；を恥ずかしがらせる",
+      "exampleEn": "Her question embarrassed me.",
+      "exampleJa": "彼女の質問に戸惑いました。",
+      "level": 3
+    },
+    {
+      "headword": "emphasize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈemfəsaɪz/",
+      "meaning": "を強調する",
+      "exampleEn": "He emphasized the importance of safety.",
+      "exampleJa": "彼は安全性の重要性を強調しました。",
+      "level": 3
+    },
+    {
+      "headword": "encourage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkɜːrɪdʒ/",
+      "meaning": "を励ます；を促す；を促進する",
+      "exampleEn": "My teacher encouraged me.",
+      "exampleJa": "先生が私を励ましてくれました。",
+      "level": 2
+    },
+    {
+      "headword": "entertain",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌentərˈteɪn/",
+      "meaning": "を楽しませる；をもてなす",
+      "exampleEn": "The musician entertained a huge audience.",
+      "exampleJa": "その音楽家は大観衆を楽しませました。",
+      "level": 3
+    },
+    {
+      "headword": "express",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspres/",
+      "meaning": "を表現する；を述べる",
+      "exampleEn": "He expressed his thanks.",
+      "exampleJa": "彼は感謝の気持ちを表現しました。",
+      "level": 2
+    },
+    {
+      "headword": "forbid",
+      "partOfSpeech": "verb",
+      "phonetic": "/fərˈbɪd/",
+      "meaning": "を禁止する",
+      "exampleEn": "Smoking is forbidden here.",
+      "exampleJa": "ここは禁煙です。",
+      "level": 3
+    },
+    {
+      "headword": "forgive",
+      "partOfSpeech": "verb",
+      "phonetic": "/fərˈɡɪv/",
+      "meaning": "を許す",
+      "exampleEn": "Please forgive my rudeness.",
+      "exampleJa": "私の失礼をお許しください。",
+      "level": 2
+    },
+    {
+      "headword": "govern",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɡʌvərn/",
+      "meaning": "を統治する；を支配する",
+      "exampleEn": "The president governs the nation.",
+      "exampleJa": "大統領が国家を統治します。",
+      "level": 3
+    },
+    {
+      "headword": "greet",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡriːt/",
+      "meaning": "にあいさつする；を迎える",
+      "exampleEn": "She greeted us with a smile.",
+      "exampleJa": "彼女は笑顔で私たちにあいさつしました。",
+      "level": 2
+    },
+    {
+      "headword": "guide",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡaɪd/",
+      "meaning": "を案内する；を指導する",
+      "exampleEn": "She guided us through the town.",
+      "exampleJa": "彼女は町を案内してくれました。",
+      "level": 2
+    },
+    {
+      "headword": "impress",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpres/",
+      "meaning": "に感銘を与える",
+      "exampleEn": "His speech impressed us all.",
+      "exampleJa": "彼のスピーチは私たち全員に感銘を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "inform",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɔːrm/",
+      "meaning": "に知らせる；に通知する",
+      "exampleEn": "Inform us of your arrival time.",
+      "exampleJa": "到着時間を私たちに知らせてください。",
+      "level": 3
+    },
+    {
+      "headword": "inquire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkwaɪər/",
+      "meaning": "尋ねる；問い合わせる",
+      "exampleEn": "A customer inquired about the delivery date.",
+      "exampleJa": "顧客が配達日について問い合わせました。",
+      "level": 3
+    },
+    {
+      "headword": "insist",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsɪst/",
+      "meaning": "と主張する；を強く求める",
+      "exampleEn": "He insisted on coming along.",
+      "exampleJa": "彼は同行することを主張しました。",
+      "level": 3
+    },
+    {
+      "headword": "inspire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈspaɪər/",
+      "meaning": "を奮い立たせる；を触発する",
+      "exampleEn": "Her speech inspired many young people.",
+      "exampleJa": "彼女のスピーチは多くの若者を触発しました。",
+      "level": 3
+    },
+    {
+      "headword": "instruct",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈstrʌkt/",
+      "meaning": "に指示する；を指導する",
+      "exampleEn": "He instructed the staff.",
+      "exampleJa": "彼はスタッフに指示を出しました。",
+      "level": 3
+    },
+    {
+      "headword": "insult",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈsʌlt/",
+      "meaning": "を侮辱する",
+      "exampleEn": "He insulted his colleague during the meeting.",
+      "exampleJa": "彼は会議中に同僚を侮辱しました。",
+      "level": 4
+    },
+    {
+      "headword": "interrupt",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntəˈrʌpt/",
+      "meaning": "を遮る；を中断させる",
+      "exampleEn": "Don't interrupt while I speak.",
+      "exampleJa": "私が話している最中に邪魔をしないでください。",
+      "level": 3
+    },
+    {
+      "headword": "introduce",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌɪntrəˈduːs/",
+      "meaning": "を紹介する；を導入する",
+      "exampleEn": "Let me introduce my friend.",
+      "exampleJa": "私の友人を紹介させてください。",
+      "level": 1
+    },
+    {
+      "headword": "invite",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvaɪt/",
+      "meaning": "招く；誘う",
+      "exampleEn": "They invited me to the party.",
+      "exampleJa": "彼らは私をパーティーに招いてくれました。",
+      "level": 2
+    },
+    {
+      "headword": "lecture",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈlektʃər/",
+      "meaning": "講義する；説教する",
+      "exampleEn": "The professor lectures on ancient civilization.",
+      "exampleJa": "その教授は古代文明について講義します。",
+      "level": 4
+    },
+    {
+      "headword": "mention",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmenʃən/",
+      "meaning": "に言及する；を口にする",
+      "exampleEn": "She mentioned her plan to her boss.",
+      "exampleJa": "彼女は上司に自分の計画を話しました。",
+      "level": 3
+    },
+    {
+      "headword": "negotiate",
+      "partOfSpeech": "verb",
+      "phonetic": "/nɪˈɡoʊʃieɪt/",
+      "meaning": "を交渉する；を取り決める",
+      "exampleEn": "They negotiated a peace deal.",
+      "exampleJa": "彼らは和平協定を交渉しました。",
+      "level": 4
+    },
+    {
+      "headword": "obey",
+      "partOfSpeech": "verb",
+      "phonetic": "/oʊˈbeɪ/",
+      "meaning": "に従う；を守る",
+      "exampleEn": "You should obey traffic rules.",
+      "exampleJa": "交通規則に従うべきです。",
+      "level": 3
+    },
+    {
+      "headword": "object",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈdʒekt/",
+      "meaning": "反対する",
+      "exampleEn": "Several residents objected to the construction plan.",
+      "exampleJa": "何人かの住民が建設計画に反対しました。",
+      "level": 3
+    },
+    {
+      "headword": "oppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpoʊz/",
+      "meaning": "に反対する；に対抗する",
+      "exampleEn": "Many citizens opposed the new tax.",
+      "exampleJa": "多くの市民が新税に反対しました。",
+      "level": 3
+    },
+    {
+      "headword": "order",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːrdər/",
+      "meaning": "注文する；命じる",
+      "exampleEn": "We ordered pizza for dinner.",
+      "exampleJa": "私たちは夕食にピザを注文しました。",
+      "level": 2
+    },
+    {
+      "headword": "permit",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈmɪt/",
+      "meaning": "を許可する；を認める",
+      "exampleEn": "The teacher permitted us to leave early.",
+      "exampleJa": "先生は私たちが早く帰るのを許可しました。",
+      "level": 3
+    },
+    {
+      "headword": "persuade",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsweɪd/",
+      "meaning": "を説得する",
+      "exampleEn": "I persuaded him to join us.",
+      "exampleJa": "私は彼を説得して参加させました。",
+      "level": 3
+    },
+    {
+      "headword": "praise",
+      "partOfSpeech": "verb",
+      "phonetic": "/preɪz/",
+      "meaning": "をほめる；を称賛する",
+      "exampleEn": "The teacher praised her effort.",
+      "exampleJa": "先生は彼女の努力をほめました。",
+      "level": 3
+    },
+    {
+      "headword": "promise",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈprɑːmɪs/",
+      "meaning": "を約束する",
+      "exampleEn": "He promised to help me.",
+      "exampleJa": "彼は私を手伝うと約束しました。",
+      "level": 1
+    },
+    {
+      "headword": "propose",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈpoʊz/",
+      "meaning": "を提案する；に結婚を申し込む",
+      "exampleEn": "He proposed a new schedule.",
+      "exampleJa": "彼は新しい日程を提案しました。",
+      "level": 3
+    },
+    {
+      "headword": "protest",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈtest/",
+      "meaning": "抗議する；に異議を唱える",
+      "exampleEn": "People protested against the law.",
+      "exampleJa": "人々はその法律に抗議しました。",
+      "level": 3
+    },
+    {
+      "headword": "publish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpʌblɪʃ/",
+      "meaning": "を出版する；を公表する",
+      "exampleEn": "The company published its annual report yesterday.",
+      "exampleJa": "その会社は昨日、年次報告書を公表しました。",
+      "level": 2
+    },
+    {
+      "headword": "quote",
+      "partOfSpeech": "verb",
+      "phonetic": "/kwoʊt/",
+      "meaning": "を引用する",
+      "exampleEn": "This article quotes a famous author.",
+      "exampleJa": "この記事は有名な作家の言葉を引用しています。",
+      "level": 4
+    },
+    {
+      "headword": "recommend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌrekəˈmend/",
+      "meaning": "を勧める；を推薦する",
+      "exampleEn": "I recommend trying this dish.",
+      "exampleJa": "この料理を試すことをお勧めします。",
+      "level": 3
+    },
+    {
+      "headword": "refuse",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈfjuːz/",
+      "meaning": "を断る；を拒否する",
+      "exampleEn": "She refused his invitation.",
+      "exampleJa": "彼女は彼の招待を断りました。",
+      "level": 2
+    },
+    {
+      "headword": "reply",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈplaɪ/",
+      "meaning": "返事をする；返信する",
+      "exampleEn": "She replied promptly.",
+      "exampleJa": "彼女は迅速に返事をしました。",
+      "level": 2
+    },
+    {
+      "headword": "report",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈpɔːrt/",
+      "meaning": "を報告する；を報道する",
+      "exampleEn": "He reported the incident.",
+      "exampleJa": "彼は出来事を報告しました。",
+      "level": 2
+    },
+    {
+      "headword": "request",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkwest/",
+      "meaning": "を要請する；を頼む",
+      "exampleEn": "We requested further information.",
+      "exampleJa": "私たちは更なる情報を要請しました。",
+      "level": 3
+    },
+    {
+      "headword": "respond",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈspɑːnd/",
+      "meaning": "応答する；反応する",
+      "exampleEn": "He responded to my question.",
+      "exampleJa": "彼は私の質問に応答しました。",
+      "level": 3
+    },
+    {
+      "headword": "reveal",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈviːl/",
+      "meaning": "を明らかにする；を暴露する",
+      "exampleEn": "Investigation revealed the truth.",
+      "exampleJa": "調査によって真実が明らかになりました。",
+      "level": 3
+    },
+    {
+      "headword": "scold",
+      "partOfSpeech": "verb",
+      "phonetic": "/skoʊld/",
+      "meaning": "を叱る",
+      "exampleEn": "His mother scolded him for careless behavior.",
+      "exampleJa": "母親は不注意なふるまいで彼を叱りました。",
+      "level": 3
+    },
+    {
+      "headword": "state",
+      "partOfSpeech": "verb",
+      "phonetic": "/steɪt/",
+      "meaning": "を述べる；を明言する",
+      "exampleEn": "The document clearly states the new policy.",
+      "exampleJa": "その文書は新しい方針をはっきり述べています。",
+      "level": 3
+    },
+    {
+      "headword": "suggest",
+      "partOfSpeech": "verb",
+      "phonetic": "/səɡˈdʒest/",
+      "meaning": "を提案する；を暗示する",
+      "exampleEn": "He suggested a new plan.",
+      "exampleJa": "彼は新しい計画を提案しました。",
+      "level": 2
+    },
+    {
+      "headword": "threaten",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈθretən/",
+      "meaning": "を脅す；を脅かす",
+      "exampleEn": "Pollution threatens wildlife along this coast.",
+      "exampleJa": "汚染がこの海岸の野生生物を脅かしています。",
+      "level": 3
+    },
+    {
+      "headword": "urge",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɜːrdʒ/",
+      "meaning": "に強く促す；を催促する",
+      "exampleEn": "Doctors urge people to exercise.",
+      "exampleJa": "医師たちは人々に運動するよう強く促します。",
+      "level": 4
+    },
+    {
+      "headword": "warn",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɔːrn/",
+      "meaning": "に警告する；に注意する",
+      "exampleEn": "The guard warned us of danger.",
+      "exampleJa": "警備員は私たちに危険を警告しました。",
+      "level": 2
+    },
+    {
+      "headword": "whisper",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwɪspər/",
+      "meaning": "ささやく",
+      "exampleEn": "She whispered the answer to her partner.",
+      "exampleJa": "彼女は相手にそっと答えをささやきました。",
+      "level": 2
+    }
+  ]
+}

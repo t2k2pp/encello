@@ -1,0 +1,762 @@
+{
+  "chunk": "06_nouns_study_information",
+  "note": "学問・言語・情報（84語）",
+  "words": [
+    {
+      "headword": "analysis",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈnæləsɪs/",
+      "meaning": "分析；解析",
+      "exampleEn": "Write a detailed market data analysis report.",
+      "exampleJa": "詳細な市場データ分析報告書を書きなさい。",
+      "level": 3
+    },
+    {
+      "headword": "approach",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈproʊtʃ/",
+      "meaning": "取り組み方；接近",
+      "exampleEn": "We need a different approach to this problem.",
+      "exampleJa": "この問題には別の取り組み方が必要です。",
+      "level": 3
+    },
+    {
+      "headword": "argument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrɡjumənt/",
+      "meaning": "議論；主張；口論",
+      "exampleEn": "They had a heated political argument.",
+      "exampleJa": "彼らは白熱した政治的議論を行いました。",
+      "level": 3
+    },
+    {
+      "headword": "aspect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈæspekt/",
+      "meaning": "側面；局面；外観",
+      "exampleEn": "Consider every aspect of the problem.",
+      "exampleJa": "問題のすべての側面を考慮しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "assignment",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈsaɪnmənt/",
+      "meaning": "課題；宿題；割り当てられた仕事",
+      "exampleEn": "Please finish your assignment tonight.",
+      "exampleJa": "今夜、宿題を終わらせてください。",
+      "level": 3
+    },
+    {
+      "headword": "attention",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈtenʃn/",
+      "meaning": "注意；注目",
+      "exampleEn": "Pay close attention to your teacher's words.",
+      "exampleJa": "先生の話に細心の注意を払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "background",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbækɡraʊnd/",
+      "meaning": "背景；経歴",
+      "exampleEn": "He has a strong science educational background.",
+      "exampleJa": "彼には強固な科学教育経歴があります。",
+      "level": 2
+    },
+    {
+      "headword": "basis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪsɪs/",
+      "meaning": "基礎；根拠；基準",
+      "exampleEn": "Work done on a regular daily basis.",
+      "exampleJa": "毎日の定期的な基準で行われた作業。",
+      "level": 3
+    },
+    {
+      "headword": "biology",
+      "partOfSpeech": "noun",
+      "phonetic": "/baɪˈɑːlədʒi/",
+      "meaning": "生物学",
+      "exampleEn": "He is studying plant biology at university.",
+      "exampleJa": "彼は大学で植物生物学を学んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "chemistry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkemɪstri/",
+      "meaning": "化学",
+      "exampleEn": "My favorite subject is chemistry.",
+      "exampleJa": "私の一番好きな科目は化学です。",
+      "level": 2
+    },
+    {
+      "headword": "communication",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+      "meaning": "コミュニケーション；伝達",
+      "exampleEn": "Good communication is the key to teamwork.",
+      "exampleJa": "良いコミュニケーションはチームワークの鍵です。",
+      "level": 2
+    },
+    {
+      "headword": "composition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌkɑːmpəˈzɪʃn/",
+      "meaning": "構成；作文；楽曲",
+      "exampleEn": "I wrote a short composition in English yesterday.",
+      "exampleJa": "私は昨日、英語で短い作文を書きました。",
+      "level": 3
+    },
+    {
+      "headword": "concept",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnsept/",
+      "meaning": "概念；考え",
+      "exampleEn": "It is a simple design concept.",
+      "exampleJa": "それはシンプルなデザイン発想です。",
+      "level": 3
+    },
+    {
+      "headword": "conclusion",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈkluːʒn/",
+      "meaning": "結論；結末",
+      "exampleEn": "We reached the same conclusion after the discussion.",
+      "exampleJa": "議論の後、私たちは同じ結論に達しました。",
+      "level": 2
+    },
+    {
+      "headword": "consequence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnsəkwens/",
+      "meaning": "結果；影響",
+      "exampleEn": "He faced serious consequences for his mistake.",
+      "exampleJa": "彼は自分の失敗で深刻な結果に直面しました。",
+      "level": 4
+    },
+    {
+      "headword": "content",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntent/",
+      "meaning": "内容；中身；コンテンツ",
+      "exampleEn": "The content of this book is difficult.",
+      "exampleJa": "この本の内容は難しいです。",
+      "level": 2
+    },
+    {
+      "headword": "context",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntekst/",
+      "meaning": "文脈；状況；背景",
+      "exampleEn": "Guess the meaning from context.",
+      "exampleJa": "文脈から意味を推測しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "course",
+      "partOfSpeech": "noun",
+      "phonetic": "/kɔːrs/",
+      "meaning": "コース；進路；課程",
+      "exampleEn": "She is taking an English course this year.",
+      "exampleJa": "彼女は今年英語の講座を受けています。",
+      "level": 1
+    },
+    {
+      "headword": "data",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdeɪtə/",
+      "meaning": "データ",
+      "exampleEn": "We collected a lot of data.",
+      "exampleJa": "私たちはたくさんのデータを集めました。",
+      "level": 2
+    },
+    {
+      "headword": "debate",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈbeɪt/",
+      "meaning": "討論；議論",
+      "exampleEn": "There was a long debate about the new law.",
+      "exampleJa": "新しい法律について長い議論がありました。",
+      "level": 2
+    },
+    {
+      "headword": "definition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdefəˈnɪʃən/",
+      "meaning": "定義",
+      "exampleEn": "Look up the definition of this term.",
+      "exampleJa": "この用語の定義を調べてください。",
+      "level": 3
+    },
+    {
+      "headword": "degree",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈɡriː/",
+      "meaning": "学位；度；程度",
+      "exampleEn": "She obtained a master's degree.",
+      "exampleJa": "彼女は修士号を取得しました。",
+      "level": 2
+    },
+    {
+      "headword": "description",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskrɪpʃn/",
+      "meaning": "説明；記述；描写",
+      "exampleEn": "He gave an accurate description of the thief.",
+      "exampleJa": "彼はその泥棒について正確な説明をしました。",
+      "level": 2
+    },
+    {
+      "headword": "detail",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdiːteɪl/",
+      "meaning": "詳細；細部",
+      "exampleEn": "Tell me the details later.",
+      "exampleJa": "詳細は後で教えてください。",
+      "level": 2
+    },
+    {
+      "headword": "dialogue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪəlɔːɡ/",
+      "meaning": "対話；ダイアログ",
+      "exampleEn": "The two leaders continued their dialogue for hours.",
+      "exampleJa": "二人の指導者は何時間も対話を続けました。",
+      "level": 2
+    },
+    {
+      "headword": "diploma",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈploʊmə/",
+      "meaning": "卒業証書；修了証書",
+      "exampleEn": "He received his high school diploma last spring.",
+      "exampleJa": "彼は昨年の春に高校の卒業証書を受け取りました。",
+      "level": 3
+    },
+    {
+      "headword": "discussion",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈskʌʃn/",
+      "meaning": "議論；話し合い",
+      "exampleEn": "The discussion continued after lunch.",
+      "exampleJa": "話し合いは昼食のあとも続きました。",
+      "level": 2
+    },
+    {
+      "headword": "document",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdɑːkjumənt/",
+      "meaning": "書類；文書",
+      "exampleEn": "He signed the document with a black pen.",
+      "exampleJa": "彼は黒いペンでその書類に署名しました。",
+      "level": 2
+    },
+    {
+      "headword": "draft",
+      "partOfSpeech": "noun",
+      "phonetic": "/dræft/",
+      "meaning": "下書き；草案",
+      "exampleEn": "I finished the first draft of the contract.",
+      "exampleJa": "私は契約書の最初の草案を仕上げました。",
+      "level": 3
+    },
+    {
+      "headword": "economics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌiːkəˈnɑːmɪks/",
+      "meaning": "経済学",
+      "exampleEn": "She majors in business economics.",
+      "exampleJa": "彼女はビジネス経済学を専攻しています。",
+      "level": 3
+    },
+    {
+      "headword": "education",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌedʒuˈkeɪʃn/",
+      "meaning": "教育；教養",
+      "exampleEn": "Good education helps children build their future.",
+      "exampleJa": "よい教育は子どもたちが将来を築く助けになります。",
+      "level": 2
+    },
+    {
+      "headword": "element",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeləmənt/",
+      "meaning": "要素；元素",
+      "exampleEn": "Water consists of hydrogen and oxygen elements.",
+      "exampleJa": "水は水素と酸素の元素からなります。",
+      "level": 2
+    },
+    {
+      "headword": "essay",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeseɪ/",
+      "meaning": "作文；小論文",
+      "exampleEn": "Write an essay about your dream.",
+      "exampleJa": "あなたの夢について作文を書きなさい。",
+      "level": 3
+    },
+    {
+      "headword": "evidence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈevədəns/",
+      "meaning": "証拠；根拠",
+      "exampleEn": "There is no clear evidence.",
+      "exampleJa": "明確な証拠はありません。",
+      "level": 3
+    },
+    {
+      "headword": "experiment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈsperɪmənt/",
+      "meaning": "実験",
+      "exampleEn": "The students carried out an experiment in class.",
+      "exampleJa": "生徒たちは授業で実験を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "explanation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌekspləˈneɪʃn/",
+      "meaning": "説明；解説",
+      "exampleEn": "His explanation was short and clear.",
+      "exampleJa": "彼の説明は短くて分かりやすかったです。",
+      "level": 2
+    },
+    {
+      "headword": "expression",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪkˈspreʃn/",
+      "meaning": "表現；表情",
+      "exampleEn": "His expression showed that he was pleased.",
+      "exampleJa": "彼の表情から喜んでいることが分かりました。",
+      "level": 2
+    },
+    {
+      "headword": "fact",
+      "partOfSpeech": "noun",
+      "phonetic": "/fækt/",
+      "meaning": "事実",
+      "exampleEn": "It is a known fact.",
+      "exampleJa": "それは知られた事実です。",
+      "level": 1
+    },
+    {
+      "headword": "figure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɪɡjər/",
+      "meaning": "数字；姿；図",
+      "exampleEn": "Look at the figures in the chart.",
+      "exampleJa": "表の中の数字を見てください。",
+      "level": 3
+    },
+    {
+      "headword": "formula",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɔːrmjələ/",
+      "meaning": "公式；製法",
+      "exampleEn": "Memorize the math formula.",
+      "exampleJa": "数学の公式を記憶しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "geography",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒiˈɑːɡrəfi/",
+      "meaning": "地理",
+      "exampleEn": "We study geography in social studies.",
+      "exampleJa": "私たちは社会科で地理を学びます。",
+      "level": 2
+    },
+    {
+      "headword": "grammar",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡræmər/",
+      "meaning": "文法",
+      "exampleEn": "English grammar becomes easier with practice.",
+      "exampleJa": "英文法は練習すればやさしくなります。",
+      "level": 2
+    },
+    {
+      "headword": "graph",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡræf/",
+      "meaning": "グラフ",
+      "exampleEn": "This graph shows the growth of the population.",
+      "exampleJa": "このグラフは人口の増加を示しています。",
+      "level": 3
+    },
+    {
+      "headword": "hypothesis",
+      "partOfSpeech": "noun",
+      "phonetic": "/haɪˈpɑːθəsɪs/",
+      "meaning": "仮説；前提",
+      "exampleEn": "Test the hypothesis through experiments.",
+      "exampleJa": "実験を通じて仮説を検証しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "illustration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪləˈstreɪʃən/",
+      "meaning": "挿絵；例示",
+      "exampleEn": "The illustration explains the structure clearly.",
+      "exampleJa": "その挿絵が構造をわかりやすく説明しています。",
+      "level": 4
+    },
+    {
+      "headword": "image",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmɪdʒ/",
+      "meaning": "イメージ；画像",
+      "exampleEn": "The campaign improved the company image.",
+      "exampleJa": "そのキャンペーンは会社のイメージを高めました。",
+      "level": 1
+    },
+    {
+      "headword": "impression",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪmˈpreʃn/",
+      "meaning": "印象；感銘",
+      "exampleEn": "Her speech made a strong impression on us.",
+      "exampleJa": "彼女の演説は私たちに強い印象を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "information",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnfərˈmeɪʃən/",
+      "meaning": "情報；案内",
+      "exampleEn": "I got useful information.",
+      "exampleJa": "役に立つ情報を得ました。",
+      "level": 1
+    },
+    {
+      "headword": "instance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstəns/",
+      "meaning": "例；場合",
+      "exampleEn": "For instance, look at this table.",
+      "exampleJa": "例えば、この表を見てください。",
+      "level": 3
+    },
+    {
+      "headword": "instruction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈstrʌkʃn/",
+      "meaning": "指示；取扱説明書",
+      "exampleEn": "Read the instructions before you use the machine.",
+      "exampleJa": "機械を使う前に取扱説明書を読んでください。",
+      "level": 2
+    },
+    {
+      "headword": "intelligence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈtelɪdʒəns/",
+      "meaning": "知能；情報",
+      "exampleEn": "Artificial intelligence can translate many languages.",
+      "exampleJa": "人工知能は多くの言語を翻訳できます。",
+      "level": 4
+    },
+    {
+      "headword": "interpretation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˌtɜːrprəˈteɪʃn/",
+      "meaning": "解釈；通訳",
+      "exampleEn": "The two lawyers had different interpretations of the clause.",
+      "exampleJa": "2人の弁護士はその条項について異なる解釈をしていました。",
+      "level": 4
+    },
+    {
+      "headword": "introduction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪntrəˈdʌkʃn/",
+      "meaning": "紹介；導入；序論",
+      "exampleEn": "The introduction of the new system saved time.",
+      "exampleJa": "新しいシステムの導入で時間を節約できました。",
+      "level": 2
+    },
+    {
+      "headword": "issue",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪʃuː/",
+      "meaning": "問題；発行；号",
+      "exampleEn": "Environmental issues are important.",
+      "exampleJa": "環境問題は重要です。",
+      "level": 3
+    },
+    {
+      "headword": "journal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒɜːrnəl/",
+      "meaning": "専門誌；日記",
+      "exampleEn": "Her research appeared in a medical journal.",
+      "exampleJa": "彼女の研究は医学の専門誌に載りました。",
+      "level": 4
+    },
+    {
+      "headword": "knowledge",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnɑːlɪdʒ/",
+      "meaning": "知識",
+      "exampleEn": "Knowledge is power.",
+      "exampleJa": "知識は力なり。",
+      "level": 2
+    },
+    {
+      "headword": "lecture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlektʃər/",
+      "meaning": "講義；講演",
+      "exampleEn": "The professor gave a lecture on world trade.",
+      "exampleJa": "教授は世界貿易についての講義を行いました。",
+      "level": 2
+    },
+    {
+      "headword": "literature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪtrətʃər/",
+      "meaning": "文学；文献",
+      "exampleEn": "English literature is fascinating.",
+      "exampleJa": "英文学は魅力的な分野です。",
+      "level": 2
+    },
+    {
+      "headword": "logic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɑːdʒɪk/",
+      "meaning": "論理",
+      "exampleEn": "There is no logic in that argument.",
+      "exampleJa": "その議論には論理がありません。",
+      "level": 4
+    },
+    {
+      "headword": "mathematics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌmæθəˈmætɪks/",
+      "meaning": "数学",
+      "exampleEn": "Mathematics is necessary for physics.",
+      "exampleJa": "数学は物理学に欠かせません。",
+      "level": 3
+    },
+    {
+      "headword": "media",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmiːdiə/",
+      "meaning": "メディア；媒体；報道機関",
+      "exampleEn": "The media reported the news quickly.",
+      "exampleJa": "メディアはすぐにそのニュースを報道しました。",
+      "level": 2
+    },
+    {
+      "headword": "method",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmeθəd/",
+      "meaning": "方法；方式",
+      "exampleEn": "This is a new teaching method.",
+      "exampleJa": "これは新しい指導方法です。",
+      "level": 3
+    },
+    {
+      "headword": "outline",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaʊtlaɪn/",
+      "meaning": "概要；輪郭",
+      "exampleEn": "The presenter gave an outline of the project.",
+      "exampleJa": "発表者はプロジェクトの概要を示しました。",
+      "level": 3
+    },
+    {
+      "headword": "paragraph",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpærəɡræf/",
+      "meaning": "段落",
+      "exampleEn": "Read the first paragraph carefully.",
+      "exampleJa": "最初の段落を注意深く読みなさい。",
+      "level": 3
+    },
+    {
+      "headword": "philosophy",
+      "partOfSpeech": "noun",
+      "phonetic": "/fəˈlɑːsəfi/",
+      "meaning": "哲学；理念；人生観",
+      "exampleEn": "She studies ancient Greek philosophy at university.",
+      "exampleJa": "彼女は大学で古代ギリシャ哲学を学んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "phrase",
+      "partOfSpeech": "noun",
+      "phonetic": "/freɪz/",
+      "meaning": "句；言い回し",
+      "exampleEn": "Memorize this useful phrase for the interview.",
+      "exampleJa": "面接に役立つこの言い回しを覚えましょう。",
+      "level": 3
+    },
+    {
+      "headword": "physics",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɪzɪks/",
+      "meaning": "物理学",
+      "exampleEn": "Physics explains why the satellite stays in orbit.",
+      "exampleJa": "物理学は衛星が軌道に留まる理由を説明します。",
+      "level": 3
+    },
+    {
+      "headword": "psychology",
+      "partOfSpeech": "noun",
+      "phonetic": "/saɪˈkɑːlədʒi/",
+      "meaning": "心理学",
+      "exampleEn": "She studies psychology at a university in Tokyo.",
+      "exampleJa": "彼女は東京の大学で心理学を学んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "reference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrefrəns/",
+      "meaning": "身元照会先；参照",
+      "exampleEn": "Please give us two references from past employers.",
+      "exampleJa": "以前の雇用主からの身元照会先を2名お知らせください。",
+      "level": 3
+    },
+    {
+      "headword": "report",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈpɔːrt/",
+      "meaning": "報告書；レポート",
+      "exampleEn": "I have to write a book report.",
+      "exampleJa": "私は読書感想文を書かなければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "research",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːsɜːrtʃ/",
+      "meaning": "研究；調査",
+      "exampleEn": "She is doing research on ocean life.",
+      "exampleJa": "彼女は海の生物について研究をしています。",
+      "level": 2
+    },
+    {
+      "headword": "review",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈvjuː/",
+      "meaning": "批評；見直し",
+      "exampleEn": "The novel received an excellent review.",
+      "exampleJa": "その小説はすばらしい批評を受けました。",
+      "level": 3
+    },
+    {
+      "headword": "semester",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈmestər/",
+      "meaning": "学期",
+      "exampleEn": "The new semester begins next Monday.",
+      "exampleJa": "新しい学期は来週の月曜に始まります。",
+      "level": 3
+    },
+    {
+      "headword": "source",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɔːrs/",
+      "meaning": "源；情報源",
+      "exampleEn": "The sun is our energy source.",
+      "exampleJa": "太陽は私たちのエネルギー源です。",
+      "level": 2
+    },
+    {
+      "headword": "statement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪtmənt/",
+      "meaning": "声明；明細書",
+      "exampleEn": "The company issued a statement to the press.",
+      "exampleJa": "会社は報道機関に向けて声明を発表しました。",
+      "level": 3
+    },
+    {
+      "headword": "statistics",
+      "partOfSpeech": "noun",
+      "phonetic": "/stəˈtɪstɪks/",
+      "meaning": "統計",
+      "exampleEn": "These statistics show a clear trend.",
+      "exampleJa": "これらの統計ははっきりした傾向を示しています。",
+      "level": 4
+    },
+    {
+      "headword": "summary",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌməri/",
+      "meaning": "要約",
+      "exampleEn": "Write a short summary of this article.",
+      "exampleJa": "この記事の短い要約を書いてください。",
+      "level": 3
+    },
+    {
+      "headword": "survey",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrveɪ/",
+      "meaning": "調査",
+      "exampleEn": "The survey covered two thousand customers.",
+      "exampleJa": "その調査は二千人の顧客を対象にしました。",
+      "level": 4
+    },
+    {
+      "headword": "textbook",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtekstbʊk/",
+      "meaning": "教科書",
+      "exampleEn": "Open your textbook to page ten.",
+      "exampleJa": "教科書の10ページを開きなさい。",
+      "level": 1
+    },
+    {
+      "headword": "theory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːəri/",
+      "meaning": "理論；説",
+      "exampleEn": "Einstein proposed the theory of relativity.",
+      "exampleJa": "アインシュタインは相対性理論を提唱しました。",
+      "level": 3
+    },
+    {
+      "headword": "topic",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtɑːpɪk/",
+      "meaning": "話題",
+      "exampleEn": "Climate change was the main topic today.",
+      "exampleJa": "今日の主な話題は気候変動でした。",
+      "level": 2
+    },
+    {
+      "headword": "translation",
+      "partOfSpeech": "noun",
+      "phonetic": "/trænsˈleɪʃən/",
+      "meaning": "翻訳",
+      "exampleEn": "This translation keeps the original rhythm.",
+      "exampleJa": "この翻訳は原文のリズムを保っています。",
+      "level": 3
+    },
+    {
+      "headword": "vocabulary",
+      "partOfSpeech": "noun",
+      "phonetic": "/voʊˈkæbjəleri/",
+      "meaning": "語彙",
+      "exampleEn": "Reading widely builds a large vocabulary.",
+      "exampleJa": "幅広く読むことで豊かな語彙が身につきます。",
+      "level": 3
+    },
+    {
+      "headword": "writing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈraɪtɪŋ/",
+      "meaning": "書くこと；文章",
+      "exampleEn": "Good writing requires careful planning.",
+      "exampleJa": "よい文章には入念な準備が必要です。",
+      "level": 2
+    }
+  ]
+}

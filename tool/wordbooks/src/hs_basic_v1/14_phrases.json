@@ -1,0 +1,663 @@
+{
+  "chunk": "14_phrases",
+  "note": "句動詞・熟語（73語）",
+  "words": [
+    {
+      "headword": "account for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の理由を説明する；〜を占める",
+      "exampleEn": "Online sales account for half of our revenue.",
+      "exampleJa": "オンライン販売が当社の収益の半分を占めています。",
+      "level": 3
+    },
+    {
+      "headword": "according to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜によれば；〜に従って",
+      "exampleEn": "According to the news, it will rain.",
+      "exampleJa": "ニュースによれば、雨が降るそうです。",
+      "level": 2
+    },
+    {
+      "headword": "after all",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "結局；やはり",
+      "exampleEn": "We decided not to go after all.",
+      "exampleJa": "私たちは結局行かないことにしました。",
+      "level": 3
+    },
+    {
+      "headword": "as a result",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "結果として；その結果",
+      "exampleEn": "As a result, we won the game.",
+      "exampleJa": "結果として、私たちは試合に勝ちました。",
+      "level": 2
+    },
+    {
+      "headword": "as long as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜である限り；〜しさえすれば",
+      "exampleEn": "You can stay as long as you want.",
+      "exampleJa": "好きなだけ滞在して構いません。",
+      "level": 2
+    },
+    {
+      "headword": "as well as",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜と同様に；〜だけでなく",
+      "exampleEn": "She speaks French as well as English.",
+      "exampleJa": "彼女は英語だけでなくフランス語も話します。",
+      "level": 2
+    },
+    {
+      "headword": "at first",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "最初は；はじめのうちは",
+      "exampleEn": "At first, I didn't like tea.",
+      "exampleJa": "最初は紅茶が好きではありませんでした。",
+      "level": 1
+    },
+    {
+      "headword": "at least",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "少なくとも",
+      "exampleEn": "Sleep at least eight hours.",
+      "exampleJa": "少なくとも8時間は睡眠をとりなさい。",
+      "level": 1
+    },
+    {
+      "headword": "at the same time",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "同時に；その一方で",
+      "exampleEn": "They both started talking at the same time.",
+      "exampleJa": "彼らは二人とも同時に話し始めました。",
+      "level": 2
+    },
+    {
+      "headword": "be about to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "まさにしようとしている",
+      "exampleEn": "The train was about to leave the platform.",
+      "exampleJa": "電車はまさにホームを出ようとしていました。",
+      "level": 3
+    },
+    {
+      "headword": "be capable of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の能力がある",
+      "exampleEn": "This machine is capable of printing a thousand sheets.",
+      "exampleJa": "この機械は1000枚を印刷する能力があります。",
+      "level": 3
+    },
+    {
+      "headword": "be familiar with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に精通している；〜を熟知している",
+      "exampleEn": "Our operators are familiar with this software.",
+      "exampleJa": "当社の担当者はこのソフトウェアに精通しています。",
+      "level": 3
+    },
+    {
+      "headword": "be likely to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜しそうである",
+      "exampleEn": "Prices are likely to rise next semester.",
+      "exampleJa": "来学期は値段が上がりそうです。",
+      "level": 3
+    },
+    {
+      "headword": "be responsible for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に責任がある；を担当している",
+      "exampleEn": "She is responsible for the sales team.",
+      "exampleJa": "彼女は営業チームを担当しています。",
+      "level": 3
+    },
+    {
+      "headword": "be supposed to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜することになっている",
+      "exampleEn": "The meeting is supposed to start at nine.",
+      "exampleJa": "会議は9時に始まることになっています。",
+      "level": 2
+    },
+    {
+      "headword": "break down",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "故障する；壊れる",
+      "exampleEn": "Our old car broke down on the highway.",
+      "exampleJa": "私たちの古い車は高速道路で故障しました。",
+      "level": 3
+    },
+    {
+      "headword": "break out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "突然起こる",
+      "exampleEn": "A fire broke out near the factory.",
+      "exampleJa": "工場の近くで火事が起こりました。",
+      "level": 3
+    },
+    {
+      "headword": "bring about",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を引き起こす",
+      "exampleEn": "The new policy brought about real change.",
+      "exampleJa": "新しい方針が本当の変化をもたらしました。",
+      "level": 4
+    },
+    {
+      "headword": "bring up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を育てる；を話題に出す",
+      "exampleEn": "She brought up the issue at the conference.",
+      "exampleJa": "彼女は会議でその問題を持ち出しました。",
+      "level": 3
+    },
+    {
+      "headword": "call for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を必要とする；を求める",
+      "exampleEn": "This situation calls for immediate action.",
+      "exampleJa": "この状況にはすぐの行動が必要です。",
+      "level": 4
+    },
+    {
+      "headword": "call off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を中止する；を取り消す",
+      "exampleEn": "The organizers called off the outdoor concert.",
+      "exampleJa": "主催者は屋外コンサートを中止しました。",
+      "level": 3
+    },
+    {
+      "headword": "carry out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を実行する；を遂行する；を果たす",
+      "exampleEn": "We carried out the plan.",
+      "exampleJa": "私たちは計画を実行しました。",
+      "level": 3
+    },
+    {
+      "headword": "catch up with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に追いつく",
+      "exampleEn": "Walk faster to catch up with them.",
+      "exampleJa": "彼らに追いつくためにもっと速く歩きなさい。",
+      "level": 2
+    },
+    {
+      "headword": "come across",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に偶然出くわす；を偶然見つける",
+      "exampleEn": "I came across an old photo.",
+      "exampleJa": "古い写真に偶然出くわしました。",
+      "level": 3
+    },
+    {
+      "headword": "come up with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を思いつく；を提案する",
+      "exampleEn": "She came up with a brilliant idea.",
+      "exampleJa": "彼女は素晴らしい考えを思いつきました。",
+      "level": 2
+    },
+    {
+      "headword": "consist of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜から成る；〜で構成される",
+      "exampleEn": "The committee consists of five directors.",
+      "exampleJa": "委員会は5名の役員で構成されています。",
+      "level": 3
+    },
+    {
+      "headword": "cope with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に対処する",
+      "exampleEn": "The factory coped with a sudden rise in orders.",
+      "exampleJa": "工場は注文の急な増加に対処しました。",
+      "level": 3
+    },
+    {
+      "headword": "cut down on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を削減する；〜を減らす",
+      "exampleEn": "We cut down on printing costs last year.",
+      "exampleJa": "私たちは昨年、印刷の費用を削減しました。",
+      "level": 2
+    },
+    {
+      "headword": "deal with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に対処する；を取り扱う",
+      "exampleEn": "The manager dealt with the customer's complaint.",
+      "exampleJa": "支配人は客の苦情に対処しました。",
+      "level": 2
+    },
+    {
+      "headword": "depend on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に依存する；〜次第である",
+      "exampleEn": "The result depends on the cooperation of the team.",
+      "exampleJa": "結果はチームの協力次第です。",
+      "level": 2
+    },
+    {
+      "headword": "end up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "結局〜になる",
+      "exampleEn": "We ended up walking the whole distance.",
+      "exampleJa": "私たちは結局その距離を歩きました。",
+      "level": 3
+    },
+    {
+      "headword": "figure out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を理解する；を解明する",
+      "exampleEn": "I cannot figure out this problem.",
+      "exampleJa": "この問題を解き明かせません。",
+      "level": 3
+    },
+    {
+      "headword": "focus on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に焦点を当てる；〜に集中する",
+      "exampleEn": "This year we focus on customer service.",
+      "exampleJa": "今年、私たちは顧客サービスに力を入れています。",
+      "level": 2
+    },
+    {
+      "headword": "get along with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜とうまくやっていく；〜と仲良くする",
+      "exampleEn": "She gets along with her classmates.",
+      "exampleJa": "彼女はクラスメイトとうまくやっていっています。",
+      "level": 2
+    },
+    {
+      "headword": "get over",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を克服する；から回復する",
+      "exampleEn": "It took her a month to get over the cold.",
+      "exampleJa": "彼女が風邪から回復するのに1か月かかりました。",
+      "level": 3
+    },
+    {
+      "headword": "get rid of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を取り除く；〜を処分する",
+      "exampleEn": "We should get rid of unnecessary trash.",
+      "exampleJa": "不要なゴミは処分すべきです。",
+      "level": 2
+    },
+    {
+      "headword": "go through",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を経験する；を通り抜ける",
+      "exampleEn": "They went through many hard times together.",
+      "exampleJa": "彼らは共に多くのつらい時期を経験しました。",
+      "level": 3
+    },
+    {
+      "headword": "hand in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を提出する",
+      "exampleEn": "Hand in your report on Monday.",
+      "exampleJa": "月曜日にレポートを提出しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "in addition to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に加えて",
+      "exampleEn": "In addition to a salary, staff receive a bonus.",
+      "exampleJa": "給与に加えて、職員は賞与を受け取ります。",
+      "level": 2
+    },
+    {
+      "headword": "in advance",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "あらかじめ；事前に",
+      "exampleEn": "You can book tickets in advance at a lower price.",
+      "exampleJa": "事前に予約すれば、より安い料金でチケットを買えます。",
+      "level": 2
+    },
+    {
+      "headword": "in charge of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を担当して；〜を任されて",
+      "exampleEn": "He is in charge of the sales department.",
+      "exampleJa": "彼は営業部を担当しています。",
+      "level": 3
+    },
+    {
+      "headword": "in fact",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "実際には；実は",
+      "exampleEn": "In fact, I have never been there.",
+      "exampleJa": "実は、一度もそこへ行ったことがありません。",
+      "level": 1
+    },
+    {
+      "headword": "in order to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜するために",
+      "exampleEn": "I got up early in order to catch the train.",
+      "exampleJa": "電車に乗るために早起きしました。",
+      "level": 2
+    },
+    {
+      "headword": "in particular",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "特に",
+      "exampleEn": "I enjoyed the last poem in particular.",
+      "exampleJa": "特に最後の詩がよかったです。",
+      "level": 3
+    },
+    {
+      "headword": "in spite of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜にもかかわらず",
+      "exampleEn": "We went out in spite of rain.",
+      "exampleJa": "雨にもかかわらず外へ出かけました。",
+      "level": 3
+    },
+    {
+      "headword": "in terms of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜の点から；〜の観点から",
+      "exampleEn": "In terms of quality, this product is the best.",
+      "exampleJa": "品質の点から見ると、この製品が最も優れています。",
+      "level": 4
+    },
+    {
+      "headword": "keep up with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に遅れずについて行く",
+      "exampleEn": "It is hard to keep up with new technology.",
+      "exampleJa": "新しい技術に遅れずについて行くのは大変です。",
+      "level": 3
+    },
+    {
+      "headword": "lead to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜につながる；〜を引き起こす",
+      "exampleEn": "Good teamwork led to the success of the project.",
+      "exampleJa": "良いチームワークがプロジェクトの成功につながりました。",
+      "level": 2
+    },
+    {
+      "headword": "look forward to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を楽しみに待つ",
+      "exampleEn": "I look forward to meeting you.",
+      "exampleJa": "あなたにお会いできるのを楽しみにしています。",
+      "level": 2
+    },
+    {
+      "headword": "look into",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を調査する",
+      "exampleEn": "The police will look into the accident.",
+      "exampleJa": "警察はその事故を調査します。",
+      "level": 3
+    },
+    {
+      "headword": "make sense",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "意味をなす；道理にかなう",
+      "exampleEn": "His answer makes sense.",
+      "exampleJa": "彼の答えは道理にかなっています。",
+      "level": 2
+    },
+    {
+      "headword": "make sure",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "確かめる；必ずする",
+      "exampleEn": "I made sure the door was locked.",
+      "exampleJa": "私はドアに鍵がかかっているか確かめました。",
+      "level": 3
+    },
+    {
+      "headword": "on behalf of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を代表して；〜に代わって",
+      "exampleEn": "He accepted the award on behalf of the team.",
+      "exampleJa": "彼はチームを代表して賞を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "on purpose",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "わざと；故意に",
+      "exampleEn": "He broke the window on purpose.",
+      "exampleJa": "彼はわざと窓を割りました。",
+      "level": 3
+    },
+    {
+      "headword": "pay attention to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に注意を払う",
+      "exampleEn": "Pay attention to the teacher.",
+      "exampleJa": "先生に注意を払いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "point out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を指摘する",
+      "exampleEn": "He pointed out my mistake.",
+      "exampleJa": "彼は私の間違いを指摘しました。",
+      "level": 2
+    },
+    {
+      "headword": "put off",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を延期する",
+      "exampleEn": "Never put off until tomorrow.",
+      "exampleJa": "明日まで延期してはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "put up with",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を我慢する",
+      "exampleEn": "I cannot put up with this noise.",
+      "exampleJa": "私はこの騒音に我慢できません。",
+      "level": 3
+    },
+    {
+      "headword": "refer to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を参照する；〜に言及する",
+      "exampleEn": "Please refer to the user manual for details.",
+      "exampleJa": "詳しくはユーザーマニュアルを参照してください。",
+      "level": 3
+    },
+    {
+      "headword": "regardless of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜に関係なく；〜を問わず",
+      "exampleEn": "Everyone can join regardless of age.",
+      "exampleJa": "年齢に関係なく誰でも参加できます。",
+      "level": 4
+    },
+    {
+      "headword": "rely on",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を頼りにする；〜に依存する",
+      "exampleEn": "Our factory relies on local suppliers.",
+      "exampleJa": "当社の工場は地元の仕入先を頼りにしています。",
+      "level": 3
+    },
+    {
+      "headword": "result in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜という結果になる；〜をもたらす",
+      "exampleEn": "Hard work resulted in success.",
+      "exampleJa": "懸命な努力が成功という結果になりました。",
+      "level": 3
+    },
+    {
+      "headword": "run out of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を使い果たす；〜が底をつく",
+      "exampleEn": "The printer has run out of paper again.",
+      "exampleJa": "プリンターの用紙がまた切れてしまいました。",
+      "level": 2
+    },
+    {
+      "headword": "set up",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を設立する；を準備する；を設置する",
+      "exampleEn": "They set up a new company.",
+      "exampleJa": "彼らは新しい会社を設立しました。",
+      "level": 2
+    },
+    {
+      "headword": "stand for",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を表す；を支持する",
+      "exampleEn": "These letters stand for the same term.",
+      "exampleJa": "これらの文字は同じ用語を表しています。",
+      "level": 3
+    },
+    {
+      "headword": "take advantage of",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜を利用する；〜に乗じる",
+      "exampleEn": "Take advantage of this good chance.",
+      "exampleJa": "この良い機会を利用しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "take over",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を引き継ぐ；を引き受ける",
+      "exampleEn": "His son took over the family business.",
+      "exampleJa": "息子が家業を引き継ぎました。",
+      "level": 3
+    },
+    {
+      "headword": "take part in",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "に参加する",
+      "exampleEn": "Many students took part in the marathon.",
+      "exampleJa": "多くの生徒がマラソンに参加しました。",
+      "level": 1
+    },
+    {
+      "headword": "take place",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "行われる；開催される",
+      "exampleEn": "The festival took place last week.",
+      "exampleJa": "祭りは先週行われました。",
+      "level": 2
+    },
+    {
+      "headword": "thanks to",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "のおかげで",
+      "exampleEn": "Thanks to your help, we finished early.",
+      "exampleJa": "あなたの助けのおかげで、私たちは早く終わりました。",
+      "level": 3
+    },
+    {
+      "headword": "turn down",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "を断る；を拒絶する；の音量を下げる",
+      "exampleEn": "He turned down the job offer politely.",
+      "exampleJa": "彼はその仕事の申し出を丁寧に断りました。",
+      "level": 3
+    },
+    {
+      "headword": "turn out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "〜だと判明する；結果〜になる",
+      "exampleEn": "The story turned out to be true.",
+      "exampleJa": "その話は本当だと判明しました。",
+      "level": 3
+    },
+    {
+      "headword": "work out",
+      "partOfSpeech": "phrase",
+      "phonetic": "",
+      "meaning": "うまくいく；を解決する",
+      "exampleEn": "Everything worked out in the end.",
+      "exampleJa": "最後にはすべてうまくいきました。",
+      "level": 3
+    }
+  ]
+}

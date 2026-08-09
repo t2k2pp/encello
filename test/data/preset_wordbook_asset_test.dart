@@ -107,6 +107,28 @@ void main() {
     ).where((i) => i.isError).toList();
     expect(errors, isEmpty, reason: errors.join('\n'));
   });
+
+  // 投入ゲートは**全冊の最大 seedVersion**だけを見る（[wordbooks.md] §3.1）。
+  // よって冊ごとに版がずれていると、版の小さい冊を足しても最大が動かず、
+  // すでに投入済みの端末にその冊が入らない。実際 jhs_v1 だけが 2 で
+  // 残り5冊が 1 だったため、5冊が届かない状態になっていた。
+  test('6冊の seedVersion が揃っている', () {
+    final versions = <String, Object?>{
+      for (final book in _books)
+        book:
+            (jsonDecode(
+                  File(
+                    'tool/wordbooks/src/$book/_book.json',
+                  ).readAsStringSync(),
+                )
+                as Map<String, Object?>)['seedVersion'],
+    };
+    expect(
+      versions.values.toSet(),
+      hasLength(1),
+      reason: 'seedVersion がばらついている: $versions',
+    );
+  });
 }
 
 Set<String> _readAllowedWords() {

@@ -4,28 +4,29 @@
   "emoji": "🎓",
   "category": "highSchool",
   "colorSeed": 2,
-  "seedVersion": 1,
+  "seedVersion": 3,
   "bandSize": 1200,
   "sortOrder": 20,
   "note": "高校学習および大学入試の土台となる基本英単語",
   "levelRange": [
     1,
-    5
+    4
   ],
   "chunks": [
-    "00_core",
-    "01_function_words",
-    "02_verbs_basic",
-    "03_verbs_mental",
-    "04_verbs_social",
-    "05_nouns_society",
-    "06_nouns_life",
-    "07_nouns_nature",
-    "08_nouns_abstract",
-    "09_adjectives_basic",
-    "10_adjectives_eval",
-    "11_adverbs_phrases",
-    "12_advanced_verbs",
-    "13_advanced_nouns"
+    "00_verbs_core",
+    "01_verbs_thought",
+    "02_verbs_communication",
+    "03_verbs_change",
+    "04_nouns_person_society",
+    "05_nouns_work_money",
+    "06_nouns_study_information",
+    "07_nouns_life_culture",
+    "08_nouns_nature_science",
+    "09_nouns_body_health",
+    "10_nouns_abstract",
+    "11_adjectives_person",
+    "12_adjectives_things",
+    "13_adverbs_function",
+    "14_phrases"
   ]
 }

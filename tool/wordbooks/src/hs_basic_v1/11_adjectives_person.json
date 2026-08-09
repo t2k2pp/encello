@@ -1,0 +1,771 @@
+{
+  "chunk": "11_adjectives_person",
+  "note": "人と気持ちを表す形容詞（85語）",
+  "words": [
+    {
+      "headword": "aggressive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈɡresɪv/",
+      "meaning": "攻撃的な；積極的な",
+      "exampleEn": "Avoid aggressive behavior in public.",
+      "exampleJa": "人前で攻撃的な行動をとるのを避けなさい。",
+      "level": 3
+    },
+    {
+      "headword": "ambitious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/æmˈbɪʃəs/",
+      "meaning": "野心的な；意欲的な",
+      "exampleEn": "He is an ambitious young student worker.",
+      "exampleJa": "彼は野心的な若い生徒の労働者です。",
+      "level": 3
+    },
+    {
+      "headword": "anxious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈæŋkʃəs/",
+      "meaning": "心配して；不安な；切望して",
+      "exampleEn": "She felt anxious about exam results.",
+      "exampleJa": "彼女は試験結果について心配に感じていました。",
+      "level": 3
+    },
+    {
+      "headword": "arrogant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈærəɡənt/",
+      "meaning": "傲慢な；横柄な",
+      "exampleEn": "Avoid arrogant behavior towards others.",
+      "exampleJa": "他者に対する傲慢な行動を避けなさい。",
+      "level": 4
+    },
+    {
+      "headword": "ashamed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈʃeɪmd/",
+      "meaning": "恥じて；恥ずかしく思って",
+      "exampleEn": "He felt ashamed of his rude behavior.",
+      "exampleJa": "彼は自分の無礼な行動を恥じていました。",
+      "level": 3
+    },
+    {
+      "headword": "attractive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈtræktɪv/",
+      "meaning": "魅力的な",
+      "exampleEn": "She has an attractive friendly smile.",
+      "exampleJa": "彼女は魅力的なフレンドリーな笑顔を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "aware",
+      "partOfSpeech": "adjective",
+      "phonetic": "/əˈwer/",
+      "meaning": "気づいて；認識して",
+      "exampleEn": "Be aware of danger risks around.",
+      "exampleJa": "周囲の危険なリスクに気づいていなさい。",
+      "level": 3
+    },
+    {
+      "headword": "brave",
+      "partOfSpeech": "adjective",
+      "phonetic": "/breɪv/",
+      "meaning": "勇敢な；勇気のある",
+      "exampleEn": "The brave firefighter saved family home.",
+      "exampleJa": "勇敢な消防士が家族の自宅を救いました。",
+      "level": 1
+    },
+    {
+      "headword": "brilliant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈbrɪliənt/",
+      "meaning": "素晴らしい；輝かしい；聡明な",
+      "exampleEn": "He presented a brilliant scientific discovery.",
+      "exampleJa": "彼は見事な科学的発見をプレゼンしました。",
+      "level": 3
+    },
+    {
+      "headword": "calm",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kɑːm/",
+      "meaning": "穏やかな；落ち着いた；冷静な",
+      "exampleEn": "Stay calm in emergencies.",
+      "exampleJa": "緊急時には落ち着いていなさい。",
+      "level": 2
+    },
+    {
+      "headword": "capable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkeɪpəbl/",
+      "meaning": "能力がある；有能な",
+      "exampleEn": "She is capable of handling stress.",
+      "exampleJa": "彼女はストレスを処理する能力があります。",
+      "level": 3
+    },
+    {
+      "headword": "careless",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkerləs/",
+      "meaning": "不注意な；軽率な",
+      "exampleEn": "One careless mistake ruined the whole report.",
+      "exampleJa": "ひとつの不注意な間違いが報告書全体を台無しにしました。",
+      "level": 2
+    },
+    {
+      "headword": "cautious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɔːʃəs/",
+      "meaning": "慎重な；用心深い",
+      "exampleEn": "You should be cautious when crossing this road.",
+      "exampleJa": "この道を渡るときは慎重になるべきです。",
+      "level": 3
+    },
+    {
+      "headword": "clever",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈklevər/",
+      "meaning": "賢い；利口な",
+      "exampleEn": "She found a clever way to solve it.",
+      "exampleJa": "彼女はそれを解決する賢い方法を見つけました。",
+      "level": 2
+    },
+    {
+      "headword": "competent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːmpətənt/",
+      "meaning": "有能な；十分な能力のある",
+      "exampleEn": "He is a highly competent lawyer.",
+      "exampleJa": "彼は非常に有能な弁護士です。",
+      "level": 4
+    },
+    {
+      "headword": "confident",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːnfɪdənt/",
+      "meaning": "自信がある；確信している",
+      "exampleEn": "I am confident of winning.",
+      "exampleJa": "私は勝利を確信しています。",
+      "level": 3
+    },
+    {
+      "headword": "conscious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkɑːnʃəs/",
+      "meaning": "意識している；気づいている",
+      "exampleEn": "He was conscious of his mistake.",
+      "exampleJa": "彼は自分の間違いを自覚していました。",
+      "level": 3
+    },
+    {
+      "headword": "considerate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/kənˈsɪdərət/",
+      "meaning": "思いやりのある",
+      "exampleEn": "She is considerate toward every new colleague.",
+      "exampleJa": "彼女は新しい同僚の誰にでも思いやりがあります。",
+      "level": 4
+    },
+    {
+      "headword": "cruel",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkruːəl/",
+      "meaning": "残酷な；残忍な",
+      "exampleEn": "It is cruel to hurt animals.",
+      "exampleJa": "動物を傷つけるのは残酷です。",
+      "level": 3
+    },
+    {
+      "headword": "curious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈkjʊriəs/",
+      "meaning": "好奇心が強い；奇妙な",
+      "exampleEn": "Children are curious about nature.",
+      "exampleJa": "子どもたちは自然に対して好奇心が旺盛です。",
+      "level": 3
+    },
+    {
+      "headword": "decisive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈsaɪsɪv/",
+      "meaning": "決定的な；断固とした",
+      "exampleEn": "Her decisive action saved the whole team.",
+      "exampleJa": "彼女の断固とした行動がチーム全体を救いました。",
+      "level": 3
+    },
+    {
+      "headword": "delighted",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈlaɪtɪd/",
+      "meaning": "大喜びしている",
+      "exampleEn": "We are delighted to accept your invitation.",
+      "exampleJa": "私たちは喜んでご招待をお受けします。",
+      "level": 3
+    },
+    {
+      "headword": "dependent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈpendənt/",
+      "meaning": "頼っている",
+      "exampleEn": "This village is dependent on tourism.",
+      "exampleJa": "この村は観光に頼っています。",
+      "level": 4
+    },
+    {
+      "headword": "depressed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈprest/",
+      "meaning": "意気消沈した；不況の",
+      "exampleEn": "He felt depressed after losing the match.",
+      "exampleJa": "彼は試合に負けて落ち込みました。",
+      "level": 2
+    },
+    {
+      "headword": "determined",
+      "partOfSpeech": "adjective",
+      "phonetic": "/dɪˈtɜːrmɪnd/",
+      "meaning": "決意の固い",
+      "exampleEn": "He is determined to pass the exam.",
+      "exampleJa": "彼はその試験に合格すると心に決めています。",
+      "level": 3
+    },
+    {
+      "headword": "diligent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdɪlɪdʒənt/",
+      "meaning": "勤勉な；熱心な",
+      "exampleEn": "He is a diligent student who studies daily.",
+      "exampleJa": "彼は毎日勉強する勤勉な生徒です。",
+      "level": 3
+    },
+    {
+      "headword": "disappointed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌdɪsəˈpɔɪntɪd/",
+      "meaning": "失望した；がっかりした",
+      "exampleEn": "The fans were disappointed with the result.",
+      "exampleJa": "ファンはその結果にがっかりしました。",
+      "level": 2
+    },
+    {
+      "headword": "eager",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈiːɡər/",
+      "meaning": "熱心な；しきりに〜したがっている",
+      "exampleEn": "Students were eager to learn.",
+      "exampleJa": "生徒たちは熱心に学ぼうとしていました。",
+      "level": 3
+    },
+    {
+      "headword": "efficient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪˈfɪʃənt/",
+      "meaning": "効率的な；能率的な；有能な",
+      "exampleEn": "She is an efficient worker.",
+      "exampleJa": "彼女は効率的な働き手です。",
+      "level": 3
+    },
+    {
+      "headword": "embarrassed",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈbærəst/",
+      "meaning": "恥ずかしい；きまりが悪い",
+      "exampleEn": "She felt embarrassed by the praise.",
+      "exampleJa": "彼女は褒められて照れくさく思いました。",
+      "level": 3
+    },
+    {
+      "headword": "energetic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌenərˈdʒetɪk/",
+      "meaning": "精力的な",
+      "exampleEn": "Our new manager is energetic and positive.",
+      "exampleJa": "新しい部長は精力的で前向きです。",
+      "level": 3
+    },
+    {
+      "headword": "enthusiastic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˌθuːziˈæstɪk/",
+      "meaning": "熱心な；熱狂的な",
+      "exampleEn": "They gave an enthusiastic welcome.",
+      "exampleJa": "彼らは熱狂的な歓迎をしてくれました。",
+      "level": 3
+    },
+    {
+      "headword": "envious",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈenviəs/",
+      "meaning": "うらやましがる",
+      "exampleEn": "He felt envious of her success.",
+      "exampleJa": "彼は彼女の成功をうらやましく思いました。",
+      "level": 4
+    },
+    {
+      "headword": "faithful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfeɪθfəl/",
+      "meaning": "忠実な",
+      "exampleEn": "A faithful servant stayed with the family.",
+      "exampleJa": "忠実な使用人がその家族に仕え続けました。",
+      "level": 4
+    },
+    {
+      "headword": "familiar",
+      "partOfSpeech": "adjective",
+      "phonetic": "/fəˈmɪliər/",
+      "meaning": "よく知られている；親しい",
+      "exampleEn": "His face looks familiar to me.",
+      "exampleJa": "彼の顔には見覚えがあります。",
+      "level": 3
+    },
+    {
+      "headword": "foolish",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈfuːlɪʃ/",
+      "meaning": "愚かな",
+      "exampleEn": "It was foolish to ignore the warning.",
+      "exampleJa": "その警告を無視したのは愚かでした。",
+      "level": 3
+    },
+    {
+      "headword": "generous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒenərəs/",
+      "meaning": "気前の良い；寛大な",
+      "exampleEn": "He is generous to his friends.",
+      "exampleJa": "彼は友人に対して気前が良いです。",
+      "level": 3
+    },
+    {
+      "headword": "gentle",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒentl/",
+      "meaning": "優しい；穏やかな",
+      "exampleEn": "Speak in a gentle voice.",
+      "exampleJa": "優しい声で話しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "grateful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡreɪtfl/",
+      "meaning": "感謝している",
+      "exampleEn": "I am grateful for your help.",
+      "exampleJa": "私はあなたの助けに感謝しています。",
+      "level": 3
+    },
+    {
+      "headword": "greedy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡriːdi/",
+      "meaning": "欲深い",
+      "exampleEn": "The greedy merchant raised every price.",
+      "exampleJa": "その欲深い商人はすべての値段を上げました。",
+      "level": 3
+    },
+    {
+      "headword": "guilty",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɡɪlti/",
+      "meaning": "有罪の；罪悪感がある",
+      "exampleEn": "The jury found him guilty.",
+      "exampleJa": "陪審員団は彼を有罪と判定しました。",
+      "level": 3
+    },
+    {
+      "headword": "honest",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɑːnɪst/",
+      "meaning": "正直な；誠実な",
+      "exampleEn": "Give me an honest opinion.",
+      "exampleJa": "正直な意見を言いなさい。",
+      "level": 2
+    },
+    {
+      "headword": "humble",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈhʌmbəl/",
+      "meaning": "謙虚な；つましい",
+      "exampleEn": "He remained humble despite success.",
+      "exampleJa": "彼は成功しても謙虚なままでした。",
+      "level": 3
+    },
+    {
+      "headword": "ignorant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪɡnərənt/",
+      "meaning": "無知な",
+      "exampleEn": "We were ignorant of the local custom.",
+      "exampleJa": "私たちは土地の習慣を知りませんでした。",
+      "level": 4
+    },
+    {
+      "headword": "impatient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪmˈpeɪʃənt/",
+      "meaning": "我慢できない",
+      "exampleEn": "Passengers grew impatient during the long delay.",
+      "exampleJa": "長い遅れに乗客はいらだってきました。",
+      "level": 3
+    },
+    {
+      "headword": "independent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɪndɪˈpendənt/",
+      "meaning": "独立した；自立した",
+      "exampleEn": "The country became independent fifty years ago.",
+      "exampleJa": "その国は50年前に独立しました。",
+      "level": 2
+    },
+    {
+      "headword": "indifferent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈdɪfrənt/",
+      "meaning": "無関心な；冷淡な",
+      "exampleEn": "He was indifferent to politics.",
+      "exampleJa": "彼は政治に無関心でした。",
+      "level": 4
+    },
+    {
+      "headword": "innocent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈɪnəsnt/",
+      "meaning": "無罪の；無邪気な",
+      "exampleEn": "He proved he was innocent.",
+      "exampleJa": "彼は自分が無実であることを証明しました。",
+      "level": 3
+    },
+    {
+      "headword": "intelligent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ɪnˈtelɪdʒənt/",
+      "meaning": "知能が高い；賢い",
+      "exampleEn": "Dolphins are highly intelligent animals.",
+      "exampleJa": "イルカは非常に知能の高い動物です。",
+      "level": 2
+    },
+    {
+      "headword": "jealous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈdʒeləs/",
+      "meaning": "嫉妬深い；うらやましがって",
+      "exampleEn": "Don't be jealous of others.",
+      "exampleJa": "他人をうらやましがってはいけません。",
+      "level": 3
+    },
+    {
+      "headword": "lazy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈleɪzi/",
+      "meaning": "怠惰な；なまけた",
+      "exampleEn": "Don't be lazy on weekends.",
+      "exampleJa": "週末になまけてはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "lonely",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈloʊnli/",
+      "meaning": "寂しい；孤独な",
+      "exampleEn": "I felt lonely without friends.",
+      "exampleJa": "友達がいなくて寂しく感じました。",
+      "level": 2
+    },
+    {
+      "headword": "loyal",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈlɔɪəl/",
+      "meaning": "忠実な；誠実な",
+      "exampleEn": "Dogs are loyal pets.",
+      "exampleJa": "犬は忠実なペットです。",
+      "level": 3
+    },
+    {
+      "headword": "mature",
+      "partOfSpeech": "adjective",
+      "phonetic": "/məˈtʃʊr/",
+      "meaning": "成熟した",
+      "exampleEn": "Her decision was mature and reasonable.",
+      "exampleJa": "彼女の判断は大人びていて筋が通っていました。",
+      "level": 4
+    },
+    {
+      "headword": "modest",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈmɑːdɪst/",
+      "meaning": "控えめな；謙虚な",
+      "exampleEn": "She is modest about her talent.",
+      "exampleJa": "彼女は自分の才能に対して控えめです。",
+      "level": 4
+    },
+    {
+      "headword": "nervous",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈnɜːrvəs/",
+      "meaning": "緊張して",
+      "exampleEn": "I felt nervous about the test.",
+      "exampleJa": "私はテストのことで緊張していました。",
+      "level": 2
+    },
+    {
+      "headword": "optimistic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌɑːptɪˈmɪstɪk/",
+      "meaning": "楽観的な；前向きな",
+      "exampleEn": "He is optimistic about the economic recovery.",
+      "exampleJa": "彼は景気の回復について楽観的です。",
+      "level": 3
+    },
+    {
+      "headword": "passionate",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpæʃənət/",
+      "meaning": "情熱的な",
+      "exampleEn": "He is passionate about ancient literature.",
+      "exampleJa": "彼は古典文学に情熱を注いでいます。",
+      "level": 4
+    },
+    {
+      "headword": "patient",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpeɪʃnt/",
+      "meaning": "忍耐強い；我慢強い",
+      "exampleEn": "Teachers need to be patient.",
+      "exampleJa": "教師は忍耐強い必要があります。",
+      "level": 2
+    },
+    {
+      "headword": "pessimistic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌpesɪˈmɪstɪk/",
+      "meaning": "悲観的な",
+      "exampleEn": "He is always pessimistic about the future.",
+      "exampleJa": "彼はいつも将来について悲観的です。",
+      "level": 4
+    },
+    {
+      "headword": "polite",
+      "partOfSpeech": "adjective",
+      "phonetic": "/pəˈlaɪt/",
+      "meaning": "礼儀正しい；丁寧な",
+      "exampleEn": "Always be polite to customers.",
+      "exampleJa": "お客様には常に礼儀正しくしなさい。",
+      "level": 2
+    },
+    {
+      "headword": "proud",
+      "partOfSpeech": "adjective",
+      "phonetic": "/praʊd/",
+      "meaning": "誇りに思って；自慢の",
+      "exampleEn": "I am proud of my son.",
+      "exampleJa": "私は息子を誇りに思っています。",
+      "level": 2
+    },
+    {
+      "headword": "punctual",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈpʌŋktʃuəl/",
+      "meaning": "時間を守る；時間に正確な",
+      "exampleEn": "Japanese trains are famous for being punctual.",
+      "exampleJa": "日本の列車は時間を守ることで有名です。",
+      "level": 4
+    },
+    {
+      "headword": "rational",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈræʃnəl/",
+      "meaning": "合理的な；理性的な；論理的な",
+      "exampleEn": "Make a rational decision.",
+      "exampleJa": "合理的判決をしなさい。",
+      "level": 4
+    },
+    {
+      "headword": "reliable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈlaɪəbl/",
+      "meaning": "信頼できる；頼りになる",
+      "exampleEn": "He is a reliable friend.",
+      "exampleJa": "彼は頼りになる友人です。",
+      "level": 3
+    },
+    {
+      "headword": "reluctant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈlʌktənt/",
+      "meaning": "気が進まない；〜しぶる",
+      "exampleEn": "He was reluctant to talk about the accident.",
+      "exampleJa": "彼はその事故について話したがりませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "responsible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/rɪˈspɑːnsəbl/",
+      "meaning": "責任がある",
+      "exampleEn": "He is responsible for the project.",
+      "exampleJa": "彼はそのプロジェクトの責任者です。",
+      "level": 3
+    },
+    {
+      "headword": "rude",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ruːd/",
+      "meaning": "失礼な；無礼な",
+      "exampleEn": "It was rude to say that.",
+      "exampleJa": "そう言うのは失礼でした。",
+      "level": 3
+    },
+    {
+      "headword": "selfish",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈselfɪʃ/",
+      "meaning": "自分勝手な",
+      "exampleEn": "Don't be so selfish, please.",
+      "exampleJa": "そんなに自分勝手にならないでください。",
+      "level": 3
+    },
+    {
+      "headword": "sensible",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsensəbəl/",
+      "meaning": "賢明な；分別のある",
+      "exampleEn": "That was a sensible choice.",
+      "exampleJa": "それは賢明な選択でした。",
+      "level": 3
+    },
+    {
+      "headword": "sensitive",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsensətɪv/",
+      "meaning": "敏感な；繊細な",
+      "exampleEn": "She is sensitive to skin products.",
+      "exampleJa": "彼女はスキンケア用品に敏感です。",
+      "level": 3
+    },
+    {
+      "headword": "severe",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪˈvɪr/",
+      "meaning": "厳しい；深刻な",
+      "exampleEn": "The patient suffered severe pain.",
+      "exampleJa": "患者は激しい痛みに苦しみました。",
+      "level": 3
+    },
+    {
+      "headword": "shy",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʃaɪ/",
+      "meaning": "内気な；恥ずかしがりの",
+      "exampleEn": "He was too shy to answer.",
+      "exampleJa": "彼は恥ずかしがって答えられませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "sincere",
+      "partOfSpeech": "adjective",
+      "phonetic": "/sɪnˈsɪr/",
+      "meaning": "誠実な",
+      "exampleEn": "Please accept my sincere apology.",
+      "exampleJa": "心からのおわびを受け取ってください。",
+      "level": 3
+    },
+    {
+      "headword": "skillful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈskɪlfəl/",
+      "meaning": "熟練した",
+      "exampleEn": "A skillful physician performed the surgery.",
+      "exampleJa": "熟練した医師がその手術を行いました。",
+      "level": 3
+    },
+    {
+      "headword": "sociable",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈsoʊʃəbəl/",
+      "meaning": "社交的な",
+      "exampleEn": "My partner is sociable and talkative.",
+      "exampleJa": "私の相棒は社交的でよくしゃべります。",
+      "level": 4
+    },
+    {
+      "headword": "stubborn",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈstʌbərn/",
+      "meaning": "頑固な",
+      "exampleEn": "He is too stubborn to accept advice.",
+      "exampleJa": "彼は頑固すぎて助言を受け入れません。",
+      "level": 4
+    },
+    {
+      "headword": "superior",
+      "partOfSpeech": "adjective",
+      "phonetic": "/suːˈpɪriər/",
+      "meaning": "優れた；上位の",
+      "exampleEn": "This model is superior to that one.",
+      "exampleJa": "このモデルはあのモデルより優れています。",
+      "level": 3
+    },
+    {
+      "headword": "sympathetic",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˌsɪmpəˈθetɪk/",
+      "meaning": "同情的な",
+      "exampleEn": "The judge was sympathetic toward the victim.",
+      "exampleJa": "裁判官は被害者に同情的でした。",
+      "level": 4
+    },
+    {
+      "headword": "talented",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtæləntɪd/",
+      "meaning": "才能のある",
+      "exampleEn": "A talented musician joined the orchestra.",
+      "exampleJa": "才能ある音楽家が楽団に加わりました。",
+      "level": 3
+    },
+    {
+      "headword": "thoughtful",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈθɔːtfl/",
+      "meaning": "思いやりのある；考え深い",
+      "exampleEn": "Thank you for the thoughtful gift.",
+      "exampleJa": "心遣いのこもった贈り物をありがとうございます。",
+      "level": 3
+    },
+    {
+      "headword": "tolerant",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈtɑːlərənt/",
+      "meaning": "寛容な；耐性がある",
+      "exampleEn": "Society should be tolerant of different opinions.",
+      "exampleJa": "社会は異なる意見に対して寛容であるべきです。",
+      "level": 3
+    },
+    {
+      "headword": "upset",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ʌpˈset/",
+      "meaning": "取り乱した；腹を立てた",
+      "exampleEn": "Why are you so upset?",
+      "exampleJa": "なぜそんなに腹を立てているのですか。",
+      "level": 2
+    },
+    {
+      "headword": "violent",
+      "partOfSpeech": "adjective",
+      "phonetic": "/ˈvaɪələnt/",
+      "meaning": "暴力的な；激しい",
+      "exampleEn": "Avoid watching violent movies.",
+      "exampleJa": "暴力的な映画を見るのは避けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "wise",
+      "partOfSpeech": "adjective",
+      "phonetic": "/waɪz/",
+      "meaning": "賢い；賢明な",
+      "exampleEn": "He made a wise decision.",
+      "exampleJa": "彼は賢明な判断を下しました。",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "chunk": "03_verbs_change",
+  "note": "変化・作用・行為の動詞（82語）",
+  "words": [
+    {
+      "headword": "abandon",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈbændən/",
+      "meaning": "を捨てる；を見捨てる；を断念する",
+      "exampleEn": "Do not abandon hope in tough times.",
+      "exampleJa": "困難な時に希望を捨ててはならない。",
+      "level": 4
+    },
+    {
+      "headword": "absorb",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈzɔːrb/",
+      "meaning": "を吸収する；を夢中にさせる",
+      "exampleEn": "Plants absorb water from soil.",
+      "exampleJa": "植物は土から水を吸収します。",
+      "level": 3
+    },
+    {
+      "headword": "accompany",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkʌmpəni/",
+      "meaning": "に同行する；に付随する；の伴奏をする",
+      "exampleEn": "May I accompany you?",
+      "exampleJa": "同行してもよろしいですか。",
+      "level": 4
+    },
+    {
+      "headword": "accomplish",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈkɑːmplɪʃ/",
+      "meaning": "を成し遂げる；を達成する",
+      "exampleEn": "We accomplished our main goal.",
+      "exampleJa": "私たちは主要な目標を成し遂げました。",
+      "level": 3
+    },
+    {
+      "headword": "achieve",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtʃiːv/",
+      "meaning": "を達成する；を成し遂げる",
+      "exampleEn": "He achieved his goal.",
+      "exampleJa": "彼は目標を達成しました。",
+      "level": 3
+    },
+    {
+      "headword": "adjust",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈdʒʌst/",
+      "meaning": "を調整する；順応する",
+      "exampleEn": "Please adjust the seat height for comfort.",
+      "exampleJa": "快適に座れるよう座席の高さを調整してください。",
+      "level": 3
+    },
+    {
+      "headword": "affect",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈfekt/",
+      "meaning": "に影響を与える",
+      "exampleEn": "The weather affected our plans.",
+      "exampleJa": "天気が私たちの計画に影響を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "alter",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːltər/",
+      "meaning": "を変える；を変更する；変わる",
+      "exampleEn": "Nothing can alter my decision.",
+      "exampleJa": "何ものも私の決意を変えることはできません。",
+      "level": 4
+    },
+    {
+      "headword": "arrange",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈreɪndʒ/",
+      "meaning": "を手配する；を並べる；を取り決める",
+      "exampleEn": "I arranged a meeting.",
+      "exampleJa": "私は会議を手配しました。",
+      "level": 3
+    },
+    {
+      "headword": "assemble",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈsembl/",
+      "meaning": "を組み立てる；集まる",
+      "exampleEn": "He assembled the computer parts in his room.",
+      "exampleJa": "彼は自分の部屋でコンピューター部品を組み立てました。",
+      "level": 3
+    },
+    {
+      "headword": "attach",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtætʃ/",
+      "meaning": "を取り付ける；を添付する",
+      "exampleEn": "I attached a photo.",
+      "exampleJa": "写真を添付しました。",
+      "level": 3
+    },
+    {
+      "headword": "attract",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈtrækt/",
+      "meaning": "を引きつける；を魅了する",
+      "exampleEn": "The museum attracts visitors.",
+      "exampleJa": "その博物館は来訪者を引きつけています。",
+      "level": 3
+    },
+    {
+      "headword": "avoid",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈvɔɪd/",
+      "meaning": "を避ける；を回避する",
+      "exampleEn": "Avoid drinking too much coffee.",
+      "exampleJa": "コーヒーの飲みすぎは避けましょう。",
+      "level": 2
+    },
+    {
+      "headword": "burst",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɜːrst/",
+      "meaning": "破裂する；を破裂させる；突然〜し始める",
+      "exampleEn": "The water pipe burst during cold winter.",
+      "exampleJa": "寒い冬の間に水道管が破裂しました。",
+      "level": 3
+    },
+    {
+      "headword": "capture",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkæptʃər/",
+      "meaning": "を捕らえる；を捕獲する",
+      "exampleEn": "The police captured the escaped prisoner.",
+      "exampleJa": "警察は脱走した囚人を捕らえました。",
+      "level": 3
+    },
+    {
+      "headword": "collapse",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈlæps/",
+      "meaning": "崩壊する；倒壊する；倒れる",
+      "exampleEn": "The old wooden bridge collapsed into the river.",
+      "exampleJa": "古い木の橋が川に崩れ落ちました。",
+      "level": 4
+    },
+    {
+      "headword": "combine",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈbaɪn/",
+      "meaning": "を組み合わせる",
+      "exampleEn": "He combined the ingredients in a large bowl.",
+      "exampleJa": "彼は大きなボウルで材料を混ぜ合わせました。",
+      "level": 3
+    },
+    {
+      "headword": "connect",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəˈnekt/",
+      "meaning": "をつなぐ；を接続する",
+      "exampleEn": "Connect the printer to your computer.",
+      "exampleJa": "プリンターをコンピューターに接続してください。",
+      "level": 2
+    },
+    {
+      "headword": "consume",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsuːm/",
+      "meaning": "を消費する；を摂取する",
+      "exampleEn": "Cars consume large amounts of fuel.",
+      "exampleJa": "自動車は大量の燃料を消費します。",
+      "level": 3
+    },
+    {
+      "headword": "convert",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈvɜːrt/",
+      "meaning": "を変換する；を改造する；を改宗させる",
+      "exampleEn": "Solar panels convert light to energy.",
+      "exampleJa": "太陽光パネルは光をエネルギーに変換します。",
+      "level": 3
+    },
+    {
+      "headword": "damage",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdæmɪdʒ/",
+      "meaning": "に損害を与える；を傷つける",
+      "exampleEn": "The storm damaged several houses.",
+      "exampleJa": "嵐がいくつかの家に損害を与えました。",
+      "level": 2
+    },
+    {
+      "headword": "decline",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈklaɪn/",
+      "meaning": "減少する；を丁重に断る",
+      "exampleEn": "Sales declined sharply during the recession.",
+      "exampleJa": "景気後退の間、売上は急激に減少しました。",
+      "level": 4
+    },
+    {
+      "headword": "decorate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdekəreɪt/",
+      "meaning": "を飾る；を装飾する",
+      "exampleEn": "We decorated the room with flowers.",
+      "exampleJa": "私たちは部屋を花で飾りました。",
+      "level": 3
+    },
+    {
+      "headword": "decrease",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈkriːs/",
+      "meaning": "減る；を減らす",
+      "exampleEn": "The number of students decreased this year.",
+      "exampleJa": "今年は生徒の数が減りました。",
+      "level": 3
+    },
+    {
+      "headword": "defeat",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfiːt/",
+      "meaning": "を打ち負かす；を挫折させる",
+      "exampleEn": "Our team defeated a strong rival yesterday.",
+      "exampleJa": "私たちのチームは昨日強敵を打ち負かしました。",
+      "level": 3
+    },
+    {
+      "headword": "delete",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈliːt/",
+      "meaning": "を削除する",
+      "exampleEn": "Please delete this paragraph from the draft.",
+      "exampleJa": "下書きからこの段落を削除してください。",
+      "level": 3
+    },
+    {
+      "headword": "destroy",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstrɔɪ/",
+      "meaning": "を破壊する；を台無しにする",
+      "exampleEn": "The fire destroyed the building.",
+      "exampleJa": "火災が建物を破壊しました。",
+      "level": 2
+    },
+    {
+      "headword": "develop",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈveləp/",
+      "meaning": "を開発する；を発達させる；発展する",
+      "exampleEn": "They developed a new engine.",
+      "exampleJa": "彼らは新しいエンジンを開発しました。",
+      "level": 2
+    },
+    {
+      "headword": "disappear",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌdɪsəˈpɪr/",
+      "meaning": "消える；姿を消す",
+      "exampleEn": "The bird disappeared into the forest.",
+      "exampleJa": "鳥は森の中へ消えていきました。",
+      "level": 2
+    },
+    {
+      "headword": "distribute",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstrɪbjuːt/",
+      "meaning": "を配送する；を配布する",
+      "exampleEn": "We distributed free samples to every visitor.",
+      "exampleJa": "私たちは来場者全員に無料のサンプルを配りました。",
+      "level": 3
+    },
+    {
+      "headword": "divide",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈvaɪd/",
+      "meaning": "を分割する；を分ける",
+      "exampleEn": "Divide the cake into four pieces.",
+      "exampleJa": "ケーキを4つに分けなさい。",
+      "level": 2
+    },
+    {
+      "headword": "eliminate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈlɪmɪneɪt/",
+      "meaning": "を取り除く；を排除する",
+      "exampleEn": "Eliminate errors before submitting.",
+      "exampleJa": "提出前にエラーを排除しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "escape",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈskeɪp/",
+      "meaning": "逃げる；を免れる",
+      "exampleEn": "The prisoner escaped from jail.",
+      "exampleJa": "囚人は刑務所から脱走しました。",
+      "level": 2
+    },
+    {
+      "headword": "establish",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈstæblɪʃ/",
+      "meaning": "を設立する；を確立する",
+      "exampleEn": "They established the company ten years ago.",
+      "exampleJa": "彼らは10年前にその会社を設立しました。",
+      "level": 3
+    },
+    {
+      "headword": "exchange",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪksˈtʃeɪndʒ/",
+      "meaning": "を交換する",
+      "exampleEn": "We exchanged phone numbers.",
+      "exampleJa": "私たちは電話番号を交換しました。",
+      "level": 2
+    },
+    {
+      "headword": "expand",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspænd/",
+      "meaning": "を拡大する；広がる",
+      "exampleEn": "The company expanded its business.",
+      "exampleJa": "その会社は事業を拡大しました。",
+      "level": 3
+    },
+    {
+      "headword": "explode",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈsploʊd/",
+      "meaning": "爆発する",
+      "exampleEn": "The old engine exploded without any warning.",
+      "exampleJa": "その古いエンジンは何の前触れもなく爆発しました。",
+      "level": 3
+    },
+    {
+      "headword": "export",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspɔːrt/",
+      "meaning": "を輸出する",
+      "exampleEn": "The country exports rice to many markets.",
+      "exampleJa": "その国は多くの市場へ米を輸出しています。",
+      "level": 2
+    },
+    {
+      "headword": "extend",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈstend/",
+      "meaning": "を延長する；を伸ばす；を差し出す",
+      "exampleEn": "The deadline was extended.",
+      "exampleJa": "締切が延長されました。",
+      "level": 3
+    },
+    {
+      "headword": "generate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒenəreɪt/",
+      "meaning": "を生み出す；を発生させる",
+      "exampleEn": "Solar panels generate clean electrical energy.",
+      "exampleJa": "太陽光パネルはクリーンな電気を生み出します。",
+      "level": 4
+    },
+    {
+      "headword": "handle",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhændl/",
+      "meaning": "を扱う；に対処する",
+      "exampleEn": "She handled the problem very well.",
+      "exampleJa": "彼女はその問題をとても上手に処理しました。",
+      "level": 3
+    },
+    {
+      "headword": "illustrate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪləstreɪt/",
+      "meaning": "を例証する；を図解する；に挿絵を入れる",
+      "exampleEn": "Diagrams illustrate the process.",
+      "exampleJa": "図表がプロセスを例証しています。",
+      "level": 4
+    },
+    {
+      "headword": "import",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɪmpɔːrt/",
+      "meaning": "を輸入する",
+      "exampleEn": "We import coffee beans from South America.",
+      "exampleJa": "当社は南米からコーヒー豆を輸入しています。",
+      "level": 2
+    },
+    {
+      "headword": "improve",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈpruːv/",
+      "meaning": "良くする；上達する",
+      "exampleEn": "I want to improve my English.",
+      "exampleJa": "英語を上達させたいです。",
+      "level": 2
+    },
+    {
+      "headword": "increase",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈkriːs/",
+      "meaning": "増える；を増やす",
+      "exampleEn": "The population increased last year.",
+      "exampleJa": "昨年人口が増加しました。",
+      "level": 2
+    },
+    {
+      "headword": "install",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈstɔːl/",
+      "meaning": "を設置する；をインストールする",
+      "exampleEn": "We will install the new software next week.",
+      "exampleJa": "来週、新しいソフトウェアを導入します。",
+      "level": 2
+    },
+    {
+      "headword": "invent",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvent/",
+      "meaning": "を発明する",
+      "exampleEn": "Edison invented the light bulb.",
+      "exampleJa": "エジソンは電球を発明しました。",
+      "level": 2
+    },
+    {
+      "headword": "invest",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvest/",
+      "meaning": "を出資する；投資する",
+      "exampleEn": "They invested in solar energy last year.",
+      "exampleJa": "彼らは昨年、太陽光エネルギーに投資しました。",
+      "level": 3
+    },
+    {
+      "headword": "launch",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɔːntʃ/",
+      "meaning": "を打ち上げる；を開始する",
+      "exampleEn": "The company launched a new website last month.",
+      "exampleJa": "その会社は先月新しいウェブサイトを開設しました。",
+      "level": 3
+    },
+    {
+      "headword": "melt",
+      "partOfSpeech": "verb",
+      "phonetic": "/melt/",
+      "meaning": "溶ける；溶かす",
+      "exampleEn": "The snow melted in the sun.",
+      "exampleJa": "雪が日ざしで溶けました。",
+      "level": 2
+    },
+    {
+      "headword": "modify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmɑːdɪfaɪ/",
+      "meaning": "を修正する；を変更する",
+      "exampleEn": "Engineers modified the aircraft design.",
+      "exampleJa": "技術者たちは航空機の設計を修正しました。",
+      "level": 4
+    },
+    {
+      "headword": "occupy",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːkjupaɪ/",
+      "meaning": "を占める；を占領する",
+      "exampleEn": "Work occupies most of my time.",
+      "exampleJa": "仕事が私の時間の大部分を占めています。",
+      "level": 3
+    },
+    {
+      "headword": "organize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɔːrɡənaɪz/",
+      "meaning": "を整理する；を組織する",
+      "exampleEn": "I organized the files by date.",
+      "exampleJa": "私は書類を日付順に整理しました。",
+      "level": 2
+    },
+    {
+      "headword": "overcome",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌoʊvərˈkʌm/",
+      "meaning": "を克服する；に打ち勝つ",
+      "exampleEn": "She overcame difficulties to succeed.",
+      "exampleJa": "彼女は困難を克服して成功しました。",
+      "level": 3
+    },
+    {
+      "headword": "pollute",
+      "partOfSpeech": "verb",
+      "phonetic": "/pəˈluːt/",
+      "meaning": "を汚染する",
+      "exampleEn": "Factory waste polluted the river last year.",
+      "exampleJa": "工場の廃棄物が昨年その川を汚染しました。",
+      "level": 3
+    },
+    {
+      "headword": "prevent",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈvent/",
+      "meaning": "を防ぐ；を妨げる",
+      "exampleEn": "Washing your hands prevents colds.",
+      "exampleJa": "手を洗うことは風邪を防ぎます。",
+      "level": 2
+    },
+    {
+      "headword": "produce",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈduːs/",
+      "meaning": "を生産する；を製造する；を生み出す",
+      "exampleEn": "This factory produces cars.",
+      "exampleJa": "この工場は車を生産しています。",
+      "level": 2
+    },
+    {
+      "headword": "promote",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈmoʊt/",
+      "meaning": "を促進する；を昇進させる；を宣伝する",
+      "exampleEn": "The campaign promotes health.",
+      "exampleJa": "キャンペーンは健康を促進しています。",
+      "level": 3
+    },
+    {
+      "headword": "protect",
+      "partOfSpeech": "verb",
+      "phonetic": "/prəˈtekt/",
+      "meaning": "を守る；を保護する",
+      "exampleEn": "Protect your skin from the sun.",
+      "exampleJa": "日差しから肌を守りなさい。",
+      "level": 2
+    },
+    {
+      "headword": "purchase",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈpɜːrtʃəs/",
+      "meaning": "を購入する",
+      "exampleEn": "She purchased the tickets online with her credit card.",
+      "exampleJa": "彼女はクレジットカードでオンラインでチケットを購入しました。",
+      "level": 3
+    },
+    {
+      "headword": "reduce",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈduːs/",
+      "meaning": "を減らす；を縮小する",
+      "exampleEn": "We should reduce waste.",
+      "exampleJa": "ごみを減らすべきです。",
+      "level": 2
+    },
+    {
+      "headword": "release",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈliːs/",
+      "meaning": "を発売する；を公開する；を解放する",
+      "exampleEn": "The band released a new album last week.",
+      "exampleJa": "そのバンドは先週新しいアルバムを発売しました。",
+      "level": 3
+    },
+    {
+      "headword": "remove",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmuːv/",
+      "meaning": "を取り除く；を外す",
+      "exampleEn": "He removed the snow from the roof.",
+      "exampleJa": "彼は屋根から雪を取り除きました。",
+      "level": 3
+    },
+    {
+      "headword": "repair",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈper/",
+      "meaning": "を修理する；を修繕する",
+      "exampleEn": "The workers repaired the old bridge.",
+      "exampleJa": "作業員たちは古い橋を修理しました。",
+      "level": 2
+    },
+    {
+      "headword": "replace",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈpleɪs/",
+      "meaning": "を取り替える；に取って代わる",
+      "exampleEn": "Robots will replace manual jobs.",
+      "exampleJa": "ロボットが単純作業に取って代わるでしょう。",
+      "level": 3
+    },
+    {
+      "headword": "represent",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌreprɪˈzent/",
+      "meaning": "を代表する；を表す",
+      "exampleEn": "She represented Japan at the conference.",
+      "exampleJa": "彼女は会議で日本を代表しました。",
+      "level": 3
+    },
+    {
+      "headword": "rescue",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈreskjuː/",
+      "meaning": "を救助する；を救う",
+      "exampleEn": "Firefighters rescued a cat from the tree.",
+      "exampleJa": "消防士たちが木から猫を救助しました。",
+      "level": 3
+    },
+    {
+      "headword": "restore",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈstɔːr/",
+      "meaning": "を回復させる；を修復する",
+      "exampleEn": "The police restored order.",
+      "exampleJa": "警察は秩序を回復させました。",
+      "level": 4
+    },
+    {
+      "headword": "retire",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈtaɪər/",
+      "meaning": "退職する；引退する",
+      "exampleEn": "My uncle retired after thirty years of service.",
+      "exampleJa": "おじは30年勤めた後に退職しました。",
+      "level": 2
+    },
+    {
+      "headword": "reverse",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvɜːrs/",
+      "meaning": "を逆転させる；を反対にする",
+      "exampleEn": "Court reversed the previous decision.",
+      "exampleJa": "裁判所は以前の決定を翻しました。",
+      "level": 3
+    },
+    {
+      "headword": "shift",
+      "partOfSpeech": "verb",
+      "phonetic": "/ʃɪft/",
+      "meaning": "を移す；変わる",
+      "exampleEn": "Public opinion shifted after the election.",
+      "exampleJa": "選挙のあと世論が変わりました。",
+      "level": 4
+    },
+    {
+      "headword": "spread",
+      "partOfSpeech": "verb",
+      "phonetic": "/spred/",
+      "meaning": "広げる；広がる",
+      "exampleEn": "Please spread the butter on the bread.",
+      "exampleJa": "パンにバターを広げてください。",
+      "level": 3
+    },
+    {
+      "headword": "stimulate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈstɪmjuleɪt/",
+      "meaning": "を刺激する；を活性化する",
+      "exampleEn": "Lower tax rates stimulate growth.",
+      "exampleJa": "減税は成長を刺激します。",
+      "level": 4
+    },
+    {
+      "headword": "strengthen",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈstreŋθən/",
+      "meaning": "を強める",
+      "exampleEn": "Regular exercise strengthens your heart and muscle.",
+      "exampleJa": "定期的な運動は心臓と筋肉を強くします。",
+      "level": 3
+    },
+    {
+      "headword": "substitute",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈsʌbstɪtuːt/",
+      "meaning": "を代用する；の代わりをする",
+      "exampleEn": "Substitute butter with olive oil.",
+      "exampleJa": "バターをオリーブオイルで代用しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "survive",
+      "partOfSpeech": "verb",
+      "phonetic": "/sərˈvaɪv/",
+      "meaning": "生き残る；を切り抜ける",
+      "exampleEn": "Only a few trees survived the fire.",
+      "exampleJa": "数本の木だけがその火事を生き延びました。",
+      "level": 3
+    },
+    {
+      "headword": "transfer",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænsˈfɜːr/",
+      "meaning": "を転勤させる；を移す",
+      "exampleEn": "He was transferred to the London office.",
+      "exampleJa": "彼はロンドンの事務所に転勤になりました。",
+      "level": 3
+    },
+    {
+      "headword": "transform",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænsˈfɔːrm/",
+      "meaning": "を一変させる；を変形させる；を変容させる",
+      "exampleEn": "Internet transformed business.",
+      "exampleJa": "インターネットはビジネスを一変させました。",
+      "level": 3
+    },
+    {
+      "headword": "transport",
+      "partOfSpeech": "verb",
+      "phonetic": "/trænˈspɔːrt/",
+      "meaning": "を輸送する",
+      "exampleEn": "Trains transport most of our raw materials.",
+      "exampleJa": "列車が当社の原料の大半を輸送しています。",
+      "level": 2
+    },
+    {
+      "headword": "weaken",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwiːkən/",
+      "meaning": "を弱める；弱まる",
+      "exampleEn": "The long illness weakened his whole body.",
+      "exampleJa": "長い病気が彼の体全体を弱らせました。",
+      "level": 3
+    },
+    {
+      "headword": "widen",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwaɪdən/",
+      "meaning": "を広げる",
+      "exampleEn": "The city plans to widen this narrow street.",
+      "exampleJa": "市はこの狭い通りを広げる計画です。",
+      "level": 3
+    },
+    {
+      "headword": "withdraw",
+      "partOfSpeech": "verb",
+      "phonetic": "/wɪðˈdrɔː/",
+      "meaning": "を引き出す；を撤回する",
+      "exampleEn": "She withdrew some cash at the ATM.",
+      "exampleJa": "彼女はATMで現金を引き出しました。",
+      "level": 3
+    }
+  ]
+}

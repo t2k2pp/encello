@@ -1,0 +1,735 @@
+{
+  "chunk": "04_nouns_person_society",
+  "note": "人・社会・制度（81語）",
+  "words": [
+    {
+      "headword": "adult",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈdʌlt/",
+      "meaning": "大人；成人",
+      "exampleEn": "This movie is only for adults.",
+      "exampleJa": "この映画は大人だけのものです。",
+      "level": 1
+    },
+    {
+      "headword": "agency",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈeɪdʒənsi/",
+      "meaning": "代理店；機関；官庁",
+      "exampleEn": "She works for a travel agency.",
+      "exampleJa": "彼女は旅行代理店で働いています。",
+      "level": 3
+    },
+    {
+      "headword": "ancestor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈænsestər/",
+      "meaning": "祖先；先祖",
+      "exampleEn": "Respect your family ancient ancestors.",
+      "exampleJa": "あなたの家族の古代の先祖を尊重しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "army",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrmi/",
+      "meaning": "陸軍；軍隊",
+      "exampleEn": "He joined the national military army.",
+      "exampleJa": "彼は国家の軍隊に入隊しました。",
+      "level": 2
+    },
+    {
+      "headword": "authority",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈθɔːrəti/",
+      "meaning": "権威；権限；当局",
+      "exampleEn": "Respect the legal authority of the police.",
+      "exampleJa": "警察の法的権限を尊重しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "capital",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkæpɪtl/",
+      "meaning": "首都；資本；大文字",
+      "exampleEn": "Tokyo is the capital of Japan.",
+      "exampleJa": "東京は日本の首都です。",
+      "level": 2
+    },
+    {
+      "headword": "ceremony",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈserəmoʊni/",
+      "meaning": "式典；儀式；式",
+      "exampleEn": "We attended the graduation ceremony last week.",
+      "exampleJa": "私たちは先週卒業式典に出席しました。",
+      "level": 2
+    },
+    {
+      "headword": "citizen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɪtɪzn/",
+      "meaning": "市民；国民",
+      "exampleEn": "Every citizen has duties.",
+      "exampleJa": "すべての市民に義務があります。",
+      "level": 2
+    },
+    {
+      "headword": "civilization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsɪvələˈzeɪʃn/",
+      "meaning": "文明",
+      "exampleEn": "Ancient civilization developed near large rivers.",
+      "exampleJa": "古代の文明は大きな川の近くで発展しました。",
+      "level": 2
+    },
+    {
+      "headword": "colleague",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːliːɡ/",
+      "meaning": "同僚",
+      "exampleEn": "I had lunch with a colleague today.",
+      "exampleJa": "今日は同僚と昼食をとりました。",
+      "level": 3
+    },
+    {
+      "headword": "committee",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmɪti/",
+      "meaning": "委員会",
+      "exampleEn": "The committee decided on the new safety rules.",
+      "exampleJa": "委員会は新しい安全規則を決定しました。",
+      "level": 3
+    },
+    {
+      "headword": "community",
+      "partOfSpeech": "noun",
+      "phonetic": "/kəˈmjuːnəti/",
+      "meaning": "地域社会；共同体",
+      "exampleEn": "Our local community holds a festival every summer.",
+      "exampleJa": "私たちの地域社会では毎年夏に祭りを開きます。",
+      "level": 2
+    },
+    {
+      "headword": "conference",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnfərəns/",
+      "meaning": "会議；協議会",
+      "exampleEn": "She attended a medical conference in Osaka.",
+      "exampleJa": "彼女は大阪で開かれた医学会議に出席しました。",
+      "level": 3
+    },
+    {
+      "headword": "conflict",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnflɪkt/",
+      "meaning": "紛争；対立",
+      "exampleEn": "The two countries ended a long conflict.",
+      "exampleJa": "2つの国は長い紛争を終わらせました。",
+      "level": 3
+    },
+    {
+      "headword": "congress",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːŋɡrəs/",
+      "meaning": "議会；国会；会議",
+      "exampleEn": "Congress passed the bill.",
+      "exampleJa": "議会は法案を可決しました。",
+      "level": 4
+    },
+    {
+      "headword": "council",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkaʊnsl/",
+      "meaning": "議会；評議会",
+      "exampleEn": "The city council approved the new library budget.",
+      "exampleJa": "市議会が新しい図書館の予算を承認しました。",
+      "level": 4
+    },
+    {
+      "headword": "crime",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraɪm/",
+      "meaning": "犯罪；罪",
+      "exampleEn": "Crime rates dropped this year.",
+      "exampleJa": "今年、犯罪率は低下しました。",
+      "level": 2
+    },
+    {
+      "headword": "crisis",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkraɪsɪs/",
+      "meaning": "危機；難局",
+      "exampleEn": "Financial crisis hit the market.",
+      "exampleJa": "金融危機が市場を襲いました。",
+      "level": 3
+    },
+    {
+      "headword": "custom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌstəm/",
+      "meaning": "慣習；風習",
+      "exampleEn": "Bowing is a traditional Japanese custom.",
+      "exampleJa": "お辞儀は伝統的な日本の習慣です。",
+      "level": 3
+    },
+    {
+      "headword": "democracy",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈmɑːkrəsi/",
+      "meaning": "民主主義；民主国家",
+      "exampleEn": "They fought for democracy.",
+      "exampleJa": "彼らは民主主義のために戦いました。",
+      "level": 3
+    },
+    {
+      "headword": "department",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈpɑːrtmənt/",
+      "meaning": "部署；部門",
+      "exampleEn": "He works in the sales department.",
+      "exampleJa": "彼は営業部門で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "duty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈduːti/",
+      "meaning": "職務；義務；関税",
+      "exampleEn": "It is my duty to lock the office.",
+      "exampleJa": "事務所の戸締まりをするのは私の職務です。",
+      "level": 2
+    },
+    {
+      "headword": "election",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈlekʃən/",
+      "meaning": "選挙",
+      "exampleEn": "The general election is next month.",
+      "exampleJa": "総選挙は来月です。",
+      "level": 3
+    },
+    {
+      "headword": "empire",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈempaɪər/",
+      "meaning": "帝国",
+      "exampleEn": "The ancient empire ruled a vast territory.",
+      "exampleJa": "その古代帝国は広大な領土を支配していました。",
+      "level": 4
+    },
+    {
+      "headword": "enemy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenəmi/",
+      "meaning": "敵",
+      "exampleEn": "The soldiers defended the town against the enemy.",
+      "exampleJa": "兵士たちは敵から町を守りました。",
+      "level": 2
+    },
+    {
+      "headword": "equality",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈkwɑːləti/",
+      "meaning": "平等",
+      "exampleEn": "The law promotes equality between men and women.",
+      "exampleJa": "その法律は男女の平等を進めるものです。",
+      "level": 4
+    },
+    {
+      "headword": "expert",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈekspɜːrt/",
+      "meaning": "専門家",
+      "exampleEn": "An expert explained the cause of the disaster.",
+      "exampleJa": "専門家がその災害の原因を説明しました。",
+      "level": 3
+    },
+    {
+      "headword": "freedom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfriːdəm/",
+      "meaning": "自由",
+      "exampleEn": "Everyone wants freedom and peace.",
+      "exampleJa": "誰もが自由と平和を求めています。",
+      "level": 2
+    },
+    {
+      "headword": "generation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdʒenəˈreɪʃn/",
+      "meaning": "世代",
+      "exampleEn": "Three generations live in this house.",
+      "exampleJa": "この家には3世代が住んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "government",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡʌvərnmənt/",
+      "meaning": "政府；政治",
+      "exampleEn": "The government announced a new policy.",
+      "exampleJa": "政府は新政策を発表しました。",
+      "level": 2
+    },
+    {
+      "headword": "immigrant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪmɪɡrənt/",
+      "meaning": "移民；移住者",
+      "exampleEn": "The immigrant family settled in a new country.",
+      "exampleJa": "その移民家族は新しい国に定住しました。",
+      "level": 3
+    },
+    {
+      "headword": "individual",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+      "meaning": "個人",
+      "exampleEn": "Every individual has the right to education.",
+      "exampleJa": "すべての個人に教育を受ける権利があります。",
+      "level": 4
+    },
+    {
+      "headword": "institution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɪnstɪˈtuːʃən/",
+      "meaning": "機関；制度",
+      "exampleEn": "This is an academic institution.",
+      "exampleJa": "これは学術機関です。",
+      "level": 4
+    },
+    {
+      "headword": "judge",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒʌdʒ/",
+      "meaning": "裁判官；審査員",
+      "exampleEn": "The judge listened carefully to both lawyers.",
+      "exampleJa": "裁判官は両方の弁護士の話を注意深く聞きました。",
+      "level": 3
+    },
+    {
+      "headword": "jury",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒʊri/",
+      "meaning": "陪審員団",
+      "exampleEn": "Jury reached a unanimous verdict.",
+      "exampleJa": "陪審員団は全員一致の評決に達しました。",
+      "level": 3
+    },
+    {
+      "headword": "justice",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒʌstɪs/",
+      "meaning": "正義；司法；裁判",
+      "exampleEn": "They demanded truth and justice.",
+      "exampleJa": "彼らは真実と正義を求めました。",
+      "level": 3
+    },
+    {
+      "headword": "labor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪbər/",
+      "meaning": "労働；作業；労働者",
+      "exampleEn": "Manual labor can be exhausting.",
+      "exampleJa": "肉体労働は疲れることがあります。",
+      "level": 3
+    },
+    {
+      "headword": "lawyer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɔːjər/",
+      "meaning": "弁護士",
+      "exampleEn": "He decided to become a lawyer.",
+      "exampleJa": "彼は弁護士になることを決めました。",
+      "level": 2
+    },
+    {
+      "headword": "liberty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɪbərti/",
+      "meaning": "自由；解放",
+      "exampleEn": "Statue of Liberty stands in New York.",
+      "exampleJa": "自由の女神像がニューヨークに立っています。",
+      "level": 3
+    },
+    {
+      "headword": "majority",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈdʒɔːrəti/",
+      "meaning": "大多数；過半数",
+      "exampleEn": "The majority of students agreed with the plan.",
+      "exampleJa": "大多数の生徒がその計画に賛成しました。",
+      "level": 3
+    },
+    {
+      "headword": "minority",
+      "partOfSpeech": "noun",
+      "phonetic": "/məˈnɔːrəti/",
+      "meaning": "少数派",
+      "exampleEn": "A small minority opposed the new policy.",
+      "exampleJa": "少数の人々が新しい方針に反対しました。",
+      "level": 4
+    },
+    {
+      "headword": "nation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪʃn/",
+      "meaning": "国家；国民",
+      "exampleEn": "The nation celebrated independence.",
+      "exampleJa": "国家は独立を祝いました。",
+      "level": 2
+    },
+    {
+      "headword": "official",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈfɪʃəl/",
+      "meaning": "役人；職員",
+      "exampleEn": "Government officials attended.",
+      "exampleJa": "政府高官らが出席しました。",
+      "level": 3
+    },
+    {
+      "headword": "opponent",
+      "partOfSpeech": "noun",
+      "phonetic": "/əˈpoʊnənt/",
+      "meaning": "相手；対戦相手",
+      "exampleEn": "She played well against her opponent.",
+      "exampleJa": "彼女は対戦相手に対してよいプレーをしました。",
+      "level": 3
+    },
+    {
+      "headword": "organization",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌɔːrɡənəˈzeɪʃn/",
+      "meaning": "組織；団体",
+      "exampleEn": "She works for a large organization.",
+      "exampleJa": "彼女は大きな組織で働いています。",
+      "level": 2
+    },
+    {
+      "headword": "parliament",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrləmənt/",
+      "meaning": "議会",
+      "exampleEn": "Members of parliament met yesterday.",
+      "exampleJa": "国会議員たちが昨日会合を開きました。",
+      "level": 4
+    },
+    {
+      "headword": "participant",
+      "partOfSpeech": "noun",
+      "phonetic": "/pɑːrˈtɪsəpənt/",
+      "meaning": "参加者",
+      "exampleEn": "Every participant received a certificate.",
+      "exampleJa": "参加者は全員が証明書を受け取りました。",
+      "level": 4
+    },
+    {
+      "headword": "partner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrtnər/",
+      "meaning": "相手；パートナー",
+      "exampleEn": "Choose a partner for this activity.",
+      "exampleJa": "この活動の相手を選んでください。",
+      "level": 2
+    },
+    {
+      "headword": "policy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːləsi/",
+      "meaning": "方針；政策；保険証券",
+      "exampleEn": "Honesty is the best policy.",
+      "exampleJa": "正直は最善の策です。",
+      "level": 3
+    },
+    {
+      "headword": "politician",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɑːləˈtɪʃn/",
+      "meaning": "政治家",
+      "exampleEn": "The politician spoke at a public meeting.",
+      "exampleJa": "その政治家は公開の集会で演説しました。",
+      "level": 2
+    },
+    {
+      "headword": "population",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌpɑːpjuˈleɪʃn/",
+      "meaning": "人口；全住民",
+      "exampleEn": "The population of this city is growing fast.",
+      "exampleJa": "この都市の人口は急速に増えています。",
+      "level": 2
+    },
+    {
+      "headword": "poverty",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːvərti/",
+      "meaning": "貧困；貧しさ",
+      "exampleEn": "Many people are trying to end poverty.",
+      "exampleJa": "多くの人が貧困をなくそうとしています。",
+      "level": 3
+    },
+    {
+      "headword": "president",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprezɪdənt/",
+      "meaning": "大統領；社長",
+      "exampleEn": "The president spoke to the students.",
+      "exampleJa": "大統領は生徒たちに話しかけました。",
+      "level": 2
+    },
+    {
+      "headword": "principle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɪnsəpl/",
+      "meaning": "原則；主義；原理",
+      "exampleEn": "I stick to my principles.",
+      "exampleJa": "私は自分の主義を貫きます。",
+      "level": 3
+    },
+    {
+      "headword": "prisoner",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɪzənər/",
+      "meaning": "囚人；捕虜",
+      "exampleEn": "The prisoner was finally set free.",
+      "exampleJa": "その囚人はついに解放されました。",
+      "level": 3
+    },
+    {
+      "headword": "privilege",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈprɪvəlɪdʒ/",
+      "meaning": "特権；名誉",
+      "exampleEn": "It is a privilege to meet you.",
+      "exampleJa": "あなたにお会いできて光栄です。",
+      "level": 4
+    },
+    {
+      "headword": "protest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈproʊtest/",
+      "meaning": "抗議",
+      "exampleEn": "A large protest took place near the parliament.",
+      "exampleJa": "議会の近くで大規模な抗議が行われました。",
+      "level": 4
+    },
+    {
+      "headword": "race",
+      "partOfSpeech": "noun",
+      "phonetic": "/reɪs/",
+      "meaning": "人種；競走",
+      "exampleEn": "Nobody should be judged by race.",
+      "exampleJa": "人種で人を判断すべきではありません。",
+      "level": 3
+    },
+    {
+      "headword": "refugee",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrefjuˈdʒiː/",
+      "meaning": "難民",
+      "exampleEn": "The community welcomed refugees from the conflict.",
+      "exampleJa": "その地域は紛争から逃れた難民を受け入れました。",
+      "level": 4
+    },
+    {
+      "headword": "region",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈriːdʒən/",
+      "meaning": "地域；地方",
+      "exampleEn": "This region is famous for rice.",
+      "exampleJa": "この地域は米で有名です。",
+      "level": 2
+    },
+    {
+      "headword": "religion",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈlɪdʒən/",
+      "meaning": "宗教；信仰",
+      "exampleEn": "People of every religion visit this old city.",
+      "exampleJa": "あらゆる宗教の人々がこの古い都市を訪れます。",
+      "level": 3
+    },
+    {
+      "headword": "republic",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˈpʌblɪk/",
+      "meaning": "共和国",
+      "exampleEn": "France is a democratic republic.",
+      "exampleJa": "フランスは民主共和国です。",
+      "level": 3
+    },
+    {
+      "headword": "resident",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrezɪdənt/",
+      "meaning": "住民",
+      "exampleEn": "Local residents protested against the new factory.",
+      "exampleJa": "地元の住民は新しい工場に抗議しました。",
+      "level": 4
+    },
+    {
+      "headword": "responsibility",
+      "partOfSpeech": "noun",
+      "phonetic": "/rɪˌspɑːnsəˈbɪləti/",
+      "meaning": "責任",
+      "exampleEn": "Taking care of pets is a big responsibility.",
+      "exampleJa": "ペットの世話は大きな責任です。",
+      "level": 3
+    },
+    {
+      "headword": "revolution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrevəˈluːʃən/",
+      "meaning": "革命；回転",
+      "exampleEn": "Industrial revolution changed history.",
+      "exampleJa": "産業革命は歴史を変えました。",
+      "level": 3
+    },
+    {
+      "headword": "right",
+      "partOfSpeech": "noun",
+      "phonetic": "/raɪt/",
+      "meaning": "権利；正しいこと",
+      "exampleEn": "Everyone has the right to speak freely.",
+      "exampleJa": "だれもが自由に発言する権利を持っています。",
+      "level": 2
+    },
+    {
+      "headword": "role",
+      "partOfSpeech": "noun",
+      "phonetic": "/roʊl/",
+      "meaning": "役割；役",
+      "exampleEn": "She played a key role.",
+      "exampleJa": "彼女は重要な役割を果たしました。",
+      "level": 2
+    },
+    {
+      "headword": "security",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈkjʊrəti/",
+      "meaning": "警備；セキュリティ；安心",
+      "exampleEn": "The airport tightened its security checks last month.",
+      "exampleJa": "空港は先月、保安検査を強化しました。",
+      "level": 2
+    },
+    {
+      "headword": "servant",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrvənt/",
+      "meaning": "使用人",
+      "exampleEn": "The servant opened the heavy front door.",
+      "exampleJa": "使用人が重い玄関の扉を開けました。",
+      "level": 3
+    },
+    {
+      "headword": "slave",
+      "partOfSpeech": "noun",
+      "phonetic": "/sleɪv/",
+      "meaning": "奴隷",
+      "exampleEn": "The revolution finally freed every slave.",
+      "exampleJa": "その革命はついにすべての奴隷を解放しました。",
+      "level": 3
+    },
+    {
+      "headword": "society",
+      "partOfSpeech": "noun",
+      "phonetic": "/səˈsaɪəti/",
+      "meaning": "社会",
+      "exampleEn": "We live in a modern society.",
+      "exampleJa": "私たちは現代社会に生きています。",
+      "level": 2
+    },
+    {
+      "headword": "soldier",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsoʊldʒər/",
+      "meaning": "兵士",
+      "exampleEn": "A young soldier guarded the empty gate.",
+      "exampleJa": "若い兵士が誰もいない門を守っていました。",
+      "level": 2
+    },
+    {
+      "headword": "status",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsteɪtəs/",
+      "meaning": "地位；状態",
+      "exampleEn": "Check the delivery status online.",
+      "exampleJa": "オンラインで配送状況を確認しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "stranger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈstreɪndʒər/",
+      "meaning": "見知らぬ人",
+      "exampleEn": "Don't talk to strangers on the street.",
+      "exampleJa": "道で見知らぬ人と話してはいけません。",
+      "level": 3
+    },
+    {
+      "headword": "tradition",
+      "partOfSpeech": "noun",
+      "phonetic": "/trəˈdɪʃən/",
+      "meaning": "伝統",
+      "exampleEn": "This dance is an old Japanese tradition.",
+      "exampleJa": "この踊りは古い日本の伝統です。",
+      "level": 3
+    },
+    {
+      "headword": "tribe",
+      "partOfSpeech": "noun",
+      "phonetic": "/traɪb/",
+      "meaning": "部族",
+      "exampleEn": "This tribe keeps its ancient customs alive.",
+      "exampleJa": "この部族は古くからの習慣を守り続けています。",
+      "level": 4
+    },
+    {
+      "headword": "union",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːnjən/",
+      "meaning": "労働組合；連合；結合",
+      "exampleEn": "Workers formed a labor union.",
+      "exampleJa": "労働者たちは労働組合を結成しました。",
+      "level": 3
+    },
+    {
+      "headword": "victim",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvɪktɪm/",
+      "meaning": "犠牲者；被害者",
+      "exampleEn": "Volunteers helped crime victims.",
+      "exampleJa": "ボランティアが犯罪被害者を助けました。",
+      "level": 3
+    },
+    {
+      "headword": "violence",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvaɪələns/",
+      "meaning": "暴力；激しさ",
+      "exampleEn": "The movie contains too much violence.",
+      "exampleJa": "その映画は暴力の場面が多すぎます。",
+      "level": 3
+    },
+    {
+      "headword": "welfare",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwelfer/",
+      "meaning": "福祉；幸福",
+      "exampleEn": "The state improves social welfare.",
+      "exampleJa": "国家は社会福祉を改善します。",
+      "level": 3
+    },
+    {
+      "headword": "witness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪtnəs/",
+      "meaning": "目撃者；証人",
+      "exampleEn": "The witness described the accident in detail.",
+      "exampleJa": "目撃者はその事故を詳しく説明しました。",
+      "level": 4
+    }
+  ]
+}

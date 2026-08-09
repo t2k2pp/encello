@@ -1,0 +1,771 @@
+{
+  "chunk": "07_nouns_life_culture",
+  "note": "生活・文化・芸術（85語）",
+  "words": [
+    {
+      "headword": "architecture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːrkɪtektʃər/",
+      "meaning": "建築；建築様式；建築学",
+      "exampleEn": "She studies modern city architecture.",
+      "exampleJa": "彼女は現代の都市建築を学んでいます。",
+      "level": 3
+    },
+    {
+      "headword": "audience",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːdiəns/",
+      "meaning": "聴衆；観客；対象層",
+      "exampleEn": "The audience clapped for the warm performance.",
+      "exampleJa": "観客が温かいパフォーマンスに拍手をしました。",
+      "level": 3
+    },
+    {
+      "headword": "author",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːθər/",
+      "meaning": "著者；筆者；作者",
+      "exampleEn": "The famous author wrote new novel book.",
+      "exampleJa": "有名な著者が新しい小説本を書きました。",
+      "level": 2
+    },
+    {
+      "headword": "baggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbæɡɪdʒ/",
+      "meaning": "手荷物",
+      "exampleEn": "Keep an eye on your baggage.",
+      "exampleJa": "手荷物から目を離さないでください。",
+      "level": 3
+    },
+    {
+      "headword": "basement",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈbeɪsmənt/",
+      "meaning": "地下室；地階",
+      "exampleEn": "Park your car in the building's basement.",
+      "exampleJa": "建物の地下駐車場に車を停めなさい。",
+      "level": 2
+    },
+    {
+      "headword": "biography",
+      "partOfSpeech": "noun",
+      "phonetic": "/baɪˈɑːɡrəfi/",
+      "meaning": "伝記；経歴",
+      "exampleEn": "I read a biography of a famous hero.",
+      "exampleJa": "私は有名な英雄の伝記を読みました。",
+      "level": 3
+    },
+    {
+      "headword": "ceiling",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsiːlɪŋ/",
+      "meaning": "天井",
+      "exampleEn": "The ceiling in this room is high.",
+      "exampleJa": "この部屋の天井は高いです。",
+      "level": 2
+    },
+    {
+      "headword": "century",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsentʃəri/",
+      "meaning": "世紀；100年",
+      "exampleEn": "We live in the 21st century.",
+      "exampleJa": "私たちは21世紀に生きています。",
+      "level": 1
+    },
+    {
+      "headword": "channel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʃænl/",
+      "meaning": "チャンネル；海峡；経路",
+      "exampleEn": "Let's change the channel.",
+      "exampleJa": "チャンネルを変えましょう。",
+      "level": 2
+    },
+    {
+      "headword": "clothing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkloʊðɪŋ/",
+      "meaning": "衣類；衣料品（集合的）",
+      "exampleEn": "We bought warm clothing for the winter.",
+      "exampleJa": "私たちは冬のために温かい衣類を買いました。",
+      "level": 2
+    },
+    {
+      "headword": "concert",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːnsərt/",
+      "meaning": "コンサート；演奏会",
+      "exampleEn": "We went to a concert last weekend.",
+      "exampleJa": "私たちは先週末コンサートに行きました。",
+      "level": 1
+    },
+    {
+      "headword": "construction",
+      "partOfSpeech": "noun",
+      "phonetic": "/kənˈstrʌkʃn/",
+      "meaning": "建設；施工",
+      "exampleEn": "Road construction delayed traffic on the highway this morning.",
+      "exampleJa": "道路工事のせいで今朝は高速道路の流れが遅れました。",
+      "level": 3
+    },
+    {
+      "headword": "costume",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːstuːm/",
+      "meaning": "衣装；仮装",
+      "exampleEn": "She wore a cat costume at the party.",
+      "exampleJa": "彼女はパーティーで猫の衣装を着ました。",
+      "level": 3
+    },
+    {
+      "headword": "cottage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːtɪdʒ/",
+      "meaning": "小住宅；コテージ",
+      "exampleEn": "We stayed at a small cottage in the woods.",
+      "exampleJa": "私たちは森の中の小さなコテージに滞在しました。",
+      "level": 3
+    },
+    {
+      "headword": "craft",
+      "partOfSpeech": "noun",
+      "phonetic": "/kræft/",
+      "meaning": "工芸；技能；船",
+      "exampleEn": "He learned the craft of making wooden bowls.",
+      "exampleJa": "彼は木の器を作る技能を学びました。",
+      "level": 3
+    },
+    {
+      "headword": "crowd",
+      "partOfSpeech": "noun",
+      "phonetic": "/kraʊd/",
+      "meaning": "群衆；人ごみ",
+      "exampleEn": "A large crowd gathered in front of the hall.",
+      "exampleJa": "大勢の群衆がホールの前に集まりました。",
+      "level": 2
+    },
+    {
+      "headword": "culture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkʌltʃər/",
+      "meaning": "文化；教養",
+      "exampleEn": "I want to learn about Japanese tea culture.",
+      "exampleJa": "私は日本の茶文化について学びたいです。",
+      "level": 2
+    },
+    {
+      "headword": "curtain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrtn/",
+      "meaning": "カーテン；幕",
+      "exampleEn": "Please open the curtain in the morning.",
+      "exampleJa": "朝になったらカーテンを開けてください。",
+      "level": 2
+    },
+    {
+      "headword": "decoration",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdekəˈreɪʃən/",
+      "meaning": "飾り；装飾",
+      "exampleEn": "The room had colorful decorations.",
+      "exampleJa": "その部屋にはカラフルな飾りがありました。",
+      "level": 3
+    },
+    {
+      "headword": "destination",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌdestɪˈneɪʃn/",
+      "meaning": "目的地；行き先；配送先",
+      "exampleEn": "We reached our destination before dark.",
+      "exampleJa": "私たちは暗くなる前に目的地に着きました。",
+      "level": 3
+    },
+    {
+      "headword": "diet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdaɪət/",
+      "meaning": "食事；ダイエット",
+      "exampleEn": "A healthy diet includes vegetables and fruit.",
+      "exampleJa": "健康的な食事には野菜と果物が含まれます。",
+      "level": 3
+    },
+    {
+      "headword": "dish",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪʃ/",
+      "meaning": "料理；皿",
+      "exampleEn": "This dish is popular in Japan.",
+      "exampleJa": "この料理は日本で人気があります。",
+      "level": 2
+    },
+    {
+      "headword": "drama",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdrɑːmə/",
+      "meaning": "ドラマ；劇",
+      "exampleEn": "We watched a drama last night.",
+      "exampleJa": "私たちは昨夜ドラマを見ました。",
+      "level": 2
+    },
+    {
+      "headword": "entertainment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌentərˈteɪnmənt/",
+      "meaning": "娯楽",
+      "exampleEn": "The festival offers entertainment for every generation.",
+      "exampleJa": "その祭りはどの世代にも楽しみを用意しています。",
+      "level": 3
+    },
+    {
+      "headword": "entrance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈentrəns/",
+      "meaning": "入り口；入学",
+      "exampleEn": "Meet me at the school entrance.",
+      "exampleJa": "校門の入り口で会いましょう。",
+      "level": 2
+    },
+    {
+      "headword": "envelope",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenvəloʊp/",
+      "meaning": "封筒",
+      "exampleEn": "He put the letter into a large envelope.",
+      "exampleJa": "彼は手紙を大きな封筒に入れました。",
+      "level": 2
+    },
+    {
+      "headword": "equipment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈkwɪpmənt/",
+      "meaning": "設備；装備；機器",
+      "exampleEn": "They bought sports equipment.",
+      "exampleJa": "彼らはスポーツ用品を購入しました。",
+      "level": 3
+    },
+    {
+      "headword": "event",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˈvent/",
+      "meaning": "出来事；行事；イベント",
+      "exampleEn": "The sports event was canceled.",
+      "exampleJa": "スポーツ行事は中止になりました。",
+      "level": 1
+    },
+    {
+      "headword": "exhibition",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌeksɪˈbɪʃn/",
+      "meaning": "展示会；展覧会",
+      "exampleEn": "We will attend a trade exhibition next month.",
+      "exampleJa": "私たちは来月見本市に参加します。",
+      "level": 3
+    },
+    {
+      "headword": "fabric",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæbrɪk/",
+      "meaning": "布地",
+      "exampleEn": "This fabric is soft and easy to wash.",
+      "exampleJa": "この布地は柔らかくて洗いやすいです。",
+      "level": 4
+    },
+    {
+      "headword": "fashion",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfæʃn/",
+      "meaning": "流行；ファッション",
+      "exampleEn": "Short skirts came back into fashion.",
+      "exampleJa": "短いスカートが再び流行しました。",
+      "level": 3
+    },
+    {
+      "headword": "festival",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfestɪvəl/",
+      "meaning": "祭り；祝祭",
+      "exampleEn": "Our school festival is in October.",
+      "exampleJa": "文化祭は10月にあります。",
+      "level": 1
+    },
+    {
+      "headword": "fiction",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɪkʃən/",
+      "meaning": "小説；作り話",
+      "exampleEn": "She prefers fiction to biography.",
+      "exampleJa": "彼女は伝記より小説が好きです。",
+      "level": 3
+    },
+    {
+      "headword": "flavor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfleɪvər/",
+      "meaning": "風味",
+      "exampleEn": "This dish has a rich flavor.",
+      "exampleJa": "この料理は豊かな風味があります。",
+      "level": 3
+    },
+    {
+      "headword": "fountain",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfaʊntən/",
+      "meaning": "噴水",
+      "exampleEn": "We met near the fountain in the park.",
+      "exampleJa": "私たちは公園の噴水の近くで会いました。",
+      "level": 3
+    },
+    {
+      "headword": "furniture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɜːrnɪtʃər/",
+      "meaning": "家具",
+      "exampleEn": "We bought wooden furniture.",
+      "exampleJa": "私たちは木製の家具を購入しました。",
+      "level": 2
+    },
+    {
+      "headword": "gallery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡæləri/",
+      "meaning": "美術館；ギャラリー",
+      "exampleEn": "We saw many paintings at the gallery.",
+      "exampleJa": "私たちはそのギャラリーでたくさんの絵を見ました。",
+      "level": 3
+    },
+    {
+      "headword": "garage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡəˈrɑːʒ/",
+      "meaning": "車庫",
+      "exampleEn": "My father parks the car in the garage.",
+      "exampleJa": "父は車庫に車を止めます。",
+      "level": 2
+    },
+    {
+      "headword": "gesture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒestʃər/",
+      "meaning": "身ぶり",
+      "exampleEn": "He explained the route with a simple gesture.",
+      "exampleJa": "彼は簡単な身ぶりで道を説明しました。",
+      "level": 3
+    },
+    {
+      "headword": "grocery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡroʊsəri/",
+      "meaning": "食料雑貨店",
+      "exampleEn": "The grocery on the corner closes early.",
+      "exampleJa": "角の食料品店は早く閉まります。",
+      "level": 3
+    },
+    {
+      "headword": "guest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡest/",
+      "meaning": "客；宿泊客",
+      "exampleEn": "We welcomed many guests today.",
+      "exampleJa": "私たちは今日多くのお客さんを迎えました。",
+      "level": 1
+    },
+    {
+      "headword": "habit",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhæbɪt/",
+      "meaning": "習慣；癖",
+      "exampleEn": "Reading before bed is a good habit.",
+      "exampleJa": "寝る前に読書をするのはよい習慣です。",
+      "level": 3
+    },
+    {
+      "headword": "hallway",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɔːlweɪ/",
+      "meaning": "廊下",
+      "exampleEn": "Please walk quietly in the hallway.",
+      "exampleJa": "廊下では静かに歩いてください。",
+      "level": 2
+    },
+    {
+      "headword": "heritage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈherɪtɪdʒ/",
+      "meaning": "遺産；継承物",
+      "exampleEn": "Kyoto has rich cultural heritage.",
+      "exampleJa": "京都には豊かな文化遺産があります。",
+      "level": 3
+    },
+    {
+      "headword": "household",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhaʊshoʊld/",
+      "meaning": "世帯",
+      "exampleEn": "Every household received the same document.",
+      "exampleJa": "どの世帯にも同じ書類が届きました。",
+      "level": 4
+    },
+    {
+      "headword": "humor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhjuːmər/",
+      "meaning": "ユーモア",
+      "exampleEn": "His humor relaxed the whole audience.",
+      "exampleJa": "彼のユーモアが観客全体をなごませました。",
+      "level": 3
+    },
+    {
+      "headword": "instrument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnstrəmənt/",
+      "meaning": "楽器；器具；測定器",
+      "exampleEn": "Can you play any instrument?",
+      "exampleJa": "何か楽器を演奏できますか。",
+      "level": 2
+    },
+    {
+      "headword": "interior",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈtɪriər/",
+      "meaning": "内部；室内",
+      "exampleEn": "The interior of the theater is beautiful.",
+      "exampleJa": "その劇場の内部は美しいです。",
+      "level": 4
+    },
+    {
+      "headword": "jewel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒuːəl/",
+      "meaning": "宝石",
+      "exampleEn": "The crown holds a single huge jewel.",
+      "exampleJa": "その王冠には大きな宝石が一つはまっています。",
+      "level": 3
+    },
+    {
+      "headword": "journey",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒɜːrni/",
+      "meaning": "旅；旅行",
+      "exampleEn": "Our journey to the north took three days.",
+      "exampleJa": "北への旅は3日かかりました。",
+      "level": 3
+    },
+    {
+      "headword": "landscape",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlændskeɪp/",
+      "meaning": "風景；景観",
+      "exampleEn": "The mountain landscape was impressive.",
+      "exampleJa": "山の風景は感動的でした。",
+      "level": 3
+    },
+    {
+      "headword": "laundry",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɔːndri/",
+      "meaning": "洗濯物；洗濯",
+      "exampleEn": "My mother does the laundry every morning.",
+      "exampleJa": "母は毎朝洗濯をします。",
+      "level": 3
+    },
+    {
+      "headword": "leisure",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈliːʒər/",
+      "meaning": "余暇",
+      "exampleEn": "He spends his leisure reading novels.",
+      "exampleJa": "彼は余暇を小説を読んで過ごします。",
+      "level": 4
+    },
+    {
+      "headword": "luggage",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlʌɡɪdʒ/",
+      "meaning": "手荷物；旅行かばん",
+      "exampleEn": "He carried heavy luggage.",
+      "exampleJa": "彼は重い荷物を運びました。",
+      "level": 3
+    },
+    {
+      "headword": "melody",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmelədi/",
+      "meaning": "メロディー；旋律",
+      "exampleEn": "The song has a very sweet melody.",
+      "exampleJa": "その歌にはとても甘いメロディーがあります。",
+      "level": 2
+    },
+    {
+      "headword": "monument",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɑːnjumənt/",
+      "meaning": "記念碑",
+      "exampleEn": "A stone monument stands near the entrance.",
+      "exampleJa": "入り口の近くに石の記念碑が立っています。",
+      "level": 4
+    },
+    {
+      "headword": "musician",
+      "partOfSpeech": "noun",
+      "phonetic": "/mjuˈzɪʃn/",
+      "meaning": "音楽家；ミュージシャン",
+      "exampleEn": "The musician played the guitar well.",
+      "exampleJa": "その音楽家は上手にギターを演奏しました。",
+      "level": 2
+    },
+    {
+      "headword": "myth",
+      "partOfSpeech": "noun",
+      "phonetic": "/mɪθ/",
+      "meaning": "神話；根拠のない俗説",
+      "exampleEn": "Greek myth is fascinating.",
+      "exampleJa": "ギリシャ神話は魅力的です。",
+      "level": 3
+    },
+    {
+      "headword": "neighborhood",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈneɪbərhʊd/",
+      "meaning": "近所；地域",
+      "exampleEn": "Our neighborhood has many small parks.",
+      "exampleJa": "私たちの地域には小さな公園がたくさんあります。",
+      "level": 2
+    },
+    {
+      "headword": "novel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnɑːvl/",
+      "meaning": "小説",
+      "exampleEn": "She is reading a long novel now.",
+      "exampleJa": "彼女は今長い小説を読んでいます。",
+      "level": 2
+    },
+    {
+      "headword": "orchestra",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrkɪstrə/",
+      "meaning": "オーケストラ",
+      "exampleEn": "The school orchestra played beautifully.",
+      "exampleJa": "その学校のオーケストラは美しく演奏しました。",
+      "level": 3
+    },
+    {
+      "headword": "ornament",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrnəmənt/",
+      "meaning": "飾り",
+      "exampleEn": "She hung a small ornament on the door.",
+      "exampleJa": "彼女は扉に小さな飾りをかけました。",
+      "level": 4
+    },
+    {
+      "headword": "passenger",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpæsɪndʒər/",
+      "meaning": "乗客",
+      "exampleEn": "All passengers boarded the bus.",
+      "exampleJa": "すべての乗客がバスに乗り込みました。",
+      "level": 2
+    },
+    {
+      "headword": "pattern",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpætərn/",
+      "meaning": "パターン；模様",
+      "exampleEn": "Weather patterns are changing.",
+      "exampleJa": "気象パターンが変化しています。",
+      "level": 2
+    },
+    {
+      "headword": "performance",
+      "partOfSpeech": "noun",
+      "phonetic": "/pərˈfɔːrməns/",
+      "meaning": "業績；公演；演技",
+      "exampleEn": "Her dance performance was amazing.",
+      "exampleJa": "彼女のダンスの公演は素晴らしかったです。",
+      "level": 3
+    },
+    {
+      "headword": "photograph",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfoʊtəɡræf/",
+      "meaning": "写真",
+      "exampleEn": "This photograph shows the old harbor.",
+      "exampleJa": "この写真は昔の港を写しています。",
+      "level": 2
+    },
+    {
+      "headword": "poem",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpoʊəm/",
+      "meaning": "詩",
+      "exampleEn": "She read her poem to the class.",
+      "exampleJa": "彼女はクラスに自分の詩を読み聞かせました。",
+      "level": 2
+    },
+    {
+      "headword": "portrait",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɔːrtrət/",
+      "meaning": "肖像画",
+      "exampleEn": "A portrait of the author hangs here.",
+      "exampleJa": "ここにその作家の肖像画がかかっています。",
+      "level": 4
+    },
+    {
+      "headword": "recipe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈresəpi/",
+      "meaning": "レシピ；調理法",
+      "exampleEn": "She found a new cake recipe.",
+      "exampleJa": "彼女は新しいケーキのレシピを見つけました。",
+      "level": 2
+    },
+    {
+      "headword": "recreation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌrekriˈeɪʃən/",
+      "meaning": "気晴らし；レクリエーション",
+      "exampleEn": "Swimming is his favorite recreation.",
+      "exampleJa": "水泳は彼のいちばんの気晴らしです。",
+      "level": 4
+    },
+    {
+      "headword": "rhythm",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈrɪðəm/",
+      "meaning": "リズム",
+      "exampleEn": "She dances well to the rhythm.",
+      "exampleJa": "彼女はリズムに合わせて上手に踊ります。",
+      "level": 2
+    },
+    {
+      "headword": "routine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ruːˈtiːn/",
+      "meaning": "決まった手順；日課",
+      "exampleEn": "Morning exercise is part of my routine.",
+      "exampleJa": "朝の運動は私の日課の一部です。",
+      "level": 4
+    },
+    {
+      "headword": "scenery",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsiːnəri/",
+      "meaning": "風景",
+      "exampleEn": "The scenery along this valley is lovely.",
+      "exampleJa": "この谷沿いの風景はすばらしいです。",
+      "level": 3
+    },
+    {
+      "headword": "sculpture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈskʌlptʃər/",
+      "meaning": "彫刻；彫像",
+      "exampleEn": "Marble sculpture stood in courtyard.",
+      "exampleJa": "大理石の彫刻が中庭に立っていました。",
+      "level": 3
+    },
+    {
+      "headword": "shelf",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃelf/",
+      "meaning": "棚",
+      "exampleEn": "Put these books back on the shelf.",
+      "exampleJa": "これらの本を棚に戻してください。",
+      "level": 2
+    },
+    {
+      "headword": "sightseeing",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪtsiːɪŋ/",
+      "meaning": "観光",
+      "exampleEn": "We went sightseeing in Kyoto last summer.",
+      "exampleJa": "私たちは去年の夏、京都で観光をしました。",
+      "level": 2
+    },
+    {
+      "headword": "souvenir",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌsuːvəˈnɪr/",
+      "meaning": "お土産；記念品",
+      "exampleEn": "I bought a souvenir for my family.",
+      "exampleJa": "私は家族にお土産を買いました。",
+      "level": 3
+    },
+    {
+      "headword": "style",
+      "partOfSpeech": "noun",
+      "phonetic": "/staɪl/",
+      "meaning": "様式；やり方；文体",
+      "exampleEn": "This building has an old European style.",
+      "exampleJa": "この建物は古いヨーロッパ様式です。",
+      "level": 2
+    },
+    {
+      "headword": "theater",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθiːətər/",
+      "meaning": "劇場；映画館",
+      "exampleEn": "We can watch a play at the theater.",
+      "exampleJa": "劇場で劇を見ましょう。",
+      "level": 2
+    },
+    {
+      "headword": "tourism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʊrɪzəm/",
+      "meaning": "観光業；観光",
+      "exampleEn": "Tourism brings a lot of money to this area.",
+      "exampleJa": "観光業はこの地域に多くのお金をもたらします。",
+      "level": 3
+    },
+    {
+      "headword": "tourist",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtʊrɪst/",
+      "meaning": "観光客",
+      "exampleEn": "Many tourists visit the castle every year.",
+      "exampleJa": "毎年多くの観光客がその城を訪れます。",
+      "level": 2
+    },
+    {
+      "headword": "uniform",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːnɪfɔːrm/",
+      "meaning": "制服",
+      "exampleEn": "Students must wear a school uniform.",
+      "exampleJa": "生徒は制服を着なければなりません。",
+      "level": 2
+    },
+    {
+      "headword": "vase",
+      "partOfSpeech": "noun",
+      "phonetic": "/veɪs/",
+      "meaning": "花びん",
+      "exampleEn": "She put fresh flowers in the vase.",
+      "exampleJa": "彼女は花びんに新しい花を生けました。",
+      "level": 2
+    },
+    {
+      "headword": "wardrobe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɔːrdroʊb/",
+      "meaning": "洋服だんす；持ち衣装",
+      "exampleEn": "Her wardrobe is full of winter clothing.",
+      "exampleJa": "彼女のたんすは冬服でいっぱいです。",
+      "level": 4
+    },
+    {
+      "headword": "wedding",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwedɪŋ/",
+      "meaning": "結婚式",
+      "exampleEn": "The wedding took place in a small church.",
+      "exampleJa": "結婚式は小さな教会で行われました。",
+      "level": 2
+    }
+  ]
+}

@@ -1,0 +1,681 @@
+{
+  "chunk": "01_verbs_thought",
+  "note": "思考・認識・判断の動詞（75語）",
+  "words": [
+    {
+      "headword": "acknowledge",
+      "partOfSpeech": "verb",
+      "phonetic": "/əkˈnɑːlɪdʒ/",
+      "meaning": "を認める；の受領を知らせる；に感謝する",
+      "exampleEn": "He acknowledged his mistake openly.",
+      "exampleJa": "彼は自分の間違いを素直に認めました。",
+      "level": 4
+    },
+    {
+      "headword": "admire",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmaɪər/",
+      "meaning": "を称賛する；に感心する",
+      "exampleEn": "I admire your courage.",
+      "exampleJa": "私はあなたの勇気を称賛します。",
+      "level": 3
+    },
+    {
+      "headword": "admit",
+      "partOfSpeech": "verb",
+      "phonetic": "/ədˈmɪt/",
+      "meaning": "を認める；の入場を許す",
+      "exampleEn": "He admitted his mistake.",
+      "exampleJa": "彼は自分の間違いを認めました。",
+      "level": 3
+    },
+    {
+      "headword": "analyze",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈænəlaɪz/",
+      "meaning": "を分析する",
+      "exampleEn": "We analyzed the data carefully.",
+      "exampleJa": "私たちはデータを注意深く分析しました。",
+      "level": 3
+    },
+    {
+      "headword": "anticipate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ænˈtɪsɪpeɪt/",
+      "meaning": "を予想する；を予期する；を心待ちにする",
+      "exampleEn": "We anticipate strong growth in sales.",
+      "exampleJa": "私たちは売上の大きな成長を予期しています。",
+      "level": 4
+    },
+    {
+      "headword": "appreciate",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpriːʃieɪt/",
+      "meaning": "に感謝する；を正しく評価する",
+      "exampleEn": "I appreciate your help.",
+      "exampleJa": "ご助力に感謝いたします。",
+      "level": 3
+    },
+    {
+      "headword": "approve",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈpruːv/",
+      "meaning": "を承認する；に賛成する",
+      "exampleEn": "My boss approved the plan.",
+      "exampleJa": "上司はその計画を承認しました。",
+      "level": 3
+    },
+    {
+      "headword": "argue",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈɑːrɡjuː/",
+      "meaning": "と主張する；議論する；口論する",
+      "exampleEn": "They argued about the decision.",
+      "exampleJa": "彼らはその決定について議論しました。",
+      "level": 3
+    },
+    {
+      "headword": "assess",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈses/",
+      "meaning": "を評価する；を査定する",
+      "exampleEn": "Teachers assess student progress quarterly.",
+      "exampleJa": "先生たちが四半期ごとに生徒の進捗を評価します。",
+      "level": 4
+    },
+    {
+      "headword": "assure",
+      "partOfSpeech": "verb",
+      "phonetic": "/əˈʃʊr/",
+      "meaning": "を保証する；を安心させる",
+      "exampleEn": "I assure you that all is safe.",
+      "exampleJa": "私はすべてが安全だとあなたに保証します。",
+      "level": 4
+    },
+    {
+      "headword": "believe",
+      "partOfSpeech": "verb",
+      "phonetic": "/bɪˈliːv/",
+      "meaning": "を信じる；と思う",
+      "exampleEn": "Believe in yourself and your abilities.",
+      "exampleJa": "自分自身とあなたの能力を信じなさい。",
+      "level": 1
+    },
+    {
+      "headword": "blame",
+      "partOfSpeech": "verb",
+      "phonetic": "/bleɪm/",
+      "meaning": "を責める；を非難する；のせいにする",
+      "exampleEn": "Don't blame others for your mistake.",
+      "exampleJa": "自分の間違いを他人のせいにしてはいけません。",
+      "level": 3
+    },
+    {
+      "headword": "compare",
+      "partOfSpeech": "verb",
+      "phonetic": "/kəmˈper/",
+      "meaning": "を比較する；をたとえる",
+      "exampleEn": "Compare these two pictures.",
+      "exampleJa": "これら2枚の絵を比較しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "conclude",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈkluːd/",
+      "meaning": "と結論づける；を締めくくる",
+      "exampleEn": "We concluded that he was right.",
+      "exampleJa": "彼が正しいと結論づけました。",
+      "level": 3
+    },
+    {
+      "headword": "confirm",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈfɜːrm/",
+      "meaning": "を確認する；を裏付ける",
+      "exampleEn": "Please confirm your reservation.",
+      "exampleJa": "予約を確認してください。",
+      "level": 3
+    },
+    {
+      "headword": "consider",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈsɪdər/",
+      "meaning": "をよく考える；を検討する；とみなす",
+      "exampleEn": "Please consider my request.",
+      "exampleJa": "私の依頼をよく考えてください。",
+      "level": 2
+    },
+    {
+      "headword": "convince",
+      "partOfSpeech": "verb",
+      "phonetic": "/kənˈvɪns/",
+      "meaning": "を納得させる；を確信させる；を説得する",
+      "exampleEn": "She convinced me of the truth.",
+      "exampleJa": "彼女は私に事実を納得させました。",
+      "level": 3
+    },
+    {
+      "headword": "criticize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈkrɪtɪsaɪz/",
+      "meaning": "を批判・非難する",
+      "exampleEn": "You should not criticize your friends in public.",
+      "exampleJa": "人前で友人を批判すべきではありません。",
+      "level": 3
+    },
+    {
+      "headword": "decide",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈsaɪd/",
+      "meaning": "決める；決心する",
+      "exampleEn": "We decided to go by bus.",
+      "exampleJa": "私たちはバスで行くことに決めました。",
+      "level": 2
+    },
+    {
+      "headword": "define",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈfaɪn/",
+      "meaning": "を定義する；を明確にする",
+      "exampleEn": "Define the key terms in your essay.",
+      "exampleJa": "小論文の中で主要用語を定義しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "deny",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈnaɪ/",
+      "meaning": "を否定する；を拒む",
+      "exampleEn": "He denied breaking the window.",
+      "exampleJa": "彼は窓を割ったことを否定しました。",
+      "level": 3
+    },
+    {
+      "headword": "describe",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskraɪb/",
+      "meaning": "を説明する；を描写する",
+      "exampleEn": "Describe what you saw.",
+      "exampleJa": "あなたが見たものを説明してください。",
+      "level": 2
+    },
+    {
+      "headword": "determine",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈtɜːrmɪn/",
+      "meaning": "を決定する；を突き止める",
+      "exampleEn": "Scientists determined the cause of the accident.",
+      "exampleJa": "科学者たちは事故の原因を突き止めました。",
+      "level": 3
+    },
+    {
+      "headword": "discover",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈskʌvər/",
+      "meaning": "を発見する",
+      "exampleEn": "They discovered a new island.",
+      "exampleJa": "彼らは新しい島を発見しました。",
+      "level": 2
+    },
+    {
+      "headword": "distinguish",
+      "partOfSpeech": "verb",
+      "phonetic": "/dɪˈstɪŋɡwɪʃ/",
+      "meaning": "を区別する；見分ける",
+      "exampleEn": "Distinguish between right and wrong.",
+      "exampleJa": "善悪を区別しなさい。",
+      "level": 3
+    },
+    {
+      "headword": "doubt",
+      "partOfSpeech": "verb",
+      "phonetic": "/daʊt/",
+      "meaning": "を疑う",
+      "exampleEn": "I doubt his story.",
+      "exampleJa": "私は彼の話を疑っています。",
+      "level": 3
+    },
+    {
+      "headword": "estimate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈestɪmeɪt/",
+      "meaning": "を見積もる；を推定する",
+      "exampleEn": "They estimated the damage at one million.",
+      "exampleJa": "彼らは損害を100万と見積もりました。",
+      "level": 3
+    },
+    {
+      "headword": "evaluate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈvæljueɪt/",
+      "meaning": "を評価する；を査定する",
+      "exampleEn": "Teachers evaluate student progress.",
+      "exampleJa": "教師は生徒の進捗を評価します。",
+      "level": 3
+    },
+    {
+      "headword": "examine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈzæmɪn/",
+      "meaning": "を調査する；を診察する",
+      "exampleEn": "The doctor examined her patient.",
+      "exampleJa": "医師は患者を診察しました。",
+      "level": 2
+    },
+    {
+      "headword": "expect",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈspekt/",
+      "meaning": "を予期する；を期待する",
+      "exampleEn": "We expect him to arrive soon.",
+      "exampleJa": "私たちは彼が間もなく着くことを期待しています。",
+      "level": 2
+    },
+    {
+      "headword": "explore",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪkˈsplɔːr/",
+      "meaning": "を探検する；を調査する",
+      "exampleEn": "They explored the dark cave.",
+      "exampleJa": "彼らは暗い洞窟を探検しました。",
+      "level": 2
+    },
+    {
+      "headword": "foresee",
+      "partOfSpeech": "verb",
+      "phonetic": "/fɔːrˈsiː/",
+      "meaning": "を予見する",
+      "exampleEn": "Nobody could foresee such a serious recession.",
+      "exampleJa": "これほど深刻な不況を予見できた人はいません。",
+      "level": 4
+    },
+    {
+      "headword": "forget",
+      "partOfSpeech": "verb",
+      "phonetic": "/fərˈɡet/",
+      "meaning": "忘れる",
+      "exampleEn": "Don't forget your umbrella.",
+      "exampleJa": "かさを忘れないでください。",
+      "level": 1
+    },
+    {
+      "headword": "grasp",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡræsp/",
+      "meaning": "を把握する；をしっかり掴む",
+      "exampleEn": "She quickly grasped the main point.",
+      "exampleJa": "彼女は要点を素早く把握しました。",
+      "level": 3
+    },
+    {
+      "headword": "guess",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɡes/",
+      "meaning": "を推測する；を言い当てる",
+      "exampleEn": "Can you guess his age?",
+      "exampleJa": "彼の年齢を推測できますか。",
+      "level": 1
+    },
+    {
+      "headword": "hesitate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈhezɪteɪt/",
+      "meaning": "ためらう；遠慮する",
+      "exampleEn": "Don't hesitate to ask questions.",
+      "exampleJa": "遠慮せずに質問してください。",
+      "level": 3
+    },
+    {
+      "headword": "identify",
+      "partOfSpeech": "verb",
+      "phonetic": "/aɪˈdentɪfaɪ/",
+      "meaning": "を特定する；を確認する",
+      "exampleEn": "The police identified the man from a photo.",
+      "exampleJa": "警察は写真からその男を特定しました。",
+      "level": 3
+    },
+    {
+      "headword": "ignore",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪɡˈnɔːr/",
+      "meaning": "を無視する；を見落とす",
+      "exampleEn": "He ignored my warning.",
+      "exampleJa": "彼は私の警告を無視しました。",
+      "level": 3
+    },
+    {
+      "headword": "imagine",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪˈmædʒɪn/",
+      "meaning": "を想像する",
+      "exampleEn": "Imagine living on Mars.",
+      "exampleJa": "火星で暮らすことを想像してみてください。",
+      "level": 2
+    },
+    {
+      "headword": "imply",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪmˈplaɪ/",
+      "meaning": "を暗に示す；を意味する",
+      "exampleEn": "Silence implied agreement.",
+      "exampleJa": "沈黙は同意を暗に意味していました。",
+      "level": 4
+    },
+    {
+      "headword": "infer",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈfɜːr/",
+      "meaning": "を推論する",
+      "exampleEn": "What can you infer from the text?",
+      "exampleJa": "文章から何を推論できますか。",
+      "level": 4
+    },
+    {
+      "headword": "interpret",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈtɜːrprət/",
+      "meaning": "を解釈する；通訳する",
+      "exampleEn": "How do you interpret this poem?",
+      "exampleJa": "この詩をどう解釈しますか。",
+      "level": 3
+    },
+    {
+      "headword": "investigate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ɪnˈvestɪɡeɪt/",
+      "meaning": "を調査する；を捜査する",
+      "exampleEn": "Detectives are investigating the cause of the accident.",
+      "exampleJa": "刑事たちが事故の原因を捜査しています。",
+      "level": 3
+    },
+    {
+      "headword": "judge",
+      "partOfSpeech": "verb",
+      "phonetic": "/dʒʌdʒ/",
+      "meaning": "を判断する",
+      "exampleEn": "Don't judge a book by its cover.",
+      "exampleJa": "外見で本を判断してはいけません。",
+      "level": 2
+    },
+    {
+      "headword": "justify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈdʒʌstɪfaɪ/",
+      "meaning": "を正当化する",
+      "exampleEn": "Nothing can justify violence.",
+      "exampleJa": "何ものも暴力を正当化することはできません。",
+      "level": 4
+    },
+    {
+      "headword": "learn",
+      "partOfSpeech": "verb",
+      "phonetic": "/lɜːrn/",
+      "meaning": "学ぶ；身につける",
+      "exampleEn": "I want to learn how to cook.",
+      "exampleJa": "料理の仕方を学びたいです。",
+      "level": 1
+    },
+    {
+      "headword": "memorize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈmeməraɪz/",
+      "meaning": "を暗記する",
+      "exampleEn": "She memorized every phrase in the textbook.",
+      "exampleJa": "彼女は教科書の表現をすべて暗記しました。",
+      "level": 3
+    },
+    {
+      "headword": "misunderstand",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌmɪsʌndərˈstænd/",
+      "meaning": "を誤解する",
+      "exampleEn": "Please do not misunderstand my honest intention.",
+      "exampleJa": "私の正直な気持ちを誤解しないでください。",
+      "level": 3
+    },
+    {
+      "headword": "notice",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈnoʊtɪs/",
+      "meaning": "気づく",
+      "exampleEn": "I didn't notice the sign.",
+      "exampleJa": "その標識に気づきませんでした。",
+      "level": 2
+    },
+    {
+      "headword": "observe",
+      "partOfSpeech": "verb",
+      "phonetic": "/əbˈzɜːrv/",
+      "meaning": "を観察する；を遵守する",
+      "exampleEn": "The students observed the behavior of ants.",
+      "exampleJa": "生徒たちはアリの行動を観察しました。",
+      "level": 3
+    },
+    {
+      "headword": "overlook",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌoʊvərˈlʊk/",
+      "meaning": "を見落とす；を大目に見る",
+      "exampleEn": "The editor overlooked a serious grammar error.",
+      "exampleJa": "編集者は重大な文法の誤りを見落としました。",
+      "level": 4
+    },
+    {
+      "headword": "perceive",
+      "partOfSpeech": "verb",
+      "phonetic": "/pərˈsiːv/",
+      "meaning": "を認識する；を察知する",
+      "exampleEn": "Cats perceive motion quickly.",
+      "exampleJa": "猫は動きを素早く感知します。",
+      "level": 4
+    },
+    {
+      "headword": "predict",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈdɪkt/",
+      "meaning": "を予測する；を予言する",
+      "exampleEn": "It is hard to predict the future.",
+      "exampleJa": "未来を予測するのは難しことです。",
+      "level": 3
+    },
+    {
+      "headword": "prefer",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈfɜːr/",
+      "meaning": "をより好む",
+      "exampleEn": "I prefer tea to coffee.",
+      "exampleJa": "私はコーヒーより紅茶の方が好きです。",
+      "level": 2
+    },
+    {
+      "headword": "presume",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈzuːm/",
+      "meaning": "と推定する；と思う",
+      "exampleEn": "We presume that he is still alive.",
+      "exampleJa": "私たちは彼がまだ生きていると推定しています。",
+      "level": 4
+    },
+    {
+      "headword": "pretend",
+      "partOfSpeech": "verb",
+      "phonetic": "/prɪˈtend/",
+      "meaning": "のふりをする",
+      "exampleEn": "The child pretended to be a brave hero.",
+      "exampleJa": "その子供は勇敢なヒーローのふりをしました。",
+      "level": 2
+    },
+    {
+      "headword": "realize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈriːəlaɪz/",
+      "meaning": "に気づく；を実現する",
+      "exampleEn": "I realized my mistake.",
+      "exampleJa": "私は自分の間違いを自覚しました。",
+      "level": 3
+    },
+    {
+      "headword": "recall",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈkɔːl/",
+      "meaning": "を思い出す",
+      "exampleEn": "I cannot recall his name.",
+      "exampleJa": "彼の名前を思い出せません。",
+      "level": 3
+    },
+    {
+      "headword": "recognize",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrekəɡnaɪz/",
+      "meaning": "を認識する；を見分ける；を認める",
+      "exampleEn": "I didn't recognize her at first.",
+      "exampleJa": "最初、彼女だと分かりませんでした。",
+      "level": 3
+    },
+    {
+      "headword": "reckon",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈrekən/",
+      "meaning": "と思う；と見積もる",
+      "exampleEn": "Experts reckon the population will double soon.",
+      "exampleJa": "専門家は人口がまもなく倍になると見ています。",
+      "level": 4
+    },
+    {
+      "headword": "reflect",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈflekt/",
+      "meaning": "を反射する；熟考する；反映する",
+      "exampleEn": "The mirror reflected her face.",
+      "exampleJa": "鏡が彼女の顔を映し出しました。",
+      "level": 3
+    },
+    {
+      "headword": "regret",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈɡret/",
+      "meaning": "を後悔する；を残念に思う",
+      "exampleEn": "I regret saying that.",
+      "exampleJa": "それを言ったことを後悔しています。",
+      "level": 3
+    },
+    {
+      "headword": "reject",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈdʒekt/",
+      "meaning": "を拒絶する",
+      "exampleEn": "The committee rejected our budget proposal.",
+      "exampleJa": "委員会は私たちの予算案を退けました。",
+      "level": 3
+    },
+    {
+      "headword": "remember",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmembər/",
+      "meaning": "覚えている；思い出す",
+      "exampleEn": "I remember his name.",
+      "exampleJa": "彼の名前を覚えています。",
+      "level": 1
+    },
+    {
+      "headword": "remind",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈmaɪnd/",
+      "meaning": "に思い出させる；に念を押す",
+      "exampleEn": "This song reminds me of high school.",
+      "exampleJa": "この歌は高校時代を思い出させます。",
+      "level": 3
+    },
+    {
+      "headword": "resolve",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈzɑːlv/",
+      "meaning": "を解決する；を決意する",
+      "exampleEn": "They resolved the conflict peacefully.",
+      "exampleJa": "彼らは衝突を平和的に解決しました。",
+      "level": 4
+    },
+    {
+      "headword": "review",
+      "partOfSpeech": "verb",
+      "phonetic": "/rɪˈvjuː/",
+      "meaning": "復習する；見直す",
+      "exampleEn": "Let's review the lesson before the test.",
+      "exampleJa": "テストの前に授業を復習しましょう。",
+      "level": 3
+    },
+    {
+      "headword": "speculate",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈspekjəleɪt/",
+      "meaning": "と推測する；投機する",
+      "exampleEn": "Reporters speculated on the election result.",
+      "exampleJa": "記者たちは選挙結果を推測しました。",
+      "level": 4
+    },
+    {
+      "headword": "suppose",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈpoʊz/",
+      "meaning": "と思う；と考える",
+      "exampleEn": "What do you suppose will happen?",
+      "exampleJa": "何が起きると思いますか。",
+      "level": 3
+    },
+    {
+      "headword": "suspect",
+      "partOfSpeech": "verb",
+      "phonetic": "/səˈspekt/",
+      "meaning": "を疑う；ではないかと思う",
+      "exampleEn": "The police suspect him.",
+      "exampleJa": "警察は彼を疑っています。",
+      "level": 3
+    },
+    {
+      "headword": "trust",
+      "partOfSpeech": "verb",
+      "phonetic": "/trʌst/",
+      "meaning": "を信頼する；を信用する",
+      "exampleEn": "You can trust her.",
+      "exampleJa": "彼女を信頼してよいです。",
+      "level": 2
+    },
+    {
+      "headword": "understand",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˌʌndərˈstænd/",
+      "meaning": "理解する；わかる",
+      "exampleEn": "I don't understand this word.",
+      "exampleJa": "この単語がわかりません。",
+      "level": 1
+    },
+    {
+      "headword": "verify",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈverɪfaɪ/",
+      "meaning": "を検証する；を確かめる",
+      "exampleEn": "Verify your password before sending.",
+      "exampleJa": "送信前にパスワードを検証しなさい。",
+      "level": 4
+    },
+    {
+      "headword": "wonder",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwʌndər/",
+      "meaning": "〜かなと思う；不思議に思う",
+      "exampleEn": "I wonder why he is late.",
+      "exampleJa": "なぜ彼が遅れているのかかしらと思っています。",
+      "level": 2
+    },
+    {
+      "headword": "worry",
+      "partOfSpeech": "verb",
+      "phonetic": "/ˈwɜːri/",
+      "meaning": "心配する；を心配させる",
+      "exampleEn": "Don't worry about it.",
+      "exampleJa": "それについて心配しないでください。",
+      "level": 1
+    }
+  ]
+}

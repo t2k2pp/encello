@@ -1,0 +1,744 @@
+{
+  "chunk": "08_nouns_nature_science",
+  "note": "自然・科学・環境（82語）",
+  "words": [
+    {
+      "headword": "atmosphere",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætməsfɪr/",
+      "meaning": "大気；雰囲気",
+      "exampleEn": "Restaurant has a friendly warm atmosphere.",
+      "exampleJa": "レストランはフレンドリーで温かい雰囲気を持っています。",
+      "level": 3
+    },
+    {
+      "headword": "atom",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈætəm/",
+      "meaning": "原子",
+      "exampleEn": "Everything matter is made of atoms.",
+      "exampleJa": "すべての物質は原子で作られています。",
+      "level": 3
+    },
+    {
+      "headword": "breeze",
+      "partOfSpeech": "noun",
+      "phonetic": "/briːz/",
+      "meaning": "そよ風；微風",
+      "exampleEn": "Feel the cool ocean breeze on your skin.",
+      "exampleJa": "肌に涼しい海風を感じなさい。",
+      "level": 3
+    },
+    {
+      "headword": "cave",
+      "partOfSpeech": "noun",
+      "phonetic": "/keɪv/",
+      "meaning": "洞窟；洞穴",
+      "exampleEn": "This cave is very dark and cold.",
+      "exampleJa": "この洞窟はとても暗くて寒いです。",
+      "level": 2
+    },
+    {
+      "headword": "cell",
+      "partOfSpeech": "noun",
+      "phonetic": "/sel/",
+      "meaning": "細胞；小部屋；電池",
+      "exampleEn": "The human body is made of tiny cells.",
+      "exampleJa": "人の体は小さな細胞からできています。",
+      "level": 2
+    },
+    {
+      "headword": "cliff",
+      "partOfSpeech": "noun",
+      "phonetic": "/klɪf/",
+      "meaning": "崖；絶壁",
+      "exampleEn": "The house stands on a high cliff.",
+      "exampleJa": "その家は高い崖の上に建っています。",
+      "level": 3
+    },
+    {
+      "headword": "coal",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊl/",
+      "meaning": "石炭",
+      "exampleEn": "The power station burns coal for energy.",
+      "exampleJa": "その発電所はエネルギーのために石炭を燃やします。",
+      "level": 2
+    },
+    {
+      "headword": "coast",
+      "partOfSpeech": "noun",
+      "phonetic": "/koʊst/",
+      "meaning": "海岸；沿岸",
+      "exampleEn": "We drove along the beautiful coast.",
+      "exampleJa": "私たちは美しい海岸沿いを車で走りました。",
+      "level": 2
+    },
+    {
+      "headword": "continent",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɑːntɪnənt/",
+      "meaning": "大陸",
+      "exampleEn": "Africa is a very large continent.",
+      "exampleJa": "アフリカはとても大きな大陸です。",
+      "level": 2
+    },
+    {
+      "headword": "creature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkriːtʃər/",
+      "meaning": "生き物；生物",
+      "exampleEn": "Deep sea creatures look strange.",
+      "exampleJa": "深海生物は奇妙に見えます。",
+      "level": 2
+    },
+    {
+      "headword": "crop",
+      "partOfSpeech": "noun",
+      "phonetic": "/krɑːp/",
+      "meaning": "作物；収穫高",
+      "exampleEn": "Farmers harvested the wheat crop in July.",
+      "exampleJa": "農家は7月に小麦の作物を収穫しました。",
+      "level": 2
+    },
+    {
+      "headword": "current",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈkɜːrənt/",
+      "meaning": "流れ；海流",
+      "exampleEn": "A strong current carried the boat away.",
+      "exampleJa": "強い流れがボートを流していきました。",
+      "level": 3
+    },
+    {
+      "headword": "cycle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsaɪkl/",
+      "meaning": "周期；サイクル；自転車",
+      "exampleEn": "Water moves around the earth in a natural cycle.",
+      "exampleJa": "水は自然な循環で地球を巡ります。",
+      "level": 2
+    },
+    {
+      "headword": "dawn",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɔːn/",
+      "meaning": "夜明け",
+      "exampleEn": "The birds began singing at dawn.",
+      "exampleJa": "夜明けに鳥たちが鳴き始めました。",
+      "level": 3
+    },
+    {
+      "headword": "desert",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdezərt/",
+      "meaning": "砂漠",
+      "exampleEn": "It rarely rains in the desert.",
+      "exampleJa": "砂漠ではめったに雨が降りません。",
+      "level": 2
+    },
+    {
+      "headword": "destruction",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈstrʌkʃn/",
+      "meaning": "破壊；壊滅",
+      "exampleEn": "The storm caused great destruction in the town.",
+      "exampleJa": "嵐は町に大きな破壊をもたらしました。",
+      "level": 3
+    },
+    {
+      "headword": "device",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈvaɪs/",
+      "meaning": "装置；デバイス",
+      "exampleEn": "Smartphones are electronic devices.",
+      "exampleJa": "スマートフォンは電子装置です。",
+      "level": 2
+    },
+    {
+      "headword": "disaster",
+      "partOfSpeech": "noun",
+      "phonetic": "/dɪˈzæstər/",
+      "meaning": "災害；大惨事",
+      "exampleEn": "Earthquakes are natural disasters.",
+      "exampleJa": "地震は自然災害です。",
+      "level": 3
+    },
+    {
+      "headword": "drought",
+      "partOfSpeech": "noun",
+      "phonetic": "/draʊt/",
+      "meaning": "干ばつ",
+      "exampleEn": "The long drought destroyed the whole harvest.",
+      "exampleJa": "長い干ばつが収穫をすべてだめにしました。",
+      "level": 4
+    },
+    {
+      "headword": "dust",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʌst/",
+      "meaning": "ほこり",
+      "exampleEn": "Thick dust covered the old furniture.",
+      "exampleJa": "厚いほこりが古い家具を覆っていました。",
+      "level": 2
+    },
+    {
+      "headword": "earthquake",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɜːrθkweɪk/",
+      "meaning": "地震",
+      "exampleEn": "A strong earthquake hit the island last night.",
+      "exampleJa": "昨夜強い地震が島を襲いました。",
+      "level": 2
+    },
+    {
+      "headword": "ecology",
+      "partOfSpeech": "noun",
+      "phonetic": "/iˈkɑːlədʒi/",
+      "meaning": "生態学；生態系",
+      "exampleEn": "She studies tropical forest ecology.",
+      "exampleJa": "彼女は熱帯雨林の生態系を研究しています。",
+      "level": 4
+    },
+    {
+      "headword": "electricity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪˌlekˈtrɪsəti/",
+      "meaning": "電気；電力",
+      "exampleEn": "Turn off lights to save electricity.",
+      "exampleJa": "節電のため照明を消しなさい。",
+      "level": 2
+    },
+    {
+      "headword": "energy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈenərdʒi/",
+      "meaning": "エネルギー；元気；活力",
+      "exampleEn": "Solar energy is clean.",
+      "exampleJa": "太陽エネルギーはクリーンです。",
+      "level": 1
+    },
+    {
+      "headword": "engine",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈendʒɪn/",
+      "meaning": "エンジン；機関",
+      "exampleEn": "Start the engine now.",
+      "exampleJa": "今すぐエンジンをかけなさい。",
+      "level": 1
+    },
+    {
+      "headword": "environment",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "meaning": "環境；自然環境",
+      "exampleEn": "We should protect our environment.",
+      "exampleJa": "私たちは環境を守るべきです。",
+      "level": 2
+    },
+    {
+      "headword": "evolution",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌevəˈluːʃən/",
+      "meaning": "進化",
+      "exampleEn": "This fossil explains the evolution of mammals.",
+      "exampleJa": "この化石は哺乳類の進化を説明します。",
+      "level": 4
+    },
+    {
+      "headword": "fiber",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfaɪbər/",
+      "meaning": "繊維",
+      "exampleEn": "Vegetables contain a lot of fiber.",
+      "exampleJa": "野菜には食物繊維が多く含まれます。",
+      "level": 4
+    },
+    {
+      "headword": "flame",
+      "partOfSpeech": "noun",
+      "phonetic": "/fleɪm/",
+      "meaning": "炎",
+      "exampleEn": "A small flame appeared above the fuel.",
+      "exampleJa": "燃料の上に小さな炎が現れました。",
+      "level": 3
+    },
+    {
+      "headword": "flood",
+      "partOfSpeech": "noun",
+      "phonetic": "/flʌd/",
+      "meaning": "洪水",
+      "exampleEn": "Heavy rain caused a flood.",
+      "exampleJa": "大雨が洪水を引き起こしました。",
+      "level": 2
+    },
+    {
+      "headword": "fog",
+      "partOfSpeech": "noun",
+      "phonetic": "/fɔːɡ/",
+      "meaning": "霧",
+      "exampleEn": "Thick fog delayed every flight this morning.",
+      "exampleJa": "濃い霧で今朝はすべての便が遅れました。",
+      "level": 2
+    },
+    {
+      "headword": "fossil",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfɑːsəl/",
+      "meaning": "化石",
+      "exampleEn": "Coal and oil are fossil fuels.",
+      "exampleJa": "石炭と石油は化石燃料です。",
+      "level": 3
+    },
+    {
+      "headword": "fuel",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈfjuːəl/",
+      "meaning": "燃料",
+      "exampleEn": "The car ran out of fuel.",
+      "exampleJa": "車が燃料切れになりました。",
+      "level": 2
+    },
+    {
+      "headword": "galaxy",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡæləksi/",
+      "meaning": "銀河；銀河系",
+      "exampleEn": "The Milky Way is our galaxy.",
+      "exampleJa": "天の川は私たちの銀河です。",
+      "level": 3
+    },
+    {
+      "headword": "gene",
+      "partOfSpeech": "noun",
+      "phonetic": "/dʒiːn/",
+      "meaning": "遺伝子",
+      "exampleEn": "Scientists identified the gene for this disease.",
+      "exampleJa": "科学者はこの病気の遺伝子を特定しました。",
+      "level": 4
+    },
+    {
+      "headword": "glacier",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡleɪʃər/",
+      "meaning": "氷河",
+      "exampleEn": "This glacier has shrunk since the last century.",
+      "exampleJa": "この氷河は前世紀から縮んでいます。",
+      "level": 4
+    },
+    {
+      "headword": "globe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ɡloʊb/",
+      "meaning": "地球；球体",
+      "exampleEn": "Travelers came from across the globe.",
+      "exampleJa": "世界中から旅行者がやって来ました。",
+      "level": 3
+    },
+    {
+      "headword": "gravity",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɡrævəti/",
+      "meaning": "重力；引力；重大さ",
+      "exampleEn": "Newton formulated law of gravity.",
+      "exampleJa": "ニュートンは万有引力の法則を定式化しました。",
+      "level": 3
+    },
+    {
+      "headword": "harvest",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɑːrvɪst/",
+      "meaning": "収穫；収穫物",
+      "exampleEn": "The rice harvest was good this year.",
+      "exampleJa": "今年は米の収穫がよかったです。",
+      "level": 3
+    },
+    {
+      "headword": "horizon",
+      "partOfSpeech": "noun",
+      "phonetic": "/həˈraɪzən/",
+      "meaning": "地平線；水平線",
+      "exampleEn": "The sun sank below the horizon.",
+      "exampleJa": "太陽が水平線の下に沈みました。",
+      "level": 4
+    },
+    {
+      "headword": "humidity",
+      "partOfSpeech": "noun",
+      "phonetic": "/hjuːˈmɪdəti/",
+      "meaning": "湿度；湿気",
+      "exampleEn": "Summer in Japan has high humidity.",
+      "exampleJa": "日本の夏は湿度が高いです。",
+      "level": 3
+    },
+    {
+      "headword": "hurricane",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈhɜːrəkeɪn/",
+      "meaning": "ハリケーン",
+      "exampleEn": "The hurricane damaged houses along the shore.",
+      "exampleJa": "ハリケーンが海岸沿いの家に被害を与えました。",
+      "level": 3
+    },
+    {
+      "headword": "iceberg",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈaɪsbɜːrɡ/",
+      "meaning": "氷山",
+      "exampleEn": "A huge iceberg floated near the ship.",
+      "exampleJa": "巨大な氷山が船の近くに浮かんでいました。",
+      "level": 3
+    },
+    {
+      "headword": "insect",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɪnsekt/",
+      "meaning": "昆虫",
+      "exampleEn": "This insect is very small.",
+      "exampleJa": "この昆虫はとても小さいです。",
+      "level": 2
+    },
+    {
+      "headword": "jungle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈdʒʌŋɡəl/",
+      "meaning": "ジャングル；密林",
+      "exampleEn": "Wild animals live in the jungle.",
+      "exampleJa": "野生動物がジャングルに生息しています。",
+      "level": 1
+    },
+    {
+      "headword": "laboratory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlæbrətɔːri/",
+      "meaning": "実験室；研究所",
+      "exampleEn": "The new material was tested in our laboratory.",
+      "exampleJa": "新しい素材は当社の研究所で試験されました。",
+      "level": 2
+    },
+    {
+      "headword": "lava",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈlɑːvə/",
+      "meaning": "溶岩",
+      "exampleEn": "Hot lava flowed down the volcano.",
+      "exampleJa": "熱い溶岩が火山を流れ下りました。",
+      "level": 4
+    },
+    {
+      "headword": "layer",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈleɪər/",
+      "meaning": "層",
+      "exampleEn": "A thin layer of ice covered the pond.",
+      "exampleJa": "薄い氷の層が池を覆っていました。",
+      "level": 3
+    },
+    {
+      "headword": "mammal",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmæməl/",
+      "meaning": "哺乳類",
+      "exampleEn": "A whale is the largest mammal on earth.",
+      "exampleJa": "クジラは地球で最大の哺乳類です。",
+      "level": 4
+    },
+    {
+      "headword": "mineral",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɪnərəl/",
+      "meaning": "鉱物；ミネラル",
+      "exampleEn": "This region is rich in valuable minerals.",
+      "exampleJa": "この地域は貴重な鉱物に恵まれています。",
+      "level": 3
+    },
+    {
+      "headword": "moisture",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈmɔɪstʃər/",
+      "meaning": "湿気",
+      "exampleEn": "The soil holds moisture after heavy rainfall.",
+      "exampleJa": "大雨のあと土は湿気を保ちます。",
+      "level": 4
+    },
+    {
+      "headword": "mud",
+      "partOfSpeech": "noun",
+      "phonetic": "/mʌd/",
+      "meaning": "泥",
+      "exampleEn": "The children got mud on their shoes.",
+      "exampleJa": "子どもたちの靴に泥がつきました。",
+      "level": 2
+    },
+    {
+      "headword": "nutrient",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈnuːtriənt/",
+      "meaning": "栄養素",
+      "exampleEn": "Crops absorb nutrients from the soil.",
+      "exampleJa": "作物は土から栄養素を吸収します。",
+      "level": 4
+    },
+    {
+      "headword": "organism",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɔːrɡənɪzəm/",
+      "meaning": "有機体；生物",
+      "exampleEn": "Microscopic organisms live in soil.",
+      "exampleJa": "微小な有機体が土壌の中に生息しています。",
+      "level": 3
+    },
+    {
+      "headword": "oxygen",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈɑːksɪdʒən/",
+      "meaning": "酸素",
+      "exampleEn": "Plants and trees produce oxygen for us.",
+      "exampleJa": "植物や木は私たちのために酸素を作り出します。",
+      "level": 3
+    },
+    {
+      "headword": "ozone",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈoʊzoʊn/",
+      "meaning": "オゾン",
+      "exampleEn": "The ozone layer protects us from radiation.",
+      "exampleJa": "オゾン層は私たちを放射線から守っています。",
+      "level": 4
+    },
+    {
+      "headword": "particle",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpɑːrtɪkəl/",
+      "meaning": "素粒子；微粒子",
+      "exampleEn": "Physicists study subatomic particles.",
+      "exampleJa": "物理学者は亜原子粒子を研究します。",
+      "level": 3
+    },
+    {
+      "headword": "peak",
+      "partOfSpeech": "noun",
+      "phonetic": "/piːk/",
+      "meaning": "頂上；最高点",
+      "exampleEn": "Snow still covers the highest peak.",
+      "exampleJa": "最も高い頂上はまだ雪に覆われています。",
+      "level": 3
+    },
+    {
+      "headword": "planet",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈplænɪt/",
+      "meaning": "惑星",
+      "exampleEn": "Mars is the fourth planet from the Sun.",
+      "exampleJa": "火星は太陽から4番目の惑星です。",
+      "level": 2
+    },
+    {
+      "headword": "pole",
+      "partOfSpeech": "noun",
+      "phonetic": "/poʊl/",
+      "meaning": "極；棒",
+      "exampleEn": "Ice at the North Pole is melting fast.",
+      "exampleJa": "北極の氷が急速にとけています。",
+      "level": 3
+    },
+    {
+      "headword": "pollution",
+      "partOfSpeech": "noun",
+      "phonetic": "/pəˈluːʃn/",
+      "meaning": "汚染；公害",
+      "exampleEn": "Air pollution affects health.",
+      "exampleJa": "大気汚染は健康に影響します。",
+      "level": 2
+    },
+    {
+      "headword": "predator",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈpredətər/",
+      "meaning": "捕食動物",
+      "exampleEn": "This creature has no natural predator here.",
+      "exampleJa": "この生き物にはここに天敵がいません。",
+      "level": 4
+    },
+    {
+      "headword": "radiation",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˌreɪdiˈeɪʃən/",
+      "meaning": "放射線",
+      "exampleEn": "Workers measured the radiation near the plant.",
+      "exampleJa": "作業員が発電所の近くで放射線を測りました。",
+      "level": 4
+    },
+    {
+      "headword": "rainfall",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈreɪnfɔːl/",
+      "meaning": "降雨量",
+      "exampleEn": "Rainfall has decreased across this region.",
+      "exampleJa": "この地域では降雨量が減っています。",
+      "level": 3
+    },
+    {
+      "headword": "reptile",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈreptaɪl/",
+      "meaning": "爬虫類",
+      "exampleEn": "A snake is a common reptile here.",
+      "exampleJa": "ヘビはこの辺りでよく見る爬虫類です。",
+      "level": 4
+    },
+    {
+      "headword": "satellite",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsætəlaɪt/",
+      "meaning": "衛星",
+      "exampleEn": "The satellite sends images of the storm.",
+      "exampleJa": "その衛星は嵐の画像を送ってきます。",
+      "level": 3
+    },
+    {
+      "headword": "shore",
+      "partOfSpeech": "noun",
+      "phonetic": "/ʃɔːr/",
+      "meaning": "岸",
+      "exampleEn": "We walked along the rocky shore.",
+      "exampleJa": "私たちは岩の多い岸を歩きました。",
+      "level": 3
+    },
+    {
+      "headword": "soil",
+      "partOfSpeech": "noun",
+      "phonetic": "/sɔɪl/",
+      "meaning": "土壌；土",
+      "exampleEn": "This soil is rich and good for vegetables.",
+      "exampleJa": "この土壌は肥えていて野菜作りに向いています。",
+      "level": 3
+    },
+    {
+      "headword": "species",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈspiːʃiːz/",
+      "meaning": "種；生物種",
+      "exampleEn": "Many species face extinction.",
+      "exampleJa": "多くの種が絶滅に直面しています。",
+      "level": 3
+    },
+    {
+      "headword": "stream",
+      "partOfSpeech": "noun",
+      "phonetic": "/striːm/",
+      "meaning": "小川；流れ",
+      "exampleEn": "A clear stream runs through the valley.",
+      "exampleJa": "澄んだ小川が谷を流れています。",
+      "level": 3
+    },
+    {
+      "headword": "substance",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsʌbstəns/",
+      "meaning": "物質",
+      "exampleEn": "This substance dissolves quickly in water.",
+      "exampleJa": "この物質は水にすぐ溶けます。",
+      "level": 4
+    },
+    {
+      "headword": "surface",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈsɜːrfɪs/",
+      "meaning": "表面",
+      "exampleEn": "Oil floats on the water surface.",
+      "exampleJa": "油は水面に浮かびます。",
+      "level": 3
+    },
+    {
+      "headword": "temperature",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈtemprətʃər/",
+      "meaning": "温度；気温；体温",
+      "exampleEn": "The temperature rose quickly.",
+      "exampleJa": "気温が急激に上昇しました。",
+      "level": 2
+    },
+    {
+      "headword": "territory",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈterətɔːri/",
+      "meaning": "領土；縄張り",
+      "exampleEn": "Each pair of birds defends its territory.",
+      "exampleJa": "鳥はつがいごとに縄張りを守ります。",
+      "level": 4
+    },
+    {
+      "headword": "thunder",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈθʌndər/",
+      "meaning": "雷",
+      "exampleEn": "Thunder woke the whole household.",
+      "exampleJa": "雷が家じゅうの人を起こしました。",
+      "level": 2
+    },
+    {
+      "headword": "tide",
+      "partOfSpeech": "noun",
+      "phonetic": "/taɪd/",
+      "meaning": "潮",
+      "exampleEn": "The tide covers this beach twice daily.",
+      "exampleJa": "潮は一日に二度この浜を覆います。",
+      "level": 3
+    },
+    {
+      "headword": "universe",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈjuːnɪvɜːrs/",
+      "meaning": "宇宙；全世界",
+      "exampleEn": "The origin of the universe remains mysterious.",
+      "exampleJa": "宇宙の起源は謎のままです。",
+      "level": 2
+    },
+    {
+      "headword": "valley",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈvæli/",
+      "meaning": "谷",
+      "exampleEn": "A small village is in the valley.",
+      "exampleJa": "小さな村がその谷にあります。",
+      "level": 2
+    },
+    {
+      "headword": "vapor",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈveɪpər/",
+      "meaning": "蒸気",
+      "exampleEn": "Water vapor rises and forms clouds.",
+      "exampleJa": "水蒸気が上昇して雲を作ります。",
+      "level": 4
+    },
+    {
+      "headword": "volcano",
+      "partOfSpeech": "noun",
+      "phonetic": "/vɑːlˈkeɪnoʊ/",
+      "meaning": "火山",
+      "exampleEn": "The volcano on this island is still active.",
+      "exampleJa": "この島の火山は今も活動しています。",
+      "level": 3
+    },
+    {
+      "headword": "wilderness",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwɪldərnəs/",
+      "meaning": "荒野",
+      "exampleEn": "This wilderness has never been developed.",
+      "exampleJa": "この荒野は一度も開発されていません。",
+      "level": 4
+    },
+    {
+      "headword": "wildlife",
+      "partOfSpeech": "noun",
+      "phonetic": "/ˈwaɪldlaɪf/",
+      "meaning": "野生生物",
+      "exampleEn": "The park preserves local wildlife.",
+      "exampleJa": "その公園は地元の野生生物を保護しています。",
+      "level": 3
+    }
+  ]
+}
