@@ -6,6 +6,7 @@ import '../../application/session_finalizer.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/theme/app_spacing.dart';
 import '../../core/theme/app_text.dart';
+import '../../core/utils/enums.dart';
 import '../../data/database/app_database.dart';
 import '../../providers/providers.dart';
 import '../../providers/stats.dart';
@@ -125,7 +126,12 @@ class _ScoreCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final accuracy = summary.accuracy ?? 0;
+    // 確認テストを挟まなかったフラッシュカードは、1問も解いていない。
+    // 解いていないのに正解率や「0 / 0 問正解」を出すのは実態と違う
+    // （[Docs/06_features/flashcard_mode.md] §8）。
+    if (summary.accuracy == null) return _BrowsedOnlyCard(summary: summary);
+
+    final accuracy = summary.accuracy!;
     return SoftCard(
       child: Column(
         children: [
@@ -144,6 +150,19 @@ class _ScoreCard extends StatelessWidget {
             overflow: TextOverflow.ellipsis,
             style: AppText.sectionTitle(),
           ),
+          // フラッシュカードだけは「見た枚数」と「解いた問題数」が一致しない。
+          // どちらの数字なのかが分かるよう、両方を並べて出す
+          // （[Docs/06_features/flashcard_mode.md] §8）。
+          if (summary.session.mode == StudyMode.flashcard.value) ...[
+            const SizedBox(height: 4),
+            Text(
+              '流し見 ${summary.session.plannedCount}枚 ／ '
+              '確認テスト ${summary.answeredCount}問',
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: AppText.caption(),
+            ),
+          ],
           const SizedBox(height: 4),
           Text(
             '+${summary.session.xpEarned} XP ・ ${_formatDuration(summary.elapsed)}',
@@ -159,6 +178,58 @@ class _ScoreCard extends StatelessWidget {
   static String _formatDuration(Duration d) {
     if (d.inMinutes < 1) return '${d.inSeconds}秒';
     return '${d.inMinutes}分${d.inSeconds % 60}秒';
+  }
+}
+
+/// 1問も解かずに終わった回のカード。
+///
+/// 正解率のリングは出さない。確認テストなしのフラッシュカードは**眺めただけ**で、
+/// 学習状態も動かしていない。ここで「0%」や「0 / 0 問正解」を出すと、
+/// 成績が付いたように見えてしまう（[Docs/06_features/flashcard_mode.md] §8）。
+class _BrowsedOnlyCard extends StatelessWidget {
+  final SessionSummary summary;
+
+  const _BrowsedOnlyCard({required this.summary});
+
+  @override
+  Widget build(BuildContext context) {
+    final isFlashcard = summary.session.mode == StudyMode.flashcard.value;
+    return SoftCard(
+      child: Column(
+        children: [
+          Text(
+            isFlashcard ? '🃏' : '📖',
+            textScaler: TextScaler.noScaling,
+            style: const TextStyle(fontSize: 40),
+          ),
+          const SizedBox(height: 12),
+          Text(
+            isFlashcard
+                ? '流し見 ${summary.session.plannedCount}枚'
+                : '1問も解いていません',
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: AppText.sectionTitle(),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            isFlashcard
+                ? '確認テストをしていないので、成績は付きません。'
+                    '覚えたかどうかを残したいときは、確認テストを「4択」か「スペル」にします。'
+                : '学習の記録は残っていません。',
+            textAlign: TextAlign.center,
+            style: AppText.caption(),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            _ScoreCard._formatDuration(summary.elapsed),
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: AppText.caption(),
+          ),
+        ],
+      ),
+    );
   }
 }
 

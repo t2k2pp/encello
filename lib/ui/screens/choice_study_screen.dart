@@ -10,7 +10,7 @@ import '../../core/theme/app_text.dart';
 import '../../core/utils/enums.dart';
 import '../../providers/providers.dart';
 import '../dialogs/confirm_dialog.dart';
-import '../widgets/soft_card.dart';
+import '../widgets/choice_question_view.dart';
 import 'session_result_screen.dart';
 
 /// SCR-06 4択クイズ / SCR-19 スピード / SCR-20 語のつくり / SCR-21 取り違えドリル。
@@ -178,69 +178,11 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
                   Expanded(
                     child: SingleChildScrollView(
                       padding: const EdgeInsets.all(16),
-                      child: Column(
-                        children: [
-                          const SizedBox(height: 8),
-                          if (question.hint != null)
-                            Container(
-                              padding: const EdgeInsets.symmetric(
-                                horizontal: 10,
-                                vertical: 3,
-                              ),
-                              decoration: BoxDecoration(
-                                color: AppColors.chipBg,
-                                borderRadius: BorderRadius.circular(999),
-                              ),
-                              child: Text(
-                                question.hint!,
-                                maxLines: 2,
-                                overflow: TextOverflow.ellipsis,
-                                textAlign: TextAlign.center,
-                                style: AppText.caption(color: AppColors.ink2),
-                              ),
-                            ),
-                          const SizedBox(height: 12),
-                          FittedBox(
-                            fit: BoxFit.scaleDown,
-                            child: Text(
-                              question.prompt,
-                              textAlign: TextAlign.center,
-                              style: AppText.prompt(),
-                            ),
-                          ),
-                          const SizedBox(height: 20),
-                          for (var i = 0; i < question.options.length; i++) ...[
-                            _Option(
-                              label: question.options[i],
-                              state: _stateOf(session, question, i),
-                              onTap: answered || session.busy
-                                  ? null
-                                  : () => _answer(i),
-                            ),
-                            const SizedBox(height: 8),
-                          ],
-                          if (answered && question.explanation.isNotEmpty) ...[
-                            const SizedBox(height: 4),
-                            SoftCard(
-                              color: AppColors.chipBg,
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  for (final line in question.explanation)
-                                    Padding(
-                                      padding: const EdgeInsets.only(bottom: 2),
-                                      child: Text(
-                                        line,
-                                        style: AppText.caption(
-                                          color: AppColors.ink2,
-                                        ),
-                                      ),
-                                    ),
-                                ],
-                              ),
-                            ),
-                          ],
-                        ],
+                      child: ChoiceQuestionView(
+                        question: question,
+                        selectedIndex: session.selectedIndex,
+                        answered: answered,
+                        onSelect: answered || session.busy ? null : _answer,
                       ),
                     ),
                   ),
@@ -268,68 +210,4 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
     );
   }
 
-  _OptionState _stateOf(
-    ChoiceSessionState session,
-    ChoiceQuestion question,
-    int index,
-  ) {
-    if (session.phase != StudyPhase.feedback) return _OptionState.idle;
-    if (index == question.answerIndex) return _OptionState.correct;
-    if (index == session.selectedIndex) return _OptionState.wrong;
-    return _OptionState.idle;
-  }
-}
-
-enum _OptionState { idle, correct, wrong }
-
-/// 選択肢1つ。高さは内容に応じて伸びる（固定しない）。
-/// **色だけで正誤を伝えない**ため、必ずアイコンを添える。
-class _Option extends StatelessWidget {
-  final String label;
-  final _OptionState state;
-  final VoidCallback? onTap;
-
-  const _Option({required this.label, required this.state, this.onTap});
-
-  @override
-  Widget build(BuildContext context) {
-    final (border, icon, iconColor) = switch (state) {
-      _OptionState.idle => (AppColors.line, null, null),
-      _OptionState.correct => (
-        AppColors.correct,
-        Icons.check,
-        AppColors.correctText,
-      ),
-      _OptionState.wrong => (AppColors.wrong, Icons.close, AppColors.wrong),
-    };
-
-    return Container(
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: border,
-          width: state == _OptionState.idle ? 1 : 2,
-        ),
-      ),
-      child: SoftCard(
-        onTap: onTap,
-        child: Row(
-          children: [
-            Expanded(
-              child: Text(
-                label,
-                maxLines: 3,
-                overflow: TextOverflow.ellipsis,
-                style: AppText.body(),
-              ),
-            ),
-            if (icon != null) ...[
-              const SizedBox(width: 8),
-              Icon(icon, size: 20, color: iconColor),
-            ],
-          ],
-        ),
-      ),
-    );
-  }
 }

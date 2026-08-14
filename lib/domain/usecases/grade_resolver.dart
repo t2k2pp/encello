@@ -62,12 +62,10 @@ abstract final class GradeResolver {
     return isCorrect ? 4 : 1;
   }
 
-  /// フラッシュカードの自己評価。押さなければ更新しない（FR-26）。
-  static int forFlashcard({required bool? remembered}) => switch (remembered) {
-    null => noUpdate,
-    true => 4,
-    false => 2,
-  };
+  // フラッシュカード専用の入口は持たない。確認テストの grade は、その形式の
+  // 入口（4択なら [forChoice]、スペルなら [forSpell]）をそのまま使う。
+  // 流し見だけのカードは解答が無いので grade を決める場面が無い
+  // （[Docs/06_features/flashcard_mode.md] §6）。
 
   static int _fastThreshold(StudyMode mode) => switch (mode) {
     StudyMode.listening => listeningFastMs,

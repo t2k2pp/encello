@@ -43,6 +43,16 @@ class Profiles extends Table {
   TextColumn get flashcardMode =>
       text().withDefault(const Constant('silentAuto'))();
   IntColumn get flashcardSeconds => integer().withDefault(const Constant(3))();
+
+  /// 流し見のあとに出す確認テストの形式（`FlashcardTestFormat`）。
+  /// 既定を `choice` にするのは、テストを通ってはじめて成績に意味が出るため
+  /// （[Docs/06_features/flashcard_mode.md] §3）。
+  TextColumn get flashcardTestFormat =>
+      text().withDefault(const Constant('choice'))();
+
+  /// 確認テストまでに流し見する枚数（ラウンドの長さ）。
+  IntColumn get flashcardRoundSize =>
+      integer().withDefault(const Constant(10))();
   TextColumn get choiceDirection =>
       text().withDefault(const Constant('random'))();
 

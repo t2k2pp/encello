@@ -48,7 +48,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase(QueryExecutor? executor) : super(executor ?? _openConnection());
 
   @override
-  int get schemaVersion => 2;
+  int get schemaVersion => 3;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -58,6 +58,13 @@ class AppDatabase extends _$AppDatabase {
     onUpgrade: (m, from, to) async {
       if (from < 2) {
         await _migrateExamplesToWordExamples(m);
+      }
+      if (from < 3) {
+        // フラッシュカードのラウンド制と確認テスト
+        // （[Docs/06_features/flashcard_mode.md] §3）。既存の学習者には
+        // 列の既定値（4択・10枚）がそのまま入る。
+        await m.addColumn(profiles, profiles.flashcardTestFormat);
+        await m.addColumn(profiles, profiles.flashcardRoundSize);
       }
     },
     beforeOpen: (details) async {

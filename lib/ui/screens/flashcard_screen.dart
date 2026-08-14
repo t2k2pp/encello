@@ -11,14 +11,20 @@ import '../../core/utils/enums.dart';
 import '../../domain/services/pronunciation_service.dart';
 import '../../providers/audio.dart';
 import '../../providers/providers.dart';
+import '../widgets/choice_question_view.dart';
+import '../widgets/english_keyboard.dart';
 import '../widgets/soft_card.dart';
+import '../widgets/spell_prompt.dart';
+import '../widgets/verdict_banner.dart';
 import 'session_result_screen.dart';
 
 /// SCR-05 フラッシュカード（[Docs/04_screens_and_flows.md] §4.4、
 /// [Docs/06_features/flashcard_mode.md]）。
 ///
-/// カードは表裏を持たず、上下を同時に表示する。めくる操作を挟むと
-/// 「次々に流して浴びる」という目的が損なわれる。
+/// 「N枚の流し見 → その N語の確認テスト」を繰り返す。カードは表裏を持たず、
+/// 上下を同時に表示する。めくる操作を挟むと「次々に流して浴びる」という目的が
+/// 損なわれる。**流し見の側に自己評価ボタンは置かない**。覚えたかどうかは
+/// 確認テストが判定する（[flashcard_mode.md] §3）。
 class FlashcardScreen extends ConsumerStatefulWidget {
   const FlashcardScreen({super.key});
 
@@ -108,6 +114,15 @@ class _FlashcardScreenState extends ConsumerState<FlashcardScreen> {
     Navigator.of(context).pop();
   }
 
+  void _finish(FlashcardState session) {
+    ref.read(flashcardProvider.notifier).clear();
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute<void>(
+        builder: (_) => SessionResultScreen(sessionId: session.sessionId),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final session = ref.watch(flashcardProvider);
@@ -140,183 +155,280 @@ class _FlashcardScreenState extends ConsumerState<FlashcardScreen> {
       _scheduledIndex = null;
     }
 
+    return Scaffold(
+      body: SafeArea(
+        child: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 720),
+            child: session.phase == FlashcardPhase.testing
+                ? _RoundTest(session: session, onFinish: () => _finish(session))
+                : _CardView(session: session, onFinish: () => _finish(session)),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// 流し見のカード（上下を同時に表示する）。
+class _CardView extends ConsumerWidget {
+  final FlashcardState session;
+  final VoidCallback onFinish;
+
+  const _CardView({required this.session, required this.onFinish});
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final notifier = ref.read(flashcardProvider.notifier);
     final word = session.currentWord!;
     final top = session.topLang == SpeechLang.en ? word.headword : word.meaning;
     final bottom = session.topLang == SpeechLang.en
         ? word.meaning
         : word.headword;
 
-    return Scaffold(
-      body: SafeArea(
-        child: Center(
-          child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 720),
-            child: Column(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(4, 4, 12, 0),
-                  child: Row(
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(4, 4, 12, 0),
+          child: Row(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.close),
+                tooltip: '学習を終える',
+                onPressed: onFinish,
+              ),
+              Expanded(
+                child: Text(
+                  '${session.index + 1} / ${session.totalCount}'
+                  '（${session.roundNumber}/${session.roundTotal} ラウンド）',
+                  textAlign: TextAlign.center,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppText.caption(),
+                ),
+              ),
+              IconButton(
+                icon: Icon(
+                  session.phase == FlashcardPhase.paused
+                      ? Icons.play_arrow
+                      : Icons.pause,
+                ),
+                tooltip: session.phase == FlashcardPhase.paused
+                    ? '再開する'
+                    : '一時停止する',
+                onPressed: notifier.togglePause,
+              ),
+            ],
+          ),
+        ),
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: SoftCard(
+              padding: const EdgeInsets.all(24),
+              child: Center(
+                child: SingleChildScrollView(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
                     children: [
-                      IconButton(
-                        icon: const Icon(Icons.close),
-                        tooltip: '学習を終える',
-                        onPressed: () {
-                          ref.read(flashcardProvider.notifier).clear();
-                          Navigator.of(context).pushReplacement(
-                            MaterialPageRoute<void>(
-                              builder: (_) => SessionResultScreen(
-                                sessionId: session.sessionId,
-                              ),
-                            ),
-                          );
-                        },
-                      ),
-                      Expanded(
+                      FittedBox(
+                        fit: BoxFit.scaleDown,
                         child: Text(
-                          '${session.index + 1} / ${session.totalCount}',
+                          top,
                           textAlign: TextAlign.center,
+                          style: AppText.style(
+                            size: 28,
+                            weight: FontWeight.w700,
+                          ),
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                      Divider(color: AppColors.line),
+                      const SizedBox(height: 12),
+                      FittedBox(
+                        fit: BoxFit.scaleDown,
+                        child: Text(
+                          bottom,
+                          textAlign: TextAlign.center,
+                          style: AppText.style(
+                            size: 22,
+                            weight: FontWeight.w600,
+                          ),
+                        ),
+                      ),
+                      if (word.phonetic != null) ...[
+                        const SizedBox(height: 4),
+                        Text(
+                          word.phonetic!,
                           maxLines: 1,
                           overflow: TextOverflow.ellipsis,
-                          style: AppText.caption(),
+                          style: AppText.phonetic(),
                         ),
-                      ),
-                      IconButton(
-                        icon: Icon(
-                          session.phase == FlashcardPhase.paused
-                              ? Icons.play_arrow
-                              : Icons.pause,
-                        ),
-                        tooltip: session.phase == FlashcardPhase.paused
-                            ? '再開する'
-                            : '一時停止する',
-                        onPressed: ref
-                            .read(flashcardProvider.notifier)
-                            .togglePause,
-                      ),
+                      ],
                     ],
                   ),
                 ),
-                Expanded(
-                  child: Padding(
-                    padding: const EdgeInsets.all(16),
-                    child: SoftCard(
-                      padding: const EdgeInsets.all(24),
-                      child: Center(
-                        child: SingleChildScrollView(
-                          child: Column(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              FittedBox(
-                                fit: BoxFit.scaleDown,
-                                child: Text(
-                                  top,
-                                  textAlign: TextAlign.center,
-                                  style: AppText.style(
-                                    size: 28,
-                                    weight: FontWeight.w700,
-                                  ),
-                                ),
-                              ),
-                              const SizedBox(height: 12),
-                              Divider(color: AppColors.line),
-                              const SizedBox(height: 12),
-                              FittedBox(
-                                fit: BoxFit.scaleDown,
-                                child: Text(
-                                  bottom,
-                                  textAlign: TextAlign.center,
-                                  style: AppText.style(
-                                    size: 22,
-                                    weight: FontWeight.w600,
-                                  ),
-                                ),
-                              ),
-                              if (word.phonetic != null) ...[
-                                const SizedBox(height: 4),
-                                Text(
-                                  word.phonetic!,
-                                  maxLines: 1,
-                                  overflow: TextOverflow.ellipsis,
-                                  style: AppText.phonetic(),
-                                ),
-                              ],
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    IconButton(
-                      icon: const Icon(Icons.chevron_left),
-                      tooltip: '前のカード',
-                      onPressed: session.index == 0
-                          ? null
-                          : () =>
-                                ref.read(flashcardProvider.notifier).moveBy(-1),
-                    ),
-                    IconButton(
-                      icon: const Icon(Icons.chevron_right),
-                      tooltip: '次のカード',
-                      onPressed: session.isLast
-                          ? null
-                          : () =>
-                                ref.read(flashcardProvider.notifier).moveBy(1),
-                    ),
-                  ],
-                ),
-                Padding(
-                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: OutlinedButton(
-                          onPressed: session.busy
-                              ? null
-                              : () => _rate(FlashcardRating.shaky),
-                          style: OutlinedButton.styleFrom(
-                            minimumSize: const Size.fromHeight(48),
-                          ),
-                          child: const Text('あやしい'),
-                        ),
-                      ),
-                      const SizedBox(width: 8),
-                      Expanded(
-                        child: FilledButton(
-                          onPressed: session.busy
-                              ? null
-                              : () => _rate(FlashcardRating.remembered),
-                          style: FilledButton.styleFrom(
-                            backgroundColor: AppColors.accent,
-                            minimumSize: const Size.fromHeight(48),
-                          ),
-                          child: const Text('覚えた'),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ],
+              ),
             ),
           ),
         ),
-      ),
+        // 移動はラウンドの中だけ。またぐと確認テストの対象が
+        // 「そのラウンドで見せた語」でなくなる。
+        Padding(
+          padding: const EdgeInsets.only(bottom: 16),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              IconButton(
+                icon: const Icon(Icons.chevron_left),
+                tooltip: '前のカード',
+                onPressed: session.index == session.roundStart
+                    ? null
+                    : () => notifier.moveBy(-1),
+              ),
+              IconButton(
+                icon: const Icon(Icons.chevron_right),
+                tooltip: session.isRoundEnd ? '確認テストへ' : '次のカード',
+                onPressed: session.isRoundEnd
+                    ? notifier.advance
+                    : () => notifier.moveBy(1),
+              ),
+            ],
+          ),
+        ),
+      ],
     );
   }
+}
 
-  Future<void> _rate(FlashcardRating rating) async {
-    _silentTimer?.cancel();
+/// ラウンドの確認テスト（4択 / スペル）。
+///
+/// 描画は4択画面・スペル画面と同じ [ChoiceQuestionView] / [SpellPrompt] /
+/// [EnglishKeyboard] / [VerdictBanner] を使う。テストの体裁を別に作らない。
+class _RoundTest extends ConsumerStatefulWidget {
+  final FlashcardState session;
+  final VoidCallback onFinish;
+
+  const _RoundTest({required this.session, required this.onFinish});
+
+  @override
+  ConsumerState<_RoundTest> createState() => _RoundTestState();
+}
+
+class _RoundTestState extends ConsumerState<_RoundTest> {
+  Future<void> _guard(Future<void> Function() action) async {
     try {
-      await ref.read(flashcardProvider.notifier).rate(rating);
+      await action();
     } catch (e) {
       if (!mounted) return;
       ScaffoldMessenger.of(
         context,
-      ).showSnackBar(SnackBar(content: Text('記録できませんでした: $e')));
+      ).showSnackBar(SnackBar(content: Text('解答を保存できませんでした: $e')));
     }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final session = widget.session;
+    final notifier = ref.read(flashcardProvider.notifier);
+    final question = session.currentQuestion!;
+
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(4, 4, 12, 0),
+          child: Row(
+            children: [
+              IconButton(
+                icon: const Icon(Icons.close),
+                tooltip: '学習を終える',
+                onPressed: widget.onFinish,
+              ),
+              Expanded(
+                child: Text(
+                  '確認テスト '
+                  '${session.testIndex + 1} / ${session.testQueue.length}'
+                  '（${session.roundNumber}/${session.roundTotal} ラウンド）',
+                  textAlign: TextAlign.center,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppText.caption(),
+                ),
+              ),
+              const SizedBox(width: 40),
+            ],
+          ),
+        ),
+        switch (question) {
+          FlashcardChoiceQuestion() => Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(16),
+              child: ChoiceQuestionView(
+                question: question.question,
+                selectedIndex: session.selectedIndex,
+                answered: session.testAnswered,
+                onSelect: session.testAnswered || session.busy
+                    ? null
+                    : (i) => _guard(() => notifier.answerChoice(i)),
+              ),
+            ),
+          ),
+          FlashcardSpellQuestion() => Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 16,
+                vertical: 12,
+              ),
+              child: SpellPrompt(
+                word: question.word,
+                prompt: question.word.meaning,
+                typed: session.typed,
+                hintUsed: session.hintUsed,
+                answering: !session.testAnswered,
+                canHint: session.canHint,
+                onHint: notifier.hint,
+                onGiveUp: session.busy
+                    ? null
+                    : () => _guard(notifier.giveUp),
+              ),
+            ),
+          ),
+        },
+        if (session.testAnswered && question is FlashcardSpellQuestion)
+          VerdictBanner(
+            verdict: session.verdict!,
+            word: question.word,
+            // 流し見の途中に例文を挟まない（確認テストは短く終える）。
+            example: null,
+            typed: session.submittedText,
+            isLast: session.isLastQuestion && session.isLast,
+            onNext: notifier.next,
+          )
+        else if (session.testAnswered)
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+            child: FilledButton(
+              style: FilledButton.styleFrom(
+                backgroundColor: AppColors.accent,
+                minimumSize: const Size.fromHeight(48),
+              ),
+              onPressed: notifier.next,
+              child: Text(
+                session.isLastQuestion && session.isLast ? '結果を見る' : '次へ',
+              ),
+            ),
+          )
+        else if (question is FlashcardSpellQuestion)
+          EnglishKeyboard(
+            layout: KeyboardLayout.fromValue(session.profile.keyboardLayout),
+            onKey: notifier.typeLetter,
+            onBackspace: notifier.backspace,
+            onSubmit: session.canSubmit
+                ? () => _guard(notifier.submitSpell)
+                : null,
+          ),
+      ],
+    );
   }
 }
 

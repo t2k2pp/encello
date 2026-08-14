@@ -2,7 +2,12 @@
 
 対応要件: FR-15〜FR-20
 実装: `ui/screens/spell_study_screen.dart`, `ui/widgets/english_keyboard.dart`,
-`ui/widgets/letter_tiles.dart`, `domain/usecases/spell_judge.dart`
+`ui/widgets/letter_tiles.dart`, `ui/widgets/spell_prompt.dart`,
+`domain/usecases/spell_judge.dart`
+
+判定（`SpellJudge`）と入力（`SpellPrompt` / `EnglishKeyboard` / `VerdictBanner`）は、
+フラッシュカードの確認テストからも同じものを使う（[flashcard_mode.md] §3）。
+綴りの判定を2か所に持たない。
 
 ## 1. 出題
 

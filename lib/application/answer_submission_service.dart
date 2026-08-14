@@ -24,6 +24,14 @@ class AnswerRecord {
   /// （[Docs/06_features/confusion_drill.md] §5）。取り違えている以上、両方あやふや。
   final int? alsoLowerWordId;
   final StudyMode mode;
+
+  /// XP のモード係数に使うモード。省略すると [mode] と同じ。
+  ///
+  /// フラッシュカードの確認テストだけが [mode] と違う値を渡す。統計上は
+  /// フラッシュカードの成績として残すが、産出の負荷はテストの形式（4択 / スペル）で
+  /// 決まるので、点はそちらの係数で付ける
+  /// （[Docs/06_features/flashcard_mode.md] §7、[gamification.md] §3）。
+  final StudyMode xpMode;
   final StudyDirection direction;
   final bool isCorrect;
 
@@ -47,6 +55,7 @@ class AnswerRecord {
     required this.isCorrect,
     required this.grade,
     required this.elapsedMs,
+    StudyMode? xpMode,
     this.wordId,
     this.partId,
     this.alsoLowerWordId,
@@ -54,7 +63,8 @@ class AnswerRecord {
     this.answeredText,
     this.hintUsed = 0,
     this.replayCount = 0,
-  }) : assert(
+  }) : xpMode = xpMode ?? mode,
+       assert(
          (wordId == null) != (partId == null),
          'wordId と partId はどちらか一方だけが非 null',
        );
@@ -138,7 +148,7 @@ class AnswerSubmissionService {
       }
 
       final baseXp = XpCalculator.forAnswer(
-        mode: record.mode,
+        mode: record.xpMode,
         isCorrect: record.isCorrect,
         isNearMiss: record.isNearMiss,
         hintUsed: record.hintUsed,

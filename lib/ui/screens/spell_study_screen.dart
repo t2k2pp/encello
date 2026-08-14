@@ -13,7 +13,7 @@ import '../../providers/audio.dart';
 import '../../providers/providers.dart';
 import '../dialogs/confirm_dialog.dart';
 import '../widgets/english_keyboard.dart';
-import '../widgets/letter_tiles.dart';
+import '../widgets/spell_prompt.dart';
 import '../widgets/verdict_banner.dart';
 import 'session_result_screen.dart';
 
@@ -291,95 +291,41 @@ class _Question extends ConsumerWidget {
     // リスニングは和訳を伏せる。「訳を見る」を押したときだけ出す。
     final showMeaning = !listening || session.meaningRevealed;
 
-    return Column(
-      children: [
-        const SizedBox(height: 8),
-        // リスニングでは品詞も伏せる（音から綴りを起こす練習にする）。
-        if (!listening)
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
-            decoration: BoxDecoration(
-              color: AppColors.chipBg,
-              borderRadius: BorderRadius.circular(999),
-            ),
-            child: Text(
-              PartOfSpeech.fromValue(word.partOfSpeech).label,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-              style: AppText.caption(color: AppColors.ink2),
-            ),
-          ),
-        if (listening) ...[
-          const SizedBox(height: 8),
+    return SpellPrompt(
+      word: word,
+      prompt: showMeaning ? (override?.prompt ?? word.meaning) : null,
+      // 語形変化では「名詞形にしなさい」を添える。
+      instruction: override?.instruction,
+      // リスニングでは品詞も伏せる（音から綴りを起こす練習にする）。
+      showPartOfSpeech: !listening,
+      header: listening
           // 聞き直しは何度でも。押した回数を記録する。
-          IconButton.filled(
-            iconSize: 40,
-            constraints: const BoxConstraints.tightFor(width: 72, height: 72),
-            style: IconButton.styleFrom(backgroundColor: AppColors.accent),
-            tooltip: 'もう一度聞く',
-            onPressed: answering ? onReplay : null,
-            icon: const Icon(Icons.volume_up, color: Colors.white),
-          ),
-          const SizedBox(height: 8),
-        ],
-        if (showMeaning) ...[
-          const SizedBox(height: 12),
-          // 長い和訳でも1行に収める。
-          FittedBox(
-            fit: BoxFit.scaleDown,
-            child: Text(
-              override?.prompt ?? word.meaning,
-              textAlign: TextAlign.center,
-              style: AppText.prompt(),
-            ),
-          ),
-          // 語形変化では「名詞形にしなさい」を添える。
-          if (override != null) ...[
-            const SizedBox(height: 6),
-            Text(
-              override.instruction,
-              textAlign: TextAlign.center,
-              style: AppText.body(color: AppColors.ink2),
-            ),
-          ],
-        ],
-        const SizedBox(height: 24),
-        LetterTiles(
-          answer: word.headword,
-          typed: session.typed,
-          revealedCount: session.hintUsed,
-        ),
-        const SizedBox(height: 20),
-        if (answering)
-          // ボタンは可変長ラベルの並びなので `Wrap` にする（STYLE_GUIDE §7）。
-          // リスニングでは「訳を見る」が加わって3つになり、狭い端末では
-          // 1行に収まらない。
-          Wrap(
-            alignment: WrapAlignment.spaceEvenly,
-            crossAxisAlignment: WrapCrossAlignment.center,
-            spacing: 4,
-            runSpacing: 4,
-            children: [
-              TextButton.icon(
-                onPressed: session.canHint ? notifier.hint : null,
-                icon: const Icon(Icons.lightbulb_outline, size: 18),
-                label: Text(
-                  session.hintUsed == 0 ? 'ヒント' : 'ヒント (${session.hintUsed})',
-                ),
+          ? IconButton.filled(
+              iconSize: 40,
+              constraints: const BoxConstraints.tightFor(
+                width: 72,
+                height: 72,
               ),
-              if (listening && !session.meaningRevealed)
-                TextButton.icon(
-                  onPressed: notifier.revealMeaning,
-                  icon: const Icon(Icons.translate, size: 18),
-                  label: const Text('訳を見る'),
-                ),
-              TextButton(
-                onPressed: session.busy ? null : notifier.giveUp,
-                child: const Text('わからない'),
-              ),
-            ],
+              style: IconButton.styleFrom(backgroundColor: AppColors.accent),
+              tooltip: 'もう一度聞く',
+              onPressed: answering ? onReplay : null,
+              icon: const Icon(Icons.volume_up, color: Colors.white),
+            )
+          : null,
+      extraActions: [
+        if (listening && !session.meaningRevealed)
+          TextButton.icon(
+            onPressed: notifier.revealMeaning,
+            icon: const Icon(Icons.translate, size: 18),
+            label: const Text('訳を見る'),
           ),
       ],
+      typed: session.typed,
+      hintUsed: session.hintUsed,
+      answering: answering,
+      canHint: session.canHint,
+      onHint: notifier.hint,
+      onGiveUp: session.busy ? null : notifier.giveUp,
     );
   }
 }

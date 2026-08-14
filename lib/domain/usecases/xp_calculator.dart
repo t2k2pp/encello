@@ -26,6 +26,13 @@ abstract final class XpCalculator {
   /// スピードモードで全問を時間内に正解したときのボーナス（セッション終了時に1回）。
   static const speedPerfectXp = 50;
 
+  /// モードごとの係数。
+  ///
+  /// フラッシュカードの確認テストは、この関数に**テストの形式**（4択なら
+  /// [StudyMode.choice]、スペルなら [StudyMode.spell]）を渡す
+  /// （`AnswerRecord.xpMode`）。産出の負荷に応じて点が変わるという上の考え方を、
+  /// フラッシュカードの中でも通すため。流し見だけでは解答が無いので XP も付かない。
+  /// [StudyMode.flashcard] 自体の係数は、その意味で出番が無い低めの値に留める。
   static double modeFactor(StudyMode mode) => switch (mode) {
     StudyMode.spell || StudyMode.listening || StudyMode.family => 1.5,
     StudyMode.speed => 1.2,

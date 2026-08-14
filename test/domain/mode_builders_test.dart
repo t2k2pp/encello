@@ -132,14 +132,11 @@ void main() {
       expect(GradeResolver.forSpeed(timedOut: false, isCorrect: false), 1);
     });
 
-    test('フラッシュカードは押さなければ更新しない', () {
-      expect(
-        GradeResolver.forFlashcard(remembered: null),
-        GradeResolver.noUpdate,
-      );
-      expect(GradeResolver.forFlashcard(remembered: true), 4);
-      expect(GradeResolver.forFlashcard(remembered: false), 2);
-    });
+    // フラッシュカード専用の grade 解決は持たない。確認テストの grade は、その
+    // 形式の入口（4択なら forChoice、スペルなら forSpell）をそのまま使う
+    // （[Docs/06_features/flashcard_mode.md] §6）。流し見だけのカードは解答が
+    // 無いので grade を決める場面が無い。進行そのものは
+    // test/widget/flashcard_round_test.dart で検証する。
   });
 
   group('ConfusionPairFinder', () {

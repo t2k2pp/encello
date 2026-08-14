@@ -205,6 +205,29 @@ class $ProfilesTable extends Profiles with TableInfo<$ProfilesTable, Profile> {
     requiredDuringInsert: false,
     defaultValue: const Constant(3),
   );
+  static const VerificationMeta _flashcardTestFormatMeta =
+      const VerificationMeta('flashcardTestFormat');
+  @override
+  late final GeneratedColumn<String> flashcardTestFormat =
+      GeneratedColumn<String>(
+        'flashcard_test_format',
+        aliasedName,
+        false,
+        type: DriftSqlType.string,
+        requiredDuringInsert: false,
+        defaultValue: const Constant('choice'),
+      );
+  static const VerificationMeta _flashcardRoundSizeMeta =
+      const VerificationMeta('flashcardRoundSize');
+  @override
+  late final GeneratedColumn<int> flashcardRoundSize = GeneratedColumn<int>(
+    'flashcard_round_size',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(10),
+  );
   static const VerificationMeta _choiceDirectionMeta = const VerificationMeta(
     'choiceDirection',
   );
@@ -394,6 +417,8 @@ class $ProfilesTable extends Profiles with TableInfo<$ProfilesTable, Profile> {
     autoNextOnCorrect,
     flashcardMode,
     flashcardSeconds,
+    flashcardTestFormat,
+    flashcardRoundSize,
     choiceDirection,
     speedLimitMs,
     selectedWordbookIds,
@@ -539,6 +564,24 @@ class $ProfilesTable extends Profiles with TableInfo<$ProfilesTable, Profile> {
         flashcardSeconds.isAcceptableOrUnknown(
           data['flashcard_seconds']!,
           _flashcardSecondsMeta,
+        ),
+      );
+    }
+    if (data.containsKey('flashcard_test_format')) {
+      context.handle(
+        _flashcardTestFormatMeta,
+        flashcardTestFormat.isAcceptableOrUnknown(
+          data['flashcard_test_format']!,
+          _flashcardTestFormatMeta,
+        ),
+      );
+    }
+    if (data.containsKey('flashcard_round_size')) {
+      context.handle(
+        _flashcardRoundSizeMeta,
+        flashcardRoundSize.isAcceptableOrUnknown(
+          data['flashcard_round_size']!,
+          _flashcardRoundSizeMeta,
         ),
       );
     }
@@ -729,6 +772,14 @@ class $ProfilesTable extends Profiles with TableInfo<$ProfilesTable, Profile> {
         DriftSqlType.int,
         data['${effectivePrefix}flashcard_seconds'],
       )!,
+      flashcardTestFormat: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}flashcard_test_format'],
+      )!,
+      flashcardRoundSize: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}flashcard_round_size'],
+      )!,
       choiceDirection: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}choice_direction'],
@@ -819,6 +870,14 @@ class Profile extends DataClass implements Insertable<Profile> {
   final bool autoNextOnCorrect;
   final String flashcardMode;
   final int flashcardSeconds;
+
+  /// 流し見のあとに出す確認テストの形式（`FlashcardTestFormat`）。
+  /// 既定を `choice` にするのは、テストを通ってはじめて成績に意味が出るため
+  /// （[Docs/06_features/flashcard_mode.md] §3）。
+  final String flashcardTestFormat;
+
+  /// 確認テストまでに流し見する枚数（ラウンドの長さ）。
+  final int flashcardRoundSize;
   final String choiceDirection;
 
   /// スピードモードの制限時間（ミリ秒）。
@@ -858,6 +917,8 @@ class Profile extends DataClass implements Insertable<Profile> {
     required this.autoNextOnCorrect,
     required this.flashcardMode,
     required this.flashcardSeconds,
+    required this.flashcardTestFormat,
+    required this.flashcardRoundSize,
     required this.choiceDirection,
     required this.speedLimitMs,
     required this.selectedWordbookIds,
@@ -892,6 +953,8 @@ class Profile extends DataClass implements Insertable<Profile> {
     map['auto_next_on_correct'] = Variable<bool>(autoNextOnCorrect);
     map['flashcard_mode'] = Variable<String>(flashcardMode);
     map['flashcard_seconds'] = Variable<int>(flashcardSeconds);
+    map['flashcard_test_format'] = Variable<String>(flashcardTestFormat);
+    map['flashcard_round_size'] = Variable<int>(flashcardRoundSize);
     map['choice_direction'] = Variable<String>(choiceDirection);
     map['speed_limit_ms'] = Variable<int>(speedLimitMs);
     map['selected_wordbook_ids'] = Variable<String>(selectedWordbookIds);
@@ -927,6 +990,8 @@ class Profile extends DataClass implements Insertable<Profile> {
       autoNextOnCorrect: Value(autoNextOnCorrect),
       flashcardMode: Value(flashcardMode),
       flashcardSeconds: Value(flashcardSeconds),
+      flashcardTestFormat: Value(flashcardTestFormat),
+      flashcardRoundSize: Value(flashcardRoundSize),
       choiceDirection: Value(choiceDirection),
       speedLimitMs: Value(speedLimitMs),
       selectedWordbookIds: Value(selectedWordbookIds),
@@ -966,6 +1031,10 @@ class Profile extends DataClass implements Insertable<Profile> {
       autoNextOnCorrect: serializer.fromJson<bool>(json['autoNextOnCorrect']),
       flashcardMode: serializer.fromJson<String>(json['flashcardMode']),
       flashcardSeconds: serializer.fromJson<int>(json['flashcardSeconds']),
+      flashcardTestFormat: serializer.fromJson<String>(
+        json['flashcardTestFormat'],
+      ),
+      flashcardRoundSize: serializer.fromJson<int>(json['flashcardRoundSize']),
       choiceDirection: serializer.fromJson<String>(json['choiceDirection']),
       speedLimitMs: serializer.fromJson<int>(json['speedLimitMs']),
       selectedWordbookIds: serializer.fromJson<String>(
@@ -1004,6 +1073,8 @@ class Profile extends DataClass implements Insertable<Profile> {
       'autoNextOnCorrect': serializer.toJson<bool>(autoNextOnCorrect),
       'flashcardMode': serializer.toJson<String>(flashcardMode),
       'flashcardSeconds': serializer.toJson<int>(flashcardSeconds),
+      'flashcardTestFormat': serializer.toJson<String>(flashcardTestFormat),
+      'flashcardRoundSize': serializer.toJson<int>(flashcardRoundSize),
       'choiceDirection': serializer.toJson<String>(choiceDirection),
       'speedLimitMs': serializer.toJson<int>(speedLimitMs),
       'selectedWordbookIds': serializer.toJson<String>(selectedWordbookIds),
@@ -1038,6 +1109,8 @@ class Profile extends DataClass implements Insertable<Profile> {
     bool? autoNextOnCorrect,
     String? flashcardMode,
     int? flashcardSeconds,
+    String? flashcardTestFormat,
+    int? flashcardRoundSize,
     String? choiceDirection,
     int? speedLimitMs,
     String? selectedWordbookIds,
@@ -1069,6 +1142,8 @@ class Profile extends DataClass implements Insertable<Profile> {
     autoNextOnCorrect: autoNextOnCorrect ?? this.autoNextOnCorrect,
     flashcardMode: flashcardMode ?? this.flashcardMode,
     flashcardSeconds: flashcardSeconds ?? this.flashcardSeconds,
+    flashcardTestFormat: flashcardTestFormat ?? this.flashcardTestFormat,
+    flashcardRoundSize: flashcardRoundSize ?? this.flashcardRoundSize,
     choiceDirection: choiceDirection ?? this.choiceDirection,
     speedLimitMs: speedLimitMs ?? this.speedLimitMs,
     selectedWordbookIds: selectedWordbookIds ?? this.selectedWordbookIds,
@@ -1118,6 +1193,12 @@ class Profile extends DataClass implements Insertable<Profile> {
       flashcardSeconds: data.flashcardSeconds.present
           ? data.flashcardSeconds.value
           : this.flashcardSeconds,
+      flashcardTestFormat: data.flashcardTestFormat.present
+          ? data.flashcardTestFormat.value
+          : this.flashcardTestFormat,
+      flashcardRoundSize: data.flashcardRoundSize.present
+          ? data.flashcardRoundSize.value
+          : this.flashcardRoundSize,
       choiceDirection: data.choiceDirection.present
           ? data.choiceDirection.value
           : this.choiceDirection,
@@ -1174,6 +1255,8 @@ class Profile extends DataClass implements Insertable<Profile> {
           ..write('autoNextOnCorrect: $autoNextOnCorrect, ')
           ..write('flashcardMode: $flashcardMode, ')
           ..write('flashcardSeconds: $flashcardSeconds, ')
+          ..write('flashcardTestFormat: $flashcardTestFormat, ')
+          ..write('flashcardRoundSize: $flashcardRoundSize, ')
           ..write('choiceDirection: $choiceDirection, ')
           ..write('speedLimitMs: $speedLimitMs, ')
           ..write('selectedWordbookIds: $selectedWordbookIds, ')
@@ -1210,6 +1293,8 @@ class Profile extends DataClass implements Insertable<Profile> {
     autoNextOnCorrect,
     flashcardMode,
     flashcardSeconds,
+    flashcardTestFormat,
+    flashcardRoundSize,
     choiceDirection,
     speedLimitMs,
     selectedWordbookIds,
@@ -1245,6 +1330,8 @@ class Profile extends DataClass implements Insertable<Profile> {
           other.autoNextOnCorrect == this.autoNextOnCorrect &&
           other.flashcardMode == this.flashcardMode &&
           other.flashcardSeconds == this.flashcardSeconds &&
+          other.flashcardTestFormat == this.flashcardTestFormat &&
+          other.flashcardRoundSize == this.flashcardRoundSize &&
           other.choiceDirection == this.choiceDirection &&
           other.speedLimitMs == this.speedLimitMs &&
           other.selectedWordbookIds == this.selectedWordbookIds &&
@@ -1278,6 +1365,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
   final Value<bool> autoNextOnCorrect;
   final Value<String> flashcardMode;
   final Value<int> flashcardSeconds;
+  final Value<String> flashcardTestFormat;
+  final Value<int> flashcardRoundSize;
   final Value<String> choiceDirection;
   final Value<int> speedLimitMs;
   final Value<String> selectedWordbookIds;
@@ -1309,6 +1398,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
     this.autoNextOnCorrect = const Value.absent(),
     this.flashcardMode = const Value.absent(),
     this.flashcardSeconds = const Value.absent(),
+    this.flashcardTestFormat = const Value.absent(),
+    this.flashcardRoundSize = const Value.absent(),
     this.choiceDirection = const Value.absent(),
     this.speedLimitMs = const Value.absent(),
     this.selectedWordbookIds = const Value.absent(),
@@ -1341,6 +1432,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
     this.autoNextOnCorrect = const Value.absent(),
     this.flashcardMode = const Value.absent(),
     this.flashcardSeconds = const Value.absent(),
+    this.flashcardTestFormat = const Value.absent(),
+    this.flashcardRoundSize = const Value.absent(),
     this.choiceDirection = const Value.absent(),
     this.speedLimitMs = const Value.absent(),
     this.selectedWordbookIds = const Value.absent(),
@@ -1374,6 +1467,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
     Expression<bool>? autoNextOnCorrect,
     Expression<String>? flashcardMode,
     Expression<int>? flashcardSeconds,
+    Expression<String>? flashcardTestFormat,
+    Expression<int>? flashcardRoundSize,
     Expression<String>? choiceDirection,
     Expression<int>? speedLimitMs,
     Expression<String>? selectedWordbookIds,
@@ -1406,6 +1501,10 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
       if (autoNextOnCorrect != null) 'auto_next_on_correct': autoNextOnCorrect,
       if (flashcardMode != null) 'flashcard_mode': flashcardMode,
       if (flashcardSeconds != null) 'flashcard_seconds': flashcardSeconds,
+      if (flashcardTestFormat != null)
+        'flashcard_test_format': flashcardTestFormat,
+      if (flashcardRoundSize != null)
+        'flashcard_round_size': flashcardRoundSize,
       if (choiceDirection != null) 'choice_direction': choiceDirection,
       if (speedLimitMs != null) 'speed_limit_ms': speedLimitMs,
       if (selectedWordbookIds != null)
@@ -1441,6 +1540,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
     Value<bool>? autoNextOnCorrect,
     Value<String>? flashcardMode,
     Value<int>? flashcardSeconds,
+    Value<String>? flashcardTestFormat,
+    Value<int>? flashcardRoundSize,
     Value<String>? choiceDirection,
     Value<int>? speedLimitMs,
     Value<String>? selectedWordbookIds,
@@ -1473,6 +1574,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
       autoNextOnCorrect: autoNextOnCorrect ?? this.autoNextOnCorrect,
       flashcardMode: flashcardMode ?? this.flashcardMode,
       flashcardSeconds: flashcardSeconds ?? this.flashcardSeconds,
+      flashcardTestFormat: flashcardTestFormat ?? this.flashcardTestFormat,
+      flashcardRoundSize: flashcardRoundSize ?? this.flashcardRoundSize,
       choiceDirection: choiceDirection ?? this.choiceDirection,
       speedLimitMs: speedLimitMs ?? this.speedLimitMs,
       selectedWordbookIds: selectedWordbookIds ?? this.selectedWordbookIds,
@@ -1541,6 +1644,14 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
     if (flashcardSeconds.present) {
       map['flashcard_seconds'] = Variable<int>(flashcardSeconds.value);
     }
+    if (flashcardTestFormat.present) {
+      map['flashcard_test_format'] = Variable<String>(
+        flashcardTestFormat.value,
+      );
+    }
+    if (flashcardRoundSize.present) {
+      map['flashcard_round_size'] = Variable<int>(flashcardRoundSize.value);
+    }
     if (choiceDirection.present) {
       map['choice_direction'] = Variable<String>(choiceDirection.value);
     }
@@ -1607,6 +1718,8 @@ class ProfilesCompanion extends UpdateCompanion<Profile> {
           ..write('autoNextOnCorrect: $autoNextOnCorrect, ')
           ..write('flashcardMode: $flashcardMode, ')
           ..write('flashcardSeconds: $flashcardSeconds, ')
+          ..write('flashcardTestFormat: $flashcardTestFormat, ')
+          ..write('flashcardRoundSize: $flashcardRoundSize, ')
           ..write('choiceDirection: $choiceDirection, ')
           ..write('speedLimitMs: $speedLimitMs, ')
           ..write('selectedWordbookIds: $selectedWordbookIds, ')
@@ -11077,6 +11190,8 @@ typedef $$ProfilesTableCreateCompanionBuilder =
       Value<bool> autoNextOnCorrect,
       Value<String> flashcardMode,
       Value<int> flashcardSeconds,
+      Value<String> flashcardTestFormat,
+      Value<int> flashcardRoundSize,
       Value<String> choiceDirection,
       Value<int> speedLimitMs,
       Value<String> selectedWordbookIds,
@@ -11110,6 +11225,8 @@ typedef $$ProfilesTableUpdateCompanionBuilder =
       Value<bool> autoNextOnCorrect,
       Value<String> flashcardMode,
       Value<int> flashcardSeconds,
+      Value<String> flashcardTestFormat,
+      Value<int> flashcardRoundSize,
       Value<String> choiceDirection,
       Value<int> speedLimitMs,
       Value<String> selectedWordbookIds,
@@ -11401,6 +11518,16 @@ class $$ProfilesTableFilterComposer
 
   ColumnFilters<int> get flashcardSeconds => $composableBuilder(
     column: $table.flashcardSeconds,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get flashcardTestFormat => $composableBuilder(
+    column: $table.flashcardTestFormat,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get flashcardRoundSize => $composableBuilder(
+    column: $table.flashcardRoundSize,
     builder: (column) => ColumnFilters(column),
   );
 
@@ -11814,6 +11941,16 @@ class $$ProfilesTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
+  ColumnOrderings<String> get flashcardTestFormat => $composableBuilder(
+    column: $table.flashcardTestFormat,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get flashcardRoundSize => $composableBuilder(
+    column: $table.flashcardRoundSize,
+    builder: (column) => ColumnOrderings(column),
+  );
+
   ColumnOrderings<String> get choiceDirection => $composableBuilder(
     column: $table.choiceDirection,
     builder: (column) => ColumnOrderings(column),
@@ -11955,6 +12092,16 @@ class $$ProfilesTableAnnotationComposer
 
   GeneratedColumn<int> get flashcardSeconds => $composableBuilder(
     column: $table.flashcardSeconds,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<String> get flashcardTestFormat => $composableBuilder(
+    column: $table.flashcardTestFormat,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<int> get flashcardRoundSize => $composableBuilder(
+    column: $table.flashcardRoundSize,
     builder: (column) => column,
   );
 
@@ -12327,6 +12474,8 @@ class $$ProfilesTableTableManager
                 Value<bool> autoNextOnCorrect = const Value.absent(),
                 Value<String> flashcardMode = const Value.absent(),
                 Value<int> flashcardSeconds = const Value.absent(),
+                Value<String> flashcardTestFormat = const Value.absent(),
+                Value<int> flashcardRoundSize = const Value.absent(),
                 Value<String> choiceDirection = const Value.absent(),
                 Value<int> speedLimitMs = const Value.absent(),
                 Value<String> selectedWordbookIds = const Value.absent(),
@@ -12358,6 +12507,8 @@ class $$ProfilesTableTableManager
                 autoNextOnCorrect: autoNextOnCorrect,
                 flashcardMode: flashcardMode,
                 flashcardSeconds: flashcardSeconds,
+                flashcardTestFormat: flashcardTestFormat,
+                flashcardRoundSize: flashcardRoundSize,
                 choiceDirection: choiceDirection,
                 speedLimitMs: speedLimitMs,
                 selectedWordbookIds: selectedWordbookIds,
@@ -12391,6 +12542,8 @@ class $$ProfilesTableTableManager
                 Value<bool> autoNextOnCorrect = const Value.absent(),
                 Value<String> flashcardMode = const Value.absent(),
                 Value<int> flashcardSeconds = const Value.absent(),
+                Value<String> flashcardTestFormat = const Value.absent(),
+                Value<int> flashcardRoundSize = const Value.absent(),
                 Value<String> choiceDirection = const Value.absent(),
                 Value<int> speedLimitMs = const Value.absent(),
                 Value<String> selectedWordbookIds = const Value.absent(),
@@ -12422,6 +12575,8 @@ class $$ProfilesTableTableManager
                 autoNextOnCorrect: autoNextOnCorrect,
                 flashcardMode: flashcardMode,
                 flashcardSeconds: flashcardSeconds,
+                flashcardTestFormat: flashcardTestFormat,
+                flashcardRoundSize: flashcardRoundSize,
                 choiceDirection: choiceDirection,
                 speedLimitMs: speedLimitMs,
                 selectedWordbookIds: selectedWordbookIds,

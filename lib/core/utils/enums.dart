@@ -81,6 +81,26 @@ enum FlashcardMode {
   );
 }
 
+/// フラッシュカードの確認テストの形式（FR-113）。
+///
+/// 流し見のラウンドが終わるたびに、そのラウンドで見せた語をこの形式で問う
+/// （[Docs/06_features/flashcard_mode.md] §3）。
+enum FlashcardTestFormat {
+  none('none', 'テストなし'),
+  choice('choice', '4択'),
+  spell('spell', 'スペル');
+
+  final String value;
+  final String label;
+  const FlashcardTestFormat(this.value, this.label);
+
+  static FlashcardTestFormat fromValue(String v) =>
+      FlashcardTestFormat.values.firstWhere(
+        (e) => e.value == v,
+        orElse: () => throw FormatException('未知のFlashcardTestFormat: $v'),
+      );
+}
+
 /// 4択クイズの出題方向（FR-27）。
 enum ChoiceDirection {
   enToJa('enToJa', '英語→日本語'),

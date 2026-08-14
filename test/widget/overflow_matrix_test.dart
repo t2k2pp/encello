@@ -1000,6 +1000,8 @@ void main() {
               .start(
                 profile: p,
                 mode: mode,
+                // 流し見そのものの折り返しを見たいので、テストを挟まない形で回す。
+                testFormat: FlashcardTestFormat.none,
                 policy: QueuePolicy.reviewFirst,
                 limit: 5,
               ),

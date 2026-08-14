@@ -63,6 +63,9 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
   late FlashcardMode _flashcardMode = FlashcardMode.fromValue(
     widget.profile.flashcardMode,
   );
+  late FlashcardTestFormat _testFormat = FlashcardTestFormat.fromValue(
+    widget.profile.flashcardTestFormat,
+  );
   bool _starting = false;
 
   /// 開始できなかった理由。シートを閉じずにここへ1行で出す。
@@ -92,6 +95,7 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
             .start(
               profile: widget.profile,
               mode: _flashcardMode,
+              testFormat: _testFormat,
               policy: _policy,
               limit: _limit,
             );
@@ -213,6 +217,21 @@ class _StartStudySheetState extends ConsumerState<_StartStudySheet> {
                       (value: m, label: m.label),
                   ],
                   onChanged: (m) => setState(() => _flashcardMode = m),
+                ),
+              ),
+            // 流し見のあとに何で確かめるか。ここで選べないと、確かめ方を変える
+            // たびに設定画面へ行くことになる（[Docs/06_features/flashcard_mode.md] §3）。
+            if (_mode == StudyMode.flashcard)
+              _Row(
+                label: '確認テスト',
+                child: SoftDropdown<FlashcardTestFormat>(
+                  value: _testFormat,
+                  hint: '確認テスト',
+                  items: [
+                    for (final f in FlashcardTestFormat.values)
+                      (value: f, label: f.label),
+                  ],
+                  onChanged: (f) => setState(() => _testFormat = f),
                 ),
               ),
             _Row(

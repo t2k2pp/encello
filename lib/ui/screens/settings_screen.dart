@@ -113,8 +113,12 @@ Future<void> _patchProfile(
   await ref.read(activeProfileProvider.notifier).reload();
 }
 
-/// 学習タブ。フラッシュカード・4択・スピードの出題設定は、モード選択シートから
-/// その場で変えられるためここには重ねて置かない。
+/// 学習タブ。4択・スピードの出題設定は、モード選択シートからその場で変えられる
+/// ためここには重ねて置かない。
+///
+/// フラッシュカードの確認テストだけは例外で、ここにも置く。形式によって
+/// 成績が付くかどうかまで変わるので、シートの1行だけでは説明が足りない
+/// （[Docs/06_features/flashcard_mode.md] §3）。
 class _StudyTab extends ConsumerWidget {
   final Profile profile;
 
@@ -131,6 +135,8 @@ class _StudyTab extends ConsumerWidget {
         _SessionSizeCard(profile: profile),
         SizedBox(height: spacing.gap),
         _KeyboardLayoutCard(profile: profile),
+        SizedBox(height: spacing.gap),
+        _FlashcardTestCard(profile: profile),
         SizedBox(height: spacing.gap),
         _AutoNextCard(profile: profile),
         SizedBox(height: spacing.gap),
@@ -259,6 +265,75 @@ class _KeyboardLayoutCard extends ConsumerWidget {
               ProfilesCompanion(keyboardLayout: Value(s.first.value)),
             ),
           ),
+        ],
+      ),
+    );
+  }
+}
+
+/// フラッシュカードの確認テスト（FR-113、[Docs/06_features/flashcard_mode.md] §3）。
+///
+/// 流し見だけでは「覚えたか」が分からないので、既定では4択で確かめる。
+/// ラウンドの枚数は、確かめるまでに何枚浴びるかを決める。
+class _FlashcardTestCard extends ConsumerWidget {
+  final Profile profile;
+
+  const _FlashcardTestCard({required this.profile});
+
+  /// ラウンドの枚数。短いほど思い出しやすく、長いほど負荷が高い。
+  static const _roundSizes = [5, 10, 20];
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final format = FlashcardTestFormat.fromValue(profile.flashcardTestFormat);
+    return SoftCard(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text('フラッシュカードの確認テスト', style: AppText.sectionTitle()),
+          const SizedBox(height: 4),
+          Text(
+            '何枚か流し見したあと、その語を覚えているか確かめます。'
+            'テストなしを選ぶと流し見だけになり、成績は付きません。',
+            style: AppText.caption(),
+          ),
+          const SizedBox(height: 12),
+          SegmentedButton<FlashcardTestFormat>(
+            showSelectedIcon: false,
+            segments: [
+              for (final f in FlashcardTestFormat.values)
+                ButtonSegment(value: f, label: Text(f.label)),
+            ],
+            selected: {format},
+            onSelectionChanged: (s) => _patchProfile(
+              ref,
+              profile.id,
+              ProfilesCompanion(flashcardTestFormat: Value(s.first.value)),
+            ),
+          ),
+          // テストしないなら区切る意味が無いので、枚数は出さない。
+          if (format != FlashcardTestFormat.none) ...[
+            const SizedBox(height: 16),
+            Text('確認テストまでの枚数', style: AppText.caption()),
+            const SizedBox(height: 8),
+            SegmentedButton<int>(
+              showSelectedIcon: false,
+              segments: [
+                for (final n in _roundSizes)
+                  ButtonSegment(value: n, label: Text('$n枚')),
+              ],
+              selected: {
+                _roundSizes.contains(profile.flashcardRoundSize)
+                    ? profile.flashcardRoundSize
+                    : 10,
+              },
+              onSelectionChanged: (s) => _patchProfile(
+                ref,
+                profile.id,
+                ProfilesCompanion(flashcardRoundSize: Value(s.first)),
+              ),
+            ),
+          ],
         ],
       ),
     );

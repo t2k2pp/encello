@@ -4,17 +4,17 @@ import 'package:encello/data/database/app_database.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqlite3/sqlite3.dart';
 
-/// v1 → v2 の移行（[Docs/03_data_model.md] §2.4・§9）。
+/// v1 → v2 → v3 の移行（[Docs/03_data_model.md] §2.4・§9）。
 ///
-/// `drift_schemas/` はまだ無いため、v1 相当の DB を手で組んで確かめる。
-/// いまの schema で作った DB から `word_examples` を落とし、`words` に単数の
-/// 例文2列を戻し、`user_version` を 1 にすれば v1 相当になる。
+/// `drift_schemas/` はまだ無いため、古い版に相当する DB を手で組んで確かめる。
+/// いまの schema で作った DB から、その版より後に入った列や表を落とし、
+/// `user_version` を戻せば古い版に相当する。
 void main() {
   late Database raw;
 
-  /// v1 相当の DB を1つ用意する。返した [Database] のまま `AppDatabase` を開けば
-  /// `onUpgrade` が走る。
-  Future<Database> openV1() async {
+  /// いまの schema で空の DB を作る。返した [Database] のまま `AppDatabase` を
+  /// 開けば `onUpgrade` が走る。
+  Future<Database> openCurrent() async {
     final raw = sqlite3.openInMemory();
     final seed = AppDatabase(
       NativeDatabase.opened(raw, closeUnderlyingOnClose: false),
@@ -22,7 +22,22 @@ void main() {
     // 1文投げて schema を作らせる（drift は初回のクエリで onCreate を走らせる）。
     await seed.select(seed.words).get();
     await seed.close();
+    return raw;
+  }
 
+  /// v2 相当。フラッシュカードの確認テストの2列がまだ無い。
+  Future<Database> openV2() async {
+    final raw = await openCurrent();
+    raw.execute('ALTER TABLE profiles DROP COLUMN flashcard_test_format');
+    raw.execute('ALTER TABLE profiles DROP COLUMN flashcard_round_size');
+    raw.execute('PRAGMA user_version = 2');
+    return raw;
+  }
+
+  /// v1 相当。v2 の状態からさらに `word_examples` を落とし、`words` に単数の
+  /// 例文2列を戻す。
+  Future<Database> openV1() async {
+    final raw = await openV2();
     raw.execute('DROP TABLE word_examples');
     raw.execute('ALTER TABLE words ADD COLUMN example_en TEXT');
     raw.execute('ALTER TABLE words ADD COLUMN example_ja TEXT');
@@ -143,5 +158,34 @@ void main() {
     insertV1Word(headword: 'pear', presetId: 'jhs_v1:pear:noun');
 
     expect(await migrateAndReadExamples(), isEmpty);
+  });
+
+  // v2 → v3: フラッシュカードの確認テストの2列を足す
+  // （[Docs/06_features/flashcard_mode.md] §3）。
+  group('v2 → v3', () {
+    late Database v2;
+
+    setUp(() async {
+      v2 = await openV2();
+      addTearDown(v2.close);
+    });
+
+    test('確認テストの設定が既定（4択・10枚）で入る', () async {
+      // 列が無かった頃の学習者を1件作っておく。
+      v2.execute(
+        "INSERT INTO profiles (name, emoji, color_seed) VALUES ('たろう', '🙂', 0)",
+      );
+
+      final db = AppDatabase(
+        NativeDatabase.opened(v2, closeUnderlyingOnClose: false),
+      );
+      addTearDown(db.close);
+      final profile = await db.select(db.profiles).getSingle();
+
+      expect(profile.name, 'たろう');
+      // 流し見だけでは覚えたか分からないので、既定は確認テストありにする。
+      expect(profile.flashcardTestFormat, 'choice');
+      expect(profile.flashcardRoundSize, 10);
+    });
   });
 }

@@ -1,7 +1,12 @@
 # 4択クイズモード（Choice Mode）
 
 対応要件: FR-27〜FR-29
-実装: `ui/screens/choice_study_screen.dart`, `domain/usecases/choice_distractors.dart`
+実装: `ui/screens/choice_study_screen.dart`, `domain/usecases/choice_distractors.dart`,
+`ui/widgets/choice_question_view.dart`
+
+出題の組み立て（`ChoiceQuestionBuilder` / `ChoiceDistractors`）と描画
+（`ChoiceQuestionView`）は、フラッシュカードの確認テストからも同じものを使う
+（[flashcard_mode.md] §3）。4択の見た目・誤答の選び方を2つ持たない。
 
 ## 1. 出題方向
 

@@ -252,6 +252,8 @@ class ExportImportService {
       'autoNextOnCorrect': profile.autoNextOnCorrect,
       'flashcardMode': profile.flashcardMode,
       'flashcardSeconds': profile.flashcardSeconds,
+      'flashcardTestFormat': profile.flashcardTestFormat,
+      'flashcardRoundSize': profile.flashcardRoundSize,
       'choiceDirection': profile.choiceDirection,
       'speedLimitMs': profile.speedLimitMs,
       'audioSource': profile.audioSource,
@@ -1007,6 +1009,14 @@ class ExportImportService {
               json['flashcardMode'] as String? ?? 'silentAuto',
             ),
             flashcardSeconds: Value(json['flashcardSeconds'] as int? ?? 3),
+            // 確認テストが無かった頃のバックアップには鍵が無い。列の既定と
+            // 同じ値（4択・10枚）で読み込む。
+            flashcardTestFormat: Value(
+              json['flashcardTestFormat'] as String? ?? 'choice',
+            ),
+            flashcardRoundSize: Value(
+              json['flashcardRoundSize'] as int? ?? 10,
+            ),
             choiceDirection: Value(
               json['choiceDirection'] as String? ?? 'random',
             ),

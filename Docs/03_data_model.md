@@ -1,6 +1,6 @@
 # 03. データモデル（Data Model）
 
-Drift（SQLite）で端末内に保存する。`schemaVersion = 2`。
+Drift（SQLite）で端末内に保存する。`schemaVersion = 3`。
 
 1台の端末を複数人で使うため、**単語そのものは全員で共有し、学習の記録は人ごとに分ける**
 （[06_features/profiles.md]）。学習設定・表示設定も `profiles` の列に持ち、
@@ -87,7 +87,8 @@ erDiagram
 - 識別（`name` / `emoji` / `colorSeed`）
 - 表示設定（`palette` / `textScale` / `density` / `dictViewMode` / `dictGridColumns` / `searchExamples`）
 - 学習設定（`dailyGoal` / `sessionSize` / `keyboardLayout` / `autoNextOnCorrect` /
-  `flashcardMode` / `flashcardSeconds` / `choiceDirection` / `speedLimitMs` / `selectedWordbookIds`）
+  `flashcardMode` / `flashcardSeconds` / `flashcardTestFormat` / `flashcardRoundSize` /
+  `choiceDirection` / `speedLimitMs` / `selectedWordbookIds`）
 - 音声設定（`audioSource` / `audioPackIds` / `ttsEnVoice` / `ttsJaVoice` / `ttsRate` / `ttsPitch`）
 - リマインダー（`reminderEnabled` / `reminderHour` / `reminderMinute`）
 
@@ -426,8 +427,12 @@ String studyDateOf(DateTime local) {
 
 - `schemaVersion` で管理する。
   - **未整備**: 「`drift_dev` が生成するスキーマスナップショットに対して各版のテストを書く」と
-    決めてあるが、`drift_schemas/` はまだ無い。`schemaVersion = 2` への移行は
-    v1 相当の DDL を手で組んだ DB に対して確認した。M9 でスナップショットを導入する。
+    決めてあるが、`drift_schemas/` はまだ無い。`schemaVersion = 2` / `3` への移行は
+    その版に相当する DB を手で組んで確認した（`test/data/migration_test.dart`）。
+    M9 でスナップショットを導入する。
+  - `schemaVersion = 3`: `profiles` に `flashcardTestFormat` / `flashcardRoundSize` を
+    足した（フラッシュカードの確認テスト。[06_features/flashcard_mode.md] §3）。
+    既存の学習者には列の既定値（`choice` / 10枚）が入る。
 - 破壊的変更（列の削除・型変更）は行わず、追加と移行で対応する。
   - **例外**: まだ配信していない版に限り、破壊的変更を許す。
     この方針は出荷済みの端末にあるデータを守るためのもので、守る対象が存在しないうちは、
