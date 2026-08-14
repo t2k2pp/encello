@@ -304,6 +304,17 @@ class ChoiceSessionController extends Notifier<ChoiceSessionState?> {
     );
   }
 
+  /// 問題を「いま提示した」ことにして、反応時間の起点を打ち直す。
+  ///
+  /// スピードはカウントダウンのあいだ問題を隠すので、その時間を反応時間に
+  /// 含めてはいけない（[Docs/06_features/speed_mode.md] §2.1）。
+  /// カウントダウンが終わって問題が見えた瞬間に画面がこれを呼ぶ。
+  void markPresented() {
+    final s = state;
+    if (s == null || s.phase != StudyPhase.presenting || s.busy) return;
+    state = s.copyWith(presentedAt: ref.read(clockProvider)());
+  }
+
   void next() {
     final s = state;
     if (s == null || s.phase != StudyPhase.feedback || s.busy) return;

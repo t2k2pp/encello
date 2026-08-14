@@ -32,21 +32,69 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
   /// 正誤のフラッシュ後に自動で進むタイマー（スピードのみ）。
   Timer? _flashTimer;
 
+  /// 問題を出す前のカウントダウン（スピードのみ）。
+  Timer? _countdownTimer;
+
+  /// カウントダウンの残り。null なら数えていない（＝問題が見えている）。
+  int? _countdown;
+
   int? _armedIndex;
+
+  /// セッションの最初だけ長めに数える。いきなり1問目が出ると身構える間が無い。
+  static const _firstCountdown = 3;
+
+  /// 問題と問題のあいだの合図。ここも3秒数えると50問で2分半が待ち時間になり、
+  /// 「見た瞬間に意味が出てくる速さ」を鍛えるという目的が壊れる（§2.1）。
+  static const _betweenCountdown = 1;
 
   @override
   void dispose() {
     _limit?.dispose();
     _flashTimer?.cancel();
+    _countdownTimer?.cancel();
     super.dispose();
   }
 
-  /// スピードは制限時間つき。時間切れも `Judging` を通す（記録は残す）。
-  void _armLimit(ChoiceSessionState session) {
+  /// スピードは、カウントダウンを挟んでから問題を出す。
+  ///
+  /// 数え終わるまで問題は隠す。見せたまま数えると、そのぶんが考える時間になり、
+  /// 反応時間が測れなくなる（§2.1）。
+  void _armQuestion(ChoiceSessionState session) {
     if (session.mode != StudyMode.speed) return;
     if (_armedIndex == session.index) return;
     _armedIndex = session.index;
 
+    _countdownTimer?.cancel();
+    _tickCountdown(
+      session,
+      session.index == 0 ? _firstCountdown : _betweenCountdown,
+    );
+  }
+
+  /// 残り [remaining] 秒から1秒ずつ数える。0 になったら問題を見せて計測を始める。
+  void _tickCountdown(ChoiceSessionState session, int remaining) {
+    setState(() => _countdown = remaining);
+    _countdownTimer = Timer(const Duration(seconds: 1), () {
+      if (!mounted) return;
+      final current = ref.read(choiceSessionProvider);
+      if (current == null ||
+          current.phase != StudyPhase.presenting ||
+          current.index != session.index) {
+        return;
+      }
+      if (remaining > 1) {
+        _tickCountdown(session, remaining - 1);
+        return;
+      }
+      setState(() => _countdown = null);
+      // 問題が見えた瞬間を反応時間の起点にする。
+      ref.read(choiceSessionProvider.notifier).markPresented();
+      _armLimit(session);
+    });
+  }
+
+  /// 制限時間を計り始める。時間切れも `Judging` を通す（記録は残す）。
+  void _armLimit(ChoiceSessionState session) {
     _limit?.dispose();
     final controller = AnimationController(
       vsync: this,
@@ -122,7 +170,7 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
 
     if (session.phase == StudyPhase.presenting) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (mounted) _armLimit(session);
+        if (mounted) _armQuestion(session);
       });
     }
 
@@ -163,28 +211,28 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
                       ],
                     ),
                   ),
-                  // 残り時間は細いバーだけ。数字のカウントダウンは出さず、
-                  // 点滅・色変化もさせない（急かしすぎない）。
-                  if (session.mode == StudyMode.speed && _limit != null)
-                    AnimatedBuilder(
-                      animation: _limit!,
-                      builder: (context, _) => LinearProgressIndicator(
-                        value: 1 - _limit!.value,
-                        minHeight: 4,
-                        backgroundColor: AppColors.line,
-                        color: AppColors.accent,
-                      ),
-                    ),
+                  // 残り時間はバーと数字の両方で出す。バーだけだと、あとどれだけ
+                  // 猶予があるのかが読み取れず、時間切れが不意打ちになる（§2.1）。
+                  if (session.mode == StudyMode.speed &&
+                      _limit != null &&
+                      _countdown == null)
+                    _RemainingTime(limit: _limit!),
                   Expanded(
-                    child: SingleChildScrollView(
-                      padding: const EdgeInsets.all(16),
-                      child: ChoiceQuestionView(
-                        question: question,
-                        selectedIndex: session.selectedIndex,
-                        answered: answered,
-                        onSelect: answered || session.busy ? null : _answer,
-                      ),
-                    ),
+                    child: _countdown != null
+                        // 数え終わるまで問題は見せない。見せたまま数えると、
+                        // そのぶんが考える時間になり反応時間が測れない。
+                        ? _Countdown(value: _countdown!)
+                        : SingleChildScrollView(
+                            padding: const EdgeInsets.all(16),
+                            child: ChoiceQuestionView(
+                              question: question,
+                              selectedIndex: session.selectedIndex,
+                              answered: answered,
+                              onSelect: answered || session.busy
+                                  ? null
+                                  : _answer,
+                            ),
+                          ),
                   ),
                   // スピードはフィードバック帯を挟まず自動で進む。
                   if (answered && session.mode != StudyMode.speed)
@@ -209,5 +257,85 @@ class _ChoiceStudyScreenState extends ConsumerState<ChoiceStudyScreen>
       ),
     );
   }
+}
 
+/// 問題を出す前のカウントダウン（スピードのみ）。
+///
+/// 数字だけを大きく置き、問題は隠す。**次が来ることが分かってから始まる**という
+/// 一点のためにあるので、余計な文言は添えない
+/// （[Docs/06_features/speed_mode.md] §2.1）。
+class _Countdown extends StatelessWidget {
+  final int value;
+
+  const _Countdown({required this.value});
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text('つぎの問題', style: AppText.caption()),
+          const SizedBox(height: 8),
+          Text(
+            '$value',
+            // 数字そのものが合図なので、端末の文字拡大では動かさない。
+            textScaler: TextScaler.noScaling,
+            style: AppText.style(
+              size: 72,
+              weight: FontWeight.w700,
+              color: AppColors.accent,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+/// 制限時間の残り（バー＋秒数）。
+///
+/// 秒数は切り上げで出す。「1」が見えているあいだは1秒未満でも残っている、
+/// という読み方で揃える（0 を見せてから時間切れになると、数字が嘘になる）。
+class _RemainingTime extends StatelessWidget {
+  final AnimationController limit;
+
+  const _RemainingTime({required this.limit});
+
+  @override
+  Widget build(BuildContext context) {
+    return AnimatedBuilder(
+      animation: limit,
+      builder: (context, _) {
+        final left = limit.duration! * (1 - limit.value);
+        final seconds = (left.inMilliseconds / 1000).ceil();
+        // 残り1秒を切ったら色を変える。点滅はさせない（急かしすぎる）。
+        final urgent = seconds <= 1;
+        return Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(right: 16, bottom: 2),
+              child: Align(
+                alignment: Alignment.centerRight,
+                child: Text(
+                  'あと $seconds 秒',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppText.caption(
+                    color: urgent ? AppColors.wrong : AppColors.ink2,
+                  ),
+                ),
+              ),
+            ),
+            LinearProgressIndicator(
+              value: 1 - limit.value,
+              minHeight: 4,
+              backgroundColor: AppColors.line,
+              color: urgent ? AppColors.wrong : AppColors.accent,
+            ),
+          ],
+        );
+      },
+    );
+  }
 }

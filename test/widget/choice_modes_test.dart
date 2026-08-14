@@ -8,6 +8,7 @@ import 'package:encello/domain/usecases/study_queue_builder.dart';
 import 'package:encello/providers/audio.dart';
 import 'package:encello/providers/providers.dart';
 import 'package:encello/ui/screens/choice_study_screen.dart';
+import 'package:encello/ui/widgets/choice_question_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -240,6 +241,97 @@ void main() {
         session.questions.every((q) => learned.contains(q.wordId)),
         isTrue,
       );
+    });
+
+    /// 学習済み20語を用意し、スピードを始められる状態にする。
+    Future<Profile> seedLearned() async {
+      final seeded = await seedStudyTarget(db, me, headwords: wordsOf(25));
+      final words = await db.select(db.words).get();
+      for (final w in words.take(20)) {
+        await db
+            .into(db.wordReviews)
+            .insert(
+              WordReviewsCompanion.insert(
+                profileId: me.id,
+                wordId: w.id,
+                dueAt: DateTime(2026, 8, 4, 4),
+                masteryLevel: const Value(1),
+              ),
+            );
+      }
+      return seeded.profile;
+    }
+
+    testWidgets('1問目の前に3から数え、数え終わるまで問題を見せない', (tester) async {
+      final profile = await seedLearned();
+      final container = await pump(tester, profile);
+      await container
+          .read(studyLauncherProvider)
+          .start(
+            profile: profile,
+            mode: StudyMode.speed,
+            policy: QueuePolicy.reviewFirst,
+            limit: 50,
+          );
+      // カウントダウンは postFrameCallback から始まるので2フレーム進める。
+      await tester.pump();
+      await tester.pump();
+
+      // 見せたまま数えると、そのぶんが考える時間になってしまう。
+      expect(find.text('3'), findsOneWidget);
+      expect(find.byType(ChoiceQuestionView), findsNothing);
+
+      await tester.pump(const Duration(seconds: 1));
+      expect(find.text('2'), findsOneWidget);
+      await tester.pump(const Duration(seconds: 1));
+      expect(find.text('1'), findsOneWidget);
+
+      // 数え終わってはじめて問題が出る。
+      await tester.pump(const Duration(seconds: 1));
+      expect(find.byType(ChoiceQuestionView), findsOneWidget);
+      // 残り時間は数字でも出す（バーだけだと時間切れが不意打ちになる）。
+      expect(find.textContaining('あと'), findsOneWidget);
+    });
+
+    testWidgets('カウントダウンの時間は反応時間に入らない', (tester) async {
+      final profile = await seedLearned();
+      var now = DateTime(2026, 8, 4, 10);
+      final container = await pumpWithProviders(
+        tester,
+        db: db,
+        child: const ChoiceStudyScreen(),
+        activeProfile: profile,
+        size: const Size(390, 900),
+        clock: () => now,
+      );
+      await container
+          .read(studyLauncherProvider)
+          .start(
+            profile: profile,
+            mode: StudyMode.speed,
+            policy: QueuePolicy.reviewFirst,
+            limit: 50,
+          );
+      await tester.pump();
+      await tester.pump();
+
+      // 3秒数えるあいだ、時計も進む。
+      for (var i = 0; i < 3; i++) {
+        now = now.add(const Duration(seconds: 1));
+        await tester.pump(const Duration(seconds: 1));
+      }
+      expect(find.byType(ChoiceQuestionView), findsOneWidget);
+
+      // 問題が見えてから 1.2 秒で答える。
+      now = now.add(const Duration(milliseconds: 1200));
+      final session = container.read(choiceSessionProvider)!;
+      await container
+          .read(choiceSessionProvider.notifier)
+          .answer(session.current!.answerIndex);
+
+      final log = await db.select(db.learningLogs).getSingle();
+      // カウントダウンの3秒が混ざっていたら 4200 になる。
+      expect(log.elapsedMs, 1200);
     });
   });
 
